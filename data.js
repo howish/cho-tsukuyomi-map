@@ -114,7 +114,7 @@ window.BOOTHS = [
     "x_handle": "osatou_kinosu",
     "x_url": "https://x.com/osatou_kinosu/status/2054555547257667683",
     "followers": 510,
-    "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙に嫉妬する🐰と🐰に嫉妬する🐙の話 (狐＝ヤチヨ／兎＝かぐや／タコ＝彩葉)",
+    "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)",
     "cover_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
     "cps": [
       "trio"
@@ -869,7 +869,7 @@ window.BOOTHS = [
     "x_handle": "mekimekix",
     "x_url": "https://x.com/mekimekix/status/2057788798386528595",
     "followers": 30331,
-    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱",
+    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- **在庫分割**：第三部まで在庫分け予定 (各部均等配分)\n- **釣銭少なめ**、ジャスト払い推奨 (特に開場直後)\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱",
     "cover_url": "https://pbs.twimg.com/media/HI674e7bQAARvvI.jpg?name=orig",
     "cps": [
       "iroyachi"
@@ -1001,7 +1001,7 @@ window.BOOTHS = [
     "x_handle": "umenoichiru",
     "x_url": "https://x.com/umenoichiru/status/2057787021981343842",
     "followers": 134,
-    "body": "- **新刊**：『**HAPPY RE:LYRICS!**』 Cosmic Princess Kaguya Unofficial Artbook\n  - **10 曲 曲パロ・サムネ風イラスト本** (Tube パロ design)、各曲のカバー動画 サムネを fan art で再構成\n  - **アートブック / 2 作家** (UMEMUGI = 梅野いちる + こむぎ)\n  - 表紙：ヤチヨ (青髪、ピース) + かぐや (オレンジ髪ギャル化、ハート、ウィンク)\n  - **サンプル①**：かぐや「どりーみんちゅちゅ」 covered (原曲 巡音ルカ、emon)、Tube 視聴ページ pastiche、@2041/02/14 valentine 投稿風「かぐやっほー！かぐやだよ！オタク達はチョコもらえたかな？」\n  - サンプル②③：fan art の interior comic panels、ASMR / 配信状況の暗示",
+    "body": "- **新刊**：『**HAPPY RE:LYRICS!**』 Cosmic Princess Kaguya Unofficial Artbook\n  - **10 曲 曲パロ・サムネ風イラスト本** (Tube パロ design)、各曲のカバー動画 サムネを fan art で再構成\n  - **アートブック / 2 作家** (UMEMUGI = 梅野いちる + こむぎ)\n  - 表紙：ヤチヨ (青髪、ピース) + かぐや (オレンジ髪ギャル化、ハート、ウィンク)\n  - **サンプル①**：かぐや「どりーみんちゅちゅ」 covered (原曲 巡音ルカ、emon)、Tube 視聴ページ pastiche、@2041/02/14 valentine 投稿風「かぐやっほー！かぐやだよ！オタク達はチョコもらえたかな？」\n  - サンプル②③：fan art の interior comic panels、ASMR / 配信状況の暗示\n- 「かぐや (+いろは)・ヤチヨが歌ってみた動画をあげるならどんな動画にするか?」 という本",
     "cover_url": "https://pbs.twimg.com/media/HI65x8LbIAAIhlA.jpg?name=orig",
     "cps": [],
     "tags": {
