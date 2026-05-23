@@ -1,11 +1,18 @@
 (function() {
-  const TIER_ORDER = { 'S+': 0, 'A': 1, 'B': 2, 'C': 3, 'unknown': 4 };
-  const TIER_LABEL = { 'S+': 'S+', 'A': 'A', 'B': 'B', 'C': 'C', 'unknown': '?' };
-  const TIER_CLASS = { 'S+': 'tier-sp', 'A': 'tier-a', 'B': 'tier-b', 'C': 'tier-c', 'unknown': 'tier-c' };
-
   const booths = (window.BOOTHS || []).slice().sort((a, b) => {
     return a.booth_id.localeCompare(b.booth_id);
   });
+
+  // Factual tags computed from body content
+  function deriveFlags(b) {
+    const body = (b.body || '') + (b.alts ? b.alts.map(a => a.body).join(' ') : '');
+    return {
+      new: /新刊/.test(body),
+      r18: /R-?18|🔞|成人向け/.test(body),
+      cash: /現金のみ|高額紙幣\s*NG|お釣り\s*NG/i.test(body),
+      consign: /委託/.test(body),
+    };
+  }
 
   function el(tag, attrs, children) {
     const e = document.createElement(tag);
@@ -25,9 +32,18 @@
   }
 
   function renderCard(b) {
-    const tierClass = TIER_CLASS[b.tier] || 'tier-c';
-    const card = el('div', { class: 'booth-card ' + tierClass, 'data-tier': b.tier });
-    card.appendChild(el('span', { class: 'booth-tier' }, TIER_LABEL[b.tier] || '?'));
+    const flags = deriveFlags(b);
+    const card = el('div', {
+      class: 'booth-card',
+      'data-flags': Object.keys(flags).filter(k => flags[k]).join(','),
+      'data-search': [b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase()
+    });
+    const tagBar = el('div', { class: 'booth-tags' });
+    if (flags.new) tagBar.appendChild(el('span', { class: 'tag tag-new', title: '新刊あり' }, '🆕'));
+    if (flags.r18) tagBar.appendChild(el('span', { class: 'tag tag-r18', title: 'R-18 含む' }, '🔞'));
+    if (flags.cash) tagBar.appendChild(el('span', { class: 'tag tag-cash', title: '現金・高額紙幣 NG 系' }, '💴'));
+    if (flags.consign) tagBar.appendChild(el('span', { class: 'tag tag-consign', title: '委託本あり' }, '📚'));
+    card.appendChild(tagBar);
     card.appendChild(el('div', { class: 'booth-id' }, b.booth_id));
     if (b.circle_name) {
       card.appendChild(el('div', { class: 'booth-name' }, b.circle_name));
@@ -59,13 +75,8 @@
   function openModal(b) {
     const body = document.getElementById('modal-body');
     body.innerHTML = '';
-    const tierClass = TIER_CLASS[b.tier];
 
-    body.appendChild(el('h3', null, [
-      `${b.booth_id} `,
-      el('span', { class: 'tier-badge ' + tierClass }, TIER_LABEL[b.tier]),
-      ` ${b.circle_name || ''}`
-    ]));
+    body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
     if (b.author) {
       body.appendChild(el('div', { class: 'modal-author' }, b.author));
     }
@@ -124,20 +135,36 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  // Filter logic
+  // Filter + search
+  let currentFlag = 'all';
+  let currentSearch = '';
+
+  function applyFilters() {
+    document.querySelectorAll('.booth-card').forEach(card => {
+      const flags = (card.dataset.flags || '').split(',');
+      const search = card.dataset.search || '';
+      const flagOK = currentFlag === 'all' || flags.includes(currentFlag);
+      const searchOK = !currentSearch || search.includes(currentSearch);
+      card.style.display = (flagOK && searchOK) ? '' : 'none';
+    });
+  }
+
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const tier = btn.dataset.tier;
-      const minOrder = tier === 'all' ? 99 : TIER_ORDER[tier];
-      document.querySelectorAll('.booth-card').forEach(card => {
-        const cardTier = card.dataset.tier;
-        const show = tier === 'all' || TIER_ORDER[cardTier] <= minOrder;
-        card.style.display = show ? '' : 'none';
-      });
+      currentFlag = btn.dataset.flag;
+      applyFilters();
     });
   });
+
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = e.target.value.toLowerCase().trim();
+      applyFilters();
+    });
+  }
 
   document.getElementById('modal-close').addEventListener('click', closeModal);
   document.getElementById('modal-backdrop').addEventListener('click', closeModal);

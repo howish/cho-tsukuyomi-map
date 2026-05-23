@@ -27,17 +27,12 @@
 </section>
 
 <section class="filter-section">
-  <div class="legend">
-    <span class="tier-badge tier-sp">S+</span> 必訪・完売リスク最高
-    <span class="tier-badge tier-a">A</span> craft 系強・装丁 quality 高
-    <span class="tier-badge tier-b">B</span> 中規模
-    <span class="tier-badge tier-c">C</span> profile-only / 制作中
-  </div>
   <div class="filters">
-    <button class="filter-btn active" data-tier="all">全部</button>
-    <button class="filter-btn" data-tier="S+">S+ のみ</button>
-    <button class="filter-btn" data-tier="A">A 以上</button>
-    <button class="filter-btn" data-tier="B">B 以上</button>
+    <input type="search" id="search-input" placeholder="サークル名 / 作家名 / X 検索..." class="search-input">
+    <button class="filter-btn active" data-flag="all">全部</button>
+    <button class="filter-btn" data-flag="new">🆕 新刊あり</button>
+    <button class="filter-btn" data-flag="r18">🔞 R-18</button>
+    <button class="filter-btn" data-flag="cash">💴 現金のみ</button>
   </div>
 </section>
 
