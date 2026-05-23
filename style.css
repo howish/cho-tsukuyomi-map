@@ -259,18 +259,29 @@ section {
 
 .modal-close {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  border: none;
-  background: transparent;
-  font-size: 1.6rem;
+  top: 0.4rem;
+  right: 0.4rem;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-size: 1.4rem;
+  line-height: 1;
   cursor: pointer;
-  color: var(--text-muted);
-  width: 2rem;
-  height: 2rem;
+  color: var(--text);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  -webkit-tap-highlight-color: rgba(106,76,147,0.3);
 }
 
-.modal-close:hover { color: var(--text); }
+.modal-close:hover, .modal-close:active {
+  background: #f3edf7;
+  color: var(--accent);
+}
 
 #modal-body h3 {
   margin: 0 0 0.3rem 0;
