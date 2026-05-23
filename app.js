@@ -299,30 +299,36 @@
     }
   }
 
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const f = btn.dataset.filter;
-      if (f === 'all') {
-        activeFilters.clear();
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+  // Event delegation on document — more robust than per-button bindings
+  function handleFilterClick(btn) {
+    const f = btn.dataset.filter;
+    if (f === 'all') {
+      activeFilters.clear();
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+    } else {
+      if (activeFilters.has(f)) {
+        activeFilters.delete(f);
+        btn.classList.remove('active');
       } else {
-        if (activeFilters.has(f)) {
-          activeFilters.delete(f);
-          btn.classList.remove('active');
-        } else {
-          activeFilters.add(f);
-          btn.classList.add('active');
-        }
-        // If any filter chosen, deactivate "all"
-        if (activeFilters.size > 0) {
-          document.querySelector('.filter-btn[data-filter="all"]').classList.remove('active');
-        } else {
-          document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
-        }
+        activeFilters.add(f);
+        btn.classList.add('active');
       }
-      applyFilters();
-    });
+      if (activeFilters.size > 0) {
+        document.querySelector('.filter-btn[data-filter="all"]').classList.remove('active');
+      } else {
+        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+      }
+    }
+    applyFilters();
+  }
+
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest && e.target.closest('.filter-btn');
+    if (btn) {
+      e.preventDefault();
+      handleFilterClick(btn);
+    }
   });
 
   const searchInput = document.getElementById('search-input');
