@@ -103,8 +103,8 @@ window.BOOTHS = [
     "x_handle": "xuz_op",
     "x_url": "https://x.com/xuz_op/status/2054880958885867538",
     "followers": 8176,
-    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/32P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意",
-    "cover_url": "https://pbs.twimg.com/media/HIRnVsBaMAI9Ww0.jpg?name=orig",
+    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/本文34P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意\n- 在庫第三部まで分割頒布 (各部均等)、無配漫画もあり (間に合えば)、4P / いろかぐ\n- 設営ポスターは第三部以降にお譲り予定 (希望者向け)\n- 本編でヤチヨの過去を知った後の時間軸：自分の気持ちに名前を付けられない彩葉と 8000 年分のしっとりした感情を抱いているヤチヨがくっつくまでのお話",
+    "cover_url": "https://pbs.twimg.com/media/HIwn65RbwAASz3N.jpg?name=orig",
     "cps": [
       "iroyachi"
     ],
@@ -112,7 +112,7 @@ window.BOOTHS = [
       "r18": false,
       "consign": false,
       "goudou": false,
-      "free": false,
+      "free": true,
       "novel": false,
       "illust": false,
       "manga": false,
@@ -120,9 +120,16 @@ window.BOOTHS = [
     },
     "min_price": 500,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HIwn65RbwAASz3N.jpg?name=orig",
       "https://pbs.twimg.com/media/HIRnVsBaMAI9Ww0.jpg?name=orig",
       "https://pbs.twimg.com/media/HIRnVr_bQAAzrTZ.jpg?name=orig",
       "https://pbs.twimg.com/media/HIRnVr_bgAATZc5.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "free",
+        "🎁 無配あり"
+      ]
     ]
   },
   {
