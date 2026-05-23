@@ -30,7 +30,7 @@ window.BOOTHS = [
     "x_handle": "y4_r6",
     "x_url": "https://x.com/y4_r6/with_replies",
     "followers": 4939,
-    "body": "- 詳細未公開、絵描き V、AI 反対宣言\n- 4.9k follower、BOOTH・YouTube・TikTok 多展開",
+    "body": "- 詳細未公開、絵描き V、AI 反対宣言\n- 4.9k follower、BOOTH・YouTube・TikTok 多展開\n- ⚠️ X profile に超ツクヨミ祭の明示なし、参戦詳細未公開のため当日 listing 直接確認推奨",
     "cps": [],
     "tags": {
       "r18": false,
