@@ -123,11 +123,16 @@
         rel: 'noopener',
         class: 'cover-link'
       });
+      // Twitter media URLs use ?name=<size>. Replace existing or append.
+      const thumbUrl = /\?name=/.test(b.cover_url)
+        ? b.cover_url.replace(/\?name=[^&]+/, '?name=small')
+        : b.cover_url + '?name=small';
       const img = el('img', {
-        src: b.cover_url + (b.cover_url.includes('?') ? '&' : '?') + 'name=small',
+        src: thumbUrl,
         alt: 'お品書き / 表紙',
         class: 'cover-img',
-        loading: 'lazy'
+        loading: 'lazy',
+        referrerpolicy: 'no-referrer'
       });
       coverLink.appendChild(img);
       body.appendChild(coverLink);
