@@ -247,6 +247,13 @@ section {
   color: var(--text-muted);
 }
 
+.booth-card .booth-price {
+  font-size: 0.75rem;
+  color: #1976d2;
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+
 /* Modal */
 .modal[hidden] { display: none !important; }
 

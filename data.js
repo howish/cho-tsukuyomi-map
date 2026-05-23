@@ -20,7 +20,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 200
   },
   {
     "booth_id": "A-03",
@@ -61,7 +62,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 100
   },
   {
     "booth_id": "A-05",
@@ -82,7 +84,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "A-06",
@@ -105,7 +108,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-07",
@@ -128,7 +132,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "A-08",
@@ -151,7 +156,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": true,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-09",
@@ -174,7 +180,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 300
   },
   {
     "booth_id": "A-10",
@@ -195,7 +202,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-11",
@@ -216,7 +224,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-12",
@@ -237,7 +246,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 400
   },
   {
     "booth_id": "A-13",
@@ -258,7 +268,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-14",
@@ -279,7 +290,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 300
   },
   {
     "booth_id": "A-15",
@@ -300,7 +312,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 300
   },
   {
     "booth_id": "A-16",
@@ -321,7 +334,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-17",
@@ -363,7 +377,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-19",
@@ -384,7 +399,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-20",
@@ -407,7 +423,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-21",
@@ -428,7 +445,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-22",
@@ -449,7 +467,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-23",
@@ -470,7 +489,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 100
   },
   {
     "booth_id": "A-24",
@@ -527,7 +547,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "A-26",
@@ -550,7 +571,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-01",
@@ -574,7 +596,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 600
   },
   {
     "booth_id": "B-02",
@@ -597,7 +620,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-03",
@@ -620,7 +644,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-04",
@@ -641,7 +666,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-05",
@@ -665,7 +691,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "B-06",
@@ -706,7 +733,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-09",
@@ -729,7 +757,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-10",
@@ -775,7 +804,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "B-12",
@@ -796,7 +826,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "B-15",
@@ -819,7 +850,8 @@ window.BOOTHS = [
       "illust": true,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "B-16",
@@ -840,7 +872,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 1000
   },
   {
     "booth_id": "C-01",
@@ -883,7 +916,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "min_price": 300
   },
   {
     "booth_id": "C-03",
@@ -930,7 +964,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "C-05",
@@ -1034,7 +1069,8 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": true
-    }
+    },
+    "min_price": 500
   },
   {
     "booth_id": "C-10",
@@ -1055,6 +1091,7 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": true
-    }
+    },
+    "min_price": 300
   }
 ];

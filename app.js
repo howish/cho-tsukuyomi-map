@@ -68,6 +68,9 @@
     if (b.author) {
       card.appendChild(el('div', { class: 'booth-author' }, b.author));
     }
+    if (b.min_price) {
+      card.appendChild(el('div', { class: 'booth-price' }, '¥' + b.min_price.toLocaleString() + '〜'));
+    }
     card.addEventListener('click', () => openModal(b));
     return card;
   }
