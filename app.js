@@ -92,6 +92,8 @@
   function openModal(b) {
     const body = document.getElementById('modal-body');
     body.innerHTML = '';
+    // Update URL hash for shareable deep-link (no page reload)
+    try { history.replaceState(null, '', '#' + b.booth_id); } catch (e) {}
 
     body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
     if (b.author) {
@@ -165,13 +167,20 @@
       });
     }
 
-    document.getElementById('modal').hidden = false;
+    const modal = document.getElementById('modal');
+    modal.hidden = false;
     document.body.style.overflow = 'hidden';
+    // Focus close button so Escape / Enter work immediately
+    setTimeout(() => {
+      const closeBtn = document.getElementById('modal-close');
+      if (closeBtn) closeBtn.focus();
+    }, 50);
   }
 
   function closeModal() {
     document.getElementById('modal').hidden = true;
     document.body.style.overflow = '';
+    try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
   }
 
   // Render booths grouped by row
@@ -252,4 +261,18 @@
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal();
   });
+
+  // Deep-link: if URL has hash like #A-04 on load, open that booth's modal
+  function openFromHash() {
+    const m = location.hash.match(/^#([ABC]-\d{2})$/i);
+    if (!m) return;
+    const target = m[1].toUpperCase();
+    const b = booths.find(x => x.booth_id === target);
+    if (b) {
+      // Slight delay to ensure DOM ready
+      setTimeout(() => openModal(b), 100);
+    }
+  }
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 })();
