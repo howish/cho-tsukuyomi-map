@@ -1,0 +1,17 @@
+{
+  "name": "超ツクヨミ祭 第1回 サークルガイド",
+  "short_name": "超ツクヨミ祭 ガイド",
+  "description": "2026/05/24 立川 超かぐや姫オンリー即売会の非公式 fan guide",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#6a4c93",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
