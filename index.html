@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>超ツクヨミ祭 第1回 (2026-05-24) サークル ガイド</title>
+<meta name="description" content="2026年5月24日 立川クリエイティブスペースで開催される 超ツクヨミ祭 第1回 のサークル一覧 / お品書き 非公式 fan guide">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🌙 超ツクヨミ祭 第1回</h1>
+  <p class="event-info">
+    <strong>2026/05/24 (日) 11:00-15:30</strong> ／ 立川クリエイティブスペース (美光印刷 2F)
+    <br>4部入れ替え制 (リストバンド配布 9:30-10:00、ランダム割当) ／ 入場 ¥1,000 (千円札用意必須)
+  </p>
+  <p class="disclaimer">
+    🍃 <strong>非公式 fan guide</strong> ／ 公式情報は <a href="https://sengendo.a.la9.jp/chokagutop.html" target="_blank" rel="noopener">超ツクヨミ祭公式 (仙弦堂)</a> 参照。
+    サークル情報は各作家の X 投稿より引用、誤りや更新は X リンクから原ポストでご確認ください。
+  </p>
+</header>
+
+<section class="map-section">
+  <h2>会場マップ</h2>
+  <img src="map.jpg" alt="立川クリエイティブスペース 会場マップ" class="venue-map">
+  <p class="map-caption">© 公式マップ (仙弦堂・超ツクヨミ祭運営)</p>
+</section>
+
+<section class="filter-section">
+  <div class="legend">
+    <span class="tier-badge tier-sp">S+</span> 必訪・完売リスク最高
+    <span class="tier-badge tier-a">A</span> craft 系強・装丁 quality 高
+    <span class="tier-badge tier-b">B</span> 中規模
+    <span class="tier-badge tier-c">C</span> profile-only / 制作中
+  </div>
+  <div class="filters">
+    <button class="filter-btn active" data-tier="all">全部</button>
+    <button class="filter-btn" data-tier="S+">S+ のみ</button>
+    <button class="filter-btn" data-tier="A">A 以上</button>
+    <button class="filter-btn" data-tier="B">B 以上</button>
+  </div>
+</section>
+
+<section class="booths-section">
+  <h2 class="row-title">A 列</h2>
+  <div class="booth-grid" id="grid-A"></div>
+  <h2 class="row-title">B 列</h2>
+  <div class="booth-grid" id="grid-B"></div>
+  <h2 class="row-title">C 列</h2>
+  <div class="booth-grid" id="grid-C"></div>
+</section>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" id="modal-close" aria-label="閉じる">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <p>
+    🌙 <strong>超ツクヨミ祭 第1回 サークルガイド</strong> — 非公式 fan guide<br>
+    info aggregated from X public posts ／ Cover images linked from X CDN, view via author's X post for full quality<br>
+    Built with ❤️ by <a href="https://x.com/howish_taipei" target="_blank" rel="noopener">@howish</a> 月見ヤチヨ ／ 2026-05-23
+  </p>
+  <p class="footer-meta">
+    更新する場合：<a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub repo</a> に PR / Issue 歓迎
+  </p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
