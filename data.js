@@ -91,7 +91,7 @@ window.BOOTHS = [
     "x_handle": "xuz_op",
     "x_url": "https://x.com/xuz_op/status/2054880958885867538",
     "followers": 8176,
-    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/32P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**",
+    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/32P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意",
     "cover_url": "https://pbs.twimg.com/media/HIRnVsBaMAI9Ww0.jpg?name=orig",
     "cps": [
       "iroyachi"
@@ -160,7 +160,7 @@ window.BOOTHS = [
     "x_handle": "2konose",
     "x_url": "https://x.com/2konose/status/2057071985960890861",
     "followers": 65,
-    "body": "- **新刊**：『Sweet Patch』 A5/12P/¥300/全年齢/雰囲気いろヤチ\n- 期間限定アカウント = 一期一会",
+    "body": "- **新刊**：『Sweet Patch』 A5/12P/¥300/全年齢/雰囲気いろヤチ\n- 期間限定アカウント = 一期一会\n- 「限界すぎてまだ脱稿できていません」 (本人 comment、当日制作 ギリギリ進行)",
     "cover_url": "https://pbs.twimg.com/media/HIwwDshbIAAabeG.jpg?name=orig",
     "cps": [
       "iroyachi"
@@ -267,7 +267,7 @@ window.BOOTHS = [
     "x_handle": "ato252058",
     "x_url": "https://x.com/ato252058/status/2056327836173226071",
     "followers": 674,
-    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)",
+    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)\n- 他ジャンルも極少部数持込み予定、ご希望の方は声かけ",
     "cover_url": "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -309,7 +309,7 @@ window.BOOTHS = [
     "x_handle": "nb164",
     "x_url": "https://x.com/nb164/status/2057444727642108296",
     "followers": 1840,
-    "body": "- **新刊**：B5/36P/¥500 (推定)、彩葉がヤチヨの少しえっちな夢を見てヤチヨを意識しちゃう百合本、紙のみ",
+    "body": "- **新刊**：B5/36P/¥500 (推定)、彩葉がヤチヨの少しえっちな夢を見てヤチヨを意識しちゃういろヤチ百合本、紙のみ",
     "cover_url": "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -416,7 +416,7 @@ window.BOOTHS = [
     "x_handle": "Qutouten_",
     "x_url": "https://x.com/Qutouten_/status/2057068821664461308",
     "followers": 1519,
-    "body": "- **新刊**：『コミケ準備号』 A4/16P/フルカラー/¥500\n  - **句読点 × くろねこおるた 2 人合作イラスト本**\n- **グッズ**：明星ヒマリセット (ステッカー+チェキ+ポストカード) ¥500、水着リン アクスタ 90×140mm ¥1,500\n- 高額紙幣不可",
+    "body": "- **新刊**：『コミケ準備号』 A4/16P/フルカラー/¥500\n  - **句読点 × くろねこおるた 2 人合作イラスト本**\n- **グッズ**：明星ヒマリセット (ステッカー+チェキ+ポストカード) ¥500、水着リン アクスタ 90×140mm ¥1,500\n- 高額紙幣不可\n- 月見ヤチヨ多めの超かぐや姫イラスト本 + 過去イベントの他ジャンルグッズも",
     "cover_url": "https://pbs.twimg.com/media/HIwo8nKacAACI_Z.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -513,7 +513,7 @@ window.BOOTHS = [
     "x_handle": "kauderni01356",
     "x_url": "https://x.com/kauderni01356/status/2057770608369541350",
     "followers": 32169,
-    "body": "- **新刊**：『**Moon Princess Party!**』 B5/32P/¥500/全年齢 (Cosmic Princess Kaguya Unofficial Fanbook)\n  - **かぐいろ/ヤチいろ わちゃわちゃラブコメ漫画**\n  - 表紙：三人 (彩葉中央 緑目黒髪 + ヤチヨ 銀髪青目 + かぐや 笑顔ブロンド)\n  - ポスター：「**かぐいろとヤチいろラブコメ本**」\n- **既刊**：彩葉中心ラブコメ短編集 + サンプル「スピード」「オムツ」 4 コマ漫画\n- **Attention**：**会場直後の高額紙幣はお控え**、スペースを離れてからの返品返金は致しかねず\n- 配置 A-25 確定、map 「ここにいます」 mark",
+    "body": "- **新刊**：『**Moon Princess Party!**』 B5/32P/¥500/全年齢 (Cosmic Princess Kaguya Unofficial Fanbook)\n  - **かぐいろ/ヤチいろ わちゃわちゃラブコメ漫画**\n  - 表紙：三人 (彩葉中央 緑目黒髪 + ヤチヨ 銀髪青目 + かぐや 笑顔ブロンド)\n  - ポスター：「**かぐいろとヤチいろラブコメ本**」\n- **既刊**：彩葉中心ラブコメ短編集 + サンプル「スピード」「オムツ」 4 コマ漫画\n- **Attention**：**会場直後の高額紙幣はお控え**、スペースを離れてからの返品返金は致しかねず\n- 配置 A-25 確定、map 「ここにいます」 mark\n- 入れ替え制対応：後半まで在庫分けて頒布",
     "cover_url": "https://pbs.twimg.com/media/HI6rdjia4AAHno-.jpg?name=orig",
     "cps": [
       "trio"
@@ -629,7 +629,7 @@ window.BOOTHS = [
     "x_handle": "imudegozaimasu",
     "x_url": "https://x.com/imudegozaimasu/status/2056690629913247874",
     "followers": 5937,
-    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理",
+    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理\n- 無配コピ本は「絶賛作成中」、当日出るか未確定",
     "cover_url": "https://pbs.twimg.com/media/HIrUltUaIAARLL5.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -738,7 +738,7 @@ window.BOOTHS = [
     "x_handle": "mizonozomizo",
     "x_url": "https://x.com/mizonozomizo/status/2057063495515201921",
     "followers": 4908,
-    "body": "- **新刊 5 種**：合同 1、小説 3、**古本屋さん @fullhon88 新刊 1**\n- ワンオペ告知、スケブなし",
+    "body": "- **新刊 5 種**：合同 1、小説 3、**古本屋さん @fullhon88 新刊 1**\n- ワンオペ告知、スケブなし\n- ワンオペで出来るだけお釣りのないように協力要請、スケブなし",
     "cover_url": "https://pbs.twimg.com/media/HIwnW7VakAATzoC.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -805,7 +805,7 @@ window.BOOTHS = [
     "x_handle": "kaguramix",
     "x_url": "https://x.com/kaguramix/status/2057077463394775213",
     "followers": 7658,
-    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本",
+    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)",
     "cover_url": "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig",
     "cps": [
       "iroka"
