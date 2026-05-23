@@ -87,7 +87,7 @@
   <div class="modal-content">
     <div id="modal-body"></div>
   </div>
-  <button class="modal-close" id="modal-close" aria-label="閉じる" type="button">×</button>
+  <button class="modal-close" id="modal-close" aria-label="閉じる" type="button" onclick="(function(){var m=document.getElementById('modal');m.hidden=true;m.style.display='none';document.body.style.overflow='';try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}})()">×</button>
 </div>
 
 <footer>
