@@ -254,6 +254,27 @@ section {
   margin-top: 0.2rem;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 60;
+  opacity: 0.9;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.back-to-top:hover { opacity: 1; transform: translateY(-2px); }
+.back-to-top[hidden] { display: none; }
+
 /* Modal */
 .modal[hidden] { display: none !important; }
 

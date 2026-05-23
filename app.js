@@ -292,6 +292,17 @@
     });
   }
 
+  // Back-to-top button: show after scrolling 400px
+  const backTop = document.getElementById('back-to-top');
+  if (backTop) {
+    window.addEventListener('scroll', () => {
+      backTop.hidden = window.scrollY < 400;
+    }, { passive: true });
+    backTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
   // Deep-link: if URL has hash like #A-04 on load, open that booth's modal
   function openFromHash() {
     const m = location.hash.match(/^#([ABC]-\d{2})$/i);
