@@ -29,7 +29,7 @@ window.BOOTHS = [
     "x_handle": "y4_r6",
     "x_url": "https://x.com/y4_r6/with_replies",
     "followers": 4939,
-    "body": "- profile-only。VTuber 兼絵師、AI 反対",
+    "body": "- 詳細未公開、絵描き V、AI 反対宣言\n- 4.9k follower、BOOTH・YouTube・TikTok 多展開",
     "cps": [],
     "tags": {
       "r18": false,
@@ -695,7 +695,7 @@ window.BOOTHS = [
     "x_handle": "Kei_Megumi_",
     "x_url": "https://x.com/Kei_Megumi_/status/2056640044467917198",
     "followers": 24546,
-    "body": "- **新刊**：『Color your life』 らくがきイラスト本\n- **¥500 (ワンコイン)**、「対よろ」 = 対戦よろしく ＝ 高 buzz 想定\n- 詳細お品書き画像なし、本人 tweet は価格のみ提示\n- 聖地巡礼兼ねて立川来訪",
+    "body": "- **新刊**：『Color your life』 らくがきイラスト本\n- **¥500 (ワンコイン)** (本人 tweet 提示)\n- 詳細お品書き画像なし、価格のみ告知\n- 聖地巡礼兼ねて立川来訪",
     "cps": [],
     "tags": {
       "r18": false,
@@ -849,7 +849,7 @@ window.BOOTHS = [
     "x_handle": "1R0HASU",
     "x_url": "https://x.com/1R0HASU",
     "followers": 34220,
-    "body": "- profile-only、handle に \"超ツクヨミ祭\" 明示、詳細未公開",
+    "body": "- **参戦確認** (X handle 「ウサホリ / 超ツクヨミ祭」 明記)\n- 詳細お品書き未公開、東方・アニメ・ヨーヨー界隈\n- 34k follower",
     "cps": [],
     "tags": {
       "r18": false,
@@ -981,7 +981,7 @@ window.BOOTHS = [
     "x_handle": "ABzome",
     "x_url": "https://x.com/ABzome",
     "followers": 39018,
-    "body": "- profile-only、bio NSFW 明記\n- **超ツクヨミ祭情報未確認、参戦未確認** ⚠️",
+    "body": "- **参戦確認** (X handle に「エビゾメ／超ツクヨミ祭 C-07」 明記)\n- 詳細お品書き未公開、bio NSFW 明記\n- 39k follower、絵描き、二次創作・巨大娘系",
     "cps": [],
     "tags": {
       "r18": false,
