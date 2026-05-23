@@ -51,7 +51,16 @@
       class: 'booth-card',
       id: 'booth-' + b.booth_id.toLowerCase(),
       'data-filters': filterTokens.join(','),
-      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase()
+      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase(),
+      role: 'button',
+      tabindex: '0',
+      'aria-label': `${b.booth_id} ${b.circle_name || ''} ${b.author || ''} の詳細を開く`
+    });
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openModal(b);
+      }
     });
     const tagBar = el('div', { class: 'booth-tags' });
     cps.forEach(c => {
