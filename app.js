@@ -18,6 +18,18 @@
     goods: '🛍',
   };
 
+  // Favorites stored in localStorage (set of booth IDs)
+  const FAV_KEY = 'cho-tsukuyomi-map-favs';
+  function loadFavs() {
+    try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); }
+    catch (e) { return new Set(); }
+  }
+  function saveFavs(favs) {
+    try { localStorage.setItem(FAV_KEY, JSON.stringify(Array.from(favs))); }
+    catch (e) {}
+  }
+  const favs = loadFavs();
+
   const booths = (window.BOOTHS || []).slice().sort((a, b) => {
     return a.booth_id.localeCompare(b.booth_id);
   });
@@ -47,15 +59,47 @@
       ...cps.map(c => 'cp:' + c),
       ...activeTags.map(t => 'tag:' + t),
     ];
+    const isFav = favs.has(b.booth_id);
     const card = el('div', {
-      class: 'booth-card',
+      class: 'booth-card' + (isFav ? ' favored' : ''),
       id: 'booth-' + b.booth_id.toLowerCase(),
-      'data-filters': filterTokens.join(','),
+      'data-filters': filterTokens.join(',') + (isFav ? ',fav' : ''),
       'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase(),
       role: 'button',
       tabindex: '0',
       'aria-label': `${b.booth_id} ${b.circle_name || ''} ${b.author || ''} の詳細を開く`
     });
+    // Favorite star (top-right of card)
+    const star = el('button', {
+      type: 'button',
+      class: 'fav-star',
+      title: 'お気に入りに追加 / 解除',
+      'aria-label': 'お気に入りトグル',
+      'aria-pressed': isFav ? 'true' : 'false',
+    }, isFav ? '★' : '☆');
+    star.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = b.booth_id;
+      if (favs.has(id)) {
+        favs.delete(id);
+        card.classList.remove('favored');
+        star.textContent = '☆';
+        star.setAttribute('aria-pressed', 'false');
+        const tokens = (card.dataset.filters || '').split(',').filter(t => t !== 'fav');
+        card.dataset.filters = tokens.join(',');
+      } else {
+        favs.add(id);
+        card.classList.add('favored');
+        star.textContent = '★';
+        star.setAttribute('aria-pressed', 'true');
+        const tokens = (card.dataset.filters || '').split(',');
+        if (!tokens.includes('fav')) tokens.push('fav');
+        card.dataset.filters = tokens.filter(Boolean).join(',');
+      }
+      saveFavs(favs);
+      applyFilters();
+    });
+    card.appendChild(star);
     card.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();

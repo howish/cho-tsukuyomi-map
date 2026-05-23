@@ -280,6 +280,33 @@ section {
   color: var(--text-muted);
 }
 
+.booth-card.favored {
+  background: #fff8e1;
+  border-color: #ffd700;
+}
+
+.fav-star {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #aaa;
+  padding: 0.15rem 0.3rem;
+  border-radius: 4px;
+  line-height: 1;
+  -webkit-tap-highlight-color: rgba(255,215,0,0.3);
+}
+
+.fav-star:hover { color: #ffb300; background: rgba(255,215,0,0.15); }
+.booth-card.favored .fav-star { color: #f9a825; }
+
+.booth-card {
+  position: relative;
+}
+
 .booth-card .booth-price {
   font-size: 0.75rem;
   color: #1976d2;
