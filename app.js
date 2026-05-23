@@ -243,6 +243,7 @@
 
     const modal = document.getElementById('modal');
     modal.hidden = false;
+    modal.style.display = ''; // clear any inline display:none from previous close
     document.body.style.overflow = 'hidden';
     // Focus close button so Escape / Enter work immediately
     setTimeout(() => {
@@ -252,7 +253,9 @@
   }
 
   function closeModal() {
-    document.getElementById('modal').hidden = true;
+    const m = document.getElementById('modal');
+    m.hidden = true;
+    m.style.display = 'none'; // belt-and-suspenders, in case CSS [hidden] doesn't win
     document.body.style.overflow = '';
     try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
   }
@@ -341,7 +344,14 @@
     });
   }
 
-  document.getElementById('modal-close').addEventListener('click', closeModal);
+  // Bind close on multiple events to be resilient against mobile click quirks
+  ['click', 'touchend', 'pointerup'].forEach(ev => {
+    document.getElementById('modal-close').addEventListener(ev, (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeModal();
+    });
+  });
   document.getElementById('modal-backdrop').addEventListener('click', closeModal);
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal();
