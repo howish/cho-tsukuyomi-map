@@ -400,29 +400,53 @@ section {
 }
 
 .modal-close {
+  /* Sibling of modal-content (NOT inside it), positioned relative to the
+     fixed .modal — stays fixed at top-right regardless of inner scroll. */
   position: absolute;
-  top: 0.4rem;
-  right: 0.4rem;
+  top: 1rem;
+  right: 1rem;
   border: 1px solid var(--border);
   background: #fff;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   line-height: 1;
   cursor: pointer;
   color: var(--text);
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  z-index: 1002;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
   -webkit-tap-highlight-color: rgba(106,76,147,0.3);
+  padding: 0;
 }
 
-.modal-close:hover, .modal-close:active {
+.modal-close:hover, .modal-close:active, .modal-close:focus {
   background: #f3edf7;
   color: var(--accent);
+  outline: none;
+  transform: scale(1.05);
+}
+
+.modal-close-bottom {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.7rem 2.5rem;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  border-radius: 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255,215,0,0.3);
+}
+
+.modal-close-bottom:hover, .modal-close-bottom:active {
+  background: #5a3f80;
 }
 
 #modal-body h3 {

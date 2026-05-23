@@ -182,6 +182,14 @@
       body.appendChild(link);
     }
 
+    // Backup close button at end of modal body — always reachable after scrolling
+    const closeBottom = el('button', {
+      type: 'button',
+      class: 'modal-close-bottom',
+      'aria-label': '閉じる'
+    }, '✕ 閉じる');
+    closeBottom.addEventListener('click', closeModal);
+
     if (b.cover_url) {
       const coverLink = el('a', {
         href: b.x_url || b.cover_url,
@@ -229,6 +237,9 @@
         body.appendChild(altDiv);
       });
     }
+
+    // Backup close button always last so reachable after any content
+    body.appendChild(closeBottom);
 
     const modal = document.getElementById('modal');
     modal.hidden = false;
