@@ -190,34 +190,42 @@
     }, '✕ 閉じる');
     closeBottom.addEventListener('click', closeModal);
 
-    if (b.cover_url) {
-      const coverLink = el('a', {
-        href: b.x_url || b.cover_url,
-        target: '_blank',
-        rel: 'noopener',
-        class: 'cover-link'
+    // Multi-image carousel — cover_urls array (or fall back to cover_url single)
+    const photos = b.cover_urls && b.cover_urls.length
+      ? b.cover_urls
+      : (b.cover_url ? [b.cover_url] : []);
+    if (photos.length) {
+      const carousel = el('div', { class: 'cover-carousel' });
+      photos.forEach((url, i) => {
+        const thumbUrl = /\?name=/.test(url)
+          ? url.replace(/\?name=[^&]+/, '?name=small')
+          : url + '?name=small';
+        const coverLink = el('a', {
+          href: b.x_url || url,
+          target: '_blank',
+          rel: 'noopener',
+          class: 'cover-link cover-slide'
+        });
+        const img = el('img', {
+          src: thumbUrl,
+          alt: `お品書き / 表紙 ${i+1}/${photos.length}`,
+          class: 'cover-img',
+          loading: i === 0 ? 'eager' : 'lazy',
+          referrerpolicy: 'no-referrer'
+        });
+        img.addEventListener('error', () => {
+          const fallback = el('div', { class: 'cover-fallback' }, [
+            '🔗 画像読み込み失敗 — X 投稿で確認 →'
+          ]);
+          coverLink.replaceChild(fallback, img);
+        });
+        coverLink.appendChild(img);
+        carousel.appendChild(coverLink);
       });
-      // Twitter media URLs use ?name=<size>. Replace existing or append.
-      const thumbUrl = /\?name=/.test(b.cover_url)
-        ? b.cover_url.replace(/\?name=[^&]+/, '?name=small')
-        : b.cover_url + '?name=small';
-      const img = el('img', {
-        src: thumbUrl,
-        alt: 'お品書き / 表紙',
-        class: 'cover-img',
-        loading: 'lazy',
-        referrerpolicy: 'no-referrer'
-      });
-      // Graceful fallback: if image fails to load (CDN block, deleted tweet, etc),
-      // replace with a tappable card linking to X.
-      img.addEventListener('error', () => {
-        const fallback = el('div', { class: 'cover-fallback' }, [
-          '🔗 画像読み込み失敗 — X 投稿で確認 →'
-        ]);
-        coverLink.replaceChild(fallback, img);
-      });
-      coverLink.appendChild(img);
-      body.appendChild(coverLink);
+      body.appendChild(carousel);
+      if (photos.length > 1) {
+        body.appendChild(el('p', { class: 'carousel-hint' }, `← 横にスワイプで全 ${photos.length} 枚 →`));
+      }
     }
 
     const bodyDiv = el('div', { class: 'modal-body-md' });

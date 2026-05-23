@@ -21,7 +21,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 200
+    "min_price": 200,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIvidb_bIAAwEje.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-03",
@@ -63,7 +66,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 100
+    "min_price": 100,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJAXMITa4AA-VLy.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-05",
@@ -85,7 +91,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HImlJvCboAEN__p.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-06",
@@ -109,7 +118,12 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIRnVsBaMAI9Ww0.jpg?name=orig",
+      "https://pbs.twimg.com/media/HIRnVr_bQAAzrTZ.jpg?name=orig",
+      "https://pbs.twimg.com/media/HIRnVr_bgAATZc5.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-07",
@@ -133,7 +147,11 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
+      "https://pbs.twimg.com/media/HIM_YNcaYAATLAT.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-08",
@@ -163,6 +181,9 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI6Wad9bEAAHTr_.jpg?name=orig"
     ]
   },
   {
@@ -193,6 +214,10 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwwDshbIAAabeG.jpg?name=orig",
+      "https://pbs.twimg.com/media/HIwwDsga0AAPefE.jpg?name=orig"
     ]
   },
   {
@@ -215,7 +240,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIMcn2la4AAK_tD.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-11",
@@ -237,7 +265,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI2OWIsaoAARpdu.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-12",
@@ -259,7 +290,11 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 400
+    "min_price": 400,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwJuH-bQAAuKxt.jpg?name=orig",
+      "https://pbs.twimg.com/media/HIwJuLMbkAAsNqi.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-13",
@@ -287,6 +322,9 @@ window.BOOTHS = [
         "cash",
         "💴 ジャスト払い推奨"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI7z_bIaIAAgWw4.jpg?name=orig"
     ]
   },
   {
@@ -309,7 +347,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 300
+    "min_price": 300,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-15",
@@ -337,6 +378,9 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI1kRXNbsAAfspk.jpg?name=orig"
     ]
   },
   {
@@ -359,7 +403,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-17",
@@ -380,7 +427,10 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI7xCWybYAE_-IV.png?name=orig"
+    ]
   },
   {
     "booth_id": "A-18",
@@ -402,7 +452,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI9I4CBbEAARXHh.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-19",
@@ -424,7 +477,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIp8EcUbAAAtZnO.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-20",
@@ -448,7 +504,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIrXnn_bYAIbr9X.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-21",
@@ -470,7 +529,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwo8nKacAACI_Z.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-22",
@@ -492,7 +554,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HH80eJnaMAAY-E9.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-23",
@@ -514,7 +579,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 100
+    "min_price": 100,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJADmq7agAARZW2.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-24",
@@ -554,6 +622,10 @@ window.BOOTHS = [
         "reprint",
         "⚠️ 再販なし"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI1p-W4boAAMGS2.jpg?name=orig",
+      "https://pbs.twimg.com/media/HI1p_Nmb0AA6VWS.jpg?name=orig"
     ]
   },
   {
@@ -578,7 +650,11 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI6rdjia4AAHno-.jpg?name=orig",
+      "https://pbs.twimg.com/media/HI6rdjjbEAAsPxq.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "A-26",
@@ -602,7 +678,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI-H0y1bAAAEn6j.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-01",
@@ -627,7 +706,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 600
+    "min_price": 600,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwmLhQboAARAAV.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-02",
@@ -661,6 +743,9 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI6048yasAATrLQ.jpg?name=orig"
     ]
   },
   {
@@ -685,7 +770,11 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HHtgYWcbYAAjSkI.jpg?name=orig",
+      "https://pbs.twimg.com/media/HHtgYWeaIAAjKMb.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-04",
@@ -713,6 +802,9 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIrUltUaIAARLL5.jpg?name=orig"
     ]
   },
   {
@@ -738,7 +830,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIrinmCb0AA484j.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-06",
@@ -759,7 +854,10 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI_u8XmaMAAR1Ox.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-07",
@@ -804,7 +902,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI6_EQWa4AAY-tN.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-10",
@@ -825,7 +926,10 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwnW7VakAATzoC.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-11",
@@ -851,7 +955,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIwyCjYagAA30pv.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-12",
@@ -873,7 +980,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIskuT4aQAA07qU.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-15",
@@ -897,7 +1007,10 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "B-16",
@@ -919,7 +1032,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 1000
+    "min_price": 1000,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIq7eelbsAAH8WC.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-01",
@@ -943,7 +1059,10 @@ window.BOOTHS = [
       "goods": false
     },
     "cover_url": "https://pbs.twimg.com/media/HJA2MFOagAAZfZG.jpg?name=orig",
-    "min_price": 300
+    "min_price": 300,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJA2MFOagAAZfZG.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-02",
@@ -977,6 +1096,9 @@ window.BOOTHS = [
         "limit",
         "🎫 部数制限"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI674e7bQAARvvI.jpg?name=orig"
     ]
   },
   {
@@ -1001,7 +1123,11 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig",
+      "https://pbs.twimg.com/media/HHJ1vkoa8AAZ7k7.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-04",
@@ -1025,7 +1151,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI7KdaYa0AAY0-h.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-05",
@@ -1046,7 +1175,10 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJADbuCaoAAl7bV.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-06",
@@ -1067,7 +1199,11 @@ window.BOOTHS = [
       "illust": false,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HH8J7IBaUAAhCg5.jpg?name=orig",
+      "https://pbs.twimg.com/media/HH8J7PSb0AAN1wU.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-07",
@@ -1108,7 +1244,12 @@ window.BOOTHS = [
       "illust": true,
       "manga": false,
       "goods": false
-    }
+    },
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI65x8LbIAAIhlA.jpg?name=orig",
+      "https://pbs.twimg.com/media/HI65x8LbsAATVRs.jpg?name=orig",
+      "https://pbs.twimg.com/media/HI65x79agAATxKB.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-09",
@@ -1130,7 +1271,10 @@ window.BOOTHS = [
       "manga": false,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJAQe5TaEAAqQW7.jpg?name=orig"
+    ]
   },
   {
     "booth_id": "C-10",
@@ -1158,6 +1302,9 @@ window.BOOTHS = [
         "cash",
         "💴 ジャスト払い推奨"
       ]
+    ],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI2hi3zbkAIR9xh.jpg?name=orig"
     ]
   }
 ];

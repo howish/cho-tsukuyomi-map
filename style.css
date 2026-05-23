@@ -126,6 +126,32 @@ section {
 
 .cover-link { display: block; text-align: center; margin: 0.8rem 0; }
 
+.cover-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 0.6rem;
+  margin: 0.8rem 0;
+  padding-bottom: 0.4rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.cover-carousel::-webkit-scrollbar {
+  height: 6px;
+}
+.cover-carousel::-webkit-scrollbar-thumb {
+  background: rgba(106,76,147,0.4);
+  border-radius: 3px;
+}
+
+.cover-slide {
+  scroll-snap-align: center;
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .cover-img {
   max-width: 100%;
   max-height: 60vh;
@@ -134,6 +160,14 @@ section {
   display: inline-block;
   background: #f5f5f5;
   min-height: 60px;
+  object-fit: contain;
+}
+
+.carousel-hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin: -0.4rem 0 0.6rem;
 }
 
 .cover-fallback {
