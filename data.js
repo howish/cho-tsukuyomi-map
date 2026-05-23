@@ -117,8 +117,6 @@ window.BOOTHS = [
     "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙に嫉妬する🐰と🐰に嫉妬する🐙の話 (狐＝ヤチヨ／兎＝かぐや／タコ＝彩葉)",
     "cover_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
     "cps": [
-      "iroyachi",
-      "kaguyachi",
       "trio"
     ],
     "tags": {
@@ -495,8 +493,6 @@ window.BOOTHS = [
     ],
     "cover_url": "https://pbs.twimg.com/media/HI1p-W4boAAMGS2.jpg?name=orig",
     "cps": [
-      "iroka",
-      "kaguyachi",
       "trio"
     ],
     "tags": {
@@ -520,8 +516,6 @@ window.BOOTHS = [
     "body": "- **新刊**：『**Moon Princess Party!**』 B5/32P/¥500/全年齢 (Cosmic Princess Kaguya Unofficial Fanbook)\n  - **かぐいろ/ヤチいろ わちゃわちゃラブコメ漫画**\n  - 表紙：三人 (彩葉中央 緑目黒髪 + ヤチヨ 銀髪青目 + かぐや 笑顔ブロンド)\n  - ポスター：「**かぐいろとヤチいろラブコメ本**」\n- **既刊**：彩葉中心ラブコメ短編集 + サンプル「スピード」「オムツ」 4 コマ漫画\n- **Attention**：**会場直後の高額紙幣はお控え**、スペースを離れてからの返品返金は致しかねず\n- 配置 A-25 確定、map 「ここにいます」 mark",
     "cover_url": "https://pbs.twimg.com/media/HI6rdjia4AAHno-.jpg?name=orig",
     "cps": [
-      "iroka",
-      "iroyachi",
       "trio"
     ],
     "tags": {
@@ -592,8 +586,6 @@ window.BOOTHS = [
     "body": "- **新刊**：『アフターハッピーエンド ウィズ・ユー！』 A5/**16P**/¥500/全年齢\n  - **かにみそ @ka2chokichoki と合同 / ヤチいろかぐ (三人) ほのぼの After HE**\n  - 表紙：花谷キャラ + ヤチヨ風 + かぐや風 mini sticker、ハート + 食事 motif\n- **会場限定 TAKE FREE 無配コピ本**：『**かぐやちゃん絶体絶命のピンチ**』 A5 コピー本 / 4P+1P 漫画\n- **Attention** (作家提示)：\n  - **現金のみ** (クレジット / QR 決済不可)\n  - **開場直後の高額紙幣 NG**、各部頒布調整予定、**部数制限の可能性あり**\n  - スケブ・色紙 NG",
     "cover_url": "https://pbs.twimg.com/media/HI6048yasAATrLQ.jpg?name=orig",
     "cps": [
-      "iroka",
-      "iroyachi",
       "trio"
     ],
     "tags": {
@@ -726,9 +718,6 @@ window.BOOTHS = [
     "body": "- **新刊**：『光のトリコロール』(Tricolor of Light) よろず小説合同\n  - **A5 / 108P / ¥1,000 / ヤチいろかぐ / 🔞 R-18 含む (年齢確認要)**\n  - **8 作家参加**：赤羽ひふみ／茶菓子／虎／ぬえ／はぬわ／マーライオン／右本渺／ユウソン\n  - 表紙：れぇ (三人キス寸前)\n- **委託本 ALL ¥500/全年齢**：\n  - 『**果てしない季節を君と**』 いろかぐ小説 / **マーライオンさん** / A5/48P\n  - 『**(I'm not) said adore**』 ろかいろ (芦花×彩葉) 小説 / **右本渺さん** / B6/52P",
     "cover_url": "https://pbs.twimg.com/media/HI6_EQWa4AAY-tN.jpg?name=orig",
     "cps": [
-      "iroka",
-      "iroroka",
-      "iroyachi",
       "trio"
     ],
     "tags": {
