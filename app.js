@@ -268,10 +268,8 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  // Initial stats render
-  applyFilters();
-
   // Filter + search (multi-filter, additive across CP/Tag rows, "all" resets)
+  // NB: must declare before applyFilters() initial call to avoid TDZ
   let activeFilters = new Set(); // empty = show all
   let currentSearch = '';
 
@@ -298,6 +296,9 @@
       stats.classList.toggle('filtered', isFiltered);
     }
   }
+
+  // Initial stats render (called after activeFilters/currentSearch declared)
+  applyFilters();
 
   // Event delegation on document — more robust than per-button bindings
   function handleFilterClick(btn) {
