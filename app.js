@@ -262,6 +262,33 @@
     if (e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal();
   });
 
+  // Share button: Web Share API with copy-to-clipboard fallback
+  const shareBtn = document.getElementById('share-btn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', async () => {
+      const url = location.origin + location.pathname;
+      const title = '超ツクヨミ祭 第1回 サークルガイド (非公式)';
+      const text = '5/24 立川 超かぐや姫オンリー即売会のサークル情報 + マップ + お品書きリンク';
+      try {
+        if (navigator.share) {
+          await navigator.share({ title, text, url });
+        } else if (navigator.clipboard) {
+          await navigator.clipboard.writeText(url);
+          shareBtn.textContent = '✅ URL コピー済み';
+          shareBtn.classList.add('copied');
+          setTimeout(() => {
+            shareBtn.textContent = '🔗 このサイトを共有';
+            shareBtn.classList.remove('copied');
+          }, 2500);
+        } else {
+          prompt('URL を選択してコピー：', url);
+        }
+      } catch (e) {
+        // user cancelled — silent
+      }
+    });
+  }
+
   // Deep-link: if URL has hash like #A-04 on load, open that booth's modal
   function openFromHash() {
     const m = location.hash.match(/^#([ABC]-\d{2})$/i);
