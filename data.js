@@ -157,7 +157,13 @@ window.BOOTHS = [
       "manga": true,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "warnings": [
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "A-09",
@@ -181,7 +187,13 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 300
+    "min_price": 300,
+    "warnings": [
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "A-10",
@@ -269,7 +281,13 @@ window.BOOTHS = [
       "manga": false,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "warnings": [
+      [
+        "cash",
+        "💴 ジャスト払い推奨"
+      ]
+    ]
   },
   {
     "booth_id": "A-14",
@@ -313,7 +331,13 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 300
+    "min_price": 300,
+    "warnings": [
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "A-16",
@@ -524,7 +548,13 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "warnings": [
+      [
+        "reprint",
+        "⚠️ 再販なし"
+      ]
+    ]
   },
   {
     "booth_id": "A-25",
@@ -621,7 +651,17 @@ window.BOOTHS = [
       "manga": true,
       "goods": true
     },
-    "min_price": 500
+    "min_price": 500,
+    "warnings": [
+      [
+        "cash",
+        "💴 ジャスト払い推奨"
+      ],
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "B-03",
@@ -667,7 +707,13 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "warnings": [
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "B-05",
@@ -917,7 +963,17 @@ window.BOOTHS = [
       "manga": true,
       "goods": false
     },
-    "min_price": 300
+    "min_price": 300,
+    "warnings": [
+      [
+        "cash",
+        "💴 ジャスト払い推奨"
+      ],
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
+    ]
   },
   {
     "booth_id": "C-03",
@@ -1092,6 +1148,12 @@ window.BOOTHS = [
       "manga": false,
       "goods": true
     },
-    "min_price": 300
+    "min_price": 300,
+    "warnings": [
+      [
+        "cash",
+        "💴 ジャスト払い推奨"
+      ]
+    ]
   }
 ];

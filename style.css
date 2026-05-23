@@ -254,6 +254,36 @@ section {
   margin-top: 0.2rem;
 }
 
+.booth-warnings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.booth-warning {
+  font-size: 0.65rem;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  background: #fff7e6;
+  color: #c45200;
+  border: 1px solid #ffc78a;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.booth-warning.warn-reprint {
+  background: #ffe6e6;
+  color: #b71c1c;
+  border-color: #ffa0a0;
+}
+
+.booth-warning.warn-limit {
+  background: #e3f2fd;
+  color: #0d47a1;
+  border-color: #90caf9;
+}
+
 .back-to-top {
   position: fixed;
   bottom: 1.2rem;

@@ -71,6 +71,13 @@
     if (b.min_price) {
       card.appendChild(el('div', { class: 'booth-price' }, '¥' + b.min_price.toLocaleString() + '〜'));
     }
+    if (b.warnings && b.warnings.length) {
+      const wBar = el('div', { class: 'booth-warnings' });
+      b.warnings.forEach(([code, label]) => {
+        wBar.appendChild(el('span', { class: 'booth-warning warn-' + code }, label));
+      });
+      card.appendChild(wBar);
+    }
     card.addEventListener('click', () => openModal(b));
     return card;
   }
