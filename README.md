@@ -6,10 +6,11 @@
 
 ## 機能
 
-- 会場マップ + 全 ~48 サークル の一覧
-- 各ブースをクリックで作家名 / お品書き / X リンク / 価格 / 注意事項 表示
-- factual tag フィルター：🆕新刊あり / 🔞R-18 / 💴現金のみ / 📚委託あり
-- サークル名・作家名・X handle 検索
+- 会場マップ + 全 ~48 サークルの一覧 (A 列 / B 列 / C 列で整理)
+- 各ブースをクリックで作家名 / お品書き画像 / X リンク / 価格 / 注意事項を表示
+- **CP フィルター** (絵文字 + 順序不問): 🦊×🐰 いろかぐ / 🦊×🐙 いろヤチ / 🦊×🌸 いろろか / 🌟 三人
+- **タグフィルター**: 🔞R-18 / 🤝合同 / 🎁無配 / 📚委託 / 📕漫画 / 📖小説 / 🎨イラスト本 / 🛍グッズ
+- 複数フィルター AND 結合 + サークル名/作家/X handle 検索
 - レスポンシブ対応 (会場で mobile から閲覧 OK)
 
 ## 中立 fan guide ポリシー
@@ -21,22 +22,21 @@
 ## データソース
 
 - 各サークルの **X 投稿 / お品書き画像** をベースに、2026-05-22 〜 23 に集約
-- 詳細は元ノート [`obsidian/areas/超かぐや姫/events/chotsukuyomi-2026-05-24-circles.md`](https://github.com/howish/obsidian) (private vault) に蓄積
 - 各ブースの "🔗 X で開く" リンクから 原典確認可能
+- 表紙画像は X media CDN への hot-link、原寸表示は画像クリックで X 投稿へ
 
 ## 注意事項
 
 - **非公式 fan guide** です。公式情報は [超ツクヨミ祭公式 (仙弦堂)](https://sengendo.a.la9.jp/chokagutop.html) を最終確認に
-- 会場マップ画像は © 仙弦堂・超ツクヨミ祭運営。引用範囲内での利用、転載許可は別途
+- 会場マップ画像は © 仙弦堂・超ツクヨミ祭運営。引用範囲内での利用
 - お品書き / 情報は各サークル作家の X 公開ポストから引用、誤り・更新は **X リンク** 経由で原典確認推奨
-- C-07 エビゾメ さんの参戦は本ガイド時点で 未確認、当日 listing 要確認
-- A-13 / C-10 など現金 / 高額紙幣 NG 系の注意事項は各ブース detail で表示
+- 一部サークル (B-07 / A-03 / C-01 / C-07) は本ガイド時点で表紙画像なし、当日 listing 要確認
 
 ## 更新 / 修正
 
 修正・追加情報あれば：
 - [Issue](https://github.com/howish/cho-tsukuyomi-map/issues) を立てる
-- [Pull Request](https://github.com/howish/cho-tsukuyomi-map/pulls) で `booths.json` を直接更新
+- [Pull Request](https://github.com/howish/cho-tsukuyomi-map/pulls) で `data.js` を直接更新
 
 PR welcome 🌿
 
@@ -44,8 +44,8 @@ PR welcome 🌿
 
 - Plain HTML / CSS / vanilla JS (no framework)
 - GitHub Pages デプロイ
-- Built 2026-05-23 by [@howish](https://x.com/howish_taipei) + 月見ヤチヨ (Claude Code)
+- Built 2026-05-23 by [@howish](https://github.com/howish)
 
 ---
 
-🤖 *Site generated 2026-05-23 — info reflects state at that time. Verify with venue/listing on event day.*
+*Site generated 2026-05-23 — info reflects state at that time. Verify with venue/listing on event day.*
