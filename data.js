@@ -926,20 +926,24 @@ window.BOOTHS = [
     "circle_name": "ウサホリ",
     "author": null,
     "x_handle": "1R0HASU",
-    "x_url": "https://x.com/1R0HASU",
+    "x_url": "https://x.com/1R0HASU/status/2058206287096430841",
     "followers": 34220,
-    "body": "- **参戦確認** (X handle 「ウサホリ / 超ツクヨミ祭」 明記)\n- 詳細お品書き未公開、東方・アニメ・ヨーヨー界隈\n- 34k follower",
-    "cps": [],
+    "body": "- **参戦確認** (X handle 「ウサホリ / 超ツクヨミ祭C-01」 明記)\n- **新刊**：『**INTERVAL**』\n  - **B5 / 20P (本文 16P) / ¥300**\n  - 本編の隙間にあったかもしれないようなお話\n  - 表紙：いろは (黒髪セーラー) + かぐや (金髪ウインク)\n- CP: いろかぐ\n- 34k follower、東方・アニメ・ヨーヨー界隈",
+    "cps": [
+      "iroka"
+    ],
     "tags": {
       "r18": false,
       "consign": false,
       "goudou": false,
       "free": false,
       "novel": false,
+      "manga": true,
       "illust": false,
-      "manga": false,
       "goods": false
-    }
+    },
+    "cover_url": "https://pbs.twimg.com/media/HJA2MFOagAAZfZG.jpg?name=orig",
+    "min_price": 300
   },
   {
     "booth_id": "C-02",
