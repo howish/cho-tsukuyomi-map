@@ -29,10 +29,26 @@
 <section class="filter-section">
   <div class="filters">
     <input type="search" id="search-input" placeholder="サークル名 / 作家名 / X 検索..." class="search-input">
-    <button class="filter-btn active" data-flag="all">全部</button>
-    <button class="filter-btn" data-flag="r18">🔞 R-18 のみ</button>
-    <button class="filter-btn" data-flag="cash">💴 現金のみ系</button>
-    <button class="filter-btn" data-flag="consign">📚 委託あり</button>
+  </div>
+  <div class="filters filters-cp">
+    <span class="filter-row-label">CP</span>
+    <button class="filter-btn active" data-filter="all">全部</button>
+    <button class="filter-btn" data-filter="cp:iroka" title="いろかぐ (いろは × かぐや)">🦊×🐰 いろかぐ</button>
+    <button class="filter-btn" data-filter="cp:iroyachi" title="いろヤチ (いろは × ヤチヨ)">🦊×🐙 いろヤチ</button>
+    <button class="filter-btn" data-filter="cp:iroroka" title="ろかいろ (芦花 × 彩葉)">🦊×🌸 ろかいろ</button>
+    <button class="filter-btn" data-filter="cp:kaguyachi" title="かぐヤチ (かぐや × ヤチヨ)">🐰×🐙 かぐヤチ</button>
+    <button class="filter-btn" data-filter="cp:trio" title="三人 (いろは・かぐや・ヤチヨ ほか)">🌟 三人</button>
+  </div>
+  <div class="filters filters-tag">
+    <span class="filter-row-label">タグ</span>
+    <button class="filter-btn" data-filter="tag:r18" title="R-18 含む / 要 ID">🔞 R-18</button>
+    <button class="filter-btn" data-filter="tag:goudou" title="合同誌・まとめ本">🤝 合同</button>
+    <button class="filter-btn" data-filter="tag:free" title="無料配布あり">🎁 無配</button>
+    <button class="filter-btn" data-filter="tag:consign" title="委託本あり">📚 委託</button>
+    <button class="filter-btn" data-filter="tag:manga" title="漫画">📕 漫画</button>
+    <button class="filter-btn" data-filter="tag:novel" title="小説">📖 小説</button>
+    <button class="filter-btn" data-filter="tag:illust" title="イラスト本・アートブック">🎨 イラスト本</button>
+    <button class="filter-btn" data-filter="tag:goods" title="グッズ・アクスタ・ステッカー等">🛍 グッズ</button>
   </div>
 </section>
 

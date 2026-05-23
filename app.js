@@ -1,18 +1,26 @@
 (function() {
+  const CP_ICON = {
+    iroka: '🦊×🐰',
+    iroyachi: '🦊×🐙',
+    iroroka: '🦊×🌸',
+    kaguyachi: '🐰×🐙',
+    trio: '🌟',
+    harem: '🌹',
+  };
+  const TAG_ICON = {
+    r18: '🔞',
+    consign: '📚',
+    goudou: '🤝',
+    free: '🎁',
+    novel: '📖',
+    manga: '📕',
+    illust: '🎨',
+    goods: '🛍',
+  };
+
   const booths = (window.BOOTHS || []).slice().sort((a, b) => {
     return a.booth_id.localeCompare(b.booth_id);
   });
-
-  // Factual tags computed from body content
-  function deriveFlags(b) {
-    const body = (b.body || '') + (b.alts ? b.alts.map(a => a.body).join(' ') : '');
-    return {
-      new: /新刊/.test(body),
-      r18: /R-?18|🔞|成人向け/.test(body),
-      cash: /現金のみ|高額紙幣\s*NG|お釣り\s*NG/i.test(body),
-      consign: /委託/.test(body),
-    };
-  }
 
   function el(tag, attrs, children) {
     const e = document.createElement(tag);
@@ -32,17 +40,25 @@
   }
 
   function renderCard(b) {
-    const flags = deriveFlags(b);
+    const cps = b.cps || [];
+    const tags = b.tags || {};
+    const activeTags = Object.keys(tags).filter(k => tags[k]);
+    const filterTokens = [
+      ...cps.map(c => 'cp:' + c),
+      ...activeTags.map(t => 'tag:' + t),
+    ];
     const card = el('div', {
       class: 'booth-card',
-      'data-flags': Object.keys(flags).filter(k => flags[k]).join(','),
+      'data-filters': filterTokens.join(','),
       'data-search': [b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase()
     });
     const tagBar = el('div', { class: 'booth-tags' });
-    if (flags.new) tagBar.appendChild(el('span', { class: 'tag tag-new', title: '新刊あり' }, '🆕'));
-    if (flags.r18) tagBar.appendChild(el('span', { class: 'tag tag-r18', title: 'R-18 含む' }, '🔞'));
-    if (flags.cash) tagBar.appendChild(el('span', { class: 'tag tag-cash', title: '現金・高額紙幣 NG 系' }, '💴'));
-    if (flags.consign) tagBar.appendChild(el('span', { class: 'tag tag-consign', title: '委託本あり' }, '📚'));
+    cps.forEach(c => {
+      if (CP_ICON[c]) tagBar.appendChild(el('span', { class: 'tag', title: c }, CP_ICON[c]));
+    });
+    activeTags.forEach(t => {
+      if (TAG_ICON[t]) tagBar.appendChild(el('span', { class: 'tag', title: t }, TAG_ICON[t]));
+    });
     card.appendChild(tagBar);
     card.appendChild(el('div', { class: 'booth-id' }, b.booth_id));
     if (b.circle_name) {
@@ -100,6 +116,23 @@
       body.appendChild(link);
     }
 
+    if (b.cover_url) {
+      const coverLink = el('a', {
+        href: b.x_url || b.cover_url,
+        target: '_blank',
+        rel: 'noopener',
+        class: 'cover-link'
+      });
+      const img = el('img', {
+        src: b.cover_url + (b.cover_url.includes('?') ? '&' : '?') + 'name=small',
+        alt: 'お品書き / 表紙',
+        class: 'cover-img',
+        loading: 'lazy'
+      });
+      coverLink.appendChild(img);
+      body.appendChild(coverLink);
+    }
+
     const bodyDiv = el('div', { class: 'modal-body-md' });
     bodyDiv.innerHTML = mdToHtml(b.body || '');
     body.appendChild(bodyDiv);
@@ -135,25 +168,43 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  // Filter + search
-  let currentFlag = 'all';
+  // Filter + search (multi-filter, additive across CP/Tag rows, "all" resets)
+  let activeFilters = new Set(); // empty = show all
   let currentSearch = '';
 
   function applyFilters() {
     document.querySelectorAll('.booth-card').forEach(card => {
-      const flags = (card.dataset.flags || '').split(',');
+      const tokens = (card.dataset.filters || '').split(',');
       const search = card.dataset.search || '';
-      const flagOK = currentFlag === 'all' || flags.includes(currentFlag);
+      const filterOK = activeFilters.size === 0 ||
+        Array.from(activeFilters).every(f => tokens.includes(f));
       const searchOK = !currentSearch || search.includes(currentSearch);
-      card.style.display = (flagOK && searchOK) ? '' : 'none';
+      card.style.display = (filterOK && searchOK) ? '' : 'none';
     });
   }
 
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentFlag = btn.dataset.flag;
+      const f = btn.dataset.filter;
+      if (f === 'all') {
+        activeFilters.clear();
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+      } else {
+        if (activeFilters.has(f)) {
+          activeFilters.delete(f);
+          btn.classList.remove('active');
+        } else {
+          activeFilters.add(f);
+          btn.classList.add('active');
+        }
+        // If any filter chosen, deactivate "all"
+        if (activeFilters.size > 0) {
+          document.querySelector('.filter-btn[data-filter="all"]').classList.remove('active');
+        } else {
+          document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
+        }
+      }
       applyFilters();
     });
   });
