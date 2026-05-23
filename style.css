@@ -80,7 +80,11 @@ section {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .filters {
@@ -323,4 +327,14 @@ footer a { color: var(--accent); }
   header .event-info { font-size: 0.85rem; }
   .booth-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
   .booth-card { font-size: 0.78rem; padding: 0.5rem; }
+  .filter-section {
+    padding: 0.5rem;
+    border-radius: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+  .filters { gap: 0.3rem; margin-bottom: 0.3rem; }
+  .filter-btn { font-size: 0.78rem; padding: 0.3rem 0.6rem; }
+  .filter-row-label { font-size: 0.7rem; }
+  .search-input { font-size: 0.85rem; padding: 0.3rem 0.5rem; }
 }

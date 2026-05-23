@@ -49,8 +49,9 @@
     ];
     const card = el('div', {
       class: 'booth-card',
+      id: 'booth-' + b.booth_id.toLowerCase(),
       'data-filters': filterTokens.join(','),
-      'data-search': [b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase()
+      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase()
     });
     const tagBar = el('div', { class: 'booth-tags' });
     cps.forEach(c => {
