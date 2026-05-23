@@ -268,10 +268,21 @@
   });
 
   const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       currentSearch = e.target.value.toLowerCase().trim();
+      if (searchClear) searchClear.hidden = !currentSearch;
       applyFilters();
+    });
+  }
+  if (searchClear) {
+    searchClear.addEventListener('click', () => {
+      searchInput.value = '';
+      currentSearch = '';
+      searchClear.hidden = true;
+      applyFilters();
+      searchInput.focus();
     });
   }
 

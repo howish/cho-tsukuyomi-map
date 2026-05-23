@@ -32,7 +32,10 @@
 
 <section class="filter-section">
   <div class="filters">
-    <input type="search" id="search-input" placeholder="サークル名 / 作家名 / X 検索..." class="search-input">
+    <div class="search-wrap">
+      <input type="search" id="search-input" placeholder="サークル名 / 作家 / X / ブース ID 検索..." class="search-input" autocomplete="off">
+      <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
+    </div>
   </div>
   <div class="filters filters-cp">
     <span class="filter-row-label">CP</span>
