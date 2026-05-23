@@ -137,6 +137,18 @@ section {
   border-color: var(--accent);
 }
 
+.filter-stats {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  text-align: right;
+}
+
+.filter-stats.filtered {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .booth-tags {
   display: flex;
   gap: 0.2rem;

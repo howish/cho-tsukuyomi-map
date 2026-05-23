@@ -182,19 +182,35 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
+  // Initial stats render
+  applyFilters();
+
   // Filter + search (multi-filter, additive across CP/Tag rows, "all" resets)
   let activeFilters = new Set(); // empty = show all
   let currentSearch = '';
 
   function applyFilters() {
-    document.querySelectorAll('.booth-card').forEach(card => {
+    let visible = 0;
+    const allCards = document.querySelectorAll('.booth-card');
+    allCards.forEach(card => {
       const tokens = (card.dataset.filters || '').split(',');
       const search = card.dataset.search || '';
       const filterOK = activeFilters.size === 0 ||
         Array.from(activeFilters).every(f => tokens.includes(f));
       const searchOK = !currentSearch || search.includes(currentSearch);
-      card.style.display = (filterOK && searchOK) ? '' : 'none';
+      const show = filterOK && searchOK;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
     });
+    const stats = document.getElementById('filter-stats');
+    if (stats) {
+      const total = allCards.length;
+      const isFiltered = activeFilters.size > 0 || currentSearch;
+      stats.textContent = isFiltered
+        ? `表示中 ${visible} / 全 ${total} ブース (絞り込み中)`
+        : `全 ${total} ブース`;
+      stats.classList.toggle('filtered', isFiltered);
+    }
   }
 
   document.querySelectorAll('.filter-btn').forEach(btn => {
