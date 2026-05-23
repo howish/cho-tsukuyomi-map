@@ -134,6 +134,14 @@
         loading: 'lazy',
         referrerpolicy: 'no-referrer'
       });
+      // Graceful fallback: if image fails to load (CDN block, deleted tweet, etc),
+      // replace with a tappable card linking to X.
+      img.addEventListener('error', () => {
+        const fallback = el('div', { class: 'cover-fallback' }, [
+          '🔗 画像読み込み失敗 — X 投稿で確認 →'
+        ]);
+        coverLink.replaceChild(fallback, img);
+      });
       coverLink.appendChild(img);
       body.appendChild(coverLink);
     }
