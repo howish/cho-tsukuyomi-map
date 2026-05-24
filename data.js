@@ -137,9 +137,9 @@ window.BOOTHS = [
     "circle_name": "木乃酢",
     "author": null,
     "x_handle": "osatou_kinosu",
-    "x_url": "https://x.com/osatou_kinosu/status/2054555547257667683",
+    "x_url": "https://x.com/osatou_kinosu/status/2058173552696922548",
     "followers": 510,
-    "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)",
+    "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)\n- **頒布ルール (本人告知)**：1〜3 部で最低 5 冊ずつ用意、残数は先着頒布、**基本 1 人 1 冊**、複数希望の場合は相談",
     "cover_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
     "cps": [
       "trio"
@@ -158,6 +158,12 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
       "https://pbs.twimg.com/media/HIM_YNcaYAATLAT.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "limit",
+        "🎫 部数制限"
+      ]
     ]
   },
   {
@@ -198,10 +204,10 @@ window.BOOTHS = [
     "circle_name": "つきじ市場",
     "author": "つこのせ",
     "x_handle": "2konose",
-    "x_url": "https://x.com/2konose/status/2057071985960890861",
+    "x_url": "https://x.com/2konose/status/2057825226508140960",
     "followers": 65,
-    "body": "- **新刊**：『Sweet Patch』 A5/12P/¥300/全年齢/雰囲気いろヤチ\n- 期間限定アカウント = 一期一会\n- 「限界すぎてまだ脱稿できていません」 (本人 comment、当日制作 ギリギリ進行)",
-    "cover_url": "https://pbs.twimg.com/media/HIwwDshbIAAabeG.jpg?name=orig",
+    "body": "- **新刊**：『Sweet Patch』 A5/12P/¥300/全年齢/雰囲気いろヤチ\n- 期間限定アカウント = 一期一会\n- 「限界すぎてまだ脱稿できていません」 (本人 comment、当日制作 ギリギリ進行)\n- 新刊：**いろヤチ 漫画本** (旧記載「雰囲気いろヤチ」 から漫画形態確定)\n- 開場直後はお釣りが出ない会計へ協力 (ジャスト払い推奨)",
+    "cover_url": "https://pbs.twimg.com/media/HI7dIkSacAAroPb.jpg?name=orig",
     "cps": [
       "iroyachi"
     ],
@@ -220,9 +226,14 @@ window.BOOTHS = [
       [
         "limit",
         "🎫 部数制限"
+      ],
+      [
+        "cash",
+        "💴 ジャスト払い推奨"
       ]
     ],
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI7dIkSacAAroPb.jpg?name=orig",
       "https://pbs.twimg.com/media/HIwwDshbIAAabeG.jpg?name=orig",
       "https://pbs.twimg.com/media/HIwwDsga0AAPefE.jpg?name=orig"
     ]
@@ -232,10 +243,10 @@ window.BOOTHS = [
     "circle_name": "あやや屋",
     "author": "ショウリ",
     "x_handle": "syouri_nizi0305",
-    "x_url": "https://x.com/syouri_nizi0305/status/2054517334472307029",
+    "x_url": "https://x.com/syouri_nizi0305/status/2056665849428377742",
     "followers": 3471,
-    "body": "- **新刊**：『電脳少女の癒しASMR』 B5/16P/¥500/全年齢、ヤチヨ AR メイド ASMR ほのぼの漫画",
-    "cover_url": "https://pbs.twimg.com/media/HIMcn2la4AAK_tD.jpg?name=orig",
+    "body": "- **新刊**：『電脳少女の癒しASMR』 B5/16P/¥500/全年齢、ヤチヨ AR メイド ASMR ほのぼの漫画\n- **コノケさん (@konokekonoke) と新刊・既刊 共同頒布** (二人体制)",
+    "cover_url": "https://pbs.twimg.com/media/HIq-rUDbcAAufqD.jpg?name=orig",
     "cps": [],
     "tags": {
       "r18": false,
@@ -249,6 +260,7 @@ window.BOOTHS = [
     },
     "min_price": 500,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HIq-rUDbcAAufqD.jpg?name=orig",
       "https://pbs.twimg.com/media/HIMcn2la4AAK_tD.jpg?name=orig"
     ]
   },
@@ -494,10 +506,10 @@ window.BOOTHS = [
     "circle_name": "七篠屋",
     "author": "椎奈々",
     "x_handle": "C_77sotome",
-    "x_url": "https://x.com/C_77sotome/status/2056693261188903004",
+    "x_url": "https://x.com/C_77sotome/status/2058132405622620439",
     "followers": 142,
     "body": "- **新刊**：『安芸の都にて』 B5/ワイド四コマ/¥500、いろかぐ宮島デート (10 年後)\n- **同人イベント初陣**",
-    "cover_url": "https://pbs.twimg.com/media/HIrXnn_bYAIbr9X.jpg?name=orig",
+    "cover_url": "https://pbs.twimg.com/media/HI_0g44bwAAFkE-.jpg?name=orig",
     "cps": [
       "iroka"
     ],
@@ -513,6 +525,7 @@ window.BOOTHS = [
     },
     "min_price": 500,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI_0g44bwAAFkE-.jpg?name=orig",
       "https://pbs.twimg.com/media/HIrXnn_bYAIbr9X.jpg?name=orig"
     ]
   },
@@ -546,10 +559,10 @@ window.BOOTHS = [
     "circle_name": "超・誠心誠意",
     "author": null,
     "x_handle": "EiNeEna_mikan",
-    "x_url": "https://x.com/EiNeEna_mikan/status/2053419933787476125",
+    "x_url": "https://x.com/EiNeEna_mikan/status/2057725649859797199",
     "followers": 662,
     "body": "- **新刊**：『Cosmic Princeeeeess!!!』(unofficial fanbook ILLUSTRATIONS)\n  - **B5 正方形 / 20P (予定) / ¥500 (予定) / 初イラスト本 + ゲスト寄稿数名**",
-    "cover_url": "https://pbs.twimg.com/media/HH80eJnaMAAY-E9.jpg?name=orig",
+    "cover_url": "https://pbs.twimg.com/media/HI4eoiYbEAIfPLi.jpg?name=orig",
     "cps": [],
     "tags": {
       "r18": false,
@@ -563,6 +576,7 @@ window.BOOTHS = [
     },
     "min_price": 500,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI4eoiYbEAIfPLi.jpg?name=orig",
       "https://pbs.twimg.com/media/HH80eJnaMAAY-E9.jpg?name=orig"
     ]
   },
@@ -760,10 +774,10 @@ window.BOOTHS = [
     "circle_name": "あるぱかコ",
     "author": null,
     "x_handle": "arupaka5tuki",
-    "x_url": "https://x.com/arupaka5tuki/status/2052340050676126172",
+    "x_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
     "followers": 22829,
     "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素",
-    "cover_url": "https://pbs.twimg.com/media/HHtgYWcbYAAjSkI.jpg?name=orig",
+    "cover_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
     "cps": [
       "iroka"
     ],
@@ -779,6 +793,7 @@ window.BOOTHS = [
     },
     "min_price": 500,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
       "https://pbs.twimg.com/media/HHtgYWcbYAAjSkI.jpg?name=orig",
       "https://pbs.twimg.com/media/HHtgYWeaIAAjKMb.jpg?name=orig"
     ]
