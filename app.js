@@ -330,8 +330,10 @@
     allCards.forEach(card => {
       const tokens = (card.dataset.filters || '').split(',');
       const search = card.dataset.search || '';
+      // Union semantics: when multiple filters selected, show booths matching ANY.
+      // Search remains AND with filters (search narrows the union).
       const filterOK = activeFilters.size === 0 ||
-        Array.from(activeFilters).every(f => tokens.includes(f));
+        Array.from(activeFilters).some(f => tokens.includes(f));
       const searchOK = !currentSearch || search.includes(currentSearch);
       const show = filterOK && searchOK;
       card.style.display = show ? '' : 'none';
