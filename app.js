@@ -153,11 +153,48 @@
     return s;
   }
 
+  let currentBoothIdx = -1;
+
+  function navigateBooth(direction) {
+    // Navigate through CURRENTLY VISIBLE booths (respecting filter+search)
+    const visible = booths.filter(b => {
+      const card = document.getElementById('booth-' + b.booth_id.toLowerCase());
+      return card && card.style.display !== 'none';
+    });
+    if (visible.length === 0) return;
+    // find current in visible
+    let idx = visible.findIndex(b => b.booth_id === booths[currentBoothIdx]?.booth_id);
+    if (idx === -1) idx = 0;
+    const newIdx = (idx + direction + visible.length) % visible.length;
+    openModal(visible[newIdx]);
+  }
+
   function openModal(b) {
     const body = document.getElementById('modal-body');
     body.innerHTML = '';
+    currentBoothIdx = booths.findIndex(x => x.booth_id === b.booth_id);
     // Update URL hash for shareable deep-link (no page reload)
     try { history.replaceState(null, '', '#' + b.booth_id); } catch (e) {}
+
+    // Prev/Next navigation bar at top
+    const navBar = el('div', { class: 'modal-nav' });
+    const prevBtn = el('button', {
+      type: 'button',
+      class: 'modal-nav-btn',
+      'aria-label': '前のサークル',
+      title: '前のサークル (左スワイプ)',
+    }, '← 前');
+    prevBtn.addEventListener('click', (e) => { e.stopPropagation(); navigateBooth(-1); });
+    const nextBtn = el('button', {
+      type: 'button',
+      class: 'modal-nav-btn',
+      'aria-label': '次のサークル',
+      title: '次のサークル (右スワイプ)',
+    }, '次 →');
+    nextBtn.addEventListener('click', (e) => { e.stopPropagation(); navigateBooth(1); });
+    navBar.appendChild(prevBtn);
+    navBar.appendChild(nextBtn);
+    body.appendChild(navBar);
 
     body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
     if (b.author) {
@@ -359,6 +396,32 @@
       searchInput.focus();
     });
   }
+
+  // Swipe gesture on modal-body to navigate prev/next (avoid carousel area)
+  (function() {
+    const modal = document.getElementById('modal');
+    let sx = 0, sy = 0, swiping = false;
+    modal.addEventListener('touchstart', (e) => {
+      if (modal.hidden) return;
+      // ignore swipes that started on the image carousel (let carousel handle)
+      if (e.target.closest('.cover-carousel')) { swiping = false; return; }
+      if (e.target.closest('.modal-nav-btn')) { swiping = false; return; }
+      if (e.target.closest('.modal-close')) { swiping = false; return; }
+      sx = e.touches[0].clientX;
+      sy = e.touches[0].clientY;
+      swiping = true;
+    }, { passive: true });
+    modal.addEventListener('touchend', (e) => {
+      if (modal.hidden || !swiping) return;
+      const dx = e.changedTouches[0].clientX - sx;
+      const dy = e.changedTouches[0].clientY - sy;
+      // significant horizontal swipe, not mostly vertical scroll
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        navigateBooth(dx > 0 ? -1 : 1);
+      }
+      swiping = false;
+    }, { passive: true });
+  })();
 
   // Bind close on multiple events to be resilient against mobile click quirks
   ['click', 'touchend', 'pointerup'].forEach(ev => {
