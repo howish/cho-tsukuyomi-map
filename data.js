@@ -134,20 +134,20 @@ window.BOOTHS = [
   },
   {
     "booth_id": "A-07",
-    "circle_name": "木乃酢",
-    "author": null,
+    "circle_name": "放浪時計",
+    "author": "木乃酢",
     "x_handle": "osatou_kinosu",
-    "x_url": "https://x.com/osatou_kinosu/status/2058173552696922548",
+    "x_url": "https://x.com/osatou_kinosu/status/2057424374400205201",
     "followers": 510,
-    "body": "- **新刊**：小説『Notice me』\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人)** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)\n- **頒布ルール (本人告知)**：1〜3 部で最低 5 冊ずつ用意、残数は先着頒布、**基本 1 人 1 冊**、複数希望の場合は相談",
-    "cover_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
+    "body": "- **サークル名「放浪時計」** (作家 木乃酢)\n- **新刊① 『Notice me』**\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人) / 小説** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)\n  - **頒布ルール**：1〜3 部で最低 5 冊ずつ用意、残数は先着、**基本 1 人 1 冊**、複数希望は相談\n- **新刊② 『君の電子信号を待っている / 四季彩』**\n  - **いじおさん (@ijio_galupa) + saki さん (@BeautyBloom5533) との合同本** (3 人体制)\n  - 詳細仕様 venue で確認",
+    "cover_url": "https://pbs.twimg.com/media/HI1wj0PaYAE-bj0.jpg?name=orig",
     "cps": [
       "trio"
     ],
     "tags": {
       "r18": false,
       "consign": false,
-      "goudou": false,
+      "goudou": true,
       "free": false,
       "novel": true,
       "illust": false,
@@ -156,6 +156,7 @@ window.BOOTHS = [
     },
     "min_price": 1000,
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI1wj0PaYAE-bj0.jpg?name=orig",
       "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
       "https://pbs.twimg.com/media/HIM_YNcaYAATLAT.jpg?name=orig"
     ],
