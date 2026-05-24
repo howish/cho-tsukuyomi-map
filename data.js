@@ -42,7 +42,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     }
   },
@@ -88,7 +88,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 1000,
@@ -115,7 +115,7 @@ window.BOOTHS = [
       "free": true,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -219,7 +219,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 300,
@@ -282,7 +282,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": true
     },
     "min_price": 500,
@@ -333,7 +333,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": true
     },
     "min_price": 500,
@@ -364,7 +364,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 300,
@@ -389,7 +389,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 300,
@@ -420,7 +420,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -445,7 +445,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -494,7 +494,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -547,7 +547,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": true
     },
     "min_price": 500,
@@ -572,7 +572,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -697,7 +697,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -725,7 +725,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 600,
@@ -789,7 +789,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -816,7 +816,7 @@ window.BOOTHS = [
       "free": true,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -875,7 +875,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -899,7 +899,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -1057,7 +1057,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 1000,
@@ -1082,8 +1082,8 @@ window.BOOTHS = [
       "goudou": false,
       "free": false,
       "novel": false,
-      "manga": true,
       "illust": false,
+      "manga": true,
       "goods": false
     },
     "cover_url": "https://pbs.twimg.com/media/HJA2MFOagAAZfZG.jpg?name=orig",
@@ -1149,7 +1149,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -1178,7 +1178,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "min_price": 500,
@@ -1202,8 +1202,8 @@ window.BOOTHS = [
       "goudou": false,
       "free": false,
       "novel": false,
-      "illust": false,
-      "manga": false,
+      "illust": true,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -1227,7 +1227,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -1253,7 +1253,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": false
     }
   },
@@ -1274,7 +1274,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": true,
-      "manga": false,
+      "manga": true,
       "goods": false
     },
     "cover_urls": [
@@ -1301,7 +1301,7 @@ window.BOOTHS = [
       "free": false,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": true
     },
     "min_price": 500,
@@ -1326,7 +1326,7 @@ window.BOOTHS = [
       "free": true,
       "novel": false,
       "illust": false,
-      "manga": false,
+      "manga": true,
       "goods": true
     },
     "min_price": 300,
