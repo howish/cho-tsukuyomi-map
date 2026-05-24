@@ -528,10 +528,19 @@ section {
   font-size: 0.85rem;
 }
 
-#modal-body .modal-meta span {
+#modal-body .modal-meta span,
+#modal-body .modal-meta a.handle-link {
   background: #f3edf7;
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+#modal-body .modal-meta a.handle-link:hover {
+  background: var(--accent);
+  color: #fff;
 }
 
 #modal-body .modal-body-md {

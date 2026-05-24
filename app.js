@@ -206,7 +206,12 @@
       meta.appendChild(el('span', null, `${b.followers.toLocaleString()} followers`));
     }
     if (b.x_handle) {
-      meta.appendChild(el('span', null, '@' + b.x_handle));
+      meta.appendChild(el('a', {
+        href: 'https://x.com/' + b.x_handle,
+        target: '_blank',
+        rel: 'noopener',
+        class: 'handle-link',
+      }, '@' + b.x_handle));
     }
     body.appendChild(meta);
 
