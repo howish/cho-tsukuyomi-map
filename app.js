@@ -213,6 +213,46 @@
         class: 'handle-link',
       }, '@' + b.x_handle));
     }
+    // Favorite toggle (synced with card star)
+    const isFavNow = favs.has(b.booth_id);
+    const modalFav = el('button', {
+      type: 'button',
+      class: 'modal-fav' + (isFavNow ? ' favored' : ''),
+      'aria-pressed': isFavNow ? 'true' : 'false',
+      'aria-label': 'お気に入りトグル',
+    }, isFavNow ? '★ お気に入り済' : '☆ お気に入り追加');
+    modalFav.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = b.booth_id;
+      const card = document.getElementById('booth-' + id.toLowerCase());
+      const cardStar = card ? card.querySelector('.fav-star') : null;
+      if (favs.has(id)) {
+        favs.delete(id);
+        modalFav.classList.remove('favored');
+        modalFav.textContent = '☆ お気に入り追加';
+        modalFav.setAttribute('aria-pressed', 'false');
+        if (card) {
+          card.classList.remove('favored');
+          card.dataset.filters = (card.dataset.filters || '').split(',').filter(t => t !== 'fav').join(',');
+          if (cardStar) { cardStar.textContent = '☆'; cardStar.setAttribute('aria-pressed', 'false'); }
+        }
+      } else {
+        favs.add(id);
+        modalFav.classList.add('favored');
+        modalFav.textContent = '★ お気に入り済';
+        modalFav.setAttribute('aria-pressed', 'true');
+        if (card) {
+          card.classList.add('favored');
+          const tokens = (card.dataset.filters || '').split(',').filter(Boolean);
+          if (!tokens.includes('fav')) tokens.push('fav');
+          card.dataset.filters = tokens.join(',');
+          if (cardStar) { cardStar.textContent = '★'; cardStar.setAttribute('aria-pressed', 'true'); }
+        }
+      }
+      saveFavs(favs);
+      applyFilters();
+    });
+    meta.appendChild(modalFav);
     body.appendChild(meta);
 
     if (b.x_url) {
