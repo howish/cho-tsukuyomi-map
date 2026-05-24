@@ -843,14 +843,14 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "B-06",
+    "booth_id": "B-07",
     "circle_name": "みつきりこ",
     "author": null,
     "x_handle": "mitsukiriko",
-    "x_url": "https://x.com/mitsukiriko/status/2058126279560626434",
+    "x_url": "https://x.com/mitsukiriko/status/2058126786177937819",
     "followers": 1539,
-    "body": "- **コピー本 1 種**、本文 まだ描いてる (前日制作中)\n- 表紙『**宙ノ詩 (SORA NO UTA)**』 公開、3 キャラ (ヤチヨ + いろは + かぐや) 並び\n- **お品書きもポスターも作ってない** (簡易出展モード)\n- 価格 / ページ未確定",
-    "cover_url": "https://pbs.twimg.com/media/HI_u8XmaMAAR1Ox.jpg?name=orig",
+    "body": "- **コピー本 1 種**、本文 まだ描いてる (前日制作中)\n- 表紙『**宙ノ詩 (SORA NO UTA)**』 公開、3 キャラ (ヤチヨ + いろは + かぐや) 並び\n- **お品書きもポスターも作ってない** (簡易出展モード)\n- 価格 / ページ未確定\n- サークルカット 公開済",
+    "cover_url": "https://pbs.twimg.com/media/HI_vZtsacAAgXf0.jpg?name=orig",
     "cps": [],
     "tags": {
       "r18": false,
@@ -863,17 +863,18 @@ window.BOOTHS = [
       "goods": false
     },
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI_vZtsacAAgXf0.jpg?name=orig",
       "https://pbs.twimg.com/media/HI_u8XmaMAAR1Ox.jpg?name=orig"
     ]
   },
   {
-    "booth_id": "B-07",
+    "booth_id": "B-08",
     "circle_name": "恵海けい",
     "author": null,
     "x_handle": "Kei_Megumi_",
-    "x_url": "https://x.com/Kei_Megumi_/status/2056640044467917198",
+    "x_url": "https://x.com/Kei_Megumi_/status/2053679112301224032",
     "followers": 24546,
-    "body": "- **新刊**：『Color your life』 らくがきイラスト本\n- **¥500 (ワンコイン)** (本人 tweet 提示)\n- 詳細お品書き画像なし、価格のみ告知\n- 聖地巡礼兼ねて立川来訪",
+    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower",
     "cps": [],
     "tags": {
       "r18": false,
@@ -885,7 +886,11 @@ window.BOOTHS = [
       "manga": false,
       "goods": false
     },
-    "min_price": 500
+    "min_price": 500,
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig"
+    ],
+    "cover_url": "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig"
   },
   {
     "booth_id": "B-09",
@@ -1113,10 +1118,10 @@ window.BOOTHS = [
     "circle_name": "(ちょりsow)",
     "author": null,
     "x_handle": "xx_sow",
-    "x_url": "https://x.com/xx_sow/status/2049830246468444628",
+    "x_url": "https://x.com/xx_sow/status/2057420261453181197",
     "followers": 13415,
-    "body": "- **新刊**：いろヤチ・いろかぐ B5/42P/🔞 **R-18**/紙本のみ、電子なし\n  - \"(3P はないです)\" — 2 人 CP のラブシーン\n- 部数アンケ実施",
-    "cover_url": "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig",
+    "body": "- **新刊**：いろヤチ・いろかぐ B5/42P/¥700/🔞 R-18/紙本のみ、電子なし\n  - \"(3P はないです)\" — 2 人 CP のラブシーン\n- 部数アンケ実施\n- 入場入れ替え制対応：各回ごとに頒布数を分配\n- 年齢確認協力要請",
+    "cover_url": "https://pbs.twimg.com/media/HI1s0USacAACjdv.jpg?name=orig",
     "cps": [
       "iroka",
       "iroyachi"
@@ -1132,9 +1137,11 @@ window.BOOTHS = [
       "goods": false
     },
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI1s0USacAACjdv.jpg?name=orig",
       "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig",
       "https://pbs.twimg.com/media/HHJ1vkoa8AAZ7k7.jpg?name=orig"
-    ]
+    ],
+    "min_price": 700
   },
   {
     "booth_id": "C-04",
@@ -1192,10 +1199,10 @@ window.BOOTHS = [
     "circle_name": "ハルハン",
     "author": "春半の渦",
     "x_handle": "haruhannohane",
-    "x_url": "https://x.com/haruhannohane/status/2053370879191753073",
+    "x_url": "https://x.com/haruhannohane/status/2056677009766678649",
     "followers": 334,
-    "body": "- **新刊**：『終末あなたと散歩道』 超かぐや姫！二次創作本\n  - 表紙：オタ公 (狼耳メイド) + ヤチヨ + FUSHI 抱き\n  - **オタ公とヤチヨが仮想空間で散歩&雑談する本**",
-    "cover_url": "https://pbs.twimg.com/media/HH8J7IBaUAAhCg5.jpg?name=orig",
+    "body": "- **新刊**：『終末あなたと散歩道』 超かぐや姫！二次創作本\n  - 表紙：オタ公 (狼耳メイド) + ヤチヨ + FUSHI 抱き\n  - **オタ公とヤチヨが仮想空間で散歩&雑談する本**\n- B5/16P/¥300/全年齢 確定",
+    "cover_url": "https://pbs.twimg.com/media/HIrIy3haYAA2D6-.jpg?name=orig",
     "cps": [],
     "tags": {
       "r18": false,
@@ -1208,9 +1215,11 @@ window.BOOTHS = [
       "goods": false
     },
     "cover_urls": [
+      "https://pbs.twimg.com/media/HIrIy3haYAA2D6-.jpg?name=orig",
       "https://pbs.twimg.com/media/HH8J7IBaUAAhCg5.jpg?name=orig",
       "https://pbs.twimg.com/media/HH8J7PSb0AAN1wU.jpg?name=orig"
-    ]
+    ],
+    "min_price": 300
   },
   {
     "booth_id": "C-07",
@@ -1237,10 +1246,10 @@ window.BOOTHS = [
     "circle_name": "梅野いちる",
     "author": null,
     "x_handle": "umenoichiru",
-    "x_url": "https://x.com/umenoichiru/status/2057787021981343842",
+    "x_url": "https://x.com/umenoichiru/status/2057778599198130529",
     "followers": 134,
     "body": "- **新刊**：『**HAPPY RE:LYRICS!**』 Cosmic Princess Kaguya Unofficial Artbook\n  - **10 曲 曲パロ・サムネ風イラスト本** (Tube パロ design)、各曲のカバー動画 サムネを fan art で再構成\n  - **アートブック / 2 作家** (UMEMUGI = 梅野いちる + こむぎ)\n  - 表紙：ヤチヨ (青髪、ピース) + かぐや (オレンジ髪ギャル化、ハート、ウィンク)\n  - **サンプル①**：かぐや「どりーみんちゅちゅ」 covered (原曲 巡音ルカ、emon)、Tube 視聴ページ pastiche、@2041/02/14 valentine 投稿風「かぐやっほー！かぐやだよ！オタク達はチョコもらえたかな？」\n  - サンプル②③：fan art の interior comic panels、ASMR / 配信状況の暗示\n- 「かぐや (+いろは)・ヤチヨが歌ってみた動画をあげるならどんな動画にするか?」 という本",
-    "cover_url": "https://pbs.twimg.com/media/HI65x8LbIAAIhlA.jpg?name=orig",
+    "cover_url": "https://pbs.twimg.com/media/HI6yudFawAA0cti.jpg?name=orig",
     "cps": [],
     "tags": {
       "r18": false,
@@ -1253,6 +1262,7 @@ window.BOOTHS = [
       "goods": false
     },
     "cover_urls": [
+      "https://pbs.twimg.com/media/HI6yudFawAA0cti.jpg?name=orig",
       "https://pbs.twimg.com/media/HI65x8LbIAAIhlA.jpg?name=orig",
       "https://pbs.twimg.com/media/HI65x8LbsAATVRs.jpg?name=orig",
       "https://pbs.twimg.com/media/HI65x79agAATxKB.jpg?name=orig"
