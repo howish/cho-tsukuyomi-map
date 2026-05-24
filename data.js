@@ -86,6 +86,7 @@ window.BOOTHS = [
     "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/本文34P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意\n- 在庫第三部まで分割頒布 (各部均等)、無配漫画もあり (間に合えば)、4P / いろかぐ\n- 設営ポスターは第三部以降にお譲り予定 (希望者向け)\n- 本編でヤチヨの過去を知った後の時間軸：自分の気持ちに名前を付けられない彩葉と 8000 年分のしっとりした感情を抱いているヤチヨがくっつくまでのお話",
     "cover_url": "https://pbs.twimg.com/media/HIwn65RbwAASz3N.jpg?name=orig",
     "cps": [
+      "iroka",
       "iroyachi"
     ],
     "tags": {
@@ -392,7 +393,9 @@ window.BOOTHS = [
     "followers": 1840,
     "body": "- **新刊**：B5/36P/¥500 (推定)、彩葉がヤチヨの少しえっちな夢を見てヤチヨを意識しちゃういろヤチ百合本、紙のみ",
     "cover_url": "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig",
-    "cps": [],
+    "cps": [
+      "iroyachi"
+    ],
     "tags": {
       "r18": false,
       "consign": false,
@@ -1298,7 +1301,9 @@ window.BOOTHS = [
     "followers": 2349,
     "body": "- **サークル名「39dmp」 確定**、handle 内表記も \"5/24 超ツクヨミ祭 C10：5/31 インテ３号館 さ11b\"\n- **新刊**：『**himelog1**』 16P/¥300/全年齢向け = **黒鬼とみかのいの本、web 再録含む**\n  - 表紙：3 人キャラ (黒鬼系) 並び\n- **既刊**：『**夢惑いパラノイア**』 48P/¥700/成人向け = スパコミ新刊、みかのい/あさのい CP\n  - 表紙：6 人 ぐらいの複数キャラ collage\n- **無料配布**：サークルロゴバッグ (フラットパック、透明) + ポストカード型ペーパー\n- **高額紙幣 NG** (現金ジャスト推奨)\n- みかのい / あさのい (= みかんといろは / あんといろは?) 雰囲気作家、別アカで商業",
     "cover_url": "https://pbs.twimg.com/media/HI2hi3zbkAIR9xh.jpg?name=orig",
-    "cps": [],
+    "cps": [
+      "mikanoi"
+    ],
     "tags": {
       "r18": true,
       "consign": false,

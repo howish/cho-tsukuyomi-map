@@ -6,6 +6,7 @@
     kaguyachi: '🐰×🐙',
     trio: '🌟',
     harem: '🌹',
+    mikanoi: '👹×🐯',
   };
   const TAG_ICON = {
     r18: '🔞',
