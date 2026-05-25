@@ -1444,7 +1444,7 @@ window.BOOTHS = [
     "x_handle": "2015chaosgroup",
     "x_url": "https://x.com/2015chaosgroup/status/2057804696711307690",
     "followers": 116014,
-    "body": "- **サークル名「京まじょ」 = 上村なびあ の サークル名 (確定 2026-05-23)**\n- **新刊**：『**Reply, Your Future Otogibanashi**』 ¥500/全年齢\n- **既刊**：『**Remember, Your Happy 2nd Story**』 まとめ本 ¥500/全年齢\n- 表紙：かぐや + ヤチヨ + 彩葉 三人並びアート (新刊・既刊 とも)\n- **商業作家** (ぶんか社『ゆりさきとらいあんぐる』)\n\n📦 **メロン委託**：[余部分を委託予定](https://x.com/2015chaosgroup/status/2058435347441410534) (5/24 イベント後告知、URL は別途公開予定)",
+    "body": "- **サークル名「京まじょ」 = 上村なびあ の サークル名 (確定 2026-05-23)**\n- **新刊**：『**Reply, Your Future Otogibanashi**』 ¥500/全年齢\n- **既刊**：『**Remember, Your Happy 2nd Story**』 まとめ本 ¥500/全年齢\n- 表紙：かぐや + ヤチヨ + 彩葉 三人並びアート (新刊・既刊 とも)\n- **商業作家** (ぶんか社『ゆりさきとらいあんぐる』)\n\n📦 **メロン委託**：[余部分を委託予定](https://x.com/2015chaosgroup/status/2058435347441410534) (5/24 イベント後告知、URL は別途公開予定)\n\n🔁 [**夏コミ向け新刊 (いろかぐヤチ百合いちゃいちゃ本 20-30p) 計画中**](https://x.com/2015chaosgroup/status/2058523553981727050) (途中オンリー参加検討あり)",
     "cover_url": "https://pbs.twimg.com/media/HI7KdaYa0AAY0-h.jpg?name=orig",
     "cps": [
       "trio"
@@ -1507,7 +1507,7 @@ window.BOOTHS = [
     "x_handle": "haruhannohane",
     "x_url": "https://x.com/haruhannohane/status/2056677009766678649",
     "followers": 334,
-    "body": "- **新刊**：『終末あなたと散歩道』 超かぐや姫！二次創作本\n  - 表紙：オタ公 (狼耳メイド) + ヤチヨ + FUSHI 抱き\n  - **オタ公とヤチヨが仮想空間で散歩&雑談する本**\n- B5/16P/¥300/全年齢 確定\n\n🎯 **次回参加**：[7/26 「パンケーキ食べたい！」](https://x.com/haruhannohane/status/2058441693100454258) (超かぐや姫オンリー @ 大阪)",
+    "body": "- **新刊**：『終末あなたと散歩道』 超かぐや姫！二次創作本\n  - 表紙：オタ公 (狼耳メイド) + ヤチヨ + FUSHI 抱き\n  - **オタ公とヤチヨが仮想空間で散歩&雑談する本**\n- B5/16P/¥300/全年齢 確定\n\n🎯 **次回参加**：[7/26 「パンケーキ食べたい！」](https://x.com/haruhannohane/status/2058441693100454258) (超かぐや姫オンリー @ 大阪)\n\n📦 [**メロンブックス委託済**](https://x.com/haruhannohane/status/2058449606179279233) (新刊いくつか、詳細は後日告知)\n\n📅 [**多イベント参加予定 (夏コミ含む)**](https://x.com/haruhannohane/status/2058512372923613185) — パン食べ + 夏コミ + 「宇宙でいちばんおひめさま」 のため強気刷り、完売せずで次回お会いできる",
     "cover_url": "https://pbs.twimg.com/media/HIrIy3haYAA2D6-.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1534,7 +1534,7 @@ window.BOOTHS = [
     "x_handle": "ABzome",
     "x_url": "https://x.com/ABzome",
     "followers": 39018,
-    "body": "- **参戦確認** (X handle に「エビゾメ／超ツクヨミ祭 C-07」 明記)\n- 詳細お品書き未公開、bio NSFW 明記\n- 39k follower、絵描き、二次創作・巨大娘系",
+    "body": "- **参戦確認** (X handle に「エビゾメ／超ツクヨミ祭 C-07」 明記)\n- 詳細お品書き未公開、bio NSFW 明記\n- 39k follower、絵描き、二次創作・巨大娘系\n\n🎯 [**次回参加: 7月頭 超ツクヨミ祭1.5**](https://x.com/ABzome/status/2058446876605858239) — 再販不可な手作り初期ロットを今後委託用にレタッチ予定\n\n⚠️ [**初期ロット = 幻 (オンデマンド不可で全手作り)**](https://x.com/ABzome/status/2058569314807275940) — タイトル全手書き金字、股間修正ホログラム切り貼り、ガイドライン上再販禁止",
     "cps": [],
     "tags": {
       "r18": false,
@@ -1545,7 +1545,14 @@ window.BOOTHS = [
       "illust": false,
       "manga": true,
       "goods": false
-    }
+    },
+    "warnings": [
+      [
+        "reprint",
+        "⚠️ 再販なし",
+        "https://x.com/ABzome/status/2058569314807275940"
+      ]
+    ]
   },
   {
     "booth_id": "C-08",
@@ -1554,7 +1561,7 @@ window.BOOTHS = [
     "x_handle": "umenoichiru",
     "x_url": "https://x.com/umenoichiru/status/2057778599198130529",
     "followers": 134,
-    "body": "- **新刊**：『**HAPPY RE:LYRICS!**』 Cosmic Princess Kaguya Unofficial Artbook\n  - **10 曲 曲パロ・サムネ風イラスト本** (Tube パロ design)、各曲のカバー動画 サムネを fan art で再構成\n  - **アートブック / 2 作家** (UMEMUGI = 梅野いちる + こむぎ)\n  - 表紙：ヤチヨ (青髪、ピース) + かぐや (オレンジ髪ギャル化、ハート、ウィンク)\n  - **サンプル①**：かぐや「どりーみんちゅちゅ」 covered (原曲 巡音ルカ、emon)、Tube 視聴ページ pastiche、@2041/02/14 valentine 投稿風「かぐやっほー！かぐやだよ！オタク達はチョコもらえたかな？」\n  - サンプル②③：fan art の interior comic panels、ASMR / 配信状況の暗示\n- 「かぐや (+いろは)・ヤチヨが歌ってみた動画をあげるならどんな動画にするか?」 という本",
+    "body": "- **新刊**：『**HAPPY RE:LYRICS!**』 Cosmic Princess Kaguya Unofficial Artbook\n  - **10 曲 曲パロ・サムネ風イラスト本** (Tube パロ design)、各曲のカバー動画 サムネを fan art で再構成\n  - **アートブック / 2 作家** (UMEMUGI = 梅野いちる + こむぎ)\n  - 表紙：ヤチヨ (青髪、ピース) + かぐや (オレンジ髪ギャル化、ハート、ウィンク)\n  - **サンプル①**：かぐや「どりーみんちゅちゅ」 covered (原曲 巡音ルカ、emon)、Tube 視聴ページ pastiche、@2041/02/14 valentine 投稿風「かぐやっほー！かぐやだよ！オタク達はチョコもらえたかな？」\n  - サンプル②③：fan art の interior comic panels、ASMR / 配信状況の暗示\n- 「かぐや (+いろは)・ヤチヨが歌ってみた動画をあげるならどんな動画にするか?」 という本\n\n🎯 [**次回参加: 超ツクヨミ祭1.5**](https://x.com/umenoichiru/status/2058449944361763307)\n\n📖 [**pixiv 新刊サンプル投稿**](https://www.pixiv.net/artworks/145079055) + 💌 [マシュマロ感想受付](https://marshmallow-qa.com/sl2ot82ex6i5pcm)",
     "cover_url": "https://pbs.twimg.com/media/HI6yudFawAA0cti.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1588,7 +1595,7 @@ window.BOOTHS = [
     "x_handle": "Tutanai_ap05",
     "x_url": "https://x.com/Tutanai_ap05/status/2058163157240348977",
     "followers": 13734,
-    "body": "- **サークル名「夢の中でもキミに会いたい」 確定**- **新刊**：『**精一杯のありがとうを**』 B5/14P/モノクロ/¥500\n  - 表紙：かぐや (兎耳、星空背景、感涙表情) — Cosmic Princess Kaguya Unofficial Fanbook、2026.05.24 日付\n- **フルカラー色紙**：各 **¥2,500** — **各回 3 枚ずつ同構図 用意** (3 部 = 計 9 枚)、ヤチヨくんとも 他のイラスト製作中\n- **フルカラーポストカードサイズイラスト**：¥2,000\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/Tutanai_ap05/status/2058749879120535692) — 残部分は同イベント後に通販予定\n\n📊 **完売タイムライン**：[第三部](https://x.com/Tutanai_ap05/status/2058410287888482709) → [全完売 / 撤収](https://x.com/Tutanai_ap05/status/2058391808066093505)",
+    "body": "- **サークル名「夢の中でもキミに会いたい」 確定**- **新刊**：『**精一杯のありがとうを**』 B5/14P/モノクロ/¥500\n  - 表紙：かぐや (兎耳、星空背景、感涙表情) — Cosmic Princess Kaguya Unofficial Fanbook、2026.05.24 日付\n- **フルカラー色紙**：各 **¥2,500** — **各回 3 枚ずつ同構図 用意** (3 部 = 計 9 枚)、ヤチヨくんとも 他のイラスト製作中\n- **フルカラーポストカードサイズイラスト**：¥2,000\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/Tutanai_ap05/status/2058749879120535692) — 残部分は同イベント後に通販予定\n\n📊 **完売タイムライン**：[第三部](https://x.com/Tutanai_ap05/status/2058410287888482709) → [全完売 / 撤収](https://x.com/Tutanai_ap05/status/2058391808066093505)\n\n📅 [**ツクヨミスクエア 日程決定分すべて参加予定 (関西開催含む)**](https://x.com/Tutanai_ap05/status/2058750716144152845)",
     "cover_url": "https://pbs.twimg.com/media/HJAQe5TaEAAqQW7.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1620,7 +1627,7 @@ window.BOOTHS = [
     "x_handle": "rUwhdLQqtI433",
     "x_url": "https://x.com/rUwhdLQqtI433/status/2057478416287596934",
     "followers": 2349,
-    "body": "- **サークル名「39dmp」 確定**、handle 内表記も \"5/24 超ツクヨミ祭 C10：5/31 インテ３号館 さ11b\"\n- **新刊**：『**himelog1**』 16P/¥300/全年齢向け = **黒鬼とみかのいの本、web 再録含む**\n  - 表紙：3 人キャラ (黒鬼系) 並び\n- **既刊**：『**夢惑いパラノイア**』 48P/¥700/成人向け = スパコミ新刊、みかのい/あさのい CP\n  - 表紙：6 人 ぐらいの複数キャラ collage\n- **無料配布**：サークルロゴバッグ (フラットパック、透明) + ポストカード型ペーパー\n- **高額紙幣 NG** (現金ジャスト推奨)\n- みかのい / あさのい (= みかんといろは / あんといろは?) 雰囲気作家、別アカで商業",
+    "body": "- **サークル名「39dmp」 確定**、handle 内表記も \"5/24 超ツクヨミ祭 C10：5/31 インテ３号館 さ11b\"\n- **新刊**：『**himelog1**』 16P/¥300/全年齢向け = **黒鬼とみかのいの本、web 再録含む**\n  - 表紙：3 人キャラ (黒鬼系) 並び\n- **既刊**：『**夢惑いパラノイア**』 48P/¥700/成人向け = スパコミ新刊、みかのい/あさのい CP\n  - 表紙：6 人 ぐらいの複数キャラ collage\n- **無料配布**：サークルロゴバッグ (フラットパック、透明) + ポストカード型ペーパー\n- **高額紙幣 NG** (現金ジャスト推奨)\n- みかのい / あさのい (= みかんといろは / あんといろは?) 雰囲気作家、別アカで商業\n\n🛒 [**黒鬼本 通販予定**](https://x.com/rUwhdLQqtI433/status/2058456003545539065) (会場入れなかった方向け、印刷きれい) + 通販アンケート実施中\n\n📅 **7-8月 多イベント参加予定**:\n- [7/5 超ツクヨミ祭1.5](https://x.com/rUwhdLQqtI433/status/2058878161144984056)\n- 7/12 Jケット\n- 7/26 パン食べ\n- 夏コミ + 8/30 赤ブーオンリー — 夏コミ向けに「あさひくん × アキラ君 × のい 3P」検討中",
     "cover_url": "https://pbs.twimg.com/media/HI2hi3zbkAIR9xh.jpg?name=orig",
     "cps": [
       "mikanoi"
@@ -1640,6 +1647,11 @@ window.BOOTHS = [
       [
         "cash",
         "💴 ジャスト払い推奨"
+      ],
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/rUwhdLQqtI433/status/2058456003545539065"
       ]
     ],
     "cover_urls": [
