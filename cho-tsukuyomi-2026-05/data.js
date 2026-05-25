@@ -746,7 +746,7 @@ window.BOOTHS = [
     "x_handle": "tsugu_tarou",
     "x_url": "https://x.com/tsugu_tarou/status/2057417334609060329",
     "followers": null,
-    "body": "- **新刊**：『**超シャッフル祭発生中!?**』 (Tyou Syahhusai Hasseityu!?) — Cosmic Princess Kaguya Unofficial Fanbook\n  - **彩葉とかぐやが入れ替わるゆるギャグ** 漫画\n  - 表紙：三人 (彩葉 ブロンド ロング ＋ かぐや 紫黒髪 ＋ ヤチヨ 銀髪チビ) シャッフル状態\n  - サンプル page：「あれ......私が寝てる？」 系の reaction、入れ替わりギャグの王道\n- ページ数 / 価格 / 頒布形態：**未公開** (サンプル後ほど予定)",
+    "body": "- **新刊**：『**超シャッフル祭発生中!?**』 (Tyou Syahhusai Hasseityu!?) — Cosmic Princess Kaguya Unofficial Fanbook\n  - **彩葉とかぐやが入れ替わるゆるギャグ** 漫画\n  - 表紙：三人 (彩葉 ブロンド ロング ＋ かぐや 紫黒髪 ＋ ヤチヨ 銀髪チビ) シャッフル状態\n  - サンプル page：「あれ......私が寝てる？」 系の reaction、入れ替わりギャグの王道\n- ページ数 / 価格 / 頒布形態：**未公開** (サンプル後ほど予定)\n\n🎯 [**夏コミ受かれば新作 + 増販検討**](https://x.com/tsugu_tarou/status/2058415728842322195)",
     "alts": [
       {
         "circle_name": "みなみ谷 — 月の南極 サークル メンバー",
@@ -830,7 +830,7 @@ window.BOOTHS = [
     "x_handle": "sango3_3",
     "x_url": "https://x.com/sango3_3/status/2058014312149729693",
     "followers": 5814,
-    "body": "- **新刊**：『やみ夜にいろづく』 A5/24P/¥500/ヤチいろ、デート + ラブラブ\n- 表紙：彩葉 + かぐや 接近 + FUSHI ぽい小狐、内容 emotional グラデ示唆 (「知ってしまった」 layer サブカット)\n- 配置 A-26 確定、map 付き sample image で確認済",
+    "body": "- **新刊**：『やみ夜にいろづく』 A5/24P/¥500/ヤチいろ、デート + ラブラブ\n- 表紙：彩葉 + かぐや 接近 + FUSHI ぽい小狐、内容 emotional グラデ示唆 (「知ってしまった」 layer サブカット)\n- 配置 A-26 確定、map 付き sample image で確認済\n\n🎯 [**次回参加: 6/21 ツクヨミスクエア申込済**](https://x.com/sango3_3/status/2058717290413269000) — 今後イベントで再販 + 6/21 以降の残部は通販回し予定",
     "cover_url": "https://pbs.twimg.com/media/HI-H0y1bAAAEn6j.jpg?name=orig",
     "cps": [
       "iroyachi"
