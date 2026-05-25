@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Page title is injected from event.js at runtime; this is just a fallback for crawlers that don't run JS -->
+<title>同人即売会 サークルガイド (非公式)</title>
+<meta name="description" content="同人即売会のサークル一覧 / お品書き / 会場マップ — 非公式 fan guide template">
+<link rel="stylesheet" href="style.css?v=1779673419">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+
+<!-- OG / Twitter — values overwritten at runtime from event.js -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="同人即売会 サークルガイド">
+<meta property="og:description" content="サークル一覧 + お品書き + 会場マップ">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="同人即売会 サークルガイド">
+<meta name="twitter:image" content="og.png">
+</head>
+<body>
+<header>
+  <h1 id="event-title">🌙 ...</h1>
+  <p class="event-info" id="event-info"></p>
+  <p class="disclaimer" id="event-disclaimer"></p>
+  <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
+</header>
+
+<section class="map-section">
+  <h2>会場マップ</h2>
+  <img id="venue-map" src="map.jpg" alt="会場マップ" class="venue-map">
+  <p class="map-caption" id="map-caption"></p>
+</section>
+
+<section class="filter-section">
+  <div class="filters">
+    <div class="search-wrap">
+      <input type="search" id="search-input" placeholder="サークル名 / 作家 / X / ブース ID 検索..." class="search-input" autocomplete="off">
+      <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
+    </div>
+  </div>
+  <div class="filters filters-cp" id="filters-cp">
+    <span class="filter-row-label">CP</span>
+    <button class="filter-btn active" data-filter="all">全部</button>
+    <!-- CP buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filters filters-tag" id="filters-tag">
+    <span class="filter-row-label">タグ</span>
+    <button class="filter-btn" data-filter="fav" title="自分でマークした お気に入りのみ表示">⭐ お気に入り</button>
+    <!-- Tag buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filter-stats" id="filter-stats"></div>
+</section>
+
+<section class="booths-section" id="booths-section">
+  <!-- Per-row grids generated at runtime from EVENT_CONFIG.rows -->
+</section>
+
+<button class="back-to-top" id="back-to-top" type="button" aria-label="トップに戻る" hidden>↑</button>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-body">
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-content">
+    <div id="modal-body"></div>
+  </div>
+  <button class="modal-close" id="modal-close" aria-label="閉じる" type="button" onclick="(function(){var m=document.getElementById('modal');m.hidden=true;m.style.display='none';document.body.style.overflow='';try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}})()">×</button>
+</div>
+
+<footer id="event-footer"></footer>
+
+<script src="event.js?v=1779673419"></script>
+<script src="filters.js?v=1779673419"></script>
+<script src="data.js?v=1779673419"></script>
+<script src="app.js?v=1779673419"></script>
+</body>
+</html>
