@@ -830,7 +830,7 @@ window.BOOTHS = [
     "x_handle": "sango3_3",
     "x_url": "https://x.com/sango3_3/status/2058014312149729693",
     "followers": 5814,
-    "body": "- **新刊**：『やみ夜にいろづく』 A5/24P/¥500/ヤチいろ、デート + ラブラブ\n- 表紙：彩葉 + かぐや 接近 + FUSHI ぽい小狐、内容 emotional グラデ示唆 (「知ってしまった」 layer サブカット)\n- 配置 A-26 確定、map 付き sample image で確認済\n\n🎯 [**次回参加: 6/21 ツクヨミスクエア申込済**](https://x.com/sango3_3/status/2058717290413269000) — 今後イベントで再販 + 6/21 以降の残部は通販回し予定",
+    "body": "- **新刊**：『やみ夜にいろづく』 A5/24P/¥500/ヤチいろ、デート + ラブラブ\n- 表紙：彩葉 + かぐや 接近 + FUSHI ぽい小狐、内容 emotional グラデ示唆 (「知ってしまった」 layer サブカット)\n- 配置 A-26 確定、map 付き sample image で確認済\n\n🎯 [**次回参加: 6/21 ツクヨミスクエア申込済**](https://x.com/sango3_3/status/2058727857128620243) — 今後イベントで再販 + 6/21 以降の残部は通販回し予定",
     "cover_url": "https://pbs.twimg.com/media/HI-H0y1bAAAEn6j.jpg?name=orig",
     "cps": [
       "iroyachi"
