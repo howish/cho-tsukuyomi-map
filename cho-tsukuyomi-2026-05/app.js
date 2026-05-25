@@ -613,4 +613,120 @@
   }
   openFromHash();
   window.addEventListener('hashchange', openFromHash);
+
+  // ===== Service Worker / Offline Mode =====
+  // Registers sw.js (scoped to this event subdirectory) and wires the
+  // "📥 オフライン対応" button: tap once to pre-cache the whole event
+  // (HTML/CSS/JS + map + every booth cover image), tap again to clear.
+  // State is persisted in localStorage so the button reflects truth on
+  // a fresh page load.
+  (function setupOfflineMode() {
+    const btn = document.getElementById('offline-btn');
+    const status = document.getElementById('offline-status');
+    if (!btn) return;
+    if (!('serviceWorker' in navigator)) {
+      btn.hidden = true;
+      return;
+    }
+    btn.hidden = false;
+
+    const OFFLINE_KEY = (EVENT.favorites_key || 'event-guide') + '-offline-ready';
+    let uiState = 'idle'; // idle | caching | ready
+
+    function setLabel(s, text) {
+      uiState = s;
+      btn.classList.remove('caching', 'ready');
+      if (s === 'idle') {
+        btn.textContent = text || '📥 オフライン対応 ON';
+      } else if (s === 'caching') {
+        btn.classList.add('caching');
+        btn.textContent = text || '📥 キャッシュ中...';
+      } else if (s === 'ready') {
+        btn.classList.add('ready');
+        btn.textContent = text || '✅ オフライン対応 ON (タップで OFF)';
+      }
+    }
+
+    function setStatus(text) { if (status) status.textContent = text || ''; }
+
+    function collectAssetUrls() {
+      const urls = new Set();
+      // Page shell — relative URLs so they match against this event scope
+      ['', 'index.html', 'app.js', 'event.js', 'filters.js', 'data.js',
+       'style.css', 'manifest.json', 'icon.svg', 'map.jpg', 'og.png'].forEach(u => urls.add(u));
+      // Booth cover images — both original and ?name=small thumbnail variants
+      booths.forEach(b => {
+        const covers = b.cover_urls && b.cover_urls.length
+          ? b.cover_urls
+          : (b.cover_url ? [b.cover_url] : []);
+        covers.forEach(url => {
+          urls.add(url);
+          const thumb = /\?name=/.test(url)
+            ? url.replace(/\?name=[^&]+/, '?name=small')
+            : url + '?name=small';
+          urls.add(thumb);
+        });
+      });
+      return Array.from(urls);
+    }
+
+    async function getSWTarget() {
+      if (navigator.serviceWorker.controller) return navigator.serviceWorker.controller;
+      const reg = await navigator.serviceWorker.ready;
+      return reg.active;
+    }
+
+    navigator.serviceWorker.register('sw.js').then(() => {
+      if (localStorage.getItem(OFFLINE_KEY) === '1') {
+        setLabel('ready');
+      } else {
+        setLabel('idle');
+      }
+    }).catch((err) => {
+      console.warn('SW register failed:', err);
+      btn.disabled = true;
+      btn.textContent = '📵 オフライン非対応';
+    });
+
+    navigator.serviceWorker.addEventListener('message', (e) => {
+      const d = e.data || {};
+      if (d.event === 'cache-progress') {
+        const denom = d.total || 1;
+        const pct = Math.round((d.done + d.failed) / denom * 100);
+        setLabel('caching', `📥 キャッシュ中... ${d.done + d.failed}/${d.total} (${pct}%)`);
+      } else if (d.event === 'cache-done') {
+        localStorage.setItem(OFFLINE_KEY, '1');
+        setLabel('ready');
+        setStatus(d.failed > 0
+          ? `${d.done} 件キャッシュ完了 (${d.failed} 件失敗 — X CDN の一部が hot-link block 中の可能性あり)`
+          : `全 ${d.done} 件キャッシュ完了 — 圏外でも利用可能🌿`);
+      } else if (d.event === 'cache-cleared') {
+        localStorage.removeItem(OFFLINE_KEY);
+        setLabel('idle');
+        setStatus('オフラインキャッシュを削除しました');
+      } else if (d.event === 'cache-error') {
+        setLabel('idle');
+        setStatus('エラー: ' + d.message);
+      }
+    });
+
+    btn.addEventListener('click', async () => {
+      if (uiState === 'caching') return;
+      if (uiState === 'idle') {
+        const target = await getSWTarget();
+        if (!target) {
+          setStatus('Service Worker 起動中... 数秒後にもう一度タップしてください');
+          return;
+        }
+        const urls = collectAssetUrls();
+        setLabel('caching', `📥 キャッシュ中... 0/${urls.length}`);
+        setStatus(`${urls.length} 件のファイルをダウンロード中... (画像が多いので 1-2 分かかる場合あり)`);
+        target.postMessage({ action: 'cache-event', payload: { urls } });
+      } else if (uiState === 'ready') {
+        if (!confirm('オフラインキャッシュを削除しますか？\n削除すると圏外で表示できなくなります。')) return;
+        const target = await getSWTarget();
+        if (target) target.postMessage({ action: 'clear-event' });
+      }
+    });
+  })();
 })();

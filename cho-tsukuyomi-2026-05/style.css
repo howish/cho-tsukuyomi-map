@@ -74,6 +74,58 @@ header a {
   border-color: #ffd700;
 }
 
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.header-actions .share-btn,
+.header-actions .offline-btn {
+  margin-top: 0;
+}
+
+.offline-btn {
+  padding: 0.45rem 1.1rem;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.offline-btn:hover, .offline-btn:active {
+  background: rgba(255,255,255,0.25);
+}
+
+.offline-btn.caching {
+  background: rgba(255,215,0,0.25);
+  border-color: #ffd700;
+  cursor: progress;
+}
+
+.offline-btn.ready {
+  background: rgba(76,175,80,0.85);
+  border-color: #4caf50;
+}
+
+.offline-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.offline-status {
+  margin: 0.4rem auto 0 auto;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.85);
+  min-height: 1em;
+  max-width: 540px;
+}
+
 section {
   max-width: 900px;
   margin: 1.5rem auto;
