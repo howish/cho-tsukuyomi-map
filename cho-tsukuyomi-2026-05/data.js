@@ -6,7 +6,7 @@ window.BOOTHS = [
     "x_handle": "fluffy_palette",
     "x_url": "https://x.com/fluffy_palette/status/2056987356377612450",
     "followers": 24283,
-    "body": "- **新刊**：『めでたししちゃお〜！』(かぐや×彩葉、研究職に就いた彩葉がかぐやを復活させたその後)\n  - **B5 / 40P / フルカラー漫画 / ¥1,500 / 全年齢**\n- **既刊 6 種**：脳内 (¥700)、しゃけかゆ屋 (¥600)、ナカヨシノヤッ (¥200)、ハッピーに (¥700)、お願いあるんだけど… (¥600)、なかよしのヤ (¥200)",
+    "body": "- **新刊**：『めでたししちゃお〜！』(かぐや×彩葉)\n  - **B5 / 40P / フルカラー漫画 / ¥1,500 / 全年齢**\n  - 研究職に就いた彩葉が、かぐやを復活させたその後―。ハッピーエンドのその先の、彩葉とかぐやのお話。\n- **既刊 6 種**：\n  1. **『胸懐サクセッション』** (¥700) — 彩葉の兄・朝日が来訪、Tシャツに込められた想いと継承の話 (SCC33 day2 新刊)\n  2. **『ツクヨミでヤッチョと握手！』** (¥600) — ヤチヨが握手券付きチケットを作る話 (SCC33 day2 新刊)\n  3. **『ナカヨシノヤツ！』** (¥200) — FUSHIからヤチヨの記憶を見せてもらった後の彩葉 (SCC33 day2 新刊)\n  4. **『ハッピーエンドパンケーキ』** (¥700) — X 公開のかぐや編 + ヤチヨ編 描き下ろし収録 (HARUCOMICCITY35 新刊)\n  5. **『八千年分お願いがあるんだ いいかな？』** (¥600) — Ex-Otogibanashi をフルで聴いた彩葉 (HARUCOMICCITY35 新刊)\n  6. **『なかよしのやつ！』** (¥200) — 「なかよしのやつ！」をする彩葉とかぐや (HARUCOMICCITY35 新刊)\n\n📦 **メロンブックス 通販**:\n- 新刊『めでたししちゃお〜！』: https://www.melonbooks.co.jp/detail/detail.php?product_id=3637684\n- 『ハッピーエンドパンケーキ』: https://www.melonbooks.co.jp/detail/detail.php?product_id=3532951\n- 『八千年分お願いがあるんだ いいかな？』: https://www.melonbooks.co.jp/detail/detail.php?product_id=3543255\n- 『なかよしのやつ！』: https://www.melonbooks.co.jp/detail/detail.php?product_id=3548129\n\n📦 **とらのあな 委託**:\n- 『ハッピーエンドパンケーキ』: https://ecs.toranoana.jp/tora/ec/item/040031305353\n- 『なかよしのやつ！』: https://ecs.toranoana.jp/tora/ec/item/040031307094",
     "cover_url": "https://pbs.twimg.com/media/HIvidb_bIAAwEje.jpg?name=orig",
     "cps": [
       "iroka"
@@ -24,6 +24,12 @@ window.BOOTHS = [
     "min_price": 200,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIvidb_bIAAwEje.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり"
+      ]
     ]
   },
   {
