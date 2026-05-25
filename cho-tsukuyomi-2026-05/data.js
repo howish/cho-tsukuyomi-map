@@ -72,7 +72,7 @@ window.BOOTHS = [
     "x_handle": "TERURU_sakura",
     "x_url": "https://x.com/TERURU_sakura/status/2056356297067712954",
     "followers": 48758,
-    "body": "- **新刊 1**：『これが私たちのハッピーエンド！』 B5/P26/全年齢/フルカラー/¥1,000 (彩葉が告白、ギャグ多め)\n- **新刊 2**：『超トキメク！かぐや姫』 B5/P24/全年齢/フルカラー/¥1,000 (Twitter まとめ)\n\n🎯 **次回参加**：[7/26 ぱんたべ](https://x.com/TERURU_sakura/status/2056635752566624300) (超かぐや姫オンリー @ 大阪) + 冬コミ予定",
+    "body": "- **新刊 1**：『これが私たちのハッピーエンド！』 B5/P26/全年齢/フルカラー/¥1,000 (彩葉が告白、ギャグ多め)\n- **新刊 2**：『超トキメク！かぐや姫』 B5/P24/全年齢/フルカラー/¥1,000 (Twitter まとめ)\n\n🎯 **次回参加**：[7/26 ぱんたべ](https://x.com/TERURU_sakura/status/2056635752566624300) (超かぐや姫オンリー @ 大阪) + 冬コミ予定\n\n📊 **完売タイムライン**：[第二部](https://x.com/TERURU_sakura/status/2058390311144136873) → [第三部](https://x.com/TERURU_sakura/status/2058407719309328496) → [全完売 / 撤収](https://x.com/TERURU_sakura/status/2058421954651254951)",
     "cover_url": "https://pbs.twimg.com/media/HImlJvCboAEN__p.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -93,7 +93,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/TERURU_sakura/status/2058407719309328496"
+        "https://x.com/TERURU_sakura/status/2058421954651254951"
       ]
     ]
   },
@@ -104,7 +104,7 @@ window.BOOTHS = [
     "x_handle": "xuz_op",
     "x_url": "https://x.com/xuz_op/status/2054880958885867538",
     "followers": 8176,
-    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/本文34P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意\n- 在庫第三部まで分割頒布 (各部均等)、無配漫画もあり (間に合えば)、4P / いろかぐ\n- 設営ポスターは第三部以降にお譲り予定 (希望者向け)\n- 本編でヤチヨの過去を知った後の時間軸：自分の気持ちに名前を付けられない彩葉と 8000 年分のしっとりした感情を抱いているヤチヨがくっつくまでのお話\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/xuz_op/status/2058668120022425635) (or 赤ブー検討中)",
+    "body": "- **新刊**：『ふれて、なでて、たしかめて』\n  - いろヤチ/B5/本文34P/¥500/全年齢\n  - 本編でヤチヨの記憶を見た後の二人がくっつくまで\n  - **部数アンケ実施**\n- ⚠️ サンプルに本編のネタバレを含むため要注意\n- 在庫第三部まで分割頒布 (各部均等)、無配漫画もあり (間に合えば)、4P / いろかぐ\n- 設営ポスターは第三部以降にお譲り予定 (希望者向け)\n- 本編でヤチヨの過去を知った後の時間軸：自分の気持ちに名前を付けられない彩葉と 8000 年分のしっとりした感情を抱いているヤチヨがくっつくまでのお話\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/xuz_op/status/2058668120022425635) (or 赤ブー検討中)\n\n📊 **完売タイムライン**：[第一部](https://x.com/xuz_op/status/2058383141921079584) → [第二部](https://x.com/xuz_op/status/2058391044455371239) → [第三部](https://x.com/xuz_op/status/2058413223238660278) → [全完売 / 撤収](https://x.com/xuz_op/status/2058435132370178322)",
     "cover_url": "https://pbs.twimg.com/media/HIwn65RbwAASz3N.jpg?name=orig",
     "cps": [
       "iroka",
@@ -349,7 +349,7 @@ window.BOOTHS = [
     "x_handle": "unido_fu",
     "x_url": "https://x.com/unido_fu/status/2057959694745162137",
     "followers": 87,
-    "body": "- **サークル名「群青プラネタリウム」 確定**- **新刊**：『**超らくがき本**』 B5/フルカラー/12P/¥500\n  - 表紙：金髪ロング キャップ被ったキャラ (オリジナル?彩葉?)\n  - + 作れたらペーパー付属するかも\n- **お釣り NG** (現金ジャスト推奨)、一般参加者向け案内マナー要請\n- 配置疑惑解消 (旧「お品書き画像 A-12 表記」 ＝ 実は A-13 正解)",
+    "body": "- **サークル名「群青プラネタリウム」 確定**- **新刊**：『**超らくがき本**』 B5/フルカラー/12P/¥500\n  - 表紙：金髪ロング キャップ被ったキャラ (オリジナル?彩葉?)\n  - + 作れたらペーパー付属するかも\n- **お釣り NG** (現金ジャスト推奨)、一般参加者向け案内マナー要請\n- 配置疑惑解消 (旧「お品書き画像 A-12 表記」 ＝ 実は A-13 正解)\n\n📊 **完売タイムライン**：[第二部](https://x.com/unido_fu/status/2058390730419408968) → [第三部](https://x.com/unido_fu/status/2058408781986549928) → [全完売 / 撤収](https://x.com/unido_fu/status/2058430868272156683)",
     "cover_url": "https://pbs.twimg.com/media/HI7z_bIaIAAgWw4.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -371,7 +371,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/unido_fu/status/2058408781986549928"
+        "https://x.com/unido_fu/status/2058430868272156683"
       ]
     ],
     "cover_urls": [
@@ -385,7 +385,7 @@ window.BOOTHS = [
     "x_handle": "ato252058",
     "x_url": "https://x.com/ato252058/status/2056327836173226071",
     "followers": 674,
-    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)\n- 他ジャンルも極少部数持込み予定、ご希望の方は声かけ",
+    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)\n- 他ジャンルも極少部数持込み予定、ご希望の方は声かけ\n\n📊 **完売タイムライン**：[第一部](https://x.com/ato252058/status/2058369598362440033) → [第二部](https://x.com/ato252058/status/2058387459931853124) → [全完売 / 撤収](https://x.com/ato252058/status/2058406593633673401)",
     "cover_url": "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -406,7 +406,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/ato252058/status/2058387459931853124"
+        "https://x.com/ato252058/status/2058406593633673401"
       ]
     ]
   },
@@ -487,7 +487,7 @@ window.BOOTHS = [
     "x_handle": "testesmyland",
     "x_url": "https://x.com/testesmyland/status/2057847213557211218",
     "followers": 552,
-    "body": "- **コピ本予定** (今描いてる、表紙 sketch のみ公開 — 白髪キャラ歓喜表情)\n- 詳細価格 / ページ未確定、お品書きなし\n- 急遽参加、コピ本 1 種のみで身軽",
+    "body": "- **コピ本予定** (今描いてる、表紙 sketch のみ公開 — 白髪キャラ歓喜表情)\n- 詳細価格 / ページ未確定、お品書きなし\n- 急遽参加、コピ本 1 種のみで身軽\n\n📊 **完売タイムライン**：[第二部](https://x.com/testesmyland/status/2058388144261890155) → [全完売 / 撤収](https://x.com/testesmyland/status/2058388144261890155)",
     "cover_url": "https://pbs.twimg.com/media/HI7xCWybYAE_-IV.png?name=orig",
     "cps": [],
     "tags": {
@@ -506,7 +506,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/testesmyland/status/2058388144261890155"
       ]
     ]
   },
@@ -517,7 +518,7 @@ window.BOOTHS = [
     "x_handle": "noah_ark38",
     "x_url": "https://x.com/noah_ark38/status/2057945850148708578",
     "followers": 24074,
-    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、[「内心ドキドキ」](https://x.com/noah_ark38/status/2057945850148708578) (本人、お品書き tweet)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ",
+    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、[「内心ドキドキ」](https://x.com/noah_ark38/status/2057945850148708578) (本人、お品書き tweet)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ\n\n📊 **完売タイムライン**：[第二部](https://x.com/noah_ark38/status/2058389640382759391) → [第三部](https://x.com/noah_ark38/status/2058407920354869407) → [全完売 / 撤収](https://x.com/noah_ark38/status/2058440414777299207)",
     "cover_url": "https://pbs.twimg.com/media/HI9I4CBbEAARXHh.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -538,7 +539,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/noah_ark38/status/2058426507740221692"
+        "https://x.com/noah_ark38/status/2058440414777299207"
       ],
       [
         "limit",
@@ -579,7 +580,7 @@ window.BOOTHS = [
     "x_handle": "C_77sotome",
     "x_url": "https://x.com/C_77sotome/status/2058132405622620439",
     "followers": 142,
-    "body": "- **新刊**：『安芸の都にて』 B5/ワイド四コマ/¥500、いろかぐ宮島デート (10 年後)\n- **同人イベント初陣**",
+    "body": "- **新刊**：『安芸の都にて』 B5/ワイド四コマ/¥500、いろかぐ宮島デート (10 年後)\n- **同人イベント初陣**\n\n📊 **完売タイムライン**：[第二部](https://x.com/C_77sotome/status/2058392643282051202) → [全完売 / 撤収](https://x.com/C_77sotome/status/2058412805511098759)",
     "cover_url": "https://pbs.twimg.com/media/HI_0g44bwAAFkE-.jpg?name=orig",
     "cps": [
       "iroka"
@@ -668,7 +669,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/EiNeEna_mikan/status/2058438137949585525"
+        "https://x.com/EiNeEna_mikan/status/2058439001485631858"
       ],
       [
         "noonline",
@@ -899,7 +900,7 @@ window.BOOTHS = [
     "x_handle": "arupaka5tuki",
     "x_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
     "followers": 22829,
-    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素",
+    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素\n\n📊 **完売タイムライン**：[第二部](https://x.com/arupaka5tuki/status/2058391211766104440) → [全完売 / 撤収](https://x.com/arupaka5tuki/status/2058412134766366864)",
     "cover_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
     "cps": [
       "iroka"
@@ -1031,7 +1032,7 @@ window.BOOTHS = [
     "x_handle": "Kei_Megumi_",
     "x_url": "https://x.com/Kei_Megumi_/status/2053679112301224032",
     "followers": 24546,
-    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)",
+    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n📊 **完売タイムライン**：[第二部](https://x.com/Kei_Megumi_/status/2058386782111330614) → [全完売 / 撤収](https://x.com/Kei_Megumi_/status/2058439841252295052)",
     "cps": [],
     "tags": {
       "r18": false,
@@ -1063,7 +1064,7 @@ window.BOOTHS = [
     "x_handle": "hihumi_akaba",
     "x_url": "https://x.com/hihumi_akaba/status/2057794957377957889",
     "followers": 488,
-    "body": "- **新刊**：『光のトリコロール』(Tricolor of Light) よろず小説合同\n  - **A5 / 108P / ¥1,000 / ヤチいろかぐ / 🔞 R-18 含む (年齢確認要)**\n  - **8 作家参加**：赤羽ひふみ／茶菓子／虎／ぬえ／はぬわ／マーライオン／右本渺／ユウソン\n  - 表紙：れぇ (三人キス寸前)\n- **委託本 ALL ¥500/全年齢**：\n  - 『**果てしない季節を君と**』 いろかぐ小説 / **マーライオンさん** / A5/48P\n  - 『**(I'm not) said adore**』 ろかいろ (芦花×彩葉) 小説 / **右本渺さん** / B6/52P",
+    "body": "- **新刊**：『光のトリコロール』(Tricolor of Light) よろず小説合同\n  - **A5 / 108P / ¥1,000 / ヤチいろかぐ / 🔞 R-18 含む (年齢確認要)**\n  - **8 作家参加**：赤羽ひふみ／茶菓子／虎／ぬえ／はぬわ／マーライオン／右本渺／ユウソン\n  - 表紙：れぇ (三人キス寸前)\n- **委託本 ALL ¥500/全年齢**：\n  - 『**果てしない季節を君と**』 いろかぐ小説 / **マーライオンさん** / A5/48P\n  - 『**(I'm not) said adore**』 ろかいろ (芦花×彩葉) 小説 / **右本渺さん** / B6/52P\n\n📊 **完売タイムライン**：[第二部](https://x.com/hihumi_akaba/status/2058388714666291592) → [全完売 / 撤収](https://x.com/hihumi_akaba/status/2058388714666291592)",
     "cover_url": "https://pbs.twimg.com/media/HI6_EQWa4AAY-tN.jpg?name=orig",
     "cps": [
       "trio"
@@ -1128,7 +1129,7 @@ window.BOOTHS = [
     "x_handle": "ohmiyamiyamiya",
     "x_url": "https://x.com/ohmiyamiyamiya/status/2057076155661140373",
     "followers": 6924,
-    "body": "- **新刊**：『**いろはにほれろ**』 (いろはにほへと alphabet poem + 「惚れろ」 の 二重 punning — \"彩葉に惚れろ\" 示唆)\n  - **文庫本サイズ / 134P / ¥1,000 (予定) / 全年齢**\n  - **いろ × ○○ CP まとめ本** = **いろかぐ / いろろか / いろヤチ ss 短編集**\n  - 表紙：いろは (黒髪・サスペンダースカート) と狐耳キャラ (彩葉 or 別キャラ) の hug 構図 + 小キャラ icon (かぐや・真実?)\n  - 「書き下ろしショートストーリー (いろろか) のサンプルがツリーに掲載」",
+    "body": "- **新刊**：『**いろはにほれろ**』 (いろはにほへと alphabet poem + 「惚れろ」 の 二重 punning — \"彩葉に惚れろ\" 示唆)\n  - **文庫本サイズ / 134P / ¥1,000 (予定) / 全年齢**\n  - **いろ × ○○ CP まとめ本** = **いろかぐ / いろろか / いろヤチ ss 短編集**\n  - 表紙：いろは (黒髪・サスペンダースカート) と狐耳キャラ (彩葉 or 別キャラ) の hug 構図 + 小キャラ icon (かぐや・真実?)\n  - 「書き下ろしショートストーリー (いろろか) のサンプルがツリーに掲載」\n\n📊 **完売タイムライン**：[第一部](https://x.com/ohmiyamiyamiya/status/2058379008535044372) → [第二部](https://x.com/ohmiyamiyamiya/status/2058389223066206523) → [全完売 / 撤収](https://x.com/ohmiyamiyamiya/status/2058408902845407701)",
     "cover_url": "https://pbs.twimg.com/media/HIwyCjYagAA30pv.jpg?name=orig",
     "cps": [
       "iroka",
@@ -1534,7 +1535,7 @@ window.BOOTHS = [
     "x_handle": "Tutanai_ap05",
     "x_url": "https://x.com/Tutanai_ap05/status/2058163157240348977",
     "followers": 13734,
-    "body": "- **サークル名「夢の中でもキミに会いたい」 確定**- **新刊**：『**精一杯のありがとうを**』 B5/14P/モノクロ/¥500\n  - 表紙：かぐや (兎耳、星空背景、感涙表情) — Cosmic Princess Kaguya Unofficial Fanbook、2026.05.24 日付\n- **フルカラー色紙**：各 **¥2,500** — **各回 3 枚ずつ同構図 用意** (3 部 = 計 9 枚)、ヤチヨくんとも 他のイラスト製作中\n- **フルカラーポストカードサイズイラスト**：¥2,000\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/Tutanai_ap05/status/2058749879120535692) — 残部分は同イベント後に通販予定",
+    "body": "- **サークル名「夢の中でもキミに会いたい」 確定**- **新刊**：『**精一杯のありがとうを**』 B5/14P/モノクロ/¥500\n  - 表紙：かぐや (兎耳、星空背景、感涙表情) — Cosmic Princess Kaguya Unofficial Fanbook、2026.05.24 日付\n- **フルカラー色紙**：各 **¥2,500** — **各回 3 枚ずつ同構図 用意** (3 部 = 計 9 枚)、ヤチヨくんとも 他のイラスト製作中\n- **フルカラーポストカードサイズイラスト**：¥2,000\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/Tutanai_ap05/status/2058749879120535692) — 残部分は同イベント後に通販予定\n\n📊 **完売タイムライン**：[第三部](https://x.com/Tutanai_ap05/status/2058410287888482709) → [全完売 / 撤収](https://x.com/Tutanai_ap05/status/2058391808066093505)",
     "cover_url": "https://pbs.twimg.com/media/HJAQe5TaEAAqQW7.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1555,7 +1556,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/Tutanai_ap05/status/2058410287888482709"
+        "https://x.com/Tutanai_ap05/status/2058391808066093505"
       ]
     ]
   },
