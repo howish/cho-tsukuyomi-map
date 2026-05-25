@@ -1,0 +1,19 @@
+{
+  "$comment": "List of events hosted on this hub. Each entry corresponds to a sub-directory containing event.js / filters.js / data.js / etc.",
+  "events": [
+    {
+      "slug": "cho-tsukuyomi-2026-05",
+      "name": "超ツクヨミ祭 第1回",
+      "short_name": "超ツクヨミ祭！1",
+      "date": "2026-05-24",
+      "date_display": "2026/05/24 (日)",
+      "venue": "立川クリエイティブスペース",
+      "fandom": "超かぐや姫！",
+      "status": "past",
+      "official_url": "https://sengendo.a.la9.jp/chokagutop.html",
+      "official_label": "超ツクヨミ祭公式",
+      "icon": "🌙",
+      "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。"
+    }
+  ]
+}

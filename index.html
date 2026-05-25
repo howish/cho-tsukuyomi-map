@@ -3,107 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>超ツクヨミ祭 第1回 (2026-05-24) サークル ガイド</title>
-<meta name="description" content="2026年5月24日 立川クリエイティブスペースで開催される 超ツクヨミ祭 第1回 のサークル一覧 / お品書き 非公式 fan guide">
-<link rel="stylesheet" href="style.css?v=1779673419">
-<link rel="manifest" href="manifest.json">
-<link rel="icon" type="image/svg+xml" href="icon.svg">
-<meta name="theme-color" content="#6a4c93">
-
-<!-- Open Graph / Twitter card -->
-<meta property="og:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
-<meta property="og:description" content="2026/05/24 立川 超かぐや姫オンリー即売会 — 全47サークルのお品書き / 価格 / X リンク / 会場マップを 1 ページで">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://howish.github.io/cho-tsukuyomi-map/">
-<meta property="og:image" content="https://howish.github.io/cho-tsukuyomi-map/og.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
-<meta name="twitter:description" content="2026/05/24 立川 超かぐや姫オンリー即売会 — お品書き + マップ + 検索 + フィルター">
-<meta name="twitter:image" content="https://howish.github.io/cho-tsukuyomi-map/og.png">
+<title>同人即売会 サークルガイド ハブ — yachi8000.app</title>
+<meta name="description" content="同人即売会の非公式サークルガイドを集めたハブ。">
+<link rel="stylesheet" href="hub.css">
+<link rel="icon" type="image/svg+xml" href="cho-tsukuyomi-2026-05/icon.svg">
+<meta name="theme-color" content="#4a3a5c">
 </head>
 <body>
-<header>
-  <h1>🌙 超ツクヨミ祭 第1回</h1>
-  <p class="event-info">
-    <strong>2026/05/24 (日) 11:00-15:30</strong> ／ 立川クリエイティブスペース (美光印刷 2F)
-    <br>4部入れ替え制 (リストバンド配布 9:30-10:00、ランダム割当) ／ 入場 ¥1,000 (千円札用意必須)
-  </p>
-  <p class="disclaimer">
-    🍃 <strong>非公式 fan guide</strong> ／ 公式情報は <a href="https://sengendo.a.la9.jp/chokagutop.html" target="_blank" rel="noopener">超ツクヨミ祭公式 (仙弦堂)</a> 参照。
-    サークル情報は各作家の X 投稿より引用、誤りや更新は X リンクから原ポストでご確認ください。
-  </p>
-  <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
+<header class="hub-header">
+  <h1>🌙 同人即売会 サークルガイド</h1>
+  <p class="hub-subtitle">非公式 fan guide ハブ ／ yachi8000.app</p>
 </header>
 
-<section class="map-section">
-  <h2>会場マップ</h2>
-  <img src="map.jpg" alt="立川クリエイティブスペース 会場マップ" class="venue-map">
-  <p class="map-caption">© 公式マップ (仙弦堂・超ツクヨミ祭運営)</p>
-</section>
-
-<section class="filter-section">
-  <div class="filters">
-    <div class="search-wrap">
-      <input type="search" id="search-input" placeholder="サークル名 / 作家 / X / ブース ID 検索..." class="search-input" autocomplete="off">
-      <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
+<main class="hub-main">
+  <section class="hub-events">
+    <h2>開催イベント一覧</h2>
+    <div id="event-list" class="event-list">
+      <p class="loading">読み込み中...</p>
     </div>
-  </div>
-  <div class="filters filters-cp">
-    <span class="filter-row-label">CP</span>
-    <button class="filter-btn active" data-filter="all">全部</button>
-    <button class="filter-btn" data-filter="cp:iroka" title="いろかぐ (いろは × かぐや、順序不問)">🦊×🐰 いろかぐ</button>
-    <button class="filter-btn" data-filter="cp:iroyachi" title="いろヤチ (いろは × ヤチヨ、順序不問)">🦊×🐙 いろヤチ</button>
-    <button class="filter-btn" data-filter="cp:iroroka" title="いろろか (いろは × 芦花、順序不問)">🦊×🌸 いろろか</button>
-    <button class="filter-btn" data-filter="cp:trio" title="三人 (いろかぐヤチ または 4人以上)">🌟 三人</button>
-    <button class="filter-btn" data-filter="cp:mikanoi" title="みかのい (帝 × 乃依)">👹×🐯 みかのい</button>
-  </div>
-  <div class="filters filters-tag">
-    <span class="filter-row-label">タグ</span>
-    <button class="filter-btn" data-filter="fav" title="自分でマークした お気に入りのみ表示">⭐ お気に入り</button>
-    <button class="filter-btn" data-filter="tag:r18" title="R-18 含む / 要 ID">🔞 R-18</button>
-    <button class="filter-btn" data-filter="tag:goudou" title="合同誌・まとめ本">🤝 合同</button>
-    <button class="filter-btn" data-filter="tag:free" title="無料配布あり">🎁 無配</button>
-    <button class="filter-btn" data-filter="tag:consign" title="委託本あり">📚 委託</button>
-    <button class="filter-btn" data-filter="tag:manga" title="漫画">📕 漫画</button>
-    <button class="filter-btn" data-filter="tag:novel" title="小説">📖 小説</button>
-    <button class="filter-btn" data-filter="tag:illust" title="イラスト本・アートブック">🎨 イラスト本</button>
-    <button class="filter-btn" data-filter="tag:goods" title="グッズ・アクスタ・ステッカー等">🛍 グッズ</button>
-  </div>
-  <div class="filter-stats" id="filter-stats"></div>
-</section>
+  </section>
 
-<section class="booths-section">
-  <h2 class="row-title">A 列</h2>
-  <div class="booth-grid" id="grid-A"></div>
-  <h2 class="row-title">B 列</h2>
-  <div class="booth-grid" id="grid-B"></div>
-  <h2 class="row-title">C 列</h2>
-  <div class="booth-grid" id="grid-C"></div>
-</section>
+  <section class="hub-about">
+    <h2>このサイトについて</h2>
+    <p>
+      映画『超かぐや姫！』 オンリー同人即売会など、同人即売会の
+      <strong>非公式 fan guide</strong> を集めたハブサイト。各イベントごとに：
+    </p>
+    <ul>
+      <li>📍 会場マップ + 全サークル一覧</li>
+      <li>📕 各ブースの お品書き画像・X リンク・価格・注意事項</li>
+      <li>🦊 CP / 🤝 合同 / 🔞 R-18 等のタグフィルター</li>
+      <li>⭐ お気に入り登録 (localStorage)</li>
+      <li>🔗 ブース ID deep-link (`/<event-slug>/#A-04`)</li>
+    </ul>
+    <p class="hub-policy">
+      評価ランキング・完売予測は意図的に含めない<strong>中立 fan guide ポリシー</strong>で運営。
+      各サークル情報は作家の X 公開ポストから引用、X リンクから原典確認推奨。
+    </p>
+  </section>
+</main>
 
-<button class="back-to-top" id="back-to-top" type="button" aria-label="トップに戻る" hidden>↑</button>
-
-<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-body">
-  <div class="modal-backdrop" id="modal-backdrop"></div>
-  <div class="modal-content">
-    <div id="modal-body"></div>
-  </div>
-  <button class="modal-close" id="modal-close" aria-label="閉じる" type="button" onclick="(function(){var m=document.getElementById('modal');m.hidden=true;m.style.display='none';document.body.style.overflow='';try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}})()">×</button>
-</div>
-
-<footer>
+<footer class="hub-footer">
   <p>
-    🌙 <strong>超ツクヨミ祭 第1回 サークルガイド</strong> — 非公式 fan guide<br>
-    情報は各サークル作家の X 公開ポストから集約、表紙画像は X CDN リンク (画像クリックで X 投稿で原寸表示)<br>
-    Built by <a href="https://github.com/howish" target="_blank" rel="noopener">@howish</a> ／ 2026-05-23
-  </p>
-  <p class="footer-meta">
-    情報誤り・新規追加：<a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub repo</a> に PR / Issue 歓迎<br>
-    会場マップ © 仙弦堂・超ツクヨミ祭運営 ／ お品書き情報 © 各サークル作家
+    Built by <a href="https://github.com/howish" target="_blank" rel="noopener">@howish</a>
+    ／ ソースは <a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub</a>
+    ／ 同人即売会の guide 追加リクエストは Issue / PR で歓迎🌿
   </p>
 </footer>
 
-<script src="data.js?v=1779673419"></script>
-<script src="app.js?v=1779673419"></script>
+<script src="hub.js"></script>
 </body>
 </html>
