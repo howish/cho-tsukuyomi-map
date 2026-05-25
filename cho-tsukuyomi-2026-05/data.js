@@ -1329,7 +1329,7 @@ window.BOOTHS = [
     "x_handle": "1R0HASU",
     "x_url": "https://x.com/1R0HASU/status/2058206287096430841",
     "followers": 34220,
-    "body": "- **参戦確認** (X handle 「ウサホリ / 超ツクヨミ祭C-01」 明記)\n- **新刊**：『**INTERVAL**』\n  - **B5 / 20P (本文 16P) / ¥300**\n  - 本編の隙間にあったかもしれないようなお話\n  - 表紙：いろは (黒髪セーラー) + かぐや (金髪ウインク)\n- CP: いろかぐ\n- 34k follower、東方・アニメ・ヨーヨー界隈",
+    "body": "- **参戦確認** (X handle 「ウサホリ / 超ツクヨミ祭C-01」 明記)\n- **新刊**：『**INTERVAL**』\n  - **B5 / 20P (本文 16P) / ¥300**\n  - 本編の隙間にあったかもしれないようなお話\n  - 表紙：いろは (黒髪セーラー) + かぐや (金髪ウインク)\n- CP: いろかぐ\n- 34k follower、東方・アニメ・ヨーヨー界隈\n\n🔁 [**冬コミで超かぐや姫 参加検討**](https://x.com/1R0HASU/status/2058427674004250759) (本人 5/24 完売後の手応えコメント)",
     "cps": [
       "iroka"
     ],
@@ -1347,6 +1347,13 @@ window.BOOTHS = [
     "min_price": 300,
     "cover_urls": [
       "https://pbs.twimg.com/media/HJA2MFOagAAZfZG.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/1R0HASU/status/2058422112373834099"
+      ]
     ]
   },
   {
