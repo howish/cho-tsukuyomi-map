@@ -929,7 +929,7 @@ window.BOOTHS = [
     "x_handle": "arupaka5tuki",
     "x_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
     "followers": 22829,
-    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素\n\n📊 **完売タイムライン**：[第二部](https://x.com/arupaka5tuki/status/2058391211766104440) → [全完売 / 撤収](https://x.com/arupaka5tuki/status/2058412134766366864)",
+    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素\n\n📊 **完売タイムライン**：[第二部](https://x.com/arupaka5tuki/status/2058391211766104440) → [全完売 / 撤収](https://x.com/arupaka5tuki/status/2058412134766366864)\n\n🔁 [**次回イベントで再販予定**](https://x.com/arupaka5tuki/status/2058530037232193687) (本人 5/24 撤収時告知)",
     "cover_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
     "cps": [
       "iroka"
@@ -965,7 +965,7 @@ window.BOOTHS = [
     "x_handle": "imudegozaimasu",
     "x_url": "https://x.com/imudegozaimasu/status/2056690629913247874",
     "followers": 5937,
-    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理\n- 無配コピ本は[「絶賛作成中」](https://x.com/imudegozaimasu/status/2056690629913247874)、当日出るか未確定",
+    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理\n- 無配コピ本は[「絶賛作成中」](https://x.com/imudegozaimasu/status/2056690629913247874)、当日出るか未確定\n\n📖 **pixiv WEB再録 (5/25 公開)**:\n- [『君にもらったものばかり』](https://www.pixiv.net/artworks/145205274)\n- [『末永くお幸せに！』 (キス 22 種 1P 漫画本)](https://www.pixiv.net/artworks/145205665)\n- [『したいこと最優先？』 (モブ男子失恋ちさたき本)](https://www.pixiv.net/artworks/145206343)\n- [無配コピー本も pixiv 投稿済](https://www.pixiv.net/artworks/145206583)",
     "cover_url": "https://pbs.twimg.com/media/HIrUltUaIAARLL5.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1061,7 +1061,7 @@ window.BOOTHS = [
     "x_handle": "Kei_Megumi_",
     "x_url": "https://x.com/Kei_Megumi_/status/2053679112301224032",
     "followers": 24546,
-    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n📊 **完売タイムライン**：[第二部](https://x.com/Kei_Megumi_/status/2058386782111330614) → [全完売 / 撤収](https://x.com/Kei_Megumi_/status/2058439841252295052)",
+    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n📊 **完売タイムライン**：[第二部](https://x.com/Kei_Megumi_/status/2058386782111330614) → [全完売 / 撤収](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n🔁 [**夏コミ当選なら同内容で加筆なし・部数+ページ増で再販検討**](https://x.com/Kei_Megumi_/status/2058535895914131580)",
     "cps": [],
     "tags": {
       "r18": false,
