@@ -444,6 +444,12 @@ section {
   border-color: #ce93d8;
 }
 
+.booth-warning.warn-noonline {
+  background: #fff3e0;
+  color: #e65100;
+  border-color: #ffb74d;
+}
+
 .back-to-top {
   position: fixed;
   bottom: 1.2rem;

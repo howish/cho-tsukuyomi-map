@@ -146,5 +146,11 @@ window.FILTERS_CONFIG = {
       class_suffix: "limit",
       pattern: "部数制限|1限|一限|限定|購入制限",
     },
+    {
+      code: "noonline",
+      label: "🚫 通販なし",
+      class_suffix: "noonline",
+      pattern: "通販.*予定しておりません|通販なし|通販無し|委託なし|委託無し",
+    },
   ],
 };
