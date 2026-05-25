@@ -291,7 +291,7 @@ window.BOOTHS = [
     "x_handle": "kimikuon",
     "x_url": "https://x.com/kimikuon/status/2057457118631051511",
     "followers": 211,
-    "body": "- **新刊**：『星はまた巡ってく』 彩葉・ヤチヨ・かぐやオンリー B5/P16/¥500/イラスト本\n- **アクスタ**：70×70mm 各 ¥700 (彩葉/ヤチヨ/かぐや 3 種)\n\n📦 **メロンブックス 通販**:\n- [新刊 通販ページ](https://www.melonbooks.co.jp/detail/detail.php?product_id=3648442) (BOOTH 通販は 6 月予定)",
+    "body": "- **新刊**：『星はまた巡ってく』 彩葉・ヤチヨ・かぐやオンリー B5/P16/¥500/イラスト本\n- **アクスタ**：70×70mm 各 ¥700 (彩葉/ヤチヨ/かぐや 3 種)\n\n📦 **メロンブックス 通販**:\n- [新刊 通販ページ](https://www.melonbooks.co.jp/detail/detail.php?product_id=3648442) (BOOTH 通販は 6 月予定)\n\n📊 **完売タイムライン**：[第一部 18 分完売](https://x.com/kimikuon/status/2058373276221714615) → [第二部](https://x.com/kimikuon/status/2058388945013203423) → [全完売 / メロン委託告知](https://x.com/kimikuon/status/2058407668000358650)",
     "cover_url": "https://pbs.twimg.com/media/HI2OWIsaoAARpdu.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -313,6 +313,11 @@ window.BOOTHS = [
         "online",
         "🛒 通販あり",
         "https://x.com/kimikuon/status/2058856192106262652"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/kimikuon/status/2058407668000358650"
       ]
     ]
   },
@@ -323,7 +328,7 @@ window.BOOTHS = [
     "x_handle": "Noroshino8",
     "x_url": "https://x.com/Noroshino8/status/2057029854814666894",
     "followers": 1873,
-    "body": "- **新刊**：『ハッピーエンドはまだ遠い』 A5/P28/¥400/全年齢\n  - **かぐやがヤチヨになるまでの 8000 年深堀り漫画**、様々な人と出会い語り捧げては絶ちの物語\n  - **超かぐや姫では初めて本出します🌙**\n- 各部ごとに在庫確保、紙無配作れないネタ枠 (公式ガイドライン)\n\n🎯 **次回参加**：[6/21(日) ツクヨミスクエア](https://x.com/Noroshino8/status/2058755053176193142) @ 大田区産業プラザPiO (急遽申込) — 新刊「ハッピーエンドはまだ遠い」+ 色紙 + 無配冊子予定",
+    "body": "- **新刊**：『ハッピーエンドはまだ遠い』 A5/P28/¥400/全年齢\n  - **かぐやがヤチヨになるまでの 8000 年深堀り漫画**、様々な人と出会い語り捧げては絶ちの物語\n  - **超かぐや姫では初めて本出します🌙**\n- 各部ごとに在庫確保、紙無配作れないネタ枠 (公式ガイドライン)\n\n🎯 **次回参加**：[6/21(日) ツクヨミスクエア](https://x.com/Noroshino8/status/2058755053176193142) @ 大田区産業プラザPiO (急遽申込) — 新刊「ハッピーエンドはまだ遠い」+ 色紙 + 無配冊子予定\n\n📊 **完売タイムライン**：[第一部](https://x.com/Noroshino8/status/2058373505708900547) → [第二部](https://x.com/Noroshino8/status/2058390674828087341) → [全完売 (色紙のみ第4部)](https://x.com/Noroshino8/status/2058412115267027183)",
     "cover_url": "https://pbs.twimg.com/media/HIwJuH-bQAAuKxt.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -340,6 +345,13 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HIwJuH-bQAAuKxt.jpg?name=orig",
       "https://pbs.twimg.com/media/HIwJuLMbkAAsNqi.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/Noroshino8/status/2058412115267027183"
+      ]
     ]
   },
   {
@@ -435,6 +447,11 @@ window.BOOTHS = [
       [
         "limit",
         "🎫 部数制限"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/vinegar_terrier/status/2058881924198961481"
       ]
     ],
     "cover_urls": [
@@ -571,6 +588,13 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIp8EcUbAAAtZnO.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/zuka_misuzu/status/2058424278819983662"
+      ]
     ]
   },
   {
@@ -1348,6 +1372,11 @@ window.BOOTHS = [
       [
         "online",
         "🛒 通販あり"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/mekimekix/status/2058413607940202843"
       ]
     ],
     "cover_urls": [
