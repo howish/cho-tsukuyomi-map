@@ -3,42 +3,34 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>超ツクヨミ祭 第1回 (2026-05-24) サークル ガイド</title>
-<meta name="description" content="2026年5月24日 立川クリエイティブスペースで開催される 超ツクヨミ祭 第1回 のサークル一覧 / お品書き 非公式 fan guide">
+<!-- Page title is injected from event.js at runtime; this is just a fallback for crawlers that don't run JS -->
+<title>同人即売会 サークルガイド (非公式)</title>
+<meta name="description" content="同人即売会のサークル一覧 / お品書き / 会場マップ — 非公式 fan guide template">
 <link rel="stylesheet" href="style.css?v=1779673419">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/svg+xml" href="icon.svg">
-<meta name="theme-color" content="#6a4c93">
 
-<!-- Open Graph / Twitter card -->
-<meta property="og:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
-<meta property="og:description" content="2026/05/24 立川 超かぐや姫オンリー即売会 — 全47サークルのお品書き / 価格 / X リンク / 会場マップを 1 ページで">
+<!-- OG / Twitter — values overwritten at runtime from event.js -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://howish.github.io/cho-tsukuyomi-map/">
-<meta property="og:image" content="https://howish.github.io/cho-tsukuyomi-map/og.png">
+<meta property="og:title" content="同人即売会 サークルガイド">
+<meta property="og:description" content="サークル一覧 + お品書き + 会場マップ">
+<meta property="og:image" content="og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
-<meta name="twitter:description" content="2026/05/24 立川 超かぐや姫オンリー即売会 — お品書き + マップ + 検索 + フィルター">
-<meta name="twitter:image" content="https://howish.github.io/cho-tsukuyomi-map/og.png">
+<meta name="twitter:title" content="同人即売会 サークルガイド">
+<meta name="twitter:image" content="og.png">
 </head>
 <body>
 <header>
-  <h1>🌙 超ツクヨミ祭 第1回</h1>
-  <p class="event-info">
-    <strong>2026/05/24 (日) 11:00-15:30</strong> ／ 立川クリエイティブスペース (美光印刷 2F)
-    <br>4部入れ替え制 (リストバンド配布 9:30-10:00、ランダム割当) ／ 入場 ¥1,000 (千円札用意必須)
-  </p>
-  <p class="disclaimer">
-    🍃 <strong>非公式 fan guide</strong> ／ 公式情報は <a href="https://sengendo.a.la9.jp/chokagutop.html" target="_blank" rel="noopener">超ツクヨミ祭公式 (仙弦堂)</a> 参照。
-    サークル情報は各作家の X 投稿より引用、誤りや更新は X リンクから原ポストでご確認ください。
-  </p>
+  <h1 id="event-title">🌙 ...</h1>
+  <p class="event-info" id="event-info"></p>
+  <p class="disclaimer" id="event-disclaimer"></p>
   <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
 </header>
 
 <section class="map-section">
   <h2>会場マップ</h2>
-  <img src="map.jpg" alt="立川クリエイティブスペース 会場マップ" class="venue-map">
-  <p class="map-caption">© 公式マップ (仙弦堂・超ツクヨミ祭運営)</p>
+  <img id="venue-map" src="map.jpg" alt="会場マップ" class="venue-map">
+  <p class="map-caption" id="map-caption"></p>
 </section>
 
 <section class="filter-section">
@@ -48,37 +40,21 @@
       <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
     </div>
   </div>
-  <div class="filters filters-cp">
+  <div class="filters filters-cp" id="filters-cp">
     <span class="filter-row-label">CP</span>
     <button class="filter-btn active" data-filter="all">全部</button>
-    <button class="filter-btn" data-filter="cp:iroka" title="いろかぐ (いろは × かぐや、順序不問)">🦊×🐰 いろかぐ</button>
-    <button class="filter-btn" data-filter="cp:iroyachi" title="いろヤチ (いろは × ヤチヨ、順序不問)">🦊×🐙 いろヤチ</button>
-    <button class="filter-btn" data-filter="cp:iroroka" title="いろろか (いろは × 芦花、順序不問)">🦊×🌸 いろろか</button>
-    <button class="filter-btn" data-filter="cp:trio" title="三人 (いろかぐヤチ または 4人以上)">🌟 三人</button>
-    <button class="filter-btn" data-filter="cp:mikanoi" title="みかのい (帝 × 乃依)">👹×🐯 みかのい</button>
+    <!-- CP buttons injected at runtime from filters.js -->
   </div>
-  <div class="filters filters-tag">
+  <div class="filters filters-tag" id="filters-tag">
     <span class="filter-row-label">タグ</span>
     <button class="filter-btn" data-filter="fav" title="自分でマークした お気に入りのみ表示">⭐ お気に入り</button>
-    <button class="filter-btn" data-filter="tag:r18" title="R-18 含む / 要 ID">🔞 R-18</button>
-    <button class="filter-btn" data-filter="tag:goudou" title="合同誌・まとめ本">🤝 合同</button>
-    <button class="filter-btn" data-filter="tag:free" title="無料配布あり">🎁 無配</button>
-    <button class="filter-btn" data-filter="tag:consign" title="委託本あり">📚 委託</button>
-    <button class="filter-btn" data-filter="tag:manga" title="漫画">📕 漫画</button>
-    <button class="filter-btn" data-filter="tag:novel" title="小説">📖 小説</button>
-    <button class="filter-btn" data-filter="tag:illust" title="イラスト本・アートブック">🎨 イラスト本</button>
-    <button class="filter-btn" data-filter="tag:goods" title="グッズ・アクスタ・ステッカー等">🛍 グッズ</button>
+    <!-- Tag buttons injected at runtime from filters.js -->
   </div>
   <div class="filter-stats" id="filter-stats"></div>
 </section>
 
-<section class="booths-section">
-  <h2 class="row-title">A 列</h2>
-  <div class="booth-grid" id="grid-A"></div>
-  <h2 class="row-title">B 列</h2>
-  <div class="booth-grid" id="grid-B"></div>
-  <h2 class="row-title">C 列</h2>
-  <div class="booth-grid" id="grid-C"></div>
+<section class="booths-section" id="booths-section">
+  <!-- Per-row grids generated at runtime from EVENT_CONFIG.rows -->
 </section>
 
 <button class="back-to-top" id="back-to-top" type="button" aria-label="トップに戻る" hidden>↑</button>
@@ -91,18 +67,10 @@
   <button class="modal-close" id="modal-close" aria-label="閉じる" type="button" onclick="(function(){var m=document.getElementById('modal');m.hidden=true;m.style.display='none';document.body.style.overflow='';try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}})()">×</button>
 </div>
 
-<footer>
-  <p>
-    🌙 <strong>超ツクヨミ祭 第1回 サークルガイド</strong> — 非公式 fan guide<br>
-    情報は各サークル作家の X 公開ポストから集約、表紙画像は X CDN リンク (画像クリックで X 投稿で原寸表示)<br>
-    Built by <a href="https://github.com/howish" target="_blank" rel="noopener">@howish</a> ／ 2026-05-23
-  </p>
-  <p class="footer-meta">
-    情報誤り・新規追加：<a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub repo</a> に PR / Issue 歓迎<br>
-    会場マップ © 仙弦堂・超ツクヨミ祭運営 ／ お品書き情報 © 各サークル作家
-  </p>
-</footer>
+<footer id="event-footer"></footer>
 
+<script src="event.js?v=1779673419"></script>
+<script src="filters.js?v=1779673419"></script>
 <script src="data.js?v=1779673419"></script>
 <script src="app.js?v=1779673419"></script>
 </body>
