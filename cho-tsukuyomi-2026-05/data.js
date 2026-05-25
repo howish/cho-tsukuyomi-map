@@ -146,7 +146,7 @@ window.BOOTHS = [
     "x_handle": "osatou_kinosu",
     "x_url": "https://x.com/osatou_kinosu/status/2057424374400205201",
     "followers": 510,
-    "body": "- **サークル名「放浪時計」** (作家 木乃酢)\n- **新刊① 『Notice me』**\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人) / 小説** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)\n  - **頒布ルール**：1〜3 部で最低 5 冊ずつ用意、残数は先着、**基本 1 人 1 冊**、複数希望は相談\n- **新刊② 『君の電子信号を待っている / 四季彩』**\n  - **いじおさん (@ijio_galupa) + saki さん (@BeautyBloom5533) との合同本** (3 人体制)\n  - 詳細仕様\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/osatou_kinosu/status/2058524890890981456) — 新刊再版 + 空布さん @kaguramix ブースで委託\n\n📊 **完売タイムライン**：[第一部 (1部分売り切れ)](https://x.com/osatou_kinosu/status/2058371359114457539) → [第二部 (列の数で完売)](https://x.com/osatou_kinosu/status/2058384162290302988) → [第三部売り切れ](https://x.com/osatou_kinosu/status/2058406128204304431) → [撤収・お礼](https://x.com/osatou_kinosu/status/2058431035814347056)\n\n🌱 **本人 reflection**：[「小説頒布数の経験からビビって 1 部時点で早々に焼け野原」](https://x.com/osatou_kinosu/status/2058499897582891227) — 初オンリーで規模感掴めずの反省、次回はもっと刷りますとのこと\n\n💌 **感想受付**：[マシュマロ](https://marshmallow-qa.com/61jalsk161mn7eb) — 直接 reply での感想も大歓迎\n\n📖 **合同誌寄稿分**：[後日全文公開予定](https://x.com/osatou_kinosu/status/2058883014063890548) (寄稿者: 木乃酢)",
+    "body": "- **サークル名「放浪時計」** (作家 木乃酢)\n- **新刊① 『Notice me』**\n  - **130P / ¥1,000 / 全年齢 / いろヤチかぐ (三人) / 小説** / 表紙：いじお氏\n  - 🐙(ヤチヨ)に嫉妬しつつ🦊(いろは)に振り向いてほしい🐰(かぐや)と、🐰(かぐや)に嫉妬しつつ🦊(いろは)に振り向いてほしいけど伝えられない🐙(ヤチヨ)の話 (🦊=いろは / 🐰=かぐや / 🐙=ヤチヨ canon avatar)\n  - **頒布ルール**：1〜3 部で最低 5 冊ずつ用意、残数は先着、**基本 1 人 1 冊**、複数希望は相談\n- **新刊② 『君の電子信号を待っている / 四季彩』**\n  - **いじおさん (@ijio_galupa) + saki さん (@BeautyBloom5533) との合同本** (3 人体制)\n  - 詳細仕様\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/osatou_kinosu/status/2058524890890981456) — 新刊再版 + 空布さん @kaguramix ブースで委託\n\n📊 **完売タイムライン**：[第一部 (1部分売り切れ)](https://x.com/osatou_kinosu/status/2058371359114457539) → [第二部 (列の数で完売)](https://x.com/osatou_kinosu/status/2058384162290302988) → [第三部売り切れ](https://x.com/osatou_kinosu/status/2058406128204304431) → [撤収・お礼](https://x.com/osatou_kinosu/status/2058431035814347056)\n\n🌱 [**部数判断について、次回は増刷で再挑戦**](https://x.com/osatou_kinosu/status/2058499897582891227) — 6 月末 ツクヨミスクエアで委託 + 通販対応予定 (本人明言)\n\n💌 **感想受付**：[マシュマロ](https://marshmallow-qa.com/61jalsk161mn7eb) — 直接 reply での感想も大歓迎\n\n📖 **合同誌寄稿分**：[後日全文公開予定](https://x.com/osatou_kinosu/status/2058883014063890548) (寄稿者: 木乃酢)",
     "cover_url": "https://pbs.twimg.com/media/HI1wj0PaYAE-bj0.jpg?name=orig",
     "cps": [
       "trio"
@@ -1459,7 +1459,7 @@ window.BOOTHS = [
     "x_handle": "aoimanabu",
     "x_url": "https://x.com/aoimanabu/status/2058149410803245261",
     "followers": 93166,
-    "body": "- **新刊**：『**INU DOG**』 オタ公落書き本 — **🔞 R-18 成人向け**、要 ID\n  - 表紙：オタ公 (狼/狐耳キャラ、メイド服風、白髪) 露出度高め R-18 cover\n  - [「全然顔が安定しないんですがまだ練度が足りませんでした…難しい」](https://x.com/aoimanabu/status/2058149410803245261) (本人 comment、お品書き tweet)\n- **体調不良中**、最悪 売り子さん任せの可能性",
+    "body": "- **新刊**：『**INU DOG**』 オタ公落書き本 — **🔞 R-18 成人向け**、要 ID\n  - 表紙：オタ公 (狼/狐耳キャラ、メイド服風、白髪) 露出度高め R-18 cover\n- **体調不良中**、最悪 売り子さん任せの可能性",
     "cover_url": "https://pbs.twimg.com/media/HJADbuCaoAAl7bV.jpg?name=orig",
     "cps": [],
     "tags": {
