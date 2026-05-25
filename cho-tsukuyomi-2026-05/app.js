@@ -248,6 +248,7 @@
     }
     if (b.warnings && b.warnings.length) {
       const wBar = el('div', { class: 'booth-warnings' });
+      // Card-level warnings stay as non-clickable spans (taps go to modal)
       b.warnings.forEach(([code, label]) => {
         wBar.appendChild(el('span', { class: 'booth-warning warn-' + code }, label));
       });
@@ -363,6 +364,26 @@
       body.appendChild(el('a', {
         class: 'x-link', href: b.x_url, target: '_blank', rel: 'noopener'
       }, '🔗 X で開く (お品書き原典)'));
+    }
+
+    // Warning chips inside the modal — each becomes a link to source tweet
+    // when a 3rd-element URL is present in the warnings tuple.
+    if (b.warnings && b.warnings.length) {
+      const wRow = el('div', { class: 'modal-warnings' });
+      b.warnings.forEach((w) => {
+        const code = w[0], label = w[1], source = w[2];
+        const cls = 'booth-warning warn-' + code;
+        if (source) {
+          wRow.appendChild(el('a', {
+            class: cls + ' warn-link',
+            href: source, target: '_blank', rel: 'noopener',
+            title: '出典 tweet を開く',
+          }, label));
+        } else {
+          wRow.appendChild(el('span', { class: cls }, label));
+        }
+      });
+      body.appendChild(wRow);
     }
 
     const closeBottom = el('button', {

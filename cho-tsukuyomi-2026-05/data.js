@@ -28,7 +28,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "online",
-        "🛒 通販あり"
+        "🛒 通販あり",
+        "https://x.com/fluffy_palette/status/2058682346900250749"
       ]
     ]
   },
@@ -59,7 +60,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "online",
-        "🛒 通販あり"
+        "🛒 通販あり",
+        "https://x.com/masaki_sakura/status/2058507519144985068"
       ]
     ]
   },
@@ -125,7 +127,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/xuz_op/status/2058435132370178322"
       ]
     ]
   },
@@ -164,7 +167,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/osatou_kinosu/status/2058406128204304431"
       ]
     ]
   },
@@ -175,7 +179,7 @@ window.BOOTHS = [
     "x_handle": "anmitiyon",
     "x_url": "https://x.com/anmitiyon/status/2057747469312934350",
     "followers": 20331,
-    "body": "**頒布物 (7 種)**：\n1. **『超かぐや姫！』** B5/24P/¥500 — タイトル直撃 fanbook\n  2. **『三角点オタコとミラチャチャ』** (もしくは類似) B5/26P/¥500 — 三人 oni / 黒鬼系\n  3. **『CPK!ハッピーエンド大考察漫画』** B5/20P/¥500 — ハッピーエンド考察漫画\n  4. **『超Yachi8000』** B5/20P/¥500 — 月見ヤチヨ非公式ファンブック (表紙 ヤチヨ + FUSHI 抱きつき)\n  5. **『ツクヨミランドへ行ーっちゃおー！』** B5/24P/¥1000 — ツクヨミ themed illustration (高めの値段はカラーまたは厚みのサイン)\n\n- **セット販売**：\n  - **①〜④ 4 冊セット ¥2,000** (お得度高)\n  - **①〜⑦ 全 7 冊セット ¥4,000**\n  - **①〜⑧ 全 7 冊 + ご来場セット ¥8,000** (グッズ込みフルパッケージ)\n- **グッズ**：全会場限定アクスタ 7 種 各 ¥1,000 + ヌオヌオアブラブ ご利用プレート (200mm のミニ Q サイズ、ガイドブック特設サイズ)\n- 商業作家 (KADOKAWA『SCP 怪奇娘』原作 / 漫画家)\n- 「**新刊たくさん！がんばりました！**」 (作家本人 comment)",
+    "body": "**頒布物 (7 種)**：\n1. **『超かぐや姫！』** B5/24P/¥500 — タイトル直撃 fanbook\n  2. **『三角点オタコとミラチャチャ』** (もしくは類似) B5/26P/¥500 — 三人 oni / 黒鬼系\n  3. **『CPK!ハッピーエンド大考察漫画』** B5/20P/¥500 — ハッピーエンド考察漫画\n  4. **『超Yachi8000』** B5/20P/¥500 — 月見ヤチヨ非公式ファンブック (表紙 ヤチヨ + FUSHI 抱きつき)\n  5. **『ツクヨミランドへ行ーっちゃおー！』** B5/24P/¥1000 — ツクヨミ themed illustration (高めの値段はカラーまたは厚みのサイン)\n\n- **セット販売**：\n  - **①〜④ 4 冊セット ¥2,000** (お得度高)\n  - **①〜⑦ 全 7 冊セット ¥4,000**\n  - **①〜⑧ 全 7 冊 + ご来場セット ¥8,000** (グッズ込みフルパッケージ)\n- **グッズ**：全会場限定アクスタ 7 種 各 ¥1,000 + ヌオヌオアブラブ ご利用プレート (200mm のミニ Q サイズ、ガイドブック特設サイズ)\n- 商業作家 (KADOKAWA『SCP 怪奇娘』原作 / 漫画家)\n- [「**新刊たくさん！がんばりました！**」](https://x.com/anmitiyon/status/2057747469312934350) (作家本人 comment、お品書き tweet)",
     "cover_url": "https://pbs.twimg.com/media/HI6Wad9bEAAHTr_.jpg?name=orig",
     "cps": [
       "trio"
@@ -227,7 +231,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "limit",
-        "🎫 部数制限"
+        "🎫 部数制限",
+        "https://x.com/2konose/status/2058400338022187331"
       ],
       [
         "cash",
@@ -235,7 +240,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/2konose/status/2058427101565596096"
       ]
     ],
     "cover_urls": [
@@ -349,7 +355,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/unido_fu/status/2058408781986549928"
       ]
     ],
     "cover_urls": [
@@ -383,7 +390,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/ato252058/status/2058387459931853124"
       ]
     ]
   },
@@ -447,7 +455,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/nb164/status/2058422841180397771"
       ]
     ]
   },
@@ -488,7 +497,7 @@ window.BOOTHS = [
     "x_handle": "noah_ark38",
     "x_url": "https://x.com/noah_ark38/status/2057945850148708578",
     "followers": 24074,
-    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、「内心ドキドキ」 (本人)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ",
+    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、[「内心ドキドキ」](https://x.com/noah_ark38/status/2057945850148708578) (本人、お品書き tweet)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ",
     "cover_url": "https://pbs.twimg.com/media/HI9I4CBbEAARXHh.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -508,11 +517,13 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/noah_ark38/status/2058426507740221692"
       ],
       [
         "limit",
-        "🎫 部数制限"
+        "🎫 部数制限",
+        "https://x.com/noah_ark38/status/2058419472772497458"
       ]
     ]
   },
@@ -571,7 +582,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/C_77sotome/status/2058412805511098759"
       ]
     ]
   },
@@ -602,7 +614,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/Qutouten_/status/2058408908050584028"
       ]
     ]
   },
@@ -634,11 +647,13 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/EiNeEna_mikan/status/2058438137949585525"
       ],
       [
         "noonline",
-        "🚫 通販なし"
+        "🚫 通販なし",
+        "https://x.com/EiNeEna_mikan/status/2057858394481156396"
       ]
     ]
   },
@@ -669,7 +684,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/arnciel/status/2058417776583397671"
       ]
     ]
   },
@@ -713,7 +729,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/tsugu_tarou/status/2058418465372033219"
       ]
     ],
     "cover_urls": [
@@ -751,7 +768,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/kauderni01356/status/2058428837260898561"
       ]
     ]
   },
@@ -812,7 +830,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/chasiburicorico/status/2058421569022759268"
       ]
     ]
   },
@@ -884,7 +903,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/arupaka5tuki/status/2058412134766366864"
       ]
     ]
   },
@@ -895,7 +915,7 @@ window.BOOTHS = [
     "x_handle": "imudegozaimasu",
     "x_url": "https://x.com/imudegozaimasu/status/2056690629913247874",
     "followers": 5937,
-    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理\n- 無配コピ本は「絶賛作成中」、当日出るか未確定",
+    "body": "- **新刊**：『君の隣で』 A5/28P/¥500/全年齢、五感実装後義体完成前のヤチヨと彩葉\n- **会場限定コピー本 (無配)**：新刊の後日譚、8000 年ぶり現実世界で手料理\n- 無配コピ本は[「絶賛作成中」](https://x.com/imudegozaimasu/status/2056690629913247874)、当日出るか未確定",
     "cover_url": "https://pbs.twimg.com/media/HIrUltUaIAARLL5.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -916,7 +936,8 @@ window.BOOTHS = [
       ],
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/imudegozaimasu/status/2058410103842414766"
       ]
     ],
     "cover_urls": [
@@ -953,7 +974,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/kmt9993/status/2058427059492511894"
       ]
     ]
   },
@@ -1009,7 +1031,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/Kei_Megumi_/status/2058439841252295052"
       ]
     ]
   },
@@ -1042,7 +1065,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/hihumi_akaba/status/2058388714666291592"
       ]
     ]
   },
@@ -1072,7 +1096,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/mizonozomizo/status/2058373728124498321"
       ]
     ]
   },
@@ -1107,7 +1132,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/ohmiyamiyamiya/status/2058408902845407701"
       ]
     ]
   },
@@ -1138,7 +1164,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/kaiman_00/status/2058409933134307722"
       ]
     ]
   },
@@ -1169,7 +1196,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/kyou_watanuki/status/2058418211163713703"
       ]
     ]
   },
@@ -1202,7 +1230,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/kaguramix/status/2058382529984647227"
       ],
       [
         "online",
@@ -1362,11 +1391,13 @@ window.BOOTHS = [
     "warnings": [
       [
         "online",
-        "🛒 通販あり"
+        "🛒 通販あり",
+        "https://x.com/2015chaosgroup/status/2058435347441410534"
       ],
       [
         "limit",
-        "🎫 部数制限"
+        "🎫 部数制限",
+        "https://x.com/2015chaosgroup/status/2058358231869878705"
       ]
     ]
   },
@@ -1377,7 +1408,7 @@ window.BOOTHS = [
     "x_handle": "aoimanabu",
     "x_url": "https://x.com/aoimanabu/status/2058149410803245261",
     "followers": 93166,
-    "body": "- **新刊**：『**INU DOG**』 オタ公落書き本 — **🔞 R-18 成人向け**、要 ID\n  - 表紙：オタ公 (狼/狐耳キャラ、メイド服風、白髪) 露出度高め R-18 cover\n  - 「全然顔が安定しないんですがまだ練度が足りませんでした…難しい」 (本人 comment、まだ作画修行中)\n- **体調不良中**、最悪 売り子さん任せの可能性",
+    "body": "- **新刊**：『**INU DOG**』 オタ公落書き本 — **🔞 R-18 成人向け**、要 ID\n  - 表紙：オタ公 (狼/狐耳キャラ、メイド服風、白髪) 露出度高め R-18 cover\n  - [「全然顔が安定しないんですがまだ練度が足りませんでした…難しい」](https://x.com/aoimanabu/status/2058149410803245261) (本人 comment、お品書き tweet)\n- **体調不良中**、最悪 売り子さん任せの可能性",
     "cover_url": "https://pbs.twimg.com/media/HJADbuCaoAAl7bV.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1470,7 +1501,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/umenoichiru/status/2058420317769576860"
       ]
     ]
   },
@@ -1501,7 +1533,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "soldout",
-        "✅ 完売御礼"
+        "✅ 完売御礼",
+        "https://x.com/Tutanai_ap05/status/2058410287888482709"
       ]
     ]
   },
