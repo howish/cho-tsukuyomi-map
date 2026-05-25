@@ -1258,7 +1258,7 @@ window.BOOTHS = [
     "x_handle": "kaguramix",
     "x_url": "https://x.com/kaguramix/status/2057077463394775213",
     "followers": 7658,
-    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3427347\n\n🎯 **多イベント参加予定**：[6/14 ぷにケット53 @ 蒲田PiO](https://x.com/kaguramix/status/2058888999658471742) → 6/21 ツクヨミスクエア → 6/28 Umamusume Racing Carnival 03 → 7/05 超ツクヨミ祭!2 (通販は 6/14 直後に開始予定)",
+    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3427347\n\n🎯 **多イベント参加予定**：[6/14 ぷにケット53 @ 蒲田PiO](https://x.com/kaguramix/status/2058888999658471742) → 6/21 ツクヨミスクエア → 6/28 Umamusume Racing Carnival 03 → 7/05 超ツクヨミ祭!2 (通販は 6/14 直後に開始予定)\n\n📖 **pixiv まんが投稿 (5/22-25)**：\n- [『抗議アカチャン』 / 『ランチは予約がオススメ』 / 『おしゃべりアカチャンかぐや』 など、デイリー漫画ランキング複数入り](https://www.pixiv.net/users/kaguramix) — 超ツクヨミ祭新刊からのまんがは打ち止め、通販は 6/14 ぷにけっと直後開始予定",
     "cover_url": "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig",
     "cps": [
       "iroka"
@@ -1297,7 +1297,7 @@ window.BOOTHS = [
     "x_handle": "takoyaki_110721",
     "x_url": "https://x.com/takoyaki_110721/status/2056662314913583531",
     "followers": 139588,
-    "body": "- **新刊 1**：『超竹取譚！』(Cosmic Princess Kaguya! Anthology)\n  - **A4 / 68P / カラー＋モノクロ / ¥2,000 / 合同誌 (複数作家)**\n- **新刊 2**：『ハッピーエンドのおすそわけ！』\n  - **B5 / 28P / フルカラー / ¥1,000 / しろた個人誌** (ヤチヨ+彩葉+かぐや+FUSHI)",
+    "body": "- **新刊 1**：『超竹取譚！』(Cosmic Princess Kaguya! Anthology)\n  - **A4 / 68P / カラー＋モノクロ / ¥2,000 / 合同誌 (複数作家)**\n- **新刊 2**：『ハッピーエンドのおすそわけ！』\n  - **B5 / 28P / フルカラー / ¥1,000 / しろた個人誌** (ヤチヨ+彩葉+かぐや+FUSHI)\n\n🛡 [**転売防止のため通販即時アナウンス**](https://x.com/takoyaki_110721/status/2058444014119198949) — 現地で買えなかった方/遠方の方向け、転売品は購入しないよう呼びかけ",
     "cover_url": "https://pbs.twimg.com/media/HIq7eelbsAAH8WC.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1313,6 +1313,13 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIq7eelbsAAH8WC.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/takoyaki_110721/status/2058444014119198949"
+      ]
     ]
   },
   {
@@ -1349,7 +1356,7 @@ window.BOOTHS = [
     "x_handle": "mekimekix",
     "x_url": "https://x.com/mekimekix/status/2057788798386528595",
     "followers": 30331,
-    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- **在庫分割**：第三部まで在庫分け予定 (各部均等配分)\n- **釣銭少なめ**、ジャスト払い推奨 (特に開場直後)\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3563709\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/mekimekix/status/2058759718181687578) — 5/24 + 6/21 + 6/7 ヤオヨロ で 3 連続予定",
+    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- **在庫分割**：第三部まで在庫分け予定 (各部均等配分)\n- **釣銭少なめ**、ジャスト払い推奨 (特に開場直後)\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3563709\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/mekimekix/status/2058759718181687578) — 5/24 + 6/21 + 6/7 ヤオヨロ で 3 連続予定\n\n🛒 [**「夢の通い路」 メロン在庫復活**](https://x.com/mekimekix/status/2058543623202021756) (5/24 速報) — [メロン商品ページ](https://www.melonbooks.co.jp/detail/detail.php?product_id=3563709)\n\n🎯 [**6/7 ヤオヨロー! @ プリケット2**](https://x.com/mekimekix/status/2058459953258791300) — 本来ツクヨミ祭で出す予定だった新刊オフ本をリベンジ予定 (いろヤチ)",
     "cover_url": "https://pbs.twimg.com/media/HI674e7bQAARvvI.jpg?name=orig",
     "cps": [
       "iroyachi"
@@ -1395,7 +1402,7 @@ window.BOOTHS = [
     "x_handle": "xx_sow",
     "x_url": "https://x.com/xx_sow/status/2057420261453181197",
     "followers": 13415,
-    "body": "- **新刊**：いろヤチ・いろかぐ B5/42P/¥700/🔞 R-18/紙本のみ、電子なし\n  - \"(3P はないです)\" — 2 人 CP のラブシーン\n- 部数アンケ実施\n- 入場入れ替え制対応：各回ごとに頒布数を分配\n- 年齢確認協力要請\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/xx_sow/status/2058812036881240227) — 残部次第で再頒布 + メロンブックス再委託検討",
+    "body": "- **新刊**：いろヤチ・いろかぐ B5/42P/¥700/🔞 R-18/紙本のみ、電子なし\n  - \"(3P はないです)\" — 2 人 CP のラブシーン\n- 部数アンケ実施\n- 入場入れ替え制対応：各回ごとに頒布数を分配\n- 年齢確認協力要請\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/xx_sow/status/2058812036881240227) — 残部次第で再頒布 + メロンブックス再委託検討\n\n📦 [**メロンブックス 通販**](https://www.melonbooks.co.jp/detail/detail.php?product_id=3622646) (5/25 通販開始→即完売) — 6/21 ツクヨミスクエアで再販予定、その後余り次第で再委託\n\n🎯 [**次回参加: 6/21 ツクヨミスクエア @ 大田区PiO**](https://x.com/xx_sow/status/2058872401325424943) — 超ツクヨミ祭 新刊 + 既刊 持参、新作も予定",
     "cover_url": "https://pbs.twimg.com/media/HI1s0USacAACjdv.jpg?name=orig",
     "cps": [
       "iroka",
@@ -1416,7 +1423,19 @@ window.BOOTHS = [
       "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig",
       "https://pbs.twimg.com/media/HHJ1vkoa8AAZ7k7.jpg?name=orig"
     ],
-    "min_price": 700
+    "min_price": 700,
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/xx_sow/status/2058785393588539784"
+      ],
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/xx_sow/status/2058752084779118905"
+      ]
+    ]
   },
   {
     "booth_id": "C-04",
