@@ -88,6 +88,13 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       "https://pbs.twimg.com/media/HImlJvCboAEN__p.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼",
+        "https://x.com/TERURU_sakura/status/2058407719309328496"
+      ]
     ]
   },
   {
@@ -163,7 +170,8 @@ window.BOOTHS = [
     "warnings": [
       [
         "limit",
-        "🎫 部数制限"
+        "🎫 部数制限",
+        "https://x.com/osatou_kinosu/status/2058328958610112781"
       ],
       [
         "soldout",
@@ -283,7 +291,7 @@ window.BOOTHS = [
     "x_handle": "kimikuon",
     "x_url": "https://x.com/kimikuon/status/2057457118631051511",
     "followers": 211,
-    "body": "- **新刊**：『星はまた巡ってく』 彩葉・ヤチヨ・かぐやオンリー B5/P16/¥500/イラスト本\n- **アクスタ**：70×70mm 各 ¥700 (彩葉/ヤチヨ/かぐや 3 種)",
+    "body": "- **新刊**：『星はまた巡ってく』 彩葉・ヤチヨ・かぐやオンリー B5/P16/¥500/イラスト本\n- **アクスタ**：70×70mm 各 ¥700 (彩葉/ヤチヨ/かぐや 3 種)\n\n📦 **メロンブックス 通販**:\n- [新刊 通販ページ](https://www.melonbooks.co.jp/detail/detail.php?product_id=3648442) (BOOTH 通販は 6 月予定)",
     "cover_url": "https://pbs.twimg.com/media/HI2OWIsaoAARpdu.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -299,6 +307,13 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HI2OWIsaoAARpdu.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/kimikuon/status/2058856192106262652"
+      ]
     ]
   },
   {
@@ -402,7 +417,7 @@ window.BOOTHS = [
     "x_handle": "vinegar_terrier",
     "x_url": "https://x.com/vinegar_terrier/status/2057412363171893747",
     "followers": 437,
-    "body": "- **新刊**：『浅き夢見じ酔ひもせず。』 A5/20P/¥300 (**現金のみ**)/全年齢/カップリング要素あり\n  - 成人して間もない時間軸、酔って甘える彩葉とまだ少し本音を隠すヤチヨ\n  - **ヤチヨがお酒を飲んだら ver も付録**\n- お釣り発生する会計お断り (開場直後特に)、スケブ依頼お断り、**購入部数制限あり**",
+    "body": "- **新刊**：『浅き夢見じ酔ひもせず。』 A5/20P/¥300 (**現金のみ**)/全年齢/カップリング要素あり\n  - 成人して間もない時間軸、酔って甘える彩葉とまだ少し本音を隠すヤチヨ\n  - **ヤチヨがお酒を飲んだら ver も付録**\n- お釣り発生する会計お断り (開場直後特に)、スケブ依頼お断り、**購入部数制限あり**\n\n🎯 **次回参加**：[7/26 「パンケーキ食べたい！」](https://x.com/vinegar_terrier/status/2058875837496315995) (超かぐや姫オンリー @ 大阪) — 本イベント既刊として頒布予定",
     "cover_url": "https://pbs.twimg.com/media/HI1kRXNbsAAfspk.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -457,6 +472,11 @@ window.BOOTHS = [
         "soldout",
         "✅ 完売御礼",
         "https://x.com/nb164/status/2058422841180397771"
+      ],
+      [
+        "noonline",
+        "🚫 通販なし",
+        "https://x.com/nb164/status/2058401678785913209"
       ]
     ]
   },
@@ -1208,7 +1228,7 @@ window.BOOTHS = [
     "x_handle": "kaguramix",
     "x_url": "https://x.com/kaguramix/status/2057077463394775213",
     "followers": 7658,
-    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3427347",
+    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3427347\n\n🎯 **多イベント参加予定**：[6/14 ぷにケット53 @ 蒲田PiO](https://x.com/kaguramix/status/2058888999658471742) → 6/21 ツクヨミスクエア → 6/28 Umamusume Racing Carnival 03 → 7/05 超ツクヨミ祭!2 (通販は 6/14 直後に開始予定)",
     "cover_url": "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig",
     "cps": [
       "iroka"
@@ -1235,7 +1255,8 @@ window.BOOTHS = [
       ],
       [
         "online",
-        "🛒 通販あり"
+        "🛒 通販あり",
+        "https://x.com/kaguramix/status/2058888999658471742"
       ]
     ]
   },
