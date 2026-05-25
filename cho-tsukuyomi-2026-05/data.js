@@ -397,7 +397,7 @@ window.BOOTHS = [
     "x_handle": "ato252058",
     "x_url": "https://x.com/ato252058/status/2056327836173226071",
     "followers": 674,
-    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)\n- 他ジャンルも極少部数持込み予定、ご希望の方は声かけ\n\n📊 **完売タイムライン**：[第一部](https://x.com/ato252058/status/2058369598362440033) → [第二部](https://x.com/ato252058/status/2058387459931853124) → [全完売 / 撤収](https://x.com/ato252058/status/2058406593633673401)",
+    "body": "- **新刊**：『彩葉がヤチヨに甘えようとする話』 A5/18P/¥300/ほのぼのコメディ\n- **既刊 各 ¥500**：FAN ART BOOK、これから (CPK!)、PRESENT、Still on the way (別ジャンル、声がけ制)\n- 他ジャンルも極少部数持込み予定、ご希望の方は声かけ\n\n📊 **完売タイムライン**：[第一部](https://x.com/ato252058/status/2058369598362440033) → [第二部](https://x.com/ato252058/status/2058387459931853124) → [全完売 / 撤収](https://x.com/ato252058/status/2058406593633673401)\n\n🔁 [**今年度内 別イベ (候補: 夏コミ) で既刊再販予定**](https://x.com/ato252058/status/2058466076908708022) + 💌 [マシュマロ感想受付](https://marshmallow-qa.com/hii7qho8o5crz3d)\n\n📝 [**サークル参加レポ note 公開**](https://note.com/atoleg6_/n/n83cce81de137) (本人 5/25 投稿、振り返り)",
     "cover_url": "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -429,7 +429,7 @@ window.BOOTHS = [
     "x_handle": "vinegar_terrier",
     "x_url": "https://x.com/vinegar_terrier/status/2057412363171893747",
     "followers": 437,
-    "body": "- **新刊**：『浅き夢見じ酔ひもせず。』 A5/20P/¥300 (**現金のみ**)/全年齢/カップリング要素あり\n  - 成人して間もない時間軸、酔って甘える彩葉とまだ少し本音を隠すヤチヨ\n  - **ヤチヨがお酒を飲んだら ver も付録**\n- お釣り発生する会計お断り (開場直後特に)、スケブ依頼お断り、**購入部数制限あり**\n\n🎯 **次回参加**：[7/26 「パンケーキ食べたい！」](https://x.com/vinegar_terrier/status/2058875837496315995) (超かぐや姫オンリー @ 大阪) — 本イベント既刊として頒布予定",
+    "body": "- **新刊**：『浅き夢見じ酔ひもせず。』 A5/20P/¥300 (**現金のみ**)/全年齢/カップリング要素あり\n  - 成人して間もない時間軸、酔って甘える彩葉とまだ少し本音を隠すヤチヨ\n  - **ヤチヨがお酒を飲んだら ver も付録**\n- お釣り発生する会計お断り (開場直後特に)、スケブ依頼お断り、**購入部数制限あり**\n\n🎯 **次回参加**：[7/26 「パンケーキ食べたい！」](https://x.com/vinegar_terrier/status/2058875837496315995) (超かぐや姫オンリー @ 大阪) — 本イベント既刊として頒布予定\n\n📦 **メロンブックス 通販**:\n- [新刊『浅き夢見じ酔ひもせず。』](https://www.melonbooks.co.jp/detail/detail.php?product_id=3648278) (5/25 通販開始→即完売、[7/26 パンケーキ食べたい!で増刷再販予定](https://x.com/vinegar_terrier/status/2058883037425586580))\n\n📊 [**印刷数決定プロセス公開**](https://x.com/vinegar_terrier/status/2058873156167672020) — GoogleForm + 「買う」回答の約 3 倍弱を印刷で 8 割現地頒布の実績 (他作家への参考公開)\n\n💌 [マシュマロ感想受付](https://marshmallow-qa.com/ze689tapueoip16)",
     "cover_url": "https://pbs.twimg.com/media/HI1kRXNbsAAfspk.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -452,6 +452,11 @@ window.BOOTHS = [
         "soldout",
         "✅ 完売御礼",
         "https://x.com/vinegar_terrier/status/2058881924198961481"
+      ],
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/vinegar_terrier/status/2058875837496315995"
       ]
     ],
     "cover_urls": [
@@ -535,7 +540,7 @@ window.BOOTHS = [
     "x_handle": "noah_ark38",
     "x_url": "https://x.com/noah_ark38/status/2057945850148708578",
     "followers": 24074,
-    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、[「内心ドキドキ」](https://x.com/noah_ark38/status/2057945850148708578) (本人、お品書き tweet)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ\n\n📊 **完売タイムライン**：[第二部](https://x.com/noah_ark38/status/2058389640382759391) → [第三部](https://x.com/noah_ark38/status/2058407920354869407) → [全完売 / 撤収](https://x.com/noah_ark38/status/2058440414777299207)",
+    "body": "- **新刊**：『**笑かぐや姫！**』(Comical Princess Kaguya 其の壱)\n  - **B5 コミック (4 コマ) / 本文モノクロ / 14P / ¥500**\n  - 「**純度100%のコメディ本**」 (本人 comment、ただしお品書きに 「※純度18%のコメディです」 自虐 joke 付き)\n  - 「部数を 1 部でも多く刷る関係上 ページ数は少なめ」 設計\n  - 表紙：4 panel の かぐや 4コマシーン (アイテム拾い / TAKE2 / 着地補足 / ASMR / ゲームオーバー / チャット YCY / QueenNeverCry 等)\n  - 其の壱 marker = 続編匂わせ、シリーズ化前提\n- 一年ぶり新刊、[「内心ドキドキ」](https://x.com/noah_ark38/status/2057945850148708578) (本人、お品書き tweet)\n\n🎯 **次回参加**：[6月末 ボーマス](https://x.com/noah_ark38/status/2058440414777299207) (ボカロオンリー) + 夏コミ\n\n📊 **完売タイムライン**：[第二部](https://x.com/noah_ark38/status/2058389640382759391) → [第三部](https://x.com/noah_ark38/status/2058407920354869407) → [全完売 / 撤収](https://x.com/noah_ark38/status/2058440414777299207)\n\n🔜 [**Comical Princess Kaguya 2 続刊予告**](https://x.com/noah_ark38/status/2058805263885619374) (シリーズ化、5/25 投稿)",
     "cover_url": "https://pbs.twimg.com/media/HI9I4CBbEAARXHh.jpg?name=orig",
     "cps": [],
     "tags": {
