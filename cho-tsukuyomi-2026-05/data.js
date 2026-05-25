@@ -929,7 +929,7 @@ window.BOOTHS = [
     "x_handle": "arupaka5tuki",
     "x_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
     "followers": 22829,
-    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素\n\n📊 **完売タイムライン**：[第二部](https://x.com/arupaka5tuki/status/2058391211766104440) → [全完売 / 撤収](https://x.com/arupaka5tuki/status/2058412134766366864)\n\n🔁 [**次回イベントで再販予定**](https://x.com/arupaka5tuki/status/2058530037232193687) (本人 5/24 撤収時告知)",
+    "body": "- **新刊**：『同じ明日に何をえがこう？』 A5/36P/全年齢/¥500 (会場価格)/いろかぐ要素\n\n📊 **完売タイムライン**：[第二部](https://x.com/arupaka5tuki/status/2058391211766104440) → [全完売 / 撤収](https://x.com/arupaka5tuki/status/2058412134766366864)\n\n🔁 [**次回イベントで再販予定**](https://x.com/arupaka5tuki/status/2058519666923028533) (本人 5/24 撤収時告知)",
     "cover_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
     "cps": [
       "iroka"
@@ -1061,7 +1061,7 @@ window.BOOTHS = [
     "x_handle": "Kei_Megumi_",
     "x_url": "https://x.com/Kei_Megumi_/status/2053679112301224032",
     "followers": 24546,
-    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n📊 **完売タイムライン**：[第二部](https://x.com/Kei_Megumi_/status/2058386782111330614) → [全完売 / 撤収](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n🔁 [**夏コミ当選なら同内容で加筆なし・部数+ページ増で再販検討**](https://x.com/Kei_Megumi_/status/2058535895914131580)",
+    "body": "- **新刊**：『Color your life』 らくがきイラスト本 (聖地巡礼兼ね、立川来訪)\n- 詳細仕様 / 価格は当日 venue 確認 (¥500 ワンコイン との別 tweet 情報あり)\n- 24.5k follower\n\n🎯 **次回参加**：[夏コミ or 他オンリー予定](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n📊 **完売タイムライン**：[第二部](https://x.com/Kei_Megumi_/status/2058386782111330614) → [全完売 / 撤収](https://x.com/Kei_Megumi_/status/2058439841252295052)\n\n🔁 [**夏コミ当選なら同内容で加筆なし・部数+ページ増で再販検討**](https://x.com/Kei_Megumi_/status/2058593021223121406)",
     "cps": [],
     "tags": {
       "r18": false,
