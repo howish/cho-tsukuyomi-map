@@ -33,7 +33,7 @@ window.BOOTHS = [
     "x_handle": "masaki_sakura",
     "x_url": "https://x.com/masaki_sakura/status/2058170531522990081",
     "followers": 30993,
-    "body": "- **新刊**：『**超！舞台挨拶劇場レポ本。**』\n  - 内容：「奇跡的に当たった」 グランドシネマ池袋 舞台挨拶を、**作者の記憶だけを頼りに 「あの日をプレイバック！！」 レポ漫画**\n  - 表紙：かぐや (緑目) + ヤチヨ (中央マイク blonde) + 彩葉風 (右、ハート小ボックス抱き)\n  - サブテキスト：「あはははは / そこは 分身する と言ってもらってもいいですか? / 分身だー!!」 inset コマ\n  - **新刊** ¥500\n  - **折本** ¥100\n  - **かぐや姫 ①② 既刊** 各 ¥300\n  - **創作本 17 種類** 各 ¥500 (= 別ジャンル含む豊富な既刊群)",
+    "body": "- **新刊**：『**超！舞台挨拶劇場レポ本。**』\n  - 内容：「奇跡的に当たった」 グランドシネマ池袋 舞台挨拶を、**作者の記憶だけを頼りに 「あの日をプレイバック！！」 レポ漫画**\n  - 表紙：かぐや (緑目) + ヤチヨ (中央マイク blonde) + 彩葉風 (右、ハート小ボックス抱き)\n  - サブテキスト：「あはははは / そこは 分身する と言ってもらってもいいですか? / 分身だー!!」 inset コマ\n  - **新刊** ¥500\n  - **折本** ¥100\n  - **かぐや姫 ①② 既刊** 各 ¥300\n  - **創作本 17 種類** 各 ¥500 (= 別ジャンル含む豊富な既刊群)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3641863",
     "cover_url": "https://pbs.twimg.com/media/HJAXMITa4AA-VLy.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -49,6 +49,12 @@ window.BOOTHS = [
     "min_price": 100,
     "cover_urls": [
       "https://pbs.twimg.com/media/HJAXMITa4AA-VLy.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり"
+      ]
     ]
   },
   {
@@ -110,6 +116,10 @@ window.BOOTHS = [
       [
         "free",
         "🎁 無配あり"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ]
   },
@@ -145,6 +155,10 @@ window.BOOTHS = [
       [
         "limit",
         "🎫 部数制限"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ]
   },
@@ -212,6 +226,10 @@ window.BOOTHS = [
       [
         "cash",
         "💴 ジャスト払い推奨"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ],
     "cover_urls": [
@@ -322,6 +340,10 @@ window.BOOTHS = [
       [
         "cash",
         "💴 ジャスト払い推奨"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ],
     "cover_urls": [
@@ -351,6 +373,12 @@ window.BOOTHS = [
     "min_price": 300,
     "cover_urls": [
       "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -409,6 +437,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -458,6 +492,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HI9I4CBbEAARXHh.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -511,6 +551,12 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HI_0g44bwAAFkE-.jpg?name=orig",
       "https://pbs.twimg.com/media/HIrXnn_bYAIbr9X.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -536,6 +582,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIwo8nKacAACI_Z.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -562,6 +614,12 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HI4eoiYbEAIfPLi.jpg?name=orig",
       "https://pbs.twimg.com/media/HH80eJnaMAAY-E9.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -587,6 +645,12 @@ window.BOOTHS = [
     "min_price": 100,
     "cover_urls": [
       "https://pbs.twimg.com/media/HJADmq7agAARZW2.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -626,6 +690,10 @@ window.BOOTHS = [
       [
         "reprint",
         "⚠️ 再販なし"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ],
     "cover_urls": [
@@ -659,6 +727,12 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HI6rdjia4AAHno-.jpg?name=orig",
       "https://pbs.twimg.com/media/HI6rdjjbEAAsPxq.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -714,6 +788,12 @@ window.BOOTHS = [
     "min_price": 600,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIwmLhQboAARAAV.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -780,6 +860,12 @@ window.BOOTHS = [
       "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig",
       "https://pbs.twimg.com/media/HHtgYWcbYAAjSkI.jpg?name=orig",
       "https://pbs.twimg.com/media/HHtgYWeaIAAjKMb.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -807,6 +893,10 @@ window.BOOTHS = [
       [
         "limit",
         "🎫 部数制限"
+      ],
+      [
+        "soldout",
+        "✅ 完売御礼"
       ]
     ],
     "cover_urls": [
@@ -839,6 +929,12 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIrinmCb0AA484j.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -889,7 +985,13 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig"
     ],
-    "cover_url": "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig"
+    "cover_url": "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig",
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
+    ]
   },
   {
     "booth_id": "B-09",
@@ -916,6 +1018,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HI6_EQWa4AAY-tN.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -940,6 +1048,12 @@ window.BOOTHS = [
     },
     "cover_urls": [
       "https://pbs.twimg.com/media/HIwnW7VakAATzoC.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -969,6 +1083,12 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIwyCjYagAA30pv.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -994,6 +1114,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIskuT4aQAA07qU.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -1019,7 +1145,13 @@ window.BOOTHS = [
       "manga": true,
       "illust": true,
       "goods": false
-    }
+    },
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
+    ]
   },
   {
     "booth_id": "B-15",
@@ -1028,7 +1160,7 @@ window.BOOTHS = [
     "x_handle": "kaguramix",
     "x_url": "https://x.com/kaguramix/status/2057077463394775213",
     "followers": 7658,
-    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)",
+    "body": "- **新刊**：『カグフワチャン！』 超かぐや姫 1 ページ漫画集 ¥1,000\n- **3 月新刊**：『しゃべる赤ちゃんかぐや』\n- **1 月新刊**：『彩葉×かぐやの立川ローカルネタ』\n- 全年齢ギャグ本\n- 新刊通販はイベント後 (二次創作ガイドライン準拠)\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3427347",
     "cover_url": "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig",
     "cps": [
       "iroka"
@@ -1046,6 +1178,16 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       "https://pbs.twimg.com/media/HIw0JqabYAAM2fd.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ],
+      [
+        "online",
+        "🛒 通販あり"
+      ]
     ]
   },
   {
@@ -1107,7 +1249,7 @@ window.BOOTHS = [
     "x_handle": "mekimekix",
     "x_url": "https://x.com/mekimekix/status/2057788798386528595",
     "followers": 30331,
-    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- **在庫分割**：第三部まで在庫分け予定 (各部均等配分)\n- **釣銭少なめ**、ジャスト払い推奨 (特に開場直後)\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱",
+    "body": "- **NEW 新刊 (5/24 1限)**：『**超ヤチヨ祭！**』 12P/¥300\n- **既刊**：『夢の通い路』 28P/¥600 (いろヤチ 1st 本)\n- **既刊** (cross-domain)：『リコリス・リコイル 巨乳制服本』 30P/¥600 (by ちたきゆ × 巨乳制服本)\n- **5/24 + 6/7 ヤオヨロー！両方**で頒布、ただし新刊は 5/24 1 限のみ\n- **在庫分割**：第三部まで在庫分け予定 (各部均等配分)\n- **釣銭少なめ**、ジャスト払い推奨 (特に開場直後)\n- 商業作家 (ビッグガンガン『怜-Toki-』 / コミックキューン『飯テロ系グラドル』連載)\n- **作家療養中**、差し入れ希望：乾燥ホタテ貝柱\n\n📦 **通販**:\n  - https://www.melonbooks.co.jp/detail/detail.php?product_id=3563709",
     "cover_url": "https://pbs.twimg.com/media/HI674e7bQAARvvI.jpg?name=orig",
     "cps": [
       "iroyachi"
@@ -1131,6 +1273,10 @@ window.BOOTHS = [
       [
         "limit",
         "🎫 部数制限"
+      ],
+      [
+        "online",
+        "🛒 通販あり"
       ]
     ],
     "cover_urls": [
@@ -1192,6 +1338,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HI7KdaYa0AAY0-h.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり"
+      ]
     ]
   },
   {
@@ -1290,6 +1442,12 @@ window.BOOTHS = [
       "https://pbs.twimg.com/media/HI65x8LbIAAIhlA.jpg?name=orig",
       "https://pbs.twimg.com/media/HI65x8LbsAATVRs.jpg?name=orig",
       "https://pbs.twimg.com/media/HI65x79agAATxKB.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -1315,6 +1473,12 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       "https://pbs.twimg.com/media/HJAQe5TaEAAqQW7.jpg?name=orig"
+    ],
+    "warnings": [
+      [
+        "soldout",
+        "✅ 完売御礼"
+      ]
     ]
   },
   {
@@ -1349,5 +1513,5 @@ window.BOOTHS = [
     "cover_urls": [
       "https://pbs.twimg.com/media/HI2hi3zbkAIR9xh.jpg?name=orig"
     ]
-  }
+  },
 ];

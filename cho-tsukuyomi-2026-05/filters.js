@@ -117,6 +117,18 @@ window.FILTERS_CONFIG = {
 
   warnings: [
     {
+      code: "soldout",
+      label: "✅ 完売御礼",
+      class_suffix: "soldout",
+      pattern: "完売|sold out|売り切れました",
+    },
+    {
+      code: "online",
+      label: "🛒 通販あり",
+      class_suffix: "online",
+      pattern: "通販|BOOTH|メロン|melon|とらのあな|pictSPACE|booth\\.pm",
+    },
+    {
       code: "reprint",
       label: "⚠️ 再販なし",
       class_suffix: "reprint",

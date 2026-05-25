@@ -432,6 +432,18 @@ section {
   border-color: #90caf9;
 }
 
+.booth-warning.warn-soldout {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+}
+
+.booth-warning.warn-online {
+  background: #f3e5f5;
+  color: #6a1b9a;
+  border-color: #ce93d8;
+}
+
 .back-to-top {
   position: fixed;
   bottom: 1.2rem;
