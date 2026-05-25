@@ -860,7 +860,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/sango3_3/status/2058440842596516029"
+        "https://x.com/sango3_3/status/2058438855473471607"
       ]
     ]
   },
@@ -906,7 +906,7 @@ window.BOOTHS = [
     "x_handle": "hanaya_102",
     "x_url": "https://x.com/hanaya_102/status/2057781012583903703",
     "followers": 7414,
-    "body": "- **新刊**：『アフターハッピーエンド ウィズ・ユー！』 A5/**16P**/¥500/全年齢\n  - **かにみそ @ka2chokichoki と合同 / ヤチいろかぐ (三人) ほのぼの After HE**\n  - 表紙：花谷キャラ + ヤチヨ風 + かぐや風 mini sticker、ハート + 食事 motif\n- **会場限定 TAKE FREE 無配コピ本**：『**かぐやちゃん絶体絶命のピンチ**』 A5 コピー本 / 4P+1P 漫画\n- **Attention** (作家提示)：\n  - **現金のみ** (クレジット / QR 決済不可)\n  - **開場直後の高額紙幣 NG**、各部頒布調整予定、**部数制限の可能性あり**\n  - スケブ・色紙 NG\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/hanaya_102/status/2058579086906438058) — コピー本予定\n\n📊 **完売タイムライン**：[第一部分なくなる (02:20)](https://x.com/hanaya_102/status/2058372904933052754) → [全てなくなる (05:55)](https://x.com/hanaya_102/status/2058427060503204200) — プリンター過労からの startup、コピ本含め全完売",
+    "body": "- **新刊**：『アフターハッピーエンド ウィズ・ユー！』 A5/**16P**/¥500/全年齢\n  - **かにみそ @ka2chokichoki と合同 / ヤチいろかぐ (三人) ほのぼの After HE**\n  - 表紙：花谷キャラ + ヤチヨ風 + かぐや風 mini sticker、ハート + 食事 motif\n- **会場限定 TAKE FREE 無配コピ本**：『**かぐやちゃん絶体絶命のピンチ**』 A5 コピー本 / 4P+1P 漫画\n- **Attention** (作家提示)：\n  - **現金のみ** (クレジット / QR 決済不可)\n  - **開場直後の高額紙幣 NG**、各部頒布調整予定、**部数制限の可能性あり**\n  - スケブ・色紙 NG\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/hanaya_102/status/2058579086906438058) — コピー本予定\n\n📊 **完売タイムライン**：[第一部分なくなる (02:20)](https://x.com/hanaya_102/status/2058372501991022850) → [全てなくなる (05:55)](https://x.com/hanaya_102/status/2058426655769850359) — プリンター過労からの startup、コピ本含め全完売",
     "cover_url": "https://pbs.twimg.com/media/HI6048yasAATrLQ.jpg?name=orig",
     "cps": [
       "trio"
@@ -934,7 +934,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/hanaya_102/status/2058427060503204200"
+        "https://x.com/hanaya_102/status/2058426655769850359"
       ]
     ],
     "cover_urls": [
@@ -1586,7 +1586,7 @@ window.BOOTHS = [
       [
         "soldout",
         "✅ 完売御礼",
-        "https://x.com/ABzome/status/2058387956770177057"
+        "https://x.com/ABzome/status/2058387521692897285"
       ]
     ]
   },
