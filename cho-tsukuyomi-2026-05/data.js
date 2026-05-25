@@ -577,7 +577,7 @@ window.BOOTHS = [
     "x_handle": "zuka_misuzu",
     "x_url": "https://x.com/zuka_misuzu/status/2056592661537288632",
     "followers": 88,
-    "body": "- **新刊**：『星と月と海の唄』 B5/フルカラー/¥500、酒寄彩葉中心イラスト集",
+    "body": "- **新刊**：『星と月と海の唄』 B5/フルカラー/¥500、酒寄彩葉中心イラスト集\n\n🎯 **次回参加**：[超ツクヨミ祭1.5 (かぐや誕生記念回)](https://x.com/zuka_misuzu/status/2058500929033560317) + 夏コミ予定 — 一部再録 + 描き下ろし増量版でお届け、次回参加時に委託も検討中",
     "cover_url": "https://pbs.twimg.com/media/HIp8EcUbAAAtZnO.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -609,7 +609,7 @@ window.BOOTHS = [
     "x_handle": "C_77sotome",
     "x_url": "https://x.com/C_77sotome/status/2058132405622620439",
     "followers": 142,
-    "body": "- **新刊**：『安芸の都にて』 B5/ワイド四コマ/¥500、いろかぐ宮島デート (10 年後)\n- **同人イベント初陣**\n\n📊 **完売タイムライン**：[第二部](https://x.com/C_77sotome/status/2058392643282051202) → [全完売 / 撤収](https://x.com/C_77sotome/status/2058412805511098759)",
+    "body": "- **新刊**：『安芸の都にて』 B5/ワイド四コマ/¥500、いろかぐ宮島デート (10 年後)\n- **同人イベント初陣**\n\n📊 **完売タイムライン**：[第二部](https://x.com/C_77sotome/status/2058392643282051202) → [全完売 / 撤収](https://x.com/C_77sotome/status/2058412805511098759)\n\n🎯 [**次回参加: 夏コミ予定**](https://x.com/C_77sotome/status/2058430180482552303) (ガイドライン上、本誌増刷は次回イベントまで不可)",
     "cover_url": "https://pbs.twimg.com/media/HI_0g44bwAAFkE-.jpg?name=orig",
     "cps": [
       "iroka"
@@ -644,7 +644,7 @@ window.BOOTHS = [
     "x_handle": "Qutouten_",
     "x_url": "https://x.com/Qutouten_/status/2057068821664461308",
     "followers": 1519,
-    "body": "- **新刊**：『コミケ準備号』 A4/16P/フルカラー/¥500\n  - **句読点 × くろねこおるた 2 人合作イラスト本**\n- **グッズ**：明星ヒマリセット (ステッカー+チェキ+ポストカード) ¥500、水着リン アクスタ 90×140mm ¥1,500\n- 高額紙幣不可\n- 月見ヤチヨ多めの超かぐや姫イラスト本 + 過去イベントの他ジャンルグッズも",
+    "body": "- **新刊**：『コミケ準備号』 A4/16P/フルカラー/¥500\n  - **句読点 × くろねこおるた 2 人合作イラスト本**\n- **グッズ**：明星ヒマリセット (ステッカー+チェキ+ポストカード) ¥500、水着リン アクスタ 90×140mm ¥1,500\n- 高額紙幣不可\n- 月見ヤチヨ多めの超かぐや姫イラスト本 + 過去イベントの他ジャンルグッズも\n\n🎯 [**次回参加: 夏コミでイラスト本 2 倍ボリューム新刊予定**](https://x.com/Qutouten_/status/2058577982575513942)",
     "cover_url": "https://pbs.twimg.com/media/HIwo8nKacAACI_Z.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -676,7 +676,7 @@ window.BOOTHS = [
     "x_handle": "EiNeEna_mikan",
     "x_url": "https://x.com/EiNeEna_mikan/status/2057725649859797199",
     "followers": 662,
-    "body": "- **新刊**：『Cosmic Princeeeeess!!!』(unofficial fanbook ILLUSTRATIONS)\n  - **B5 正方形 / 20P (予定) / ¥500 (予定) / 初イラスト本 + ゲスト寄稿数名**\n\n🚫 [**通販・委託なし**](https://x.com/EiNeEna_mikan/status/2057858394481156396) (お取り置きのみ受付、DM 経由 — 本人 reply 明言)",
+    "body": "- **新刊**：『Cosmic Princeeeeess!!!』(unofficial fanbook ILLUSTRATIONS)\n  - **B5 正方形 / 20P (予定) / ¥500 (予定) / 初イラスト本 + ゲスト寄稿数名**\n\n🚫 [**通販・委託なし**](https://x.com/EiNeEna_mikan/status/2057858394481156396) (お取り置きのみ受付、DM 経由 — 本人 reply 明言)\n\n🔁 [**夏コミで増刷頒布予定**](https://x.com/EiNeEna_mikan/status/2058438137949585525) + [ヤオヨロー!で少部数委託検討中](https://x.com/EiNeEna_mikan/status/2058464567118926222)\n\n📣 [**合同誌寄稿募集中**](https://x.com/EiNeEna_mikan/status/2058899956820533256) (本人「お話あればお声がけ下さい」)",
     "cover_url": "https://pbs.twimg.com/media/HI4eoiYbEAIfPLi.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -714,7 +714,7 @@ window.BOOTHS = [
     "x_handle": "arnciel",
     "x_url": "https://x.com/arnciel/status/2058149006006694223",
     "followers": 1686,
-    "body": "- **サークル名「何もかもぶれぶれ」 確定**- **新刊その 1**：『**私の未来ってどうなるの〜!?**』\n  - **A5/22P/¥500/漫画**\n  - 表紙：彩葉中央 + 周囲かぐや・ヤチヨ・芦花 (黒髪青服)\n- **新刊その 2**：『**君の声を隣に感じて**』 (コピー本)\n  - **A5/8P/¥100/小説**\n  - 「**大学生になった彩葉がヤチヨと寝落ち通話をする話**」\n  - 表紙：彩葉 ipad ベッドで横向き",
+    "body": "- **サークル名「何もかもぶれぶれ」 確定**- **新刊その 1**：『**私の未来ってどうなるの〜!?**』\n  - **A5/22P/¥500/漫画**\n  - 表紙：彩葉中央 + 周囲かぐや・ヤチヨ・芦花 (黒髪青服)\n- **新刊その 2**：『**君の声を隣に感じて**』 (コピー本)\n  - **A5/8P/¥100/小説**\n  - 「**大学生になった彩葉がヤチヨと寝落ち通話をする話**」\n  - 表紙：彩葉 ipad ベッドで横向き\n\n🔁 [**夏コミ等で追加分頒布予定**](https://x.com/arnciel/status/2058435284992401784) (当日分は入稿都合で少部数、残部は後日着で別イベ持ち込み)",
     "cover_url": "https://pbs.twimg.com/media/HJADmq7agAARZW2.jpg?name=orig",
     "cps": [],
     "tags": {
