@@ -1127,7 +1127,7 @@ window.BOOTHS = [
     "x_handle": "mizonozomizo",
     "x_url": "https://x.com/mizonozomizo/status/2057063495515201921",
     "followers": 4908,
-    "body": "- **新刊 5 種**：合同 1、小説 3、**古本屋さん @fullhon88 新刊 1**\n- ワンオペ告知、スケブなし\n- ワンオペで出来るだけお釣りのないように協力要請、スケブなし\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/mizonozomizo/status/2058459079383892171) @ ラブフェス (蒲田)",
+    "body": "- **新刊 5 種**：合同 1、小説 3、**古本屋さん @fullhon88 新刊 1**\n- ワンオペ告知、スケブなし\n- ワンオペで出来るだけお釣りのないように協力要請、スケブなし\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/mizonozomizo/status/2058459079383892171) @ ラブフェス (蒲田)\n\n📊 **完売タイムライン**：[第一部 (12分)](https://x.com/mizonozomizo/status/2058371510541353196) → [第二部 (新刊6分/全12分)](https://x.com/mizonozomizo/status/2058390027449823656) → [第三部 (新刊3分/全15分)](https://x.com/mizonozomizo/status/2058409552379564467) — 委託本含め爆速完売",
     "cover_url": "https://pbs.twimg.com/media/HIwnW7VakAATzoC.jpg?name=orig",
     "cps": [],
     "tags": {
@@ -1158,7 +1158,7 @@ window.BOOTHS = [
     "x_handle": "ohmiyamiyamiya",
     "x_url": "https://x.com/ohmiyamiyamiya/status/2057076155661140373",
     "followers": 6924,
-    "body": "- **新刊**：『**いろはにほれろ**』 (いろはにほへと alphabet poem + 「惚れろ」 の 二重 punning — \"彩葉に惚れろ\" 示唆)\n  - **文庫本サイズ / 134P / ¥1,000 (予定) / 全年齢**\n  - **いろ × ○○ CP まとめ本** = **いろかぐ / いろろか / いろヤチ ss 短編集**\n  - 表紙：いろは (黒髪・サスペンダースカート) と狐耳キャラ (彩葉 or 別キャラ) の hug 構図 + 小キャラ icon (かぐや・真実?)\n  - 「書き下ろしショートストーリー (いろろか) のサンプルがツリーに掲載」\n\n📊 **完売タイムライン**：[第一部](https://x.com/ohmiyamiyamiya/status/2058379008535044372) → [第二部](https://x.com/ohmiyamiyamiya/status/2058389223066206523) → [全完売 / 撤収](https://x.com/ohmiyamiyamiya/status/2058408902845407701)",
+    "body": "- **新刊**：『**いろはにほれろ**』 (いろはにほへと alphabet poem + 「惚れろ」 の 二重 punning — \"彩葉に惚れろ\" 示唆)\n  - **文庫本サイズ / 134P / ¥1,000 (予定) / 全年齢**\n  - **いろ × ○○ CP まとめ本** = **いろかぐ / いろろか / いろヤチ ss 短編集**\n  - 表紙：いろは (黒髪・サスペンダースカート) と狐耳キャラ (彩葉 or 別キャラ) の hug 構図 + 小キャラ icon (かぐや・真実?)\n  - 「書き下ろしショートストーリー (いろろか) のサンプルがツリーに掲載」\n\n📊 **完売タイムライン**：[第一部](https://x.com/ohmiyamiyamiya/status/2058379008535044372) → [第二部](https://x.com/ohmiyamiyamiya/status/2058389223066206523) → [全完売 / 撤収](https://x.com/ohmiyamiyamiya/status/2058408902845407701)\n\n🔁 [**コミケ参加時に増刷検討**](https://x.com/ohmiyamiyamiya/status/2058514758102634830) (冬コミ参加希望)",
     "cover_url": "https://pbs.twimg.com/media/HIwyCjYagAA30pv.jpg?name=orig",
     "cps": [
       "iroka",
@@ -1231,7 +1231,7 @@ window.BOOTHS = [
       "https://pbs.twimg.com/media/HItvLCHacAAzUrQ.jpg?name=orig"
     ],
     "min_price": 200,
-    "body": "- **新刊**：『**おとぎ物語〈準備号〉**』 A5/8P/モノクロ/¥200\n- **ラフイラスト本** (準備号 = 続編匂わせ)\n- 表紙：いろは 狐 avatar (紫髪、狐耳・狐尾、月モチーフ)\n- 茨城在住イラストレーター",
+    "body": "- **新刊**：『**おとぎ物語〈準備号〉**』 A5/8P/モノクロ/¥200\n- **ラフイラスト本** (準備号 = 続編匂わせ)\n- 表紙：いろは 狐 avatar (紫髪、狐耳・狐尾、月モチーフ)\n- 茨城在住イラストレーター\n\n🎯 [**次回参加: 夏コミで完成号予定**](https://x.com/kyou_watanuki/status/2058464346007838931) — 今回の準備号をアップグレード版で頒布、部数も余裕を持って増",
     "cps": [],
     "tags": {
       "r18": false,
