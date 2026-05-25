@@ -997,6 +997,31 @@ window.BOOTHS = [
     ]
   },
   {
+    "booth_id": "B-14",
+    "circle_name": "しのぶれ堂",
+    "author": "渡貫きょう",
+    "x_handle": "kyou_watanuki",
+    "x_url": "https://x.com/kyou_watanuki/status/2056859895329370379",
+    "followers": 977,
+    "cover_url": "https://pbs.twimg.com/media/HItvLCHacAAzUrQ.jpg?name=orig",
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HItvLCHacAAzUrQ.jpg?name=orig"
+    ],
+    "min_price": 200,
+    "body": "- **新刊**：『**おとぎ物語〈準備号〉**』 A5/8P/モノクロ/¥200\n- **ラフイラスト本** (準備号 = 続編匂わせ)\n- 表紙：いろは 狐 avatar (紫髪、狐耳・狐尾、月モチーフ)\n- 茨城在住イラストレーター",
+    "cps": [],
+    "tags": {
+      "r18": false,
+      "consign": false,
+      "goudou": false,
+      "free": false,
+      "novel": false,
+      "manga": true,
+      "illust": true,
+      "goods": false
+    }
+  },
+  {
     "booth_id": "B-15",
     "circle_name": "カグラミクス",
     "author": "神楽つな",
