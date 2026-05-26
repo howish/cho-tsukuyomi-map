@@ -781,10 +781,13 @@
       summary.textContent = `${items.length} 件の修正案が編集中です: ${items.map(p => p.booth_id).join(', ')}`;
       preview.textContent = buildSubmissionText();
       panel.hidden = false;
+      panel.style.display = '';
     }
 
     function closePanel() {
-      document.getElementById('edit-panel').hidden = true;
+      const p = document.getElementById('edit-panel');
+      p.hidden = true;
+      p.style.display = 'none';  // hidden attribute is overridden by .edit-panel{display:flex}
     }
 
     function buildGithubIssueUrl() {
@@ -826,6 +829,8 @@
     // Initialize button state + counter on load
     setMode(enabled);
     refreshCounter();
+    // Ensure panel is actually hidden on load (CSS display:flex overrides [hidden])
+    closePanel();
 
     return { getPending, setPending, clearPending, refreshCounter, get isEnabled() { return enabled; } };
   })();
