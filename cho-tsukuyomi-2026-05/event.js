@@ -4,6 +4,13 @@
  * See `data.js` for booth data and `filters.js` for CP/tag filter definitions.
  */
 window.EVENT_CONFIG = {
+  // UI language — picks the dict from i18n.js (window.I18N_STRINGS).
+  // Supported: 'ja', 'zh-tw'. Missing keys fall back to 'ja'.
+  language: "ja",
+
+  // Currency symbol shown on booth cards (price field).
+  currency_symbol: "¥",
+
   // Page title (also used for OG / Twitter card titles)
   name: "超ツクヨミ祭 第1回",
   short_name: "超ツクヨミ祭 ガイド",

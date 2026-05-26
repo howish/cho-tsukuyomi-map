@@ -1,0 +1,227 @@
+/**
+ * i18n string dictionary for the event-guide template.
+ *
+ * Per-event language is set by `EVENT_CONFIG.language` (event.js) — e.g. 'ja', 'zh-tw'.
+ * Missing keys fall back to 'ja'. Booth body content stays in the author's
+ * native language; only UI chrome is translated.
+ *
+ * Interpolation: '{name}' tokens in values are replaced from the params object
+ * passed to T(id, params) — e.g. T('row_label', { row: 'A' }).
+ */
+window.I18N_STRINGS = {
+  ja: {
+    // Page metadata
+    page_title_suffix: ' サークル ガイド',
+    og_title_suffix: ' サークルガイド (非公式)',
+    event_fallback_name: '同人即売会',
+    info_separator: ' ／ ',
+
+    // Disclaimer
+    disclaimer_html_prefix: '🍃 <strong>非公式 fan guide</strong> ／ 公式情報は ',
+    disclaimer_html_suffix: ' 参照。 サークル情報は各作家の X 投稿より引用、誤りや更新は X リンクから原ポストでご確認ください。',
+
+    // Footer
+    footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
+    footer_build_date: ' ／ {date}',
+    footer_repo_html: '情報誤り・新規追加：<a href="{url}" target="_blank" rel="noopener">GitHub repo</a> に PR / Issue 歓迎<br>',
+    footer_guide_label: 'サークルガイド',
+    footer_intro_html: '🌙 <strong>{eventName} {guideLabel}</strong> — 非公式 fan guide<br>',
+    footer_source_line: '情報は各サークル作家の X 公開ポストから集約、表紙画像は X CDN リンク (画像クリックで X 投稿で原寸表示)<br>',
+
+    // Header chrome (buttons in index.html)
+    share_btn: '🔗 このサイトを共有',
+    share_btn_copied: '✅ URL コピー済み',
+    offline_btn_idle: '📥 オフライン対応 ON',
+    offline_btn_caching: '📥 キャッシュ中...',
+    offline_btn_caching_progress: '📥 キャッシュ中... {done}/{total} ({pct}%)',
+    offline_btn_ready: '✅ オフライン対応 ON (タップで OFF)',
+    offline_btn_unsupported: '📵 オフライン非対応',
+    offline_status_caching_start: '{count} 件のファイルをダウンロード中... (画像が多いので 1-2 分かかる場合あり)',
+    offline_status_partial: '{done} 件キャッシュ完了 ({failed} 件失敗 — X CDN の一部が hot-link block 中の可能性あり)',
+    offline_status_full: '全 {done} 件キャッシュ完了 — 圏外でも利用可能🌿',
+    offline_status_cleared: 'オフラインキャッシュを削除しました',
+    offline_status_error: 'エラー: {message}',
+    offline_status_sw_not_ready: 'Service Worker 起動中... 数秒後にもう一度タップしてください',
+    offline_confirm_clear: 'オフラインキャッシュを削除しますか？\n削除すると圏外で表示できなくなります。',
+
+    // Edit mode
+    edit_mode_on: '✏️ 修正モード ON',
+    edit_mode_off: '✏️ 修正モード OFF',
+    edit_pending_btn_html: '📤 修正案を送信 (<span id="edit-pending-count">0</span>件)',
+    edit_panel_title: '📤 修正案を送信',
+    edit_panel_summary: '{count} 件の修正案が編集中です: {ids}',
+    edit_panel_close_aria: '閉じる',
+    edit_panel_preview_summary: '提出内容プレビュー',
+    edit_panel_note: 'submitted な修正案は維持者がレビューしてからサイトに反映されます。妥当性がない / spam 判定された case は close される場合があります。',
+    edit_clear_all_btn: '🗑 すべての編集を破棄',
+    edit_clear_all_confirm: '全ての pending 編集を破棄します。よろしいですか?',
+    edit_submit_github: '🐙 GitHub Issue として送信',
+    edit_submit_copy: '📋 クリップボードコピー',
+    edit_submit_copy_done: '✅ コピー済み',
+    edit_submit_copy_fallback: 'クリップボード API 使えず、下の text を手動コピーしてください:',
+    edit_mode_banner: '✏️ 修正モード — 下のテキストを編集 → 「💾 保存」 で localStorage に保存',
+    edit_save_btn: '💾 保存',
+    edit_save_done: '✅ 保存しました',
+    edit_save_unchanged: '↩️ 元と同じ、編集破棄',
+    edit_revert_btn: '↩️ 元の文に戻す',
+    edit_submission_doc_title: '修正案 — {event} fan guide',
+    edit_submission_count_label: '提出 booth 数: {count}',
+    edit_submission_time_label: '提出時刻: {ts}',
+    edit_submission_body_before: 'body (before)',
+    edit_submission_body_after: 'body (after)',
+    edit_submission_footer: '— 修正モードから自動生成 —',
+    edit_submission_github_title: '[修正案] {count} 件の booth 情報 update',
+
+    // Map section
+    map_section_title: '会場マップ',
+    venue_map_alt: '会場マップ',
+
+    // Filters
+    search_placeholder: 'サークル名 / 作家 / X / ブース ID 検索...',
+    search_clear_aria: '検索クリア',
+    filter_cp_label: 'CP',
+    filter_tag_label: 'タグ',
+    filter_all: '全部',
+    filter_fav: '⭐ お気に入り',
+    filter_fav_title: '自分でマークした お気に入りのみ表示',
+
+    // Stats
+    stats_filtered: '表示中 {visible} / 全 {total} ブース (絞り込み中)',
+    stats_total: '全 {total} ブース',
+
+    // Booth cards
+    row_label: '{row} 列',
+    card_aria: '{boothId} {circle} {author} の詳細を開く',
+    fav_star_title: 'お気に入りに追加 / 解除',
+    fav_aria: 'お気に入りトグル',
+    price_template: '¥{n}〜',
+
+    // Modal
+    modal_prev_label: '前のサークル',
+    modal_prev_title: '前のサークル (左スワイプ)',
+    modal_prev_btn: '← 前',
+    modal_next_label: '次のサークル',
+    modal_next_title: '次のサークル (右スワイプ)',
+    modal_next_btn: '次 →',
+    modal_followers: '{n} followers',
+    modal_fav_on: '★ お気に入り済',
+    modal_fav_off: '☆ お気に入り追加',
+    modal_x_link: '🔗 X で開く (お品書き原典)',
+    modal_warn_source_title: '出典 tweet を開く',
+    modal_close_bottom: '✕ 閉じる',
+    modal_close_aria: '閉じる',
+    modal_alts_heading: '同じブースの他メンバー',
+
+    // Cover carousel
+    cover_img_alt: 'お品書き / 表紙 {i}/{n}',
+    cover_load_failed: '🔗 画像読み込み失敗 — X 投稿で確認 →',
+    carousel_hint: '← 横にスワイプで全 {n} 枚 →',
+
+    // Misc
+    back_to_top_aria: 'トップに戻る',
+    share_text_fallback: '{eventName} サークル情報 + マップ',
+    share_dialog_title: '{eventName} サークルガイド (非公式)',
+  },
+
+  'zh-tw': {
+    page_title_suffix: ' 攤位指南',
+    og_title_suffix: ' 攤位指南（非官方）',
+    event_fallback_name: '同人即售會',
+    info_separator: '／',
+
+    disclaimer_html_prefix: '🍃 <strong>非官方 fan guide</strong>／官方資訊請參考 ',
+    disclaimer_html_suffix: ' 。攤位資訊引用自各作者的 X 推文，更正或更新請從 X 連結至原推文確認。',
+
+    footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
+    footer_build_date: '／{date}',
+    footer_repo_html: '資訊錯誤・新增請洽：<a href="{url}" target="_blank" rel="noopener">GitHub repo</a> PR / Issue 歡迎<br>',
+    footer_guide_label: '攤位指南',
+    footer_intro_html: '🌙 <strong>{eventName} {guideLabel}</strong> — 非官方 fan guide<br>',
+    footer_source_line: '資訊聚合自各圈作者的 X 公開推文，封面圖像為 X CDN 連結（點擊圖片可在 X 推文中查看原始尺寸）<br>',
+
+    share_btn: '🔗 分享此網站',
+    share_btn_copied: '✅ 已複製連結',
+    offline_btn_idle: '📥 開啟離線模式',
+    offline_btn_caching: '📥 快取中…',
+    offline_btn_caching_progress: '📥 快取中… {done}/{total}（{pct}%）',
+    offline_btn_ready: '✅ 離線模式 ON（點擊關閉）',
+    offline_btn_unsupported: '📵 不支援離線',
+    offline_status_caching_start: '正在下載 {count} 個檔案…（圖片較多，可能需要 1-2 分鐘）',
+    offline_status_partial: '已快取 {done} 個檔案（{failed} 個失敗 — X CDN 部分可能 hot-link block 中）',
+    offline_status_full: '全部 {done} 個檔案快取完成 — 離線可用🌿',
+    offline_status_cleared: '已刪除離線快取',
+    offline_status_error: '錯誤：{message}',
+    offline_status_sw_not_ready: 'Service Worker 啟動中…請數秒後再試',
+    offline_confirm_clear: '要刪除離線快取嗎？\n刪除後將無法離線顯示。',
+
+    edit_mode_on: '✏️ 修正模式 ON',
+    edit_mode_off: '✏️ 修正模式 OFF',
+    edit_pending_btn_html: '📤 送出修正案（<span id="edit-pending-count">0</span> 件）',
+    edit_panel_title: '📤 送出修正案',
+    edit_panel_summary: '編輯中的修正案 {count} 件：{ids}',
+    edit_panel_close_aria: '關閉',
+    edit_panel_preview_summary: '提交內容預覽',
+    edit_panel_note: '提交的修正案需經維護者審核後才會反映到網站。不合理／判定為 spam 的情況可能會被關閉。',
+    edit_clear_all_btn: '🗑 清除所有編輯',
+    edit_clear_all_confirm: '將清除所有待提交的編輯，確定嗎？',
+    edit_submit_github: '🐙 以 GitHub Issue 提交',
+    edit_submit_copy: '📋 複製到剪貼簿',
+    edit_submit_copy_done: '✅ 已複製',
+    edit_submit_copy_fallback: '無法使用剪貼簿 API，請手動複製以下文字：',
+    edit_mode_banner: '✏️ 修正模式 — 編輯下方文字 → 點「💾 儲存」存到 localStorage',
+    edit_save_btn: '💾 儲存',
+    edit_save_done: '✅ 已儲存',
+    edit_save_unchanged: '↩️ 與原文相同，已捨棄',
+    edit_revert_btn: '↩️ 還原為原文',
+    edit_submission_doc_title: '修正案 — {event} fan guide',
+    edit_submission_count_label: '提交攤位數：{count}',
+    edit_submission_time_label: '提交時間：{ts}',
+    edit_submission_body_before: 'body (before)',
+    edit_submission_body_after: 'body (after)',
+    edit_submission_footer: '— 由修正模式自動產生 —',
+    edit_submission_github_title: '[修正案] {count} 個攤位資訊更新',
+
+    map_section_title: '會場地圖',
+    venue_map_alt: '會場地圖',
+
+    search_placeholder: '圈名 / 作者 / X / 攤位 ID 搜尋…',
+    search_clear_aria: '清除搜尋',
+    filter_cp_label: 'CP',
+    filter_tag_label: '標籤',
+    filter_all: '全部',
+    filter_fav: '⭐ 我的收藏',
+    filter_fav_title: '只顯示自己標記的收藏',
+
+    stats_filtered: '顯示中 {visible} / 全 {total} 攤位（篩選中）',
+    stats_total: '全 {total} 攤位',
+
+    row_label: '{row} 區',
+    card_aria: '開啟 {boothId} {circle} {author} 的詳細',
+    fav_star_title: '加入 / 移除收藏',
+    fav_aria: '收藏切換',
+    price_template: 'NT${n}〜',
+
+    modal_prev_label: '上一個圈',
+    modal_prev_title: '上一個圈（左滑）',
+    modal_prev_btn: '← 上一個',
+    modal_next_label: '下一個圈',
+    modal_next_title: '下一個圈（右滑）',
+    modal_next_btn: '下一個 →',
+    modal_followers: '{n} followers',
+    modal_fav_on: '★ 已收藏',
+    modal_fav_off: '☆ 加入收藏',
+    modal_x_link: '🔗 在 X 開啟（攤位品書原典）',
+    modal_warn_source_title: '開啟出處推文',
+    modal_close_bottom: '✕ 關閉',
+    modal_close_aria: '關閉',
+    modal_alts_heading: '同攤位其他成員',
+
+    cover_img_alt: '攤位品書 / 封面 {i}/{n}',
+    cover_load_failed: '🔗 圖片載入失敗 — 請至 X 推文確認 →',
+    carousel_hint: '← 左右滑動瀏覽全部 {n} 張 →',
+
+    back_to_top_aria: '回到頂端',
+    share_text_fallback: '{eventName} 攤位資訊 + 地圖',
+    share_dialog_title: '{eventName} 攤位指南（非官方）',
+  },
+};

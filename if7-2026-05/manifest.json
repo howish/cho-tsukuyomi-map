@@ -1,0 +1,13 @@
+{
+  "name": "CH19 攤位指南",
+  "short_name": "CH19 指南",
+  "description": "第19回 Comic Horizon (CH19 / 百合 Only inside IF7) 攤位指南 — 非官方 fan guide",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#e8556b",
+  "lang": "zh-TW",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
