@@ -14,33 +14,58 @@
  *   - 'fetch' event: serve from cache if present, else fall through to
  *     the network. (Cache-first for offline resilience.)
  */
-const CACHE_NAME = 'event-cache-v1';
+// Bump this to force previously-offlined clients to drop the old cache on
+// next activate (the activate handler deletes any cache whose name doesn't
+// match CACHE_NAME). Increment whenever the shell schema changes in a way
+// that the old cache would obscure (e.g. new map_image field, renamed JS).
+const CACHE_NAME = 'event-cache-v2';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(self.clients.claim());
+  // Drop any older caches so previously-offlined users get fresh shell on
+  // next visit (otherwise cache-first below would keep serving stale assets).
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)));
+    await self.clients.claim();
+  })());
 });
 
 self.addEventListener('fetch', (event) => {
-  // Only intercept same-origin GET requests; cross-origin (X CDN) handled the
-  // same way via Cache.match so cached assets work offline.
   if (event.request.method !== 'GET') return;
-  event.respondWith(
-    // ignoreSearch:true so cache-bust params like `app.js?v=12345` still
-    // match the clean `app.js` we pre-cached. Trade-off: once cached,
-    // assets won't update until the user toggles offline mode OFF→ON.
-    caches.match(event.request, { ignoreSearch: true }).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).catch(() => {
-        // If offline and not cached, surface a generic 504 so the page
-        // can show its fallback (image onerror, etc.)
+  const url = new URL(event.request.url);
+  const isSameOrigin = url.origin === self.location.origin;
+  // Same-origin shell files (HTML/JS/CSS/JSON/map images) → network-first so
+  // updates flow without manual cache toggle. Cross-origin (X CDN, Plurk
+  // images, etc.) → cache-first so offline use stays snappy.
+  if (isSameOrigin) {
+    event.respondWith((async () => {
+      try {
+        const fresh = await fetch(event.request);
+        if (fresh && fresh.ok) {
+          const cache = await caches.open(CACHE_NAME);
+          cache.put(event.request, fresh.clone()).catch(() => {});
+        }
+        return fresh;
+      } catch (e) {
+        const cached = await caches.match(event.request, { ignoreSearch: true });
+        if (cached) return cached;
         return new Response('Offline and not cached', { status: 504, statusText: 'Gateway Timeout' });
-      });
-    })
-  );
+      }
+    })());
+  } else {
+    event.respondWith(
+      caches.match(event.request, { ignoreSearch: true }).then((cached) => {
+        if (cached) return cached;
+        return fetch(event.request).catch(() => {
+          return new Response('Offline and not cached', { status: 504, statusText: 'Gateway Timeout' });
+        });
+      })
+    );
+  }
 });
 
 self.addEventListener('message', async (event) => {

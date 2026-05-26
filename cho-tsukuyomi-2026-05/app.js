@@ -328,6 +328,20 @@
     return card;
   }
 
+  // Detect the social platform of an outbound URL — returns an i18n source key
+  // (modal_source_* lookup). Used to label the "Open in {platform}" modal button.
+  function detectSourceType(url) {
+    if (!url) return 'generic';
+    if (/(?:^|\/\/)(?:www\.)?(?:x\.com|twitter\.com)\//.test(url)) return 'x';
+    if (/plurk\.com\//.test(url)) return 'plurk';
+    if (/(?:^|\/\/)(?:www\.)?(?:facebook\.com|fb\.com|m\.facebook\.com|fb\.me)\//.test(url)) return 'fb';
+    if (/(?:^|\/\/)(?:www\.)?instagram\.com\//.test(url)) return 'ig';
+    if (/(?:^|\/\/)(?:www\.)?threads\.(?:com|net)\//.test(url)) return 'threads';
+    if (/doujin\.com\.tw\//.test(url)) return 'doujin_tw';
+    if (/(?:lit\.link|linktr\.ee|portaly\.cc)\//.test(url)) return 'aggregator';
+    return 'generic';
+  }
+
   function mdToHtml(md) {
     let s = escapeHtml(md);
     s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
@@ -431,9 +445,13 @@
     body.appendChild(meta);
 
     if (b.x_url) {
+      // Source platform varies — TW/CN doujin commonly uses Plurk/FB/IG/Threads
+      // instead of X. Detect domain so the "open in X" button reflects reality.
+      const sourceKey = detectSourceType(b.x_url);
+      const sourceName = T('modal_source_' + sourceKey);
       body.appendChild(el('a', {
         class: 'x-link', href: b.x_url, target: '_blank', rel: 'noopener'
-      }, T('modal_x_link')));
+      }, T('modal_open_label', { source: sourceName })));
     }
 
     // Warning chips inside the modal — each becomes a link to source tweet
