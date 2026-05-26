@@ -1001,12 +1001,32 @@
       return reg.active;
     }
 
-    navigator.serviceWorker.register('sw.js').then(() => {
+    // Track whether a SW was already controlling at page-load time. If yes,
+    // any subsequent activation is a takeover (e.g. CACHE_NAME bumped v1→v2);
+    // we reload once so the live page actually uses the new SW and stale
+    // cached responses (like a previously-404'd map.jpg) get re-fetched.
+    // If no, this is a first-ever visit — don't reload (nothing to refresh).
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.register('sw.js').then((reg) => {
       if (localStorage.getItem(OFFLINE_KEY) === '1') {
         setLabel('ready');
       } else {
         setLabel('idle');
       }
+      const reloadOnTakeover = (newSW) => {
+        newSW.addEventListener('statechange', () => {
+          if (newSW.state === 'activated' && hadController && !sessionStorage.getItem('sw-reloaded')) {
+            sessionStorage.setItem('sw-reloaded', '1');
+            location.reload();
+          }
+        });
+      };
+      if (reg.installing) reloadOnTakeover(reg.installing);
+      reg.addEventListener('updatefound', () => {
+        if (reg.installing) reloadOnTakeover(reg.installing);
+      });
+      // Proactively check for SW updates on every page load
+      reg.update().catch(() => {});
     }).catch((err) => {
       console.warn('SW register failed:', err);
       btn.disabled = true;
