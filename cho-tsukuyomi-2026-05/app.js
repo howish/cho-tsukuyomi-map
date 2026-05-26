@@ -424,7 +424,42 @@
     }
 
     const bodyDiv = el('div', { class: 'modal-body-md' });
-    bodyDiv.innerHTML = mdToHtml(b.body || '');
+    if (editMode && editMode.isEnabled) {
+      // Render as editable textarea in edit mode
+      const pending = editMode.getPending(b.booth_id);
+      const currentText = (pending && pending.body !== undefined) ? pending.body : (b.body || '');
+      const editLabel = el('div', { class: 'edit-mode-banner' },
+        '✏️ 修正モード — 下のテキストを編集 → 「💾 保存」 で localStorage に保存');
+      bodyDiv.appendChild(editLabel);
+      const ta = el('textarea', { class: 'edit-body-textarea', rows: '14' });
+      ta.value = currentText;
+      bodyDiv.appendChild(ta);
+      const actionRow = el('div', { class: 'edit-action-row' });
+      const saveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, '💾 保存');
+      saveBtn.addEventListener('click', () => {
+        const newBody = ta.value;
+        if (newBody === (b.body || '')) {
+          editMode.clearPending(b.booth_id);
+          saveBtn.textContent = '↩️ 元と同じ、編集破棄';
+        } else {
+          editMode.setPending(b.booth_id, { body: newBody, original_body: b.body || '' });
+          saveBtn.textContent = '✅ 保存しました';
+        }
+        editMode.refreshCounter();
+        setTimeout(() => { saveBtn.textContent = '💾 保存'; }, 1800);
+      });
+      const revertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, '↩️ 元の文に戻す');
+      revertBtn.addEventListener('click', () => {
+        ta.value = b.body || '';
+        editMode.clearPending(b.booth_id);
+        editMode.refreshCounter();
+      });
+      actionRow.appendChild(saveBtn);
+      actionRow.appendChild(revertBtn);
+      bodyDiv.appendChild(actionRow);
+    } else {
+      bodyDiv.innerHTML = mdToHtml(b.body || '');
+    }
     body.appendChild(bodyDiv);
 
     if (b.alts && b.alts.length) {
@@ -637,6 +672,163 @@
   }
   openFromHash();
   window.addEventListener('hashchange', openFromHash);
+
+  // ===== Edit Mode (V1: body markdown only) =====
+  // Toggle in header → modal body becomes <textarea> → save to localStorage →
+  // "Submit" panel generates a GitHub Issue URL prefilled with the diff or
+  // copies it to clipboard for distribution via other channels.
+  const editMode = (function() {
+    const STATE_KEY = (EVENT.favorites_key || 'event-guide') + '-edit-mode';
+    const EDITS_PREFIX = (EVENT.favorites_key || 'event-guide') + '-edit-';
+    const btn = document.getElementById('edit-mode-btn');
+    const pendingBtn = document.getElementById('edit-pending-btn');
+    const pendingCountSpan = document.getElementById('edit-pending-count');
+
+    let enabled = localStorage.getItem(STATE_KEY) === '1';
+
+    function setMode(on) {
+      enabled = !!on;
+      localStorage.setItem(STATE_KEY, enabled ? '1' : '0');
+      if (btn) {
+        btn.textContent = enabled ? '✏️ 修正モード ON' : '✏️ 修正モード OFF';
+        btn.classList.toggle('active', enabled);
+      }
+      // Re-open current modal if open, to switch render mode
+      const modal = document.getElementById('modal');
+      if (!modal.hidden && currentBoothIdx >= 0) {
+        const cur = booths[currentBoothIdx];
+        if (cur) openModal(cur);
+      }
+    }
+
+    function listPending() {
+      const out = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(EDITS_PREFIX)) {
+          try { out.push({ key: k, booth_id: k.slice(EDITS_PREFIX.length), edit: JSON.parse(localStorage.getItem(k)) }); }
+          catch (e) {}
+        }
+      }
+      return out;
+    }
+
+    function getPending(boothId) {
+      const raw = localStorage.getItem(EDITS_PREFIX + boothId);
+      if (!raw) return null;
+      try { return JSON.parse(raw); } catch (e) { return null; }
+    }
+
+    function setPending(boothId, edit) {
+      localStorage.setItem(EDITS_PREFIX + boothId, JSON.stringify({ ...edit, _ts: new Date().toISOString() }));
+    }
+
+    function clearPending(boothId) {
+      localStorage.removeItem(EDITS_PREFIX + boothId);
+    }
+
+    function clearAll() {
+      listPending().forEach(p => localStorage.removeItem(p.key));
+      refreshCounter();
+    }
+
+    function refreshCounter() {
+      const n = listPending().length;
+      if (pendingCountSpan) pendingCountSpan.textContent = String(n);
+      if (pendingBtn) pendingBtn.hidden = (n === 0);
+    }
+
+    function buildSubmissionText() {
+      const items = listPending().sort((a, b) => a.booth_id.localeCompare(b.booth_id));
+      const eventName = EVENT.name || '同人即売会';
+      const lines = [
+        `# 修正案 — ${eventName} fan guide`,
+        ``,
+        `提出 booth 数: ${items.length}`,
+        `提出時刻: ${new Date().toISOString()}`,
+        ``,
+        `---`,
+        ``,
+      ];
+      for (const it of items) {
+        const b = booths.find(x => x.booth_id === it.booth_id);
+        const title = b ? `${it.booth_id} ${b.circle_name || ''}` : it.booth_id;
+        lines.push(`## ${title}`);
+        lines.push('');
+        if (it.edit.body !== undefined) {
+          lines.push('### body (before)');
+          lines.push('```markdown');
+          lines.push(it.edit.original_body || '');
+          lines.push('```');
+          lines.push('');
+          lines.push('### body (after)');
+          lines.push('```markdown');
+          lines.push(it.edit.body || '');
+          lines.push('```');
+          lines.push('');
+        }
+        lines.push('---');
+        lines.push('');
+      }
+      return lines.join('\n');
+    }
+
+    function openPanel() {
+      const panel = document.getElementById('edit-panel');
+      const summary = document.getElementById('edit-panel-summary');
+      const preview = document.getElementById('edit-preview-text');
+      const items = listPending();
+      summary.textContent = `${items.length} 件の修正案が編集中です: ${items.map(p => p.booth_id).join(', ')}`;
+      preview.textContent = buildSubmissionText();
+      panel.hidden = false;
+    }
+
+    function closePanel() {
+      document.getElementById('edit-panel').hidden = true;
+    }
+
+    function buildGithubIssueUrl() {
+      const repo = (EVENT.github_repo || 'https://github.com/howish/cho-tsukuyomi-map').replace(/\/$/, '');
+      const title = `[修正案] ${listPending().length} 件の booth 情報 update`;
+      const body = buildSubmissionText() + '\n\n— 修正モードから自動生成 —';
+      return `${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    }
+
+    // Wire up event handlers (once)
+    if (btn) btn.addEventListener('click', () => setMode(!enabled));
+    if (pendingBtn) pendingBtn.addEventListener('click', openPanel);
+    const panelClose = document.getElementById('edit-panel-close');
+    if (panelClose) panelClose.addEventListener('click', closePanel);
+    const panelBackdrop = document.getElementById('edit-panel-backdrop');
+    if (panelBackdrop) panelBackdrop.addEventListener('click', closePanel);
+
+    const submitGithub = document.getElementById('edit-submit-github');
+    if (submitGithub) submitGithub.addEventListener('click', () => {
+      window.open(buildGithubIssueUrl(), '_blank', 'noopener');
+    });
+    const submitCopy = document.getElementById('edit-submit-copy');
+    if (submitCopy) submitCopy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(buildSubmissionText());
+        submitCopy.textContent = '✅ コピー済み';
+        setTimeout(() => { submitCopy.textContent = '📋 クリップボードコピー'; }, 1800);
+      } catch (e) {
+        prompt('クリップボード API 使えず、下の text を手動コピーしてください:', buildSubmissionText().slice(0, 2000));
+      }
+    });
+    const clearAllBtn = document.getElementById('edit-clear-all');
+    if (clearAllBtn) clearAllBtn.addEventListener('click', () => {
+      if (!confirm('全ての pending 編集を破棄します。よろしいですか?')) return;
+      clearAll();
+      closePanel();
+    });
+
+    // Initialize button state + counter on load
+    setMode(enabled);
+    refreshCounter();
+
+    return { getPending, setPending, clearPending, refreshCounter, get isEnabled() { return enabled; } };
+  })();
 
   // ===== Service Worker / Offline Mode =====
   // Registers sw.js (scoped to this event subdirectory) and wires the

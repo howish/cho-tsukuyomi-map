@@ -6,7 +6,7 @@
 <!-- Page title is injected from event.js at runtime; this is just a fallback for crawlers that don't run JS -->
 <title>同人即売会 サークルガイド (非公式)</title>
 <meta name="description" content="同人即売会のサークル一覧 / お品書き / 会場マップ — 非公式 fan guide template">
-<link rel="stylesheet" href="style.css?v=1779762197">
+<link rel="stylesheet" href="style.css?v=1779767440">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/svg+xml" href="icon.svg">
 
@@ -27,9 +27,34 @@
   <div class="header-actions">
     <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
     <button class="offline-btn" id="offline-btn" type="button" hidden>📥 オフライン対応 ON</button>
+    <button class="edit-btn" id="edit-mode-btn" type="button">✏️ 修正モード OFF</button>
+    <button class="edit-pending-btn" id="edit-pending-btn" type="button" hidden>📤 修正案を送信 (<span id="edit-pending-count">0</span>件)</button>
   </div>
   <p class="offline-status" id="offline-status"></p>
 </header>
+
+<div class="edit-panel" id="edit-panel" hidden>
+  <div class="edit-panel-backdrop" id="edit-panel-backdrop"></div>
+  <div class="edit-panel-content">
+    <button class="edit-panel-close" id="edit-panel-close" type="button" aria-label="閉じる">×</button>
+    <h2>📤 修正案を送信</h2>
+    <p id="edit-panel-summary"></p>
+    <div class="edit-panel-actions">
+      <button type="button" id="edit-submit-github" class="edit-submit-btn primary">🐙 GitHub Issue として送信</button>
+      <button type="button" id="edit-submit-copy" class="edit-submit-btn">📋 クリップボードコピー</button>
+    </div>
+    <details class="edit-preview">
+      <summary>提出内容プレビュー</summary>
+      <pre id="edit-preview-text"></pre>
+    </details>
+    <div class="edit-panel-danger">
+      <button type="button" id="edit-clear-all" class="edit-clear-btn">🗑 すべての編集を破棄</button>
+    </div>
+    <p class="edit-panel-note">
+      submitted な修正案は維持者がレビューしてからサイトに反映されます。妥当性がない / spam 判定された case は close される場合があります。
+    </p>
+  </div>
+</div>
 
 <section class="map-section">
   <h2>会場マップ</h2>
@@ -73,9 +98,9 @@
 
 <footer id="event-footer"></footer>
 
-<script src="event.js?v=1779762197"></script>
-<script src="filters.js?v=1779762197"></script>
-<script src="data.js?v=1779762197"></script>
-<script src="app.js?v=1779762197"></script>
+<script src="event.js?v=1779767440"></script>
+<script src="filters.js?v=1779767440"></script>
+<script src="data.js?v=1779767440"></script>
+<script src="app.js?v=1779767440"></script>
 </body>
 </html>
