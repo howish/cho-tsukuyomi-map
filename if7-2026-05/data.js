@@ -76,7 +76,7 @@ window.BOOTHS = [
     "x_handle": "laylay_152",
     "x_url": "https://x.com/laylay_152",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 5/30 IF J-23\n印量調查：https://t.co/I8Ortk3fA5\n■名稱｜マーガレット[Marguerite]\n■原作｜超かぐや姫\n■角色｜月見ヤチヨX酒寄彩葉(左右有意義)\n■規格｜B5右翻/黑白內頁26P\n(1/2) https://t.co/Kfrp1ZahEd\n\n[出典 post](https://x.com/i/status/2055643680481137049)\n\n- 超かぐや姫\n\n**専區**: 綜合\n\n🔗 X: [laylay_152](https://x.com/laylay_152)\n\n## 📝 CH19 出展ハイライト\n新刊 **『マーガレット [Marguerite]』** B5 右翻 / 黒白內頁 26P / 月見ヤチヨ×酒寄彩葉 (左右有意義)\n- [印量調查](https://t.co/I8Ortk3fA5)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 5/30 IF J-23\n印量調查：https://t.co/I8Ortk3fA5\n■名稱｜マーガレット[Marguerite]\n■原作｜超かぐや姫\n■角色｜月見ヤチヨX酒寄彩葉(左右有意義)\n■規格｜B5右翻/黑白內頁26P\n(1/2) https://t.co/Kfrp1ZahEd\n\n[出典 post](https://x.com/i/status/2055643680481137049)\n\n\n## 📝 CH19 出展ハイライト\n新刊 **『マーガレット [Marguerite]』** B5 右翻 / 黒白內頁 26P / 月見ヤチヨ×酒寄彩葉 (左右有意義)\n- [印量調查](https://t.co/I8Ortk3fA5)",
     "tags": {
       "super-kaguya": true
     },
@@ -110,7 +110,7 @@ window.BOOTHS = [
     "x_handle": "ani77561234",
     "x_url": "https://x.com/ani77561234",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【IF07創集繪｜J23.24】\n這星期六(2026/05/30)在花博的創集繪有超時空輝耀姬的新刊，也有少量的咪咩既刊。\n新刊為『彩葉x八千代的大學妄想學趴』以及『輝耀x彩葉x八千代的3P本』(當天請出示證件)\n\n當天下午15：00後預計會開個猜拳大會，贏的可以把海報帶走 https://t.co/c2C53TcdOe\n\n[出典 post](https://x.com/i/status/2059233545353388299)\n\n- 超時空輝耀姬-大學paro同人誌\n- 超時空輝耀姬-三人行同人誌\n- miComet-同人誌\n\n**専區**: 綜合\n\n🔗 X: [ani77561234](https://x.com/ani77561234)\n\n## 📝 CH19 出展ハイライト\n新刊 2 種: **『彩葉×八千代の大学妄想學趴』** + **『輝耀×彩葉×八千代 3P本』** (R-18、当日要證件) ／ 既刊あり ／ 15:00 後 猜拳大会 (海報賞)\n- [原 tweet (@ani77561234)](https://x.com/ani77561234)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【IF07創集繪｜J23.24】\n這星期六(2026/05/30)在花博的創集繪有超時空輝耀姬的新刊，也有少量的咪咩既刊。\n新刊為『彩葉x八千代的大學妄想學趴』以及『輝耀x彩葉x八千代的3P本』(當天請出示證件)\n\n當天下午15：00後預計會開個猜拳大會，贏的可以把海報帶走 https://t.co/c2C53TcdOe\n\n[出典 post](https://x.com/i/status/2059233545353388299)\n\n\n## 📝 CH19 出展ハイライト\n新刊 2 種: **『彩葉×八千代の大学妄想學趴』** + **『輝耀×彩葉×八千代 3P本』** (R-18、当日要證件) ／ 既刊あり ／ 15:00 後 猜拳大会 (海報賞)\n- [原 tweet (@ani77561234)](https://x.com/ani77561234)",
     "cps": [
       "iroka",
       "iroyachi",
@@ -321,7 +321,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/s22393",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 感謝今天來場的讀者~收到誇誇很開心，有任何感想歡迎直接留言或DM我,這裡也有匿名表單可以填寫。通販已經委託，會再通知大家~\n\n今年安排的場次大概會是5月的創集繪、8月星石跟10月百合only，如果之後的安排有空過來看看聊天都很歡迎。🤓🫰\nFEEDBACK\n\n\n- 原創-為你的身體哀悼/禱告\n\n**専區**: 百合\n\n🔗 Plurk: [s22393](https://www.plurk.com/s22393)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 感謝今天來場的讀者~收到誇誇很開心，有任何感想歡迎直接留言或DM我,這裡也有匿名表單可以填寫。通販已經委託，會再通知大家~\n\n今年安排的場次大概會是5月的創集繪、8月星石跟10月百合only，如果之後的安排有空過來看看聊天都很歡迎。🤓🫰\nFEEDBACK\n",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -347,7 +347,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/renyinaloha",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【0507】\n\n\n \n \n\n滑壘領小蛋糕！！！順便強制大家看我填OC表格(?)\n-\n 叭叭叭！不放過任何機會順便宣傳——\n05/30IF創集繪將帶著這本 《Bride of the Forest》去擺攤\n\n\n- 原創漫畫_Bride of the Forest\n\n**専區**: 百合\n\n🔗 Plurk: [renyinaloha](https://www.plurk.com/renyinaloha)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【0507】\n\n\n \n \n\n滑壘領小蛋糕！！！順便強制大家看我填OC表格(?)\n-\n 叭叭叭！不放過任何機會順便宣傳——\n05/30IF創集繪將帶著這本 《Bride of the Forest》去擺攤\n",
     "tags": {
       "original": true,
       "manga": true,
@@ -472,7 +472,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/akomari",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> FB跳出五年前的百翁活動照，正好，來跟五年後比較一下www\n\n\n- 原創--綻妄 - IseeU Psychosis -\n- 二創--片羽カタハネ\n\n**専區**: 百合\n\n🔗 Plurk: [akomari](https://www.plurk.com/akomari)",
+    "body": "## 📝 作家お品書き / まとめ post\n> FB跳出五年前的百翁活動照，正好，來跟五年後比較一下www\n",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -560,7 +560,7 @@ window.BOOTHS = [
     "x_handle": "Kokokoro__",
     "x_url": "https://x.com/Kokokoro__",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 創集會5/30\n社團：陽台有好康\n攤位位置：S20\n歡迎大家來玩 https://t.co/7qVUYDE9c0\n\n[出典 post](https://x.com/i/status/2057110462534459871)\n\n- GBC\n- 原創\n\n**専區**: 百合\n\n🔗 X: [Kokokoro__](https://x.com/Kokokoro__)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 創集會5/30\n社團：陽台有好康\n攤位位置：S20\n歡迎大家來玩 https://t.co/7qVUYDE9c0\n\n[出典 post](https://x.com/i/status/2057110462534459871)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -589,7 +589,7 @@ window.BOOTHS = [
     "x_handle": "komerice_lo",
     "x_url": "https://x.com/komerice_lo",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 宣傳+印量調查一下（怕沒人買多印🥲）\n\n5/30創集繪_週次R18本\n攤位：S21好米味\n\n更多試閱在印量調查問卷中～\n連結在留言處，感謝填寫！ https://t.co/ElR4fcFbJJ\n\n[出典 post](https://x.com/i/status/2054458383512883590)\n\n- 週に一度クラスメイトを買う話\n- 超時空輝耀姬\n\n**専區**: 百合\n\n🔗 X: [komerice_lo](https://x.com/komerice_lo)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 宣傳+印量調查一下（怕沒人買多印🥲）\n\n5/30創集繪_週次R18本\n攤位：S21好米味\n\n更多試閱在印量調查問卷中～\n連結在留言處，感謝填寫！ https://t.co/ElR4fcFbJJ\n\n[出典 post](https://x.com/i/status/2054458383512883590)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -618,7 +618,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> Madder & Teal｜原創漫畫新刊《Vol. Rosy Haze》試閱 & 販售資訊\n\n🥀新刊販售資訊\nA5/30P/左翻/黑白漫畫\n$200（此為場販價，通販價格會再調整）\n\n這本的內容是先前第35與36回間發生的事\n（〈夏日飛行〉篇章結束後到〈你是止痛藥〉開始前）\n是跟正篇有直接關係的補充劇情\n總之就是關於夏月蠢蠢欲動很饞某排球女（？）還有天使與惡魔的鬥爭（？）跟性感內衣（？）的故事😌✌️\n\n⚠️不是R18成人向但是蠻用力ㄉ打出了擦邊球\n\n我個人很喜歡這次新刊關於兩人親密畫面的描繪形式\n很期待讓大家看到！\n\n🥀關於特典\n購買首刷新刊即贈，但這次特典有分兩種：\n1. 雷射黑膠造型小卡：5/30創集繪現場限定特典，數量有限，贈完為止。\n2. 炫光明信片：黑膠小卡贈完後的一般特典，只要是首刷不分場販通販都會有。\n\n🥀首販場次\n5/30（六）IF7創集繪\n地點：花博爭艷館\n時間：10:3\n\n[出典 post](https://www.instagram.com/shioisland/p/DXiwclyk8Qv/)\n\n- 原創-Madder & Teal\n\n**専區**: 百合\n\n🔗 Instagram: [shioisland](https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> Madder & Teal｜原創漫畫新刊《Vol. Rosy Haze》試閱 & 販售資訊\n\n🥀新刊販售資訊\nA5/30P/左翻/黑白漫畫\n$200（此為場販價，通販價格會再調整）\n\n這本的內容是先前第35與36回間發生的事\n（〈夏日飛行〉篇章結束後到〈你是止痛藥〉開始前）\n是跟正篇有直接關係的補充劇情\n總之就是關於夏月蠢蠢欲動很饞某排球女（？）還有天使與惡魔的鬥爭（？）跟性感內衣（？）的故事😌✌️\n\n⚠️不是R18成人向但是蠻用力ㄉ打出了擦邊球\n\n我個人很喜歡這次新刊關於兩人親密畫面的描繪形式\n很期待讓大家看到！\n\n🥀關於特典\n購買首刷新刊即贈，但這次特典有分兩種：\n1. 雷射黑膠造型小卡：5/30創集繪現場限定特典，數量有限，贈完為止。\n2. 炫光明信片：黑膠小卡贈完後的一般特典，只要是首刷不分場販通販都會有。\n\n🥀首販場次\n5/30（六）IF7創集繪\n地點：花博爭艷館\n時間：10:3\n\n[出典 post](https://www.instagram.com/shioisland/p/DXiwclyk8Qv/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -688,7 +688,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/abcs628945",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 百翁 5/30 R18祥初FT實體本(含通販)印量調查\n祥初🔞實體本印調有興趣的可以看一下喔\n下收試閱\n\n\n- 母雞卡祥初\n- 迷宮飯法瑪\n- 輝耀姬八千代彩葉\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [abcs628945](https://www.plurk.com/abcs628945)\n\n## 📝 CH19 出展ハイライト\n主に **Ave Mujica 祥初 (祥子×初華)** R-18 印量調查中 ／ 既刊に **輝耀姫八千代彩葉** (= iroyachi) あり\n- [印量調查 plurk](https://www.plurk.com/abcs628945)",
+    "body": "## 📝 作家お品書き / まとめ post\n> #創集繪 #百合5/30會在S26當一顆發芽馬鈴薯...!\n\n[出典 post](https://www.plurk.com/p/3ipx9bepy4)\n\n\n## 📝 CH19 出展ハイライト\n主に **Ave Mujica 祥初 (祥子×初華)** R-18 印量調查中 ／ 既刊に **輝耀姫八千代彩葉** (= iroyachi) あり\n- [印量調查 plurk](https://www.plurk.com/abcs628945)",
     "cps": [
       "iroyachi"
     ],
@@ -700,6 +700,8 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-011378194R.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-26/0.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-26/1.jpg",
       "https://images.plurk.com/mx_240x0nXyQ9h41GSN5oLDGb.jpg"
     ],
     "_meta_scrape_sk": {
@@ -741,7 +743,7 @@ window.BOOTHS = [
     "x_handle": "Liugozekino",
     "x_url": "https://x.com/Liugozekino",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> RT @Liugozekino: 投放創集繪（百翁）的品書‼️5.30會在[S28]，歡迎來找我🥳👊\n當天也會有初祥簽繪版競標，有興趣的朋友們歡迎看看 https://t.co/bzrBVYMia2\n\n[出典 post](https://x.com/i/status/2059118273388740955)\n\n- Ave mujica\n- 偶像大師百萬\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [Liugozekino](https://x.com/Liugozekino)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> RT @Liugozekino: 投放創集繪（百翁）的品書‼️5.30會在[S28]，歡迎來找我🥳👊\n當天也會有初祥簽繪版競標，有興趣的朋友們歡迎看看 https://t.co/bzrBVYMia2\n\n[出典 post](https://x.com/i/status/2059118273388740955)",
     "tags": {
       "yuri-zone": true
     },
@@ -798,7 +800,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/spton",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【百翁】\n場次明信片上傳ibon了 \n\n\n\n\n取件編號\n9312627937\n檔案列印期限\n2025/10/13 上午 01:26:27\n\n\n- 水星的魔女\n- 小魔女學園\n\n**専區**: 百合\n**連攤**: ╣\n\n🔗 Plurk: [spton](https://www.plurk.com/spton)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁】\n場次明信片上傳ibon了 \n\n\n\n\n取件編號\n9312627937\n檔案列印期限\n2025/10/13 上午 01:26:27\n",
     "tags": {
       "yuri-zone": true
     },
@@ -851,7 +853,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/caramel06",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【百翁／轉噗感謝】依然極限工商  （要不要反省\n新刊依然下落不明（欸），所以（？）這次出周邊ry\n\n\n攤位上會備有Miofa用認親卡，有興趣的可以來領取～\n\n\n- HoloLive\n- BanG Dream! (MyGO+Ave Mujica)\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 Plurk: [caramel06](https://www.plurk.com/caramel06)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁／轉噗感謝】依然極限工商  （要不要反省\n新刊依然下落不明（欸），所以（？）這次出周邊ry\n\n\n攤位上會備有Miofa用認親卡，有興趣的可以來領取～\n",
     "tags": {
       "yuri-zone": true
     },
@@ -878,7 +880,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/r_bish",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 終於可以發創集繪品書囉耶比\n我會跟 yuanrong1999在S33 34\n歡迎來找我玩\nclothk61554 跟 dabadaba0的東西也會少量寄在我這邊\n\n\n- Girls Band Cry\n- MyGO!!!!!\n- Ave Mujica\n\n**専區**: 百合\n\n🔗 Plurk: [r_bish](https://www.plurk.com/r_bish)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 終於可以發創集繪品書囉耶比\n我會跟 yuanrong1999在S33 34\n歡迎來找我玩\nclothk61554 跟 dabadaba0的東西也會少量寄在我這邊\n",
     "tags": {
       "yuri-zone": true
     },
@@ -907,7 +909,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 攤號都出爐了，來宣傳一下。 \n5月30號創集繪，本油在S3536與人合攤，有新品。\n\n\n#緋染天空\n\n\n- 緋染天空\n- 賽馬娘 Pretty Derby\n- 超時空輝耀姬！\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [ouyouxi2020](https://www.plurk.com/ouyouxi2020)\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
+    "body": "## 📝 作家お品書き / まとめ post\n> 攤號都出爐了，來宣傳一下。 \n5月30號創集繪，本油在S3536與人合攤，有新品。\n\n\n#緋染天空\n\n\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -1076,7 +1078,7 @@ window.BOOTHS = [
     "x_handle": "kourui_07",
     "x_url": "https://x.com/kourui_07",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【 IF7 創集繪｜品書 】\n\n✦ 攤位號碼｜T01\n✦ 社團名稱｜黑夜與金月\n\n這次準備了三款新品✨\n第一次參加創集繪🫶\n歡迎大家來找我玩💜 https://t.co/jabGfq1bjY\n\n[出典 post](https://x.com/i/status/2058505698166911056)\n\n- BanG Dream!｜海希｜海希初\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [kourui_07](https://x.com/kourui_07)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【 IF7 創集繪｜品書 】\n\n✦ 攤位號碼｜T01\n✦ 社團名稱｜黑夜與金月\n\n這次準備了三款新品✨\n第一次參加創集繪🫶\n歡迎大家來找我玩💜 https://t.co/jabGfq1bjY\n\n[出典 post](https://x.com/i/status/2058505698166911056)",
     "tags": {
       "yuri-zone": true
     },
@@ -1104,7 +1106,7 @@ window.BOOTHS = [
     "x_handle": "kimiJUNN",
     "x_url": "https://x.com/kimiJUNN",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【IF7創集繪｜印量調查】\n這是五月小百翁要出的初祥｜ういさき 本～\n設定是吸血鬼初華 x 貴族大小姐祥子｜有吸血描寫 \n\n請有興趣的朋友再麻煩幫我填寫一下表單了，非常感謝🙏\n表單➡️https://t.co/Xz28eB3hGr\n\n試閱(1/2) https://t.co/GxJLh9VNnU\n\n[出典 post](https://x.com/i/status/2054548578165813484)\n\n- Ave Mujica-初祥\n- 蓮ノ空-梢花\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [kimiJUNN](https://x.com/kimiJUNN)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【IF7創集繪｜印量調查】\n這是五月小百翁要出的初祥｜ういさき 本～\n設定是吸血鬼初華 x 貴族大小姐祥子｜有吸血描寫 \n\n請有興趣的朋友再麻煩幫我填寫一下表單了，非常感謝🙏\n表單➡️https://t.co/Xz28eB3hGr\n\n試閱(1/2) https://t.co/GxJLh9VNnU\n\n[出典 post](https://x.com/i/status/2054548578165813484)",
     "tags": {
       "yuri-zone": true
     },
@@ -1157,7 +1159,7 @@ window.BOOTHS = [
     "x_handle": "yuyuyang0402",
     "x_url": "https://x.com/yuyuyang0402",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> #ANSY\n創集繪新品✨ https://t.co/TgllnrVOdc\n\n[出典 post](https://x.com/i/status/2057122117020479529)\n\n- BanG Dream! It's MyGO!!!!!\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [yuyuyang0402](https://x.com/yuyuyang0402)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> #ANSY\n創集繪新品✨ https://t.co/TgllnrVOdc\n\n[出典 post](https://x.com/i/status/2057122117020479529)",
     "tags": {
       "yuri-zone": true
     },
@@ -1185,7 +1187,7 @@ window.BOOTHS = [
     "x_handle": "pesirxy",
     "x_url": "https://x.com/pesirxy?s=21",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 5/30創集繪希all漫畫試閱 https://t.co/eaOgyBe6ZZ\n\n[出典 post](https://x.com/i/status/2053686601273028923)\n\n- BanG Dream! It's MyGO!!!!!\n- BanG Dream! Ave Mujica\n\n**専區**: 百合\n\n🔗 X: [pesirxy](https://x.com/pesirxy?s=21)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 5/30創集繪希all漫畫試閱 https://t.co/eaOgyBe6ZZ\n\n[出典 post](https://x.com/i/status/2053686601273028923)",
     "tags": {
       "yuri-zone": true
     },
@@ -1261,7 +1263,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@creauset_x13a",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> Pinned\ncreauset_x13a\n百合only\n05/09/26\n人生第一次作為攤主參加同人活動，還請大家多多指教（鞠躬\n5/30（週六），在花博爭艷館舉辦的「創集繪（Imagination Field）」\n我將在位於「T09」的「Super ASERI 超級焦躁」攤位\n販售自己的第一本小說刊物——\n內容為《Ave Mujica》動畫5-13話IF線故事的《難破船》\n並且有幸邀請到 大宗 (\n@dazhong_312\n) 老師為小說內頁繪製插圖🙏\n除此之外，攤位也預計會有：\n・MyGO!!!!!／Ave Mujica GSC坐娃展示\n・設定集／寫真書／雜誌 等邦邦官方刊物「免費閱讀」\n歡迎大家來找我玩～\n同時，新刊《難破船》也正在進行印量調查（印調）\n有興趣的同好可以參考這篇貼文的圖片，以及留言區的印調表單～\n＊印調表單填寫至 2026/5/16 (週六）晚上23:59 截止\n\n[出典 post](https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8)\n\n- BanG Dream! Ave Mujica\n- BanG Dream! It's MyGO!!!!!\n\n**専區**: 百合\n\n🔗 Threads: [creauset_x13a](https://www.threads.com/@creauset_x13a)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> Pinned\ncreauset_x13a\n百合only\n05/09/26\n人生第一次作為攤主參加同人活動，還請大家多多指教（鞠躬\n5/30（週六），在花博爭艷館舉辦的「創集繪（Imagination Field）」\n我將在位於「T09」的「Super ASERI 超級焦躁」攤位\n販售自己的第一本小說刊物——\n內容為《Ave Mujica》動畫5-13話IF線故事的《難破船》\n並且有幸邀請到 大宗 (\n@dazhong_312\n) 老師為小說內頁繪製插圖🙏\n除此之外，攤位也預計會有：\n・MyGO!!!!!／Ave Mujica GSC坐娃展示\n・設定集／寫真書／雜誌 等邦邦官方刊物「免費閱讀」\n歡迎大家來找我玩～\n同時，新刊《難破船》也正在進行印量調查（印調）\n有興趣的同好可以參考這篇貼文的圖片，以及留言區的印調表單～\n＊印調表單填寫至 2026/5/16 (週六）晚上23:59 截止\n\n[出典 post](https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8)",
     "tags": {
       "yuri-zone": true
     },
@@ -1337,7 +1339,7 @@ window.BOOTHS = [
     "x_handle": "hikari863126 ",
     "x_url": "https://x.com/hikari863126 ",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【5/30創集繪品書】\nT12 有這樣的喜樂蒂你幾點回家？\n\n這次有人生首次創作的花梢漫畫🫖🐰\n跟少量的插畫本既刊\n還有最不可告人的秘密...\n需說出通關密語不然無法購入喔...✋🚪🤚\n攤上有無料的認親明信片可以自行拿取\n歡迎有興趣ㄉ朋友來挑看選看🫶 https://t.co/3LqtTaTpSU\n\n[出典 post](https://x.com/i/status/2057375446631891108)\n\n- lovelive蓮之空\n- lovelive蓮之空 聲優\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [hikari863126 ](https://x.com/hikari863126 )\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【5/30創集繪品書】\nT12 有這樣的喜樂蒂你幾點回家？\n\n這次有人生首次創作的花梢漫畫🫖🐰\n跟少量的插畫本既刊\n還有最不可告人的秘密...\n需說出通關密語不然無法購入喔...✋🚪🤚\n攤上有無料的認親明信片可以自行拿取\n歡迎有興趣ㄉ朋友來挑看選看🫶 https://t.co/3LqtTaTpSU\n\n[出典 post](https://x.com/i/status/2057375446631891108)",
     "tags": {
       "yuri-zone": true
     },
@@ -1494,7 +1496,7 @@ window.BOOTHS = [
     "x_handle": "rito_yu6039",
     "x_url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【創集繪T18】 ✨品書 \n這次準備了: \n✨《α100之狼》(上) 海希同人漫畫 \n規格：B5 / 53P / 350元/R15 \n✨《毅然回首》蘇米同人漫畫\n規格： A4/ 21P+2P短漫 /200元 /全年齡\n✨豐富的無料，數量有限拿完為止\n\n🪐地點：5/30 花博爭豔館\n🪐攤位：T18【陽光女子百合團】\n#スレミオ #うみたき https://t.co/DRnGCrhZGF\n\n[出典 post](https://x.com/i/status/2058489327047639119)\n\n- Ave  mujica\n- 水星的魔女\n\n**専區**: 百合\n\n🔗 X: [rito_yu6039](https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【創集繪T18】 ✨品書 \n這次準備了: \n✨《α100之狼》(上) 海希同人漫畫 \n規格：B5 / 53P / 350元/R15 \n✨《毅然回首》蘇米同人漫畫\n規格： A4/ 21P+2P短漫 /200元 /全年齡\n✨豐富的無料，數量有限拿完為止\n\n🪐地點：5/30 花博爭豔館\n🪐攤位：T18【陽光女子百合團】\n#スレミオ #うみたき https://t.co/DRnGCrhZGF\n\n[出典 post](https://x.com/i/status/2058489327047639119)",
     "tags": {
       "yuri-zone": true
     },
@@ -1598,7 +1600,7 @@ window.BOOTHS = [
     "x_handle": "ManMadeRain",
     "x_url": "https://x.com/ManMadeRain",
     "cover_url": "",
-    "body": "- 蔚藍檔案 - 星野與陽奈的學園交流會漫畫\n- 蔚藍檔案 - 奧利斯小隊周邊\n- 原創 - Unlimited Rematch\n\n**専區**: 百合\n\n🔗 X: [ManMadeRain](https://x.com/ManMadeRain)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> RT @gigigi0423: #擴散希望 #創集繪S03 #上衣那牡丹醉姿如百合\n《泡沫和水果口味的氣泡酒與妳一起更加美味》\nA5 / 黑白漫畫 / 20p / 膠裝 / NT.200\n試閱(1/2) https://t.co/jL7SOM2ySe\n\n[出典 post](https://x.com/i/status/2058528483870224652)\n\n- 蔚藍檔案 - 星野與陽奈的學園交流會漫畫\n- 蔚藍檔案 - 奧利斯小隊周邊\n- 原創 - Unlimited Rematch\n\n**専區**: 百合\n\n🔗 X: [ManMadeRain](https://x.com/ManMadeRain)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
     "tags": {
       "original": true,
       "manga": true,
@@ -1607,6 +1609,10 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-006314758Y.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-25_26/0.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-25_26/1.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-25_26/2.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-25_26/3.jpg",
       "https://pbs.twimg.com/media/HJPBJMEakAAcOiL.jpg",
       "https://pbs.twimg.com/media/HJLM-dlbkAAK04q.jpg",
       "https://pbs.twimg.com/media/HJNvcleaIAAHPWx.jpg",
@@ -1666,13 +1672,14 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/karupisu_planet",
     "cover_url": "",
-    "body": "- 東方project\n- 空之境界\n- 暗喻幻想\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [karupisu_planet](https://www.plurk.com/karupisu_planet)",
+    "body": "## 📝 作家お品書き / まとめ post\n> #百合Only #CH18 #東方Project #蓮メリ #秘封俱樂部 #通販 #電子書 #百合讀品\n\n\n 各位午安，新刊《十度寢》通販與電子書上架囉！\n\n通販賣貨便賣場 量少，下單後五日內出貨\n\n電子書BOOTH賣場\n---------\n全書共五章，第一章已放上Pixiv提供試閱\n《十度寢》第一道：玉子燒\n\n\n- 東方project\n- 空之境界\n- 暗喻幻想\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [karupisu_planet](https://www.plurk.com/karupisu_planet)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-002589949Z.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-29/0.jpg",
       "https://images.plurk.com/mx_65TQSJpuhVQ4sEYMEG6fYN.jpg",
       "https://images.plurk.com/mx_1nTVTLXz9FZLQhG9Ne5xvm.jpg",
       "https://images.plurk.com/mx_4acXEXmgo1t2lQkgdmGVHT.jpg",
@@ -1759,7 +1766,7 @@ window.BOOTHS = [
     "x_handle": "gray170220",
     "x_url": "https://x.com/gray170220",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> —創集繪品書—\n\n活動時間✨2026/5/30\n活動地點✨圓山花博爭艷館\n攤位號碼✨T33.T34\n\n攤位內容✨\n海希海小說新刊《笨拙的我們適合戀愛》NT.250\n初祥初小說既刊《月錯覺》NT.250\n睦祥睦小說既刊《漫雨季》NT.250\n紗夜莉莎無料小說《晴時雨時》\n貓燈無料小說《星下影》\n海希無料小說《合半拍》 https://t.co/H1akmM5CWo\n\n[出典 post](https://x.com/i/status/2057699457446433108)\n\n- Ave Mujica\n- MyGO!!!!!\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [gray170220](https://x.com/gray170220)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> —創集繪品書—\n\n活動時間✨2026/5/30\n活動地點✨圓山花博爭艷館\n攤位號碼✨T33.T34\n\n攤位內容✨\n海希海小說新刊《笨拙的我們適合戀愛》NT.250\n初祥初小說既刊《月錯覺》NT.250\n睦祥睦小說既刊《漫雨季》NT.250\n紗夜莉莎無料小說《晴時雨時》\n貓燈無料小說《星下影》\n海希無料小說《合半拍》 https://t.co/H1akmM5CWo\n\n[出典 post](https://x.com/i/status/2057699457446433108)",
     "tags": {
       "yuri-zone": true
     },
@@ -1789,7 +1796,7 @@ window.BOOTHS = [
     "x_handle": "yoyoray20001996",
     "x_url": "https://x.com/yoyoray20001996",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> RT @yoyoray20001996: 🌟【2026.05.30創集繪工商】🌟\n各位午安☀️\n這次創集繪攤位在T35 Ray的饗食天堂\n1⃣新刊\n海希插圖本《海希的...KISS多重宇宙》，現正開放預購表單中！！\n2⃣寄攤\n海希R18合本《 1R · 2人 · 365日》…\n\n[出典 post](https://x.com/i/status/2059248150913945744)\n\n- BanG Dream! Ave Mujica\n- BanG Dream! It's MyGO!!!!!\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [yoyoray20001996](https://x.com/yoyoray20001996)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> RT @yoyoray20001996: 🌟【2026.05.30創集繪工商】🌟\n各位午安☀️\n這次創集繪攤位在T35 Ray的饗食天堂\n1⃣新刊\n海希插圖本《海希的...KISS多重宇宙》，現正開放預購表單中！！\n2⃣寄攤\n海希R18合本《 1R · 2人 · 365日》…\n\n[出典 post](https://x.com/i/status/2059248150913945744)",
     "tags": {
       "yuri-zone": true
     },
@@ -1872,7 +1879,7 @@ window.BOOTHS = [
     "x_handle": "KuroAjrtineico",
     "x_url": "https://x.com/KuroAjrtineico",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> [創集繪-現場販賣、通販]\n今天是場領表單填寫的最後一天啦～\n有需要但還沒填寫的朋友再請把握時間填寫🫶\n連結放留言處\n\n另外再配上一張之前沒發過的圖🥳 https://t.co/bts2qzMKDG\n\n[出典 post](https://x.com/i/status/2055148675861725560)\n\n- BanGDream！-AveMujica\n- BanGDream！-AveMujica\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 X: [KuroAjrtineico](https://x.com/KuroAjrtineico)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> [創集繪-現場販賣、通販]\n大家好，這次更新了創集繪會販賣的項目\n期待大家捧場❤️\n謝謝大家🫶\n\n試閱/購買連結放在留言 https://t.co/UvnGjekAyU\n\n[出典 post](https://x.com/i/status/2052661700286173413)",
     "tags": {
       "yuri-zone": true
     },
@@ -1941,7 +1948,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/haneko0216",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 【？/近況報告】\n\n 總之終於跑去填了5/30創集繪的吃土單但哪來這麼多東西  （雖然場次首發新品不多）\n\n總之開一樓先紀錄一下本場會有的新品們：\n崩壞三紺海大三角（就是鴨鴨加黑白希）的塗鴉總集加筆塗鴉本，還沒完稿不過努力關窗中\n\n \n 超時空輝耀姬的輝耀跟彩葉壓克力們（二創公告出來之前就下印了所以這批賣完就沒了不會加印！）\n\n 明日方舟紅龍姐妹的無邊壓克力飯友組！等下週收到貨會再來速報 \n其他既品和寄攤相關下收\n\n\n- 超時空輝耀姬！\n- 魔法少女的魔女審判\n\n**専區**: 百合\n\n🔗 Plurk: [haneko0216](https://www.plurk.com/haneko0216)\n\n## 📝 CH19 出展ハイライト\n**超時空輝耀姫 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、二創公告前下印で限定・加印なし)。崩壊3 紺海三角塗鴉本など 他 fandom 多数も\n- [近況 plurk](https://www.plurk.com/haneko0216)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【進度報告】\n\n 總之崩壞3的紺海三角塗鴉本順利完稿了（而且爆到32頁）當天場上確定會有 \n這次是web再錄加筆不過單圖也都會發到推特跟p站上，只印少少的給想要實體的人和自己收藏用 \n\n 另外還有這組徽章會在創集繪上首次販售！\n\n \n 以及雪莉漢娜的徽章組和這組崩鐵的星螢搖尾巴吊飾也多加印了一些！\n\n其他報告下收↓\n\n\n\n## 📝 CH19 出展ハイライト\n**超時空輝耀姫 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、二創公告前下印で限定・加印なし)。崩壊3 紺海三角塗鴉本など 他 fandom 多数も\n- [近況 plurk](https://www.plurk.com/haneko0216)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true,
@@ -1978,7 +1985,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/lunoestory.novel/",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 05/30台北花博創集繪T42攤「百合餓狼之盟」🎉\n手機遊戲「無期迷途」的百合二創小說合集首賣！6位小說家×8則短篇小說，由武佳栩、零零人、阿臥、艾沐、蕗舟和狼尾草共同創作（偷偷說：CXC平台上的無期迷途同人文約80%是我們寫的）\n\n女局長的CP們：縈縈、蜜莉、瑟琳＆夜鶯、可可莉克、卓婭、奧古斯特、安吉爾、卡門奈特\n\n內文排版、企劃提案人：艾沐\n封面插畫：會長\n封面設計：蕗舟\n\nA5右翻書直排，約150頁\n場販NT.250\n預購&通販NT.280（含包材手續費）\n通販不一定有書（要看餘量）如果想要購入可以使用預購\n\n試閱（女局x卡門奈特）：\n監管房內的卡門奈特早已等候多時。\n\n卡門奈特紅唇微啟，說：「局長，您看起來很緊張。」\n\n局長調整坐姿，直視卡門奈特澄澈的眼眸。僅從外表判斷，很難將紅髮女人和「極端危險的Ｓ級禁閉者」聯想在一起。在正常情況下，卡門奈特是好相處的模範收容人，她不會故意挑釁警\n\n[出典 post](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/)\n\n- 無期迷途\n- 原創\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Instagram: [lunoestory.novel](https://www.instagram.com/lunoestory.novel/)\n\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 言及あり (作家の最新 post 由)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 05/30台北花博創集繪T42攤「百合餓狼之盟」🎉\n手機遊戲「無期迷途」的百合二創小說合集首賣！6位小說家×8則短篇小說，由武佳栩、零零人、阿臥、艾沐、蕗舟和狼尾草共同創作（偷偷說：CXC平台上的無期迷途同人文約80%是我們寫的）\n\n女局長的CP們：縈縈、蜜莉、瑟琳＆夜鶯、可可莉克、卓婭、奧古斯特、安吉爾、卡門奈特\n\n內文排版、企劃提案人：艾沐\n封面插畫：會長\n封面設計：蕗舟\n\nA5右翻書直排，約150頁\n場販NT.250\n預購&通販NT.280（含包材手續費）\n通販不一定有書（要看餘量）如果想要購入可以使用預購\n\n試閱（女局x卡門奈特）：\n監管房內的卡門奈特早已等候多時。\n\n卡門奈特紅唇微啟，說：「局長，您看起來很緊張。」\n\n局長調整坐姿，直視卡門奈特澄澈的眼眸。僅從外表判斷，很難將紅髮女人和「極端危險的Ｓ級禁閉者」聯想在一起。在正常情況下，卡門奈特是好相處的模範收容人，她不會故意挑釁警\n\n[出典 post](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -2030,7 +2037,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> mochian0819\n21小時\n哇太好了😭😭😭各位創作者快來看這個消息  \n翻譯\nxe_sparrow\n超時空輝耀姬\n22小時\n因為昨天日本的超月讀祭結束之後\n看到幾位日本老師發文說會再加印並於下次的場上販售\n我整個嗯！？？？\n所以是可以加印的嗎？🤔\n基於好奇於是我在百合老師DC群請教了群內精通日文的群友們\n才知道原來官方並沒有限制場販的加印😮\n原來我之前都誤會了意思😂😂\n(感謝 \n@yurisennsei\n 老師與大野狼桑的專業解答🥹)\n這邊統整一下輝耀姬同人誌的加印允許範圍：\n預購→❌\n加印的量用於通販→❌\n場販「剩餘的量」用於通販→⭕\n加印的量用於「場販」→⭕\n簡言之就是加印的量必須先經過「場販」，有剩餘的量才能通販\n不能直接用於通販\n不過以上規範只適用於2026年\n官方有說明年可能會調整\n既然官方沒有限制場販加印的部分\n這邊也順便預告一下今年十月的百合only場我會報名\n若此次創\n\n[出典 post](https://www.threads.com/@mochian0819/post/DYxBVBNEmJ7)\n\n- BanG Dream! Ave Mujica\n- BanG Dream! It's MyGO!!!!!\n- 超時空輝耀姬\n\n**専區**: 綜合\n**連攤**: ╝\n\n🔗 Threads: [mochian0819](https://www.threads.com/@mochian0819?hl=zh-tw)\n\n## 📝 CH19 出展ハイライト\n新刊 **『蝕』** (Ave Mujica 初祥初) 1 萬字加筆、布丁井老師封面 ／ 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道で 直播予定 ／ 超時空輝耀姫 関連 community post 多数\n- [原 thread](https://www.threads.com/@mochian0819/post/DXzAS81ktnR)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 已釘選\nmochian0819\n2026-5-1\n啊啊啊啊啊啊！來啦！歡迎大家\n2026創集繪 初祥初新刊 《蝕》在此與大家相會！\n這次的刊物比過去來要多了一萬字左右，也是我全新挑戰的題材，從去年看到官方發布初華的狐面立牌後就想寫了\n很榮幸這次邀請到布丁井老師來幫我繪製封面(很可能還有內頁插喔！盡請期待)\n各位看看這絕美的封面......我當初看到草稿就傻笑了一天，從十一月忍到現在我都快內傷了！\n這次為了紀念特別作了壓克力色紙套組，現場限定可預購，是限量的，想要要快點填喔！\n書籍簡介：\n那面具下的紫眸，神秘、深邃、悲痛。\n「我想了解她。」\n豐川祥子和三角初華一同度過了歡快的夏日慶典時光，這是一場甜密的約會。兩人在攤位玩耍，品嘗美食，依偎在彼此身邊。\n今天是特殊的日子──月蝕之日。\n不過很可惜，天空烏雲密佈，沒能讓華麗的星空點綴這場約會。\n而她們不知道的是，這一天的終點，也不單單只是煙火。\n\n[出典 post](https://www.threads.com/@mochian0819/post/DXzAS81ktnR)\n\n\n## 📝 CH19 出展ハイライト\n新刊 **『蝕』** (Ave Mujica 初祥初) 1 萬字加筆、布丁井老師封面 ／ 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道で 直播予定 ／ 超時空輝耀姫 関連 community post 多数\n- [原 thread](https://www.threads.com/@mochian0819/post/DXzAS81ktnR)",
     "tags": {
       "super-kaguya": true
     },
@@ -2038,10 +2045,7 @@ window.BOOTHS = [
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-007071328L.jpg",
       "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/0.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/1.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/2.webp",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/3.webp",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/4.webp"
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/1.jpg"
     ],
     "_meta_scrape_sk": {
       "platform_used": "threads",
@@ -2083,7 +2087,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@kyuuri991205",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> kyuuri991205\n小百翁\n05/18/26\nU24腰痛黃瓜填吃土單了\n小報還在趕工其他畫完\n試閱連結都還亂亂的大家加減看吧(\n等全部送印會再發一串全品項統整好的試閱🫠\ndocs.google.com/sprea…  \nTranslate\ndocs.google.com\n2026 IF 創集繪百合主題 吃土單\n\n[出典 post](https://www.threads.com/@kyuuri991205/post/DYet7jHGfR-)\n\n- 超時空輝耀姬\n- 少女樂團吶喊吧\n\n**専區**: 綜合\n\n🔗 Threads: [kyuuri991205](https://www.threads.com/@kyuuri991205)",
+    "body": "## 📝 作家お品書き / まとめ post\n> kyuuri991205\n小百翁\n05/18/26\nU24腰痛黃瓜填吃土單了\n小報還在趕工其他畫完\n試閱連結都還亂亂的大家加減看吧(\n等全部送印會再發一串全品項統整好的試閱🫠\ndocs.google.com/sprea…  \nTranslate\ndocs.google.com\n2026 IF 創集繪百合主題 吃土單\n\n[出典 post](https://www.threads.com/@kyuuri991205/post/DYet7jHGfR-)",
     "tags": {
       "super-kaguya": true
     },
@@ -2211,7 +2215,7 @@ window.BOOTHS = [
     "x_handle": "melon2943",
     "x_url": "https://x.com/melon2943",
     "cover_url": "",
-    "body": "## 📝 作家まとめ post\n> 五月百翁在U30『太呱章了』有出攤\n有讓菟子老師寄攤 出的是超時空輝耀姬的本 有興趣的可以填一下印調喔！\nhttps://t.co/wcs1IGlJjK\n\n[出典 post](https://x.com/i/status/2050434901770686787)\n\n- BanG Dream! Ave Mujica\n- 超時空輝耀姬！\n\n**専區**: 綜合\n\n🔗 X: [melon2943](https://x.com/melon2943)\n\n## 📝 CH19 出展ハイライト\n5月 百合 Only (CH19) 出展、菟子老師 寄攤 ／ 出すのは **超時空輝耀姫** の本\n- [印量調查](https://x.com/melon2943)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 五月百翁在U30『太呱章了』有出攤\n有讓菟子老師寄攤 出的是超時空輝耀姬的本 有興趣的可以填一下印調喔！\nhttps://t.co/wcs1IGlJjK\n\n[出典 post](https://x.com/i/status/2050434901770686787)\n\n\n## 📝 CH19 出展ハイライト\n5月 百合 Only (CH19) 出展、菟子老師 寄攤 ／ 出すのは **超時空輝耀姫** の本\n- [印量調查](https://x.com/melon2943)",
     "tags": {
       "super-kaguya": true
     },
