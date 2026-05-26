@@ -28,7 +28,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/438994861_6984599751645657_8186451966031809412_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WBEG64tvz4kQ7kNvwFpjF4b&_nc_oc=AdoohumfCOhZWOFPwW-d4tJ8xSFMDA5zkvTHrVlkOwzRpHslYYAzUxiozrGvS40v3fw&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=JONT8i_PEOfi_c8rdwtFZQ&_nc_ss=7c289&oh=00_Af7CGLZDaUIiO02c-kfsNdkQvFB6RGqBn9wMr1IWJPTWZw&oe=6A1B6264",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/509615741_9576806665758273_8037407169078525822_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9274lmXfeuQQ7kNvwER6MsF&_nc_oc=Adq21sTyecmGUr5jubZL4lIo1SqN64snN9-SSTtk5J60OYyQXfpgBhc5rCOt_yjXRnA&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=hK08zPDq80tTkhYOZQvAhw&_nc_ss=7c289&oh=00_Af5nc1dHUyh7c8CPUne_As7vHJaEmu4bsjn2dlLRwtD_Zw&oe=6A1B7DA5",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/509615741_9576806665758273_8037407169078525822_n.jpg?stp=cp6_dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9274lmXfeuQQ7kNvwER6MsF&_nc_oc=Adq21sTyecmGUr5jubZL4lIo1SqN64snN9-SSTtk5J60OYyQXfpgBhc5rCOt_yjXRnA&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=hK08zPDq80tTkhYOZQvAhw&_nc_ss=7c289&oh=00_Af6nGPIZeMJsBtuVwHLbilXwnuQg0IEnBxcMtiTbfCWoBw&oe=6A1B7DA5",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/684159008_26088238194188526_5752530262905327171_n.jpg?stp=c0.217.1390.1390a_cp6_dst-jpg_s851x315_tt6&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=IqQTl8aH4UgQ7kNvwEzkdXE&_nc_oc=AdrBFcVY4S3Mptg4FIuQ-Xn4jb-B63NoJEQtO_oxfnVvyIToCgINb1zXvFQElkNwdl0&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=hK08zPDq80tTkhYOZQvAhw&_nc_ss=7c289&oh=00_Af5HQauW2l6oqjmTtdpX29JD_4YSTzyr9ke1HYxc_uLklQ&oe=6A1B764E",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/683023386_26088238197521859_8778921023889344674_n.jpg?stp=c0.219.1384.1384a_cp6_dst-jpg_s851x315_tt6&_nc_cat=105&ccb=1-7&_nc_sid=8a6525&_nc_ohc=S4JpRu3CXe4Q7kNvwGLgH_v&_nc_oc=AdpHNyHeB3vKN3Prs-__vuvl3LtN3vUPSHMp49xEHFbTSnzdffmPPaol3JmOMsSA7VU&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=hK08zPDq80tTkhYOZQvAhw&_nc_ss=7c289&oh=00_Af4HVcyHzVYV7hcXJRt7226zQ852S2d_6eXHwa8nSjChNg&oe=6A1B63E7",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/674389671_25968767696135577_3970162458792049018_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_s851x315_tt6&_nc_cat=110&ccb=1-7&_nc_sid=8a6525&_nc_ohc=UyMkH2vq4FwQ7kNvwE6uZ7O&_nc_oc=AdoEMcB1knYNCYlS25kWPh3m4a8Ni6_ATlbNwnjGxIpdakpswZ_RRifotyaazDU1c0o&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=hK08zPDq80tTkhYOZQvAhw&_nc_ss=7c289&oh=00_Af6Kb1IYVC2xf_lRi1mB03XPZmGSEdvY2ZbRZU09gZKTfQ&oe=6A1B6E54"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "J-22",
@@ -41,7 +55,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/289966540_2839686256177476_454345235286989128_n.jpg?stp=dst-jpg_tt6&cstp=mx921x924&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8RpIewi9iMoQ7kNvwFtcZ0V&_nc_oc=AdqeG27ZWDI1vWQ13VyOa7kxy31Rzi7ej8Lwz-sxejxD2BBl6_43QgepAfHNqVMvb4A&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=DLrNtrUeeNKvFTWv94lIsg&_nc_ss=7c289&oh=00_Af7d8ms3ixHj7VM8_oqNR_ltsHVQYwJcx7HcjMooglxZUQ&oe=6A1B51C8",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t1.6435-9/132558514_2348645541948219_3116610108256635898_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Bt8oRJMzW28Q7kNvwHMO-aN&_nc_oc=AdocYl0x-bguv8Kk20rF0C14PXXhsuAiH4dLQF_cVfNgP4Ron1AvtiHLwNJKJKJH6es&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=flIUWBxRKtgSJc8Bhgp_KQ&_nc_ss=7c289&oh=00_Af5kK6z49WbGA-EFkyLw7VZkfrxob0vTAGNa59kn5I5sMg&oe=6A3CEA55",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t1.6435-9/132558514_2348645541948219_3116610108256635898_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Bt8oRJMzW28Q7kNvwHMO-aN&_nc_oc=AdocYl0x-bguv8Kk20rF0C14PXXhsuAiH4dLQF_cVfNgP4Ron1AvtiHLwNJKJKJH6es&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=flIUWBxRKtgSJc8Bhgp_KQ&_nc_ss=7c289&oh=00_Af4jnM52vsaI6joX7FNgK7Zl8YuESMEclpZ8jPvIZhBAoQ&oe=6A3CEA55",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/704147420_4291372844342136_4639579229041591259_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=Tya7qdsMI-gQ7kNvwGKTOl-&_nc_oc=AdrUNdF3bLqLtUu79Ic-J0ffq9Fuei-JUSOPnibkTLVz5XEkgUSw0nren9W-tltSz6o&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=flIUWBxRKtgSJc8Bhgp_KQ&_nc_ss=7c289&oh=00_Af7103Vd7sV1dSbxHIj0YvAaaVZRCKsyMhew2i1PMz1evQ&oe=6A1B72AE",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/707632631_4291372841008803_7677849113455625505_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=100&ccb=1-7&_nc_sid=09d16d&_nc_ohc=s-NN9bZA6JYQ7kNvwHWH5UE&_nc_oc=AdrvBSg2k-IUC1r-wu2ytXQYk5kDxc-rvZiMkZnynoF3aTPDHTAnxi0PixigI65Sl2I&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=flIUWBxRKtgSJc8Bhgp_KQ&_nc_ss=7c289&oh=00_Af7w22pSe86t0_urEE-3cp9hUeMG156agx6FNPmeS1Y9AQ&oe=6A1B7F60",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/707509978_4291372687675485_1816970856062180511_n.jpg?stp=c0.200.1443.1443a_dst-jpg_s851x315_tt6&_nc_cat=111&ccb=1-7&_nc_sid=09d16d&_nc_ohc=xeKgZYTWLXIQ7kNvwGE-sS2&_nc_oc=AdpQ6J3qxCLigesIP2a_N6BvApwLXYa_VlTqxszci1uijPheXHgKZPMmJNsW0gjo3OM&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=flIUWBxRKtgSJc8Bhgp_KQ&_nc_ss=7c289&oh=00_Af6pLxNFo1KbD1VhEXeLpiM_I-Uan7zL9YkV51UX23KAtg&oe=6A1B7BCE"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "J-23",
@@ -50,11 +78,30 @@ window.BOOTHS = [
     "x_handle": "laylay_152",
     "x_url": "https://x.com/laylay_152",
     "cover_url": "",
-    "body": "- 超かぐや姫\n\n**専區**: 綜合\n\n🔗 X: [laylay_152](https://x.com/laylay_152)",
+    "body": "- 超かぐや姫\n\n**専區**: 綜合\n\n🔗 X: [laylay_152](https://x.com/laylay_152)\n\n## 📝 CH19 出展ハイライト\n新刊 **『マーガレット [Marguerite]』** B5 右翻 / 黒白內頁 26P / 月見ヤチヨ×酒寄彩葉 (左右有意義)\n- [印量調查](https://t.co/I8Ortk3fA5)",
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIcc0S6bMAAdA_f.jpg",
+      "https://pbs.twimg.com/media/HIcc0S8aUAAtM1p.jpg",
+      "https://pbs.twimg.com/media/HIcc0S8a0AAjsKm.jpg",
+      "https://pbs.twimg.com/media/HIcc1osbEAAq_Ly.jpg",
+      "https://pbs.twimg.com/media/HIccQxbbYAAh0GP.jpg",
+      "https://pbs.twimg.com/media/HIaQrMdbIAAKPNJ.jpg"
+    ],
+    "cps": [
+      "iroyachi"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": true,
+      "detected_cps": [
+        "iroyachi"
+      ],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "J-24",
@@ -63,14 +110,34 @@ window.BOOTHS = [
     "x_handle": "ani77561234",
     "x_url": "https://x.com/ani77561234",
     "cover_url": "",
-    "body": "- 超時空輝耀姬-大學paro同人誌\n- 超時空輝耀姬-三人行同人誌\n- miComet-同人誌\n\n**専區**: 綜合\n\n🔗 X: [ani77561234](https://x.com/ani77561234)",
+    "body": "- 超時空輝耀姬-大學paro同人誌\n- 超時空輝耀姬-三人行同人誌\n- miComet-同人誌\n\n**専區**: 綜合\n\n🔗 X: [ani77561234](https://x.com/ani77561234)\n\n## 📝 CH19 出展ハイライト\n新刊 2 種: **『彩葉×八千代の大学妄想學趴』** + **『輝耀×彩葉×八千代 3P本』** (R-18、当日要證件) ／ 既刊あり ／ 15:00 後 猜拳大会 (海報賞)\n- [原 tweet (@ani77561234)](https://x.com/ani77561234)",
     "cps": [
+      "iroka",
+      "iroyachi",
       "trio-sk"
     ],
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "r18": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJPc5I2aUAENudM.jpg",
+      "https://pbs.twimg.com/media/HJO_M-UboAAgRq5.jpg",
+      "https://pbs.twimg.com/media/HJO_OHsaAAA7YYU.jpg",
+      "https://pbs.twimg.com/media/HJLMwfTaQAAeWir.jpg",
+      "https://pbs.twimg.com/media/HJLMwepbgAAiFF-.jpg",
+      "https://pbs.twimg.com/media/HJLvm01aQAAfEyq.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": true,
+      "detected_cps": [
+        "iroka",
+        "trio-sk"
+      ],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "J-25",
@@ -83,7 +150,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HI6o7qNa8AAO5dn.png",
+      "https://pbs.twimg.com/media/HH2d7QGaAAA7_qL.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2049844777953398784/img/DcsCh-4GryoojG6Y.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2049844777957605376/img/YLTn4zq8z5IJrnTo.jpg",
+      "https://pbs.twimg.com/media/HHHxpBfaEAA0evC.jpg",
+      "https://pbs.twimg.com/media/HG_TftNbEAEhvUK.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-01",
@@ -486,7 +567,19 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIhh-EHbgAAtRCd.jpg",
+      "https://pbs.twimg.com/media/HIhh-EEaQAAar24.jpg",
+      "https://pbs.twimg.com/media/HILnAgbbgAA8pJ4.jpg",
+      "https://pbs.twimg.com/media/HILnAgVbwAAsfb_.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-22",
@@ -569,15 +662,25 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/abcs628945",
     "cover_url": "",
-    "body": "- 母雞卡祥初\n- 迷宮飯法瑪\n- 輝耀姬八千代彩葉\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [abcs628945](https://www.plurk.com/abcs628945)",
+    "body": "- 母雞卡祥初\n- 迷宮飯法瑪\n- 輝耀姬八千代彩葉\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [abcs628945](https://www.plurk.com/abcs628945)\n\n## 📝 CH19 出展ハイライト\n主に **Ave Mujica 祥初 (祥子×初華)** R-18 印量調查中 ／ 既刊に **輝耀姫八千代彩葉** (= iroyachi) あり\n- [印量調查 plurk](https://www.plurk.com/abcs628945)",
     "cps": [
       "iroyachi"
     ],
     "tags": {
       "yuri-zone": true,
-      "super-kaguya": true
+      "super-kaguya": true,
+      "r18": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://images.plurk.com/mx_240x0nXyQ9h41GSN5oLDGb.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "plurk",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-27",
@@ -764,12 +867,26 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
     "cover_url": "",
-    "body": "- 緋染天空\n- 賽馬娘 Pretty Derby\n- 超時空輝耀姬！\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [ouyouxi2020](https://www.plurk.com/ouyouxi2020)",
+    "body": "- 緋染天空\n- 賽馬娘 Pretty Derby\n- 超時空輝耀姬！\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 Plurk: [ouyouxi2020](https://www.plurk.com/ouyouxi2020)\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://images.plurk.com/mx_68b989lkjN1vAuyNhjLe9K.jpg",
+      "https://images.plurk.com/mx_6c6aiCF2q2CWKz3dRPqdaH.jpg",
+      "https://images.plurk.com/mx_7qHDveYGMnfNYe1jwDbIjv.jpg",
+      "https://images.plurk.com/mx_1hGLROikL7TqQEr43k2WKO.jpg",
+      "https://images.plurk.com/mx_D08KnqHnFGedPwZkpRm0o.jpg",
+      "https://images.plurk.com/mx_KaHdRyKz8QoCIyxembDHv.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "plurk",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-37/38",
@@ -783,7 +900,16 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HIHw2hfaUAAD5Ad.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-39",
@@ -857,7 +983,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/474928042_4147862685489705_6480764299972559371_n.jpg?stp=dst-jpg_tt6&cstp=mx667x713&ctp=s667x713&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HtToUaq2Am4Q7kNvwGmQGA1&_nc_oc=AdohyImiDpr78_eH40Xey1YfgikLapIiu2HEGB6A5-9bIQ-1r1qL1UPVyLFTmDmg0eA&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=7865dGwGH29OdQfaNUX0VQ&_nc_ss=7c289&oh=00_Af6D2cOo4tj0qqQDtThtKtZSIxWpdxbhme8GC2SiiSmtdA&oe=6A1B4CAE",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/597290207_4460428690899768_8356449818437476023_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=HzNfTF3Hz50Q7kNvwEWnFgg&_nc_oc=Adqb5FP5j-vE8ydSeqg79kfdqwFgn_d4R367sTo346HMHPOdtIfK_Z3PkrnRYJ5PQCM&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=kbczmDYYOcbAUlV_akMepA&_nc_ss=7c289&oh=00_Af7QBs9TKH8zRPH01GMEKwbzNPlzwlJwLxb6IQwKpQNF8w&oe=6A1B5632",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/597290207_4460428690899768_8356449818437476023_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=HzNfTF3Hz50Q7kNvwEWnFgg&_nc_oc=Adqb5FP5j-vE8ydSeqg79kfdqwFgn_d4R367sTo346HMHPOdtIfK_Z3PkrnRYJ5PQCM&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=kbczmDYYOcbAUlV_akMepA&_nc_ss=7c289&oh=00_Af7hBr57VfqKjrgbGqhhMpsJimNHbfQ1g8G4t7NAc5U2iQ&oe=6A1B5632",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/699227969_4614290242180278_2603242533289062353_n.jpg?stp=c130.0.422.422a_dst-jpg_s851x315_tt6&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=KCifZR0VEUkQ7kNvwEERkNc&_nc_oc=AdrGlYtfvS--FcmbGuGVUK_1qi2VfSjqaKw21YWgLacwwFzYcS9kjQ9L_Hnj2iTNoRY&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=kbczmDYYOcbAUlV_akMepA&_nc_ss=7c289&oh=00_Af4AHBUzN-5oWRpW4agNuVx8j6cDrg91mL39wk6AVNd_Hg&oe=6A1B752A",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/699110960_4613379015604734_339696990960199844_n.jpg?stp=c0.186.1308.1308a_dst-jpg_s851x315_tt6&_nc_cat=104&ccb=1-7&_nc_sid=09d16d&_nc_ohc=EE9x7M7c7_8Q7kNvwH5_xqS&_nc_oc=AdrDxdDqey5_VOQrber9stpL7bhaPA3zQkdAgBDOSbfSLW1f2bhHBRGl6lzI9vcILRE&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=kbczmDYYOcbAUlV_akMepA&_nc_ss=7c289&oh=00_Af7U7w6BnS_bCxV2UDGqTi9TySFngEq5Exlz5Q5fjRQFTQ&oe=6A1B6CA6",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/699056768_4610546465887989_7717504306890415253_n.jpg?stp=c0.17.828.828a_dst-jpg_s851x315_tt6&_nc_cat=111&ccb=1-7&_nc_sid=8a6525&_nc_ohc=3xn7RUFjRcYQ7kNvwFumqfM&_nc_oc=AdpWInXmYhuGyuTJOTv5FL9BAlQ8TE-MKSraMeSeXFJSoh0YLe3HNxjSoB_vYLQc8HY&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=kbczmDYYOcbAUlV_akMepA&_nc_ss=7c289&oh=00_Af4_E8HdkBBvQCfLZFjMCz6fh33CTBoqzhsUdrYkyfoFgA&oe=6A1B51BF"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "S-43/44",
@@ -871,7 +1011,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/532932808_24240425342320308_1756070851162147306_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BCRgbrs8o6MQ7kNvwH4JzZp&_nc_oc=Adrrn2cieXty1wrjXxjAKWk9yZghPJ9H2eqq7C1EBF-Lwv3Wv1vtTF98FVMQF6PPhhk&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=rXpnIf8ihiFM2GaJdGZNkA&_nc_ss=7c289&oh=00_Af5fpcVK_EZjTXdUiW2ZMLHjD1ioCocfonRGzp6nKpWtQQ&oe=6A1B59C6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/676436100_26374924158870405_5715769226397168202_n.png?stp=dst-png_fb50_s320x320&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ezFASgGzVXgQ7kNvwGp74uT&_nc_oc=Adp4mpFOqyxKsF--C7CzJNEJtzSwDAd9RI6EL5X3_Opi8jSS2Vampq3WMR4Szwcxh8Q&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=lzANTMz0BPRFfu6qRUGC2A&_nc_ss=7c289&oh=00_Af5Gqb76Zlw7zZQcztdecnqys5TLsIiVAfxDh6ugbQ5yYQ&oe=6A1B8009",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/676436100_26374924158870405_5715769226397168202_n.png?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ezFASgGzVXgQ7kNvwGp74uT&_nc_oc=Adp4mpFOqyxKsF--C7CzJNEJtzSwDAd9RI6EL5X3_Opi8jSS2Vampq3WMR4Szwcxh8Q&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=lzANTMz0BPRFfu6qRUGC2A&_nc_ss=7c289&oh=00_Af7dG4rgB2fOTxN69Mmv5BmkTx6Q9nJ9WsYIhKCA0ASxeQ&oe=6A1B8009",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/707005467_26773029925726491_5133719072051062279_n.jpg?stp=c7.0.570.569a_dst-jpg_s851x315_tt6&_nc_cat=105&ccb=1-7&_nc_sid=09d16d&_nc_ohc=7k8nOVAzHI0Q7kNvwFwaD46&_nc_oc=AdrOBwcex-YSG3dVtcNMjk2-RVCLkBQc4LOiylRbcblziBFO_EWbpeqza4tzwOCvzpo&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=lzANTMz0BPRFfu6qRUGC2A&_nc_ss=7c289&oh=00_Af7aRB__yglNIbd-vskH3UEMYNhNj4AhD91PO80zJfdW-w&oe=6A1B5371",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/708345536_26767180299644787_1633997036726412362_n.jpg?stp=c0.200.1443.1443a_dst-jpg_s851x315_tt6&_nc_cat=103&ccb=1-7&_nc_sid=8a6525&_nc_ohc=vriV7yFWCGQQ7kNvwEVkG_Y&_nc_oc=AdoYkzDAoABxNkp4myxKm_VVjKSE33J7TZDmvDpDtM2x0n_mMOeA8pzryAvDgPw_i30&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=lzANTMz0BPRFfu6qRUGC2A&_nc_ss=7c289&oh=00_Af6v3SJItzXvIgoW1bEqCtzFhJSAz8c_zY1RvjXVLqZwuA&oe=6A1B57C7",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/706990467_26767180262978124_8315100085704614778_n.jpg?stp=c0.200.1443.1443a_dst-jpg_s851x315_tt6&_nc_cat=104&ccb=1-7&_nc_sid=8a6525&_nc_ohc=Juqujv4hiQAQ7kNvwEueLAI&_nc_oc=Adqt8gRKysTor_-pzdi1kIv3QQCAMVwpESbLihJPJM88BtBJakf7kSRRqmDl0UPXrNc&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=lzANTMz0BPRFfu6qRUGC2A&_nc_ss=7c289&oh=00_Af7daFJ5Y1_dLpMShlUke-17W9VJw11cBcqonwc_eC0qfw&oe=6A1B6F0A"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-01",
@@ -1157,7 +1311,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJERNOIasAAqJUE.jpg",
+      "https://pbs.twimg.com/media/HIwZPnxboAAYfWA.jpg",
+      "https://pbs.twimg.com/media/HIdidH6acAAOkIE.jpg",
+      "https://pbs.twimg.com/media/HIcbEwibwAAAaMu.jpg",
+      "https://pbs.twimg.com/media/HIcbEwhaMAA0Opy.jpg",
+      "https://pbs.twimg.com/media/F-w11NPXoAA2vfK.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-14",
@@ -1197,7 +1365,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-1/442507247_122174891936066181_6655357521814431745_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=loIu_mF5l5YQ7kNvwHn8Xm5&_nc_oc=Adpr1ZL1xlmoz_ncpJ6cJTuhXErQia23GIxJ23hm1C96Gp02SExcbpt_yJ0MK_K4uUE&_nc_zt=24&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=m3iJUePlbhQhhL16v3EgGQ&_nc_ss=7c289&oh=00_Af7sEkNuwgivuYRCtTT93rqC-jRus1qNzosSj3aplqpLjQ&oe=6A1B5C25",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/476345062_122229035816066181_4736274761333440239_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Otcmdb3ahmAQ7kNvwF-y8Wr&_nc_oc=Adp1c0NPU7s-oZ0A1R04Danf9F4OsDXKWO5qH428TSjCc5Vxm0AgsGabfLTeh64FMoQ&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=hQDmssHunu2ZVHWzIW0b3g&_nc_ss=7c289&oh=00_Af4691Ebdpf9VtBhYMGmcex6Nvm56Ra8qKVlna1WYml4Lg&oe=6A1B7029",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/476345062_122229035816066181_4736274761333440239_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Otcmdb3ahmAQ7kNvwF-y8Wr&_nc_oc=Adp1c0NPU7s-oZ0A1R04Danf9F4OsDXKWO5qH428TSjCc5Vxm0AgsGabfLTeh64FMoQ&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=hQDmssHunu2ZVHWzIW0b3g&_nc_ss=7c289&oh=00_Af6jPOQDnqwlviO95XeTDCLlsZxGHqXzPg9WCmeUu5quXA&oe=6A1B7029",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/607500450_122285662904066181_5998126088106212258_n.jpg?stp=c0.160.1562.1562a_dst-jpg_s851x315_tt6&_nc_cat=110&ccb=1-7&_nc_sid=09d16d&_nc_ohc=Dk7CpOFbV_8Q7kNvwFReAHC&_nc_oc=AdruvCTxoeamB3AIdWHS5jO4W9j64ohl5utI6T53JoB7RXg-5DyEaaFwNm0AKkuSq3k&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=hQDmssHunu2ZVHWzIW0b3g&_nc_ss=7c289&oh=00_Af5XClVCwnOgvckaEPGRrHvXF0uy_h6y1LoyzkKpnQfDCQ&oe=6A1B533F",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/558180562_122273024216066181_4786017200294790960_n.jpg?stp=c0.169.1536.1536a_dst-jpg_s851x315_tt6&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=v099RI4dGt4Q7kNvwGaI3Dl&_nc_oc=Adq2CRa482eRoRevFKGQd95dZXuJxpnfnk-ZwYMJjOR2Jw-PK7JWV3hewqNlVD0kfBE&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=hQDmssHunu2ZVHWzIW0b3g&_nc_ss=7c289&oh=00_Af4ccrBMEhZJ0lBPrOl69FlUSrGDyxdVkxKrE7d6T7pR3Q&oe=6A1B690B",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/538596548_122267202908066181_3897309089880715167_n.jpg?stp=c256.0.1536.1536a_cp6_dst-jpg_s851x315_tt6&_nc_cat=106&ccb=1-7&_nc_sid=8a6525&_nc_ohc=BROwE7VHYBwQ7kNvwEinhQX&_nc_oc=AdrKG-TKevXqWUoCaQrqPsmvGbVLd3vLZVxY9ds2Psy5EsnDnd198k8WXGH6CPkgugw&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=hQDmssHunu2ZVHWzIW0b3g&_nc_ss=7c289&oh=00_Af5tWm6a22j1vnHRqtllQvmFb8p2fW4U8WfB3ND8OkThiA&oe=6A1B5536"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-16",
@@ -1338,7 +1520,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t1.6435-1/52682029_1172324666276283_5797723748110958592_n.jpg?stp=dst-jpg_tt6&cstp=mx584x584&ctp=s584x584&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iyMhFK6pEHsQ7kNvwFr7sG-&_nc_oc=AdpDNIQ8bYcW-DUaBHJ38I-ueIRnrzHz1fSTYK3RPn5pZJ_fUv57unwe-G759jUOtMU&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=ZsU2iWleFPUEcho1zvrSCQ&_nc_ss=7c289&oh=00_Af5w8Ar9VEAP-tRky8-_DkmLxpNIEC1RmvSzHbFW5MJpKA&oe=6A3CEE15",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t1.6435-1/52682029_1172324666276283_5797723748110958592_n.jpg?stp=cp0_dst-jpg_s80x80_tt6&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_ohc=iyMhFK6pEHsQ7kNvwFr7sG-&_nc_oc=AdpDNIQ8bYcW-DUaBHJ38I-ueIRnrzHz1fSTYK3RPn5pZJ_fUv57unwe-G759jUOtMU&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=_eyIDi5GbiupyuLPIqnbKw&_nc_ss=7c289&oh=00_Af6gi8PduxH1Xdmcsmw9XqQ5SeSM_RO_-l_RTZUNDkM_Vw&oe=6A3CEE15",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/544425395_3176970689144994_6978022998550232065_n.jpg?stp=dst-jpg_p843x403_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ubAzyn1qO8QQ7kNvwFh4Ukx&_nc_oc=Adp1SWx9uWFR4n5Dh3pRmuCsEL5espU5K_0qKKq4IN1b9D3QsLSTmXyFua8v8uFLmSo&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=_eyIDi5GbiupyuLPIqnbKw&_nc_ss=7c289&oh=00_Af6H0_l28yJ7qIDp3fVKchtis014Ub4wneWOdZcdrvzCYA&oe=6A1B5060",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/598979860_3289963807845681_1589118359615241749_n.jpg?stp=dst-jpg_p843x403_tt6&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Lp2kyWdXLFAQ7kNvwHIaiMU&_nc_oc=AdoJV-w4WDh-_ZQD58X3mO7I4Sup8XLCNU5iAQxcMinAlOEgqdGplPDtA4TMQcc6ebA&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=_eyIDi5GbiupyuLPIqnbKw&_nc_ss=7c289&oh=00_Af46lyZXgKWIx3lZ8tB-ajygZW6n8Uzkj2cQA1_i4p4OdA&oe=6A1B7667",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/598691167_3289963801179015_628621903460802269_n.jpg?stp=dst-jpg_p843x403_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jFesI47MV_AQ7kNvwEVaZDo&_nc_oc=AdoyMEA5e4z8WmaXvgf6YKvYwKhGf6EeEq1iUBFG9i8S4VQY46rkHi48KnlK321xJOA&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=_eyIDi5GbiupyuLPIqnbKw&_nc_ss=7c289&oh=00_Af51poSofibTlB6AbKW1PGLLdbjlGG2MjMB6ep0RUz1ijw&oe=6A1B4D29",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/600360296_3289963804512348_6740723560996169357_n.jpg?stp=dst-jpg_p843x403_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=biEiTKnMYhMQ7kNvwGssC4y&_nc_oc=AdqLmPIKUCmpjCLPKgo7eGxpt4D0oMOC5x-lsqKwIZ2YtDY4ySQfX9p683pCXI390qM&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=_eyIDi5GbiupyuLPIqnbKw&_nc_ss=7c289&oh=00_Af71Gw1b4LxoU-ZBg3ORlx2ESDUuXhZIod-WrNffywSXTw&oe=6A1B5BE7"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-25/26",
@@ -1455,12 +1651,18 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
     "cover_url": "",
-    "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n**専區**: 百合\n\n🔗 doujin.com.tw: [https://www.doujin.com.tw/authors/info/x20285/books](https://www.doujin.com.tw/authors/info/x20285/books)",
+    "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n**専區**: 百合\n\n🔗 doujin.com.tw: [https://www.doujin.com.tw/authors/info/x20285/books](https://www.doujin.com.tw/authors/info/x20285/books)\n\n## 📝 CH19 出展ハイライト\n安奈Anna (105 件 doujin の長年作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "_meta_scrape_sk": {
+      "platform_used": "doujin_tw",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-32",
@@ -1474,7 +1676,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-1/373717595_6802485923106120_3317333230818211355_n.jpg?stp=dst-jpg_tt6&cstp=mx443x443&ctp=s443x443&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KGwyLrkpMq0Q7kNvwHbelgq&_nc_oc=AdpADpRikBJzfMdAgkojiQyIq9RC0hjS0URHkKwY6unkdIwBdgWfOQ2tsXGNEzWBJtQ&_nc_zt=24&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=Sv_lHNBffEYJ8uEIvs7T_A&_nc_ss=7c289&oh=00_Af7mTdpgwJdXa5dstQj4bDaz3jKfKY9k-zAYeK9tiwS-Yw&oe=6A1B6832",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/502728807_23955498710711574_459412244152266301_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=8CatQGYXiW4Q7kNvwEhZvxN&_nc_oc=AdrHAr60ED0b8nlJW1Epq9z19ljKAILO213aI2RkgRw7IsQI0X0UjeEpsJA1p_SBrdA&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=z2YcapUz62kCPo46fk-LOA&_nc_ss=7c289&oh=00_Af551PR6VR6SZ4sm2FoOg4jBIH7HrjqyoBLVc9cIl4ynMQ&oe=6A1B4FD6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/502728807_23955498710711574_459412244152266301_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=8CatQGYXiW4Q7kNvwEhZvxN&_nc_oc=AdrHAr60ED0b8nlJW1Epq9z19ljKAILO213aI2RkgRw7IsQI0X0UjeEpsJA1p_SBrdA&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=z2YcapUz62kCPo46fk-LOA&_nc_ss=7c289&oh=00_Af7HNHs2qD5S1dngXibktV3GS1VZER8Qz4PA_MEyEuZM3A&oe=6A1B4FD6",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/703745738_27229070056687740_2325492114983266551_n.jpg?stp=c0.198.1447.1447a_dst-jpg_s851x315_tt6&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=SNKGwEZEtLQQ7kNvwGXXinx&_nc_oc=AdqXC4Bbi9FlUhDyMVSpZTRM7GAoTDN5DXeFysENQCIbWahb7K7dzE1VqCEFfFA9GQk&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=z2YcapUz62kCPo46fk-LOA&_nc_ss=7c289&oh=00_Af7c28PCHBYBpwKEou-MmRJlNghdxeMuqdXHCzMVHYRp7w&oe=6A1B79F4",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/704667267_27225026860425393_840879984238467666_n.jpg?stp=c0.200.1443.1443a_dst-jpg_s851x315_tt6&_nc_cat=107&ccb=1-7&_nc_sid=09d16d&_nc_ohc=qcTgfyWfJiwQ7kNvwEdqeys&_nc_oc=AdqjYqT55kpdkW12tbBO0rxfNMVdxXtzOMUXb-wOmE9rai7OZb9nW4MNjf8geXutS2M&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=z2YcapUz62kCPo46fk-LOA&_nc_ss=7c289&oh=00_Af79jTimiFEILlhhbwjNGxCrlpCqf3u1m4z0oHfclEabHw&oe=6A1B6443",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/703811982_27225026540425425_7631065773458675812_n.jpg?stp=c0.200.1443.1443a_dst-jpg_s851x315_tt6&_nc_cat=109&ccb=1-7&_nc_sid=09d16d&_nc_ohc=T4vzw_bafsAQ7kNvwEwCRjF&_nc_oc=AdqolaUUhSLZquRQOe2bUwEIWcHBedbwveIIyiSxgAtZZY5J3wQ8_Zc2xF15b3yAv9o&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=z2YcapUz62kCPo46fk-LOA&_nc_ss=7c289&oh=00_Af4QePIa8XMqmXxTsatwqFkP-UlOES_YojnH9LTrD8dguA&oe=6A1B6F66"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-33/34",
@@ -1540,7 +1756,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/302084692_571175828136890_6368601485629209051_n.jpg?stp=dst-jpg_tt6&cstp=mx720x614&ctp=s720x614&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MK6xmWxk1vwQ7kNvwHIdahL&_nc_oc=Adofb1iH1i3nEwhV8zeBp6mQRN40IfWv_PACSy87oaeGPmMFfo2q5EhSpn2VbjIqiJ4&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=98UHbwgYgSOOG0ZivifWhA&_nc_ss=7c289&oh=00_Af5fIRE83ydGu05WMyS0IREWlBZJ2pvtg7zZ9dxc33Yqqw&oe=6A1B6AEC",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/705137504_1518119546775842_809330798951185237_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=101&ccb=1-7&_nc_sid=09d16d&_nc_ohc=OYNxU4sNUVsQ7kNvwF0X1Ie&_nc_oc=AdpHO8mt_YJgWMxOgmUL0kPUarFVxz7lNE3yR6NHk5emZDOrO-CRHzziUduIPFqECak&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=T3fx64UKmFb9iDtt1SGxUQ&_nc_ss=7c289&oh=00_Af6mZFlhKqPRSBV9z_L5S78jpZNesmPh-ZuGR1lx0CASAw&oe=6A1B5683",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/704812748_1518119513442512_4414768635120115641_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=111&ccb=1-7&_nc_sid=09d16d&_nc_ohc=nRGJSIg-rqUQ7kNvwHIsLpb&_nc_oc=Adr9Iw6rM0obdbGtCJihITl_AGdWXf4YYQuc9q4C00HFSUc2j-mGa3BQxkfhPueleEc&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=T3fx64UKmFb9iDtt1SGxUQ&_nc_ss=7c289&oh=00_Af4WeJZguHUVVAC5JQDtKK1zEeJ0yZ2glP0ZJxmbUGT9IQ&oe=6A1B4B4F",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/705194264_1518119400109190_8331739752333941882_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=100&ccb=1-7&_nc_sid=09d16d&_nc_ohc=DHS8fkBlqwwQ7kNvwHPD75n&_nc_oc=Adq0f8lvFL-yMpGJQmCr0ibpxZrxWl2jx8LqSLd6W7q02-MP8Gp-7abSM_ppQttJZwE&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=T3fx64UKmFb9iDtt1SGxUQ&_nc_ss=7c289&oh=00_Af5dsTWB-5NVQ8RKfQB1XODNVcxPNXzSWmipsvdCXmFk4w&oe=6A1B757A",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/705374524_1518119470109183_5846528922500521859_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=109&ccb=1-7&_nc_sid=09d16d&_nc_ohc=Fv_gHQuM9KwQ7kNvwGkOD2G&_nc_oc=Ado-mRdFgxoD-zK-Y5-AmWtgQiDLFumLgLXwCGQqDyjRa97iD83FDBUroGOw5hx7W6M&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=T3fx64UKmFb9iDtt1SGxUQ&_nc_ss=7c289&oh=00_Af5hlFk9UQTM4FK3NRXIauIeIzMGDE75EyrsE4i93F-LsA&oe=6A1B79B6",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/705194288_1518119363442527_2704007449247028610_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=111&ccb=1-7&_nc_sid=09d16d&_nc_ohc=KBre4UsuN5YQ7kNvwHoz2EV&_nc_oc=AdoW-WEfCQqByeDV_VL66oEg3VS9qYW1hKyWZHyobdtNrB1inhgRE73cZCCuZIqbgnY&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=T3fx64UKmFb9iDtt1SGxUQ&_nc_ss=7c289&oh=00_Af6XCcJB9RVJGyDKRI3nx4H304eUndUTnHTBW6KThTqzMQ&oe=6A1B4E95"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-37",
@@ -1549,12 +1779,26 @@ window.BOOTHS = [
     "x_handle": "rissole715",
     "x_url": "https://x.com/rissole715?s=21",
     "cover_url": "",
-    "body": "- ave mujica\n- 超時空輝耀姬\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [rissole715](https://x.com/rissole715?s=21)",
+    "body": "- ave mujica\n- 超時空輝耀姬\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [rissole715](https://x.com/rissole715?s=21)\n\n## ✨ CH19 出展 signal (作家の最新 post 由)\n> RT @Mochian0819: #創集繪 #AveMujica #初祥 #輝耀姬 #超かぐや姫 哈囉各位！我是陌千，品書來了！一年一度的創集繪就在下禮拜啦！ 這場5/30在花博爭豔館的同人展是我的出刊一周年，看看我的品書，我的本子直接暴增到六本(好誇張)🥹 這次人在U21……\n[source](https://x.com/i/status/2059229808400511323)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJNpjPgbYAA4EiG.jpg",
+      "https://pbs.twimg.com/media/HJL1KzYbQAAXlOd.png",
+      "https://pbs.twimg.com/amplify_video_thumb/2058867736017874944/img/dV05R88QgNcDBJ4X.jpg",
+      "https://pbs.twimg.com/media/G3I5USta4AAzVjy.jpg",
+      "https://pbs.twimg.com/media/G3I5VkNbQAAiwlv.jpg",
+      "https://pbs.twimg.com/media/G3I5VkLaIAAMtIy.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "T-38",
@@ -1608,7 +1852,16 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://prd.storage.lit.link/images/creators/baddcf9a-1208-4e3d-acae-85db8d65c203/ogp/ogp_image.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "aggregator",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "T-41",
@@ -1617,12 +1870,30 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/haneko0216",
     "cover_url": "",
-    "body": "- 超時空輝耀姬！\n- 魔法少女的魔女審判\n\n**専區**: 百合\n\n🔗 Plurk: [haneko0216](https://www.plurk.com/haneko0216)",
+    "body": "- 超時空輝耀姬！\n- 魔法少女的魔女審判\n\n**専區**: 百合\n\n🔗 Plurk: [haneko0216](https://www.plurk.com/haneko0216)\n\n## 📝 CH19 出展ハイライト\n**超時空輝耀姫 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、二創公告前下印で限定・加印なし)。崩壊3 紺海三角塗鴉本など 他 fandom 多数も\n- [近況 plurk](https://www.plurk.com/haneko0216)",
     "tags": {
       "yuri-zone": true,
-      "super-kaguya": true
+      "super-kaguya": true,
+      "goods": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://images.plurk.com/mx_4YdGrKKgzzvyRF9VUh6C4U.jpg",
+      "https://images.plurk.com/mx_15AIitI9UVc4NfAMIzk6ib.jpg",
+      "https://images.plurk.com/mx_7mTdtqwp2yAyOiX1BDSE5P.jpg",
+      "https://images.plurk.com/mx_3tWvlkY89UayVb67e2lszo.jpg",
+      "https://images.plurk.com/mx_1nmQqXS6zs5rG6jrh6AHvg.jpg",
+      "https://images.plurk.com/mx_6mqHvRnQK11Sh3WeX0noXJ.jpg"
+    ],
+    "cps": [
+      "iroka"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "plurk",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "T-42",
@@ -1665,7 +1936,21 @@ window.BOOTHS = [
       "yuri-zone": true,
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/339739224_1179155515990704_5074472924111380137_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sGt0S-YckYkQ7kNvwHKpT7E&_nc_oc=AdrM1TjKyLjmT6v9fBR3W6IoEE9siwlBK4wdmRG_Kx_kAiFOD1qsKl-p9Am7H5eEXE0&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=1pB_w8-d0WGT9zeA1Eq-IA&_nc_ss=7c289&oh=00_Af6a7HhG3tPNuJOJ6ktrnGRfnoSXZXvcf3x_wB8FHC0S1Q&oe=6A1B5633",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/670399314_1543272024470787_2137434678625689147_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=fxQdhAVBggMQ7kNvwGfMEom&_nc_oc=AdpXygYH_FqTrUqFema-_YtNDlovVL_qom_G0u3UFAQqjS7CvCQvZ7PxaYIQpvHePCk&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=tDt9ko5zKEkXUI6KhxhNVQ&_nc_ss=7c289&oh=00_Af4b-Zjc814YGnsWJh4iVbEnPl0v9WaF0NSLCpX7suJ-gA&oe=6A1B67B4",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/670399314_1543272024470787_2137434678625689147_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=fxQdhAVBggMQ7kNvwGfMEom&_nc_oc=AdpXygYH_FqTrUqFema-_YtNDlovVL_qom_G0u3UFAQqjS7CvCQvZ7PxaYIQpvHePCk&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=tDt9ko5zKEkXUI6KhxhNVQ&_nc_ss=7c289&oh=00_Af6Ov5N7ooYVqqSWPw0YvL7GwoIozhaMqgiMVbpmGgnOEQ&oe=6A1B67B4",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/339739224_1179155515990704_5074472924111380137_n.jpg?stp=cp0_dst-jpg_s80x80_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=sGt0S-YckYkQ7kNvwHKpT7E&_nc_oc=AdrM1TjKyLjmT6v9fBR3W6IoEE9siwlBK4wdmRG_Kx_kAiFOD1qsKl-p9Am7H5eEXE0&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=y-aN5DEsrpeZ-sykiyVUEw&_nc_ss=7c289&oh=00_Af5JMDnl1ij5Hy9rNc77QSa-B2fjGovxhhCxV_FAJGA1cQ&oe=6A1B5633",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/705989025_1583932510404738_2930161910964476610_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=TJDHUmxDzUMQ7kNvwE8Sboh&_nc_oc=AdqLRajtHYBk2uCMWvvX0O8meD2i5aeKNKuK3jCsPtZzCO_9Nn3oOKx655toWdjpMm0&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=y-aN5DEsrpeZ-sykiyVUEw&_nc_ss=7c289&oh=00_Af4bekRl4CEZ7mD7MjFy5YMO08jSQK0GlrCHdN_pYIk73w&oe=6A1B6E77",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/699738592_1576704637794192_6616897473271200323_n.jpg?stp=c0.198.1448.1448a_dst-jpg_s851x315_tt6&_nc_cat=105&ccb=1-7&_nc_sid=09d16d&_nc_ohc=CCIZTqg6y5kQ7kNvwFRNnj0&_nc_oc=AdqoWfm4SeOkP07MVf7fmAaXgDTASCXFuTmEOJCuFei6bwgY6pYqPrxSibycBnBQYFg&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=tDt9ko5zKEkXUI6KhxhNVQ&_nc_ss=7c289&oh=00_Af7kHY9bxvCZA0OuIB6YmKMkLu_fRkrg5TBHYs_jv1ZYWg&oe=6A1B58E0"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-21/22",
@@ -1674,11 +1959,25 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
     "cover_url": "",
-    "body": "- BanG Dream! Ave Mujica\n- BanG Dream! It's MyGO!!!!!\n- 超時空輝耀姬\n\n**専區**: 綜合\n**連攤**: ╝\n\n🔗 Threads: [mochian0819](https://www.threads.com/@mochian0819?hl=zh-tw)",
+    "body": "- BanG Dream! Ave Mujica\n- BanG Dream! It's MyGO!!!!!\n- 超時空輝耀姬\n\n**専區**: 綜合\n**連攤**: ╝\n\n🔗 Threads: [mochian0819](https://www.threads.com/@mochian0819?hl=zh-tw)\n\n## 📝 CH19 出展ハイライト\n新刊 **『蝕』** (Ave Mujica 初祥初) 1 萬字加筆、布丁井老師封面 ／ 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道で 直播予定 ／ 超時空輝耀姫 関連 community post 多数\n- [原 thread](https://www.threads.com/@mochian0819/post/DXzAS81ktnR)",
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/683661942_17900252013430847_8581241086532948468_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzg4NzQ1MjIwNTYyNDc3NzE2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2t6XRms8aloQ7kNvwHPRr66&_nc_oc=AdqsAc-CnyNS-hsJUlNSY1Rn3pl440EOY6kLYaPM9VS8v7f6CC-Aql_rxU0IYAlXP7w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af4nyfLaGc_L65Y6ky-LN4LCRimRB0SlIbB00hjg4TXbwg&oe=6A1B6ED5",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/706812340_17904259380430847_189404045007151268_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTU1NjY4NjE0OTE3OTExOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTY3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ugyy3DCT9-MQ7kNvwHqm6zx&_nc_oc=Ado5QFkPRGpLzXgFurrVwDr4RGkJwS2pkUpAcO-WedBk33HfAeDm42vOMkBkHg59fyg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af6lt9PD4xEuZ4JxtD9QKeB3-12YC_JenVt8YehVT7oisg&oe=6A1B5A43",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/707992165_17928200277317985_7443816089321494266_n.webp?_nc_cat=101&ig_cache_key=MzkwNDg5OTc3ODA0ODgyNDY0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lL3KCaJprmEQ7kNvwHPD8xS&_nc_oc=Ado7wdUUYl-frhfyjRZv-D21wQ_xxTZxtj3vRGw7iUsqNss_Ym_ODiwBwWC5YWHChmY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af6NjoYso64YLiqr7joT7GkllbLNSc9WQF7zQKum5_6wvQ&oe=6A1B6123",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/706752922_17928200265317985_5875719793894617001_n.webp?_nc_cat=108&ig_cache_key=MzkwNDg5OTc3Nzk5MDE1MjQzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DoJ4K_il7GMQ7kNvwE_aT4e&_nc_oc=Adpey6lO7IQbRiVE4kZhZNFOGMpu-5UItttNdrcJJrqY3kZ3ghS1FuUWS3psap3_dIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af64FJgFfosbqkstdS0bEsD2jM7JnLiEkpRdGbUImQxXxg&oe=6A1B80EE",
+      "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/704955596_17928200259317985_5684919354102865629_n.webp?_nc_cat=111&ig_cache_key=MzkwNDg5OTc3ODA0ODg2NTYxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=efuLGoOb4GIQ7kNvwESu1j2&_nc_oc=Adqjf09_81rfPj_3t2lx3IhiS9zeUFDfz3H1zE7lvDcmyQg7N_6zO7a-4gR7_gDLRcQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af6CHWBR3m_4ihDBeA96E350rBMPvctHV0Sv6K164iYhAw&oe=6A1B5734",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/706965499_17928200274317985_8758848555045697386_n.webp?_nc_cat=104&ig_cache_key=MzkwNDg5OTc3ODA0ODg2MzU3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5sjt2JvNciQQ7kNvwE8mZDJ&_nc_oc=AdoFBOy_YSSF-rfjW1InwckmIPXQp5DDtN2pOmaOKW-09NulOnVRfIpi2buQ52LX_CM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=W3P7559sYFHqWiFDDG34_g&_nc_ss=7a22e&oh=00_Af7FVvrsQZhAsvNbFf38sLUDou8GAO3tWLYGwpOeLT4c3w&oe=6A1B6F75"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "threads",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "U-23",
@@ -1691,7 +1990,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/530518982_1311860710513433_1461755793416276799_n.jpg?stp=dst-jpg_tt6&cstp=mx2041x2038&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=O1gxBEkJagYQ7kNvwHGkM8Y&_nc_oc=AdoHKhlEYYdFVb6NExvxB096XgR6dY6eM8Mw84IzbQ0NST31VOaJWzNG7AqGegtjKdA&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=aVbNvgsCyFMXeIH9l5A-vQ&_nc_ss=7c289&oh=00_Af6eN7Fuaoh3o6LCL_P-DfndxiP40imT7oUhIv-pFRum9g&oe=6A1B7ED7",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/530518982_1311860710513433_1461755793416276799_n.jpg?stp=cp0_dst-jpg_s80x80_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=O1gxBEkJagYQ7kNvwHGkM8Y&_nc_oc=AdoHKhlEYYdFVb6NExvxB096XgR6dY6eM8Mw84IzbQ0NST31VOaJWzNG7AqGegtjKdA&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=w51lxvTelXWH5PTXFGHP5A&_nc_ss=7c289&oh=00_Af6Der7HAlnb8ztFnlL5wS8UtwlmdA3V4b_YBHk8IkskpQ&oe=6A1B7ED7",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/704782945_1544247640608071_4749741119156422739_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=d-8OEO_YOmYQ7kNvwGzpjdH&_nc_oc=AdpYMY4jkMPzGPtG5u33EHLtmSVtRfsM-WZt0ln4ytwl2VHezNEiHcprOguRpDBZkes&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=w51lxvTelXWH5PTXFGHP5A&_nc_ss=7c289&oh=00_Af4NhXKqHvlSfUDkIG8oVtM1PsbuOu-ChmZ5PWzqvR7Fcw&oe=6A1B4939",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/705521260_1544247637274738_3219822290556636098_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5X1VFOAl1u4Q7kNvwFktJP4&_nc_oc=AdrsaqyI3erKXW7Tm6Tfs2Kaf03vMYmY2RUhqADAFKV4e5SdjkoeoXXDB1BLsqIwSaY&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=w51lxvTelXWH5PTXFGHP5A&_nc_ss=7c289&oh=00_Af54IT-WJfPl5oovn4nU0ebVbLrem-NrAjBwKxjCxdaUBQ&oe=6A1B51B6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/705920556_1544247670608068_68418574430706855_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o6ZcKI4sfmEQ7kNvwFLzN3y&_nc_oc=AdrnpPBQ1GN8WiQj_xHnG1VwKsI0T99tHaAjauJDkzl7OndvY8Sqo74zDfTnYtr436w&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=w51lxvTelXWH5PTXFGHP5A&_nc_ss=7c289&oh=00_Af4mQMgtjv3m4P5mWIjSmzp5OB2p2e9TMOXNdYWxCwjoew&oe=6A1B654E",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/705920556_1544247670608068_68418574430706855_n.jpg?stp=c0.364.946.946a_dst-jpg_s851x315_tt6&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=o6ZcKI4sfmEQ7kNvwFLzN3y&_nc_oc=AdrnpPBQ1GN8WiQj_xHnG1VwKsI0T99tHaAjauJDkzl7OndvY8Sqo74zDfTnYtr436w&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=GkFRojmjnLBrYcycHEtroA&_nc_ss=7c289&oh=00_Af4hGdiazqloHdc-9shJ0iiBOxKIl32Sm-n9dIWozjdcXg&oe=6A1B654E"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-24",
@@ -1704,7 +2017,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/702620140_17875437087656554_1485655112802953689_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkwMzQ4OTg1MDEwOTE5MjczMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM3OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=CrRfP7dV99gQ7kNvwFxOQqC&_nc_oc=AdpH3W5309woDsEFPIq_HzPvc6iZ6uf5E41yy1RNRxxo5bI319bcBukzP49UK-PRAJ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=p1MP3O8KR-DnRhhHT7Z_hA&_nc_ss=7a22e&oh=00_Af6ZHEwkPY7sNrP42lP6o1RClSJY3-Hu2kjugK1pnnuYPA&oe=6A1B5E62",
+      "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/703762077_17875238235656554_6460523699297493911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkwMjczODI0OTAxMDQ5NDE0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM3OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ydpHXdGEkQYQ7kNvwHsg7b3&_nc_oc=AdquZn7sPwdxNcOHzrjmIc7jQwwE5Eap-MqsG6pZ7l8PRy1fZJa1ifzku0IALmadUM8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=0Nb7c_anJc5NdddZRk_Thg&_nc_ss=7a22e&oh=00_Af7KKBWDcABJ-JjFv0Ok2Hb0P5Y0gq1S0NOka9wudKRcSA&oe=6A1B7BF7",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/703646521_17875238244656554_4523841871980125162_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkwMjczODI0OTA3NzYxNjI1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM3OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=twFyFc2zunkQ7kNvwE1qo2h&_nc_oc=AdosUmiyKzsxuJe-7t6mZ1DYZMrtSCAQavAwj4l73r9mKCFxBgOlZMKPtm0V9aBKr_M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=0Nb7c_anJc5NdddZRk_Thg&_nc_ss=7a22e&oh=00_Af5rxpjekYbeI38MvOvTbK6uhxUw0w_NfHKVxlahslqg9g&oe=6A1B53F5",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/703708362_17875066272656554_9090656000016550793_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwMjA2MzYyNTA1MDMzNjY2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuOTYyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=7945MMxq-PkQ7kNvwH4DwKh&_nc_oc=AdqQ9hoXfVgncH7zVRbWl9d0ueVGANT0H-cCTqQ1lq3133ZTlSmh7o3LaUmz-BBoo3E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=0Nb7c_anJc5NdddZRk_Thg&_nc_ss=7a22e&oh=00_Af60WbP97qxvlemEZMsvlpamD8CJCE8v4AMdPplvHCAZ5A&oe=6A1B5CB2",
+      "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/702213035_17874852888656554_8438156579111494_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkwMTI2OTM3OTM2NDAxMjQwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjUyMy5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tyJ6BZh4XuIQ7kNvwHC7Boy&_nc_oc=Adr8FTNe8e2RJ3SRcLzHRJCjQb3ghJ8Cf0MbXo-I1_b1vpU69XSHHJFQcu-ggDyGlaA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=0Nb7c_anJc5NdddZRk_Thg&_nc_ss=7a22e&oh=00_Af6i-4kIYUWKWaEqUWTxCWIlu9mkUeDdDShWv4dvCmLIug&oe=6A1B50CF",
+      "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/703811789_17874677184656554_5283844102481929430_n.webp?_nc_cat=102&ig_cache_key=MzkwMDU5Mzg0ODE5MjcxMTUzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjQ2OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gWnU4NiLvv8Q7kNvwGUCFoY&_nc_oc=AdpAhkdqPwPGv3h2Yj9BMtWYJoGOs5o2BF9Txx-P5qq36ea8yDPc37j4lsZVCXskp7E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=0Nb7c_anJc5NdddZRk_Thg&_nc_ss=7a22e&oh=00_Af6Jx49pKFdMNKSbOUOs8rTNzS4GmIJPtQ-i_V512P5_AA&oe=6A1B5DCB"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "threads",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-25/26",
@@ -1717,7 +2044,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/571356144_1400735312060097_1464275783197363384_n.jpg?stp=dst-jpg_tt6&cstp=mx330x316&ctp=s330x316&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AxMIxEMQv8sQ7kNvwEHfezI&_nc_oc=AdpPUrhZNEZDVR8lllkVPhXdITSB2lKewm_1WjaliA76qXaDjI7SwP7tevm3uMSqNwo&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=qCfuiqJJI3ybGAQp04HaPA&_nc_ss=7c289&oh=00_Af4QJch7EFJHE1m2fqjCptubS0QC315UpsJXM_OJ_e9u2A&oe=6A1B6793",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/574649048_1400735552060073_746480761466309610_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BSby1hwXDx4Q7kNvwHzCFGl&_nc_oc=Adr2ftEvftdJ4SzCJAWWvO-cj0coGq2Yt6fFpzlzqU_hfDaujqFO-JGLSnsNbocWdZ8&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=P7PmIzPr4v2FNiIR1VP8UQ&_nc_ss=7c289&oh=00_Af4_idbVcbCwWSdFGUeqKnpd6maVN6HTUw-VF-X1qizyDw&oe=6A1B67B4",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/574649048_1400735552060073_746480761466309610_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BSby1hwXDx4Q7kNvwHzCFGl&_nc_oc=Adr2ftEvftdJ4SzCJAWWvO-cj0coGq2Yt6fFpzlzqU_hfDaujqFO-JGLSnsNbocWdZ8&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=P7PmIzPr4v2FNiIR1VP8UQ&_nc_ss=7c289&oh=00_Af4tov2LXQSwDKcnoOZTsVuvAy2xxDIGOdFbdpTyD705Gw&oe=6A1B67B4",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/701874540_1572676254866001_2756393479238732326_n.jpg?stp=c0.201.1438.1438a_dst-jpg_s851x315_tt6&_nc_cat=102&ccb=1-7&_nc_sid=09d16d&_nc_ohc=kar7U4358VgQ7kNvwH2hFAE&_nc_oc=AdrBl2t8sEmTeCgd5szFiKD_tu1oodTXYJsVX-BOhknpJwqZvqOylcb8Nx7qTUnBPRQ&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=P7PmIzPr4v2FNiIR1VP8UQ&_nc_ss=7c289&oh=00_Af6eMRQADWhW5HrZ_fqwwsLW1DLxcBoz2tm4ZDmq9Z_rtg&oe=6A1B6C05",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/699713666_1571753388291621_4666791011479760124_n.jpg?stp=c171.0.1706.1706a_dst-jpg_s851x315_tt6&_nc_cat=104&ccb=1-7&_nc_sid=09d16d&_nc_ohc=hEZpmu8bF68Q7kNvwG0DI2F&_nc_oc=Adqgav-C9cpxYDFdJufIvko0CtM8SMLwj_JvlTA-GVjD9IUAUzKxp2F8eiYTfUglfy8&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=P7PmIzPr4v2FNiIR1VP8UQ&_nc_ss=7c289&oh=00_Af50ABL4DUh6ExbnBdSOVlLfTrzBTvHjz2YAzJyTWw_GiQ&oe=6A1B57F7",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/699355197_1570849721715321_5185094034370049462_n.jpg?stp=c0.194.1460.1460a_dst-jpg_s851x315_tt6&_nc_cat=110&ccb=1-7&_nc_sid=09d16d&_nc_ohc=h4oRfL9LMxkQ7kNvwFSp2YM&_nc_oc=AdpQmdJolOwPQi1EcA15jOFMy2f322w2My0sEjt4ecAfcruOPiKUif3EjBfarp5LJhs&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=P7PmIzPr4v2FNiIR1VP8UQ&_nc_ss=7c289&oh=00_Af4DlcVA3bpSZm5JPsSlvn39IK6wwdS0ghKinp6lAK8QSg&oe=6A1B60E4"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-27",
@@ -1730,7 +2071,16 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://prd.storage.lit.link/images/creators/d7225ce7-7230-49a6-a650-bb4e61b47252/ogp/ogp_image.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "aggregator",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-28",
@@ -1743,7 +2093,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/257484580_433099444924585_365525407614215155_n.jpg?stp=dst-jpg_tt6&cstp=mx1018x1018&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YqbuKvT2PZQQ7kNvwFe8Dz-&_nc_oc=AdqMBvjEaodIGRAjAxTmuRPAHfmw8HkNofsBJ_BvePnpSNIPAVAPJOMmpQEA2BmTgZk&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=s5rZbRVbHO9ZJYTb4s3jkQ&_nc_ss=7c289&oh=00_Af6G-KEd4ypY2JQU7ORP3Dn4eYnusle9obGhuFo7bJnXrw&oe=6A1B672B",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/473317531_1159810645586791_1819061923292995998_n.jpg?stp=dst-jpg_fb50_s320x320_tt6&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3mqEOgqTEaMQ7kNvwHGB1qB&_nc_oc=AdqpkHuHRFvia8VIwsGigN288dDkgr-srDb4pEmf-MHfNoRWOy8HAE10BlfQ_KpLf5o&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=6gniNTaf6aMU-uT86Zq8bQ&_nc_ss=7c289&oh=00_Af7cmTkjO5D8ifNSSHt_nwYbW_5PelHqZ-ukifry_0T-XA&oe=6A1B5672",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/473317531_1159810645586791_1819061923292995998_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3mqEOgqTEaMQ7kNvwHGB1qB&_nc_oc=AdqpkHuHRFvia8VIwsGigN288dDkgr-srDb4pEmf-MHfNoRWOy8HAE10BlfQ_KpLf5o&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=6gniNTaf6aMU-uT86Zq8bQ&_nc_ss=7c289&oh=00_Af7Oe5Kxo6XxYgVNDxRO7wpcZ96ZIHt1JSTXk6Kcy9q2YA&oe=6A1B5672",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/639353754_1225524919774301_1133402732431947457_n.jpg?stp=c299.0.1451.1451a_dst-jpg_s851x315_tt6&_nc_cat=106&ccb=1-7&_nc_sid=8a6525&_nc_ohc=OECMJtb4O2YQ7kNvwFWYUCQ&_nc_oc=Adra1hTNzTwz7qoW28QSxBSJm6v8mJWPuwhvIBQ0Kse2ONT0-MqEzsFVyZXhnb5dQAY&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=6gniNTaf6aMU-uT86Zq8bQ&_nc_ss=7c289&oh=00_Af6aCh5gIOeizD0tiLnoGLDxtTNeAfaCIv553wSU9cMM9Q&oe=6A1B7004",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/627970051_1213592880967505_8850670787706011641_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_s851x315_tt6&_nc_cat=107&ccb=1-7&_nc_sid=8a6525&_nc_ohc=3716SfKyTDcQ7kNvwGAGsuP&_nc_oc=AdonZCTkU6YDOTHdRrpBiP7EYWEA_ztpzrd3cMCEmviGiCxOXbdCvxSX2eYJdgnmuXU&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=6gniNTaf6aMU-uT86Zq8bQ&_nc_ss=7c289&oh=00_Af70J9CL-E_aZFY-ma2ryNYlYU-yyJkCK4Q46R1xnKGFdg&oe=6A1B7DC6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/629229079_1213575574302569_4543156374976523174_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_s851x315_tt6&_nc_cat=101&ccb=1-7&_nc_sid=8a6525&_nc_ohc=4ueniyfmcj0Q7kNvwH_Nl1_&_nc_oc=Adollv8zD-hxI6IJmTBQmVspxyIC9-hzRsWtl5uz89m-266bR-wYs_4X88bi4v1UDlo&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=6gniNTaf6aMU-uT86Zq8bQ&_nc_ss=7c289&oh=00_Af5HW08Ie1eP3hgN9xOThzYorW3QaPULCuWi_a-JlGNlNw&oe=6A1B660C"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-29",
@@ -1756,7 +2120,21 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://images.plurk.com/mx_3jC2URYPkiI0YEB5mR4hID.jpg",
+      "https://images.plurk.com/mx_1Tf1ALqL5g1MP5m0dl0dk.jpg",
+      "https://images.plurk.com/mx_22eeTAlShXxDBdAaSSwnov.jpg",
+      "https://images.plurk.com/mx_3fUJR0GKRpJjWg1dQcGgLg.jpg",
+      "https://images.plurk.com/mx_2oUFaoK33aBvRS6EQ1YB4e.jpg",
+      "https://images.plurk.com/mx_2wev4t6aVMysjT48Rug6Ka.jpg"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "plurk",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   },
   {
     "booth_id": "U-30",
@@ -1765,11 +2143,17 @@ window.BOOTHS = [
     "x_handle": "melon2943",
     "x_url": "https://x.com/melon2943",
     "cover_url": "",
-    "body": "- BanG Dream! Ave Mujica\n- 超時空輝耀姬！\n\n**専區**: 綜合\n\n🔗 X: [melon2943](https://x.com/melon2943)",
+    "body": "- BanG Dream! Ave Mujica\n- 超時空輝耀姬！\n\n**専區**: 綜合\n\n🔗 X: [melon2943](https://x.com/melon2943)\n\n## 📝 CH19 出展ハイライト\n5月 百合 Only (CH19) 出展、菟子老師 寄攤 ／ 出すのは **超時空輝耀姫** の本\n- [印量調查](https://x.com/melon2943)",
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "_meta_scrape_sk": {
+      "platform_used": "x",
+      "hand_note": true,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
   },
   {
     "booth_id": "Y-11",
@@ -1782,6 +2166,20 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true
     },
-    "warnings": []
+    "warnings": [],
+    "cover_urls": [
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/526732883_605850779244706_4703623759316140668_n.jpg?stp=dst-jpg_tt6&cstp=mx450x450&ctp=s450x450&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BCjGWfWUvccQ7kNvwHt_q5R&_nc_oc=AdoEB2tuEXbNiUu-zwOSgm8v1YFPWdnyj6905dS8Wdswjcl-VGeeS4i5AVImS424zqA&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=6dOfeeyzwAwyTG4gmiaPPA&_nc_ss=7c289&oh=00_Af5sAHzpWe-rd7DGu9SW0pJOuFJNsKGzcNl2uOsAWOm2EA&oe=6A1B57D6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-1/526732883_605850779244706_4703623759316140668_n.jpg?stp=c0.33.417.417a_cp0_dst-jpg_s80x80_tt6&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=BCjGWfWUvccQ7kNvwHt_q5R&_nc_oc=AdoEB2tuEXbNiUu-zwOSgm8v1YFPWdnyj6905dS8Wdswjcl-VGeeS4i5AVImS424zqA&_nc_zt=24&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=qs2_z9Ou4yTkpOMDqqq2jg&_nc_ss=7c289&oh=00_Af7r7fpyZn20kfsAUPGKSQMv-h-XphOHQozIqctVhd284w&oe=6A1B57D6",
+      "https://scontent.ftpe20-2.fna.fbcdn.net/v/t39.30808-6/686186375_818882191274896_7967419785887994827_n.jpg?stp=cp6_dst-jpg_p960x960_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dWPtcRyhS9UQ7kNvwFl6mc-&_nc_oc=AdoemO4Oati0ckxwSK6eIc3CzzE9v6sXG3tJ0GtJgd8iCIuhfJFsfPEyPsC5PWVWlhE&_nc_zt=23&_nc_ht=scontent.ftpe20-2.fna&_nc_gid=qs2_z9Ou4yTkpOMDqqq2jg&_nc_ss=7c289&oh=00_Af6QEyWDsfEb8Pit5jgAx-_yKq7DgqlQC14W39l3yrB6rw&oe=6A1B4C32",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/689136680_818893904607058_1533796866268593017_n.jpg?stp=cp6_dst-jpg_p960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JJV0BiWkvyAQ7kNvwGW2sQl&_nc_oc=AdqryGWIl8t_S8NWWzz21Zp0-ALq0D8wPYYvNyFMl1Q3GzJAFxLM7DTBnb5KT3NW9nU&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=qs2_z9Ou4yTkpOMDqqq2jg&_nc_ss=7c289&oh=00_Af4hcgldpnGOstZtyWdBV0jnqBtna2eC6pNnqUkAQ54R0A&oe=6A1B4EB6",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/689036461_818893887940393_6063837578982116135_n.jpg?stp=cp6_dst-jpg_p960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=BeIMZPMNh0UQ7kNvwF0Jhj2&_nc_oc=AdqRFbqLpPUBMyDGXTZsF4ldsxVn6cdUV3nbk-wA_EgnqpVZQ0CrSbGcJ5chR6b0Z7k&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=qs2_z9Ou4yTkpOMDqqq2jg&_nc_ss=7c289&oh=00_Af4pJlwJupZc6Ek2KDZfZdssZ1-10gE8Jo2o260aGI6qZw&oe=6A1B5594",
+      "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/689136680_818893904607058_1533796866268593017_n.jpg?stp=c0.169.1536.1536a_cp6_dst-jpg_s851x315_tt6&_nc_cat=100&ccb=1-7&_nc_sid=8a6525&_nc_ohc=JJV0BiWkvyAQ7kNvwGW2sQl&_nc_oc=AdqryGWIl8t_S8NWWzz21Zp0-ALq0D8wPYYvNyFMl1Q3GzJAFxLM7DTBnb5KT3NW9nU&_nc_zt=23&_nc_ht=scontent.ftpe20-1.fna&_nc_gid=Unjv4C_qaWT0-X_ODiNAgA&_nc_ss=7c289&oh=00_Af6sQm5nfYuzOLPQ0ybt_BuUBmXluxpw_sJ_14Sm7NoiYQ&oe=6A1B4EB6"
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": false
+    }
   }
 ];
