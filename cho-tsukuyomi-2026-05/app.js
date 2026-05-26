@@ -678,7 +678,9 @@
   // "Submit" panel generates a GitHub Issue URL prefilled with the diff or
   // copies it to clipboard for distribution via other channels.
   const editMode = (function() {
-    const STATE_KEY = (EVENT.favorites_key || 'event-guide') + '-edit-mode';
+    // Note: STATE_KEY must NOT share the EDITS_PREFIX or listPending() will
+    // count it as a booth edit (the bug that showed "1件" pending immediately).
+    const STATE_KEY = (EVENT.favorites_key || 'event-guide') + '-editmode';
     const EDITS_PREFIX = (EVENT.favorites_key || 'event-guide') + '-edit-';
     const btn = document.getElementById('edit-mode-btn');
     const pendingBtn = document.getElementById('edit-pending-btn');
@@ -825,6 +827,16 @@
       clearAll();
       closePanel();
     });
+
+    // Migration: clean up any stale "<prefix>-edit-mode" key that earlier
+    // builds wrote (the prefix collision bug). Match the legacy STATE_KEY
+    // explicitly so we don't trash a hypothetical real "mode" booth_id edit.
+    const LEGACY_KEY = (EVENT.favorites_key || 'event-guide') + '-edit-mode';
+    if (localStorage.getItem(LEGACY_KEY) !== null) {
+      const v = localStorage.getItem(LEGACY_KEY);
+      // Only delete if it looks like the old toggle state (raw '0'/'1'), not a JSON edit
+      if (v === '0' || v === '1') localStorage.removeItem(LEGACY_KEY);
+    }
 
     // Initialize button state + counter on load
     setMode(enabled);
