@@ -18,7 +18,7 @@
 // next activate (the activate handler deletes any cache whose name doesn't
 // match CACHE_NAME). Increment whenever the shell schema changes in a way
 // that the old cache would obscure (e.g. new map_image field, renamed JS).
-const CACHE_NAME = 'event-cache-v2';
+const CACHE_NAME = 'event-cache-v3';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
@@ -27,10 +27,16 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   // Drop any older caches so previously-offlined users get fresh shell on
   // next visit (otherwise cache-first below would keep serving stale assets).
+  // Then force-navigate any controlled clients to reload — the current page
+  // loaded under the old SW so its app.js + map.jpg are still stale; only
+  // a navigation makes the new SW actually serve them. Without this, users
+  // are stuck until they manually hard-refresh.
   event.waitUntil((async () => {
     const keys = await caches.keys();
     await Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)));
     await self.clients.claim();
+    const clients = await self.clients.matchAll({ type: 'window' });
+    clients.forEach((c) => { try { c.navigate(c.url); } catch (e) {} });
   })());
 });
 

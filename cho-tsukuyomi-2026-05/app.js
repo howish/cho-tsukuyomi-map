@@ -73,7 +73,15 @@
     const mapSection = document.querySelector('.map-section');
     if (EVENT.map_image) {
       const m = document.getElementById('venue-map');
-      if (m) m.src = EVENT.map_image;
+      if (m) {
+        m.src = EVENT.map_image;
+        // Escape hatch: if the map fails to load AND a SW is controlling
+        // this page, it's almost always because the SW (or its predecessor)
+        // cached a 404 from a previous deploy window. Hard-reset by
+        // unregistering all SWs + dropping all caches + reloading once.
+        // sessionStorage guard prevents infinite reload.
+        m.addEventListener('error', () => doMapStuckHardReset(), { once: true });
+      }
     } else if (mapSection) {
       // No map image configured — hide the section entirely so we don't
       // 404 on the default map.jpg src.
@@ -123,6 +131,25 @@
   function setMeta(prop, content) {
     let m = document.querySelector(`meta[property="${prop}"]`) || document.querySelector(`meta[name="${prop}"]`);
     if (m && content) m.setAttribute('content', content);
+  }
+
+  // Emergency reset for the "SW cached a 404 and won't let go" case.
+  // Triggered when venue-map img fires `error`. Only runs once per session.
+  function doMapStuckHardReset() {
+    if (sessionStorage.getItem('sw-hard-reset') === '1') return;
+    sessionStorage.setItem('sw-hard-reset', '1');
+    const cleanup = [];
+    if ('serviceWorker' in navigator) {
+      cleanup.push(navigator.serviceWorker.getRegistrations()
+        .then(regs => Promise.all(regs.map(r => r.unregister())))
+        .catch(() => {}));
+    }
+    if (window.caches) {
+      cleanup.push(caches.keys()
+        .then(keys => Promise.all(keys.map(k => caches.delete(k))))
+        .catch(() => {}));
+    }
+    Promise.all(cleanup).then(() => location.reload());
   }
 
   // Apply T() to static UI elements baked into index.html (button text, aria,
