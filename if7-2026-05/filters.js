@@ -10,14 +10,46 @@
  */
 window.FILTERS_CONFIG = {
   cps: [
-    // populate after circle list publishes
-    // example:
-    // { code: "fandom-pair", label: "圈名 × 配對", icon: "🌸", title: "...", pattern: "..." },
+    {
+      code: "iroyachi",
+      label: "八千代×彩葉",
+      icon: "🐙×🦊",
+      title: "八千代 (ヤチヨ) × 彩葉 (いろは)、順序不問",
+      pattern: "八千代彩葉|彩葉八千代|輝耀八千代彩葉|ヤチいろ|いろヤチ",
+    },
+    {
+      code: "iroka",
+      label: "輝耀×彩葉",
+      icon: "🐰×🦊",
+      title: "輝耀姬 (かぐや) × 彩葉 (いろは)、順序不問",
+      pattern: "輝耀彩葉|彩葉輝耀|輝夜彩葉|彩葉輝夜|いろかぐ|かぐいろ",
+    },
+    {
+      code: "trio-sk",
+      label: "三人行",
+      icon: "🌟",
+      title: "三人行 (輝耀×八千代×彩葉)",
+      pattern: "三人行|輝耀姬八千代彩葉|彩いろろか|ヤチかぐいろ|いろかぐヤチ",
+    },
   ],
 
   trio_pattern: null,
 
   tags: [
+    {
+      code: "super-kaguya",
+      label: "超時空輝耀姬",
+      icon: "🌙",
+      title: "超時空輝耀姬 (= 超かぐや姫) 関連 — Netflix『超かぐや姫！』二次創作",
+      pattern: "超時空輝耀姬|超時空輝夜姬|超時空輝耀姫|超時空輝夜姫|超かぐや姫|輝耀姬|輝夜姬|輝耀姫|輝夜姫|彩葉|八千代|ヤチヨ|かぐや|いろは",
+    },
+    {
+      code: "yuri-zone",
+      label: "百合専區",
+      icon: "🌸",
+      title: "「いつか一緒に輝いて」CH19 百合 Only 専區 (S列) booth",
+      pattern: "(?!.*)",
+    },
     {
       code: "r18",
       label: "R-18",

@@ -28,13 +28,13 @@ window.EVENT_CONFIG = {
   official_url: "https://ch.gjs.tw/",
   official_label: "Comic Horizon 19 官網 (GJ工作室)",
 
-  // Map TBA — placeholder until CH19 / IF7 publishes the venue map.
-  // Empty string keeps the map section hidden (handled by app.js).
-  map_image: "",
-  map_caption: "",
+  // Venue map — full IF7 2026/05/30 official map, resized to ≤2000px.
+  map_image: "map.jpg",
+  map_caption: "© IF7 official 場館配置圖 (GJ工作室)",
 
-  // Booth row prefixes — tentative until circle list publishes.
-  rows: ["A"],
+  // Booth row prefixes — only the rows we actually populate (yuri S列 +
+  // 超かぐや姫 dispersed across J/T/U/Y).
+  rows: ["S", "J", "T", "U", "Y"],
 
   // OG / Twitter share preview
   og_image: "og.png",
