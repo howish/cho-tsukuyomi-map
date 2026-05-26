@@ -1217,7 +1217,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/sakuracoffee",
     "cover_url": "",
-    "body": "- Avemujica\n- MyGO!!!!!\n- 秘密的偶像公主\n\n**専區**: 百合\n\n🔗 doujin.com.tw: [https://www.doujin.com.tw/authors/info/sakuracoffee](https://www.doujin.com.tw/authors/info/sakuracoffee)",
+    "body": "",
     "tags": {
       "yuri-zone": true
     },
@@ -1850,7 +1850,7 @@ window.BOOTHS = [
     "x_handle": "rissole715",
     "x_url": "https://x.com/rissole715?s=21",
     "cover_url": "",
-    "body": "- ave mujica\n- 超時空輝耀姬\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [rissole715](https://x.com/rissole715?s=21)\n\n## ✨ CH19 出展 signal (作家の最新 post 由)\n> RT @Mochian0819: #創集繪 #AveMujica #初祥 #輝耀姬 #超かぐや姫 哈囉各位！我是陌千，品書來了！一年一度的創集繪就在下禮拜啦！ 這場5/30在花博爭豔館的同人展是我的出刊一周年，看看我的品書，我的本子直接暴增到六本(好誇張)🥹 這次人在U21……\n[source](https://x.com/i/status/2059229808400511323)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 最終宣傳~本周5/30將在【創集繪】攤位 T37有出攤~\n新刊超時空輝耀姬漫畫本及藍老師的小說本\n另有初祥小說本新刊及初祥漫畫既刊!!\n另外向波老師的海希本也由我代售了~詳情請看圖及樓下內容~~希望有興趣能來看看~\n\n#創集繪  #初祥 #ういさき #輝耀姬 #超かぐや姫 https://t.co/d6tGp66H73\n\n— [@rissole715](https://x.com/i/status/2059287434211606542) (廃小R (5/30創集繪T37))\n\n- ave mujica\n- 超時空輝耀姬\n\n**専區**: 百合\n**連攤**: ╗\n\n🔗 X: [rissole715](https://x.com/rissole715?s=21)\n\n## ✨ CH19 出展 signal (作家の最新 post 由)\n> RT @Mochian0819: #創集繪 #AveMujica #初祥 #輝耀姬 #超かぐや姫 哈囉各位！我是陌千，品書來了！一年一度的創集繪就在下禮拜啦！ 這場5/30在花博爭豔館的同人展是我的出刊一周年，看看我的品書，我的本子直接暴增到六本(好誇張)🥹 這次人在U21……\n[source](https://x.com/i/status/2059229808400511323)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -1858,6 +1858,7 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-006227410F.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-37/x-0.jpg",
       "https://pbs.twimg.com/media/HJNpjPgbYAA4EiG.jpg",
       "https://pbs.twimg.com/media/HJL1KzYbQAAXlOd.png",
       "https://pbs.twimg.com/amplify_video_thumb/2058867736017874944/img/dV05R88QgNcDBJ4X.jpg",
