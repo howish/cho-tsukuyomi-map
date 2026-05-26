@@ -155,6 +155,16 @@ GitHub Pages / Cloudflare Pages が自動で再ビルド → 公開反映。
 - 各サークルの評価は閲覧者・参加者が直接 X 投稿 / お品書き / 当日の作品を見て判断するのが本筋
 - フォーク / 追加時もこの中立性維持を推奨
 
+### 編集ガイドライン
+
+各 booth の body markdown を書くときの統一基準は **[EDITORIAL_GUIDELINES.md](EDITORIAL_GUIDELINES.md)** にまとめてあります。
+別イベントを追加するときも同じガイドラインを継承してください (event-agnostic、新 event でも reuse 可能)。
+
+主な要点:
+- 残す: タイトル / フォーマット / 一行 description / 通販・委託 URL / 完売タイムライン / 次回参加
+- 切る: 表紙ビジュアル描写 / editorializing / 推測解釈 / メタ annotation / character glossary / 自虐 quote / stats / 空 preamble
+- 出典 link 必須: 「これどこ情報？」と読者が思わない transparency UX を目指す
+
 ---
 
 ## デプロイ
