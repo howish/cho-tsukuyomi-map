@@ -2009,7 +2009,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/Irene309w/",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post (cross-author Plurk)\n> 創集繪百合專區T43、T44\n\n\n \n\n\n沒在圖上的既刊要碰運氣\n其實是看我拿不拿得動\n\n基本上除新刊外都是少量，\n合本扣除預購現場也剩不多，\n再請各位注意\n\n### 🌙 超かぐや姫 (=超時空輝耀姬) 新刊\n> 2026創集繪新刊《待月之隙》印量調查\n\n\n超かぐや姫！同人小說 印量調查\n\n預計字數：2萬字至2萬5千字\n\n試閱\n彩葉<->八千代｜觸摸練習\n\n— [@Irene309 Plurk](https://www.plurk.com/Irene309) (九夏 / 合誌主催)\n\n- 超時空輝耀姬！\n- BanG Dream!\n- 原創-原創百合合本Vol.3\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 Facebook: [https://www.facebook.com/Irene309w/](https://www.facebook.com/Irene309w/)",
+    "body": "## 📝 作家お品書き / まとめ post (cross-author Plurk) — [出典 post](https://www.plurk.com/p/3ipiymms0h)\n> 創集繪百合專區T43、T44\n\n\n \n\n\n沒在圖上的既刊要碰運氣\n其實是看我拿不拿得動\n\n基本上除新刊外都是少量，\n合本扣除預購現場也剩不多，\n再請各位注意\n\n### 🌙 超かぐや姫 (=超時空輝耀姬) 新刊\n> 2026創集繪新刊《待月之隙》印量調查\n\n\n超かぐや姫！同人小說 印量調查\n\n預計字數：2萬字至2萬5千字\n\n試閱\n彩葉<->八千代｜觸摸練習\n\n— [@Irene309 Plurk](https://www.plurk.com/Irene309) (九夏 / 合誌主催)\n\n- 超時空輝耀姬！\n- BanG Dream!\n- 原創-原創百合合本Vol.3\n\n**専區**: 百合\n**連攤**: ╝\n\n🔗 Facebook: [https://www.facebook.com/Irene309w/](https://www.facebook.com/Irene309w/)",
     "tags": {
       "original": true,
       "goudou": true,
