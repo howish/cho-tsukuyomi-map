@@ -868,6 +868,22 @@
   // clear the overlay; pass a list of booth_ids to draw rects for any
   // that have coords defined. Booths without coords are silently
   // skipped — no log spam, no broken UI.
+  //
+  // Multi-cell booths (e.g. "S-05/06", "T-19/20") physically occupy two
+  // adjacent grid cells; coord-tool emits per-cell entries so we look
+  // up each component separately and union the rects into one combined
+  // highlight. Falls back to a single lookup if the booth_id isn't
+  // multi-cell-shaped.
+  function coordsForBooth(id, coords) {
+    if (coords[id]) return [coords[id]];
+    // "S-05/06" → ["S-05", "S-06"]; "T-07/08" → ["T-07", "T-08"]
+    const m = id.match(/^([A-Z])-(\d+)\/(\d+)$/);
+    if (!m) return [];
+    const [, row, a, b] = m;
+    const pad = (n) => String(n).padStart(2, '0');
+    return [coords[row + '-' + pad(a)], coords[row + '-' + pad(b)]].filter(Boolean);
+  }
+
   function updateMapOverlay(boothIds) {
     const svg = document.getElementById('venue-map-overlay');
     if (!svg) return;
@@ -876,13 +892,19 @@
     const coords = window.BOOTH_COORDS || {};
     const ns = 'http://www.w3.org/2000/svg';
     boothIds.forEach(id => {
-      const c = coords[id];
-      if (!c) return;
+      const parts = coordsForBooth(id, coords);
+      if (!parts.length) return;
+      // For multi-cell, render as one bounding rect so it reads as a
+      // single highlight rather than two separate cells.
+      const xMin = Math.min(...parts.map(p => p.x));
+      const yMin = Math.min(...parts.map(p => p.y));
+      const xMax = Math.max(...parts.map(p => p.x + p.w));
+      const yMax = Math.max(...parts.map(p => p.y + p.h));
       const rect = document.createElementNS(ns, 'rect');
-      rect.setAttribute('x', c.x);
-      rect.setAttribute('y', c.y);
-      rect.setAttribute('width', c.w);
-      rect.setAttribute('height', c.h);
+      rect.setAttribute('x', xMin);
+      rect.setAttribute('y', yMin);
+      rect.setAttribute('width', xMax - xMin);
+      rect.setAttribute('height', yMax - yMin);
       rect.setAttribute('class', 'match');
       rect.setAttribute('data-booth-id', id);
       svg.appendChild(rect);
