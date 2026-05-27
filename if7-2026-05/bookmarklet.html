@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booth Image Bookmarklet — cho-tsukuyomi-map</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #2a2a2a; background: #faf7f2; }
+    h1 { margin-bottom: 0.5rem; }
+    h2 { margin-top: 2rem; border-bottom: 1px solid #d8d0c2; padding-bottom: 0.3rem; }
+    .drop { display: inline-block; padding: 0.7rem 1.1rem; background: #ffd84a; border: 2px solid #c47b00; border-radius: 8px; color: #2a2a2a; text-decoration: none; font-weight: 700; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .drop:hover { background: #f0c93f; }
+    .step { background: #fff; border: 1px solid #d8d0c2; border-radius: 8px; padding: 0.8rem 1rem; margin: 0.6rem 0; }
+    code { background: #efe9dd; padding: 0.1rem 0.35rem; border-radius: 3px; font-size: 0.92em; }
+    pre { background: #2a2a2a; color: #f0e8d8; padding: 0.7rem; border-radius: 6px; overflow-x: auto; font-size: 0.78rem; }
+    .platforms { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.5rem; }
+    .platforms span { background: #efe9dd; padding: 0.2rem 0.55rem; border-radius: 4px; font-size: 0.85rem; }
+    .warn { background: #fff7d6; border: 1px solid #c47b00; border-radius: 6px; padding: 0.6rem 0.8rem; margin: 0.6rem 0; font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+
+<h1>🔖 Booth Image Bookmarklet</h1>
+<p>1-click image extractor for FB / Threads / Plurk / X / Bluesky posts. Runs in your <b>logged-in browser</b>, so it sees what you see — bypasses the limited-render that the scrape pipeline hits for friends-only / low-engagement posts.</p>
+
+<h2>1. Drag this to your bookmarks bar</h2>
+<p>
+  <a class="drop" id="bm-link" href="#">📸 Grab Booth Imgs</a>
+</p>
+<p class="warn">Mobile: tap-and-hold the link → <i>add to bookmarks</i> → edit the bookmark → strip the leading <code>https://yachi8000.app/...</code> wrapper if the browser added one. Desktop: just drag to the bookmark bar.</p>
+
+<h2>2. Usage</h2>
+<div class="step">
+  <b>(a)</b> Open the post you want to feed (FB share / Threads / Plurk / X status / Bluesky post).<br>
+  <b>(b)</b> Click the <b>📸 Grab Booth Imgs</b> bookmarklet.<br>
+  <b>(c)</b> A modal pops up with the images it found + author/text/source URL. Press <b>Copy</b>.<br>
+  <b>(d)</b> Paste the JSON into a new GitHub Issue (or future "/import" panel) — Yachiyo's pipeline downloads + R2-uploads.
+</div>
+
+<h2>Supported platforms</h2>
+<div class="platforms">
+  <span>facebook.com</span>
+  <span>threads.com / .net</span>
+  <span>plurk.com</span>
+  <span>x.com / twitter.com</span>
+  <span>bsky.app</span>
+</div>
+
+<h2>Output format</h2>
+<pre>{
+  "platform": "fb",
+  "source_url": "https://www.facebook.com/yishi89/posts/pfbid02PkNo...",
+  "author": "yishi89",
+  "text": "【05/30 創集繪-百合ONLY T15 品書】...",
+  "images": [
+    "https://scontent.ftpe20-1.fna.fbcdn.net/v/t39.30808-6/.../705968441_.jpg",
+    ...
+  ]
+}</pre>
+
+<p>Yachiyo can paste this directly into the apply pipeline — no scraper involvement needed for image discovery. The CDN URLs are signed but publicly downloadable for weeks, so the apply runner can pull them anonymously.</p>
+
+<h2>What it does (TL;DR)</h2>
+<ul>
+  <li><b>FB</b>: scoops every <code>scontent.fbcdn.net/v/t39.30808-6/</code> image bigger than 300x300px (skips comment avatars + tiny thumbs), sorts by area</li>
+  <li><b>Threads</b>: <code>instagram.fna.fbcdn.net</code> carousel images, prefers <code>t51.82787-15</code> (post media) over <code>t51.82787-19</code> (profile pics)</li>
+  <li><b>Plurk</b>: <code>images.plurk.com/&lt;hash&gt;.jpg</code> sans <code>mx_</code> thumbnails</li>
+  <li><b>X</b>: <code>pbs.twimg.com/media/</code> upgraded to <code>?name=orig</code></li>
+  <li><b>Bluesky</b>: <code>cdn.bsky.app/img/feed_fullsize/</code> only (skips avatars + quote-card thumbs)</li>
+</ul>
+
+<script>
+// The actual bookmarklet body — single self-contained IIFE. Kept here as
+// a string so we can both display the source (for review) and url-encode
+// it into the drag-link below.
+const BOOKMARKLET_SRC = `(function(){
+const url = location.href;
+let platform=null, author=null, text='', images=[];
+const uniq = a => [...new Set(a)];
+const byArea = (a,b) => (b.w*b.h) - (a.w*a.h);
+const collect = (filter) => {
+  const out = [];
+  document.querySelectorAll('img').forEach(img => {
+    const s = img.src || '';
+    if (!filter(s)) return;
+    const w = img.naturalWidth || img.width || 0;
+    const h = img.naturalHeight || img.height || 0;
+    out.push({u: s, w, h});
+  });
+  return out;
+};
+if (/facebook\\.com/.test(url)) {
+  platform = 'fb';
+  const m = url.match(/facebook\\.com\\/([^/]+)\\/(?:posts|videos)/) || url.match(/facebook\\.com\\/([^/?]+)/);
+  if (m) author = m[1];
+  text = (document.querySelector('[role="article"]')?.innerText || '').slice(0, 600);
+  let imgs = collect(s => /scontent.*fbcdn.*t39\\.30808-6/.test(s));
+  imgs = imgs.filter(x => x.w * x.h >= 90000).sort(byArea);
+  images = uniq(imgs.map(x => x.u));
+} else if (/threads\\.(com|net)/.test(url)) {
+  platform = 'threads';
+  const m = url.match(/@([^/]+)\\/post/);
+  if (m) author = m[1];
+  text = (document.querySelector('[data-pressable-container]')?.innerText || document.body.innerText.slice(0, 600));
+  let imgs = collect(s => /instagram.*fbcdn.*t51\\.82787-15/.test(s));
+  imgs = imgs.filter(x => x.w * x.h >= 40000).sort(byArea);
+  images = uniq(imgs.map(x => x.u));
+} else if (/plurk\\.com/.test(url)) {
+  platform = 'plurk';
+  text = (document.querySelector('.plurk_content')?.innerText || document.body.innerText.slice(0, 400));
+  let imgs = collect(s => /images\\.plurk\\.com/.test(s) && !/\\/mx_/.test(s));
+  images = uniq(imgs.map(x => x.u));
+} else if (/(x|twitter)\\.com/.test(url)) {
+  platform = 'x';
+  const m = url.match(/(?:x|twitter)\\.com\\/([^/]+)/);
+  if (m) author = m[1];
+  text = (document.querySelector('[data-testid="tweetText"]')?.innerText || '').slice(0, 600);
+  let imgs = collect(s => /pbs\\.twimg\\.com\\/media\\//.test(s));
+  images = uniq(imgs.map(x => x.u.replace(/[?&]name=[^&]+/, ''))).map(u => u + (u.includes('?')?'&':'?') + 'name=orig');
+} else if (/bsky\\.app/.test(url)) {
+  platform = 'bsky';
+  const m = url.match(/profile\\/([^/]+)/);
+  if (m) author = m[1];
+  text = (document.querySelector('[data-testid="postText"]')?.innerText || '').slice(0, 600);
+  let imgs = collect(s => /cdn\\.bsky\\.app.*\\/img\\/feed_(fullsize|thumbnail)/.test(s));
+  images = uniq(imgs.map(x => x.u.replace('/feed_thumbnail/', '/feed_fullsize/')));
+} else {
+  alert('対応プラットフォーム外: facebook / threads / plurk / x / bsky のみ');
+  return;
+}
+const payload = { platform, source_url: url, author, text: text.trim(), images };
+const json = JSON.stringify(payload, null, 2);
+const modal = document.createElement('div');
+modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:2147483647;display:flex;align-items:center;justify-content:center;padding:1rem;font-family:-apple-system,sans-serif;';
+const inner = document.createElement('div');
+inner.style.cssText = 'background:#fff;border-radius:10px;max-width:640px;width:100%;max-height:85vh;overflow:auto;padding:1.1rem;color:#222;';
+inner.innerHTML = '<h3 style="margin:0 0 0.5rem">📸 ' + platform + ' — ' + images.length + ' image(s)</h3>' +
+  '<p style="margin:0 0 0.5rem;font-size:0.85rem;color:#666">author: <b>' + (author||'?') + '</b></p>' +
+  '<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem">' +
+    images.slice(0,12).map(u => '<img src="' + u + '" style="height:80px;border:1px solid #ccc;border-radius:4px">').join('') +
+  '</div>' +
+  '<textarea readonly style="width:100%;height:14rem;font-family:ui-monospace,monospace;font-size:0.72rem;padding:0.4rem;border:1px solid #ccc;border-radius:4px;background:#fafaf6">' + json.replace(/</g,'&lt;') + '</textarea>' +
+  '<div style="margin-top:0.5rem;display:flex;gap:0.5rem">' +
+    '<button id="_bmcp" style="padding:0.5rem 1rem;background:#ffd84a;border:1px solid #c47b00;border-radius:5px;cursor:pointer;font-weight:600">📋 Copy JSON</button>' +
+    '<button id="_bmcl" style="padding:0.5rem 1rem;background:#eee;border:1px solid #999;border-radius:5px;cursor:pointer">Close</button>' +
+  '</div>';
+modal.appendChild(inner);
+document.body.appendChild(modal);
+inner.querySelector('#_bmcp').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(json); inner.querySelector('#_bmcp').textContent = '✓ Copied'; }
+  catch(e) { inner.querySelector('textarea').select(); document.execCommand('copy'); inner.querySelector('#_bmcp').textContent = '✓ Copied (fallback)'; }
+});
+inner.querySelector('#_bmcl').addEventListener('click', () => modal.remove());
+modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+})();`;
+
+document.getElementById('bm-link').href = 'javascript:' + encodeURIComponent(BOOKMARKLET_SRC);
+
+// Also display source for inspection
+const srcView = document.createElement('details');
+srcView.style.marginTop = '1rem';
+srcView.innerHTML = '<summary style="cursor:pointer;font-size:0.9rem;color:#666">View bookmarklet source</summary><pre style="font-size:0.7rem">' + BOOKMARKLET_SRC.replace(/</g, '&lt;') + '</pre>';
+document.body.appendChild(srcView);
+</script>
+
+</body>
+</html>
