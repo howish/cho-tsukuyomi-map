@@ -19,9 +19,24 @@
     .layout { display: grid; grid-template-columns: 360px 1fr; height: 100vh; }
     .sidebar { background: var(--panel); border-right: 1px solid var(--border); padding: 1rem; overflow-y: auto; }
     .map-wrap { position: relative; overflow: auto; background: #2a2a2a; padding: 1rem; }
-    .map-inner { position: relative; display: inline-block; }
-    .map-inner img { display: block; max-width: 100%; }
+    .map-inner { position: relative; display: inline-block; width: 100%; transition: width 0.12s; }
+    .map-inner img { display: block; width: 100%; }
     .map-inner svg { position: absolute; inset: 0; width: 100%; height: 100%; cursor: crosshair; }
+    .zoom-toolbar {
+      position: sticky; top: 0;
+      display: flex; gap: 0.4rem; align-items: center;
+      background: rgba(0,0,0,0.7); padding: 0.4rem 0.6rem;
+      border-radius: 6px; margin-bottom: 0.5rem;
+      width: fit-content; color: #fff; font-size: 0.85rem;
+      z-index: 5;
+    }
+    .zoom-toolbar button {
+      background: #fff; border: 1px solid var(--border); border-radius: 4px;
+      width: 2rem; height: 2rem; cursor: pointer; font-weight: 600; font-size: 1.05rem;
+      padding: 0;
+    }
+    .zoom-toolbar .zoom-display { min-width: 3.5rem; text-align: center; font-variant-numeric: tabular-nums; }
+    .zoom-toolbar .hint { font-size: 0.72rem; opacity: 0.75; margin-left: 0.4rem; }
     h2 { font-size: 1rem; margin: 0 0 0.5rem; }
     h3 { font-size: 0.85rem; margin: 1rem 0 0.4rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
     label { display: block; font-size: 0.78rem; color: var(--muted); margin: 0.4rem 0 0.15rem; }
@@ -87,8 +102,15 @@
     <textarea id="json-out" style="margin-top:0.5rem;" readonly></textarea>
   </aside>
 
-  <div class="map-wrap">
-    <div class="map-inner">
+  <div class="map-wrap" id="map-wrap">
+    <div class="zoom-toolbar">
+      <button type="button" id="zoom-out" title="ズームアウト (Ctrl+Wheel ↓)">−</button>
+      <span class="zoom-display" id="zoom-display">100%</span>
+      <button type="button" id="zoom-in" title="ズームイン (Ctrl+Wheel ↑)">+</button>
+      <button type="button" id="zoom-fit" title="幅にフィット">⤢</button>
+      <span class="hint">Ctrl + ホイールでもズーム</span>
+    </div>
+    <div class="map-inner" id="map-inner">
       <img id="map-img" src="map.jpg" alt="map">
       <svg id="overlay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
     </div>
@@ -334,6 +356,47 @@ document.getElementById('reset').addEventListener('click', () => {
 
 function pad(n) { return String(n).padStart(2, '0'); }
 function round(v) { return Math.round(v * 100) / 100; }
+
+// === Zoom ===
+// .map-inner has width: <zoom * 100>% so the image (width:100% of its
+// parent) and the SVG overlay (inset:0) both scale together. The
+// surrounding .map-wrap has overflow:auto so scroll bars appear when
+// zoomed in. Click→viewBox coord math is unaffected: we already
+// divide by overlay.getBoundingClientRect().width which already
+// reflects the scaled width.
+let zoom = 1;
+const mapInner = document.getElementById('map-inner');
+const mapWrap = document.getElementById('map-wrap');
+const zoomDisplay = document.getElementById('zoom-display');
+
+function setZoom(z, anchor) {
+  const prev = zoom;
+  zoom = Math.max(0.25, Math.min(8, z));
+  mapInner.style.width = (zoom * 100) + '%';
+  zoomDisplay.textContent = Math.round(zoom * 100) + '%';
+  // If anchor (page coords) provided, scroll so that the same image point
+  // stays under the cursor — natural zoom-at-cursor feel.
+  if (anchor && prev !== zoom) {
+    const wrapRect = mapWrap.getBoundingClientRect();
+    const cursorOffsetX = anchor.x - wrapRect.left + mapWrap.scrollLeft;
+    const cursorOffsetY = anchor.y - wrapRect.top + mapWrap.scrollTop;
+    const ratio = zoom / prev;
+    mapWrap.scrollLeft = cursorOffsetX * ratio - (anchor.x - wrapRect.left);
+    mapWrap.scrollTop = cursorOffsetY * ratio - (anchor.y - wrapRect.top);
+  }
+}
+
+document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.4));
+document.getElementById('zoom-out').addEventListener('click', () => setZoom(zoom / 1.4));
+document.getElementById('zoom-fit').addEventListener('click', () => { setZoom(1); mapWrap.scrollTo(0, 0); });
+
+// Ctrl/Cmd + wheel → zoom at cursor. Plain wheel is normal scroll.
+mapWrap.addEventListener('wheel', (e) => {
+  if (!e.ctrlKey && !e.metaKey) return;
+  e.preventDefault();
+  const factor = e.deltaY < 0 ? 1.18 : 1 / 1.18;
+  setZoom(zoom * factor, { x: e.clientX, y: e.clientY });
+}, { passive: false });
 
 init();
 </script>
