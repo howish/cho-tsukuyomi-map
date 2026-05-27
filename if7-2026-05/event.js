@@ -39,7 +39,9 @@ window.EVENT_CONFIG = {
   // Tag / CP filter codes to apply by default on first load (empty / unset
   // = no default, all booths shown). Used here so a fan landing for
   // 超かぐや姫 sees only the 超時空輝耀姬 picks until they untoggle.
-  default_filters: ["super-kaguya"],
+  // NB: must include the "tag:" / "cp:" prefix that filter buttons use
+  // (see app.js buildFilterButtons).
+  default_filters: ["tag:super-kaguya"],
 
   // OG / Twitter share preview
   og_image: "og.png",
