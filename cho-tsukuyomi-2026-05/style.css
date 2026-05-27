@@ -727,6 +727,18 @@ section {
   .cover-img { max-height: 90vh; }
 }
 
+.edit-images-textarea {
+  width: 100%;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.78rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  resize: vertical;
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
 .modal-close {
   /* Sibling of modal-content (NOT inside it), positioned relative to the
      fixed .modal — stays fixed at top-right regardless of inner scroll. */

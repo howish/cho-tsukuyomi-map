@@ -557,9 +557,14 @@
 
     const bodyDiv = el('div', { class: 'modal-body-md' });
     if (editMode && editMode.isEnabled) {
-      // Render as editable textarea in edit mode
+      // Render as editable textareas in edit mode.
+      // setPending merges so editing body doesn't wipe cover_urls and vice versa.
       const pending = editMode.getPending(b.booth_id);
       const currentText = (pending && pending.body !== undefined) ? pending.body : (b.body || '');
+      const currentImgs = (pending && pending.cover_urls !== undefined)
+        ? pending.cover_urls : (b.cover_urls || (b.cover_url ? [b.cover_url] : []));
+
+      // --- Body editor ---
       const editLabel = el('div', { class: 'edit-mode-banner' }, T('edit_mode_banner'));
       bodyDiv.appendChild(editLabel);
       const ta = el('textarea', { class: 'edit-body-textarea', rows: '14' });
@@ -569,11 +574,16 @@
       const saveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
       saveBtn.addEventListener('click', () => {
         const newBody = ta.value;
+        const existing = editMode.getPending(b.booth_id) || {};
         if (newBody === (b.body || '')) {
-          editMode.clearPending(b.booth_id);
+          delete existing.body; delete existing.original_body;
+          if (existing.cover_urls === undefined) editMode.clearPending(b.booth_id);
+          else editMode.setPending(b.booth_id, existing);
           saveBtn.textContent = T('edit_save_unchanged');
         } else {
-          editMode.setPending(b.booth_id, { body: newBody, original_body: b.body || '' });
+          existing.body = newBody;
+          existing.original_body = b.body || '';
+          editMode.setPending(b.booth_id, existing);
           saveBtn.textContent = T('edit_save_done');
         }
         editMode.refreshCounter();
@@ -582,12 +592,57 @@
       const revertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, T('edit_revert_btn'));
       revertBtn.addEventListener('click', () => {
         ta.value = b.body || '';
-        editMode.clearPending(b.booth_id);
+        const existing = editMode.getPending(b.booth_id) || {};
+        delete existing.body; delete existing.original_body;
+        if (existing.cover_urls === undefined) editMode.clearPending(b.booth_id);
+        else editMode.setPending(b.booth_id, existing);
         editMode.refreshCounter();
       });
       actionRow.appendChild(saveBtn);
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
+
+      // --- Images editor (one URL per line) ---
+      const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
+      bodyDiv.appendChild(imgLabel);
+      const imgTa = el('textarea', {
+        class: 'edit-images-textarea', rows: '6',
+        placeholder: T('edit_images_placeholder'),
+      });
+      imgTa.value = currentImgs.join('\n');
+      bodyDiv.appendChild(imgTa);
+      const imgActionRow = el('div', { class: 'edit-action-row' });
+      const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
+      const origImgs = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).slice();
+      imgSaveBtn.addEventListener('click', () => {
+        const newImgs = imgTa.value.split('\n').map(s => s.trim()).filter(Boolean);
+        const existing = editMode.getPending(b.booth_id) || {};
+        if (JSON.stringify(newImgs) === JSON.stringify(origImgs)) {
+          delete existing.cover_urls; delete existing.original_cover_urls;
+          if (existing.body === undefined) editMode.clearPending(b.booth_id);
+          else editMode.setPending(b.booth_id, existing);
+          imgSaveBtn.textContent = T('edit_save_unchanged');
+        } else {
+          existing.cover_urls = newImgs;
+          existing.original_cover_urls = origImgs;
+          editMode.setPending(b.booth_id, existing);
+          imgSaveBtn.textContent = T('edit_save_done');
+        }
+        editMode.refreshCounter();
+        setTimeout(() => { imgSaveBtn.textContent = T('edit_save_btn'); }, 1800);
+      });
+      const imgRevertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, T('edit_revert_btn'));
+      imgRevertBtn.addEventListener('click', () => {
+        imgTa.value = origImgs.join('\n');
+        const existing = editMode.getPending(b.booth_id) || {};
+        delete existing.cover_urls; delete existing.original_cover_urls;
+        if (existing.body === undefined) editMode.clearPending(b.booth_id);
+        else editMode.setPending(b.booth_id, existing);
+        editMode.refreshCounter();
+      });
+      imgActionRow.appendChild(imgSaveBtn);
+      imgActionRow.appendChild(imgRevertBtn);
+      bodyDiv.appendChild(imgActionRow);
     } else {
       bodyDiv.innerHTML = mdToHtml(b.body || '');
     }
@@ -899,6 +954,18 @@
           lines.push('### ' + T('edit_submission_body_after'));
           lines.push('```markdown');
           lines.push(it.edit.body || '');
+          lines.push('```');
+          lines.push('');
+        }
+        if (it.edit.cover_urls !== undefined) {
+          lines.push('### ' + T('edit_submission_images_before'));
+          lines.push('```');
+          (it.edit.original_cover_urls || []).forEach(u => lines.push(u));
+          lines.push('```');
+          lines.push('');
+          lines.push('### ' + T('edit_submission_images_after'));
+          lines.push('```');
+          (it.edit.cover_urls || []).forEach(u => lines.push(u));
           lines.push('```');
           lines.push('');
         }
