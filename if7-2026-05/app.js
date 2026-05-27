@@ -567,14 +567,22 @@
       // setPending merges so editing body doesn't wipe cover_urls and vice versa.
       const pending = editMode.getPending(b.booth_id);
       const currentText = (pending && pending.body !== undefined) ? pending.body : (b.body || '');
-      // Editor works on source_url strings (one per line). Convert each
-      // photo object → its source_url. Pending edits store the same shape
-      // as data.js cover_urls, so we map either form down to a string list.
-      const normalizeToSource = (arr) => (arr || []).map(p =>
-        typeof p === 'string' ? p : (p.source_url || p.display_url || ''));
-      const currentImgSources = (pending && pending.cover_urls !== undefined)
-        ? normalizeToSource(pending.cover_urls)
-        : normalizeToSource(b.cover_urls || (b.cover_url ? [b.cover_url] : []));
+      // Editor: twin textarea (source | display, line-aligned). Each cover
+      // is normalized to {source_url, display_url, display_locked} so we
+      // can drive both columns + the lock state from one shape.
+      // Blank display line = auto (pipeline fills); typed display = locked.
+      const normalizeCover = (p) => typeof p === 'string'
+        ? { source_url: p, display_url: p, display_locked: false }
+        : { source_url: p.source_url || p.display_url || '',
+            display_url: p.display_url || null,
+            display_locked: !!p.display_locked };
+      const currentCovers = (pending && pending.cover_urls !== undefined)
+        ? pending.cover_urls.map(normalizeCover)
+        : (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
+      // Right column shows display_url ONLY for locked rows (auto stays
+      // blank so user sees at a glance which are custom vs auto).
+      const currentSources = currentCovers.map(p => p.source_url);
+      const currentDisplays = currentCovers.map(p => p.display_locked ? (p.display_url || '') : '');
 
       // --- Body editor ---
       const editLabel = el('div', { class: 'edit-mode-banner' }, T('edit_mode_banner'));
@@ -614,45 +622,73 @@
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
 
-      // --- Images editor (source_url, one per line) ---
-      // Editor shows source_url strings only (the canonical link the user
-      // pasted). On save, the new entries are wrapped as objects with
-      // source_url set; display_url is preserved per source_url if the
-      // entry was already in the booth (so the existing R2 image survives
-      // re-saves), otherwise left null for the maintainer pipeline.
+      // --- Images editor (twin textarea: source | display) ---
+      // Left = source_url (canonical post link the user pastes).
+      // Right = display_url (line-aligned w/ left).
+      //   - Blank line  → auto: maintainer pipeline derives display from source.
+      //                   If the source line is unchanged, the prior display_url
+      //                   is preserved (so re-saves don't drop R2 images).
+      //                   If the source line is new/changed, display_url is
+      //                   cleared (pipeline regenerates next run).
+      //   - Filled line → locked custom: pipeline never overwrites it.
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
       bodyDiv.appendChild(imgLabel);
-      const imgTa = el('textarea', {
+
+      const origCovers = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
+      const origSources = origCovers.map(p => p.source_url);
+      const origDisplays = origCovers.map(p => p.display_locked ? (p.display_url || '') : '');
+
+      const imgPair = el('div', { class: 'edit-images-pair' });
+      const srcCol = el('div', { class: 'edit-images-col' });
+      srcCol.appendChild(el('label', { class: 'edit-col-label' }, T('edit_source_label')));
+      const srcTa = el('textarea', {
         class: 'edit-images-textarea', rows: '6',
-        placeholder: T('edit_images_placeholder'),
+        placeholder: T('edit_source_placeholder'),
       });
-      imgTa.value = currentImgSources.join('\n');
-      bodyDiv.appendChild(imgTa);
+      srcTa.value = currentSources.join('\n');
+      srcCol.appendChild(srcTa);
+      imgPair.appendChild(srcCol);
+
+      const dispCol = el('div', { class: 'edit-images-col' });
+      dispCol.appendChild(el('label', { class: 'edit-col-label' }, T('edit_display_label')));
+      const dispTa = el('textarea', {
+        class: 'edit-images-textarea', rows: '6',
+        placeholder: T('edit_display_placeholder'),
+      });
+      dispTa.value = currentDisplays.join('\n');
+      dispCol.appendChild(dispTa);
+      imgPair.appendChild(dispCol);
+
+      bodyDiv.appendChild(imgPair);
+
       const imgActionRow = el('div', { class: 'edit-action-row' });
       const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
-      // Original cover objects (normalized): used to look up existing display_url
-      // when the same source_url is kept.
-      const origCovers = (b.cover_urls || (b.cover_url ? [{source_url: b.cover_url, display_url: b.cover_url}] : []))
-        .map(p => typeof p === 'string'
-          ? { source_url: p, display_url: p }
-          : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
-      const origSources = origCovers.map(p => p.source_url);
       imgSaveBtn.addEventListener('click', () => {
-        const newSources = imgTa.value.split('\n').map(s => s.trim()).filter(Boolean);
+        // Read both columns; pad displays to source length so line i aligns.
+        const srcLines = srcTa.value.split('\n').map(s => s.trim());
+        const dispLines = dispTa.value.split('\n').map(s => s.trim());
+        const newCovers = [];
+        for (let i = 0; i < srcLines.length; i++) {
+          const src = srcLines[i];
+          if (!src) continue;
+          const dispInput = (dispLines[i] || '').trim();
+          const prev = origCovers.find(p => p.source_url === src);
+          if (dispInput) {
+            newCovers.push({ source_url: src, display_url: dispInput, display_locked: true });
+          } else if (prev) {
+            // Same source, no display typed → keep prev display (auto).
+            newCovers.push({ source_url: src, display_url: prev.display_url || null, display_locked: false });
+          } else {
+            newCovers.push({ source_url: src, display_url: null, display_locked: false });
+          }
+        }
         const existing = editMode.getPending(b.booth_id) || {};
-        if (JSON.stringify(newSources) === JSON.stringify(origSources)) {
+        if (JSON.stringify(newCovers) === JSON.stringify(origCovers)) {
           delete existing.cover_urls; delete existing.original_cover_urls;
           if (existing.body === undefined) editMode.clearPending(b.booth_id);
           else editMode.setPending(b.booth_id, existing);
           imgSaveBtn.textContent = T('edit_save_unchanged');
         } else {
-          // Build new cover objects, preserving display_url when source_url unchanged
-          const newCovers = newSources.map(src => {
-            const prev = origCovers.find(p => p.source_url === src);
-            return prev
-              ? { source_url: src, display_url: prev.display_url || src }
-              : { source_url: src, display_url: null };  // maintainer fills
-          });
           existing.cover_urls = newCovers;
           existing.original_cover_urls = origCovers;
           editMode.setPending(b.booth_id, existing);
@@ -663,7 +699,8 @@
       });
       const imgRevertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, T('edit_revert_btn'));
       imgRevertBtn.addEventListener('click', () => {
-        imgTa.value = origSources.join('\n');
+        srcTa.value = origSources.join('\n');
+        dispTa.value = origDisplays.join('\n');
         const existing = editMode.getPending(b.booth_id) || {};
         delete existing.cover_urls; delete existing.original_cover_urls;
         if (existing.body === undefined) editMode.clearPending(b.booth_id);
@@ -988,16 +1025,26 @@
           lines.push('');
         }
         if (it.edit.cover_urls !== undefined) {
-          // Emit source_url only — display_url is maintainer-managed (R2 etc).
-          const toSrc = (p) => typeof p === 'string' ? p : (p.source_url || p.display_url || '');
+          // Emit one block per cover. Show source on the first line; if the
+          // display is locked custom, surface it as "display: <url> [locked]".
+          // Blank/auto displays render as "display: (auto)" so the maintainer
+          // knows the pipeline owns that row.
+          const fmtCover = (p) => {
+            if (typeof p === 'string') return [p, '  display: (auto)'];
+            const src = p.source_url || p.display_url || '';
+            if (p.display_locked) {
+              return [src, '  display: ' + (p.display_url || '') + ' [locked]'];
+            }
+            return [src, '  display: (auto)'];
+          };
           lines.push('### ' + T('edit_submission_images_before'));
           lines.push('```');
-          (it.edit.original_cover_urls || []).forEach(u => lines.push(toSrc(u)));
+          (it.edit.original_cover_urls || []).forEach(u => fmtCover(u).forEach(l => lines.push(l)));
           lines.push('```');
           lines.push('');
           lines.push('### ' + T('edit_submission_images_after'));
           lines.push('```');
-          (it.edit.cover_urls || []).forEach(u => lines.push(toSrc(u)));
+          (it.edit.cover_urls || []).forEach(u => fmtCover(u).forEach(l => lines.push(l)));
           lines.push('```');
           lines.push('');
         }
