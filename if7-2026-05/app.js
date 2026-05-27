@@ -371,6 +371,19 @@
 
   function mdToHtml(md) {
     let s = escapeHtml(md);
+    // Block-level transforms first (need raw line-start ^)
+    // Headings — ATX-style, h4 first to avoid #### being matched by ##
+    s = s.replace(/^####\s+(.+)$/gm, '<h5>$1</h5>');
+    s = s.replace(/^###\s+(.+)$/gm, '<h4>$1</h4>');
+    s = s.replace(/^##\s+(.+)$/gm, '<h3>$1</h3>');
+    // Blockquote (single-line, treat each `> ` line independently)
+    s = s.replace(/^&gt;\s+(.+)$/gm, '<blockquote>$1</blockquote>');
+    // Unordered list items — collect consecutive `- ` lines into a single <ul>
+    s = s.replace(/(?:^- .+(?:\n|$))+/gm, (match) => {
+      const items = match.trimEnd().split('\n').map(line => '<li>' + line.replace(/^- /, '') + '</li>').join('');
+      return '<ul>' + items + '</ul>';
+    });
+    // Inline transforms
     s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     s = s.replace(/\[\[(.+?)\]\]/g, '<em>$1</em>');
     // [text](url) markdown links — must run before the bare-URL auto-link below
