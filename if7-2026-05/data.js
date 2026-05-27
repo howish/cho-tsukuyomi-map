@@ -1399,21 +1399,6 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/share/p/1BRxwMuHph/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BRxwMuHph/v2/4.jpg",
         "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1BRxwMuHph/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BRxwMuHph/v2/5.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1BRxwMuHph/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BRxwMuHph/v2/6.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1BRxwMuHph/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BRxwMuHph/v2/7.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
