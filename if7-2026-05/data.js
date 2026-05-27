@@ -892,7 +892,6 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
-    "cover_url": "",
     "body": "## 📝 作家お品書き / まとめ post\n> 攤號都出爐了，來宣傳一下。 \n5月30號創集繪，本油在S3536與人合攤，有新品。\n[出典 post](https://www.plurk.com/p/3ilebtnb56)\n\n\n#緋染天空\n\n\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
     "tags": {
       "yuri-zone": true,
@@ -900,14 +899,7 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      "https://if.gjs.tw/images/pic/IF07-002211699V.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-35_36/0.jpg",
-      "https://images.plurk.com/mx_68b989lkjN1vAuyNhjLe9K.jpg",
-      "https://images.plurk.com/mx_6c6aiCF2q2CWKz3dRPqdaH.jpg",
-      "https://images.plurk.com/mx_7qHDveYGMnfNYe1jwDbIjv.jpg",
-      "https://images.plurk.com/mx_1hGLROikL7TqQEr43k2WKO.jpg",
-      "https://images.plurk.com/mx_D08KnqHnFGedPwZkpRm0o.jpg",
-      "https://images.plurk.com/mx_KaHdRyKz8QoCIyxembDHv.jpg"
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-35_36/0.jpg"
     ],
     "_meta_scrape_sk": {
       "platform_used": "plurk",
