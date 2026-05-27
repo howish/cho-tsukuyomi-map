@@ -347,7 +347,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/renyinaloha",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 【0507】\n\n\n \n \n\n滑壘領小蛋糕！！！順便強制大家看我填OC表格(?)\n-\n 叭叭叭！不放過任何機會順便宣傳——\n05/30IF創集繪將帶著這本 《Bride of the Forest》去擺攤\n",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【0507】\n[出典 post](https://www.plurk.com/p/3htvpaprbz)\n\n\n \n \n\n滑壘領小蛋糕！！！順便強制大家看我填OC表格(?)\n-\n 叭叭叭！不放過任何機會順便宣傳——\n05/30IF創集繪將帶著這本 《Bride of the Forest》去擺攤\n",
     "tags": {
       "original": true,
       "manga": true,
@@ -356,9 +356,9 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-013444296J.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/0.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/1.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/2.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/0.png",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/1.png",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-09/2.png",
       "https://images.plurk.com/mx_21MqY3fJSEaMBZMdKVa8SZ.jpg",
       "https://images.plurk.com/mx_4YaaL49kudI6qlu1EM8BSo.jpg",
       "https://images.plurk.com/mx_5DNjkqnv7cQRQYwwKsXKav.jpg",
@@ -472,7 +472,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/akomari",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> FB跳出五年前的百翁活動照，正好，來跟五年後比較一下www\n",
+    "body": "## 📝 作家お品書き / まとめ post\n> FB跳出五年前的百翁活動照，正好，來跟五年後比較一下www\n\n[出典 post](https://www.plurk.com/p/3huoa95l4k)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -800,7 +800,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/spton",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁】\n場次明信片上傳ibon了 \n\n\n\n\n取件編號\n9312627937\n檔案列印期限\n2025/10/13 上午 01:26:27\n",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁】\n場次明信片上傳ibon了 \n[出典 post](https://www.plurk.com/p/3htmz2wzs2)\n\n\n\n\n取件編號\n9312627937\n檔案列印期限\n2025/10/13 上午 01:26:27\n",
     "tags": {
       "yuri-zone": true
     },
@@ -808,7 +808,7 @@ window.BOOTHS = [
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-014899243B.jpg",
       "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-30/0.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-30/1.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-30/1.png",
       "https://images.plurk.com/mx_F79Ikzo67nh7iW0zqLQOg.jpg",
       "https://images.plurk.com/mx_54CK63adC9HAfSC6q8AzFR.jpg",
       "https://images.plurk.com/mx_7g391JscF10WF32sm6wKj2.jpg"
@@ -853,14 +853,14 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/caramel06",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁／轉噗感謝】依然極限工商  （要不要反省\n新刊依然下落不明（欸），所以（？）這次出周邊ry\n\n\n攤位上會備有Miofa用認親卡，有興趣的可以來領取～\n",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【百翁／轉噗感謝】依然極限工商  （要不要反省\n新刊依然下落不明（欸），所以（？）這次出周邊ry\n[出典 post](https://www.plurk.com/p/3hsq85uojm)\n\n\n攤位上會備有Miofa用認親卡，有興趣的可以來領取～\n",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-014986552D.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-32/0.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-32/0.png",
       "https://images.plurk.com/mx_3sRJpy3RE3JCmuWBtlBa4M.jpg",
       "https://images.plurk.com/mx_6G0giDUfgHO7kVgR2wNEMl.jpg",
       "https://images.plurk.com/mx_6S89Fyy59DYiZqUfyPYfFM.jpg",
@@ -880,15 +880,15 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/r_bish",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 終於可以發創集繪品書囉耶比\n我會跟 yuanrong1999在S33 34\n歡迎來找我玩\nclothk61554 跟 dabadaba0的東西也會少量寄在我這邊\n",
+    "body": "## 📝 作家お品書き / まとめ post\n> 終於可以發創集繪品書囉耶比\n我會跟 yuanrong1999在S33 34\n歡迎來找我玩\nclothk61554 跟 dabadaba0的東西也會少量寄在我這邊\n\n[出典 post](https://www.plurk.com/p/3ipstkx7oh)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [
       "https://if.gjs.tw/images/pic/IF07-006867679X.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/0.jpg",
-      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/1.jpg",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/0.png",
+      "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/1.png",
       "https://images.plurk.com/mx_1Yp4fx4whTiFrVXI4KQjrz.jpg",
       "https://images.plurk.com/mx_39Xqp1hcmgBT0IwddWlvhI.jpg",
       "https://images.plurk.com/mx_6u7lgDMWT0WwkBrzLF7l9k.jpg",
@@ -909,7 +909,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 攤號都出爐了，來宣傳一下。 \n5月30號創集繪，本油在S3536與人合攤，有新品。\n\n\n#緋染天空\n\n\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
+    "body": "## 📝 作家お品書き / まとめ post\n> 攤號都出爐了，來宣傳一下。 \n5月30號創集繪，本油在S3536與人合攤，有新品。\n[出典 post](https://www.plurk.com/p/3ilebtnb56)\n\n\n#緋染天空\n\n\n\n## 📝 CH19 出展ハイライト\n創集繪 新品照公開済、S3536 で 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姫** マルチ fandom",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -1949,7 +1949,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/haneko0216",
     "cover_url": "",
-    "body": "## 📝 作家お品書き / まとめ post\n> 【進度報告】\n\n 總之崩壞3的紺海三角塗鴉本順利完稿了（而且爆到32頁）當天場上確定會有 \n這次是web再錄加筆不過單圖也都會發到推特跟p站上，只印少少的給想要實體的人和自己收藏用 \n\n 另外還有這組徽章會在創集繪上首次販售！\n\n \n 以及雪莉漢娜的徽章組和這組崩鐵的星螢搖尾巴吊飾也多加印了一些！\n\n其他報告下收↓\n\n\n\n## 📝 CH19 出展ハイライト\n**超時空輝耀姫 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、二創公告前下印で限定・加印なし)。崩壊3 紺海三角塗鴉本など 他 fandom 多数も\n- [近況 plurk](https://www.plurk.com/haneko0216)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 【進度報告】\n[出典 post](https://www.plurk.com/p/3ipgxdstqb)\n\n 總之崩壞3的紺海三角塗鴉本順利完稿了（而且爆到32頁）當天場上確定會有 \n這次是web再錄加筆不過單圖也都會發到推特跟p站上，只印少少的給想要實體的人和自己收藏用 \n\n 另外還有這組徽章會在創集繪上首次販售！\n\n \n 以及雪莉漢娜的徽章組和這組崩鐵的星螢搖尾巴吊飾也多加印了一些！\n\n其他報告下收↓\n\n\n\n## 📝 CH19 出展ハイライト\n**超時空輝耀姫 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、二創公告前下印で限定・加印なし)。崩壊3 紺海三角塗鴉本など 他 fandom 多数も\n- [近況 plurk](https://www.plurk.com/haneko0216)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true,
