@@ -2122,8 +2122,8 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/share/p/1BDozpYLzf/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/share-1BDozpYLzf/0.jpg",
+        "source_url": "https://www.facebook.com/yishi89/posts/pfbid02PkNoMr9Q6gZLUnZKfmZjYxhNBKCdP2JD9mGz2vZiaRix4HnLLgbYw7Ma8sFrb7B6l",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/yishi89-pfbid02PkNo/0.jpg",
         "display_locked": false
       }
     ],
