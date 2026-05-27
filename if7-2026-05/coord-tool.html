@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booth Coord Tool · cho-tsukuyomi-map (IF7)</title>
+  <style>
+    :root {
+      --bg: #faf7f2;
+      --panel: #fff;
+      --border: #d8d0c2;
+      --text: #2a2a2a;
+      --muted: #8a8276;
+      --accent: #c47b00;
+      --accent-bg: #ffd84a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; }
+    .layout { display: grid; grid-template-columns: 360px 1fr; height: 100vh; }
+    .sidebar { background: var(--panel); border-right: 1px solid var(--border); padding: 1rem; overflow-y: auto; }
+    .map-wrap { position: relative; overflow: auto; background: #2a2a2a; padding: 1rem; }
+    .map-inner { position: relative; display: inline-block; }
+    .map-inner img { display: block; max-width: 100%; }
+    .map-inner svg { position: absolute; inset: 0; width: 100%; height: 100%; cursor: crosshair; }
+    h2 { font-size: 1rem; margin: 0 0 0.5rem; }
+    h3 { font-size: 0.85rem; margin: 1rem 0 0.4rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    label { display: block; font-size: 0.78rem; color: var(--muted); margin: 0.4rem 0 0.15rem; }
+    input, select { width: 100%; padding: 0.4rem; border: 1px solid var(--border); border-radius: 4px; font-family: inherit; font-size: 0.85rem; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    button { padding: 0.45rem 0.8rem; border: 1px solid var(--border); background: #fff; border-radius: 5px; cursor: pointer; font-size: 0.85rem; font-family: inherit; }
+    button.primary { background: var(--accent-bg); border-color: var(--accent); font-weight: 600; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .status { padding: 0.5rem 0.6rem; background: #fff7d6; border: 1px solid var(--accent); border-radius: 5px; font-size: 0.8rem; margin: 0.5rem 0; }
+    .status.idle { background: #f0f0f0; border-color: var(--border); color: var(--muted); }
+    .bands-list { font-size: 0.78rem; }
+    .bands-list .band { padding: 0.35rem 0.5rem; background: #fcfaf6; border: 1px solid var(--border); border-radius: 4px; margin-bottom: 0.3rem; display: flex; justify-content: space-between; align-items: center; gap: 0.3rem; }
+    .bands-list .band button { padding: 0.15rem 0.4rem; font-size: 0.72rem; }
+    textarea { width: 100%; min-height: 200px; font-family: ui-monospace, monospace; font-size: 0.7rem; padding: 0.4rem; border: 1px solid var(--border); border-radius: 4px; resize: vertical; }
+    .stat { font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
+    /* SVG overlay styles */
+    svg rect.preview { fill: var(--accent-bg); fill-opacity: 0.35; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3,2; vector-effect: non-scaling-stroke; }
+    svg rect.placed { fill: #93c47d; fill-opacity: 0.28; stroke: #38761d; stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+    svg rect.corner-marker { fill: red; }
+    svg text.placed-label { font-size: 6px; font-family: monospace; fill: #38761d; pointer-events: none; }
+  </style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <h2>🗺 Coord tool — IF7</h2>
+    <p class="stat" id="counts">読込中…</p>
+
+    <h3>1. 帯を定義</h3>
+    <div class="row">
+      <div>
+        <label>Row</label>
+        <select id="row-select"></select>
+      </div>
+      <div>
+        <label>方向</label>
+        <select id="direction">
+          <option value="lr">左→右 (1 が左)</option>
+          <option value="rl" selected>右→左 (1 が右)</option>
+          <option value="tb">上→下 (1 が上)</option>
+          <option value="bt">下→上 (1 が下)</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div><label>開始番号</label><input type="number" id="start-num" min="1" max="99" value="1"></div>
+      <div><label>終了番号</label><input type="number" id="end-num" min="1" max="99" value="22"></div>
+    </div>
+    <button id="begin-band" class="primary" style="width:100%; margin-top:0.5rem;">この帯の 2 隅をクリック開始</button>
+
+    <h3>2. クリック手順</h3>
+    <div class="status idle" id="status">アイドル — 上の "クリック開始" を押してから map をクリック</div>
+
+    <h3>3. 既定義の帯 (<span id="band-count">0</span>)</h3>
+    <div class="bands-list" id="bands-list"></div>
+
+    <h3>4. Export</h3>
+    <p class="stat">合計 booth coords: <span id="coord-count">0</span></p>
+    <button id="copy-json" class="primary" style="width:100%;">📋 coords.js content を copy</button>
+    <button id="dl-json" style="width:100%; margin-top:0.4rem;">⬇ coords.js を download</button>
+    <button id="reset" style="width:100%; margin-top:0.4rem; background:#fff0f0; border-color:#c0392b; color:#c0392b;">⟲ 全消去</button>
+    <textarea id="json-out" style="margin-top:0.5rem;" readonly></textarea>
+  </aside>
+
+  <div class="map-wrap">
+    <div class="map-inner">
+      <img id="map-img" src="map.jpg" alt="map">
+      <svg id="overlay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+/**
+ * Booth coord tool — band-mode input.
+ *
+ * Flow:
+ *  - User picks a row letter (S/J/T/U/Y), start+end numbers, direction.
+ *  - Clicks "begin band" → next two map clicks define top-left then bottom-right of the band.
+ *  - Tool auto-distributes N cells evenly along the chosen direction,
+ *    assigns to "<row>-<padded N>", merges into global coords table.
+ *  - User repeats for each band. Live JSON output ready to paste.
+ *
+ * Persisted to localStorage so reloads don't lose work.
+ */
+
+const STORAGE_KEY = 'cho-tsukuyomi-coord-tool';
+const overlay = document.getElementById('overlay');
+const statusEl = document.getElementById('status');
+const bandsListEl = document.getElementById('bands-list');
+const jsonOut = document.getElementById('json-out');
+const counts = document.getElementById('counts');
+const bandCountEl = document.getElementById('band-count');
+const coordCountEl = document.getElementById('coord-count');
+
+let state = loadState();  // { coords: {<id>: {x,y,w,h}}, bands: [{key,row,start,end,dir,r}], }
+let mode = 'idle';        // 'idle' | 'waiting1' | 'waiting2'
+let pendingCorner1 = null;
+let pendingBand = null;   // {row, start, end, dir} captured when "begin band" pressed
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  return { coords: {}, bands: [] };
+}
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+}
+
+// Populate row-select from BOOTHS data
+function init() {
+  const rows = new Set();
+  for (const b of (window.BOOTHS || [])) {
+    const m = b.booth_id.match(/^([A-Z])-/);
+    if (m) rows.add(m[1]);
+  }
+  const sel = document.getElementById('row-select');
+  [...rows].sort().forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r; opt.textContent = r;
+    sel.appendChild(opt);
+  });
+  counts.textContent = `合計 ${(window.BOOTHS || []).length} booths · rows: ${[...rows].sort().join(', ')}`;
+  renderAll();
+}
+
+document.getElementById('begin-band').addEventListener('click', () => {
+  const row = document.getElementById('row-select').value;
+  const start = parseInt(document.getElementById('start-num').value, 10);
+  const end = parseInt(document.getElementById('end-num').value, 10);
+  const dir = document.getElementById('direction').value;
+  if (!row || isNaN(start) || isNaN(end) || start > end) {
+    setStatus('開始/終了番号が不正', 'warn'); return;
+  }
+  pendingBand = { row, start, end, dir };
+  pendingCorner1 = null;
+  mode = 'waiting1';
+  setStatus(`✦ ${row}-${pad(start)} の左上 (= 1 番) をクリックしてください`, 'wait');
+});
+
+overlay.addEventListener('click', (e) => {
+  if (mode === 'idle') return;
+  const rect = overlay.getBoundingClientRect();
+  const x = ((e.clientX - rect.left) / rect.width) * 100;
+  const y = ((e.clientY - rect.top) / rect.height) * 100;
+  if (mode === 'waiting1') {
+    pendingCorner1 = { x, y };
+    mode = 'waiting2';
+    setStatus(`✦ ${pendingBand.row}-${pad(pendingBand.end)} の右下 (= 最後) をクリックしてください`, 'wait');
+    renderPreviewCorner(pendingCorner1);
+  } else if (mode === 'waiting2') {
+    const c2 = { x, y };
+    commitBand(pendingCorner1, c2);
+    mode = 'idle';
+    pendingCorner1 = null;
+    setStatus('✓ 帯追加。次の帯を定義するには上から設定して "クリック開始"', 'idle');
+    renderAll();
+  }
+});
+
+function commitBand(c1, c2) {
+  const { row, start, end, dir } = pendingBand;
+  // Normalise to top-left + bottom-right
+  const xMin = Math.min(c1.x, c2.x), xMax = Math.max(c1.x, c2.x);
+  const yMin = Math.min(c1.y, c2.y), yMax = Math.max(c1.y, c2.y);
+  const n = end - start + 1;
+  // For dir=lr: first cell at xMin, last cell at xMax. cell_w = (xMax - xMin) / n? No —
+  // c1 should be TL of first cell, c2 BR of last cell, so width spans n cells.
+  // Cell width = (total width) / n, cell height = full height.
+  const cells = [];
+  for (let i = 0; i < n; i++) {
+    let cell;
+    if (dir === 'lr') {
+      const w = (xMax - xMin) / n;
+      cell = { x: xMin + i * w, y: yMin, w: w, h: yMax - yMin };
+    } else if (dir === 'rl') {
+      const w = (xMax - xMin) / n;
+      cell = { x: xMax - (i + 1) * w, y: yMin, w: w, h: yMax - yMin };
+    } else if (dir === 'tb') {
+      const h = (yMax - yMin) / n;
+      cell = { x: xMin, y: yMin + i * h, w: xMax - xMin, h };
+    } else if (dir === 'bt') {
+      const h = (yMax - yMin) / n;
+      cell = { x: xMin, y: yMax - (i + 1) * h, w: xMax - xMin, h };
+    }
+    const num = start + i;
+    const id = `${row}-${pad(num)}`;
+    cells.push({ id, ...cell });
+  }
+  // Record band metadata + write coords
+  const key = `${row}-${pad(start)}..${pad(end)}-${dir}`;
+  // Remove existing band with same key (replace)
+  state.bands = state.bands.filter(b => b.key !== key);
+  state.bands.push({ key, row, start, end, dir, c1, c2, n });
+  for (const c of cells) {
+    state.coords[c.id] = { x: round(c.x), y: round(c.y), w: round(c.w), h: round(c.h) };
+  }
+  saveState();
+}
+
+function deleteBand(key) {
+  const band = state.bands.find(b => b.key === key);
+  if (!band) return;
+  // Remove all coords this band created
+  for (let i = 0; i < band.n; i++) {
+    const id = `${band.row}-${pad(band.start + i)}`;
+    delete state.coords[id];
+  }
+  state.bands = state.bands.filter(b => b.key !== key);
+  saveState();
+  renderAll();
+}
+
+function setStatus(text, kind) {
+  statusEl.textContent = text;
+  statusEl.className = 'status ' + (kind === 'idle' ? 'idle' : '');
+}
+
+function renderPreviewCorner(c) {
+  // Show a small red dot at first corner
+  const dot = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
+  dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
+  dot.setAttribute('class', 'corner-marker');
+  dot.setAttribute('id', 'tmp-corner');
+  // Remove previous if any
+  const old = document.getElementById('tmp-corner'); if (old) old.remove();
+  overlay.appendChild(dot);
+}
+
+function renderAll() {
+  // Wipe overlay (keep tmp corner if present)
+  while (overlay.firstChild) overlay.removeChild(overlay.firstChild);
+  const ns = 'http://www.w3.org/2000/svg';
+  // Draw every coord as placed rect + label
+  const known = new Set((window.BOOTHS || []).map(b => b.booth_id));
+  for (const [id, c] of Object.entries(state.coords)) {
+    const r = document.createElementNS(ns, 'rect');
+    r.setAttribute('x', c.x); r.setAttribute('y', c.y);
+    r.setAttribute('width', c.w); r.setAttribute('height', c.h);
+    r.setAttribute('class', known.has(id) ? 'placed' : 'placed');
+    if (!known.has(id)) r.style.opacity = '0.4';
+    overlay.appendChild(r);
+    if (c.w > 1 && c.h > 0.7) {  // only label if rect is big enough
+      const t = document.createElementNS(ns, 'text');
+      t.setAttribute('x', c.x + c.w / 2);
+      t.setAttribute('y', c.y + c.h / 2 + 1.5);
+      t.setAttribute('text-anchor', 'middle');
+      t.setAttribute('class', 'placed-label');
+      t.textContent = id;
+      overlay.appendChild(t);
+    }
+  }
+  // Bands list
+  bandsListEl.innerHTML = '';
+  for (const b of state.bands) {
+    const div = document.createElement('div');
+    div.className = 'band';
+    div.innerHTML = `<span>${b.row}-${pad(b.start)} .. ${b.row}-${pad(b.end)} (${b.dir}, ${b.n})</span>`;
+    const btn = document.createElement('button');
+    btn.textContent = '✕'; btn.title = '削除';
+    btn.addEventListener('click', () => deleteBand(b.key));
+    div.appendChild(btn);
+    bandsListEl.appendChild(div);
+  }
+  bandCountEl.textContent = state.bands.length;
+  coordCountEl.textContent = Object.keys(state.coords).length;
+  // JSON output
+  const sorted = {};
+  Object.keys(state.coords).sort((a, b) => a.localeCompare(b, 'en', { numeric: true })).forEach(k => sorted[k] = state.coords[k]);
+  const body = `/**\n * Auto-generated by coord-tool.html — DO NOT hand-edit without re-importing\n * into the tool (paste into the "Export" textarea, then continue).\n */\nwindow.BOOTH_COORDS = ${JSON.stringify(sorted, null, 2)};\n`;
+  jsonOut.value = body;
+}
+
+document.getElementById('copy-json').addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(jsonOut.value);
+    setStatus('✓ クリップボードにコピーした、coords.js に貼り付けて commit', 'idle');
+  } catch (e) {
+    jsonOut.select(); document.execCommand('copy');
+    setStatus('✓ コピー (fallback)', 'idle');
+  }
+});
+
+document.getElementById('dl-json').addEventListener('click', () => {
+  const blob = new Blob([jsonOut.value], { type: 'text/javascript' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'coords.js';
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+
+document.getElementById('reset').addEventListener('click', () => {
+  if (!confirm('全 coords + 全 band を消去します。よろしいですか?')) return;
+  state = { coords: {}, bands: [] };
+  saveState();
+  renderAll();
+});
+
+function pad(n) { return String(n).padStart(2, '0'); }
+function round(v) { return Math.round(v * 100) / 100; }
+
+init();
+</script>
+</body>
+</html>

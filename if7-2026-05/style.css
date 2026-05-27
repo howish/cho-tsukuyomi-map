@@ -320,12 +320,38 @@ section {
   text-align: center;
 }
 
+.map-overlay-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  line-height: 0;
+}
+
 .venue-map {
   max-width: 100%;
   height: auto;
   border: 2px solid var(--border);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: block;
+}
+
+.venue-map-overlay {
+  position: absolute;
+  inset: 2px;  /* match the venue-map 2px border */
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  pointer-events: none;
+  border-radius: 6px;
+}
+
+.venue-map-overlay rect.match {
+  fill: #ffd84a;
+  fill-opacity: 0.55;
+  stroke: #c47b00;
+  stroke-width: 0.25;
+  stroke-opacity: 0.9;
+  vector-effect: non-scaling-stroke;
 }
 
 .map-caption {

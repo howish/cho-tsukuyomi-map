@@ -283,6 +283,7 @@
     const card = el('div', {
       class: 'booth-card' + (isFav ? ' favored' : ''),
       id: 'booth-' + b.booth_id.toLowerCase(),
+      'data-booth-id': b.booth_id,
       'data-filters': filterTokens.join(',') + (isFav ? ',fav' : ''),
       'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase(),
       role: 'button',
@@ -835,6 +836,7 @@
 
   function applyFilters() {
     let visible = 0;
+    const visibleBoothIds = [];
     const allCards = document.querySelectorAll('.booth-card');
     allCards.forEach(card => {
       const tokens = (card.dataset.filters || '').split(',');
@@ -844,17 +846,47 @@
       const searchOK = !currentSearch || search.includes(currentSearch);
       const show = filterOK && searchOK;
       card.style.display = show ? '' : 'none';
-      if (show) visible++;
+      if (show) {
+        visible++;
+        if (card.dataset.boothId) visibleBoothIds.push(card.dataset.boothId);
+      }
     });
     const stats = document.getElementById('filter-stats');
+    const isFiltered = activeFilters.size > 0 || currentSearch;
     if (stats) {
       const total = allCards.length;
-      const isFiltered = activeFilters.size > 0 || currentSearch;
       stats.textContent = isFiltered
         ? T('stats_filtered', { visible, total })
         : T('stats_total', { total });
       stats.classList.toggle('filtered', isFiltered);
     }
+    updateMapOverlay(isFiltered ? visibleBoothIds : null);
+  }
+
+  // Highlight matched booths on the venue map. coords come from window.
+  // BOOTH_COORDS (populated via coord-tool.html). Pass null/empty to
+  // clear the overlay; pass a list of booth_ids to draw rects for any
+  // that have coords defined. Booths without coords are silently
+  // skipped — no log spam, no broken UI.
+  function updateMapOverlay(boothIds) {
+    const svg = document.getElementById('venue-map-overlay');
+    if (!svg) return;
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    if (!boothIds || !boothIds.length) return;
+    const coords = window.BOOTH_COORDS || {};
+    const ns = 'http://www.w3.org/2000/svg';
+    boothIds.forEach(id => {
+      const c = coords[id];
+      if (!c) return;
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('x', c.x);
+      rect.setAttribute('y', c.y);
+      rect.setAttribute('width', c.w);
+      rect.setAttribute('height', c.h);
+      rect.setAttribute('class', 'match');
+      rect.setAttribute('data-booth-id', id);
+      svg.appendChild(rect);
+    });
   }
 
   applyFilters();
