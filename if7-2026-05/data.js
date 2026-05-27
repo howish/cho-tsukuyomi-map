@@ -3209,11 +3209,6 @@ window.BOOTHS = [
         "source_url": "https://www.threads.com/@mochian0819/post/DYE7qV1Et1e",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYE7qV1Et1e/1.jpg",
         "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@mochian0819/post/DYFDzEIEqbZ",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYFDzEIEqbZ/0.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
