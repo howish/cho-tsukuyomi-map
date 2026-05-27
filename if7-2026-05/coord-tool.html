@@ -41,7 +41,8 @@
     svg rect.preview { fill: var(--accent-bg); fill-opacity: 0.35; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3,2; vector-effect: non-scaling-stroke; }
     svg rect.placed { fill: #93c47d; fill-opacity: 0.28; stroke: #38761d; stroke-width: 0.5; vector-effect: non-scaling-stroke; }
     svg rect.corner-marker { fill: red; }
-    svg text.placed-label { font-size: 6px; font-family: monospace; fill: #38761d; pointer-events: none; }
+    /* font-size is overridden per-rect in renderAll() so labels scale with cell */
+    svg text.placed-label { font-family: monospace; fill: #38761d; pointer-events: none; }
   </style>
 </head>
 <body>
@@ -268,11 +269,17 @@ function renderAll() {
     r.setAttribute('class', known.has(id) ? 'placed' : 'placed');
     if (!known.has(id)) r.style.opacity = '0.4';
     overlay.appendChild(r);
-    if (c.w > 1 && c.h > 0.7) {  // only label if rect is big enough
+    // Adaptive font: scale label to cell dims so it never overflows.
+    // Skip entirely if the cell is too small to hold even 3 chars.
+    // viewBox is 0-100; font-size is in those units.
+    const fs = Math.min(c.h * 0.55, (c.w / id.length) * 1.4);
+    if (fs >= 0.4) {
       const t = document.createElementNS(ns, 'text');
       t.setAttribute('x', c.x + c.w / 2);
-      t.setAttribute('y', c.y + c.h / 2 + 1.5);
+      t.setAttribute('y', c.y + c.h / 2);
       t.setAttribute('text-anchor', 'middle');
+      t.setAttribute('dominant-baseline', 'central');
+      t.setAttribute('font-size', fs);
       t.setAttribute('class', 'placed-label');
       t.textContent = id;
       overlay.appendChild(t);
