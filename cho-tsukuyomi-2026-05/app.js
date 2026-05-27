@@ -567,10 +567,9 @@
       // setPending merges so editing body doesn't wipe cover_urls and vice versa.
       const pending = editMode.getPending(b.booth_id);
       const currentText = (pending && pending.body !== undefined) ? pending.body : (b.body || '');
-      // Editor: twin textarea (source | display, line-aligned). Each cover
-      // is normalized to {source_url, display_url, display_locked} so we
-      // can drive both columns + the lock state from one shape.
-      // Blank display line = auto (pipeline fills); typed display = locked.
+      // Editor: per-row UI (one card per cover). Each cover is normalized
+      // to {source_url, display_url, display_locked} so we can drive both
+      // input fields + the explicit lock toggle from one shape.
       const normalizeCover = (p) => typeof p === 'string'
         ? { source_url: p, display_url: p, display_locked: false }
         : { source_url: p.source_url || p.display_url || '',
@@ -579,10 +578,6 @@
       const currentCovers = (pending && pending.cover_urls !== undefined)
         ? pending.cover_urls.map(normalizeCover)
         : (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
-      // Right column shows display_url ONLY for locked rows (auto stays
-      // blank so user sees at a glance which are custom vs auto).
-      const currentSources = currentCovers.map(p => p.source_url);
-      const currentDisplays = currentCovers.map(p => p.display_locked ? (p.display_url || '') : '');
 
       // --- Body editor ---
       const editLabel = el('div', { class: 'edit-mode-banner' }, T('edit_mode_banner'));
@@ -622,68 +617,117 @@
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
 
-      // --- Images editor (twin textarea: source | display) ---
-      // Left = source_url (canonical post link the user pastes).
-      // Right = display_url (line-aligned w/ left).
-      //   - Blank line  → auto: maintainer pipeline derives display from source.
-      //                   If the source line is unchanged, the prior display_url
-      //                   is preserved (so re-saves don't drop R2 images).
-      //                   If the source line is new/changed, display_url is
-      //                   cleared (pipeline regenerates next run).
-      //   - Filled line → locked custom: pipeline never overwrites it.
+      // --- Images editor (per-row UI) ---
+      // Each cover is one card with source input + display input +
+      // explicit lock toggle + remove button. Lock toggle distinguishes:
+      //   - 🔓 auto: pipeline can regenerate display_url if source changes
+      //   - 🔒 locked: pipeline never overwrites display_url
+      // Display field can be blank (= pipeline will fill on next run).
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
       bodyDiv.appendChild(imgLabel);
 
       const origCovers = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
-      const origSources = origCovers.map(p => p.source_url);
-      const origDisplays = origCovers.map(p => p.display_locked ? (p.display_url || '') : '');
+      const origSnapshot = JSON.stringify(origCovers);
 
-      const imgPair = el('div', { class: 'edit-images-pair' });
-      const srcCol = el('div', { class: 'edit-images-col' });
-      srcCol.appendChild(el('label', { class: 'edit-col-label' }, T('edit_source_label')));
-      const srcTa = el('textarea', {
-        class: 'edit-images-textarea', rows: '6',
-        placeholder: T('edit_source_placeholder'),
+      const imgList = el('div', { class: 'edit-images-list' });
+      const rowsState = [];
+
+      // Forward declaration so makeRow can reference refreshIndices.
+      function refreshIndices() {
+        rowsState.forEach((s, i) => {
+          s.indexLabel.textContent = T('edit_image_row_label', { n: i + 1 });
+        });
+      }
+
+      function makeRow(cover) {
+        const row = el('div', { class: 'edit-images-row' });
+        const state = { row, locked: !!cover.display_locked };
+
+        const header = el('div', { class: 'edit-images-row-header' });
+        state.indexLabel = el('span', { class: 'edit-images-row-idx' }, '');
+        const removeBtn = el('button', {
+          type: 'button', class: 'edit-images-remove-btn',
+        }, T('edit_image_remove'));
+        removeBtn.addEventListener('click', () => {
+          const idx = rowsState.indexOf(state);
+          if (idx >= 0) rowsState.splice(idx, 1);
+          row.remove();
+          refreshIndices();
+        });
+        header.appendChild(state.indexLabel);
+        header.appendChild(removeBtn);
+        row.appendChild(header);
+
+        const srcField = el('div', { class: 'edit-images-row-field' });
+        srcField.appendChild(el('label', null, T('edit_image_source_label')));
+        state.srcInput = el('input', {
+          type: 'text', class: 'edit-images-row-input',
+          placeholder: T('edit_source_placeholder'),
+        });
+        state.srcInput.value = cover.source_url || '';
+        srcField.appendChild(state.srcInput);
+        row.appendChild(srcField);
+
+        const dispField = el('div', { class: 'edit-images-row-field' });
+        dispField.appendChild(el('label', null, T('edit_image_display_label')));
+        const dispLine = el('div', { class: 'edit-images-row-dispLine' });
+        state.dispInput = el('input', {
+          type: 'text', class: 'edit-images-row-input',
+          placeholder: T('edit_display_placeholder'),
+        });
+        state.dispInput.value = cover.display_url || '';
+        state.lockBtn = el('button', { type: 'button', class: 'edit-images-lock-btn', title: T('edit_image_lock_tooltip') });
+        function refreshLockBtn() {
+          state.lockBtn.textContent = state.locked ? T('edit_image_lock_locked') : T('edit_image_lock_auto');
+          state.lockBtn.classList.toggle('locked', state.locked);
+        }
+        state.lockBtn.addEventListener('click', () => {
+          state.locked = !state.locked;
+          refreshLockBtn();
+        });
+        refreshLockBtn();
+        dispLine.appendChild(state.dispInput);
+        dispLine.appendChild(state.lockBtn);
+        dispField.appendChild(dispLine);
+        row.appendChild(dispField);
+
+        return state;
+      }
+
+      currentCovers.forEach(c => {
+        const s = makeRow(c);
+        rowsState.push(s);
+        imgList.appendChild(s.row);
       });
-      srcTa.value = currentSources.join('\n');
-      srcCol.appendChild(srcTa);
-      imgPair.appendChild(srcCol);
+      refreshIndices();
+      bodyDiv.appendChild(imgList);
 
-      const dispCol = el('div', { class: 'edit-images-col' });
-      dispCol.appendChild(el('label', { class: 'edit-col-label' }, T('edit_display_label')));
-      const dispTa = el('textarea', {
-        class: 'edit-images-textarea', rows: '6',
-        placeholder: T('edit_display_placeholder'),
+      const addBtn = el('button', { type: 'button', class: 'edit-images-add-btn' }, T('edit_image_add'));
+      addBtn.addEventListener('click', () => {
+        const s = makeRow({ source_url: '', display_url: '', display_locked: false });
+        rowsState.push(s);
+        imgList.appendChild(s.row);
+        refreshIndices();
+        s.srcInput.focus();
       });
-      dispTa.value = currentDisplays.join('\n');
-      dispCol.appendChild(dispTa);
-      imgPair.appendChild(dispCol);
-
-      bodyDiv.appendChild(imgPair);
+      bodyDiv.appendChild(addBtn);
 
       const imgActionRow = el('div', { class: 'edit-action-row' });
       const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
       imgSaveBtn.addEventListener('click', () => {
-        // Read both columns; pad displays to source length so line i aligns.
-        const srcLines = srcTa.value.split('\n').map(s => s.trim());
-        const dispLines = dispTa.value.split('\n').map(s => s.trim());
         const newCovers = [];
-        for (let i = 0; i < srcLines.length; i++) {
-          const src = srcLines[i];
-          if (!src) continue;
-          const dispInput = (dispLines[i] || '').trim();
-          const prev = origCovers.find(p => p.source_url === src);
-          if (dispInput) {
-            newCovers.push({ source_url: src, display_url: dispInput, display_locked: true });
-          } else if (prev) {
-            // Same source, no display typed → keep prev display (auto).
-            newCovers.push({ source_url: src, display_url: prev.display_url || null, display_locked: false });
-          } else {
-            newCovers.push({ source_url: src, display_url: null, display_locked: false });
-          }
-        }
+        rowsState.forEach(s => {
+          const src = s.srcInput.value.trim();
+          if (!src) return;  // skip empty rows
+          const disp = s.dispInput.value.trim();
+          newCovers.push({
+            source_url: src,
+            display_url: disp || null,
+            display_locked: !!s.locked,
+          });
+        });
         const existing = editMode.getPending(b.booth_id) || {};
-        if (JSON.stringify(newCovers) === JSON.stringify(origCovers)) {
+        if (JSON.stringify(newCovers) === origSnapshot) {
           delete existing.cover_urls; delete existing.original_cover_urls;
           if (existing.body === undefined) editMode.clearPending(b.booth_id);
           else editMode.setPending(b.booth_id, existing);
@@ -699,8 +743,15 @@
       });
       const imgRevertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, T('edit_revert_btn'));
       imgRevertBtn.addEventListener('click', () => {
-        srcTa.value = origSources.join('\n');
-        dispTa.value = origDisplays.join('\n');
+        // Wipe DOM rows + state, rebuild from orig covers
+        rowsState.forEach(s => s.row.remove());
+        rowsState.length = 0;
+        origCovers.forEach(c => {
+          const s = makeRow(c);
+          rowsState.push(s);
+          imgList.appendChild(s.row);
+        });
+        refreshIndices();
         const existing = editMode.getPending(b.booth_id) || {};
         delete existing.cover_urls; delete existing.original_cover_urls;
         if (existing.body === undefined) editMode.clearPending(b.booth_id);

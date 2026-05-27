@@ -740,24 +740,89 @@ section {
   box-sizing: border-box;
 }
 
-.edit-images-pair {
+.edit-images-list {
   display: flex;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.6rem;
   margin-top: 0.4rem;
 }
-.edit-images-col {
-  flex: 1 1 0;
-  min-width: 0;
+.edit-images-row {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.55rem 0.65rem;
+  background: var(--bg-alt, #fafafa);
 }
-.edit-col-label {
+.edit-images-row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.edit-images-row-idx {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted, #666);
+}
+.edit-images-row-field {
+  margin-bottom: 0.4rem;
+}
+.edit-images-row-field:last-child { margin-bottom: 0; }
+.edit-images-row-field label {
   display: block;
   font-size: 0.7rem;
   color: var(--text-muted, #888);
-  margin-bottom: 0.2rem;
-  line-height: 1.3;
+  margin-bottom: 0.15rem;
 }
-@media (max-width: 600px) {
-  .edit-images-pair { flex-direction: column; gap: 0.75rem; }
+.edit-images-row-input {
+  width: 100%;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.75rem;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.edit-images-row-dispLine {
+  display: flex;
+  gap: 0.4rem;
+  align-items: stretch;
+}
+.edit-images-row-dispLine .edit-images-row-input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.edit-images-lock-btn {
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.edit-images-lock-btn.locked {
+  background: #fff3d6;
+  border-color: #e4b450;
+}
+.edit-images-remove-btn {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: #c33;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-images-add-btn {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px dashed var(--border);
+  background: transparent;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  align-self: flex-start;
 }
 
 .modal-close {
