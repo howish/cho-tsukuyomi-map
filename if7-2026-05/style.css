@@ -716,6 +716,17 @@ section {
   z-index: 1;
 }
 
+/* On narrow phones, give the cover carousel more horizontal room by
+   breaking out of the modal's padding. The text body stays padded. */
+@media (max-width: 600px) {
+  .modal-content { padding: 1rem 0.75rem; }
+  .cover-carousel {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  }
+  .cover-img { max-height: 90vh; }
+}
+
 .modal-close {
   /* Sibling of modal-content (NOT inside it), positioned relative to the
      fixed .modal — stays fixed at top-right regardless of inner scroll. */

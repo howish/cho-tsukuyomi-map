@@ -525,12 +525,16 @@
     if (photos.length) {
       const carousel = el('div', { class: 'cover-carousel' });
       photos.forEach((url, i) => {
+        // Only twitter (pbs.twimg.com) supports the ?name=small variant;
+        // applying it to other CDNs (R2, plurk, fbcdn) is harmless but
+        // unnecessary. Keep the same logic for backward compat.
         const thumbUrl = /\?name=/.test(url)
           ? url.replace(/\?name=[^&]+/, '?name=small')
-          : url + '?name=small';
+          : (/pbs\.twimg\.com/.test(url) ? url + '?name=small' : url);
         const coverLink = el('a', {
-          href: b.x_url || url, target: '_blank', rel: 'noopener',
-          class: 'cover-link cover-slide'
+          href: url, target: '_blank', rel: 'noopener',
+          class: 'cover-link cover-slide',
+          title: 'タップして原寸 / Open full size',
         });
         const img = el('img', {
           src: thumbUrl,
