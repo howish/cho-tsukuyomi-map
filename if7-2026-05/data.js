@@ -3056,52 +3056,7 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/0.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/1.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/2.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/3.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/4.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/5.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/6.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/7.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/8.webp",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@kyuuri991205/post/DYhsXBOmbtt",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/9.webp",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhsXBOmbtt/v2/0.webp",
         "display_locked": false
       },
       {
