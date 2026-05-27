@@ -3002,7 +3002,17 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
-        "display_url": null,
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/2.jpg",
         "display_locked": false
       }
     ],
