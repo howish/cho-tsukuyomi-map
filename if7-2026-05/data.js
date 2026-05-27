@@ -2125,11 +2125,6 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/share/p/1BDozpYLzf/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/share-1BDozpYLzf/0.jpg",
         "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1BDozpYLzf/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/share-1BDozpYLzf/1.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
@@ -2319,11 +2314,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1PSqJu3Rwv/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-23_24/share-1PSqJu3Rwv/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1PSqJu3Rwv/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-23_24/share-1PSqJu3Rwv/1.jpg",
         "display_locked": false
       },
       {
@@ -2600,11 +2590,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18uLDiwcrv/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/share-18uLDiwcrv/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uLDiwcrv/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/share-18uLDiwcrv/1.jpg",
         "display_locked": false
       }
     ],
@@ -2967,16 +2952,6 @@ window.BOOTHS = [
       {
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/2.jpg",
         "display_locked": false
       }
     ]
@@ -3491,6 +3466,26 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-29/plurk-3ipxpwp7ga/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-29/plurk-3ipxpwp7ga/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-29/plurk-3ipxpwp7ga/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-29/plurk-3ipxpwp7ga/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-29/plurk-3ipxpwp7ga/4.jpg",
         "display_locked": false
       }
     ],
