@@ -814,8 +814,24 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  let activeFilters = new Set();
+  // Seed activeFilters from EVENT.default_filters so e.g. a 超かぐや姫
+  // fan landing here sees the curated subset by default. Empty / unset
+  // → no default filter applied. The matching filter buttons are marked
+  // active below once the DOM is settled.
+  let activeFilters = new Set(EVENT.default_filters || []);
   let currentSearch = '';
+  if (activeFilters.size) {
+    // Sync filter buttons + remove "all" highlight to match seeded state.
+    requestAnimationFrame(() => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      activeFilters.forEach(f => {
+        const btn = document.querySelector('.filter-btn[data-filter="' + f + '"]');
+        if (btn) btn.classList.add('active');
+      });
+      const allBtn = document.querySelector('.filter-btn[data-filter="all"]');
+      if (allBtn) allBtn.classList.remove('active');
+    });
+  }
 
   function applyFilters() {
     let visible = 0;

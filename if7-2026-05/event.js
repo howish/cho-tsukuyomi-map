@@ -36,6 +36,11 @@ window.EVENT_CONFIG = {
   // 超かぐや姫 dispersed across J/T/U/Y).
   rows: ["S", "J", "T", "U", "Y"],
 
+  // Tag / CP filter codes to apply by default on first load (empty / unset
+  // = no default, all booths shown). Used here so a fan landing for
+  // 超かぐや姫 sees only the 超時空輝耀姬 picks until they untoggle.
+  default_filters: ["super-kaguya"],
+
   // OG / Twitter share preview
   og_image: "og.png",
   og_description: "2026/05/30 台北花博 第7回 創集繪 (IF7) 場內 — 第19回 Comic Horizon 百合 Only 攤位指南 (非官方 fan guide)",
