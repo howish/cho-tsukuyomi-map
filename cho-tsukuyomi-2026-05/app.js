@@ -519,22 +519,28 @@
     }, T('modal_close_bottom'));
     closeBottom.addEventListener('click', closeModal);
 
-    const photos = b.cover_urls && b.cover_urls.length
+    // Normalize cover_urls to [{source_url, display_url}, ...] shape.
+    // Legacy data: array of strings OR singleton b.cover_url. Convert in-flight.
+    const rawCovers = (b.cover_urls && b.cover_urls.length)
       ? b.cover_urls
       : (b.cover_url ? [b.cover_url] : []);
+    const photos = rawCovers.map(p => (typeof p === 'string')
+      ? { source_url: p, display_url: p }
+      : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
     if (photos.length) {
       const carousel = el('div', { class: 'cover-carousel' });
-      photos.forEach((url, i) => {
-        // Only twitter (pbs.twimg.com) supports the ?name=small variant;
-        // applying it to other CDNs (R2, plurk, fbcdn) is harmless but
-        // unnecessary. Keep the same logic for backward compat.
-        const thumbUrl = /\?name=/.test(url)
-          ? url.replace(/\?name=[^&]+/, '?name=small')
-          : (/pbs\.twimg\.com/.test(url) ? url + '?name=small' : url);
+      photos.forEach((p, i) => {
+        const display = p.display_url || p.source_url;
+        const source  = p.source_url  || p.display_url;
+        // pbs.twimg.com supports ?name=small for thumbnail variant; other
+        // CDNs ignore the param so leave them alone.
+        const thumbUrl = /\?name=/.test(display)
+          ? display.replace(/\?name=[^&]+/, '?name=small')
+          : (/pbs\.twimg\.com/.test(display) ? display + '?name=small' : display);
         const coverLink = el('a', {
-          href: url, target: '_blank', rel: 'noopener',
+          href: source, target: '_blank', rel: 'noopener',
           class: 'cover-link cover-slide',
-          title: 'タップして原寸 / Open full size',
+          title: 'タップして source post を開く / Open source',
         });
         const img = el('img', {
           src: thumbUrl,
@@ -561,8 +567,14 @@
       // setPending merges so editing body doesn't wipe cover_urls and vice versa.
       const pending = editMode.getPending(b.booth_id);
       const currentText = (pending && pending.body !== undefined) ? pending.body : (b.body || '');
-      const currentImgs = (pending && pending.cover_urls !== undefined)
-        ? pending.cover_urls : (b.cover_urls || (b.cover_url ? [b.cover_url] : []));
+      // Editor works on source_url strings (one per line). Convert each
+      // photo object → its source_url. Pending edits store the same shape
+      // as data.js cover_urls, so we map either form down to a string list.
+      const normalizeToSource = (arr) => (arr || []).map(p =>
+        typeof p === 'string' ? p : (p.source_url || p.display_url || ''));
+      const currentImgSources = (pending && pending.cover_urls !== undefined)
+        ? normalizeToSource(pending.cover_urls)
+        : normalizeToSource(b.cover_urls || (b.cover_url ? [b.cover_url] : []));
 
       // --- Body editor ---
       const editLabel = el('div', { class: 'edit-mode-banner' }, T('edit_mode_banner'));
@@ -602,29 +614,47 @@
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
 
-      // --- Images editor (one URL per line) ---
+      // --- Images editor (source_url, one per line) ---
+      // Editor shows source_url strings only (the canonical link the user
+      // pasted). On save, the new entries are wrapped as objects with
+      // source_url set; display_url is preserved per source_url if the
+      // entry was already in the booth (so the existing R2 image survives
+      // re-saves), otherwise left null for the maintainer pipeline.
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
       bodyDiv.appendChild(imgLabel);
       const imgTa = el('textarea', {
         class: 'edit-images-textarea', rows: '6',
         placeholder: T('edit_images_placeholder'),
       });
-      imgTa.value = currentImgs.join('\n');
+      imgTa.value = currentImgSources.join('\n');
       bodyDiv.appendChild(imgTa);
       const imgActionRow = el('div', { class: 'edit-action-row' });
       const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
-      const origImgs = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).slice();
+      // Original cover objects (normalized): used to look up existing display_url
+      // when the same source_url is kept.
+      const origCovers = (b.cover_urls || (b.cover_url ? [{source_url: b.cover_url, display_url: b.cover_url}] : []))
+        .map(p => typeof p === 'string'
+          ? { source_url: p, display_url: p }
+          : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
+      const origSources = origCovers.map(p => p.source_url);
       imgSaveBtn.addEventListener('click', () => {
-        const newImgs = imgTa.value.split('\n').map(s => s.trim()).filter(Boolean);
+        const newSources = imgTa.value.split('\n').map(s => s.trim()).filter(Boolean);
         const existing = editMode.getPending(b.booth_id) || {};
-        if (JSON.stringify(newImgs) === JSON.stringify(origImgs)) {
+        if (JSON.stringify(newSources) === JSON.stringify(origSources)) {
           delete existing.cover_urls; delete existing.original_cover_urls;
           if (existing.body === undefined) editMode.clearPending(b.booth_id);
           else editMode.setPending(b.booth_id, existing);
           imgSaveBtn.textContent = T('edit_save_unchanged');
         } else {
-          existing.cover_urls = newImgs;
-          existing.original_cover_urls = origImgs;
+          // Build new cover objects, preserving display_url when source_url unchanged
+          const newCovers = newSources.map(src => {
+            const prev = origCovers.find(p => p.source_url === src);
+            return prev
+              ? { source_url: src, display_url: prev.display_url || src }
+              : { source_url: src, display_url: null };  // maintainer fills
+          });
+          existing.cover_urls = newCovers;
+          existing.original_cover_urls = origCovers;
           editMode.setPending(b.booth_id, existing);
           imgSaveBtn.textContent = T('edit_save_done');
         }
@@ -633,7 +663,7 @@
       });
       const imgRevertBtn = el('button', { type: 'button', class: 'edit-revert-btn' }, T('edit_revert_btn'));
       imgRevertBtn.addEventListener('click', () => {
-        imgTa.value = origImgs.join('\n');
+        imgTa.value = origSources.join('\n');
         const existing = editMode.getPending(b.booth_id) || {};
         delete existing.cover_urls; delete existing.original_cover_urls;
         if (existing.body === undefined) editMode.clearPending(b.booth_id);
@@ -958,14 +988,16 @@
           lines.push('');
         }
         if (it.edit.cover_urls !== undefined) {
+          // Emit source_url only — display_url is maintainer-managed (R2 etc).
+          const toSrc = (p) => typeof p === 'string' ? p : (p.source_url || p.display_url || '');
           lines.push('### ' + T('edit_submission_images_before'));
           lines.push('```');
-          (it.edit.original_cover_urls || []).forEach(u => lines.push(u));
+          (it.edit.original_cover_urls || []).forEach(u => lines.push(toSrc(u)));
           lines.push('```');
           lines.push('');
           lines.push('### ' + T('edit_submission_images_after'));
           lines.push('```');
-          (it.edit.cover_urls || []).forEach(u => lines.push(u));
+          (it.edit.cover_urls || []).forEach(u => lines.push(toSrc(u)));
           lines.push('```');
           lines.push('');
         }
