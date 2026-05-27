@@ -344,6 +344,16 @@ window.BOOTHS = [
         "source_url": "https://www.threads.com/@sumikichiwawa/post/DYRTBSlFCjp",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-03/threads-DYRTBSlFCjp/7.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@sumikichiwawa/post/DYRltS5lDD_",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-03/threads-DYRltS5lDD_/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@sumikichiwawa/post/DYRltS5lDD_",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-03/threads-DYRltS5lDD_/1.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -627,7 +637,28 @@ window.BOOTHS = [
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/3.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "S-15",
@@ -2324,7 +2355,48 @@ window.BOOTHS = [
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@arayo__0616/post/DY1r4XiCawm",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY1r4XiCawm/7.jpg",
+        "display_locked": false
+      }
+    ],
     "_meta_scrape": {
       "platform_used": "ig",
       "image_count_avail": 6,
@@ -2629,6 +2701,51 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/tentaclespet",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/2.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/8.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
