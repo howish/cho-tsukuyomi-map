@@ -1005,7 +1005,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/abcs628945",
-    "body": "## 📝 CH19 出展重點\n主要為 **Ave Mujica 祥初 (祥子×初華)** R-18 印量調查中 ／ 既刊有 **輝耀姬八千代彩葉** (= iroyachi)\n- [印量調查 plurk](https://www.plurk.com/abcs628945)",
+    "body": "## 📝 CH19 出展重點\n主要為 **Ave Mujica 祥初 (祥子×初華)** R-18 [印量調查中](https://www.plurk.com/p/3ioinys6x4)",
     "cps": [
       "iroyachi"
     ],
@@ -3668,7 +3668,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "melon2943",
     "x_url": "https://x.com/melon2943",
-    "body": "## 📝 CH19 出展重點\n5月 百合 Only (CH19) 出展、 菟子老師 寄攤 ／ 寄出 **超時空輝耀姬** 的本\n- [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM)",
+    "body": "## 📝 CH19 出展重點\n[U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- 太呱章了: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- 河豚老師 ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 **超時空輝姬 漫畫本** + 既刊 睦祥 漫畫本\n- 菟子老師 ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **『C'EX-OTOGIBANASHI』** (睦祥 R-18 中篇集、 3 萬字 / 12 章)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)",
     "tags": {
       "super-kaguya": true
     },
@@ -3688,6 +3688,51 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2059655387868254335",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-30/x-2059655387868254335/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/8.jpg",
         "display_locked": false
       }
     ]
