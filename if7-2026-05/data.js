@@ -1605,7 +1605,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kuan.wei.lin.372350",
-    "body": "- 孤獨搖滾\n- 魔法少女的魔女審判\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/kuan.wei.lin.372350](https://www.facebook.com/kuan.wei.lin.372350)",
+    "body": "## 📝 CH19 出展重點\nS-42 出展 ／ **二階堂希羅 (蔚藍檔案)** 關連内容予定 ／ 品書 5/29 整理予定 ／ (FF46 別途 新刊 『波星歌』 — 孤獨搖滾 後藤二里×伊地知星歌 dark 路線 A5/56P/350 元)\n- 既知 fandom: 孤獨搖滾 / 魔法少女的魔女審判 / 超時空輝耀姬\n- [Facebook @kuan.wei.lin.372350](https://www.facebook.com/kuan.wei.lin.372350)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -1636,7 +1636,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/na.zhi.lu/",
-    "body": "- BanG Dream! It's MyGO!!!!!\n- 魔法少女的魔女審判\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/na.zhi.lu/](https://www.facebook.com/na.zhi.lu/)",
+    "body": "## 📝 CH19 出展重點\nS-43/44 出展 ／ 「最後一本」 新刊 (= ファイナル / 終巻 系) ／ 既刊 喵夢×睦醬 (MyGO/Avemujica) 練習作 持込\n- 既知 fandom: BanG Dream! MyGO!!!!! / 魔法少女的魔女審判 / 超時空輝耀姬\n- [Facebook @na.zhi.lu](https://www.facebook.com/na.zhi.lu/)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
