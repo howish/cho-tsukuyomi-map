@@ -237,7 +237,8 @@ window.BOOTHS = [
       "image_count_avail": 0,
       "commerce_count_avail": 0
     },
-    "cover_urls": []
+    "cover_urls": [],
+    "group": "S-[02,06]"
   },
   {
     "booth_id": "S-03",
@@ -337,7 +338,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[02,06]"
   },
   {
     "booth_id": "S-04",
@@ -361,7 +363,8 @@ window.BOOTHS = [
       "platform_used": "aggregator",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[02,06]"
   },
   {
     "booth_id": "S-05/06",
@@ -391,7 +394,12 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "S-05",
+      "S-06"
+    ],
+    "group": "S-[02,06]"
   },
   {
     "booth_id": "S-07",
@@ -575,7 +583,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[11,12]"
   },
   {
     "booth_id": "S-12",
@@ -599,7 +608,8 @@ window.BOOTHS = [
       "platform_used": "aggregator",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[11,12]"
   },
   {
     "booth_id": "S-13/14",
@@ -635,6 +645,10 @@ window.BOOTHS = [
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/3.jpg",
         "display_locked": false
       }
+    ],
+    "cells": [
+      "S-13",
+      "S-14"
     ]
   },
   {
@@ -803,7 +817,8 @@ window.BOOTHS = [
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [],
+    "group": "S-[17,18]"
   },
   {
     "booth_id": "S-18",
@@ -816,7 +831,8 @@ window.BOOTHS = [
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [],
+    "group": "S-[17,18]"
   },
   {
     "booth_id": "S-19/20",
@@ -865,7 +881,11 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "S-19",
+      "S-20"
+    ]
   },
   {
     "booth_id": "S-21",
@@ -944,7 +964,11 @@ window.BOOTHS = [
       "platform_used": "doujin_tw",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "S-23",
+      "S-24"
+    ]
   },
   {
     "booth_id": "S-25",
@@ -1008,7 +1032,8 @@ window.BOOTHS = [
       "hand_note": true,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "group": "S-[26,28]"
   },
   {
     "booth_id": "S-27",
@@ -1042,7 +1067,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[26,28]"
   },
   {
     "booth_id": "S-28",
@@ -1100,7 +1126,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[26,28]"
   },
   {
     "booth_id": "S-29",
@@ -1143,7 +1170,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[29,32]"
   },
   {
     "booth_id": "S-30",
@@ -1184,7 +1212,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 3,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[29,32]"
   },
   {
     "booth_id": "S-31",
@@ -1224,7 +1253,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 5,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[29,32]"
   },
   {
     "booth_id": "S-32",
@@ -1268,7 +1298,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 5,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[29,32]"
   },
   {
     "booth_id": "S-33/34",
@@ -1321,7 +1352,11 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "S-33",
+      "S-34"
+    ]
   },
   {
     "booth_id": "S-35/36",
@@ -1347,7 +1382,12 @@ window.BOOTHS = [
       "hand_note": true,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "cells": [
+      "S-35",
+      "S-36"
+    ],
+    "group": "S-[35,40]"
   },
   {
     "booth_id": "S-37/38",
@@ -1372,7 +1412,12 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "cells": [
+      "S-37",
+      "S-38"
+    ],
+    "group": "S-[35,40]"
   },
   {
     "booth_id": "S-39",
@@ -1401,7 +1446,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[35,40]"
   },
   {
     "booth_id": "S-40",
@@ -1454,7 +1500,8 @@ window.BOOTHS = [
       "platform_used": "aggregator",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "S-[35,40]"
   },
   {
     "booth_id": "S-41",
@@ -1620,7 +1667,11 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "cells": [
+      "S-43",
+      "S-44"
+    ]
   },
   {
     "booth_id": "T-01",
@@ -1668,7 +1719,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[01,02]"
   },
   {
     "booth_id": "T-02",
@@ -1731,7 +1783,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[01,02]"
   },
   {
     "booth_id": "T-03",
@@ -1754,7 +1807,8 @@ window.BOOTHS = [
       "platform_used": "aggregator",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[03,04]"
   },
   {
     "booth_id": "T-04",
@@ -1802,7 +1856,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[03,04]"
   },
   {
     "booth_id": "T-05",
@@ -1903,7 +1958,11 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "T-07",
+      "T-08"
+    ]
   },
   {
     "booth_id": "T-09",
@@ -2009,7 +2068,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[11,12]"
   },
   {
     "booth_id": "T-12",
@@ -2057,7 +2117,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[11,12]"
   },
   {
     "booth_id": "T-13",
@@ -2271,7 +2332,11 @@ window.BOOTHS = [
       "platform_used": "aggregator",
       "image_count_avail": 1,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "T-19",
+      "T-20"
+    ]
   },
   {
     "booth_id": "T-21/22",
@@ -2295,7 +2360,11 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "T-21",
+      "T-22"
+    ]
   },
   {
     "booth_id": "T-23/24",
@@ -2352,7 +2421,11 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "cells": [
+      "T-23",
+      "T-24"
+    ]
   },
   {
     "booth_id": "T-25/26",
@@ -2417,7 +2490,11 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "T-25",
+      "T-26"
+    ]
   },
   {
     "booth_id": "T-27",
@@ -2539,7 +2616,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[29,30]"
   },
   {
     "booth_id": "T-30",
@@ -2552,7 +2630,8 @@ window.BOOTHS = [
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [],
+    "group": "T-[29,30]"
   },
   {
     "booth_id": "T-31",
@@ -2736,7 +2815,12 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "cells": [
+      "T-33",
+      "T-34"
+    ],
+    "group": "T-[33,35]"
   },
   {
     "booth_id": "T-35",
@@ -2779,7 +2863,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[33,35]"
   },
   {
     "booth_id": "T-36",
@@ -2886,7 +2971,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "group": "T-[37,38]"
   },
   {
     "booth_id": "T-38",
@@ -2934,7 +3020,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[37,38]"
   },
   {
     "booth_id": "T-39",
@@ -3125,7 +3212,8 @@ window.BOOTHS = [
       "platform_used": "ig",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "group": "T-[42,44]"
   },
   {
     "booth_id": "T-43/44",
@@ -3166,7 +3254,12 @@ window.BOOTHS = [
     },
     "cps": [
       "iroyachi"
-    ]
+    ],
+    "cells": [
+      "T-43",
+      "T-44"
+    ],
+    "group": "T-[42,44]"
   },
   {
     "booth_id": "U-03",
@@ -3211,7 +3304,8 @@ window.BOOTHS = [
         "燈祥"
       ],
       "has_ch19_post": false
-    }
+    },
+    "group": "U-[02,08]"
   },
   {
     "booth_id": "U-21/22",
@@ -3256,7 +3350,12 @@ window.BOOTHS = [
       "hand_note": true,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "cells": [
+      "U-21",
+      "U-22"
+    ],
+    "group": "U-[17,22]"
   },
   {
     "booth_id": "U-23",
@@ -3385,7 +3484,11 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "cells": [
+      "U-25",
+      "U-26"
+    ]
   },
   {
     "booth_id": "U-27",
@@ -3415,7 +3518,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "group": "U-[27,28]"
   },
   {
     "booth_id": "U-28",
@@ -3510,7 +3614,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "group": "U-[27,28]"
   },
   {
     "booth_id": "U-29",
