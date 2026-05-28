@@ -1311,10 +1311,11 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ToMato182",
-    "body": "- 奧術\n- 原創-INSIDE LAB\n- She-Ra\n\n**專區**: 百合\n\n🔗 Plurk: [ToMato182](https://www.plurk.com/ToMato182)",
+    "body": "- 奧術\n- 原創-INSIDE LAB\n- She-Ra\n\n**專區**: 百合\n\n🔗 Plurk: [ToMato182](https://www.plurk.com/ToMato182)\n\n## 📝 CH19 出展重點\nS-31 出展 ／ R18 新刊 小料 (原創 / 人外 / 創作百合 / caitvi (Arcane) / catradora (She-Ra))\n- [R18 plurk post](https://www.plurk.com/p/3iq7u8hxek)",
     "tags": {
       "original": true,
-      "yuri-zone": true
+      "yuri-zone": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
@@ -1337,6 +1338,21 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/mx_3Qs3rTdAQUjEbAwSeG0ViS.jpg",
         "display_url": "https://images.plurk.com/mx_3Qs3rTdAQUjEbAwSeG0ViS.jpg"
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/2.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
