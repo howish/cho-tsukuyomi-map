@@ -352,6 +352,100 @@ section {
   stroke-width: 0.25;
   stroke-opacity: 0.9;
   vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+.venue-map-overlay rect.group {
+  fill: none;
+  stroke: #6a4c93;
+  stroke-width: 0.4;
+  stroke-dasharray: 1.2 0.6;
+  stroke-opacity: 0.75;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+.venue-map-overlay rect.click-target {
+  fill: transparent;
+  stroke: transparent;
+  pointer-events: all;
+  cursor: pointer;
+  transition: fill 0.12s;
+}
+.venue-map-overlay rect.click-target:hover {
+  fill: rgba(196, 123, 0, 0.18);
+}
+
+.map-popup {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #c47b00;
+  border-radius: 6px;
+  padding: 0.5rem 0.55rem 0.5rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+  z-index: 100;
+  min-width: 170px;
+  max-width: 240px;
+  font-size: 0.85rem;
+  color: #2a2a2a;
+}
+.map-popup .popup-id {
+  font-weight: 700;
+  color: #c47b00;
+  font-size: 0.9rem;
+}
+.map-popup .popup-name {
+  font-weight: 600;
+  margin: 0.15rem 0 0;
+  line-height: 1.25;
+}
+.map-popup .popup-author {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0.1rem 0 0.35rem;
+}
+.map-popup .popup-thumb {
+  display: block;
+  width: 100%;
+  max-height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 0.25rem 0 0.4rem;
+  background: #f5efe2;
+}
+.map-popup .popup-go {
+  background: #ffd84a;
+  border: 1px solid #c47b00;
+  padding: 0.32rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+  font-size: 0.82rem;
+  color: #2a2a2a;
+}
+.map-popup .popup-go:hover { background: #f0c93f; }
+.map-popup .popup-close {
+  position: absolute;
+  top: 1px;
+  right: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 1.1rem;
+  padding: 0 0.2rem;
+  line-height: 1;
+}
+.map-popup .popup-close:hover { color: #2a2a2a; }
+
+@keyframes booth-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255, 216, 74, 0.0); transform: scale(1); }
+  20%  { box-shadow: 0 0 14px 6px rgba(255, 216, 74, 0.9); transform: scale(1.02); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 216, 74, 0.0); transform: scale(1); }
+}
+.booth-card.pulse {
+  animation: booth-pulse 1.4s ease-out;
 }
 
 .map-caption {

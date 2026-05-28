@@ -111,6 +111,8 @@ window.I18N_STRINGS = {
     fav_star_title: 'お気に入りに追加 / 解除',
     fav_aria: 'お気に入りトグル',
     price_template: '¥{n}〜',
+    popup_go_to_card: '詳しく見る →',
+    popup_close_label: '閉じる',
 
     // Modal
     modal_prev_label: '前のサークル',
@@ -241,6 +243,8 @@ window.I18N_STRINGS = {
     fav_star_title: '加入 / 移除收藏',
     fav_aria: '收藏切換',
     price_template: 'NT${n}〜',
+    popup_go_to_card: '查看詳情 →',
+    popup_close_label: '關閉',
 
     modal_prev_label: '上一個圈',
     modal_prev_title: '上一個圈（左滑）',

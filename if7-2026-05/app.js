@@ -863,54 +863,200 @@
     updateMapOverlay(isFiltered ? visibleBoothIds : null);
   }
 
-  // Highlight matched booths on the venue map. coords come from window.
-  // BOOTH_COORDS (populated via coord-tool.html). Pass null/empty to
-  // clear the overlay; pass a list of booth_ids to draw rects for any
-  // that have coords defined. Booths without coords are silently
-  // skipped — no log spam, no broken UI.
-  //
-  // Multi-cell booths (e.g. "S-05/06", "T-19/20") physically occupy two
-  // adjacent grid cells; coord-tool emits per-cell entries so we look
-  // up each component separately and union the rects into one combined
-  // highlight. Falls back to a single lookup if the booth_id isn't
-  // multi-cell-shaped.
-  function coordsForBooth(id, coords) {
-    if (coords[id]) return [coords[id]];
-    // "S-05/06" → ["S-05", "S-06"]; "T-07/08" → ["T-07", "T-08"]
+  // Coords logic:
+  // - cellsForBooth(b) → list of canonical cell IDs (uses explicit `cells`
+  //   field when present, falls back to slash-parsing for legacy / unpatched).
+  // - rectForCells(cells, coords) → union bounding rect, or null if no
+  //   cell has coords.
+  // - cellsForGroup("S-[02,06]") → expand range to ["S-02",...,"S-06"].
+  function cellsForBooth(b) {
+    if (b.cells && b.cells.length) return b.cells;
+    const id = b.booth_id || '';
     const m = id.match(/^([A-Z])-(\d+)\/(\d+)$/);
-    if (!m) return [];
-    const [, row, a, b] = m;
+    if (!m) return [id];
+    const [, row, a, c] = m;
     const pad = (n) => String(n).padStart(2, '0');
-    return [coords[row + '-' + pad(a)], coords[row + '-' + pad(b)]].filter(Boolean);
+    return [row + '-' + pad(a), row + '-' + pad(c)];
+  }
+  function rectForCells(cells, coords) {
+    const cs = cells.map(c => coords[c]).filter(Boolean);
+    if (!cs.length) return null;
+    const x = Math.min(...cs.map(c => c.x));
+    const y = Math.min(...cs.map(c => c.y));
+    const w = Math.max(...cs.map(c => c.x + c.w)) - x;
+    const h = Math.max(...cs.map(c => c.y + c.h)) - y;
+    return { x, y, w, h };
+  }
+  function cellsForGroup(groupStr) {
+    const m = groupStr && groupStr.match(/^([A-Z])-\[(\d+),(\d+)\]$/);
+    if (!m) return [];
+    const [, row, lo, hi] = m;
+    const out = [];
+    for (let i = parseInt(lo, 10); i <= parseInt(hi, 10); i++) {
+      out.push(row + '-' + String(i).padStart(2, '0'));
+    }
+    return out;
   }
 
+  // Click-targets layer — invisible per-booth rects covering every cell
+  // so all booths are clickable regardless of filter state. Rendered
+  // once after BOOTH_COORDS becomes available.
+  function renderClickTargets() {
+    const svg = document.getElementById('venue-map-overlay');
+    if (!svg) return;
+    const old = svg.querySelector('g.click-targets');
+    if (old) old.remove();
+    const ns = 'http://www.w3.org/2000/svg';
+    const coords = window.BOOTH_COORDS || {};
+    const g = document.createElementNS(ns, 'g');
+    g.setAttribute('class', 'click-targets');
+    booths.forEach(b => {
+      const cells = cellsForBooth(b);
+      const r = rectForCells(cells, coords);
+      if (!r) return;
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'click-target');
+      rect.setAttribute('data-booth-id', b.booth_id);
+      g.appendChild(rect);
+    });
+    // Insert at the very front so highlights/groups paint on top.
+    svg.insertBefore(g, svg.firstChild);
+  }
+
+  // Filter overlay — group dashed borders + match highlights, redrawn
+  // on every filter / search change. Pass null to clear.
   function updateMapOverlay(boothIds) {
     const svg = document.getElementById('venue-map-overlay');
     if (!svg) return;
-    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const old = svg.querySelector('g.filter-overlay');
+    if (old) old.remove();
     if (!boothIds || !boothIds.length) return;
     const coords = window.BOOTH_COORDS || {};
     const ns = 'http://www.w3.org/2000/svg';
-    boothIds.forEach(id => {
-      const parts = coordsForBooth(id, coords);
-      if (!parts.length) return;
-      // For multi-cell, render as one bounding rect so it reads as a
-      // single highlight rather than two separate cells.
-      const xMin = Math.min(...parts.map(p => p.x));
-      const yMin = Math.min(...parts.map(p => p.y));
-      const xMax = Math.max(...parts.map(p => p.x + p.w));
-      const yMax = Math.max(...parts.map(p => p.y + p.h));
+    const g = document.createElementNS(ns, 'g');
+    g.setAttribute('class', 'filter-overlay');
+    const visibleSet = new Set(boothIds);
+    const visibleBooths = booths.filter(b => visibleSet.has(b.booth_id));
+    // Group dashed borders first (drawn under matches)
+    const groupsSeen = new Set();
+    visibleBooths.forEach(b => {
+      if (!b.group || groupsSeen.has(b.group)) return;
+      groupsSeen.add(b.group);
+      const r = rectForCells(cellsForGroup(b.group), coords);
+      if (!r) return;
       const rect = document.createElementNS(ns, 'rect');
-      rect.setAttribute('x', xMin);
-      rect.setAttribute('y', yMin);
-      rect.setAttribute('width', xMax - xMin);
-      rect.setAttribute('height', yMax - yMin);
-      rect.setAttribute('class', 'match');
-      rect.setAttribute('data-booth-id', id);
-      svg.appendChild(rect);
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'group');
+      rect.setAttribute('data-group', b.group);
+      g.appendChild(rect);
     });
+    // Match highlights
+    visibleBooths.forEach(b => {
+      const r = rectForCells(cellsForBooth(b), coords);
+      if (!r) return;
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'match');
+      rect.setAttribute('data-booth-id', b.booth_id);
+      g.appendChild(rect);
+    });
+    svg.appendChild(g);
   }
 
+  // Popup machinery — click a click-target rect → tooltip with booth
+  // summary; click 詳しく見る → scroll booth card + pulse (clears
+  // filter if the card is currently hidden so the scroll lands on
+  // something visible).
+  let activeMapPopup = null;
+  function dismissMapPopup() {
+    if (activeMapPopup) {
+      activeMapPopup.remove();
+      activeMapPopup = null;
+    }
+  }
+  function scrollAndPulseBooth(boothId) {
+    let card = document.querySelector('.booth-card[data-booth-id="' + boothId + '"]');
+    if (!card) return;
+    if (card.style.display === 'none') {
+      // Clear filters + search so the target card is visible.
+      activeFilters.clear();
+      currentSearch = '';
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      const allBtn = document.querySelector('.filter-btn[data-filter="all"]');
+      if (allBtn) allBtn.classList.add('active');
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) searchInput.value = '';
+      applyFilters();
+    }
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    card.classList.remove('pulse');
+    void card.offsetWidth;  // force reflow for animation restart
+    card.classList.add('pulse');
+    setTimeout(() => card.classList.remove('pulse'), 1500);
+  }
+  function showMapPopup(boothId, ev) {
+    dismissMapPopup();
+    const b = booths.find(x => x.booth_id === boothId);
+    if (!b) return;
+    const wrap = document.querySelector('.map-overlay-wrap');
+    if (!wrap) return;
+    const wrapRect = wrap.getBoundingClientRect();
+    const firstCover = (b.cover_urls || [])[0];
+    const thumbUrl = firstCover ? (typeof firstCover === 'string' ? firstCover : (firstCover.display_url || firstCover.source_url)) : '';
+    const popup = document.createElement('div');
+    popup.className = 'map-popup';
+    popup.innerHTML =
+      '<button class="popup-close" type="button" aria-label="' + escapeAttr(T('popup_close_label')) + '">×</button>' +
+      '<div class="popup-id">' + escapeHtml(b.booth_id) + '</div>' +
+      '<div class="popup-name">' + escapeHtml(b.circle_name || '?') + '</div>' +
+      (b.author ? '<div class="popup-author">' + escapeHtml(b.author) + '</div>' : '') +
+      (thumbUrl ? '<img class="popup-thumb" src="' + escapeAttr(thumbUrl) + '" alt="" loading="lazy">' : '') +
+      '<button class="popup-go" type="button">' + (T('popup_go_to_card') || '詳しく見る →') + '</button>';
+    // Position near click, clamped to the wrap.
+    const x = ev.clientX - wrapRect.left;
+    const y = ev.clientY - wrapRect.top;
+    const popupW = 220, popupH = 180;
+    popup.style.left = Math.max(4, Math.min(x + 10, wrapRect.width - popupW)) + 'px';
+    popup.style.top  = Math.max(4, Math.min(y + 10, wrapRect.height - popupH)) + 'px';
+    wrap.appendChild(popup);
+    activeMapPopup = popup;
+    popup.querySelector('.popup-close').addEventListener('click', dismissMapPopup);
+    popup.querySelector('.popup-go').addEventListener('click', () => {
+      const id = boothId;
+      dismissMapPopup();
+      scrollAndPulseBooth(id);
+    });
+  }
+  // Click delegation on the SVG (capture-target rects only).
+  const _mapSvg = document.getElementById('venue-map-overlay');
+  if (_mapSvg) {
+    _mapSvg.addEventListener('click', (e) => {
+      const tgt = e.target && e.target.closest && e.target.closest('rect.click-target');
+      if (!tgt) return;
+      const id = tgt.getAttribute('data-booth-id');
+      if (!id) return;
+      e.stopPropagation();
+      showMapPopup(id, e);
+    });
+  }
+  // Outside-click dismiss (skip when click is on the popup itself or a click-target).
+  document.addEventListener('click', (e) => {
+    if (!activeMapPopup) return;
+    if (e.target.closest && (e.target.closest('.map-popup') || e.target.closest('rect.click-target'))) return;
+    dismissMapPopup();
+  });
+
+  renderClickTargets();
   applyFilters();
 
   function handleFilterClick(btn) {
