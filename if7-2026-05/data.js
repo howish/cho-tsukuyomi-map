@@ -2951,13 +2951,13 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/0.jpg",
-        "display_locked": false
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/howish-locked/0.jpg",
+        "display_locked": true
       },
       {
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/1.jpg",
-        "display_locked": false
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/howish-locked/1.jpg",
+        "display_locked": true
       }
     ]
   },
