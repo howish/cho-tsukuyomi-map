@@ -107,7 +107,59 @@
 - ❌ 「小説頒布数の経験からビビって 1 部時点で早々に焼け野原」 (本人 reflection)
 - ✅ 「次回は増刷で再挑戦」 + source link
 
-## 8. 編集 workflow
+## 8. 生 quote 禁止 — factual summary + 出典 link で置換
+
+作家本人の post 文を **そのまま 引用ブロック (`> ...`) でコピペするのは禁止**。
+読者から見ると「fan guide が原文を切り取って勝手に文脈付けてる」 ように
+読めて、 不信感を招く。 代わりに:
+
+- 商品 (本タイトル / 規格 / 価格 / CP) + 当日 attention (特典 / 限定 / 競標 etc) を
+  **factual summary** として 1 ~ 2 行で抽出
+- 出典は末尾に `- [原 post](url)` 形式で **明示的 link 化**
+
+例:
+```markdown
+❌  ## 📝 作家お品書き / まとめ post
+    > 【0507】滑壘領小蛋糕！！！順便強制大家看我填OC表格(?)
+    > 叭叭叭！不放過任何機會順便宣傳—— 05/30IF創集繪將帶著這本去擺攤
+    [出典 post](https://...)
+
+✅  ## 📝 CH19 出展ハイライト
+    新刊 **『Bride of the Forest』** 持込
+    - [原 post (出展告知)](https://...)
+```
+
+`§7 自虐 quote 排除` と合わせて、 「**作家の事実発信を中立 fan guide voice で
+再パッケージ**」 が基本姿勢。
+
+## 9. body の言語は event audience に合わせる
+
+event.js の `language` が指す言語 = booth body の prose 言語。 zh-tw 設定の event
+(TW 即売会) で booth body を JP 文法で書くと、 modal 詳細を開いた現地読者から
+すると「日本人向け fan guide にウチらの booth が並んでる」 違和感になる。
+
+- **prose は ZH-tw**: 「持込」→ 「帶來」 / 「受付中」→ 「開放中」 / 「次回参加」→
+  「下次參加」 / 「〜の間」→ 「〜之間」 / 「~た済」→ 「已~」 / particle (は/が/を/に) は drop
+- **作家本人が JP で発信した book title (e.g. 『マーガレット』, 『大学妄想學趴』) は
+  そのまま JP** — それは作家の選んだタイトル、 翻訳しない
+- **共有 CJK 漢字 (新刊 / 通販 / 委託 / 既刊 / 印量調查 / 攤位 etc) は両言語で同じ意味
+  なので OK**
+- **超かぐや姫 関連 character / 作品名は localized title** (`memory/cho_kaguya_localized_titles.md`
+  参照): かぐや → 輝耀姬 / 輝夜姬、 八千代彩葉 → 八千代彩葉 (CP 名)
+
+例:
+```markdown
+❌ T29 出展 ／ 既刊 『十度寢』 (東方 蓮メリ) 持込予定 ／ 通販 + 電子書 並行中
+✅ T29 出展 ／ 既刊 『十度寢』 (東方 蓮メリ) 預計帶來 ／ 通販 + 電子書 並行中
+
+❌ 新刊 ういさき 本 (吸血鬼 初華 × 貴族大小姐 祥子) ／ 印量調查 受付中
+✅ 新刊 ういさき 本 (吸血鬼 初華 × 貴族大小姐 祥子) ／ 印量調查 開放中
+```
+
+JP event (e.g. 超ツクヨミ祭 cho-tsukuyomi-2026-05) では逆に prose を JP で書くのが
+正しい。 event ごとに language 設定 + body 言語が一致するように。
+
+## 10. 編集 workflow
 
 1. **作家本人の event 期間 tweet** を一次 source として読む (`.x-api-data/raw/` 等に保存)
 2. **規定 schema** に沿って body markdown を書く / refine する
@@ -117,7 +169,7 @@
 公開後に違和感あった場合は、修正モードから Issue 送信 → review → 適用 の
 fan-contribution path を活用すること。
 
-## 9. 別 event 適用時の checklist
+## 11. 別 event 適用時の checklist
 
 新しいイベントを fork するときは:
 1. このガイドラインを **そのまま継承** (event-agnostic)
