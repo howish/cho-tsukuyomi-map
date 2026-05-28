@@ -214,6 +214,26 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/KARASoshigata",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/2.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/KARASoshigata",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/deep/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/KARASoshigata",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/deep/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/KARASoshigata",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/deep/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/KARASoshigata",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/deep/3.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -1621,6 +1641,11 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/kuan.wei.lin.372350",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/3.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/kuan.wei.lin.372350",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/deep/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
@@ -1681,6 +1706,21 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BRxwMuHph/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BRxwMuHph/album/7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/na.zhi.lu/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/deep/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/na.zhi.lu/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/deep/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/na.zhi.lu/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/deep/7.jpg",
         "display_locked": false
       }
     ],
