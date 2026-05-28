@@ -800,7 +800,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
-    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr](https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr)",
+    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr](https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr)\n\n## 📝 CH19 出展重點\nS-16 出展 ／ 場前注意事項あり (post 3) ／ 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -890,6 +890,41 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX1avnIma2-",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX1avnIma2-/8.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/6.jpg",
         "display_locked": false
       }
     ],
@@ -1070,7 +1105,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-    "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/](https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/)",
+    "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/](https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/)\n\n## 📝 CH19 出展重點\nS-25 出展 ／ 百翁 既刊 中心 (歷年 百合 作集) ／ 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
     "tags": {
       "yuri-zone": true
     },
@@ -1085,6 +1120,36 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipx7pzgz4",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3ipx7pzgz4/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipx7pzgz4",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3ipx7pzgz4/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq69i4nch",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3iq69i4nch/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq69i4nch",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3iq69i4nch/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq69i4nch",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3iq69i4nch/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq69i4nch",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3iq69i4nch/3.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -1229,7 +1294,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Crazycat_47",
     "x_url": "https://x.com/Crazycat_47",
-    "body": "- 緋染天空\n- 水星的魔女\n\n**專區**: 百合\n\n🔗 X: [Crazycat_47](https://x.com/Crazycat_47)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)",
+    "body": "- 緋染天空\n- 水星的魔女\n\n**專區**: 百合\n\n🔗 X: [Crazycat_47](https://x.com/Crazycat_47)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\nS-29 出展 ／ 月底百翁 小新品 ／ 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
     "tags": {
       "yuri-zone": true
     },
@@ -1258,6 +1323,11 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HJHM73NawAATFAu.jpg",
         "display_url": "https://pbs.twimg.com/media/HJHM73NawAATFAu.jpg"
+      },
+      {
+        "source_url": "https://x.com/i/status/2056919703663288489",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/x-2056919703663288489/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -1524,7 +1594,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/maoyuue",
-    "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/maoyuue](https://www.facebook.com/maoyuue)",
+    "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/maoyuue](https://www.facebook.com/maoyuue)\n\n## 📝 CH19 出展重點\nS-39 出展 ／ 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布) ／ 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1539,6 +1609,66 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/maoyuue",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/2.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-18gvsLr4BA/6.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -1554,7 +1684,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://portaly.cc/raker.natsume.0701",
-    "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/raker.natsume.0701](https://portaly.cc/raker.natsume.0701)",
+    "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/raker.natsume.0701](https://portaly.cc/raker.natsume.0701)\n\n## 📝 CH19 出展重點\nS-40 出展 (最終版品書) ／ 新刊 **『越過八千年個夜晚』** (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合) ／ 認親卡 交換歡迎\n- [品書 post](https://www.facebook.com/share/p/1Gv773LkRC/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1592,6 +1722,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYWu3BOAoDf",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYWu3BOAoDf/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/0.jpg",
         "display_locked": false
       }
     ],
@@ -2400,12 +2535,38 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/7iromushrooms",
-    "body": "- Lovelive!虹咲學園學園偶像同好會\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/7iromushrooms](https://www.facebook.com/7iromushrooms)",
+    "body": "- Lovelive!虹咲學園學園偶像同好會\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/7iromushrooms](https://www.facebook.com/7iromushrooms)\n\n## 📝 CH19 出展重點\nT-16 出展 ／ 新刊合本 **『MOFU MOFU PARADISE』** (A5 / 右翻 / 膠裝 / 40P / 一般向、 漫畫+插圖+小說、 鐘嵐珠 × 三船栞子、 NT 200、 5 作家合著: WASTE-MAN、 U魂、 八重洲、 マヨ、 某波) ／ 印量調查 5/19 締切 ／ 後續 通販予定\n- 出處: [場前宣傳](https://www.facebook.com/share/p/1BFDKmnPrn/) / [毛絨絨合本 詳細](https://www.facebook.com/share/p/1LvNcHWQLT/)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/4.jpg",
+        "display_locked": false
+      }
+    ],
     "_meta_scrape": {
       "platform_used": "fb",
       "image_count_avail": 6,
