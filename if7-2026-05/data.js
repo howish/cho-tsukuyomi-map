@@ -3563,7 +3563,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "melon2943",
     "x_url": "https://x.com/melon2943",
-    "body": "## 📝 作家お品書き / まとめ post\n> 五月百翁在U30『太呱章了』有出攤\n有讓菟子老師寄攤 出的是超時空輝耀姬的本 有興趣的可以填一下印調喔！\nhttps://t.co/wcs1IGlJjK\n\n[出典 post](https://x.com/i/status/2050434901770686787)\n\n\n## 📝 CH19 出展ハイライト\n5月 百合 Only (CH19) 出展、菟子老師 寄攤 ／ 出すのは **超時空輝耀姫** の本\n- [印量調查](https://x.com/melon2943)",
+    "body": "## 📝 作家お品書き / まとめ post\n> 五月百翁在U30『太呱章了』有出攤\n有讓菟子老師寄攤 出的是超時空輝耀姬的本 有興趣的可以填一下印調喔！\nhttps://t.co/wcs1IGlJjK\n\n[出典 post](https://x.com/i/status/2050434901770686787)\n\n\n## 📝 CH19 出展ハイライト\n5月 百合 Only (CH19) 出展、菟子老師 寄攤 ／ 出すのは **超時空輝耀姫** の本\n- [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM)",
     "tags": {
       "super-kaguya": true
     },
