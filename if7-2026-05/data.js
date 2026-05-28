@@ -3110,16 +3110,6 @@ window.BOOTHS = [
         "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/3.jpg",
         "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DX6nHNQkwKd/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DX6nHNQkwKd/1.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
