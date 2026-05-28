@@ -18,7 +18,7 @@ window.I18N_STRINGS = {
 
     // Disclaimer
     disclaimer_html_prefix: '🍃 <strong>非公式 fan guide</strong> ／ 公式情報は ',
-    disclaimer_html_suffix: ' 参照。 サークル情報は各作家の X 投稿より引用、誤りや更新は X リンクから原ポストでご確認ください。',
+    disclaimer_html_suffix: ' 参照。 サークル情報は各作家の SNS 公開ポスト (X / Threads / Plurk / FB / IG / Bsky 等) より集約、 誤りや更新は出典 link から原ポストでご確認ください。',
 
     // Footer
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
@@ -26,7 +26,7 @@ window.I18N_STRINGS = {
     footer_repo_html: '情報誤り・新規追加：<a href="{url}" target="_blank" rel="noopener">GitHub repo</a> に PR / Issue 歓迎<br>',
     footer_guide_label: 'サークルガイド',
     footer_intro_html: '🌙 <strong>{eventName} {guideLabel}</strong> — 非公式 fan guide<br>',
-    footer_source_line: '情報は各サークル作家の X 公開ポストから集約、表紙画像は X CDN リンク (画像クリックで X 投稿で原寸表示)<br>',
+    footer_source_line: '情報は各サークル作家の SNS 公開ポスト (X / Threads / Plurk / FB / IG / Bsky 等) から集約、 表紙画像は 各 SNS の CDN 又は R2 rehost (画像クリックで原ポストへ)<br>',
 
     // Header chrome (buttons in index.html)
     share_btn: '🔗 このサイトを共有',
@@ -37,7 +37,7 @@ window.I18N_STRINGS = {
     offline_btn_ready: '✅ オフライン対応 ON (タップで OFF)',
     offline_btn_unsupported: '📵 オフライン非対応',
     offline_status_caching_start: '{count} 件のファイルをダウンロード中... (画像が多いので 1-2 分かかる場合あり)',
-    offline_status_partial: '{done} 件キャッシュ完了 ({failed} 件失敗 — X CDN の一部が hot-link block 中の可能性あり)',
+    offline_status_partial: '{done} 件キャッシュ完了 ({failed} 件失敗 — 一部 CDN が hot-link block 中の可能性あり)',
     offline_status_full: '全 {done} 件キャッシュ完了 — 圏外でも利用可能🌿',
     offline_status_cleared: 'オフラインキャッシュを削除しました',
     offline_status_error: 'エラー: {message}',
@@ -93,7 +93,7 @@ window.I18N_STRINGS = {
     venue_map_alt: '会場マップ',
 
     // Filters
-    search_placeholder: 'サークル名 / 作家 / X / ブース ID 検索...',
+    search_placeholder: 'サークル名 / 作家 / SNS handle / ブース ID 検索...',
     search_clear_aria: '検索クリア',
     filter_cp_label: 'CP',
     filter_tag_label: 'タグ',
@@ -124,7 +124,7 @@ window.I18N_STRINGS = {
     modal_followers: '{n} followers',
     modal_fav_on: '★ お気に入り済',
     modal_fav_off: '☆ お気に入り追加',
-    modal_x_link: '🔗 X で開く (お品書き原典)',
+    modal_x_link: '🔗 原ポストで開く (お品書き原典)',
     modal_open_label: '🔗 {source} で開く',
     modal_source_x: 'X',
     modal_source_plurk: 'Plurk',
@@ -134,14 +134,14 @@ window.I18N_STRINGS = {
     modal_source_doujin_tw: 'doujin.com.tw',
     modal_source_aggregator: 'リンク集',
     modal_source_generic: '原典',
-    modal_warn_source_title: '出典 tweet を開く',
+    modal_warn_source_title: '出典 post を開く',
     modal_close_bottom: '✕ 閉じる',
     modal_close_aria: '閉じる',
     modal_alts_heading: '同じブースの他メンバー',
 
     // Cover carousel
     cover_img_alt: 'お品書き / 表紙 {i}/{n}',
-    cover_load_failed: '🔗 画像読み込み失敗 — X 投稿で確認 →',
+    cover_load_failed: '🔗 画像読み込み失敗 — 原ポストで確認 →',
     carousel_hint: '← 横にスワイプで全 {n} 枚 →',
 
     // Misc
@@ -157,14 +157,14 @@ window.I18N_STRINGS = {
     info_separator: '／',
 
     disclaimer_html_prefix: '🍃 <strong>非官方 fan guide</strong>／官方資訊請參考 ',
-    disclaimer_html_suffix: ' 。攤位資訊引用自各作者的 X 推文，更正或更新請從 X 連結至原推文確認。',
+    disclaimer_html_suffix: ' 。攤位資訊聚合自各作者的 SNS 公開貼文 (X / Threads / Plurk / FB / IG / Bsky 等)，更正或更新請從出處連結至原貼文確認。',
 
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
     footer_build_date: '／{date}',
     footer_repo_html: '資訊錯誤・新增請洽：<a href="{url}" target="_blank" rel="noopener">GitHub repo</a> PR / Issue 歡迎<br>',
     footer_guide_label: '攤位指南',
     footer_intro_html: '🌙 <strong>{eventName} {guideLabel}</strong> — 非官方 fan guide<br>',
-    footer_source_line: '資訊聚合自各圈作者的 X 公開推文，封面圖像為 X CDN 連結（點擊圖片可在 X 推文中查看原始尺寸）<br>',
+    footer_source_line: '資訊聚合自各圈作者的 SNS 公開貼文 (X / Threads / Plurk / FB / IG / Bsky 等)，封面圖像為各 SNS CDN 或 R2 rehost（點擊圖片可至原貼文查看原始尺寸）<br>',
 
     share_btn: '🔗 分享此網站',
     share_btn_copied: '✅ 已複製連結',
@@ -174,7 +174,7 @@ window.I18N_STRINGS = {
     offline_btn_ready: '✅ 離線模式 ON（點擊關閉）',
     offline_btn_unsupported: '📵 不支援離線',
     offline_status_caching_start: '正在下載 {count} 個檔案…（圖片較多，可能需要 1-2 分鐘）',
-    offline_status_partial: '已快取 {done} 個檔案（{failed} 個失敗 — X CDN 部分可能 hot-link block 中）',
+    offline_status_partial: '已快取 {done} 個檔案（{failed} 個失敗 — 部分 CDN 可能 hot-link block 中）',
     offline_status_full: '全部 {done} 個檔案快取完成 — 離線可用🌿',
     offline_status_cleared: '已刪除離線快取',
     offline_status_error: '錯誤：{message}',
@@ -227,7 +227,7 @@ window.I18N_STRINGS = {
     map_section_title: '會場地圖',
     venue_map_alt: '會場地圖',
 
-    search_placeholder: '圈名 / 作者 / X / 攤位 ID 搜尋…',
+    search_placeholder: '圈名 / 作者 / SNS / 攤位 ID 搜尋…',
     search_clear_aria: '清除搜尋',
     filter_cp_label: 'CP',
     filter_tag_label: '標籤',
@@ -255,7 +255,7 @@ window.I18N_STRINGS = {
     modal_followers: '{n} followers',
     modal_fav_on: '★ 已收藏',
     modal_fav_off: '☆ 加入收藏',
-    modal_x_link: '🔗 在 X 開啟（攤位品書原典）',
+    modal_x_link: '🔗 開啟原貼文（攤位品書原典）',
     modal_open_label: '🔗 在 {source} 開啟',
     modal_source_x: 'X',
     modal_source_plurk: 'Plurk',
@@ -265,13 +265,13 @@ window.I18N_STRINGS = {
     modal_source_doujin_tw: 'doujin.com.tw',
     modal_source_aggregator: '聚合連結頁',
     modal_source_generic: '原始連結',
-    modal_warn_source_title: '開啟出處推文',
+    modal_warn_source_title: '開啟出處貼文',
     modal_close_bottom: '✕ 關閉',
     modal_close_aria: '關閉',
     modal_alts_heading: '同攤位其他成員',
 
     cover_img_alt: '攤位品書 / 封面 {i}/{n}',
-    cover_load_failed: '🔗 圖片載入失敗 — 請至 X 推文確認 →',
+    cover_load_failed: '🔗 圖片載入失敗 — 請至原貼文確認 →',
     carousel_hint: '← 左右滑動瀏覽全部 {n} 張 →',
 
     back_to_top_aria: '回到頂端',
