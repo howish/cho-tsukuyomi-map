@@ -1661,7 +1661,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/na.zhi.lu/",
-    "body": "## 📝 CH19 出展重點\nS-43/44 出展 ／ 3 本新刊 (時間順):\n- **『8000回目の春』** (A5/24P/黑白漫畫)\n- **『水葬の陽』** (A5/24P/黑白漫畫)\n- **『遠雷のみぞ知る』**\n- 出處 (時間順): [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
+    "body": "## 📝 CH19 出展重點\nS-43/44 出展 ／ 3 本新刊 (時間順):\n- **『8000回目の春』** (A5/24P/黑白漫畫、 超時空輝耀姬 二創 — 封面標示 \"Cosmic Princess Kaguya unofficial fanbook\")\n- **『水葬の陽』** (A5/24P/黑白漫畫、 魔法少女的魔女審判 二創、 桜羽エマ×二階堂ヒロ — 封面標示 \"MAGICAL GIRL & WITCH TRIALS\")\n- **『遠雷のみぞ知る』**\n- 出處 (時間順): [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
