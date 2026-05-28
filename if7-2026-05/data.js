@@ -3169,6 +3169,51 @@ window.BOOTHS = [
     ]
   },
   {
+    "booth_id": "U-03",
+    "circle_name": "鴨子塗鴉",
+    "author": "王家豪",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/MrFBA2/",
+    "body": "- 新刊 **『淪迴明月』** (燈祥 / A5 / 22P / 黑白 / NT 200)\n- 加印 **『昨日雨』** (燈祥)\n\n**CP**: 燈祥\n\n🔗 Facebook: [MrFBA2](https://www.facebook.com/MrFBA2/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/4.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [
+        "燈祥"
+      ],
+      "has_ch19_post": false
+    }
+  },
+  {
     "booth_id": "U-21/22",
     "circle_name": "日初翱祥-陌千",
     "author": "",
