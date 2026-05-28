@@ -3019,7 +3019,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tentaclespet/",
-    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/tentaclespet/](https://www.facebook.com/tentaclespet/)\n\n## 📝 CH19 出展重點\n寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime)): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- [Threads post](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
+    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/tentaclespet/](https://www.facebook.com/tentaclespet/)\n\n## 📝 CH19 出展重點\n寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3109,6 +3109,16 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DX6nHNQkwKd/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DX6nHNQkwKd/1.jpg",
         "display_locked": false
       }
     ],
