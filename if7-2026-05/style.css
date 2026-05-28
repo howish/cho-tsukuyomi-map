@@ -381,13 +381,20 @@ section {
   background: #fff;
   border: 1px solid #c47b00;
   border-radius: 6px;
-  padding: 0.5rem 0.55rem 0.5rem;
+  padding: 0.5rem 0.55rem;
   box-shadow: 0 4px 14px rgba(0,0,0,0.18);
   z-index: 100;
   min-width: 170px;
   max-width: 240px;
+  max-height: 70vh;
+  overflow-y: auto;
   font-size: 0.85rem;
   color: #2a2a2a;
+  cursor: pointer;
+  transition: box-shadow 0.12s;
+}
+.map-popup:hover {
+  box-shadow: 0 6px 18px rgba(196, 123, 0, 0.3);
 }
 .map-popup .popup-id {
   font-weight: 700;
@@ -407,37 +414,36 @@ section {
 .map-popup .popup-thumb {
   display: block;
   width: 100%;
-  max-height: 90px;
-  object-fit: cover;
+  height: auto;
   border-radius: 4px;
-  margin: 0.25rem 0 0.4rem;
+  margin: 0.3rem 0 0.15rem;
   background: #f5efe2;
 }
-.map-popup .popup-go {
-  background: #ffd84a;
-  border: 1px solid #c47b00;
-  padding: 0.32rem 0.7rem;
+.map-popup .popup-no-thumb {
+  display: block;
+  padding: 0.4rem 0.5rem;
+  margin: 0.3rem 0 0.15rem;
+  background: #fff7d6;
+  border: 1px dashed #c47b00;
   border-radius: 4px;
-  cursor: pointer;
-  font-weight: 600;
-  width: 100%;
-  font-size: 0.82rem;
-  color: #2a2a2a;
+  color: #6a4c93;
+  font-size: 0.78rem;
+  text-align: center;
 }
-.map-popup .popup-go:hover { background: #f0c93f; }
 .map-popup .popup-close {
   position: absolute;
   top: 1px;
   right: 4px;
-  background: none;
+  background: rgba(255,255,255,0.85);
   border: none;
   cursor: pointer;
   color: #888;
   font-size: 1.1rem;
-  padding: 0 0.2rem;
+  padding: 0 0.3rem;
   line-height: 1;
+  border-radius: 3px;
 }
-.map-popup .popup-close:hover { color: #2a2a2a; }
+.map-popup .popup-close:hover { color: #2a2a2a; background: #fff; }
 
 @keyframes booth-pulse {
   0%   { box-shadow: 0 0 0 0 rgba(255, 216, 74, 0.0); transform: scale(1); }

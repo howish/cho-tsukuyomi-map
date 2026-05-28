@@ -984,25 +984,9 @@
       activeMapPopup = null;
     }
   }
-  function scrollAndPulseBooth(boothId) {
-    let card = document.querySelector('.booth-card[data-booth-id="' + boothId + '"]');
-    if (!card) return;
-    if (card.style.display === 'none') {
-      // Clear filters + search so the target card is visible.
-      activeFilters.clear();
-      currentSearch = '';
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      const allBtn = document.querySelector('.filter-btn[data-filter="all"]');
-      if (allBtn) allBtn.classList.add('active');
-      const searchInput = document.getElementById('search-input');
-      if (searchInput) searchInput.value = '';
-      applyFilters();
-    }
-    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    card.classList.remove('pulse');
-    void card.offsetWidth;  // force reflow for animation restart
-    card.classList.add('pulse');
-    setTimeout(() => card.classList.remove('pulse'), 1500);
+  function openBoothDetail(boothId) {
+    const b = booths.find(x => x.booth_id === boothId);
+    if (b) openModal(b);
   }
   function showMapPopup(boothId, ev) {
     dismissMapPopup();
@@ -1015,26 +999,34 @@
     const thumbUrl = firstCover ? (typeof firstCover === 'string' ? firstCover : (firstCover.display_url || firstCover.source_url)) : '';
     const popup = document.createElement('div');
     popup.className = 'map-popup';
+    popup.setAttribute('role', 'button');
+    popup.setAttribute('tabindex', '0');
     popup.innerHTML =
       '<button class="popup-close" type="button" aria-label="' + escapeAttr(T('popup_close_label')) + '">×</button>' +
       '<div class="popup-id">' + escapeHtml(b.booth_id) + '</div>' +
       '<div class="popup-name">' + escapeHtml(b.circle_name || '?') + '</div>' +
       (b.author ? '<div class="popup-author">' + escapeHtml(b.author) + '</div>' : '') +
-      (thumbUrl ? '<img class="popup-thumb" src="' + escapeAttr(thumbUrl) + '" alt="" loading="lazy">' : '') +
-      '<button class="popup-go" type="button">' + (T('popup_go_to_card') || '詳しく見る →') + '</button>';
+      (thumbUrl
+        ? '<img class="popup-thumb" src="' + escapeAttr(thumbUrl) + '" alt="" loading="lazy">'
+        : '<div class="popup-no-thumb">' + escapeHtml(T('popup_go_to_card')) + '</div>');
     // Position near click, clamped to the wrap.
     const x = ev.clientX - wrapRect.left;
     const y = ev.clientY - wrapRect.top;
-    const popupW = 220, popupH = 180;
+    const popupW = 240, popupH = 240;
     popup.style.left = Math.max(4, Math.min(x + 10, wrapRect.width - popupW)) + 'px';
     popup.style.top  = Math.max(4, Math.min(y + 10, wrapRect.height - popupH)) + 'px';
     wrap.appendChild(popup);
     activeMapPopup = popup;
-    popup.querySelector('.popup-close').addEventListener('click', dismissMapPopup);
-    popup.querySelector('.popup-go').addEventListener('click', () => {
+    // Close button: dismiss only, don't trigger scroll.
+    popup.querySelector('.popup-close').addEventListener('click', (e) => {
+      e.stopPropagation();
+      dismissMapPopup();
+    });
+    // Whole popup body click → open the booth detail modal.
+    popup.addEventListener('click', () => {
       const id = boothId;
       dismissMapPopup();
-      scrollAndPulseBooth(id);
+      openBoothDetail(id);
     });
   }
   // Click delegation on the SVG (capture-target rects only).
