@@ -4115,5 +4115,28 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     }
+  },
+  {
+    "booth_id": "W-33",
+    "circle_name": "Cathy Kao",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/cathy.kao.35/",
+    "body": "## 📝 CH19 出展重點\n0530 創集繪 & 偶像大師 ONLY 出展 ／ 新品: 立牌 + 吊飾 ／ 明信片 + 貼紙 = 舊物 OR 當天無料/贈品 ／ 週五晚預計公布特別企劃\n- [原 FB post (品書)](https://www.facebook.com/share/p/1EXf5N3Pn6/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1EXf5N3Pn6/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-33/share-1EXf5N3Pn6/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
   }
 ];
