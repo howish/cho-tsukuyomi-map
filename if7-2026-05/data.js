@@ -2953,6 +2953,11 @@ window.BOOTHS = [
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/bsky-3mmsnh3zat22u/1.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -3075,7 +3080,18 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq2yu8lsy",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-41/plurk-3iq2yu8lsy/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2yu8lsy",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-41/plurk-3iq2yu8lsy/1.jpg",
+        "display_locked": false
+      }
+    ],
     "cps": [
       "iroka"
     ],
