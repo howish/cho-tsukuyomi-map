@@ -2188,7 +2188,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/61573677164059/",
-    "body": "- BanG Dream! It's MyGO!!!!!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/61573677164059/](https://www.facebook.com/61573677164059/)",
+    "body": "- BanG Dream! It's MyGO!!!!!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/61573677164059/](https://www.facebook.com/61573677164059/)\n\n## 📝 CH19 出展重點\nT-07/08 出展 ／ 新品 **森亞露露卡 立牌** ／ 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組) ／ 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2198,6 +2198,11 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/people/%E7%B4%A1%E6%98%9F%E7%A4%BE/61573677164059/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1JaUMyJD6c/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/share-1JaUMyJD6c/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -2250,7 +2255,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61558258981354",
-    "body": "- gbc\n- BanG Dream!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/profile.php?id=61558258981354](https://www.facebook.com/profile.php?id=61558258981354)",
+    "body": "- gbc\n- BanG Dream!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/profile.php?id=61558258981354](https://www.facebook.com/profile.php?id=61558258981354)\n\n## 📝 CH19 出展重點\nT-10 出展 ／ 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200) ／ 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150) ／ 立牌 約12cm 各 NT 100 ／ 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2265,6 +2270,86 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/people/%E6%82%B6%E9%A8%B7%E7%9A%84%E7%9B%A4%E5%AD%90/61558258981354/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/3.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CfRSG5nVj/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CfRSG5nVj/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/8.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/9.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/10.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/11.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/12.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CmqGYBWoV/13.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -2496,7 +2581,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yetsubody",
-    "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yetsubody](https://www.facebook.com/yetsubody)",
+    "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yetsubody](https://www.facebook.com/yetsubody)\n\n## 📝 CH19 出展重點\nT-17 出展 ／ 新刊 **『初祥塗鴉本 Vol.2』** (NT 50) ／ FF46 新刊 **壓克力套組** (NT 400) ／ **『三角初華觀察日記』** (NT 200) ／ Aver荠祥 既刊套組 (NT 200) ／ FGO 迦摩 推し 套組 (NT 300) ／ 既刊單品 NT 50-200 ／ 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2511,6 +2596,26 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/yetsubody",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/2.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/share-18qmi9sFM8/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/share-18qmi9sFM8/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/share-18qmi9sFM8/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/share-18qmi9sFM8/3.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
