@@ -201,10 +201,12 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/KARASoshigata",
-    "body": "- 原創\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/KARASoshigata](https://www.facebook.com/KARASoshigata)",
+    "body": "## 📝 CH19 出展重點\nS-01 出展 ／ 突發新刊 **彩葉 R-18 本** (= 超時空輝耀姬 二創) ／ Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
     "tags": {
       "original": true,
-      "yuri-zone": true
+      "yuri-zone": true,
+      "super-kaguya": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
