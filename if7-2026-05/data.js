@@ -808,11 +808,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/luo.luo.153160",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/2.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX8_weXjxmP/0.jpg",
         "display_locked": false
@@ -1112,16 +1107,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/0.jpg",
-        "display_locked": true
-      },
-      {
-        "source_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/1.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.plurk.com/p/3ipx7pzgz4",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-25/plurk-3ipx7pzgz4/0.jpg",
         "display_locked": false
@@ -1300,30 +1285,6 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://pbs.twimg.com/media/HJPiqQobEAAa3gl.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJPiqQobEAAa3gl.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HJOoCo5aAAAPX9i.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJOoCo5aAAAPX9i.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HJFu2Lba0AAG6Wk.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJFu2Lba0AAG6Wk.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HJHaNE1aMAAGLx-.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJHaNE1aMAAGLx-.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HJHNdBOboAAc5kz.png",
-        "display_url": "https://pbs.twimg.com/media/HJHNdBOboAAc5kz.png"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HJHM73NawAATFAu.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJHM73NawAATFAu.jpg"
-      },
       {
         "source_url": "https://x.com/i/status/2056919703663288489",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/x-2056919703663288489/0.jpg",
@@ -1601,16 +1562,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/maoyuue",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/0.jpg",
-        "display_locked": true
-      },
-      {
-        "source_url": "https://www.facebook.com/maoyuue",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/2.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/0.jpg",
         "display_locked": false
@@ -1690,10 +1641,6 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://img.portaly.cc/HHIVEWh-c1r53lRVFpCFiMZyr9egmFlhqLwwi7TIDaI/rs:fill:1200/q:90/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vRkRuQVdHSGVNRkJjTzRXWXRVTHYlMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPWJjNTQ3Y2YyLWU1ZDktNGEzNC04ZWY0LTIwMGMxZGU2YWZhZA",
-        "display_url": "https://img.portaly.cc/HHIVEWh-c1r53lRVFpCFiMZyr9egmFlhqLwwi7TIDaI/rs:fill:1200/q:90/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vRkRuQVdHSGVNRkJjTzRXWXRVTHYlMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPWJjNTQ3Y2YyLWU1ZDktNGEzNC04ZWY0LTIwMGMxZGU2YWZhZA"
-      },
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYOKUOJiTL8",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYOKUOJiTL8/0.webp",
