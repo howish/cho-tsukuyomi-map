@@ -248,7 +248,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
-    "body": "- 原創-快樂老鼠\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/li.chun.ba.ba.da.xia/](https://www.facebook.com/li.chun.ba.ba.da.xia/)",
+    "body": "- 原創-快樂老鼠\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/li.chun.ba.ba.da.xia/](https://www.facebook.com/li.chun.ba.ba.da.xia/)\n\n## 📝 CH19 出展重點\nS-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -259,7 +259,38 @@ window.BOOTHS = [
       "image_count_avail": 0,
       "commerce_count_avail": 0
     },
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/5.jpg",
+        "display_locked": false
+      }
+    ],
     "group": "S-[02,06]"
   },
   {
@@ -384,7 +415,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/witlhgti",
-    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/witlhgti](https://lit.link/zh-tw/witlhgti)",
+    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/witlhgti](https://lit.link/zh-tw/witlhgti)\n\n## 📝 CH19 出展重點\n新刊 (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん)\n- [原 tweet](https://x.com/i/status/2059913890855813128)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -394,6 +425,26 @@ window.BOOTHS = [
       {
         "source_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg",
         "display_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg"
+      },
+      {
+        "source_url": "https://x.com/i/status/2059913890855813128",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059913890855813128",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059913890855813128",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059913890855813128",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/3.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -444,7 +495,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/loveliver0827",
-    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n**專區**: 百合\n\n🔗 Plurk: [loveliver0827](https://www.plurk.com/loveliver0827)",
+    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n**專區**: 百合\n\n🔗 Plurk: [loveliver0827](https://www.plurk.com/loveliver0827)\n\n## 📝 CH19 出展重點\nS07 出展 ／ 新刊 **maruhime 本** (原創百合、 Maru × Hime、 冬の物語)\n- [原 plurk post](https://www.plurk.com/p/3iq6cbcsgl)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -455,7 +506,13 @@ window.BOOTHS = [
       "image_count_avail": 0,
       "commerce_count_avail": 0
     },
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq6cbcsgl",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-07/plurk-3iq6cbcsgl/0.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "S-08",
