@@ -423,10 +423,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg",
-        "display_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg"
-      },
-      {
         "source_url": "https://x.com/i/status/2059913890855813128",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/0.jpg",
         "display_locked": false
@@ -445,6 +441,10 @@ window.BOOTHS = [
         "source_url": "https://x.com/i/status/2059913890855813128",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/3.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg",
+        "display_url": "https://prd.storage.lit.link/images/creators/acded1cf-dac3-4fe4-ad09-420473b6741f/ogp/ogp_image.jpg"
       }
     ],
     "_meta_scrape": {
@@ -808,6 +808,41 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/6.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX8_weXjxmP/0.jpg",
         "display_locked": false
@@ -885,141 +920,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX1avnIma2-",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX1avnIma2-/8.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/2.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/3.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/4.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/5.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18umHpHj9h/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18umHpHj9h/6.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/2.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/3.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/4.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/5.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/6.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/7.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/8.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/9.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/2.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/3.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/4.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/5.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/6.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/7.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/8.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/9.jpg",
         "display_locked": false
       }
     ],
@@ -1742,6 +1642,11 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/0.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYOKUOJiTL8",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYOKUOJiTL8/0.webp",
         "display_locked": false
@@ -1769,56 +1674,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYWu3BOAoDf",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYWu3BOAoDf/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/2.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/3.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/4.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/5.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/6.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/7.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/8.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Gv773LkRC/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-40/share-1Gv773LkRC/9.jpg",
         "display_locked": false
       }
     ],
@@ -2634,6 +2489,11 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.facebook.com/share/p/1BFDKmnPrn/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1BFDKmnPrn/0.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/0.jpg",
         "display_locked": false
@@ -2656,11 +2516,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1LvNcHWQLT/4.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1BFDKmnPrn/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1BFDKmnPrn/0.jpg",
         "display_locked": false
       }
     ],
