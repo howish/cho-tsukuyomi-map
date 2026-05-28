@@ -2589,7 +2589,7 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/share/p/18uLDiwcrv/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/share-18uLDiwcrv/0.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/share-18uLDiwcrv/v2/0.jpg",
         "display_locked": false
       }
     ],

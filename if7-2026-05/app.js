@@ -1146,17 +1146,21 @@
           lines.push('');
         }
         if (it.edit.cover_urls !== undefined) {
-          // Emit one block per cover. Show source on the first line; if the
-          // display is locked custom, surface it as "display: <url> [locked]".
-          // Blank/auto displays render as "display: (auto)" so the maintainer
-          // knows the pipeline owns that row.
+          // Emit one block per cover: source on line 1, display URL on
+          // line 2 with a [locked] / [auto] / [pending] marker. The
+          // display URL is the per-entry identity — without it, two
+          // entries that share a source URL (eg an album with multiple
+          // images) become indistinguishable in the diff and the
+          // maintainer can't tell which one was kept vs dropped.
+          //   [locked]  → custom-pinned, pipeline must not overwrite
+          //   [auto]    → display_url present, pipeline may regenerate
+          //   [pending] → display_url null, awaiting pipeline upload
           const fmtCover = (p) => {
-            if (typeof p === 'string') return [p, '  display: (auto)'];
+            if (typeof p === 'string') return [p, '  display: ' + p + ' [auto]'];
             const src = p.source_url || p.display_url || '';
-            if (p.display_locked) {
-              return [src, '  display: ' + (p.display_url || '') + ' [locked]'];
-            }
-            return [src, '  display: (auto)'];
+            const d = p.display_url || '';
+            const tag = p.display_locked ? '[locked]' : (d ? '[auto]' : '[pending]');
+            return [src, '  display: ' + (d || '(pending)') + ' ' + tag];
           };
           lines.push('### ' + T('edit_submission_images_before'));
           lines.push('```');
