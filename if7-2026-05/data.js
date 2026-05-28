@@ -1307,7 +1307,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/r_bish",
-    "body": "## 📝 CH19 出展重點\nS-33/34 出展 (與 yuanrong1999 合攤) ／ clothk61554 + dabadaba0 寄攤\n- [原 post](https://www.plurk.com/p/3ipstkx7oh)",
+    "body": "## 📝 CH19 出展重點\nS-33/34 出展 (與 yuanrong1999 合攤) ／ clothk61554 + dabadaba0 寄攤\n- [原 post](https://www.plurk.com/p/3ipstkx7oh)\n\n## 📝 CH19 出展重點\n寄攤 (蕭媛容 / 紙屑): 既刊中心 + 高松燈簽繪板預定\n- [原 FB post](https://www.facebook.com/share/p/1Y4RLou66P/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1346,6 +1346,11 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/mx_2AVaGlDmilQGwOP2bUBEnE.jpg",
         "display_url": "https://images.plurk.com/mx_2AVaGlDmilQGwOP2bUBEnE.jpg"
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Y4RLou66P/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-33_34/share-1Y4RLou66P/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -2344,7 +2349,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kun.salamander.3/",
-    "body": "- MyGO!!!!!\n- AveMujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/kun.salamander.3/](https://www.facebook.com/kun.salamander.3/)",
+    "body": "- MyGO!!!!!\n- AveMujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/kun.salamander.3/](https://www.facebook.com/kun.salamander.3/)\n\n## 📝 CH19 出展重點\n新刊「喝酒女同新刊」 (拯救學姊 即將完成)\n- [原 FB post](https://www.facebook.com/share/p/1CjXUyhmK2/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2354,6 +2359,11 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/kun.salamander.3",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1CjXUyhmK2/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/share-1CjXUyhmK2/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -2872,7 +2882,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tentaclespet/",
-    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/tentaclespet/](https://www.facebook.com/tentaclespet/)",
+    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/tentaclespet/](https://www.facebook.com/tentaclespet/)\n\n## 📝 CH19 出展重點\n寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -2937,6 +2947,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@cemamildewing/post/DUcpzpZkZxj",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DUcpzpZkZxj/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1EptQghttr/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/share-1EptQghttr/0.jpg",
         "display_locked": false
       }
     ],
@@ -3221,7 +3236,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Irene309w/",
-    "body": "## 📝 CH19 出展重點\nT-43/44 出展 ／ 圖示外 既刊 + 合本 = 少量帶來 (看運氣、 預購已售約半數以上) ／ 新刊 優先\n- [原 post (持込預定)](https://www.plurk.com/p/3ipiymms0h)",
+    "body": "## 📝 CH19 出展重點\nT-43/44 出展 ／ 圖示外 既刊 + 合本 = 少量帶來 (看運氣、 預購已售約半數以上) ／ 新刊 優先\n- [原 post (帶來預定)](https://www.plurk.com/p/3ipiymms0h)",
     "tags": {
       "original": true,
       "goudou": true,
@@ -3754,6 +3769,351 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
+    }
+  },
+  {
+    "booth_id": "W-12",
+    "circle_name": "IDOL MaX",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61583559591571",
+    "body": "## 📝 CH19 出展重點\n偶像大師系列 PT ONLY — ROCO 與 ??? 11cm 雙面壓克力立牌 NT 250 / 5款 15×10 插圖明信片 NT 30 / 角色生日透卡 NT 100 / 滿 NT 100 送神奇小卡 (MLTD 玩家會懂)\n- [原 FB post](https://www.facebook.com/share/p/1bkqyGhcRW/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1bkqyGhcRW/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-12/share-1bkqyGhcRW/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "Y-07/08",
+    "circle_name": "士雷 shirai",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/100072024726/",
+    "body": "## 📝 CH19 出展重點\n新品 **名探偵プリキュア 森亜るるか** — るるか T 恤 / 彩窗大立牌 / るるか塔羅牌 ／ 彩窗背景 + 塔羅牌構圖 為主力設計\n- [原 FB post](https://www.facebook.com/share/p/1QDzhmngKR/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1QDzhmngKR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-07_08/share-1QDzhmngKR/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "K-23",
+    "circle_name": "做我的蠢糗大萌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/marikuforever/",
+    "body": "## 📝 CH19 出展重點\n新品 **MHA** ／ 交換禮儀提醒: 完整包裝零食 + 一定量以上 (1-2 顆糖果不接受)\n- [原 FB post](https://www.facebook.com/share/p/1B6WxRSggd/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1B6WxRSggd/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-23/share-1B6WxRSggd/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "W-37/38",
+    "circle_name": "椰子喵咖啡屋 (Rumie Chen)",
+    "author": "Rumie Chen",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/shadowsinkincoffee/",
+    "body": "## 📝 CH19 出展重點\n新品多種 (詳細品書菜單) ／ FF46 學偶品項也會在攤位上 ／ 通販因 **輝耀姬關聯** 場後一併開放 (DC 群組會告知)\n- [原 FB post](https://www.facebook.com/share/p/1CiXqyS7Uq/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1CiXqyS7Uq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-37_38/share-1CiXqyS7Uq/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "N-02",
+    "circle_name": "大眾澡堂",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yuyudesu0806/",
+    "body": "## 📝 CH19 出展重點\nN-02 出展 ／ 卡片印量調查 plurk 進行中 (link 在回覆欄)\n- [原 FB post](https://www.facebook.com/share/p/1BHm2tJNmR/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1BHm2tJNmR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-02/share-1BHm2tJNmR/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "O-37/38",
+    "circle_name": "不作夢的食夢貘 (Xiang Yin 庠隱)",
+    "author": "Xiang Yin 庠隱",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/xiangyinwork/",
+    "body": "## 📝 CH19 出展重點\n原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18VK1GBTLw/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/share-18VK1GBTLw/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "K-10",
+    "circle_name": "索緋 (顧攤 helper)",
+    "author": "顧攤 helper",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/blackrosetwc/",
+    "body": "## 📝 CH19 出展重點\n親友 K10 攤位顧攤 ／ 帶來: 魔戒洛汗人之戰 — 赫拉公主外出服 ver. (有窗的可能、 窗時換為公主正裝 OR 藤真) ／ 刊物試閱在回覆欄\n- [原 FB post](https://www.facebook.com/share/p/18r8jkSKW2/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18r8jkSKW2/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-10/share-18r8jkSKW2/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "V-26",
+    "circle_name": "bbibinbing",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/bbibinbingART/",
+    "body": "## 📝 CH19 出展重點\nVW10 VOCALOID 專區 ／ #BangDream\n- [原 FB post](https://www.facebook.com/share/p/19UVpJ2rtc/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/19UVpJ2rtc/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-26/share-19UVpJ2rtc/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "Y-03/04",
+    "circle_name": "蒼銀之星",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/aokihoshi/",
+    "body": "## 📝 CH19 出展重點\n阿烏拉 (Aoura) 5月最終加班 ／ FGO\n- [原 FB post](https://www.facebook.com/share/p/1K18K4HJmx/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1K18K4HJmx/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-03_04/share-1K18K4HJmx/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "V-07/08",
+    "circle_name": "全糖雞蛋卷x楓黎",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/fengliart520/",
+    "body": "## 📝 CH19 出展重點\nVW10 VOCALOID — **咪哭 (Miku) 中心** ／ 拍立得剩少量、 賣完後將推出新規 咪哭\n- [原 FB post](https://www.facebook.com/share/p/1ChhNi6NB2/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1ChhNi6NB2/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-07_08/share-1ChhNi6NB2/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "Y-01",
+    "circle_name": "骨頭Bone",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/BoneYong/",
+    "body": "## 📝 CH19 出展重點\nY01 角攤 ／ 攤上有骨頭人 ／ 當日不便到場另有網路通販 ([骨頭買動漫](https://shopee.tw/))\n- [原 FB post](https://www.facebook.com/share/p/1BcXLb1U8b/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1BcXLb1U8b/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-01/share-1BcXLb1U8b/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "V-28",
+    "circle_name": "田中水草",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/almn.sk.page/",
+    "body": "## 📝 CH19 出展重點\n新品: 魔法未來 2026 立牌 + 明信片 ／ 也有新的無料印章\n- [原 FB post](https://www.facebook.com/share/p/1C7oaAxPBn/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1C7oaAxPBn/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-28/share-1C7oaAxPBn/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "U-07/08",
+    "circle_name": "櫻羽艾瑪會側手翻3.0",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/615853064360/",
+    "body": "## 📝 CH19 出展重點\nU07/08 出展確認 ／ 花博爭艷館見\n- [原 FB post](https://www.facebook.com/share/p/1DTJeTpsc6/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1DTJeTpsc6/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-07_08/share-1DTJeTpsc6/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "P-21/22",
+    "circle_name": "夜貓館咖啡屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yamyoukan/",
+    "body": "## 📝 CH19 出展重點\nP-21/22 出展 ／ #夜貓館咖啡屋 #墨事典 #blazewu #KUBA #窄巷 #亖亖 #SNOWVEGA #PUMP #貓\n- [原 FB post](https://www.facebook.com/share/p/1JkrqmXqkr/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1JkrqmXqkr/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-21_22/share-1JkrqmXqkr/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    }
+  },
+  {
+    "booth_id": "P-12",
+    "circle_name": "超級同人大戰 SDW",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/superdoujinwar/",
+    "body": "## 📝 CH19 出展重點\nP12 出展 ／ 現場購買套組有優惠價 ／ 另有 [LINE 貼圖](https://line.me/S/sticker/34176425)\n- [原 FB post](https://www.facebook.com/share/p/18Yf1Qgwa4/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18Yf1Qgwa4/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-12/share-18Yf1Qgwa4/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
     }
   }
 ];
