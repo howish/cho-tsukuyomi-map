@@ -992,7 +992,10 @@
     dismissMapPopup();
     const b = booths.find(x => x.booth_id === boothId);
     if (!b) return;
-    const wrap = document.querySelector('.map-overlay-wrap');
+    // Anchor the popup to the zoom viewport (not the scaled wrap) so it
+    // stays at normal size and doesn't translate with the map.
+    const wrap = document.getElementById('map-zoom-viewport') ||
+                 document.querySelector('.map-overlay-wrap');
     if (!wrap) return;
     const wrapRect = wrap.getBoundingClientRect();
     const firstCover = (b.cover_urls || [])[0];
@@ -1050,6 +1053,148 @@
 
   renderClickTargets();
   applyFilters();
+
+  // Map zoom — inline pinch / Ctrl+wheel + drag pan. The viewport clips
+  // the transformed wrap; click-targets continue to work because they
+  // live inside the transformed element (SVG scales with it). To keep
+  // booth click reliable, any drag that crosses a small movement
+  // threshold swallows the synthetic click on release.
+  (function setupMapZoom() {
+    const viewport = document.getElementById('map-zoom-viewport');
+    const wrap = viewport && viewport.querySelector('.map-overlay-wrap');
+    const resetBtn = document.getElementById('map-zoom-reset');
+    const hint = document.getElementById('map-zoom-hint');
+    if (!viewport || !wrap) return;
+    const MIN_SCALE = 1, MAX_SCALE = 6, EPS = 0.005;
+    const z = { scale: 1, tx: 0, ty: 0 };
+
+    function clampPan() {
+      const vw = viewport.clientWidth, vh = viewport.clientHeight;
+      const sw = wrap.offsetWidth * z.scale;
+      const sh = wrap.offsetHeight * z.scale;
+      if (sw <= vw) z.tx = (vw - sw) / 2;
+      else z.tx = Math.max(vw - sw, Math.min(0, z.tx));
+      if (sh <= vh) z.ty = (vh - sh) / 2;
+      else z.ty = Math.max(vh - sh, Math.min(0, z.ty));
+    }
+    function apply() {
+      wrap.style.transform = `translate(${z.tx}px, ${z.ty}px) scale(${z.scale})`;
+      const zoomed = z.scale > 1 + EPS;
+      wrap.classList.toggle('zoomed', zoomed);
+      if (resetBtn) resetBtn.hidden = !zoomed;
+      if (hint) hint.classList.toggle('hidden', zoomed);
+    }
+    function zoomAt(newScale, px, py) {
+      newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, newScale));
+      // World point under cursor at current zoom
+      const wx = (px - z.tx) / z.scale;
+      const wy = (py - z.ty) / z.scale;
+      z.scale = newScale;
+      z.tx = px - wx * newScale;
+      z.ty = py - wy * newScale;
+      clampPan();
+      apply();
+    }
+    function reset() { z.scale = 1; z.tx = 0; z.ty = 0; apply(); }
+    if (resetBtn) resetBtn.addEventListener('click', reset);
+
+    // Wheel zoom — require modifier (Ctrl/Cmd) so we don't hijack page scroll.
+    viewport.addEventListener('wheel', (e) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      const rect = viewport.getBoundingClientRect();
+      const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
+      zoomAt(z.scale * factor, e.clientX - rect.left, e.clientY - rect.top);
+    }, { passive: false });
+
+    // Touch handlers — pinch zoom + single-finger pan when zoomed in.
+    // Track movement so we can suppress the booth-popup click on release.
+    let t = null;
+    function viewportPoint(clientX, clientY) {
+      const rect = viewport.getBoundingClientRect();
+      return [clientX - rect.left, clientY - rect.top];
+    }
+    viewport.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 2) {
+        const a = e.touches[0], b = e.touches[1];
+        const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+        t = { mode: 'pinch', startDist: dist, startScale: z.scale,
+              cx: (a.clientX + b.clientX) / 2, cy: (a.clientY + b.clientY) / 2,
+              moved: true };
+      } else if (e.touches.length === 1 && z.scale > 1 + EPS) {
+        const a = e.touches[0];
+        t = { mode: 'pan', startX: a.clientX, startY: a.clientY,
+              startTx: z.tx, startTy: z.ty, moved: false };
+      } else {
+        t = null;
+      }
+    }, { passive: true });
+    viewport.addEventListener('touchmove', (e) => {
+      if (!t) return;
+      if (t.mode === 'pinch' && e.touches.length === 2) {
+        e.preventDefault();
+        const a = e.touches[0], b = e.touches[1];
+        const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+        const [px, py] = viewportPoint(t.cx, t.cy);
+        zoomAt(t.startScale * (dist / t.startDist), px, py);
+      } else if (t.mode === 'pan' && e.touches.length === 1) {
+        const a = e.touches[0];
+        const dx = a.clientX - t.startX, dy = a.clientY - t.startY;
+        if (Math.abs(dx) > 4 || Math.abs(dy) > 4) {
+          t.moved = true;
+          e.preventDefault();
+          z.tx = t.startTx + dx;
+          z.ty = t.startTy + dy;
+          clampPan();
+          apply();
+        }
+      }
+    }, { passive: false });
+    viewport.addEventListener('touchend', () => {
+      // Swallow the synthetic click that follows a pan / pinch.
+      if (t && t.moved) {
+        const swallow = (ev) => { ev.stopPropagation(); };
+        viewport.addEventListener('click', swallow, { capture: true, once: true });
+      }
+      t = null;
+    });
+
+    // Mouse drag (when zoomed). Only react to primary button.
+    let drag = null;
+    viewport.addEventListener('pointerdown', (e) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      if (z.scale <= 1 + EPS) return;
+      drag = { startX: e.clientX, startY: e.clientY,
+               startTx: z.tx, startTy: z.ty, moved: false };
+      try { viewport.setPointerCapture(e.pointerId); } catch (_) {}
+      wrap.classList.add('dragging');
+    });
+    viewport.addEventListener('pointermove', (e) => {
+      if (!drag) return;
+      const dx = e.clientX - drag.startX, dy = e.clientY - drag.startY;
+      if (!drag.moved && (Math.abs(dx) > 3 || Math.abs(dy) > 3)) drag.moved = true;
+      if (drag.moved) {
+        z.tx = drag.startTx + dx;
+        z.ty = drag.startTy + dy;
+        clampPan();
+        apply();
+      }
+    });
+    viewport.addEventListener('pointerup', (e) => {
+      if (!drag) return;
+      if (drag.moved) {
+        const swallow = (ev) => { ev.stopPropagation(); };
+        viewport.addEventListener('click', swallow, { capture: true, once: true });
+      }
+      wrap.classList.remove('dragging');
+      try { viewport.releasePointerCapture(e.pointerId); } catch (_) {}
+      drag = null;
+    });
+
+    apply();
+    // Re-clamp on viewport resize.
+    window.addEventListener('resize', () => { clampPan(); apply(); });
+  })();
 
   function handleFilterClick(btn) {
     const f = btn.dataset.filter;
