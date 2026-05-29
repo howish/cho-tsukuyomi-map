@@ -628,13 +628,18 @@
     const photos = rawCovers.map(p => (typeof p === 'string')
       ? { source_url: p, display_url: p }
       : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
-    if (photos.length) {
+    // Holder for the carousel area — populated below for view mode, and
+    // re-rendered in edit mode whenever rowsState mutates so overlay
+    // controls reflect pending order/deletion.
+    const carouselHolder = el('div', { class: 'cover-carousel-holder' });
+    body.appendChild(carouselHolder);
+    function renderViewCarousel() {
+      carouselHolder.textContent = '';
+      if (!photos.length) return;
       const carousel = el('div', { class: 'cover-carousel' });
       photos.forEach((p, i) => {
         const display = p.display_url || p.source_url;
         const source  = p.source_url  || p.display_url;
-        // pbs.twimg.com supports ?name=small for thumbnail variant; other
-        // CDNs ignore the param so leave them alone.
         const thumbUrl = /\?name=/.test(display)
           ? display.replace(/\?name=[^&]+/, '?name=small')
           : (/pbs\.twimg\.com/.test(display) ? display + '?name=small' : display);
@@ -656,11 +661,13 @@
         coverLink.appendChild(img);
         carousel.appendChild(coverLink);
       });
-      body.appendChild(carousel);
+      carouselHolder.appendChild(carousel);
       if (photos.length > 1) {
-        body.appendChild(el('p', { class: 'carousel-hint' }, T('carousel_hint', { n: photos.length })));
+        carouselHolder.appendChild(el('p', { class: 'carousel-hint' }, T('carousel_hint', { n: photos.length })));
       }
     }
+    // For view mode: render now. For edit mode: will be replaced below.
+    renderViewCarousel();
 
     const bodyDiv = el('div', { class: 'modal-body-md' });
     if (editMode && editMode.isEnabled) {
@@ -718,20 +725,134 @@
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
 
-      // --- Images editor (per-row UI) ---
-      // Each cover is one card with source input + display input +
-      // explicit lock toggle + remove button. Lock toggle distinguishes:
+      // --- Images editor ---
+      // Primary UI: overlay controls on the carousel itself (◀/▶ reorder,
+      // × delete, [i/N] index) for one-tap mobile editing.
+      // Advanced (collapsed by default): per-cover row form with source/display
+      // URL inputs + explicit lock toggle. Lock toggle distinguishes:
       //   - 🔓 auto: pipeline can regenerate display_url if source changes
       //   - 🔒 locked: pipeline never overwrites display_url
-      // Display field can be blank (= pipeline will fill on next run).
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
       bodyDiv.appendChild(imgLabel);
 
       const origCovers = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
       const origSnapshot = JSON.stringify(origCovers);
 
+      // Wrap row UI in <details> so the rich URL/lock fields are accessible
+      // but out of the way by default. Mobile users do most ordering on the
+      // overlay carousel; advanced URL surgery goes here.
+      const advancedDetails = el('details', { class: 'edit-images-advanced' });
+      const advancedSummary = el('summary', { class: 'edit-images-advanced-summary' }, T('edit_images_advanced_summary'));
+      advancedDetails.appendChild(advancedSummary);
+
       const imgList = el('div', { class: 'edit-images-list' });
       const rowsState = [];
+
+      // --- Overlay carousel render ---
+      // Mirrors rowsState. Each slide gets ◀ × ▶ overlays + [i/N] index.
+      // Re-rendered on any mutation so the user always sees current order.
+      function renderEditCarousel() {
+        carouselHolder.textContent = '';
+        const carousel = el('div', { class: 'cover-carousel cover-carousel-edit' });
+        if (!rowsState.length) {
+          carousel.appendChild(el('div', { class: 'cover-slide cover-slide-edit' },
+            el('p', { class: 'edit-images-empty' }, T('edit_images_empty'))));
+        }
+        rowsState.forEach((s, i) => {
+          const display = (s.dispInput && s.dispInput.value.trim()) || (s.srcInput && s.srcInput.value.trim()) || '';
+          const thumbUrl = display && /\?name=/.test(display)
+            ? display.replace(/\?name=[^&]+/, '?name=small')
+            : (display && /pbs\.twimg\.com/.test(display) ? display + '?name=small' : display);
+          const slide = el('div', { class: 'cover-slide cover-slide-edit' });
+          const frame = el('div', { class: 'cover-edit-frame' });
+          if (thumbUrl) {
+            const img = el('img', {
+              src: thumbUrl,
+              alt: T('cover_img_alt', { i: i + 1, n: rowsState.length }),
+              class: 'cover-img', loading: i === 0 ? 'eager' : 'lazy',
+              referrerpolicy: 'no-referrer',
+            });
+            img.addEventListener('error', () => {
+              const fallback = el('div', { class: 'cover-fallback' }, T('cover_load_failed'));
+              frame.replaceChild(fallback, img);
+            });
+            frame.appendChild(img);
+          } else {
+            frame.appendChild(el('div', { class: 'cover-edit-empty-thumb' }, T('edit_images_empty_thumb')));
+          }
+          // Overlay: index + delete (top corners)
+          const idxBadge = el('span', { class: 'cover-edit-idx' }, `${i + 1}/${rowsState.length}`);
+          frame.appendChild(idxBadge);
+          const delBtn = el('button', {
+            type: 'button', class: 'cover-edit-del',
+            title: T('edit_image_remove'), 'aria-label': T('edit_image_remove'),
+          }, '×');
+          delBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx < 0) return;
+            rowsState.splice(idx, 1);
+            s.row.remove();
+            refreshIndices();
+            renderEditCarousel();
+          });
+          frame.appendChild(delBtn);
+          // Overlay: ◀ ▶ reorder (edge buttons, hidden when not applicable)
+          const leftBtn = el('button', {
+            type: 'button', class: 'cover-edit-arrow cover-edit-arrow-left',
+            title: T('edit_image_move_left_tooltip'), 'aria-label': T('edit_image_move_left_tooltip'),
+          }, '◀');
+          if (i === 0) leftBtn.disabled = true;
+          leftBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx <= 0) return;
+            [rowsState[idx - 1], rowsState[idx]] = [rowsState[idx], rowsState[idx - 1]];
+            imgList.insertBefore(s.row, rowsState[idx].row);
+            refreshIndices();
+            renderEditCarousel();
+          });
+          const rightBtn = el('button', {
+            type: 'button', class: 'cover-edit-arrow cover-edit-arrow-right',
+            title: T('edit_image_move_right_tooltip'), 'aria-label': T('edit_image_move_right_tooltip'),
+          }, '▶');
+          if (i >= rowsState.length - 1) rightBtn.disabled = true;
+          rightBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx < 0 || idx >= rowsState.length - 1) return;
+            [rowsState[idx], rowsState[idx + 1]] = [rowsState[idx + 1], rowsState[idx]];
+            imgList.insertBefore(rowsState[idx].row, s.row);
+            refreshIndices();
+            renderEditCarousel();
+          });
+          frame.appendChild(leftBtn);
+          frame.appendChild(rightBtn);
+          slide.appendChild(frame);
+          carousel.appendChild(slide);
+        });
+        // Trailing "+ add" slide
+        const addSlide = el('div', { class: 'cover-slide cover-slide-edit cover-slide-add' });
+        const addInner = el('button', {
+          type: 'button', class: 'cover-edit-add-slide',
+          title: T('edit_image_add'), 'aria-label': T('edit_image_add'),
+        }, '+');
+        addInner.addEventListener('click', () => {
+          const cov = { source_url: '', display_url: '', display_locked: false };
+          const s = makeRow(cov);
+          rowsState.push(s);
+          imgList.appendChild(s.row);
+          refreshIndices();
+          renderEditCarousel();
+          // Open advanced section so user can paste URL into the new row
+          advancedDetails.open = true;
+          if (s.srcInput) s.srcInput.focus();
+        });
+        addSlide.appendChild(addInner);
+        carousel.appendChild(addSlide);
+        carouselHolder.appendChild(carousel);
+        carouselHolder.appendChild(el('p', { class: 'carousel-hint' }, T('edit_carousel_hint')));
+      }
       // Tracks the row currently being dragged. Module-level closure so all
       // rows share visibility; reset on dragend or successful drop.
       let draggingState = null;
@@ -859,6 +980,13 @@
           placeholder: T('edit_display_placeholder'),
         });
         state.dispInput.value = cover.display_url || '';
+        // Live-refresh the overlay carousel thumbnail when URL fields change.
+        const refreshCarouselDebounced = (() => {
+          let t = null;
+          return () => { if (t) clearTimeout(t); t = setTimeout(renderEditCarousel, 350); };
+        })();
+        state.srcInput.addEventListener('input', refreshCarouselDebounced);
+        state.dispInput.addEventListener('input', refreshCarouselDebounced);
         state.lockBtn = el('button', { type: 'button', class: 'edit-images-lock-btn', title: T('edit_image_lock_tooltip') });
         function refreshLockBtn() {
           state.lockBtn.textContent = state.locked ? T('edit_image_lock_locked') : T('edit_image_lock_auto');
@@ -883,7 +1011,7 @@
         imgList.appendChild(s.row);
       });
       refreshIndices();
-      bodyDiv.appendChild(imgList);
+      advancedDetails.appendChild(imgList);
 
       const addBtn = el('button', { type: 'button', class: 'edit-images-add-btn' }, T('edit_image_add'));
       addBtn.addEventListener('click', () => {
@@ -891,9 +1019,14 @@
         rowsState.push(s);
         imgList.appendChild(s.row);
         refreshIndices();
+        renderEditCarousel();
         s.srcInput.focus();
       });
-      bodyDiv.appendChild(addBtn);
+      advancedDetails.appendChild(addBtn);
+      bodyDiv.appendChild(advancedDetails);
+
+      // Initial overlay carousel render (replaces the view-mode carousel).
+      renderEditCarousel();
 
       const imgActionRow = el('div', { class: 'edit-action-row' });
       const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
@@ -935,6 +1068,7 @@
           imgList.appendChild(s.row);
         });
         refreshIndices();
+        renderEditCarousel();
         const existing = editMode.getPending(b.booth_id) || {};
         delete existing.cover_urls; delete existing.original_cover_urls;
         if (existing.body === undefined) editMode.clearPending(b.booth_id);
