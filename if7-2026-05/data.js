@@ -711,14 +711,20 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://blossoming-faded.blog/",
-    "body": "- 原創-再生花\n- 原創-以愛之名\n- 死亡愛麗絲同人小說-正義のゾウフ\n\n**專區**: 百合\n\n🔗 出處: [https://blossoming-faded.blog/](https://blossoming-faded.blog/)",
+    "body": "- 原創-再生花\n- 原創-以愛之名\n- 死亡愛麗絲同人小說-正義のゾウフ\n\n**專區**: 百合\n\n🔗 出處: [https://blossoming-faded.blog/](https://blossoming-faded.blog/)\n\n## 📝 CH19 出展重點\nS-13/14 出展 (雪緞 / Vivian、 IG [@blossoming.faded](https://www.instagram.com/blossoming.faded/)) ／ 当日は小幫手固定坐攤 ／ R18 GL 小說 再版 2 種:\n\n- **『再生花』** 再版 (小說 + 2 篇加筆 + 5P 插圖、 B6 / 200P、 NTD 200、 套裝 (色紙 + 書籤) NTD 250)\n- **『以愛之名』** 再版 (R18 GL 小說、 B6 / 頁數要相違)\n\nテーマ: SINoALICE 同人 (正義のゾウフ) + 原創百合 ／ R18 ID 驗證必要 (2008/5/30 以前 出生) ／ 通販: [linktr.ee/blossoming.faded](https://linktr.ee/blossoming.faded)\n- [IF07 品書宣傳 IG post](https://www.instagram.com/blossoming.faded/p/DYbipjgk17k/) / [blog 全文](https://blossoming-faded.blog/archives/526)",
     "tags": {
       "original": true,
       "novel": true,
-      "yuri-zone": true
+      "yuri-zone": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.instagram.com/blossoming.faded/p/DYbipjgk17k/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-13_14/ig-DYbipjgk17k/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/0.jpg",
@@ -1687,12 +1693,18 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://bsky.app/profile/taboom002.bsky.social",
-    "body": "- 莉可麗絲\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/taboom002.bsky.social](https://bsky.app/profile/taboom002.bsky.social)",
+    "body": "- 莉可麗絲\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/taboom002.bsky.social](https://bsky.app/profile/taboom002.bsky.social) ／ Threads: [@taboom002](https://www.threads.com/@taboom002)\n\n## 📝 CH19 出展重點\nS-41 出展 (塔邦棒棒 @taboom002) ／ 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200) ／ 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
     "tags": {
-      "yuri-zone": true
+      "yuri-zone": true,
+      "super-kaguya": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@taboom002/post/DY4nxPwj8c5",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-41/threads-DY4nxPwj8c5/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.threads.com/@taboom002/post/DYKK9yaj1Pr",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-41/threads-DYKK9yaj1Pr/0.jpg",
