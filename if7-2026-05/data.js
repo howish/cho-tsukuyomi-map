@@ -10298,9 +10298,14 @@ window.BOOTHS = [
         "platform": "booth_pm",
         "handle": "BOOTH",
         "url": "https://interweave.booth.pm/"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@夜夢ND",
+        "url": "https://www.plurk.com/p/3ipsk965nk"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 (蓮メリ / 蓮子×梅莉) — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 (ドレサグ / 鷺貘) — 合本 (插畫/漫畫/小說混合) / NT 300 / 合本作者群: Nowhere, 夜夢ND, ラプトル7, 伊諾, 暮春\n\n出處參照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足參照)",
+    "body": "## 📝 IF7 出展重點\n\n本場無新刊 — 內容同去年百合 ONLY (新刊期待下次例大祭) ([source](https://www.plurk.com/p/3ipsk965nk))\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 (蓮メリ / 蓮子×梅莉) — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 (ドレサグ / 鷺貘) — 合本 (插畫/漫畫/小說混合) / NT 300 / 合本作者群: Nowhere, 夜夢ND, ラプトル7, 伊諾, 暮春\n\n出處參照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足參照)",
     "tags": {
       "touhou": true,
       "manga": true,
@@ -10308,7 +10313,13 @@ window.BOOTHS = [
       "goudou": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3ipsk965nk",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-30/plurk-3ipsk965nk/0.png",
+        "display_locked": false
+      }
+    ],
     "group": "T-[29,30]",
     "area": "百合"
   },
