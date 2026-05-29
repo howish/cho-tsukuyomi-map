@@ -6864,12 +6864,18 @@ window.BOOTHS = [
         "url": "https://twitter.com/witlhgti"
       }
     ],
-    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n## 📝 CH19 出展重點\n- 新刊 ([『上伊那ぼたん、酔へる姿は百合の花』](https://x.com/i/status/2059913890855813128) 二創、 上伊那ぼたん)",
+    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n## 📝 CH19 出展重點\n- 新刊 [**『台灣有事!!』**](https://www.facebook.com/share/p/1HZhbgsr89/) — 『上伊那ぼたん、酔へる姿は百合の花』 二創 / A5 / 黑白 / 10P 小冊 / NT 100\n- 既刊 **『證件快照機生存指南』** (A5/黑白/28P / NT 200) + **『魔女的坩堝不加石榴花』** 1/2 + **『世界末日』** 系列 (各 NT 200)\n- 現場簽繪版予定\n- (本人主畫原創、 張景嵐 二創會繼續一段時間)\n- 出處: [品書 post (1HZhbgsr89)](https://www.facebook.com/share/p/1HZhbgsr89/) / [上伊那ぼたん 二創 tweet](https://x.com/i/status/2059913890855813128)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1HZhbgsr89/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/share-1HZhbgsr89/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2059913890855813128",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/x-2059913890855813128/0.jpg",
@@ -8580,13 +8586,19 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/na.zhi.lu/"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- S-43/44 出展 ／ 3 本新刊 (時間順):\n  - **『8000回目的春天』** (A5/24P/黑白漫畫、 超時空輝耀姬 二創)\n  - **『水葬之陽』** (A5/24P/黑白漫畫、 魔法少女的魔女審判 二創、 桜羽エマ × 二階堂ヒロ)\n  - **『遠雷之下方知』** (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん × 礪波いぶき)\n- 出處 (時間順): [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
+    "body": "## 📝 CH19 出展重點\n- S-43/44 出展 ／ 3 本新刊 (全 A5 / 16P / NT 200):\n  - **『8000回目の春』** — 超時空輝耀姬 二創 / SF百合\n  - **『水葬の陽』** — 魔法少女的魔女審判 二創 / 桜羽エマ × 二階堂ヒロ\n  - **『遠雷のみぞ知る』** — 『上伊那ぼたん、酔へる姿は百合の花』 二創 / 上伊那ぼたん × 礪波いぶき / タバコ × お酒\n- **場限定特典**: 購買『8000回目の春』+ 100元 → **A3 親簽海報** (350磅紙、 局部亮加工) / ⚠️ **一人限購三卷**\n- 海報實品較厚無法捲起、 來不及準備袋子、 介意可自備小袋\n- 既刊各 NT 200、 售完為止\n- 出處: [品書 post](https://www.facebook.com/share/p/1FzWT9pG12/) / [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
     "tags": {
       "super-kaguya": true,
-      "manga": true
+      "manga": true,
+      "free": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1FzWT9pG12/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1FzWT9pG12/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/1BsUeznjtC/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1BsUeznjtC/0.jpg",
@@ -9888,13 +9900,40 @@ window.BOOTHS = [
         "url": "https://x.com/ManMadeRain"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊 **蔚藍檔案 星野 × 陽奈 學園交流會 漫畫** + 奧利斯 小隊 周邊 + 原創 **[『Unlimited Rematch』](https://x.com/i/status/2058528483870224652)** ／ 同場 S03 booth 上衣那牡丹 retweet 支持",
+    "body": "## 📝 CH19 出展重點\n\n**新刊** (原創百合):\n- [**『Unlimited Rematch』**](https://www.facebook.com/share/p/1Sd2tWR2Ap/) — B5 / 24P / 黑白 / 一般向 / NT 200\n\n**新周邊** (蔚藍檔案 / 奧利斯小隊):\n- 壓克力懸掛吊飾 **星野陽奈 每日巡邏** (7.62×4cm + 5.08×5cm) — NT 300\n- 壓克力色紙 **奧利斯小隊 一個美好的未來** (15×10cm) — NT 300\n- 鎖匙圈 **奧利斯小隊 堅持住!** (5×5 + 6×6cm) — NT 300\n- 安穩的夜晚 (絨毛抽印 3.6×6.8cm) — NT 150\n- 好熱喔~ (壓克力立牌 7×4cm) — NT 300\n- 珍貴的回憶 (PVC 透光卡) — NT 150\n- 沙織數子 滿腦都是你 — NT 200\n\n**既刊** (蔚藍檔案 系列):\n- 『追尋星空的紀行』 (B5/32P/黑白/一般向) — NT 200\n- 『追尋星空的紀行 2』 (B5/46P/黑白/一般向) — NT 300\n- 『假如星野陽奈開始同居』 (B5/18P/黑白/一般向) — NT 150\n\n- 同場 S-03 booth 上衣那牡丹 retweet 支持\n- 出處: [品書 post (5 卡)](https://www.facebook.com/share/p/1Sd2tWR2Ap/) / [Unlimited Rematch 新刊 tweet](https://x.com/i/status/2058528483870224652)",
     "tags": {
       "original": true,
-      "manga": true
+      "manga": true,
+      "goods": true,
+      "blue-archive": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/4.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2058528483870224652",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-25_26/0.jpg",
