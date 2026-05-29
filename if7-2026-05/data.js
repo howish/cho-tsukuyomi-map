@@ -2070,12 +2070,17 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
-    "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/x_milllllla_x_nekohige](https://lit.link/zh-tw/x_milllllla_x_nekohige)\n\n## 📝 CH19 出展重點\nT-03 出展 (米拉 @x_milllllla_x + 鬍鬚 @nekohige0123 group) ／ **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可) ／ **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500) ／ 米拉 **喵祥喵BDSM本** + 明信片 / 認親卡 ／ **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150) ／ 簽繪板 競標予定 ／ 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處: [米拉 booth promo](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
+    "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/x_milllllla_x_nekohige](https://lit.link/zh-tw/x_milllllla_x_nekohige)\n\n## 📝 CH19 出展重點\nT-03 出展 (米拉 @x_milllllla_x + 鬍鬚 @nekohige0123 group) ／ 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片) ／ **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可) ／ **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500) ／ 米拉 喵祥喵BDSM 明信片 / 認親卡 ／ **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150) ／ 簽繪板 競標予定 ／ 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-03/threads-DY4ofgDDyPj/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-03/threads-DY4prjpj8r2/0.jpg",
