@@ -196,6 +196,7 @@
   function buildFilterButtons() {
     const cpRow = document.getElementById('filters-cp');
     const tagRow = document.getElementById('filters-tag');
+    const areaRow = document.getElementById('filters-area');
     if (cpRow) {
       (FILTERS.cps || []).forEach(c => {
         const btn = el('button', {
@@ -214,6 +215,16 @@
           title: t.title || t.label,
         }, `${t.icon} ${t.label}`);
         tagRow.appendChild(btn);
+      });
+    }
+    if (areaRow) {
+      (FILTERS.areas || []).forEach(a => {
+        const btn = el('button', {
+          class: 'filter-btn',
+          'data-filter': 'area:' + a.code,
+          title: a.title || a.label,
+        }, `${a.icon} ${a.label}`);
+        areaRow.appendChild(btn);
       });
     }
   }
@@ -279,6 +290,7 @@
       ...cps.map(c => 'cp:' + c),
       ...activeTags.map(t => 'tag:' + t),
     ];
+    if (b.area) filterTokens.push('area:' + b.area);
     const isFav = favs.has(b.booth_id);
     const card = el('div', {
       class: 'booth-card' + (isFav ? ' favored' : ''),

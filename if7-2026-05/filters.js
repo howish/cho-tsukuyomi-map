@@ -153,4 +153,15 @@ window.FILTERS_CONFIG = {
       pattern: "無網購|不開放網購|無通販|通販無し",
     },
   ],
+
+  // Area = the venue zone IF7 organisers assign per booth (綜合 / 百合 /
+  // VW / 偶大 / 特攤). Matched against booth.area as a separate filter
+  // category — distinct from CPs / themes / warnings.
+  areas: [
+    { code: "綜合", label: "綜合", icon: "🎪", title: "綜合 (一般 zone)" },
+    { code: "百合", label: "百合 Only", icon: "🌸", title: "百合 専區 (CH19 yuri Only)" },
+    { code: "VW", label: "VW Only", icon: "🎭", title: "VW (V/W) 専區" },
+    { code: "偶大", label: "偶大 Only", icon: "🎤", title: "學園偶像大師 専區" },
+    { code: "特攤", label: "特攤", icon: "✨", title: "特攤 (organiser-curated 特別 booth)" },
+  ],
 };

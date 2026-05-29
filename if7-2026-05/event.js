@@ -34,7 +34,7 @@ window.EVENT_CONFIG = {
 
   // Booth row prefixes — only the rows we actually populate (yuri S列 +
   // 超かぐや姫 dispersed across J/T/U/Y).
-  rows: ["S", "J", "T", "U", "Y"],
+  rows: ["特", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
 
   // Tag / CP filter codes to apply by default on first load (empty / unset
   // = no default, all booths shown). Used here so a fan landing for

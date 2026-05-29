@@ -18,6 +18,356 @@
  */
 window.BOOTHS = [
   {
+    "booth_id": "J-01/02",
+    "circle_name": "強迫症少年",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/FoxMoonOmu/",
+    "area": "綜合",
+    "body": "- Hazbin Hotel地獄旅館\n- 我的英雄學院\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "FoxMoonOmu",
+        "url": "https://www.facebook.com/FoxMoonOmu/"
+      }
+    ],
+    "cells": [
+      "J-01",
+      "J-02"
+    ]
+  },
+  {
+    "booth_id": "J-03",
+    "circle_name": "吉度中毒歐豆K",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
+    "area": "綜合",
+    "body": "- 變形金剛\n- 迷宮飯\n- 奧術",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-04",
+    "circle_name": "BIPO",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/grams35",
+    "area": "綜合",
+    "body": "- 電馭叛客：邊緣行者 Cyberpunk: Edgerunners",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/grams35"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-05",
+    "circle_name": "腐黑學",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/rbs2009",
+    "area": "綜合",
+    "body": "- 馴龍高手\n- CHRONOIR\n- 神力女超人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@rbs2009",
+        "url": "https://www.plurk.com/rbs2009"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-06",
+    "circle_name": "萬應室裡的下午茶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/erasertea/",
+    "area": "綜合",
+    "body": "- 原創-沒有賣早餐的早餐店\n- 哈利波特\n- 怪獸與牠們的產地",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@erasertea",
+        "url": "https://www.instagram.com/erasertea/"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-07",
+    "circle_name": "貓咪粗乃丸",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/dn269annie",
+    "area": "綜合",
+    "body": "- 馴龍高手\n- 原創 - 草履貓\n- 芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/dn269annie"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-08",
+    "circle_name": "回家日記",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/back_home_diary/?hl=zh-tw",
+    "area": "綜合",
+    "body": "- 原創-回家日記\n- 海賊王\n- DC 蝙蝠俠",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@back_home_diary",
+        "url": "https://www.instagram.com/back_home_diary/?hl=zh-tw"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-09",
+    "circle_name": "Good Omens 好預兆",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/good_omens.tw/://",
+    "area": "綜合",
+    "body": "- 原創-類金繼海洋飾品\n- 原創-類金繼海洋擺件\n- 原創-類金繼海洋畫作",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@good_omens.tw",
+        "url": "https://www.instagram.com/good_omens.tw/://"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-10",
+    "circle_name": "今夜漫長",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/lostsilence",
+    "area": "綜合",
+    "body": "- 捍衛戰士 TOP GUN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@lostsilence",
+        "url": "https://www.plurk.com/lostsilence"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-11",
+    "circle_name": "Prediction",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.pixiv.net/users/1181363",
+    "area": "綜合",
+    "body": "- 超級機器人大戰Y\n- 機動戰士Z鋼彈\n- 惡靈古堡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "pixiv",
+        "handle": "Pixiv 1181363",
+        "url": "https://www.pixiv.net/users/1181363"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-12",
+    "circle_name": "MP9999",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/mp9999",
+    "area": "綜合",
+    "body": "- 人中之龍\n- 東離劍遊紀\n- 魔戒/哈比人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@mp9999",
+        "url": "https://www.plurk.com/mp9999"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-13",
+    "circle_name": "叁拾顆南瓜",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ziv188622",
+    "area": "綜合",
+    "body": "- 捍衛戰士獨行俠\n- 黑豹\n- 防風少年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ziv188622",
+        "url": "https://www.plurk.com/ziv188622"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-14",
+    "circle_name": "紫玉藤花別館",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/liftrasa5",
+    "area": "綜合",
+    "body": "- 名偵探柯南\n- 排球少年\n- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/liftrasa5"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-15/16",
+    "circle_name": "魷刃有魚",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/u/kuriimuda",
+    "area": "綜合",
+    "body": "- 斯普拉遁(Splatoon)\n- 庫洛魔法使\n- Final Fantasy",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@kuriimuda",
+        "url": "https://www.plurk.com/u/kuriimuda"
+      }
+    ],
+    "cells": [
+      "J-15",
+      "J-16"
+    ]
+  },
+  {
+    "booth_id": "J-17",
+    "circle_name": "庫樓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/1507/goods",
+    "area": "綜合",
+    "body": "- FF14",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/1507/goods"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-18",
+    "circle_name": "FukamiShop",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/conk4",
+    "area": "綜合",
+    "body": "- 原創\n- FF14",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@conk4",
+        "url": "https://www.plurk.com/conk4"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-19",
+    "circle_name": "日落地平線",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/brac",
+    "area": "綜合",
+    "body": "- Young Justice\n- エリオスライジングヒーローズ",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/brac"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-20",
+    "circle_name": "喜歡小男孩就是風潮",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/rrrrrbu/",
+    "area": "綜合",
+    "body": "- A3!\n- 吊帶襪天使\n- 路人超能100",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "rrrrrbu",
+        "url": "https://www.facebook.com/rrrrrbu/"
+      }
+    ]
+  },
+  {
     "booth_id": "J-21",
     "circle_name": "月亮代表我的心",
     "author": "",
@@ -45,7 +395,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "J-22",
@@ -90,7 +441,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "J-23",
@@ -140,7 +492,8 @@ window.BOOTHS = [
         "iroyachi"
       ],
       "has_ch19_post": true
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "J-24",
@@ -174,7 +527,8 @@ window.BOOTHS = [
         "trio-sk"
       ],
       "has_ch19_post": true
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "J-25",
@@ -193,7 +547,5609 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "J-26",
+    "circle_name": "鮮蝦魚板",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/u/yu_882",
+    "area": "綜合",
+    "body": "- 孤獨搖滾\n- GIRLS BAND CRY\n- MYGO",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yu_882",
+        "url": "https://www.plurk.com/u/yu_882"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-27",
+    "circle_name": "海塩雪糕",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/seasalt_oc?igsh=MXFvaGQ4dHJubW1ocQ%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 我的英雄學院\n- Ave mujica\n- Mygo",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@seasalt_oc",
+        "url": "https://www.instagram.com/seasalt_oc?igsh=MXFvaGQ4dHJubW1ocQ%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-28",
+    "circle_name": "紫月",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
+    "area": "綜合",
+    "body": "- 世界大明星/world dai star/ユメステ\n- 原創-娜希×霞",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-29",
+    "circle_name": "紅豆真滷蛋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
+    "area": "綜合",
+    "body": "- 原創-花卉系列貼紙\n- 原創-兔子美食系列貼紙\n- 原創-迷你文學作品集",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/hoegg/goods"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-30",
+    "circle_name": "輝夜AI追夢椅",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/juatpass",
+    "area": "綜合",
+    "body": "- 魔法少女小圓",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@juatpass",
+        "url": "https://www.plurk.com/juatpass"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-31",
+    "circle_name": "粉紅泡泡小宇宙★",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/6995",
+    "area": "綜合",
+    "body": "- Wicked 魔法壞女巫\n- 庫洛魔法使\n- 美少女戰士",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/6995"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-32",
+    "circle_name": "布丁杯★",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hahu_paint/?hl=zh-tw",
+    "area": "綜合",
+    "body": "- 魔法壞女巫\n- 庫洛魔法使\n- 小魔女Do Re Mi",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hahu_paint",
+        "url": "https://www.instagram.com/hahu_paint/?hl=zh-tw"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-33/34",
+    "circle_name": "白夢夜空",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://instagram.com/shiroyu.store",
+    "area": "綜合",
+    "body": "- 真珠美人魚\n- 守護甜心",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@shiroyu.store",
+        "url": "https://instagram.com/shiroyu.store"
+      }
+    ],
+    "cells": [
+      "J-33",
+      "J-34"
+    ]
+  },
+  {
+    "booth_id": "J-35",
+    "circle_name": "XX畫廊-ARu art",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
+    "area": "綜合",
+    "body": "- 美少女戰士\n- 小魔女doremi\n- 少女革命",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "xxpainterroom",
+        "url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-36",
+    "circle_name": "Streamer Fairy Art",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/Streamer_Fairy_Art",
+    "area": "綜合",
+    "body": "- 美少女戰士\n- 夢幻遊戲\n- 愛天使傳說",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/Streamer_Fairy_Art"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-37",
+    "circle_name": "sailor b-612",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
+    "area": "綜合",
+    "body": "- 美少女戰士\n- 夢幻紳士\n- 葬送的芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-38",
+    "circle_name": "Twinkle",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/twinkle21_comic/?hl=zh-tw",
+    "area": "綜合",
+    "body": "- 守護甜心\n- 戀與深空\n- 庫洛魔法使",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@twinkle21_comic",
+        "url": "https://www.instagram.com/twinkle21_comic/?hl=zh-tw"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-39",
+    "circle_name": "櫻兔子的板男線",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/SRboss",
+    "area": "綜合",
+    "body": "- 鬼滅之刃\n- JOJO",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "SRboss",
+        "url": "https://www.facebook.com/SRboss"
+      }
+    ]
+  },
+  {
+    "booth_id": "J-40",
+    "circle_name": "房間工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/_inner_room",
+    "area": "綜合",
+    "body": "- 家庭教師\n- 戀與深空",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@_inner_room",
+        "url": "https://www.instagram.com/_inner_room"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-01",
+    "circle_name": "遠航冒險",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/newstone",
+    "area": "綜合",
+    "body": "- 新石紀",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@newstone",
+        "url": "https://www.plurk.com/newstone"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-02",
+    "circle_name": "薄荷巧克力",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
+    "area": "綜合",
+    "body": "- 忍者亂太郎\n- 原創漫畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-03",
+    "circle_name": "C.I.L.S Box",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/cilsbox/",
+    "area": "綜合",
+    "body": "- 轉生史萊姆\n- 初音\n- fgo",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "cilsbox",
+        "url": "https://www.facebook.com/cilsbox/"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-04",
+    "circle_name": "這世界充滿著愛",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/shentos",
+    "area": "綜合",
+    "body": "- 忍者亂太郎\n- 火影忍者\n- 哈利波特",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/shentos"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-05",
+    "circle_name": "汁星",
+    "author": "",
+    "x_handle": "",
+    "x_url": "http://www.plurk.com/kazA_A",
+    "area": "綜合",
+    "body": "- 新石紀\n- 幽遊白書\n- 獵人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@kazA_A",
+        "url": "http://www.plurk.com/kazA_A"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-06",
+    "circle_name": "晚安夜良",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/greenrivernight",
+    "area": "綜合",
+    "body": "- 我的英雄學院\n- Dr.STONE 新石紀\n- 原創-月刊卡哇伊娃包",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@greenrivernight",
+        "url": "https://www.plurk.com/greenrivernight"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-07",
+    "circle_name": "老問小問題",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/op7804620",
+    "area": "綜合",
+    "body": "- 我的英雄學院\n- 鬼滅之刃\n- 彩虹社Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/op7804620"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-08",
+    "circle_name": "利利皆心土",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/Mi_key",
+    "area": "綜合",
+    "body": "- 忍者亂太郎\n- 鬼太郎誕生 咯咯咯之謎",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@Mi_key",
+        "url": "https://www.plurk.com/Mi_key"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-09",
+    "circle_name": "歨歨悅神社",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/niansui623",
+    "area": "綜合",
+    "body": "- 原創-胎\n- 原創-動物\n- 忍者亂太郎",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@niansui623",
+        "url": "https://www.plurk.com/niansui623"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-10",
+    "circle_name": "索緋 (顧攤 helper)",
+    "author": "顧攤 helper",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/blackrosetwc/",
+    "body": "## 📝 CH19 出展重點\n- 親友 K10 攤位顧攤\n\n- 帶來: 魔戒洛汗人之戰 — 赫拉公主外出服 ver. (有窗的可能、 窗時換為公主正裝 OR 藤真)\n- 刊物試閱在回覆欄\n- [原 FB post](https://www.facebook.com/share/p/18r8jkSKW2/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18r8jkSKW2/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-10/share-18r8jkSKW2/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "K-11",
+    "circle_name": "Zoiri",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
+    "area": "綜合",
+    "body": "- 新石紀\n- VOCALOID",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1D2oqZA8kB/"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-12",
+    "circle_name": "カイミク同好會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/coffeefish_05",
+    "area": "綜合",
+    "body": "- Vocaloid\n- 初音未來\n- KAITO\n- 世界計畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@coffeefish_05",
+        "url": "https://x.com/coffeefish_05"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-13",
+    "circle_name": "糸中註定冴愛凛",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/irina_reichi?s=21&t=ta3wndQi8XJLfJQMLcekBw",
+    "area": "綜合",
+    "body": "- 藍色監獄",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@irina_reichi",
+        "url": "https://x.com/irina_reichi?s=21&t=ta3wndQi8XJLfJQMLcekBw"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-14",
+    "circle_name": "鹽昆布茶泡飯",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/SeRn1009",
+    "area": "綜合",
+    "body": "- 藍色監獄",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@SeRn1009",
+        "url": "https://www.plurk.com/SeRn1009"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-15",
+    "circle_name": "日照不足",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/inabatok",
+    "area": "綜合",
+    "body": "- 藍色監獄\n- MyGO!!!!!\n- 排球少年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/inabatok"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-16",
+    "circle_name": "薛丁格的水族箱",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/theice",
+    "area": "綜合",
+    "body": "- 鑽石王牌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/theice"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-17/18",
+    "circle_name": "落英之都",
+    "author": "",
+    "x_handle": "",
+    "x_url": "#",
+    "area": "綜合",
+    "body": "- 同人誌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "cells": [
+      "K-17",
+      "K-18"
+    ]
+  },
+  {
+    "booth_id": "K-19/20",
+    "circle_name": "葫蘆夏天hwulusummer",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://hwulu.com/",
+    "area": "綜合",
+    "body": "- 明日方舟\n- 排球",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://hwulu.com/"
+      }
+    ],
+    "cells": [
+      "K-19",
+      "K-20"
+    ]
+  },
+  {
+    "booth_id": "K-21",
+    "circle_name": "ONE DAY HERO",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/plusultra2026",
+    "area": "綜合",
+    "body": "- 我的英雄學園",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@plusultra2026",
+        "url": "https://www.plurk.com/plusultra2026"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-22",
+    "circle_name": "粉色甜點舖",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/chentina1022",
+    "area": "綜合",
+    "body": "- 魔法少女",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@chentina1022",
+        "url": "https://www.plurk.com/chentina1022"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-23",
+    "circle_name": "做我的蠢糗大萌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/marikuforever/",
+    "body": "## 📝 CH19 出展重點\n- 新品 [**MHA**](https://www.facebook.com/share/p/1B6WxRSggd/) ／ 交換禮儀提醒: 完整包裝零食 + 一定量以上 (1-2 顆糖果不接受)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1B6WxRSggd/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-23/share-1B6WxRSggd/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "K-24",
+    "circle_name": "黑鮪食堂",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/blacktuna/",
+    "area": "綜合",
+    "body": "- 間諜家家酒\n- 我的英雄學院\n- 入間同學入魔了！",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "blacktuna",
+        "url": "https://www.facebook.com/blacktuna/"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-25",
+    "circle_name": "環繞著土星的光環 ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/tama48849",
+    "area": "綜合",
+    "body": "- 妖怪手錶\n- 原神\n- 光之美少女",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "tama48849",
+        "url": "https://www.facebook.com/tama48849"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-26",
+    "circle_name": "微米手作工坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61554262122181",
+    "area": "綜合",
+    "body": "- 原神相關印象耳環、項鍊、吊飾\n- 排球少年相關印象耳環、項鍊、吊飾\n- 絕區零相關印象吊飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61554262…",
+        "url": "https://www.facebook.com/profile.php?id=61554262122181"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-27",
+    "circle_name": "砂鍋魚頭",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/stargazer233",
+    "area": "綜合",
+    "body": "- 東離周邊\n- 音樂劇\n- FF14",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@stargazer233",
+        "url": "https://www.plurk.com/stargazer233"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-28",
+    "circle_name": "鵺空",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/snipeyozora",
+    "area": "綜合",
+    "body": "- 原創-規格外速配\n- 東離劍遊紀\n- 活俠傳",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@snipeyozora",
+        "url": "https://www.plurk.com/snipeyozora"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-29",
+    "circle_name": "每天戳一句",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/shihchan",
+    "area": "綜合",
+    "body": "- 活俠傳",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/shihchan"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-30",
+    "circle_name": "白叶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ouo336",
+    "area": "綜合",
+    "body": "- 東籬劍遊紀布袋戲\n- 金光布袋戲",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ouo336",
+        "url": "https://www.facebook.com/ouo336"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-31",
+    "circle_name": "音之狂想曲",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
+    "area": "綜合",
+    "body": "- 地。關於地球的運動\n- 東離劍遊記\n- 原創-瑣愛",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-32",
+    "circle_name": "跟著鐵球跑",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/aliali_c",
+    "area": "綜合",
+    "body": "- 地 關於地球的運動\n- 一百公尺",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/aliali_c"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-33",
+    "circle_name": "JAkUtEn*",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/8694",
+    "area": "綜合",
+    "body": "- 刀劍亂舞\n- 排球少年\n- HOLOSTARS",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/8694"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-34",
+    "circle_name": "鰹鰹ㄉ煩惱星球",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/yanyan___777?igsh=NTZzeXcwZmwyZDMz",
+    "area": "綜合",
+    "body": "- 原創-貓貓狗狗圓滾滾\n- 排球少年\n- 鬼滅之刃",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@yanyan___777",
+        "url": "https://www.instagram.com/yanyan___777?igsh=NTZzeXcwZmwyZDMz"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-35",
+    "circle_name": "外星空想",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
+    "area": "綜合",
+    "body": "- 寶石之國\n- 普羅米亞\n- 原創 - Girls from Neverland",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/windstaryu/goods"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-36",
+    "circle_name": "米De加奶不加糖",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/a86872329",
+    "area": "綜合",
+    "body": "- 銀魂\n- 我的英雄學院\n- 海賊王",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@a86872329",
+        "url": "https://www.plurk.com/a86872329"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-37",
+    "circle_name": "Enzo與室友",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/enzo.zoldyck.tw/",
+    "area": "綜合",
+    "body": "- 我的英雄學院\n- 排球少年\n- 獵人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@enzo.zoldyck.tw",
+        "url": "https://www.instagram.com/enzo.zoldyck.tw/"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-38",
+    "circle_name": "厭世熊寶貝",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/rainnyafoi",
+    "area": "綜合",
+    "body": "- ONE PIECE 海賊王\n- blur 布勒合唱團\n- 英國樂團男",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/rainnyafoi"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-39",
+    "circle_name": "kikokako",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/kikokakok",
+    "area": "綜合",
+    "body": "- 航海王OnePiece\n- 銀魂",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@kikokakok",
+        "url": "https://www.plurk.com/kikokakok"
+      }
+    ]
+  },
+  {
+    "booth_id": "K-40",
+    "circle_name": "Rio.ouo哩喔",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ryuouo",
+    "area": "綜合",
+    "body": "- 原創-櫻桃萊姆果醬\n- 怪獸與牠門的產地",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ryuouo",
+        "url": "https://www.plurk.com/ryuouo"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-01",
+    "circle_name": "光明系同人女",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ooinn_arts",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ooinn_arts",
+        "url": "https://www.plurk.com/ooinn_arts"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-02",
+    "circle_name": "松鼠麵包",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/kaori0408",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/kaori0408"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-03",
+    "circle_name": "JO世主JO我一命",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/cwy.0316.joestar/",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "cwy.0316.joestar",
+        "url": "https://www.facebook.com/cwy.0316.joestar/"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-04",
+    "circle_name": "章魚燒要加海苔還是梅粉",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/tenseven_1777",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@tenseven_1777",
+        "url": "https://www.instagram.com/tenseven_1777"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-05",
+    "circle_name": "JO要划船",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/kawa_7128",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險\n- 路人超能100",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@kawa_7128",
+        "url": "https://www.plurk.com/kawa_7128"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-06",
+    "circle_name": "經費有限公司",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/han_adtw",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@han_adtw",
+        "url": "https://www.plurk.com/han_adtw"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-07",
+    "circle_name": "JO團花大錢",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://blandlove.weebly.com/",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險\n- 進擊的巨人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://blandlove.weebly.com/"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-08/09",
+    "circle_name": "喬魯諾巴巴大俠",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://bsky.app/profile/nginnk12.bsky.social",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險黃金之風",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "bsky",
+        "handle": "@nginnk12",
+        "url": "https://bsky.app/profile/nginnk12.bsky.social"
+      }
+    ],
+    "cells": [
+      "L-08",
+      "L-09"
+    ]
+  },
+  {
+    "booth_id": "L-10",
+    "circle_name": "喬魯諾巴巴大俠二號",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/u/sayoku",
+    "area": "綜合",
+    "body": "- JoJo的奇妙冒險-黃金之風",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@sayoku",
+        "url": "https://www.plurk.com/u/sayoku"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-11",
+    "circle_name": "SUNSUN",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/iamritai2001",
+    "area": "綜合",
+    "body": "- 刀劍亂舞\n- 排球",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@iamritai2001",
+        "url": "https://www.plurk.com/iamritai2001"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-12",
+    "circle_name": "KitsuneP.毛茸樂園",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/teamss_2018_foxskin068/",
+    "area": "綜合",
+    "body": "- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@teamss_2018_foxskin068",
+        "url": "https://www.instagram.com/teamss_2018_foxskin068/"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-13",
+    "circle_name": "喬公異旅 with shrimp emotions",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/hallucinogens",
+    "area": "綜合",
+    "body": "- JoJo的奇妙冒險-星辰遠征軍\n- JoJo的奇妙冒險-石之海\n- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@hallucinogens",
+        "url": "https://www.plurk.com/hallucinogens"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-14",
+    "circle_name": "怎麼沒有麥香魚",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/truemako21",
+    "area": "綜合",
+    "body": "- 原神\n- 鬼滅之刃\n- 真珠美人魚",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@truemako21",
+        "url": "https://www.plurk.com/truemako21"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-15/16",
+    "circle_name": "殘花寒香一杯飲",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://ed940930.wixsite.com/original",
+    "area": "綜合",
+    "body": "- 原創_手作\n- Vocaloid\n- Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "wix",
+        "handle": "",
+        "url": "https://ed940930.wixsite.com/original"
+      }
+    ],
+    "cells": [
+      "L-15",
+      "L-16"
+    ]
+  },
+  {
+    "booth_id": "L-17/18",
+    "circle_name": "分岔分岔",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/somepaet/",
+    "area": "綜合",
+    "body": "- 原創-《RGB》 cm和yk的非二元日常\n- 鏈鋸人-天使惡魔\n- 新世界狂歡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@somepaet",
+        "url": "https://www.instagram.com/somepaet/"
+      }
+    ],
+    "cells": [
+      "L-17",
+      "L-18"
+    ]
+  },
+  {
+    "booth_id": "L-19",
+    "circle_name": "LOVE BUZZ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/Synka",
+    "area": "綜合",
+    "body": "- GACHIAKUTA / enzn (恩贊)\n- Yellow Magic Orchestra (YMO) / RPS\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/Synka"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-20",
+    "circle_name": "C=C",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/x321k123",
+    "area": "綜合",
+    "body": "- ATEEZ\n- 桃源暗鬼",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@x321k123",
+        "url": "https://x.com/x321k123"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-21",
+    "circle_name": "月月子不在家",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ChristinStudio",
+    "area": "綜合",
+    "body": "- 葬送的芙莉蓮\n- 莉可麗絲\n- 庫洛魔法使",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ChristinStudio",
+        "url": "https://www.facebook.com/ChristinStudio"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-22",
+    "circle_name": "深海裡的大鯨魚",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/BlueWhale.s.art",
+    "area": "綜合",
+    "body": "- 原創-小鯨魚酷西\n- 棋魂（棋靈王）\n- 火影忍者",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "BlueWhale.s.art",
+        "url": "https://www.facebook.com/BlueWhale.s.art"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-23/24",
+    "circle_name": "SZKOBO袖子工作坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/szkobo.new",
+    "area": "綜合",
+    "body": "- 進擊的巨人\n- 葬送的芙莉蓮\n- 迷宮飯",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@szkobo.new",
+        "url": "https://www.instagram.com/szkobo.new"
+      }
+    ],
+    "cells": [
+      "L-23",
+      "L-24"
+    ]
+  },
+  {
+    "booth_id": "L-25/26",
+    "circle_name": "快樂罌粟花自耕農會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://trapasocks.pse.is/8rdrx6",
+    "area": "綜合",
+    "body": "- 黃金神威\n- 進擊的巨人\n- 迷宮飯",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://trapasocks.pse.is/8rdrx6"
+      }
+    ],
+    "cells": [
+      "L-25",
+      "L-26"
+    ]
+  },
+  {
+    "booth_id": "L-27/28",
+    "circle_name": "《Brain Damage》",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/brain.bamage/",
+    "area": "綜合",
+    "body": "- 哈利波特\n- 新世界狂歡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@brain.bamage",
+        "url": "https://www.instagram.com/brain.bamage/"
+      }
+    ],
+    "cells": [
+      "L-27",
+      "L-28"
+    ]
+  },
+  {
+    "booth_id": "L-29",
+    "circle_name": "羊不吃草",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
+    "area": "綜合",
+    "body": "- 新世界狂歡\n- 特殊傳說",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/yangbu/goods"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-30",
+    "circle_name": "壁上觀",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://w0960.pixnet.net/blog",
+    "area": "綜合",
+    "body": "- 特殊傳說\n- 哈利波特",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://w0960.pixnet.net/blog"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-31/32",
+    "circle_name": "零界點",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/yinqarys",
+    "area": "綜合",
+    "body": "- 崩壞：星穹鐵道\n- 瓦尼塔斯的手札",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/yinqarys"
+      }
+    ],
+    "cells": [
+      "L-31",
+      "L-32"
+    ]
+  },
+  {
+    "booth_id": "L-33",
+    "circle_name": "銀髮少年",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/slivershonenwuwu/",
+    "area": "綜合",
+    "body": "- 原創-銀髮少年手作或插畫商品\n- 二創-魔法使的約定(預計)\n- 二創-IDOLiSH7(預計)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@slivershonenwuwu",
+        "url": "https://www.instagram.com/slivershonenwuwu/"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-34",
+    "circle_name": "杏仁豆腐の旋律",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/weirin0",
+    "area": "綜合",
+    "body": "- 原創-Last day 直至最後一天\n- 神樂鉢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@weirin0",
+        "url": "https://www.plurk.com/weirin0"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-35",
+    "circle_name": "煞氣",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://babygollgo.pixnet.net/blog",
+    "area": "綜合",
+    "body": "- 神樂鉢\n- 東京卍復仇者\n- 幼稚園WARS",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://babygollgo.pixnet.net/blog"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-36",
+    "circle_name": "墨丘利",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://marslake2.weebly.com/",
+    "area": "綜合",
+    "body": "- 義呆利\n- 異形：地球\n- 原創-魔法系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://marslake2.weebly.com/"
+      }
+    ]
+  },
+  {
+    "booth_id": "L-37/38",
+    "circle_name": "夢橋 DreamBridge",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/dream_bridge_alw/",
+    "area": "綜合",
+    "body": "- 原創\n- Unlight\n- 劍與遠征-啟程",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@dream_bridge_alw",
+        "url": "https://www.instagram.com/dream_bridge_alw/"
+      }
+    ],
+    "cells": [
+      "L-37",
+      "L-38"
+    ]
+  },
+  {
+    "booth_id": "L-39/40",
+    "circle_name": "INXK",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/_inxk.ntn_/",
+    "area": "綜合",
+    "body": "- 時光代理人\n- 血腥畫家\n- NIJISANJI EN/JP",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@_inxk.ntn_",
+        "url": "https://www.instagram.com/_inxk.ntn_/"
+      }
+    ],
+    "cells": [
+      "L-39",
+      "L-40"
+    ]
+  },
+  {
+    "booth_id": "M-01",
+    "circle_name": "十九回目逃亡",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/815",
+    "area": "綜合",
+    "body": "- Nijisanji en Luxiem\n- RO仙境傳說\n- 刀劍亂舞",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/815"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-02",
+    "circle_name": "驚奇菓織間",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/battahandmade",
+    "area": "綜合",
+    "body": "- Vtuber(NijisanjiEN)\n- 原創-娃衣",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@battahandmade",
+        "url": "https://x.com/battahandmade"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-03/04",
+    "circle_name": "老祖宗保佑我",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/Luer_reul",
+    "area": "綜合",
+    "body": "- 彩虹社EN\n- 戀與深空\n- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Luer_reul",
+        "url": "https://x.com/Luer_reul"
+      }
+    ],
+    "cells": [
+      "M-03",
+      "M-04"
+    ]
+  },
+  {
+    "booth_id": "M-05/06",
+    "circle_name": "橘子寶寶手作舖",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61550680396750",
+    "area": "綜合",
+    "body": "- 彩虹社\n- 怪獸8號\n- 排球少年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61550680…",
+        "url": "https://www.facebook.com/profile.php?id=61550680396750"
+      }
+    ],
+    "cells": [
+      "M-05",
+      "M-06"
+    ]
+  },
+  {
+    "booth_id": "M-07",
+    "circle_name": "養魚要用浴缸",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/mcj131825526",
+    "area": "綜合",
+    "body": "- nijisanji en\n- 原創-養魚要用浴缸",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@mcj131825526",
+        "url": "https://x.com/mcj131825526"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-08",
+    "circle_name": "我還沒嚮導uwu",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
+    "area": "綜合",
+    "body": "- 彩虹社-3SKM透卡拍立得\n- 彩虹社-燙色小卡\n- 彩虹社-燙色小貼紙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "",
+        "url": "https://www.plurk.com/p/3gkmcbw7hv"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-09",
+    "circle_name": "會飛的紙條",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/Silver_NoTa",
+    "area": "綜合",
+    "body": "- にじさんじ",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@Silver_NoTa",
+        "url": "https://www.plurk.com/Silver_NoTa"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-10",
+    "circle_name": "senla.",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/Shenlan_echo",
+    "area": "綜合",
+    "body": "- 彩虹社JP\n- 彩虹社EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Shenlan_echo",
+        "url": "https://x.com/Shenlan_echo"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-11",
+    "circle_name": "壞狗狂奔，咎人要緊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/tan.tan.828001",
+    "area": "綜合",
+    "body": "- Vtuber（彩虹社JP）\n- 怪獸八號",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "tan.tan.828001",
+        "url": "https://www.facebook.com/tan.tan.828001"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-12",
+    "circle_name": "SYUlei",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/niwawulei",
+    "area": "綜合",
+    "body": "- Nijisanji彩虹社JP\n- Nijisanji彩虹社EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@niwawulei",
+        "url": "https://x.com/niwawulei"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-13/14",
+    "circle_name": "龍哥",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/creative1shit2021",
+    "area": "綜合",
+    "body": "- 原創-歡迎光臨FujiNeko\n- 原創-龍哥活下去\n- 彩虹社ShuYaminoXLucaKaneshiro",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@creative1shit2021",
+        "url": "https://www.instagram.com/creative1shit2021"
+      }
+    ],
+    "cells": [
+      "M-13",
+      "M-14"
+    ]
+  },
+  {
+    "booth_id": "M-15/16",
+    "circle_name": "海洋工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
+    "area": "綜合",
+    "body": "- 原創-台灣VTuber 星海ほしうみ\n- 排球少年\n- 葬送的芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "StarOcean0911",
+        "url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl"
+      }
+    ],
+    "cells": [
+      "M-15",
+      "M-16"
+    ]
+  },
+  {
+    "booth_id": "M-17",
+    "circle_name": "OrangeDragon橘子龍龍",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/chang_yu_i/",
+    "area": "綜合",
+    "body": "- 原創-橘子龍龍\n- Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@chang_yu_i",
+        "url": "https://www.instagram.com/chang_yu_i/"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-18",
+    "circle_name": "stellane",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/Stellane2025",
+    "area": "綜合",
+    "body": "- Vtuber_厭世醫師阿萬\n- Vtuber_NIJISANJI\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Stellane2025",
+        "url": "https://x.com/Stellane2025"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-19",
+    "circle_name": "廢墟樂園",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/zh-tw/AKhibari",
+    "area": "綜合",
+    "body": "- 厭世醫師阿萬\n- 坂本日常\n- NIJISANJI EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/AKhibari"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-20",
+    "circle_name": "極東霓虹實驗室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/HOLIDAY_9NightKnight",
+    "area": "綜合",
+    "body": "- 黃金神威\n- 厭世阿萬\n- TRIGUN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@HOLIDAY_9NightKnight",
+        "url": "https://www.plurk.com/HOLIDAY_9NightKnight"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-21/22",
+    "circle_name": "月見草",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://seemoon.biz/",
+    "area": "綜合",
+    "body": "- 珍珠美人魚\n- 進擊的巨人\n- 名偵探柯南",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://seemoon.biz/"
+      }
+    ],
+    "cells": [
+      "M-21",
+      "M-22"
+    ]
+  },
+  {
+    "booth_id": "M-23",
+    "circle_name": "儉約判定+",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/thediecity",
+    "area": "綜合",
+    "body": "- 魔法使的約定\n- 疾暴執行部\n- 灌籃高手",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@thediecity",
+        "url": "https://www.plurk.com/thediecity"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-24",
+    "circle_name": "現在我有一團兵淇淋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/uni_07z3",
+    "area": "綜合",
+    "body": "- 進擊的巨人\n- 名偵探柯南",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@uni_07z3",
+        "url": "https://www.plurk.com/uni_07z3"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-25",
+    "circle_name": "檸檬青Xuetong",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/xuetong1205?igsh=cWxhZmU2eDVpNWFl",
+    "area": "綜合",
+    "body": "- 原創類手繪-舞\n- 原創類魔物-耀躍\n- 原創-地獄門",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@xuetong1205",
+        "url": "https://www.instagram.com/xuetong1205?igsh=cWxhZmU2eDVpNWFl"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-26",
+    "circle_name": "Crazy Country",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/zh-tw/eecircle",
+    "area": "綜合",
+    "body": "- 崩壞星穹鐵道\n- 名偵探柯南\n- 原創-個人ip-圓阿圓",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/eecircle"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-27",
+    "circle_name": "BOMB DONUT",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/gulyocat",
+    "area": "綜合",
+    "body": "- 名偵探柯南",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@gulyocat",
+        "url": "https://www.plurk.com/gulyocat"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-28",
+    "circle_name": "朱閣綺戶倆口人",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/mola0632",
+    "area": "綜合",
+    "body": "- 排球少年!!\n- 新世界狂歡\n- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/mola0632"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-29",
+    "circle_name": "•°+夜落烏啼+°•",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/bossraven77/",
+    "area": "綜合",
+    "body": "- 原創-小白糰\n- 名偵探柯南\n- 天官賜福",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@bossraven77",
+        "url": "https://www.instagram.com/bossraven77/"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-30",
+    "circle_name": "阿吉×微光島嶼",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/jidraw018?igsh=cDgzc2EzdHVoZTJk",
+    "area": "綜合",
+    "body": "- 原創-口水馬鈴薯\n- 原創-貓咪繪圖\n- 葬送的芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@jidraw018",
+        "url": "https://www.instagram.com/jidraw018?igsh=cDgzc2EzdHVoZTJk"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-31",
+    "circle_name": "迢迢路條條",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/arcusong",
+    "area": "綜合",
+    "body": "- 排球少年\n- 灌籃高手\n- 葬送的芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@arcusong",
+        "url": "https://www.plurk.com/arcusong"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-32",
+    "circle_name": "ㄒㄒ不是TT",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/tt1219_/",
+    "area": "綜合",
+    "body": "- 世界計畫\n- Vocaloid\n- 孤獨搖滾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@tt1219_",
+        "url": "https://www.instagram.com/tt1219_/"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-33/34",
+    "circle_name": "今天肚子餓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/kiri520?igsh=MXRzZG5lNG9ybTdzdw==",
+    "area": "綜合",
+    "body": "- 鏈鋸人\n- 葬送的芙莉蓮\n- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@kiri520",
+        "url": "https://www.instagram.com/kiri520?igsh=MXRzZG5lNG9ybTdzdw=="
+      }
+    ],
+    "cells": [
+      "M-33",
+      "M-34"
+    ]
+  },
+  {
+    "booth_id": "M-35",
+    "circle_name": "恐龍的五官在側面",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/miba_1.8?igsh=eWl5enlscTgxZzlx",
+    "area": "綜合",
+    "body": "- 原創-八與龍\n- 葬送的芙莉蓮\n- 鏈鋸人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@miba_1.8",
+        "url": "https://www.instagram.com/miba_1.8?igsh=eWl5enlscTgxZzlx"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-36",
+    "circle_name": "小眼睛LITTLEEYES",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/littleeyes_b216?igsh=MXB4em9hcTdjaGJxaA==",
+    "area": "綜合",
+    "body": "- 原創-小眼睛\n- 排球少年\n- 葬送的芙莉蓮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@littleeyes_b216",
+        "url": "https://www.instagram.com/littleeyes_b216?igsh=MXB4em9hcTdjaGJxaA=="
+      }
+    ]
+  },
+  {
+    "booth_id": "M-37/38",
+    "circle_name": "薯星星",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://plurk.com/potatosonnet",
+    "area": "綜合",
+    "body": "- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@potatosonnet",
+        "url": "https://plurk.com/potatosonnet"
+      }
+    ],
+    "cells": [
+      "M-37",
+      "M-38"
+    ]
+  },
+  {
+    "booth_id": "M-39",
+    "circle_name": "好想變成微生物",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/bleedmaple",
+    "area": "綜合",
+    "body": "- 強風吹拂\n- 咒術迴戰\n- 新石紀",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@bleedmaple",
+        "url": "https://www.plurk.com/bleedmaple"
+      }
+    ]
+  },
+  {
+    "booth_id": "M-40",
+    "circle_name": "小布j.us",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/sghg181",
+    "area": "綜合",
+    "body": "- 咒術迴戰\n- 路人超能100\n- 九龍城寨之圍城",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@sghg181",
+        "url": "https://www.plurk.com/sghg181"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-01",
+    "circle_name": "Candy Box",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/miyakocat",
+    "area": "綜合",
+    "body": "- プロセカ\n- IDOLiSH7 偶像星願\n- 瓦尼塔斯的手札",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@miyakocat",
+        "url": "https://www.plurk.com/miyakocat"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-02",
+    "circle_name": "大眾澡堂",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yuyudesu0806/",
+    "body": "## 📝 CH19 出展重點\n- N-02 出展 ／ 卡片印量調查 plurk 進行中 (link 在回覆欄)\n- [原 FB post](https://www.facebook.com/share/p/1BHm2tJNmR/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1BHm2tJNmR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-02/share-1BHm2tJNmR/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "N-03",
+    "circle_name": "迷走。巡鹿",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
+    "area": "綜合",
+    "body": "- IDOLiSH7偶像星願\n- 原神Genshin",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-04",
+    "circle_name": "塞納河底看不見星空",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
+    "area": "綜合",
+    "body": "- 刀劍亂舞\n- 偶像星願\n- 機動戰士Gundam GQuuuuuuX",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/4848/books"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-05",
+    "circle_name": "反青復明三角勇者",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/senyu",
+    "area": "綜合",
+    "body": "- IDOLiSH7-偶像星願-",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/senyu"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-06",
+    "circle_name": "青瀞農場狗狗狗",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/kyouwork",
+    "area": "綜合",
+    "body": "- 偶像星願\n- 死亡筆記本\n- 彩虹社EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/kyouwork"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-07",
+    "circle_name": "樹手無策",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/natsuki6795/",
+    "area": "綜合",
+    "body": "- PLAVE\n- 我的英雄學院",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@natsuki6795",
+        "url": "https://www.instagram.com/natsuki6795/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-08",
+    "circle_name": "野海熊熊可麗餅",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/suanmo99?igsh=MTNzenl6cWtkYW13OQ%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- PLAVE",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@suanmo99",
+        "url": "https://www.instagram.com/suanmo99?igsh=MTNzenl6cWtkYW13OQ%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-09/10",
+    "circle_name": "3206",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/j3180554",
+    "area": "綜合",
+    "body": "- ALIEN STAGE 外星人舞台\n- 光與夜之戀\n- 瓢蟲少女",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@j3180554",
+        "url": "https://www.plurk.com/j3180554"
+      }
+    ],
+    "cells": [
+      "N-09",
+      "N-10"
+    ]
+  },
+  {
+    "booth_id": "N-11",
+    "circle_name": "臨時通告",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/skyberryelement",
+    "area": "綜合",
+    "body": "- 原創-Lady卡絲特蕾森\n- idolish7\n- Vtuber彩虹社",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@skyberryelement",
+        "url": "https://www.plurk.com/skyberryelement"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-12",
+    "circle_name": "船到橋頭自然直",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/linda6030221",
+    "area": "綜合",
+    "body": "- ALIEN STAGE 異星舞台\n- PLAVE\n- 排球少年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/linda6030221"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-13",
+    "circle_name": "哇呀燈塔塔",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/poki1130",
+    "area": "綜合",
+    "body": "- 去唱卡拉OK吧！\n- PLAVE\n- 原創-太空魔法師兔子",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@poki1130",
+        "url": "https://www.plurk.com/poki1130"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-14",
+    "circle_name": "海鮮飯飯",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/twelve474719/",
+    "area": "綜合",
+    "body": "- PLAVE\n- 忍者亂太郎\n- ツイステ",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@twelve474719",
+        "url": "https://www.instagram.com/twelve474719/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-15",
+    "circle_name": "于笙是條魚",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/100810w?igsh=aGxvNWtiY2k0Z29q",
+    "area": "綜合",
+    "body": "- Alien Stage玩偶兔兔壓克飯友\n- 現在的是哪一個多聞！？    陰沉原壓克力透卡吊飾\n- 原創-鯨與雲海吊飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@100810w",
+        "url": "https://www.instagram.com/100810w?igsh=aGxvNWtiY2k0Z29q"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-16",
+    "circle_name": "羊肉燒賣",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/swet1002",
+    "area": "綜合",
+    "body": "- 我培育的S級們\n- Alien Stage\n- Miraculous Ladybug",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@swet1002",
+        "url": "https://www.plurk.com/swet1002"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-17",
+    "circle_name": "文字滿苑",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/flyinglo",
+    "area": "綜合",
+    "body": "- Kpop獵魔女團\n- 迷宮飯\n- 原創-滄瀾沉珠，欲海成淵",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/flyinglo"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-18",
+    "circle_name": "莓梗",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/yujian_lll/",
+    "area": "綜合",
+    "body": "- 戀與深空\n- KPOP",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@yujian_lll",
+        "url": "https://www.instagram.com/yujian_lll/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-19",
+    "circle_name": "羊角蟹粉",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
+    "area": "綜合",
+    "body": "- 我獨自升級",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-20",
+    "circle_name": "凱特少爺",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ryouarashi",
+    "area": "綜合",
+    "body": "- 全知讀者視角\n- NIJISANJI EN\n- KPOP獵魔女團",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ryouarashi",
+        "url": "https://www.plurk.com/ryouarashi"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-21",
+    "circle_name": "紫色狐狸山",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/lll8256",
+    "area": "綜合",
+    "body": "- 新世界狂歡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@lll8256",
+        "url": "https://www.plurk.com/lll8256"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-22",
+    "circle_name": "冷坑人生",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
+    "area": "綜合",
+    "body": "- 86不存在的戰區\n- Ave Mujica\n- 新世界狂歡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/6122/books"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-23",
+    "circle_name": "#92b5a9",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/_92b5a9/",
+    "area": "綜合",
+    "body": "- 原創-蒸汽龐克手作耳環 髮夾 頸鏈\n- 原創-保羅領結\n- 二創-插畫明信片",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@_92b5a9",
+        "url": "https://www.instagram.com/_92b5a9/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-24",
+    "circle_name": "四季手作",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
+    "area": "綜合",
+    "body": "- 新世界狂歡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-25/26",
+    "circle_name": "肝硬化企業-熬夜榨肝部門",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=100057130852699",
+    "area": "綜合",
+    "body": "- 新世界狂歡\n- 彩虹社EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10005713…",
+        "url": "https://www.facebook.com/profile.php?id=100057130852699"
+      }
+    ],
+    "cells": [
+      "N-25",
+      "N-26"
+    ]
+  },
+  {
+    "booth_id": "N-27",
+    "circle_name": "肝硬化企業-小心肝印畫部門",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/kure_kyouu",
+    "area": "綜合",
+    "body": "- 新石紀 千幻\n- 世界計畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@kure_kyouu",
+        "url": "https://x.com/kure_kyouu"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-28",
+    "circle_name": "肝硬化企業-通通爆肝部門",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@buuuuu8le",
+    "area": "綜合",
+    "body": "- 原創BL-Our long long story",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@buuuuu8le",
+        "url": "https://www.threads.com/@buuuuu8le"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-29",
+    "circle_name": "嘟嚕啦咘嗒",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/Go41577",
+    "area": "綜合",
+    "body": "- 原創-歡迎來到娃娃鎮\n- BanG Dream It's MyGO!!!!!",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/Go41577"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-30",
+    "circle_name": "食蟻獸的螞蟻窩",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/enokimitsuki",
+    "area": "綜合",
+    "body": "- Fate/Grand Order\n- JOJO的奇妙冒險",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@enokimitsuki",
+        "url": "https://www.plurk.com/enokimitsuki"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-31",
+    "circle_name": "上樑不正下樑歪",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/leo504436",
+    "area": "綜合",
+    "body": "- Fate/Grand Order",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@leo504436",
+        "url": "https://www.plurk.com/leo504436"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-32",
+    "circle_name": "7Hrs雜貨店",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/small_lauchui_p/",
+    "area": "綜合",
+    "body": "- Fate/Grand Order\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@small_lauchui_p",
+        "url": "https://www.instagram.com/small_lauchui_p/"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-33",
+    "circle_name": "虛無布饅頭",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
+    "area": "綜合",
+    "body": "- Fate/strange Fake\n- HOLOSTARS\n- 魔物獵人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/emily60212/goods"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-34",
+    "circle_name": "幫幫的家",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/dd_r2112",
+    "area": "綜合",
+    "body": "- 戀與深空\n- 鬼滅之刃\n- 灌籃高手",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/dd_r2112"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-36/36",
+    "circle_name": "莫雨飄楓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/abc9012071",
+    "area": "綜合",
+    "body": "- 戀與深空\n- 彩虹社\n- 咒術迴戰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "abc9012071",
+        "url": "https://www.facebook.com/abc9012071"
+      }
+    ],
+    "cells": [
+      "N-36",
+      "N-36"
+    ]
+  },
+  {
+    "booth_id": "N-37/38",
+    "circle_name": "啉雜集",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@_rskniwn_",
+    "area": "綜合",
+    "body": "- Splatoon\n- 魔物獵人\n- 怪獸8號",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@_rskniwn_",
+        "url": "https://www.threads.com/@_rskniwn_"
+      }
+    ],
+    "cells": [
+      "N-37",
+      "N-38"
+    ]
+  },
+  {
+    "booth_id": "N-39",
+    "circle_name": "倉庫角落",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/koma262",
+    "area": "綜合",
+    "body": "- 魔道祖師\n- 蒼穹山記\n- 女神異聞錄4",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@koma262",
+        "url": "https://x.com/koma262"
+      }
+    ]
+  },
+  {
+    "booth_id": "N-40",
+    "circle_name": "初入貓蘆",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/jj_catclaw?s=21&t=chkIsm8HqopMDgRFq_ICtQ",
+    "area": "綜合",
+    "body": "- 天官賜福\n- 魔道祖師\n- 情蠱",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@jj_catclaw",
+        "url": "https://x.com/jj_catclaw?s=21&t=chkIsm8HqopMDgRFq_ICtQ"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-01/02",
+    "circle_name": "秋貓Akineko",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/aa2233aa",
+    "area": "綜合",
+    "body": "- 主打個人原創_海豹叔叔原創作品\n- 寶可夢二創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "aa2233aa",
+        "url": "https://www.facebook.com/aa2233aa"
+      }
+    ],
+    "cells": [
+      "O-01",
+      "O-02"
+    ]
+  },
+  {
+    "booth_id": "O-03",
+    "circle_name": "木木梟保育協會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/",
+    "area": "綜合",
+    "body": "- 寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "p",
+        "url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-04",
+    "circle_name": "Ya喵子的貓窩",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yanekomeow",
+    "area": "綜合",
+    "body": "- 寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yanekomeow",
+        "url": "https://www.facebook.com/yanekomeow"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-05",
+    "circle_name": "Confeito",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/MIKEY21",
+    "area": "綜合",
+    "body": "- 寶可夢\n- 卡通頻道",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@MIKEY21",
+        "url": "https://www.plurk.com/MIKEY21"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-06",
+    "circle_name": "晚安丁豆子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ding8059",
+    "area": "綜合",
+    "body": "- 寶可夢\n- 原創\n- 薩爾達",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ding8059",
+        "url": "https://www.plurk.com/ding8059"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-07",
+    "circle_name": "本喵放空自我",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/YuutsuNeko/",
+    "area": "綜合",
+    "body": "- 寶可夢\n- 薩爾達傳說\n- 魔物獵人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "YuutsuNeko",
+        "url": "https://www.facebook.com/YuutsuNeko/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-08",
+    "circle_name": "墨貓空氣幻境",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/blackomicat",
+    "area": "綜合",
+    "body": "- 寶可夢\n- 彩虹社EN組-Luxiem\n- 仙境傳說RO",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/blackomicat"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-09",
+    "circle_name": "維也納貓咖附餐烤飯糰",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/sakana_56",
+    "area": "綜合",
+    "body": "- 寶可夢(遊戲)\n- 鋼之鍊金術師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@sakana_56",
+        "url": "https://www.plurk.com/sakana_56"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-10",
+    "circle_name": "廢人線",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://wxf0202.blog.fc2.com/",
+    "area": "綜合",
+    "body": "- 精靈寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://wxf0202.blog.fc2.com/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-11",
+    "circle_name": "動物押花",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/summerbonekiara",
+    "area": "綜合",
+    "body": "- 精靈寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@summerbonekiara",
+        "url": "https://www.plurk.com/summerbonekiara"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-12",
+    "circle_name": "吐司狐的麵包樹",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
+    "area": "綜合",
+    "body": "- Pokémon\n- 魔物獵人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1CQbBy6mTJ/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-13",
+    "circle_name": "南方山竹筍",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
+    "area": "綜合",
+    "body": "- 葬送的福利蓮\n- 章魚嗶的原罪\n- 寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-14",
+    "circle_name": "亞矢愛吃爆米花",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/ayas929",
+    "area": "綜合",
+    "body": "- 鬼滅之刃",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ayas929",
+        "url": "https://www.plurk.com/ayas929"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-15",
+    "circle_name": "紫乃沒有乃",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/CNO",
+    "area": "綜合",
+    "body": "- 貓咪\n- 藥師少女的獨語\n- 鏈鋸人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@CNO",
+        "url": "https://www.plurk.com/CNO"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-16",
+    "circle_name": "NiNE's",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/523/books",
+    "area": "綜合",
+    "body": "- 嚕嚕米Moomin\n- 勇者動畫系列\n- 九日",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/523/books"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-17",
+    "circle_name": "悸胱香香G",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/nyanggbbb",
+    "area": "綜合",
+    "body": "- 九日",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@nyanggbbb",
+        "url": "https://www.plurk.com/nyanggbbb"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-18",
+    "circle_name": "PONKA",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/ponka2024?s=21",
+    "area": "綜合",
+    "body": "- 原創-獸人相關\n- 寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@ponka2024",
+        "url": "https://x.com/ponka2024?s=21"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-19/20",
+    "circle_name": "Blamon布來蒙",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/blamonho/",
+    "area": "綜合",
+    "body": "- 原創-鬼仙：開荒卷\n- 彩虹社Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@blamonho",
+        "url": "https://www.instagram.com/blamonho/"
+      }
+    ],
+    "cells": [
+      "O-19",
+      "O-20"
+    ]
+  },
+  {
+    "booth_id": "O-21",
+    "circle_name": "TOMO",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/tomoewhat77/",
+    "area": "綜合",
+    "body": "- 原創-Honest Kitsune與延伸創作\n- GACHIAKUTA\n- HUNTER×HUNTER",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@tomoewhat77",
+        "url": "https://www.instagram.com/tomoewhat77/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-22",
+    "circle_name": "小林他的家",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/udalin0803/",
+    "area": "綜合",
+    "body": "- 原創-離所當然愛上你",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@udalin0803",
+        "url": "https://www.instagram.com/udalin0803/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-23",
+    "circle_name": "華役少爺",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/tsaox",
+    "area": "綜合",
+    "body": "- 原創BL漫畫《家族之恥與待望之星》\n- 原創漫畫-《色彩演奏師》\n- 去唱卡拉OK吧！二創（狂聰漫畫＆小說）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@tsaox",
+        "url": "https://www.plurk.com/tsaox"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-24",
+    "circle_name": "Ciao*",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ciaoowoneko/",
+    "area": "綜合",
+    "body": "- 推し活緞帶/奶油膠卡套\n- 娃用配件",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ciaoowoneko",
+        "url": "https://www.instagram.com/ciaoowoneko/"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-25",
+    "circle_name": "捏捏茶宇宙",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/TeaNe11",
+    "area": "綜合",
+    "body": "- 原創BL\n- 互攻互受\n- 軍武大男",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/TeaNe11"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-26",
+    "circle_name": "默屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/moriowo.s",
+    "area": "綜合",
+    "body": "- 原創-蛋餅加蛋不加辣\n- 原創-陳靖與人杰",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/moriowo.s"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-27",
+    "circle_name": "大腦空談論",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/mlo_8828",
+    "area": "綜合",
+    "body": "- 原創-卡波列葬歌\n- 原創-原作：我",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@mlo_8828",
+        "url": "https://www.plurk.com/mlo_8828"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-28",
+    "circle_name": "Lagom",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/lagom.art_",
+    "area": "綜合",
+    "body": "- 原創-企劃延伸\n- 周邊小物\n- 生活小物",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@lagom.art_",
+        "url": "https://www.instagram.com/lagom.art_"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-29",
+    "circle_name": "透明雞翅膀",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/7384",
+    "area": "綜合",
+    "body": "- 原創-RISO塗鴉冊\n- 精靈寶可夢\n- 逆轉裁判",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/7384"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-30",
+    "circle_name": "逆光合作用",
+    "author": "",
+    "x_handle": "",
+    "x_url": "#",
+    "area": "綜合",
+    "body": "- 原創-我的日本嫂嫂",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": []
+  },
+  {
+    "booth_id": "O-31",
+    "circle_name": "橘橘大法好人類分部",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/elena_lai_12?igsh=Znh1bzRyZjdkNHkw&utm_source=qr",
+    "area": "綜合",
+    "body": "- 在茜色世界與君詠唱\n- SKZ\n- 原創-（自家貓咪）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@elena_lai_12",
+        "url": "https://www.instagram.com/elena_lai_12?igsh=Znh1bzRyZjdkNHkw&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-32",
+    "circle_name": "X餐廳",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/enoshdreams?igsh=MXc1a2ZmOW5pczhwdg==",
+    "area": "綜合",
+    "body": "- 原創-可咚\n- 響往\n- 埃的世界",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@enoshdreams",
+        "url": "https://www.instagram.com/enoshdreams?igsh=MXc1a2ZmOW5pczhwdg=="
+      }
+    ]
+  },
+  {
+    "booth_id": "O-33",
+    "circle_name": "Maidenhair",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/mamo20220624",
+    "area": "綜合",
+    "body": "- 原創-沒有作品名\n- 刀劍亂舞\n- Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@mamo20220624",
+        "url": "https://x.com/mamo20220624"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-34",
+    "circle_name": "阿農Anon",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/anon_114c",
+    "area": "綜合",
+    "body": "- 原創-INKTOBER插畫本\n- 原創-狸貓吊飾-幸運草",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/anon_114c"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-35/36",
+    "circle_name": "MYAOWL喵喔",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/myaowl/",
+    "area": "綜合",
+    "body": "- 原創-壞喵與毛喵",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@myaowl",
+        "url": "https://www.instagram.com/myaowl/"
+      }
+    ],
+    "cells": [
+      "O-35",
+      "O-36"
+    ]
+  },
+  {
+    "booth_id": "O-37/38",
+    "circle_name": "不作夢的食夢貘 (Xiang Yin 庠隱)",
+    "author": "Xiang Yin 庠隱",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/xiangyinwork/",
+    "body": "## 📝 CH19 出展重點\n- 原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18VK1GBTLw/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/share-18VK1GBTLw/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "O-39",
+    "circle_name": "muto!",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/dimly_bobo",
+    "area": "綜合",
+    "body": "- 原創\n- 排球少年\n- GACHIAKUTA",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@dimly_bobo",
+        "url": "https://www.plurk.com/dimly_bobo"
+      }
+    ]
+  },
+  {
+    "booth_id": "O-40",
+    "circle_name": "山山來馳",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/shanshanrun/",
+    "area": "綜合",
+    "body": "- 原創-粉紅蛙蛙\n- 原創-漫畫\n- 迷宮飯",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@shanshanrun",
+        "url": "https://www.instagram.com/shanshanrun/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-01/02",
+    "circle_name": "夜行動物館",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/hanyangcomic?_ps=1",
+    "area": "綜合",
+    "body": "- 原創-人外的星期五",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "hanyangcomic",
+        "url": "https://www.facebook.com/hanyangcomic?_ps=1"
+      }
+    ],
+    "cells": [
+      "P-01",
+      "P-02"
+    ]
+  },
+  {
+    "booth_id": "P-03/04",
+    "circle_name": "JELDA",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/jelda_arts?igsh=MWdmemxvdXFvb3QxMA%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創-米蘭達與麗莎\n- 原創-JELDA宇宙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@jelda_arts",
+        "url": "https://www.instagram.com/jelda_arts?igsh=MWdmemxvdXFvb3QxMA%3D%3D&utm_source=qr"
+      }
+    ],
+    "cells": [
+      "P-03",
+      "P-04"
+    ]
+  },
+  {
+    "booth_id": "P-05",
+    "circle_name": "期間限定",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://slow.work/",
+    "area": "綜合",
+    "body": "- 獸人原創《心情不好都是因為天氣》\n- 獸人原創《你想要的是什麼？》\n- 獸人原創《無形之間》",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://slow.work/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-06",
+    "circle_name": "仲華 | 生物插畫",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/zhliu.art",
+    "area": "綜合",
+    "body": "- 動物\n- 植物",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@zhliu.art",
+        "url": "https://www.instagram.com/zhliu.art"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-07",
+    "circle_name": "BiBiRoM",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/bibirooom/",
+    "area": "綜合",
+    "body": "- 原創-昆蟲少女",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@bibirooom",
+        "url": "https://www.instagram.com/bibirooom/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-08",
+    "circle_name": "Tobey·又·",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://potofu.me/tobey",
+    "area": "綜合",
+    "body": "- 原創-XPLORE插畫集\n- 原創-ISEKAI NO MONO異世界主題插畫本\n- 原創-FUREMO水晶貼",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://potofu.me/tobey"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-09",
+    "circle_name": "刺刺工坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/yoken1021",
+    "area": "綜合",
+    "body": "- 原創-北風與太陽\n- 原創-能工巧匠\n- 原創-蒸蒸日上",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yoken1021",
+        "url": "https://www.plurk.com/yoken1021"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-10",
+    "circle_name": "西瓜學園",
+    "author": "",
+    "x_handle": "",
+    "x_url": "#",
+    "area": "綜合",
+    "body": "- 原創-西瓜學園企劃本",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": []
+  },
+  {
+    "booth_id": "P-11",
+    "circle_name": "冷水青蛙鍋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/LengWaGuo/",
+    "area": "綜合",
+    "body": "- 原創-轉生成異世界小卡車",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "LengWaGuo",
+        "url": "https://www.facebook.com/LengWaGuo/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-12",
+    "circle_name": "超級同人大戰 SDW",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/superdoujinwar/",
+    "body": "## 📝 CH19 出展重點\n- 現場購買套組有優惠價\n- 另有 [LINE 貼圖](https://line.me/S/sticker/34176425)\n- [原 FB post](https://www.facebook.com/share/p/18Yf1Qgwa4/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/18Yf1Qgwa4/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-12/share-18Yf1Qgwa4/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "P-13/14",
+    "circle_name": "名字可以自己取欸",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
+    "area": "綜合",
+    "body": "- 原創-外來種戀愛GAME\n- Hazbin Hotel",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "peekaboo.ouzi",
+        "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW"
+      }
+    ],
+    "cells": [
+      "P-13",
+      "P-14"
+    ]
+  },
+  {
+    "booth_id": "P-15/16",
+    "circle_name": "雪之饗(studio e'kis)",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ekis2018",
+    "area": "綜合",
+    "body": "- 原創-雪之饗",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ekis2018",
+        "url": "https://www.facebook.com/ekis2018"
+      }
+    ],
+    "cells": [
+      "P-15",
+      "P-16"
+    ]
+  },
+  {
+    "booth_id": "P-17",
+    "circle_name": "白範工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.creative-comic.tw/zh/publisher/StudioRise13",
+    "area": "綜合",
+    "body": "- 原創-《REVERCORE超常事件簿》",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://www.creative-comic.tw/zh/publisher/StudioRise13"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-18",
+    "circle_name": "怪獸少女KaijuShoujo",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/sian.liu.756/",
+    "area": "綜合",
+    "body": "- 原創-異色\n- 原創-魔女集會\n- 原創-魔女集會 聚餐與家人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "sian.liu.756",
+        "url": "https://www.facebook.com/sian.liu.756/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-19/20",
+    "circle_name": "仙界大濕快樂攤",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/wet_elephant/?hl=zh-tw",
+    "area": "綜合",
+    "body": "- 原創-我的壞壞日常",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@wet_elephant",
+        "url": "https://www.instagram.com/wet_elephant/?hl=zh-tw"
+      }
+    ],
+    "cells": [
+      "P-19",
+      "P-20"
+    ]
+  },
+  {
+    "booth_id": "P-21/22",
+    "circle_name": "夜貓館咖啡屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yamyoukan/",
+    "body": "## 📝 CH19 出展重點\n- P-21/22 出展 ／ #夜貓館咖啡屋 #墨事典 #blazewu #KUBA #窄巷 #亖亖 #SNOWVEGA #PUMP #貓\n- [原 FB post](https://www.facebook.com/share/p/1JkrqmXqkr/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1JkrqmXqkr/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-21_22/share-1JkrqmXqkr/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "P-23/24",
+    "circle_name": "平生純 Hirao Jun",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hirao_jun_/",
+    "area": "綜合",
+    "body": "- 原創-金魚壺\n- 原創-手鳥",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hirao_jun_",
+        "url": "https://www.instagram.com/hirao_jun_/"
+      }
+    ],
+    "cells": [
+      "P-23",
+      "P-24"
+    ]
+  },
+  {
+    "booth_id": "P-25",
+    "circle_name": "CEMACEMAS",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/yui_creator?igsh=MWp4ODE4MHNlOHNnOA==",
+    "area": "綜合",
+    "body": "- 原創＿PURINGAU\n- 原創＿RAVAN\n- 原創＿SARAY",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@yui_creator",
+        "url": "https://www.instagram.com/yui_creator?igsh=MWp4ODE4MHNlOHNnOA=="
+      }
+    ]
+  },
+  {
+    "booth_id": "P-26",
+    "circle_name": "史前臺北人",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/coccyxdog?fbclid=IwY2xjawPuwuVleHRuA2FlbQIxMABicmlkETF0b05uQmZOeTFHSHZiMUVHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvaqw9TX26H6NvBULdLuLD27d3uELLPNSc6jZT2sOp7rcEcBXYmmD5qFJ_fm_aem_WKPs-7_JIPkhzo9IFa5S6w",
+    "area": "綜合",
+    "body": "- 原創插圖--史前臺北人\n- 原創漫畫--吸血鬼買棺材\n- 閃電十一人",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@coccyxdog",
+        "url": "https://www.instagram.com/coccyxdog?fbclid=IwY2xjawPuwuVleHRuA2FlbQIxMABicmlkETF0b05uQmZOeTFHSHZiMUVHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvaqw9TX26H6NvBULdLuLD27d3uELLPNSc6jZT2sOp7rcEcBXYmmD5qFJ_fm_aem_WKPs-7_JIPkhzo9IFa5S6w"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-27",
+    "circle_name": "Liuyingchieh",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://facebook.com/media/set/?set=a.10160389843616259",
+    "area": "綜合",
+    "body": "- 原創-《Le notti bianche》\n- 原創-《winter 2002 venezia》\n- 原創-《白－淺灰藍－灰－黑－黑－灰－淺灰藍－白》",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "media",
+        "url": "https://facebook.com/media/set/?set=a.10160389843616259"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-28",
+    "circle_name": "瘋人塔",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/gunn11222/",
+    "area": "綜合",
+    "body": "- 原創-怪力亂神\n- 原創-嫣紅\n- 原創-聊齋誌異",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@gunn11222",
+        "url": "https://www.instagram.com/gunn11222/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-29/30",
+    "circle_name": "畜生園",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://kuailedongwuyuan.wixsite.com/my-site-1",
+    "area": "綜合",
+    "body": "- 原創-觀易烏\n- 原創-好家在\n- 原創-禁在杯中飼紅魚",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "wix",
+        "handle": "",
+        "url": "https://kuailedongwuyuan.wixsite.com/my-site-1"
+      }
+    ],
+    "cells": [
+      "P-29",
+      "P-30"
+    ]
+  },
+  {
+    "booth_id": "P-31",
+    "circle_name": "記得繳房貸",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/nagadrawdraw",
+    "area": "綜合",
+    "body": "- 原創-吸！吸！吐！ 中篇\n- 原創-吸！吸！吐！ 上篇\n- 原創-重疊重疊重疊重疊",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/nagadrawdraw"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-32",
+    "circle_name": "x_x",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/rabbit.x__x/",
+    "area": "綜合",
+    "body": "- 原創-狡窟三兔\n- 原創-馬照跑舞照跳\n- 原創-轉轉",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@rabbit.x__x",
+        "url": "https://www.instagram.com/rabbit.x__x/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-33",
+    "circle_name": "SUB and WU",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/wu_pei_shin/",
+    "area": "綜合",
+    "body": "- 原創-sub夢工廠小精靈故事\n- 原創-塔羅牌\n- 原創-克蘇魯燙銀卡片",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@wu_pei_shin",
+        "url": "https://www.instagram.com/wu_pei_shin/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-34",
+    "circle_name": "Uniautomata",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/uniautomata_studio/",
+    "area": "綜合",
+    "body": "- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@uniautomata_studio",
+        "url": "https://www.instagram.com/uniautomata_studio/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-35",
+    "circle_name": "慢來moonlight",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/moonlight432Hz",
+    "area": "綜合",
+    "body": "- 原創＿TANPOPO\n- 原創＿ø\n- 原創＿mønlight universe",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/moonlight432Hz"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-36",
+    "circle_name": "燈無殖物園",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/lightoffill",
+    "area": "綜合",
+    "body": "- 原創人妻百合系列：LEAH啟示百合錄",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/lightoffill"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-37",
+    "circle_name": "發芽的沙發馬鈴薯",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/u/sly450026",
+    "area": "綜合",
+    "body": "- 原創-比起臥底還是先談戀愛吧\n- 鏈鋸人\n- 寶石之國",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@sly450026",
+        "url": "https://www.plurk.com/u/sly450026"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-38",
+    "circle_name": "亡骸之歌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/WhiteStyle1015",
+    "area": "綜合",
+    "body": "- 原創- 哨兵嚮導paro",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@WhiteStyle1015",
+        "url": "https://www.plurk.com/WhiteStyle1015"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-39",
+    "circle_name": "Gs.灰階-gs.gray",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/gs.gray_000/",
+    "area": "綜合",
+    "body": "- 原創漫畫-黑商人1冊\n- 原創漫畫-不存在盛典1、2冊\n- 原創插畫-Gs.灰階系列小綠鱷、外星貓系列插畫週邊商品",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@gs.gray_000",
+        "url": "https://www.instagram.com/gs.gray_000/"
+      }
+    ]
+  },
+  {
+    "booth_id": "P-40",
+    "circle_name": "Eli Lin 依萊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/eli.pluma.lin",
+    "area": "綜合",
+    "body": "- 原創-衣裳的呢喃\n- 防風少年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@eli.pluma.lin",
+        "url": "https://www.instagram.com/eli.pluma.lin"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-01",
+    "circle_name": "KIPEN正港奇片",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hguuy123/",
+    "area": "綜合",
+    "body": "- 原創-狗狗雞與噗噗熊\n- 原創-奇片與他的憤怒夥伴",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hguuy123",
+        "url": "https://www.instagram.com/hguuy123/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-02",
+    "circle_name": "在線幽靈",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@online._.ghost",
+    "area": "綜合",
+    "body": "- 原創驚悚短篇漫畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@online._.ghost",
+        "url": "https://www.threads.com/@online._.ghost"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-03",
+    "circle_name": "一隻羊身上的羊毛",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/yomowork_mov/status/1984905750158958686?s=20",
+    "area": "綜合",
+    "body": "- 原創-鬱火焚生(羊毛歌詞作品集2022~2025)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@yomowork_mov",
+        "url": "https://x.com/yomowork_mov/status/1984905750158958686?s=20"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-04",
+    "circle_name": "又當寡婦了",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/liu.ze.mei.ying",
+    "area": "綜合",
+    "body": "- 原創-盛日\n- 原創-回憶如潮雪\n- 原創-",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "liu.ze.mei.ying",
+        "url": "https://www.facebook.com/liu.ze.mei.ying"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-05",
+    "circle_name": "非常用緊急避難所",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/IceDR",
+    "area": "綜合",
+    "body": "- 原創-大家做實驗\n- 原創-腸軸科學",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@IceDR",
+        "url": "https://www.plurk.com/IceDR"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-06",
+    "circle_name": "沓沓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ut_91127?igsh=MWlqazQwdGI5cGtiMw%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創-縛\n- 原創-健力少女POWER!\n- 原創-VISION",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ut_91127",
+        "url": "https://www.instagram.com/ut_91127?igsh=MWlqazQwdGI5cGtiMw%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-07/08",
+    "circle_name": "枯藤Kotem",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/KotemWriter13",
+    "area": "綜合",
+    "body": "- 《黑潮》驚悚懸疑單篇原創小說集\n- 原創都市傳說系列畫冊\n- 插畫明信片",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/KotemWriter13"
+      }
+    ],
+    "cells": [
+      "Q-07",
+      "Q-08"
+    ]
+  },
+  {
+    "booth_id": "Q-09/10",
+    "circle_name": "COC_TRPG原創模組/劇本_2be禿筆",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/2be_2drink/",
+    "area": "綜合",
+    "body": "- 原創_墓\n- 原創_忘歸\n- 原創_囍",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@2be_2drink",
+        "url": "https://www.instagram.com/2be_2drink/"
+      }
+    ],
+    "cells": [
+      "Q-09",
+      "Q-10"
+    ]
+  },
+  {
+    "booth_id": "Q-11",
+    "circle_name": "龍虎社",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/LungFu.Club",
+    "area": "綜合",
+    "body": "- 原創-仇起秀朗社（販售周邊商品與「在出版社出版的實體書」太多庫存了QQ）\n- 原創-貓精靈旅記（周邊商品）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "LungFu.Club",
+        "url": "https://www.facebook.com/LungFu.Club"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-12",
+    "circle_name": "海祭 EonsGarden ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/zh-tw/ruinmaster",
+    "area": "綜合",
+    "body": "- 原創-海祭EonsGarden",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/ruinmaster"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-13",
+    "circle_name": "モエ畫稿同萌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/chiuchiu0428",
+    "area": "綜合",
+    "body": "- 原創-妖戀物語",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@chiuchiu0428",
+        "url": "https://www.plurk.com/chiuchiu0428"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-14",
+    "circle_name": "咬一口鯰魚",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://sites.google.com/view/bite1catfish/",
+    "area": "綜合",
+    "body": "- 原創-Mania~狂戀魔法少女~\n- 原創- 輓鳴\n- 原創-流鳶樂歌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://sites.google.com/view/bite1catfish/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-15",
+    "circle_name": "YO RIN",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
+    "area": "綜合",
+    "body": "- 原創-黑行者",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-16",
+    "circle_name": "嶴嶼",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/chowwuart/",
+    "area": "綜合",
+    "body": "- 原創-嶴嶼",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@chowwuart",
+        "url": "https://www.instagram.com/chowwuart/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-17",
+    "circle_name": "漫顏 manga color",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://shop.codingcat-design.com.tw/manga-color/",
+    "area": "綜合",
+    "body": "- 原創-漫顏001(主題：蔓延)\n- 原創-漫顏002(主題：怪物)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://shop.codingcat-design.com.tw/manga-color/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-18",
+    "circle_name": "sally : deja-vu",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/slychen",
+    "area": "綜合",
+    "body": "- 原創-遊記‧旅行箱(迷你盒裝小書#3)\n- 原創-漫畫出租店(迷你小書)\n- 原創-狗狗漫畫明信片/貼紙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/slychen"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-19/20",
+    "circle_name": "JULAI小宇宙",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/fiiishion/",
+    "area": "綜合",
+    "body": "- 原創-露露修女與惡魔AU\n- 原創-滴水穿石\n- 原創-魔女露露的日常",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@fiiishion",
+        "url": "https://www.instagram.com/fiiishion/"
+      }
+    ],
+    "cells": [
+      "Q-19",
+      "Q-20"
+    ]
+  },
+  {
+    "booth_id": "Q-21",
+    "circle_name": "ninjin_tabenai",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ninjin_tabenai/",
+    "area": "綜合",
+    "body": "- 原創-昭和復古",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ninjin_tabenai",
+        "url": "https://www.instagram.com/ninjin_tabenai/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-22",
+    "circle_name": "尹先",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/roxanne21___/?hl=zh-tw",
+    "area": "綜合",
+    "body": "- 原創-秋季\n- 原創-summer chill\n- 原創-女孩",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@roxanne21___",
+        "url": "https://www.instagram.com/roxanne21___/?hl=zh-tw"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-23/24",
+    "circle_name": "小民日子Dayslikethis",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/18Dayslikethis",
+    "area": "綜合",
+    "body": "- 原創:《早安我的朋友，祝你鷺鷺大順》臺灣鷺科插畫圖鑑\n- 原創:野鳥插畫及相關周邊\n- 原創:看路！不是鷺，插畫擋泥板",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "18Dayslikethis",
+        "url": "https://www.facebook.com/18Dayslikethis"
+      }
+    ],
+    "cells": [
+      "Q-23",
+      "Q-24"
+    ]
+  },
+  {
+    "booth_id": "Q-25",
+    "circle_name": "王葳",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/doublewdoublew/",
+    "area": "綜合",
+    "body": "- 原創漫畫_《蝙蝠》\n- 原創畫冊_《心之所向》\n- 原創作品延伸的周邊小物",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@doublewdoublew",
+        "url": "https://www.instagram.com/doublewdoublew/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-26",
+    "circle_name": "狐咖啡",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/foxcoffeexx/",
+    "area": "綜合",
+    "body": "- 原創-狐咖啡FOXXXCOFFEE\n- 原創-帕狐PUFFOX",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@foxcoffeexx",
+        "url": "https://www.instagram.com/foxcoffeexx/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-27",
+    "circle_name": "安全渡夏",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/not_december1212",
+    "area": "綜合",
+    "body": "- 原創-徒長草子（多肉植物zine）\n- 原創-Echeveria女子圖鑑（多肉植物zine）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@not_december1212",
+        "url": "https://www.instagram.com/not_december1212"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-28",
+    "circle_name": "Astudio.o",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/astudio.o/",
+    "area": "綜合",
+    "body": "- 原創－Soul Doll 靈魂玩偶（插畫+週邊）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@astudio.o",
+        "url": "https://www.instagram.com/astudio.o/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-29",
+    "circle_name": "一隻甲鳥子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/aaaduck/",
+    "area": "綜合",
+    "body": "- 原創—一隻甲鳥子(插畫+周邊)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@aaaduck",
+        "url": "https://www.instagram.com/aaaduck/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-30",
+    "circle_name": "かくkaku",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/ewokaku0w0",
+    "area": "綜合",
+    "body": "- 原創：菌菇類貼紙、少女塗鴉、奇奇怪怪塗鴉......等\n- 二創預計：寶石之國",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/ewokaku0w0"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-31/32",
+    "circle_name": "魔女柒柒",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/77witch_7two/",
+    "area": "綜合",
+    "body": "- 原創-魔女柒柒\n- 原創-蜜袋鼯啵妮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@77witch_7two",
+        "url": "https://www.instagram.com/77witch_7two/"
+      }
+    ],
+    "cells": [
+      "Q-31",
+      "Q-32"
+    ]
+  },
+  {
+    "booth_id": "Q-33/34",
+    "circle_name": "跳到兔子都不知道",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/rabbit_rose_?igsh=MTZyNTZ2bDRtcDl4eQ==",
+    "area": "綜合",
+    "body": "- 原創-少女風格插畫筆記本\n- 原創-少女風格插畫明信片",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@rabbit_rose_",
+        "url": "https://www.instagram.com/rabbit_rose_?igsh=MTZyNTZ2bDRtcDl4eQ=="
+      }
+    ],
+    "cells": [
+      "Q-33",
+      "Q-34"
+    ]
+  },
+  {
+    "booth_id": "Q-35/36",
+    "circle_name": "少女心室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/crybaby_77_illustration?igsh=MXhieGVvamtkbDl1OQ%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創周邊（貼紙、明信片、吊飾）\n- 原創繪本（三本）\n- 原創手作串珠（手機練、飾品）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@crybaby_77_illustration",
+        "url": "https://www.instagram.com/crybaby_77_illustration?igsh=MXhieGVvamtkbDl1OQ%3D%3D&utm_source=qr"
+      }
+    ],
+    "cells": [
+      "Q-35",
+      "Q-36"
+    ]
+  },
+  {
+    "booth_id": "Q-37",
+    "circle_name": "漂流中的無",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/lya_0328?igsh=MXUzOHRraTlmZHdzMg%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創-蒼律\n- 原創-漂流中的無",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@lya_0328",
+        "url": "https://www.instagram.com/lya_0328?igsh=MXUzOHRraTlmZHdzMg%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-38",
+    "circle_name": "懶惰朽吉 wohenlanduo",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/wohenlanduo",
+    "area": "綜合",
+    "body": "- 原創-小魔女插畫\n- 原創-路人女子插畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@wohenlanduo",
+        "url": "https://www.instagram.com/wohenlanduo"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-39",
+    "circle_name": "月刊蜉迴都",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://epilog.blog49.fc2.com/",
+    "area": "綜合",
+    "body": "- 原創-《~𝓟𝓓𝓒~ Standard Terminal Arrival Route》\n- 原創-《夜步中華街》系列\n- 原創-《聽聽飯飯醬》",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://epilog.blog49.fc2.com/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Q-40",
+    "circle_name": "角砂糖kakusugar",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
+    "area": "綜合",
+    "body": "- 原創_魔法世界觀系列\n- 原創_日常漫畫\n- 二創_holostars",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-01/02",
+    "circle_name": "灰色和諧",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://cxc.today/zh/@Gray_Harmony/work",
+    "area": "綜合",
+    "body": "- 原創小說《十二鐘響》《守城者》《海面之下》\n- 原創明信片\n- 原創周邊",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://cxc.today/zh/@Gray_Harmony/work"
+      }
+    ],
+    "cells": [
+      "R-01",
+      "R-02"
+    ]
+  },
+  {
+    "booth_id": "R-03",
+    "circle_name": "fu富",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/___.fu____",
+    "area": "綜合",
+    "body": "- 原創-青之泥 第一章 伴著你-漫畫\n- 原創-青之泥-明信片\n- 原創-青之泥-海報",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@___.fu____",
+        "url": "https://www.instagram.com/___.fu____"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-04",
+    "circle_name": "鱷魚的蛋蛋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/agathexu/",
+    "area": "綜合",
+    "body": "- 原創_貓會跳舞的小鎮\n- 原創_多情漫遊\n- 原創_三雀絲巾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@agathexu",
+        "url": "https://www.instagram.com/agathexu/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-05",
+    "circle_name": "旅者的足音",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://oginoyori.wixsite.com/oginoyori",
+    "area": "綜合",
+    "body": "- 原創-Sign in：Seiga1999\n- 原創-艾利斯提的寫作筆記",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "wix",
+        "handle": "",
+        "url": "https://oginoyori.wixsite.com/oginoyori"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-06",
+    "circle_name": "腦洞煉製所",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/refineyy",
+    "area": "綜合",
+    "body": "- 原創-十字信徒\n- 魔法帽的工作室",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/refineyy"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-07",
+    "circle_name": "向隅團",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://bwa9090.wixsite.com/nookpartner",
+    "area": "綜合",
+    "body": "- 原創-動物小鎮\n- 原創-Dreampunk",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "wix",
+        "handle": "",
+        "url": "https://bwa9090.wixsite.com/nookpartner"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-08",
+    "circle_name": "夢靈虎居",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/dreamxsoul",
+    "area": "綜合",
+    "body": "- 排球少年\n- 原創-虎球之森\n- 原創-古埃及神",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@dreamxsoul",
+        "url": "https://www.plurk.com/dreamxsoul"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-09/10",
+    "circle_name": "麻玖叮",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/maruoo0121/?igshid=YmMyMTA2M2Y%3D",
+    "area": "綜合",
+    "body": "- 原創-麻玖叮小魔女系列\n- 原創-礦石插圖",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@maruoo0121",
+        "url": "https://www.instagram.com/maruoo0121/?igshid=YmMyMTA2M2Y%3D"
+      }
+    ],
+    "cells": [
+      "R-09",
+      "R-10"
+    ]
+  },
+  {
+    "booth_id": "R-11",
+    "circle_name": "舒本裡的小精靈",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/xy884088/",
+    "area": "綜合",
+    "body": "- 原創舒本裡的小精靈",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@xy884088",
+        "url": "https://www.instagram.com/xy884088/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-12",
+    "circle_name": "AYS可愛生活伴侶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/anonymous626_ig/",
+    "area": "綜合",
+    "body": "- 原創-貓貓",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@anonymous626_ig",
+        "url": "https://www.instagram.com/anonymous626_ig/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-13/14",
+    "circle_name": "狐狸樹屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/axitreehouse/",
+    "area": "綜合",
+    "body": "- 原創-奇幻\n- 原創-魔法\n- 原創-狐狸",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@axitreehouse",
+        "url": "https://www.instagram.com/axitreehouse/"
+      }
+    ],
+    "cells": [
+      "R-13",
+      "R-14"
+    ]
+  },
+  {
+    "booth_id": "R-15/16",
+    "circle_name": "狐日和",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/gloomlysky",
+    "area": "綜合",
+    "body": "- 狐狸",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@gloomlysky",
+        "url": "https://www.plurk.com/gloomlysky"
+      }
+    ],
+    "cells": [
+      "R-15",
+      "R-16"
+    ]
+  },
+  {
+    "booth_id": "R-17",
+    "circle_name": "迷你蛋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/nagoberry",
+    "area": "綜合",
+    "body": "- 手作娃衣披風\n- 手作小娃娃",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@nagoberry",
+        "url": "https://www.plurk.com/nagoberry"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-18",
+    "circle_name": "水獺世界",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/sonehareko/",
+    "area": "綜合",
+    "body": "- 原創-水獺",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "sonehareko",
+        "url": "https://www.facebook.com/sonehareko/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-19/20",
+    "circle_name": "奇妙動物商店",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/unfriendlyanimals",
+    "area": "綜合",
+    "body": "- 原創-不友善的奇妙動物",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@unfriendlyanimals",
+        "url": "https://www.instagram.com/unfriendlyanimals"
+      }
+    ],
+    "cells": [
+      "R-19",
+      "R-20"
+    ]
+  },
+  {
+    "booth_id": "R-21/22",
+    "circle_name": "Birdink",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/birdink.koriyangart/",
+    "area": "綜合",
+    "body": "- 原創 - 鳥類明信片\n- 原創 - 鳥類T漁夫帽\n- 原創 - 鳥類T恤",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@birdink.koriyangart",
+        "url": "https://www.instagram.com/birdink.koriyangart/"
+      }
+    ],
+    "cells": [
+      "R-21",
+      "R-22"
+    ]
+  },
+  {
+    "booth_id": "R-23",
+    "circle_name": "寢室裡養鳥",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/keepingbirds",
+    "area": "綜合",
+    "body": "- 野鳥與寵物鳥",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "keepingbirds",
+        "url": "https://www.facebook.com/keepingbirds"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-24",
+    "circle_name": "新夭brainholesky",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/brainholesky/",
+    "area": "綜合",
+    "body": "- 動物躺平杯墊\n- 動物嘴巴開開零錢包\n- 動物氣噗噗吊飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@brainholesky",
+        "url": "https://www.instagram.com/brainholesky/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-25/26",
+    "circle_name": "超開星",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/flaming_starrr?igsh=MTdqb3RhdDgweTE1Nw==",
+    "area": "綜合",
+    "body": "- 原創-鳥類插畫\n- 原創-食物鳥IP宇宙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@flaming_starrr",
+        "url": "https://www.instagram.com/flaming_starrr?igsh=MTdqb3RhdDgweTE1Nw=="
+      }
+    ],
+    "cells": [
+      "R-25",
+      "R-26"
+    ]
+  },
+  {
+    "booth_id": "R-27",
+    "circle_name": "金平糖Starcandy_sheep",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/starcandy_sheep",
+    "area": "綜合",
+    "body": "- 原創-金平糖羊雞\n- 原創-同步戰紀",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@starcandy_sheep",
+        "url": "https://www.instagram.com/starcandy_sheep"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-28",
+    "circle_name": "脖狐的脖子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
+    "area": "綜合",
+    "body": "- 原創-動物陶偶\n- 原創-奇幻生物模型\n- 原創-奇幻生物週邊（貼紙、壓克力等",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@invites",
+        "url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-29",
+    "circle_name": "一塊阿梨酥",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ali._.su_/",
+    "area": "綜合",
+    "body": "- 動物插圖\n- 原創周邊\n- 食物插畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ali._.su_",
+        "url": "https://www.instagram.com/ali._.su_/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-30",
+    "circle_name": "HyggeLove",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hygge._love?igsh=MThvcDUxM3Vhc3Rndw%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創-幸運呱呱",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hygge._love",
+        "url": "https://www.instagram.com/hygge._love?igsh=MThvcDUxM3Vhc3Rndw%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-31",
+    "circle_name": "劍龍細胞",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/dayday._.sleep?igsh=MTRkamN6N2d3cjUzMQ%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原創-雙面壓克力吊飾\n- 原創-明信片\n- 原創-壓克力雙面PP夾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@dayday._.sleep",
+        "url": "https://www.instagram.com/dayday._.sleep?igsh=MTRkamN6N2d3cjUzMQ%3D%3D&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-32",
+    "circle_name": "The Berry Pie 貝栗派",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/the_berrypie/",
+    "area": "綜合",
+    "body": "- 原創-豌豆麵包坊系列\n- 原創-橘莓甜點店系列\n- 原創-烤貝栗派小動畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@the_berrypie",
+        "url": "https://www.instagram.com/the_berrypie/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-33",
+    "circle_name": "塗鴉仙人掌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/minproject888/",
+    "area": "綜合",
+    "body": "- 原創-仙人掌明信片\n- 原創-神奇塗鴉貼紙\n- 原創-仙人掌吊飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@minproject888",
+        "url": "https://www.instagram.com/minproject888/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-34",
+    "circle_name": "蘿蔔兔Too",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hsiao.local.girl/",
+    "area": "綜合",
+    "body": "- 原創-蘿蔔兔Too貼紙\n- 原創-蘿蔔兔Too明信片\n- 原創-蘿蔔兔Too吊飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hsiao.local.girl",
+        "url": "https://www.instagram.com/hsiao.local.girl/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-35",
+    "circle_name": "天羽然Deangelo",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/deangelo_1024/",
+    "area": "綜合",
+    "body": "- 光羽藍之間\n- 青空與祈願\n- 海色與微光",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@deangelo_1024",
+        "url": "https://www.instagram.com/deangelo_1024/"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-36",
+    "circle_name": "泡芙兔兔的工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "facebook.com/puffbunny.oo.p",
+    "area": "綜合",
+    "body": "- 繽紛之聖(指引方向的光)-明信片\n- Best Wishes-半斷貼紙\n- 慶生熊",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "puffbunny.oo.p",
+        "url": "facebook.com/puffbunny.oo.p"
+      }
+    ]
+  },
+  {
+    "booth_id": "R-37/38",
+    "circle_name": "Aggie 慢慢走 ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://instagram.com/aggie__amble?r=nametag",
+    "area": "綜合",
+    "body": "- 星語小卡\n- 刺蝟的小禮物\n- 黑潮之歌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@aggie__amble",
+        "url": "https://instagram.com/aggie__amble?r=nametag"
+      }
+    ],
+    "cells": [
+      "R-37",
+      "R-38"
+    ]
+  },
+  {
+    "booth_id": "R-39/40",
+    "circle_name": "PIN製造所",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.pinkoi.com/store/pinillustration",
+    "area": "綜合",
+    "body": "- 原創-The Pause Inn\n- 原創-節慶賀卡\n- 原創-余白手作飾品",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://www.pinkoi.com/store/pinillustration"
+      }
+    ],
+    "cells": [
+      "R-39",
+      "R-40"
+    ]
   },
   {
     "booth_id": "S-01",
@@ -201,7 +6157,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/KARASoshigata",
-    "socials": [{"platform": "fb", "handle": "KARASoshigata", "url": "https://www.facebook.com/KARASoshigata"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "KARASoshigata",
+        "url": "https://www.facebook.com/KARASoshigata"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 主新刊 **『我喜歡上弟弟前女友 第3集』** + 周邊一式 (徽章 / 立牌 / 明信片 / 小卡)\n- 突發新刊 **彩葉 R-18 本** (= 超時空輝耀姬 二創)\n- Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 同 5/30 另一場: 布鼓 J02\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
     "tags": {
       "original": true,
@@ -231,7 +6193,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-02",
@@ -239,7 +6202,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
-    "socials": [{"platform": "fb", "handle": "li.chun.ba.ba.da.xia", "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "li.chun.ba.ba.da.xia",
+        "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"
+      }
+    ],
     "body": "- 原創-快樂老鼠\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- S-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
     "tags": {
       "original": true,
@@ -283,7 +6252,8 @@ window.BOOTHS = [
         "display_locked": false
       }
     ],
-    "group": "S-[02,06]"
+    "group": "S-[02,06]",
+    "area": "百合"
   },
   {
     "booth_id": "S-03",
@@ -291,7 +6261,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/jiao.ji.327793/",
-    "socials": [{"platform": "fb", "handle": "jiao.ji.327793", "url": "https://www.facebook.com/jiao.ji.327793/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "jiao.ji.327793",
+        "url": "https://www.facebook.com/jiao.ji.327793/"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- S-03 出展 ／ 新刊 3 + 既刊 3:\n- **新刊**:\n  - 原創漫畫 **『乳牙🦷』** (A5 / 16P / 黑白 / 膠裝 / NT 150)\n  - 上伊那牡丹 **『泡沫和水果口味的氣泡酒與妳一起更加美味』** (A5 / 20P / 黑白 / 膠裝 / NT 200)\n  - 上伊那牡丹 **『學姊，可是浴室在逼逼叫』** (A5 / 8P / 黑白小冊 / NT 100、 葛美栗 [S-25] 插花)\n- **既刊** (MyGO!!!!!): 『普通與理所當然』 (NT 250) / 『動手玩創意』 (NT 200) / 『千早愛音妳到底在想什麼！！』 (NT 200)\n- 通販: [黑市兔 myacg 賣場](https://www.myacg.com.tw/seller_market.php?seller=555355&keyword=%E8%A7%92%E5%90%89) ／ 原創新刊是場後賣貨便個別開賣\n- 出處: [品書 post](https://www.facebook.com/share/p/1LvGgyH139/) / [學姊浴室](https://www.facebook.com/share/p/1D6aKKvxQv/) / [泡沫氣泡酒](https://www.facebook.com/share/p/1Dv52MK4fm/)",
     "tags": {
       "original": true,
@@ -385,7 +6361,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "S-[02,06]"
+    "group": "S-[02,06]",
+    "area": "百合"
   },
   {
     "booth_id": "S-04",
@@ -393,7 +6370,28 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/witlhgti",
-    "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/witlhgti"}, {"platform": "ig", "handle": "@________witlhgti________", "url": "https://www.instagram.com/________witlhgti________/"}, {"platform": "fb", "handle": "profile 61582400…", "url": "https://www.facebook.com/profile.php?id=61582400081677"}, {"platform": "x", "handle": "@witlhgti", "url": "https://twitter.com/witlhgti"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/witlhgti"
+      },
+      {
+        "platform": "ig",
+        "handle": "@________witlhgti________",
+        "url": "https://www.instagram.com/________witlhgti________/"
+      },
+      {
+        "platform": "fb",
+        "handle": "profile 61582400…",
+        "url": "https://www.facebook.com/profile.php?id=61582400081677"
+      },
+      {
+        "platform": "x",
+        "handle": "@witlhgti",
+        "url": "https://twitter.com/witlhgti"
+      }
+    ],
     "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 ([『上伊那ぼたん、酔へる姿は百合の花』](https://x.com/i/status/2059913890855813128) 二創、 上伊那ぼたん)",
     "tags": {
       "original": true,
@@ -431,7 +6429,8 @@ window.BOOTHS = [
       "image_count_avail": 1,
       "commerce_count_avail": 0
     },
-    "group": "S-[02,06]"
+    "group": "S-[02,06]",
+    "area": "百合"
   },
   {
     "booth_id": "S-05/06",
@@ -439,7 +6438,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/shi.zhong.394980/",
-    "socials": [{"platform": "fb", "handle": "shi.zhong.394980", "url": "https://www.facebook.com/shi.zhong.394980/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "shi.zhong.394980",
+        "url": "https://www.facebook.com/shi.zhong.394980/"
+      }
+    ],
     "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他**:\n- 「《魚》」 — 原創 · 張景嵐x郡上奏\n- 「《夜晚的泳池深不見底》」 — 原創 · 張景嵐x郡上奏\n\n**本**:\n- 「《和頭上有發光披薩圈圈的女孩子 交朋友的十種方法》」 — 原創 · 張景嵐x郡上奏 — 漫畫\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "original": true,
@@ -467,7 +6472,8 @@ window.BOOTHS = [
       "S-05",
       "S-06"
     ],
-    "group": "S-[02,06]"
+    "group": "S-[02,06]",
+    "area": "百合"
   },
   {
     "booth_id": "S-07",
@@ -475,7 +6481,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/loveliver0827",
-    "socials": [{"platform": "plurk", "handle": "@loveliver0827", "url": "https://www.plurk.com/loveliver0827"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@loveliver0827",
+        "url": "https://www.plurk.com/loveliver0827"
+      }
+    ],
     "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- S07 出展 ／ 新刊 [**maruhime 本**](https://www.plurk.com/p/3iq6cbcsgl) (原創百合、 Maru × Hime、 冬の物語)",
     "tags": {
       "original": true,
@@ -493,7 +6505,8 @@ window.BOOTHS = [
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-07/plurk-3iq6cbcsgl/0.jpg",
         "display_locked": false
       }
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-08",
@@ -501,7 +6514,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/s22393",
-    "socials": [{"platform": "plurk", "handle": "@s22393", "url": "https://www.plurk.com/s22393"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@s22393",
+        "url": "https://www.plurk.com/s22393"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 創集繪 (5/30) 參加確認 ／ 通販已委託、 詳情隨時於 Plurk 更新",
     "tags": {
       "original": true,
@@ -530,7 +6549,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 4,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-09",
@@ -538,7 +6558,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/renyinaloha",
-    "socials": [{"platform": "plurk", "handle": "@renyinaloha", "url": "https://www.plurk.com/renyinaloha"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@renyinaloha",
+        "url": "https://www.plurk.com/renyinaloha"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 帶來新刊 **[『Bride of the Forest』](https://www.plurk.com/p/3htvpaprbz)**",
     "tags": {
       "original": true,
@@ -591,7 +6617,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-10",
@@ -599,7 +6626,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Chihlun42",
     "x_url": "https://x.com/Chihlun42",
-    "socials": [{"platform": "x", "handle": "@Chihlun42", "url": "https://x.com/Chihlun42"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Chihlun42",
+        "url": "https://x.com/Chihlun42"
+      }
+    ],
     "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他**:\n- 「(未名)」 — 原創 · 諾雅 × 英里娜\n- 「(未名)」 — バンドリ! · 諾雅 × 英里娜\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "original": true,
@@ -637,7 +6670,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-11",
@@ -645,7 +6679,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3i2nll7mkt",
-    "socials": [{"platform": "plurk", "handle": "", "url": "https://www.plurk.com/p/3i2nll7mkt"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "",
+        "url": "https://www.plurk.com/p/3i2nll7mkt"
+      }
+    ],
     "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n**專區**: 百合\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n## 📝 CH19 出展重點\n\n**本**:\n- 「《霜月課長與常守執行官》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 漫畫 / NT 未定 / 我會出的我會出的\n\n**其他**:\n- 「《未竟之路》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 100\n- 「霜朱光透鏡」 — PSYCHO-PASS 心靈判官 · 霜月美佳x常守朱 — NT 100 / 實拍圖\n- 「奇異果貼紙 毛絨絨ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 植絨貼紙\n- 「奇異果貼紙 春季百合ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 透明貼紙\n- 「奇異果貼紙 打籃球ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 雷射貼紙\n\n**其他周邊**:\n- 「朱霜明信片」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 周邊 / NT 30 / 燙金明信片\n- 「奇異果貼紙 冬季百合ver.」 — 原創 · 奇異果企鵝 — 周邊 / NT 50 / 透明貼紙\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "original": true,
@@ -663,7 +6703,8 @@ window.BOOTHS = [
       "image_count_avail": 1,
       "commerce_count_avail": 0
     },
-    "group": "S-[11,12]"
+    "group": "S-[11,12]",
+    "area": "百合"
   },
   {
     "booth_id": "S-12",
@@ -671,7 +6712,33 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://linktr.ee/taiwanlilyproject",
-    "socials": [{"platform": "aggregator", "handle": "Linktree", "url": "https://linktr.ee/taiwanlilyproject"}, {"platform": "x", "handle": "@TwLilyProject", "url": "https://x.com/TwLilyProject"}, {"platform": "threads", "handle": "@taiwanlilyproject", "url": "https://www.threads.com/@taiwanlilyproject"}, {"platform": "ig", "handle": "@taiwanlilyproject", "url": "https://www.instagram.com/taiwanlilyproject"}, {"platform": "plurk", "handle": "@The_Taiwan_Lily_Project", "url": "https://www.plurk.com/The_Taiwan_Lily_Project"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/taiwanlilyproject"
+      },
+      {
+        "platform": "x",
+        "handle": "@TwLilyProject",
+        "url": "https://x.com/TwLilyProject"
+      },
+      {
+        "platform": "threads",
+        "handle": "@taiwanlilyproject",
+        "url": "https://www.threads.com/@taiwanlilyproject"
+      },
+      {
+        "platform": "ig",
+        "handle": "@taiwanlilyproject",
+        "url": "https://www.instagram.com/taiwanlilyproject"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@The_Taiwan_Lily_Project",
+        "url": "https://www.plurk.com/The_Taiwan_Lily_Project"
+      }
+    ],
     "body": "- 原創-百合研究筆記\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n**S-12 初出展**\n\n- 主は研究筆記 (女同志博士生によるTaiwan百合漫畫研究)\n- 当日は買收集た 台灣百合作品の sharing 予定 (会場交流ベース)\n- [出展宣告](https://x.com/i/status/2057788598590796146) / [復帰挨拶](https://x.com/i/status/2057788596535587101)",
     "tags": {
       "original": true,
@@ -689,7 +6756,8 @@ window.BOOTHS = [
       "image_count_avail": 1,
       "commerce_count_avail": 0
     },
-    "group": "S-[11,12]"
+    "group": "S-[11,12]",
+    "area": "百合"
   },
   {
     "booth_id": "S-13/14",
@@ -697,7 +6765,28 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://blossoming-faded.blog/",
-    "socials": [{"platform": "blog", "handle": "花開。花烙", "url": "https://blossoming-faded.blog/"}, {"platform": "ig", "handle": "@blossoming.faded", "url": "https://www.instagram.com/blossoming.faded/"}, {"platform": "threads", "handle": "@blossoming.faded", "url": "https://www.threads.com/@blossoming.faded"}, {"platform": "aggregator", "handle": "Linktree", "url": "https://linktr.ee/blossoming.faded"}],
+    "socials": [
+      {
+        "platform": "blog",
+        "handle": "花開。花烙",
+        "url": "https://blossoming-faded.blog/"
+      },
+      {
+        "platform": "ig",
+        "handle": "@blossoming.faded",
+        "url": "https://www.instagram.com/blossoming.faded/"
+      },
+      {
+        "platform": "threads",
+        "handle": "@blossoming.faded",
+        "url": "https://www.threads.com/@blossoming.faded"
+      },
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/blossoming.faded"
+      }
+    ],
     "body": "- 原創-再生花\n- 原創-以愛之名\n- 死亡愛麗絲同人小說-正義のゾウフ\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- S-13/14 出展 (雪緞 / Vivian、 IG [@blossoming.faded](https://www.instagram.com/blossoming.faded/))\n\n- 当日は小幫手固定坐攤\n- R18 GL 小說 再版 2 種:\n\n- **『再生花』** 再版 (小說 + 2 篇加筆 + 5P 插圖、 B6 / 200P、 NTD 200、 套裝 (色紙 + 書籤) NTD 250)\n- **『以愛之名』** 再版 (R18 GL 小說、 B6 / 頁數要相違)\n\n- テーマ: SINoALICE 同人 (正義のゾウフ) + 原創百合\n\n- R18 ID 驗證必要 (2008/5/30 以前 出生)\n- 通販: [linktr.ee/blossoming.faded](https://linktr.ee/blossoming.faded)\n- [IF07 品書宣傳 IG post](https://www.instagram.com/blossoming.faded/p/DYbipjgk17k/) / [blog 全文](https://blossoming-faded.blog/archives/526)",
     "tags": {
       "original": true,
@@ -736,7 +6825,8 @@ window.BOOTHS = [
     "cells": [
       "S-13",
       "S-14"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-15",
@@ -744,7 +6834,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/akomari",
-    "socials": [{"platform": "plurk", "handle": "@akomari", "url": "https://www.plurk.com/akomari"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@akomari",
+        "url": "https://www.plurk.com/akomari"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- S15 出展 ／ 過去 5 年百翁 持續參加組\n- [原 post](https://www.plurk.com/p/3huoa95l4k)",
     "tags": {
       "original": true,
@@ -786,7 +6882,8 @@ window.BOOTHS = [
       "platform_used": "plurk",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-16",
@@ -794,7 +6891,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
-    "socials": [{"platform": "fb", "handle": "share", "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"
+      }
+    ],
     "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 場前注意事項あり (post 3)\n- 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
     "tags": {
       "original": true,
@@ -897,7 +7000,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-17",
@@ -912,7 +7016,8 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [],
-    "group": "S-[17,18]"
+    "group": "S-[17,18]",
+    "area": "百合"
   },
   {
     "booth_id": "S-18",
@@ -926,7 +7031,8 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [],
-    "group": "S-[17,18]"
+    "group": "S-[17,18]",
+    "area": "百合"
   },
   {
     "booth_id": "S-19/20",
@@ -934,7 +7040,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Kokokoro__",
     "x_url": "https://x.com/Kokokoro__",
-    "socials": [{"platform": "x", "handle": "@Kokokoro__", "url": "https://x.com/Kokokoro__"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Kokokoro__",
+        "url": "https://x.com/Kokokoro__"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- [原 tweet](https://x.com/i/status/2057110462534459871)",
     "tags": {
       "original": true,
@@ -980,7 +7092,8 @@ window.BOOTHS = [
     "cells": [
       "S-19",
       "S-20"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-21",
@@ -988,7 +7101,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "komerice_lo",
     "x_url": "https://x.com/komerice_lo",
-    "socials": [{"platform": "x", "handle": "@komerice_lo", "url": "https://x.com/komerice_lo"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@komerice_lo",
+        "url": "https://x.com/komerice_lo"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 [**R18 本**](https://x.com/i/status/2054458383512883590) 出展 ／ 試閱 + 印量調查 link 於 X 回覆欄",
     "tags": {
       "yuri-zone": true,
@@ -1012,7 +7131,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-22",
@@ -1020,7 +7140,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr",
-    "socials": [{"platform": "ig", "handle": "@shioisland", "url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr"}],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@shioisland",
+        "url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **『Madder & Teal Vol. Rosy Haze』** (原創、 A5/30P/左翻/黑白/NT 200)\n\n- 〈夏日飛行〉 至 〈你是止痛藥〉 之間 補充劇情\n- 特典: **5/30 現場限定 雷射黑膠造型小卡** (限量) ＆ 一般首刷 = 炫光明信片\n- [IG 新刊發表 + 試閱](https://www.instagram.com/shioisland/p/DXiwclyk8Qv/)",
     "tags": {
       "original": true,
@@ -1038,7 +7164,8 @@ window.BOOTHS = [
       "platform_used": "ig",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-23/24",
@@ -1065,7 +7192,8 @@ window.BOOTHS = [
     "cells": [
       "S-23",
       "S-24"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-25",
@@ -1073,7 +7201,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-    "socials": [{"platform": "fb", "handle": "people", "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "people",
+        "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"
+      }
+    ],
     "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 百翁 既刊 中心 (歷年 百合 作集)\n- 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
     "tags": {
       "yuri-zone": true
@@ -1115,7 +7249,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-26",
@@ -1123,7 +7258,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/abcs628945",
-    "socials": [{"platform": "plurk", "handle": "@abcs628945", "url": "https://www.plurk.com/abcs628945"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@abcs628945",
+        "url": "https://www.plurk.com/abcs628945"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 主要為 **Ave Mujica 祥初 (祥子×初華)** R-18 [印量調查中](https://www.plurk.com/p/3ioinys6x4)",
     "cps": [
       "iroyachi"
@@ -1152,7 +7293,8 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "group": "S-[26,28]"
+    "group": "S-[26,28]",
+    "area": "百合"
   },
   {
     "booth_id": "S-27",
@@ -1160,7 +7302,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/pipi.yaya.90",
-    "socials": [{"platform": "fb", "handle": "pipi.yaya.90", "url": "https://www.facebook.com/pipi.yaya.90"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "pipi.yaya.90",
+        "url": "https://www.facebook.com/pipi.yaya.90"
+      }
+    ],
     "body": "- BanG Dream! Ave Mujica\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他周邊**:\n- 「祥初自組立牌」 — バンドリ! · 初華 x 祥子 — 周邊\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true
@@ -1188,7 +7336,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "S-[26,28]"
+    "group": "S-[26,28]",
+    "area": "百合"
   },
   {
     "booth_id": "S-28",
@@ -1196,7 +7345,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Liugozekino",
     "x_url": "https://x.com/Liugozekino",
-    "socials": [{"platform": "x", "handle": "@Liugozekino", "url": "https://x.com/Liugozekino"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Liugozekino",
+        "url": "https://x.com/Liugozekino"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- S28 出展 ／ 當日預計舉辦 [**初祥 簽繪版 競標**](https://x.com/i/status/2059118273388740955)",
     "tags": {
       "yuri-zone": true
@@ -1248,7 +7403,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "S-[26,28]"
+    "group": "S-[26,28]",
+    "area": "百合"
   },
   {
     "booth_id": "S-29",
@@ -1256,7 +7412,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Crazycat_47",
     "x_url": "https://x.com/Crazycat_47",
-    "socials": [{"platform": "x", "handle": "@Crazycat_47", "url": "https://x.com/Crazycat_47"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@Crazycat_47",
+        "url": "https://x.com/Crazycat_47"
+      }
+    ],
     "body": "- 緋染天空\n- 水星的魔女\n\n**專區**: 百合\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\n- 月底百翁 小新品\n- 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
     "tags": {
       "yuri-zone": true
@@ -1274,7 +7436,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "S-[29,32]"
+    "group": "S-[29,32]",
+    "area": "百合"
   },
   {
     "booth_id": "S-30",
@@ -1282,7 +7445,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/spton",
-    "socials": [{"platform": "plurk", "handle": "@spton (tonton)", "url": "https://www.plurk.com/spton"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@spton (tonton)",
+        "url": "https://www.plurk.com/spton"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- R18 新刊 **『至少這部分是誠實的。』** (機動戰士鋼彈水星的魔女、 スレッタ×ミオリネ、 A5 / 右翻 / 膠裝 / 22P / 150元)\n- 場次明信片 ibon 印好後分發\n- [新刊 post](https://www.plurk.com/p/3iq8pqwbd7) / [明信片 announce](https://www.plurk.com/p/3htmz2wzs2)",
     "tags": {
       "yuri-zone": true,
@@ -1323,7 +7492,8 @@ window.BOOTHS = [
       "image_count_avail": 3,
       "commerce_count_avail": 0
     },
-    "group": "S-[29,32]"
+    "group": "S-[29,32]",
+    "area": "百合"
   },
   {
     "booth_id": "S-31",
@@ -1331,7 +7501,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ToMato182",
-    "socials": [{"platform": "plurk", "handle": "@ToMato182", "url": "https://www.plurk.com/ToMato182"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ToMato182",
+        "url": "https://www.plurk.com/ToMato182"
+      }
+    ],
     "body": "- 奧術\n- 原創-INSIDE LAB\n- She-Ra\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- S-31 出展 ／ R18 新刊 小料 (原創 / 人外 / 創作百合 / caitvi (Arcane) / catradora (She-Ra))\n- [R18 plurk post](https://www.plurk.com/p/3iq7u8hxek)",
     "tags": {
       "original": true,
@@ -1381,7 +7557,8 @@ window.BOOTHS = [
       "image_count_avail": 5,
       "commerce_count_avail": 0
     },
-    "group": "S-[29,32]"
+    "group": "S-[29,32]",
+    "area": "百合"
   },
   {
     "booth_id": "S-32",
@@ -1389,7 +7566,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/caramel06",
-    "socials": [{"platform": "plurk", "handle": "@caramel06", "url": "https://www.plurk.com/caramel06"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@caramel06",
+        "url": "https://www.plurk.com/caramel06"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 帶來周邊\n- 攤位上 [**Miofa 用 認親卡**](https://www.plurk.com/p/3hsq85uojm) 免費領取",
     "tags": {
       "yuri-zone": true
@@ -1427,7 +7610,8 @@ window.BOOTHS = [
       "image_count_avail": 5,
       "commerce_count_avail": 0
     },
-    "group": "S-[29,32]"
+    "group": "S-[29,32]",
+    "area": "百合"
   },
   {
     "booth_id": "S-33/34",
@@ -1435,7 +7619,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/r_bish",
-    "socials": [{"platform": "plurk", "handle": "@r_bish", "url": "https://www.plurk.com/r_bish"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@r_bish",
+        "url": "https://www.plurk.com/r_bish"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- S-33/34 出展 (與 yuanrong1999 合攤) ／ clothk61554 + dabadaba0 寄攤\n- [原 post](https://www.plurk.com/p/3ipstkx7oh)\n\n## 📝 CH19 出展重點\n- 寄攤 (蕭媛容 / 紙屑): 既刊中心 + 高松燈簽繪板預定\n- [原 FB post](https://www.facebook.com/share/p/1Y4RLou66P/)",
     "tags": {
       "yuri-zone": true
@@ -1490,7 +7680,8 @@ window.BOOTHS = [
     "cells": [
       "S-33",
       "S-34"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-35/36",
@@ -1498,7 +7689,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
-    "socials": [{"platform": "plurk", "handle": "@ouyouxi2020", "url": "https://www.plurk.com/ouyouxi2020"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@ouyouxi2020",
+        "url": "https://www.plurk.com/ouyouxi2020"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 創集繪 新品照已公開、 S35/S36 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姬** 多 fandom",
     "tags": {
       "yuri-zone": true,
@@ -1522,7 +7719,8 @@ window.BOOTHS = [
       "S-35",
       "S-36"
     ],
-    "group": "S-[35,40]"
+    "group": "S-[35,40]",
+    "area": "百合"
   },
   {
     "booth_id": "S-37/38",
@@ -1530,7 +7728,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "pomeka35",
     "x_url": "https://x.com/pomeka35",
-    "socials": [{"platform": "x", "handle": "@pomeka35", "url": "https://x.com/pomeka35"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@pomeka35",
+        "url": "https://x.com/pomeka35"
+      }
+    ],
     "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- 「毛茸茸同居人1」 — VTUBER · micomet — 漫畫 / NT 350\n\n**其他**:\n- 「毛茸茸同居人2」 — VTUBER · micomet\n- 「小花團子」 — VTUBER · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTUBER · micomet — NT 200\n- 「壓克力飯友」 — VTUBER · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTUBER · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTUBER · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — バンドリ! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTUBER · micomet — NT 200\n\n**其他周邊**:\n- 「mcmt按鍵吊飾」 — VTUBER · micomet — 周邊 / NT 150\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true,
@@ -1553,7 +7757,8 @@ window.BOOTHS = [
       "S-37",
       "S-38"
     ],
-    "group": "S-[35,40]"
+    "group": "S-[35,40]",
+    "area": "百合"
   },
   {
     "booth_id": "S-39",
@@ -1561,7 +7766,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/maoyuue",
-    "socials": [{"platform": "fb", "handle": "maoyuue", "url": "https://www.facebook.com/maoyuue"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "maoyuue",
+        "url": "https://www.facebook.com/maoyuue"
+      }
+    ],
     "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布)\n- 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
     "tags": {
       "yuri-zone": true
@@ -1634,7 +7845,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "S-[35,40]"
+    "group": "S-[35,40]",
+    "area": "百合"
   },
   {
     "booth_id": "S-40",
@@ -1642,7 +7854,43 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://portaly.cc/raker.natsume.0701",
-    "socials": [{"platform": "aggregator", "handle": "portaly", "url": "https://portaly.cc/raker.natsume.0701"}, {"platform": "fb", "handle": "photo", "url": "https://www.facebook.com/photo/?fbid=543046895339125&set=pb.100089014576405.-2207520000"}, {"platform": "pixiv", "handle": "Pixiv 20901804", "url": "https://www.pixiv.net/users/20901804"}, {"platform": "plurk", "handle": "@linhannah", "url": "https://www.plurk.com/linhannah"}, {"platform": "threads", "handle": "@raker.natsume", "url": "https://www.threads.net/@raker.natsume"}, {"platform": "x", "handle": "@rakerrabbit", "url": "https://twitter.com/rakerrabbit"}, {"platform": "doujin_tw", "handle": "", "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/raker.natsume.0701"
+      },
+      {
+        "platform": "fb",
+        "handle": "photo",
+        "url": "https://www.facebook.com/photo/?fbid=543046895339125&set=pb.100089014576405.-2207520000"
+      },
+      {
+        "platform": "pixiv",
+        "handle": "Pixiv 20901804",
+        "url": "https://www.pixiv.net/users/20901804"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@linhannah",
+        "url": "https://www.plurk.com/linhannah"
+      },
+      {
+        "platform": "threads",
+        "handle": "@raker.natsume",
+        "url": "https://www.threads.net/@raker.natsume"
+      },
+      {
+        "platform": "x",
+        "handle": "@rakerrabbit",
+        "url": "https://twitter.com/rakerrabbit"
+      },
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
+      }
+    ],
     "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎",
     "tags": {
       "yuri-zone": true
@@ -1690,7 +7938,8 @@ window.BOOTHS = [
       "image_count_avail": 1,
       "commerce_count_avail": 0
     },
-    "group": "S-[35,40]"
+    "group": "S-[35,40]",
+    "area": "百合"
   },
   {
     "booth_id": "S-41",
@@ -1698,7 +7947,18 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://bsky.app/profile/taboom002.bsky.social",
-    "socials": [{"platform": "bsky", "handle": "@taboom002", "url": "https://bsky.app/profile/taboom002.bsky.social"}, {"platform": "threads", "handle": "@taboom002", "url": "https://www.threads.com/@taboom002"}],
+    "socials": [
+      {
+        "platform": "bsky",
+        "handle": "@taboom002",
+        "url": "https://bsky.app/profile/taboom002.bsky.social"
+      },
+      {
+        "platform": "threads",
+        "handle": "@taboom002",
+        "url": "https://www.threads.com/@taboom002"
+      }
+    ],
     "body": "- 莉可麗絲\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200)\n- 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
     "tags": {
       "yuri-zone": true,
@@ -1771,7 +8031,8 @@ window.BOOTHS = [
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-41/threads-DYWiEoRj7jM/0.jpg",
         "display_locked": false
       }
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "S-42",
@@ -1779,7 +8040,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kuan.wei.lin.372350",
-    "socials": [{"platform": "fb", "handle": "kuan.wei.lin.372350", "url": "https://www.facebook.com/kuan.wei.lin.372350"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "kuan.wei.lin.372350",
+        "url": "https://www.facebook.com/kuan.wei.lin.372350"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- **二階堂希羅 (蔚藍檔案)** 關連内容予定\n- 品書 5/29 整理予定\n- (FF46 別途 新刊 『波星歌』 — 孤獨搖滾 後藤二里×伊地知星歌 dark 路線 A5/56P/350 元)\n- 既知 fandom: 孤獨搖滾 / 魔法少女的魔女審判 / 超時空輝耀姬",
     "tags": {
       "yuri-zone": true,
@@ -1808,7 +8075,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "S-43/44",
@@ -1816,7 +8084,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/na.zhi.lu/",
-    "socials": [{"platform": "fb", "handle": "na.zhi.lu", "url": "https://www.facebook.com/na.zhi.lu/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "na.zhi.lu",
+        "url": "https://www.facebook.com/na.zhi.lu/"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- S-43/44 出展 ／ 3 本新刊 (時間順):\n- **『8000回目の春』** (A5/24P/黑白漫畫、 超時空輝耀姬 二創)\n- **『水葬の陽』** (A5/24P/黑白漫畫、 魔法少女的魔女審判 二創、 桜羽エマ × 二階堂ヒロ)\n- **『遠雷のみぞ知る』** (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん × 礪波いぶき)\n- 出處 (時間順): [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
     "tags": {
       "yuri-zone": true,
@@ -1969,7 +8243,8 @@ window.BOOTHS = [
     "cells": [
       "S-43",
       "S-44"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-01",
@@ -1977,7 +8252,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "kourui_07",
     "x_url": "https://x.com/kourui_07",
-    "socials": [{"platform": "x", "handle": "@kourui_07", "url": "https://x.com/kourui_07"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@kourui_07",
+        "url": "https://x.com/kourui_07"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- T01 首次參加 ／ 帶來 [**新品 3 種**](https://x.com/i/status/2058505698166911056)",
     "tags": {
       "yuri-zone": true
@@ -2019,7 +8300,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[01,02]"
+    "group": "T-[01,02]",
+    "area": "百合"
   },
   {
     "booth_id": "T-02",
@@ -2027,7 +8309,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "kimiJUNN",
     "x_url": "https://x.com/kimiJUNN",
-    "socials": [{"platform": "x", "handle": "@kimiJUNN", "url": "https://x.com/kimiJUNN"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@kimiJUNN",
+        "url": "https://x.com/kimiJUNN"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 [**ういさき 本**](https://x.com/i/status/2054548578165813484) (吸血鬼 初華 × 貴族大小姐 祥子、 有吸血描寫) ／ 印量調查 進行中",
     "tags": {
       "yuri-zone": true
@@ -2084,7 +8372,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[01,02]"
+    "group": "T-[01,02]",
+    "area": "百合"
   },
   {
     "booth_id": "T-03",
@@ -2092,7 +8381,23 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
-    "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/x_milllllla_x_nekohige"}, {"platform": "threads", "handle": "@x_milllllla_x (米拉)", "url": "https://www.threads.com/@x_milllllla_x"}, {"platform": "threads", "handle": "@nekohige0123 (鬍鬚)", "url": "https://www.threads.com/@nekohige0123"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/x_milllllla_x_nekohige"
+      },
+      {
+        "platform": "threads",
+        "handle": "@x_milllllla_x (米拉)",
+        "url": "https://www.threads.com/@x_milllllla_x"
+      },
+      {
+        "platform": "threads",
+        "handle": "@nekohige0123 (鬍鬚)",
+        "url": "https://www.threads.com/@nekohige0123"
+      }
+    ],
     "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標予定\n- 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
     "tags": {
       "yuri-zone": true
@@ -2124,7 +8429,8 @@ window.BOOTHS = [
       "image_count_avail": 1,
       "commerce_count_avail": 0
     },
-    "group": "T-[03,04]"
+    "group": "T-[03,04]",
+    "area": "百合"
   },
   {
     "booth_id": "T-04",
@@ -2132,7 +8438,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "yuyuyang0402",
     "x_url": "https://x.com/yuyuyang0402",
-    "socials": [{"platform": "x", "handle": "@yuyuyang0402", "url": "https://x.com/yuyuyang0402"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@yuyuyang0402",
+        "url": "https://x.com/yuyuyang0402"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 帶來新品 [**#ANSY**](https://x.com/i/status/2057122117020479529) (詳細試閱於 X 公開)",
     "tags": {
       "yuri-zone": true
@@ -2174,7 +8486,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[03,04]"
+    "group": "T-[03,04]",
+    "area": "百合"
   },
   {
     "booth_id": "T-05",
@@ -2182,7 +8495,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "pesirxy",
     "x_url": "https://x.com/pesirxy?s=21",
-    "socials": [{"platform": "x", "handle": "@pesirxy", "url": "https://x.com/pesirxy?s=21"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@pesirxy",
+        "url": "https://x.com/pesirxy?s=21"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 [**希 all 漫畫**](https://x.com/i/status/2053686601273028923) ／ 試閱公開中",
     "tags": {
       "yuri-zone": true
@@ -2234,7 +8553,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 5,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-06",
@@ -2252,7 +8572,8 @@ window.BOOTHS = [
       "image_count_avail": 0,
       "commerce_count_avail": 0
     },
-    "cover_urls": []
+    "cover_urls": [],
+    "area": "百合"
   },
   {
     "booth_id": "T-07/08",
@@ -2260,7 +8581,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/61573677164059/",
-    "socials": [{"platform": "fb", "handle": "profile 61573677…", "url": "https://www.facebook.com/61573677164059/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61573677…",
+        "url": "https://www.facebook.com/61573677164059/"
+      }
+    ],
     "body": "- BanG Dream! It's MyGO!!!!!\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新品 **森亞露露卡 立牌**\n- 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組)\n- 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
     "tags": {
       "yuri-zone": true
@@ -2286,7 +8613,8 @@ window.BOOTHS = [
     "cells": [
       "T-07",
       "T-08"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-09",
@@ -2294,7 +8622,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.threads.com/@creauset_x13a",
-    "socials": [{"platform": "threads", "handle": "@creauset_x13a", "url": "https://www.threads.com/@creauset_x13a"}],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@creauset_x13a",
+        "url": "https://www.threads.com/@creauset_x13a"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 首次出展\n\n- 新刊 小說 [**『難破船』**](https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8) (Ave Mujica IF 線、 動畫 5〜13 話 IF、 內頁插畫 [@dazhong_312](https://x.com/dazhong_312))\n- 攤位上 MyGO/AM GSC 坐娃 展示 + 邦邦 官方刊物 (設定集/寫真書/雜誌) 免費閱覽",
     "tags": {
       "yuri-zone": true
@@ -2321,7 +8655,8 @@ window.BOOTHS = [
       "platform_used": "threads",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-10",
@@ -2329,7 +8664,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61558258981354",
-    "socials": [{"platform": "fb", "handle": "profile 61558258…", "url": "https://www.facebook.com/profile.php?id=61558258981354"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61558258…",
+        "url": "https://www.facebook.com/profile.php?id=61558258981354"
+      }
+    ],
     "body": "- gbc\n- BanG Dream!\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200)\n- 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150)\n- 立牌 約12cm 各 NT 100\n- 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
     "tags": {
       "yuri-zone": true
@@ -2431,7 +8772,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-11",
@@ -2439,7 +8781,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "amane61115",
     "x_url": "https://x.com/amane61115",
-    "socials": [{"platform": "x", "handle": "@amane61115", "url": "https://x.com/amane61115"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@amane61115",
+        "url": "https://x.com/amane61115"
+      }
+    ],
     "body": "- 蓮ノ空女學院スクールアイドルクラブ\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「Vaporeux」 — ラブライブ! · 姬ｘ吟 — 漫畫 / NT 250\n- ★新 「Convallaria」 — 佐賀偶像是傳奇 · 純ｘ愛 — 漫畫 / NT 50\n- ★新 「神秘無料」 — ラブライブ! · 神秘 — 漫畫 / NT 無料 / 需通關密語\n- 既 「一覺醒來 我原地穿越到了 兩年前？！」 — ラブライブ! · 瑠慈 — 漫畫 / NT 200\n- 既 「卡薩布蘭卡」 — 星穹鐵道 · 雅蝶 — 漫畫 / NT 50\n\n**其他周邊**:\n- ★新 「明信片(2款)」 — 偶像學園 · 堇/凜 — 周邊 / NT 20/款\n- 既 「飯友」 — VTUBER · みらるた — 周邊 / NT 200/組\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true
@@ -2476,7 +8824,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[11,12]"
+    "group": "T-[11,12]",
+    "area": "百合"
   },
   {
     "booth_id": "T-12",
@@ -2484,7 +8833,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "hikari863126 ",
     "x_url": "https://x.com/hikari863126 ",
-    "socials": [{"platform": "x", "handle": "@hikari863126", "url": "https://x.com/hikari863126 "}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@hikari863126",
+        "url": "https://x.com/hikari863126 "
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 首次創作 [**花梢 漫畫**](https://x.com/i/status/2057375446631891108) + 少量 插畫本 既刊\n- 攤上免費 **認親明信片** 自取",
     "tags": {
       "yuri-zone": true
@@ -2526,7 +8881,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[11,12]"
+    "group": "T-[11,12]",
+    "area": "百合"
   },
   {
     "booth_id": "T-13",
@@ -2546,7 +8902,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-14",
@@ -2575,7 +8932,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-15",
@@ -2601,7 +8959,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-16",
@@ -2609,7 +8968,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/7iromushrooms",
-    "socials": [{"platform": "fb", "handle": "7iromushrooms", "url": "https://www.facebook.com/7iromushrooms"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "7iromushrooms",
+        "url": "https://www.facebook.com/7iromushrooms"
+      }
+    ],
     "body": "- Lovelive!虹咲學園學園偶像同好會\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊合本 **『MOFU MOFU PARADISE』** (A5 / 右翻 / 膠裝 / 40P / 一般向、 漫畫+插圖+小說、 鐘嵐珠 × 三船栞子、 NT 200、 5 作家合著: WASTE-MAN、 U魂、 八重洲、 マヨ、 某波)\n- 印量調查 5/19 締切\n- 後續 通販予定\n- 出處: [場前宣傳](https://www.facebook.com/share/p/1BFDKmnPrn/) / [毛絨絨合本 詳細](https://www.facebook.com/share/p/1LvNcHWQLT/)",
     "tags": {
       "yuri-zone": true
@@ -2651,7 +9016,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-17",
@@ -2659,7 +9025,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yetsubody",
-    "socials": [{"platform": "fb", "handle": "yetsubody", "url": "https://www.facebook.com/yetsubody"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yetsubody",
+        "url": "https://www.facebook.com/yetsubody"
+      }
+    ],
     "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『初祥塗鴉本 Vol.2』** (NT 50)\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
     "tags": {
       "yuri-zone": true
@@ -2701,7 +9073,8 @@ window.BOOTHS = [
       "platform_used": "fb",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-18",
@@ -2709,7 +9082,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "rito_yu6039",
     "x_url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w",
-    "socials": [{"platform": "x", "handle": "@rito_yu6039", "url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@rito_yu6039",
+        "url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 2 種: [**『α100之狼』 (上)**](https://x.com/i/status/2058489327047639119) (海希、 B5/53P/R15/NT 350)\n\n- **『毅然回首』** (蘇米、 A4/21P+2P短漫/全年齡/NT 200)\n- 免費配布 多種 (限量)",
     "tags": {
       "yuri-zone": true
@@ -2770,7 +9149,8 @@ window.BOOTHS = [
       "platform_used": "x",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-19/20",
@@ -2778,7 +9158,33 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://portaly.cc/ame_aou",
-    "socials": [{"platform": "aggregator", "handle": "portaly", "url": "https://portaly.cc/ame_aou"}, {"platform": "threads", "handle": "@ame_aou", "url": "https://www.threads.com/@ame_aou"}, {"platform": "x", "handle": "@ame_aou", "url": "https://x.com/ame_aou"}, {"platform": "ig", "handle": "@ame_aou", "url": "https://www.instagram.com/ame_aou"}, {"platform": "plurk", "handle": "@ame.5000", "url": "https://www.plurk.com/ame.5000"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/ame_aou"
+      },
+      {
+        "platform": "threads",
+        "handle": "@ame_aou",
+        "url": "https://www.threads.com/@ame_aou"
+      },
+      {
+        "platform": "x",
+        "handle": "@ame_aou",
+        "url": "https://x.com/ame_aou"
+      },
+      {
+        "platform": "ig",
+        "handle": "@ame_aou",
+        "url": "https://www.instagram.com/ame_aou"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@ame.5000",
+        "url": "https://www.plurk.com/ame.5000"
+      }
+    ],
     "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成)\n- シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ**\n- 全 3 組 「曖昧以上 互動」\n- 雜食 (友好~互毆) 内容含む\n- 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
     "tags": {
       "original": true,
@@ -2824,7 +9230,8 @@ window.BOOTHS = [
     "cells": [
       "T-19",
       "T-20"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-21/22",
@@ -2832,7 +9239,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kun.salamander.3/",
-    "socials": [{"platform": "fb", "handle": "kun.salamander.3", "url": "https://www.facebook.com/kun.salamander.3/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "kun.salamander.3",
+        "url": "https://www.facebook.com/kun.salamander.3/"
+      }
+    ],
     "body": "- MyGO!!!!!\n- AveMujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊[「喝酒女同新刊」](https://www.facebook.com/share/p/1CjXUyhmK2/) (拯救學姊 即將完成)",
     "tags": {
       "yuri-zone": true
@@ -2858,7 +9271,8 @@ window.BOOTHS = [
     "cells": [
       "T-21",
       "T-22"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-23/24",
@@ -2866,7 +9280,18 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/MuziYuri/",
-    "socials": [{"platform": "fb", "handle": "MuziYuri", "url": "https://www.facebook.com/MuziYuri/"}, {"platform": "threads", "handle": "@muziyuri", "url": "https://www.threads.com/@muziyuri"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "MuziYuri",
+        "url": "https://www.facebook.com/MuziYuri/"
+      },
+      {
+        "platform": "threads",
+        "handle": "@muziyuri",
+        "url": "https://www.threads.com/@muziyuri"
+      }
+    ],
     "body": "- 新刊-超時空輝耀姬\n- 原創-如何與蛇女交尾?\n- 原創-倉鼠少女也想談戀愛\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『輝耀的性機能檢測報告』** (超かぐや姫 / 超時空輝耀姬、 **IROHA × KAGUYA** = 輝耀彩葉 (iroka) CP、 R18)\n- 現場 套餐優惠 あり\n- 既刊 原創 『如何與蛇女交尾?』 / 『倉鼠少女也想談戀愛』 (6月底 倉鼠本 連載再開予定)\n- 出處: [新刊試閱 promo](https://www.threads.com/@muziyuri/post/DY146_3j-i6) / [彩葉混更 圖透](https://www.threads.com/@muziyuri/post/DX1mQBFj5n9) / [討親親的輝耀](https://www.threads.com/@muziyuri/post/DXmGhnFjzk8)",
     "tags": {
       "original": true,
@@ -2921,7 +9346,8 @@ window.BOOTHS = [
     "cells": [
       "T-23",
       "T-24"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-25/26",
@@ -2929,7 +9355,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "ManMadeRain",
     "x_url": "https://x.com/ManMadeRain",
-    "socials": [{"platform": "x", "handle": "@ManMadeRain", "url": "https://x.com/ManMadeRain"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@ManMadeRain",
+        "url": "https://x.com/ManMadeRain"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **蔚藍檔案 星野 × 陽奈 學園交流會 漫畫** + 奧利斯 小隊 周邊 + 原創 **[『Unlimited Rematch』](https://x.com/i/status/2058528483870224652)** ／ 同場 S03 booth 上衣那牡丹 retweet 支持",
     "tags": {
       "original": true,
@@ -2991,7 +9423,8 @@ window.BOOTHS = [
     "cells": [
       "T-25",
       "T-26"
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-27",
@@ -3052,7 +9485,8 @@ window.BOOTHS = [
       "platform_used": "ig",
       "image_count_avail": 6,
       "commerce_count_avail": 0
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-28",
@@ -3061,17 +9495,34 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://kvoid000.wixsite.com/corvus",
     "socials": [
-      { "platform": "pixiv", "handle": "@cyuan_nil", "url": "https://www.pixiv.net/users/123196145" },
-      { "platform": "x", "handle": "@cyuan_nil", "url": "https://x.com/cyuan_nil" },
-      { "platform": "bsky", "handle": "@cyuan", "url": "https://bsky.app/profile/cyuan.bsky.social" },
-      { "platform": "wix", "handle": "Portfolio", "url": "https://kvoid000.wixsite.com/corvus" }
+      {
+        "platform": "pixiv",
+        "handle": "@cyuan_nil",
+        "url": "https://www.pixiv.net/users/123196145"
+      },
+      {
+        "platform": "x",
+        "handle": "@cyuan_nil",
+        "url": "https://x.com/cyuan_nil"
+      },
+      {
+        "platform": "bsky",
+        "handle": "@cyuan",
+        "url": "https://bsky.app/profile/cyuan.bsky.social"
+      },
+      {
+        "platform": "wix",
+        "handle": "Portfolio",
+        "url": "https://kvoid000.wixsite.com/corvus"
+      }
     ],
     "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [],
+    "area": "百合"
   },
   {
     "booth_id": "T-29",
@@ -3079,7 +9530,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/karupisu_planet",
-    "socials": [{"platform": "plurk", "handle": "@karupisu_planet", "url": "https://www.plurk.com/karupisu_planet"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@karupisu_planet",
+        "url": "https://www.plurk.com/karupisu_planet"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 既刊 **『十度寢』** (東方 蓮メリ / 秘封俱樂部、 全 5 章) 預計帶來\n- 通販 + 電子書 同時進行中",
     "tags": {
       "yuri-zone": true
@@ -3121,7 +9578,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[29,30]"
+    "group": "T-[29,30]",
+    "area": "百合"
   },
   {
     "booth_id": "T-30",
@@ -3129,14 +9587,21 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://interweave.booth.pm/",
-    "socials": [{"platform": "booth_pm", "handle": "BOOTH", "url": "https://interweave.booth.pm/"}],
+    "socials": [
+      {
+        "platform": "booth_pm",
+        "handle": "BOOTH",
+        "url": "https://interweave.booth.pm/"
+      }
+    ],
     "body": "- 東方Project\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 / 蓮メリ / 蓮子×梅莉 — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘 — 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [],
-    "group": "T-[29,30]"
+    "group": "T-[29,30]",
+    "area": "百合"
   },
   {
     "booth_id": "T-31",
@@ -3144,7 +9609,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
-    "socials": [{"platform": "doujin_tw", "handle": "", "url": "https://www.doujin.com.tw/authors/info/x20285/books"}],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/authors/info/x20285/books"
+      }
+    ],
     "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
     "tags": {
       "yuri-zone": true,
@@ -3157,7 +9628,8 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "cover_urls": []
+    "cover_urls": [],
+    "area": "百合"
   },
   {
     "booth_id": "T-32",
@@ -3165,7 +9637,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yuclovers",
-    "socials": [{"platform": "fb", "handle": "yuclovers", "url": "https://www.facebook.com/yuclovers"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yuclovers",
+        "url": "https://www.facebook.com/yuclovers"
+      }
+    ],
     "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — \"バンドリ! · 愛爽 — 漫畫 / NT 240 / 品書\n\n**其他**:\n- 「甚麼叫做 誤會的我也很可愛!?」 — \"バンドリ! · 愛爽 — NT 240\n- 「並拾色」 — \"バンドリ! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — \"バンドリ! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — \"バンドリ! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — \"バンドリ! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — \"バンドリ! · 九九組 — 色紙 / NT 40/1\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "yuri-zone": true,
@@ -3184,7 +9662,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-33/34",
@@ -3192,7 +9671,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "gray170220",
     "x_url": "https://x.com/gray170220",
-    "socials": [{"platform": "x", "handle": "@gray170220", "url": "https://x.com/gray170220"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@gray170220",
+        "url": "https://x.com/gray170220"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 海希海 小說 [**『笨拙的我們適合戀愛』**](https://x.com/i/status/2057699457446433108) (NT 250)\n\n- 既刊 初祥初 **『月錯覺』**、 睦祥睦 **『漫雨季』** (各 NT 250)\n- 免費小說 3 種: 紗夜莉莎 『晴時雨時』、 貓燈 『星下影』、 海希 『合半拍』",
     "tags": {
       "yuri-zone": true
@@ -3328,7 +9813,8 @@ window.BOOTHS = [
       "T-33",
       "T-34"
     ],
-    "group": "T-[33,35]"
+    "group": "T-[33,35]",
+    "area": "百合"
   },
   {
     "booth_id": "T-35",
@@ -3336,7 +9822,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "yoyoray20001996",
     "x_url": "https://x.com/yoyoray20001996",
-    "socials": [{"platform": "x", "handle": "@yoyoray20001996", "url": "https://x.com/yoyoray20001996"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@yoyoray20001996",
+        "url": "https://x.com/yoyoray20001996"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **[『海希的...KISS 多重宇宙』](https://x.com/i/status/2059248150913945744)** (海希 插圖本、 預購開放中) ／ 寄攤 海希 R18 合本 **『1R · 2人 · 365日』**",
     "tags": {
       "yuri-zone": true
@@ -3373,7 +9865,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[33,35]"
+    "group": "T-[33,35]",
+    "area": "百合"
   },
   {
     "booth_id": "T-36",
@@ -3381,7 +9874,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tentaclespet/",
-    "socials": [{"platform": "fb", "handle": "tentaclespet", "url": "https://www.facebook.com/tentaclespet/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "tentaclespet",
+        "url": "https://www.facebook.com/tentaclespet/"
+      }
+    ],
     "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n- 寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
     "tags": {
       "yuri-zone": true,
@@ -3480,7 +9979,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-37",
@@ -3488,7 +9988,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "rissole715",
     "x_url": "https://x.com/rissole715?s=21",
-    "socials": [{"platform": "x", "handle": "@rissole715", "url": "https://x.com/rissole715?s=21"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@rissole715",
+        "url": "https://x.com/rissole715?s=21"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 [**超時空輝耀姬 漫畫本**](https://x.com/i/status/2059287434211606542)\n\n- 寄攤 藍老師 小說本、 初祥 小說本 (新刊) + 初祥 漫畫 既刊\n- 代售 向波老師 海希本",
     "tags": {
       "yuri-zone": true,
@@ -3508,7 +10014,8 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "group": "T-[37,38]"
+    "group": "T-[37,38]",
+    "area": "百合"
   },
   {
     "booth_id": "T-38",
@@ -3516,7 +10023,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "KuroAjrtineico",
     "x_url": "https://x.com/KuroAjrtineico",
-    "socials": [{"platform": "x", "handle": "@KuroAjrtineico", "url": "https://x.com/KuroAjrtineico"}],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@KuroAjrtineico",
+        "url": "https://x.com/KuroAjrtineico"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 現場販賣 + 通販 並行\n- 試閱 + 購買 link 於 X 回覆欄\n- [原 tweet (品書 update)](https://x.com/i/status/2052661700286173413)",
     "tags": {
       "yuri-zone": true
@@ -3558,7 +10071,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[37,38]"
+    "group": "T-[37,38]",
+    "area": "百合"
   },
   {
     "booth_id": "T-39",
@@ -3566,7 +10080,18 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://bsky.app/profile/nkpa.bsky.social",
-    "socials": [{"platform": "bsky", "handle": "@nkpa", "url": "https://bsky.app/profile/nkpa.bsky.social"}, {"platform": "x", "handle": "@RmenOish", "url": "https://x.com/RmenOish"}],
+    "socials": [
+      {
+        "platform": "bsky",
+        "handle": "@nkpa",
+        "url": "https://bsky.app/profile/nkpa.bsky.social"
+      },
+      {
+        "platform": "x",
+        "handle": "@RmenOish",
+        "url": "https://x.com/RmenOish"
+      }
+    ],
     "body": "- 無期迷途\n- 超時空輝耀姬\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social))\n- 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120)\n\n- 行李束帶 八千代＋彩葉 (20x6cm / NTD 200)\n- 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80)\n- 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120)\n\n- 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120)\n- 遊戲彩票貼紙 (250x30mm / NTD 50)\n- 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
     "tags": {
       "yuri-zone": true,
@@ -3624,7 +10149,8 @@ window.BOOTHS = [
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu3ltd4ek2j/1.jpg",
         "display_locked": false
       }
-    ]
+    ],
+    "area": "百合"
   },
   {
     "booth_id": "T-40",
@@ -3632,7 +10158,28 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/yeijijia",
-    "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/yeijijia"}, {"platform": "fb", "handle": "葉子嘉(多多)", "url": "https://www.facebook.com/share/1C7YTrFDCe/"}, {"platform": "x", "handle": "@yezijia1", "url": "https://x.com/yezijia1"}, {"platform": "pixiv", "handle": "多多", "url": "https://www.pixiv.net/users/21810609"}],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/yeijijia"
+      },
+      {
+        "platform": "fb",
+        "handle": "葉子嘉(多多)",
+        "url": "https://www.facebook.com/share/1C7YTrFDCe/"
+      },
+      {
+        "platform": "x",
+        "handle": "@yezijia1",
+        "url": "https://x.com/yezijia1"
+      },
+      {
+        "platform": "pixiv",
+        "handle": "多多",
+        "url": "https://www.pixiv.net/users/21810609"
+      }
+    ],
     "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n- 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開)\n- 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200)\n- 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
     "tags": {
       "yuri-zone": true,
@@ -3737,7 +10284,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-41",
@@ -3745,7 +10293,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/haneko0216",
-    "socials": [{"platform": "plurk", "handle": "@haneko0216", "url": "https://www.plurk.com/haneko0216"}],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@haneko0216",
+        "url": "https://www.plurk.com/haneko0216"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n**超時空輝耀姬 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、 二創公告前下印、 限定 / 無加印)。 崩壞3 紺海三角 塗鴉本 等 其他 fandom 多種",
     "tags": {
       "yuri-zone": true,
@@ -3773,7 +10327,8 @@ window.BOOTHS = [
       "hand_note": true,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "百合"
   },
   {
     "booth_id": "T-42",
@@ -3781,7 +10336,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.instagram.com/lunoestory.novel/",
-    "socials": [{"platform": "ig", "handle": "@lunoestory.novel", "url": "https://www.instagram.com/lunoestory.novel/"}],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@lunoestory.novel",
+        "url": "https://www.instagram.com/lunoestory.novel/"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **[『百合餓狼之盟』](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/)** 無期迷途 百合二創 小說合集 首賣 (6 作家 × 8 短篇、 A5 右翻 約 150 頁) ／ 場販 NT 250、 預購/通販 NT 280 (通販餘量限定)",
     "tags": {
       "original": true,
@@ -3800,7 +10361,8 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "group": "T-[42,44]"
+    "group": "T-[42,44]",
+    "area": "百合"
   },
   {
     "booth_id": "T-43/44",
@@ -3808,7 +10370,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Irene309w/",
-    "socials": [{"platform": "fb", "handle": "Irene309w", "url": "https://www.facebook.com/Irene309w/"}],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "Irene309w",
+        "url": "https://www.facebook.com/Irene309w/"
+      }
+    ],
     "body": "## 📝 CH19 出展重點\n- 圖示外 既刊 + 合本 = 少量帶來 (看運氣、 預購已售約半數以上)\n- 新刊 優先\n- [原 post (帶來預定)](https://www.plurk.com/p/3ipiymms0h)",
     "tags": {
       "original": true,
@@ -3847,7 +10415,46 @@ window.BOOTHS = [
       "T-43",
       "T-44"
     ],
-    "group": "T-[42,44]"
+    "group": "T-[42,44]",
+    "area": "百合"
+  },
+  {
+    "booth_id": "U-01",
+    "circle_name": "激凍冰的紅茶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/shu_pong203",
+    "area": "綜合",
+    "body": "- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica\n- プロジェクトセカイ",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@shu_pong203",
+        "url": "https://www.plurk.com/shu_pong203"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-02",
+    "circle_name": "魔法少女ノ魔法焼酒",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/akiragiorgio/",
+    "area": "綜合",
+    "body": "- 魔法少女的魔女裁判漫畫新刊\n- 魔法少女的魔女裁判特典小漫畫本\n- 魔法少女的魔女裁判掛軸",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "akiragiorgio",
+        "url": "https://www.facebook.com/akiragiorgio/"
+      }
+    ]
   },
   {
     "booth_id": "U-03",
@@ -3893,7 +10500,257 @@ window.BOOTHS = [
       ],
       "has_ch19_post": false
     },
-    "group": "U-[02,08]"
+    "group": "U-[02,08]",
+    "area": "綜合"
+  },
+  {
+    "booth_id": "U-04",
+    "circle_name": "月代雪會後空翻2.0",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61584209204739",
+    "area": "綜合",
+    "body": "- 魔法少女的魔女審判",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61584209…",
+        "url": "https://www.facebook.com/profile.php?id=61584209204739"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-05/06",
+    "circle_name": "魔法少女被告席",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/jiang.jiang.193870",
+    "area": "綜合",
+    "body": "- 魔法少女的魔女審判",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "jiang.jiang.193870",
+        "url": "https://www.facebook.com/jiang.jiang.193870"
+      }
+    ],
+    "cells": [
+      "U-05",
+      "U-06"
+    ]
+  },
+  {
+    "booth_id": "U-07/08",
+    "circle_name": "櫻羽艾瑪會側手翻3.0",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/615853064360/",
+    "body": "## 📝 CH19 出展重點\n- U07/08 出展確認 ／ 花博爭艷館見\n- [原 FB post](https://www.facebook.com/share/p/1DTJeTpsc6/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1DTJeTpsc6/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-07_08/share-1DTJeTpsc6/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "綜合"
+  },
+  {
+    "booth_id": "U-09/10",
+    "circle_name": "犬蜀Ray",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61572454107536",
+    "area": "綜合",
+    "body": "- 賽馬娘 百合小說\n- Bang Dream 百合小說\n- 明日方舟 百合立牌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61572454…",
+        "url": "https://www.facebook.com/profile.php?id=61572454107536"
+      }
+    ],
+    "cells": [
+      "U-09",
+      "U-10"
+    ]
+  },
+  {
+    "booth_id": "U-11",
+    "circle_name": "Socotaku帝大社研宅學組",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/socotaku",
+    "area": "綜合",
+    "body": "- 綜合-百合ACG評論",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "socotaku",
+        "url": "https://www.facebook.com/socotaku"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-12",
+    "circle_name": "穗茉",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61575655409441",
+    "area": "綜合",
+    "body": "- Bang dream it’s Mygo!!!!!\n- Girls bang cry",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61575655…",
+        "url": "https://www.facebook.com/profile.php?id=61575655409441"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-13/14",
+    "circle_name": "在浪影斑駁的夏天出門右轉兩三步",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/yvonneching8218",
+    "area": "綜合",
+    "body": "- bang dream\n- Ave Mujica\n- 日本女性聲優",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yvonneching8218",
+        "url": "https://www.plurk.com/yvonneching8218"
+      }
+    ],
+    "cells": [
+      "U-13",
+      "U-14"
+    ]
+  },
+  {
+    "booth_id": "U-15",
+    "circle_name": "狐狸的尾巴",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://reurl.cc/R9pnmz",
+    "area": "綜合",
+    "body": "- MyGO!!!!!\n- Ave Mujica\n- Girls Band Cry",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://reurl.cc/R9pnmz"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-16",
+    "circle_name": "貓球砲彈",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@ninanon_15",
+    "area": "綜合",
+    "body": "- girls band cry\n- 佐賀偶像是傳奇",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@ninanon_15",
+        "url": "https://www.threads.com/@ninanon_15"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-17",
+    "circle_name": "活派 對",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/kumalongrule34?s=21",
+    "area": "綜合",
+    "body": "- 多鄰國的 LiLy 跟zari\n- 多鄰國的Lin 跟 bea\n- 豬大哥",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@kumalongrule34",
+        "url": "https://x.com/kumalongrule34?s=21"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-18",
+    "circle_name": "蜜糖波旁",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/harai.uine",
+    "area": "綜合",
+    "body": "- 賽馬娘\n- BangDream!",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "harai.uine",
+        "url": "https://www.facebook.com/harai.uine"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-19/20",
+    "circle_name": "天下第一邦",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://bestbandreamers.wixsite.com/mygo",
+    "area": "綜合",
+    "body": "- BangDream! It's MyGO!!!!!\n- Girls Band Cry\n- BangDream! Ave Mujica",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "wix",
+        "handle": "",
+        "url": "https://bestbandreamers.wixsite.com/mygo"
+      }
+    ],
+    "cells": [
+      "U-19",
+      "U-20"
+    ]
   },
   {
     "booth_id": "U-21/22",
@@ -3943,7 +10800,8 @@ window.BOOTHS = [
       "U-21",
       "U-22"
     ],
-    "group": "U-[17,22]"
+    "group": "U-[17,22]",
+    "area": "綜合"
   },
   {
     "booth_id": "U-23",
@@ -3962,7 +10820,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "U-24",
@@ -4042,7 +10901,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "U-25/26",
@@ -4076,7 +10936,8 @@ window.BOOTHS = [
     "cells": [
       "U-25",
       "U-26"
-    ]
+    ],
+    "area": "綜合"
   },
   {
     "booth_id": "U-27",
@@ -4107,7 +10968,8 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "group": "U-[27,28]"
+    "group": "U-[27,28]",
+    "area": "綜合"
   },
   {
     "booth_id": "U-28",
@@ -4213,7 +11075,8 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "group": "U-[27,28]"
+    "group": "U-[27,28]",
+    "area": "綜合"
   },
   {
     "booth_id": "U-29",
@@ -4258,7 +11121,8 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": false
-    }
+    },
+    "area": "綜合"
   },
   {
     "booth_id": "U-30",
@@ -4333,26 +11197,1089 @@ window.BOOTHS = [
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/8.jpg",
         "display_locked": false
       }
+    ],
+    "area": "綜合"
+  },
+  {
+    "booth_id": "U-31",
+    "circle_name": "非瑜不能吃",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/moonshadow331",
+    "area": "綜合",
+    "body": "- BanG Dream It's MyGO!!!!! 高松燈x千早愛音\n- Nijisanji にじさんじ\n- 学園アイドルマスター",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@moonshadow331",
+        "url": "https://www.plurk.com/moonshadow331"
+      }
     ]
   },
   {
-    "booth_id": "Y-11",
-    "circle_name": "古藤工作室 by MOMO",
+    "booth_id": "U-32",
+    "circle_name": "鯊魚腳速食",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/gutenmomo",
-    "body": "- 蔚藍檔案\n- 超時空輝耀姬！\n- Hololive EN\n\n**專區**: 綜合\n\n🔗 Facebook: [https://www.facebook.com/gutenmomo](https://www.facebook.com/gutenmomo)",
-    "tags": {
-      "super-kaguya": true
-    },
+    "x_url": "https://www.facebook.com/profile.php?id=61555969822241",
+    "area": "綜合",
+    "body": "- 少女歌劇\n- 崩壞3rd\n- 光之美少女",
+    "tags": {},
     "warnings": [],
     "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61555969…",
+        "url": "https://www.facebook.com/profile.php?id=61555969822241"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-33/34",
+    "circle_name": "太空水龍頭恐慌",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/SpaceFaucet/",
+    "area": "綜合",
+    "body": "- 劍與魔法與自爆裝置\n- mygo!!!!\n- Ave Mujica",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "SpaceFaucet",
+        "url": "https://www.facebook.com/SpaceFaucet/"
+      }
+    ],
+    "cells": [
+      "U-33",
+      "U-34"
+    ]
+  },
+  {
+    "booth_id": "U-35/36",
+    "circle_name": "詠櫻堂",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/cherryblossomfactory",
+    "area": "綜合",
+    "body": "- 魔法少女ノ魔女裁判\n- 少女☆歌劇 Revue Starlight\n- BanG Dream! It's MyGO!!!!!/Ave Mujica",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "cherryblossomfactory",
+        "url": "https://www.facebook.com/cherryblossomfactory"
+      }
+    ],
+    "cells": [
+      "U-35",
+      "U-36"
+    ]
+  },
+  {
+    "booth_id": "U-37",
+    "circle_name": "n++",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@nu.rkgk",
+    "area": "VW",
+    "body": "- Vocaloid\n- 世界計畫 繽紛舞台！ feat.初音未來\n- 最終幻想14",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@nu.rkgk",
+        "url": "https://www.threads.com/@nu.rkgk"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-38",
+    "circle_name": "東閣小樓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/daybreak2779?",
+    "area": "VW",
+    "body": "- 世界計畫\n- Vocaloid",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "daybreak2779",
+        "url": "https://www.facebook.com/daybreak2779?"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-39",
+    "circle_name": "栗子牛奶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr",
+    "area": "VW",
+    "body": "- Vocaloid",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-40",
+    "circle_name": "ㄚ淳戴著綠色三角錐",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=100080676961776",
+    "area": "VW",
+    "body": "- Vocaloid曲繪二創\n- GUMI同人周邊創作",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10008067…",
+        "url": "https://www.facebook.com/profile.php?id=100080676961776"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-41",
+    "circle_name": "VSPOT",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/vspot.tw/",
+    "area": "VW",
+    "body": "- You and Me. Always 初音專輯\n- Transient Leaf -浮遊者たち- 貓村&結月專輯\n- Pleasure Hunter 巡音專輯",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "vspot.tw",
+        "url": "https://www.facebook.com/vspot.tw/"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-42",
+    "circle_name": "巨龍棲息地",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/twponpon",
+    "area": "VW",
+    "body": "- 二創-初音未來x寶可夢\n- 二創-魔法未來\n- 二創-世界計畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/twponpon"
+      }
+    ]
+  },
+  {
+    "booth_id": "U-43/44",
+    "circle_name": "LRLR",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/yyoaooao",
+    "area": "VW",
+    "body": "- Vocaloid\n- プロセカ(世界計畫繽紛舞台！ feat.初音未來)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/yyoaooao"
+      }
+    ],
+    "cells": [
+      "U-43",
+      "U-44"
+    ]
+  },
+  {
+    "booth_id": "V-01/02",
+    "circle_name": "ボカロ虛擬歌姬交流會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
+    "area": "VW",
+    "body": "- 2026年台灣VC文化大賞創作畫集\n- 2026年 39&You - gift from the future 活動周邊商品\n- 2025年 39&You - gift from the future 活動周邊商品",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "miku3939circle",
+        "url": "https://www.facebook.com/miku3939circle?locale=zh_TW"
+      }
+    ],
+    "cells": [
+      "V-01",
+      "V-02"
+    ]
+  },
+  {
+    "booth_id": "V-03",
+    "circle_name": "柑橘薄荷凍",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/yua_neko",
+    "area": "VW",
+    "body": "- VOCALOID",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yua_neko",
+        "url": "https://www.plurk.com/yua_neko"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-04",
+    "circle_name": "URA BOU",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
+    "area": "VW",
+    "body": "- VOCALOID-鏡音中心食記漫畫本\n- VOCALOID-鏡音レンx鏡音リン漫畫本\n- 世界計畫-暁山瑞希x東雲絵名漫畫本",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-05",
+    "circle_name": "Vivace",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/saza_073",
+    "area": "VW",
+    "body": "- Vocaloid",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@saza_073",
+        "url": "https://x.com/saza_073"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-06",
+    "circle_name": "柒隻美洲鱷",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=100087498796559",
+    "area": "VW",
+    "body": "- 隱宅系手工杯套\n- V家貼紙周邊\n- 初音小立牌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10008749…",
+        "url": "https://www.facebook.com/profile.php?id=100087498796559"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-07/08",
+    "circle_name": "全糖雞蛋卷x楓黎",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/fengliart520/",
+    "body": "## 📝 CH19 出展重點\n- VW10 VOCALOID — [**咪哭 (Miku) 中心**](https://www.facebook.com/share/p/1ChhNi6NB2/) ／ 拍立得剩少量、 賣完後將推出新規 咪哭",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1ChhNi6NB2/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-07_08/share-1ChhNi6NB2/0.jpg",
+        "display_locked": false
+      }
+    ],
     "_meta_scrape_sk": {
       "platform_used": "fb",
       "hand_note": false,
       "detected_cps": [],
-      "has_ch19_post": false
-    }
+      "has_ch19_post": true
+    },
+    "area": "VW"
+  },
+  {
+    "booth_id": "V-09/10",
+    "circle_name": "同攤不同推",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/ak_lina0?s=20",
+    "area": "VW",
+    "body": "- Vocaloid-初音、巡音、鏡音連\n- Vocaloid-鏡音鈴、Meiko、Kaito",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@ak_lina0",
+        "url": "https://x.com/ak_lina0?s=20"
+      }
+    ],
+    "cells": [
+      "V-09",
+      "V-10"
+    ]
+  },
+  {
+    "booth_id": "V-11",
+    "circle_name": "鯨魚窩",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://diewhale.tokiame.net",
+    "area": "VW",
+    "body": "- UTAU\n- vocaloid",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://diewhale.tokiame.net"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-12",
+    "circle_name": "真的畫不完",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@yakinikuww_1220",
+    "area": "VW",
+    "body": "- VOCALOID",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@yakinikuww_1220",
+        "url": "https://www.threads.com/@yakinikuww_1220"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-13",
+    "circle_name": "Y是英文字母的Y",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/yenchun916",
+    "area": "VW",
+    "body": "- Vocaloid\n- Helluva Boss",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yenchun916",
+        "url": "https://www.plurk.com/yenchun916"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-14",
+    "circle_name": "僧多粥少",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/giwa10310425",
+    "area": "VW",
+    "body": "- VOCALOID",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@giwa10310425",
+        "url": "https://www.plurk.com/giwa10310425"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-15",
+    "circle_name": "不調了不調了😭",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/mei.emerald.96?",
+    "area": "VW",
+    "body": "- 初音交響樂\n- 重音\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "mei.emerald.96",
+        "url": "https://www.facebook.com/mei.emerald.96?"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-16",
+    "circle_name": "把查克拉集中到手上",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://myship.7-11.com.tw/general/detail/GM2106126257486",
+    "area": "VW",
+    "body": "- UTAU\n- 彩虹社JP",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://myship.7-11.com.tw/general/detail/GM2106126257486"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-17",
+    "circle_name": "Ikusen",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm",
+    "area": "VW",
+    "body": "- 重音テト原創中文專輯(NFC吊飾)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-18",
+    "circle_name": "句點",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr",
+    "area": "VW",
+    "body": "- 原創-我不知到寫甚麼歌（夏語遙、艾可的原創曲CD）\n- 原創-id24 （夏語遙、艾可的原創曲CD）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-19",
+    "circle_name": "魍魎夜色",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=61556596875660",
+    "area": "VW",
+    "body": "- Voisona樋辻澪明信片\n- 原創-靜謐夜話(原創專輯)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61556596…",
+        "url": "https://www.facebook.com/profile.php?id=61556596875660"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-20",
+    "circle_name": "aPriori",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/zh-tw/menyakuranari",
+    "area": "VW",
+    "body": "- ナースロボタイプ＿T 同人音樂專輯\n- ナースロボタイプ＿T 同人概念香氛",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/zh-tw/menyakuranari"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-21",
+    "circle_name": "三支音叉",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1EDMa5ftC9/",
+    "area": "VW",
+    "body": "- ZOLA PROJECT",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1EDMa5ftC9/"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-22",
+    "circle_name": "男同女同天理不容",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
+    "area": "VW",
+    "body": "- Piapro Characters\n- 神威がくぽ\n- 墨清弦",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@q",
+        "url": "https://qrcode.plurk.com/q/tsugineallen-3x.png"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-23",
+    "circle_name": "KAITO的狗",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/tu.ben.hua?",
+    "area": "VW",
+    "body": "- Vocaloid\n- 世界計畫",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "tu.ben.hua",
+        "url": "https://www.facebook.com/tu.ben.hua?"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-24",
+    "circle_name": "男男軟體園區",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/sakuraharu",
+    "area": "VW",
+    "body": "- VOCALOID\n- KAITO",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@sakuraharu",
+        "url": "https://www.plurk.com/sakuraharu"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-25",
+    "circle_name": "未來群像",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/FutureImagesTW",
+    "area": "VW",
+    "body": "- VOCALOID角色周邊(立牌、徽章、貼紙、透卡)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/FutureImagesTW"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-26",
+    "circle_name": "bbibinbing",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/bbibinbingART/",
+    "body": "## 📝 CH19 出展重點\n- VW10 VOCALOID 專區 ／ #BangDream\n- [原 FB post](https://www.facebook.com/share/p/19UVpJ2rtc/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/19UVpJ2rtc/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-26/share-19UVpJ2rtc/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "VW"
+  },
+  {
+    "booth_id": "V-27",
+    "circle_name": "小白熊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/whitericebear",
+    "area": "VW",
+    "body": "- VOCALOID\n- 鏡音\n- 初音",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "whitericebear",
+        "url": "https://www.facebook.com/whitericebear"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-28",
+    "circle_name": "田中水草",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/almn.sk.page/",
+    "body": "## 📝 CH19 出展重點\n- 新品: 魔法未來 2026 立牌 + 明信片 ／ 也有新的無料印章\n- [原 FB post](https://www.facebook.com/share/p/1C7oaAxPBn/)",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1C7oaAxPBn/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-28/share-1C7oaAxPBn/0.jpg",
+        "display_locked": false
+      }
+    ],
+    "_meta_scrape_sk": {
+      "platform_used": "fb",
+      "hand_note": false,
+      "detected_cps": [],
+      "has_ch19_post": true
+    },
+    "area": "VW"
+  },
+  {
+    "booth_id": "V-29/30",
+    "circle_name": "優格白喵",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/mazuco1214_ryu",
+    "area": "VW",
+    "body": "- 原創-水母初音吊飾、貼紙\n- 原創-魔法未來迷你立牌（有各年代）\n- 原創-瞌睡初音飯友",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@mazuco1214_ryu",
+        "url": "https://x.com/mazuco1214_ryu"
+      }
+    ],
+    "cells": [
+      "V-29",
+      "V-30"
+    ]
+  },
+  {
+    "booth_id": "V-31/32",
+    "circle_name": "風船猫插畫神社",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/lai.liang.yan.2025/",
+    "area": "VW",
+    "body": "- 初音&V家\n- 魔法未來2016 10周年",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "lai.liang.yan.2025",
+        "url": "https://www.facebook.com/lai.liang.yan.2025/"
+      }
+    ],
+    "cells": [
+      "V-31",
+      "V-32"
+    ]
+  },
+  {
+    "booth_id": "V-33",
+    "circle_name": "childeyes",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/PropellerWalker",
+    "area": "VW",
+    "body": "- アクリルキーホルダー、缶バッジ、同人誌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@PropellerWalker",
+        "url": "https://x.com/PropellerWalker"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-34",
+    "circle_name": "阿喵家",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.youtube.com/@nukomimiP",
+    "area": "VW",
+    "body": "- VOCALOID(KAITO)中心歌曲、插畫創作",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://www.youtube.com/@nukomimiP"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-35/36",
+    "circle_name": "KA_compilation",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/KA_compilation",
+    "area": "VW",
+    "body": "- VOCALOID KAITOのコンピレーションアルバムCD",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@KA_compilation",
+        "url": "https://x.com/KA_compilation"
+      }
+    ],
+    "cells": [
+      "V-35",
+      "V-36"
+    ]
+  },
+  {
+    "booth_id": "V-37",
+    "circle_name": "MinuetWorks",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://solo.to/travis_minuet",
+    "area": "VW",
+    "body": "- Vocaloid原創專輯CD-共跳一段小步舞曲 / Tr＠vis feat. 初音未來 1st Album\n- [新譜] Vocaloid原創專輯CD-微笑編譯器 / Tr＠vis feat. 初音未來\n- 共跳一段小步舞曲 同名滿版滑鼠墊",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://solo.to/travis_minuet"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-38",
+    "circle_name": "安安淡定",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://youtu.be/ZinwCw1XCiI",
+    "area": "VW",
+    "body": "- SynthV原創專輯CD-East of Island 島嶼之東",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://youtu.be/ZinwCw1XCiI"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-39",
+    "circle_name": "電線桿有限公司",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/jia0kelvin",
+    "area": "VW",
+    "body": "- Vocaloid-初音",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "jia0kelvin",
+        "url": "https://www.facebook.com/jia0kelvin"
+      }
+    ]
+  },
+  {
+    "booth_id": "V-40",
+    "circle_name": "西米不是米",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/simelu2016",
+    "area": "VW",
+    "body": "- 茄子冰鎮",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "simelu2016",
+        "url": "https://www.facebook.com/simelu2016"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-01",
+    "circle_name": "咦きづら怡部！",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/co.shih",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "co.shih",
+        "url": "https://www.facebook.com/co.shih"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-02",
+    "circle_name": "倉鼠補習蛋糕店(暫)",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/yujaisu",
+    "area": "偶大",
+    "body": "- 學園偶像大師 学園アイドルマスター\n- 世界計畫 繽紛舞台！ feat.初音未來",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@yujaisu",
+        "url": "https://www.plurk.com/yujaisu"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-03",
+    "circle_name": "猿田彦的鼻子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/rei.xu.3",
+    "area": "偶大",
+    "body": "- 學園偶像大師/学園アイドルマスター\n- 鋼彈Ｗ/ガンダムW（僅無料）",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "rei.xu.3",
+        "url": "https://www.facebook.com/rei.xu.3"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-04",
+    "circle_name": "GAC",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/shu.kuan.yu.2025",
+    "area": "偶大",
+    "body": "- 學偶貼紙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "shu.kuan.yu.2025",
+        "url": "https://www.facebook.com/shu.kuan.yu.2025"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-05/06",
+    "circle_name": "74 PrODUCTION",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/IdolProduction74",
+    "area": "偶大",
+    "body": "- 偶像大師系列\n- 蔚藍檔案\n- VSPO",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "IdolProduction74",
+        "url": "https://www.facebook.com/IdolProduction74"
+      }
+    ],
+    "cells": [
+      "W-05",
+      "W-06"
+    ]
+  },
+  {
+    "booth_id": "W-07",
+    "circle_name": "悠紗",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/yuusa200502/",
+    "area": "偶大",
+    "body": "- 偶像大師灰姑娘女孩",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yuusa200502",
+        "url": "https://www.facebook.com/yuusa200502/"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-08",
+    "circle_name": "記憶中的記事本",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://twitter.com/cometwave",
+    "area": "偶大",
+    "body": "- Travel memory of Taiwan、Sticker",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@cometwave",
+        "url": "https://twitter.com/cometwave"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-09/10",
+    "circle_name": "桃京武戯夜",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://twitter.com/takapiyo",
+    "area": "偶大",
+    "body": "- 學園偶像大師\n- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@takapiyo",
+        "url": "https://twitter.com/takapiyo"
+      }
+    ],
+    "cells": [
+      "W-09",
+      "W-10"
+    ]
+  },
+  {
+    "booth_id": "W-11",
+    "circle_name": "須彌芥子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/a983azy",
+    "area": "偶大",
+    "body": "- 原創-睡著的咪系列\n- 偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@a983azy",
+        "url": "https://www.plurk.com/a983azy"
+      }
+    ]
   },
   {
     "booth_id": "W-12",
@@ -4375,21 +12302,357 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "偶大"
   },
   {
-    "booth_id": "Y-07/08",
-    "circle_name": "士雷 shirai",
+    "booth_id": "W-13",
+    "circle_name": "淡江大學偶像大師同好會",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/100072024726/",
-    "body": "## 📝 CH19 出展重點\n- 新品 [**名探偵プリキュア 森亜るるか**](https://www.facebook.com/share/p/1QDzhmngKR/) — るるか T 恤 / 彩窗大立牌 / るるか塔羅牌 ／ 彩窗背景 + 塔羅牌構圖 為主力設計",
+    "x_url": "https://x.com/tku_imas_tw",
+    "area": "偶大",
+    "body": "- 偶像大師系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@tku_imas_tw",
+        "url": "https://x.com/tku_imas_tw"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-14",
+    "circle_name": "1111事務所海線辦事處",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/IMAS1111TWTC//",
+    "area": "偶大",
+    "body": "- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會\n- 偶像大師系列AR攝影",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "IMAS1111TWTC",
+        "url": "https://www.facebook.com/IMAS1111TWTC//"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-15",
+    "circle_name": "ML台灣外景事務局",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/GesamtkunstwerkundEi",
+    "area": "偶大",
+    "body": "- 偶像大師百萬人演唱會_在台灣出外景_台式牛排篇\n- 偶像大師百萬人演唱會_在台灣出外景reburn",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "GesamtkunstwerkundEi",
+        "url": "https://www.facebook.com/GesamtkunstwerkundEi"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-16",
+    "circle_name": "jyouka",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/jyouka2019",
+    "area": "偶大",
+    "body": "- 偶像大師系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "jyouka2019",
+        "url": "https://www.facebook.com/jyouka2019"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-17",
+    "circle_name": "口口鳥工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/winnie292720",
+    "area": "偶大",
+    "body": "- 偶像大師-春香千早",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@winnie292720",
+        "url": "https://www.plurk.com/winnie292720"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-18",
+    "circle_name": "奇異鳥巡迴演唱會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/lian4302",
+    "area": "偶大",
+    "body": "- Vocaloid\n- 偶像大師SideM",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@lian4302",
+        "url": "https://www.plurk.com/lian4302"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-19",
+    "circle_name": "P星帶月",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97",
+    "area": "偶大",
+    "body": "- 偶像大師SideM\n- 偶像大師男女越境",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-20",
+    "circle_name": "我要看警察組Sexy★Guilty啊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/CATGIRL0926",
+    "area": "偶大",
+    "body": "- 偶像大師灰姑娘\n- 偶像大師SideM",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@CATGIRL0926",
+        "url": "https://www.plurk.com/CATGIRL0926"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-21",
+    "circle_name": "炉研所",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/krosa1028",
+    "area": "偶大",
+    "body": "- 百萬偶像大師-望月杏奈\n- 學園偶像大師-藤田ことね",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@krosa1028",
+        "url": "https://x.com/krosa1028"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-22",
+    "circle_name": "極月學園偶像大師同好會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ricke.kao",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ricke.kao",
+        "url": "https://www.facebook.com/ricke.kao"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-23",
+    "circle_name": "甜品製造所",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/liu.tong.xue.241219/",
+    "area": "偶大",
+    "body": "- 學園偶像大師\n- 魔法少女的魔女審判\n- LoveLive!",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "liu.tong.xue.241219",
+        "url": "https://www.facebook.com/liu.tong.xue.241219/"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-24",
+    "circle_name": "阿廣同好會",
+    "author": "",
+    "x_handle": "",
+    "x_url": "www.facebook.com/edward98311",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "edward98311",
+        "url": "www.facebook.com/edward98311"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-25/26",
+    "circle_name": "我朋友沒朋友",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/zdyui810",
+    "area": "偶大",
+    "body": "- 偶像大師系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@zdyui810",
+        "url": "https://www.plurk.com/zdyui810"
+      }
+    ],
+    "cells": [
+      "W-25",
+      "W-26"
+    ]
+  },
+  {
+    "booth_id": "W-27/28",
+    "circle_name": "學P又扛了冬C！",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/huyume1023",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "huyume1023",
+        "url": "https://www.facebook.com/huyume1023"
+      }
+    ],
+    "cells": [
+      "W-27",
+      "W-28"
+    ]
+  },
+  {
+    "booth_id": "W-29",
+    "circle_name": "貞尼鹹粥",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/jenniecongee",
+    "area": "偶大",
+    "body": "- 偶像大師系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@jenniecongee",
+        "url": "https://x.com/jenniecongee"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-30/31",
+    "circle_name": "海豹柑柑Mikan seal",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/Mikanseal074",
+    "area": "偶大",
+    "body": "- アイマスシリーズ\n- 学園アイドルマスター",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "Mikanseal074",
+        "url": "https://www.facebook.com/Mikanseal074"
+      }
+    ],
+    "cells": [
+      "W-30",
+      "W-31"
+    ]
+  },
+  {
+    "booth_id": "W-32",
+    "circle_name": "我愛吉娃娃",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr",
+    "area": "偶大",
+    "body": "- 偶像大師_アイマス\n- 偶像學園_アイカツ\n- 艾爾之光_elsword",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-33",
+    "circle_name": "Cathy Kao",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/cathy.kao.35/",
+    "body": "## 📝 CH19 出展重點\n- 0530 創集繪 & 偶像大師 ONLY 出展\n\n- 新品: 立牌 + 吊飾\n- 明信片 + 貼紙 = 舊物 OR 當天無料/贈品\n- 週五晚預計公布特別企劃\n- [原 FB post (品書)](https://www.facebook.com/share/p/1EXf5N3Pn6/)",
     "tags": {},
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/share/p/1QDzhmngKR/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-07_08/share-1QDzhmngKR/0.jpg",
+        "source_url": "https://www.facebook.com/share/p/1EXf5N3Pn6/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-33/share-1EXf5N3Pn6/0.jpg",
         "display_locked": false
       }
     ],
@@ -4398,30 +12661,65 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "偶大"
   },
   {
-    "booth_id": "K-23",
-    "circle_name": "做我的蠢糗大萌",
+    "booth_id": "W-34",
+    "circle_name": "好八不間斷",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/marikuforever/",
-    "body": "## 📝 CH19 出展重點\n- 新品 [**MHA**](https://www.facebook.com/share/p/1B6WxRSggd/) ／ 交換禮儀提醒: 完整包裝零食 + 一定量以上 (1-2 顆糖果不接受)",
+    "x_url": "https://x.com/2GeTrEkT264",
+    "area": "偶大",
+    "body": "- 初星偵探部\n- 初星星南俱樂部",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1B6WxRSggd/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-23/share-1B6WxRSggd/0.jpg",
-        "display_locked": false
+        "platform": "x",
+        "handle": "@2GeTrEkT264",
+        "url": "https://x.com/2GeTrEkT264"
       }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    ]
+  },
+  {
+    "booth_id": "W-35",
+    "circle_name": "企鵝冰屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/xiao.xiao.zhang.520906",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "xiao.xiao.zhang.520906",
+        "url": "https://www.facebook.com/xiao.xiao.zhang.520906"
+      }
+    ]
+  },
+  {
+    "booth_id": "W-36",
+    "circle_name": "電梯上樓",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/lift.quarter",
+    "area": "偶大",
+    "body": "- 学園アイドルマスター",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "lift.quarter",
+        "url": "https://www.facebook.com/lift.quarter"
+      }
+    ]
   },
   {
     "booth_id": "W-37/38",
@@ -4430,8 +12728,16 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/shadowsinkincoffee/",
     "socials": [
-      {"platform": "fb", "handle": "shadowsinkincoffee", "url": "https://www.facebook.com/shadowsinkincoffee/"},
-      {"platform": "plurk", "handle": "@貓小喳", "url": "https://www.plurk.com/p/3ipcz6llj1"}
+      {
+        "platform": "fb",
+        "handle": "shadowsinkincoffee",
+        "url": "https://www.facebook.com/shadowsinkincoffee/"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@貓小喳",
+        "url": "https://www.plurk.com/p/3ipcz6llj1"
+      }
     ],
     "body": "## 📝 CH19 出展重點\n\n**超かぐや姫**:\n- ★突發新刊 [**『超かぐや姫 memories!』**](https://www.plurk.com/p/3ipcz6llj1) — 全彩插畫集 / B5 / 16P / NT 200\n\n**名偵探光之美少女** (NEW):\n- **CURE ARCANA SHADOW 大滑鼠墊** (60×35cm / 四周包邊) — NT 650\n- **CURE ARCANA SHADOW 小套組** (15cm 雙面壓克力立牌 + 透卡 + 雷射明信片) — NT 500 (組合售 200)\n\n**學園偶像大師** (藤田ことね 主題):\n- ★新 **藤田ことね T-shirt** — NT 700 (S/M/L/XL、 隨機少量限量)\n- ★新 插畫本 **『LittleRestTime』** (B5/20P/Full Color) — NT 200\n- 新刊定本 (A5/12P/Full Color) — 含 套姫限定文 + 皮革行李吊牌 + 名稱貼紙 + 明信片\n- **FF46 新刊套組 (1〜8 + 書脊 ×3)** — NT 800\n- **P 套組** (1〜8 + 琴音立牌) — NT 1100\n- 60×150cm 2way 等身大抱枕套 — NT 2000\n- 糖果娃娃組 (特大糖果包 + 琴音磁吸娃娃 + 透明貼紙) — NT 500\n- 既刊套組 — NT 400\n- 睡衣派對 壓克力立牌 (各 15cm) — 各 NT 350 / 點銀 NT 1000\n- 既刊・學偶畫集 — NT 200 (+加購附錄 NT 100)\n- 通販因 [**輝耀姬関連**](https://www.facebook.com/share/p/1CiXqyS7Uq/) 場後一併開放 (DC 群告知)",
     "tags": {
@@ -4460,145 +12766,375 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "偶大"
   },
   {
-    "booth_id": "N-02",
-    "circle_name": "大眾澡堂",
+    "booth_id": "W-39/40",
+    "circle_name": "REI'sROOM",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/yuyudesu0806/",
-    "body": "## 📝 CH19 出展重點\n- N-02 出展 ／ 卡片印量調查 plurk 進行中 (link 在回覆欄)\n- [原 FB post](https://www.facebook.com/share/p/1BHm2tJNmR/)",
+    "x_url": "https://www.facebook.com/reisroom711/",
+    "area": "偶大",
+    "body": "- 學園偶像大師",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1BHm2tJNmR/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-02/share-1BHm2tJNmR/0.jpg",
-        "display_locked": false
+        "platform": "fb",
+        "handle": "reisroom711",
+        "url": "https://www.facebook.com/reisroom711/"
       }
     ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    "cells": [
+      "W-39",
+      "W-40"
+    ]
   },
   {
-    "booth_id": "O-37/38",
-    "circle_name": "不作夢的食夢貘 (Xiang Yin 庠隱)",
-    "author": "Xiang Yin 庠隱",
-    "x_handle": "",
-    "x_url": "https://www.facebook.com/xiangyinwork/",
-    "body": "## 📝 CH19 出展重點\n- 原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
-    "tags": {},
-    "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://www.facebook.com/share/p/18VK1GBTLw/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/share-18VK1GBTLw/0.jpg",
-        "display_locked": false
-      }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
-  },
-  {
-    "booth_id": "K-10",
-    "circle_name": "索緋 (顧攤 helper)",
-    "author": "顧攤 helper",
-    "x_handle": "",
-    "x_url": "https://www.facebook.com/blackrosetwc/",
-    "body": "## 📝 CH19 出展重點\n- 親友 K10 攤位顧攤\n\n- 帶來: 魔戒洛汗人之戰 — 赫拉公主外出服 ver. (有窗的可能、 窗時換為公主正裝 OR 藤真)\n- 刊物試閱在回覆欄\n- [原 FB post](https://www.facebook.com/share/p/18r8jkSKW2/)",
-    "tags": {},
-    "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://www.facebook.com/share/p/18r8jkSKW2/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-10/share-18r8jkSKW2/0.jpg",
-        "display_locked": false
-      }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
-  },
-  {
-    "booth_id": "V-26",
-    "circle_name": "bbibinbing",
+    "booth_id": "X-01",
+    "circle_name": "XZY in 冷凍庫",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/bbibinbingART/",
-    "body": "## 📝 CH19 出展重點\n- VW10 VOCALOID 專區 ／ #BangDream\n- [原 FB post](https://www.facebook.com/share/p/19UVpJ2rtc/)",
+    "x_url": "https://www.facebook.com/share/1JQ7Y3ei6c/",
+    "area": "綜合",
+    "body": "- ボカロ",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/19UVpJ2rtc/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-26/share-19UVpJ2rtc/0.jpg",
-        "display_locked": false
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1JQ7Y3ei6c/"
       }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    ]
   },
   {
-    "booth_id": "Y-03/04",
-    "circle_name": "蒼銀之星",
+    "booth_id": "X-02",
+    "circle_name": "阿喔喔咧合作社",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/aokihoshi/",
-    "body": "## 📝 CH19 出展重點\n- 阿烏拉 (Aoura) 5月最終加班 ／ FGO\n- [原 FB post](https://www.facebook.com/share/p/1K18K4HJmx/)",
+    "x_url": "https://www.plurk.com/p/3icizou1me",
+    "area": "綜合",
+    "body": "- 原創-Analog Edge (主要)\n- 二創-蔚藍檔案插圖本(既刊少量)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1K18K4HJmx/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-03_04/share-1K18K4HJmx/0.jpg",
-        "display_locked": false
+        "platform": "plurk",
+        "handle": "",
+        "url": "https://www.plurk.com/p/3icizou1me"
       }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    ]
   },
   {
-    "booth_id": "V-07/08",
-    "circle_name": "全糖雞蛋卷x楓黎",
+    "booth_id": "X-03",
+    "circle_name": "開天窗",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/fengliart520/",
-    "body": "## 📝 CH19 出展重點\n- VW10 VOCALOID — [**咪哭 (Miku) 中心**](https://www.facebook.com/share/p/1ChhNi6NB2/) ／ 拍立得剩少量、 賣完後將推出新規 咪哭",
+    "x_url": "#",
+    "area": "綜合",
+    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": []
+  },
+  {
+    "booth_id": "X-04",
+    "circle_name": "東雲之森",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/p/3gvbo8hc97",
+    "area": "綜合",
+    "body": "- 斯普拉遁\n- 寶可夢\n- 原創黑貓",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1ChhNi6NB2/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-07_08/share-1ChhNi6NB2/0.jpg",
-        "display_locked": false
+        "platform": "plurk",
+        "handle": "",
+        "url": "https://www.plurk.com/p/3gvbo8hc97"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-05/06",
+    "circle_name": "直走到底",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/folia0702",
+    "area": "綜合",
+    "body": "- 斯普拉遁3\n- 絕區零\n- 原創-毛毬",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@folia0702",
+        "url": "https://www.plurk.com/folia0702"
       }
     ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    "cells": [
+      "X-05",
+      "X-06"
+    ]
+  },
+  {
+    "booth_id": "X-07",
+    "circle_name": "GG++",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/karo3618",
+    "area": "綜合",
+    "body": "- 崩壞：星穹鐵道\n- 原神\n- 重返未來1999",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@karo3618",
+        "url": "https://www.plurk.com/karo3618"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-08",
+    "circle_name": "彩虹盤子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/CShiroha?",
+    "area": "綜合",
+    "body": "- にじさんじ\n- 崩壞：星穹鐵道",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "CShiroha",
+        "url": "https://www.facebook.com/CShiroha?"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-09/10",
+    "circle_name": "yoru深夜聊天室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/nightleave1030",
+    "area": "綜合",
+    "body": "- 絕區零\n- 崩壞:星穹鐵道\n- Nijisanji EN",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@nightleave1030",
+        "url": "https://x.com/nightleave1030"
+      }
+    ],
+    "cells": [
+      "X-09",
+      "X-10"
+    ]
+  },
+  {
+    "booth_id": "X-11/12",
+    "circle_name": "青雨閣",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/chj_joanna?igsh=MXBpZWhiNGRtOXJweg%3D%3D&utm_source=qr",
+    "area": "綜合",
+    "body": "- 原神\n- 絕區零\n- 崩壞：星穹鐵道",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@chj_joanna",
+        "url": "https://www.instagram.com/chj_joanna?igsh=MXBpZWhiNGRtOXJweg%3D%3D&utm_source=qr"
+      }
+    ],
+    "cells": [
+      "X-11",
+      "X-12"
+    ]
+  },
+  {
+    "booth_id": "X-13",
+    "circle_name": "Little Box",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/harukam03",
+    "area": "綜合",
+    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@harukam03",
+        "url": "https://www.plurk.com/harukam03"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-14",
+    "circle_name": "Big Wolf",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/gogo_wolf",
+    "area": "綜合",
+    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@gogo_wolf",
+        "url": "https://x.com/gogo_wolf"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-15/16",
+    "circle_name": "杏。Xing",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/XingJustDrawIt",
+    "area": "綜合",
+    "body": "- 艾爾登法環  黑夜君臨\n- 魔物獵人\n- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "XingJustDrawIt",
+        "url": "https://www.facebook.com/XingJustDrawIt"
+      }
+    ],
+    "cells": [
+      "X-15",
+      "X-16"
+    ]
+  },
+  {
+    "booth_id": "X-17/18",
+    "circle_name": "紙皮盒",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.doujin.com.tw/groups/info/2719",
+    "area": "綜合",
+    "body": "- hololive\n- 原神\n- 崩壞星穹鐵道",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/2719"
+      }
+    ],
+    "cells": [
+      "X-17",
+      "X-18"
+    ]
+  },
+  {
+    "booth_id": "X-19",
+    "circle_name": "廢柴畫畫人營業中",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ps.gojo.mm/",
+    "area": "綜合",
+    "body": "- 絕區零\n- 崩壞:星穹鐵道\n- 原創-沒有名字的綿花糖",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ps.gojo.mm",
+        "url": "https://www.instagram.com/ps.gojo.mm/"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-20",
+    "circle_name": "心靜自然廢",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/letyourmidpeace",
+    "area": "綜合",
+    "body": "- 崩壞星穹鐵道\n- 寶可夢",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "letyourmidpeace",
+        "url": "https://www.facebook.com/letyourmidpeace"
+      }
+    ]
+  },
+  {
+    "booth_id": "X-21/22",
+    "circle_name": "風聲颯颯",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/lifa4dream",
+    "area": "綜合",
+    "body": "- 崩壞：星穹鐵道\n- V-tuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "lifa4dream",
+        "url": "https://www.facebook.com/lifa4dream"
+      }
+    ],
+    "cells": [
+      "X-21",
+      "X-22"
+    ]
+  },
+  {
+    "booth_id": "X-23/24",
+    "circle_name": "迷鹿島",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/lostdeerisland",
+    "area": "綜合",
+    "body": "- 戀與深空\n- 星穹鐵道\n- 原神",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@lostdeerisland",
+        "url": "https://www.instagram.com/lostdeerisland"
+      }
+    ],
+    "cells": [
+      "X-23",
+      "X-24"
+    ]
   },
   {
     "booth_id": "Y-01",
@@ -4621,21 +13157,41 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "綜合"
   },
   {
-    "booth_id": "V-28",
-    "circle_name": "田中水草",
+    "booth_id": "Y-02",
+    "circle_name": "Planetes Observare",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/almn.sk.page/",
-    "body": "## 📝 CH19 出展重點\n- 新品: 魔法未來 2026 立牌 + 明信片 ／ 也有新的無料印章\n- [原 FB post](https://www.facebook.com/share/p/1C7oaAxPBn/)",
+    "x_url": "https://www.facebook.com/PlanetesObservare",
+    "area": "綜合",
+    "body": "- 偶像大師SideM",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "PlanetesObservare",
+        "url": "https://www.facebook.com/PlanetesObservare"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-03/04",
+    "circle_name": "蒼銀之星",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/aokihoshi/",
+    "body": "## 📝 CH19 出展重點\n- 阿烏拉 (Aoura) 5月最終加班 ／ FGO\n- [原 FB post](https://www.facebook.com/share/p/1K18K4HJmx/)",
     "tags": {},
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/share/p/1C7oaAxPBn/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-28/share-1C7oaAxPBn/0.jpg",
+        "source_url": "https://www.facebook.com/share/p/1K18K4HJmx/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-03_04/share-1K18K4HJmx/0.jpg",
         "display_locked": false
       }
     ],
@@ -4644,21 +13200,45 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "綜合"
   },
   {
-    "booth_id": "U-07/08",
-    "circle_name": "櫻羽艾瑪會側手翻3.0",
+    "booth_id": "Y-05/06",
+    "circle_name": "奈櫻工坊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/615853064360/",
-    "body": "## 📝 CH19 出展重點\n- U07/08 出展確認 ／ 花博爭艷館見\n- [原 FB post](https://www.facebook.com/share/p/1DTJeTpsc6/)",
+    "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
+    "area": "綜合",
+    "body": "- 蔚藍檔案\n- 孤獨搖滾\n- 原創-股市動畫系列",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://anenin.weebly.com/2516325622212053005927231.html"
+      }
+    ],
+    "cells": [
+      "Y-05",
+      "Y-06"
+    ]
+  },
+  {
+    "booth_id": "Y-07/08",
+    "circle_name": "士雷 shirai",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/100072024726/",
+    "body": "## 📝 CH19 出展重點\n- 新品 [**名探偵プリキュア 森亜るるか**](https://www.facebook.com/share/p/1QDzhmngKR/) — るるか T 恤 / 彩窗大立牌 / るるか塔羅牌 ／ 彩窗背景 + 塔羅牌構圖 為主力設計",
     "tags": {},
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/share/p/1DTJeTpsc6/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-07_08/share-1DTJeTpsc6/0.jpg",
+        "source_url": "https://www.facebook.com/share/p/1QDzhmngKR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-07_08/share-1QDzhmngKR/0.jpg",
         "display_locked": false
       }
     ],
@@ -4667,75 +13247,1045 @@ window.BOOTHS = [
       "hand_note": false,
       "detected_cps": [],
       "has_ch19_post": true
-    }
+    },
+    "area": "綜合"
   },
   {
-    "booth_id": "P-21/22",
-    "circle_name": "夜貓館咖啡屋",
+    "booth_id": "Y-09/10",
+    "circle_name": "富士繪社",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/yamyoukan/",
-    "body": "## 📝 CH19 出展重點\n- P-21/22 出展 ／ #夜貓館咖啡屋 #墨事典 #blazewu #KUBA #窄巷 #亖亖 #SNOWVEGA #PUMP #貓\n- [原 FB post](https://www.facebook.com/share/p/1JkrqmXqkr/)",
+    "x_url": "https://www.facebook.com/profile.php?id=100069793502478",
+    "area": "綜合",
+    "body": "- vtuber\n- 葬送的芙莉蓮\n- 原創插畫",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1JkrqmXqkr/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-21_22/share-1JkrqmXqkr/0.jpg",
-        "display_locked": false
+        "platform": "fb",
+        "handle": "profile 10006979…",
+        "url": "https://www.facebook.com/profile.php?id=100069793502478"
       }
     ],
+    "cells": [
+      "Y-09",
+      "Y-10"
+    ]
+  },
+  {
+    "booth_id": "Y-11",
+    "circle_name": "古藤工作室 by MOMO",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/gutenmomo",
+    "body": "- 蔚藍檔案\n- 超時空輝耀姬！\n- Hololive EN\n\n**專區**: 綜合\n\n🔗 Facebook: [https://www.facebook.com/gutenmomo](https://www.facebook.com/gutenmomo)",
+    "tags": {
+      "super-kaguya": true
+    },
+    "warnings": [],
+    "cover_urls": [],
     "_meta_scrape_sk": {
       "platform_used": "fb",
       "hand_note": false,
       "detected_cps": [],
-      "has_ch19_post": true
-    }
+      "has_ch19_post": false
+    },
+    "area": "綜合"
   },
   {
-    "booth_id": "P-12",
-    "circle_name": "超級同人大戰 SDW",
+    "booth_id": "Y-12",
+    "circle_name": "YUI優伊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/superdoujinwar/",
-    "body": "## 📝 CH19 出展重點\n- 現場購買套組有優惠價\n- 另有 [LINE 貼圖](https://line.me/S/sticker/34176425)\n- [原 FB post](https://www.facebook.com/share/p/18Yf1Qgwa4/)",
+    "x_url": "https://www.instagram.com/yuiotagiri?igsh=Mm84cHI5aHZzY3Vk&utm_source=qr",
+    "area": "綜合",
+    "body": "- 個人原創 女僕作品\n- Hololive\n- 賽馬娘",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/18Yf1Qgwa4/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-12/share-18Yf1Qgwa4/0.jpg",
-        "display_locked": false
+        "platform": "ig",
+        "handle": "@yuiotagiri",
+        "url": "https://www.instagram.com/yuiotagiri?igsh=Mm84cHI5aHZzY3Vk&utm_source=qr"
       }
-    ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    ]
   },
   {
-    "booth_id": "W-33",
-    "circle_name": "Cathy Kao",
+    "booth_id": "Y-13/14",
+    "circle_name": "下空少女",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.facebook.com/cathy.kao.35/",
-    "body": "## 📝 CH19 出展重點\n- 0530 創集繪 & 偶像大師 ONLY 出展\n\n- 新品: 立牌 + 吊飾\n- 明信片 + 貼紙 = 舊物 OR 當天無料/贈品\n- 週五晚預計公布特別企劃\n- [原 FB post (品書)](https://www.facebook.com/share/p/1EXf5N3Pn6/)",
+    "x_url": "https://www.facebook.com/yu.cheng.9843499",
+    "area": "綜合",
+    "body": "- 原神\n- 原創-下空少女\n- 明日方舟",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
+    "cover_urls": [],
+    "socials": [
       {
-        "source_url": "https://www.facebook.com/share/p/1EXf5N3Pn6/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-33/share-1EXf5N3Pn6/0.jpg",
-        "display_locked": false
+        "platform": "fb",
+        "handle": "yu.cheng.9843499",
+        "url": "https://www.facebook.com/yu.cheng.9843499"
       }
     ],
-    "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
-      "detected_cps": [],
-      "has_ch19_post": true
-    }
+    "cells": [
+      "Y-13",
+      "Y-14"
+    ]
+  },
+  {
+    "booth_id": "Y-15",
+    "circle_name": "古比Gubi",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://lit.link/en/gubiTW",
+    "area": "綜合",
+    "body": "- 崩壞星穹鐵道\n- 原神\n- 明日方舟",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/gubiTW"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-16",
+    "circle_name": "阿嵐章魚繪圖手作舖",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1BwHfvUqMu/",
+    "area": "綜合",
+    "body": "- Hololive EN Ina\n- Hololive EN Bijou\n- 原神",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1BwHfvUqMu/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-17",
+    "circle_name": "伊那爾栖的微笑",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/laaaw444",
+    "area": "綜合",
+    "body": "- Hololive-ninomae ina'nis",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@laaaw444",
+        "url": "https://x.com/laaaw444"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-18",
+    "circle_name": "墨水浴缸",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/oruka_oru",
+    "area": "綜合",
+    "body": "- 來自深淵",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@oruka_oru",
+        "url": "https://x.com/oruka_oru"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-19/20",
+    "circle_name": "Bubble Wave",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://linktr.ee/Bubble_Wave",
+    "area": "綜合",
+    "body": "- 原創- 白星和她奇怪朋友們的日常生活\n- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "Linktree",
+        "url": "https://linktr.ee/Bubble_Wave"
+      }
+    ],
+    "cells": [
+      "Y-19",
+      "Y-20"
+    ]
+  },
+  {
+    "booth_id": "Y-21",
+    "circle_name": "共聚物精靈",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/CopolymerWizard",
+    "area": "綜合",
+    "body": "- 千戀萬花",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "CopolymerWizard",
+        "url": "https://www.facebook.com/CopolymerWizard"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-22",
+    "circle_name": "常勝冠軍為你嗯吶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://sakuds.carrd.co",
+    "area": "綜合",
+    "body": "- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://sakuds.carrd.co"
+      }
+    ]
+  },
+  {
+    "booth_id": "Y-23/24",
+    "circle_name": "月貓創意",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/nokomakawa/",
+    "area": "綜合",
+    "body": "- 鳴潮\n- samekosaba\n- 妮姬",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "nokomakawa",
+        "url": "https://www.facebook.com/nokomakawa/"
+      }
+    ],
+    "cells": [
+      "Y-23",
+      "Y-24"
+    ]
+  },
+  {
+    "booth_id": "Z-01",
+    "circle_name": "梨日子圖文",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ri_life_draw/",
+    "area": "綜合",
+    "body": "- 原創-梨日子圖文",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ri_life_draw",
+        "url": "https://www.instagram.com/ri_life_draw/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-02",
+    "circle_name": "弗雷曼反應",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@45_artwork",
+    "area": "綜合",
+    "body": "- 崩壞星穹鐵道",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@45_artwork",
+        "url": "https://www.threads.com/@45_artwork"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-03",
+    "circle_name": "貓咪的嘎吱窩",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/b.c1206",
+    "area": "綜合",
+    "body": "- 崩壞星穹鐵道\n- 原創-DxL\n- Vtuber",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "b.c1206",
+        "url": "https://www.facebook.com/b.c1206"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-04",
+    "circle_name": "醫生說保羅沃克於是媽媽轉身向山裡走去",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/botoakaza?igsh=N3FsMWRjMmxtZTE1&utm_source=qr",
+    "area": "綜合",
+    "body": "- 初音未來\n- 主播女孩重度依賴\n- にじさんじ",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@botoakaza",
+        "url": "https://www.instagram.com/botoakaza?igsh=N3FsMWRjMmxtZTE1&utm_source=qr"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-05",
+    "circle_name": "嬰兒站在停屍間問醫生是保爸爸還是保媽媽",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/t0ng_eyyy/",
+    "area": "綜合",
+    "body": "- hololive_ina\n- 特戰英豪\n- 原創",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@t0ng_eyyy",
+        "url": "https://www.instagram.com/t0ng_eyyy/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-06",
+    "circle_name": "coolcoolburger",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/coolcoolburger",
+    "area": "綜合",
+    "body": "- 絕區零",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "coolcoolburger",
+        "url": "https://www.facebook.com/coolcoolburger"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-07",
+    "circle_name": "亂中有序",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/LJYS.doujin",
+    "area": "綜合",
+    "body": "- 原創-企劃部工作日誌\n- 原創-像素插畫系列\n- 楓之谷",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "LJYS.doujin",
+        "url": "https://www.facebook.com/LJYS.doujin"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-08",
+    "circle_name": "天行者工作室",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ss0912309713",
+    "area": "綜合",
+    "body": "- 原創漫畫_根/社刊\n- 世界計畫\n- 原神",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ss0912309713",
+        "url": "https://www.facebook.com/ss0912309713"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-09/10",
+    "circle_name": "格爾迪恩的芙拉爾",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/MFgeldian/",
+    "area": "綜合",
+    "body": "- HOLOLIVE\n- RO仙境傳說\n- 地獄旅館",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "MFgeldian",
+        "url": "https://www.facebook.com/MFgeldian/"
+      }
+    ],
+    "cells": [
+      "Z-09",
+      "Z-10"
+    ]
+  },
+  {
+    "booth_id": "Z-11/12",
+    "circle_name": "ゴ電参デ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/ben_artbb/",
+    "area": "綜合",
+    "body": "- 原創-守護獸系列周邊\n- 原創-天使號守護雷射卡\n- 二創-灌高 流花透卡",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@ben_artbb",
+        "url": "https://www.instagram.com/ben_artbb/"
+      }
+    ],
+    "cells": [
+      "Z-11",
+      "Z-12"
+    ]
+  },
+  {
+    "booth_id": "Z-13/14",
+    "circle_name": "taimini棉花娃衣",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/taimini865",
+    "area": "綜合",
+    "body": "- 台灣手作棉花娃衣",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@taimini865",
+        "url": "https://www.plurk.com/taimini865"
+      }
+    ],
+    "cells": [
+      "Z-13",
+      "Z-14"
+    ]
+  },
+  {
+    "booth_id": "Z-15",
+    "circle_name": "AM0:00",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://x.com/AM00019932687",
+    "area": "綜合",
+    "body": "- NIJISANJI EN\n- LUXIEM\n- 指娃衣服",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@AM00019932687",
+        "url": "https://x.com/AM00019932687"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-16",
+    "circle_name": "蜂蜜奶油",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/u/therealchien",
+    "area": "綜合",
+    "body": "- 原創-12分尺寸娃用服裝\n- 原創-棉花娃娃用服裝\n- 原創-娃用飾品配件",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@therealchien",
+        "url": "https://www.plurk.com/u/therealchien"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-17",
+    "circle_name": "宇宙觀察小隊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/alientomato_inearth/",
+    "area": "綜合",
+    "body": "- 原創-外星番茄\n- 原創-手作小物",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@alientomato_inearth",
+        "url": "https://www.instagram.com/alientomato_inearth/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-18",
+    "circle_name": "穿毛衣的狗",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/bearjiajia625?igsh=MW1oMmlhaWNudnQyNg==",
+    "area": "綜合",
+    "body": "- 鉤針娃衣\n- 鉤針娃帽\n- MIU404",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@bearjiajia625",
+        "url": "https://www.instagram.com/bearjiajia625?igsh=MW1oMmlhaWNudnQyNg=="
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-19",
+    "circle_name": "午夜星辰",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1CEXsim9cC/",
+    "area": "綜合",
+    "body": "- 吧唧托\n- 奶油膠卡套\n- 玩偶沙發",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1CEXsim9cC/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-20",
+    "circle_name": "三分糖‧手作中",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://blog.erenehsu.com/HappyCandy/",
+    "area": "綜合",
+    "body": "- 手作娃用包包\n- 手作娃用頭飾\n- 手作娃用帽子",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://blog.erenehsu.com/HappyCandy/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-21/22",
+    "circle_name": "迷你小啾的手創窩",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
+    "area": "綜合",
+    "body": "- 毛線手織娃衣\n- bjd娃用週邊",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1ADgk3caBw/"
+      }
+    ],
+    "cells": [
+      "Z-21",
+      "Z-22"
+    ]
+  },
+  {
+    "booth_id": "Z-23",
+    "circle_name": "給孩紙穿上衣服帽子",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@xuan___0719?igshid=NTc4MTIwNjQ2YQ==",
+    "area": "綜合",
+    "body": "- 獸耳帽\n- 熊娃衣\n- 人魚尾巴",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@xuan___0719",
+        "url": "https://www.threads.com/@xuan___0719?igshid=NTc4MTIwNjQ2YQ=="
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-24",
+    "circle_name": "貓晏的小舖",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=100063824298824",
+    "area": "綜合",
+    "body": "- 棉花娃娃衣\n- 指娃娃衣\n- OB娃衣",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10006382…",
+        "url": "https://www.facebook.com/profile.php?id=100063824298824"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-25",
+    "circle_name": "絨毛點",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/fluffpoint",
+    "area": "綜合",
+    "body": "- 原創手作飾品\n- 寶可夢二創周邊\n- 娃用配件",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "fluffpoint",
+        "url": "https://www.facebook.com/fluffpoint"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-26",
+    "circle_name": "雨狐雜貨",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/rainfox2021?igsh=YXN4cDRvbW5kOTRs",
+    "area": "綜合",
+    "body": "- 戀與深空",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@rainfox2021",
+        "url": "https://www.instagram.com/rainfox2021?igsh=YXN4cDRvbW5kOTRs"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-27",
+    "circle_name": "夜未央手作坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/endlessnight_tw?igsh=YWdmN3U4d3J0OThh",
+    "area": "綜合",
+    "body": "- 崩鐵\n- 戀與深空\n- 光與夜之戀",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@endlessnight_tw",
+        "url": "https://www.instagram.com/endlessnight_tw?igsh=YWdmN3U4d3J0OThh"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-28",
+    "circle_name": "龍伯爵的下午茶",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/by.lordlung/",
+    "area": "綜合",
+    "body": "- 原創-卡套&徽章托\n- 原創-蝴蝶結\n- 原創-娃帽",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@by.lordlung",
+        "url": "https://www.instagram.com/by.lordlung/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-29",
+    "circle_name": "一月一日委託行",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.threads.com/@fromjanuary1st",
+    "area": "綜合",
+    "body": "- 手作娃衣 娃娃頭飾\n- 手作人類配戴choker 頭飾\n- 手作人類配戴領片",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@fromjanuary1st",
+        "url": "https://www.threads.com/@fromjanuary1st"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-30",
+    "circle_name": "涵金手作",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/hijin_handmand",
+    "area": "綜合",
+    "body": "- 刀劍亂舞\n- F1\n- 戀與深空",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@hijin_handmand",
+        "url": "https://www.plurk.com/hijin_handmand"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-31",
+    "circle_name": "菫色之庭",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/_pansy.yard_",
+    "area": "綜合",
+    "body": "- 原創-推活用具\n- 原創-手作卡套\n- 原創-娃用配件",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@_pansy.yard_",
+        "url": "https://www.instagram.com/_pansy.yard_"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-32",
+    "circle_name": "宿原僎個人",
+    "author": "",
+    "x_handle": "",
+    "x_url": "#",
+    "area": "綜合",
+    "body": "- 趴娃衣及娃用拍照輔助道具",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": []
+  },
+  {
+    "booth_id": "Z-33/34",
+    "circle_name": "老雁小坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/profile.php?id=100064287512194",
+    "area": "綜合",
+    "body": "- 娃用服飾\n- 娃用週邊\n- 人娃飾品",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10006428…",
+        "url": "https://www.facebook.com/profile.php?id=100064287512194"
+      }
+    ],
+    "cells": [
+      "Z-33",
+      "Z-34"
+    ]
+  },
+  {
+    "booth_id": "Z-35",
+    "circle_name": "滾滾姨媽手作",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/gungunyima",
+    "area": "綜合",
+    "body": "- 娃用飾品\n- 娃衣",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@gungunyima",
+        "url": "https://www.plurk.com/gungunyima"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-36",
+    "circle_name": "水母阿嬤手作",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/allen210146",
+    "area": "綜合",
+    "body": "- 韓服娃衣\n- 娃用飾品配件",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@allen210146",
+        "url": "https://www.plurk.com/allen210146"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-37/38",
+    "circle_name": "狐陶木手捏陶 Hutaomu clay",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/hutaomu_clay/",
+    "area": "綜合",
+    "body": "- 拿花狐狸",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@hutaomu_clay",
+        "url": "https://www.instagram.com/hutaomu_clay/"
+      }
+    ],
+    "cells": [
+      "Z-37",
+      "Z-38"
+    ]
+  },
+  {
+    "booth_id": "Z-39/40",
+    "circle_name": "My Garden我的庭園(毛毛氈創作坊)",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/MyGardenMyLife",
+    "area": "綜合",
+    "body": "- 原創-動物球球(內含多品種款式羊毛氈圓球)\n- 原創-狐狸壽司(內含各式口味羊毛氈壽司)\n- 原創-其他原創羊毛氈",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "MyGardenMyLife",
+        "url": "https://www.facebook.com/MyGardenMyLife"
+      }
+    ],
+    "cells": [
+      "Z-39",
+      "Z-40"
+    ]
+  },
+  {
+    "booth_id": "Z-41/42",
+    "circle_name": "木回木 horohoro",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://portaly.cc/horohoro",
+    "area": "綜合",
+    "body": "- 原創-木鑲花飾品（奇幻魔法主題、日系紋樣、台灣花磚主題...etc）\n- 原創-娃用拍照道具\n- 原創-出攤用小木牌、招牌",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "portaly",
+        "url": "https://portaly.cc/horohoro"
+      }
+    ],
+    "cells": [
+      "Z-41",
+      "Z-42"
+    ]
+  },
+  {
+    "booth_id": "Z-43/44",
+    "circle_name": "信作坊",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/shinstudio.tc",
+    "area": "綜合",
+    "body": "- 蒸氣龐克齒輪飾品\n- 戀與深空印象明信片套組\n- 有毒系列骨骼絲巾與飾品盒",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@shinstudio.tc",
+        "url": "https://www.instagram.com/shinstudio.tc"
+      }
+    ],
+    "cells": [
+      "Z-43",
+      "Z-44"
+    ]
+  },
+  {
+    "booth_id": "Z-45",
+    "circle_name": "花樁屋",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.instagram.com/amaranth2013/",
+    "area": "綜合",
+    "body": "- 原創手捏花髮飾\n- 原創手捏花髮箍\n- 二創角色色形象飾品",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@amaranth2013",
+        "url": "https://www.instagram.com/amaranth2013/"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-46",
+    "circle_name": "布斯圖原創IP福狗波波威信",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/ballballwilson",
+    "area": "綜合",
+    "body": "- 原創-布藝小福狗\n- 原創-心心相印給您101句心語\n- 原創-貼紙",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "ballballwilson",
+        "url": "https://www.facebook.com/ballballwilson"
+      }
+    ]
+  },
+  {
+    "booth_id": "Z-47/48",
+    "circle_name": "遇見幸福手創館Met Happiness ",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.facebook.com/share/189QQVF5Pm/",
+    "area": "綜合",
+    "body": "- 原創微物食物耳環\n- 原創微物袖珍擺飾",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/189QQVF5Pm/"
+      }
+    ],
+    "cells": [
+      "Z-47",
+      "Z-48"
+    ]
+  },
+  {
+    "booth_id": "特-01",
+    "circle_name": "遺品整理師 / OtaMatch宅友圈",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://www.plurk.com/retaku",
+    "area": "特攤",
+    "body": "- 遺品整理師─協助處理遭遺留或遺棄的收藏品，無論是自己或是周遭親友想要了解，歡迎向我們洽詢。OtaMatch宅友圈─以『宅興趣』及『價值觀』出發的拓展社交圈活動。",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@retaku",
+        "url": "https://www.plurk.com/retaku"
+      }
+    ]
+  },
+  {
+    "booth_id": "特-02",
+    "circle_name": "墨扉文化",
+    "author": "",
+    "x_handle": "",
+    "x_url": "https://morefate.com/",
+    "area": "特攤",
+    "body": "- 《她的沈清》完結特裝版",
+    "tags": {},
+    "warnings": [],
+    "cover_urls": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "handle": "",
+        "url": "https://morefate.com/"
+      }
+    ]
   }
 ];
