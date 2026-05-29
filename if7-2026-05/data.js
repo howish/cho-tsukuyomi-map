@@ -11399,25 +11399,27 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
-    "body": "## 📝 CH19 出展重點\n- 新刊 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 超時空輝耀姬 相關 community post 多筆",
+    "body": "## 📝 CH19 出展重點\n- 自卓 3 本新刊 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 加購優惠: 購買初祥初新刊可優惠價加購初祥飯友 (限量) ([source](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 超時空輝耀姬 相關 community post 多筆",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "avemujica": true,
+      "novel": true
     },
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/0.jpg",
+        "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/threads-DY7LmI3km5T/0.jpg",
         "display_locked": false
       },
       {
-        "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/1.jpg",
+        "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/threads-DY7LmI3km5T/1.jpg",
         "display_locked": false
       },
       {
-        "source_url": "https://www.threads.com/@mochian0819/post/DYuB7bGEiri",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYuB7bGEiri/2.jpg",
+        "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/threads-DY7LmI3km5T/2.jpg",
         "display_locked": false
       },
       {
