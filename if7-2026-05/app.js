@@ -996,7 +996,7 @@
     const COLLAPSE_KEY = (EVENT.favorites_key || 'event-guide-template') + '-filter-collapsed';
     function apply(collapsed) {
       section.classList.toggle('collapsed', collapsed);
-      btn.textContent = collapsed ? '▲ フィルター' : '▼ フィルター';
+      btn.textContent = collapsed ? '▲ 篩選' : '▼ 篩選';
       btn.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
     }
     let collapsed = false;
