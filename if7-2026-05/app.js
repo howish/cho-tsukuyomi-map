@@ -519,7 +519,14 @@
     const seenSocialUrls = new Set();
     function normSocialUrl(u) {
       if (!u) return '';
-      return u.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/+$/, '').toLowerCase();
+      return u
+        .replace(/^https?:\/\//, '')
+        .replace(/^www\./, '')
+        .replace(/[?#].*$/, '')         // strip query string + fragment — many
+                                        // catalog imports have ?s=21, &utm=,
+                                        // ?igsh= etc. tacked on the same profile
+        .replace(/\/+$/, '')
+        .toLowerCase();
     }
     function addSocialChip(platform, handle, url, extraClass) {
       const norm = normSocialUrl(url);
