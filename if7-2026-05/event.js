@@ -45,7 +45,7 @@ window.EVENT_CONFIG = {
   // 超かぐや姫 sees only the 超時空輝耀姬 picks until they untoggle.
   // NB: must include the "tag:" / "cp:" prefix that filter buttons use
   // (see app.js buildFilterButtons).
-  default_filters: ["tag:super-kaguya"],
+  default_filters: ["work:super-kaguya"],
 
   // OG / Twitter share preview
   og_image: "og.png",
