@@ -10767,16 +10767,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://x.com/i/status/2057844220862537926",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-40/x-2057844220862537926/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/i/status/2059209383478006188",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-40/x-status/1.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://x.com/i/status/2059243544624402923",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-40/x-status/0.jpg",
         "display_locked": false
