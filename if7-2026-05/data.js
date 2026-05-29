@@ -290,7 +290,8 @@ window.BOOTHS = [
     "area": "綜合",
     "body": "- 斯普拉遁(Splatoon)\n- Final Fantasy",
     "tags": {
-      "mahoutsukai": true
+      "mahoutsukai": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -528,7 +529,8 @@ window.BOOTHS = [
     ],
     "tags": {
       "super-kaguya": true,
-      "r18": true
+      "r18": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -641,7 +643,9 @@ window.BOOTHS = [
     "x_url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
     "area": "綜合",
     "body": "- 原創-花卉系列貼紙\n- 原創-兔子美食系列貼紙\n- 原創-迷你文學作品集",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -895,7 +899,9 @@ window.BOOTHS = [
     "x_url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
     "area": "綜合",
     "body": "- 忍者亂太郎\n- 原創漫畫",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1332,7 +1338,8 @@ window.BOOTHS = [
     "body": "- 妖怪手錶",
     "tags": {
       "genshin": true,
-      "precure": true
+      "precure": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -1352,7 +1359,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=61554262122181",
     "area": "綜合",
     "body": "- 原神相關印象耳環、項鍊、吊飾\n- 排球少年相關印象耳環、項鍊、吊飾\n- 絕區零相關印象吊飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2207,7 +2216,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/slivershonenwuwu/",
     "area": "綜合",
     "body": "- 原創-銀髮少年手作或插畫商品\n- 二創-魔法使的約定(預計)\n- 二創-IDOLiSH7(預計)",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2443,7 +2454,9 @@ window.BOOTHS = [
     "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
     "area": "綜合",
     "body": "- 彩虹社-3SKM透卡拍立得\n- 彩虹社-燙色小卡\n- 彩虹社-燙色小貼紙",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3321,7 +3334,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/100810w?igsh=aGxvNWtiY2k0Z29q",
     "area": "綜合",
     "body": "- Alien Stage玩偶兔兔壓克飯友\n- 現在的是哪一個多聞！？    陰沉原壓克力透卡吊飾\n- 原創-鯨與雲海吊飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3482,7 +3497,10 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/_92b5a9/",
     "area": "綜合",
     "body": "- 原創-蒸汽龐克手作耳環 髮夾 頸鏈\n- 原創-保羅領結\n- 二創-插畫明信片",
-    "tags": {},
+    "tags": {
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3589,7 +3607,8 @@ window.BOOTHS = [
     "area": "綜合",
     "body": "- 原創-歡迎來到娃娃鎮",
     "tags": {
-      "bandori": true
+      "bandori": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -4218,7 +4237,10 @@ window.BOOTHS = [
     "x_url": "https://www.plurk.com/tsaox",
     "area": "綜合",
     "body": "- 原創BL漫畫《家族之恥與待望之星》\n- 原創漫畫-《色彩演奏師》\n- 去唱卡拉OK吧！二創（狂聰漫畫＆小說）",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "novel": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4423,7 +4445,10 @@ window.BOOTHS = [
     "x_url": "https://portaly.cc/anon_114c",
     "area": "綜合",
     "body": "- 原創-INKTOBER插畫本\n- 原創-狸貓吊飾-幸運草",
-    "tags": {},
+    "tags": {
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4464,7 +4489,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/xiangyinwork/",
     "body": "## 📝 CH19 出展重點\n- 原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -4512,7 +4539,8 @@ window.BOOTHS = [
     "area": "綜合",
     "body": "- 原創-粉紅蛙蛙\n- 原創-漫畫",
     "tags": {
-      "dungeon-meshi": true
+      "dungeon-meshi": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -4635,7 +4663,9 @@ window.BOOTHS = [
     "x_url": "https://potofu.me/tobey",
     "area": "綜合",
     "body": "- 原創-XPLORE插畫集\n- 原創-ISEKAI NO MONO異世界主題插畫本\n- 原創-FUREMO水晶貼",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4685,7 +4715,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/LengWaGuo/",
     "area": "綜合",
     "body": "- 原創-轉生成異世界小卡車",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4703,7 +4735,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/superdoujinwar/",
     "body": "## 📝 CH19 出展重點\n- 現場購買套組有優惠價\n- 另有 [LINE 貼圖](https://line.me/S/sticker/34176425)\n- [原 FB post](https://www.facebook.com/share/p/18Yf1Qgwa4/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -4901,7 +4935,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/coccyxdog?fbclid=IwY2xjawPuwuVleHRuA2FlbQIxMABicmlkETF0b05uQmZOeTFHSHZiMUVHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvaqw9TX26H6NvBULdLuLD27d3uELLPNSc6jZT2sOp7rcEcBXYmmD5qFJ_fm_aem_WKPs-7_JIPkhzo9IFa5S6w",
     "area": "綜合",
     "body": "- 原創插圖--史前臺北人\n- 原創漫畫--吸血鬼買棺材\n- 閃電十一人",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5137,7 +5173,11 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/gs.gray_000/",
     "area": "綜合",
     "body": "- 原創漫畫-黑商人1冊\n- 原創漫畫-不存在盛典1、2冊\n- 原創插畫-Gs.灰階系列小綠鱷、外星貓系列插畫週邊商品",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5194,7 +5234,9 @@ window.BOOTHS = [
     "x_url": "https://www.threads.com/@online._.ghost",
     "area": "綜合",
     "body": "- 原創驚悚短篇漫畫",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5289,7 +5331,11 @@ window.BOOTHS = [
     "x_url": "https://lit.link/en/KotemWriter13",
     "area": "綜合",
     "body": "- 《黑潮》驚悚懸疑單篇原創小說集\n- 原創都市傳說系列畫冊\n- 插畫明信片",
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5468,7 +5514,10 @@ window.BOOTHS = [
     "x_url": "https://linktr.ee/slychen",
     "area": "綜合",
     "body": "- 原創-遊記‧旅行箱(迷你盒裝小書#3)\n- 原創-漫畫出租店(迷你小書)\n- 原創-狗狗漫畫明信片/貼紙",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5548,7 +5597,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/18Dayslikethis",
     "area": "綜合",
     "body": "- 原創:《早安我的朋友，祝你鷺鷺大順》臺灣鷺科插畫圖鑑\n- 原創:野鳥插畫及相關周邊\n- 原創:看路！不是鷺，插畫擋泥板",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5571,7 +5622,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/doublewdoublew/",
     "area": "綜合",
     "body": "- 原創漫畫_《蝙蝠》\n- 原創畫冊_《心之所向》\n- 原創作品延伸的周邊小物",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5628,7 +5681,10 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/astudio.o/",
     "area": "綜合",
     "body": "- 原創－Soul Doll 靈魂玩偶（插畫+週邊）",
-    "tags": {},
+    "tags": {
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5647,7 +5703,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/aaaduck/",
     "area": "綜合",
     "body": "- 原創—一隻甲鳥子(插畫+周邊)",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5666,7 +5724,9 @@ window.BOOTHS = [
     "x_url": "https://portaly.cc/ewokaku0w0",
     "area": "綜合",
     "body": "- 原創：菌菇類貼紙、少女塗鴉、奇奇怪怪塗鴉......等\n- 二創預計：寶石之國",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5708,7 +5768,10 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/rabbit_rose_?igsh=MTZyNTZ2bDRtcDl4eQ==",
     "area": "綜合",
     "body": "- 原創-少女風格插畫筆記本\n- 原創-少女風格插畫明信片",
-    "tags": {},
+    "tags": {
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5731,7 +5794,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/crybaby_77_illustration?igsh=MXhieGVvamtkbDl1OQ%3D%3D&utm_source=qr",
     "area": "綜合",
     "body": "- 原創周邊（貼紙、明信片、吊飾）\n- 原創繪本（三本）\n- 原創手作串珠（手機練、飾品）",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5773,7 +5838,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/wohenlanduo",
     "area": "綜合",
     "body": "- 原創-小魔女插畫\n- 原創-路人女子插畫",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5811,7 +5878,9 @@ window.BOOTHS = [
     "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
     "area": "綜合",
     "body": "- 原創_魔法世界觀系列\n- 原創_日常漫畫\n- 二創_holostars",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5830,7 +5899,10 @@ window.BOOTHS = [
     "x_url": "https://cxc.today/zh/@Gray_Harmony/work",
     "area": "綜合",
     "body": "- 原創小說《十二鐘響》《守城者》《海面之下》\n- 原創明信片\n- 原創周邊",
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5853,7 +5925,10 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/___.fu____",
     "area": "綜合",
     "body": "- 原創-青之泥 第一章 伴著你-漫畫\n- 原創-青之泥-明信片\n- 原創-青之泥-海報",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6076,7 +6151,9 @@ window.BOOTHS = [
     "x_url": "https://www.plurk.com/nagoberry",
     "area": "綜合",
     "body": "- 手作娃衣披風\n- 手作小娃娃",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6137,7 +6214,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/birdink.koriyangart/",
     "area": "綜合",
     "body": "- 原創 - 鳥類明信片\n- 原創 - 鳥類T漁夫帽\n- 原創 - 鳥類T恤",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6179,7 +6258,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/brainholesky/",
     "area": "綜合",
     "body": "- 動物躺平杯墊\n- 動物嘴巴開開零錢包\n- 動物氣噗噗吊飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6198,7 +6279,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/flaming_starrr?igsh=MTdqb3RhdDgweTE1Nw==",
     "area": "綜合",
     "body": "- 原創-鳥類插畫\n- 原創-食物鳥IP宇宙",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6240,7 +6323,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
     "area": "綜合",
     "body": "- 原創-動物陶偶\n- 原創-奇幻生物模型\n- 原創-奇幻生物週邊（貼紙、壓克力等",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6259,7 +6344,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/ali._.su_/",
     "area": "綜合",
     "body": "- 動物插圖\n- 原創周邊\n- 食物插畫",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6297,7 +6384,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/dayday._.sleep?igsh=MTRkamN6N2d3cjUzMQ%3D%3D&utm_source=qr",
     "area": "綜合",
     "body": "- 原創-雙面壓克力吊飾\n- 原創-明信片\n- 原創-壓克力雙面PP夾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6335,7 +6424,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/minproject888/",
     "area": "綜合",
     "body": "- 原創-仙人掌明信片\n- 原創-神奇塗鴉貼紙\n- 原創-仙人掌吊飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6354,7 +6445,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/hsiao.local.girl/",
     "area": "綜合",
     "body": "- 原創-蘿蔔兔Too貼紙\n- 原創-蘿蔔兔Too明信片\n- 原創-蘿蔔兔Too吊飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6392,7 +6485,9 @@ window.BOOTHS = [
     "x_url": "facebook.com/puffbunny.oo.p",
     "area": "綜合",
     "body": "- 繽紛之聖(指引方向的光)-明信片\n- Best Wishes-半斷貼紙\n- 慶生熊",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6411,7 +6506,9 @@ window.BOOTHS = [
     "x_url": "https://instagram.com/aggie__amble?r=nametag",
     "area": "綜合",
     "body": "- 星語小卡\n- 刺蝟的小禮物\n- 黑潮之歌",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6466,7 +6563,9 @@ window.BOOTHS = [
     "tags": {
       "original": true,
       "super-kaguya": true,
-      "r18": true
+      "r18": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -6508,7 +6607,8 @@ window.BOOTHS = [
     ],
     "body": "- 原創-快樂老鼠\n\n## 📝 CH19 出展重點\n- S-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "_meta_scrape": {
@@ -6566,7 +6666,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- S-03 出展 ／ 新刊 3 + 既刊 3:\n- **新刊**:\n  - 原創漫畫 **『乳牙🦷』** (A5 / 16P / 黑白 / 膠裝 / NT 150)\n  - 上伊那牡丹 **『泡沫和水果口味的氣泡酒與妳一起更加美味』** (A5 / 20P / 黑白 / 膠裝 / NT 200)\n  - 上伊那牡丹 **『學姊，可是浴室在逼逼叫』** (A5 / 8P / 黑白小冊 / NT 100、 葛美栗 [S-25] 插花)\n- **既刊** (MyGO!!!!!): 『普通與理所當然』 (NT 250) / 『動手玩創意』 (NT 200) / 『千早愛音妳到底在想什麼！！』 (NT 200)\n- 通販: [黑市兔 myacg 賣場](https://www.myacg.com.tw/seller_market.php?seller=555355&keyword=%E8%A7%92%E5%90%89) ／ 原創新刊是場後賣貨便個別開賣\n- 出處: [品書 post](https://www.facebook.com/share/p/1LvGgyH139/) / [學姊浴室](https://www.facebook.com/share/p/1D6aKKvxQv/) / [泡沫氣泡酒](https://www.facebook.com/share/p/1Dv52MK4fm/)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -6741,7 +6842,8 @@ window.BOOTHS = [
     ],
     "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n## 📝 CH19 出展重點\n\n**其他**:\n- 「《魚》」 — 原創 · 張景嵐x郡上奏\n- 「《夜晚的泳池深不見底》」 — 原創 · 張景嵐x郡上奏\n\n**本**:\n- 「《和頭上有發光披薩圈圈的女孩子 交朋友的十種方法》」 — 原創 · 張景嵐x郡上奏 — 漫畫\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -6978,7 +7080,9 @@ window.BOOTHS = [
     ],
     "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n## 📝 CH19 出展重點\n\n**本**:\n- 「《霜月課長與常守執行官》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 漫畫 / NT 未定 / 我會出的我會出的\n\n**其他**:\n- 「《未竟之路》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 100\n- 「霜朱光透鏡」 — PSYCHO-PASS 心靈判官 · 霜月美佳x常守朱 — NT 100 / 實拍圖\n- 「奇異果貼紙 毛絨絨ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 植絨貼紙\n- 「奇異果貼紙 春季百合ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 透明貼紙\n- 「奇異果貼紙 打籃球ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 雷射貼紙\n\n**其他周邊**:\n- 「朱霜明信片」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 周邊 / NT 30 / 燙金明信片\n- 「奇異果貼紙 冬季百合ver.」 — 原創 · 奇異果企鵝 — 周邊 / NT 50 / 透明貼紙\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7030,7 +7134,8 @@ window.BOOTHS = [
     ],
     "body": "- 原創-百合研究筆記\n\n## 📝 CH19 出展重點\n**S-12 初出展**\n\n- 主は研究筆記 (女同志博士生によるTaiwan百合漫畫研究)\n- 当日は買收集た 台灣百合作品の sharing 予定 (会場交流ベース)\n- [出展宣告](https://x.com/i/status/2057788598590796146) / [復帰挨拶](https://x.com/i/status/2057788596535587101)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7431,7 +7536,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **『Madder & Teal Vol. Rosy Haze』** (原創、 A5/30P/左翻/黑白/NT 200)\n\n- 〈夏日飛行〉 至 〈你是止痛藥〉 之間 補充劇情\n- 特典: **5/30 現場限定 雷射黑膠造型小卡** (限量) ＆ 一般首刷 = 炫光明信片\n- [IG 新刊發表 + 試閱](https://www.instagram.com/shioisland/p/DXiwclyk8Qv/)",
     "tags": {
-      "original": true
+      "original": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7494,7 +7600,8 @@ window.BOOTHS = [
     "tags": {
       "dungeon-meshi": true,
       "avemujica": true,
-      "hololive": true
+      "hololive": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7594,7 +7701,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n\n**其他周邊**:\n- 「祥初自組立牌」 — バンドリ! · 初華 x 祥子 — 周邊\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "bandori": true
+      "bandori": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7702,7 +7810,8 @@ window.BOOTHS = [
     ],
     "body": "- 緋染天空\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\n- 月底百翁 小新品\n- 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
     "tags": {
-      "witch-mercury": true
+      "witch-mercury": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7735,7 +7844,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- R18 新刊 **『至少這部分是誠實的。』** (機動戰士鋼彈水星的魔女、 スレッタ×ミオリネ、 A5 / 右翻 / 膠裝 / 22P / 150元)\n- 場次明信片 ibon 印好後分發\n- [新刊 post](https://www.plurk.com/p/3iq8pqwbd7) / [明信片 announce](https://www.plurk.com/p/3htmz2wzs2)",
     "tags": {
-      "r18": true
+      "r18": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7904,7 +8014,9 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- S-33/34 出展 (與 yuanrong1999 合攤) ／ clothk61554 + dabadaba0 寄攤\n- [原 post](https://www.plurk.com/p/3ipstkx7oh)\n\n## 📝 CH19 出展重點\n- 寄攤 (蕭媛容 / 紙屑): 既刊中心 + 高松燈簽繪板預定\n- [原 FB post](https://www.facebook.com/share/p/1Y4RLou66P/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7973,7 +8085,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 創集繪 新品照已公開、 S35/S36 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姬** 多 fandom",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8013,7 +8126,9 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true,
       "mygo": true,
-      "hololive": true
+      "hololive": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8051,7 +8166,8 @@ window.BOOTHS = [
     "body": "- 非人少女\n\n## 📝 CH19 出展重點\n- 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布)\n- 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
     "tags": {
       "avemujica": true,
-      "rev-girl": true
+      "rev-girl": true,
+      "novel": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8239,7 +8355,8 @@ window.BOOTHS = [
     "body": "## 📝 CH19 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200)\n- 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
     "tags": {
       "super-kaguya": true,
-      "lycoris": true
+      "lycoris": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8326,7 +8443,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- **二階堂希羅 (蔚藍檔案)** 關連内容予定\n- 品書 5/29 整理予定\n- (FF46 別途 新刊 『波星歌』 — 孤獨搖滾 後藤二里×伊地知星歌 dark 路線 A5/56P/350 元)\n- 既知 fandom: 孤獨搖滾 / 魔法少女的魔女審判 / 超時空輝耀姬",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8369,7 +8487,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- S-43/44 出展 ／ 3 本新刊 (時間順):\n- **『8000回目の春』** (A5/24P/黑白漫畫、 超時空輝耀姬 二創)\n- **『水葬の陽』** (A5/24P/黑白漫畫、 魔法少女的魔女審判 二創、 桜羽エマ × 二階堂ヒロ)\n- **『遠雷のみぞ知る』** (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん × 礪波いぶき)\n- 出處 (時間順): [8000回目の春](https://www.facebook.com/share/p/1BsUeznjtC/) / [水葬の陽](https://www.facebook.com/share/p/1DurjSq6Xi/) / [遠雷のみぞ知る](https://www.facebook.com/share/p/1EGPazvMhU/)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8671,7 +8790,9 @@ window.BOOTHS = [
     ],
     "body": "- BanG Dream!It’s mygo!!!!!\n\n## 📝 CH19 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標予定\n- 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
     "tags": {
-      "bandori": true
+      "bandori": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8862,7 +8983,9 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 新品 **森亞露露卡 立牌**\n- 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組)\n- 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
     "tags": {
-      "bandori": true
+      "bandori": true,
+      "goudou": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8902,7 +9025,10 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- 首次出展\n\n- 新刊 小說 [**『難破船』**](https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8) (Ave Mujica IF 線、 動畫 5〜13 話 IF、 內頁插畫 [@dazhong_312](https://x.com/dazhong_312))\n- 攤位上 MyGO/AM GSC 坐娃 展示 + 邦邦 官方刊物 (設定集/寫真書/雜誌) 免費閱覽",
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -8943,7 +9069,8 @@ window.BOOTHS = [
     ],
     "body": "- gbc\n\n## 📝 CH19 出展重點\n- 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200)\n- 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150)\n- 立牌 約12cm 各 NT 100\n- 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
     "tags": {
-      "bandori": true
+      "bandori": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9060,7 +9187,9 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n\n**本**:\n- ★新 「Vaporeux」 — ラブライブ! · 姬ｘ吟 — 漫畫 / NT 250\n- ★新 「Convallaria」 — 佐賀偶像是傳奇 · 純ｘ愛 — 漫畫 / NT 50\n- ★新 「神秘無料」 — ラブライブ! · 神秘 — 漫畫 / NT 無料 / 需通關密語\n- 既 「一覺醒來 我原地穿越到了 兩年前？！」 — ラブライブ! · 瑠慈 — 漫畫 / NT 200\n- 既 「卡薩布蘭卡」 — 星穹鐵道 · 雅蝶 — 漫畫 / NT 50\n\n**其他周邊**:\n- ★新 「明信片(2款)」 — 偶像學園 · 堇/凜 — 周邊 / NT 20/款\n- 既 「飯友」 — VTUBER · みらるた — 周邊 / NT 200/組\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "lovelive": true
+      "lovelive": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9111,7 +9240,11 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- 首次創作 [**花梢 漫畫**](https://x.com/i/status/2057375446631891108) + 少量 插畫本 既刊\n- 攤上免費 **認親明信片** 自取",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "illust": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -9243,7 +9376,11 @@ window.BOOTHS = [
       }
     ],
     "body": "- Lovelive!虹咲學園學園偶像同好會\n\n## 📝 CH19 出展重點\n- 新刊合本 **『MOFU MOFU PARADISE』** (A5 / 右翻 / 膠裝 / 40P / 一般向、 漫畫+插圖+小說、 鐘嵐珠 × 三船栞子、 NT 200、 5 作家合著: WASTE-MAN、 U魂、 八重洲、 マヨ、 某波)\n- 印量調查 5/19 締切\n- 後續 通販予定\n- 出處: [場前宣傳](https://www.facebook.com/share/p/1BFDKmnPrn/) / [毛絨絨合本 詳細](https://www.facebook.com/share/p/1LvNcHWQLT/)",
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "novel": true,
+      "goudou": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -9300,7 +9437,8 @@ window.BOOTHS = [
     "body": "- 機動戰士鋼彈水星的魔女\n\n## 📝 CH19 出展重點\n- 新刊 **『初祥塗鴉本 Vol.2』** (NT 50)\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
     "tags": {
       "fate": true,
-      "avemujica": true
+      "avemujica": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9784,7 +9922,9 @@ window.BOOTHS = [
     "body": "- 睦祥(mygo, AveMujica)\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "fate": true,
-      "hololive": true
+      "hololive": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -9860,7 +10000,10 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 / 蓮メリ / 蓮子×梅莉 — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘 — 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "touhou": true
+      "touhou": true,
+      "manga": true,
+      "novel": true,
+      "goudou": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -9910,7 +10053,9 @@ window.BOOTHS = [
     ],
     "body": "- It's MyGO!!!!! 《BanG Dream!》\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — \"バンドリ! · 愛爽 — 漫畫 / NT 240 / 品書\n\n**其他**:\n- 「甚麼叫做 誤會的我也很可愛!?」 — \"バンドリ! · 愛爽 — NT 240\n- 「並拾色」 — \"バンドリ! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — \"バンドリ! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — \"バンドリ! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — \"バンドリ! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — \"バンドリ! · 九九組 — 色紙 / NT 40/1\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "manga": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9942,7 +10087,9 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- 新刊 海希海 小說 [**『笨拙的我們適合戀愛』**](https://x.com/i/status/2057699457446433108) (NT 250)\n\n- 既刊 初祥初 **『月錯覺』**、 睦祥睦 **『漫雨季』** (各 NT 250)\n- 免費小說 3 種: 紗夜莉莎 『晴時雨時』、 貓燈 『星下影』、 海希 『合半拍』",
-    "tags": {},
+    "tags": {
+      "novel": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -10091,7 +10238,9 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **[『海希的...KISS 多重宇宙』](https://x.com/i/status/2059248150913945744)** (海希 插圖本、 預購開放中) ／ 寄攤 海希 R18 合本 **『1R · 2人 · 365日』**",
-    "tags": {},
+    "tags": {
+      "goudou": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -10142,7 +10291,9 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n- 寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "goudou": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10255,7 +10406,9 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 新刊 [**超時空輝耀姬 漫畫本**](https://x.com/i/status/2059287434211606542)\n\n- 寄攤 藍老師 小說本、 初祥 小說本 (新刊) + 初祥 漫畫 既刊\n- 代售 向波老師 海希本",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "manga": true,
+      "novel": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10349,7 +10502,8 @@ window.BOOTHS = [
     ],
     "body": "- 無期迷途\n\n## 📝 CH19 出展重點\n- bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social))\n- 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120)\n\n- 行李束帶 八千代＋彩葉 (20x6cm / NTD 200)\n- 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80)\n- 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120)\n\n- 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120)\n- 遊戲彩票貼紙 (250x30mm / NTD 50)\n- 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10438,7 +10592,8 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true,
       "r18": true,
-      "mygo": true
+      "mygo": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10598,7 +10753,8 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n- 新刊 **[『百合餓狼之盟』](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/)** 無期迷途 百合二創 小說合集 首賣 (6 作家 × 8 短篇、 A5 右翻 約 150 頁) ／ 場販 NT 250、 預購/通販 NT 280 (通販餘量限定)",
     "tags": {
-      "original": true
+      "original": true,
+      "novel": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10698,7 +10854,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/akiragiorgio/",
     "area": "綜合",
     "body": "- 魔法少女的魔女裁判漫畫新刊\n- 魔法少女的魔女裁判特典小漫畫本\n- 魔法少女的魔女裁判掛軸",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10830,7 +10988,10 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=61572454107536",
     "area": "綜合",
     "body": "- 賽馬娘 百合小說\n- Bang Dream 百合小說\n- 明日方舟 百合立牌",
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11398,7 +11559,9 @@ window.BOOTHS = [
     "x_url": "https://x.com/melon2943",
     "body": "## 📝 CH19 出展重點\n- [U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- 太呱章了: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- 河豚老師 ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 **超時空輝姬 漫畫本** + 既刊 睦祥 漫畫本\n- 菟子老師 ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **超時空輝耀姬 同人小說 『C'EX-OTOGIBANASHI』** (彩葉×八千代 R-18 中篇集、 3 萬字 / 12 章、 [@su4_zm](https://www.threads.com/@su4_zm) 老師彩色封面)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "manga": true,
+      "novel": true
     },
     "warnings": [],
     "_meta_scrape_sk": {
@@ -11711,7 +11874,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
     "area": "VW",
     "body": "- 2026年台灣VC文化大賞創作畫集\n- 2026年 39&You - gift from the future 活動周邊商品\n- 2025年 39&You - gift from the future 活動周邊商品",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11755,7 +11920,9 @@ window.BOOTHS = [
     "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
     "area": "VW",
     "body": "- VOCALOID-鏡音中心食記漫畫本\n- VOCALOID-鏡音レンx鏡音リン漫畫本\n- 世界計畫-暁山瑞希x東雲絵名漫畫本",
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11795,7 +11962,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=100087498796559",
     "area": "VW",
     "body": "- 隱宅系手工杯套\n- V家貼紙周邊\n- 初音小立牌",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11985,7 +12154,9 @@ window.BOOTHS = [
     "x_url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm",
     "area": "VW",
     "body": "- 重音テト原創中文專輯(NFC吊飾)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12023,7 +12194,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=61556596875660",
     "area": "VW",
     "body": "- Voisona樋辻澪明信片\n- 原創-靜謐夜話(原創專輯)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12141,7 +12314,9 @@ window.BOOTHS = [
     "x_url": "https://lit.link/en/FutureImagesTW",
     "area": "VW",
     "body": "- VOCALOID角色周邊(立牌、徽章、貼紙、透卡)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12204,7 +12379,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/almn.sk.page/",
     "body": "## 📝 CH19 出展重點\n- 新品: 魔法未來 2026 立牌 + 明信片 ／ 也有新的無料印章\n- [原 FB post](https://www.facebook.com/share/p/1C7oaAxPBn/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -12229,7 +12406,9 @@ window.BOOTHS = [
     "x_url": "https://x.com/mazuco1214_ryu",
     "area": "VW",
     "body": "- 原創-水母初音吊飾、貼紙\n- 原創-魔法未來迷你立牌（有各年代）\n- 原創-瞌睡初音飯友",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12275,7 +12454,9 @@ window.BOOTHS = [
     "x_url": "https://x.com/PropellerWalker",
     "area": "VW",
     "body": "- アクリルキーホルダー、缶バッジ、同人誌",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12294,7 +12475,9 @@ window.BOOTHS = [
     "x_url": "https://www.youtube.com/@nukomimiP",
     "area": "VW",
     "body": "- VOCALOID(KAITO)中心歌曲、插畫創作",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12336,7 +12519,9 @@ window.BOOTHS = [
     "x_url": "https://solo.to/travis_minuet",
     "area": "VW",
     "body": "- Vocaloid原創專輯CD-共跳一段小步舞曲 / Tr＠vis feat. 初音未來 1st Album\n- [新譜] Vocaloid原創專輯CD-微笑編譯器 / Tr＠vis feat. 初音未來\n- 共跳一段小步舞曲 同名滿版滑鼠墊",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12471,7 +12656,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/shu.kuan.yu.2025",
     "area": "偶大",
     "body": "- 學偶貼紙",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12516,7 +12703,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/yuusa200502/",
     "area": "偶大",
     "body": "- 偶像大師灰姑娘女孩",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12535,7 +12724,9 @@ window.BOOTHS = [
     "x_url": "https://twitter.com/cometwave",
     "area": "偶大",
     "body": "- Travel memory of Taiwan、Sticker",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12555,7 +12746,8 @@ window.BOOTHS = [
     "area": "偶大",
     "body": "- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會",
     "tags": {
-      "gakumas": true
+      "gakumas": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -12599,7 +12791,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61583559591571",
     "body": "## 📝 CH19 出展重點\n- 偶像大師系列 PT ONLY — ROCO 與 ??? 11cm 雙面壓克力立牌 NT 250 / 5款 15×10 插圖明信片 NT 30 / 角色生日透卡 NT 100 / 滿 NT 100 送神奇小卡 (MLTD 玩家會懂)\n- [原 FB post](https://www.facebook.com/share/p/1bkqyGhcRW/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -12645,7 +12839,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/IMAS1111TWTC//",
     "area": "偶大",
     "body": "- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會\n- 偶像大師系列AR攝影",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12763,7 +12959,9 @@ window.BOOTHS = [
     "x_url": "https://www.plurk.com/CATGIRL0926",
     "area": "偶大",
     "body": "- 偶像大師灰姑娘\n- 偶像大師SideM",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12979,7 +13177,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/cathy.kao.35/",
     "body": "## 📝 CH19 出展重點\n- 0530 創集繪 & 偶像大師 ONLY 出展\n\n- 新品: 立牌 + 吊飾\n- 明信片 + 貼紙 = 舊物 OR 當天無料/贈品\n- 週五晚預計公布特別企劃\n- [原 FB post (品書)](https://www.facebook.com/share/p/1EXf5N3Pn6/)",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -13077,7 +13277,9 @@ window.BOOTHS = [
     ],
     "body": "## 📝 CH19 出展重點\n\n**超かぐや姫**:\n- ★突發新刊 [**『超かぐや姫 memories!』**](https://www.plurk.com/p/3ipcz6llj1) — 全彩插畫集 / B5 / 16P / NT 200\n\n**名偵探光之美少女** (NEW):\n- **CURE ARCANA SHADOW 大滑鼠墊** (60×35cm / 四周包邊) — NT 650\n- **CURE ARCANA SHADOW 小套組** (15cm 雙面壓克力立牌 + 透卡 + 雷射明信片) — NT 500 (組合售 200)\n\n**學園偶像大師** (藤田ことね 主題):\n- ★新 **藤田ことね T-shirt** — NT 700 (S/M/L/XL、 隨機少量限量)\n- ★新 插畫本 **『LittleRestTime』** (B5/20P/Full Color) — NT 200\n- 新刊定本 (A5/12P/Full Color) — 含 套姫限定文 + 皮革行李吊牌 + 名稱貼紙 + 明信片\n- **FF46 新刊套組 (1〜8 + 書脊 ×3)** — NT 800\n- **P 套組** (1〜8 + 琴音立牌) — NT 1100\n- 60×150cm 2way 等身大抱枕套 — NT 2000\n- 糖果娃娃組 (特大糖果包 + 琴音磁吸娃娃 + 透明貼紙) — NT 500\n- 既刊套組 — NT 400\n- 睡衣派對 壓克力立牌 (各 15cm) — 各 NT 350 / 點銀 NT 1000\n- 既刊・學偶畫集 — NT 200 (+加購附錄 NT 100)\n- 通販因 [**輝耀姬関連**](https://www.facebook.com/share/p/1CiXqyS7Uq/) 場後一併開放 (DC 群告知)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "illust": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
@@ -13622,7 +13824,9 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/100072024726/",
     "body": "## 📝 CH19 出展重點\n- 新品 [**名探偵プリキュア 森亜るるか**](https://www.facebook.com/share/p/1QDzhmngKR/) — るるか T 恤 / 彩窗大立牌 / るるか塔羅牌 ／ 彩窗背景 + 塔羅牌構圖 為主力設計",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -13649,7 +13853,8 @@ window.BOOTHS = [
     "body": "- 原創插畫",
     "tags": {
       "vtuber-jp": true,
-      "frieren": true
+      "frieren": true,
+      "illust": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -14038,7 +14243,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/LJYS.doujin",
     "area": "綜合",
     "body": "- 原創-企劃部工作日誌\n- 原創-像素插畫系列\n- 楓之谷",
-    "tags": {},
+    "tags": {
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14059,7 +14266,8 @@ window.BOOTHS = [
     "body": "- 原創漫畫_根/社刊",
     "tags": {
       "genshin": true,
-      "vocaloid": true
+      "vocaloid": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -14104,7 +14312,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/ben_artbb/",
     "area": "綜合",
     "body": "- 原創-守護獸系列周邊\n- 原創-天使號守護雷射卡\n- 二創-灌高 流花透卡",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14169,7 +14379,9 @@ window.BOOTHS = [
     "x_url": "https://www.plurk.com/u/therealchien",
     "area": "綜合",
     "body": "- 原創-12分尺寸娃用服裝\n- 原創-棉花娃娃用服裝\n- 原創-娃用飾品配件",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14264,7 +14476,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
     "area": "綜合",
     "body": "- 毛線手織娃衣\n- bjd娃用週邊",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14306,7 +14520,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=100063824298824",
     "area": "綜合",
     "body": "- 棉花娃娃衣\n- 指娃娃衣\n- OB娃衣",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14386,7 +14602,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/by.lordlung/",
     "area": "綜合",
     "body": "- 原創-卡套&徽章托\n- 原創-蝴蝶結\n- 原創-娃帽",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14405,7 +14623,9 @@ window.BOOTHS = [
     "x_url": "https://www.threads.com/@fromjanuary1st",
     "area": "綜合",
     "body": "- 手作娃衣 娃娃頭飾\n- 手作人類配戴choker 頭飾\n- 手作人類配戴領片",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14477,7 +14697,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/profile.php?id=100064287512194",
     "area": "綜合",
     "body": "- 娃用服飾\n- 娃用週邊\n- 人娃飾品",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14607,7 +14829,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/shinstudio.tc",
     "area": "綜合",
     "body": "- 蒸氣龐克齒輪飾品\n- 戀與深空印象明信片套組\n- 有毒系列骨骼絲巾與飾品盒",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14630,7 +14854,9 @@ window.BOOTHS = [
     "x_url": "https://www.instagram.com/amaranth2013/",
     "area": "綜合",
     "body": "- 原創手捏花髮飾\n- 原創手捏花髮箍\n- 二創角色色形象飾品",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14649,7 +14875,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/ballballwilson",
     "area": "綜合",
     "body": "- 原創-布藝小福狗\n- 原創-心心相印給您101句心語\n- 原創-貼紙",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -14668,7 +14896,9 @@ window.BOOTHS = [
     "x_url": "https://www.facebook.com/share/189QQVF5Pm/",
     "area": "綜合",
     "body": "- 原創微物食物耳環\n- 原創微物袖珍擺飾",
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
