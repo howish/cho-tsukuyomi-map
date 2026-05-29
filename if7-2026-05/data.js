@@ -3493,12 +3493,22 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/flyinglo",
     "area": "綜合",
-    "body": "- Kpop獵魔女團\n- 原創-滄瀾沉珠，欲海成淵",
+    "body": "## 📝 IF7 出展重點\n\nN-17 文字滿苑 (otakuvoyage_writing)\n\n- Kpop 獵魔女團\n- 原創 — 『滄瀾沉珠，欲海成淵』\n- 寄攤 (景道): 迷宮飯 合本 (圖外)\n- 其他 tag: #咒術迴戰 #五夏五 #獵魔女團 #迷宮飯 #刀劍亂舞 #歌仙 #奧尤 #陰陽師\n\n出處: [Threads 場前](https://www.threads.com/@otakuvoyage_writing/post/DY7STFnAXtF) / [同人誌中心](https://www.doujin.com.tw/books/info/67901)",
     "tags": {
-      "dungeon-meshi": true
+      "dungeon-meshi": true,
+      "jjk": true,
+      "touken": true,
+      "original": true,
+      "goudou": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@otakuvoyage_writing/post/DY7STFnAXtF",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-17/threads-DY7STFnAXtF/0.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "doujin_tw",
@@ -4608,12 +4618,18 @@ window.BOOTHS = [
     "author": "Xiang Yin 庠隱",
     "x_handle": "",
     "x_url": "https://www.facebook.com/xiangyinwork/",
-    "body": "## 📝 CH19 出展重點\n- 原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
+    "body": "## 📝 IF7 出展重點\n- 原創 ／ 攤上設有小卡機、 消費 1 次 OR 出示追蹤畫面可抽卡\n- 出處: [Threads 場前](https://www.threads.com/@xiang__yin/post/DY7Slrbie6_) / [原 FB post](https://www.facebook.com/share/p/18VK1GBTLw/)",
     "tags": {
+      "original": true,
       "goods": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@xiang__yin/post/DY7Slrbie6_",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/threads-DY7Slrbie6_/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/18VK1GBTLw/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/share-18VK1GBTLw/0.jpg",
@@ -6180,7 +6196,7 @@ window.BOOTHS = [
     "x_handle": "oginoyori",
     "x_url": "https://oginoyori.wixsite.com/oginoyori",
     "area": "綜合",
-    "body": "## 📝 IF7 出展重點\n\n位置: R-05 (`#no萬here`)\n\n- 原創 `Sign in：Seiga1999`\n- 原創 `艾利斯提的寫作筆記`\n- 現場提供自由 (?) 取的「粉肝貼紙」 — 手剪、 邊緣可能不太平整 ([source](https://x.com/oginoyori/status/2059679528528798107))\n- 出處: [終宣 X](https://x.com/oginoyori/status/2060342359192371654)",
+    "body": "## 📝 IF7 出展重點\n\n位置: R-05 (`#no萬here`)\n\n- 原創 `Sign in：Seiga1999`\n- 原創 `艾利斯提的寫作筆記`\n- 既品 **鯛魚燒壓克力磁鐵** ×8 款 — 65 元/單隻 ／ 120 元/任 2 隻 ／ 最長邊 5cm / 滴膠壓克力 / chichirara 客製品印製 ([詳細](https://www.doujin.com.tw/goods/info/93787))\n- 現場提供自由 (?) 取的「粉肝貼紙」 — 手剪、 邊緣可能不太平整\n- 出處: [終宣 X](https://x.com/oginoyori/status/2060342359192371654) / [粉肝貼紙](https://x.com/oginoyori/status/2059679528528798107) / [鯛魚燒 既品 Threads](https://www.threads.com/@yori0116/post/DY1pR5vD7hu)",
     "tags": {
       "original": true,
       "novel": true,
@@ -6207,6 +6223,11 @@ window.BOOTHS = [
         "source_url": "https://x.com/oginoyori/status/2059679528528798107",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2059679528528798107/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@yori0116/post/DY1pR5vD7hu",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/threads-DY1pR5vD7hu/0.jpg",
+        "display_locked": false
       }
     ],
     "socials": [
@@ -6219,6 +6240,11 @@ window.BOOTHS = [
         "platform": "x",
         "handle": "@oginoyori",
         "url": "https://x.com/oginoyori"
+      },
+      {
+        "platform": "threads",
+        "handle": "@yori0116",
+        "url": "https://www.threads.com/@yori0116"
       }
     ]
   },
@@ -12310,6 +12336,11 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2059655387868254335",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-30/x-2059655387868254335/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@usagi._.novelist/post/DYCH7mrj32e",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DYCH7mrj32e/0.jpg",
         "display_locked": false
       },
       {
