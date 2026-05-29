@@ -191,7 +191,9 @@ function saveState() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
 }
 
-// Populate row-select from BOOTHS data
+// Populate row-select with A-Z. Letters that have at least one booth in
+// the current data get a leading •; the rest get a ◦ so howish can tell
+// at a glance which rows are merely scaffolding vs already populated.
 function init() {
   const rows = new Set();
   for (const b of (window.BOOTHS || [])) {
@@ -199,11 +201,16 @@ function init() {
     if (m) rows.add(m[1]);
   }
   const sel = document.getElementById('row-select');
-  [...rows].sort().forEach(r => {
+  for (let code = 65; code <= 90; code++) {
+    const r = String.fromCharCode(code);
     const opt = document.createElement('option');
-    opt.value = r; opt.textContent = r;
+    opt.value = r;
+    opt.textContent = (rows.has(r) ? '• ' : '◦ ') + r;
     sel.appendChild(opt);
-  });
+  }
+  // Default to the first row that actually has booths so the dropdown
+  // doesn't open on a placeholder.
+  if (rows.size) sel.value = [...rows].sort()[0];
   counts.textContent = `合計 ${(window.BOOTHS || []).length} booths · rows: ${[...rows].sort().join(', ')}`;
   renderAll();
 }
