@@ -1125,7 +1125,8 @@ section {
 }
 
 #modal-body .modal-meta span,
-#modal-body .modal-meta a.handle-link {
+#modal-body .modal-meta a.handle-link,
+#modal-body .modal-meta a.social-chip {
   background: #f3edf7;
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
@@ -1134,10 +1135,32 @@ section {
   font-weight: 600;
 }
 
-#modal-body .modal-meta a.handle-link:hover {
+#modal-body .modal-meta a.handle-link:hover,
+#modal-body .modal-meta a.social-chip:hover {
   background: var(--accent);
   color: #fff;
 }
+
+/* Per-platform tint for the chip background (subtle, accessible contrast). */
+#modal-body .modal-meta a.social-chip-x { background: #e9ecef; }
+#modal-body .modal-meta a.social-chip-pixiv { background: #e6f0ff; color: #0096fa; }
+#modal-body .modal-meta a.social-chip-bsky { background: #e6f0ff; color: #0085ff; }
+#modal-body .modal-meta a.social-chip-fb { background: #e7f0ff; color: #1877f2; }
+#modal-body .modal-meta a.social-chip-ig { background: #fef0f4; color: #d81b60; }
+#modal-body .modal-meta a.social-chip-threads { background: #ebebeb; color: #000; }
+#modal-body .modal-meta a.social-chip-plurk { background: #fff2e1; color: #cd6800; }
+#modal-body .modal-meta a.social-chip-aggregator { background: #f0f9e8; color: #2e7d32; }
+#modal-body .modal-meta a.social-chip-wix,
+#modal-body .modal-meta a.social-chip-blog { background: #f5e9ff; color: #6a1b9a; }
+#modal-body .modal-meta a.social-chip-pixiv:hover,
+#modal-body .modal-meta a.social-chip-bsky:hover,
+#modal-body .modal-meta a.social-chip-fb:hover,
+#modal-body .modal-meta a.social-chip-ig:hover,
+#modal-body .modal-meta a.social-chip-threads:hover,
+#modal-body .modal-meta a.social-chip-plurk:hover,
+#modal-body .modal-meta a.social-chip-aggregator:hover,
+#modal-body .modal-meta a.social-chip-wix:hover,
+#modal-body .modal-meta a.social-chip-blog:hover { color: #fff; }
 
 .modal-fav {
   background: #fffaf0;

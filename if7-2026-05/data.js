@@ -3035,7 +3035,13 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://kvoid000.wixsite.com/corvus",
-    "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n**專區**: 百合\n\n**作者**: 烏鴉 / cyuan\n- 🔗 [Pixiv](https://www.pixiv.net/users/123196145)\n- 🔗 [X @cyuan_nil](https://x.com/cyuan_nil)\n- 🔗 [Bsky @cyuan.bsky.social](https://bsky.app/profile/cyuan.bsky.social)\n- 🔗 [作者 Portfolio (Wix)](https://kvoid000.wixsite.com/corvus)\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
+    "socials": [
+      { "platform": "pixiv", "handle": "@cyuan_nil", "url": "https://www.pixiv.net/users/123196145" },
+      { "platform": "x", "handle": "@cyuan_nil", "url": "https://x.com/cyuan_nil" },
+      { "platform": "bsky", "handle": "@cyuan", "url": "https://bsky.app/profile/cyuan.bsky.social" },
+      { "platform": "wix", "handle": "Portfolio", "url": "https://kvoid000.wixsite.com/corvus" }
+    ],
+    "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true
     },

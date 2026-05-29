@@ -367,7 +367,26 @@
     if (/(?:^|\/\/)(?:www\.)?threads\.(?:com|net)\//.test(url)) return 'threads';
     if (/doujin\.com\.tw\//.test(url)) return 'doujin_tw';
     if (/(?:lit\.link|linktr\.ee|portaly\.cc)\//.test(url)) return 'aggregator';
+    if (/pixiv\.net\//.test(url)) return 'pixiv';
+    if (/bsky\.app\//.test(url)) return 'bsky';
+    if (/booth\.pm\//.test(url)) return 'booth_pm';
+    if (/marshmallow-qa\.com\//.test(url)) return 'marshmallow';
+    if (/patreon\.com\//.test(url)) return 'patreon';
+    if (/(?:home\.gamer\.com\.tw|gamer\.com\.tw|bahamut)\//.test(url)) return 'gamer';
+    if (/wixsite\.com|wix\.com/.test(url)) return 'wix';
+    if (/blog/.test(url)) return 'blog';
     return 'generic';
+  }
+
+  // Platform emoji used on social chips. Falls back to 🔗 for unknown.
+  function platformIcon(platform) {
+    const map = {
+      x: '𝕏', plurk: 'P', fb: 'f', ig: 'IG', threads: '@',
+      pixiv: '🅿', bsky: '🦋', booth_pm: '🛒', marshmallow: '🌸',
+      patreon: '🅿', gamer: '🐉', wix: '🌐', blog: '📓',
+      doujin_tw: '本', aggregator: '🔗', generic: '🔗',
+    };
+    return map[platform] || '🔗';
   }
 
   function mdToHtml(md) {
@@ -443,6 +462,19 @@
         href: 'https://x.com/' + b.x_handle,
         target: '_blank', rel: 'noopener', class: 'handle-link',
       }, '@' + b.x_handle));
+    }
+    // Multi-platform social chips. Structured per booth as `socials: [{platform, handle, url}, ...]`.
+    if (Array.isArray(b.socials) && b.socials.length) {
+      b.socials.forEach(s => {
+        if (!s || !s.url) return;
+        const platform = s.platform || detectSourceType(s.url);
+        const label = s.handle ? `${platformIcon(platform)} ${s.handle}` : `${platformIcon(platform)} ${T('modal_source_' + platform)}`;
+        meta.appendChild(el('a', {
+          href: s.url, target: '_blank', rel: 'noopener',
+          class: 'social-chip social-chip-' + platform,
+          title: T('modal_source_' + platform),
+        }, label));
+      });
     }
     const isFavNow = favs.has(b.booth_id);
     const modalFav = el('button', {
