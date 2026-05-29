@@ -3483,7 +3483,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://bsky.app/profile/nkpa.bsky.social",
-    "body": "- 無期迷途\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)",
+    "body": "- 無期迷途\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)\n\n## 📝 CH19 出展重點\nT-39 出展 (魚之介 / X [@RmenOish](https://x.com/RmenOish) ／ bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)) ／ 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120) ／ 行李束帶 八千代＋彩葉 (20x6cm / NTD 200) ／ 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80) ／ 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120) ／ 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120) ／ 遊戲彩票貼紙 (250x30mm / NTD 50) ／ 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3499,6 +3499,46 @@ window.BOOTHS = [
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/howish-locked/1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu2x5wqm22j/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu2x5wqm22j/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu2x5wqm22j/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu2x5wqm22j/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu3dckspc2j/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu3dckspc2j/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu3ltd4ek2j/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-39/bsky-3mmu3ltd4ek2j/1.jpg",
+        "display_locked": false
       }
     ]
   },
