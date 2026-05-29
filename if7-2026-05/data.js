@@ -10833,12 +10833,21 @@ window.BOOTHS = [
         "url": "https://x.com/yoyoray20001996"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊 **[『海希的...KISS 多重宇宙』](https://x.com/i/status/2059248150913945744)** (海希 插圖本、 預購開放中) ／ 寄攤 海希 R18 合本 **『1R · 2人 · 365日』**",
+    "body": "## 📝 IF7 出展重點\n\nT-35 RAY 的響食天堂 (うみたき / 海希)\n\n**新刊**:\n- 插圖本 **『海希的...KISS 多重宇宙』** — 全年齡向 / B5 / 22P — NT 250/本 ([預購表單 X](https://x.com/i/status/2059248150913945744))\n\n**寄攤** (Kー雪一 [@Oox30](https://x.com/Oox30) ＋ Lehcar [@Lehcar_my](https://x.com/Lehcar_my)):\n- 漫畫 **『1R · 2人 · 365日』** — ⚠️ R18 / A5 / 黑白內頁 38P — NT 300/本\n\n**既品**:\n- A6 明信片 NT 35/張 ／ 組合價 NT 120 (4 種)\n- 磁鐵 NT 100/個\n- A6 簽繪板 NT 400/幅 (亮霧小婚紗、 艾蓮斯與婉歆)\n- 海希馬年春聯組 NT 160/組 — 海錫馬 ×2 (15×15cm) ＋ 立春馬 ×1 (15×15cm) ＋ 海希驅瑪 (10×10cm)\n\n出處: [Twitter 工商](https://x.com/yoyoray20001996/status/2058413207333851172)",
     "tags": {
-      "goudou": true
+      "goudou": true,
+      "r18": true,
+      "manga": true,
+      "illust": true,
+      "goods": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/yoyoray20001996/status/2058413207333851172",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-35/x-2058413207333851172/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://pbs.twimg.com/media/HJPnhO_aEAEK0n7.jpg",
         "display_url": "https://pbs.twimg.com/media/HJPnhO_aEAEK0n7.jpg"
