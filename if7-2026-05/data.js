@@ -8448,10 +8448,17 @@ window.BOOTHS = [
         "url": "https://x.com/pesirxy?s=21"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊 [**希 all 漫畫**](https://x.com/i/status/2053686601273028923) ／ 試閱公開中",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n- 新刊 [**『立希的病榻突圍戰』**](https://x.com/i/status/2059847133314830477) (希 all、 MyGO!!!!!、 A5 / 35P / NT 200) ／ 購入特典 **MyGO!!!!! 二創設定集** (A5/10P) 隨書附贈 / 數量有限\n- 攤位 擺娃 + 打工小祥 出沒",
+    "tags": {
+      "free": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059847133314830477",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-05/x-2059847133314830477/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2053686601273028923",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-05/0.jpg",
