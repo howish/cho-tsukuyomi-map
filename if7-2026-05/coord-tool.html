@@ -113,6 +113,22 @@
     <button id="refine-br-start" style="width:100%; margin-top:0.3rem; display:none;">BR refine 開始 (何度でも click 可)</button>
     <button id="refine-commit" class="primary" style="width:100%; margin-top:0.3rem; display:none;">band を commit</button>
 
+    <!-- Nudge panel — adjust the active anchor by a small step. Only
+         visible when refine mode is on. step is in viewBox % units. -->
+    <div id="nudge-panel" style="display:none; margin-top:0.5rem; padding:0.4rem; background:#fdf6e3; border:1px solid var(--border); border-radius:4px;">
+      <div style="font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem;">微調整 (現在の anchor を移動)</div>
+      <div style="display:flex; align-items:center; gap:0.3rem; flex-wrap:wrap;">
+        <label style="font-size:0.72rem;">step</label>
+        <input type="number" id="nudge-step" min="0.01" max="2" step="0.01" value="0.1" style="width:4.5rem; padding:0.15rem;">
+        <span style="font-size:0.7rem; color:var(--muted);">%</span>
+        <button id="nudge-up" type="button" title="↑">↑</button>
+        <button id="nudge-left" type="button" title="←">←</button>
+        <button id="nudge-down" type="button" title="↓">↓</button>
+        <button id="nudge-right" type="button" title="→">→</button>
+      </div>
+      <div style="font-size:0.7rem; color:var(--muted); margin-top:0.2rem;">↑/↓/←/→ で active anchor を 上の step だけ移動 (キーボード矢印も可)</div>
+    </div>
+
     <h3>2. クリック手順</h3>
     <div class="status idle" id="status">アイドル — 上の "クリック開始" を押してから map をクリック</div>
 
@@ -239,6 +255,7 @@ document.querySelectorAll('input[name="input-mode"]').forEach(r => {
     // Reset any pending state when switching mode
     mode = 'idle'; pendingCorner1 = null; refinedTL = null; refinedBR = null;
     setStatus('モード変更: 上から開始ボタンを押す', 'idle');
+    syncNudgePanel();
     renderAll();
   });
 });
@@ -281,7 +298,45 @@ document.getElementById('refine-commit').addEventListener('click', () => {
   mode = 'idle';
   refinedTL = null; refinedBR = null; pendingBand = null;
   setStatus('✓ 帯 commit', 'idle');
+  syncNudgePanel();
   renderAll();
+});
+
+// Nudge panel helpers ------------------------------------------------
+function nudgeActive(dx, dy) {
+  if (mode === 'refine-tl' && refinedTL) {
+    refinedTL.x = Math.max(0, Math.min(100, refinedTL.x + dx));
+    refinedTL.y = Math.max(0, Math.min(100, refinedTL.y + dy));
+    setStatus(`📍 TL = (${refinedTL.x.toFixed(2)}, ${refinedTL.y.toFixed(2)}) — 微調整`, 'wait');
+    renderAll();
+  } else if (mode === 'refine-br' && refinedBR) {
+    refinedBR.x = Math.max(0, Math.min(100, refinedBR.x + dx));
+    refinedBR.y = Math.max(0, Math.min(100, refinedBR.y + dy));
+    setStatus(`📍 BR = (${refinedBR.x.toFixed(2)}, ${refinedBR.y.toFixed(2)}) — 微調整`, 'wait');
+    renderAll();
+  }
+}
+function getNudgeStep() {
+  const v = parseFloat(document.getElementById('nudge-step').value);
+  return isNaN(v) ? 0.1 : Math.max(0.01, Math.min(2, v));
+}
+function syncNudgePanel() {
+  const panel = document.getElementById('nudge-panel');
+  const isActive = (mode === 'refine-tl' && refinedTL) || (mode === 'refine-br' && refinedBR);
+  panel.style.display = isActive ? '' : 'none';
+}
+document.getElementById('nudge-up').addEventListener('click',    () => nudgeActive(0, -getNudgeStep()));
+document.getElementById('nudge-down').addEventListener('click',  () => nudgeActive(0, +getNudgeStep()));
+document.getElementById('nudge-left').addEventListener('click',  () => nudgeActive(-getNudgeStep(), 0));
+document.getElementById('nudge-right').addEventListener('click', () => nudgeActive(+getNudgeStep(), 0));
+// Keyboard arrows also nudge — bypass when typing in an input.
+window.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
+  const s = getNudgeStep();
+  if (e.key === 'ArrowUp')    { nudgeActive(0, -s); e.preventDefault(); }
+  if (e.key === 'ArrowDown')  { nudgeActive(0, +s); e.preventDefault(); }
+  if (e.key === 'ArrowLeft')  { nudgeActive(-s, 0); e.preventDefault(); }
+  if (e.key === 'ArrowRight') { nudgeActive(+s, 0); e.preventDefault(); }
 });
 
 overlay.addEventListener('click', (e) => {
@@ -304,10 +359,12 @@ overlay.addEventListener('click', (e) => {
   } else if (mode === 'refine-tl') {
     refinedTL = { x, y };
     setStatus(`📍 TL = (${x.toFixed(2)}, ${y.toFixed(2)}) — 再クリックで上書き / BR へ進むには "BR refine 開始"`, 'wait');
+    syncNudgePanel();
     renderAll();
   } else if (mode === 'refine-br') {
     refinedBR = { x, y };
     setStatus(`📍 BR = (${x.toFixed(2)}, ${y.toFixed(2)}) — 再クリックで上書き / "band を commit" で確定`, 'wait');
+    syncNudgePanel();
     renderAll();
   }
 });
@@ -374,10 +431,12 @@ function drawCrosshair(c, color) {
   const ns = 'http://www.w3.org/2000/svg';
   // Small + crosshair (0.5 viewBox units = 0.5% of map). The stroke is
   // non-scaling so it stays at pixel-thin even when the map is zoomed.
+  // Thickness intentionally hair-thin (≈ 0.06 viewBox units) so the
+  // marker doesn't visually mask the cell corner under it.
   const half = 0.35;
   const g = document.createElementNS(ns, 'g');
   g.setAttribute('stroke', color);
-  g.setAttribute('stroke-width', '0.5');
+  g.setAttribute('stroke-width', '0.06');
   g.setAttribute('vector-effect', 'non-scaling-stroke');
   g.setAttribute('pointer-events', 'none');
   const h = document.createElementNS(ns, 'line');
