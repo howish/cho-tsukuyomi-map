@@ -7825,7 +7825,32 @@ window.BOOTHS = [
       },
       {
         "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
-        "display_url": null,
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/5.jpg",
         "display_locked": false
       }
     ],
@@ -10976,7 +11001,7 @@ window.BOOTHS = [
       },
       {
         "source_url": "https://www.instagram.com/p/DYlo3oiNltW/",
-        "display_url": null,
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/ig-DYlo3oiNltW/0.jpg",
         "display_locked": false
       }
     ],
