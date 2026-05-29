@@ -24,8 +24,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/FoxMoonOmu/",
     "area": "綜合",
-    "body": "- Hazbin Hotel地獄旅館\n- 我的英雄學院\n- 原創",
-    "tags": {},
+    "body": "- Hazbin Hotel地獄旅館",
+    "tags": {
+      "original": true,
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -47,8 +50,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
     "area": "綜合",
-    "body": "- 變形金剛\n- 迷宮飯\n- 奧術",
-    "tags": {},
+    "body": "- 變形金剛\n- 奧術",
+    "tags": {
+      "dungeon-meshi": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -104,8 +109,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/erasertea/",
     "area": "綜合",
-    "body": "- 原創-沒有賣早餐的早餐店\n- 哈利波特\n- 怪獸與牠們的產地",
-    "tags": {},
+    "body": "- 原創-沒有賣早餐的早餐店\n- 怪獸與牠們的產地",
+    "tags": {
+      "harry-potter": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -142,8 +149,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/back_home_diary/?hl=zh-tw",
     "area": "綜合",
-    "body": "- 原創-回家日記\n- 海賊王\n- DC 蝙蝠俠",
-    "tags": {},
+    "body": "- 原創-回家日記\n- DC 蝙蝠俠",
+    "tags": {
+      "one-piece": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -256,8 +265,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/liftrasa5",
     "area": "綜合",
-    "body": "- 名偵探柯南\n- 排球少年\n- 咒術迴戰",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "haikyuu": true,
+      "conan": true,
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -275,8 +288,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/kuriimuda",
     "area": "綜合",
-    "body": "- 斯普拉遁(Splatoon)\n- 庫洛魔法使\n- Final Fantasy",
-    "tags": {},
+    "body": "- 斯普拉遁(Splatoon)\n- Final Fantasy",
+    "tags": {
+      "mahoutsukai": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -317,8 +332,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/conk4",
     "area": "綜合",
-    "body": "- 原創\n- FF14",
-    "tags": {},
+    "body": "- FF14",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -373,7 +390,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
-    "body": "- 超時空輝夜姬\n\n🔗 Facebook: [https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr](https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr)",
+    "body": "",
     "tags": {
       "super-kaguya": true
     },
@@ -404,9 +421,11 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
-    "body": "- BangDream itsMyGO!!!!!\n- Lovelive\n- 超時空輝耀姬\n\n🔗 Facebook: [https://www.facebook.com/s092077?locale=zh_TW](https://www.facebook.com/s092077?locale=zh_TW)",
+    "body": "",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "lovelive": true,
+      "bandori": true
     },
     "warnings": [],
     "cover_urls": [
@@ -536,7 +555,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "sinyatako1",
     "x_url": "https://x.com/sinyatako1?s=21&t=hMm51tDxzSwRLbs1B1XvAA",
-    "body": "- 世界計畫 繽紛舞台！ feat.初音未來\n- 超時空輝夜姬！\n\n🔗 X: [sinyatako1](https://x.com/sinyatako1?s=21&t=hMm51tDxzSwRLbs1B1XvAA)",
+    "body": "- 世界計畫 繽紛舞台！ feat.初音未來\n- 超時空輝夜姬！",
     "tags": {
       "super-kaguya": true
     },
@@ -557,8 +576,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/yu_882",
     "area": "綜合",
-    "body": "- 孤獨搖滾\n- GIRLS BAND CRY\n- MYGO",
-    "tags": {},
+    "body": "- GIRLS BAND CRY",
+    "tags": {
+      "mygo": true,
+      "bocchi-rock": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -576,8 +598,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/seasalt_oc?igsh=MXFvaGQ4dHJubW1ocQ%3D%3D&utm_source=qr",
     "area": "綜合",
-    "body": "- 我的英雄學院\n- Ave mujica\n- Mygo",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "mygo": true,
+      "mha": true,
+      "avemujica": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -652,8 +678,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/6995",
     "area": "綜合",
-    "body": "- Wicked 魔法壞女巫\n- 庫洛魔法使\n- 美少女戰士",
-    "tags": {},
+    "body": "- Wicked 魔法壞女巫",
+    "tags": {
+      "mahoutsukai": true,
+      "sailor-moon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -671,8 +700,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/hahu_paint/?hl=zh-tw",
     "area": "綜合",
-    "body": "- 魔法壞女巫\n- 庫洛魔法使\n- 小魔女Do Re Mi",
-    "tags": {},
+    "body": "- 魔法壞女巫\n- 小魔女Do Re Mi",
+    "tags": {
+      "mahoutsukai": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -713,8 +744,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
     "area": "綜合",
-    "body": "- 美少女戰士\n- 小魔女doremi\n- 少女革命",
-    "tags": {},
+    "body": "- 小魔女doremi\n- 少女革命",
+    "tags": {
+      "sailor-moon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -732,8 +765,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://linktr.ee/Streamer_Fairy_Art",
     "area": "綜合",
-    "body": "- 美少女戰士\n- 夢幻遊戲\n- 愛天使傳說",
-    "tags": {},
+    "body": "- 夢幻遊戲\n- 愛天使傳說",
+    "tags": {
+      "sailor-moon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -751,8 +786,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
     "area": "綜合",
-    "body": "- 美少女戰士\n- 夢幻紳士\n- 葬送的芙莉蓮",
-    "tags": {},
+    "body": "- 夢幻紳士",
+    "tags": {
+      "sailor-moon": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -770,8 +808,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/twinkle21_comic/?hl=zh-tw",
     "area": "綜合",
-    "body": "- 守護甜心\n- 戀與深空\n- 庫洛魔法使",
-    "tags": {},
+    "body": "- 守護甜心",
+    "tags": {
+      "mahoutsukai": true,
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -789,8 +830,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/SRboss",
     "area": "綜合",
-    "body": "- 鬼滅之刃\n- JOJO",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "demon-slayer": true,
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -808,8 +852,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/_inner_room",
     "area": "綜合",
-    "body": "- 家庭教師\n- 戀與深空",
-    "tags": {},
+    "body": "- 家庭教師",
+    "tags": {
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -827,8 +873,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/newstone",
     "area": "綜合",
-    "body": "- 新石紀",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "shounen-jump": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -865,8 +913,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/cilsbox/",
     "area": "綜合",
-    "body": "- 轉生史萊姆\n- 初音\n- fgo",
-    "tags": {},
+    "body": "- 轉生史萊姆",
+    "tags": {
+      "vocaloid": true,
+      "fate": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -884,8 +935,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/shentos",
     "area": "綜合",
-    "body": "- 忍者亂太郎\n- 火影忍者\n- 哈利波特",
-    "tags": {},
+    "body": "- 忍者亂太郎\n- 火影忍者",
+    "tags": {
+      "harry-potter": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -903,8 +956,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "http://www.plurk.com/kazA_A",
     "area": "綜合",
-    "body": "- 新石紀\n- 幽遊白書\n- 獵人",
-    "tags": {},
+    "body": "- 幽遊白書",
+    "tags": {
+      "hxh": true,
+      "shounen-jump": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -922,8 +978,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/greenrivernight",
     "area": "綜合",
-    "body": "- 我的英雄學院\n- Dr.STONE 新石紀\n- 原創-月刊卡哇伊娃包",
-    "tags": {},
+    "body": "- Dr.STONE 新石紀\n- 原創-月刊卡哇伊娃包",
+    "tags": {
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -941,8 +999,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/op7804620",
     "area": "綜合",
-    "body": "- 我的英雄學院\n- 鬼滅之刃\n- 彩虹社Vtuber",
-    "tags": {},
+    "body": "- 彩虹社Vtuber",
+    "tags": {
+      "demon-slayer": true,
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1022,8 +1083,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
     "area": "綜合",
-    "body": "- 新石紀\n- VOCALOID",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true,
+      "shounen-jump": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1041,8 +1105,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/coffeefish_05",
     "area": "綜合",
-    "body": "- Vocaloid\n- 初音未來\n- KAITO\n- 世界計畫",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1098,8 +1164,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/inabatok",
     "area": "綜合",
-    "body": "- 藍色監獄\n- MyGO!!!!!\n- 排球少年",
-    "tags": {},
+    "body": "- 藍色監獄",
+    "tags": {
+      "mygo": true,
+      "haikyuu": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1152,8 +1221,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://hwulu.com/",
     "area": "綜合",
-    "body": "- 明日方舟\n- 排球",
-    "tags": {},
+    "body": "- 排球",
+    "tags": {
+      "arknights": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1237,8 +1308,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/blacktuna/",
     "area": "綜合",
-    "body": "- 間諜家家酒\n- 我的英雄學院\n- 入間同學入魔了！",
-    "tags": {},
+    "body": "- 間諜家家酒\n- 入間同學入魔了！",
+    "tags": {
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1256,8 +1329,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/tama48849",
     "area": "綜合",
-    "body": "- 妖怪手錶\n- 原神\n- 光之美少女",
-    "tags": {},
+    "body": "- 妖怪手錶",
+    "tags": {
+      "genshin": true,
+      "precure": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1408,8 +1484,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/8694",
     "area": "綜合",
-    "body": "- 刀劍亂舞\n- 排球少年\n- HOLOSTARS",
-    "tags": {},
+    "body": "- HOLOSTARS",
+    "tags": {
+      "touken": true,
+      "haikyuu": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1427,8 +1506,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/yanyan___777?igsh=NTZzeXcwZmwyZDMz",
     "area": "綜合",
-    "body": "- 原創-貓貓狗狗圓滾滾\n- 排球少年\n- 鬼滅之刃",
-    "tags": {},
+    "body": "- 原創-貓貓狗狗圓滾滾",
+    "tags": {
+      "haikyuu": true,
+      "demon-slayer": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1465,8 +1547,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/a86872329",
     "area": "綜合",
-    "body": "- 銀魂\n- 我的英雄學院\n- 海賊王",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "mha": true,
+      "one-piece": true,
+      "hetalia": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1484,8 +1570,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/enzo.zoldyck.tw/",
     "area": "綜合",
-    "body": "- 我的英雄學院\n- 排球少年\n- 獵人",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "haikyuu": true,
+      "hxh": true,
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1522,8 +1612,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/kikokakok",
     "area": "綜合",
-    "body": "- 航海王OnePiece\n- 銀魂",
-    "tags": {},
+    "body": "- 航海王OnePiece",
+    "tags": {
+      "hetalia": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1560,8 +1652,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ooinn_arts",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1579,8 +1673,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/kaori0408",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1598,8 +1694,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/cwy.0316.joestar/",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1617,8 +1715,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/tenseven_1777",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1636,8 +1736,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/kawa_7128",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險\n- 路人超能100",
-    "tags": {},
+    "body": "- 路人超能100",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1655,8 +1757,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/han_adtw",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1674,8 +1778,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://blandlove.weebly.com/",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險\n- 進擊的巨人",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "aot": true,
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1735,8 +1842,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/iamritai2001",
     "area": "綜合",
-    "body": "- 刀劍亂舞\n- 排球",
-    "tags": {},
+    "body": "- 排球",
+    "tags": {
+      "touken": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1754,8 +1863,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/teamss_2018_foxskin068/",
     "area": "綜合",
-    "body": "- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1773,8 +1884,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/hallucinogens",
     "area": "綜合",
-    "body": "- JoJo的奇妙冒險-星辰遠征軍\n- JoJo的奇妙冒險-石之海\n- 咒術迴戰",
-    "tags": {},
+    "body": "- JoJo的奇妙冒險-星辰遠征軍\n- JoJo的奇妙冒險-石之海",
+    "tags": {
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1792,8 +1905,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/truemako21",
     "area": "綜合",
-    "body": "- 原神\n- 鬼滅之刃\n- 真珠美人魚",
-    "tags": {},
+    "body": "- 真珠美人魚",
+    "tags": {
+      "genshin": true,
+      "demon-slayer": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1811,8 +1927,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://ed940930.wixsite.com/original",
     "area": "綜合",
-    "body": "- 原創_手作\n- Vocaloid\n- Vtuber",
-    "tags": {},
+    "body": "- 原創_手作",
+    "tags": {
+      "vtuber-jp": true,
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1834,8 +1953,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/somepaet/",
     "area": "綜合",
-    "body": "- 原創-《RGB》 cm和yk的非二元日常\n- 鏈鋸人-天使惡魔\n- 新世界狂歡",
-    "tags": {},
+    "body": "- 原創-《RGB》 cm和yk的非二元日常\n- 鏈鋸人-天使惡魔",
+    "tags": {
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1857,8 +1978,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://linktr.ee/Synka",
     "area": "綜合",
-    "body": "- GACHIAKUTA / enzn (恩贊)\n- Yellow Magic Orchestra (YMO) / RPS\n- 原創",
-    "tags": {},
+    "body": "- GACHIAKUTA / enzn (恩贊)\n- Yellow Magic Orchestra (YMO) / RPS",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1895,8 +2018,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/ChristinStudio",
     "area": "綜合",
-    "body": "- 葬送的芙莉蓮\n- 莉可麗絲\n- 庫洛魔法使",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "mahoutsukai": true,
+      "lycoris": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1933,8 +2060,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/szkobo.new",
     "area": "綜合",
-    "body": "- 進擊的巨人\n- 葬送的芙莉蓮\n- 迷宮飯",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "dungeon-meshi": true,
+      "aot": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1956,8 +2087,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://trapasocks.pse.is/8rdrx6",
     "area": "綜合",
-    "body": "- 黃金神威\n- 進擊的巨人\n- 迷宮飯",
-    "tags": {},
+    "body": "- 黃金神威",
+    "tags": {
+      "dungeon-meshi": true,
+      "aot": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -1979,8 +2113,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/brain.bamage/",
     "area": "綜合",
-    "body": "- 哈利波特\n- 新世界狂歡",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "harry-potter": true,
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2002,8 +2139,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
     "area": "綜合",
-    "body": "- 新世界狂歡\n- 特殊傳說",
-    "tags": {},
+    "body": "- 特殊傳說",
+    "tags": {
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2021,8 +2160,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://w0960.pixnet.net/blog",
     "area": "綜合",
-    "body": "- 特殊傳說\n- 哈利波特",
-    "tags": {},
+    "body": "- 特殊傳說",
+    "tags": {
+      "harry-potter": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2040,8 +2181,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/yinqarys",
     "area": "綜合",
-    "body": "- 崩壞：星穹鐵道\n- 瓦尼塔斯的手札",
-    "tags": {},
+    "body": "- 瓦尼塔斯的手札",
+    "tags": {
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2139,8 +2282,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/dream_bridge_alw/",
     "area": "綜合",
-    "body": "- 原創\n- Unlight\n- 劍與遠征-啟程",
-    "tags": {},
+    "body": "- Unlight\n- 劍與遠征-啟程",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2185,8 +2330,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/815",
     "area": "綜合",
-    "body": "- Nijisanji en Luxiem\n- RO仙境傳說\n- 刀劍亂舞",
-    "tags": {},
+    "body": "- Nijisanji en Luxiem\n- RO仙境傳說",
+    "tags": {
+      "touken": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2223,8 +2370,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/Luer_reul",
     "area": "綜合",
-    "body": "- 彩虹社EN\n- 戀與深空\n- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "nijisanji": true,
+      "love-deepspace": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2246,8 +2397,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61550680396750",
     "area": "綜合",
-    "body": "- 彩虹社\n- 怪獸8號\n- 排球少年",
-    "tags": {},
+    "body": "- 怪獸8號",
+    "tags": {
+      "haikyuu": true,
+      "nijisanji": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2307,8 +2461,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/Silver_NoTa",
     "area": "綜合",
-    "body": "- にじさんじ",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "nijisanji": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2326,8 +2482,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/Shenlan_echo",
     "area": "綜合",
-    "body": "- 彩虹社JP\n- 彩虹社EN",
-    "tags": {},
+    "body": "- 彩虹社JP",
+    "tags": {
+      "nijisanji": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2406,8 +2564,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
     "area": "綜合",
-    "body": "- 原創-台灣VTuber 星海ほしうみ\n- 排球少年\n- 葬送的芙莉蓮",
-    "tags": {},
+    "body": "- 原創-台灣VTuber 星海ほしうみ",
+    "tags": {
+      "haikyuu": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2429,8 +2590,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/chang_yu_i/",
     "area": "綜合",
-    "body": "- 原創-橘子龍龍\n- Vtuber",
-    "tags": {},
+    "body": "- 原創-橘子龍龍",
+    "tags": {
+      "vtuber-jp": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2448,8 +2611,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/Stellane2025",
     "area": "綜合",
-    "body": "- Vtuber_厭世醫師阿萬\n- Vtuber_NIJISANJI\n- 原創",
-    "tags": {},
+    "body": "- Vtuber_厭世醫師阿萬\n- Vtuber_NIJISANJI",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2505,8 +2670,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://seemoon.biz/",
     "area": "綜合",
-    "body": "- 珍珠美人魚\n- 進擊的巨人\n- 名偵探柯南",
-    "tags": {},
+    "body": "- 珍珠美人魚",
+    "tags": {
+      "conan": true,
+      "aot": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2547,8 +2715,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/uni_07z3",
     "area": "綜合",
-    "body": "- 進擊的巨人\n- 名偵探柯南",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "conan": true,
+      "aot": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2585,8 +2756,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/eecircle",
     "area": "綜合",
-    "body": "- 崩壞星穹鐵道\n- 名偵探柯南\n- 原創-個人ip-圓阿圓",
-    "tags": {},
+    "body": "- 原創-個人ip-圓阿圓",
+    "tags": {
+      "conan": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2604,8 +2778,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/gulyocat",
     "area": "綜合",
-    "body": "- 名偵探柯南",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "conan": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2623,8 +2799,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/mola0632",
     "area": "綜合",
-    "body": "- 排球少年!!\n- 新世界狂歡\n- 咒術迴戰",
-    "tags": {},
+    "body": "- 排球少年!!",
+    "tags": {
+      "jjk": true,
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2642,8 +2821,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/bossraven77/",
     "area": "綜合",
-    "body": "- 原創-小白糰\n- 名偵探柯南\n- 天官賜福",
-    "tags": {},
+    "body": "- 原創-小白糰\n- 天官賜福",
+    "tags": {
+      "conan": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2661,8 +2842,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/jidraw018?igsh=cDgzc2EzdHVoZTJk",
     "area": "綜合",
-    "body": "- 原創-口水馬鈴薯\n- 原創-貓咪繪圖\n- 葬送的芙莉蓮",
-    "tags": {},
+    "body": "- 原創-口水馬鈴薯\n- 原創-貓咪繪圖",
+    "tags": {
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2680,8 +2863,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/arcusong",
     "area": "綜合",
-    "body": "- 排球少年\n- 灌籃高手\n- 葬送的芙莉蓮",
-    "tags": {},
+    "body": "- 灌籃高手",
+    "tags": {
+      "haikyuu": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2699,8 +2885,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/tt1219_/",
     "area": "綜合",
-    "body": "- 世界計畫\n- Vocaloid\n- 孤獨搖滾",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true,
+      "bocchi-rock": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2718,8 +2907,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/kiri520?igsh=MXRzZG5lNG9ybTdzdw==",
     "area": "綜合",
-    "body": "- 鏈鋸人\n- 葬送的芙莉蓮\n- 咒術迴戰",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jjk": true,
+      "chainsawman": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2741,8 +2934,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/miba_1.8?igsh=eWl5enlscTgxZzlx",
     "area": "綜合",
-    "body": "- 原創-八與龍\n- 葬送的芙莉蓮\n- 鏈鋸人",
-    "tags": {},
+    "body": "- 原創-八與龍",
+    "tags": {
+      "chainsawman": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2760,8 +2956,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/littleeyes_b216?igsh=MXB4em9hcTdjaGJxaA==",
     "area": "綜合",
-    "body": "- 原創-小眼睛\n- 排球少年\n- 葬送的芙莉蓮",
-    "tags": {},
+    "body": "- 原創-小眼睛",
+    "tags": {
+      "haikyuu": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2779,8 +2978,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://plurk.com/potatosonnet",
     "area": "綜合",
-    "body": "- 咒術迴戰",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2802,8 +3003,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/bleedmaple",
     "area": "綜合",
-    "body": "- 強風吹拂\n- 咒術迴戰\n- 新石紀",
-    "tags": {},
+    "body": "- 強風吹拂",
+    "tags": {
+      "shounen-jump": true,
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2821,8 +3025,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/sghg181",
     "area": "綜合",
-    "body": "- 咒術迴戰\n- 路人超能100\n- 九龍城寨之圍城",
-    "tags": {},
+    "body": "- 路人超能100\n- 九龍城寨之圍城",
+    "tags": {
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2840,8 +3046,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/miyakocat",
     "area": "綜合",
-    "body": "- プロセカ\n- IDOLiSH7 偶像星願\n- 瓦尼塔斯的手札",
-    "tags": {},
+    "body": "- IDOLiSH7 偶像星願\n- 瓦尼塔斯的手札",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2902,8 +3110,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
     "area": "綜合",
-    "body": "- 刀劍亂舞\n- 偶像星願\n- 機動戰士Gundam GQuuuuuuX",
-    "tags": {},
+    "body": "- 偶像星願\n- 機動戰士Gundam GQuuuuuuX",
+    "tags": {
+      "touken": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2940,8 +3150,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/kyouwork",
     "area": "綜合",
-    "body": "- 偶像星願\n- 死亡筆記本\n- 彩虹社EN",
-    "tags": {},
+    "body": "- 偶像星願\n- 死亡筆記本",
+    "tags": {
+      "nijisanji": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2959,8 +3171,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/natsuki6795/",
     "area": "綜合",
-    "body": "- PLAVE\n- 我的英雄學院",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "plave": true,
+      "mha": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -2978,8 +3193,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/suanmo99?igsh=MTNzenl6cWtkYW13OQ%3D%3D&utm_source=qr",
     "area": "綜合",
-    "body": "- PLAVE",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "plave": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3039,8 +3256,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/linda6030221",
     "area": "綜合",
-    "body": "- ALIEN STAGE 異星舞台\n- PLAVE\n- 排球少年",
-    "tags": {},
+    "body": "- ALIEN STAGE 異星舞台",
+    "tags": {
+      "haikyuu": true,
+      "plave": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3058,8 +3278,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/poki1130",
     "area": "綜合",
-    "body": "- 去唱卡拉OK吧！\n- PLAVE\n- 原創-太空魔法師兔子",
-    "tags": {},
+    "body": "- 去唱卡拉OK吧！\n- 原創-太空魔法師兔子",
+    "tags": {
+      "plave": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3077,8 +3299,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/twelve474719/",
     "area": "綜合",
-    "body": "- PLAVE\n- 忍者亂太郎\n- ツイステ",
-    "tags": {},
+    "body": "- 忍者亂太郎\n- ツイステ",
+    "tags": {
+      "plave": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3134,8 +3358,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/flyinglo",
     "area": "綜合",
-    "body": "- Kpop獵魔女團\n- 迷宮飯\n- 原創-滄瀾沉珠，欲海成淵",
-    "tags": {},
+    "body": "- Kpop獵魔女團\n- 原創-滄瀾沉珠，欲海成淵",
+    "tags": {
+      "dungeon-meshi": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3153,8 +3379,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/yujian_lll/",
     "area": "綜合",
-    "body": "- 戀與深空\n- KPOP",
-    "tags": {},
+    "body": "- KPOP",
+    "tags": {
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3210,8 +3438,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/lll8256",
     "area": "綜合",
-    "body": "- 新世界狂歡",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3229,8 +3459,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
     "area": "綜合",
-    "body": "- 86不存在的戰區\n- Ave Mujica\n- 新世界狂歡",
-    "tags": {},
+    "body": "- 86不存在的戰區",
+    "tags": {
+      "avemujica": true,
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3267,8 +3500,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
     "area": "綜合",
-    "body": "- 新世界狂歡",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3286,8 +3521,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=100057130852699",
     "area": "綜合",
-    "body": "- 新世界狂歡\n- 彩虹社EN",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "nijisanji": true,
+      "shingeki": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3309,8 +3547,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/kure_kyouu",
     "area": "綜合",
-    "body": "- 新石紀 千幻\n- 世界計畫",
-    "tags": {},
+    "body": "- 新石紀 千幻",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3347,8 +3587,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/Go41577",
     "area": "綜合",
-    "body": "- 原創-歡迎來到娃娃鎮\n- BanG Dream It's MyGO!!!!!",
-    "tags": {},
+    "body": "- 原創-歡迎來到娃娃鎮",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3366,8 +3608,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/enokimitsuki",
     "area": "綜合",
-    "body": "- Fate/Grand Order\n- JOJO的奇妙冒險",
-    "tags": {},
+    "body": "- Fate/Grand Order",
+    "tags": {
+      "jojo": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3404,8 +3648,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/small_lauchui_p/",
     "area": "綜合",
-    "body": "- Fate/Grand Order\n- 原創",
-    "tags": {},
+    "body": "- Fate/Grand Order",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3423,8 +3669,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
     "area": "綜合",
-    "body": "- Fate/strange Fake\n- HOLOSTARS\n- 魔物獵人",
-    "tags": {},
+    "body": "- Fate/strange Fake\n- HOLOSTARS",
+    "tags": {
+      "monhun": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3442,8 +3690,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/dd_r2112",
     "area": "綜合",
-    "body": "- 戀與深空\n- 鬼滅之刃\n- 灌籃高手",
-    "tags": {},
+    "body": "- 灌籃高手",
+    "tags": {
+      "demon-slayer": true,
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3461,8 +3712,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/abc9012071",
     "area": "綜合",
-    "body": "- 戀與深空\n- 彩虹社\n- 咒術迴戰",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "nijisanji": true,
+      "love-deepspace": true,
+      "jjk": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3484,8 +3739,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@_rskniwn_",
     "area": "綜合",
-    "body": "- Splatoon\n- 魔物獵人\n- 怪獸8號",
-    "tags": {},
+    "body": "- Splatoon\n- 怪獸8號",
+    "tags": {
+      "monhun": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3568,8 +3825,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/",
     "area": "綜合",
-    "body": "- 寶可夢",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3587,8 +3846,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/yanekomeow",
     "area": "綜合",
-    "body": "- 寶可夢",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3606,8 +3867,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/MIKEY21",
     "area": "綜合",
-    "body": "- 寶可夢\n- 卡通頻道",
-    "tags": {},
+    "body": "- 卡通頻道",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3625,8 +3888,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ding8059",
     "area": "綜合",
-    "body": "- 寶可夢\n- 原創\n- 薩爾達",
-    "tags": {},
+    "body": "- 薩爾達",
+    "tags": {
+      "original": true,
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3644,8 +3910,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/YuutsuNeko/",
     "area": "綜合",
-    "body": "- 寶可夢\n- 薩爾達傳說\n- 魔物獵人",
-    "tags": {},
+    "body": "- 薩爾達傳說",
+    "tags": {
+      "monhun": true,
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3663,8 +3932,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/blackomicat",
     "area": "綜合",
-    "body": "- 寶可夢\n- 彩虹社EN組-Luxiem\n- 仙境傳說RO",
-    "tags": {},
+    "body": "- 彩虹社EN組-Luxiem\n- 仙境傳說RO",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3739,8 +4010,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
     "area": "綜合",
-    "body": "- Pokémon\n- 魔物獵人",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "monhun": true,
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3758,8 +4032,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
     "area": "綜合",
-    "body": "- 葬送的福利蓮\n- 章魚嗶的原罪\n- 寶可夢",
-    "tags": {},
+    "body": "- 葬送的福利蓮\n- 章魚嗶的原罪",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3777,8 +4053,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ayas929",
     "area": "綜合",
-    "body": "- 鬼滅之刃",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "demon-slayer": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3796,8 +4074,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/CNO",
     "area": "綜合",
-    "body": "- 貓咪\n- 藥師少女的獨語\n- 鏈鋸人",
-    "tags": {},
+    "body": "- 貓咪\n- 藥師少女的獨語",
+    "tags": {
+      "chainsawman": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3853,8 +4133,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/ponka2024?s=21",
     "area": "綜合",
-    "body": "- 原創-獸人相關\n- 寶可夢",
-    "tags": {},
+    "body": "- 原創-獸人相關",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -3895,8 +4177,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/tomoewhat77/",
     "area": "綜合",
-    "body": "- 原創-Honest Kitsune與延伸創作\n- GACHIAKUTA\n- HUNTER×HUNTER",
-    "tags": {},
+    "body": "- 原創-Honest Kitsune與延伸創作\n- GACHIAKUTA",
+    "tags": {
+      "hxh": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4116,8 +4400,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/mamo20220624",
     "area": "綜合",
-    "body": "- 原創-沒有作品名\n- 刀劍亂舞\n- Vtuber",
-    "tags": {},
+    "body": "- 原創-沒有作品名",
+    "tags": {
+      "touken": true,
+      "vtuber-jp": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4201,8 +4488,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/dimly_bobo",
     "area": "綜合",
-    "body": "- 原創\n- 排球少年\n- GACHIAKUTA",
-    "tags": {},
+    "body": "- GACHIAKUTA",
+    "tags": {
+      "original": true,
+      "haikyuu": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4220,8 +4510,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/shanshanrun/",
     "area": "綜合",
-    "body": "- 原創-粉紅蛙蛙\n- 原創-漫畫\n- 迷宮飯",
-    "tags": {},
+    "body": "- 原創-粉紅蛙蛙\n- 原創-漫畫",
+    "tags": {
+      "dungeon-meshi": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4745,8 +5037,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/uniautomata_studio/",
     "area": "綜合",
-    "body": "- 原創",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -4802,8 +5096,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/sly450026",
     "area": "綜合",
-    "body": "- 原創-比起臥底還是先談戀愛吧\n- 鏈鋸人\n- 寶石之國",
-    "tags": {},
+    "body": "- 原創-比起臥底還是先談戀愛吧\n- 寶石之國",
+    "tags": {
+      "chainsawman": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -5651,8 +5947,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/dreamxsoul",
     "area": "綜合",
-    "body": "- 排球少年\n- 原創-虎球之森\n- 原創-古埃及神",
-    "tags": {},
+    "body": "- 原創-虎球之森\n- 原創-古埃及神",
+    "tags": {
+      "haikyuu": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -6625,10 +6923,11 @@ window.BOOTHS = [
         "url": "https://x.com/Chihlun42"
       }
     ],
-    "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n## 📝 CH19 出展重點\n\n**其他**:\n- 「(未名)」 — 原創 · 諾雅 × 英里娜\n- 「(未名)」 — バンドリ! · 諾雅 × 英里娜\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "body": "- 原創短篇漫畫\n## 📝 CH19 出展重點\n\n**其他**:\n- 「(未名)」 — 原創 · 諾雅 × 英里娜\n- 「(未名)」 — バンドリ! · 諾雅 × 英里娜\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "original": true,
-      "manga": true
+      "manga": true,
+      "bandori": true
     },
     "warnings": [],
     "cover_urls": [
@@ -6885,9 +7184,10 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"
       }
     ],
-    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n## 📝 CH19 出展重點\n- 場前注意事項あり (post 3)\n- 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
+    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n\n## 📝 CH19 出展重點\n- 場前注意事項あり (post 3)\n- 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
     "tags": {
-      "original": true
+      "original": true,
+      "avemujica": true
     },
     "warnings": [],
     "cover_urls": [
@@ -6995,9 +7295,10 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
-    "body": "- 原創-超取魅魔\n- Vtuber\n\n🔗 出處: [https://home.gamer.com.tw/profile/index.php?&owner=summerkmth](https://home.gamer.com.tw/profile/index.php?&owner=summerkmth)",
+    "body": "- 原創-超取魅魔",
     "tags": {
-      "original": true
+      "original": true,
+      "vtuber-jp": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -7010,7 +7311,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.pixiv.net/users/612797",
-    "body": "- 搖曳露營\n\n🔗 出處: [https://www.pixiv.net/users/612797](https://www.pixiv.net/users/612797)",
+    "body": "- 搖曳露營",
     "tags": {},
     "warnings": [],
     "cover_urls": [],
@@ -7153,8 +7454,11 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/365/books",
-    "body": "- hololive\n- 都市傳說解體中心\n- 迷宮飯\n\n🔗 doujin.com.tw: [https://www.doujin.com.tw/groups/info/365/books](https://www.doujin.com.tw/groups/info/365/books)",
-    "tags": {},
+    "body": "- 都市傳說解體中心",
+    "tags": {
+      "dungeon-meshi": true,
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7186,8 +7490,12 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"
       }
     ],
-    "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n## 📝 CH19 出展重點\n- 百翁 既刊 中心 (歷年 百合 作集)\n- 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n- 百翁 既刊 中心 (歷年 百合 作集)\n- 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
+    "tags": {
+      "dungeon-meshi": true,
+      "avemujica": true,
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7284,8 +7592,10 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/pipi.yaya.90"
       }
     ],
-    "body": "- BanG Dream! Ave Mujica\n## 📝 CH19 出展重點\n\n**其他周邊**:\n- 「祥初自組立牌」 — バンドリ! · 初華 x 祥子 — 周邊\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n\n**其他周邊**:\n- 「祥初自組立牌」 — バンドリ! · 初華 x 祥子 — 周邊\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7390,8 +7700,10 @@ window.BOOTHS = [
         "url": "https://x.com/Crazycat_47"
       }
     ],
-    "body": "- 緋染天空\n- 水星的魔女\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\n- 月底百翁 小新品\n- 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
-    "tags": {},
+    "body": "- 緋染天空\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\n- 月底百翁 小新品\n- 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
+    "tags": {
+      "witch-mercury": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7697,9 +8009,11 @@ window.BOOTHS = [
         "url": "https://x.com/pomeka35"
       }
     ],
-    "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n## 📝 CH19 出展重點\n\n**本**:\n- 「毛茸茸同居人1」 — VTUBER · micomet — 漫畫 / NT 350\n\n**其他**:\n- 「毛茸茸同居人2」 — VTUBER · micomet\n- 「小花團子」 — VTUBER · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTUBER · micomet — NT 200\n- 「壓克力飯友」 — VTUBER · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTUBER · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTUBER · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — バンドリ! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTUBER · micomet — NT 200\n\n**其他周邊**:\n- 「mcmt按鍵吊飾」 — VTUBER · micomet — 周邊 / NT 150\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "body": "## 📝 CH19 出展重點\n\n**本**:\n- 「毛茸茸同居人1」 — VTUBER · micomet — 漫畫 / NT 350\n\n**其他**:\n- 「毛茸茸同居人2」 — VTUBER · micomet\n- 「小花團子」 — VTUBER · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTUBER · micomet — NT 200\n- 「壓克力飯友」 — VTUBER · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTUBER · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTUBER · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — バンドリ! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTUBER · micomet — NT 200\n\n**其他周邊**:\n- 「mcmt按鍵吊飾」 — VTUBER · micomet — 周邊 / NT 150\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "mygo": true,
+      "hololive": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7734,8 +8048,11 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/maoyuue"
       }
     ],
-    "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n## 📝 CH19 出展重點\n- 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布)\n- 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
-    "tags": {},
+    "body": "- 非人少女\n\n## 📝 CH19 出展重點\n- 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布)\n- 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
+    "tags": {
+      "avemujica": true,
+      "rev-girl": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7850,8 +8167,11 @@ window.BOOTHS = [
         "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
       }
     ],
-    "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n## 📝 CH19 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎",
-    "tags": {},
+    "body": "- FLOWERS (Innocent Grey)\n\n## 📝 CH19 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎",
+    "tags": {
+      "lycoris": true,
+      "rev-girl": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -7916,9 +8236,10 @@ window.BOOTHS = [
         "url": "https://www.threads.com/@taboom002"
       }
     ],
-    "body": "- 莉可麗絲\n\n## 📝 CH19 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200)\n- 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
+    "body": "## 📝 CH19 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200)\n- 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "lycoris": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8348,8 +8669,10 @@ window.BOOTHS = [
         "url": "https://www.threads.com/@nekohige0123"
       }
     ],
-    "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n## 📝 CH19 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標予定\n- 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
-    "tags": {},
+    "body": "- BanG Dream!It’s mygo!!!!!\n\n## 📝 CH19 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標予定\n- 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -8537,8 +8860,10 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/61573677164059/"
       }
     ],
-    "body": "- BanG Dream! It's MyGO!!!!!\n\n## 📝 CH19 出展重點\n- 新品 **森亞露露卡 立牌**\n- 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組)\n- 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n- 新品 **森亞露露卡 立牌**\n- 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組)\n- 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -8616,8 +8941,10 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/profile.php?id=61558258981354"
       }
     ],
-    "body": "- gbc\n- BanG Dream!\n\n## 📝 CH19 出展重點\n- 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200)\n- 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150)\n- 立牌 約12cm 各 NT 100\n- 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
-    "tags": {},
+    "body": "- gbc\n\n## 📝 CH19 出展重點\n- 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200)\n- 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150)\n- 立牌 約12cm 各 NT 100\n- 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -8731,8 +9058,10 @@ window.BOOTHS = [
         "url": "https://x.com/amane61115"
       }
     ],
-    "body": "- 蓮ノ空女學院スクールアイドルクラブ\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「Vaporeux」 — ラブライブ! · 姬ｘ吟 — 漫畫 / NT 250\n- ★新 「Convallaria」 — 佐賀偶像是傳奇 · 純ｘ愛 — 漫畫 / NT 50\n- ★新 「神秘無料」 — ラブライブ! · 神秘 — 漫畫 / NT 無料 / 需通關密語\n- 既 「一覺醒來 我原地穿越到了 兩年前？！」 — ラブライブ! · 瑠慈 — 漫畫 / NT 200\n- 既 「卡薩布蘭卡」 — 星穹鐵道 · 雅蝶 — 漫畫 / NT 50\n\n**其他周邊**:\n- ★新 「明信片(2款)」 — 偶像學園 · 堇/凜 — 周邊 / NT 20/款\n- 既 「飯友」 — VTUBER · みらるた — 周邊 / NT 200/組\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n\n**本**:\n- ★新 「Vaporeux」 — ラブライブ! · 姬ｘ吟 — 漫畫 / NT 250\n- ★新 「Convallaria」 — 佐賀偶像是傳奇 · 純ｘ愛 — 漫畫 / NT 50\n- ★新 「神秘無料」 — ラブライブ! · 神秘 — 漫畫 / NT 無料 / 需通關密語\n- 既 「一覺醒來 我原地穿越到了 兩年前？！」 — ラブライブ! · 瑠慈 — 漫畫 / NT 200\n- 既 「卡薩布蘭卡」 — 星穹鐵道 · 雅蝶 — 漫畫 / NT 50\n\n**其他周邊**:\n- ★新 「明信片(2款)」 — 偶像學園 · 堇/凜 — 周邊 / NT 20/款\n- 既 「飯友」 — VTUBER · みらるた — 周邊 / NT 200/組\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "tags": {
+      "lovelive": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -8829,9 +9158,11 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "rbaba_cain2",
     "x_url": "https://x.com/rbaba_cain2",
-    "body": "- lovelive\n- 少女歌劇\n- 超時空輝耀姬\n\n🔗 X: [rbaba_cain2](https://x.com/rbaba_cain2)",
+    "body": "",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "lovelive": true,
+      "rev-girl": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -8849,7 +9180,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Polymilktea",
-    "body": "- LOVELIVE 蓮之空女學院學園偶像俱樂部\n\n🔗 Facebook: [https://www.facebook.com/Polymilktea](https://www.facebook.com/Polymilktea)",
+    "body": "- LOVELIVE 蓮之空女學院學園偶像俱樂部",
     "tags": {},
     "warnings": [],
     "cover_urls": [
@@ -8877,9 +9208,10 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
-    "body": "- 蓮之空女學院學園偶像俱樂部\n- 超時空輝耀姬\n\n🔗 Facebook: [https://www.facebook.com/profile.php?id=61551985430535#](https://www.facebook.com/profile.php?id=61551985430535#)",
+    "body": "",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "lovelive": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8965,8 +9297,11 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/yetsubody"
       }
     ],
-    "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n## 📝 CH19 出展重點\n- 新刊 **『初祥塗鴉本 Vol.2』** (NT 50)\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
-    "tags": {},
+    "body": "- 機動戰士鋼彈水星的魔女\n\n## 📝 CH19 出展重點\n- 新刊 **『初祥塗鴉本 Vol.2』** (NT 50)\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
+    "tags": {
+      "fate": true,
+      "avemujica": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -9114,9 +9449,11 @@ window.BOOTHS = [
         "url": "https://www.plurk.com/ame.5000"
       }
     ],
-    "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n## 📝 CH19 出展重點\n- 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成)\n- シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ**\n- 全 3 組 「曖昧以上 互動」\n- 雜食 (友好~互毆) 内容含む\n- 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
+    "body": "- 原創- 1000 BLUE\n\n## 📝 CH19 出展重點\n- 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成)\n- シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ**\n- 全 3 組 「曖昧以上 互動」\n- 雜食 (友好~互毆) 内容含む\n- 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
     "tags": {
-      "original": true
+      "original": true,
+      "avemujica": true,
+      "bocchi-rock": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9174,8 +9511,11 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/kun.salamander.3/"
       }
     ],
-    "body": "- MyGO!!!!!\n- AveMujica\n\n## 📝 CH19 出展重點\n- 新刊[「喝酒女同新刊」](https://www.facebook.com/share/p/1CjXUyhmK2/) (拯救學姊 即將完成)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n- 新刊[「喝酒女同新刊」](https://www.facebook.com/share/p/1CjXUyhmK2/) (拯救學姊 即將完成)",
+    "tags": {
+      "mygo": true,
+      "avemujica": true
+    },
     "warnings": [],
     "cover_urls": [
       {
@@ -9356,10 +9696,12 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://instagram.com/arayo__0616",
-    "body": "- 原創百合漫畫（新刊）-天使們低語的漫長告別\n- 蔚藍檔案\n- Hololive\n\n🔗 Instagram: [arayo__0616](https://instagram.com/arayo__0616)",
+    "body": "- 原創百合漫畫（新刊）-天使們低語的漫長告別",
     "tags": {
       "original": true,
-      "manga": true
+      "manga": true,
+      "hololive": true,
+      "blue-archive": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9439,8 +9781,11 @@ window.BOOTHS = [
         "url": "https://kvoid000.wixsite.com/corvus"
       }
     ],
-    "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
-    "tags": {},
+    "body": "- 睦祥(mygo, AveMujica)\n\n## 📝 CH19 出展重點\n\n**新刊・本** (NT 200 / 無料):\n- 「耀眼」 — Ina × Ame / 漫畫 / A5 / 32P / NT 200\n- 「Tomodachi life 刻海」 — Ina × Ame / 短漫畫 / A5 / 4P / 無料\n\n**明信片** (NT 20):\n- VTUBER · Ina × Ame (2 種 + 漫畫風格 + 未公布 ×2)\n- VTUBER · Myth 5 人\n- バンドリ! · 睦祥 (2 種)\n- 星穹鐵道 · 刻律德菈 × 海瑟音\n- 絕區零 · 柚葉 × 艾麗絲 (未公布)\n- 鳴潮 · 弗洛洛 × 女漂泊者\n- VTUBER · 信長 × 沖田 (未公布)\n- VTUBER · 德克薩斯 × 拉普蘭德 (未公布)\n- 趕工中: 上伊那牡丹 · 牡丹 × 伊吹 ／ VTUBER · 茜 × 八重花 ／ VTUBER · 景嵐 × 奏\n\n**壓克力吊飾** (黑幫主題 / NT 150):\n- VTUBER · Ina × Ame (2 種)\n- VTUBER · Ina solo / 伊莉雅\n- Fate · 織田信長\n- 明日方舟 · 陳\n\n**貼紙** (無料):\n- VTUBER · Ina × Ame × Gura (3 種)\n- VTUBER · Ina × Ame (2 種)\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "tags": {
+      "fate": true,
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [],
     "area": "百合"
@@ -9513,8 +9858,10 @@ window.BOOTHS = [
         "url": "https://interweave.booth.pm/"
       }
     ],
-    "body": "- 東方Project\n## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 / 蓮メリ / 蓮子×梅莉 — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘 — 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
-    "tags": {},
+    "body": "## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 / 蓮メリ / 蓮子×梅莉 — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘 — 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "tags": {
+      "touhou": true
+    },
     "warnings": [],
     "cover_urls": [],
     "group": "T-[29,30]",
@@ -9533,9 +9880,10 @@ window.BOOTHS = [
         "url": "https://www.doujin.com.tw/authors/info/x20285/books"
       }
     ],
-    "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n## 📝 CH19 出展重點\n- 安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
+    "body": "- 鋼管公主\n\n## 📝 CH19 出展重點\n- 安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "touhou": true
     },
     "warnings": [],
     "_meta_scrape_sk": {
@@ -9560,7 +9908,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/yuclovers"
       }
     ],
-    "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — \"バンドリ! · 愛爽 — 漫畫 / NT 240 / 品書\n\n**其他**:\n- 「甚麼叫做 誤會的我也很可愛!?」 — \"バンドリ! · 愛爽 — NT 240\n- 「並拾色」 — \"バンドリ! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — \"バンドリ! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — \"バンドリ! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — \"バンドリ! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — \"バンドリ! · 九九組 — 色紙 / NT 40/1\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
+    "body": "- It's MyGO!!!!! 《BanG Dream!》\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — \"バンドリ! · 愛爽 — 漫畫 / NT 240 / 品書\n\n**其他**:\n- 「甚麼叫做 誤會的我也很可愛!?」 — \"バンドリ! · 愛爽 — NT 240\n- 「並拾色」 — \"バンドリ! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — \"バンドリ! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — \"バンドリ! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — \"バンドリ! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — \"バンドリ! · 九九組 — 色紙 / NT 40/1\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足参照)",
     "tags": {
       "super-kaguya": true
     },
@@ -9792,7 +10140,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/tentaclespet/"
       }
     ],
-    "body": "- 超時空輝耀姬\n\n## 📝 CH19 出展重點\n- 寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n- 寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
+    "body": "## 📝 CH19 出展重點\n- 寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n- 寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
     "tags": {
       "super-kaguya": true
     },
@@ -9999,7 +10347,7 @@ window.BOOTHS = [
         "url": "https://x.com/RmenOish"
       }
     ],
-    "body": "- 無期迷途\n- 超時空輝耀姬\n\n## 📝 CH19 出展重點\n- bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social))\n- 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120)\n\n- 行李束帶 八千代＋彩葉 (20x6cm / NTD 200)\n- 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80)\n- 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120)\n\n- 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120)\n- 遊戲彩票貼紙 (250x30mm / NTD 50)\n- 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
+    "body": "- 無期迷途\n\n## 📝 CH19 出展重點\n- bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social))\n- 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120)\n\n- 行李束帶 八千代＋彩葉 (20x6cm / NTD 200)\n- 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80)\n- 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120)\n\n- 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120)\n- 遊戲彩票貼紙 (250x30mm / NTD 50)\n- 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
     "tags": {
       "super-kaguya": true
     },
@@ -10086,10 +10434,11 @@ window.BOOTHS = [
         "url": "https://www.pixiv.net/users/21810609"
       }
     ],
-    "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n## 📝 CH19 出展重點\n- 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開)\n- 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200)\n- 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
+    "body": "- 魔女裁判\n\n## 📝 CH19 出展重點\n- 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開)\n- 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200)\n- 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
     "tags": {
       "super-kaguya": true,
-      "r18": true
+      "r18": true,
+      "mygo": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10327,8 +10676,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/shu_pong203",
     "area": "綜合",
-    "body": "- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica\n- プロジェクトセカイ",
-    "tags": {},
+    "body": "- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10364,7 +10715,7 @@ window.BOOTHS = [
     "author": "王家豪",
     "x_handle": "",
     "x_url": "https://www.facebook.com/MrFBA2/",
-    "body": "- 新刊 **『淪迴明月』** (燈祥 / A5 / 22P / 黑白 / NT 200)\n- 加印 **『昨日雨』** (燈祥)\n\n**CP**: 燈祥\n\n🔗 Facebook: [MrFBA2](https://www.facebook.com/MrFBA2/)",
+    "body": "- 新刊 **『淪迴明月』** (燈祥 / A5 / 22P / 黑白 / NT 200)\n- 加印 **『昨日雨』** (燈祥)\n\n**CP**: 燈祥",
     "tags": {},
     "warnings": [],
     "cover_urls": [
@@ -10539,8 +10890,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/yvonneching8218",
     "area": "綜合",
-    "body": "- bang dream\n- Ave Mujica\n- 日本女性聲優",
-    "tags": {},
+    "body": "- 日本女性聲優",
+    "tags": {
+      "avemujica": true,
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10562,8 +10916,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://reurl.cc/R9pnmz",
     "area": "綜合",
-    "body": "- MyGO!!!!!\n- Ave Mujica\n- Girls Band Cry",
-    "tags": {},
+    "body": "- Girls Band Cry",
+    "tags": {
+      "mygo": true,
+      "avemujica": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10619,8 +10976,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/harai.uine",
     "area": "綜合",
-    "body": "- 賽馬娘\n- BangDream!",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "uma-musume": true,
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10638,8 +10998,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://bestbandreamers.wixsite.com/mygo",
     "area": "綜合",
-    "body": "- BangDream! It's MyGO!!!!!\n- Girls Band Cry\n- BangDream! Ave Mujica",
-    "tags": {},
+    "body": "- Girls Band Cry",
+    "tags": {
+      "bandori": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -10711,7 +11073,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/mikan888/",
-    "body": "- 超時空輝耀姬\n- 請問您今天要來點兔子嗎？\n- Lycoris Recoil 莉可麗絲\n\n🔗 Facebook: [https://www.facebook.com/mikan888/](https://www.facebook.com/mikan888/)",
+    "body": "- 請問您今天要來點兔子嗎？\n- Lycoris Recoil 莉可麗絲",
     "tags": {
       "super-kaguya": true
     },
@@ -10812,9 +11174,10 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
-    "body": "- MYGO\n- 金牌得主\n- 超時空輝耀姬\n\n🔗 Facebook: [https://www.facebook.com/BLUE1OR2?locale=zh_TW](https://www.facebook.com/BLUE1OR2?locale=zh_TW)",
+    "body": "- 金牌得主",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "mygo": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10847,7 +11210,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/en/jadeverse",
-    "body": "- 超時空輝耀姬！\n\n🔗 lit.link: [https://lit.link/en/jadeverse](https://lit.link/en/jadeverse)",
+    "body": "- 超時空輝耀姬！",
     "tags": {
       "super-kaguya": true
     },
@@ -10879,9 +11242,10 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/MOLAMOLAComics",
-    "body": "- 超時空輝耀姬\n- 賽馬娘\n\n🔗 Facebook: [https://www.facebook.com/MOLAMOLAComics](https://www.facebook.com/MOLAMOLAComics)",
+    "body": "",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "uma-musume": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10986,7 +11350,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/choco6644",
-    "body": "- 超時空輝耀姬\n\n🔗 Plurk: [choco6644](https://www.plurk.com/choco6644)",
+    "body": "",
     "tags": {
       "super-kaguya": true
     },
@@ -11109,8 +11473,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/moonshadow331",
     "area": "綜合",
-    "body": "- BanG Dream It's MyGO!!!!! 高松燈x千早愛音\n- Nijisanji にじさんじ\n- 学園アイドルマスター",
-    "tags": {},
+    "body": "- BanG Dream It's MyGO!!!!! 高松燈x千早愛音\n- Nijisanji にじさんじ",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11128,8 +11494,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61555969822241",
     "area": "綜合",
-    "body": "- 少女歌劇\n- 崩壞3rd\n- 光之美少女",
-    "tags": {},
+    "body": "- 崩壞3rd",
+    "tags": {
+      "precure": true,
+      "rev-girl": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11147,8 +11516,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/SpaceFaucet/",
     "area": "綜合",
-    "body": "- 劍與魔法與自爆裝置\n- mygo!!!!\n- Ave Mujica",
-    "tags": {},
+    "body": "- 劍與魔法與自爆裝置",
+    "tags": {
+      "mygo": true,
+      "avemujica": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11193,8 +11565,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@nu.rkgk",
     "area": "VW",
-    "body": "- Vocaloid\n- 世界計畫 繽紛舞台！ feat.初音未來\n- 最終幻想14",
-    "tags": {},
+    "body": "- 世界計畫 繽紛舞台！ feat.初音未來\n- 最終幻想14",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11212,8 +11586,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/daybreak2779?",
     "area": "VW",
-    "body": "- 世界計畫\n- Vocaloid",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11231,8 +11607,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr",
     "area": "VW",
-    "body": "- Vocaloid",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11307,8 +11685,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/yyoaooao",
     "area": "VW",
-    "body": "- Vocaloid\n- プロセカ(世界計畫繽紛舞台！ feat.初音未來)",
-    "tags": {},
+    "body": "- プロセカ(世界計畫繽紛舞台！ feat.初音未來)",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11353,8 +11733,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/yua_neko",
     "area": "VW",
-    "body": "- VOCALOID",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11391,8 +11773,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/saza_073",
     "area": "VW",
-    "body": "- Vocaloid",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11476,8 +11860,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://diewhale.tokiame.net",
     "area": "VW",
-    "body": "- UTAU\n- vocaloid",
-    "tags": {},
+    "body": "- UTAU",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11495,8 +11881,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@yakinikuww_1220",
     "area": "VW",
-    "body": "- VOCALOID",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11514,8 +11902,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/yenchun916",
     "area": "VW",
-    "body": "- Vocaloid\n- Helluva Boss",
-    "tags": {},
+    "body": "- Helluva Boss",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11533,8 +11923,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/giwa10310425",
     "area": "VW",
-    "body": "- VOCALOID",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11552,8 +11944,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/mei.emerald.96?",
     "area": "VW",
-    "body": "- 初音交響樂\n- 重音\n- 原創",
-    "tags": {},
+    "body": "- 初音交響樂\n- 重音",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11704,8 +12098,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/tu.ben.hua?",
     "area": "VW",
-    "body": "- Vocaloid\n- 世界計畫",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11723,8 +12119,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/sakuraharu",
     "area": "VW",
-    "body": "- VOCALOID\n- KAITO",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -11785,8 +12183,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/whitericebear",
     "area": "VW",
-    "body": "- VOCALOID\n- 鏡音\n- 初音",
-    "tags": {},
+    "body": "- 鏡音",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12011,8 +12411,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/co.shih",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12087,8 +12489,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/IdolProduction74",
     "area": "偶大",
-    "body": "- 偶像大師系列\n- 蔚藍檔案\n- VSPO",
-    "tags": {},
+    "body": "- VSPO",
+    "tags": {
+      "blue-archive": true,
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12148,8 +12553,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://twitter.com/takapiyo",
     "area": "偶大",
-    "body": "- 學園偶像大師\n- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會",
-    "tags": {},
+    "body": "- 偶像大師灰姑娘女孩\n- 偶像大師百萬人演唱會",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12171,8 +12578,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/a983azy",
     "area": "偶大",
-    "body": "- 原創-睡著的咪系列\n- 偶像大師",
-    "tags": {},
+    "body": "- 原創-睡著的咪系列",
+    "tags": {
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12214,8 +12623,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/tku_imas_tw",
     "area": "偶大",
-    "body": "- 偶像大師系列",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12271,8 +12682,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/jyouka2019",
     "area": "偶大",
-    "body": "- 偶像大師系列",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12309,8 +12722,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/lian4302",
     "area": "偶大",
-    "body": "- Vocaloid\n- 偶像大師SideM",
-    "tags": {},
+    "body": "- 偶像大師SideM",
+    "tags": {
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12385,8 +12800,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/ricke.kao",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12404,8 +12821,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/liu.tong.xue.241219/",
     "area": "偶大",
-    "body": "- 學園偶像大師\n- 魔法少女的魔女審判\n- LoveLive!",
-    "tags": {},
+    "body": "- 魔法少女的魔女審判",
+    "tags": {
+      "lovelive": true,
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12423,8 +12843,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "www.facebook.com/edward98311",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12442,8 +12864,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/zdyui810",
     "area": "偶大",
-    "body": "- 偶像大師系列",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12465,8 +12889,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/huyume1023",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12488,8 +12914,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/jenniecongee",
     "area": "偶大",
-    "body": "- 偶像大師系列",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "idolmaster": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12507,8 +12935,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/Mikanseal074",
     "area": "偶大",
-    "body": "- アイマスシリーズ\n- 学園アイドルマスター",
-    "tags": {},
+    "body": "- アイマスシリーズ",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12592,8 +13022,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/xiao.xiao.zhang.520906",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12611,8 +13043,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/lift.quarter",
     "area": "偶大",
-    "body": "- 学園アイドルマスター",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12678,8 +13112,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/reisroom711/",
     "area": "偶大",
-    "body": "- 學園偶像大師",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "gakumas": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12739,8 +13175,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "#",
     "area": "綜合",
-    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": []
   },
@@ -12751,8 +13191,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3gvbo8hc97",
     "area": "綜合",
-    "body": "- 斯普拉遁\n- 寶可夢\n- 原創黑貓",
-    "tags": {},
+    "body": "- 斯普拉遁\n- 原創黑貓",
+    "tags": {
+      "pokemon": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12770,8 +13212,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/folia0702",
     "area": "綜合",
-    "body": "- 斯普拉遁3\n- 絕區零\n- 原創-毛毬",
-    "tags": {},
+    "body": "- 斯普拉遁3\n- 原創-毛毬",
+    "tags": {
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12793,8 +13237,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/karo3618",
     "area": "綜合",
-    "body": "- 崩壞：星穹鐵道\n- 原神\n- 重返未來1999",
-    "tags": {},
+    "body": "- 重返未來1999",
+    "tags": {
+      "genshin": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12812,8 +13259,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/CShiroha?",
     "area": "綜合",
-    "body": "- にじさんじ\n- 崩壞：星穹鐵道",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "nijisanji": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12831,8 +13281,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/nightleave1030",
     "area": "綜合",
-    "body": "- 絕區零\n- 崩壞:星穹鐵道\n- Nijisanji EN",
-    "tags": {},
+    "body": "- Nijisanji EN",
+    "tags": {
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12854,8 +13307,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/chj_joanna?igsh=MXBpZWhiNGRtOXJweg%3D%3D&utm_source=qr",
     "area": "綜合",
-    "body": "- 原神\n- 絕區零\n- 崩壞：星穹鐵道",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12877,8 +13334,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/harukam03",
     "area": "綜合",
-    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12896,8 +13357,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/gogo_wolf",
     "area": "綜合",
-    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12915,8 +13380,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/XingJustDrawIt",
     "area": "綜合",
-    "body": "- 艾爾登法環  黑夜君臨\n- 魔物獵人\n- 絕區零",
-    "tags": {},
+    "body": "- 艾爾登法環  黑夜君臨",
+    "tags": {
+      "monhun": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12938,8 +13406,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/2719",
     "area": "綜合",
-    "body": "- hololive\n- 原神\n- 崩壞星穹鐵道",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12961,8 +13433,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/ps.gojo.mm/",
     "area": "綜合",
-    "body": "- 絕區零\n- 崩壞:星穹鐵道\n- 原創-沒有名字的綿花糖",
-    "tags": {},
+    "body": "- 原創-沒有名字的綿花糖",
+    "tags": {
+      "hsr": true,
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12980,8 +13455,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/letyourmidpeace",
     "area": "綜合",
-    "body": "- 崩壞星穹鐵道\n- 寶可夢",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "pokemon": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -12999,8 +13477,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/lifa4dream",
     "area": "綜合",
-    "body": "- 崩壞：星穹鐵道\n- V-tuber",
-    "tags": {},
+    "body": "- V-tuber",
+    "tags": {
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13022,8 +13502,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/lostdeerisland",
     "area": "綜合",
-    "body": "- 戀與深空\n- 星穹鐵道\n- 原神",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "hsr": true,
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13112,8 +13596,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
     "area": "綜合",
-    "body": "- 蔚藍檔案\n- 孤獨搖滾\n- 原創-股市動畫系列",
-    "tags": {},
+    "body": "- 原創-股市動畫系列",
+    "tags": {
+      "blue-archive": true,
+      "bocchi-rock": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13159,8 +13646,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=100069793502478",
     "area": "綜合",
-    "body": "- vtuber\n- 葬送的芙莉蓮\n- 原創插畫",
-    "tags": {},
+    "body": "- 原創插畫",
+    "tags": {
+      "vtuber-jp": true,
+      "frieren": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13181,9 +13671,10 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/gutenmomo",
-    "body": "- 蔚藍檔案\n- 超時空輝耀姬！\n- Hololive EN\n\n🔗 Facebook: [https://www.facebook.com/gutenmomo](https://www.facebook.com/gutenmomo)",
+    "body": "- 超時空輝耀姬！\n- Hololive EN",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "blue-archive": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -13202,8 +13693,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/yuiotagiri?igsh=Mm84cHI5aHZzY3Vk&utm_source=qr",
     "area": "綜合",
-    "body": "- 個人原創 女僕作品\n- Hololive\n- 賽馬娘",
-    "tags": {},
+    "body": "- 個人原創 女僕作品",
+    "tags": {
+      "uma-musume": true,
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13221,8 +13715,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/yu.cheng.9843499",
     "area": "綜合",
-    "body": "- 原神\n- 原創-下空少女\n- 明日方舟",
-    "tags": {},
+    "body": "- 原創-下空少女",
+    "tags": {
+      "genshin": true,
+      "arknights": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13244,8 +13741,12 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/en/gubiTW",
     "area": "綜合",
-    "body": "- 崩壞星穹鐵道\n- 原神\n- 明日方舟",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "genshin": true,
+      "arknights": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13263,8 +13764,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1BwHfvUqMu/",
     "area": "綜合",
-    "body": "- Hololive EN Ina\n- Hololive EN Bijou\n- 原神",
-    "tags": {},
+    "body": "- Hololive EN Ina\n- Hololive EN Bijou",
+    "tags": {
+      "genshin": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13320,8 +13823,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://linktr.ee/Bubble_Wave",
     "area": "綜合",
-    "body": "- 原創- 白星和她奇怪朋友們的日常生活\n- 絕區零",
-    "tags": {},
+    "body": "- 原創- 白星和她奇怪朋友們的日常生活",
+    "tags": {
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13362,8 +13867,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://sakuds.carrd.co",
     "area": "綜合",
-    "body": "- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13423,8 +13930,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@45_artwork",
     "area": "綜合",
-    "body": "- 崩壞星穹鐵道",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13442,8 +13951,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/b.c1206",
     "area": "綜合",
-    "body": "- 崩壞星穹鐵道\n- 原創-DxL\n- Vtuber",
-    "tags": {},
+    "body": "- 原創-DxL",
+    "tags": {
+      "vtuber-jp": true,
+      "hsr": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13461,8 +13973,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/botoakaza?igsh=N3FsMWRjMmxtZTE1&utm_source=qr",
     "area": "綜合",
-    "body": "- 初音未來\n- 主播女孩重度依賴\n- にじさんじ",
-    "tags": {},
+    "body": "- 主播女孩重度依賴",
+    "tags": {
+      "vocaloid": true,
+      "nijisanji": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13480,8 +13995,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/t0ng_eyyy/",
     "area": "綜合",
-    "body": "- hololive_ina\n- 特戰英豪\n- 原創",
-    "tags": {},
+    "body": "- hololive_ina\n- 特戰英豪",
+    "tags": {
+      "original": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13499,8 +14016,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/coolcoolburger",
     "area": "綜合",
-    "body": "- 絕區零",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "zzz": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13537,8 +14056,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/ss0912309713",
     "area": "綜合",
-    "body": "- 原創漫畫_根/社刊\n- 世界計畫\n- 原神",
-    "tags": {},
+    "body": "- 原創漫畫_根/社刊",
+    "tags": {
+      "genshin": true,
+      "vocaloid": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13556,8 +14078,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/MFgeldian/",
     "area": "綜合",
-    "body": "- HOLOLIVE\n- RO仙境傳說\n- 地獄旅館",
-    "tags": {},
+    "body": "- RO仙境傳說\n- 地獄旅館",
+    "tags": {
+      "hololive": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13819,8 +14343,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/rainfox2021?igsh=YXN4cDRvbW5kOTRs",
     "area": "綜合",
-    "body": "- 戀與深空",
-    "tags": {},
+    "body": "",
+    "tags": {
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13838,8 +14364,10 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.instagram.com/endlessnight_tw?igsh=YWdmN3U4d3J0OThh",
     "area": "綜合",
-    "body": "- 崩鐵\n- 戀與深空\n- 光與夜之戀",
-    "tags": {},
+    "body": "- 崩鐵\n- 光與夜之戀",
+    "tags": {
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
@@ -13895,8 +14423,11 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/hijin_handmand",
     "area": "綜合",
-    "body": "- 刀劍亂舞\n- F1\n- 戀與深空",
-    "tags": {},
+    "body": "- F1",
+    "tags": {
+      "touken": true,
+      "love-deepspace": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
