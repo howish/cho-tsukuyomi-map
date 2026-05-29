@@ -10233,21 +10233,39 @@ window.BOOTHS = [
         "platform": "doujin_tw",
         "handle": "",
         "url": "https://www.doujin.com.tw/authors/info/x20285/books"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@hane_anna",
+        "url": "https://www.plurk.com/hane_anna"
+      },
+      {
+        "platform": "pixiv",
+        "handle": "130351",
+        "url": "https://www.pixiv.net/member.php?id=130351"
       }
     ],
-    "body": "- 鋼管公主\n\n## 📝 CH19 出展重點\n- 安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
+    "body": "## 📝 CH19 出展重點\n\n**新刊 / 新品**:\n- 「Stairs&Stairs Closet」 — 東方 · 蕾米莉亞 — B5 / 2P 彩＋12P 黑白 / NT 100 (限定: 隨書送手繪杯墊 ×1，非加販會限定)\n- 「直筆色紙」 — 多主題、 多尺寸 — 迷你 NT 300 起 ／ 中 NT 500 起 ／ 大 NT 1500 起 (現場挑選)\n- 「新月透明收納盒」 — A5 / 約 22×16×5.5cm / NT 200 (可收 A5 本＋明信片＋小物)\n- 「鋼管公主小說」 — NT 100\n\n**無料小報** (各 A5 / 2P):\n- 鋼管公主\n- 超時空輝耀姬\n\n**消費禮**: 帶留檔案的 KEI 本＋貼紙\n\n**既刊**: 東方 ／ 少女前線 ／ 鋼管公主 ／ 戰姬絕唱シンフォギア 等\n\n出處: [Plurk 宣傳](https://www.plurk.com/p/3iqc24eb8g)\n\n安奈Anna (105 件 doujin 的長期作家)",
     "tags": {
       "super-kaguya": true,
-      "touhou": true
+      "touhou": true,
+      "manga": true,
+      "free": true
     },
     "warnings": [],
     "_meta_scrape_sk": {
-      "platform_used": "doujin_tw",
+      "platform_used": "plurk",
       "hand_note": true,
       "detected_cps": [],
-      "has_ch19_post": false
+      "has_ch19_post": true
     },
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iqc24eb8g",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-31/plurk-3iqc24eb8g/0.jpg",
+        "display_locked": false
+      }
+    ],
     "area": "百合"
   },
   {
