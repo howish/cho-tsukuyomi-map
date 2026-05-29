@@ -686,7 +686,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://linktr.ee/taiwanlilyproject",
-    "body": "- 原創-百合研究筆記\n\n**專區**: 百合\n\n🔗 Linktree: [https://linktr.ee/taiwanlilyproject](https://linktr.ee/taiwanlilyproject)",
+    "body": "- 原創-百合研究筆記\n\n**專區**: 百合\n\n🔗 Linktree: [https://linktr.ee/taiwanlilyproject](https://linktr.ee/taiwanlilyproject)\n\n## 📝 CH19 出展重點\n**S-12 初出展** ／ 主は研究筆記 (女同志博士生によるTaiwan百合漫畫研究) ／ 当日は買收集た 台灣百合作品の sharing 予定 (会場交流ベース)\n- [出展宣告](https://x.com/i/status/2057788598590796146) / [復帰挨拶](https://x.com/i/status/2057788596535587101)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -1279,12 +1279,18 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/spton",
-    "body": "## 📝 CH19 出展重點\nS30 出展 ／ 場次明信片 ibon 印好後分發\n- [原 post (明信片 announce)](https://www.plurk.com/p/3htmz2wzs2)",
+    "body": "## 📝 CH19 出展重點\nS-30 出展 ／ R18 新刊 **『至少這部分是誠實的。』** (機動戰士鋼彈水星的魔女、 スレッタ×ミオリネ、 A5 / 右翻 / 膠裝 / 22P / 150元) ／ 場次明信片 ibon 印好後分發\n- [新刊 post](https://www.plurk.com/p/3iq8pqwbd7) / [明信片 announce](https://www.plurk.com/p/3htmz2wzs2)",
     "tags": {
-      "yuri-zone": true
+      "yuri-zone": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq8pqwbd7",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-30/plurk-3iq8pqwbd7/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.plurk.com/p/3htmz2wzs2",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-30/0.jpg",
