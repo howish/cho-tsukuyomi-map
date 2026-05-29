@@ -460,7 +460,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/shi.zhong.394980/",
-    "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/shi.zhong.394980/](https://www.facebook.com/shi.zhong.394980/)",
+    "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/shi.zhong.394980/](https://www.facebook.com/shi.zhong.394980/)\n## 📝 CH19 出展重點\nS-05/06 出展 (山鐘塔第三防衛機關) ／ シリーズ別:\n- **原創** (CP: 張景嵐x郡上奏): **「《魚》」** ／ **「《夜晚的泳池深不見底》」** ／ **「《和頭上有發光披薩圈圈的女孩子 交朋友的十種方法》」** / 漫畫\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -616,7 +616,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "Chihlun42",
     "x_url": "https://x.com/Chihlun42",
-    "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 X: [Chihlun42](https://x.com/Chihlun42)",
+    "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 X: [Chihlun42](https://x.com/Chihlun42)\n## 📝 CH19 出展重點\nS-10 出展 (Majuchime) ／ シリーズ別:\n- **原創** (CP: 諾雅 × 英里娜): **「(未名)」**\n- **バンドリ!** (CP: 諾雅 × 英里娜): **「(未名)」**\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "original": true,
       "manga": true,
@@ -661,7 +661,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3i2nll7mkt",
-    "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n**專區**: 百合\n\n🔗 Plurk: [p](https://www.plurk.com/p/3i2nll7mkt)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)",
+    "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n**專區**: 百合\n\n🔗 Plurk: [p](https://www.plurk.com/p/3i2nll7mkt)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n## 📝 CH19 出展重點\nS-11 出展 (芒果汁加珍珠) ／ シリーズ別:\n- **PSYCHO-PASS 心靈判官** (CP: 常守朱x霜月美佳): **「《霜月課長與常守執行官》」** / 漫畫 / NT 未定 / 我會出的我會出的 ／ **「《未竟之路》」** / NT 100 ／ **「朱霜明信片」** / 周邊 / NT 30 / 燙金明信片 ／ **「奇異果貼紙 毛絨絨ver.」** / NT 50 / 植絨貼紙 ／ **「奇異果貼紙 春季百合ver.」** / NT 50 / 透明貼紙 ／ **「奇異果貼紙 打籃球ver.」** / NT 50 / 雷射貼紙\n- **PSYCHO-PASS 心靈判官** (CP: 霜月美佳x常守朱): **「霜朱光透鏡」** / NT 100 / 實拍圖\n- **原創** (CP: 奇異果企鵝): **「奇異果貼紙 冬季百合ver.」** / 周邊 / NT 50 / 透明貼紙\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -1166,7 +1166,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/pipi.yaya.90",
-    "body": "- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/pipi.yaya.90](https://www.facebook.com/pipi.yaya.90)",
+    "body": "- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/pipi.yaya.90](https://www.facebook.com/pipi.yaya.90)\n## 📝 CH19 出展重點\nS-27 出展 (台北祥初女) ／ シリーズ別:\n- **バンドリ!** (CP: 初華 x 祥子): **「祥初自組立牌」** / 周邊\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1528,7 +1528,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "pomeka35",
     "x_url": "https://x.com/pomeka35",
-    "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n\n**專區**: 百合\n\n🔗 X: [pomeka35](https://x.com/pomeka35)",
+    "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n\n**專區**: 百合\n\n🔗 X: [pomeka35](https://x.com/pomeka35)\n## 📝 CH19 出展重點\nS-37/38 出展 (小花) ／ シリーズ別:\n- **VTUBER** (CP: micomet): **「毛茸茸同居人1」** / 漫畫 / NT 350 ／ **「毛茸茸同居人2」** ／ **「mcmt按鍵吊飾」** / 周邊 / NT 150 ／ **「旋轉壓克力吊飾」** / NT 200 ／ **「壓克力可串串吊飾」** / NT 200\n- **VTUBER** (CP: miko): **「小花團子」** / NT 200\n- **VTUBER** (CP: fubumicomet﹑船長): **「壓克力飯友」** / NT 100\n- **超かぐや姫！** (CP: 彩葉): **「夜光彩葉吊飾」** / NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- **VTUBER** (CP: 輝耀﹑彩葉﹑八千代): **「旋轉壓克力吊飾」** / NT 200\n- **VTUBER** (CP: 輝耀﹑彩葉﹑八千代﹑不死): **「壓克力飯友」** / NT 100\n- **バンドリ!** (CP: MyGO!!!!!﹑Ave Mujica): **「壓克力飯友」** / NT 100\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -2423,7 +2423,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "amane61115",
     "x_url": "https://x.com/amane61115",
-    "body": "- 蓮ノ空女學院スクールアイドルクラブ\n\n**專區**: 百合\n\n🔗 X: [amane61115](https://x.com/amane61115)",
+    "body": "- 蓮ノ空女學院スクールアイドルクラブ\n\n**專區**: 百合\n\n🔗 X: [amane61115](https://x.com/amane61115)\n## 📝 CH19 出展重點\nT-11 出展 (白河夜船) ／ シリーズ別:\n- **ラブライブ!** (CP: 姬ｘ吟): ★新 **「Vaporeux」** / 漫畫 / NT 250\n- **佐賀偶像是傳奇** (CP: 純ｘ愛): ★新 **「Convallaria」** / 漫畫 / NT 50\n- **ラブライブ!** (CP: 神秘): ★新 **「神秘無料」** / 漫畫 / NT 無料 / 需通關密語\n- **偶像學園** (CP: 堇/凜): ★新 **「明信片(2款)」** / 周邊 / NT 20/款\n- **ラブライブ!** (CP: 瑠慈): 既 **「一覺醒來 我原地穿越到了 兩年前？！」** / 漫畫 / NT 200\n- **星穹鐵道** (CP: 雅蝶): 既 **「卡薩布蘭卡」** / 漫畫 / NT 50\n- **VTUBER** (CP: みらるた): 既 **「飯友」** / 周邊 / NT 200/組\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true
     },
@@ -3035,7 +3035,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://kvoid000.wixsite.com/corvus",
-    "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n**專區**: 百合\n\n🔗 出處: [https://kvoid000.wixsite.com/corvus](https://kvoid000.wixsite.com/corvus)",
+    "body": "- HololiveMyth\n- 睦祥(mygo, AveMujica)\n- fate\n\n**專區**: 百合\n\n🔗 出處: [https://kvoid000.wixsite.com/corvus](https://kvoid000.wixsite.com/corvus)\n## 📝 CH19 出展重點\nT-28 出展 (烏鴉) ／ シリーズ別:\n- **VTUBER** (CP: Ina Ame): ★新 **「耀眼」** / 漫畫 / NT 200 / A5/32P ／ ★新 **「明信片  （2種）」** / 明信片 / NT 20 ／ ★新 **「漫畫風格明信片」** / 明信片 / NT 20 ／ ★新 **「未公布明信片」** / 明信片 / NT 20 ／ ★新 **「未公布明信片」** / 明信片 / NT 20 ／ ★新 **「Tomodachi life 刻海」** / 短漫畫 / NT 無料 / A5/4P ／ ★新 **「黑幫主題壓克力吊飾 （2種）」** / 壓克力吊飾 / NT 150 ／ ★新 **「貼紙 （2種）」** / 貼紙 / NT 無料\n- **VTUBER** (CP: Ina): ★新 **「黑幫主題壓克力吊飾」** / 壓克力吊飾 / NT 150\n- **VTUBER** (CP: Myth 5人): ★新 **「明信片」** / 明信片 / NT 20\n- **VTUBER** (CP: Ina Ame Gura): ★新 **「貼紙 （3種）」** / 貼紙 / NT 無料\n- **星穹鐵道** (CP: 刻律德菈 海瑟音): ★新 **「明信片」** / 明信片 / NT 20\n- **絕區零** (CP: 柚葉 艾麗絲): ★新 **「未公布明信片」** / 明信片 / NT 20\n- **鳴潮** (CP: 弗洛洛 女漂泊者): ★新 **「明信片」** / 明信片 / NT 20\n- **Fate** (CP: 織田信長): ★新 **「黑幫主題壓克力吊飾」** / 壓克力吊飾 / NT 150\n- **VTUBER** (CP: 伊莉雅): ★新 **「黑幫主題壓克力吊飾」** / 壓克力吊飾 / NT 150\n- **VTUBER** (CP: 信長 沖田): ★新 **「未公布明信片」** / 明信片 / NT 20\n- **明日方舟** (CP: 陳): ★新 **「黑幫主題壓克力吊飾」** / 壓克力吊飾 / NT 150\n- **VTUBER** (CP: 德克薩斯 拉普蘭德): ★新 **「未公布明信片」** / 明信片 / NT 20\n- **上伊那牡丹，醉姿如百合** (CP: 牡丹 伊吹): ★新 **「未公布明信片(趕工中)」** / 明信片 / NT 20 / 趕工中\n- **VTUBER** (CP: 茜 八重花): ★新 **「未公布明信片(趕工中)」** / 明信片 / NT 20 / 趕工中\n- **VTUBER** (CP: 景嵐 奏): ★新 **「未公布明信片(趕工中)」** / 明信片 / NT 20 / 趕工中\n- **バンドリ!** (CP: 睦祥): ★新 **「明信片 （2種）」** / 明信片 / NT 20\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true
     },
@@ -3097,7 +3097,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://interweave.booth.pm/",
-    "body": "- 東方Project\n\n**專區**: 百合\n\n🔗 出處: [https://interweave.booth.pm/](https://interweave.booth.pm/)",
+    "body": "- 東方Project\n\n**專區**: 百合\n\n🔗 出處: [https://interweave.booth.pm/](https://interweave.booth.pm/)\n## 📝 CH19 出展重點\nT-30 出展 (錯落交織 Interweave) ／ シリーズ別:\n- **東方Project** (CP: 秘封俱樂部 / 蓮メリ / 蓮子×梅莉): 既 **「Random Walk」** / 小說 / NT 250 / A5 / 80P\n- **東方Project** (CP: 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘): 既 **「Flawless Dreamers」** / 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true
     },
@@ -3131,7 +3131,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yuclovers",
-    "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yuclovers](https://www.facebook.com/yuclovers)",
+    "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yuclovers](https://www.facebook.com/yuclovers)\n## 📝 CH19 出展重點\nT-32 出展 (魚燒) ／ シリーズ別:\n- **\"バンドリ!** (CP: 愛爽): ★新 **「千早愛音 我真的會被你氣死」** / 漫畫 / NT 240 / 品書 ／ **「甚麼叫做 誤會的我也很可愛!?」** / NT 240 ／ 既 **「きらめく君と、彩る日々」** / NT 200\n- **\"バンドリ!** (CP: 燈祥): **「並拾色」** / NT 250\n- **\"バンドリ!** (CP: 睦祥): **「たった一つの、 帰るべき場所」** / NT 200\n- **\"バンドリ!** (CP: MyGO!!!!!): 既 **「MyGO手機架」** / 手機架 / NT 160\n- **少女歌劇** (CP: 迷宮): **「迷宮旋轉跑跑立牌」** / 立牌 / NT 120\n- **\"バンドリ!** (CP: 九九組): **「劇場版色紙*9」** / 色紙 / NT 40/1\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
