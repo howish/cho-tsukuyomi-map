@@ -11344,11 +11344,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/share/1CW7dbAXA1/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-25_26/share-1CW7dbAXA1/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/18cRKov5TX/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-25_26/share-18cRKov5TX/0.jpg",
         "display_locked": false
