@@ -11317,19 +11317,31 @@ window.BOOTHS = [
         "platform": "ig",
         "handle": "@lunoestory.novel",
         "url": "https://www.instagram.com/lunoestory.novel/"
+      },
+      {
+        "platform": "threads",
+        "handle": "@l90715566123",
+        "url": "https://www.threads.com/@l90715566123"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊 **[『百合餓狼之盟』](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/)** 無期迷途 百合二創 小說合集 首賣 (6 作家 × 8 短篇、 A5 右翻 約 150 頁) ／ 場販 NT 250、 預購/網購 NT 280 (網購餘量限定)",
+    "body": "## 📝 IF7 出展重點\n\nT-42 「百合餓狼之盟」 — 百合二創\n\n**新刊**:\n- 『十年間的日常 〜想與妳成為戀人』 — 超時空輝耀姬\n- [**『MBCC 局長與她的女人們』**](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/) — 無期迷途 百合小說合本\n\n**無料**:\n- 無期迷途 明信片 — 一人限一張、 拿完為止\n- 古代百合 NP 封面 認親卡 — 一人限一張\n\n**簽名服務**: OK、 較空閒時段建議下午。合本簽名以攤位上的小艾 + @lunoestory.novel 為限。\n\n**預購**: 已寄信 (請查垃圾信箱)\n\n💡 請自備零錢／小鈔\n\n出處: [Threads 場前宣傳](https://www.threads.com/@l90715566123/post/DY17ZuIlGIH)",
     "tags": {
-      "original": true,
-      "novel": true
+      "super-kaguya": true,
+      "novel": true,
+      "goudou": true,
+      "free": true
     },
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-42/0.jpg",
-        "display_locked": true
+        "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/threads-DY17ZuIlGIH/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/threads-DY17ZuIlGIH/1.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
