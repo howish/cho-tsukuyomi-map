@@ -632,6 +632,9 @@
 
       const imgList = el('div', { class: 'edit-images-list' });
       const rowsState = [];
+      // Tracks the row currently being dragged. Module-level closure so all
+      // rows share visibility; reset on dragend or successful drop.
+      let draggingState = null;
 
       // Forward declaration so makeRow can reference refreshIndices.
       function refreshIndices() {
@@ -645,6 +648,13 @@
         const state = { row, locked: !!cover.display_locked };
 
         const header = el('div', { class: 'edit-images-row-header' });
+        // Drag handle: ⋮⋮ grip icon, draggable initiates HTML5 drag.
+        // ↑↓ buttons stay as accessible/mobile-friendly fallback.
+        const dragHandle = el('span', {
+          class: 'edit-images-drag-handle',
+          title: T('edit_image_drag_tooltip'),
+          draggable: 'true',
+        }, '⋮⋮');
         state.indexLabel = el('span', { class: 'edit-images-row-idx' }, '');
         const upBtn = el('button', {
           type: 'button', class: 'edit-images-move-btn', title: T('edit_image_move_up_tooltip'),
@@ -668,6 +678,53 @@
           imgList.insertBefore(rowsState[idx].row, row);
           refreshIndices();
         });
+
+        dragHandle.addEventListener('dragstart', (e) => {
+          draggingState = state;
+          e.dataTransfer.effectAllowed = 'move';
+          // Firefox requires setData to initiate drag.
+          try { e.dataTransfer.setData('text/plain', ''); } catch (_) {}
+          row.classList.add('dragging');
+        });
+        dragHandle.addEventListener('dragend', () => {
+          row.classList.remove('dragging');
+          rowsState.forEach(s => s.row.classList.remove('drop-before', 'drop-after'));
+          draggingState = null;
+        });
+        row.addEventListener('dragover', (e) => {
+          if (!draggingState || draggingState === state) return;
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          const rect = row.getBoundingClientRect();
+          const before = e.clientY < rect.top + rect.height / 2;
+          row.classList.toggle('drop-before', before);
+          row.classList.toggle('drop-after', !before);
+        });
+        row.addEventListener('dragleave', (e) => {
+          // Only clear when leaving the row itself, not a child element.
+          if (e.target === row) {
+            row.classList.remove('drop-before', 'drop-after');
+          }
+        });
+        row.addEventListener('drop', (e) => {
+          if (!draggingState || draggingState === state) return;
+          e.preventDefault();
+          row.classList.remove('drop-before', 'drop-after');
+          const rect = row.getBoundingClientRect();
+          const before = e.clientY < rect.top + rect.height / 2;
+          const srcIdx = rowsState.indexOf(draggingState);
+          if (srcIdx < 0) return;
+          rowsState.splice(srcIdx, 1);
+          draggingState.row.remove();
+          const tgtIdx = rowsState.indexOf(state);
+          const insertIdx = before ? tgtIdx : tgtIdx + 1;
+          rowsState.splice(insertIdx, 0, draggingState);
+          if (before) imgList.insertBefore(draggingState.row, row);
+          else if (row.nextSibling) imgList.insertBefore(draggingState.row, row.nextSibling);
+          else imgList.appendChild(draggingState.row);
+          refreshIndices();
+        });
+
         const removeBtn = el('button', {
           type: 'button', class: 'edit-images-remove-btn',
         }, T('edit_image_remove'));
@@ -677,6 +734,7 @@
           row.remove();
           refreshIndices();
         });
+        header.appendChild(dragHandle);
         header.appendChild(state.indexLabel);
         header.appendChild(upBtn);
         header.appendChild(downBtn);
