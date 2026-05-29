@@ -751,7 +751,28 @@
       // --- Overlay carousel render ---
       // Mirrors rowsState. Each slide gets ◀ × ▶ overlays + [i/N] index.
       // Re-rendered on any mutation so the user always sees current order.
-      function renderEditCarousel() {
+      // Tracks the slide the user was viewing before a rebuild so we can
+      // restore scroll position. Updated by overlay handlers (which know the
+      // moved/removed cover's new index) and by scroll events on the
+      // carousel itself (so the position survives unrelated re-renders too).
+      let lastFocusIdx = 0;
+      function readCurrentScrollIdx() {
+        const c = carouselHolder.querySelector('.cover-carousel');
+        if (!c || !c.children.length) return 0;
+        const first = c.children[0];
+        const w = first.getBoundingClientRect().width;
+        if (w <= 0) return 0;
+        return Math.round(c.scrollLeft / w);
+      }
+      function scrollToIdx(idx) {
+        const c = carouselHolder.querySelector('.cover-carousel');
+        if (!c || !c.children[idx]) return;
+        // Use instant behavior so the snap doesn't visually flash to 0.
+        c.scrollTo({ left: c.children[idx].offsetLeft, behavior: 'instant' });
+      }
+      function renderEditCarousel(scrollTargetIdx) {
+        // Default target: whatever the user was last looking at.
+        const target = (scrollTargetIdx != null) ? scrollTargetIdx : lastFocusIdx;
         carouselHolder.textContent = '';
         const carousel = el('div', { class: 'cover-carousel cover-carousel-edit' });
         if (!rowsState.length) {
@@ -794,7 +815,9 @@
             rowsState.splice(idx, 1);
             s.row.remove();
             refreshIndices();
-            renderEditCarousel();
+            // Stay on the same index (now showing what was next) — clamp.
+            const tgt = Math.max(0, Math.min(idx, rowsState.length));
+            renderEditCarousel(tgt);
           });
           frame.appendChild(delBtn);
           // Overlay: ◀ ▶ reorder (edge buttons, hidden when not applicable)
@@ -810,7 +833,8 @@
             [rowsState[idx - 1], rowsState[idx]] = [rowsState[idx], rowsState[idx - 1]];
             imgList.insertBefore(s.row, rowsState[idx].row);
             refreshIndices();
-            renderEditCarousel();
+            // Follow the moved cover — it's now at idx-1.
+            renderEditCarousel(idx - 1);
           });
           const rightBtn = el('button', {
             type: 'button', class: 'cover-edit-arrow cover-edit-arrow-right',
@@ -824,7 +848,8 @@
             [rowsState[idx], rowsState[idx + 1]] = [rowsState[idx + 1], rowsState[idx]];
             imgList.insertBefore(rowsState[idx].row, s.row);
             refreshIndices();
-            renderEditCarousel();
+            // Follow the moved cover — it's now at idx+1.
+            renderEditCarousel(idx + 1);
           });
           frame.appendChild(leftBtn);
           frame.appendChild(rightBtn);
@@ -843,7 +868,8 @@
           rowsState.push(s);
           imgList.appendChild(s.row);
           refreshIndices();
-          renderEditCarousel();
+          // Land on the newly added slot (now at length-1).
+          renderEditCarousel(rowsState.length - 1);
           // Open advanced section so user can paste URL into the new row
           advancedDetails.open = true;
           if (s.srcInput) s.srcInput.focus();
@@ -852,6 +878,19 @@
         carousel.appendChild(addSlide);
         carouselHolder.appendChild(carousel);
         carouselHolder.appendChild(el('p', { class: 'carousel-hint' }, T('edit_carousel_hint')));
+        // Track scroll position so the next rebuild can land on the same slide.
+        let scrollRaf = null;
+        carousel.addEventListener('scroll', () => {
+          if (scrollRaf) return;
+          scrollRaf = requestAnimationFrame(() => {
+            scrollRaf = null;
+            lastFocusIdx = readCurrentScrollIdx();
+          });
+        });
+        // Restore scroll position after the layout has committed.
+        const clamped = Math.max(0, Math.min(target, carousel.children.length - 1));
+        lastFocusIdx = clamped;
+        requestAnimationFrame(() => scrollToIdx(clamped));
       }
       // Tracks the row currently being dragged. Module-level closure so all
       // rows share visibility; reset on dragend or successful drop.
@@ -890,6 +929,7 @@
           rowsState[idx - 1] = state;
           imgList.insertBefore(row, rowsState[idx].row);
           refreshIndices();
+          renderEditCarousel(idx - 1);
         });
         downBtn.addEventListener('click', () => {
           const idx = rowsState.indexOf(state);
@@ -898,6 +938,7 @@
           rowsState[idx + 1] = state;
           imgList.insertBefore(rowsState[idx].row, row);
           refreshIndices();
+          renderEditCarousel(idx + 1);
         });
 
         dragHandle.addEventListener('dragstart', (e) => {
@@ -944,6 +985,7 @@
           else if (row.nextSibling) imgList.insertBefore(draggingState.row, row.nextSibling);
           else imgList.appendChild(draggingState.row);
           refreshIndices();
+          renderEditCarousel(rowsState.indexOf(draggingState));
         });
 
         const removeBtn = el('button', {
@@ -954,6 +996,7 @@
           if (idx >= 0) rowsState.splice(idx, 1);
           row.remove();
           refreshIndices();
+          renderEditCarousel(Math.max(0, Math.min(idx, rowsState.length)));
         });
         header.appendChild(dragHandle);
         header.appendChild(state.indexLabel);
