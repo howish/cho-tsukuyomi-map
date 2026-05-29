@@ -20,6 +20,12 @@ window.I18N_STRINGS = {
     disclaimer_html_prefix: '🍃 <strong>非公式 fan guide</strong> ／ 公式情報は ',
     disclaimer_html_suffix: ' 参照。 サークル情報は各作家の SNS 公開ポスト (X / Threads / Plurk / FB / IG / Bsky 等) より集約、 誤りや更新は出典 link から原ポストでご確認ください。',
 
+    // Community-curated catalog credit — open-submit gsheet maintained by
+    // attendees, used as a second source for items / prices / CPs.
+    community_credit_html_prefix: '🤝 一部サークル情報は コミュニティ共筆 ',
+    community_credit_html_link_label: '2026 IF 創集繪百合主題 吃土單',
+    community_credit_html_suffix: ' を参照しています。 community 編集 sheet のため作家本人入力の保証なし — 正確性は最終的に作家本人の SNS / 当日 booth で確認お願いします。',
+
     // Footer
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
     footer_build_date: ' ／ {date}',
@@ -169,6 +175,10 @@ window.I18N_STRINGS = {
 
     disclaimer_html_prefix: '🍃 <strong>非官方 fan guide</strong>／官方資訊請參考 ',
     disclaimer_html_suffix: ' 。攤位資訊聚合自各作者的 SNS 公開貼文 (X / Threads / Plurk / FB / IG / Bsky 等)，更正或更新請從出處連結至原貼文確認。',
+
+    community_credit_html_prefix: '🤝 部分攤位資訊參考自社群共筆 ',
+    community_credit_html_link_label: '2026 IF 創集繪百合主題 吃土單',
+    community_credit_html_suffix: '。此為開放編輯試算表，無法保證作者本人輸入，最終正確性請以作者 SNS 或現場攤位資訊為準。',
 
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
     footer_build_date: '／{date}',

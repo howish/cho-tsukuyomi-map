@@ -28,6 +28,10 @@ window.EVENT_CONFIG = {
   official_url: "https://ch.gjs.tw/",
   official_label: "Comic Horizon 19 官網 (GJ工作室)",
 
+  // Community-curated gsheet (open-submit) catalog. Used as a secondary
+  // source — credited in the page header so the maintainers get respect.
+  community_catalog_url: "https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/",
+
   // Venue map — full IF7 2026/05/30 official map, resized to ≤2000px.
   map_image: "map.jpg",
   map_caption: "© IF7 official 場館配置圖 (GJ工作室)",

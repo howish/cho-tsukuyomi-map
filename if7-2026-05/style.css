@@ -47,6 +47,17 @@ header .disclaimer {
   max-width: 600px;
 }
 
+header .community-credit {
+  margin: 0.5rem auto 0 auto;
+  font-size: 0.78rem;
+  opacity: 0.85;
+  max-width: 600px;
+  padding: 0.35rem 0.6rem;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  border: 1px dashed rgba(255, 215, 0, 0.4);
+}
+
 header a {
   color: #ffd700;
   text-decoration: underline;

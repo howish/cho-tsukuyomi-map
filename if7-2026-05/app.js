@@ -70,6 +70,12 @@
         `<a href="${escapeAttr(EVENT.official_url)}" target="_blank" rel="noopener">${escapeHtml(EVENT.official_label || EVENT.name)}</a>` +
         T('disclaimer_html_suffix');
     }
+    const credit = document.getElementById('community-credit');
+    if (credit && EVENT.community_catalog_url) {
+      credit.innerHTML = T('community_credit_html_prefix') +
+        `<a href="${escapeAttr(EVENT.community_catalog_url)}" target="_blank" rel="noopener">${escapeHtml(T('community_credit_html_link_label'))}</a>` +
+        T('community_credit_html_suffix');
+    }
     const mapSection = document.querySelector('.map-section');
     if (EVENT.map_image) {
       const m = document.getElementById('venue-map');
