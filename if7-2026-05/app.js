@@ -234,8 +234,22 @@
     const section = document.getElementById('booths-section');
     if (!section) return;
     ROWS.forEach(row => {
-      section.appendChild(el('h2', { class: 'row-title' }, T('row_label', { row })));
+      const h = el('h2', { class: 'row-title', 'data-row': row }, T('row_label', { row }));
+      section.appendChild(h);
       section.appendChild(el('div', { class: 'booth-grid', id: 'grid-' + row }));
+    });
+  }
+
+  // Hide row-title h2 when every card in the next-sibling .booth-grid is
+  // display:none (i.e. nothing matches the current filter). Re-run after
+  // each applyFilters() pass.
+  function syncRowTitleVisibility() {
+    document.querySelectorAll('.row-title').forEach(h => {
+      const grid = h.nextElementSibling;
+      if (!grid || !grid.classList.contains('booth-grid')) return;
+      const anyVisible = Array.from(grid.querySelectorAll('.booth-card'))
+        .some(c => c.style.display !== 'none');
+      h.style.display = anyVisible ? '' : 'none';
     });
   }
 
@@ -469,23 +483,35 @@
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
     }
-    if (b.x_handle) {
-      meta.appendChild(el('a', {
-        href: 'https://x.com/' + b.x_handle,
-        target: '_blank', rel: 'noopener', class: 'handle-link',
-      }, '@' + b.x_handle));
+    // Build the platform chip set — dedupe by URL host+path so the same
+    // link doesn't render twice (e.g. b.x_handle and a socials entry both
+    // pointing to the same X profile, or two socials entries that both
+    // resolved to the same X handle).
+    const seenSocialUrls = new Set();
+    function normSocialUrl(u) {
+      if (!u) return '';
+      return u.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/+$/, '').toLowerCase();
     }
-    // Multi-platform social chips. Structured per booth as `socials: [{platform, handle, url}, ...]`.
+    function addSocialChip(platform, handle, url, extraClass) {
+      const norm = normSocialUrl(url);
+      if (!norm || seenSocialUrls.has(norm)) return;
+      seenSocialUrls.add(norm);
+      const label = handle
+        ? `${platformIcon(platform)} ${handle}`
+        : `${platformIcon(platform)} ${T('modal_source_' + platform)}`;
+      meta.appendChild(el('a', {
+        href: url, target: '_blank', rel: 'noopener',
+        class: 'social-chip social-chip-' + platform + (extraClass ? ' ' + extraClass : ''),
+        title: T('modal_source_' + platform),
+      }, label));
+    }
+    if (b.x_handle) {
+      addSocialChip('x', '@' + b.x_handle, 'https://x.com/' + b.x_handle, 'handle-link');
+    }
     if (Array.isArray(b.socials) && b.socials.length) {
       b.socials.forEach(s => {
         if (!s || !s.url) return;
-        const platform = s.platform || detectSourceType(s.url);
-        const label = s.handle ? `${platformIcon(platform)} ${s.handle}` : `${platformIcon(platform)} ${T('modal_source_' + platform)}`;
-        meta.appendChild(el('a', {
-          href: s.url, target: '_blank', rel: 'noopener',
-          class: 'social-chip social-chip-' + platform,
-          title: T('modal_source_' + platform),
-        }, label));
+        addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
       });
     }
     const isFavNow = favs.has(b.booth_id);
@@ -529,15 +555,9 @@
     meta.appendChild(modalFav);
     body.appendChild(meta);
 
-    if (b.x_url) {
-      // Source platform varies — TW/CN doujin commonly uses Plurk/FB/IG/Threads
-      // instead of X. Detect domain so the "open in X" button reflects reality.
-      const sourceKey = detectSourceType(b.x_url);
-      const sourceName = T('modal_source_' + sourceKey);
-      body.appendChild(el('a', {
-        class: 'x-link', href: b.x_url, target: '_blank', rel: 'noopener'
-      }, T('modal_open_label', { source: sourceName })));
-    }
+    // (Old "X で開く" / "Plurk で開く" big button removed — the social chips
+    // above now expose the same link with platform-specific colour and
+    // handle, so the standalone button was redundant.)
 
     // Warning chips inside the modal — each becomes a link to source tweet
     // when a 3rd-element URL is present in the warnings tuple.
@@ -987,6 +1007,7 @@
       stats.classList.toggle('filtered', isFiltered);
     }
     updateMapOverlay(isFiltered ? visibleBoothIds : null);
+    syncRowTitleVisibility();
   }
 
   // Coords logic:
