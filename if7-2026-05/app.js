@@ -990,11 +990,23 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  // Seed activeFilters from EVENT.default_filters so e.g. a 超かぐや姫
-  // fan landing here sees the curated subset by default. Empty / unset
-  // → no default filter applied. The matching filter buttons are marked
-  // active below once the DOM is settled.
-  let activeFilters = new Set(EVENT.default_filters || []);
+  // Filter selection is persisted in localStorage the same way favorites
+  // are — once a user customises their chip set we don't reset it on the
+  // next visit. EVENT.default_filters only seeds the first load (when no
+  // entry exists at all); a saved empty array stays empty.
+  const FILTER_KEY = (EVENT.favorites_key || 'event-guide-template') + '-filters';
+  function loadFilters() {
+    try {
+      const raw = localStorage.getItem(FILTER_KEY);
+      if (raw == null) return new Set(EVENT.default_filters || []);
+      return new Set(JSON.parse(raw));
+    } catch (e) { return new Set(EVENT.default_filters || []); }
+  }
+  function saveFilters() {
+    try { localStorage.setItem(FILTER_KEY, JSON.stringify(Array.from(activeFilters))); }
+    catch (e) {}
+  }
+  let activeFilters = loadFilters();
   let currentSearch = '';
   if (activeFilters.size) {
     // Sync filter buttons + remove "all" highlight to match seeded state.
@@ -1409,6 +1421,7 @@
         document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
       }
     }
+    saveFilters();
     applyFilters();
   }
 
