@@ -105,13 +105,13 @@
       <div><label>終了番号</label><input type="number" id="end-num" min="1" max="99" value="22"></div>
     </div>
     <div class="mode-radio">
-      <label><input type="radio" name="input-mode" value="alternate" checked> 交互 (TL → BR)</label>
-      <label><input type="radio" name="input-mode" value="batch"> バッチ (TL×N → BR×N)</label>
+      <label><input type="radio" name="input-mode" value="alternate" checked> 交互 (TL → BR 自動)</label>
+      <label><input type="radio" name="input-mode" value="refine"> 再クリック可 (TL → BR 手動 commit)</label>
     </div>
     <button id="begin-band" class="primary" style="width:100%; margin-top:0.5rem;">この帯の 2 隅をクリック開始</button>
-    <button id="batch-tl-start" style="width:100%; margin-top:0.3rem; display:none;">バッチ: TL×N 入力 開始</button>
-    <button id="batch-br-start" style="width:100%; margin-top:0.3rem; display:none;">バッチ: BR×N 入力 開始</button>
-    <button id="batch-commit" class="primary" style="width:100%; margin-top:0.3rem; display:none;">バッチを commit</button>
+    <button id="refine-tl-start" style="width:100%; margin-top:0.3rem; display:none;">TL refine 開始 (何度でも click 可)</button>
+    <button id="refine-br-start" style="width:100%; margin-top:0.3rem; display:none;">BR refine 開始 (何度でも click 可)</button>
+    <button id="refine-commit" class="primary" style="width:100%; margin-top:0.3rem; display:none;">band を commit</button>
 
     <h3>2. クリック手順</h3>
     <div class="status idle" id="status">アイドル — 上の "クリック開始" を押してから map をクリック</div>
@@ -168,12 +168,13 @@ const bandCountEl = document.getElementById('band-count');
 const coordCountEl = document.getElementById('coord-count');
 
 let state = loadState();  // { coords: {<id>: {x,y,w,h}}, bands: [{key,row,start,end,dir,r}], }
-let mode = 'idle';        // 'idle' | 'waiting1' | 'waiting2' | 'batch-tl' | 'batch-br'
+let mode = 'idle';        // 'idle' | 'waiting1' | 'waiting2' | 'refine-tl' | 'refine-br'
 let pendingCorner1 = null;
 let pendingBand = null;   // {row, start, end, dir} captured when "begin band" pressed
-// Batch-mode buffers: arrays of TL / BR clicks, paired by index.
-let batchTLs = [];
-let batchBRs = [];
+// Refinement-mode pendings — each click overwrites so howish can re-click
+// to fine-tune the same anchor until it lines up exactly.
+let refinedTL = null;
+let refinedBR = null;
 
 // Upstream coords loaded from coords.js (snapshot at page load).
 const upstreamCoords = (window.BOOTH_COORDS && Object.keys(window.BOOTH_COORDS).length) ? { ...window.BOOTH_COORDS } : {};
@@ -221,15 +222,15 @@ function readPendingBand() {
 function syncModeButtons() {
   const inputMode = document.querySelector('input[name="input-mode"]:checked').value;
   document.getElementById('begin-band').style.display = inputMode === 'alternate' ? '' : 'none';
-  document.getElementById('batch-tl-start').style.display = inputMode === 'batch' ? '' : 'none';
-  document.getElementById('batch-br-start').style.display = inputMode === 'batch' ? '' : 'none';
-  document.getElementById('batch-commit').style.display = inputMode === 'batch' ? '' : 'none';
+  document.getElementById('refine-tl-start').style.display = inputMode === 'refine' ? '' : 'none';
+  document.getElementById('refine-br-start').style.display = inputMode === 'refine' ? '' : 'none';
+  document.getElementById('refine-commit').style.display = inputMode === 'refine' ? '' : 'none';
 }
 document.querySelectorAll('input[name="input-mode"]').forEach(r => {
   r.addEventListener('change', () => {
     syncModeButtons();
     // Reset any pending state when switching mode
-    mode = 'idle'; pendingCorner1 = null; batchTLs = []; batchBRs = [];
+    mode = 'idle'; pendingCorner1 = null; refinedTL = null; refinedBR = null;
     setStatus('モード変更: 上から開始ボタンを押す', 'idle');
     renderAll();
   });
@@ -244,56 +245,35 @@ document.getElementById('begin-band').addEventListener('click', () => {
   setStatus(`✦ ${pb.row}-${pad(pb.start)} の左上 (= 1 番) をクリックしてください`, 'wait');
 });
 
-document.getElementById('batch-tl-start').addEventListener('click', () => {
+// Refinement mode — each click in TL/BR phase overwrites the same anchor
+// so howish can re-click until it's pixel-perfect, then explicit commit
+// writes the band (or single cell when start == end).
+document.getElementById('refine-tl-start').addEventListener('click', () => {
   const pb = readPendingBand(); if (!pb) return;
   pendingBand = pb;
-  batchTLs = [];
-  mode = 'batch-tl';
-  setStatus(`📍 各帯の左上 (TL) を順番にクリック (現在 0 件)`, 'wait');
+  refinedTL = null;
+  mode = 'refine-tl';
+  setStatus(`📍 ${pb.row}-${pad(pb.start)} の TL をクリック (再クリックで上書き)`, 'wait');
   renderAll();
 });
 
-document.getElementById('batch-br-start').addEventListener('click', () => {
-  if (!pendingBand) { setStatus('まず TL を入れて から BR モード', 'warn'); return; }
-  if (!batchTLs.length) { setStatus('TL がまだ 0 件、 先に TL を入れてください', 'warn'); return; }
-  batchBRs = [];
-  mode = 'batch-br';
-  setStatus(`📍 各帯の右下 (BR) を順番にクリック — TL ${batchTLs.length} 件と同数 (現在 0 件)`, 'wait');
+document.getElementById('refine-br-start').addEventListener('click', () => {
+  if (!pendingBand) { setStatus('まず TL refine 開始 → TL クリック', 'warn'); return; }
+  if (!refinedTL) { setStatus('TL がまだ未設定 — 一度クリックしてから BR へ', 'warn'); return; }
+  refinedBR = null;
+  mode = 'refine-br';
+  setStatus(`📍 ${pendingBand.row}-${pad(pendingBand.end)} の BR をクリック (再クリックで上書き)`, 'wait');
   renderAll();
 });
 
-document.getElementById('batch-commit').addEventListener('click', () => {
-  if (!pendingBand) { setStatus('Pending band がない', 'warn'); return; }
-  if (batchTLs.length === 0 || batchTLs.length !== batchBRs.length) {
-    setStatus(`TL ${batchTLs.length} 件 vs BR ${batchBRs.length} 件 — 数 一致必要`, 'warn'); return;
+document.getElementById('refine-commit').addEventListener('click', () => {
+  if (!pendingBand || !refinedTL || !refinedBR) {
+    setStatus('TL / BR どちらか未設定', 'warn'); return;
   }
-  // Each (TL, BR) pair gets committed as one band — but we want them to be
-  // separate `<row>-<n>` cells. Re-interpret: each pair becomes a single
-  // cell, distributed sequentially across [start..end].
-  const { row, start, end, dir } = pendingBand;
-  const expected = end - start + 1;
-  if (batchTLs.length !== expected) {
-    if (!confirm(`帯番号 ${start}..${end} は ${expected} 件想定だけど batch は ${batchTLs.length} 件。 続行?`)) return;
-  }
-  // Each pair = one cell. Use min/max for safety.
-  for (let i = 0; i < batchTLs.length; i++) {
-    const tl = batchTLs[i], br = batchBRs[i];
-    const xMin = Math.min(tl.x, br.x), xMax = Math.max(tl.x, br.x);
-    const yMin = Math.min(tl.y, br.y), yMax = Math.max(tl.y, br.y);
-    // For dir = lr / rl: sequence runs along x, for tb/bt along y.
-    let num;
-    if (dir === 'lr' || dir === 'tb') num = start + i;
-    else num = end - i; // rl / bt counts down
-    const id = `${row}-${pad(num)}`;
-    state.coords[id] = { x: round(xMin), y: round(yMin), w: round(xMax - xMin), h: round(yMax - yMin) };
-  }
-  // Record as a single band (group) for the deletable-bands list
-  const key = `${row}-${pad(start)}..${pad(end)}-${dir}-batch`;
-  state.bands = state.bands.filter(b => b.key !== key);
-  state.bands.push({ key, row, start, end, dir, n: batchTLs.length, batch: true });
-  saveState();
-  batchTLs = []; batchBRs = []; mode = 'idle'; pendingBand = null;
-  setStatus(`✓ バッチ commit (${expected} cells)`, 'idle');
+  commitBand(refinedTL, refinedBR);
+  mode = 'idle';
+  refinedTL = null; refinedBR = null; pendingBand = null;
+  setStatus('✓ 帯 commit', 'idle');
   renderAll();
 });
 
@@ -314,18 +294,13 @@ overlay.addEventListener('click', (e) => {
     pendingCorner1 = null;
     setStatus('✓ 帯追加。次の帯を定義するには上から設定して "クリック開始"', 'idle');
     renderAll();
-  } else if (mode === 'batch-tl') {
-    batchTLs.push({ x, y });
-    setStatus(`📍 TL ${batchTLs.length} 件 (次は引き続き TL、 終わったら "BR×N 入力 開始" を押す)`, 'wait');
+  } else if (mode === 'refine-tl') {
+    refinedTL = { x, y };
+    setStatus(`📍 TL = (${x.toFixed(2)}, ${y.toFixed(2)}) — 再クリックで上書き / BR へ進むには "BR refine 開始"`, 'wait');
     renderAll();
-  } else if (mode === 'batch-br') {
-    batchBRs.push({ x, y });
-    const remain = batchTLs.length - batchBRs.length;
-    if (remain > 0) {
-      setStatus(`📍 BR ${batchBRs.length} 件 (残り ${remain})`, 'wait');
-    } else {
-      setStatus(`📍 BR ${batchBRs.length} 件 — TL/BR 揃った、 "バッチを commit" を押す`, 'wait');
-    }
+  } else if (mode === 'refine-br') {
+    refinedBR = { x, y };
+    setStatus(`📍 BR = (${x.toFixed(2)}, ${y.toFixed(2)}) — 再クリックで上書き / "band を commit" で確定`, 'wait');
     renderAll();
   }
 });
@@ -386,6 +361,27 @@ function deleteBand(key) {
 function setStatus(text, kind) {
   statusEl.textContent = text;
   statusEl.className = 'status ' + (kind === 'idle' ? 'idle' : '');
+}
+
+function drawCrosshair(c, color) {
+  const ns = 'http://www.w3.org/2000/svg';
+  // Small + crosshair (0.5 viewBox units = 0.5% of map). The stroke is
+  // non-scaling so it stays at pixel-thin even when the map is zoomed.
+  const half = 0.35;
+  const g = document.createElementNS(ns, 'g');
+  g.setAttribute('stroke', color);
+  g.setAttribute('stroke-width', '0.5');
+  g.setAttribute('vector-effect', 'non-scaling-stroke');
+  g.setAttribute('pointer-events', 'none');
+  const h = document.createElementNS(ns, 'line');
+  h.setAttribute('x1', c.x - half); h.setAttribute('y1', c.y);
+  h.setAttribute('x2', c.x + half); h.setAttribute('y2', c.y);
+  g.appendChild(h);
+  const v = document.createElementNS(ns, 'line');
+  v.setAttribute('x1', c.x); v.setAttribute('y1', c.y - half);
+  v.setAttribute('x2', c.x); v.setAttribute('y2', c.y + half);
+  g.appendChild(v);
+  overlay.appendChild(g);
 }
 
 function renderAll() {
@@ -455,41 +451,11 @@ function renderAll() {
     div.appendChild(btn);
     bandsListEl.appendChild(div);
   }
-  // Draw pending alternate-mode TL corner marker
-  if (pendingCorner1) {
-    const dot = document.createElementNS(ns, 'rect');
-    dot.setAttribute('x', pendingCorner1.x - 0.3); dot.setAttribute('y', pendingCorner1.y - 0.3);
-    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
-    dot.setAttribute('class', 'corner-marker');
-    overlay.appendChild(dot);
-  }
-  // Draw batch TL/BR markers with index labels
-  for (let i = 0; i < batchTLs.length; i++) {
-    const c = batchTLs[i];
-    const dot = document.createElementNS(ns, 'rect');
-    dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
-    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
-    dot.setAttribute('class', 'corner-marker-tl');
-    overlay.appendChild(dot);
-    const t = document.createElementNS(ns, 'text');
-    t.setAttribute('x', c.x + 0.5); t.setAttribute('y', c.y + 0.1);
-    t.setAttribute('font-size', '0.8'); t.setAttribute('fill', '#1565c0');
-    t.setAttribute('font-family', 'monospace'); t.textContent = String(i + 1);
-    overlay.appendChild(t);
-  }
-  for (let i = 0; i < batchBRs.length; i++) {
-    const c = batchBRs[i];
-    const dot = document.createElementNS(ns, 'rect');
-    dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
-    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
-    dot.setAttribute('class', 'corner-marker-br');
-    overlay.appendChild(dot);
-    const t = document.createElementNS(ns, 'text');
-    t.setAttribute('x', c.x + 0.5); t.setAttribute('y', c.y + 0.1);
-    t.setAttribute('font-size', '0.8'); t.setAttribute('fill', '#c62828');
-    t.setAttribute('font-family', 'monospace'); t.textContent = String(i + 1);
-    overlay.appendChild(t);
-  }
+  // Draw pending alternate-mode TL corner marker (small +)
+  if (pendingCorner1) drawCrosshair(pendingCorner1, '#c00');
+  // Refinement mode pending markers
+  if (refinedTL) drawCrosshair(refinedTL, '#1565c0');
+  if (refinedBR) drawCrosshair(refinedBR, '#c62828');
   bandCountEl.textContent = state.bands.length;
   coordCountEl.textContent = Object.keys(state.coords).length;
   // JSON output
