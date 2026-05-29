@@ -11335,13 +11335,19 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
-    "body": "- 金牌得主",
+    "body": "## 📝 CH19 出展重點\n- 新刊 [**『竹取公主二三事』**](https://www.facebook.com/share/1CW7dbAXA1/) — 超時空輝耀姬 / **三人行 (輝耀×彩葉×八千代)** / A5 / 32P / 黑白短格漫畫 / NTD 250\n- 隨書贈 **DIY 畫冊** — 三張方形卡 16cm + 二張黑白卡 14.8×10.5cm + 活頁圈 ×2 (請自行裝訂成冊、 不分售)\n- 新刊 = 輝耀本人生第一本百合本、 過去発表の短編漫畫合集 + 少量未公開\n- 5/31 同時參加 新竹漫人祭",
+    "cps": ["trio-sk"],
     "tags": {
       "super-kaguya": true,
-      "mygo": true
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/1CW7dbAXA1/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-25_26/share-1CW7dbAXA1/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/18cRKov5TX/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-25_26/share-18cRKov5TX/0.jpg",
