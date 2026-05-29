@@ -523,7 +523,6 @@ window.BOOTHS = [
     "x_url": "https://x.com/ani77561234",
     "body": "## 📝 CH19 出展重點\n- 新刊 2 種: **『彩葉×八千代的大學妄想學趴』** + **『輝耀×彩葉×八千代 3P本』** (R-18、當日需證件)\n\n- 有既刊\n- 15:00 後 猜拳大會 (海報獎)\n- [原 tweet (@ani77561234)](https://x.com/ani77561234)",
     "cps": [
-      "iroka",
       "iroyachi",
       "trio-sk"
     ],
@@ -7657,11 +7656,9 @@ window.BOOTHS = [
       }
     ],
     "body": "## 📝 CH19 出展重點\n- 主要為 **Ave Mujica 祥初 (祥子×初華)** R-18 [印量調查中](https://www.plurk.com/p/3ioinys6x4)",
-    "cps": [
-      "iroyachi"
-    ],
     "tags": {
-      "super-kaguya": true,
+      "avemujica": true,
+      "bandori": true,
       "r18": true
     },
     "warnings": [],
