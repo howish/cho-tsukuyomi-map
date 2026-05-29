@@ -2757,13 +2757,38 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://portaly.cc/ame_aou",
-    "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/ame_aou](https://portaly.cc/ame_aou)",
+    "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/ame_aou](https://portaly.cc/ame_aou) ／ Threads: [@ame_aou](https://www.threads.com/@ame_aou)\n\n## 📝 CH19 出展重點\nT-19/20 出展 (青雨アメ @ame_aou) ／ 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成) ／ シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ** ／ 全 3 組 「曖昧以上 互動」 ／ 雜食 (友好~互毆) 内容含む ／ 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
     "tags": {
       "original": true,
       "yuri-zone": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.threads.com/@ame_aou/post/DY1_MQymsBy",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DY1_MQymsBy/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@ame_aou/post/DYw084uGvYB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DYw084uGvYB/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@ame_aou/post/DYw084uGvYB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DYw084uGvYB/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@ame_aou/post/DYw084uGvYB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DYw084uGvYB/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@ame_aou/post/DYw084uGvYB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DYw084uGvYB/3.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://img.portaly.cc/1c7BHA1chOX5bpzcfJiiQg5eot_GeDZZia2-gYeM2ds/rs:fill:1200/q:90/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vRFRYd21waFA1U0p6akN2NmV2NE4lMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPTY0ZTcwY2E0LTYwMzktNGI2MS05N2M1LWVmMWQ2ZDQ5NzE2Yg",
         "display_url": "https://img.portaly.cc/1c7BHA1chOX5bpzcfJiiQg5eot_GeDZZia2-gYeM2ds/rs:fill:1200/q:90/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vRFRYd21waFA1U0p6akN2NmV2NE4lMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPTY0ZTcwY2E0LTYwMzktNGI2MS05N2M1LWVmMWQ2ZDQ5NzE2Yg"
@@ -2818,11 +2843,12 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/MuziYuri/",
-    "body": "- 新刊-超時空輝耀姬\n- 原創-如何與蛇女交尾?\n- 原創-倉鼠少女也想談戀愛\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/MuziYuri/](https://www.facebook.com/MuziYuri/)",
+    "body": "- 新刊-超時空輝耀姬\n- 原創-如何與蛇女交尾?\n- 原創-倉鼠少女也想談戀愛\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/MuziYuri/](https://www.facebook.com/MuziYuri/) ／ Threads: [@muziyuri](https://www.threads.com/@muziyuri)\n\n## 📝 CH19 出展重點\nT-23/24 出展 (木子 / MUZIYURI) ／ 新刊 **『輝耀的性機能檢測報告』** (超かぐや姫 / 超時空輝耀姬、 **IROHA × KAGUYA** = 輝耀彩葉 (iroka) CP、 R18) ／ 現場 套餐優惠 あり ／ 既刊 原創 『如何與蛇女交尾?』 / 『倉鼠少女也想談戀愛』 (6月底 倉鼠本 連載再開予定)\n- 出處: [新刊試閱 promo](https://www.threads.com/@muziyuri/post/DY146_3j-i6) / [彩葉混更 圖透](https://www.threads.com/@muziyuri/post/DX1mQBFj5n9) / [討親親的輝耀](https://www.threads.com/@muziyuri/post/DXmGhnFjzk8)",
     "tags": {
       "original": true,
       "yuri-zone": true,
-      "super-kaguya": true
+      "super-kaguya": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
