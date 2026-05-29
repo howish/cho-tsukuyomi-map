@@ -44,13 +44,6 @@ window.FILTERS_CONFIG = {
       pattern: "超時空輝耀姬|超時空輝夜姬|超時空輝耀姫|超時空輝夜姫|超かぐや姫|輝耀姬|輝夜姬|輝耀姫|輝夜姫|彩葉|八千代|ヤチヨ|かぐや|いろは",
     },
     {
-      code: "yuri-zone",
-      label: "百合専區",
-      icon: "🌸",
-      title: "「いつか一緒に輝いて」CH19 百合 Only 専區 (S列) booth",
-      pattern: "(?!.*)",
-    },
-    {
       code: "r18",
       label: "R-18",
       icon: "🔞",

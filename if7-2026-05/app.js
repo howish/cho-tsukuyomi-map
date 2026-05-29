@@ -980,15 +980,31 @@
     });
   }
 
+  // Group active filters by category prefix so we can apply
+  //   (cp:a OR cp:b) AND (tag:c OR tag:d) AND (area:e OR area:f) ...
+  // — intersection between categories, union within. Tokens without a
+  // colon (e.g. "fav") form their own implicit category.
+  function groupActiveFilters() {
+    const groups = {};
+    activeFilters.forEach(f => {
+      const idx = f.indexOf(':');
+      const cat = idx >= 0 ? f.slice(0, idx) : f;
+      (groups[cat] = groups[cat] || []).push(f);
+    });
+    return groups;
+  }
+
   function applyFilters() {
     let visible = 0;
     const visibleBoothIds = [];
     const allCards = document.querySelectorAll('.booth-card');
+    const groups = groupActiveFilters();
+    const groupCats = Object.keys(groups);
     allCards.forEach(card => {
       const tokens = (card.dataset.filters || '').split(',');
       const search = card.dataset.search || '';
       const filterOK = activeFilters.size === 0 ||
-        Array.from(activeFilters).some(f => tokens.includes(f));
+        groupCats.every(cat => groups[cat].some(f => tokens.includes(f)));
       const searchOK = !currentSearch || search.includes(currentSearch);
       const show = filterOK && searchOK;
       card.style.display = show ? '' : 'none';
