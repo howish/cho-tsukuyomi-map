@@ -3508,21 +3508,27 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/yeijijia",
-    "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/yeijijia](https://lit.link/zh-tw/yeijijia)",
+    "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/yeijijia](https://lit.link/zh-tw/yeijijia)\n\n## 📝 CH19 出展重點\nT-40 出展 (多多 @yezijia1) ／ 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開) ／ 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200) ／ 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
     "tags": {
       "yuri-zone": true,
-      "super-kaguya": true
+      "super-kaguya": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://x.com/i/status/2059243544624402923",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-40/x-status/0.jpg",
+        "source_url": "https://x.com/i/status/2057844220862537926",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-40/x-2057844220862537926/0.jpg",
         "display_locked": false
       },
       {
         "source_url": "https://x.com/i/status/2059209383478006188",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-40/x-status/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059243544624402923",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-40/x-status/0.jpg",
         "display_locked": false
       },
       {
