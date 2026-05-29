@@ -7924,13 +7924,24 @@ window.BOOTHS = [
         "url": "https://x.com/Crazycat_47"
       }
     ],
-    "body": "- 緋染天空\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\n- 月底百翁 小新品\n- 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
+    "body": "- 緋染天空\n\n## 📝 IF7 出展重點\n\n**主攤 (瘋貓食堂)**:\n- 月底百翁 小新品\n\n**寄攤 (七月)** ([Plurk 工商](https://www.plurk.com/p/3ipx5nbw7k) / [告知 RT](https://www.plurk.com/p/3ipxm6rqp7)):\n- **學園偶像大師 莉清 像素立牌** — 底座印圖 / 防水合成＋銀河膜 / 因多印可單買\n- 莉清 貼紙\n- 攤上可換 P 名片\n- 出處 (X): [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
     "tags": {
       "witch-mercury": true,
+      "gakumas": true,
       "goods": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3ipx5nbw7k",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/plurk-3ipx5nbw7k/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipxm6rqp7",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/plurk-3ipxm6rqp7/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2056919703663288489",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/x-2056919703663288489/0.jpg",
@@ -8078,10 +8089,18 @@ window.BOOTHS = [
         "url": "https://www.plurk.com/caramel06"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 帶來周邊\n- 攤位上 [**Miofa 用 認親卡**](https://www.plurk.com/p/3hsq85uojm) 免費領取",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n**主攤 (いろはに甘い節分)**:\n- 帶來周邊\n- 攤位上 [**Miofa 用 認親卡**](https://www.plurk.com/p/3hsq85uojm) 免費領取\n\n**寄攤 (光夕)** ([source](https://www.plurk.com/p/3iqc0l1cjn)):\n- 新品: 明信片 — NT 20\n- 既刊 R18 — A5 / 36P / NT 200\n- 既刊 R18 (扶他要素注意) — NT 100\n- ⚠️ R18 含 / 扶他要素\n- ハッシュタグ: `#うみたき`",
+    "tags": {
+      "r18": true,
+      "goods": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iqc0l1cjn",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-32/plurk-3iqc0l1cjn/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.plurk.com/p/3hsq85uojm",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-32/0.png",
@@ -11331,15 +11350,28 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/socotaku",
     "area": "綜合",
-    "body": "- 綜合-百合ACG評論",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n位置: 小百翁隔壁排 **U-11**\n\n- 新刊 (百合 ACG 評論誌) 印製趕不及、 但現場頒布少量「天窗本」自取 (有興趣自由領取)\n- 既刊＋寄賣 **『Litmus』** (內含 [`@kyokasan`](https://www.plurk.com/kyokasan) 百合影劇論) 販售\n- 未來新刊情報集中於 SOCOTAKU 特設頁\n- 出處: [Plurk 工商](https://www.plurk.com/p/3iq5q9ldoo)",
+    "tags": {
+      "consign": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq5q9ldoo",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-11/plurk-3iq5q9ldoo/0.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "fb",
         "handle": "socotaku",
         "url": "https://www.facebook.com/socotaku"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@socotaku",
+        "url": "https://www.plurk.com/socotaku"
       }
     ]
   },
