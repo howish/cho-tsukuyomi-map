@@ -198,41 +198,32 @@
     }
   }
 
+  // Map each booth-tag code to the FILTERS_CONFIG category it belongs to
+  // so renderCard can emit `work:` / `medium:` / `tag:` prefixes correctly.
+  const TAG_CATEGORY = {};
+  (FILTERS.works || []).forEach(w => { TAG_CATEGORY[w.code] = 'work'; });
+  (FILTERS.mediums || []).forEach(m => { TAG_CATEGORY[m.code] = 'medium'; });
+  (FILTERS.tags || []).forEach(t => { TAG_CATEGORY[t.code] = 'tag'; });
+
   // ---- Build filter UI from FILTERS_CONFIG ----
   function buildFilterButtons() {
-    const cpRow = document.getElementById('filters-cp');
-    const tagRow = document.getElementById('filters-tag');
-    const areaRow = document.getElementById('filters-area');
-    if (cpRow) {
-      (FILTERS.cps || []).forEach(c => {
+    function paintRow(rowId, items, tokenPrefix) {
+      const row = document.getElementById(rowId);
+      if (!row || !items) return;
+      items.forEach(it => {
         const btn = el('button', {
           class: 'filter-btn',
-          'data-filter': 'cp:' + c.code,
-          title: c.title || c.label,
-        }, `${c.icon} ${c.label}`);
-        cpRow.appendChild(btn);
+          'data-filter': tokenPrefix + ':' + it.code,
+          title: it.title || it.label,
+        }, `${it.icon} ${it.label}`);
+        row.appendChild(btn);
       });
     }
-    if (tagRow) {
-      (FILTERS.tags || []).forEach(t => {
-        const btn = el('button', {
-          class: 'filter-btn',
-          'data-filter': 'tag:' + t.code,
-          title: t.title || t.label,
-        }, `${t.icon} ${t.label}`);
-        tagRow.appendChild(btn);
-      });
-    }
-    if (areaRow) {
-      (FILTERS.areas || []).forEach(a => {
-        const btn = el('button', {
-          class: 'filter-btn',
-          'data-filter': 'area:' + a.code,
-          title: a.title || a.label,
-        }, `${a.icon} ${a.label}`);
-        areaRow.appendChild(btn);
-      });
-    }
+    paintRow('filters-cp', FILTERS.cps, 'cp');
+    paintRow('filters-work', FILTERS.works, 'work');
+    paintRow('filters-medium', FILTERS.mediums, 'medium');
+    paintRow('filters-tag', FILTERS.tags, 'tag');
+    paintRow('filters-area', FILTERS.areas, 'area');
   }
 
   // ---- Build per-row booth grid containers ----
@@ -340,7 +331,7 @@
     const activeTags = Object.keys(tags).filter(k => tags[k]);
     const filterTokens = [
       ...cps.map(c => 'cp:' + c),
-      ...activeTags.map(t => 'tag:' + t),
+      ...activeTags.map(t => (TAG_CATEGORY[t] || 'tag') + ':' + t),
     ];
     if (b.area) filterTokens.push('area:' + b.area);
     const isFav = favs.has(b.booth_id);

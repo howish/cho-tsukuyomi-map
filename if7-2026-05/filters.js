@@ -35,7 +35,9 @@ window.FILTERS_CONFIG = {
 
   trio_pattern: null,
 
-  tags: [
+  // 作品 (works) — specific series / IP. Filter by which 二次創作 fandom
+  // a booth focuses on, or "原創" as the absence-of-IP marker.
+  works: [
     {
       code: "super-kaguya",
       label: "超時空輝耀姬",
@@ -44,40 +46,17 @@ window.FILTERS_CONFIG = {
       pattern: "超時空輝耀姬|超時空輝夜姬|超時空輝耀姫|超時空輝夜姫|超かぐや姫|輝耀姬|輝夜姬|輝耀姫|輝夜姫|彩葉|八千代|ヤチヨ|かぐや|いろは",
     },
     {
-      code: "r18",
-      label: "R-18",
-      icon: "🔞",
-      title: "R-18 含有 / 需身分證",
-      pattern: "R-?18|🔞|成人向け|成人向|十八禁",
-    },
-    {
       code: "original",
       label: "原創",
       icon: "✨",
       title: "原創 (非二次創作)",
       pattern: "原創|オリジナル|original",
     },
-    {
-      code: "goudou",
-      label: "合誌",
-      icon: "🤝",
-      title: "合誌・アンソロジー",
-      pattern: "合本|合誌|合同|アンソロ|anthology",
-    },
-    {
-      code: "free",
-      label: "免費",
-      icon: "🎁",
-      title: "免費發放有",
-      pattern: "免費發放|免費索取|無料配布|無配|TAKE FREE|FREE",
-    },
-    {
-      code: "consign",
-      label: "委託",
-      icon: "📚",
-      title: "委託本有",
-      pattern: "委託",
-    },
+  ],
+
+  // 媒介 (medium) — what kind of thing the booth sells. Books split by
+  // format,周邊 lumps all 立牌 / 吊飾 / 貼紙 等.
+  mediums: [
     {
       code: "manga",
       label: "漫畫",
@@ -105,6 +84,38 @@ window.FILTERS_CONFIG = {
       icon: "🛍",
       title: "週邊 (壓克力立牌・貼紙・徽章 等)",
       pattern: "週邊|周边|グッズ|アクスタ|ステッカー|ポストカード|貼紙|徽章|キーホルダー|缶バッジ",
+    },
+    {
+      code: "goudou",
+      label: "合誌",
+      icon: "🤝",
+      title: "合誌・アンソロジー",
+      pattern: "合本|合誌|合同|アンソロ|anthology",
+    },
+  ],
+
+  // タグ — generic flags that don't belong to a specific work or medium.
+  tags: [
+    {
+      code: "r18",
+      label: "R-18",
+      icon: "🔞",
+      title: "R-18 含有 / 需身分證",
+      pattern: "R-?18|🔞|成人向け|成人向|十八禁",
+    },
+    {
+      code: "free",
+      label: "免費",
+      icon: "🎁",
+      title: "免費發放有",
+      pattern: "免費發放|免費索取|無料配布|無配|TAKE FREE|FREE",
+    },
+    {
+      code: "consign",
+      label: "委託",
+      icon: "📚",
+      title: "委託本有",
+      pattern: "委託",
     },
   ],
 
