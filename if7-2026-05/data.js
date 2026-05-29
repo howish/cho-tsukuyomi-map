@@ -414,7 +414,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "share",
+        "url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr"
+      }
+    ]
   },
   {
     "booth_id": "J-22",
@@ -462,7 +469,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "s092077",
+        "url": "https://www.facebook.com/s092077?locale=zh_TW"
+      }
+    ]
   },
   {
     "booth_id": "J-23",
@@ -513,7 +527,14 @@ window.BOOTHS = [
       ],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@laylay_152",
+        "url": "https://x.com/laylay_152"
+      }
+    ]
   },
   {
     "booth_id": "J-24",
@@ -548,7 +569,14 @@ window.BOOTHS = [
       ],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@ani77561234",
+        "url": "https://x.com/ani77561234"
+      }
+    ]
   },
   {
     "booth_id": "J-25",
@@ -568,7 +596,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@sinyatako1",
+        "url": "https://x.com/sinyatako1?s=21&t=hMm51tDxzSwRLbs1B1XvAA"
+      }
+    ]
   },
   {
     "booth_id": "J-26",
@@ -1079,7 +1114,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "blackrosetwc",
+        "url": "https://www.facebook.com/blackrosetwc/"
+      }
+    ]
   },
   {
     "booth_id": "K-11",
@@ -1304,7 +1346,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "marikuforever",
+        "url": "https://www.facebook.com/marikuforever/"
+      }
+    ]
   },
   {
     "booth_id": "K-24",
@@ -3094,7 +3143,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yuyudesu0806",
+        "url": "https://www.facebook.com/yuyudesu0806/"
+      }
+    ]
   },
   {
     "booth_id": "N-03",
@@ -4505,7 +4561,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "xiangyinwork",
+        "url": "https://www.facebook.com/xiangyinwork/"
+      }
+    ]
   },
   {
     "booth_id": "O-39",
@@ -4751,7 +4814,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "superdoujinwar",
+        "url": "https://www.facebook.com/superdoujinwar/"
+      }
+    ]
   },
   {
     "booth_id": "P-13/14",
@@ -4882,7 +4952,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "yamyoukan",
+        "url": "https://www.facebook.com/yamyoukan/"
+      }
+    ]
   },
   {
     "booth_id": "P-23/24",
@@ -7407,7 +7484,14 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [],
     "group": "S-[17,18]",
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "gamer",
+        "handle": "巴哈姆特",
+        "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth"
+      }
+    ]
   },
   {
     "booth_id": "S-18",
@@ -7420,7 +7504,14 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [],
     "group": "S-[17,18]",
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "pixiv",
+        "handle": "Pixiv 612797",
+        "url": "https://www.pixiv.net/users/612797"
+      }
+    ]
   },
   {
     "booth_id": "S-19/20",
@@ -7580,7 +7671,14 @@ window.BOOTHS = [
       "S-23",
       "S-24"
     ],
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "@365",
+        "url": "https://www.doujin.com.tw/groups/info/365/books"
+      }
+    ]
   },
   {
     "booth_id": "S-25",
@@ -8963,7 +9061,14 @@ window.BOOTHS = [
       "commerce_count_avail": 0
     },
     "cover_urls": [],
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "handle": "@sakuracoffee",
+        "url": "https://www.doujin.com.tw/authors/info/sakuracoffee"
+      }
+    ]
   },
   {
     "booth_id": "T-07/08",
@@ -9302,7 +9407,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@rbaba_cain2",
+        "url": "https://x.com/rbaba_cain2"
+      }
+    ]
   },
   {
     "booth_id": "T-14",
@@ -9330,7 +9442,14 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "Polymilktea",
+        "url": "https://www.facebook.com/Polymilktea"
+      }
+    ]
   },
   {
     "booth_id": "T-15",
@@ -9357,7 +9476,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61551985…",
+        "url": "https://www.facebook.com/profile.php?id=61551985430535#"
+      }
+    ]
   },
   {
     "booth_id": "T-16",
@@ -9886,7 +10012,14 @@ window.BOOTHS = [
       "image_count_avail": 6,
       "commerce_count_avail": 0
     },
-    "area": "百合"
+    "area": "百合",
+    "socials": [
+      {
+        "platform": "ig",
+        "handle": "@arayo__0616",
+        "url": "https://instagram.com/arayo__0616"
+      }
+    ]
   },
   {
     "booth_id": "T-28",
@@ -10909,7 +11042,14 @@ window.BOOTHS = [
       "has_ch19_post": false
     },
     "group": "U-[02,08]",
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "MrFBA2",
+        "url": "https://www.facebook.com/MrFBA2/"
+      }
+    ]
   },
   {
     "booth_id": "U-04",
@@ -10975,7 +11115,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61585306…",
+        "url": "https://www.facebook.com/615853064360/"
+      }
+    ]
   },
   {
     "booth_id": "U-09/10",
@@ -11223,7 +11370,14 @@ window.BOOTHS = [
       "U-22"
     ],
     "group": "U-[17,22]",
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@mochian0819",
+        "url": "https://www.threads.com/@mochian0819?hl=zh-tw"
+      }
+    ]
   },
   {
     "booth_id": "U-23",
@@ -11243,7 +11397,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "mikan888",
+        "url": "https://www.facebook.com/mikan888/"
+      }
+    ]
   },
   {
     "booth_id": "U-24",
@@ -11324,7 +11485,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "threads",
+        "handle": "@kyuuri991205",
+        "url": "https://www.threads.com/@kyuuri991205"
+      }
+    ]
   },
   {
     "booth_id": "U-25/26",
@@ -11363,7 +11531,14 @@ window.BOOTHS = [
       "U-25",
       "U-26"
     ],
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "BLUE1OR2",
+        "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW"
+      }
+    ]
   },
   {
     "booth_id": "U-27",
@@ -11397,7 +11572,14 @@ window.BOOTHS = [
       "has_ch19_post": false
     },
     "group": "U-[27,28]",
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "aggregator",
+        "handle": "lit.link",
+        "url": "https://lit.link/en/jadeverse"
+      }
+    ]
   },
   {
     "booth_id": "U-28",
@@ -11505,7 +11687,14 @@ window.BOOTHS = [
       "has_ch19_post": false
     },
     "group": "U-[27,28]",
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "MOLAMOLAComics",
+        "url": "https://www.facebook.com/MOLAMOLAComics"
+      }
+    ]
   },
   {
     "booth_id": "U-29",
@@ -11551,7 +11740,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "plurk",
+        "handle": "@choco6644",
+        "url": "https://www.plurk.com/choco6644"
+      }
+    ]
   },
   {
     "booth_id": "U-30",
@@ -11629,7 +11825,14 @@ window.BOOTHS = [
         "display_locked": false
       }
     ],
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "x",
+        "handle": "@melon2943",
+        "url": "https://x.com/melon2943"
+      }
+    ]
   },
   {
     "booth_id": "U-31",
@@ -11999,7 +12202,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "VW"
+    "area": "VW",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "fengliart520",
+        "url": "https://www.facebook.com/fengliart520/"
+      }
+    ]
   },
   {
     "booth_id": "V-09/10",
@@ -12351,7 +12561,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "VW"
+    "area": "VW",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "bbibinbingART",
+        "url": "https://www.facebook.com/bbibinbingART/"
+      }
+    ]
   },
   {
     "booth_id": "V-27",
@@ -12398,7 +12615,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "VW"
+    "area": "VW",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "almn.sk.page",
+        "url": "https://www.facebook.com/almn.sk.page/"
+      }
+    ]
   },
   {
     "booth_id": "V-29/30",
@@ -12810,7 +13034,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "偶大"
+    "area": "偶大",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 61583559…",
+        "url": "https://www.facebook.com/profile.php?id=61583559591571"
+      }
+    ]
   },
   {
     "booth_id": "W-13",
@@ -13196,7 +13427,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "偶大"
+    "area": "偶大",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "cathy.kao.35",
+        "url": "https://www.facebook.com/cathy.kao.35/"
+      }
+    ]
   },
   {
     "booth_id": "W-34",
@@ -13748,7 +13986,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "BoneYong",
+        "url": "https://www.facebook.com/BoneYong/"
+      }
+    ]
   },
   {
     "booth_id": "Y-02",
@@ -13791,7 +14036,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "aokihoshi",
+        "url": "https://www.facebook.com/aokihoshi/"
+      }
+    ]
   },
   {
     "booth_id": "Y-05/06",
@@ -13843,7 +14095,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": true
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "profile 10007202…",
+        "url": "https://www.facebook.com/100072024726/"
+      }
+    ]
   },
   {
     "booth_id": "Y-09/10",
@@ -13891,7 +14150,14 @@ window.BOOTHS = [
       "detected_cps": [],
       "has_ch19_post": false
     },
-    "area": "綜合"
+    "area": "綜合",
+    "socials": [
+      {
+        "platform": "fb",
+        "handle": "gutenmomo",
+        "url": "https://www.facebook.com/gutenmomo"
+      }
+    ]
   },
   {
     "booth_id": "Y-12",
