@@ -5189,10 +5189,24 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/lightoffill",
     "area": "綜合",
-    "body": "- 原創人妻百合系列：LEAH啟示百合錄",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n位於 IF7 P-36 (不在百合 ONLY 區、 與好友連攤)\n\n- 原創人妻百合系列『LEAH 啟示百合錄』\n- 新品: 真晝流明 燙色小拍立得 ×2 款 (試做品展示)\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq2q89knt)",
+    "tags": {
+      "original": true,
+      "goods": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq2q89knt",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-36/plurk-3iq2q89knt/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2q89knt",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-36/plurk-3iq2q89knt/1.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -10168,7 +10182,28 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/3.jpg",
+        "display_locked": false
+      }
+    ],
     "area": "百合"
   },
   {
@@ -10184,10 +10219,17 @@ window.BOOTHS = [
         "url": "https://www.plurk.com/karupisu_planet"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 既刊 **『十度寢』** (東方 蓮メリ / 秘封俱樂部、 全 5 章) 預計帶來\n- 網購 + 電子書 同時進行中",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n**主攤 (不安定星系)**:\n- 既刊 **『十度寢』** — 東方 · 蓮メリ / 秘封俱樂部 — 全 5 章 — 預計帶來\n- 網購 + 電子書 同時進行中\n\n**寄攤 (松葉)**:\n- 空之境界 新刊 — 詳細留言參照 ([Plurk 工商](https://www.plurk.com/p/3ipsqrj9cq))",
+    "tags": {
+      "touhou": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3ipsqrj9cq",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-29/plurk-3ipsqrj9cq/0.png",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.plurk.com/karupisu_planet",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-29/0.jpg",
@@ -11486,11 +11528,12 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
-    "body": "## 📝 CH19 出展重點\n- 自卓 3 本新刊 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 加購優惠: 購買初祥初新刊可優惠價加購初祥飯友 (限量) ([source](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 超時空輝耀姬 相關 community post 多筆",
+    "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千):\n- 自卓 3 本新刊 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 加購優惠: 購買初祥初新刊可優惠價加購初祥飯友 (限量) ([source](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 超時空輝耀姬 相關 community post 多筆\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉×八千代 (iroyachi) 同人小說本 — ⚠️ R18 / 購買時請出示成年證明\n- 13:30 後現場提供簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))",
     "tags": {
       "super-kaguya": true,
       "avemujica": true,
-      "novel": true
+      "novel": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
@@ -11517,6 +11560,16 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@mochian0819/post/DYE7qV1Et1e",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-21_22/threads-DYE7qV1Et1e/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq8bupcr9",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/plurk-3iq8bupcr9/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq8bupcr9",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/plurk-3iq8bupcr9/1.jpg",
         "display_locked": false
       }
     ],
@@ -11707,7 +11760,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/en/jadeverse",
-    "body": "## 📝 CH19 出展重點\n- 新刊 [**『拯救B計畫』** (Saving Private B)](https://www.facebook.com/share/1FD366X6si/) — 超時空輝耀姬 / A5 / 62P / 黑白漫畫 / NTD 300\n- 新刊 **『超時空黑白圖合集』** — A5 / 40P / 黑白插畫 (約 62 張) / NTD 200\n- 全套收集 NTD 500\n- 隨書贈 **「超時空女同捉哀狼人殺」卡組** 1 組 (4 款不重複 / 63×88mm / 卡組內含 八千代 / 彩葉 / 輝耀 角色卡) ／ 不單獨販售",
+    "body": "## 📝 IF7 出展重點\n- 新刊 [**『拯救B計畫』** (Saving Private B)](https://www.facebook.com/share/1FD366X6si/) — 超時空輝耀姬 · 彩葉博士×輝耀 — A5 / 62P / 黑白漫畫 / NTD 300\n  - +後記附錄 — 5/25 〜 5/29 全篇公開試閱 ([Plurk 試閱告知](https://www.plurk.com/p/3iq2k0qjoi))\n- 新刊 **『超時空黑白圖合集』** — A5 / 40P / 黑白插畫 (約 62 張) / NTD 200\n- 全套收集 NTD 500\n- 隨書贈 **「超時空女同捉哀狼人殺」卡組** 1 組 (4 款不重複 / 63×88mm / 卡組內含 八千代 / 彩葉 / 輝耀 角色卡) ／ 不單獨販售",
     "tags": {
       "super-kaguya": true,
       "manga": true,
@@ -11715,6 +11768,11 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq2k0qjoi",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/plurk-3iq2k0qjoi/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/1JJNfLJcaU/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/share-1JJNfLJcaU/0.jpg",
