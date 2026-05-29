@@ -6965,9 +6965,10 @@ window.BOOTHS = [
         "url": "https://www.plurk.com/loveliver0827"
       }
     ],
-    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n## 📝 CH19 出展重點\n- S07 出展 ／ 新刊 [**maruhime 本**](https://www.plurk.com/p/3iq6cbcsgl) (原創百合、 Maru × Hime、 冬の物語)",
+    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n## 📝 CH19 出展重點\n- 新刊 — 原創百合 MaruHime 冬の物語 (Maru × Hime)\n- 出處: [Plurk 工商](https://www.plurk.com/p/3iq6cbcsgl)",
     "tags": {
-      "original": true
+      "original": true,
+      "manga": true
     },
     "warnings": [],
     "_meta_scrape": {
@@ -9512,13 +9513,30 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
-    "body": "",
+    "body": "## 📝 CH19 出展重點\n\n商會 — 帶來 2 件官方中文版蓮ノ空同人:\n- 阿熊 (@kuma_a) **『欲張りギャルズ』** — Love Live! 蓮ノ空 · 花さや (花帆×さやか) 約會百合漫畫\n- 慈中心向 (つづめぐ) **『獻給群星的愛語』Vol.2** — Love Live! 蓮ノ空 · つづめぐ 102 期百合圖文小說 續集\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iqcuy9jvs) (含全文公開＋插圖試閱社團連結)",
     "tags": {
       "super-kaguya": true,
-      "lovelive": true
+      "lovelive": true,
+      "manga": true,
+      "novel": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/0.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/1.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/2.png",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/yishi89/posts/pfbid02PkNoMr9Q6gZLUnZKfmZjYxhNBKCdP2JD9mGz2vZiaRix4HnLLgbYw7Ma8sFrb7B6l",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/yishi89-pfbid02PkNo/0.jpg",
@@ -9527,9 +9545,9 @@ window.BOOTHS = [
     ],
     "_meta_scrape_sk": {
       "platform_used": "fb",
-      "hand_note": false,
+      "hand_note": true,
       "detected_cps": [],
-      "has_ch19_post": false
+      "has_ch19_post": true
     },
     "area": "百合",
     "socials": [
@@ -9612,14 +9630,25 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/yetsubody"
       }
     ],
-    "body": "- 機動戰士鋼彈水星的魔女\n\n## 📝 CH19 出展重點\n- 新刊 **『初祥塗鴉本 Vol.2』** (NT 50)\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
+    "body": "- 機動戰士鋼彈水星的魔女\n\n## 📝 CH19 出展重點\n- 攤位確認 **T-17 (六)**\n- 新刊 **『初祥塗鴉本 Vol.2』** — Ave Mujica · 初祥折本 — B5 / 8P / 一般向 / NT 50\n- FF46 新刊 **壓克力套組** (NT 400)\n- **『三角初華觀察日記』** (NT 200)\n- Aver荠祥 既刊套組 (NT 200)\n- FGO 迦摩 推し 套組 (NT 300)\n- 既刊單品 NT 50-200\n- 簽繪版 (大) NT 2000~\n- 折本剩餘僅開放 本家賣貨便通販、 其它通販不委託\n- 出處: [Plurk 工商](https://www.plurk.com/p/3iq6z0ospp) / [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
     "tags": {
       "fate": true,
       "avemujica": true,
+      "manga": true,
       "goods": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq6z0ospp",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/plurk-3iq6z0ospp/0.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq6z0ospp",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/plurk-3iq6z0ospp/1.png",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/yetsubody",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/0.jpg",
@@ -10920,19 +10949,27 @@ window.BOOTHS = [
     "booth_id": "T-41",
     "circle_name": "翼之影",
     "author": "",
-    "x_handle": "",
+    "x_handle": "haneko0417",
     "x_url": "https://www.plurk.com/haneko0216",
     "socials": [
       {
         "platform": "plurk",
         "handle": "@haneko0216",
         "url": "https://www.plurk.com/haneko0216"
+      },
+      {
+        "platform": "x",
+        "handle": "@haneko0417",
+        "url": "https://x.com/haneko0417"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n**超時空輝耀姬 (輝耀 + 彩葉) 壓克力立牌** (= iroka pair acrylic stand、 二創公告前下印、 限定 / 無加印)。 崩壞3 紺海三角 塗鴉本 等 其他 fandom 多種",
+    "body": "## 📝 CH19 出展重點\n\n**新品**:\n- 「彩葉輝耀虹光立牌」 — 超時空輝耀姬 · 彩葉×輝耀 — 8cm 單面 / 彩虹電射板材 — NT 150/個\n- 「彩葉輝耀狐兔壓克力飯友組」 — 超時空輝耀姬 · 彩葉×輝耀 — 5cm 雙面印刷 / 凱粉殘酷彩雷 — NT 200/組 (合售不拆)\n- 「魔法少女的魔女審判 虹光壓克力立牌」 — 魔審 · 雪莉艾莉／雪莉漢娜 — 7cm 單面 / 彩虹電射板材 — NT 150/個\n- 「雪莉漢娜犬貓搖尾巴吊飾」 — 魔審 — 7+3cm 無邊雙面 / 尾巴可擺動 — NT 150/組\n- 「雪莉漢娜犬貓4.4小腦章組」 — 魔審 — 4.4cm 星砂膜 — NT 50/組 (合售不拆)\n- 「雪莉漢娜犬兔獸獸飯友組」 — 魔審 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n- 「紅龍壓克力飯友組」 — 崩壞3rd · 橘版／紫版魂金頭紅龍 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n\n**新刊**: 崩壞3 web 再錄塗鴉集 (布洛妮婭／白希黑希／紺海三角)、徽章組首賣＋復刻搖尾吊飾\n\n**寄攤**: 風嶺 魔審 小動物搖尾巴吊飾 — 6cm 彩色 — NT 150/組 (4 款分別拆售)\n\n**既刊**: 明日方舟 紅龍姐妹飯友組／崩鐵\n\n💡 開場時段不收大鈔、 請備零錢 ／ 全品項少量、 早來攤位佳\n⚠️ 《超時空輝耀姬》相關周邊於 二創規範發布前印製、 售完不加印 ／ 場後若有餘量會開通販\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq2yu8lsy)",
     "tags": {
       "super-kaguya": true,
-      "goods": true
+      "hsr": true,
+      "arknights": true,
+      "goods": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -11005,7 +11042,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/Irene309w/"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 圖示外 既刊 + 合本 = 少量帶來 (看運氣、 預購已售約半數以上)\n- 新刊 優先\n- [原 post (帶來預定)](https://www.plurk.com/p/3ipiymms0h)",
+    "body": "## 📝 CH19 出展重點\n- 新刊 **『她的危險信念』** — 原創百合合本 Vol.3 (預購中、 場前售約半數以上)\n- 參與作者: 九夏 ／ 貓草 ／ 紝理 ／ 里良 ／ 黑白沙漠狐 ／ 蕗舟\n- 封面繪師: 麻繩\n- 圖示外 既刊＋合本 = 少量帶來 (看運氣)、 新刊優先\n- 出處: [合本宣傳](https://www.plurk.com/p/3imdpb1tbc) / [帶來預定](https://www.plurk.com/p/3ipiymms0h)",
     "tags": {
       "original": true,
       "goudou": true,
@@ -11013,6 +11050,11 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3imdpb1tbc",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-43_44/plurk-3imdpb1tbc/0.png",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-43_44/cross-0.jpg",
@@ -11285,13 +11327,40 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/yvonneching8218",
     "area": "綜合",
-    "body": "- 日本女性聲優",
+    "body": "## 📝 CH19 出展重點\n\n**新刊**:\n- **『亡靈與金蘋果』** — Ave Mujica · 祥睦祥 (祥睦／睦祥) 小說本 — 橫版 / A5 / 118P / 4 萬＋字 — NT 300\n- 隨書附贈: A6 卡片 3 張\n- 數量: 36 套\n\n攤位確認 U-13/14\n\n出處: [Plurk 新刊宣傳](https://www.plurk.com/p/3iq2o9ppwf) / [品書 post](https://www.plurk.com/p/3ipgpcwsjj) / [最終 promo](https://www.plurk.com/p/3iq7qocpxv)",
     "tags": {
       "avemujica": true,
-      "bandori": true
+      "bandori": true,
+      "novel": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq2o9ppwf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-13_14/plurk-3iq2o9ppwf/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2o9ppwf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-13_14/plurk-3iq2o9ppwf/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2o9ppwf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-13_14/plurk-3iq2o9ppwf/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2o9ppwf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-13_14/plurk-3iq2o9ppwf/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2o9ppwf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-13_14/plurk-3iq2o9ppwf/4.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "plurk",
