@@ -6804,7 +6804,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/KARASoshigata"
       }
     ],
-    "body": "## 📝 IF7 出展重點\n- 主新刊 **『我喜歡上弟弟前女友 第3集』** + 周邊一式 (徽章 / 立牌 / 明信片 / 小卡)\n- 突發新刊 **『三個人 〜一起調整吧』** — 超時空輝耀姬 · 彩葉 R-18 — 試閱: [X post](https://x.com/karas_manga/status/2059580865601290431)\n- Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 同 5/30 另一場: 布鼓 J02\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
+    "body": "## 📝 IF7 出展重點\n- 主新刊 **『我喜歡上弟弟前女友 第3集』** + 周邊一式 (徽章 / 立牌 / 明信片 / 小卡)\n- 突發新刊 **『三個人 〜一起調整吧』** — 超時空輝耀姬 · 彩葉 R-18 (調整／觸威 paro) — 試閱: [X post](https://x.com/karas_manga/status/2059580865601290431)\n- 突發新刊 **『怎麼會有三個祥子!?』** — Ave Mujica × 超時空輝耀姬 crossover (三個祥子混淆、 三羽子／初華／燈／樂奈) — 試閱: [X post](https://x.com/karas_manga/status/2059581266761232769)\n- Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 同 5/30 另一場: 布鼓 J02\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
     "tags": {
       "original": true,
       "super-kaguya": true,
@@ -6814,6 +6814,26 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/karas_manga/status/2059581266761232769",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059581266761232769",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059581266761232769",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059581266761232769",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/3.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/karas_manga/status/2059580865601290431",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/0.jpg",
@@ -11790,7 +11810,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
-    "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千):\n- 自卓 3 本新刊 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 加購優惠: 購買初祥初新刊可優惠價加購初祥飯友 (限量) ([source](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 超時空輝耀姬 相關 community post 多筆\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉×八千代 (iroyachi) 同人小說本 — ⚠️ R18 / 購買時請出示成年證明\n- 13:30 後現場提供簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))",
+    "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千 — 創集繪 出刊一周年):\n- 本場新刊総数 6 本 (本子大幅増)\n- 自卓 新刊群 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 初祥初新刊購入で 初祥飯友 限量加購可 ([最終 promo](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 認親卡 (印珍珠紙、 4 擇 1 規則): (1) 卡片／小禮物 (2) 完整包裝食物 (3) 購買新刊＋追蹤證明＋一句感言 (4) [詳細](https://x.com/Mochian0819/status/2060236134186443183)\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 出處: [原 品書](https://x.com/Mochian0819/status/2058506706448159133)\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉×八千代 (iroyachi) 同人小說本 — ⚠️ R18 / 購買時請出示成年證明\n- 13:30 後現場提供簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))",
     "tags": {
       "super-kaguya": true,
       "avemujica": true,
@@ -11812,6 +11832,26 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/threads-DY7LmI3km5T/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Mochian0819/status/2058506706448159133",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/x-2058506706448159133/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Mochian0819/status/2058506706448159133",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/x-2058506706448159133/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Mochian0819/status/2058506706448159133",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/x-2058506706448159133/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Mochian0819/status/2060236134186443183",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/x-2060236134186443183/0.jpg",
         "display_locked": false
       },
       {
