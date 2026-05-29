@@ -18,17 +18,20 @@
     html, body { margin: 0; padding: 0; height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; }
     .layout { display: grid; grid-template-columns: 360px 1fr; height: 100vh; }
     .sidebar { background: var(--panel); border-right: 1px solid var(--border); padding: 1rem; overflow-y: auto; }
-    .map-wrap { position: relative; overflow: auto; background: #2a2a2a; padding: 1rem; }
+    .map-wrap { position: relative; overflow: auto; background: #2a2a2a; padding: 1rem; touch-action: pan-x pan-y; }
     .map-inner { position: relative; display: inline-block; width: 100%; transition: width 0.12s; }
-    .map-inner img { display: block; width: 100%; }
+    .map-inner img { display: block; width: 100%; -webkit-user-drag: none; user-select: none; }
     .map-inner svg { position: absolute; inset: 0; width: 100%; height: 100%; cursor: crosshair; }
+    /* Floating zoom toolbar — fixed within .map-wrap visible area so it
+       stays accessible when scrolled away from the top-left corner. */
     .zoom-toolbar {
-      position: sticky; top: 0;
+      position: fixed; top: 1rem; right: 1rem;
       display: flex; gap: 0.4rem; align-items: center;
-      background: rgba(0,0,0,0.7); padding: 0.4rem 0.6rem;
-      border-radius: 6px; margin-bottom: 0.5rem;
+      background: rgba(0,0,0,0.78); padding: 0.4rem 0.6rem;
+      border-radius: 6px;
       width: fit-content; color: #fff; font-size: 0.85rem;
-      z-index: 5;
+      z-index: 20;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
     }
     .zoom-toolbar button {
       background: #fff; border: 1px solid var(--border); border-radius: 4px;
@@ -55,9 +58,19 @@
     /* SVG overlay styles */
     svg rect.preview { fill: var(--accent-bg); fill-opacity: 0.35; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3,2; vector-effect: non-scaling-stroke; }
     svg rect.placed { fill: #93c47d; fill-opacity: 0.28; stroke: #38761d; stroke-width: 0.5; vector-effect: non-scaling-stroke; }
+    /* Upstream coords already in coords.js — different colour so howish can
+       see at a glance which cells are already mapped and which are still pending. */
+    svg rect.upstream { fill: #5b9bd5; fill-opacity: 0.18; stroke: #1f4e79; stroke-width: 0.4; stroke-dasharray: 1.2,0.8; vector-effect: non-scaling-stroke; }
     svg rect.corner-marker { fill: red; }
+    svg rect.corner-marker-tl { fill: #1565c0; }
+    svg rect.corner-marker-br { fill: #c62828; }
     /* font-size is overridden per-rect in renderAll() so labels scale with cell */
     svg text.placed-label { font-family: monospace; fill: #38761d; pointer-events: none; }
+    svg text.upstream-label { font-family: monospace; fill: #1f4e79; opacity: 0.7; pointer-events: none; }
+    .toggle-row { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem; }
+    .toggle-row label { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.78rem; color: var(--text); margin: 0; cursor: pointer; }
+    .mode-radio { display: flex; gap: 0.6rem; margin-top: 0.4rem; font-size: 0.82rem; }
+    .mode-radio label { display: inline-flex; align-items: center; gap: 0.25rem; margin: 0; cursor: pointer; }
   </style>
 </head>
 <body>
@@ -65,6 +78,11 @@
   <aside class="sidebar">
     <h2>🗺 Coord tool — IF7</h2>
     <p class="stat" id="counts">読込中…</p>
+
+    <h3>表示オプション</h3>
+    <div class="toggle-row">
+      <label><input type="checkbox" id="show-upstream" checked> 既存 coords.js を表示 (青)</label>
+    </div>
 
     <h3>1. 帯を定義</h3>
     <div class="row">
@@ -86,7 +104,14 @@
       <div><label>開始番号</label><input type="number" id="start-num" min="1" max="99" value="1"></div>
       <div><label>終了番号</label><input type="number" id="end-num" min="1" max="99" value="22"></div>
     </div>
+    <div class="mode-radio">
+      <label><input type="radio" name="input-mode" value="alternate" checked> 交互 (TL → BR)</label>
+      <label><input type="radio" name="input-mode" value="batch"> バッチ (TL×N → BR×N)</label>
+    </div>
     <button id="begin-band" class="primary" style="width:100%; margin-top:0.5rem;">この帯の 2 隅をクリック開始</button>
+    <button id="batch-tl-start" style="width:100%; margin-top:0.3rem; display:none;">バッチ: TL×N 入力 開始</button>
+    <button id="batch-br-start" style="width:100%; margin-top:0.3rem; display:none;">バッチ: BR×N 入力 開始</button>
+    <button id="batch-commit" class="primary" style="width:100%; margin-top:0.3rem; display:none;">バッチを commit</button>
 
     <h3>2. クリック手順</h3>
     <div class="status idle" id="status">アイドル — 上の "クリック開始" を押してから map をクリック</div>
@@ -118,6 +143,7 @@
 </div>
 
 <script src="data.js"></script>
+<script src="coords.js"></script>
 <script>
 /**
  * Booth coord tool — band-mode input.
@@ -142,9 +168,16 @@ const bandCountEl = document.getElementById('band-count');
 const coordCountEl = document.getElementById('coord-count');
 
 let state = loadState();  // { coords: {<id>: {x,y,w,h}}, bands: [{key,row,start,end,dir,r}], }
-let mode = 'idle';        // 'idle' | 'waiting1' | 'waiting2'
+let mode = 'idle';        // 'idle' | 'waiting1' | 'waiting2' | 'batch-tl' | 'batch-br'
 let pendingCorner1 = null;
 let pendingBand = null;   // {row, start, end, dir} captured when "begin band" pressed
+// Batch-mode buffers: arrays of TL / BR clicks, paired by index.
+let batchTLs = [];
+let batchBRs = [];
+
+// Upstream coords loaded from coords.js (snapshot at page load).
+const upstreamCoords = (window.BOOTH_COORDS && Object.keys(window.BOOTH_COORDS).length) ? { ...window.BOOTH_COORDS } : {};
+let showUpstream = true;
 
 function loadState() {
   try {
@@ -174,18 +207,94 @@ function init() {
   renderAll();
 }
 
-document.getElementById('begin-band').addEventListener('click', () => {
+function readPendingBand() {
   const row = document.getElementById('row-select').value;
   const start = parseInt(document.getElementById('start-num').value, 10);
   const end = parseInt(document.getElementById('end-num').value, 10);
   const dir = document.getElementById('direction').value;
   if (!row || isNaN(start) || isNaN(end) || start > end) {
-    setStatus('開始/終了番号が不正', 'warn'); return;
+    setStatus('開始/終了番号が不正', 'warn'); return null;
   }
-  pendingBand = { row, start, end, dir };
+  return { row, start, end, dir };
+}
+
+function syncModeButtons() {
+  const inputMode = document.querySelector('input[name="input-mode"]:checked').value;
+  document.getElementById('begin-band').style.display = inputMode === 'alternate' ? '' : 'none';
+  document.getElementById('batch-tl-start').style.display = inputMode === 'batch' ? '' : 'none';
+  document.getElementById('batch-br-start').style.display = inputMode === 'batch' ? '' : 'none';
+  document.getElementById('batch-commit').style.display = inputMode === 'batch' ? '' : 'none';
+}
+document.querySelectorAll('input[name="input-mode"]').forEach(r => {
+  r.addEventListener('change', () => {
+    syncModeButtons();
+    // Reset any pending state when switching mode
+    mode = 'idle'; pendingCorner1 = null; batchTLs = []; batchBRs = [];
+    setStatus('モード変更: 上から開始ボタンを押す', 'idle');
+    renderAll();
+  });
+});
+syncModeButtons();
+
+document.getElementById('begin-band').addEventListener('click', () => {
+  const pb = readPendingBand(); if (!pb) return;
+  pendingBand = pb;
   pendingCorner1 = null;
   mode = 'waiting1';
-  setStatus(`✦ ${row}-${pad(start)} の左上 (= 1 番) をクリックしてください`, 'wait');
+  setStatus(`✦ ${pb.row}-${pad(pb.start)} の左上 (= 1 番) をクリックしてください`, 'wait');
+});
+
+document.getElementById('batch-tl-start').addEventListener('click', () => {
+  const pb = readPendingBand(); if (!pb) return;
+  pendingBand = pb;
+  batchTLs = [];
+  mode = 'batch-tl';
+  setStatus(`📍 各帯の左上 (TL) を順番にクリック (現在 0 件)`, 'wait');
+  renderAll();
+});
+
+document.getElementById('batch-br-start').addEventListener('click', () => {
+  if (!pendingBand) { setStatus('まず TL を入れて から BR モード', 'warn'); return; }
+  if (!batchTLs.length) { setStatus('TL がまだ 0 件、 先に TL を入れてください', 'warn'); return; }
+  batchBRs = [];
+  mode = 'batch-br';
+  setStatus(`📍 各帯の右下 (BR) を順番にクリック — TL ${batchTLs.length} 件と同数 (現在 0 件)`, 'wait');
+  renderAll();
+});
+
+document.getElementById('batch-commit').addEventListener('click', () => {
+  if (!pendingBand) { setStatus('Pending band がない', 'warn'); return; }
+  if (batchTLs.length === 0 || batchTLs.length !== batchBRs.length) {
+    setStatus(`TL ${batchTLs.length} 件 vs BR ${batchBRs.length} 件 — 数 一致必要`, 'warn'); return;
+  }
+  // Each (TL, BR) pair gets committed as one band — but we want them to be
+  // separate `<row>-<n>` cells. Re-interpret: each pair becomes a single
+  // cell, distributed sequentially across [start..end].
+  const { row, start, end, dir } = pendingBand;
+  const expected = end - start + 1;
+  if (batchTLs.length !== expected) {
+    if (!confirm(`帯番号 ${start}..${end} は ${expected} 件想定だけど batch は ${batchTLs.length} 件。 続行?`)) return;
+  }
+  // Each pair = one cell. Use min/max for safety.
+  for (let i = 0; i < batchTLs.length; i++) {
+    const tl = batchTLs[i], br = batchBRs[i];
+    const xMin = Math.min(tl.x, br.x), xMax = Math.max(tl.x, br.x);
+    const yMin = Math.min(tl.y, br.y), yMax = Math.max(tl.y, br.y);
+    // For dir = lr / rl: sequence runs along x, for tb/bt along y.
+    let num;
+    if (dir === 'lr' || dir === 'tb') num = start + i;
+    else num = end - i; // rl / bt counts down
+    const id = `${row}-${pad(num)}`;
+    state.coords[id] = { x: round(xMin), y: round(yMin), w: round(xMax - xMin), h: round(yMax - yMin) };
+  }
+  // Record as a single band (group) for the deletable-bands list
+  const key = `${row}-${pad(start)}..${pad(end)}-${dir}-batch`;
+  state.bands = state.bands.filter(b => b.key !== key);
+  state.bands.push({ key, row, start, end, dir, n: batchTLs.length, batch: true });
+  saveState();
+  batchTLs = []; batchBRs = []; mode = 'idle'; pendingBand = null;
+  setStatus(`✓ バッチ commit (${expected} cells)`, 'idle');
+  renderAll();
 });
 
 overlay.addEventListener('click', (e) => {
@@ -197,13 +306,26 @@ overlay.addEventListener('click', (e) => {
     pendingCorner1 = { x, y };
     mode = 'waiting2';
     setStatus(`✦ ${pendingBand.row}-${pad(pendingBand.end)} の右下 (= 最後) をクリックしてください`, 'wait');
-    renderPreviewCorner(pendingCorner1);
+    renderAll();
   } else if (mode === 'waiting2') {
     const c2 = { x, y };
     commitBand(pendingCorner1, c2);
     mode = 'idle';
     pendingCorner1 = null;
     setStatus('✓ 帯追加。次の帯を定義するには上から設定して "クリック開始"', 'idle');
+    renderAll();
+  } else if (mode === 'batch-tl') {
+    batchTLs.push({ x, y });
+    setStatus(`📍 TL ${batchTLs.length} 件 (次は引き続き TL、 終わったら "BR×N 入力 開始" を押す)`, 'wait');
+    renderAll();
+  } else if (mode === 'batch-br') {
+    batchBRs.push({ x, y });
+    const remain = batchTLs.length - batchBRs.length;
+    if (remain > 0) {
+      setStatus(`📍 BR ${batchBRs.length} 件 (残り ${remain})`, 'wait');
+    } else {
+      setStatus(`📍 BR ${batchBRs.length} 件 — TL/BR 揃った、 "バッチを commit" を押す`, 'wait');
+    }
     renderAll();
   }
 });
@@ -266,23 +388,37 @@ function setStatus(text, kind) {
   statusEl.className = 'status ' + (kind === 'idle' ? 'idle' : '');
 }
 
-function renderPreviewCorner(c) {
-  // Show a small red dot at first corner
-  const dot = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-  dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
-  dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
-  dot.setAttribute('class', 'corner-marker');
-  dot.setAttribute('id', 'tmp-corner');
-  // Remove previous if any
-  const old = document.getElementById('tmp-corner'); if (old) old.remove();
-  overlay.appendChild(dot);
-}
-
 function renderAll() {
-  // Wipe overlay (keep tmp corner if present)
+  // Wipe overlay
   while (overlay.firstChild) overlay.removeChild(overlay.firstChild);
   const ns = 'http://www.w3.org/2000/svg';
-  // Draw every coord as placed rect + label
+
+  // --- Upstream coords from coords.js — draw FIRST so local edits paint on top ---
+  if (showUpstream) {
+    for (const [id, c] of Object.entries(upstreamCoords)) {
+      // Skip if user already overwrote in local state (avoid double-render)
+      if (state.coords[id]) continue;
+      const r = document.createElementNS(ns, 'rect');
+      r.setAttribute('x', c.x); r.setAttribute('y', c.y);
+      r.setAttribute('width', c.w); r.setAttribute('height', c.h);
+      r.setAttribute('class', 'upstream');
+      overlay.appendChild(r);
+      const fs = Math.min(c.h * 0.5, (c.w / id.length) * 1.3);
+      if (fs >= 0.4) {
+        const t = document.createElementNS(ns, 'text');
+        t.setAttribute('x', c.x + c.w / 2);
+        t.setAttribute('y', c.y + c.h / 2);
+        t.setAttribute('text-anchor', 'middle');
+        t.setAttribute('dominant-baseline', 'central');
+        t.setAttribute('font-size', fs);
+        t.setAttribute('class', 'upstream-label');
+        t.textContent = id;
+        overlay.appendChild(t);
+      }
+    }
+  }
+
+  // Draw every local coord as placed rect + label
   const known = new Set((window.BOOTHS || []).map(b => b.booth_id));
   for (const [id, c] of Object.entries(state.coords)) {
     const r = document.createElementNS(ns, 'rect');
@@ -318,6 +454,41 @@ function renderAll() {
     btn.addEventListener('click', () => deleteBand(b.key));
     div.appendChild(btn);
     bandsListEl.appendChild(div);
+  }
+  // Draw pending alternate-mode TL corner marker
+  if (pendingCorner1) {
+    const dot = document.createElementNS(ns, 'rect');
+    dot.setAttribute('x', pendingCorner1.x - 0.3); dot.setAttribute('y', pendingCorner1.y - 0.3);
+    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
+    dot.setAttribute('class', 'corner-marker');
+    overlay.appendChild(dot);
+  }
+  // Draw batch TL/BR markers with index labels
+  for (let i = 0; i < batchTLs.length; i++) {
+    const c = batchTLs[i];
+    const dot = document.createElementNS(ns, 'rect');
+    dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
+    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
+    dot.setAttribute('class', 'corner-marker-tl');
+    overlay.appendChild(dot);
+    const t = document.createElementNS(ns, 'text');
+    t.setAttribute('x', c.x + 0.5); t.setAttribute('y', c.y + 0.1);
+    t.setAttribute('font-size', '0.8'); t.setAttribute('fill', '#1565c0');
+    t.setAttribute('font-family', 'monospace'); t.textContent = String(i + 1);
+    overlay.appendChild(t);
+  }
+  for (let i = 0; i < batchBRs.length; i++) {
+    const c = batchBRs[i];
+    const dot = document.createElementNS(ns, 'rect');
+    dot.setAttribute('x', c.x - 0.3); dot.setAttribute('y', c.y - 0.3);
+    dot.setAttribute('width', 0.6); dot.setAttribute('height', 0.6);
+    dot.setAttribute('class', 'corner-marker-br');
+    overlay.appendChild(dot);
+    const t = document.createElementNS(ns, 'text');
+    t.setAttribute('x', c.x + 0.5); t.setAttribute('y', c.y + 0.1);
+    t.setAttribute('font-size', '0.8'); t.setAttribute('fill', '#c62828');
+    t.setAttribute('font-family', 'monospace'); t.textContent = String(i + 1);
+    overlay.appendChild(t);
   }
   bandCountEl.textContent = state.bands.length;
   coordCountEl.textContent = Object.keys(state.coords).length;
@@ -397,6 +568,46 @@ mapWrap.addEventListener('wheel', (e) => {
   const factor = e.deltaY < 0 ? 1.18 : 1 / 1.18;
   setZoom(zoom * factor, { x: e.clientX, y: e.clientY });
 }, { passive: false });
+
+// Pinch-to-zoom for touch devices. We track two-finger gestures via
+// pointer events and update zoom by the change in finger distance.
+const activePointers = new Map();
+let pinchStartDist = 0;
+let pinchStartZoom = 1;
+let pinchCenter = null;
+mapWrap.addEventListener('pointerdown', (e) => {
+  if (e.pointerType !== 'touch') return;
+  activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (activePointers.size === 2) {
+    const pts = [...activePointers.values()];
+    pinchStartDist = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+    pinchStartZoom = zoom;
+    pinchCenter = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
+  }
+});
+mapWrap.addEventListener('pointermove', (e) => {
+  if (!activePointers.has(e.pointerId)) return;
+  activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  if (activePointers.size === 2 && pinchStartDist > 0) {
+    const pts = [...activePointers.values()];
+    const d = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+    setZoom(pinchStartZoom * (d / pinchStartDist), pinchCenter);
+    e.preventDefault();
+  }
+}, { passive: false });
+function clearPointer(e) {
+  activePointers.delete(e.pointerId);
+  if (activePointers.size < 2) { pinchStartDist = 0; pinchCenter = null; }
+}
+mapWrap.addEventListener('pointerup', clearPointer);
+mapWrap.addEventListener('pointercancel', clearPointer);
+mapWrap.addEventListener('pointerleave', clearPointer);
+
+// Upstream-display toggle
+document.getElementById('show-upstream').addEventListener('change', (e) => {
+  showUpstream = e.target.checked;
+  renderAll();
+});
 
 init();
 </script>
