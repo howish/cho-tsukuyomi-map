@@ -8182,15 +8182,32 @@ window.BOOTHS = [
         "platform": "plurk",
         "handle": "@ouyouxi2020",
         "url": "https://www.plurk.com/ouyouxi2020"
+      },
+      {
+        "platform": "x",
+        "handle": "@AoIzumi_Akiharu",
+        "url": "https://x.com/AoIzumi_Akiharu"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 創集繪 新品照已公開、 S35/S36 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姬** 多 fandom",
+    "body": "## 📝 CH19 出展重點\n- 主攤: S-35/36 合攤 ／ #緋染天空 + 賽馬娘 + **超時空輝耀姬** 多 fandom 周邊\n\n**寄攤 — 碎烆 (@AoIzumi_Akiharu) 超時空輝耀姬 同人短篇集**:\n- 新刊 『743A』 R18 同人短篇集 — A5 / 右翻 / 84P / NT 200\n- 收錄 7 篇短文 ／ 3 張黑白 Q 版插畫 ／ 1 面彩色拉頁\n- 封面繪師: 七御 ／ 內頁插畫: 火登﹑巧犬\n- ⚠️ R18 — 購買時將驗證身分證件 ([source](https://x.com/AoIzumi_Akiharu/status/2059513177558388971))\n\n**寄攤 — 幻ちゃん 賽馬娘 周邊**:\n- 搖搖馬立牌 29 款 — 1 款 NT 200 ／ 3 款 NT 500\n- 搖搖尾串串吊飾 4 款 — 1 款 NT 300 ／ 2 款 NT 500\n- 出處: [Plurk announce](https://www.plurk.com/p/3iljqk97pp)\n\n💡 開場時段請備零錢、不接受大鈔",
     "tags": {
       "super-kaguya": true,
-      "goods": true
+      "uma-musume": true,
+      "goods": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/AoIzumi_Akiharu/status/2059513177558388971",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-35_36/x-2059513177558388971/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iljqk97pp",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-35_36/plurk-3iljqk97pp/0.png",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.plurk.com/p/3ilebtnb56",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-35_36/0.jpg",
@@ -8221,18 +8238,44 @@ window.BOOTHS = [
         "platform": "x",
         "handle": "@pomeka35",
         "url": "https://x.com/pomeka35"
+      },
+      {
+        "platform": "x",
+        "handle": "@vivi890812",
+        "url": "https://x.com/vivi890812"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n\n**本**:\n- 「毛茸茸同居人1」 — VTuber · micomet — 漫畫 / NT 350\n\n**其他**:\n- 「毛茸茸同居人2」 — VTuber · micomet\n- 「小花團子」 — VTuber · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTuber · micomet — NT 200\n- 「壓克力飯友」 — VTuber · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此週邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTuber · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTuber · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — BanG Dream! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTuber · micomet — NT 200\n\n**其他週邊**:\n- 「mcmt按鍵吊飾」 — VTuber · micomet — 週邊 / NT 150\n\n出處參照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足參照)",
+    "body": "## 📝 CH19 出展重點\n\n**新刊**:\n- 「毛茸茸同居人1」 — VTuber · micomet — 漫畫 / NT 350\n- ※「毛茸茸同居人2」 — 本次未趕上印製、不會於 CH19 上架 ([source](https://x.com/vivi890812/status/2053050113233465483))\n\n**本子收藏品**:\n- 「小花團子」 — VTuber · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTuber · micomet — NT 200\n- 「壓克力飯友」 — VTuber · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此週邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTuber · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTuber · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — BanG Dream! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTuber · micomet — NT 200\n\n**其他週邊**:\n- 「mcmt按鍵吊飾」 — VTuber · micomet — 週邊 / NT 150\n\n💡 開場時段請備零錢、不易找大鈔 ([source](https://x.com/vivi890812/status/2053050113233465483))\n\n出處參照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足參照)",
     "tags": {
       "super-kaguya": true,
       "mygo": true,
+      "avemujica": true,
       "hololive": true,
       "manga": true,
       "goods": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/vivi890812/status/2053050113233465483",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-37_38/share-x-2053050113233465483/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/vivi890812/status/2053050113233465483",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-37_38/share-x-2053050113233465483/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/vivi890812/status/2053050113233465483",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-37_38/share-x-2053050113233465483/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/vivi890812/status/2053050113233465483",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-37_38/share-x-2053050113233465483/3.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://pbs.twimg.com/media/HIHw2hfaUAAD5Ad.jpg",
         "display_url": "https://pbs.twimg.com/media/HIHw2hfaUAAD5Ad.jpg"
