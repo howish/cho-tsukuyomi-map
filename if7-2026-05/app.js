@@ -172,6 +172,7 @@
       'edit-preview-summary':{ text: 'edit_panel_preview_summary' },
       'edit-panel-note':     { text: 'edit_panel_note' },
       'edit-clear-all':      { text: 'edit_clear_all_btn' },
+      'edit-submit-download':{ text: 'edit_submit_download' },
       'edit-submit-github':  { text: 'edit_submit_github' },
       'edit-submit-copy':    { text: 'edit_submit_copy' },
       'map-section-title':   { text: 'map_section_title' },
@@ -1891,6 +1892,7 @@
         ids: items.map(p => p.booth_id).join(', ')
       });
       preview.textContent = buildSubmissionText();
+      refreshPanelHint();
       panel.hidden = false;
       panel.style.display = '';
     }
@@ -1901,11 +1903,48 @@
       p.style.display = 'none';  // hidden attribute is overridden by .edit-panel{display:flex}
     }
 
-    function buildGithubIssueUrl() {
+    function buildGithubIssueUrl(opts) {
       const repo = (EVENT.github_repo || 'https://github.com/howish/cho-tsukuyomi-map').replace(/\/$/, '');
       const title = T('edit_submission_github_title', { count: listPending().length });
-      const body = buildSubmissionText() + '\n\n' + T('edit_submission_footer');
+      const body = (opts && opts.shortBody)
+        ? T('edit_submission_attach_note') + '\n\n' + T('edit_submission_footer')
+        : buildSubmissionText() + '\n\n' + T('edit_submission_footer');
       return `${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    }
+
+    function downloadSubmissionFile() {
+      const text = buildSubmissionText();
+      // YYYYMMDD-HHMMSS
+      const ts = new Date().toISOString().replace(/[:.]/g, '-').replace('T','-').split('.')[0];
+      const count = listPending().length;
+      const ev = (EVENT.event_id || EVENT.slug || 'event');
+      const filename = `${ev}-fix-${count}booths-${ts}.md`;
+      const blob = new Blob([text], { type: 'text/markdown;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      // Revoke later to let the download initiate.
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      return filename;
+    }
+
+    function refreshPanelHint() {
+      const hintEl = document.getElementById('edit-panel-hint');
+      if (!hintEl) return;
+      const len = buildSubmissionText().length;
+      // GitHub Issue body via URL is gated by browser URL length (~8K safe).
+      // Above that, recommend the .md download path.
+      if (len > 7000) {
+        hintEl.textContent = T('edit_submission_too_large_hint', { kb: (len / 1024).toFixed(1) });
+        hintEl.className = 'edit-panel-hint warn';
+      } else {
+        hintEl.textContent = '';
+        hintEl.className = 'edit-panel-hint';
+      }
     }
 
     // Wire up event handlers (once)
@@ -1916,18 +1955,41 @@
     const panelBackdrop = document.getElementById('edit-panel-backdrop');
     if (panelBackdrop) panelBackdrop.addEventListener('click', closePanel);
 
+    const submitDownload = document.getElementById('edit-submit-download');
+    if (submitDownload) submitDownload.addEventListener('click', () => {
+      const name = downloadSubmissionFile();
+      submitDownload.textContent = T('edit_submit_download_done', { name });
+      setTimeout(() => { submitDownload.textContent = T('edit_submit_download'); }, 2200);
+    });
     const submitGithub = document.getElementById('edit-submit-github');
     if (submitGithub) submitGithub.addEventListener('click', () => {
-      window.open(buildGithubIssueUrl(), '_blank', 'noopener');
+      const len = buildSubmissionText().length;
+      // Above the URL-fill ceiling: also trigger a download so the user
+      // can drag-drop the .md into the issue body manually.
+      if (len > 7000) {
+        const name = downloadSubmissionFile();
+        alert(T('edit_submission_attach_alert', { name }));
+        window.open(buildGithubIssueUrl({ shortBody: true }), '_blank', 'noopener');
+      } else {
+        window.open(buildGithubIssueUrl(), '_blank', 'noopener');
+      }
     });
     const submitCopy = document.getElementById('edit-submit-copy');
     if (submitCopy) submitCopy.addEventListener('click', async () => {
+      const text = buildSubmissionText();
       try {
-        await navigator.clipboard.writeText(buildSubmissionText());
+        await navigator.clipboard.writeText(text);
         submitCopy.textContent = T('edit_submit_copy_done');
         setTimeout(() => { submitCopy.textContent = T('edit_submit_copy'); }, 1800);
       } catch (e) {
-        prompt(T('edit_submit_copy_fallback'), buildSubmissionText().slice(0, 2000));
+        // Clipboard API failed — likely too long. Offer the download path
+        // instead of dumping a truncated prompt() blob.
+        if (text.length > 5000) {
+          const name = downloadSubmissionFile();
+          alert(T('edit_submit_copy_too_large', { name }));
+        } else {
+          prompt(T('edit_submit_copy_fallback'), text.slice(0, 2000));
+        }
       }
     });
     const clearAllBtn = document.getElementById('edit-clear-all');

@@ -102,6 +102,12 @@ window.I18N_STRINGS = {
     edit_submission_images_after: 'images / cover_urls (after)',
     edit_submission_footer: '— 修正モードから自動生成 —',
     edit_submission_github_title: '[修正案] {count} 件の booth 情報 update',
+    edit_submit_download: '💾 .md ファイルで保存',
+    edit_submit_download_done: '✅ {name} ダウンロード済み',
+    edit_submission_too_large_hint: '⚠️ 内容が {kb} KB と大きめ → 「💾 .md で保存」推奨。 GitHub / クリップボード は中身が切れる可能性',
+    edit_submission_attach_note: '修正案 .md ファイルを下にドラッグドロップして添付してください。',
+    edit_submission_attach_alert: '内容が大きいため .md ファイル ({name}) としてダウンロードしました。 GitHub Issue 画面で本文欄にドラッグドロップして添付 → submit してください。',
+    edit_submit_copy_too_large: 'クリップボード API がこのサイズ ({name}) を受け付けません。 .md ファイル ({name}) としてダウンロードしました — そちらを使ってください。',
 
     // Map section
     map_section_title: '会場マップ',
@@ -259,6 +265,12 @@ window.I18N_STRINGS = {
     edit_submission_images_after: 'images / cover_urls (after)',
     edit_submission_footer: '— 由修正模式自動產生 —',
     edit_submission_github_title: '[修正案] {count} 個攤位資訊更新',
+    edit_submit_download: '💾 下載為 .md 檔',
+    edit_submit_download_done: '✅ {name} 已下載',
+    edit_submission_too_large_hint: '⚠️ 內容約 {kb} KB 偏大 → 推薦「💾 .md 下載」。 GitHub / 剪貼簿 可能會被截斷',
+    edit_submission_attach_note: '請將修正案 .md 檔拖放到下方以附加。',
+    edit_submission_attach_alert: '內容過大、 已下載為 .md 檔 ({name})。 請在 GitHub Issue 頁面拖放至內文欄附加 → submit。',
+    edit_submit_copy_too_large: '剪貼簿 API 不支援此大小、 已下載 .md 檔 ({name}) — 請改用 file 路徑。',
 
     map_section_title: '會場地圖',
     venue_map_alt: '會場地圖',

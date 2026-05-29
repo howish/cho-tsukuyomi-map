@@ -464,7 +464,11 @@ EVENT = 'if7-2026-05'  # set per --event flag
 def main():
     global EVENT
     ap = argparse.ArgumentParser(description='Apply a [修正案] issue to cho-tsukuyomi-map')
-    ap.add_argument('issue_number', type=int)
+    src = ap.add_mutually_exclusive_group(required=True)
+    src.add_argument('issue_number', type=int, nargs='?',
+                     help='GitHub issue number (omit when using --file)')
+    src.add_argument('--file', type=str,
+                     help='Apply from a local .md file (download path from edit mode)')
     ap.add_argument('--event', default='if7-2026-05')
     ap.add_argument('--dry-run', action='store_true', help='Print the plan, no R2/data.js/git mutations')
     ap.add_argument('--fb-cookies', default=str(Path.home() / 'project' / 'fb-cookies.txt'))
@@ -476,12 +480,20 @@ def main():
     threads_cookies = Path(args.threads_cookies) if Path(args.threads_cookies).exists() else None
 
     repo_str = str(REPO)
-    issue_text = subprocess.check_output(
-        ['gh', 'issue', 'view', str(args.issue_number), '--repo', 'howish/cho-tsukuyomi-map'],
-        cwd=repo_str,
-    ).decode()
+    if args.file:
+        fp = Path(args.file).expanduser().resolve()
+        if not fp.exists():
+            print(f'!! file not found: {fp}'); sys.exit(2)
+        issue_text = fp.read_text()
+        src_label = f'file:{fp.name}'
+    else:
+        issue_text = subprocess.check_output(
+            ['gh', 'issue', 'view', str(args.issue_number), '--repo', 'howish/cho-tsukuyomi-map'],
+            cwd=repo_str,
+        ).decode()
+        src_label = f'Issue #{args.issue_number}'
     sections = parse_issue(issue_text)
-    print(f'\n=== Issue #{args.issue_number}: {len(sections)} booth ops ===\n')
+    print(f'\n=== {src_label}: {len(sections)} booth ops ===\n')
 
     data_path = REPO / args.event / 'data.js'
     raw = data_path.read_text()
@@ -627,19 +639,26 @@ def main():
     # Commit + push
     subprocess.run(['git', 'add', f'{args.event}/data.js', f'{args.event}/index.html'],
                    cwd=repo_str, check=True)
-    msg = f'''Apply Issue #{args.issue_number} via scripts/apply-issue.py
+    if args.file:
+        header = f'Apply edit-mode fix file ({Path(args.file).name}) via scripts/apply-issue.py'
+        footer = ''
+    else:
+        header = f'Apply Issue #{args.issue_number} via scripts/apply-issue.py'
+        footer = f'Closes #{args.issue_number}.\n\n'
+    msg = f'''{header}
 
 {len(plan)} booth op(s) processed automatically. Per-entry identity via
 display_url; locked external URLs re-hosted on R2 with display_locked
 preserved; dropped entries' R2 keys deleted.
 
-Closes #{args.issue_number}.
-
-Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+{footer}Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
 '''
     subprocess.run(['git', 'commit', '-m', msg], cwd=repo_str, check=True)
     subprocess.run(['git', 'push'], cwd=repo_str, check=True)
-    print(f'\n✓ pushed. issue #{args.issue_number} auto-closes via commit message.')
+    if args.file:
+        print(f'\n✓ pushed. ({src_label})')
+    else:
+        print(f'\n✓ pushed. issue #{args.issue_number} auto-closes via commit message.')
 
 
 if __name__ == '__main__':
