@@ -11357,17 +11357,28 @@ window.BOOTHS = [
         "platform": "threads",
         "handle": "@l90715566123",
         "url": "https://www.threads.com/@l90715566123"
+      },
+      {
+        "platform": "ig",
+        "handle": "@lunoestory.novel",
+        "url": "https://www.instagram.com/lunoestory.novel/"
       }
     ],
-    "body": "## 📝 IF7 出展重點\n\nT-42 「百合餓狼之盟」 — 百合二創\n\n**新刊**:\n- 『十年間的日常 〜想與妳成為戀人』 — 超時空輝耀姬\n- [**『MBCC 局長與她的女人們』**](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/) — 無期迷途 百合小說合本\n\n**無料**:\n- 無期迷途 明信片 — 一人限一張、 拿完為止\n- 古代百合 NP 封面 認親卡 — 一人限一張\n\n**簽名服務**: OK、 較空閒時段建議下午。合本簽名以攤位上的小艾 + @lunoestory.novel 為限。\n\n**預購**: 已寄信 (請查垃圾信箱)\n\n💡 請自備零錢／小鈔\n\n出處: [Threads 場前宣傳](https://www.threads.com/@l90715566123/post/DY17ZuIlGIH)",
+    "body": "## 📝 IF7 出展重點\n\nT-42 「百合餓狼之盟」 — 百合二創 (小艾 ＋ 蕗舟 + 寄售)\n\n**新刊**:\n- **『並蒂雙生 〜渾沌少女演劇』** — 原創百合 — 蕗舟 ＋ 麻繩 — 場販 NT 280 ／ 電子書 (讀墨 / BW) NT 210 → 現正 79 折 NT 165 — 設定: 日治大正時代 / 台灣女僕 × 日本小姐 (有緣人限定、 極少量)\n- [**『MBCC 局長與她的女人們』**](https://www.instagram.com/lunoestory.novel/p/DYCxxU-moGL/) — 無期迷途 百合小說合本 — NT 250 — 作者群: 武佳栩 / 零零人 / 阿臥 / 艾沐 / 狼尾草 / 蕗舟 — CP: 縈縈 / 蜜莉 / 瑟琳 / 可可莉克 / 奧古斯特 / 卓婭 / 安吉爾 / 卡門奈特\n- **『十年間的日常 〜想與妳成為戀人』** — 超時空輝耀姬 — 艾沐 — `iroyachi` (研究員彩葉 × 月見八千代) — NT 200\n\n**無料**:\n- 無期迷途 明信片 — 一人限一張、 拿完為止\n- 古代百合 NP 封面 認親卡 — 一人限一張\n\n**簽名服務**: OK、 較空閒時段建議下午。合本簽名以攤位上的小艾 ＋ [@lunoestory.novel](https://www.instagram.com/lunoestory.novel/) 為限。\n\n**預購**: 已寄信 (請查垃圾信箱)\n\n💡 請自備零錢／小鈔\n\n出處: [IG 品書](https://www.instagram.com/p/DYlo3oiNltW/) / [Threads 場前宣傳](https://www.threads.com/@l90715566123/post/DY17ZuIlGIH)",
     "tags": {
       "super-kaguya": true,
+      "original": true,
       "novel": true,
       "goudou": true,
       "free": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.instagram.com/p/DYlo3oiNltW/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/ig-DYlo3oiNltW/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/threads-DY17ZuIlGIH/0.jpg",
