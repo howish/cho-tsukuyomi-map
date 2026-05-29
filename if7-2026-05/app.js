@@ -646,6 +646,28 @@
 
         const header = el('div', { class: 'edit-images-row-header' });
         state.indexLabel = el('span', { class: 'edit-images-row-idx' }, '');
+        const upBtn = el('button', {
+          type: 'button', class: 'edit-images-move-btn', title: T('edit_image_move_up_tooltip'),
+        }, '↑');
+        const downBtn = el('button', {
+          type: 'button', class: 'edit-images-move-btn', title: T('edit_image_move_down_tooltip'),
+        }, '↓');
+        upBtn.addEventListener('click', () => {
+          const idx = rowsState.indexOf(state);
+          if (idx <= 0) return;
+          rowsState[idx] = rowsState[idx - 1];
+          rowsState[idx - 1] = state;
+          imgList.insertBefore(row, rowsState[idx].row);
+          refreshIndices();
+        });
+        downBtn.addEventListener('click', () => {
+          const idx = rowsState.indexOf(state);
+          if (idx < 0 || idx >= rowsState.length - 1) return;
+          rowsState[idx] = rowsState[idx + 1];
+          rowsState[idx + 1] = state;
+          imgList.insertBefore(rowsState[idx].row, row);
+          refreshIndices();
+        });
         const removeBtn = el('button', {
           type: 'button', class: 'edit-images-remove-btn',
         }, T('edit_image_remove'));
@@ -656,6 +678,8 @@
           refreshIndices();
         });
         header.appendChild(state.indexLabel);
+        header.appendChild(upBtn);
+        header.appendChild(downBtn);
         header.appendChild(removeBtn);
         row.appendChild(header);
 
