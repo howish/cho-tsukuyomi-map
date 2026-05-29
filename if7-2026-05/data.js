@@ -6052,18 +6052,43 @@ window.BOOTHS = [
     "booth_id": "R-05",
     "circle_name": "旅者的足音",
     "author": "",
-    "x_handle": "",
+    "x_handle": "oginoyori",
     "x_url": "https://oginoyori.wixsite.com/oginoyori",
     "area": "綜合",
-    "body": "- 原創-Sign in：Seiga1999\n- 原創-艾利斯提的寫作筆記",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n位置: R-05 (`#no萬here`)\n\n- 原創 `Sign in：Seiga1999`\n- 原創 `艾利斯提的寫作筆記`\n- 現場提供自由 (?) 取的「粉肝貼紙」 — 手剪、 邊緣可能不太平整 ([source](https://x.com/oginoyori/status/2059679528528798107))\n- 出處: [終宣 X](https://x.com/oginoyori/status/2060342359192371654)",
+    "tags": {
+      "original": true,
+      "novel": true,
+      "free": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/oginoyori/status/2060342359192371654",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2060342359192371654/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/oginoyori/status/2060342359192371654",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2060342359192371654/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/oginoyori/status/2060342359192371654",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2060342359192371654/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "wix",
         "handle": "",
         "url": "https://oginoyori.wixsite.com/oginoyori"
+      },
+      {
+        "platform": "x",
+        "handle": "@oginoyori",
+        "url": "https://x.com/oginoyori"
       }
     ]
   },
@@ -6649,7 +6674,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/KARASoshigata"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 主新刊 **『我喜歡上弟弟前女友 第3集』** + 周邊一式 (徽章 / 立牌 / 明信片 / 小卡)\n- 突發新刊 **彩葉 R-18 本** (= 超時空輝耀姬 二創)\n- Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 同 5/30 另一場: 布鼓 J02\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
+    "body": "## 📝 IF7 出展重點\n- 主新刊 **『我喜歡上弟弟前女友 第3集』** + 周邊一式 (徽章 / 立牌 / 明信片 / 小卡)\n- 突發新刊 **『三個人 〜一起調整吧』** — 超時空輝耀姬 · 彩葉 R-18 — 試閱: [X post](https://x.com/karas_manga/status/2059580865601290431)\n- Vtuber 「星形 KARAS」 兼任、 漫畫家本職\n- 同 5/30 另一場: 布鼓 J02\n- 其他社群: [cxc.today](https://cxc.today/store/karas_) (漫畫放置) / [賣貨便電子書](https://karas-work.weebly.com/shop.html) / [淘寶代理](https://reurl.cc/R9NqZn)",
     "tags": {
       "original": true,
       "super-kaguya": true,
@@ -6659,6 +6684,21 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/2.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/18ntnGeQZD/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/deep/1.jpg",
@@ -7859,10 +7899,28 @@ window.BOOTHS = [
         "url": "https://x.com/Liugozekino"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- S28 出展 ／ 當日預計舉辦 [**初祥 簽繪版 競標**](https://x.com/i/status/2059118273388740955)",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n**初祥 簽繪板 競標** (主人祥 × 女僕初):\n- 起價 NT 300、每一標必須是 50 的倍數\n- 競標方式: 推特 (X) 留言 — 留得標時電話／@特推 ID\n- 競標時間 14:40 截止 (場後 5 分鐘公布結果)\n- 場後尾刀預計遲 5 分鐘簽繪板 — 不提供寄送服務\n- 若得標者下無法聯絡上得標者領取板子、將會輪到下一順位\n- 出處: [競標規則 X post](https://x.com/Liugozekino/status/2058533374575444239) / [初祥 簽繪板 詳細](https://x.com/i/status/2059118273388740955)",
+    "tags": {
+      "avemujica": true,
+      "illust": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/2.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2059118273388740955",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-28/0.jpg",
@@ -8892,10 +8950,18 @@ window.BOOTHS = [
         "url": "https://x.com/kimiJUNN"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊 [**ういさき 本**](https://x.com/i/status/2054548578165813484) (吸血鬼 初華 × 貴族大小姐 祥子、 有吸血描寫) ／ 印量調查 進行中",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n- 新刊 [**ういさき 本**](https://x.com/i/status/2054548578165813484) (吸血鬼 初華 × 貴族大小姐 祥子、 有吸血描寫) ／ 印量調查 進行中\n- 出處: [品書 X](https://x.com/kimiJUNN/status/2060000487118901599)",
+    "tags": {
+      "avemujica": true,
+      "manga": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/kimiJUNN/status/2060000487118901599",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-02/x-2060000487118901599/0.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://x.com/i/status/2054548578165813484",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-02/0.jpg",
@@ -10382,14 +10448,28 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/yuclovers"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — BanG Dream! · 愛爽 — 漫畫 / NT 240\n- 「甚麼叫做 誤會的我也很可愛!?」 — BanG Dream! · 愛爽 — NT 240\n- 「並拾色」 — BanG Dream! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — BanG Dream! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — BanG Dream! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — BanG Dream! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — BanG Dream! · 九九組 — 色紙 / NT 40/張\n\n出處參照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (community-input, 補足參照)",
+    "body": "## 📝 IF7 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — BanG Dream! · 愛爽 — 漫畫 / NT 240\n- ★新 R18 愛爽 (新刊)\n- 「甚麼叫做 誤會的我也很可愛!?」 — BanG Dream! · 愛爽 — NT 240\n- 「並拾色」 — BanG Dream! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — BanG Dream! · 愛爽 — NT 200 (剩極少量)\n- 既 「たった一つの、 帰るべき場所」 — BanG Dream! · 睦祥 — NT 200 (剩極少量)\n\n**其他周邊**:\n- 既 「MyGO手機架」 — BanG Dream! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — BanG Dream! · 九九組 — 色紙 / NT 40/張\n\n出處: [X 最終宣傳](https://x.com/yaki979331/status/2059938254569554249) / [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
     "tags": {
-      "super-kaguya": true,
+      "bandori": true,
+      "avemujica": true,
+      "mygo": true,
+      "rev-girl": true,
       "manga": true,
-      "goods": true
+      "goods": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://x.com/yaki979331/status/2059938254569554249",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/x-2059938254569554249/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/yaki979331/status/2059938254569554249",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/x-2059938254569554249/1.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/18uLDiwcrv/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-32/share-18uLDiwcrv/v2/0.jpg",
@@ -10397,10 +10477,10 @@ window.BOOTHS = [
       }
     ],
     "_meta_scrape_sk": {
-      "platform_used": "fb",
-      "hand_note": false,
+      "platform_used": "x",
+      "hand_note": true,
       "detected_cps": [],
-      "has_ch19_post": false
+      "has_ch19_post": true
     },
     "area": "百合"
   },
