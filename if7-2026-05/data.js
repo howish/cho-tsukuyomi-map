@@ -2410,10 +2410,29 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/battahandmade",
     "area": "綜合",
-    "body": "- Vtuber(NijisanjiEN)\n- 原創-娃衣",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nM-02 驚奇菓織間 — 娃衣 (NijisanjiEN / 原創)\n\n- 開場時段請自備零鈔＋零錢 (LinePay 可)\n- 歡迎試穿 (請詢問攤內精靈)\n- 滿額禮: 消費 800 元贈一個蝴蝶結 (亦可單購)\n\n出處: [X 攤宣](https://x.com/BattaHandmade/status/2060237402342601007)",
+    "tags": {
+      "goods": true,
+      "original": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2060237402342601007",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-02/x-2060237402342601007/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2060237402342601007",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-02/x-2060237402342601007/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2060237402342601007",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-02/x-2060237402342601007/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "x",
@@ -2693,10 +2712,44 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/AKhibari",
     "area": "綜合",
-    "body": "- 厭世醫師阿萬\n- 坂本日常\n- NIJISANJI EN",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nM-19 — AK 安愷 ＋ AK 樂園製所 連攤\n\n**安愷部**:\n- 粉肝 LIVE 日記 餘量個位數 (場後無剩餘走賣貨便通販)\n- 刊物＋娃衣 試閱／試穿 可\n- 粉肝認親卡 (免費索取／交換)\n\n**樂園製所部**:\n- 花糖季穿衣教學影片 (YT)\n- 新款娃衣『巴特爾學院』 (10cm / 12 分娃 / 西西里)\n- 花糖季小更新\n\n💡 全攤可用 LinePay / TWQR ／ 上午自備零錢、 下午可用大鈔 ／ 限制級刊物需出示證件\n\n出處: [安愷 X 工商](https://x.com/aishizi852/status/2059626669552652705) / [樂園 X 工商](https://x.com/LeoAkAk_X/status/2059629177356304838)",
+    "tags": {
+      "goods": true,
+      "r18": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059626669552652705",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059626669552652705/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059626669552652705",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059626669552652705/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059626669552652705",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059626669552652705/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059626669552652705",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059626669552652705/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059629177356304838",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059629177356304838/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059629177356304838",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/M-19/x-2059629177356304838/1.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -3324,13 +3377,25 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/linda6030221",
     "area": "綜合",
-    "body": "- ALIEN STAGE 異星舞台",
+    "body": "## 📝 IF7 出展重點\n\nN-12 🍟P\n\n- ALIEN STAGE 異星舞台 (主要)\n- 摺疊盒 (剩 4 個左右)、 其他週邊量足\n- 阿萬認親卡 數量足\n\n出處: [X 工商](https://x.com/_potatoyoyo/status/2060021513856917533)",
     "tags": {
+      "goods": true,
       "haikyuu": true,
       "plave": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2060021513856917533",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-12/x-2060021513856917533/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2060021513856917533",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-12/x-2060021513856917533/1.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "doujin_tw",
@@ -5344,10 +5409,29 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/yomowork_mov/status/1984905750158958686?s=20",
     "area": "綜合",
-    "body": "- 原創-鬱火焚生(羊毛歌詞作品集2022~2025)",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nQ-03 一隻羊身上的羊毛\n\n**新刊**: 『鬱火焚生 — 羊毛歌詞集 2022〜2025』 — 原創歌詞集\n\n*「鬱望，被隱藏著／不斷地將文字刺向⋯心／等待著下雨後的天空」*\n\n出處: [X 工商](https://x.com/yomowork_mov/status/2058147906339950911)",
+    "tags": {
+      "novel": true,
+      "original": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2058147906339950911",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-03/x-2058147906339950911/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2058147906339950911",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-03/x-2058147906339950911/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2058147906339950911",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-03/x-2058147906339950911/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "x",
@@ -5813,12 +5897,29 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/ewokaku0w0",
     "area": "綜合",
-    "body": "- 原創：菌菇類貼紙、少女塗鴉、奇奇怪怪塗鴉......等\n- 二創預計：寶石之國",
+    "body": "## 📝 IF7 出展重點\n\nQ-30 かくkaku\n\n- 原創: 菌菇類貼紙 ／ 少女塗鴉 ／ 奇奇怪怪塗鴉 等\n- 二創予定: 寶石之國\n\n出處: [X EVENT 告知](https://x.com/ewokaku0w0/status/2059499845350797742)",
     "tags": {
-      "goods": true
+      "goods": true,
+      "original": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059499845350797742",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-30/x-2059499845350797742/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059499845350797742",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-30/x-2059499845350797742/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059499845350797742",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-30/x-2059499845350797742/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -5967,12 +6068,36 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
     "area": "綜合",
-    "body": "- 原創_魔法世界觀系列\n- 原創_日常漫畫\n- 二創_holostars",
+    "body": "## 📝 IF7 出展重點\n\nQ-40 (`#場次宣傳`)\n\n- 🍍 原創本 / 日常本 — RISO 印刷\n- 🦊 HOLOSTARS / 厭世醫師阿萬 二創週邊\n\n出處: [X 工商](https://x.com/kakusugar/status/2059856455361282462)",
     "tags": {
-      "manga": true
+      "goods": true,
+      "hololive": true,
+      "manga": true,
+      "original": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059856455361282462",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-40/x-2059856455361282462/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059856455361282462",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-40/x-2059856455361282462/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059856455361282462",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-40/x-2059856455361282462/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059856455361282462",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Q-40/x-2059856455361282462/3.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "doujin_tw",
@@ -6076,6 +6201,11 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/oginoyori/status/2060342359192371654",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2060342359192371654/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/oginoyori/status/2059679528528798107",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/R-05/x-2059679528528798107/0.jpg",
         "display_locked": false
       }
     ],
@@ -7537,13 +7667,22 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
-    "body": "- 原創-超取魅魔",
+    "body": "## 📝 IF7 出展重點\n\nS-17 — 工坊·夏至千里 (SSRB)\n\n- EN組 Justice 中心周邊\n- SSRB 小窮鬼鑰匙圈 (組)\n- 原創小說\n- 認親無料趕工中\n\n出處: [X 場前宣傳](https://x.com/km1000km1000/status/2059943954741875119)",
     "tags": {
+      "free": true,
+      "goods": true,
+      "novel": true,
       "original": true,
       "vtuber-jp": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059943954741875119",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-17/x-2059943954741875119/0.jpg",
+        "display_locked": false
+      }
+    ],
     "group": "S-[17,18]",
     "area": "百合",
     "socials": [
@@ -13063,10 +13202,19 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://x.com/KA_compilation",
     "area": "VW",
-    "body": "- VOCALOID KAITO Compilation Album CD",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nV-35-V36 KA_compilation — VOCAWORLD\n\n- 部分商品設有購買數量限制\n- 請協助盡可能準備剛好的金額\n- XFD 影片連結見 X 留言\n\n出處: [X 場次宣傳](https://x.com/KA_compilation/status/2059235346450407874)",
+    "tags": {
+      "goods": true,
+      "vocaloid": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059235346450407874",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-35_36/x-2059235346450407874/0.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "x",
@@ -13204,10 +13352,29 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/rei.xu.3",
     "area": "偶大",
-    "body": "- 學園偶像大師 (学園アイドルマスター)\n- 鋼彈W (Gundam Wing、 僅無料)",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nW-03 🌟 猿田彦的鼻子 — 與 W-04 合攤\n\n- 學園偶像大師 (学園アイドルマスター)\n- 鋼彈 W (Gundam Wing、 僅無料)\n\n出處: [X 場次宣傳](https://x.com/hiko_rei/status/2059870755056480544)",
+    "tags": {
+      "free": true,
+      "gakumas": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059870755056480544",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-03/x-2059870755056480544/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059870755056480544",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-03/x-2059870755056480544/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059870755056480544",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-03/x-2059870755056480544/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "fb",
@@ -15110,10 +15277,23 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.threads.com/@xuan___0719?igshid=NTc4MTIwNjQ2YQ==",
     "area": "綜合",
-    "body": "- 獸耳帽\n- 熊娃衣\n- 人魚尾巴",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nZ-23 Jun (ㄚ君)\n\n- 娃衣／帽 (指娃尺寸基本)\n- 可帶娃來試穿\n- 全手工製作、 量有限\n\n出處: [X 宣傳](https://x.com/Jun077011/status/2058506041705554410)",
+    "tags": {
+      "goods": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2058506041705554410",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Z-23/x-2058506041705554410/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2058506041705554410",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Z-23/x-2058506041705554410/1.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "threads",
@@ -15150,10 +15330,25 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/fluffpoint",
     "area": "綜合",
-    "body": "- 原創手作飾品\n- 寶可夢二創周邊\n- 娃用配件",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\nZ-25 絨毛點 (onlyone 手作飾品)\n\n- 原創手作飾品 ／ 寶可夢二創周邊 ／ 娃用配件\n- 現場可許願 (款式建議、 有機會成真)\n- 時間: 10:30 〜 16:00\n\n出處: [X 宣傳](https://x.com/down_0324/status/2059586233798697278) / [趕工 update](https://x.com/down_0324/status/2058876528801583228)",
+    "tags": {
+      "goods": true,
+      "original": true,
+      "pokemon": true
+    },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2059586233798697278",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Z-25/x-2059586233798697278/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2058876528801583228",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Z-25/x-2058876528801583228/0.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "fb",
