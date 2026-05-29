@@ -988,6 +988,27 @@
   buildFilterButtons();
   buildBoothGrids();
 
+  // ---- Collapsible filter panel ----
+  (function setupFilterCollapse() {
+    const section = document.getElementById('filter-section');
+    const btn = document.getElementById('filter-collapse-btn');
+    if (!section || !btn) return;
+    const COLLAPSE_KEY = (EVENT.favorites_key || 'event-guide-template') + '-filter-collapsed';
+    function apply(collapsed) {
+      section.classList.toggle('collapsed', collapsed);
+      btn.textContent = collapsed ? '▲ フィルター' : '▼ フィルター';
+      btn.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
+    }
+    let collapsed = false;
+    try { collapsed = localStorage.getItem(COLLAPSE_KEY) === '1'; } catch (e) {}
+    apply(collapsed);
+    btn.addEventListener('click', () => {
+      collapsed = !collapsed;
+      try { localStorage.setItem(COLLAPSE_KEY, collapsed ? '1' : '0'); } catch (e) {}
+      apply(collapsed);
+    });
+  })();
+
   // Render booths grouped by row
   ROWS.forEach(row => {
     const grid = document.getElementById('grid-' + row);

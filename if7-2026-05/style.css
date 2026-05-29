@@ -643,6 +643,25 @@ section {
 .search-clear:hover { background: #f3edf7; color: var(--accent); }
 .search-clear[hidden] { display: none; }
 
+/* Filter panel collapse — toggle button at the right of the search row
+   hides every chip row but keeps the search box visible. State stored in
+   localStorage so the choice survives across visits. */
+.filter-collapse-btn {
+  margin-left: 0.4rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--accent);
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-collapse-btn:hover { background: #f3edf7; }
+.filter-section.collapsed .filter-rows-wrap { display: none; }
+.filter-section.collapsed .filter-collapse-btn { background: var(--accent-bg, #ffd84a); border-color: var(--accent); }
+
 .filter-stats {
   font-size: 0.8rem;
   color: var(--text-muted);
