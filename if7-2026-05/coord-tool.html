@@ -509,18 +509,25 @@ const zoomDisplay = document.getElementById('zoom-display');
 function setZoom(z, anchor) {
   const prev = zoom;
   zoom = Math.max(0.25, Math.min(8, z));
-  mapInner.style.width = (zoom * 100) + '%';
-  zoomDisplay.textContent = Math.round(zoom * 100) + '%';
-  // If anchor (page coords) provided, scroll so that the same image point
-  // stays under the cursor — natural zoom-at-cursor feel.
-  if (anchor && prev !== zoom) {
-    const wrapRect = mapWrap.getBoundingClientRect();
-    const cursorOffsetX = anchor.x - wrapRect.left + mapWrap.scrollLeft;
-    const cursorOffsetY = anchor.y - wrapRect.top + mapWrap.scrollTop;
-    const ratio = zoom / prev;
-    mapWrap.scrollLeft = cursorOffsetX * ratio - (anchor.x - wrapRect.left);
-    mapWrap.scrollTop = cursorOffsetY * ratio - (anchor.y - wrapRect.top);
+  if (prev === zoom) { zoomDisplay.textContent = Math.round(zoom * 100) + '%'; return; }
+  // Zoom-at-cursor: use mapInner's actual rect so the math is correct even
+  // when .map-wrap has padding or any toolbar offset above mapInner.
+  if (anchor) {
+    const before = mapInner.getBoundingClientRect();
+    const fracX = (anchor.x - before.left) / before.width;
+    const fracY = (anchor.y - before.top) / before.height;
+    mapInner.style.width = (zoom * 100) + '%';
+    // Force layout so the new rect reflects the size change.
+    const after = mapInner.getBoundingClientRect();
+    // Where the anchor's image point now sits on screen vs where we want it.
+    const targetLeft = anchor.x - fracX * after.width;
+    const targetTop = anchor.y - fracY * after.height;
+    mapWrap.scrollLeft += after.left - targetLeft;
+    mapWrap.scrollTop += after.top - targetTop;
+  } else {
+    mapInner.style.width = (zoom * 100) + '%';
   }
+  zoomDisplay.textContent = Math.round(zoom * 100) + '%';
 }
 
 document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.4));
@@ -557,7 +564,10 @@ mapWrap.addEventListener('pointermove', (e) => {
   if (activePointers.size === 2 && pinchStartDist > 0) {
     const pts = [...activePointers.values()];
     const d = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
-    setZoom(pinchStartZoom * (d / pinchStartDist), pinchCenter);
+    // Anchor at the CURRENT midpoint of the two fingers so the zoom-center
+    // tracks where the fingers actually are right now (not the start point).
+    const cur = { x: (pts[0].x + pts[1].x) / 2, y: (pts[0].y + pts[1].y) / 2 };
+    setZoom(pinchStartZoom * (d / pinchStartDist), cur);
     e.preventDefault();
   }
 }, { passive: false });
