@@ -11372,9 +11372,11 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://lit.link/en/jadeverse",
-    "body": "- 超時空輝耀姬！",
+    "body": "## 📝 CH19 出展重點\n- 新刊 [**『拯救B計畫』** (Saving Private B)](https://www.facebook.com/share/1FD366X6si/) — 超時空輝耀姬 / A5 / 62P / 黑白漫畫 / NTD 300\n- 新刊 **『超時空黑白圖合集』** — A5 / 40P / 黑白插畫 (約 62 張) / NTD 200\n- 全套收集 NTD 500\n- 隨書贈 **「超時空女同捉哀狼人殺」卡組** 1 組 (4 款不重複 / 63×88mm / 卡組內含 八千代 / 彩葉 / 輝耀 角色卡) ／ 不單獨販售",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "manga": true,
+      "illust": true
     },
     "warnings": [],
     "cover_urls": [
