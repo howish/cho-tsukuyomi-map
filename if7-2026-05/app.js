@@ -259,6 +259,38 @@
     });
   }
 
+  // Hide filter chips that wouldn't reveal any booth from the current view.
+  // Within a category the chips OR together, so adding a chip in an active
+  // category only widens — we hide it when its added booths × the other
+  // categories' AND constraints + the search query yield zero. Across
+  // categories the chips AND together, so adding one in a new category
+  // narrows from the current set; we hide it when no currently-visible
+  // booth has the chip's token. Already-active chips and the universal
+  // "all" / "fav" controls always stay visible so the user can untoggle.
+  function syncChipVisibility() {
+    const groups = groupActiveFilters();
+    const allCards = Array.from(document.querySelectorAll('.booth-card'));
+    document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+      const token = btn.dataset.filter;
+      if (token === 'all' || token === 'fav') return;          // always visible
+      if (activeFilters.has(token)) { btn.style.display = ''; return; }
+      const idx = token.indexOf(':');
+      const cat = idx >= 0 ? token.slice(0, idx) : token;
+      const otherCats = Object.keys(groups).filter(c => c !== cat);
+      const reachable = allCards.some(card => {
+        const tokens = (card.dataset.filters || '').split(',');
+        if (!tokens.includes(token)) return false;
+        for (const c of otherCats) {
+          if (!groups[c].some(f => tokens.includes(f))) return false;
+        }
+        const cardSearch = card.dataset.search || '';
+        if (currentSearch && !cardSearch.includes(currentSearch)) return false;
+        return true;
+      });
+      btn.style.display = reachable ? '' : 'none';
+    });
+  }
+
   // ---- Favorites in localStorage ----
   const FAV_KEY = EVENT.favorites_key || 'event-guide-template-favs';
   function loadFavs() {
@@ -1030,6 +1062,7 @@
     }
     updateMapOverlay(isFiltered ? visibleBoothIds : null);
     syncRowTitleVisibility();
+    syncChipVisibility();
   }
 
   // Coords logic:
