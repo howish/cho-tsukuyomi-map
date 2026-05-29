@@ -7235,6 +7235,10 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://images.plurk.com/mx_5XRXsnBLbiFtqjJXkhINUe.jpg",
+        "display_url": "https://images.plurk.com/mx_5XRXsnBLbiFtqjJXkhINUe.jpg"
+      },
+      {
         "source_url": "https://images.plurk.com/mx_60JszmPFdmaPLoPDZBLuU5.jpg",
         "display_url": "https://images.plurk.com/mx_60JszmPFdmaPLoPDZBLuU5.jpg"
       },
@@ -7245,10 +7249,6 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/mx_5Sa4IwUb0JIvohxiANFUJ3.jpg",
         "display_url": "https://images.plurk.com/mx_5Sa4IwUb0JIvohxiANFUJ3.jpg"
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_5XRXsnBLbiFtqjJXkhINUe.jpg",
-        "display_url": "https://images.plurk.com/mx_5XRXsnBLbiFtqjJXkhINUe.jpg"
       }
     ],
     "_meta_scrape": {
@@ -7558,14 +7558,6 @@ window.BOOTHS = [
         "display_locked": true
       },
       {
-        "source_url": "https://images.plurk.com/mx_2tHFLGZPOw7qexT9IjQmQW.jpg",
-        "display_url": "https://images.plurk.com/mx_2tHFLGZPOw7qexT9IjQmQW.jpg"
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_1MBsn9j6kBdMCt7iMK7BzL.jpg",
-        "display_url": "https://images.plurk.com/mx_1MBsn9j6kBdMCt7iMK7BzL.jpg"
-      },
-      {
         "source_url": "https://images.plurk.com/mx_4plyd13ZxK5NNtdjRLAKoS.jpg",
         "display_url": "https://images.plurk.com/mx_4plyd13ZxK5NNtdjRLAKoS.jpg"
       },
@@ -7574,12 +7566,20 @@ window.BOOTHS = [
         "display_url": "https://images.plurk.com/mx_2eA5btq1vfV690eHyXRPnB.jpg"
       },
       {
+        "source_url": "https://images.plurk.com/mx_2tHFLGZPOw7qexT9IjQmQW.jpg",
+        "display_url": "https://images.plurk.com/mx_2tHFLGZPOw7qexT9IjQmQW.jpg"
+      },
+      {
         "source_url": "https://images.plurk.com/mx_720QR3zUynYbydho04JIQa.jpg",
         "display_url": "https://images.plurk.com/mx_720QR3zUynYbydho04JIQa.jpg"
       },
       {
         "source_url": "https://images.plurk.com/mx_1QRy7tWXUJfD5UJvTPe5Yc.jpg",
         "display_url": "https://images.plurk.com/mx_1QRy7tWXUJfD5UJvTPe5Yc.jpg"
+      },
+      {
+        "source_url": "https://images.plurk.com/mx_1MBsn9j6kBdMCt7iMK7BzL.jpg",
+        "display_url": "https://images.plurk.com/mx_1MBsn9j6kBdMCt7iMK7BzL.jpg"
       }
     ],
     "_meta_scrape": {
@@ -7609,16 +7609,6 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/0.jpg",
-        "display_locked": false
-      },
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX8_weXjxmP/0.jpg",
@@ -7652,6 +7642,16 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX8_weXjxmP/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18nvCdAJtN/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18nvCdAJtN/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/18uJRqVzxS/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-16/share-18uJRqVzxS/0.jpg",
         "display_locked": false
       },
       {
@@ -7784,6 +7784,10 @@ window.BOOTHS = [
         "display_locked": true
       },
       {
+        "source_url": "https://pbs.twimg.com/media/HI58z6maUAAmOW1.png",
+        "display_url": "https://pbs.twimg.com/media/HI58z6maUAAmOW1.png"
+      },
+      {
         "source_url": "https://pbs.twimg.com/media/HJLoZVVawAAaC1E.jpg",
         "display_url": "https://pbs.twimg.com/media/HJLoZVVawAAaC1E.jpg"
       },
@@ -7802,10 +7806,6 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HI56aWtbwAA1lxY.jpg",
         "display_url": "https://pbs.twimg.com/media/HI56aWtbwAA1lxY.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HI58z6maUAAmOW1.png",
-        "display_url": "https://pbs.twimg.com/media/HI58z6maUAAmOW1.png"
       }
     ],
     "_meta_scrape": {
@@ -8276,6 +8276,21 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/2.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://images.plurk.com/mx_Ws8fQj7ScHW3WWx4HuxDg.jpg",
         "display_url": "https://images.plurk.com/mx_Ws8fQj7ScHW3WWx4HuxDg.jpg"
       },
@@ -8294,21 +8309,6 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/mx_3Qs3rTdAQUjEbAwSeG0ViS.jpg",
         "display_url": "https://images.plurk.com/mx_3Qs3rTdAQUjEbAwSeG0ViS.jpg"
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3iq7u8hxek",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-31/plurk-3iq7u8hxek/2.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -8871,12 +8871,12 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/kuan.wei.lin.372350",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/2.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/3.jpg",
         "display_locked": true
       },
       {
         "source_url": "https://www.facebook.com/kuan.wei.lin.372350",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/3.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-42/2.jpg",
         "display_locked": true
       },
       {
@@ -9432,14 +9432,14 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/people/%E7%B4%A1%E6%98%9F%E7%A4%BE/61573677164059/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/1.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/1JaUMyJD6c/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/share-1JaUMyJD6c/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/people/%E7%B4%A1%E6%98%9F%E7%A4%BE/61573677164059/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/1.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -9475,12 +9475,12 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-09/0.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-09/1.jpg",
         "display_locked": true
       },
       {
         "source_url": "https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-09/1.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-09/0.jpg",
         "display_locked": true
       },
       {
@@ -9517,16 +9517,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/people/%E6%82%B6%E9%A8%B7%E7%9A%84%E7%9B%A4%E5%AD%90/61558258981354/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/2.jpg",
-        "display_locked": true
-      },
-      {
-        "source_url": "https://www.facebook.com/people/%E6%82%B6%E9%A8%B7%E7%9A%84%E7%9B%A4%E5%AD%90/61558258981354/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/3.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CfRSG5nVj/0.jpg",
         "display_locked": false
@@ -9535,6 +9525,16 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CfRSG5nVj/1.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/people/%E6%82%B6%E9%A8%B7%E7%9A%84%E7%9B%A4%E5%AD%90/61558258981354/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/2.jpg",
+        "display_locked": true
+      },
+      {
+        "source_url": "https://www.facebook.com/people/%E6%82%B6%E9%A8%B7%E7%9A%84%E7%9B%A4%E5%AD%90/61558258981354/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/3.jpg",
+        "display_locked": true
       },
       {
         "source_url": "https://www.facebook.com/share/p/1CmqGYBWoV/",
@@ -9808,22 +9808,22 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/0.png",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/1.png",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/2.png",
         "display_locked": false
       },
       {
         "source_url": "https://www.facebook.com/yishi89/posts/pfbid02PkNoMr9Q6gZLUnZKfmZjYxhNBKCdP2JD9mGz2vZiaRix4HnLLgbYw7Ma8sFrb7B6l",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/yishi89-pfbid02PkNo/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/0.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-15/plurk-3iqcuy9jvs/2.png",
         "display_locked": false
       }
     ],
@@ -10148,14 +10148,14 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.facebook.com/kun.salamander.3",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/1.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/1CjXUyhmK2/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/share-1CjXUyhmK2/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/kun.salamander.3",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/1.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -10894,6 +10894,21 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/2.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-36/threads-DYpRLAymCJo/0.jpg",
         "display_locked": false
@@ -10956,21 +10971,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1EptQghttr/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/share-1EptQghttr/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/threads-DY4uZqgEwbB/2.jpg",
         "display_locked": false
       },
       {
@@ -11400,11 +11400,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.plurk.com/p/3imdpb1tbc",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-43_44/plurk-3imdpb1tbc/0.png",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-43_44/cross-0.jpg",
         "display_locked": true
@@ -11413,6 +11408,11 @@ window.BOOTHS = [
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-43_44/cross-1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3imdpb1tbc",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-43_44/plurk-3imdpb1tbc/0.png",
+        "display_locked": false
       },
       {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
@@ -12109,11 +12109,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.plurk.com/p/3iq2k0qjoi",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/plurk-3iq2k0qjoi/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/1JJNfLJcaU/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/share-1JJNfLJcaU/0.jpg",
         "display_locked": false
@@ -12121,6 +12116,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1JJNfLJcaU/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/share-1JJNfLJcaU/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iq2k0qjoi",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/plurk-3iq2k0qjoi/0.jpg",
         "display_locked": false
       }
     ],
