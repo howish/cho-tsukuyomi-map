@@ -250,7 +250,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
     "socials": [{"platform": "fb", "handle": "li.chun.ba.ba.da.xia", "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"}],
-    "body": "- 原創-快樂老鼠\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/li.chun.ba.ba.da.xia/](https://www.facebook.com/li.chun.ba.ba.da.xia/)\n\n## 📝 CH19 出展重點\nS-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
+    "body": "- 原創-快樂老鼠\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -419,7 +419,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/witlhgti",
     "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/witlhgti"}, {"platform": "ig", "handle": "@________witlhgti________", "url": "https://www.instagram.com/________witlhgti________/"}, {"platform": "fb", "handle": "profile 61582400…", "url": "https://www.facebook.com/profile.php?id=61582400081677"}, {"platform": "x", "handle": "@witlhgti", "url": "https://twitter.com/witlhgti"}],
-    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/witlhgti](https://lit.link/zh-tw/witlhgti)\n\n## 📝 CH19 出展重點\n新刊 (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん)\n- [原 tweet](https://x.com/i/status/2059913890855813128)",
+    "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n新刊 (『上伊那ぼたん、酔へる姿は百合の花』 二創、 上伊那ぼたん)\n- [原 tweet](https://x.com/i/status/2059913890855813128)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -465,7 +465,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/shi.zhong.394980/",
     "socials": [{"platform": "fb", "handle": "shi.zhong.394980", "url": "https://www.facebook.com/shi.zhong.394980/"}],
-    "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/shi.zhong.394980/](https://www.facebook.com/shi.zhong.394980/)\n## 📝 CH19 出展重點\nS-05/06 出展 (山鐘塔第三防衛機關) ／ シリーズ別:\n- **原創** (CP: 張景嵐x郡上奏): **「《魚》」** ／ **「《夜晚的泳池深不見底》」** ／ **「《和頭上有發光披薩圈圈的女孩子 交朋友的十種方法》」** / 漫畫\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- 原創-魚\n- 原創-夜晚的泳池深不見底\n- 原創-和頭上有發光披薩圈圈的女孩子交朋友的十種方法\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他**:\n- 「《魚》」 — 原創 · 張景嵐x郡上奏\n- 「《夜晚的泳池深不見底》」 — 原創 · 張景嵐x郡上奏\n\n**本**:\n- 「《和頭上有發光披薩圈圈的女孩子 交朋友的十種方法》」 — 原創 · 張景嵐x郡上奏 — 漫畫\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -501,7 +501,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/loveliver0827",
     "socials": [{"platform": "plurk", "handle": "@loveliver0827", "url": "https://www.plurk.com/loveliver0827"}],
-    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n**專區**: 百合\n\n🔗 Plurk: [loveliver0827](https://www.plurk.com/loveliver0827)\n\n## 📝 CH19 出展重點\nS07 出展 ／ 新刊 **maruhime 本** (原創百合、 Maru × Hime、 冬の物語)\n- [原 plurk post](https://www.plurk.com/p/3iq6cbcsgl)",
+    "body": "- 原創-MEMORIES BETWEEN MARU&HIME\n- 原創-MOMENTS BETWEEN MARU&HIME\n- 原創-MARUHIME戀愛中\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS07 出展 ／ 新刊 **maruhime 本** (原創百合、 Maru × Hime、 冬の物語)\n- [原 plurk post](https://www.plurk.com/p/3iq6cbcsgl)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -625,7 +625,7 @@ window.BOOTHS = [
     "x_handle": "Chihlun42",
     "x_url": "https://x.com/Chihlun42",
     "socials": [{"platform": "x", "handle": "@Chihlun42", "url": "https://x.com/Chihlun42"}],
-    "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 X: [Chihlun42](https://x.com/Chihlun42)\n## 📝 CH19 出展重點\nS-10 出展 (Majuchime) ／ シリーズ別:\n- **原創** (CP: 諾雅 × 英里娜): **「(未名)」**\n- **バンドリ!** (CP: 諾雅 × 英里娜): **「(未名)」**\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- 原創短篇漫畫\n- BanG Dream! Ave Mujica\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他**:\n- 「(未名)」 — 原創 · 諾雅 × 英里娜\n- 「(未名)」 — バンドリ! · 諾雅 × 英里娜\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "original": true,
       "manga": true,
@@ -671,7 +671,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3i2nll7mkt",
     "socials": [{"platform": "plurk", "handle": "", "url": "https://www.plurk.com/p/3i2nll7mkt"}],
-    "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n**專區**: 百合\n\n🔗 Plurk: [p](https://www.plurk.com/p/3i2nll7mkt)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n## 📝 CH19 出展重點\nS-11 出展 (芒果汁加珍珠) ／ シリーズ別:\n- **PSYCHO-PASS 心靈判官** (CP: 常守朱x霜月美佳): **「《霜月課長與常守執行官》」** / 漫畫 / NT 未定 / 我會出的我會出的 ／ **「《未竟之路》」** / NT 100 ／ **「朱霜明信片」** / 周邊 / NT 30 / 燙金明信片 ／ **「奇異果貼紙 毛絨絨ver.」** / NT 50 / 植絨貼紙 ／ **「奇異果貼紙 春季百合ver.」** / NT 50 / 透明貼紙 ／ **「奇異果貼紙 打籃球ver.」** / NT 50 / 雷射貼紙\n- **PSYCHO-PASS 心靈判官** (CP: 霜月美佳x常守朱): **「霜朱光透鏡」** / NT 100 / 實拍圖\n- **原創** (CP: 奇異果企鵝): **「奇異果貼紙 冬季百合ver.」** / 周邊 / NT 50 / 透明貼紙\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- PSYCHO-PASS心靈判官\n- 原創-奇異果企鵝\n- 原創-日本擺攤心得本\n\n**專區**: 百合\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n## 📝 CH19 出展重點\n\n**本**:\n- 「《霜月課長與常守執行官》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 漫畫 / NT 未定 / 我會出的我會出的\n\n**其他**:\n- 「《未竟之路》」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 100\n- 「霜朱光透鏡」 — PSYCHO-PASS 心靈判官 · 霜月美佳x常守朱 — NT 100 / 實拍圖\n- 「奇異果貼紙 毛絨絨ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 植絨貼紙\n- 「奇異果貼紙 春季百合ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 透明貼紙\n- 「奇異果貼紙 打籃球ver.」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — NT 50 / 雷射貼紙\n\n**其他周邊**:\n- 「朱霜明信片」 — PSYCHO-PASS 心靈判官 · 常守朱x霜月美佳 — 周邊 / NT 30 / 燙金明信片\n- 「奇異果貼紙 冬季百合ver.」 — 原創 · 奇異果企鵝 — 周邊 / NT 50 / 透明貼紙\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -697,7 +697,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://linktr.ee/taiwanlilyproject",
     "socials": [{"platform": "aggregator", "handle": "Linktree", "url": "https://linktr.ee/taiwanlilyproject"}, {"platform": "x", "handle": "@TwLilyProject", "url": "https://x.com/TwLilyProject"}, {"platform": "threads", "handle": "@taiwanlilyproject", "url": "https://www.threads.com/@taiwanlilyproject"}, {"platform": "ig", "handle": "@taiwanlilyproject", "url": "https://www.instagram.com/taiwanlilyproject"}, {"platform": "plurk", "handle": "@The_Taiwan_Lily_Project", "url": "https://www.plurk.com/The_Taiwan_Lily_Project"}],
-    "body": "- 原創-百合研究筆記\n\n**專區**: 百合\n\n🔗 Linktree: [https://linktr.ee/taiwanlilyproject](https://linktr.ee/taiwanlilyproject)\n\n## 📝 CH19 出展重點\n**S-12 初出展** ／ 主は研究筆記 (女同志博士生によるTaiwan百合漫畫研究) ／ 当日は買收集た 台灣百合作品の sharing 予定 (会場交流ベース)\n- [出展宣告](https://x.com/i/status/2057788598590796146) / [復帰挨拶](https://x.com/i/status/2057788596535587101)",
+    "body": "- 原創-百合研究筆記\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n**S-12 初出展** ／ 主は研究筆記 (女同志博士生によるTaiwan百合漫畫研究) ／ 当日は買收集た 台灣百合作品の sharing 予定 (会場交流ベース)\n- [出展宣告](https://x.com/i/status/2057788598590796146) / [復帰挨拶](https://x.com/i/status/2057788596535587101)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -723,7 +723,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://blossoming-faded.blog/",
     "socials": [{"platform": "blog", "handle": "花開。花烙", "url": "https://blossoming-faded.blog/"}, {"platform": "ig", "handle": "@blossoming.faded", "url": "https://www.instagram.com/blossoming.faded/"}, {"platform": "threads", "handle": "@blossoming.faded", "url": "https://www.threads.com/@blossoming.faded"}, {"platform": "aggregator", "handle": "Linktree", "url": "https://linktr.ee/blossoming.faded"}],
-    "body": "- 原創-再生花\n- 原創-以愛之名\n- 死亡愛麗絲同人小說-正義のゾウフ\n\n**專區**: 百合\n\n🔗 出處: [https://blossoming-faded.blog/](https://blossoming-faded.blog/)\n\n## 📝 CH19 出展重點\nS-13/14 出展 (雪緞 / Vivian、 IG [@blossoming.faded](https://www.instagram.com/blossoming.faded/)) ／ 当日は小幫手固定坐攤 ／ R18 GL 小說 再版 2 種:\n\n- **『再生花』** 再版 (小說 + 2 篇加筆 + 5P 插圖、 B6 / 200P、 NTD 200、 套裝 (色紙 + 書籤) NTD 250)\n- **『以愛之名』** 再版 (R18 GL 小說、 B6 / 頁數要相違)\n\nテーマ: SINoALICE 同人 (正義のゾウフ) + 原創百合 ／ R18 ID 驗證必要 (2008/5/30 以前 出生) ／ 通販: [linktr.ee/blossoming.faded](https://linktr.ee/blossoming.faded)\n- [IF07 品書宣傳 IG post](https://www.instagram.com/blossoming.faded/p/DYbipjgk17k/) / [blog 全文](https://blossoming-faded.blog/archives/526)",
+    "body": "- 原創-再生花\n- 原創-以愛之名\n- 死亡愛麗絲同人小說-正義のゾウフ\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-13/14 出展 (雪緞 / Vivian、 IG [@blossoming.faded](https://www.instagram.com/blossoming.faded/)) ／ 当日は小幫手固定坐攤 ／ R18 GL 小說 再版 2 種:\n\n- **『再生花』** 再版 (小說 + 2 篇加筆 + 5P 插圖、 B6 / 200P、 NTD 200、 套裝 (色紙 + 書籤) NTD 250)\n- **『以愛之名』** 再版 (R18 GL 小說、 B6 / 頁數要相違)\n\nテーマ: SINoALICE 同人 (正義のゾウフ) + 原創百合 ／ R18 ID 驗證必要 (2008/5/30 以前 出生) ／ 通販: [linktr.ee/blossoming.faded](https://linktr.ee/blossoming.faded)\n- [IF07 品書宣傳 IG post](https://www.instagram.com/blossoming.faded/p/DYbipjgk17k/) / [blog 全文](https://blossoming-faded.blog/archives/526)",
     "tags": {
       "original": true,
       "novel": true,
@@ -820,7 +820,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
     "socials": [{"platform": "fb", "handle": "share", "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"}],
-    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr](https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr)\n\n## 📝 CH19 出展重點\nS-16 出展 ／ 場前注意事項あり (post 3) ／ 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
+    "body": "- 原創-那個聖女過於溫柔\n- 我怎麼可能成為妳的戀人，不行不行\n- Ave mujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-16 出展 ／ 場前注意事項あり (post 3) ／ 攤主走り回り注意の旨アナウンス\n- 出處: [post 1](https://www.facebook.com/share/p/18umHpHj9h/) / [post 2](https://www.facebook.com/share/p/18nvCdAJtN/) / [場前注意](https://www.facebook.com/share/p/18uJRqVzxS/)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -1099,7 +1099,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
     "socials": [{"platform": "fb", "handle": "people", "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"}],
-    "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/](https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/)\n\n## 📝 CH19 出展重點\nS-25 出展 ／ 百翁 既刊 中心 (歷年 百合 作集) ／ 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
+    "body": "- hololive\n- Ave mujica\n- 迷宮飯\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-25 出展 ／ 百翁 既刊 中心 (歷年 百合 作集) ／ 張同學×學姊 漫畫 follow-up あり\n- 出處: [品書](https://www.plurk.com/p/3ipx7pzgz4) / [張同學×學姊](https://www.plurk.com/p/3iq69i4nch)",
     "tags": {
       "yuri-zone": true
     },
@@ -1186,7 +1186,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/pipi.yaya.90",
     "socials": [{"platform": "fb", "handle": "pipi.yaya.90", "url": "https://www.facebook.com/pipi.yaya.90"}],
-    "body": "- BanG Dream! Ave Mujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/pipi.yaya.90](https://www.facebook.com/pipi.yaya.90)\n## 📝 CH19 出展重點\nS-27 出展 (台北祥初女) ／ シリーズ別:\n- **バンドリ!** (CP: 初華 x 祥子): **「祥初自組立牌」** / 周邊\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- BanG Dream! Ave Mujica\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**其他周邊**:\n- 「祥初自組立牌」 — バンドリ! · 初華 x 祥子 — 周邊\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true
     },
@@ -1282,7 +1282,7 @@ window.BOOTHS = [
     "x_handle": "Crazycat_47",
     "x_url": "https://x.com/Crazycat_47",
     "socials": [{"platform": "x", "handle": "@Crazycat_47", "url": "https://x.com/Crazycat_47"}],
-    "body": "- 緋染天空\n- 水星的魔女\n\n**專區**: 百合\n\n🔗 X: [Crazycat_47](https://x.com/Crazycat_47)\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\nS-29 出展 ／ 月底百翁 小新品 ／ 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
+    "body": "- 緋染天空\n- 水星的魔女\n\n**專區**: 百合\n\n✨ **最新動態確認**: 創集繪/CH19/5月30日 有提及 (來自作家最新 post)\n\n## 📝 CH19 出展重點\nS-29 出展 ／ 月底百翁 小新品 ／ 寄攤 七月大大 ([@nanagatsu_07](https://x.com/nanagatsu_07)) — **莉清點點 立牌 / 貼紙** (底座印圖、 防水合成 + 銀河膜、 單買可能)\n- 出處: [自卓 小新品](https://x.com/i/status/2056919703663288489) / [寄攤 RT](https://x.com/i/status/2059245015197708423)",
     "tags": {
       "yuri-zone": true
     },
@@ -1357,7 +1357,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/ToMato182",
     "socials": [{"platform": "plurk", "handle": "@ToMato182", "url": "https://www.plurk.com/ToMato182"}],
-    "body": "- 奧術\n- 原創-INSIDE LAB\n- She-Ra\n\n**專區**: 百合\n\n🔗 Plurk: [ToMato182](https://www.plurk.com/ToMato182)\n\n## 📝 CH19 出展重點\nS-31 出展 ／ R18 新刊 小料 (原創 / 人外 / 創作百合 / caitvi (Arcane) / catradora (She-Ra))\n- [R18 plurk post](https://www.plurk.com/p/3iq7u8hxek)",
+    "body": "- 奧術\n- 原創-INSIDE LAB\n- She-Ra\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-31 出展 ／ R18 新刊 小料 (原創 / 人外 / 創作百合 / caitvi (Arcane) / catradora (She-Ra))\n- [R18 plurk post](https://www.plurk.com/p/3iq7u8hxek)",
     "tags": {
       "original": true,
       "yuri-zone": true,
@@ -1556,7 +1556,7 @@ window.BOOTHS = [
     "x_handle": "pomeka35",
     "x_url": "https://x.com/pomeka35",
     "socials": [{"platform": "x", "handle": "@pomeka35", "url": "https://x.com/pomeka35"}],
-    "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n\n**專區**: 百合\n\n🔗 X: [pomeka35](https://x.com/pomeka35)\n## 📝 CH19 出展重點\nS-37/38 出展 (小花) ／ シリーズ別:\n- **VTUBER** (CP: micomet): **「毛茸茸同居人1」** / 漫畫 / NT 350 ／ **「毛茸茸同居人2」** ／ **「mcmt按鍵吊飾」** / 周邊 / NT 150 ／ **「旋轉壓克力吊飾」** / NT 200 ／ **「壓克力可串串吊飾」** / NT 200\n- **VTUBER** (CP: miko): **「小花團子」** / NT 200\n- **VTUBER** (CP: fubumicomet﹑船長): **「壓克力飯友」** / NT 100\n- **超かぐや姫！** (CP: 彩葉): **「夜光彩葉吊飾」** / NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- **VTUBER** (CP: 輝耀﹑彩葉﹑八千代): **「旋轉壓克力吊飾」** / NT 200\n- **VTUBER** (CP: 輝耀﹑彩葉﹑八千代﹑不死): **「壓克力飯友」** / NT 100\n- **バンドリ!** (CP: MyGO!!!!!﹑Ave Mujica): **「壓克力飯友」** / NT 100\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- hololive\n- MyGo!!!!!\n- 超時空輝夜姬\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- 「毛茸茸同居人1」 — VTUBER · micomet — 漫畫 / NT 350\n\n**其他**:\n- 「毛茸茸同居人2」 — VTUBER · micomet\n- 「小花團子」 — VTUBER · miko — NT 200\n- 「旋轉壓克力吊飾」 — VTUBER · micomet — NT 200\n- 「壓克力飯友」 — VTUBER · fubumicomet﹑船長 — NT 100\n- 「夜光彩葉吊飾」 — 超かぐや姫！ · 彩葉 — NT 150 / 此周邊為官方公告前就已送印的，售完不加印\n- 「旋轉壓克力吊飾」 — VTUBER · 輝耀﹑彩葉﹑八千代 — NT 200\n- 「壓克力飯友」 — VTUBER · 輝耀﹑彩葉﹑八千代﹑不死 — NT 100\n- 「壓克力飯友」 — バンドリ! · MyGO!!!!!﹑Ave Mujica — NT 100\n- 「壓克力可串串吊飾」 — VTUBER · micomet — NT 200\n\n**其他周邊**:\n- 「mcmt按鍵吊飾」 — VTUBER · micomet — 周邊 / NT 150\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -1587,7 +1587,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/maoyuue",
     "socials": [{"platform": "fb", "handle": "maoyuue", "url": "https://www.facebook.com/maoyuue"}],
-    "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/maoyuue](https://www.facebook.com/maoyuue)\n\n## 📝 CH19 出展重點\nS-39 出展 ／ 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布) ／ 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
+    "body": "- 非人少女\n- Ave Mujica\n- 少女歌劇\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-39 出展 ／ 自卓 新刊 『魔法少女的魔女審判』 + 抽選 3 本 (追蹤+留言「@朋友+一句話」 5/24 公布) ／ 寄攤多数: **S-40 Raker Natsume『越過八千年個夜晚』** (= 超時空輝耀姬) + **U-35/U-36 詠櫻堂『OverTheStarlight』** (神樂光小說)\n- 出處: [寄攤 announce](https://www.facebook.com/share/p/14dEHq9PRGP/) / [新刊 + 抽選](https://www.facebook.com/share/p/18gvsLr4BA/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1668,7 +1668,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/raker.natsume.0701",
     "socials": [{"platform": "aggregator", "handle": "portaly", "url": "https://portaly.cc/raker.natsume.0701"}, {"platform": "fb", "handle": "photo", "url": "https://www.facebook.com/photo/?fbid=543046895339125&set=pb.100089014576405.-2207520000"}, {"platform": "pixiv", "handle": "Pixiv 20901804", "url": "https://www.pixiv.net/users/20901804"}, {"platform": "plurk", "handle": "@linhannah", "url": "https://www.plurk.com/linhannah"}, {"platform": "threads", "handle": "@raker.natsume", "url": "https://www.threads.net/@raker.natsume"}, {"platform": "x", "handle": "@rakerrabbit", "url": "https://twitter.com/rakerrabbit"}, {"platform": "doujin_tw", "handle": "", "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"}],
-    "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/raker.natsume.0701](https://portaly.cc/raker.natsume.0701)\n\n## 📝 CH19 出展重點\nS-40 出展 (最終版品書) ／ 新刊 **『越過八千年個夜晚』** (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合) ／ 認親卡 交換歡迎\n- [品書 post](https://www.facebook.com/share/p/1Gv773LkRC/)",
+    "body": "- FLOWERS (Innocent Grey)\n- 莉可麗絲\n- 少女歌劇\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-40 出展 (最終版品書) ／ 新刊 **『越過八千年個夜晚』** (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合) ／ 認親卡 交換歡迎\n- [品書 post](https://www.facebook.com/share/p/1Gv773LkRC/)",
     "tags": {
       "yuri-zone": true
     },
@@ -1724,7 +1724,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://bsky.app/profile/taboom002.bsky.social",
     "socials": [{"platform": "bsky", "handle": "@taboom002", "url": "https://bsky.app/profile/taboom002.bsky.social"}, {"platform": "threads", "handle": "@taboom002", "url": "https://www.threads.com/@taboom002"}],
-    "body": "- 莉可麗絲\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/taboom002.bsky.social](https://bsky.app/profile/taboom002.bsky.social) ／ Threads: [@taboom002](https://www.threads.com/@taboom002)\n\n## 📝 CH19 出展重點\nS-41 出展 (塔邦棒棒 @taboom002) ／ 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200) ／ 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
+    "body": "- 莉可麗絲\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nS-41 出展 (塔邦棒棒 @taboom002) ／ 新刊 **『如何讓女朋友對自己撒嬌!』** (超かぐや姫、 **彩葉 × ハチヨ** CP、 B5 / 26P / 漫畫、 NTD 200) ／ 既刊 **『走吧塔檔!』** (Bocchi the Rock、 千滝 CP、 B5 / 28P / NTD 200) + **『貓咪的育成手冊』** (Bocchi the Rock、 千滝 CP、 B5 / 26P / NTD 200)\n- 出處: [本攤 (最終宣傳) Threads post](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -2118,7 +2118,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
     "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/x_milllllla_x_nekohige"}, {"platform": "threads", "handle": "@x_milllllla_x (米拉)", "url": "https://www.threads.com/@x_milllllla_x"}, {"platform": "threads", "handle": "@nekohige0123 (鬍鬚)", "url": "https://www.threads.com/@nekohige0123"}],
-    "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/x_milllllla_x_nekohige](https://lit.link/zh-tw/x_milllllla_x_nekohige)\n\n## 📝 CH19 出展重點\nT-03 出展 (米拉 @x_milllllla_x + 鬍鬚 @nekohige0123 group) ／ 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片) ／ **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可) ／ **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500) ／ 米拉 喵祥喵BDSM 明信片 / 認親卡 ／ **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150) ／ 簽繪板 競標予定 ／ 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
+    "body": "- BanG Dream!It’s mygo!!!!!\n- Bang Dream!Avemujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-03 出展 (米拉 @x_milllllla_x + 鬍鬚 @nekohige0123 group) ／ 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片) ／ **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 他サイズ通販可) ／ **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500) ／ 米拉 喵祥喵BDSM 明信片 / 認親卡 ／ **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150) ／ 簽繪板 競標予定 ／ 攤位前 滞在 5分以内願 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
     "tags": {
       "yuri-zone": true
     },
@@ -2286,7 +2286,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/61573677164059/",
     "socials": [{"platform": "fb", "handle": "profile 61573677…", "url": "https://www.facebook.com/61573677164059/"}],
-    "body": "- BanG Dream! It's MyGO!!!!!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/61573677164059/](https://www.facebook.com/61573677164059/)\n\n## 📝 CH19 出展重點\nT-07/08 出展 ／ 新品 **森亞露露卡 立牌** ／ 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組) ／ 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
+    "body": "- BanG Dream! It's MyGO!!!!!\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-07/08 出展 ／ 新品 **森亞露露卡 立牌** ／ 既刊 愛爽合本 **『在浸染的記憶中 重疊溫柔』** + **『在黎明那端 相依的溫暖』** (少量套組) ／ 周邊: MyGO!!!!! / Ave Mujica / 森亞露露卡 / 星塔旅人 / SABA\n- [Facebook post (場前宣傳)](https://www.facebook.com/share/p/1JaUMyJD6c/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2355,7 +2355,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61558258981354",
     "socials": [{"platform": "fb", "handle": "profile 61558258…", "url": "https://www.facebook.com/profile.php?id=61558258981354"}],
-    "body": "- gbc\n- BanG Dream!\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/profile.php?id=61558258981354](https://www.facebook.com/profile.php?id=61558258981354)\n\n## 📝 CH19 出展重點\nT-10 出展 ／ 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200) ／ 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150) ／ 立牌 約12cm 各 NT 100 ／ 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
+    "body": "- gbc\n- BanG Dream!\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-10 出展 ／ 新刊 **『Vultus Silentii』** (魔裁、 B5/黑白/24P/NT 200) ／ 既刊 **『沒有感冒根本不是這樣的!!』** (B5/黑白/24P/NT 200) + **『Ave Lolica』** (B5/黑白/21P/NT 150) ／ 立牌 約12cm 各 NT 100 ／ 套組 NT 300-650\n- [品書 post](https://www.facebook.com/share/p/1CfRSG5nVj/) / [魔裁新刊 試閱](https://www.facebook.com/share/p/1CmqGYBWoV/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2465,7 +2465,7 @@ window.BOOTHS = [
     "x_handle": "amane61115",
     "x_url": "https://x.com/amane61115",
     "socials": [{"platform": "x", "handle": "@amane61115", "url": "https://x.com/amane61115"}],
-    "body": "- 蓮ノ空女學院スクールアイドルクラブ\n\n**專區**: 百合\n\n🔗 X: [amane61115](https://x.com/amane61115)\n## 📝 CH19 出展重點\nT-11 出展 (白河夜船) ／ シリーズ別:\n- **ラブライブ!** (CP: 姬ｘ吟): ★新 **「Vaporeux」** / 漫畫 / NT 250\n- **佐賀偶像是傳奇** (CP: 純ｘ愛): ★新 **「Convallaria」** / 漫畫 / NT 50\n- **ラブライブ!** (CP: 神秘): ★新 **「神秘無料」** / 漫畫 / NT 無料 / 需通關密語\n- **偶像學園** (CP: 堇/凜): ★新 **「明信片(2款)」** / 周邊 / NT 20/款\n- **ラブライブ!** (CP: 瑠慈): 既 **「一覺醒來 我原地穿越到了 兩年前？！」** / 漫畫 / NT 200\n- **星穹鐵道** (CP: 雅蝶): 既 **「卡薩布蘭卡」** / 漫畫 / NT 50\n- **VTUBER** (CP: みらるた): 既 **「飯友」** / 周邊 / NT 200/組\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- 蓮ノ空女學院スクールアイドルクラブ\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「Vaporeux」 — ラブライブ! · 姬ｘ吟 — 漫畫 / NT 250\n- ★新 「Convallaria」 — 佐賀偶像是傳奇 · 純ｘ愛 — 漫畫 / NT 50\n- ★新 「神秘無料」 — ラブライブ! · 神秘 — 漫畫 / NT 無料 / 需通關密語\n- 既 「一覺醒來 我原地穿越到了 兩年前？！」 — ラブライブ! · 瑠慈 — 漫畫 / NT 200\n- 既 「卡薩布蘭卡」 — 星穹鐵道 · 雅蝶 — 漫畫 / NT 50\n\n**其他周邊**:\n- ★新 「明信片(2款)」 — 偶像學園 · 堇/凜 — 周邊 / NT 20/款\n- 既 「飯友」 — VTUBER · みらるた — 周邊 / NT 200/組\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true
     },
@@ -2635,7 +2635,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/7iromushrooms",
     "socials": [{"platform": "fb", "handle": "7iromushrooms", "url": "https://www.facebook.com/7iromushrooms"}],
-    "body": "- Lovelive!虹咲學園學園偶像同好會\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/7iromushrooms](https://www.facebook.com/7iromushrooms)\n\n## 📝 CH19 出展重點\nT-16 出展 ／ 新刊合本 **『MOFU MOFU PARADISE』** (A5 / 右翻 / 膠裝 / 40P / 一般向、 漫畫+插圖+小說、 鐘嵐珠 × 三船栞子、 NT 200、 5 作家合著: WASTE-MAN、 U魂、 八重洲、 マヨ、 某波) ／ 印量調查 5/19 締切 ／ 後續 通販予定\n- 出處: [場前宣傳](https://www.facebook.com/share/p/1BFDKmnPrn/) / [毛絨絨合本 詳細](https://www.facebook.com/share/p/1LvNcHWQLT/)",
+    "body": "- Lovelive!虹咲學園學園偶像同好會\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-16 出展 ／ 新刊合本 **『MOFU MOFU PARADISE』** (A5 / 右翻 / 膠裝 / 40P / 一般向、 漫畫+插圖+小說、 鐘嵐珠 × 三船栞子、 NT 200、 5 作家合著: WASTE-MAN、 U魂、 八重洲、 マヨ、 某波) ／ 印量調查 5/19 締切 ／ 後續 通販予定\n- 出處: [場前宣傳](https://www.facebook.com/share/p/1BFDKmnPrn/) / [毛絨絨合本 詳細](https://www.facebook.com/share/p/1LvNcHWQLT/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2685,7 +2685,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/yetsubody",
     "socials": [{"platform": "fb", "handle": "yetsubody", "url": "https://www.facebook.com/yetsubody"}],
-    "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yetsubody](https://www.facebook.com/yetsubody)\n\n## 📝 CH19 出展重點\nT-17 出展 ／ 新刊 **『初祥塗鴉本 Vol.2』** (NT 50) ／ FF46 新刊 **壓克力套組** (NT 400) ／ **『三角初華觀察日記』** (NT 200) ／ Aver荠祥 既刊套組 (NT 200) ／ FGO 迦摩 推し 套組 (NT 300) ／ 既刊單品 NT 50-200 ／ 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
+    "body": "- Ave mujica\n- FGO\n- 機動戰士鋼彈水星的魔女\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-17 出展 ／ 新刊 **『初祥塗鴉本 Vol.2』** (NT 50) ／ FF46 新刊 **壓克力套組** (NT 400) ／ **『三角初華觀察日記』** (NT 200) ／ Aver荠祥 既刊套組 (NT 200) ／ FGO 迦摩 推し 套組 (NT 300) ／ 既刊單品 NT 50-200 ／ 簽繪版 (大) NT 2000~\n- [Facebook post](https://www.facebook.com/share/p/18qmi9sFM8/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2804,7 +2804,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://portaly.cc/ame_aou",
     "socials": [{"platform": "aggregator", "handle": "portaly", "url": "https://portaly.cc/ame_aou"}, {"platform": "threads", "handle": "@ame_aou", "url": "https://www.threads.com/@ame_aou"}, {"platform": "x", "handle": "@ame_aou", "url": "https://x.com/ame_aou"}, {"platform": "ig", "handle": "@ame_aou", "url": "https://www.instagram.com/ame_aou"}, {"platform": "plurk", "handle": "@ame.5000", "url": "https://www.plurk.com/ame.5000"}],
-    "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n**專區**: 百合\n\n🔗 Portaly: [https://portaly.cc/ame_aou](https://portaly.cc/ame_aou) ／ Threads: [@ame_aou](https://www.threads.com/@ame_aou)\n\n## 📝 CH19 出展重點\nT-19/20 出展 (青雨アメ @ame_aou) ／ 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成) ／ シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ** ／ 全 3 組 「曖昧以上 互動」 ／ 雜食 (友好~互毆) 内容含む ／ 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
+    "body": "- Ave Mujica\n- 孤獨搖滾\n- 原創- 1000 BLUE\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-19/20 出展 (青雨アメ @ame_aou) ／ 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇シリーズ多 CP 構成) ／ シリーズ CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穂 × みなみ** ／ 全 3 組 「曖昧以上 互動」 ／ 雜食 (友好~互毆) 内容含む ／ 当日 零錢持参 推奨 (50元 端数 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
     "tags": {
       "original": true,
       "yuri-zone": true
@@ -2858,7 +2858,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/kun.salamander.3/",
     "socials": [{"platform": "fb", "handle": "kun.salamander.3", "url": "https://www.facebook.com/kun.salamander.3/"}],
-    "body": "- MyGO!!!!!\n- AveMujica\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/kun.salamander.3/](https://www.facebook.com/kun.salamander.3/)\n\n## 📝 CH19 出展重點\n新刊「喝酒女同新刊」 (拯救學姊 即將完成)\n- [原 FB post](https://www.facebook.com/share/p/1CjXUyhmK2/)",
+    "body": "- MyGO!!!!!\n- AveMujica\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n新刊「喝酒女同新刊」 (拯救學姊 即將完成)\n- [原 FB post](https://www.facebook.com/share/p/1CjXUyhmK2/)",
     "tags": {
       "yuri-zone": true
     },
@@ -2892,7 +2892,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/MuziYuri/",
     "socials": [{"platform": "fb", "handle": "MuziYuri", "url": "https://www.facebook.com/MuziYuri/"}, {"platform": "threads", "handle": "@muziyuri", "url": "https://www.threads.com/@muziyuri"}],
-    "body": "- 新刊-超時空輝耀姬\n- 原創-如何與蛇女交尾?\n- 原創-倉鼠少女也想談戀愛\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/MuziYuri/](https://www.facebook.com/MuziYuri/) ／ Threads: [@muziyuri](https://www.threads.com/@muziyuri)\n\n## 📝 CH19 出展重點\nT-23/24 出展 (木子 / MUZIYURI) ／ 新刊 **『輝耀的性機能檢測報告』** (超かぐや姫 / 超時空輝耀姬、 **IROHA × KAGUYA** = 輝耀彩葉 (iroka) CP、 R18) ／ 現場 套餐優惠 あり ／ 既刊 原創 『如何與蛇女交尾?』 / 『倉鼠少女也想談戀愛』 (6月底 倉鼠本 連載再開予定)\n- 出處: [新刊試閱 promo](https://www.threads.com/@muziyuri/post/DY146_3j-i6) / [彩葉混更 圖透](https://www.threads.com/@muziyuri/post/DX1mQBFj5n9) / [討親親的輝耀](https://www.threads.com/@muziyuri/post/DXmGhnFjzk8)",
+    "body": "- 新刊-超時空輝耀姬\n- 原創-如何與蛇女交尾?\n- 原創-倉鼠少女也想談戀愛\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-23/24 出展 (木子 / MUZIYURI) ／ 新刊 **『輝耀的性機能檢測報告』** (超かぐや姫 / 超時空輝耀姬、 **IROHA × KAGUYA** = 輝耀彩葉 (iroka) CP、 R18) ／ 現場 套餐優惠 あり ／ 既刊 原創 『如何與蛇女交尾?』 / 『倉鼠少女也想談戀愛』 (6月底 倉鼠本 連載再開予定)\n- 出處: [新刊試閱 promo](https://www.threads.com/@muziyuri/post/DY146_3j-i6) / [彩葉混更 圖透](https://www.threads.com/@muziyuri/post/DX1mQBFj5n9) / [討親親的輝耀](https://www.threads.com/@muziyuri/post/DXmGhnFjzk8)",
     "tags": {
       "original": true,
       "yuri-zone": true,
@@ -3155,7 +3155,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://interweave.booth.pm/",
     "socials": [{"platform": "booth_pm", "handle": "BOOTH", "url": "https://interweave.booth.pm/"}],
-    "body": "- 東方Project\n\n**專區**: 百合\n\n🔗 出處: [https://interweave.booth.pm/](https://interweave.booth.pm/)\n## 📝 CH19 出展重點\nT-30 出展 (錯落交織 Interweave) ／ シリーズ別:\n- **東方Project** (CP: 秘封俱樂部 / 蓮メリ / 蓮子×梅莉): 既 **「Random Walk」** / 小說 / NT 250 / A5 / 80P\n- **東方Project** (CP: 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘): 既 **「Flawless Dreamers」** / 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- 東方Project\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- 既 「Random Walk」 — 東方Project · 秘封俱樂部 / 蓮メリ / 蓮子×梅莉 — 小說 / NT 250 / A5 / 80P\n- 既 「Flawless Dreamers」 — 東方Project · 稀神探女×朵蕾米蘇伊特 / ドレサグ / 鷺貘 — 合同/(插圖/漫畫/小說) / NT 300 / 合同作者群：; Nowhere, 夜夢ND, ; ラプトル7, 伊諾, 暮春\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true
     },
@@ -3170,7 +3170,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
     "socials": [{"platform": "doujin_tw", "handle": "", "url": "https://www.doujin.com.tw/authors/info/x20285/books"}],
-    "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n**專區**: 百合\n\n🔗 doujin.com.tw: [https://www.doujin.com.tw/authors/info/x20285/books](https://www.doujin.com.tw/authors/info/x20285/books)\n\n## 📝 CH19 出展重點\n安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
+    "body": "- 東方PROJECT\n- 超時空輝耀姬\n- 鋼管公主\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n安奈Anna (105 件 doujin 的長期作家)。社群: [Plurk @hane_anna](https://www.plurk.com/hane_anna) / [Pixiv 130351](https://www.pixiv.net/member.php?id=130351)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3191,7 +3191,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/yuclovers",
     "socials": [{"platform": "fb", "handle": "yuclovers", "url": "https://www.facebook.com/yuclovers"}],
-    "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/yuclovers](https://www.facebook.com/yuclovers)\n## 📝 CH19 出展重點\nT-32 出展 (魚燒) ／ シリーズ別:\n- **\"バンドリ!** (CP: 愛爽): ★新 **「千早愛音 我真的會被你氣死」** / 漫畫 / NT 240 / 品書 ／ **「甚麼叫做 誤會的我也很可愛!?」** / NT 240 ／ 既 **「きらめく君と、彩る日々」** / NT 200\n- **\"バンドリ!** (CP: 燈祥): **「並拾色」** / NT 250\n- **\"バンドリ!** (CP: 睦祥): **「たった一つの、 帰るべき場所」** / NT 200\n- **\"バンドリ!** (CP: MyGO!!!!!): 既 **「MyGO手機架」** / 手機架 / NT 160\n- **少女歌劇** (CP: 迷宮): **「迷宮旋轉跑跑立牌」** / 立牌 / NT 120\n- **\"バンドリ!** (CP: 九九組): **「劇場版色紙*9」** / 色紙 / NT 40/1\n- 出處: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/)",
+    "body": "- It's MyGO!!!!! 《BanG Dream!》\n- 超時空輝耀姬\n\n**專區**: 百合\n## 📝 CH19 出展重點\n\n**本**:\n- ★新 「千早愛音 我真的會被你氣死」 — \"バンドリ! · 愛爽 — 漫畫 / NT 240 / 品書\n\n**其他**:\n- 「甚麼叫做 誤會的我也很可愛!?」 — \"バンドリ! · 愛爽 — NT 240\n- 「並拾色」 — \"バンドリ! · 燈祥 — NT 250\n- 既 「きらめく君と、彩る日々」 — \"バンドリ! · 愛爽 — NT 200\n- 「たった一つの、 帰るべき場所」 — \"バンドリ! · 睦祥 — NT 200\n\n**其他周邊**:\n- 既 「MyGO手機架」 — \"バンドリ! · MyGO!!!!! — 手機架 / NT 160\n\n**立牌**:\n- 「迷宮旋轉跑跑立牌」 — 少女歌劇 · 迷宮 — 立牌 / NT 120\n\n**色紙**:\n- 「劇場版色紙*9」 — \"バンドリ! · 九九組 — 色紙 / NT 40/1\n\n出處参照: [吃土單 catalog](https://docs.google.com/spreadsheets/d/1kUH2rfe9enYuSUquL6eR_qbxnI8NRbeY8COO9G0GAIM/) (second-source, 作者 input)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3407,7 +3407,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/tentaclespet/",
     "socials": [{"platform": "fb", "handle": "tentaclespet", "url": "https://www.facebook.com/tentaclespet/"}],
-    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 Facebook: [https://www.facebook.com/tentaclespet/](https://www.facebook.com/tentaclespet/)\n\n## 📝 CH19 出展重點\n寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
+    "body": "- 超時空輝耀姬\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\n寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 — 百合翁新刊加筆中\n- [原 FB post](https://www.facebook.com/share/p/1EptQghttr/)\n\n寄攤 (月讀_ツクヨミ Dc 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime) — 該群第 1 本合同誌): 新刊合同誌 **『CPK《Remix》』** (超時空輝耀姬、 彩葉 × 輝耀 × 八千代 主題、 A5 / 98P / 全年齡 / NT 250、 預先表單填寫者優惠、 現場無料明信片特典、 12 作家合著: +0、 cema、 Claris、 八月、 丹、 水神、 立夜、 剎翼、 笨丸、 魚、 葉唯、 楓月)\n- Threads 告知: [初發表](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3592,7 +3592,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://bsky.app/profile/nkpa.bsky.social",
     "socials": [{"platform": "bsky", "handle": "@nkpa", "url": "https://bsky.app/profile/nkpa.bsky.social"}, {"platform": "x", "handle": "@RmenOish", "url": "https://x.com/RmenOish"}],
-    "body": "- 無期迷途\n- 超時空輝耀姬\n\n**專區**: 百合\n\n🔗 出處: [https://bsky.app/profile/nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)\n\n## 📝 CH19 出展重點\nT-39 出展 (魚之介 / X [@RmenOish](https://x.com/RmenOish) ／ bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)) ／ 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120) ／ 行李束帶 八千代＋彩葉 (20x6cm / NTD 200) ／ 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80) ／ 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120) ／ 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120) ／ 遊戲彩票貼紙 (250x30mm / NTD 50) ／ 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
+    "body": "- 無期迷途\n- 超時空輝耀姬\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-39 出展 (魚之介 / X [@RmenOish](https://x.com/RmenOish) ／ bsky [@nkpa.bsky.social](https://bsky.app/profile/nkpa.bsky.social)) ／ 壓克力小物 シリーズ (5/30 完售後 加印なし も含む)\n\n**超かぐや姫 系**: 壓克力飯友 八千代 (6x6cm / NTD 120) ／ 行李束帶 八千代＋彩葉 (20x6cm / NTD 200) ／ 壓克力吊飾 海兔×彩葉 (3x2.5cm / NTD 80) ／ 方形小卡 輝耀・彩葉 (10x10cm / 銀星紙 / NTD 30)\n\n**無期迷途 系**: 壓克力飯友 可可莉克・瑟琳 (學園 PARO、 6x4.5cm / NTD 120) ／ 壓克力飯友 霜兒＆局長 (+霜兒小卡、 3.5x6cm + 10x10cm / 銀星紙 / NTD 120) ／ 遊戲彩票貼紙 (250x30mm / NTD 50) ／ 圖鑑貼紙 蘭蘭＆局長 (OLD / 100x140mm / NTD 50)\n- 出處: [本攤告知](https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u) / [飯友 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu2x5wqm22j) / [吊飾 詳細](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3dckspc2j) / [行李束帶](https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true
@@ -3658,7 +3658,7 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/yeijijia",
     "socials": [{"platform": "aggregator", "handle": "lit.link", "url": "https://lit.link/zh-tw/yeijijia"}, {"platform": "fb", "handle": "葉子嘉(多多)", "url": "https://www.facebook.com/share/1C7YTrFDCe/"}, {"platform": "x", "handle": "@yezijia1", "url": "https://x.com/yezijia1"}, {"platform": "pixiv", "handle": "多多", "url": "https://www.pixiv.net/users/21810609"}],
-    "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n**專區**: 百合\n\n🔗 lit.link: [https://lit.link/zh-tw/yeijijia](https://lit.link/zh-tw/yeijijia)\n\n## 📝 CH19 出展重點\nT-40 出展 (多多 @yezijia1) ／ 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開) ／ 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200) ／ 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
+    "body": "- mygo\n- 超時空輝耀姬\n- 魔女裁判\n\n**專區**: 百合\n\n## 📝 CH19 出展重點\nT-40 出展 (多多 @yezijia1) ／ 新刊 **『月亮撫著煙火』** (超かぐや姫 二創、 B5 / 32P / 黑白漫畫 / 一般向、 NTD 200、 全圖 FB + PIXIV で公開) ／ 既刊 **『祕密的遠距離戀愛』(1)** (Ave Mujica、 B5/24P、 NTD 200) ＋ **『長崎爽世的陰謀!?』(1)** (Ave Mujica、 B5/40P/R18、 NTD 200) ＋ **『長崎爽世的陰謀 2』** (B5/44P/R18、 NTD 200) ／ 通販 QR 連結あり\n- 出處 (時間順): [新刊 cover 初公開](https://x.com/i/status/2057844220862537926) / [新刊 詳細](https://x.com/i/status/2059209383478006188) / [品書](https://x.com/i/status/2059243544624402923)",
     "tags": {
       "yuri-zone": true,
       "super-kaguya": true,
