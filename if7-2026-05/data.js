@@ -4429,10 +4429,26 @@ window.BOOTHS = [
     "author": "Rumie Chen",
     "x_handle": "",
     "x_url": "https://www.facebook.com/shadowsinkincoffee/",
-    "body": "## 📝 CH19 出展重點\n- 新品多種 (詳細品書菜單)\n\n- FF46 學偶品項也會在攤位上\n- 通販因 [**輝耀姬關聯**](https://www.facebook.com/share/p/1CiXqyS7Uq/) 場後一併開放 (DC 群組會告知)",
-    "tags": {},
+    "socials": [
+      {"platform": "fb", "handle": "shadowsinkincoffee", "url": "https://www.facebook.com/shadowsinkincoffee/"},
+      {"platform": "plurk", "handle": "@貓小喳", "url": "https://www.plurk.com/p/3ipcz6llj1"}
+    ],
+    "body": "## 📝 CH19 出展重點\n\n**超かぐや姫**:\n- ★突發新刊 [**『超かぐや姫 memories!』**](https://www.plurk.com/p/3ipcz6llj1) — 全彩插畫集 / B5 / 16P / NT 200\n\n**名偵探光之美少女** (NEW):\n- **CURE ARCANA SHADOW 大滑鼠墊** (60×35cm / 四周包邊) — NT 650\n- **CURE ARCANA SHADOW 小套組** (15cm 雙面壓克力立牌 + 透卡 + 雷射明信片) — NT 500 (組合售 200)\n\n**學園偶像大師** (藤田ことね 主題):\n- ★新 **藤田ことね T-shirt** — NT 700 (S/M/L/XL、 隨機少量限量)\n- ★新 插畫本 **『LittleRestTime』** (B5/20P/Full Color) — NT 200\n- 新刊定本 (A5/12P/Full Color) — 含 套姫限定文 + 皮革行李吊牌 + 名稱貼紙 + 明信片\n- **FF46 新刊套組 (1〜8 + 書脊 ×3)** — NT 800\n- **P 套組** (1〜8 + 琴音立牌) — NT 1100\n- 60×150cm 2way 等身大抱枕套 — NT 2000\n- 糖果娃娃組 (特大糖果包 + 琴音磁吸娃娃 + 透明貼紙) — NT 500\n- 既刊套組 — NT 400\n- 睡衣派對 壓克力立牌 (各 15cm) — 各 NT 350 / 點銀 NT 1000\n- 既刊・學偶畫集 — NT 200 (+加購附錄 NT 100)\n- 通販因 [**輝耀姬関連**](https://www.facebook.com/share/p/1CiXqyS7Uq/) 場後一併開放 (DC 群告知)",
+    "tags": {
+      "super-kaguya": true
+    },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3ipcz6llj1",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-37_38/plurk-3ipcz6llj1/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipcz6llj1",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-37_38/plurk-3ipcz6llj1/1.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/1CiXqyS7Uq/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-37_38/share-1CiXqyS7Uq/0.jpg",
