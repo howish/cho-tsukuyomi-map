@@ -732,8 +732,13 @@
       // URL inputs + explicit lock toggle. Lock toggle distinguishes:
       //   - 🔓 auto: pipeline can regenerate display_url if source changes
       //   - 🔒 locked: pipeline never overwrites display_url
+      //
+      // All cover-edit elements go into imgEditWrapper, which is
+      // prepended to bodyDiv at the end so cover edit appears ABOVE
+      // body edit in the modal layout.
+      const imgEditWrapper = el('div', { class: 'edit-images-wrapper' });
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
-      bodyDiv.appendChild(imgLabel);
+      imgEditWrapper.appendChild(imgLabel);
 
       const origCovers = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
       const origSnapshot = JSON.stringify(origCovers);
@@ -1066,7 +1071,7 @@
         s.srcInput.focus();
       });
       advancedDetails.appendChild(addBtn);
-      bodyDiv.appendChild(advancedDetails);
+      imgEditWrapper.appendChild(advancedDetails);
 
       // Initial overlay carousel render (replaces the view-mode carousel).
       renderEditCarousel();
@@ -1120,7 +1125,10 @@
       });
       imgActionRow.appendChild(imgSaveBtn);
       imgActionRow.appendChild(imgRevertBtn);
-      bodyDiv.appendChild(imgActionRow);
+      imgEditWrapper.appendChild(imgActionRow);
+      // Place the cover edit section ABOVE the body editor (which was
+      // already appended to bodyDiv earlier in this branch).
+      bodyDiv.insertBefore(imgEditWrapper, bodyDiv.firstChild);
     } else {
       bodyDiv.innerHTML = mdToHtml(b.body || '');
     }
