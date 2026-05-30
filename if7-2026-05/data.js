@@ -7004,7 +7004,8 @@ window.BOOTHS = [
     "body": "## 📝 CH19 出展重點\n- S-03 出展 ／ 新刊 3 + 既刊 3:\n- **新刊**:\n  - 原創漫畫 **『乳牙🦷』** (A5 / 16P / 黑白 / 膠裝 / NT 150)\n  - 上伊那牡丹 **『泡沫和水果口味的氣泡酒與妳一起更加美味』** (A5 / 20P / 黑白 / 膠裝 / NT 200)\n  - 上伊那牡丹 **『學姊，可是浴室在逼逼叫』** (A5 / 8P / 黑白小冊 / NT 100、 葛美栗 [S-25] 插花)\n- **既刊** (MyGO!!!!!): 『普通與理所當然』 (NT 250) / 『動手玩創意』 (NT 200) / 『千早愛音妳到底在想什麼！！』 (NT 200)\n- 網購: [黑市兔 myacg 賣場](https://www.myacg.com.tw/seller_market.php?seller=555355&keyword=%E8%A7%92%E5%90%89) ／ 原創新刊是場後賣貨便個別開賣\n- 出處: [品書 post](https://www.facebook.com/share/p/1LvGgyH139/) / [學姊浴室](https://www.facebook.com/share/p/1D6aKKvxQv/) / [泡沫氣泡酒](https://www.facebook.com/share/p/1Dv52MK4fm/)",
     "tags": {
       "original": true,
-      "manga": true
+      "manga": true,
+      "kami-ina-botan": true
     },
     "warnings": [],
     "cover_urls": [
@@ -7098,7 +7099,8 @@ window.BOOTHS = [
     "body": "- 原創-《世界末日&後日談》\n- 原創-《魔女的坩堝不加石榴花》\n- 原創-《證件照相機生存守則》\n\n## 📝 CH19 出展重點\n- 新刊 [**『台灣有事!!』**](https://www.facebook.com/share/p/1HZhbgsr89/) — 『上伊那ぼたん、酔へる姿は百合の花』 二創 / A5 / 黑白 / 10P 小冊 / NT 100\n- 既刊 **『證件快照機生存指南』** (A5/黑白/28P / NT 200) + **『魔女的坩堝不加石榴花』** 1/2 + **『世界末日』** 系列 (各 NT 200)\n- 現場簽繪版予定\n- (本人主畫原創、 張景嵐 二創會繼續一段時間)\n- 出處: [品書 post (1HZhbgsr89)](https://www.facebook.com/share/p/1HZhbgsr89/) / [上伊那ぼたん 二創 tweet](https://x.com/i/status/2059913890855813128)",
     "tags": {
       "original": true,
-      "manga": true
+      "manga": true,
+      "kami-ina-botan": true
     },
     "warnings": [],
     "cover_urls": [
@@ -8833,7 +8835,8 @@ window.BOOTHS = [
     "tags": {
       "super-kaguya": true,
       "manga": true,
-      "free": true
+      "free": true,
+      "kami-ina-botan": true
     },
     "warnings": [],
     "cover_urls": [
@@ -10141,7 +10144,8 @@ window.BOOTHS = [
       "fate": true,
       "hololive": true,
       "manga": true,
-      "goods": true
+      "goods": true,
+      "kami-ina-botan": true
     },
     "warnings": [],
     "cover_urls": [

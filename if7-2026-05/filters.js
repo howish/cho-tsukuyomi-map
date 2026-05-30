@@ -55,6 +55,7 @@ window.FILTERS_CONFIG = {
     { code: "lycoris", label: "莉可麗絲", icon: "☕", title: "リコリス・リコイル (Lycoris Recoil)" },
     { code: "frieren", label: "葬送的芙莉蓮", icon: "🌿", title: "葬送のフリーレン / 葬送的芙莉蓮" },
     { code: "uma-musume", label: "賽馬娘", icon: "🐎", title: "ウマ娘 プリティーダービー" },
+    { code: "kami-ina-botan", label: "上伊那牡丹", icon: "🍶", title: "上伊那ぼたん、酔へる姿は百合の花" },
     { code: "witch-mercury", label: "水星の魔女", icon: "🚀", title: "機動戦士ガンダム 水星の魔女 (Gundam: The Witch from Mercury)" },
     { code: "bocchi-rock", label: "孤獨搖滾", icon: "🎶", title: "ぼっち・ざ・ろっく! (Bocchi the Rock)" },
     { code: "love-deepspace", label: "戀與深空", icon: "💫", title: "戀與深空 (Love and Deepspace)" },
