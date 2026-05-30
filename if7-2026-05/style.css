@@ -472,15 +472,24 @@ section {
 .map-popup:hover {
   box-shadow: 0 6px 18px rgba(196, 123, 0, 0.3);
 }
+.map-popup .popup-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.1rem;
+}
 .map-popup .popup-id {
   font-weight: 700;
   color: #c47b00;
   font-size: 0.9rem;
+  flex-shrink: 0;
 }
 .map-popup .popup-name {
   font-weight: 600;
-  margin: 0.15rem 0 0;
   line-height: 1.25;
+  min-width: 0;
+  word-break: break-word;
 }
 .map-popup .popup-author {
   font-size: 0.75rem;

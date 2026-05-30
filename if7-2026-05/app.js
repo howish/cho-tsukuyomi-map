@@ -1425,8 +1425,10 @@
     popup.setAttribute('tabindex', '0');
     popup.innerHTML =
       '<button class="popup-close" type="button" aria-label="' + escapeAttr(T('popup_close_label')) + '">×</button>' +
-      '<div class="popup-id">' + escapeHtml(b.booth_id) + '</div>' +
-      '<div class="popup-name">' + escapeHtml(b.circle_name || '?') + '</div>' +
+      '<div class="popup-header">' +
+        '<span class="popup-id">' + escapeHtml(b.booth_id) + '</span>' +
+        '<span class="popup-name">' + escapeHtml(b.circle_name || '?') + '</span>' +
+      '</div>' +
       (b.author ? '<div class="popup-author">' + escapeHtml(b.author) + '</div>' : '') +
       (thumbUrl
         ? '<img class="popup-thumb" src="' + escapeAttr(thumbUrl) + '" alt="" loading="lazy">'
