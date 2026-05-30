@@ -430,7 +430,18 @@ section {
 .map-zoom-viewport.fullscreen .map-overlay-wrap {
   max-width: none;
   max-height: none;
-  display: block;
+  /* Keep inline-block so the wrap shrinks to img dimensions —
+   * display:block stretched it to 100vw while the img stayed at its
+   * aspect ratio, leaving the SVG overlay wider than the img and
+   * pushing booth rects to the right of their labels. */
+  display: inline-block;
+  /* Drop wrap border + shadow in fullscreen so the SVG padding-box
+   * (which inset:0 binds to) doesn't carry a 2px offset that would
+   * shift hit-rects right of their labels. The dark fullscreen bg
+   * provides edge contrast already. */
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
 }
 .map-zoom-viewport.fullscreen .venue-map {
   display: block;
