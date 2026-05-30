@@ -6841,6 +6841,21 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/2.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://x.com/karas_manga/status/2059581266761232769",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/0.jpg",
         "display_locked": false
@@ -6858,21 +6873,6 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/karas_manga/status/2059581266761232769",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059581266761232769/3.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/karas_manga/status/2059580865601290431",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-01/x-2059580865601290431/2.jpg",
         "display_locked": false
       }
     ],
@@ -7819,11 +7819,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.instagram.com/shioisland/p/DXiwclyk8Qv/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-22/0.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/0.jpg",
         "display_locked": false
@@ -7852,6 +7847,11 @@ window.BOOTHS = [
         "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/5.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://www.instagram.com/shioisland/p/DXiwclyk8Qv/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-22/0.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -8089,16 +8089,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/2.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://x.com/i/status/2059118273388740955",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-28/0.jpg",
         "display_locked": true
@@ -8107,6 +8097,16 @@ window.BOOTHS = [
         "source_url": "https://x.com/i/status/2059118273388740955",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-28/1.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-28/x-2058533374575444239/2.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -8139,16 +8139,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.plurk.com/p/3ipx5nbw7k",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/plurk-3ipx5nbw7k/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/i/status/2056919703663288489",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/x-2056919703663288489/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.plurk.com/p/3iqdfuu818",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-29/plurk-3iqdfuu818/0.jpg",
         "display_locked": false
@@ -8156,6 +8146,16 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqdfuu818",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-29/plurk-3iqdfuu818/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ipx5nbw7k",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/plurk-3ipx5nbw7k/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2056919703663288489",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-29/x-2056919703663288489/0.jpg",
         "display_locked": false
       }
     ],
@@ -8271,11 +8271,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.plurk.com/p/3iqc0l1cjn",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-32/plurk-3iqc0l1cjn/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.plurk.com/p/3ipsk8ga90",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-32/plurk-3ipsk8ga90/0.jpg",
         "display_locked": false
@@ -8298,6 +8293,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipsk8ga90",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-32/plurk-3ipsk8ga90/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3iqc0l1cjn",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-32/plurk-3iqc0l1cjn/0.jpg",
         "display_locked": false
       }
     ],
@@ -8407,11 +8407,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://x.com/AoIzumi_Akiharu/status/2059513177558388971",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-35_36/x-2059513177558388971/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.plurk.com/p/3iljqk97pp",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-35_36/plurk-3iljqk97pp/0.png",
         "display_locked": false
@@ -8420,6 +8415,11 @@ window.BOOTHS = [
         "source_url": "https://www.plurk.com/p/3ilebtnb56",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-35_36/0.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://x.com/AoIzumi_Akiharu/status/2059513177558388971",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-35_36/x-2059513177558388971/0.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
@@ -8614,6 +8614,11 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.threads.com/@raker.natsume/post/DYWu3BOAoDf",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYWu3BOAoDf/0.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYOKUOJiTL8",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYOKUOJiTL8/0.webp",
         "display_locked": false
@@ -8626,11 +8631,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DXokKYFCY85",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DXokKYFCY85/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.threads.com/@raker.natsume/post/DYWu3BOAoDf",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYWu3BOAoDf/0.jpg",
         "display_locked": false
       }
     ],
@@ -9116,14 +9116,14 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://x.com/i/status/2057122117020479529",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-04/0.jpg",
-        "display_locked": true
-      },
-      {
         "source_url": "https://x.com/i/status/2059892096413385092",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-04/x-2059892096413385092/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2057122117020479529",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-04/0.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -10101,22 +10101,22 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.plurk.com/p/3ip8rsg67m",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/0.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/2.jpg",
         "display_locked": false
       },
       {
         "source_url": "https://www.plurk.com/p/3ip8rsg67m",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3ip8rsg67m",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-28/plurk-3ip8rsg67m/1.jpg",
         "display_locked": false
       }
     ],
@@ -10992,6 +10992,11 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
+        "source_url": "https://www.instagram.com/p/DYlo3oiNltW/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/ig-DYlo3oiNltW/0.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/threads-DY17ZuIlGIH/0.jpg",
         "display_locked": false
@@ -10999,11 +11004,6 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/threads-DY17ZuIlGIH/1.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://www.instagram.com/p/DYlo3oiNltW/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/ig-DYlo3oiNltW/0.jpg",
         "display_locked": false
       }
     ],
@@ -11047,14 +11047,14 @@ window.BOOTHS = [
         "display_locked": true
       },
       {
-        "source_url": "https://www.plurk.com/p/3imdpb1tbc",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-43_44/plurk-3imdpb1tbc/0.png",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-43_44/cross-2.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://www.plurk.com/p/3imdpb1tbc",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-43_44/plurk-3imdpb1tbc/0.png",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {

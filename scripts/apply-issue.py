@@ -240,9 +240,9 @@ def scrape_plurk_post(code: str, tmpdir: Path):
         d = {}
     img_urls = d.get('all_images') or ([d['main_image']] if d.get('main_image') else [])
     if len(img_urls) <= 1:
-        # Playwright fallback — DOM walk for body images
-        from playwright.sync_api import sync_playwright  # noqa
-        # Run via the playwright-runtime python to share the chromium install
+        # Playwright fallback — DOM walk for body images.
+        # We don't import playwright here (system python lacks it);
+        # we shell out to the playwright-runtime python below.
         helper = tmpdir / 'plurk_walk.py'
         helper.write_text(f'''
 from playwright.sync_api import sync_playwright
@@ -518,6 +518,7 @@ def main():
         dropped, kept, added = diff_entries(sec['before'], sec['after'])
         plan.append({'booth': sec['booth_id'], 'circle': sec['circle'],
                      'dropped': dropped, 'kept': kept, 'added': added,
+                     'after': sec['after'],
                      'booth_fs': booth_fs})
 
         print(f'  {sec["booth_id"]} ({sec["circle"]})')
@@ -557,16 +558,22 @@ def main():
 
         new_cover_urls = []
 
-        # Carry kept entries forward verbatim
-        for e in op['kept']:
-            new_cover_urls.append({
-                'source_url': e['source_url'],
-                'display_url': e['display_url'],
-                'display_locked': e['tag'] == LOCKED,
-            })
+        # Walk after-list in order so user-specified order is preserved.
+        # For each entry: if it's "kept" (was in before too) carry verbatim;
+        # else it's an "add" — scrape source, emit at this position.
+        kept_keys = {(e['source_url'], e['display_url']) for e in op['kept']}
 
-        # Process added entries
-        for e in op['added']:
+        for e in op['after']:
+            ekey = (e['source_url'], e['display_url'])
+            if ekey in kept_keys:
+                # Carry kept entry verbatim
+                new_cover_urls.append({
+                    'source_url': e['source_url'],
+                    'display_url': e['display_url'],
+                    'display_locked': e['tag'] == LOCKED,
+                })
+                continue
+            # Treat as added at this position
             src = e['source_url']
             display = e['display_url']
             tag = e['tag']
