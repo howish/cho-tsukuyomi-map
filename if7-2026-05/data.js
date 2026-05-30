@@ -8691,8 +8691,11 @@ window.BOOTHS = [
     ],
     "body": "- FLOWERS (Innocent Grey)\n\n## 📝 CH19 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎",
     "tags": {
+      "super-kaguya": true,
       "lycoris": true,
-      "rev-girl": true
+      "rev-girl": true,
+      "novel": true,
+      "free": true
     },
     "warnings": [],
     "cover_urls": [
@@ -9845,11 +9848,13 @@ window.BOOTHS = [
         "url": "https://www.plurk.com/ame.5000"
       }
     ],
-    "body": "- 原創- 1000 BLUE\n\n## 📝 CH19 出展重點\n- 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇系列多 CP 構成)\n- 系列 CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穗 × 南** (みなみ)\n- 全 3 組「曖昧以上互動」\n- 雜食 (友好~互毆) 內容含\n- 當日 零錢自備 推薦 (50元 尾數 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
+    "body": "- 原創- 1000 BLUE\n\n## 📝 IF7 出展重點\n- 新刊 **『重愛 02』** (Ave Mujica、 「憤怒」 主題、 長篇系列多 CP 構成)\n- 系列 CP 構成: **初祥睦** (初華 × 三船栞子 × 睦) + **海喵** (Ave Mujica) + **瑞穗 × 南** (みなみ)\n- 全 3 組「曖昧以上互動」\n- 雜食 (友好~互毆) 內容含\n- 新刊 **『8168』** — 超時空輝耀姬 (青雨) — 全年齡 / 36P / 黑白漫畫 — NT 300\n- 當日 零錢自備 推薦 (50元 尾數 多)\n- 出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)",
     "tags": {
+      "super-kaguya": true,
       "original": true,
       "avemujica": true,
-      "bocchi-rock": true
+      "bocchi-rock": true,
+      "manga": true
     },
     "warnings": [],
     "cover_urls": [
@@ -11170,9 +11175,14 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/shu_pong203",
     "area": "綜合",
-    "body": "- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica",
+    "body": "## 📝 IF7 出展重點\n\n- **無料 新刊** 『Then and Now』 — 超時空輝耀姬 (冰的紅茶) — 全年齡 / 8P / 黑白漫畫 — **無料**\n- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica\n\n出處: [超かぐや姫 同人誌 catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/)",
     "tags": {
-      "vocaloid": true
+      "super-kaguya": true,
+      "vocaloid": true,
+      "mygo": true,
+      "avemujica": true,
+      "manga": true,
+      "free": true
     },
     "warnings": [],
     "cover_urls": [],
@@ -12181,8 +12191,14 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/cherryblossomfactory",
     "area": "綜合",
-    "body": "- 魔法少女ノ魔女裁判\n- 少女☆歌劇 Revue Starlight\n- BanG Dream! It's MyGO!!!!!/Ave Mujica",
-    "tags": {},
+    "body": "## 📝 IF7 出展重點\n\n- **新刊** 『月之蘆葦』 — 超時空輝耀姬 · 七七七 — 全年齡 / 50P / 約 15,000 字 — NT 150\n- 魔法少女ノ魔女裁判\n- 少女☆歌劇 Revue Starlight\n- BanG Dream! It's MyGO!!!!!/Ave Mujica\n\n出處: [超かぐや姫 同人誌 catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/)",
+    "tags": {
+      "super-kaguya": true,
+      "rev-girl": true,
+      "mygo": true,
+      "avemujica": true,
+      "novel": true
+    },
     "warnings": [],
     "cover_urls": [],
     "socials": [
