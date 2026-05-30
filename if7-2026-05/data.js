@@ -11175,17 +11175,24 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.plurk.com/shu_pong203",
     "area": "綜合",
-    "body": "## 📝 IF7 出展重點\n\n- **無料 新刊** 『Then and Now』 — 超時空輝耀姬 (冰的紅茶) — 全年齡 / 8P / 黑白漫畫 — **無料**\n- 魔法少女ノ魔女裁判\n- BanG Dream! MyGO/Ave Mujica\n\n出處: [超かぐや姫 同人誌 catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/)",
+    "body": "## 📝 IF7 出展重點\n\nU-01 激凍冰的紅茶 (小百翁附近、 専區外連攤)\n\n**新刊**:\n- 🆕 『Mellow Mellow 未來式』 — 魔女裁判 · 希羅艾瑪 ＋ 奈葉香本 — A5 / 20P / 咖啡廳 paro — NT 120 (特典貼紙付き)\n- 🆕 『輝耀姬 無料漫畫』 (= **Then and Now**) — 超時空輝耀姬 (冰的紅茶) — A5 / 8P / 彩雷雙 P 紙 — **Free**\n\n**既刊**:\n- 漫畫 A5/12P — NT 100\n- 「表禮淫」— NT 50\n- 「等卯被打掉」 8P — NT 30\n- 全新貼紙 — NT 50/套\n\n**無料**: 明信片、 燈希 無料明信片\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq1o69rzu)",
     "tags": {
       "super-kaguya": true,
       "vocaloid": true,
       "mygo": true,
       "avemujica": true,
       "manga": true,
-      "free": true
+      "free": true,
+      "goods": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.plurk.com/p/3iq1o69rzu",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-01/plurk-3iq1o69rzu/0.png",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "plurk",
@@ -12191,16 +12198,29 @@ window.BOOTHS = [
     "x_handle": "",
     "x_url": "https://www.facebook.com/cherryblossomfactory",
     "area": "綜合",
-    "body": "## 📝 IF7 出展重點\n\n- **新刊** 『月之蘆葦』 — 超時空輝耀姬 · 七七七 — 全年齡 / 50P / 約 15,000 字 — NT 150\n- 魔法少女ノ魔女裁判\n- 少女☆歌劇 Revue Starlight\n- BanG Dream! It's MyGO!!!!!/Ave Mujica\n\n出處: [超かぐや姫 同人誌 catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/)",
+    "body": "## 📝 IF7 出展重點\n\nU-35/U-36 詠櫻堂\n\n**新刊**:\n- 🆕 **『月之蘆葦』** — 超時空輝耀姬 · 蘆花輝耀×敗北女主 — 40P / 1.5 萬字 / NT 150\n\n**既刊**:\n- 『無法飛翔的魔女』 — 魔女裁判 · 雪初中心×職場百合 — 102P / 3.6 萬字 / NT 250\n- 『戀愛與選舉與魔女裁判』 — 魔女裁判 · 艾瑪希羅×校園戀愛 — 80P / 3.0 萬字 / NT 250\n\n出處: [FB 品書](https://www.facebook.com/share/p/17VULXiTDR/) / [超かぐや姫 同人誌 catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/)",
     "tags": {
       "super-kaguya": true,
-      "rev-girl": true,
-      "mygo": true,
-      "avemujica": true,
       "novel": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/17VULXiTDR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-35_36/share-17VULXiTDR/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/17VULXiTDR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-35_36/share-17VULXiTDR/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/17VULXiTDR/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-35_36/share-17VULXiTDR/2.jpg",
+        "display_locked": false
+      }
+    ],
     "socials": [
       {
         "platform": "fb",
