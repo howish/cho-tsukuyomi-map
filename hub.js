@@ -56,11 +56,19 @@
   }
 
   function eventCard(e) {
-    const link = el('a', {
-      class: 'event-card status-' + (e.status || 'unknown'),
-      href: e.slug + '/',
-    });
-    link.appendChild(el('div', { class: 'event-icon' }, e.icon || '🎪'));
+    // If guide_slug exists, the card is a link to <slug>/ (full guide built).
+    // Otherwise (just-listed upcoming events without a guide yet), render
+    // as a non-link div with the official site as primary CTA.
+    const hasGuide = !!e.slug && !e.no_guide;
+    const card = hasGuide
+      ? el('a', {
+          class: 'event-card status-' + (e.status || 'unknown'),
+          href: e.slug + '/',
+        })
+      : el('div', {
+          class: 'event-card status-' + (e.status || 'unknown') + ' no-guide',
+        });
+    card.appendChild(el('div', { class: 'event-icon' }, e.icon || '🎪'));
     const body = el('div', { class: 'event-body' });
     body.appendChild(el('div', { class: 'event-name' }, e.name));
     if (e.fandom) {
@@ -73,6 +81,9 @@
     if (e.summary) {
       body.appendChild(el('div', { class: 'event-summary' }, e.summary));
     }
+    if (!hasGuide) {
+      body.appendChild(el('div', { class: 'event-no-guide-note' }, '📝 ガイドはまだ作成されていません'));
+    }
     if (e.official_url) {
       const ext = el('div', { class: 'event-official' });
       ext.appendChild(el('a', {
@@ -81,7 +92,7 @@
       }, '🔗 ' + (e.official_label || '公式サイト')));
       body.appendChild(ext);
     }
-    link.appendChild(body);
-    return link;
+    card.appendChild(body);
+    return card;
   }
 })();

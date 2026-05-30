@@ -91,6 +91,22 @@ h2 {
   border-left-color: #d32f2f;
 }
 
+.event-card.no-guide {
+  cursor: default;
+  background: #f9f7f2;
+}
+.event-card.no-guide:hover {
+  transform: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.event-no-guide-note {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
 .event-icon {
   font-size: 2.4rem;
   flex: 0 0 auto;

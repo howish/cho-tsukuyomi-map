@@ -1,5 +1,5 @@
 {
-  "$comment": "List of events hosted on this hub. Each entry corresponds to a sub-directory containing event.js / filters.js / data.js / etc.",
+  "$comment": "List of events on this hub. Entries with `slug` link to /<slug>/ for the full guide; entries without `slug` (or with `no_guide:true`) are info-only — listed for visibility but no internal guide built.",
   "events": [
     {
       "slug": "cho-tsukuyomi-2026-05",
@@ -14,6 +14,71 @@
       "official_label": "超ツクヨミ祭公式",
       "icon": "🌙",
       "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。"
+    },
+    {
+      "name": "プリケット2 (ヤオヨロー！)",
+      "short_name": "プリケット2",
+      "date": "2026-06-07",
+      "date_display": "2026/06/07 (日)",
+      "venue": "大田区産業プラザPiO 1F 大展示ホール",
+      "fandom": "超かぐや姫！ (集合 only — スプラトゥーン/ホロライブ/耳キャラ/川上稔作品 と同会場)",
+      "status": "upcoming",
+      "official_url": "https://www.ketcom.com/",
+      "official_label": "ケットコム",
+      "icon": "🌙",
+      "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列に超かぐや姫サークル集中配置。"
+    },
+    {
+      "name": "ツクヨミスクエア 第1回",
+      "short_name": "ツクスク 1",
+      "date": "2026-06-21",
+      "date_display": "2026/06/21 (日)",
+      "venue": "大田区産業プラザPiO",
+      "fandom": "超かぐや姫！ 百合 オンリー",
+      "status": "upcoming",
+      "official_url": "https://glfes.com/",
+      "official_label": "GLFes (主催)",
+      "icon": "🌙",
+      "summary": "超かぐや姫！百合 オンリー 同人誌即売会。 GLFes 主催。 第2回 9/23 都産貿浜松町館 / 第3回 11/22 大阪産業創造館 予定。"
+    },
+    {
+      "name": "パンケーキ食べたい！ #ぱんたべ",
+      "short_name": "ぱんたべ",
+      "date": "2026-07-26",
+      "date_display": "2026/07/26 (土)",
+      "venue": "大阪市内 (会場最終調整中)",
+      "fandom": "超かぐや姫！",
+      "status": "upcoming",
+      "official_url": "https://x.com/pantabe168",
+      "official_label": "@pantabe168 (準備会)",
+      "icon": "🥞",
+      "summary": "超かぐや姫！オンリー同人誌即売会 in 大阪 (単独開催)。 会場詳細は準備会発表待ち。"
+    },
+    {
+      "name": "ツクヨミスクエア 第2回",
+      "short_name": "ツクスク 2",
+      "date": "2026-09-23",
+      "date_display": "2026/09/23 (祝・水)",
+      "venue": "都産貿浜松町館",
+      "fandom": "超かぐや姫！ 百合 オンリー",
+      "status": "upcoming",
+      "official_url": "https://glfes.com/",
+      "official_label": "GLFes (主催)",
+      "icon": "🌙",
+      "summary": "超かぐや姫！百合 オンリー 第2回。"
+    },
+    {
+      "name": "ツクヨミスクエア 第3回",
+      "short_name": "ツクスク 3",
+      "date": "2026-11-22",
+      "date_display": "2026/11/22 (日)",
+      "venue": "大阪産業創造館",
+      "fandom": "超かぐや姫！ 百合 オンリー",
+      "status": "upcoming",
+      "official_url": "https://glfes.com/",
+      "official_label": "GLFes (主催)",
+      "icon": "🌙",
+      "summary": "超かぐや姫！百合 オンリー 第3回 (関西初開催)。"
     },
     {
       "slug": "if7-2026-05",
