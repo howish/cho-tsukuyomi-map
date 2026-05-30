@@ -7116,8 +7116,8 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/share/p/198smAY9oP/",
-        "display_url": null,
-        "display_locked": false
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-05_06/share-198smAY9oP/0.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -9427,8 +9427,8 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/share/p/1DFLVRfzHG/",
-        "display_url": null,
-        "display_locked": false
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-11/share-1DFLVRfzHG/0.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
@@ -9819,17 +9819,19 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/kun.salamander.3/"
       }
     ],
-    "body": "## 📝 CH19 出展重點\n- 新刊[「喝酒女同新刊」](https://www.facebook.com/share/p/1CjXUyhmK2/) (拯救學姊 即將完成)",
+    "body": "## 📝 IF7 出展重點\n\nT-21/22 台北人 (Ave Mujica)\n\n**新刊** NT 150 各:\n- 「わたしに合法的に酔いませんか」 — Ave Mujica · 祥子 — A5 / 20P / 黑白\n- 「Ave MuChicken 2」 — Ave Mujica · 祥子×十川 — A5 / 20P / 黑白\n\n**委託 (fataaa)**:\n- 「心服口服」 — A5 / 20P — NT 200\n- 「信我一次」 — A5 / 12P — NT 100\n\n**既刊**: 徹宵 / ハロいさき / AveMuChicken (vol.1) / 白日一夜 / 多刊\n\n**會場限定**: 色紙\n\n出處: [FB 品書](https://www.facebook.com/share/p/1BgAs83PnA/)",
     "tags": {
       "mygo": true,
-      "avemujica": true
+      "avemujica": true,
+      "manga": true,
+      "consign": true
     },
     "warnings": [],
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/share/p/1BgAs83PnA/",
-        "display_url": null,
-        "display_locked": false
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/share-1BgAs83PnA/0.jpg",
+        "display_locked": true
       }
     ],
     "_meta_scrape": {
