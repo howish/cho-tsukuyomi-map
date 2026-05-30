@@ -8693,7 +8693,7 @@ window.BOOTHS = [
         "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
       }
     ],
-    "body": "- FLOWERS (Innocent Grey)\n\n## 📝 IF7 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **輝耀姬新刊 完售** (作者 [Plurk update](https://www.plurk.com/p/p357532051202938))",
+    "body": "- FLOWERS (Innocent Grey)\n\n## 📝 IF7 出展重點\n- 新刊 [**『越過八千年個夜晚』**](https://www.facebook.com/share/p/1Gv773LkRC/) (超時空輝耀姬、 玥炭 [S-39] 寄攤) ＋ 無料 2 種 ＋ 既刊 6 (FLOWERS / 少女歌劇 / 莉可麗絲 / 百合)\n- 認親卡 交換歡迎\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **輝耀姬新刊 完售** (作者 [Plurk update](https://www.plurk.com/p/3iqfyg2yka))",
     "tags": {
       "super-kaguya": true,
       "lycoris": true,
@@ -10310,7 +10310,7 @@ window.BOOTHS = [
         "url": "https://www.pixiv.net/member.php?id=130351"
       }
     ],
-    "body": "## 📝 IF7 出展重點\n\n**新刊 / 新品**:\n- 「Stairs&Stairs Closet」 — 東方 · 蕾米莉亞 — B5 / 2P 彩＋12P 黑白 / NT 100 (限定: 隨書送手繪杯墊 ×1，非加販會限定)\n- 「直筆色紙」 — 多主題、 多尺寸 — 迷你 NT 300 起 ／ 中 NT 500 起 ／ 大 NT 1500 起 (現場挑選)\n- 「新月透明收納盒」 — A5 / 約 22×16×5.5cm / NT 200 (可收 A5 本＋明信片＋小物)\n- 「鋼管公主小說」 — NT 100\n\n**無料小報** (各 A5 / 2P):\n- 鋼管公主\n- 超時空輝耀姬\n\n**消費禮**: 帶留檔案的 KEI 本＋貼紙\n\n**既刊**: 東方 ／ 少女前線 ／ 鋼管公主 ／ 戰姬絕唱シンフォギア 等\n\n出處: [Plurk 宣傳](https://www.plurk.com/p/3iqc24eb8g)\n\n安奈Anna (105 件 doujin 的長期作家)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 自家通販 update (布穀町 + IF7 場後)、 [Plurk announce](https://www.plurk.com/p/p357535638358798)",
+    "body": "## 📝 IF7 出展重點\n\n**新刊 / 新品**:\n- 「Stairs&Stairs Closet」 — 東方 · 蕾米莉亞 — B5 / 2P 彩＋12P 黑白 / NT 100 (限定: 隨書送手繪杯墊 ×1，非加販會限定)\n- 「直筆色紙」 — 多主題、 多尺寸 — 迷你 NT 300 起 ／ 中 NT 500 起 ／ 大 NT 1500 起 (現場挑選)\n- 「新月透明收納盒」 — A5 / 約 22×16×5.5cm / NT 200 (可收 A5 本＋明信片＋小物)\n- 「鋼管公主小說」 — NT 100\n\n**無料小報** (各 A5 / 2P):\n- 鋼管公主\n- 超時空輝耀姬\n\n**消費禮**: 帶留檔案的 KEI 本＋貼紙\n\n**既刊**: 東方 ／ 少女前線 ／ 鋼管公主 ／ 戰姬絕唱シンフォギア 等\n\n出處: [Plurk 宣傳](https://www.plurk.com/p/3iqc24eb8g)\n\n安奈Anna (105 件 doujin 的長期作家)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 自家通販 update (布穀町 + IF7 場後)、 [Plurk announce](https://www.plurk.com/p/3iqhlrs5qm)",
     "tags": {
       "super-kaguya": true,
       "touhou": true,
@@ -11027,7 +11027,7 @@ window.BOOTHS = [
         "url": "https://x.com/haneko0417"
       }
     ],
-    "body": "## 📝 IF7 出展重點\n\n**新品**:\n- 「彩葉輝耀虹光立牌」 — 超時空輝耀姬 · 彩葉×輝耀 — 8cm 單面 / 彩虹電射板材 — NT 150/個\n- 「彩葉輝耀狐兔壓克力飯友組」 — 超時空輝耀姬 · 彩葉×輝耀 — 5cm 雙面印刷 / 凱粉殘酷彩雷 — NT 200/組 (合售不拆)\n- 「魔法少女的魔女審判 虹光壓克力立牌」 — 魔審 · 雪莉艾莉／雪莉漢娜 — 7cm 單面 / 彩虹電射板材 — NT 150/個\n- 「雪莉漢娜犬貓搖尾巴吊飾」 — 魔審 — 7+3cm 無邊雙面 / 尾巴可擺動 — NT 150/組\n- 「雪莉漢娜犬貓4.4小腦章組」 — 魔審 — 4.4cm 星砂膜 — NT 50/組 (合售不拆)\n- 「雪莉漢娜犬兔獸獸飯友組」 — 魔審 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n- 「紅龍壓克力飯友組」 — 崩壞3rd · 橘版／紫版魂金頭紅龍 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n\n**新刊**: 崩壞3 web 再錄塗鴉集 (布洛妮婭／白希黑希／紺海三角)、徽章組首賣＋復刻搖尾吊飾\n\n**寄攤**: 風嶺 魔審 小動物搖尾巴吊飾 — 6cm 彩色 — NT 150/組 (4 款分別拆售)\n\n**既刊**: 明日方舟 紅龍姐妹飯友組／崩鐵\n\n💡 開場時段不收大鈔、 請備零錢 ／ 全品項少量、 早來攤位佳\n⚠️ 《超時空輝耀姬》相關周邊於 二創規範發布前印製、 售完不加印 ／ 場後若有餘量會開通販\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq2yu8lsy)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 **場後餘量通販 開始** — [翼之影-通販賣場](https://www.plurk.com/p/p357535648057406)\n- ⚠️ **超時空輝耀姬 虹彩立牌＋飯友組** 是二創規範公告前下印的份、 **售完不加印** — 早めの行動推奨",
+    "body": "## 📝 IF7 出展重點\n\n**新品**:\n- 「彩葉輝耀虹光立牌」 — 超時空輝耀姬 · 彩葉×輝耀 — 8cm 單面 / 彩虹電射板材 — NT 150/個\n- 「彩葉輝耀狐兔壓克力飯友組」 — 超時空輝耀姬 · 彩葉×輝耀 — 5cm 雙面印刷 / 凱粉殘酷彩雷 — NT 200/組 (合售不拆)\n- 「魔法少女的魔女審判 虹光壓克力立牌」 — 魔審 · 雪莉艾莉／雪莉漢娜 — 7cm 單面 / 彩虹電射板材 — NT 150/個\n- 「雪莉漢娜犬貓搖尾巴吊飾」 — 魔審 — 7+3cm 無邊雙面 / 尾巴可擺動 — NT 150/組\n- 「雪莉漢娜犬貓4.4小腦章組」 — 魔審 — 4.4cm 星砂膜 — NT 50/組 (合售不拆)\n- 「雪莉漢娜犬兔獸獸飯友組」 — 魔審 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n- 「紅龍壓克力飯友組」 — 崩壞3rd · 橘版／紫版魂金頭紅龍 — 5cm 雙面印刷 — NT 200/組 (合售不拆)\n\n**新刊**: 崩壞3 web 再錄塗鴉集 (布洛妮婭／白希黑希／紺海三角)、徽章組首賣＋復刻搖尾吊飾\n\n**寄攤**: 風嶺 魔審 小動物搖尾巴吊飾 — 6cm 彩色 — NT 150/組 (4 款分別拆售)\n\n**既刊**: 明日方舟 紅龍姐妹飯友組／崩鐵\n\n💡 開場時段不收大鈔、 請備零錢 ／ 全品項少量、 早來攤位佳\n⚠️ 《超時空輝耀姬》相關周邊於 二創規範發布前印製、 售完不加印 ／ 場後若有餘量會開通販\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq2yu8lsy)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 **場後餘量通販 開始** — [翼之影-通販賣場](https://www.plurk.com/p/3iqhlxk18e)\n- ⚠️ **超時空輝耀姬 虹彩立牌＋飯友組** 是二創規範公告前下印的份、 **售完不加印** — 早めの行動推奨",
     "tags": {
       "super-kaguya": true,
       "hsr": true,
@@ -11993,7 +11993,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.plurk.com/choco6644",
-    "body": "\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **完售** — 印量抓太少 ([Plurk](https://www.plurk.com/p/p357532006583079))",
+    "body": "\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **完售** — 印量抓太少 ([Plurk](https://www.plurk.com/p/3iqfxpilnr))",
     "tags": {
       "super-kaguya": true
     },
