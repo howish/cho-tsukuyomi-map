@@ -18,7 +18,7 @@
 // next activate (the activate handler deletes any cache whose name doesn't
 // match CACHE_NAME). Increment whenever the shell schema changes in a way
 // that the old cache would obscure (e.g. new map_image field, renamed JS).
-const CACHE_NAME = 'event-cache-v4';
+const CACHE_NAME = 'event-cache-v5';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
