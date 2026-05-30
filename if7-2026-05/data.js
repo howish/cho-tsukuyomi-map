@@ -391,12 +391,58 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
-    "body": "",
+    "body": "## 📝 IF7 出展重點\n\nJ-21 月亮代表我的心\n\n品書 ([FB post](https://www.facebook.com/share/p/1DDHWMRYYC/))",
     "tags": {
-      "super-kaguya": true
+      "super-kaguya": true,
+      "r18": true
     },
     "warnings": [],
     "cover_urls": [
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/1.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/2.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/3.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/6.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/8.jpg",
+        "display_locked": false
+      },
       {
         "source_url": "https://www.facebook.com/share/p/1LH7iVhZnv/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1LH7iVhZnv/0.jpg",
