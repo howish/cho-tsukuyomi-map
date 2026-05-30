@@ -1485,7 +1485,31 @@
     const wrap = viewport && viewport.querySelector('.map-overlay-wrap');
     const resetBtn = document.getElementById('map-zoom-reset');
     const hint = document.getElementById('map-zoom-hint');
+    const fsBtn = document.getElementById('map-fullscreen-btn');
     if (!viewport || !wrap) return;
+
+    // Fullscreen toggle — pseudo-fullscreen via CSS (works on iOS Safari
+    // too, unlike the browser Fullscreen API which has quirks on mobile).
+    if (fsBtn) {
+      const exitOnEsc = (e) => {
+        if (e.key === 'Escape' && viewport.classList.contains('fullscreen')) {
+          toggleFullscreen(false);
+        }
+      };
+      function toggleFullscreen(on) {
+        const next = on !== undefined ? on : !viewport.classList.contains('fullscreen');
+        viewport.classList.toggle('fullscreen', next);
+        fsBtn.textContent = next ? '✕' : '⛶';
+        fsBtn.setAttribute('aria-label', next ? '全画面を閉じる / Exit fullscreen' : '全画面 / Fullscreen');
+        document.body.style.overflow = next ? 'hidden' : '';
+        if (next) document.addEventListener('keydown', exitOnEsc);
+        else document.removeEventListener('keydown', exitOnEsc);
+        // Recenter the zoomed transform after the viewport size changed.
+        setTimeout(() => { try { clampPan(); apply(); } catch (e) {} }, 50);
+      }
+      fsBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleFullscreen(); });
+    }
+
     const MIN_SCALE = 1, MAX_SCALE = 6, EPS = 0.005;
     const z = { scale: 1, tx: 0, ty: 0 };
 
