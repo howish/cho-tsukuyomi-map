@@ -287,73 +287,62 @@ with sync_playwright() as p:
 
 
 def scrape_fb_share(code: str, tmpdir: Path, cookies: Path):
-    """FB share posts — try photo-viewer ArrowRight walk (richest), fall
-    back to fb-scraper stdlib path if no album seed link exists.
-    Returns list of local file paths (full-res ordered by album)."""
-    helper = tmpdir / f'fb_walk_{code}.py'
-    helper.write_text(f'''
-from playwright.sync_api import sync_playwright
-from http.cookiejar import MozillaCookieJar
-import urllib.request, json, re, os
+    """FB share posts via fb_album_walk3 (canonical path).
 
-jar = MozillaCookieJar(r"{cookies}")
-jar.load(ignore_discard=True, ignore_expires=True)
-pw_cookies = [{{"name": c.name, "value": c.value or "", "domain": c.domain, "path": c.path or "/"}} for c in jar]
-out_dir = r"{tmpdir}/fb-{code}"
-os.makedirs(out_dir, exist_ok=True)
-files = []
-with sync_playwright() as pw:
-    browser = pw.chromium.launch(headless=True)
-    ctx = browser.new_context(user_agent="Mozilla/5.0 Chrome/131", viewport={{"width":1280,"height":1024}})
-    ctx.add_cookies(pw_cookies)
-    page = ctx.new_page()
-    page.goto(f"https://www.facebook.com/share/p/{code}/", wait_until="domcontentloaded", timeout=25000)
-    page.wait_for_timeout(3500)
-    seed = page.evaluate("""() => {{
-        for (const a of document.querySelectorAll('a[href*=\\"/photo/\\"]')) {{
-            const m = (a.href||'').match(/fbid=(\\\\d+).*pcb\\\\.(\\\\d+)/);
-            if (m) return {{fbid: m[1], pcb: m[2]}};
-        }}
-        return null;
-    }}""")
-    if seed:
-        page.goto(f"https://www.facebook.com/photo/?fbid={{seed['fbid']}}&set=pcb.{{seed['pcb']}}",
-                  wait_until="domcontentloaded", timeout=20000)
-        page.wait_for_timeout(2500)
-        album = {{}}
-        for step in range(15):
-            url = page.url
-            m = re.search(r"fbid=(\\d+)", url)
-            if not m: break
-            cur = m.group(1)
-            if cur in album: break
-            img = page.evaluate("""() => {{
-                const c = [];
-                document.querySelectorAll('img').forEach(img => {{
-                    const s = img.src || '';
-                    if (!/scontent.*fbcdn.*t39\\\\.30808-6/.test(s)) return;
-                    c.push({{u: s, area: (img.naturalWidth||0) * (img.naturalHeight||0)}});
-                }});
-                c.sort((a,b) => b.area - a.area);
-                return c[0]?.u || null;
-            }}""")
-            album[cur] = img
-            page.keyboard.press("ArrowRight"); page.wait_for_timeout(1800)
-        for i, (fbid, url) in enumerate(album.items()):
-            if not url: continue
-            try:
-                d = urllib.request.urlopen(urllib.request.Request(url, headers={{"User-Agent":"Mozilla/5.0"}}), timeout=25).read()
-                fn = f"{{out_dir}}/{{i}}.jpg"; open(fn,"wb").write(d); files.append(fn)
-            except Exception as e: pass
-    browser.close()
-print(json.dumps(files))
-''')
-    o = subprocess.run([str(SKILLS / 'playwright-runtime/bin/python'), str(helper)],
-                       capture_output=True, timeout=180)
+    Calls ~/.claude/skills/fb-scraper/scripts/fb_album_walk3.py which:
+      - Navigates share/p/<code> → captures redirect to story.php?story_fbid=N
+      - Finds the pcb.<story_fbid> anchor and clicks (the canonical multi-image
+        carousel marker) — this guarantees we open THIS post's viewer, not
+        a sidebar/related-post image
+      - ArrowRight walks, dedupes by photo_id from t39 URLs
+
+    If no pcb anchor (single-image post), returns empty → caller falls back
+    to og:image (or, in practice, gets display_url=None for caller to fill).
+
+    Returns list of local file paths (full-res, in album order).
+    """
+    walker = SKILLS / 'fb-scraper/scripts/fb_album_walk3.py'
+    share_url = f'https://www.facebook.com/share/p/{code}/'
+    o = subprocess.run(
+        [str(SKILLS / 'playwright-runtime/bin/python'), str(walker), share_url, str(cookies)],
+        capture_output=True, timeout=180,
+    )
     try:
-        return [Path(p) for p in json.loads(o.stdout.decode())]
-    except Exception:
+        d = json.loads(o.stdout.decode())
+    except Exception as e:
+        print(f'  [fb share {code}] walk parse fail: {e}', file=sys.stderr)
         return []
+    urls = d.get('photos', []) or []
+    # Single-image posts have no pcb anchor → walker returns empty.
+    # Fall back to og:image fetched via the FB crawler UA (anon-accessible
+    # because FB itself needs to serve previews to external link unfurlers).
+    if not urls:
+        try:
+            html = urllib.request.urlopen(
+                urllib.request.Request(share_url, headers={'User-Agent': 'facebookexternalhit/1.1'}),
+                timeout=20,
+            ).read().decode('utf-8', errors='ignore')
+            m = re.search(r'property="og:image"\s+content="([^"]+)"', html)
+            if m:
+                og = m.group(1).replace('&amp;', '&')
+                urls = [og]
+                print(f'  [fb share {code}] no album, using og:image fallback', file=sys.stderr)
+        except Exception as e:
+            print(f'  [fb share {code}] og:image fallback fail: {e}', file=sys.stderr)
+    files = []
+    out_dir = tmpdir / f'fb-{code}'
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for i, u in enumerate(urls):
+        try:
+            data = urllib.request.urlopen(
+                urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0'}), timeout=30
+            ).read()
+            fn = out_dir / f'{i}.jpg'
+            fn.write_bytes(data)
+            files.append(fn)
+        except Exception as e:
+            print(f'  [fb share {code}-{i}] download fail: {e}', file=sys.stderr)
+    return files
 
 
 def scrape_bsky_post(handle: str, code: str, tmpdir: Path):
