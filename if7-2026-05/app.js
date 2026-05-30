@@ -1447,16 +1447,21 @@
       dismissMapPopup();
     });
     // Whole popup body click → open the booth detail modal.
+    // If the map is in fullscreen, exit first — otherwise the modal opens
+    // behind the z-index 9999 fullscreen overlay and looks like nothing
+    // happened.
     popup.addEventListener('click', () => {
       const id = boothId;
       dismissMapPopup();
+      const viewport = document.getElementById('map-zoom-viewport');
+      if (viewport && viewport.classList.contains('fullscreen')) {
+        const fsBtn = document.getElementById('map-fullscreen-btn');
+        if (fsBtn) fsBtn.click();
+      }
       openBoothDetail(id);
     });
   }
   // Click delegation on the SVG (capture-target rects only).
-  // Booth tap → straight to detail modal (the popup was an interstitial that
-  // doubled the taps required at the venue). If the map is in fullscreen,
-  // exit it first so the modal isn't trapped behind the dark overlay.
   const _mapSvg = document.getElementById('venue-map-overlay');
   if (_mapSvg) {
     _mapSvg.addEventListener('click', (e) => {
@@ -1465,14 +1470,7 @@
       const id = tgt.getAttribute('data-booth-id');
       if (!id) return;
       e.stopPropagation();
-      dismissMapPopup();
-      // If fullscreen, exit before opening modal so the modal stacks above.
-      const viewport = document.getElementById('map-zoom-viewport');
-      if (viewport && viewport.classList.contains('fullscreen')) {
-        const fsBtn = document.getElementById('map-fullscreen-btn');
-        if (fsBtn) fsBtn.click();
-      }
-      openBoothDetail(id);
+      showMapPopup(id, e);
     });
   }
   // Outside-click dismiss (skip when click is on the popup itself or a click-target).
