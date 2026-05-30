@@ -24,7 +24,7 @@ window.I18N_STRINGS = {
     // attendees, used as a second source for items / prices / CPs.
     community_credit_html_prefix: '🤝 一部サークル情報は コミュニティ共筆 ',
     community_credit_html_link_label: '2026 IF 創集繪百合主題 吃土單',
-    community_credit_html_suffix: ' を参照しています。 community 編集 sheet のため作家本人入力の保証なし — 正確性は最終的に作家本人の SNS / 当日 booth で確認お願いします。',
+    community_credit_html_suffix: ' を参照しています (主に CH19 百合 ONLY 専區)。 IF7 全 555 攤位は <a href="https://if.gjs.tw/circle-list.html" target="_blank" rel="noopener">IF7 公式 circle-list</a> から import。 community 編集 sheet のため作家本人入力の保証なし — 正確性は最終的に作家本人の SNS / 当日 booth で確認お願いします。',
 
     // Footer
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
@@ -190,7 +190,7 @@ window.I18N_STRINGS = {
 
     community_credit_html_prefix: '🤝 部分攤位資訊參考自社群共筆 ',
     community_credit_html_link_label: '2026 IF 創集繪百合主題 吃土單',
-    community_credit_html_suffix: '。此為開放編輯試算表，無法保證作者本人輸入，最終正確性請以作者 SNS 或現場攤位資訊為準。',
+    community_credit_html_suffix: ' (主要為 CH19 百合 ONLY 専區)。 IF7 全 555 攤位則從 <a href="https://if.gjs.tw/circle-list.html" target="_blank" rel="noopener">IF7 官方 circle-list</a> 匯入。 此為開放編輯試算表，無法保證作者本人輸入，最終正確性請以作者 SNS 或現場攤位資訊為準。',
 
     footer_built_by_html: 'Built by <a href="{url}" target="_blank" rel="noopener">{label}</a>',
     footer_build_date: '／{date}',
