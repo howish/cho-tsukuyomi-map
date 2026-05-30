@@ -299,6 +299,47 @@
     return a.booth_id.localeCompare(b.booth_id);
   });
 
+  // Compute warnings into [code, label, sourceUrl?] tuples at load time so
+  // the render code can iterate uniformly. data.js stores warnings as
+  // bare strings (e.g. "soldout") OR tuples (legacy); FILTERS_CONFIG.warnings
+  // also has a `pattern` regex that can auto-detect warnings from body text.
+  // - Explicit string "soldout" → [code, label] from FILTERS lookup
+  // - Body matches `pattern` → auto-add (if not already present)
+  (function computeBoothWarnings() {
+    const warningDefs = (FILTERS.warnings || []);
+    const byCode = {};
+    warningDefs.forEach(w => { byCode[w.code] = w; });
+    for (const b of booths) {
+      const existing = b.warnings || [];
+      const out = [];
+      const seen = new Set();
+      // Carry forward explicit warnings (string or tuple)
+      for (const w of existing) {
+        if (Array.isArray(w)) {
+          // legacy tuple — pass through
+          const code = w[0];
+          if (!seen.has(code)) { seen.add(code); out.push(w); }
+        } else if (typeof w === 'string') {
+          const def = byCode[w];
+          if (def && !seen.has(w)) {
+            seen.add(w);
+            out.push([w, def.label]);
+          }
+        }
+      }
+      // Auto-detect from body via FILTERS.warnings[].pattern
+      const body = b.body || '';
+      for (const def of warningDefs) {
+        if (!def.pattern || seen.has(def.code)) continue;
+        if (new RegExp(def.pattern, 'i').test(body)) {
+          seen.add(def.code);
+          out.push([def.code, def.label]);
+        }
+      }
+      b.warnings = out;
+    }
+  })();
+
   function el(tag, attrs, children) {
     const e = document.createElement(tag);
     if (attrs) for (const k in attrs) {
