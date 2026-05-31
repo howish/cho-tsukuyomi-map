@@ -85,7 +85,27 @@
   }
 
   let allCircles = [];
-  let currentFilter = 'all';
+  // Filter state: only one base filter active, multiple event/platform filters AND-combined
+  let baseFilter = 'all';
+  const eventFilters = new Set();     // selected event slugs (subset)
+  const platformFilters = new Set();  // selected platforms (subset)
+
+  function passesFilters(c) {
+    // Base filter
+    if (baseFilter === 'multi' && c.events.length < 2) return false;
+    if (baseFilter === 'no-handle' && c.x_handle) return false;
+    // Event filter: circle must be in AT LEAST ONE selected event
+    if (eventFilters.size > 0) {
+      const inSelected = (c.events || []).some(e => eventFilters.has(e.slug));
+      if (!inSelected) return false;
+    }
+    // Platform filter: circle must have AT LEAST ONE social on a selected platform
+    if (platformFilters.size > 0) {
+      const hasPlat = (c.socials || []).some(s => platformFilters.has(s.platform));
+      if (!hasPlat) return false;
+    }
+    return true;
+  }
 
   function applyFilter() {
     const q = (document.getElementById('circles-search').value || '').trim().toLowerCase();
@@ -93,10 +113,11 @@
     list.innerHTML = '';
     let count = 0;
     for (const c of allCircles) {
-      if (currentFilter === 'multi' && c.events.length < 2) continue;
+      if (!passesFilters(c)) continue;
       if (q) {
         const blob = [c.circle_name, c.author, c.x_handle,
-                      ...(c.events || []).map(e => e.name)]
+                      ...(c.events || []).map(e => e.name),
+                      ...(c.socials || []).map(s => s.handle)]
           .join(' ').toLowerCase();
         if (!blob.includes(q)) continue;
       }
@@ -111,12 +132,77 @@
     stats.textContent = `${count.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
   }
 
+  function buildEventFilters() {
+    // collect (slug, name) from all circle events, count occurrences
+    const counts = new Map();
+    for (const c of allCircles) {
+      const seen = new Set();  // dedupe per circle (a circle has same event only once typically)
+      for (const e of (c.events || [])) {
+        if (seen.has(e.slug)) continue;
+        seen.add(e.slug);
+        const cur = counts.get(e.slug) || { slug: e.slug, name: e.name, count: 0, date: e.date };
+        cur.count++;
+        counts.set(e.slug, cur);
+      }
+    }
+    const sorted = [...counts.values()].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+    const row = document.getElementById('filter-row-events');
+    sorted.forEach(ev => {
+      const btn = el('button', { class: 'filter-btn', 'data-event': ev.slug },
+        `${ev.name} (${ev.count})`);
+      btn.addEventListener('click', () => {
+        if (eventFilters.has(ev.slug)) {
+          eventFilters.delete(ev.slug);
+          btn.classList.remove('active');
+        } else {
+          eventFilters.add(ev.slug);
+          btn.classList.add('active');
+        }
+        applyFilter();
+      });
+      row.appendChild(btn);
+    });
+  }
+
+  function buildPlatformFilters() {
+    const counts = new Map();
+    for (const c of allCircles) {
+      const seen = new Set();
+      for (const s of (c.socials || [])) {
+        const p = s.platform || 'generic';
+        if (seen.has(p)) continue;
+        seen.add(p);
+        counts.set(p, (counts.get(p) || 0) + 1);
+      }
+    }
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    const row = document.getElementById('filter-row-platforms');
+    sorted.forEach(([p, n]) => {
+      const icon = PLATFORM_ICON[p] || '🔗';
+      const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p },
+        `${icon} ${p} (${n})`);
+      btn.addEventListener('click', () => {
+        if (platformFilters.has(p)) {
+          platformFilters.delete(p);
+          btn.classList.remove('active');
+        } else {
+          platformFilters.add(p);
+          btn.classList.add('active');
+        }
+        applyFilter();
+      });
+      row.appendChild(btn);
+    });
+  }
+
   // ---- bootstrap ----
   const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
   allCircles = sortCircles(Object.values(CIRCLES_BY_ID));
+  buildEventFilters();
+  buildPlatformFilters();
   applyFilter();
 
-  // Wire up search + filters
+  // Wire up search + base filters (multi/no-handle/all)
   const searchInput = document.getElementById('circles-search');
   const searchClear = document.getElementById('circles-search-clear');
   searchInput.addEventListener('input', () => {
@@ -129,11 +215,11 @@
     applyFilter();
     searchInput.focus();
   });
-  document.querySelectorAll('.circles-filter-row .filter-btn').forEach(btn => {
+  document.querySelectorAll('#filter-row-base .filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.circles-filter-row .filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      currentFilter = btn.dataset.filter;
+      baseFilter = btn.dataset.filter;
       applyFilter();
     });
   });
