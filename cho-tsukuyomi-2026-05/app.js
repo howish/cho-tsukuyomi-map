@@ -430,19 +430,22 @@
     body.appendChild(navBar);
 
     body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
-    if (b.author) {
-      body.appendChild(el('div', { class: 'modal-author' }, b.author));
-    }
 
     const meta = el('div', { class: 'modal-meta' });
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
     }
-    if (b.x_handle) {
-      meta.appendChild(el('a', {
-        href: 'https://x.com/' + b.x_handle,
-        target: '_blank', rel: 'noopener', class: 'handle-link',
-      }, '@' + b.x_handle));
+    // Author chip — combines display name + @handle, clickable when x_url present
+    if (b.author || b.x_handle) {
+      const authorLabel = [b.author, b.x_handle ? '@' + b.x_handle : ''].filter(Boolean).join(' ');
+      const chipHref = b.x_url || (b.x_handle ? 'https://x.com/' + b.x_handle : null);
+      if (chipHref) {
+        meta.appendChild(el('a', {
+          href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
+        }, authorLabel));
+      } else {
+        meta.appendChild(el('span', { class: 'author-chip' }, authorLabel));
+      }
     }
     const isFavNow = favs.has(b.booth_id);
     const modalFav = el('button', {
@@ -485,15 +488,8 @@
     meta.appendChild(modalFav);
     body.appendChild(meta);
 
-    if (b.x_url) {
-      // Source platform varies — TW/CN doujin commonly uses Plurk/FB/IG/Threads
-      // instead of X. Detect domain so the "open in X" button reflects reality.
-      const sourceKey = detectSourceType(b.x_url);
-      const sourceName = T('modal_source_' + sourceKey);
-      body.appendChild(el('a', {
-        class: 'x-link', href: b.x_url, target: '_blank', rel: 'noopener'
-      }, T('modal_open_label', { source: sourceName })));
-    }
+    // (Old "X で開く" big button removed — author chip above now exposes the
+    // same link, so the standalone button was redundant.)
 
     // Warning chips inside the modal — each becomes a link to source tweet
     // when a 3rd-element URL is present in the warnings tuple.

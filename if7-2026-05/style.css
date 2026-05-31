@@ -1370,12 +1370,6 @@ section {
   color: var(--accent);
 }
 
-#modal-body .modal-author {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  margin-bottom: 0.8rem;
-}
-
 #modal-body .modal-meta {
   display: flex;
   flex-wrap: wrap;
@@ -1385,6 +1379,7 @@ section {
 }
 
 #modal-body .modal-meta span,
+#modal-body .modal-meta a.author-chip,
 #modal-body .modal-meta a.handle-link,
 #modal-body .modal-meta a.social-chip {
   background: #f3edf7;
@@ -1395,6 +1390,7 @@ section {
   font-weight: 600;
 }
 
+#modal-body .modal-meta a.author-chip:hover,
 #modal-body .modal-meta a.handle-link:hover,
 #modal-body .modal-meta a.social-chip:hover {
   background: var(--accent);

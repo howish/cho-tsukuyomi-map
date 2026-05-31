@@ -546,13 +546,21 @@
     body.appendChild(navBar);
 
     body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
-    if (b.author) {
-      body.appendChild(el('div', { class: 'modal-author' }, b.author));
-    }
 
     const meta = el('div', { class: 'modal-meta' });
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
+    }
+    // Author chip — display name, clickable to x_url when present
+    if (b.author) {
+      const chipHref = b.x_url || (b.x_handle ? 'https://x.com/' + b.x_handle : null);
+      if (chipHref) {
+        meta.appendChild(el('a', {
+          href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
+        }, b.author));
+      } else {
+        meta.appendChild(el('span', { class: 'author-chip' }, b.author));
+      }
     }
     // Build the platform chip set — dedupe by URL host+path so the same
     // link doesn't render twice (e.g. b.x_handle and a socials entry both
