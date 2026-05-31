@@ -196,15 +196,15 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HI1wj0PaYAE-bj0.jpg?name=orig",
+        "source_url": "https://x.com/osatou_kinosu/status/2057424374400205201",
         "display_url": "https://pbs.twimg.com/media/HI1wj0PaYAE-bj0.jpg?name=orig"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig",
+        "source_url": "https://x.com/osatou_kinosu/status/2054555547257667683",
         "display_url": "https://pbs.twimg.com/media/HIM_YNdaIAAbCMw.jpg?name=orig"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HIM_YNcaYAATLAT.jpg?name=orig",
+        "source_url": "https://x.com/osatou_kinosu/status/2054555547257667683",
         "display_url": "https://pbs.twimg.com/media/HIM_YNcaYAATLAT.jpg?name=orig"
       }
     ],
@@ -335,11 +335,11 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HIq-rUDbcAAufqD.jpg?name=orig",
+        "source_url": "https://x.com/syouri_nizi0305/status/2056665849428377742",
         "display_url": "https://pbs.twimg.com/media/HIq-rUDbcAAufqD.jpg?name=orig"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HIMcn2la4AAK_tD.jpg?name=orig",
+        "source_url": "https://x.com/syouri_nizi0305/status/2054517334472307029",
         "display_url": "https://pbs.twimg.com/media/HIMcn2la4AAK_tD.jpg?name=orig"
       }
     ],
@@ -488,7 +488,7 @@ window.BOOTHS = [
     "min_price": 300,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig",
+        "source_url": "https://x.com/ato252058/status/2056327836173226071",
         "display_url": "https://pbs.twimg.com/media/HImLRJ6bIAASNXt.jpg?name=orig"
       }
     ],
@@ -538,7 +538,7 @@ window.BOOTHS = [
     ],
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HI1kRXNbsAAfspk.jpg?name=orig",
+        "source_url": "https://x.com/vinegar_terrier/status/2057412363171893747",
         "display_url": "https://pbs.twimg.com/media/HI1kRXNbsAAfspk.jpg?name=orig"
       }
     ]
@@ -567,7 +567,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig",
+        "source_url": "https://x.com/nb164/status/2057444727642108296",
         "display_url": "https://pbs.twimg.com/media/HI2DEzVaEAACdPx.jpg?name=orig"
       }
     ],
@@ -678,7 +678,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HIp8EcUbAAAtZnO.jpg?name=orig",
+        "source_url": "https://x.com/zuka_misuzu/status/2056592661537288632",
         "display_url": "https://pbs.twimg.com/media/HIp8EcUbAAAtZnO.jpg?name=orig"
       }
     ],
@@ -1634,15 +1634,15 @@ window.BOOTHS = [
     },
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HI1s0USacAACjdv.jpg?name=orig",
+        "source_url": "https://x.com/xx_sow/status/2057420261453181197",
         "display_url": "https://pbs.twimg.com/media/HI1s0USacAACjdv.jpg?name=orig"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig",
+        "source_url": "https://x.com/xx_sow/status/2049830246468444628",
         "display_url": "https://pbs.twimg.com/media/HHJ1vkmaIAApydh.jpg?name=orig"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HHJ1vkoa8AAZ7k7.jpg?name=orig",
+        "source_url": "https://x.com/xx_sow/status/2049830246468444628",
         "display_url": "https://pbs.twimg.com/media/HHJ1vkoa8AAZ7k7.jpg?name=orig"
       }
     ],
