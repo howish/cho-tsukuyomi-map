@@ -2,5 +2,20 @@
 *.swp
 *.log
 __pycache__/
+
+# x-api recon scratch data (timelines/rescue dumps, per-event and root)
 .x-api-data/
+.x-api-data*/
 .scrape-data/
+
+# scraper scratch dumps (root-level outputs from one-off runs)
+/aggregator_*.json
+/aggregator_*.md
+/doujintw_*.json
+/doujintw_*.md
+/fb_share_*.json
+/fb_share_*.md
+/threads_*.json
+/threads_*.md
+/plurk_*.json
+/plurk_*.md

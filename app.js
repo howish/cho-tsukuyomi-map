@@ -59,7 +59,6 @@
         info.appendChild(el('strong', null, EVENT.date_display));
         info.appendChild(document.createTextNode(T('info_separator')));
         if (EVENT.venue) {
-          // Venue → Google Maps link (use EVENT.venue_map_url if set, else search)
           const mapUrl = EVENT.venue_map_url ||
             ('https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(EVENT.venue));
           info.appendChild(el('a', {
@@ -78,6 +77,12 @@
       disc.innerHTML = T('disclaimer_html_prefix') +
         `<a href="${escapeAttr(EVENT.official_url)}" target="_blank" rel="noopener">${escapeHtml(EVENT.official_label || EVENT.name)}</a>` +
         T('disclaimer_html_suffix');
+    }
+    const credit = document.getElementById('community-credit');
+    if (credit && EVENT.community_catalog_url) {
+      credit.innerHTML = T('community_credit_html_prefix') +
+        `<a href="${escapeAttr(EVENT.community_catalog_url)}" target="_blank" rel="noopener">${escapeHtml(T('community_credit_html_link_label'))}</a>` +
+        T('community_credit_html_suffix');
     }
     const mapSection = document.querySelector('.map-section');
     if (EVENT.map_image) {
@@ -175,6 +180,7 @@
       'edit-preview-summary':{ text: 'edit_panel_preview_summary' },
       'edit-panel-note':     { text: 'edit_panel_note' },
       'edit-clear-all':      { text: 'edit_clear_all_btn' },
+      'edit-submit-download':{ text: 'edit_submit_download' },
       'edit-submit-github':  { text: 'edit_submit_github' },
       'edit-submit-copy':    { text: 'edit_submit_copy' },
       'map-section-title':   { text: 'map_section_title' },
@@ -201,30 +207,32 @@
     }
   }
 
+  // Map each booth-tag code to the FILTERS_CONFIG category it belongs to
+  // so renderCard can emit `work:` / `medium:` / `tag:` prefixes correctly.
+  const TAG_CATEGORY = {};
+  (FILTERS.works || []).forEach(w => { TAG_CATEGORY[w.code] = 'work'; });
+  (FILTERS.mediums || []).forEach(m => { TAG_CATEGORY[m.code] = 'medium'; });
+  (FILTERS.tags || []).forEach(t => { TAG_CATEGORY[t.code] = 'tag'; });
+
   // ---- Build filter UI from FILTERS_CONFIG ----
   function buildFilterButtons() {
-    const cpRow = document.getElementById('filters-cp');
-    const tagRow = document.getElementById('filters-tag');
-    if (cpRow) {
-      (FILTERS.cps || []).forEach(c => {
+    function paintRow(rowId, items, tokenPrefix) {
+      const row = document.getElementById(rowId);
+      if (!row || !items) return;
+      items.forEach(it => {
         const btn = el('button', {
           class: 'filter-btn',
-          'data-filter': 'cp:' + c.code,
-          title: c.title || c.label,
-        }, `${c.icon} ${c.label}`);
-        cpRow.appendChild(btn);
+          'data-filter': tokenPrefix + ':' + it.code,
+          title: it.title || it.label,
+        }, `${it.icon} ${it.label}`);
+        row.appendChild(btn);
       });
     }
-    if (tagRow) {
-      (FILTERS.tags || []).forEach(t => {
-        const btn = el('button', {
-          class: 'filter-btn',
-          'data-filter': 'tag:' + t.code,
-          title: t.title || t.label,
-        }, `${t.icon} ${t.label}`);
-        tagRow.appendChild(btn);
-      });
-    }
+    paintRow('filters-cp', FILTERS.cps, 'cp');
+    paintRow('filters-work', FILTERS.works, 'work');
+    paintRow('filters-medium', FILTERS.mediums, 'medium');
+    paintRow('filters-tag', FILTERS.tags, 'tag');
+    paintRow('filters-area', FILTERS.areas, 'area');
   }
 
   // ---- Build per-row booth grid containers ----
@@ -232,8 +240,54 @@
     const section = document.getElementById('booths-section');
     if (!section) return;
     ROWS.forEach(row => {
-      section.appendChild(el('h2', { class: 'row-title' }, T('row_label', { row })));
+      const h = el('h2', { class: 'row-title', 'data-row': row }, T('row_label', { row }));
+      section.appendChild(h);
       section.appendChild(el('div', { class: 'booth-grid', id: 'grid-' + row }));
+    });
+  }
+
+  // Hide row-title h2 when every card in the next-sibling .booth-grid is
+  // display:none (i.e. nothing matches the current filter). Re-run after
+  // each applyFilters() pass.
+  function syncRowTitleVisibility() {
+    document.querySelectorAll('.row-title').forEach(h => {
+      const grid = h.nextElementSibling;
+      if (!grid || !grid.classList.contains('booth-grid')) return;
+      const anyVisible = Array.from(grid.querySelectorAll('.booth-card'))
+        .some(c => c.style.display !== 'none');
+      h.style.display = anyVisible ? '' : 'none';
+    });
+  }
+
+  // Hide filter chips that wouldn't reveal any booth from the current view.
+  // Within a category the chips OR together, so adding a chip in an active
+  // category only widens — we hide it when its added booths × the other
+  // categories' AND constraints + the search query yield zero. Across
+  // categories the chips AND together, so adding one in a new category
+  // narrows from the current set; we hide it when no currently-visible
+  // booth has the chip's token. Already-active chips and the universal
+  // "all" / "fav" controls always stay visible so the user can untoggle.
+  function syncChipVisibility() {
+    const groups = groupActiveFilters();
+    const allCards = Array.from(document.querySelectorAll('.booth-card'));
+    document.querySelectorAll('.filter-btn[data-filter]').forEach(btn => {
+      const token = btn.dataset.filter;
+      if (token === 'all' || token === 'fav') return;          // always visible
+      if (activeFilters.has(token)) { btn.style.display = ''; return; }
+      const idx = token.indexOf(':');
+      const cat = idx >= 0 ? token.slice(0, idx) : token;
+      const otherCats = Object.keys(groups).filter(c => c !== cat);
+      const reachable = allCards.some(card => {
+        const tokens = (card.dataset.filters || '').split(',');
+        if (!tokens.includes(token)) return false;
+        for (const c of otherCats) {
+          if (!groups[c].some(f => tokens.includes(f))) return false;
+        }
+        const cardSearch = card.dataset.search || '';
+        if (currentSearch && !cardSearch.includes(currentSearch)) return false;
+        return true;
+      });
+      btn.style.display = reachable ? '' : 'none';
     });
   }
 
@@ -250,8 +304,6 @@
   const favs = loadFavs();
 
   // Hydrate booths with circle data from window.CIRCLES_BY_ID (circles.js).
-  // SSOT is circles.json; runtime uses the auto-generated circles.js script.
-  // Falls back gracefully if circles.js failed to load.
   const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
   const booths = (window.BOOTHS || []).slice().map(b => {
     const c = CIRCLES_BY_ID[b.circle_id] || {};
@@ -263,6 +315,47 @@
       socials: c.socials || [],
     }, b);
   }).sort((a, b) => a.booth_id.localeCompare(b.booth_id));
+
+  // Compute warnings into [code, label, sourceUrl?] tuples at load time so
+  // the render code can iterate uniformly. data.js stores warnings as
+  // bare strings (e.g. "soldout") OR tuples (legacy); FILTERS_CONFIG.warnings
+  // also has a `pattern` regex that can auto-detect warnings from body text.
+  // - Explicit string "soldout" → [code, label] from FILTERS lookup
+  // - Body matches `pattern` → auto-add (if not already present)
+  (function computeBoothWarnings() {
+    const warningDefs = (FILTERS.warnings || []);
+    const byCode = {};
+    warningDefs.forEach(w => { byCode[w.code] = w; });
+    for (const b of booths) {
+      const existing = b.warnings || [];
+      const out = [];
+      const seen = new Set();
+      // Carry forward explicit warnings (string or tuple)
+      for (const w of existing) {
+        if (Array.isArray(w)) {
+          // legacy tuple — pass through
+          const code = w[0];
+          if (!seen.has(code)) { seen.add(code); out.push(w); }
+        } else if (typeof w === 'string') {
+          const def = byCode[w];
+          if (def && !seen.has(w)) {
+            seen.add(w);
+            out.push([w, def.label]);
+          }
+        }
+      }
+      // Auto-detect from body via FILTERS.warnings[].pattern
+      const body = b.body || '';
+      for (const def of warningDefs) {
+        if (!def.pattern || seen.has(def.code)) continue;
+        if (new RegExp(def.pattern, 'i').test(body)) {
+          seen.add(def.code);
+          out.push([def.code, def.label]);
+        }
+      }
+      b.warnings = out;
+    }
+  })();
 
   function el(tag, attrs, children) {
     const e = document.createElement(tag);
@@ -297,8 +390,9 @@
     const activeTags = Object.keys(tags).filter(k => tags[k]);
     const filterTokens = [
       ...cps.map(c => 'cp:' + c),
-      ...activeTags.map(t => 'tag:' + t),
+      ...activeTags.map(t => (TAG_CATEGORY[t] || 'tag') + ':' + t),
     ];
+    if (b.area) filterTokens.push('area:' + b.area);
     const isFav = favs.has(b.booth_id);
     const card = el('div', {
       class: 'booth-card' + (isFav ? ' favored' : ''),
@@ -387,7 +481,26 @@
     if (/(?:^|\/\/)(?:www\.)?threads\.(?:com|net)\//.test(url)) return 'threads';
     if (/doujin\.com\.tw\//.test(url)) return 'doujin_tw';
     if (/(?:lit\.link|linktr\.ee|portaly\.cc)\//.test(url)) return 'aggregator';
+    if (/pixiv\.net\//.test(url)) return 'pixiv';
+    if (/bsky\.app\//.test(url)) return 'bsky';
+    if (/booth\.pm\//.test(url)) return 'booth_pm';
+    if (/marshmallow-qa\.com\//.test(url)) return 'marshmallow';
+    if (/patreon\.com\//.test(url)) return 'patreon';
+    if (/(?:home\.gamer\.com\.tw|gamer\.com\.tw|bahamut)\//.test(url)) return 'gamer';
+    if (/wixsite\.com|wix\.com/.test(url)) return 'wix';
+    if (/blog/.test(url)) return 'blog';
     return 'generic';
+  }
+
+  // Platform emoji used on social chips. Falls back to 🔗 for unknown.
+  function platformIcon(platform) {
+    const map = {
+      x: '𝕏', plurk: 'P', fb: 'f', ig: 'IG', threads: '@',
+      pixiv: '🅿', bsky: '🦋', booth_pm: '🛒', marshmallow: '🌸',
+      patreon: '🅿', gamer: '🐉', wix: '🌐', blog: '📓',
+      doujin_tw: '本', aggregator: '🔗', generic: '🔗',
+    };
+    return map[platform] || '🔗';
   }
 
   function mdToHtml(md) {
@@ -455,17 +568,54 @@
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
     }
-    // Author chip — combines display name + @handle, clickable when x_url present
-    if (b.author || b.x_handle) {
-      const authorLabel = [b.author, b.x_handle ? '@' + b.x_handle : ''].filter(Boolean).join(' ');
+    // Author chip — display name, clickable to x_url when present
+    if (b.author) {
       const chipHref = b.x_url || (b.x_handle ? 'https://x.com/' + b.x_handle : null);
       if (chipHref) {
         meta.appendChild(el('a', {
           href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
-        }, authorLabel));
+        }, b.author));
       } else {
-        meta.appendChild(el('span', { class: 'author-chip' }, authorLabel));
+        meta.appendChild(el('span', { class: 'author-chip' }, b.author));
       }
+    }
+    // Build the platform chip set — dedupe by URL host+path so the same
+    // link doesn't render twice (e.g. b.x_handle and a socials entry both
+    // pointing to the same X profile, or two socials entries that both
+    // resolved to the same X handle).
+    const seenSocialUrls = new Set();
+    function normSocialUrl(u) {
+      if (!u) return '';
+      return u
+        .replace(/^https?:\/\//, '')
+        .replace(/^www\./, '')
+        .replace(/[?#].*$/, '')         // strip query string + fragment — many
+                                        // catalog imports have ?s=21, &utm=,
+                                        // ?igsh= etc. tacked on the same profile
+        .replace(/\/+$/, '')
+        .toLowerCase();
+    }
+    function addSocialChip(platform, handle, url, extraClass) {
+      const norm = normSocialUrl(url);
+      if (!norm || seenSocialUrls.has(norm)) return;
+      seenSocialUrls.add(norm);
+      const label = handle
+        ? `${platformIcon(platform)} ${handle}`
+        : `${platformIcon(platform)} ${T('modal_source_' + platform)}`;
+      meta.appendChild(el('a', {
+        href: url, target: '_blank', rel: 'noopener',
+        class: 'social-chip social-chip-' + platform + (extraClass ? ' ' + extraClass : ''),
+        title: T('modal_source_' + platform),
+      }, label));
+    }
+    if (b.x_handle) {
+      addSocialChip('x', '@' + b.x_handle, 'https://x.com/' + b.x_handle, 'handle-link');
+    }
+    if (Array.isArray(b.socials) && b.socials.length) {
+      b.socials.forEach(s => {
+        if (!s || !s.url) return;
+        addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
+      });
     }
     const isFavNow = favs.has(b.booth_id);
     const modalFav = el('button', {
@@ -508,6 +658,10 @@
     meta.appendChild(modalFav);
     body.appendChild(meta);
 
+    // (Old "X で開く" / "Plurk で開く" big button removed — the social chips
+    // above now expose the same link with platform-specific colour and
+    // handle, so the standalone button was redundant.)
+
     // Warning chips inside the modal — each becomes a link to source tweet
     // when a 3rd-element URL is present in the warnings tuple.
     if (b.warnings && b.warnings.length) {
@@ -541,13 +695,18 @@
     const photos = rawCovers.map(p => (typeof p === 'string')
       ? { source_url: p, display_url: p }
       : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
-    if (photos.length) {
+    // Holder for the carousel area — populated below for view mode, and
+    // re-rendered in edit mode whenever rowsState mutates so overlay
+    // controls reflect pending order/deletion.
+    const carouselHolder = el('div', { class: 'cover-carousel-holder' });
+    body.appendChild(carouselHolder);
+    function renderViewCarousel() {
+      carouselHolder.textContent = '';
+      if (!photos.length) return;
       const carousel = el('div', { class: 'cover-carousel' });
       photos.forEach((p, i) => {
         const display = p.display_url || p.source_url;
         const source  = p.source_url  || p.display_url;
-        // pbs.twimg.com supports ?name=small for thumbnail variant; other
-        // CDNs ignore the param so leave them alone.
         const thumbUrl = /\?name=/.test(display)
           ? display.replace(/\?name=[^&]+/, '?name=small')
           : (/pbs\.twimg\.com/.test(display) ? display + '?name=small' : display);
@@ -569,11 +728,13 @@
         coverLink.appendChild(img);
         carousel.appendChild(coverLink);
       });
-      body.appendChild(carousel);
+      carouselHolder.appendChild(carousel);
       if (photos.length > 1) {
-        body.appendChild(el('p', { class: 'carousel-hint' }, T('carousel_hint', { n: photos.length })));
+        carouselHolder.appendChild(el('p', { class: 'carousel-hint' }, T('carousel_hint', { n: photos.length })));
       }
     }
+    // For view mode: render now. For edit mode: will be replaced below.
+    renderViewCarousel();
 
     const bodyDiv = el('div', { class: 'modal-body-md' });
     if (editMode && editMode.isEnabled) {
@@ -631,20 +792,181 @@
       actionRow.appendChild(revertBtn);
       bodyDiv.appendChild(actionRow);
 
-      // --- Images editor (per-row UI) ---
-      // Each cover is one card with source input + display input +
-      // explicit lock toggle + remove button. Lock toggle distinguishes:
+      // --- Images editor ---
+      // Primary UI: overlay controls on the carousel itself (◀/▶ reorder,
+      // × delete, [i/N] index) for one-tap mobile editing.
+      // Advanced (collapsed by default): per-cover row form with source/display
+      // URL inputs + explicit lock toggle. Lock toggle distinguishes:
       //   - 🔓 auto: pipeline can regenerate display_url if source changes
       //   - 🔒 locked: pipeline never overwrites display_url
-      // Display field can be blank (= pipeline will fill on next run).
+      //
+      // All cover-edit elements go into imgEditWrapper, which is
+      // prepended to bodyDiv at the end so cover edit appears ABOVE
+      // body edit in the modal layout.
+      const imgEditWrapper = el('div', { class: 'edit-images-wrapper' });
       const imgLabel = el('div', { class: 'edit-mode-banner' }, T('edit_images_banner'));
-      bodyDiv.appendChild(imgLabel);
+      imgEditWrapper.appendChild(imgLabel);
 
       const origCovers = (b.cover_urls || (b.cover_url ? [b.cover_url] : [])).map(normalizeCover);
       const origSnapshot = JSON.stringify(origCovers);
 
+      // Wrap row UI in <details> so the rich URL/lock fields are accessible
+      // but out of the way by default. Mobile users do most ordering on the
+      // overlay carousel; advanced URL surgery goes here.
+      const advancedDetails = el('details', { class: 'edit-images-advanced' });
+      const advancedSummary = el('summary', { class: 'edit-images-advanced-summary' }, T('edit_images_advanced_summary'));
+      advancedDetails.appendChild(advancedSummary);
+
       const imgList = el('div', { class: 'edit-images-list' });
       const rowsState = [];
+
+      // --- Overlay carousel render ---
+      // Mirrors rowsState. Each slide gets ◀ × ▶ overlays + [i/N] index.
+      // Re-rendered on any mutation so the user always sees current order.
+      // Tracks the slide the user was viewing before a rebuild so we can
+      // restore scroll position. Updated by overlay handlers (which know the
+      // moved/removed cover's new index) and by scroll events on the
+      // carousel itself (so the position survives unrelated re-renders too).
+      let lastFocusIdx = 0;
+      function readCurrentScrollIdx() {
+        const c = carouselHolder.querySelector('.cover-carousel');
+        if (!c || !c.children.length) return 0;
+        const first = c.children[0];
+        const w = first.getBoundingClientRect().width;
+        if (w <= 0) return 0;
+        return Math.round(c.scrollLeft / w);
+      }
+      function scrollToIdx(idx) {
+        const c = carouselHolder.querySelector('.cover-carousel');
+        if (!c || !c.children[idx]) return;
+        // Use instant behavior so the snap doesn't visually flash to 0.
+        c.scrollTo({ left: c.children[idx].offsetLeft, behavior: 'instant' });
+      }
+      function renderEditCarousel(scrollTargetIdx) {
+        // Default target: whatever the user was last looking at.
+        const target = (scrollTargetIdx != null) ? scrollTargetIdx : lastFocusIdx;
+        carouselHolder.textContent = '';
+        const carousel = el('div', { class: 'cover-carousel cover-carousel-edit' });
+        if (!rowsState.length) {
+          carousel.appendChild(el('div', { class: 'cover-slide cover-slide-edit' },
+            el('p', { class: 'edit-images-empty' }, T('edit_images_empty'))));
+        }
+        rowsState.forEach((s, i) => {
+          const display = (s.dispInput && s.dispInput.value.trim()) || (s.srcInput && s.srcInput.value.trim()) || '';
+          const thumbUrl = display && /\?name=/.test(display)
+            ? display.replace(/\?name=[^&]+/, '?name=small')
+            : (display && /pbs\.twimg\.com/.test(display) ? display + '?name=small' : display);
+          const slide = el('div', { class: 'cover-slide cover-slide-edit' });
+          const frame = el('div', { class: 'cover-edit-frame' });
+          if (thumbUrl) {
+            const img = el('img', {
+              src: thumbUrl,
+              alt: T('cover_img_alt', { i: i + 1, n: rowsState.length }),
+              class: 'cover-img', loading: i === 0 ? 'eager' : 'lazy',
+              referrerpolicy: 'no-referrer',
+            });
+            img.addEventListener('error', () => {
+              const fallback = el('div', { class: 'cover-fallback' }, T('cover_load_failed'));
+              frame.replaceChild(fallback, img);
+            });
+            frame.appendChild(img);
+          } else {
+            frame.appendChild(el('div', { class: 'cover-edit-empty-thumb' }, T('edit_images_empty_thumb')));
+          }
+          // Overlay: index + delete (top corners)
+          const idxBadge = el('span', { class: 'cover-edit-idx' }, `${i + 1}/${rowsState.length}`);
+          frame.appendChild(idxBadge);
+          const delBtn = el('button', {
+            type: 'button', class: 'cover-edit-del',
+            title: T('edit_image_remove'), 'aria-label': T('edit_image_remove'),
+          }, '×');
+          delBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx < 0) return;
+            rowsState.splice(idx, 1);
+            s.row.remove();
+            refreshIndices();
+            // Stay on the same index (now showing what was next) — clamp.
+            const tgt = Math.max(0, Math.min(idx, rowsState.length));
+            renderEditCarousel(tgt);
+          });
+          frame.appendChild(delBtn);
+          // Overlay: ◀ ▶ reorder (edge buttons, hidden when not applicable)
+          const leftBtn = el('button', {
+            type: 'button', class: 'cover-edit-arrow cover-edit-arrow-left',
+            title: T('edit_image_move_left_tooltip'), 'aria-label': T('edit_image_move_left_tooltip'),
+          }, '◀');
+          if (i === 0) leftBtn.disabled = true;
+          leftBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx <= 0) return;
+            [rowsState[idx - 1], rowsState[idx]] = [rowsState[idx], rowsState[idx - 1]];
+            imgList.insertBefore(s.row, rowsState[idx].row);
+            refreshIndices();
+            // Follow the moved cover — it's now at idx-1.
+            renderEditCarousel(idx - 1);
+          });
+          const rightBtn = el('button', {
+            type: 'button', class: 'cover-edit-arrow cover-edit-arrow-right',
+            title: T('edit_image_move_right_tooltip'), 'aria-label': T('edit_image_move_right_tooltip'),
+          }, '▶');
+          if (i >= rowsState.length - 1) rightBtn.disabled = true;
+          rightBtn.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            const idx = rowsState.indexOf(s);
+            if (idx < 0 || idx >= rowsState.length - 1) return;
+            [rowsState[idx], rowsState[idx + 1]] = [rowsState[idx + 1], rowsState[idx]];
+            imgList.insertBefore(rowsState[idx].row, s.row);
+            refreshIndices();
+            // Follow the moved cover — it's now at idx+1.
+            renderEditCarousel(idx + 1);
+          });
+          frame.appendChild(leftBtn);
+          frame.appendChild(rightBtn);
+          slide.appendChild(frame);
+          carousel.appendChild(slide);
+        });
+        // Trailing "+ add" slide
+        const addSlide = el('div', { class: 'cover-slide cover-slide-edit cover-slide-add' });
+        const addInner = el('button', {
+          type: 'button', class: 'cover-edit-add-slide',
+          title: T('edit_image_add'), 'aria-label': T('edit_image_add'),
+        }, '+');
+        addInner.addEventListener('click', () => {
+          const cov = { source_url: '', display_url: '', display_locked: false };
+          const s = makeRow(cov);
+          rowsState.push(s);
+          imgList.appendChild(s.row);
+          refreshIndices();
+          // Land on the newly added slot (now at length-1).
+          renderEditCarousel(rowsState.length - 1);
+          // Open advanced section so user can paste URL into the new row
+          advancedDetails.open = true;
+          if (s.srcInput) s.srcInput.focus();
+        });
+        addSlide.appendChild(addInner);
+        carousel.appendChild(addSlide);
+        carouselHolder.appendChild(carousel);
+        carouselHolder.appendChild(el('p', { class: 'carousel-hint' }, T('edit_carousel_hint')));
+        // Track scroll position so the next rebuild can land on the same slide.
+        let scrollRaf = null;
+        carousel.addEventListener('scroll', () => {
+          if (scrollRaf) return;
+          scrollRaf = requestAnimationFrame(() => {
+            scrollRaf = null;
+            lastFocusIdx = readCurrentScrollIdx();
+          });
+        });
+        // Restore scroll position after the layout has committed.
+        const clamped = Math.max(0, Math.min(target, carousel.children.length - 1));
+        lastFocusIdx = clamped;
+        requestAnimationFrame(() => scrollToIdx(clamped));
+      }
+      // Tracks the row currently being dragged. Module-level closure so all
+      // rows share visibility; reset on dragend or successful drop.
+      let draggingState = null;
 
       // Forward declaration so makeRow can reference refreshIndices.
       function refreshIndices() {
@@ -658,7 +980,86 @@
         const state = { row, locked: !!cover.display_locked };
 
         const header = el('div', { class: 'edit-images-row-header' });
+        // Drag handle: ⋮⋮ grip icon, draggable initiates HTML5 drag.
+        // ↑↓ buttons stay as accessible/mobile-friendly fallback.
+        const dragHandle = el('span', {
+          class: 'edit-images-drag-handle',
+          title: T('edit_image_drag_tooltip'),
+          draggable: 'true',
+        }, '⋮⋮');
         state.indexLabel = el('span', { class: 'edit-images-row-idx' }, '');
+        const upBtn = el('button', {
+          type: 'button', class: 'edit-images-move-btn', title: T('edit_image_move_up_tooltip'),
+        }, '↑');
+        const downBtn = el('button', {
+          type: 'button', class: 'edit-images-move-btn', title: T('edit_image_move_down_tooltip'),
+        }, '↓');
+        upBtn.addEventListener('click', () => {
+          const idx = rowsState.indexOf(state);
+          if (idx <= 0) return;
+          rowsState[idx] = rowsState[idx - 1];
+          rowsState[idx - 1] = state;
+          imgList.insertBefore(row, rowsState[idx].row);
+          refreshIndices();
+          renderEditCarousel(idx - 1);
+        });
+        downBtn.addEventListener('click', () => {
+          const idx = rowsState.indexOf(state);
+          if (idx < 0 || idx >= rowsState.length - 1) return;
+          rowsState[idx] = rowsState[idx + 1];
+          rowsState[idx + 1] = state;
+          imgList.insertBefore(rowsState[idx].row, row);
+          refreshIndices();
+          renderEditCarousel(idx + 1);
+        });
+
+        dragHandle.addEventListener('dragstart', (e) => {
+          draggingState = state;
+          e.dataTransfer.effectAllowed = 'move';
+          // Firefox requires setData to initiate drag.
+          try { e.dataTransfer.setData('text/plain', ''); } catch (_) {}
+          row.classList.add('dragging');
+        });
+        dragHandle.addEventListener('dragend', () => {
+          row.classList.remove('dragging');
+          rowsState.forEach(s => s.row.classList.remove('drop-before', 'drop-after'));
+          draggingState = null;
+        });
+        row.addEventListener('dragover', (e) => {
+          if (!draggingState || draggingState === state) return;
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          const rect = row.getBoundingClientRect();
+          const before = e.clientY < rect.top + rect.height / 2;
+          row.classList.toggle('drop-before', before);
+          row.classList.toggle('drop-after', !before);
+        });
+        row.addEventListener('dragleave', (e) => {
+          // Only clear when leaving the row itself, not a child element.
+          if (e.target === row) {
+            row.classList.remove('drop-before', 'drop-after');
+          }
+        });
+        row.addEventListener('drop', (e) => {
+          if (!draggingState || draggingState === state) return;
+          e.preventDefault();
+          row.classList.remove('drop-before', 'drop-after');
+          const rect = row.getBoundingClientRect();
+          const before = e.clientY < rect.top + rect.height / 2;
+          const srcIdx = rowsState.indexOf(draggingState);
+          if (srcIdx < 0) return;
+          rowsState.splice(srcIdx, 1);
+          draggingState.row.remove();
+          const tgtIdx = rowsState.indexOf(state);
+          const insertIdx = before ? tgtIdx : tgtIdx + 1;
+          rowsState.splice(insertIdx, 0, draggingState);
+          if (before) imgList.insertBefore(draggingState.row, row);
+          else if (row.nextSibling) imgList.insertBefore(draggingState.row, row.nextSibling);
+          else imgList.appendChild(draggingState.row);
+          refreshIndices();
+          renderEditCarousel(rowsState.indexOf(draggingState));
+        });
+
         const removeBtn = el('button', {
           type: 'button', class: 'edit-images-remove-btn',
         }, T('edit_image_remove'));
@@ -667,8 +1068,12 @@
           if (idx >= 0) rowsState.splice(idx, 1);
           row.remove();
           refreshIndices();
+          renderEditCarousel(Math.max(0, Math.min(idx, rowsState.length)));
         });
+        header.appendChild(dragHandle);
         header.appendChild(state.indexLabel);
+        header.appendChild(upBtn);
+        header.appendChild(downBtn);
         header.appendChild(removeBtn);
         row.appendChild(header);
 
@@ -690,6 +1095,13 @@
           placeholder: T('edit_display_placeholder'),
         });
         state.dispInput.value = cover.display_url || '';
+        // Live-refresh the overlay carousel thumbnail when URL fields change.
+        const refreshCarouselDebounced = (() => {
+          let t = null;
+          return () => { if (t) clearTimeout(t); t = setTimeout(renderEditCarousel, 350); };
+        })();
+        state.srcInput.addEventListener('input', refreshCarouselDebounced);
+        state.dispInput.addEventListener('input', refreshCarouselDebounced);
         state.lockBtn = el('button', { type: 'button', class: 'edit-images-lock-btn', title: T('edit_image_lock_tooltip') });
         function refreshLockBtn() {
           state.lockBtn.textContent = state.locked ? T('edit_image_lock_locked') : T('edit_image_lock_auto');
@@ -714,7 +1126,7 @@
         imgList.appendChild(s.row);
       });
       refreshIndices();
-      bodyDiv.appendChild(imgList);
+      advancedDetails.appendChild(imgList);
 
       const addBtn = el('button', { type: 'button', class: 'edit-images-add-btn' }, T('edit_image_add'));
       addBtn.addEventListener('click', () => {
@@ -722,9 +1134,14 @@
         rowsState.push(s);
         imgList.appendChild(s.row);
         refreshIndices();
+        renderEditCarousel();
         s.srcInput.focus();
       });
-      bodyDiv.appendChild(addBtn);
+      advancedDetails.appendChild(addBtn);
+      imgEditWrapper.appendChild(advancedDetails);
+
+      // Initial overlay carousel render (replaces the view-mode carousel).
+      renderEditCarousel();
 
       const imgActionRow = el('div', { class: 'edit-action-row' });
       const imgSaveBtn = el('button', { type: 'button', class: 'edit-save-btn' }, T('edit_save_btn'));
@@ -766,6 +1183,7 @@
           imgList.appendChild(s.row);
         });
         refreshIndices();
+        renderEditCarousel();
         const existing = editMode.getPending(b.booth_id) || {};
         delete existing.cover_urls; delete existing.original_cover_urls;
         if (existing.body === undefined) editMode.clearPending(b.booth_id);
@@ -774,7 +1192,10 @@
       });
       imgActionRow.appendChild(imgSaveBtn);
       imgActionRow.appendChild(imgRevertBtn);
-      bodyDiv.appendChild(imgActionRow);
+      imgEditWrapper.appendChild(imgActionRow);
+      // Place the cover edit section ABOVE the body editor (which was
+      // already appended to bodyDiv earlier in this branch).
+      bodyDiv.insertBefore(imgEditWrapper, bodyDiv.firstChild);
     } else {
       bodyDiv.innerHTML = mdToHtml(b.body || '');
     }
@@ -819,6 +1240,27 @@
   buildFilterButtons();
   buildBoothGrids();
 
+  // ---- Collapsible filter panel ----
+  (function setupFilterCollapse() {
+    const section = document.getElementById('filter-section');
+    const btn = document.getElementById('filter-collapse-btn');
+    if (!section || !btn) return;
+    const COLLAPSE_KEY = (EVENT.favorites_key || 'event-guide-template') + '-filter-collapsed';
+    function apply(collapsed) {
+      section.classList.toggle('collapsed', collapsed);
+      btn.textContent = collapsed ? '▲ 篩選' : '▼ 篩選';
+      btn.setAttribute('aria-pressed', collapsed ? 'true' : 'false');
+    }
+    let collapsed = false;
+    try { collapsed = localStorage.getItem(COLLAPSE_KEY) === '1'; } catch (e) {}
+    apply(collapsed);
+    btn.addEventListener('click', () => {
+      collapsed = !collapsed;
+      try { localStorage.setItem(COLLAPSE_KEY, collapsed ? '1' : '0'); } catch (e) {}
+      apply(collapsed);
+    });
+  })();
+
   // Render booths grouped by row
   ROWS.forEach(row => {
     const grid = document.getElementById('grid-' + row);
@@ -828,11 +1270,23 @@
       .forEach(b => grid.appendChild(renderCard(b)));
   });
 
-  // Seed activeFilters from EVENT.default_filters so e.g. a 超かぐや姫
-  // fan landing here sees the curated subset by default. Empty / unset
-  // → no default filter applied. The matching filter buttons are marked
-  // active below once the DOM is settled.
-  let activeFilters = new Set(EVENT.default_filters || []);
+  // Filter selection is persisted in localStorage the same way favorites
+  // are — once a user customises their chip set we don't reset it on the
+  // next visit. EVENT.default_filters only seeds the first load (when no
+  // entry exists at all); a saved empty array stays empty.
+  const FILTER_KEY = (EVENT.favorites_key || 'event-guide-template') + '-filters';
+  function loadFilters() {
+    try {
+      const raw = localStorage.getItem(FILTER_KEY);
+      if (raw == null) return new Set(EVENT.default_filters || []);
+      return new Set(JSON.parse(raw));
+    } catch (e) { return new Set(EVENT.default_filters || []); }
+  }
+  function saveFilters() {
+    try { localStorage.setItem(FILTER_KEY, JSON.stringify(Array.from(activeFilters))); }
+    catch (e) {}
+  }
+  let activeFilters = loadFilters();
   let currentSearch = '';
   if (activeFilters.size) {
     // Sync filter buttons + remove "all" highlight to match seeded state.
@@ -847,15 +1301,31 @@
     });
   }
 
+  // Group active filters by category prefix so we can apply
+  //   (cp:a OR cp:b) AND (tag:c OR tag:d) AND (area:e OR area:f) ...
+  // — intersection between categories, union within. Tokens without a
+  // colon (e.g. "fav") form their own implicit category.
+  function groupActiveFilters() {
+    const groups = {};
+    activeFilters.forEach(f => {
+      const idx = f.indexOf(':');
+      const cat = idx >= 0 ? f.slice(0, idx) : f;
+      (groups[cat] = groups[cat] || []).push(f);
+    });
+    return groups;
+  }
+
   function applyFilters() {
     let visible = 0;
     const visibleBoothIds = [];
     const allCards = document.querySelectorAll('.booth-card');
+    const groups = groupActiveFilters();
+    const groupCats = Object.keys(groups);
     allCards.forEach(card => {
       const tokens = (card.dataset.filters || '').split(',');
       const search = card.dataset.search || '';
       const filterOK = activeFilters.size === 0 ||
-        Array.from(activeFilters).some(f => tokens.includes(f));
+        groupCats.every(cat => groups[cat].some(f => tokens.includes(f)));
       const searchOK = !currentSearch || search.includes(currentSearch);
       const show = filterOK && searchOK;
       card.style.display = show ? '' : 'none';
@@ -874,57 +1344,376 @@
       stats.classList.toggle('filtered', isFiltered);
     }
     updateMapOverlay(isFiltered ? visibleBoothIds : null);
+    syncRowTitleVisibility();
+    syncChipVisibility();
   }
 
-  // Highlight matched booths on the venue map. coords come from window.
-  // BOOTH_COORDS (populated via coord-tool.html). Pass null/empty to
-  // clear the overlay; pass a list of booth_ids to draw rects for any
-  // that have coords defined. Booths without coords are silently
-  // skipped — no log spam, no broken UI.
-  //
-  // Multi-cell booths (e.g. "S-05/06", "T-19/20") physically occupy two
-  // adjacent grid cells; coord-tool emits per-cell entries so we look
-  // up each component separately and union the rects into one combined
-  // highlight. Falls back to a single lookup if the booth_id isn't
-  // multi-cell-shaped.
-  function coordsForBooth(id, coords) {
-    if (coords[id]) return [coords[id]];
-    // "S-05/06" → ["S-05", "S-06"]; "T-07/08" → ["T-07", "T-08"]
+  // Coords logic:
+  // - cellsForBooth(b) → list of canonical cell IDs (uses explicit `cells`
+  //   field when present, falls back to slash-parsing for legacy / unpatched).
+  // - rectForCells(cells, coords) → union bounding rect, or null if no
+  //   cell has coords.
+  // - cellsForGroup("S-[02,06]") → expand range to ["S-02",...,"S-06"].
+  function cellsForBooth(b) {
+    if (b.cells && b.cells.length) return b.cells;
+    const id = b.booth_id || '';
     const m = id.match(/^([A-Z])-(\d+)\/(\d+)$/);
-    if (!m) return [];
-    const [, row, a, b] = m;
+    if (!m) return [id];
+    const [, row, a, c] = m;
     const pad = (n) => String(n).padStart(2, '0');
-    return [coords[row + '-' + pad(a)], coords[row + '-' + pad(b)]].filter(Boolean);
+    return [row + '-' + pad(a), row + '-' + pad(c)];
+  }
+  function rectForCells(cells, coords) {
+    const cs = cells.map(c => coords[c]).filter(Boolean);
+    if (!cs.length) return null;
+    const x = Math.min(...cs.map(c => c.x));
+    const y = Math.min(...cs.map(c => c.y));
+    const w = Math.max(...cs.map(c => c.x + c.w)) - x;
+    const h = Math.max(...cs.map(c => c.y + c.h)) - y;
+    return { x, y, w, h };
+  }
+  function cellsForGroup(groupStr) {
+    const m = groupStr && groupStr.match(/^([A-Z])-\[(\d+),(\d+)\]$/);
+    if (!m) return [];
+    const [, row, lo, hi] = m;
+    const out = [];
+    for (let i = parseInt(lo, 10); i <= parseInt(hi, 10); i++) {
+      out.push(row + '-' + String(i).padStart(2, '0'));
+    }
+    return out;
   }
 
+  // Click-targets layer — invisible per-booth rects covering every cell
+  // so all booths are clickable regardless of filter state. Rendered
+  // once after BOOTH_COORDS becomes available.
+  function renderClickTargets() {
+    const svg = document.getElementById('venue-map-overlay');
+    if (!svg) return;
+    const old = svg.querySelector('g.click-targets');
+    if (old) old.remove();
+    const ns = 'http://www.w3.org/2000/svg';
+    const coords = window.BOOTH_COORDS || {};
+    const g = document.createElementNS(ns, 'g');
+    g.setAttribute('class', 'click-targets');
+    booths.forEach(b => {
+      const cells = cellsForBooth(b);
+      const r = rectForCells(cells, coords);
+      if (!r) return;
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'click-target');
+      rect.setAttribute('data-booth-id', b.booth_id);
+      g.appendChild(rect);
+    });
+    // Insert at the very front so highlights/groups paint on top.
+    svg.insertBefore(g, svg.firstChild);
+  }
+
+  // Filter overlay — group dashed borders + match highlights, redrawn
+  // on every filter / search change. Pass null to clear.
   function updateMapOverlay(boothIds) {
     const svg = document.getElementById('venue-map-overlay');
     if (!svg) return;
-    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const old = svg.querySelector('g.filter-overlay');
+    if (old) old.remove();
     if (!boothIds || !boothIds.length) return;
     const coords = window.BOOTH_COORDS || {};
     const ns = 'http://www.w3.org/2000/svg';
-    boothIds.forEach(id => {
-      const parts = coordsForBooth(id, coords);
-      if (!parts.length) return;
-      // For multi-cell, render as one bounding rect so it reads as a
-      // single highlight rather than two separate cells.
-      const xMin = Math.min(...parts.map(p => p.x));
-      const yMin = Math.min(...parts.map(p => p.y));
-      const xMax = Math.max(...parts.map(p => p.x + p.w));
-      const yMax = Math.max(...parts.map(p => p.y + p.h));
+    const g = document.createElementNS(ns, 'g');
+    g.setAttribute('class', 'filter-overlay');
+    const visibleSet = new Set(boothIds);
+    const visibleBooths = booths.filter(b => visibleSet.has(b.booth_id));
+    // Group dashed borders first (drawn under matches)
+    const groupsSeen = new Set();
+    visibleBooths.forEach(b => {
+      if (!b.group || groupsSeen.has(b.group)) return;
+      groupsSeen.add(b.group);
+      const r = rectForCells(cellsForGroup(b.group), coords);
+      if (!r) return;
       const rect = document.createElementNS(ns, 'rect');
-      rect.setAttribute('x', xMin);
-      rect.setAttribute('y', yMin);
-      rect.setAttribute('width', xMax - xMin);
-      rect.setAttribute('height', yMax - yMin);
-      rect.setAttribute('class', 'match');
-      rect.setAttribute('data-booth-id', id);
-      svg.appendChild(rect);
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'group');
+      rect.setAttribute('data-group', b.group);
+      g.appendChild(rect);
     });
+    // Match highlights
+    visibleBooths.forEach(b => {
+      const r = rectForCells(cellsForBooth(b), coords);
+      if (!r) return;
+      const rect = document.createElementNS(ns, 'rect');
+      rect.setAttribute('x', r.x);
+      rect.setAttribute('y', r.y);
+      rect.setAttribute('width', r.w);
+      rect.setAttribute('height', r.h);
+      rect.setAttribute('class', 'match');
+      rect.setAttribute('data-booth-id', b.booth_id);
+      g.appendChild(rect);
+    });
+    svg.appendChild(g);
   }
 
+  // Popup machinery — click a click-target rect → tooltip with booth
+  // summary; click 詳しく見る → scroll booth card + pulse (clears
+  // filter if the card is currently hidden so the scroll lands on
+  // something visible).
+  let activeMapPopup = null;
+  function dismissMapPopup() {
+    if (activeMapPopup) {
+      activeMapPopup.remove();
+      activeMapPopup = null;
+    }
+  }
+  function openBoothDetail(boothId) {
+    const b = booths.find(x => x.booth_id === boothId);
+    if (b) openModal(b);
+  }
+  function showMapPopup(boothId, ev) {
+    dismissMapPopup();
+    const b = booths.find(x => x.booth_id === boothId);
+    if (!b) return;
+    // Anchor the popup to the zoom viewport (not the scaled wrap) so it
+    // stays at normal size and doesn't translate with the map.
+    const wrap = document.getElementById('map-zoom-viewport') ||
+                 document.querySelector('.map-overlay-wrap');
+    if (!wrap) return;
+    const wrapRect = wrap.getBoundingClientRect();
+    const firstCover = (b.cover_urls || [])[0];
+    const thumbUrl = firstCover ? (typeof firstCover === 'string' ? firstCover : (firstCover.display_url || firstCover.source_url)) : '';
+    const popup = document.createElement('div');
+    popup.className = 'map-popup';
+    popup.setAttribute('role', 'button');
+    popup.setAttribute('tabindex', '0');
+    popup.innerHTML =
+      '<button class="popup-close" type="button" aria-label="' + escapeAttr(T('popup_close_label')) + '">×</button>' +
+      '<div class="popup-header">' +
+        '<span class="popup-id">' + escapeHtml(b.booth_id) + '</span>' +
+        '<span class="popup-name">' + escapeHtml(b.circle_name || '?') + '</span>' +
+      '</div>' +
+      (b.author ? '<div class="popup-author">' + escapeHtml(b.author) + '</div>' : '') +
+      (thumbUrl
+        ? '<img class="popup-thumb" src="' + escapeAttr(thumbUrl) + '" alt="" loading="lazy">'
+        : '<div class="popup-no-thumb">' + escapeHtml(T('popup_go_to_card')) + '</div>');
+    // Position near click, clamped to the wrap.
+    const x = ev.clientX - wrapRect.left;
+    const y = ev.clientY - wrapRect.top;
+    const popupW = 240, popupH = 240;
+    popup.style.left = Math.max(4, Math.min(x + 10, wrapRect.width - popupW)) + 'px';
+    popup.style.top  = Math.max(4, Math.min(y + 10, wrapRect.height - popupH)) + 'px';
+    wrap.appendChild(popup);
+    activeMapPopup = popup;
+    // Close button: dismiss only, don't trigger scroll.
+    popup.querySelector('.popup-close').addEventListener('click', (e) => {
+      e.stopPropagation();
+      dismissMapPopup();
+    });
+    // Whole popup body click → open the booth detail modal.
+    // If the map is in fullscreen, exit first — otherwise the modal opens
+    // behind the z-index 9999 fullscreen overlay and looks like nothing
+    // happened.
+    popup.addEventListener('click', () => {
+      const id = boothId;
+      dismissMapPopup();
+      const viewport = document.getElementById('map-zoom-viewport');
+      if (viewport && viewport.classList.contains('fullscreen')) {
+        const fsBtn = document.getElementById('map-fullscreen-btn');
+        if (fsBtn) fsBtn.click();
+      }
+      openBoothDetail(id);
+    });
+  }
+  // Click delegation on the SVG (capture-target rects only).
+  const _mapSvg = document.getElementById('venue-map-overlay');
+  if (_mapSvg) {
+    _mapSvg.addEventListener('click', (e) => {
+      const tgt = e.target && e.target.closest && e.target.closest('rect.click-target');
+      if (!tgt) return;
+      const id = tgt.getAttribute('data-booth-id');
+      if (!id) return;
+      e.stopPropagation();
+      showMapPopup(id, e);
+    });
+  }
+  // Outside-click dismiss (skip when click is on the popup itself or a click-target).
+  document.addEventListener('click', (e) => {
+    if (!activeMapPopup) return;
+    if (e.target.closest && (e.target.closest('.map-popup') || e.target.closest('rect.click-target'))) return;
+    dismissMapPopup();
+  });
+
+  renderClickTargets();
   applyFilters();
+
+  // Map zoom — inline pinch / Ctrl+wheel + drag pan. The viewport clips
+  // the transformed wrap; click-targets continue to work because they
+  // live inside the transformed element (SVG scales with it). To keep
+  // booth click reliable, any drag that crosses a small movement
+  // threshold swallows the synthetic click on release.
+  (function setupMapZoom() {
+    const viewport = document.getElementById('map-zoom-viewport');
+    const wrap = viewport && viewport.querySelector('.map-overlay-wrap');
+    const resetBtn = document.getElementById('map-zoom-reset');
+    const hint = document.getElementById('map-zoom-hint');
+    const fsBtn = document.getElementById('map-fullscreen-btn');
+    if (!viewport || !wrap) return;
+
+    // Fullscreen toggle — pseudo-fullscreen via CSS (works on iOS Safari
+    // too, unlike the browser Fullscreen API which has quirks on mobile).
+    if (fsBtn) {
+      const exitOnEsc = (e) => {
+        if (e.key === 'Escape' && viewport.classList.contains('fullscreen')) {
+          toggleFullscreen(false);
+        }
+      };
+      function toggleFullscreen(on) {
+        const next = on !== undefined ? on : !viewport.classList.contains('fullscreen');
+        viewport.classList.toggle('fullscreen', next);
+        fsBtn.textContent = next ? '✕' : '⛶';
+        fsBtn.setAttribute('aria-label', next ? '全画面を閉じる / Exit fullscreen' : '全画面 / Fullscreen');
+        document.body.style.overflow = next ? 'hidden' : '';
+        if (next) document.addEventListener('keydown', exitOnEsc);
+        else document.removeEventListener('keydown', exitOnEsc);
+        // Recenter the zoomed transform after the viewport size changed.
+        setTimeout(() => { try { clampPan(); apply(); } catch (e) {} }, 50);
+      }
+      fsBtn.addEventListener('click', (e) => { e.stopPropagation(); toggleFullscreen(); });
+    }
+
+    const MIN_SCALE = 1, MAX_SCALE = 6, EPS = 0.005;
+    const z = { scale: 1, tx: 0, ty: 0 };
+
+    function clampPan() {
+      const vw = viewport.clientWidth, vh = viewport.clientHeight;
+      const sw = wrap.offsetWidth * z.scale;
+      const sh = wrap.offsetHeight * z.scale;
+      if (sw <= vw) z.tx = (vw - sw) / 2;
+      else z.tx = Math.max(vw - sw, Math.min(0, z.tx));
+      if (sh <= vh) z.ty = (vh - sh) / 2;
+      else z.ty = Math.max(vh - sh, Math.min(0, z.ty));
+    }
+    function apply() {
+      wrap.style.transform = `translate(${z.tx}px, ${z.ty}px) scale(${z.scale})`;
+      const zoomed = z.scale > 1 + EPS;
+      wrap.classList.toggle('zoomed', zoomed);
+      if (resetBtn) resetBtn.hidden = !zoomed;
+      if (hint) hint.classList.toggle('hidden', zoomed);
+    }
+    function zoomAt(newScale, px, py) {
+      newScale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, newScale));
+      // World point under cursor at current zoom
+      const wx = (px - z.tx) / z.scale;
+      const wy = (py - z.ty) / z.scale;
+      z.scale = newScale;
+      z.tx = px - wx * newScale;
+      z.ty = py - wy * newScale;
+      clampPan();
+      apply();
+    }
+    function reset() { z.scale = 1; z.tx = 0; z.ty = 0; apply(); }
+    if (resetBtn) resetBtn.addEventListener('click', reset);
+
+    // Wheel zoom — require modifier (Ctrl/Cmd) so we don't hijack page scroll.
+    viewport.addEventListener('wheel', (e) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      const rect = viewport.getBoundingClientRect();
+      const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
+      zoomAt(z.scale * factor, e.clientX - rect.left, e.clientY - rect.top);
+    }, { passive: false });
+
+    // Touch handlers — pinch zoom + single-finger pan when zoomed in.
+    // Track movement so we can suppress the booth-popup click on release.
+    let t = null;
+    function viewportPoint(clientX, clientY) {
+      const rect = viewport.getBoundingClientRect();
+      return [clientX - rect.left, clientY - rect.top];
+    }
+    viewport.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 2) {
+        const a = e.touches[0], b = e.touches[1];
+        const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+        t = { mode: 'pinch', startDist: dist, startScale: z.scale,
+              cx: (a.clientX + b.clientX) / 2, cy: (a.clientY + b.clientY) / 2,
+              moved: true };
+      } else if (e.touches.length === 1 && z.scale > 1 + EPS) {
+        const a = e.touches[0];
+        t = { mode: 'pan', startX: a.clientX, startY: a.clientY,
+              startTx: z.tx, startTy: z.ty, moved: false };
+      } else {
+        t = null;
+      }
+    }, { passive: true });
+    viewport.addEventListener('touchmove', (e) => {
+      if (!t) return;
+      if (t.mode === 'pinch' && e.touches.length === 2) {
+        e.preventDefault();
+        const a = e.touches[0], b = e.touches[1];
+        const dist = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+        const [px, py] = viewportPoint(t.cx, t.cy);
+        zoomAt(t.startScale * (dist / t.startDist), px, py);
+      } else if (t.mode === 'pan' && e.touches.length === 1) {
+        const a = e.touches[0];
+        const dx = a.clientX - t.startX, dy = a.clientY - t.startY;
+        if (Math.abs(dx) > 4 || Math.abs(dy) > 4) {
+          t.moved = true;
+          e.preventDefault();
+          z.tx = t.startTx + dx;
+          z.ty = t.startTy + dy;
+          clampPan();
+          apply();
+        }
+      }
+    }, { passive: false });
+    viewport.addEventListener('touchend', () => {
+      // Swallow the synthetic click that follows a pan / pinch.
+      if (t && t.moved) {
+        const swallow = (ev) => { ev.stopPropagation(); };
+        viewport.addEventListener('click', swallow, { capture: true, once: true });
+      }
+      t = null;
+    });
+
+    // Mouse drag (when zoomed). Only react to primary button.
+    let drag = null;
+    viewport.addEventListener('pointerdown', (e) => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      if (z.scale <= 1 + EPS) return;
+      drag = { startX: e.clientX, startY: e.clientY,
+               startTx: z.tx, startTy: z.ty, moved: false };
+      try { viewport.setPointerCapture(e.pointerId); } catch (_) {}
+      wrap.classList.add('dragging');
+    });
+    viewport.addEventListener('pointermove', (e) => {
+      if (!drag) return;
+      const dx = e.clientX - drag.startX, dy = e.clientY - drag.startY;
+      if (!drag.moved && (Math.abs(dx) > 3 || Math.abs(dy) > 3)) drag.moved = true;
+      if (drag.moved) {
+        z.tx = drag.startTx + dx;
+        z.ty = drag.startTy + dy;
+        clampPan();
+        apply();
+      }
+    });
+    viewport.addEventListener('pointerup', (e) => {
+      if (!drag) return;
+      if (drag.moved) {
+        const swallow = (ev) => { ev.stopPropagation(); };
+        viewport.addEventListener('click', swallow, { capture: true, once: true });
+      }
+      wrap.classList.remove('dragging');
+      try { viewport.releasePointerCapture(e.pointerId); } catch (_) {}
+      drag = null;
+    });
+
+    apply();
+    // Re-clamp on viewport resize.
+    window.addEventListener('resize', () => { clampPan(); apply(); });
+  })();
 
   function handleFilterClick(btn) {
     const f = btn.dataset.filter;
@@ -946,6 +1735,7 @@
         document.querySelector('.filter-btn[data-filter="all"]').classList.add('active');
       }
     }
+    saveFilters();
     applyFilters();
   }
 
@@ -1159,17 +1949,21 @@
           lines.push('');
         }
         if (it.edit.cover_urls !== undefined) {
-          // Emit one block per cover. Show source on the first line; if the
-          // display is locked custom, surface it as "display: <url> [locked]".
-          // Blank/auto displays render as "display: (auto)" so the maintainer
-          // knows the pipeline owns that row.
+          // Emit one block per cover: source on line 1, display URL on
+          // line 2 with a [locked] / [auto] / [pending] marker. The
+          // display URL is the per-entry identity — without it, two
+          // entries that share a source URL (eg an album with multiple
+          // images) become indistinguishable in the diff and the
+          // maintainer can't tell which one was kept vs dropped.
+          //   [locked]  → custom-pinned, pipeline must not overwrite
+          //   [auto]    → display_url present, pipeline may regenerate
+          //   [pending] → display_url null, awaiting pipeline upload
           const fmtCover = (p) => {
-            if (typeof p === 'string') return [p, '  display: (auto)'];
+            if (typeof p === 'string') return [p, '  display: ' + p + ' [auto]'];
             const src = p.source_url || p.display_url || '';
-            if (p.display_locked) {
-              return [src, '  display: ' + (p.display_url || '') + ' [locked]'];
-            }
-            return [src, '  display: (auto)'];
+            const d = p.display_url || '';
+            const tag = p.display_locked ? '[locked]' : (d ? '[auto]' : '[pending]');
+            return [src, '  display: ' + (d || '(pending)') + ' ' + tag];
           };
           lines.push('### ' + T('edit_submission_images_before'));
           lines.push('```');
@@ -1198,6 +1992,7 @@
         ids: items.map(p => p.booth_id).join(', ')
       });
       preview.textContent = buildSubmissionText();
+      refreshPanelHint();
       panel.hidden = false;
       panel.style.display = '';
     }
@@ -1208,11 +2003,48 @@
       p.style.display = 'none';  // hidden attribute is overridden by .edit-panel{display:flex}
     }
 
-    function buildGithubIssueUrl() {
+    function buildGithubIssueUrl(opts) {
       const repo = (EVENT.github_repo || 'https://github.com/howish/cho-tsukuyomi-map').replace(/\/$/, '');
       const title = T('edit_submission_github_title', { count: listPending().length });
-      const body = buildSubmissionText() + '\n\n' + T('edit_submission_footer');
+      const body = (opts && opts.shortBody)
+        ? T('edit_submission_attach_note') + '\n\n' + T('edit_submission_footer')
+        : buildSubmissionText() + '\n\n' + T('edit_submission_footer');
       return `${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    }
+
+    function downloadSubmissionFile() {
+      const text = buildSubmissionText();
+      // YYYYMMDD-HHMMSS
+      const ts = new Date().toISOString().replace(/[:.]/g, '-').replace('T','-').split('.')[0];
+      const count = listPending().length;
+      const ev = (EVENT.event_id || EVENT.slug || 'event');
+      const filename = `${ev}-fix-${count}booths-${ts}.md`;
+      const blob = new Blob([text], { type: 'text/markdown;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      // Revoke later to let the download initiate.
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      return filename;
+    }
+
+    function refreshPanelHint() {
+      const hintEl = document.getElementById('edit-panel-hint');
+      if (!hintEl) return;
+      const len = buildSubmissionText().length;
+      // GitHub Issue body via URL is gated by browser URL length (~8K safe).
+      // Above that, recommend the .md download path.
+      if (len > 7000) {
+        hintEl.textContent = T('edit_submission_too_large_hint', { kb: (len / 1024).toFixed(1) });
+        hintEl.className = 'edit-panel-hint warn';
+      } else {
+        hintEl.textContent = '';
+        hintEl.className = 'edit-panel-hint';
+      }
     }
 
     // Wire up event handlers (once)
@@ -1223,18 +2055,41 @@
     const panelBackdrop = document.getElementById('edit-panel-backdrop');
     if (panelBackdrop) panelBackdrop.addEventListener('click', closePanel);
 
+    const submitDownload = document.getElementById('edit-submit-download');
+    if (submitDownload) submitDownload.addEventListener('click', () => {
+      const name = downloadSubmissionFile();
+      submitDownload.textContent = T('edit_submit_download_done', { name });
+      setTimeout(() => { submitDownload.textContent = T('edit_submit_download'); }, 2200);
+    });
     const submitGithub = document.getElementById('edit-submit-github');
     if (submitGithub) submitGithub.addEventListener('click', () => {
-      window.open(buildGithubIssueUrl(), '_blank', 'noopener');
+      const len = buildSubmissionText().length;
+      // Above the URL-fill ceiling: also trigger a download so the user
+      // can drag-drop the .md into the issue body manually.
+      if (len > 7000) {
+        const name = downloadSubmissionFile();
+        alert(T('edit_submission_attach_alert', { name }));
+        window.open(buildGithubIssueUrl({ shortBody: true }), '_blank', 'noopener');
+      } else {
+        window.open(buildGithubIssueUrl(), '_blank', 'noopener');
+      }
     });
     const submitCopy = document.getElementById('edit-submit-copy');
     if (submitCopy) submitCopy.addEventListener('click', async () => {
+      const text = buildSubmissionText();
       try {
-        await navigator.clipboard.writeText(buildSubmissionText());
+        await navigator.clipboard.writeText(text);
         submitCopy.textContent = T('edit_submit_copy_done');
         setTimeout(() => { submitCopy.textContent = T('edit_submit_copy'); }, 1800);
       } catch (e) {
-        prompt(T('edit_submit_copy_fallback'), buildSubmissionText().slice(0, 2000));
+        // Clipboard API failed — likely too long. Offer the download path
+        // instead of dumping a truncated prompt() blob.
+        if (text.length > 5000) {
+          const name = downloadSubmissionFile();
+          alert(T('edit_submit_copy_too_large', { name }));
+        } else {
+          prompt(T('edit_submit_copy_fallback'), text.slice(0, 2000));
+        }
       }
     });
     const clearAllBtn = document.getElementById('edit-clear-all');
@@ -1300,9 +2155,12 @@
 
     function collectAssetUrls() {
       const urls = new Set();
-      // Page shell — relative URLs so they match against this event scope
-      ['', 'index.html', 'app.js', 'event.js', 'i18n.js', 'filters.js', 'data.js',
-       'style.css', 'manifest.json', 'icon.svg', 'map.jpg', 'og.png'].forEach(u => urls.add(u));
+      // Page shell — relative URLs so they match against this event scope.
+      // Per-event files live under <slug>/, shared shell files live at ../
+      ['', 'index.html', 'event.js', 'filters.js', 'data.js',
+       'manifest.json', 'map.jpg', 'og.png'].forEach(u => urls.add(u));
+      ['../app.js', '../style.css', '../i18n.js', '../icon.svg', '../circles.js']
+        .forEach(u => urls.add(u));
       // Booth cover images — both original and ?name=small thumbnail variants
       booths.forEach(b => {
         const covers = b.cover_urls && b.cover_urls.length
