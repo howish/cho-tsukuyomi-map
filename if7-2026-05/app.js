@@ -303,9 +303,18 @@
   }
   const favs = loadFavs();
 
-  const booths = (window.BOOTHS || []).slice().sort((a, b) => {
-    return a.booth_id.localeCompare(b.booth_id);
-  });
+  // Hydrate booths with circle data from window.CIRCLES_BY_ID (circles.js).
+  const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
+  const booths = (window.BOOTHS || []).slice().map(b => {
+    const c = CIRCLES_BY_ID[b.circle_id] || {};
+    return Object.assign({
+      circle_name: c.circle_name || '',
+      author: c.author || '',
+      x_handle: c.x_handle || '',
+      x_url: c.x_url || '',
+      socials: c.socials || [],
+    }, b);
+  }).sort((a, b) => a.booth_id.localeCompare(b.booth_id));
 
   // Compute warnings into [code, label, sourceUrl?] tuples at load time so
   // the render code can iterate uniformly. data.js stores warnings as

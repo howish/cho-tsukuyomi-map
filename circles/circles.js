@@ -1,11 +1,7 @@
 /**
- * Circles index — runtime aggregation across all event guides.
- *
- * 1. Fetch ../events.json
- * 2. For each event with a slug, fetch <slug>/data.js (raw JS, eval the
- *    window.BOOTHS assignment inside an isolated context)
- * 3. Group booths by x_handle (fallback: circle_name + author)
- * 4. Render list with search + multi-event filter
+ * Circles index — reads window.CIRCLES_BY_ID (from ../circles.js, the
+ * single source of truth) and renders. No per-event data.js loading needed
+ * because circles.json now embeds the events list for each circle.
  */
 (function() {
   function el(tag, attrs, children) {
@@ -25,114 +21,13 @@
     return e;
   }
 
-  // Eval a remote data.js (which sets window.BOOTHS) in an isolated scope —
-  // we don't want it to mutate our real `window`. Use Function constructor
-  // with a sandbox object.
-  function evalDataJs(src) {
-    const sandbox = {};
-    const fn = new Function('window', src);
-    fn(sandbox);
-    return sandbox.BOOTHS || [];
-  }
-
-  function fetchText(url) {
-    return fetch(url, { cache: 'no-cache' }).then(r => {
-      if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
-      return r.text();
-    });
-  }
-
-  function loadEventBooths(ev) {
-    return fetchText('../' + ev.slug + '/data.js?v=' + Date.now())
-      .then(src => ({ ev, booths: evalDataJs(src) }))
-      .catch(err => {
-        console.warn('skip', ev.slug, err);
-        return { ev, booths: [] };
-      });
-  }
-
-  function normUrl(u) {
-    if (!u) return '';
-    return u.replace(/^https?:\/\//, '')
-            .replace(/^www\./, '')
-            .replace(/[?#].*$/, '')
-            .replace(/\/+$/, '')
-            .toLowerCase();
-  }
-
-  // Note: data.js socials[].url + x_url are pre-normalized to profile URL
-  // by scripts/normalize_socials.py (run at edit/deploy time).
-  // No runtime URL massaging — single source of truth is the data file.
-
-  function aggregateCircles(eventGroups) {
-    // Key by x_handle (lowercase) → circle data
-    // Fallback key: circle_name|author
-    const byKey = new Map();
-    for (const { ev, booths } of eventGroups) {
-      for (const b of booths) {
-        const key = (b.x_handle && b.x_handle.toLowerCase()) ||
-                    (b.circle_name + '|' + (b.author || ''));
-        if (!byKey.has(key)) {
-          byKey.set(key, {
-            key,
-            circle_name: b.circle_name,
-            author: b.author,
-            x_handle: b.x_handle || '',
-            x_url: b.x_url || '',
-            events: [],
-            socials: [],         // [{ platform, handle, url }]
-            _seenSocialUrls: new Set(),
-          });
-        }
-        const entry = byKey.get(key);
-        // Prefer latest non-empty value
-        if (b.circle_name && !entry.circle_name) entry.circle_name = b.circle_name;
-        if (b.author && !entry.author) entry.author = b.author;
-        if (b.x_handle && !entry.x_handle) entry.x_handle = b.x_handle;
-        if (b.x_url && !entry.x_url) entry.x_url = b.x_url;
-        entry.events.push({
-          slug: ev.slug,
-          name: ev.short_name || ev.name,
-          date: ev.date,
-          booth_id: b.booth_id,
-        });
-        // Treat x_handle/x_url as an implicit X social (older event data
-        // doesn't always populate the socials array). Normalize x_url to a
-        // profile URL — some events store specific status URLs there.
-        const allSocials = [...(b.socials || [])];
-        if (b.x_handle) {
-          allSocials.unshift({
-            platform: 'x',
-            handle: '@' + b.x_handle,
-            url: 'https://x.com/' + b.x_handle,
-          });
-        }
-        // Merge socials (dedupe by normalized URL).
-        for (const s of allSocials) {
-          if (!s || !s.url) continue;
-          const norm = normUrl(s.url);
-          if (!norm || entry._seenSocialUrls.has(norm)) continue;
-          entry._seenSocialUrls.add(norm);
-          entry.socials.push({
-            platform: s.platform || 'generic',
-            handle: s.handle || '',
-            url: s.url,
-          });
-        }
-      }
-    }
-    // Clean up internal sets before returning
-    for (const v of byKey.values()) delete v._seenSocialUrls;
-    return [...byKey.values()];
-  }
-
   const PLATFORM_ICON = {
     x: '𝕏', plurk: 'P', fb: 'f', ig: '📷', threads: '@', pixiv: 'px',
     bsky: '🦋', doujin_tw: '同人', aggregator: '🔗', booth_pm: '🛒',
     wix: '🌐', blog: '📝', gamer: '🎮', generic: '🔗',
   };
 
-  // Sort: multi-event first, then alphabetical (circle_name then handle)
+  // Sort: multi-event first, then alphabetical
   function sortCircles(circles) {
     return circles.sort((a, b) => {
       const ad = b.events.length - a.events.length;
@@ -154,13 +49,11 @@
     if (c.author) head.appendChild(el('span', { class: 'circle-author' }, c.author));
     row.appendChild(head);
 
-    // Social link chips (one per platform — dedupe handled in aggregate)
-    if (c.socials.length) {
+    // Social link chips
+    if (c.socials && c.socials.length) {
       const linkRow = el('div', { class: 'circle-links' });
-      // Sort: X first, then others by platform name
       const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
-      c.socials.sort((a, b) => order(a) - order(b));
-      for (const s of c.socials) {
+      c.socials.slice().sort((a, b) => order(a) - order(b)).forEach(s => {
         const label = (PLATFORM_ICON[s.platform] || '🔗') +
                       (s.handle ? ' ' + s.handle : ' ' + (s.platform || 'link'));
         linkRow.appendChild(el('a', {
@@ -168,25 +61,15 @@
           href: s.url, target: '_blank', rel: 'noopener',
           title: s.platform + (s.handle ? ' / ' + s.handle : ''),
         }, label));
-      }
-      row.appendChild(linkRow);
-    } else if (c.x_handle) {
-      // Edge case: x_handle present but no socials array entry (older event data)
-      const linkRow = el('div', { class: 'circle-links' });
-      linkRow.appendChild(el('a', {
-        class: 'circle-link-chip chip-x',
-        href: c.x_url || ('https://x.com/' + c.x_handle),
-        target: '_blank', rel: 'noopener',
-      }, '𝕏 @' + c.x_handle));
+      });
       row.appendChild(linkRow);
     } else {
       row.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
     }
 
+    // Event participation chips
     const evRow = el('div', { class: 'circle-events' });
-    // chronological order (oldest first)
-    c.events.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
-    for (const e of c.events) {
+    (c.events || []).forEach(e => {
       const chip = el('a', {
         class: 'circle-event-chip',
         href: '../' + e.slug + '/#' + e.booth_id,
@@ -196,7 +79,7 @@
       chip.appendChild(document.createTextNode(' '));
       chip.appendChild(el('span', { class: 'ev' }, e.name));
       evRow.appendChild(chip);
-    }
+    });
     row.appendChild(evRow);
     return row;
   }
@@ -212,7 +95,8 @@
     for (const c of allCircles) {
       if (currentFilter === 'multi' && c.events.length < 2) continue;
       if (q) {
-        const blob = [c.circle_name, c.author, c.x_handle, ...c.events.map(e => e.name)]
+        const blob = [c.circle_name, c.author, c.x_handle,
+                      ...(c.events || []).map(e => e.name)]
           .join(' ').toLowerCase();
         if (!blob.includes(q)) continue;
       }
@@ -228,21 +112,9 @@
   }
 
   // ---- bootstrap ----
-  fetch('../events.json?v=' + Date.now())
-    .then(r => r.json())
-    .then(d => {
-      const events = (d.events || []).filter(e => e.slug);
-      return Promise.all(events.map(loadEventBooths));
-    })
-    .then(eventGroups => {
-      allCircles = sortCircles(aggregateCircles(eventGroups));
-      applyFilter();
-    })
-    .catch(err => {
-      const list = document.getElementById('circles-list');
-      list.innerHTML = '<p class="error">サークル一覧の読み込みに失敗しました。</p>';
-      console.error(err);
-    });
+  const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
+  allCircles = sortCircles(Object.values(CIRCLES_BY_ID));
+  applyFilter();
 
   // Wire up search + filters
   const searchInput = document.getElementById('circles-search');
