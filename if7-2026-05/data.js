@@ -11139,7 +11139,7 @@ window.BOOTHS = [
         "url": "https://www.facebook.com/Irene309w/"
       }
     ],
-    "body": "## 📝 IF7 出展重點\n- 新刊 **『她的危險信念』** — 原創百合合本 Vol.3 (預購中、 場前售約半數以上)\n- 參與作者: 九夏 ／ 貓草 ／ 紝理 ／ 里良 ／ 黑白沙漠狐 ／ 蕗舟\n- 封面繪師: 麻繩\n- 圖示外 既刊＋合本 = 少量帶來 (看運氣)、 新刊優先\n- 出處: [合本宣傳](https://www.plurk.com/p/3imdpb1tbc) / [帶來預定](https://www.plurk.com/p/3ipiymms0h)\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **新刊 場日 完售**\n- 🟢 **場後通販 上架完了** — 新刊餘量 ＋ 再販既刊餘量\n- 出處: [Threads 通販告知](https://www.threads.com/@irene_words/post/DY98vgJE3x9)",
+    "body": "## 📝 IF7 出展重點\n- 新刊 **『她的危險信念』** — 原創百合合本 Vol.3 (預購中、 場前售約半數以上)\n- 參與作者: 九夏 ／ 貓草 ／ 紝理 ／ 里良 ／ 黑白沙漠狐 ／ 蕗舟\n- 封面繪師: 麻繩\n- 圖示外 既刊＋合本 = 少量帶來 (看運氣)、 新刊優先\n- 出處: [合本宣傳](https://www.plurk.com/p/3imdpb1tbc) / [帶來預定](https://www.plurk.com/p/3ipiymms0h)\n\n## 🎪 場後 (2026-05-30 evening)\n- ✅ **新刊『她的危險信念』 場日 完售**\n- 🟢 **場後通販 上架完了** — 新刊餘量 ＋ 再販既刊餘量 → [myship 7-11](https://myship.7-11.com.tw/general/detail/GM2402282074666) (餘本到家後数量再更新)\n- 出處: [Threads 通販告知](https://www.threads.com/@irene_words/post/DY98vgJE3x9) / [連結 post](https://www.threads.com/@irene_words/post/DY9-KY0kxAo)",
     "tags": {
       "original": true,
       "goudou": true,
