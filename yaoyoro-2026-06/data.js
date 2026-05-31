@@ -1,6 +1,6 @@
 window.BOOTHS = [
   {
-    "booth_id": "ヤオ01.02",
+    "booth_id": "ヤオ-01.02",
     "circle_name": "ふわふわパレット",
     "author": "HIRO",
     "x_handle": "fluffy_palette",
@@ -25,7 +25,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ03",
+    "booth_id": "ヤオ-03",
     "circle_name": "ほっぺ食堂",
     "author": "みちよんぽちゃん",
     "x_handle": "anmitiyon",
@@ -46,7 +46,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ04",
+    "booth_id": "ヤオ-04",
     "circle_name": "めきめき亭",
     "author": "めきめき",
     "x_handle": "mekimekix",
@@ -63,7 +63,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ05",
+    "booth_id": "ヤオ-05",
     "circle_name": "あま小屋",
     "author": "あまみつき",
     "x_handle": "amtkmituki",
@@ -84,7 +84,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ06",
+    "booth_id": "ヤオ-06",
     "circle_name": "えんどろ〜る",
     "author": "しょうぽん",
     "x_handle": "shopon1201",
@@ -96,7 +96,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ07",
+    "booth_id": "ヤオ-07",
     "circle_name": "巣穴",
     "author": "たぬき",
     "x_handle": "kitanaitanuki",
@@ -113,7 +113,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ08",
+    "booth_id": "ヤオ-08",
     "circle_name": "モチ屋",
     "author": "ホシモチ",
     "x_handle": "omochidry",
@@ -134,7 +134,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ09",
+    "booth_id": "ヤオ-09",
     "circle_name": "さくら研究室",
     "author": "桜真咲",
     "x_handle": "masaki_sakura",
@@ -155,7 +155,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ10",
+    "booth_id": "ヤオ-10",
     "circle_name": "うじゃと屋",
     "author": "うじゃじゃじゃ",
     "x_handle": "ujat_47",
@@ -167,7 +167,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ11",
+    "booth_id": "ヤオ-11",
     "circle_name": "カフェイン中毒",
     "author": "俺俺俺俺",
     "x_handle": "Huskychuk",
@@ -179,7 +179,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ12",
+    "booth_id": "ヤオ-12",
     "circle_name": "東ガル会",
     "author": "快楽園梅香",
     "x_handle": "SENBAKO1",
@@ -191,7 +191,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ13",
+    "booth_id": "ヤオ-13",
     "circle_name": "GUNP",
     "author": "GUNP",
     "x_handle": "gunp_m",
@@ -203,7 +203,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ14",
+    "booth_id": "ヤオ-14",
     "circle_name": "百合喫茶店",
     "author": "ビー",
     "x_handle": "yurikissaten",
@@ -220,7 +220,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ15",
+    "booth_id": "ヤオ-15",
     "circle_name": "なむあーる",
     "author": "ちゃなつ!",
     "x_handle": "nanashiwan",
@@ -237,7 +237,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ16",
+    "booth_id": "ヤオ-16",
     "circle_name": "製麺所",
     "author": "めん",
     "x_handle": "A_n_Tu_len",
@@ -249,7 +249,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ17.18",
+    "booth_id": "ヤオ-17.18",
     "circle_name": "umaura.",
     "author": "るべ",
     "x_handle": "umaauraa5",
@@ -266,7 +266,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ19",
+    "booth_id": "ヤオ-19",
     "circle_name": "しろつめ亭",
     "author": "えいじゅん",
     "x_handle": "EijuneSound",
@@ -283,7 +283,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ20",
+    "booth_id": "ヤオ-20",
     "circle_name": "EXTRA SYSTEM.",
     "author": "YUTO HIGUCHI",
     "x_handle": "YUTO_HIGUCHI_",
@@ -304,7 +304,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ21",
+    "booth_id": "ヤオ-21",
     "circle_name": "star Kzer",
     "author": "霧崎",
     "x_handle": "star_Kzer",
@@ -316,7 +316,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ22",
+    "booth_id": "ヤオ-22",
     "circle_name": "〜狂堂〜",
     "author": "シミヤ",
     "x_handle": "YukkuriShimiya",
@@ -333,7 +333,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ23",
+    "booth_id": "ヤオ-23",
     "circle_name": "玄米炭酸水",
     "author": "そばがき、巽ぺーた",
     "x_handle": "zuzuzu_222",
@@ -345,7 +345,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ24",
+    "booth_id": "ヤオ-24",
     "circle_name": "カゲノテラス",
     "author": "マミハ",
     "x_handle": "",
@@ -357,7 +357,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ25",
+    "booth_id": "ヤオ-25",
     "circle_name": "北のそい屋",
     "author": "そやす",
     "x_handle": "soyas_",
@@ -386,7 +386,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ26",
+    "booth_id": "ヤオ-26",
     "circle_name": "はっぱどおり",
     "author": "ahonok",
     "x_handle": "",
@@ -398,7 +398,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ27",
+    "booth_id": "ヤオ-27",
     "circle_name": "SPECIAL ONE",
     "author": "えいゆう",
     "x_handle": "Eiyuuu7777",
@@ -415,7 +415,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ28",
+    "booth_id": "ヤオ-28",
     "circle_name": "雛菊書房",
     "author": "小鳥遊 昴",
     "x_handle": "HinagikuBooks",
@@ -432,7 +432,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ29",
+    "booth_id": "ヤオ-29",
     "circle_name": "ホワイトフォンダンショコラ",
     "author": "ポポロン",
     "x_handle": "meiliismywife",
@@ -444,7 +444,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ30",
+    "booth_id": "ヤオ-30",
     "circle_name": "沈黙の放課後",
     "author": "つきせ",
     "x_handle": "tukise_after",
@@ -461,7 +461,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ31",
+    "booth_id": "ヤオ-31",
     "circle_name": "ネコキャット団",
     "author": "団長",
     "x_handle": "d_tk2",
@@ -473,7 +473,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ32",
+    "booth_id": "ヤオ-32",
     "circle_name": "熱帯夜",
     "author": "Atu",
     "x_handle": "Atu_110_011",
@@ -490,7 +490,7 @@ window.BOOTHS = [
     ]
   },
   {
-    "booth_id": "ヤオ33",
+    "booth_id": "ヤオ-33",
     "circle_name": "ピアノロック組",
     "author": "ピアノロック・ヤクザ、たっくん",
     "x_handle": "pianorock_y",
@@ -502,7 +502,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ34",
+    "booth_id": "ヤオ-34",
     "circle_name": "papercraft工房おりがみ",
     "author": "イチ",
     "x_handle": "papercraorigami",
@@ -514,7 +514,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ35",
+    "booth_id": "ヤオ-35",
     "circle_name": "ソーイング電柱",
     "author": "おかくま",
     "x_handle": "oka_3d_01",
@@ -526,7 +526,7 @@ window.BOOTHS = [
     "cover_urls": []
   },
   {
-    "booth_id": "ヤオ36",
+    "booth_id": "ヤオ-36",
     "circle_name": "にゃんるい会",
     "author": "ステルスにゃんこ、幸春るいか",
     "x_handle": "nyanruikai",
