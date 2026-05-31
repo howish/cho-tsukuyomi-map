@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-"""Regenerate each event's index.html from _index_template.html (root SSOT).
+"""Generate event index.html from _index_template.html (starter template).
+
+By default this is a ONE-SHOT bootstrap helper: each event's index.html is
+hand-editable after creation, and this script SKIPS events that already have
+one (won't clobber hand edits).
+
+Use cases:
+- New event setup: `--only <slug>` to populate the starter index.html
+- Reset to template: `--force` to overwrite (use sparingly — wipes per-event
+  customisations to DOM / inline scripts)
 
 Per-event values are extracted from event.js (window.EVENT_CONFIG):
 - language → <html lang="...">
@@ -7,9 +16,7 @@ Per-event values are extracted from event.js (window.EVENT_CONFIG):
 - og_description → meta description + og:description + twitter:description
 
 Per-event override file _index_overrides.json (optional) can pin og:url / og:image
-or other rare per-event tweaks if the heuristics aren't enough.
-
-Run after editing _index_template.html or event.js metadata.
+or other rare per-event tweaks.
 """
 from __future__ import annotations
 
@@ -73,6 +80,20 @@ def build_html(slug: str, ev_dir: Path, template: str, ver: str) -> str:
 
 
 def main():
+    import argparse
+    p = argparse.ArgumentParser(
+        description="Generate event index.html from _index_template.html.\n\n"
+                    "Default: skips events that already have index.html (treats them as "
+                    "hand-edited / authoritative). Use --force to overwrite, or "
+                    "--only <slug> to scope to one event (typical: bootstrap one-shot)."
+    )
+    p.add_argument('--only', metavar='SLUG',
+                   help='Only generate this slug (others skipped)')
+    p.add_argument('--force', action='store_true',
+                   help='Overwrite even if <slug>/index.html already exists '
+                        '(default: skip to respect hand edits)')
+    args = p.parse_args()
+
     root = Path(__file__).parent.parent
     template_file = root / '_index_template.html'
     if not template_file.is_file():
@@ -85,8 +106,12 @@ def main():
         if not (ev_dir / 'event.js').is_file(): continue
         if ev_dir.name in {'scripts', 'circles'}: continue
         slug = ev_dir.name
-        html = build_html(slug, ev_dir, template, ver)
+        if args.only and slug != args.only: continue
         target = ev_dir / 'index.html'
+        if target.exists() and not args.force and not args.only:
+            print(f'skip {slug}/index.html (exists; --force to overwrite)')
+            continue
+        html = build_html(slug, ev_dir, template, ver)
         target.write_text(html, encoding='utf-8')
         print(f'wrote {slug}/index.html (v={ver})')
 
