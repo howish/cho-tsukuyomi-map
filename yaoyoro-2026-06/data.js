@@ -5,11 +5,24 @@ window.BOOTHS = [
     "author": "HIRO",
     "x_handle": "fluffy_palette",
     "x_url": "https://x.com/fluffy_palette",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 執筆中** — ツクヨミでの彩葉たちをたくさん描いた内容予定、 表紙デザイン 2案 進行中\n- 進捗: 5/29 ペン入れ終了 → 5/30 下塗り 2/3\n\n## 📦 既刊 委託通販\n- **メロンブックス委託**: [『ハッピーエンドパンケーキ』 / 『八千年分お願いがあるんだ いいかな？』 / 『なかよしのやつ！』](https://www.melonbooks.co.jp/search/search.php?name=fluffy_palette&category_ids%5B%5D=&category_ids%5B%5D=4&category_ids%5B%5D=80&category_ids%5B%5D=4&search_kind=keyword&pageno=1&disp_number=20) 在庫入荷済\n- 『胸懐サクセッション』 メロン通販分 在庫切れ → 店舗分まわし申請中\n- 出處: [新刊進捗 ペン入れ](https://x.com/fluffy_palette/status/2060379455651238284) / [既刊メロン入荷](https://x.com/fluffy_palette/status/2059092392993845450) / [胸懐サクセッション 在庫状況](https://x.com/fluffy_palette/status/2059124397894750418)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJNczqIasAAYMuA.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJNczqIasAAYMuA.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJNc1L3aUAA5zLm.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJNc1L3aUAA5zLm.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJNc23Ja8AADjHS.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJNc23Ja8AADjHS.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ03",
@@ -17,11 +30,20 @@ window.BOOTHS = [
     "author": "みちよんぽちゃん",
     "x_handle": "anmitiyon",
     "x_url": "https://x.com/anmitiyon",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 超かぐや姫 FA 系作家 (@anmitiyon)\n- 直近 FA: 独占欲が強い彩葉とそれが嬉しい月見ヤチヨ / いろいろヤッチョ / 溶けヤッチョ / 名曲の歌詞を深読みして涙する忠犬オタ公 等\n- 頒布物詳細は当日告知待ち\n- 出處: [FA 連投 5/27〜5/30](https://x.com/anmitiyon)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJk3ATLbUAEG6Hj.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJk3ATLbUAEG6Hj.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJfsnOebkAAryYk.png",
+        "display_url": "https://pbs.twimg.com/media/HJfsnOebkAAryYk.png"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ04",
@@ -29,11 +51,16 @@ window.BOOTHS = [
     "author": "めきめき",
     "x_handle": "mekimekix",
     "x_url": "https://x.com/mekimekix",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 既刊 **『超ヤチヨ会！』** — ロリヤッチョたちわちゃわちゃ + いろヤチ\n- 「ヤオヨローでも事前のサークル交流タイムが許されればめきも開幕即一時閉展して走り出さなくても済む」発言から、買い物全力モード予定\n- 出處: [『超ヤチヨ会！』 RP感謝](https://x.com/mekimekix/status/2060336813974470956)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJnnsulbQAE3m6O.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJnnsulbQAE3m6O.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ05",
@@ -41,11 +68,20 @@ window.BOOTHS = [
     "author": "あまみつき",
     "x_handle": "amtkmituki",
     "x_url": "https://x.com/amtkmituki",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 作業中** (5/30 時点)\n- 直近 FA: ヤチヨのアバター衣装 (肩出しオフショルダー) / かぐやに遠慮しちゃうヤチヨを甘やかす彩葉 / 本編の彩葉を鑑賞する10年後 3人 等\n- 出處: [新刊作業中](https://x.com/amtkmituki/status/2060670178028146837) / [甘やかす彩葉](https://x.com/amtkmituki/status/2060293074895733067)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJj4cuqbAAAjcaN.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJj4cuqbAAAjcaN.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ06",
@@ -53,7 +89,7 @@ window.BOOTHS = [
     "author": "しょうぽん",
     "x_handle": "shopon1201",
     "x_url": "https://x.com/shopon1201",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@shopon1201 X profile](https://x.com/shopon1201)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -65,11 +101,16 @@ window.BOOTHS = [
     "author": "たぬき",
     "x_handle": "kitanaitanuki",
     "x_url": "https://x.com/kitanaitanuki",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊『最低ですね酒寄所長シリーズ 再録 + 書き下ろし』** + ゴトーさんによる **『研究員の設定イラストペーパー』** 同梱\n- 再録部分は X で公開済 ([@kitanaitanuki まとめ](https://x.com/kitanaitanuki))\n- 出處: [本攤 お品書き告知](https://x.com/kitanaitanuki/status/2060566785641120185)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ08",
@@ -77,11 +118,20 @@ window.BOOTHS = [
     "author": "ホシモチ",
     "x_handle": "omochidry",
     "x_url": "https://x.com/omochidry",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 いろろか本** — 「頑張って当日出します。出ることを祈っていてください。🙏」\n- 脱稿次第 お品書き + サンプル 公開予定\n- 出處: [いろろか本 進捗告知](https://x.com/omochidry/status/2060536442808668509) / [脱稿待ち](https://x.com/omochidry/status/2060637270219350289)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJh--MvagAA1ppA.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJh--MvagAA1ppA.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ09",
@@ -89,11 +139,20 @@ window.BOOTHS = [
     "author": "桜真咲",
     "x_handle": "masaki_sakura",
     "x_url": "https://x.com/masaki_sakura",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 既刊シリーズ多数 (汚!かぐや姫、10年後のかぐや姫、ヤチヨFA等)\n- 紙の本のみ、メロンブックス様に委託\n\n## 📦 委託先\n- BOOTH (自家通販) / メロンブックス / 虎の穴 / FANZA / DLsite / ZIN / ブックメイト\n- 出處: [委託先 まとめ](https://x.com/masaki_sakura/status/2060934800568160391) / [メロン委託 告知](https://x.com/masaki_sakura/status/2060646319853822031)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJji5_caoAA2N-I.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJji5_caoAA2N-I.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/G9LLemkbgAA5BRZ.jpg",
+        "display_url": "https://pbs.twimg.com/media/G9LLemkbgAA5BRZ.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ10",
@@ -101,7 +160,7 @@ window.BOOTHS = [
     "author": "うじゃじゃじゃ",
     "x_handle": "ujat_47",
     "x_url": "https://x.com/ujat_47",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 描いてます** (5/28 時点)\n- グッズ **「ミニヤッチョまみれ！！！」** — 前イベントで完売、 メロン通販 完売、 増産中 → 頒布完了次第 メロン再販\n- 出處: [ミニヤッチョ メロン完売告知](https://x.com/ujat_47/status/2058693495595143384) / [再販予定](https://x.com/ujat_47/status/2059097457750106275) / [新刊描く](https://x.com/ujat_47/status/2059867149221708275)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -113,7 +172,7 @@ window.BOOTHS = [
     "author": "俺俺俺俺",
     "x_handle": "Huskychuk",
     "x_url": "https://x.com/Huskychuk",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@Huskychuk X profile](https://x.com/Huskychuk)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -125,7 +184,7 @@ window.BOOTHS = [
     "author": "快楽園梅香",
     "x_handle": "SENBAKO1",
     "x_url": "https://x.com/SENBAKO1",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@SENBAKO1 X profile](https://x.com/SENBAKO1)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -137,7 +196,7 @@ window.BOOTHS = [
     "author": "GUNP",
     "x_handle": "gunp_m",
     "x_url": "https://x.com/gunp_m",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@gunp_m X profile](https://x.com/gunp_m) / [サークルサイト GUNP](http://gunp.jp/)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -149,11 +208,16 @@ window.BOOTHS = [
     "author": "ビー",
     "x_handle": "yurikissaten",
     "x_url": "https://x.com/yurikissaten",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 『テールズ・オブ・かぐいろ』** — 百合喫茶店初の同人誌、 **いろかぐ**\n- B5 / 16P / モノクロ / 4コマ / **¥500**\n- 出處: [本攤 お品書き告知](https://x.com/yurikissaten/status/2060319947297837449)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ15",
@@ -161,11 +225,16 @@ window.BOOTHS = [
     "author": "ちゃなつ!",
     "x_handle": "nanashiwan",
     "x_url": "https://x.com/nanashiwan",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- FA作家 (某うどんそばのCMネタ FA等)\n- 頒布物詳細は当日告知待ち\n- 出處: [@nanashiwan X profile](https://x.com/nanashiwan)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ16",
@@ -173,7 +242,7 @@ window.BOOTHS = [
     "author": "めん",
     "x_handle": "A_n_Tu_len",
     "x_url": "https://x.com/A_n_Tu_len",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 — 本編中のヤチヨ視点の小説**\n- マチアソビ トークショーで「日付の整合性について」あえてノーコメントとされた部分を含む、映画版と小説版の違いにフォーカス\n- 余り次第 通販 ＋ 別イベント参加 検討中\n- 出處: [本攤 告知 (pianorock RT より)](https://x.com/pianorock_y/status/2060254601908207643) / [通販検討](https://x.com/A_n_Tu_len/status/2059935247454924964)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -185,11 +254,16 @@ window.BOOTHS = [
     "author": "るべ",
     "x_handle": "umaauraa5",
     "x_url": "https://x.com/umaauraa5",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 3冊** (全 R-18 / 特殊装丁あり):\n  - ① **『われても未に』** B5 / 40P / 特殊装丁 / R-18 / ¥800\n  - ② **『朝明けが来るまで、泡沫の夢を見せて』** B5 / 20P / 4色 + 蛍光ピンク / R-18 / ¥400\n  - ③ **『どんなキミでも好きだからわからせてやるよ』** B5 / 16P / R-18 / ¥300\n- 冊子デザイン: あきちゃ ([@akichazuke](https://x.com/akichazuke)) — 特殊紙とイラストの相性が良い装丁\n- 多分余って次のイベントに持ち込む見込み — 通販対応可能性あり、 マシュマロで連絡 OK\n- 出處: [新刊3冊 告知](https://x.com/umaauraa5/status/2060554171032711493) / [お品書き画像](https://x.com/umaauraa5/status/2060696666177782151) / [通販可能性](https://x.com/umaauraa5/status/2060627043499593886)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ19",
@@ -197,11 +271,16 @@ window.BOOTHS = [
     "author": "えいじゅん",
     "x_handle": "EijuneSound",
     "x_url": "https://x.com/EijuneSound",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 次場予定: 7/5 超ツクヨミ祭!1.5 で新刊予定 (表から読むとかぐや本/ひっくり返すとヤチヨ本になる特殊装丁 検討中)\n- 出處: [ツクヨミ祭1.5 新刊検討](https://x.com/EijuneSound/status/2060342509583384860)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJjtjEHagAApKuj.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJjtjEHagAApKuj.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ20",
@@ -209,11 +288,20 @@ window.BOOTHS = [
     "author": "YUTO HIGUCHI",
     "x_handle": "YUTO_HIGUCHI_",
     "x_url": "https://x.com/YUTO_HIGUCHI_",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊『わたしの手でふれたくて』** ¥600\n- 既刊: 10年後 5人セリフ FA「ヤチヨ『FUSHIに乗れ。でなければ帰れ』 / カグヤ『ただ彩葉と一緒にいるとポカポカする』 / ロカ『好意に値するよ、好きってことさ』 / アキラ『FUSHIにだけは乗らんでくださいよ！』 / マミ『いきなさい彩葉！誰かのためじゃない、あなた自身の願いのために！』」 — 連投ネタ\n- 9月オンリー 2日連続出展予定 (激重ドシリアス漫画 + スーパーウルトラハッピーギャグ漫画 落差ネタ)\n- 出處: [本攤 新刊告知](https://x.com/YUTO_HIGUCHI_/status/2058865661368262737) / [10年後5人セリフFA](https://x.com/YUTO_HIGUCHI_/status/2060633354048057759)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJng_jibQAAFShB.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJng_jibQAAFShB.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJjVzCyaAAADP1B.png",
+        "display_url": "https://pbs.twimg.com/media/HJjVzCyaAAADP1B.png"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ21",
@@ -221,7 +309,7 @@ window.BOOTHS = [
     "author": "霧崎",
     "x_handle": "star_Kzer",
     "x_url": "https://x.com/star_Kzer",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 直近 X 活動なし (2025年4月以降 post なし)\n- 頒布物詳細は当日告知待ち\n- 出處: [@star_Kzer X profile](https://x.com/star_Kzer)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -233,11 +321,16 @@ window.BOOTHS = [
     "author": "シミヤ",
     "x_handle": "YukkuriShimiya",
     "x_url": "https://x.com/YukkuriShimiya",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **校正中** (5/29 時点) — 「校正する前にやっぱり浴びておかないとね！」\n- 頒布物詳細は当日告知待ち\n- 出處: [校正進捗](https://x.com/YukkuriShimiya/status/2060505960440082558)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJhjPgea8AAyrkD.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJhjPgea8AAyrkD.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ23",
@@ -245,7 +338,7 @@ window.BOOTHS = [
     "author": "そばがき、巽ぺーた",
     "x_handle": "zuzuzu_222",
     "x_url": "https://x.com/zuzuzu_222",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 原稿執筆中 (5/30 時点) — 「原稿終わらせたら彩葉に甘えまくるヤチヨを描くんだ………絶対にだ」\n- 五感実装実験 ヤチヨ × 彩葉 ぺたぺた妄想 連投中 (CP: いろヤチ)\n- 出處: [原稿進捗](https://x.com/zuzuzu_222/status/2060744161851269531)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -257,7 +350,7 @@ window.BOOTHS = [
     "author": "マミハ",
     "x_handle": "",
     "x_url": "",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 公式 SNS handle 情報なし (5/27 ケットコム ページ 更新)\n- 頒布物詳細不明",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -269,11 +362,28 @@ window.BOOTHS = [
     "author": "そやす",
     "x_handle": "soyas_",
     "x_url": "https://x.com/soyas_",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 『わたしたちのタカラバコ』** — 日常ギャグ4コマ漫画本\n- ゲスト原稿: はにわ ([@820PWr18](https://x.com/820PWr18)) / 射和 ([@uma_izawa](https://x.com/uma_izawa))\n- 会場残部出た場合は **後日通販予定**\n- 出處: [本攤 お品書き告知](https://x.com/soyas_/status/2059265328040067223) / [ゲスト原稿 / 通販予定](https://x.com/soyas_/status/2059265448152330301)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJP59VnbwAASy8_.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJP59VnbwAASy8_.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJP6Blfa0AAeB_r.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJP6Blfa0AAeB_r.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJP6DBgbgAAoOTV.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJP6DBgbgAAoOTV.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJP6EOUbgAAOBUu.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJP6EOUbgAAOBUu.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ26",
@@ -281,7 +391,7 @@ window.BOOTHS = [
     "author": "ahonok",
     "x_handle": "",
     "x_url": "",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 公式 SNS handle 情報なし\n- 頒布物詳細不明",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -293,11 +403,16 @@ window.BOOTHS = [
     "author": "えいゆう",
     "x_handle": "Eiyuuu7777",
     "x_url": "https://x.com/Eiyuuu7777",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 初の同人イベント参加 (前イベント: 4/29 ブルーマーケット27、姫木メル R-18 漫画 出展)\n- 頒布物詳細は当日告知待ち\n- 出處: [初参加告知](https://x.com/Eiyuuu7777/status/2048860860819587318) / [前作 姫木メル本](https://x.com/Eiyuuu7777/status/2048860688362430794)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg",
+        "display_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ28",
@@ -305,11 +420,16 @@ window.BOOTHS = [
     "author": "小鳥遊 昴",
     "x_handle": "HinagikuBooks",
     "x_url": "https://x.com/HinagikuBooks",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 執筆中** (5/29 時点)、 表紙 相川結月 ([@aikawa_yuduki](https://x.com/aikawa_yuduki)) 担当、 **ヤチいろ**\n- 週明け入稿予定 → お品書き公開予定\n- 直近 イベント 3連続: ヤオヨロー (6/7) → ツクヨミスクエア → 超ツクヨミ祭!1.5 (7/5 立川)\n\n## 📦 既刊 委託通販\n- 雛菊書房 [BOOTH](https://hinagikubooks.booth.pm/) 再開、 既刊各種あり (先日新刊「異書奇譚 総集編+イラスト合同」は現地完売・通販なし)\n- 出處: [新刊進捗 + 表紙サンプル](https://x.com/HinagikuBooks/status/2060354222978441670) / [3連続出展告知](https://x.com/HinagikuBooks/status/2059125301045817560) / [BOOTH再開告知](https://x.com/HinagikuBooks/status/2060584525579887085)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ29",
@@ -317,7 +437,7 @@ window.BOOTHS = [
     "author": "ポポロン",
     "x_handle": "meiliismywife",
     "x_url": "https://x.com/meiliismywife",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@meiliismywife X profile](https://x.com/meiliismywife)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -329,11 +449,16 @@ window.BOOTHS = [
     "author": "つきせ",
     "x_handle": "tukise_after",
     "x_url": "https://x.com/tukise_after",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 直近FA: パインとヤッチョ 🍍🐙 (5/31)\n- 出處: [パインとヤッチョFA](https://x.com/tukise_after/status/2060913741592670291)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJnWHzYasAAf5hE.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJnWHzYasAAf5hE.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ31",
@@ -341,7 +466,7 @@ window.BOOTHS = [
     "author": "団長",
     "x_handle": "d_tk2",
     "x_url": "https://x.com/d_tk2",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 申込告知のみ (4/11) — 頒布物詳細未公開\n- 出處: [申込告知](https://x.com/d_tk2/status/2042966507114958894)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -353,11 +478,16 @@ window.BOOTHS = [
     "author": "Atu",
     "x_handle": "Atu_110_011",
     "x_url": "https://x.com/Atu_110_011",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 『My playlist』** (イラスト集 同人誌)\n- B5 / 14P / フルカラー / **¥500**\n- 当日 **20部** 持ち込み、 **事後通販 未定**\n- 出處: [本攤 お品書き告知](https://x.com/Atu_110_011/status/2059607353465729179)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJUxzVDbUAAUFxD.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJUxzVDbUAAUFxD.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ33",
@@ -365,7 +495,7 @@ window.BOOTHS = [
     "author": "ピアノロック・ヤクザ、たっくん",
     "x_handle": "pianorock_y",
     "x_url": "https://x.com/pianorock_y",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **新刊 『かぐやと学ぶ 超！プログラミング』** — 技術同人誌\n- 内容: AIヤチヨチャットを作って Web アプリを学ぶ / 犬DOGE を現実で再現する / 短編小説 2篇\n- B5 / **124P** / 本文モノクロ / **¥1,000 予定**\n- 表紙: 伊藤しき ([@ItoShiki0221](https://x.com/ItoShiki0221))、色は 彩葉カラー の青\n- 出處: [本攤 お品書き告知](https://x.com/pianorock_y/status/2059573678103474537) / [表紙 — 彩葉カラー](https://x.com/pianorock_y/status/2060286866721820933)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -377,7 +507,7 @@ window.BOOTHS = [
     "author": "イチ",
     "x_handle": "papercraorigami",
     "x_url": "https://x.com/papercraorigami",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 直近 X 活動なし (2024年2月以降 post なし)\n- 頒布物詳細は当日告知待ち\n- 出處: [@papercraorigami X profile](https://x.com/papercraorigami)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -389,7 +519,7 @@ window.BOOTHS = [
     "author": "おかくま",
     "x_handle": "oka_3d_01",
     "x_url": "https://x.com/oka_3d_01",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- 頒布物詳細は当日告知待ち\n- 出處: [@oka_3d_01 X profile](https://x.com/oka_3d_01)",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -401,10 +531,19 @@ window.BOOTHS = [
     "author": "ステルスにゃんこ、幸春るいか",
     "x_handle": "nyanruikai",
     "x_url": "https://x.com/nyanruikai",
-    "body": "",
+    "body": "## 📝 ヤオヨロー！ 出展重點\n- **コスプレ写真集** 頒布予定 (絶賛編集中)\n- ⚠️ **配置 変更** (5/30 告知) — スペース名は **ヤオ36** のまま、 場所が **コスプレゾーン側** に移動\n- 出處: [本攤 告知](https://x.com/nyanruikai/status/2056678582215479352) / [配置変更告知](https://x.com/nyanruikai/status/2060615518546223367)",
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg",
+        "display_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg"
+      }
+    ]
   }
 ];
