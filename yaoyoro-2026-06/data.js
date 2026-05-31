@@ -80,6 +80,14 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg",
         "display_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJpJ6IwaIAAheMU.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJpJ6IwaIAAheMU.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJo0gVbagAAXbPX.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJo0gVbagAAXbPX.jpg"
       }
     ]
   },
@@ -239,11 +247,19 @@ window.BOOTHS = [
     "author": "ちゃなつ!",
     "x_handle": "nanashiwan",
     "x_url": "https://x.com/nanashiwan",
-    "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- 詳細は当日告知待ち、 [@nanashiwan X profile](https://x.com/nanashiwan)  (FA作家、 直近 某うどんそばのCMネタ FA 等)",
+    "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- **新刊** 超かぐや姫! 新刊本あります (具体タイトル未公表)\n- 持込量: 島中机 半スペース、 コミケ壁量 は無理 — 限定持込\n- 直近 FA: 「知ってしまった2人の関係性」 / 某うどんそばのCMネタ等\n\n出典: [本サークル お品書き告知 (5/21)](https://x.com/nanashiwan/status/2057408561274147223) / [再告知 (5/31)](https://x.com/nanashiwan/status/2061028588523299139) / [搬入量メモ](https://x.com/nanashiwan/status/2061006680838848842) / [直近 FA](https://x.com/nanashiwan/status/2061024890195435823)",
     "cps": [],
     "tags": {},
     "min_price": null,
     "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HI1XifVaQAAq9Wn.jpg",
+        "display_url": "https://pbs.twimg.com/media/HI1XifVaQAAq9Wn.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJmBKj5aMAArR-6.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJmBKj5aMAArR-6.jpg"
+      },
       {
         "source_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg",
         "display_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg"
@@ -417,26 +433,30 @@ window.BOOTHS = [
     "author": "えいゆう",
     "x_handle": "Eiyuuu7777",
     "x_url": "https://x.com/Eiyuuu7777",
-    "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- 初の同人イベント参加 (前イベント: 4/29 ブルーマーケット27、 姫木メル R-18 漫画 出展)\n- 頒布物詳細は当日告知待ち\n\n出典: [初参加告知](https://x.com/Eiyuuu7777/status/2048860860819587318) / [前作 姫木メル本](https://x.com/Eiyuuu7777/status/2048860688362430794)",
+    "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- **新刊** いろかぐ 新刊本 出ます (具体タイトル未公表、 4枚画像 お品書き)\n- ブース運営2回目 (前回: 4/29 ブルーマーケット27 で初出展、 姫木メル R-18 漫画)\n\n## 📦 既刊 委託通販\n- 「ケイちゃん本」 DL販売中 (4/29 ブルーマーケット27 既刊)\n\n出典: [本サークル お品書き告知 (5/31)](https://x.com/Eiyuuu7777/status/2061017341492654134) / [ケイちゃん本 DL感謝 (5/28)](https://x.com/Eiyuuu7777/status/2060120249249452453) / [前作 姫木メル本](https://x.com/Eiyuuu7777/status/2048860688362430794)",
     "cps": [],
     "tags": {},
     "min_price": null,
     "cover_urls": [
       {
+        "source_url": "https://pbs.twimg.com/media/HJcsd0KaoAAqHrO.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJcsd0KaoAAqHrO.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJcsd0SbEAAI0Pz.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJcsd0SbEAAI0Pz.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJcsd0UbIAAyWKW.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJcsd0UbIAAyWKW.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJcsd0TaYAAaK04.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJcsd0TaYAAaK04.jpg"
+      },
+      {
         "source_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg",
         "display_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HG8DnVuboAEHSRH.jpg",
-        "display_url": "https://pbs.twimg.com/media/HG8DnVuboAEHSRH.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HG8DnVuboAAoxe3.jpg",
-        "display_url": "https://pbs.twimg.com/media/HG8DnVuboAAoxe3.jpg"
-      },
-      {
-        "source_url": "https://pbs.twimg.com/media/HG8DnVuasAAY8iC.jpg",
-        "display_url": "https://pbs.twimg.com/media/HG8DnVuasAAY8iC.jpg"
       }
     ]
   },
