@@ -51,6 +51,15 @@
       });
   }
 
+  function normUrl(u) {
+    if (!u) return '';
+    return u.replace(/^https?:\/\//, '')
+            .replace(/^www\./, '')
+            .replace(/[?#].*$/, '')
+            .replace(/\/+$/, '')
+            .toLowerCase();
+  }
+
   function aggregateCircles(eventGroups) {
     // Key by x_handle (lowercase) → circle data
     // Fallback key: circle_name|author
@@ -67,10 +76,12 @@
             x_handle: b.x_handle || '',
             x_url: b.x_url || '',
             events: [],
+            socials: [],         // [{ platform, handle, url }]
+            _seenSocialUrls: new Set(),
           });
         }
         const entry = byKey.get(key);
-        // Prefer latest non-empty value (later events update)
+        // Prefer latest non-empty value
         if (b.circle_name && !entry.circle_name) entry.circle_name = b.circle_name;
         if (b.author && !entry.author) entry.author = b.author;
         if (b.x_handle && !entry.x_handle) entry.x_handle = b.x_handle;
@@ -81,10 +92,41 @@
           date: ev.date,
           booth_id: b.booth_id,
         });
+        // Treat x_handle/x_url as an implicit X social (older event data
+        // doesn't always populate the socials array). Normalize x_url to a
+        // profile URL — some events store specific status URLs there.
+        const allSocials = [...(b.socials || [])];
+        if (b.x_handle) {
+          allSocials.unshift({
+            platform: 'x',
+            handle: '@' + b.x_handle,
+            url: 'https://x.com/' + b.x_handle,
+          });
+        }
+        // Merge socials (dedupe by normalized URL)
+        for (const s of allSocials) {
+          if (!s || !s.url) continue;
+          const norm = normUrl(s.url);
+          if (!norm || entry._seenSocialUrls.has(norm)) continue;
+          entry._seenSocialUrls.add(norm);
+          entry.socials.push({
+            platform: s.platform || 'generic',
+            handle: s.handle || '',
+            url: s.url,
+          });
+        }
       }
     }
+    // Clean up internal sets before returning
+    for (const v of byKey.values()) delete v._seenSocialUrls;
     return [...byKey.values()];
   }
+
+  const PLATFORM_ICON = {
+    x: '𝕏', plurk: 'P', fb: 'f', ig: '📷', threads: '@', pixiv: 'px',
+    bsky: '🦋', doujin_tw: '同人', aggregator: '🔗', booth_pm: '🛒',
+    wix: '🌐', blog: '📝', gamer: '🎮', generic: '🔗',
+  };
 
   // Sort: multi-event first, then alphabetical (circle_name then handle)
   function sortCircles(circles) {
@@ -106,17 +148,36 @@
     const head = el('div', { class: 'circle-row-head' });
     head.appendChild(el('span', { class: 'circle-name' }, c.circle_name || '(無名)'));
     if (c.author) head.appendChild(el('span', { class: 'circle-author' }, c.author));
-    if (c.x_handle) {
-      const handleSpan = el('span', { class: 'circle-handle' });
-      handleSpan.appendChild(el('a', {
+    row.appendChild(head);
+
+    // Social link chips (one per platform — dedupe handled in aggregate)
+    if (c.socials.length) {
+      const linkRow = el('div', { class: 'circle-links' });
+      // Sort: X first, then others by platform name
+      const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
+      c.socials.sort((a, b) => order(a) - order(b));
+      for (const s of c.socials) {
+        const label = (PLATFORM_ICON[s.platform] || '🔗') +
+                      (s.handle ? ' ' + s.handle : ' ' + (s.platform || 'link'));
+        linkRow.appendChild(el('a', {
+          class: 'circle-link-chip chip-' + s.platform,
+          href: s.url, target: '_blank', rel: 'noopener',
+          title: s.platform + (s.handle ? ' / ' + s.handle : ''),
+        }, label));
+      }
+      row.appendChild(linkRow);
+    } else if (c.x_handle) {
+      // Edge case: x_handle present but no socials array entry (older event data)
+      const linkRow = el('div', { class: 'circle-links' });
+      linkRow.appendChild(el('a', {
+        class: 'circle-link-chip chip-x',
         href: c.x_url || ('https://x.com/' + c.x_handle),
         target: '_blank', rel: 'noopener',
-      }, '@' + c.x_handle));
-      head.appendChild(handleSpan);
+      }, '𝕏 @' + c.x_handle));
+      row.appendChild(linkRow);
     } else {
-      head.appendChild(el('span', { class: 'circle-handle' }, '(SNS handle なし)'));
+      row.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
     }
-    row.appendChild(head);
 
     const evRow = el('div', { class: 'circle-events' });
     // chronological order (oldest first)
