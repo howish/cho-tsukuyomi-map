@@ -60,6 +60,31 @@
             .toLowerCase();
   }
 
+  // Normalize a URL to the PROFILE form for each platform.
+  // Status / post URLs get stripped to author profile so chips don't fly
+  // to a specific post.
+  function toProfileUrl(platform, url, handle) {
+    if (!url) return url;
+    let m;
+    // X / Twitter: /<user>/status/<id> → /<user>
+    m = url.match(/^(https?:\/\/(?:www\.)?(?:x\.com|twitter\.com))\/([A-Za-z0-9_]+)(?:\/status\/.*)?/i);
+    if (m) return m[1] + '/' + m[2];
+    // Threads: /@user/post/CODE → /@user
+    m = url.match(/^(https?:\/\/(?:www\.)?threads\.(?:com|net))\/(@[A-Za-z0-9_.]+)(?:\/post\/.*)?/i);
+    if (m) return m[1] + '/' + m[2];
+    // Instagram: /<user>/p/<code>/ → /<user>/  ;  /p/<code>/ stays (no author known)
+    m = url.match(/^(https?:\/\/(?:www\.)?instagram\.com)\/([A-Za-z0-9_.]+)(?:\/p\/.*)?\/?$/i);
+    if (m && m[2] !== 'p' && m[2] !== 'reel') return m[1] + '/' + m[2] + '/';
+    // Bluesky: /profile/<did>/post/<rkey> → /profile/<did>
+    m = url.match(/^(https?:\/\/bsky\.app\/profile\/[^\/]+)(?:\/post\/.*)?/i);
+    if (m) return m[1];
+    // Plurk: /p/<id> = post (no canonical author from URL alone); leave as-is.
+    //         Profile is /<username> which lives separately.
+    // FB share /share/p/<id> = post; profile is /<username> (lives separately).
+    // Leave both as-is.
+    return url;
+  }
+
   function aggregateCircles(eventGroups) {
     // Key by x_handle (lowercase) → circle data
     // Fallback key: circle_name|author
@@ -103,16 +128,19 @@
             url: 'https://x.com/' + b.x_handle,
           });
         }
-        // Merge socials (dedupe by normalized URL)
+        // Merge socials (dedupe by normalized URL).
+        // First step: normalize URL to profile form per platform — so chips
+        // always go to the author's profile, never a specific post.
         for (const s of allSocials) {
           if (!s || !s.url) continue;
-          const norm = normUrl(s.url);
+          const profUrl = toProfileUrl(s.platform, s.url, s.handle);
+          const norm = normUrl(profUrl);
           if (!norm || entry._seenSocialUrls.has(norm)) continue;
           entry._seenSocialUrls.add(norm);
           entry.socials.push({
             platform: s.platform || 'generic',
             handle: s.handle || '',
-            url: s.url,
+            url: profUrl,
           });
         }
       }
