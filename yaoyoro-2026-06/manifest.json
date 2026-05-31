@@ -1,0 +1,12 @@
+{
+  "name": "同人即売会 サークルガイド",
+  "short_name": "サークルガイド",
+  "description": "Generic event guide for 同人即売会. See event.js for the real event metadata.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#6a4c93",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

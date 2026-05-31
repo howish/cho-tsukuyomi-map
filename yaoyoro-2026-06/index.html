@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Page title, html[lang], and most chrome text are injected from event.js + i18n.js at runtime;
+     these defaults are JP fallbacks for crawlers / first-paint before JS runs -->
+<title>同人即売会 サークルガイド (非公式)</title>
+<meta name="description" content="同人即売会のサークル一覧 / お品書き / 会場マップ — 非公式 fan guide template">
+<link rel="stylesheet" href="style.css?v=1780212138">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+
+<!-- OG / Twitter — values overwritten at runtime from event.js -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="同人即売会 サークルガイド">
+<meta property="og:description" content="サークル一覧 + お品書き + 会場マップ">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="同人即売会 サークルガイド">
+<meta name="twitter:image" content="og.png">
+</head>
+<body>
+<header>
+  <h1 id="event-title">🌙 ...</h1>
+  <p class="event-info" id="event-info"></p>
+  <p class="disclaimer" id="event-disclaimer"></p>
+  <div class="header-actions">
+    <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
+    <button class="offline-btn" id="offline-btn" type="button" hidden>📥 オフライン対応 ON</button>
+    <button class="edit-btn" id="edit-mode-btn" type="button">✏️ 修正モード OFF</button>
+    <button class="edit-pending-btn" id="edit-pending-btn" type="button" hidden>📤 修正案を送信 (<span id="edit-pending-count">0</span>件)</button>
+  </div>
+  <p class="offline-status" id="offline-status"></p>
+</header>
+
+<div class="edit-panel" id="edit-panel" hidden>
+  <div class="edit-panel-backdrop" id="edit-panel-backdrop"></div>
+  <div class="edit-panel-content">
+    <button class="edit-panel-close" id="edit-panel-close" type="button" aria-label="閉じる">×</button>
+    <h2 id="edit-panel-title">📤 修正案を送信</h2>
+    <p id="edit-panel-summary"></p>
+    <div class="edit-panel-actions">
+      <button type="button" id="edit-submit-github" class="edit-submit-btn primary">🐙 GitHub Issue として送信</button>
+      <button type="button" id="edit-submit-copy" class="edit-submit-btn">📋 クリップボードコピー</button>
+    </div>
+    <details class="edit-preview">
+      <summary id="edit-preview-summary">提出内容プレビュー</summary>
+      <pre id="edit-preview-text"></pre>
+    </details>
+    <div class="edit-panel-danger">
+      <button type="button" id="edit-clear-all" class="edit-clear-btn">🗑 すべての編集を破棄</button>
+    </div>
+    <p class="edit-panel-note" id="edit-panel-note">
+      submitted な修正案は維持者がレビューしてからサイトに反映されます。妥当性がない / spam 判定された case は close される場合があります。
+    </p>
+  </div>
+</div>
+
+<section class="map-section">
+  <h2 id="map-section-title">会場マップ</h2>
+  <img id="venue-map" src="map.jpg" alt="会場マップ" class="venue-map">
+  <p class="map-caption" id="map-caption"></p>
+</section>
+
+<section class="filter-section">
+  <div class="filters">
+    <div class="search-wrap">
+      <input type="search" id="search-input" placeholder="サークル名 / 作家 / X / ブース ID 検索..." class="search-input" autocomplete="off">
+      <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
+    </div>
+  </div>
+  <div class="filters filters-cp" id="filters-cp">
+    <span class="filter-row-label" id="filter-cp-label">CP</span>
+    <button class="filter-btn active" id="filter-all-btn" data-filter="all">全部</button>
+    <!-- CP buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filters filters-tag" id="filters-tag">
+    <span class="filter-row-label" id="filter-tag-label">タグ</span>
+    <button class="filter-btn" id="filter-fav-btn" data-filter="fav" title="自分でマークした お気に入りのみ表示">⭐ お気に入り</button>
+    <!-- Tag buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filter-stats" id="filter-stats"></div>
+</section>
+
+<section class="booths-section" id="booths-section">
+  <!-- Per-row grids generated at runtime from EVENT_CONFIG.rows -->
+</section>
+
+<button class="back-to-top" id="back-to-top" type="button" aria-label="トップに戻る" hidden>↑</button>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-body">
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-content">
+    <div id="modal-body"></div>
+  </div>
+  <button class="modal-close" id="modal-close" aria-label="閉じる" type="button" onclick="(function(){var m=document.getElementById('modal');m.hidden=true;m.style.display='none';document.body.style.overflow='';try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}})()">×</button>
+</div>
+
+<footer id="event-footer"></footer>
+
+<script src="event.js?v=1780212138"></script>
+<script src="i18n.js?v=1780212138"></script>
+<script src="filters.js?v=1780212138"></script>
+<script src="data.js?v=1780212138"></script>
+<script src="app.js?v=1780212138"></script>
+</body>
+</html>
