@@ -7490,12 +7490,7 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://images.plurk.com/5xLNqFmErVvciO8YJ4RGsQ.jpg",
-        "display_url": "https://images.plurk.com/5xLNqFmErVvciO8YJ4RGsQ.jpg"
-      }
-    ],
+    "cover_urls": [],
     "_meta_scrape": {
       "platform_used": "plurk",
       "image_count_avail": 1,
@@ -8439,35 +8434,6 @@ window.BOOTHS = [
         "source_url": "https://www.plurk.com/p/3ipstkx7oh",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/1.png",
         "display_locked": true
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_1Yp4fx4whTiFrVXI4KQjrz.jpg",
-        "display_url": "https://images.plurk.com/mx_1Yp4fx4whTiFrVXI4KQjrz.jpg"
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_39Xqp1hcmgBT0IwddWlvhI.jpg",
-        "display_url": "https://images.plurk.com/mx_39Xqp1hcmgBT0IwddWlvhI.jpg"
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_6u7lgDMWT0WwkBrzLF7l9k.jpg",
-        "display_url": "https://images.plurk.com/mx_6u7lgDMWT0WwkBrzLF7l9k.jpg"
-      },
-      {
-        "source_url": "https://images.plurk.com/mx_pNLytSI9GKAn4l3X4iSX4.jpg",
-        "display_url": "https://images.plurk.com/mx_pNLytSI9GKAn4l3X4iSX4.jpg"
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3ipstkx7oh",
-        "display_url": "https://images.plurk.com/mx_6LIf9RGimINLhiFOLzr4H1.jpg"
-      },
-      {
-        "source_url": "https://www.plurk.com/p/3ipstkx7oh",
-        "display_url": "https://images.plurk.com/mx_2AVaGlDmilQGwOP2bUBEnE.jpg"
-      },
-      {
-        "source_url": "https://www.facebook.com/share/p/1Y4RLou66P/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-33_34/share-1Y4RLou66P/0.jpg",
-        "display_locked": false
       }
     ],
     "_meta_scrape": {
