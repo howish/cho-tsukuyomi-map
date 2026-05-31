@@ -131,18 +131,26 @@ booth に新刊 N 冊 ある場合:
   **手作業で 加工した cover** を 「更新時に display_url を上書きしない」 保護フラグ。
   apply-issue.py の R2 orphan 検出 を bypass。
 
-### 6.4 R2 ホストは FB 専用
+### 6.4 R2 ホストは「自動 expiry CDN 系」 用
 
-R2 (`images.yachi8000.app/...`) を使うのは **FB 投稿の画像 のみ**:
-- FB の `scontent-*.fb.cdn.net` は 匿名 user-agent / 外部 referrer から hot-link block
-- → `fb_album_walk3.py` で抜いた og:image を R2 にミラーして anonymous fetch を担保
+R2 (`images.yachi8000.app/...`) を使うのは **CDN URL が自動的に expire する platform** に限定:
 
-それ以外 (X / Threads / IG / Plurk / pixiv) は **CDN 直リンクで OK**:
-- これらは anonymous fetch を許可している
-- R2 経由は バンド幅・コスト・rebuild 工数の純粋オーバーヘッド
+| Platform | CDN | 期限 | R2 使う？ |
+|---|---|---|---|
+| FB | `scontent-*.fb.cdn.net` | hot-link block + 期限 | **YES** |
+| Threads | `instagram.f*.fbcdn.net` | `oe=` token ~2ヶ月 | **YES** |
+| IG | `instagram.f*.fbcdn.net` | `oe=` token ~2ヶ月 | **YES** |
+| X (Twitter) | `pbs.twimg.com` | 期限なし (post 削除時のみ消失) | NO |
+| Plurk | `images.plurk.com` | 期限なし | NO |
+| Bluesky | `cdn.bsky.app` | 期限なし | NO |
+| pixiv | `i.pximg.net` | hot-link block (referrer 必要) — R2 にミラーする選択肢あり | TBD |
 
-過去 (cho-tsukuyomi-2026-05 / if7-2026-05) で 非 FB も R2 化していた entry は
-**順次 直 URL に戻す** ことが望ましい (新規 event では FB 以外 R2 使わない)。
+それ以外 (X / Plurk / Bsky) は **直 CDN リンクで OK** — anonymous fetch 可能 + URL stable。
+post-deletion 時は cover も消えるが、 それは著者意図として受け入れる (= 故意 archive は
+しない、 残したい場合は手動 R2 アップで `display_locked: true`)。
+
+過去 event (cho-tsukuyomi-2026-05 / if7-2026-05) で X/Plurk/Bsky を R2 化していた entry は
+**順次 直 URL に戻す** (新規 event は §6.4 適用)。 FB/Threads/IG はそのまま R2 維持。
 
 ## 7. 自虐 quote 排除
 
