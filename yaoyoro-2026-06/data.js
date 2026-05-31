@@ -164,7 +164,16 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJDCE-vbUAAoQxf.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJDCE-vbUAAoQxf.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HI13QfYboAA4E-h.jpg",
+        "display_url": "https://pbs.twimg.com/media/HI13QfYboAA4E-h.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-11",
@@ -200,7 +209,12 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HISDhgpaYAAT-pE.jpg",
+        "display_url": "https://pbs.twimg.com/media/HISDhgpaYAAT-pE.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-14",
@@ -411,6 +425,18 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg",
         "display_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HG8DnVuboAEHSRH.jpg",
+        "display_url": "https://pbs.twimg.com/media/HG8DnVuboAEHSRH.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HG8DnVuboAAoxe3.jpg",
+        "display_url": "https://pbs.twimg.com/media/HG8DnVuboAAoxe3.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HG8DnVuasAAY8iC.jpg",
+        "display_url": "https://pbs.twimg.com/media/HG8DnVuasAAY8iC.jpg"
       }
     ]
   },
@@ -428,6 +454,18 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg",
         "display_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJN7fHtbQAAcBmG.png",
+        "display_url": "https://pbs.twimg.com/media/HJN7fHtbQAAcBmG.png"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJN7g7bbAAAFFyd.png",
+        "display_url": "https://pbs.twimg.com/media/HJN7g7bbAAAFFyd.png"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJN7i3zaEAEZ2-u.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJN7i3zaEAEZ2-u.jpg"
       }
     ]
   },
@@ -499,7 +537,12 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJUH1BcbIAAGlUi.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJUH1BcbIAAGlUi.jpg"
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-34",
@@ -543,6 +586,10 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg",
         "display_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HIrKRBQawAAEph-.jpg",
+        "display_url": "https://pbs.twimg.com/media/HIrKRBQawAAEph-.jpg"
       }
     ]
   }
