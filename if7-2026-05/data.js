@@ -9165,7 +9165,7 @@ window.BOOTHS = [
         "url": "https://www.threads.com/@nekohige0123"
       }
     ],
-    "body": "- BanG Dream! It's MyGO!!!!!\n\n## 📝 IF7 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 其他尺寸網購可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標預定\n- 攤位前 停留 5分以內為佳 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)",
+    "body": "- BanG Dream! It's MyGO!!!!!\n\n## 📝 IF7 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** (喵祥喵 / 漫畫 / A5 / 20P / NTD 150、 隨書贈 明信片)\n- **迷子推し活T** (鬍鬚 design、 S~XXL / NTD 500、 其他尺寸網購可)\n- **樂奈腦洞T** (米拉 design、 M~XXL / NTD 500)\n- 米拉 喵祥喵BDSM 明信片 / 認親卡\n- **雞狗CP 吊飾** 5 種 (卉卉 @huihuihui_0w0 寄攤、 初祥 / 茜李 / 喵祥 / 愛爽 / 海希、 各 NTD 150)\n- 簽繪板 競標予定\n- 攤位前 停留 5分以内為佳 (社交電池節約)\n- 出處 (時間順): [米拉 新刊 『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 **鬍鬚 線上通販** 営業中 → [myship 7-11](https://myship.7-11.com.tw/general/detail/GM2605269948811) (場前から継続)\n- ✅ 米拉 **貓希 簽繪板 競標 成立** (場後 711 寄送)\n- 出處: [鬍鬚 撤了感謝](https://www.threads.com/@nekohige0123/post/DY9FKHHkStk) / [鬍鬚 通販宣傳](https://www.threads.com/@nekohige0123/post/DY6MOjkEZoa) / [米拉 競標感謝](https://www.threads.com/@x_milllllla_x/post/DY9z1Vej6W-)",
     "tags": {
       "bandori": true,
       "manga": true,
