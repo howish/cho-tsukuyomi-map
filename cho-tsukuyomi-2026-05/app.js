@@ -57,7 +57,15 @@
       info.innerHTML = '';
       if (EVENT.date_display) {
         info.appendChild(el('strong', null, EVENT.date_display));
-        info.appendChild(document.createTextNode(T('info_separator') + (EVENT.venue || '')));
+        info.appendChild(document.createTextNode(T('info_separator')));
+        if (EVENT.venue) {
+          const mapUrl = EVENT.venue_map_url ||
+            ('https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(EVENT.venue));
+          info.appendChild(el('a', {
+            href: mapUrl, target: '_blank', rel: 'noopener', class: 'event-venue-link',
+            title: '📍 Google マップで開く',
+          }, '📍 ' + EVENT.venue));
+        }
       }
       if (EVENT.entry_info) {
         info.appendChild(el('br'));
