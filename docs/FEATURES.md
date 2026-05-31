@@ -171,6 +171,13 @@ Add inside the `.map-zoom-viewport`:
 Drop any of the filter rows (`filters-work`, `filters-medium`, `filters-area`)
 if your event doesn't need them — they'll skip silently.
 
+**Auto-hide**: if your event's `filters.js` has an empty / undefined
+`cps` / `works` / `mediums` / `tags` / `areas` list, the corresponding row
+auto-hides at render time even if the DOM is present. So you can keep all 5
+rows in the shared `_index_template.html` and let each event's `filters.js`
+decide which rows show. The `⭐ お気に入り` button lives in `filters-tag`,
+so events that need favorites should keep at least one entry in `tags`.
+
 ### 🪧  Booth grid
 
 ```html

@@ -218,7 +218,15 @@
   function buildFilterButtons() {
     function paintRow(rowId, items, tokenPrefix) {
       const row = document.getElementById(rowId);
-      if (!row || !items) return;
+      if (!row) return;
+      // Hide the entire row when this event's filters.js doesn't define
+      // anything for this category. Lets one shared shell serve events that
+      // only need cps+tags (small fandoms) and events that use the full
+      // cps+works+mediums+tags+areas (large multi-fandom guides).
+      if (!items || !items.length) {
+        row.hidden = true;
+        return;
+      }
       items.forEach(it => {
         const btn = el('button', {
           class: 'filter-btn',
