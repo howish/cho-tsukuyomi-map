@@ -11,15 +11,15 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJNczqIasAAYMuA.jpg",
+        "source_url": "https://x.com/fluffy_palette/status/2059092392993845450",
         "display_url": "https://pbs.twimg.com/media/HJNczqIasAAYMuA.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJNc1L3aUAA5zLm.jpg",
+        "source_url": "https://x.com/fluffy_palette/status/2059092392993845450",
         "display_url": "https://pbs.twimg.com/media/HJNc1L3aUAA5zLm.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJNc23Ja8AADjHS.jpg",
+        "source_url": "https://x.com/fluffy_palette/status/2059092392993845450",
         "display_url": "https://pbs.twimg.com/media/HJNc23Ja8AADjHS.jpg"
       }
     ]
@@ -36,11 +36,11 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJk3ATLbUAEG6Hj.jpg",
+        "source_url": "https://x.com/anmitiyon/status/2060738791988715992",
         "display_url": "https://pbs.twimg.com/media/HJk3ATLbUAEG6Hj.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJfsnOebkAAryYk.png",
+        "source_url": "https://x.com/anmitiyon/status/2060375733961420833",
         "display_url": "https://pbs.twimg.com/media/HJfsnOebkAAryYk.png"
       }
     ]
@@ -57,7 +57,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJnnsulbQAE3m6O.jpg",
+        "source_url": "https://x.com/mekimekix/status/2060933784229585219",
         "display_url": "https://pbs.twimg.com/media/HJnnsulbQAE3m6O.jpg"
       }
     ]
@@ -74,19 +74,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJj4cuqbAAAjcaN.jpg",
+        "source_url": "https://x.com/amtkmituki/status/2060670011329679791",
         "display_url": "https://pbs.twimg.com/media/HJj4cuqbAAAjcaN.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg",
+        "source_url": "https://x.com/amtkmituki/status/2060293074895733067",
         "display_url": "https://pbs.twimg.com/media/HJehnVNb0AEheqy.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJpJ6IwaIAAheMU.jpg",
+        "source_url": "https://x.com/amtkmituki/status/2061041048374456649",
         "display_url": "https://pbs.twimg.com/media/HJpJ6IwaIAAheMU.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJo0gVbagAAXbPX.jpg",
+        "source_url": "https://x.com/amtkmituki/status/2061017515535573156",
         "display_url": "https://pbs.twimg.com/media/HJo0gVbagAAXbPX.jpg"
       }
     ]
@@ -115,7 +115,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg",
+        "source_url": "https://x.com/omochidry/status/2060536442808668509",
         "display_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg"
       }
     ]
@@ -132,11 +132,11 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg",
+        "source_url": "https://x.com/omochidry/status/2060536442808668509",
         "display_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJh--MvagAA1ppA.jpg",
+        "source_url": "https://x.com/omochidry/status/2060536442808668509",
         "display_url": "https://pbs.twimg.com/media/HJh--MvagAA1ppA.jpg"
       }
     ]
@@ -153,11 +153,11 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJji5_caoAA2N-I.jpg",
+        "source_url": "https://x.com/masaki_sakura/status/2060646319853822031",
         "display_url": "https://pbs.twimg.com/media/HJji5_caoAA2N-I.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/G9LLemkbgAA5BRZ.jpg",
+        "source_url": "https://x.com/masaki_sakura/status/2060934800568160391",
         "display_url": "https://pbs.twimg.com/media/G9LLemkbgAA5BRZ.jpg"
       }
     ]
@@ -174,11 +174,11 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJDCE-vbUAAoQxf.jpg",
+        "source_url": "https://x.com/ujat_47/status/2058358436937842697",
         "display_url": "https://pbs.twimg.com/media/HJDCE-vbUAAoQxf.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HI13QfYboAA4E-h.jpg",
+        "source_url": "https://x.com/ujat_47/status/2057431737698001022",
         "display_url": "https://pbs.twimg.com/media/HI13QfYboAA4E-h.jpg"
       }
     ]
@@ -219,7 +219,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HISDhgpaYAAT-pE.jpg",
+        "source_url": "https://x.com/gunp_m/status/2054912644822471056",
         "display_url": "https://pbs.twimg.com/media/HISDhgpaYAAT-pE.jpg"
       }
     ]
@@ -236,7 +236,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg",
+        "source_url": "https://x.com/YuriKissaten/status/2060319947297837449",
         "display_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg"
       }
     ]
@@ -253,15 +253,15 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HI1XifVaQAAq9Wn.jpg",
+        "source_url": "https://x.com/nanashiwan/status/2057408561274147223",
         "display_url": "https://pbs.twimg.com/media/HI1XifVaQAAq9Wn.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJmBKj5aMAArR-6.jpg",
+        "source_url": "https://x.com/nanashiwan/status/2061024890195435823",
         "display_url": "https://pbs.twimg.com/media/HJmBKj5aMAArR-6.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg",
+        "source_url": "https://x.com/nanashiwan/status/2060300116427493425",
         "display_url": "https://pbs.twimg.com/media/HJeXHRgaYAAkOdN.jpg"
       }
     ]
@@ -290,7 +290,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg",
+        "source_url": "https://x.com/zuzuzu_222/status/2060697512571527515",
         "display_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg"
       }
     ]
@@ -307,7 +307,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJjtjEHagAApKuj.jpg",
+        "source_url": "https://x.com/EijuneSound/status/2060658152367153465",
         "display_url": "https://pbs.twimg.com/media/HJjtjEHagAApKuj.jpg"
       }
     ]
@@ -324,11 +324,11 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJng_jibQAAFShB.jpg",
+        "source_url": "https://x.com/YUTO_HIGUCHI_/status/2060926261527216636",
         "display_url": "https://pbs.twimg.com/media/HJng_jibQAAFShB.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJjVzCyaAAADP1B.png",
+        "source_url": "https://x.com/YUTO_HIGUCHI_/status/2060633354048057759",
         "display_url": "https://pbs.twimg.com/media/HJjVzCyaAAADP1B.png"
       }
     ]
@@ -357,7 +357,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJhjPgea8AAyrkD.jpg",
+        "source_url": "https://x.com/YukkuriShimiya/status/2060505960440082558",
         "display_url": "https://pbs.twimg.com/media/HJhjPgea8AAyrkD.jpg"
       }
     ]
@@ -398,19 +398,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJP59VnbwAASy8_.jpg",
+        "source_url": "https://x.com/soyas_/status/2059265328040067223",
         "display_url": "https://pbs.twimg.com/media/HJP59VnbwAASy8_.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJP6Blfa0AAeB_r.jpg",
+        "source_url": "https://x.com/soyas_/status/2059265328040067223",
         "display_url": "https://pbs.twimg.com/media/HJP6Blfa0AAeB_r.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJP6DBgbgAAoOTV.jpg",
+        "source_url": "https://x.com/soyas_/status/2059265328040067223",
         "display_url": "https://pbs.twimg.com/media/HJP6DBgbgAAoOTV.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJP6EOUbgAAOBUu.jpg",
+        "source_url": "https://x.com/soyas_/status/2059265328040067223",
         "display_url": "https://pbs.twimg.com/media/HJP6EOUbgAAOBUu.jpg"
       }
     ]
@@ -439,23 +439,23 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJcsd0KaoAAqHrO.jpg",
+        "source_url": "https://x.com/Eiyuuu7777/status/2061017341492654134",
         "display_url": "https://pbs.twimg.com/media/HJcsd0KaoAAqHrO.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJcsd0SbEAAI0Pz.jpg",
+        "source_url": "https://x.com/Eiyuuu7777/status/2061017341492654134",
         "display_url": "https://pbs.twimg.com/media/HJcsd0SbEAAI0Pz.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJcsd0UbIAAyWKW.jpg",
+        "source_url": "https://x.com/Eiyuuu7777/status/2061017341492654134",
         "display_url": "https://pbs.twimg.com/media/HJcsd0UbIAAyWKW.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJcsd0TaYAAaK04.jpg",
+        "source_url": "https://x.com/Eiyuuu7777/status/2061017341492654134",
         "display_url": "https://pbs.twimg.com/media/HJcsd0TaYAAaK04.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg",
+        "source_url": "https://x.com/Eiyuuu7777/status/2048860688362430794",
         "display_url": "https://pbs.twimg.com/media/HG8Dj4wagAAp45b.jpg"
       }
     ]
@@ -472,19 +472,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg",
+        "source_url": "https://x.com/HinagikuBooks/status/2060354222978441670",
         "display_url": "https://pbs.twimg.com/media/HJfZLIUbsAAowUA.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJN7fHtbQAAcBmG.png",
+        "source_url": "https://x.com/HinagikuBooks/status/2059125301045817560",
         "display_url": "https://pbs.twimg.com/media/HJN7fHtbQAAcBmG.png"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJN7g7bbAAAFFyd.png",
+        "source_url": "https://x.com/HinagikuBooks/status/2059125301045817560",
         "display_url": "https://pbs.twimg.com/media/HJN7g7bbAAAFFyd.png"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HJN7i3zaEAEZ2-u.jpg",
+        "source_url": "https://x.com/HinagikuBooks/status/2059125301045817560",
         "display_url": "https://pbs.twimg.com/media/HJN7i3zaEAEZ2-u.jpg"
       }
     ]
@@ -513,7 +513,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJnWHzYasAAf5hE.jpg",
+        "source_url": "https://x.com/tukise_after/status/2060913741592670291",
         "display_url": "https://pbs.twimg.com/media/HJnWHzYasAAf5hE.jpg"
       }
     ]
@@ -542,7 +542,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJUxzVDbUAAUFxD.jpg",
+        "source_url": "https://x.com/Atu_110_011/status/2059607353465729179",
         "display_url": "https://pbs.twimg.com/media/HJUxzVDbUAAUFxD.jpg"
       }
     ]
@@ -559,7 +559,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJUH1BcbIAAGlUi.jpg",
+        "source_url": "https://x.com/pianorock_y/status/2059573678103474537",
         "display_url": "https://pbs.twimg.com/media/HJUH1BcbIAAGlUi.jpg"
       }
     ]
@@ -600,15 +600,15 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg",
+        "source_url": "https://x.com/nyanruikai/status/2060615518546223367",
         "display_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg",
+        "source_url": "https://x.com/nyanruikai/status/2056678582215479352",
         "display_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg"
       },
       {
-        "source_url": "https://pbs.twimg.com/media/HIrKRBQawAAEph-.jpg",
+        "source_url": "https://x.com/nyanruikai/status/2056678582215479352",
         "display_url": "https://pbs.twimg.com/media/HIrKRBQawAAEph-.jpg"
       }
     ]

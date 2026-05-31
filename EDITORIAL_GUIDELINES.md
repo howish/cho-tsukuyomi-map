@@ -90,6 +90,7 @@
 - **お品書き** (本体 + 修正版)
 - **本表紙** (新刊・既刊どちらでも)
 - **サンプルページ** (本文の一部)
+- **FA** (お品書き が無い booth 限定で 1〜2 枚、 booth identity 補完用)
 
 追加しないもの:
 - 設営写真 / 戦利品 / 差し入れ / タワー / 食べ物 / 当日卓 / 帰宅 photo
@@ -97,6 +98,51 @@
 - 友人作品の写真
 - 「新刊届きました」のような単純な箱写真
 - 色紙単品の写真 (本人色紙ノベルティのみ、本ではないため)
+
+### 6.1 優先順位 / カルーセル順序
+
+1. **お品書き** (本体 → 修正版)
+2. **本表紙** (新刊 → 既刊)
+3. **サンプルページ** (本文の一部)
+4. **FA** (お品書き 無い booth のみ、 補完目的)
+
+→ カルーセルは **「全体俯瞰 → 個別商品 → 中身覗き見」** の順序、 読者が
+booth を一瞥して何売ってるか把握できるように。
+
+### 6.2 複数本 booth の構成
+
+booth に新刊 N 冊 ある場合:
+- **お品書き 1 枚 + 各本表紙 1 枚 ずつ** (= 1 + N 枚)
+- 既刊・寄稿本も多い場合は **お品書き優先**、 既刊表紙は 1〜2 枚 selective
+- 本ごとにサンプル ページ を入れたい場合は §6.1 の順位で各本タプル: 表紙→サンプル
+
+### 6.3 source_url と display_url の使い分け
+
+`cover_urls` の各 entry は `{ source_url, display_url, display_locked? }`:
+
+- **`source_url`**: 出典 **post の URL** (tweet / plurk / threads / FB 投稿 URL)
+  - ❌ 画像 直 URL を入れない (`https://pbs.twimg.com/media/...`)
+  - ✅ 該当画像を含む 元 post の URL を入れる (例: `https://x.com/handle/status/123`)
+  - 読者が画像をタップ → 元 post の文脈 (キャプション・スレッド・反応) に飛べる
+- **`display_url`**: 実際に表示する 画像 URL
+  - X / Threads / IG / Plurk: 各 CDN の orig URL を **直貼り** (R2 不要)
+  - **FB のみ**: hot-link block 対策で R2 経由 (詳細 §6.4)
+- **`display_locked: true`** (任意): R2 / image-proxy / mosaic / cross-fade 等
+  **手作業で 加工した cover** を 「更新時に display_url を上書きしない」 保護フラグ。
+  apply-issue.py の R2 orphan 検出 を bypass。
+
+### 6.4 R2 ホストは FB 専用
+
+R2 (`images.yachi8000.app/...`) を使うのは **FB 投稿の画像 のみ**:
+- FB の `scontent-*.fb.cdn.net` は 匿名 user-agent / 外部 referrer から hot-link block
+- → `fb_album_walk3.py` で抜いた og:image を R2 にミラーして anonymous fetch を担保
+
+それ以外 (X / Threads / IG / Plurk / pixiv) は **CDN 直リンクで OK**:
+- これらは anonymous fetch を許可している
+- R2 経由は バンド幅・コスト・rebuild 工数の純粋オーバーヘッド
+
+過去 (cho-tsukuyomi-2026-05 / if7-2026-05) で 非 FB も R2 化していた entry は
+**順次 直 URL に戻す** ことが望ましい (新規 event では FB 以外 R2 使わない)。
 
 ## 7. 自虐 quote 排除
 
