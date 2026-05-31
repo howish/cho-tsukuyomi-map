@@ -1121,6 +1121,7 @@ section {
 
 /* Modal */
 .modal[hidden] { display: none !important; }
+.edit-panel[hidden] { display: none !important; }
 
 .modal {
   position: fixed;
