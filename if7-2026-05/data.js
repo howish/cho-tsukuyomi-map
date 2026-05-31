@@ -477,7 +477,7 @@ window.BOOTHS = [
     "author": "",
     "x_handle": "",
     "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
-    "body": "",
+    "body": "## 📝 IF7 出展重點\n- 認親卡 交換\n- **笨石頭 無料本** 配布\n- **少女樂團 立牌** 抽 (邦邦 / MyGO / AveMujica 系)\n- 小週邊 多数\n- 出處: [Threads 攤位設置](https://www.threads.com/@kei_habara/post/DY7KNBiD_2o)\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟢 **場後通販 全品項上架** → [myship 7-11 GM2511047714556](https://myship.7-11.com.tw/general/detail/GM2511047714556) (全品項還有現貨)\n- 📧 預約取消分は メール送信予定 (要查收)\n- 次場: FF 予定\n- 出處: [場後感謝](https://www.threads.com/@kei_habara/post/DY_Ej2hD7s3) / [通販開啟告知](https://www.threads.com/@kei_habara/post/DY_Hu6HEeUV)",
     "tags": {
       "super-kaguya": true,
       "lovelive": true,
@@ -523,6 +523,11 @@ window.BOOTHS = [
         "platform": "fb",
         "handle": "s092077",
         "url": "https://www.facebook.com/s092077?locale=zh_TW"
+      },
+      {
+        "platform": "threads",
+        "handle": "@kei_habara",
+        "url": "https://www.threads.com/@kei_habara"
       }
     ]
   },
