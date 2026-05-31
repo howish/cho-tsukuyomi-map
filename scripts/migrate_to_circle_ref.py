@@ -18,6 +18,9 @@ from pathlib import Path
 
 
 def circle_id_for(b: dict) -> str:
+    # If already migrated, trust the existing circle_id
+    if b.get('circle_id'):
+        return b['circle_id']
     h = (b.get('x_handle') or '').strip().lower()
     if h:
         return h

@@ -44,6 +44,28 @@ def main():
     root = Path(__file__).parent.parent
     circles: dict[str, dict] = {}
 
+    # Pre-populate from existing circles.json — preserves circle data when
+    # event data.js is already slim (only has circle_id, no embedded fields).
+    # Events list is always rebuilt fresh below, so we wipe it on entry.
+    existing_json = root / 'circles.json'
+    if existing_json.is_file():
+        try:
+            ed = json.loads(existing_json.read_text(encoding='utf-8'))
+            for c in (ed.get('circles') or []):
+                if c.get('id'):
+                    circles[c['id']] = {
+                        'id': c['id'],
+                        'circle_name': c.get('circle_name') or '',
+                        'author': c.get('author') or '',
+                        'x_handle': c.get('x_handle') or '',
+                        'x_url': c.get('x_url') or '',
+                        'socials': list(c.get('socials') or []),
+                        'events': [],   # rebuilt from data.js below
+                        '_seen_urls': {norm_url(s.get('url', '')) for s in (c.get('socials') or []) if s.get('url')},
+                    }
+        except Exception:
+            pass
+
     # Load events.json to map slug → display name + date (for events list)
     events_map = {}
     events_file = root / 'events.json'
@@ -68,7 +90,8 @@ def main():
         ev_slug = ev_dir.name
         ev_meta = events_map.get(ev_slug, {'name': ev_slug, 'date': ''})
         for b in booths:
-            cid = circle_id_for(b)
+            # Prefer explicit circle_id (post-migration data.js); else derive
+            cid = b.get('circle_id') or circle_id_for(b)
             if cid not in circles:
                 circles[cid] = {
                     'id': cid,
