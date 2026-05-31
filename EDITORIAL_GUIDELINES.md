@@ -169,12 +169,71 @@ JP event (e.g. 超ツクヨミ祭 cho-tsukuyomi-2026-05) では逆に prose を 
 公開後に違和感あった場合は、修正モードから Issue 送信 → review → 適用 の
 fan-contribution path を活用すること。
 
-## 11. 別 event 適用時の checklist
+## 11. body section ordering (固定)
+
+booth body は **以下の順** で section を並べる (空 section は省略、 中身ある section だけ書く):
+
+1. `## 📝 <event_short_name> 出展重點` (新刊・既刊・特典・無配・サンプル等、ここに集約)
+2. `## 📦 既刊 委託通販` (メロン/とら/BOOTH/pictSPACE/通販リンク群)
+3. `## 🎯 次回参加` (concrete date + event 名 + 委託先 link)
+4. `## ⚠️ 注意事項` (R-18 / 部数制限 / ジャスト払い / 配置変更 等)
+5. `## 🎪 場後 (YYYY-MM-DD evening)` (完売 / 通販上架 / 場後告知、 イベント後にのみ追加)
+6. `出處: [...](...) / [...](...)` (最終 行、 source tweet/post link を `/` 区切りで列挙)
+
+複数 section ある場合は **空行で区切る**。 `出處:` line は必ず body の最後。
+
+## 12. price / format 表記 schema
+
+新刊・既刊の format は **slash 区切り** で固定:
+
+```
+B5 / 40P / フルカラー / ¥800 / R-18
+```
+
+順序: **サイズ / ページ数 / 装丁・色 / 価格 / 年齢制限**
+- サイズ: B5 / A5 / B6 / A4 / 文庫 等
+- ページ数: NNP (P 必須)
+- 装丁・色: 「フルカラー」「モノクロ」「特殊装丁」「4色+蛍光ピンク」 等。 無ければ省略
+- 価格: ¥NNN (JP event) / NT NNN (TW event) — 通貨記号 + 数値、 円表記なし
+- 年齢制限: 「全年齢」「R-18」「R-15」 — 全年齢なら省略可
+
+例:
+```markdown
+- **新刊**『〇〇』 B5 / 40P / フルカラー / ¥1,500
+- **新刊**『△△』 B5 / 20P / 4色+蛍光ピンク / ¥400 / R-18
+- 既刊『□□』 A5 / 16P / モノクロ / ¥500
+```
+
+## 13. 情報未確定 case の short form
+
+「お品書き未公開」「直近 X 活動なし」「進捗報告のみ」のような **meta annotation
+は §2 違反** (空 preamble に近い)。 代わりに 1 行 short form で済ます:
+
+```markdown
+詳細は当日告知待ち、 [@handle X profile](https://x.com/handle)
+```
+
+または
+
+```markdown
+詳細は当日告知待ち、 source 情報なし
+```
+
+handle 無し booth (公式 SNS 未公開) は:
+
+```markdown
+公式 SNS handle 情報なし、 詳細不明
+```
+
+これで `## 📝 出展重點` section 1 行で完結する。 「最近活動してない」 等の
+評価判定は読者に委ねる。
+
+## 14. 別 event 適用時の checklist
 
 新しいイベントを fork するときは:
 1. このガイドラインを **そのまま継承** (event-agnostic)
 2. **event.js** の filter keys (CP / tag / warning code) は event 固有
-3. **data.js** の booth 本体 — 上の "残すもの" を埋める
+3. **data.js** の booth 本体 — 上の "残すもの" を埋める、 §11 section ordering / §12 price schema / §13 short form に従う
 4. **filters.js** に新 warning 追加が必要なら更新 (前例: `soldout` / `online` / `limit` / `noonline`)
 
 ガイドライン自体への **改訂 PR** は歓迎。実際に運用してみて見えてきた
