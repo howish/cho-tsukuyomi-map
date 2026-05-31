@@ -4,27 +4,34 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Page title, html[lang], and most chrome text are injected from event.js + i18n.js at runtime;
-     these defaults are JP fallbacks for crawlers / first-paint before JS runs -->
-<title>同人即売会 サークルガイド (非公式)</title>
-<meta name="description" content="同人即売会のサークル一覧 / お品書き / 会場マップ — 非公式 fan guide template">
-<link rel="stylesheet" href="../style.css?v=1780249250">
+     these defaults are crawler / first-paint fallbacks. -->
+<title>超ツクヨミ祭 第1回 サークルガイド (非公式)</title>
+<meta name="description" content="2026/05/24 立川 超かぐや姫オンリー — 全47サークルのお品書き / 価格 / X リンク / 会場マップ">
+<link rel="stylesheet" href="../style.css?v=1780249914">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/svg+xml" href="../icon.svg">
 
-<!-- OG / Twitter — values overwritten at runtime from event.js -->
+<!-- OG / Twitter — also overwritten at runtime from event.js, but crawlers
+     (FB / Twitter / Discord) usually only see the static HTML, so keep these
+     event-specific. Use absolute URLs so platforms don't mis-resolve. -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="同人即売会 サークルガイド">
-<meta property="og:description" content="サークル一覧 + お品書き + 会場マップ">
-<meta property="og:image" content="og.png">
+<meta property="og:url" content="https://yachi8000.app/cho-tsukuyomi-2026-05/">
+<meta property="og:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
+<meta property="og:description" content="2026/05/24 立川 超かぐや姫オンリー — 全47サークルのお品書き / 価格 / X リンク / 会場マップ">
+<meta property="og:image" content="https://yachi8000.app/cho-tsukuyomi-2026-05/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="同人即売会 サークルガイド">
-<meta name="twitter:image" content="og.png">
+<meta name="twitter:title" content="超ツクヨミ祭 第1回 サークルガイド (非公式)">
+<meta name="twitter:description" content="2026/05/24 立川 超かぐや姫オンリー — 全47サークルのお品書き / 価格 / X リンク / 会場マップ">
+<meta name="twitter:image" content="https://yachi8000.app/cho-tsukuyomi-2026-05/og.png">
 </head>
 <body>
 <header>
   <h1 id="event-title">🌙 ...</h1>
   <p class="event-info" id="event-info"></p>
   <p class="disclaimer" id="event-disclaimer"></p>
+  <p class="community-credit" id="community-credit"></p>
   <div class="header-actions">
     <button class="share-btn" id="share-btn" type="button">🔗 このサイトを共有</button>
     <button class="offline-btn" id="offline-btn" type="button" hidden>📥 オフライン対応 ON</button>
@@ -41,9 +48,11 @@
     <h2 id="edit-panel-title">📤 修正案を送信</h2>
     <p id="edit-panel-summary"></p>
     <div class="edit-panel-actions">
-      <button type="button" id="edit-submit-github" class="edit-submit-btn primary">🐙 GitHub Issue として送信</button>
+      <button type="button" id="edit-submit-download" class="edit-submit-btn primary">💾 .md ファイルで保存</button>
+      <button type="button" id="edit-submit-github" class="edit-submit-btn">🐙 GitHub Issue として送信</button>
       <button type="button" id="edit-submit-copy" class="edit-submit-btn">📋 クリップボードコピー</button>
     </div>
+    <p class="edit-panel-hint" id="edit-panel-hint"></p>
     <details class="edit-preview">
       <summary id="edit-preview-summary">提出内容プレビュー</summary>
       <pre id="edit-preview-text"></pre>
@@ -59,27 +68,50 @@
 
 <section class="map-section">
   <h2 id="map-section-title">会場マップ</h2>
-  <img id="venue-map" src="map.jpg" alt="会場マップ" class="venue-map">
+  <div class="map-zoom-viewport" id="map-zoom-viewport">
+    <div class="map-overlay-wrap">
+      <img id="venue-map" src="map.jpg" alt="会場マップ" class="venue-map">
+      <svg id="venue-map-overlay" class="venue-map-overlay" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+    </div>
+    <button class="map-fullscreen-btn" id="map-fullscreen-btn" type="button" aria-label="全画面 / Fullscreen">⛶</button>
+    <button class="map-zoom-reset" id="map-zoom-reset" type="button" aria-label="ズーム リセット" hidden>↺</button>
+    <span class="map-zoom-hint" id="map-zoom-hint">🔍 ピンチ / Ctrl+ホイール で拡大</span>
+  </div>
   <p class="map-caption" id="map-caption"></p>
 </section>
 
-<section class="filter-section">
+<section class="filter-section" id="filter-section">
   <div class="filters">
     <div class="search-wrap">
-      <input type="search" id="search-input" placeholder="サークル名 / 作家 / X / ブース ID 検索..." class="search-input" autocomplete="off">
+      <input type="search" id="search-input" placeholder="サークル名 / 作家 / SNS handle / ブース ID 検索..." class="search-input" autocomplete="off">
       <button type="button" id="search-clear" class="search-clear" hidden aria-label="検索クリア">×</button>
+      <button type="button" id="filter-collapse-btn" class="filter-collapse-btn" aria-pressed="false" title="篩選 顯示切換">▼ 篩選</button>
     </div>
   </div>
+  <div class="filter-rows-wrap" id="filter-rows-wrap">
   <div class="filters filters-cp" id="filters-cp">
     <span class="filter-row-label" id="filter-cp-label">CP</span>
     <button class="filter-btn active" id="filter-all-btn" data-filter="all">全部</button>
     <!-- CP buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filters filters-work" id="filters-work">
+    <span class="filter-row-label" id="filter-work-label">作品</span>
+    <!-- Work buttons injected at runtime from filters.js -->
+  </div>
+  <div class="filters filters-medium" id="filters-medium">
+    <span class="filter-row-label" id="filter-medium-label">媒介</span>
+    <!-- Medium buttons injected at runtime from filters.js -->
   </div>
   <div class="filters filters-tag" id="filters-tag">
     <span class="filter-row-label" id="filter-tag-label">タグ</span>
     <button class="filter-btn" id="filter-fav-btn" data-filter="fav" title="自分でマークした お気に入りのみ表示">⭐ お気に入り</button>
     <!-- Tag buttons injected at runtime from filters.js -->
   </div>
+  <div class="filters filters-area" id="filters-area">
+    <span class="filter-row-label" id="filter-area-label">専區</span>
+    <!-- Area buttons injected at runtime from filters.js -->
+  </div>
+  </div><!-- /.filter-rows-wrap -->
   <div class="filter-stats" id="filter-stats"></div>
 </section>
 
@@ -99,11 +131,11 @@
 
 <footer id="event-footer"></footer>
 
-<script src="event.js?v=1780249250"></script>
-<script src="../i18n.js?v=1780249250"></script>
-<script src="filters.js?v=1780249250"></script>
-<script src="../circles.js?v=1780249250"></script>
-<script src="data.js?v=1780249250"></script>
-<script src="../app.js?v=1780249250"></script>
+<script src="event.js?v=1780249914"></script>
+<script src="../i18n.js?v=1780249914"></script>
+<script src="filters.js?v=1780249914"></script>
+<script src="../circles.js?v=1780249914"></script>
+<script src="data.js?v=1780249914"></script>
+<script src="../app.js?v=1780249914"></script>
 </body>
 </html>
