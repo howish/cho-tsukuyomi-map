@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サークル一覧 — yachi8000.app</title>
+<meta name="description" content="同人即売会 fan guide で扱った全サークル一覧。X handle ごとに集約、 横断 event 出展履歴を表示。">
+<link rel="stylesheet" href="../hub.css">
+<link rel="stylesheet" href="circles.css">
+<link rel="icon" type="image/svg+xml" href="../cho-tsukuyomi-2026-05/icon.svg">
+<meta name="theme-color" content="#4a3a5c">
+</head>
+<body>
+<header class="hub-header">
+  <h1>🌙 サークル一覧</h1>
+  <p class="hub-subtitle">
+    <a href="../" class="hub-back-link">← ハブに戻る</a>
+    ／ 全 event 横断のサークル索引
+  </p>
+</header>
+
+<main class="hub-main">
+  <section class="circles-controls">
+    <div class="circles-stats" id="circles-stats">読み込み中...</div>
+    <div class="circles-search-wrap">
+      <input type="search" id="circles-search" placeholder="サークル名 / 作家 / X handle で検索..."
+             class="circles-search" autocomplete="off">
+      <button type="button" id="circles-search-clear" hidden aria-label="検索クリア">×</button>
+    </div>
+    <div class="circles-filter-row">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="multi">複数 event 出展</button>
+    </div>
+  </section>
+
+  <section class="circles-list" id="circles-list">
+    <p class="loading">読み込み中...</p>
+  </section>
+</main>
+
+<footer class="hub-footer">
+  <p>
+    Built by <a href="https://github.com/howish" target="_blank" rel="noopener">@howish</a>
+    ／ <a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub</a>
+    ／ サークル情報は各 event guide から runtime 集約
+  </p>
+</footer>
+
+<script src="circles.js"></script>
+</body>
+</html>

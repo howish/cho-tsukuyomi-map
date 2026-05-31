@@ -1,0 +1,160 @@
+/* Circles index page — extends hub.css */
+
+.hub-back-link {
+  color: rgba(255,255,255,0.85);
+  text-decoration: underline;
+}
+.hub-back-link:hover { color: #fff; }
+
+.circles-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.circles-stats {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.circles-search-wrap {
+  position: relative;
+}
+
+.circles-search {
+  width: 100%;
+  padding: 0.6rem 2.2rem 0.6rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+#circles-search-clear {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0 0.3rem;
+}
+
+.circles-filter-row {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.35rem 0.9rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.circles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.circle-row {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.circle-row-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.8rem;
+}
+
+.circle-name {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.05rem;
+}
+
+.circle-author {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.circle-handle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.circle-handle a {
+  color: inherit;
+  text-decoration: none;
+  background: #f3edf7;
+  padding: 0.1rem 0.5rem;
+  border-radius: 10px;
+}
+.circle-handle a:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.circle-events {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.2rem;
+}
+
+.circle-event-chip {
+  font-size: 0.78rem;
+  background: #f3edf7;
+  color: var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.circle-event-chip:hover {
+  border-color: var(--accent);
+}
+.circle-event-chip .booth {
+  font-weight: 700;
+}
+.circle-event-chip .ev {
+  opacity: 0.75;
+}
+
+.circle-row.multi-event {
+  border-left: 3px solid var(--accent);
+}
+
+.circle-row.no-handle .circle-handle {
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.empty, .error {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--text-muted);
+}
+.error { color: #d32f2f; }
