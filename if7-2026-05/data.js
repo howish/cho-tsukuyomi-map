@@ -147,7 +147,7 @@ window.BOOTHS = [
     "circle_name": "回家日記",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/back_home_diary/?hl=zh-tw",
+    "x_url": "https://www.instagram.com/back_home_diary/",
     "area": "綜合",
     "body": "- 原創-回家日記\n- DC 蝙蝠俠",
     "tags": {
@@ -159,7 +159,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@back_home_diary",
-        "url": "https://www.instagram.com/back_home_diary/?hl=zh-tw"
+        "url": "https://www.instagram.com/back_home_diary/"
       }
     ]
   },
@@ -638,7 +638,7 @@ window.BOOTHS = [
     "circle_name": "湖底章魚音樂盒",
     "author": "",
     "x_handle": "sinyatako1",
-    "x_url": "https://x.com/sinyatako1?s=21&t=hMm51tDxzSwRLbs1B1XvAA",
+    "x_url": "https://x.com/sinyatako1",
     "body": "- 世界計畫 繽紛舞台！ feat.初音未來\n- 超時空輝夜姬！",
     "tags": {
       "super-kaguya": true
@@ -656,7 +656,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@sinyatako1",
-        "url": "https://x.com/sinyatako1?s=21&t=hMm51tDxzSwRLbs1B1XvAA"
+        "url": "https://x.com/sinyatako1"
       }
     ]
   },
@@ -687,7 +687,7 @@ window.BOOTHS = [
     "circle_name": "海塩雪糕",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/seasalt_oc?igsh=MXFvaGQ4dHJubW1ocQ%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/seasalt_oc/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -701,7 +701,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@seasalt_oc",
-        "url": "https://www.instagram.com/seasalt_oc?igsh=MXFvaGQ4dHJubW1ocQ%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/seasalt_oc/"
       }
     ]
   },
@@ -791,7 +791,7 @@ window.BOOTHS = [
     "circle_name": "布丁杯★",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/hahu_paint/?hl=zh-tw",
+    "x_url": "https://www.instagram.com/hahu_paint/",
     "area": "綜合",
     "body": "- 魔法壞女巫\n- 小魔女Do Re Mi",
     "tags": {
@@ -803,7 +803,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@hahu_paint",
-        "url": "https://www.instagram.com/hahu_paint/?hl=zh-tw"
+        "url": "https://www.instagram.com/hahu_paint/"
       }
     ]
   },
@@ -812,7 +812,7 @@ window.BOOTHS = [
     "circle_name": "白夢夜空",
     "author": "",
     "x_handle": "",
-    "x_url": "https://instagram.com/shiroyu.store",
+    "x_url": "https://instagram.com/shiroyu.store/",
     "area": "綜合",
     "body": "- 真珠美人魚\n- 守護甜心",
     "tags": {},
@@ -822,7 +822,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@shiroyu.store",
-        "url": "https://instagram.com/shiroyu.store"
+        "url": "https://instagram.com/shiroyu.store/"
       }
     ],
     "cells": [
@@ -899,7 +899,7 @@ window.BOOTHS = [
     "circle_name": "Twinkle",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/twinkle21_comic/?hl=zh-tw",
+    "x_url": "https://www.instagram.com/twinkle21_comic/",
     "area": "綜合",
     "body": "- 守護甜心",
     "tags": {
@@ -912,7 +912,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@twinkle21_comic",
-        "url": "https://www.instagram.com/twinkle21_comic/?hl=zh-tw"
+        "url": "https://www.instagram.com/twinkle21_comic/"
       }
     ]
   },
@@ -943,7 +943,7 @@ window.BOOTHS = [
     "circle_name": "房間工作室",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/_inner_room",
+    "x_url": "https://www.instagram.com/_inner_room/",
     "area": "綜合",
     "body": "- 家庭教師",
     "tags": {
@@ -955,7 +955,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@_inner_room",
-        "url": "https://www.instagram.com/_inner_room"
+        "url": "https://www.instagram.com/_inner_room/"
       }
     ]
   },
@@ -1226,7 +1226,7 @@ window.BOOTHS = [
     "circle_name": "糸中註定冴愛凛",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/irina_reichi?s=21&t=ta3wndQi8XJLfJQMLcekBw",
+    "x_url": "https://x.com/irina_reichi",
     "area": "綜合",
     "body": "- 藍色監獄",
     "tags": {},
@@ -1236,7 +1236,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@irina_reichi",
-        "url": "https://x.com/irina_reichi?s=21&t=ta3wndQi8XJLfJQMLcekBw"
+        "url": "https://x.com/irina_reichi"
       }
     ]
   },
@@ -1616,7 +1616,7 @@ window.BOOTHS = [
     "circle_name": "鰹鰹ㄉ煩惱星球",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/yanyan___777?igsh=NTZzeXcwZmwyZDMz",
+    "x_url": "https://www.instagram.com/yanyan___777/",
     "area": "綜合",
     "body": "- 原創-貓貓狗狗圓滾滾",
     "tags": {
@@ -1629,7 +1629,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@yanyan___777",
-        "url": "https://www.instagram.com/yanyan___777?igsh=NTZzeXcwZmwyZDMz"
+        "url": "https://www.instagram.com/yanyan___777/"
       }
     ]
   },
@@ -1825,7 +1825,7 @@ window.BOOTHS = [
     "circle_name": "章魚燒要加海苔還是梅粉",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/tenseven_1777",
+    "x_url": "https://www.instagram.com/tenseven_1777/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -1837,7 +1837,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@tenseven_1777",
-        "url": "https://www.instagram.com/tenseven_1777"
+        "url": "https://www.instagram.com/tenseven_1777/"
       }
     ]
   },
@@ -2170,7 +2170,7 @@ window.BOOTHS = [
     "circle_name": "SZKOBO袖子工作坊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/szkobo.new",
+    "x_url": "https://www.instagram.com/szkobo.new/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -2184,7 +2184,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@szkobo.new",
-        "url": "https://www.instagram.com/szkobo.new"
+        "url": "https://www.instagram.com/szkobo.new/"
       }
     ],
     "cells": [
@@ -2674,7 +2674,7 @@ window.BOOTHS = [
     "circle_name": "龍哥",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/creative1shit2021",
+    "x_url": "https://www.instagram.com/creative1shit2021/",
     "area": "綜合",
     "body": "- 原創-歡迎光臨FujiNeko\n- 原創-龍哥活下去\n- 彩虹社ShuYaminoXLucaKaneshiro",
     "tags": {},
@@ -2684,7 +2684,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@creative1shit2021",
-        "url": "https://www.instagram.com/creative1shit2021"
+        "url": "https://www.instagram.com/creative1shit2021/"
       }
     ],
     "cells": [
@@ -2904,7 +2904,7 @@ window.BOOTHS = [
     "circle_name": "檸檬青Xuetong",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/xuetong1205?igsh=cWxhZmU2eDVpNWFl",
+    "x_url": "https://www.instagram.com/xuetong1205/",
     "area": "綜合",
     "body": "- 原創類手繪-舞\n- 原創類魔物-耀躍\n- 原創-地獄門",
     "tags": {},
@@ -2914,7 +2914,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@xuetong1205",
-        "url": "https://www.instagram.com/xuetong1205?igsh=cWxhZmU2eDVpNWFl"
+        "url": "https://www.instagram.com/xuetong1205/"
       }
     ]
   },
@@ -3009,7 +3009,7 @@ window.BOOTHS = [
     "circle_name": "阿吉×微光島嶼",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/jidraw018?igsh=cDgzc2EzdHVoZTJk",
+    "x_url": "https://www.instagram.com/jidraw018/",
     "area": "綜合",
     "body": "- 原創-口水馬鈴薯\n- 原創-貓咪繪圖",
     "tags": {
@@ -3021,7 +3021,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@jidraw018",
-        "url": "https://www.instagram.com/jidraw018?igsh=cDgzc2EzdHVoZTJk"
+        "url": "https://www.instagram.com/jidraw018/"
       }
     ]
   },
@@ -3074,7 +3074,7 @@ window.BOOTHS = [
     "circle_name": "今天肚子餓",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/kiri520?igsh=MXRzZG5lNG9ybTdzdw==",
+    "x_url": "https://www.instagram.com/kiri520/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -3088,7 +3088,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@kiri520",
-        "url": "https://www.instagram.com/kiri520?igsh=MXRzZG5lNG9ybTdzdw=="
+        "url": "https://www.instagram.com/kiri520/"
       }
     ],
     "cells": [
@@ -3101,7 +3101,7 @@ window.BOOTHS = [
     "circle_name": "恐龍的五官在側面",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/miba_1.8?igsh=eWl5enlscTgxZzlx",
+    "x_url": "https://www.instagram.com/miba_1.8/",
     "area": "綜合",
     "body": "- 原創-八與龍",
     "tags": {
@@ -3114,7 +3114,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@miba_1.8",
-        "url": "https://www.instagram.com/miba_1.8?igsh=eWl5enlscTgxZzlx"
+        "url": "https://www.instagram.com/miba_1.8/"
       }
     ]
   },
@@ -3123,7 +3123,7 @@ window.BOOTHS = [
     "circle_name": "小眼睛LITTLEEYES",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/littleeyes_b216?igsh=MXB4em9hcTdjaGJxaA==",
+    "x_url": "https://www.instagram.com/littleeyes_b216/",
     "area": "綜合",
     "body": "- 原創-小眼睛",
     "tags": {
@@ -3136,7 +3136,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@littleeyes_b216",
-        "url": "https://www.instagram.com/littleeyes_b216?igsh=MXB4em9hcTdjaGJxaA=="
+        "url": "https://www.instagram.com/littleeyes_b216/"
       }
     ]
   },
@@ -3367,7 +3367,7 @@ window.BOOTHS = [
     "circle_name": "野海熊熊可麗餅",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/suanmo99?igsh=MTNzenl6cWtkYW13OQ%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/suanmo99/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -3379,7 +3379,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@suanmo99",
-        "url": "https://www.instagram.com/suanmo99?igsh=MTNzenl6cWtkYW13OQ%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/suanmo99/"
       }
     ]
   },
@@ -3506,7 +3506,7 @@ window.BOOTHS = [
     "circle_name": "于笙是條魚",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/100810w?igsh=aGxvNWtiY2k0Z29q",
+    "x_url": "https://www.instagram.com/100810w/",
     "area": "綜合",
     "body": "- Alien Stage玩偶兔兔壓克飯友\n- 現在的是哪一個多聞！？    陰沉原壓克力透卡吊飾\n- 原創-鯨與雲海吊飾",
     "tags": {
@@ -3518,7 +3518,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@100810w",
-        "url": "https://www.instagram.com/100810w?igsh=aGxvNWtiY2k0Z29q"
+        "url": "https://www.instagram.com/100810w/"
       }
     ]
   },
@@ -3985,7 +3985,7 @@ window.BOOTHS = [
     "circle_name": "初入貓蘆",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/jj_catclaw?s=21&t=chkIsm8HqopMDgRFq_ICtQ",
+    "x_url": "https://x.com/jj_catclaw",
     "area": "綜合",
     "body": "- 天官賜福\n- 魔道祖師\n- 情蠱",
     "tags": {},
@@ -3995,7 +3995,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@jj_catclaw",
-        "url": "https://x.com/jj_catclaw?s=21&t=chkIsm8HqopMDgRFq_ICtQ"
+        "url": "https://x.com/jj_catclaw"
       }
     ]
   },
@@ -4335,7 +4335,7 @@ window.BOOTHS = [
     "circle_name": "PONKA",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/ponka2024?s=21",
+    "x_url": "https://x.com/ponka2024",
     "area": "綜合",
     "body": "- 原創-獸人相關",
     "tags": {
@@ -4347,7 +4347,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@ponka2024",
-        "url": "https://x.com/ponka2024?s=21"
+        "url": "https://x.com/ponka2024"
       }
     ]
   },
@@ -4517,7 +4517,7 @@ window.BOOTHS = [
     "circle_name": "Lagom",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/lagom.art_",
+    "x_url": "https://www.instagram.com/lagom.art_/",
     "area": "綜合",
     "body": "- 原創-企劃延伸\n- 周邊小物\n- 生活小物",
     "tags": {},
@@ -4527,7 +4527,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@lagom.art_",
-        "url": "https://www.instagram.com/lagom.art_"
+        "url": "https://www.instagram.com/lagom.art_/"
       }
     ]
   },
@@ -4567,7 +4567,7 @@ window.BOOTHS = [
     "circle_name": "橘橘大法好人類分部",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/elena_lai_12?igsh=Znh1bzRyZjdkNHkw&utm_source=qr",
+    "x_url": "https://www.instagram.com/elena_lai_12/",
     "area": "綜合",
     "body": "- 在茜色世界與君詠唱\n- SKZ\n- 原創-（自家貓咪）",
     "tags": {},
@@ -4577,7 +4577,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@elena_lai_12",
-        "url": "https://www.instagram.com/elena_lai_12?igsh=Znh1bzRyZjdkNHkw&utm_source=qr"
+        "url": "https://www.instagram.com/elena_lai_12/"
       }
     ]
   },
@@ -4586,7 +4586,7 @@ window.BOOTHS = [
     "circle_name": "X餐廳",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/enoshdreams?igsh=MXc1a2ZmOW5pczhwdg==",
+    "x_url": "https://www.instagram.com/enoshdreams/",
     "area": "綜合",
     "body": "- 原創-可咚\n- 響往\n- 埃的世界",
     "tags": {},
@@ -4596,7 +4596,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@enoshdreams",
-        "url": "https://www.instagram.com/enoshdreams?igsh=MXc1a2ZmOW5pczhwdg=="
+        "url": "https://www.instagram.com/enoshdreams/"
       }
     ]
   },
@@ -4778,7 +4778,7 @@ window.BOOTHS = [
     "circle_name": "JELDA",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/jelda_arts?igsh=MWdmemxvdXFvb3QxMA%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/jelda_arts/",
     "area": "綜合",
     "body": "- 原創-米蘭達與麗莎\n- 原創-JELDA宇宙",
     "tags": {},
@@ -4788,7 +4788,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@jelda_arts",
-        "url": "https://www.instagram.com/jelda_arts?igsh=MWdmemxvdXFvb3QxMA%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/jelda_arts/"
       }
     ],
     "cells": [
@@ -4820,7 +4820,7 @@ window.BOOTHS = [
     "circle_name": "仲華 | 生物插畫",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/zhliu.art",
+    "x_url": "https://www.instagram.com/zhliu.art/",
     "area": "綜合",
     "body": "- 動物\n- 植物",
     "tags": {},
@@ -4830,7 +4830,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@zhliu.art",
-        "url": "https://www.instagram.com/zhliu.art"
+        "url": "https://www.instagram.com/zhliu.art/"
       }
     ]
   },
@@ -5048,7 +5048,7 @@ window.BOOTHS = [
     "circle_name": "仙界大濕快樂攤",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/wet_elephant/?hl=zh-tw",
+    "x_url": "https://www.instagram.com/wet_elephant/",
     "area": "綜合",
     "body": "- 原創-我的壞壞日常",
     "tags": {},
@@ -5058,7 +5058,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@wet_elephant",
-        "url": "https://www.instagram.com/wet_elephant/?hl=zh-tw"
+        "url": "https://www.instagram.com/wet_elephant/"
       }
     ],
     "cells": [
@@ -5125,7 +5125,7 @@ window.BOOTHS = [
     "circle_name": "CEMACEMAS",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/yui_creator?igsh=MWp4ODE4MHNlOHNnOA==",
+    "x_url": "https://www.instagram.com/yui_creator/",
     "area": "綜合",
     "body": "- 原創＿PURINGAU\n- 原創＿RAVAN\n- 原創＿SARAY",
     "tags": {},
@@ -5135,7 +5135,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@yui_creator",
-        "url": "https://www.instagram.com/yui_creator?igsh=MWp4ODE4MHNlOHNnOA=="
+        "url": "https://www.instagram.com/yui_creator/"
       }
     ]
   },
@@ -5144,7 +5144,7 @@ window.BOOTHS = [
     "circle_name": "史前臺北人",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/coccyxdog?fbclid=IwY2xjawPuwuVleHRuA2FlbQIxMABicmlkETF0b05uQmZOeTFHSHZiMUVHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvaqw9TX26H6NvBULdLuLD27d3uELLPNSc6jZT2sOp7rcEcBXYmmD5qFJ_fm_aem_WKPs-7_JIPkhzo9IFa5S6w",
+    "x_url": "https://www.instagram.com/coccyxdog/",
     "area": "綜合",
     "body": "- 原創插圖--史前臺北人\n- 原創漫畫--吸血鬼買棺材\n- 閃電十一人",
     "tags": {
@@ -5156,7 +5156,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@coccyxdog",
-        "url": "https://www.instagram.com/coccyxdog?fbclid=IwY2xjawPuwuVleHRuA2FlbQIxMABicmlkETF0b05uQmZOeTFHSHZiMUVHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvaqw9TX26H6NvBULdLuLD27d3uELLPNSc6jZT2sOp7rcEcBXYmmD5qFJ_fm_aem_WKPs-7_JIPkhzo9IFa5S6w"
+        "url": "https://www.instagram.com/coccyxdog/"
       }
     ]
   },
@@ -5419,7 +5419,7 @@ window.BOOTHS = [
     "circle_name": "Eli Lin 依萊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/eli.pluma.lin",
+    "x_url": "https://www.instagram.com/eli.pluma.lin/",
     "area": "綜合",
     "body": "- 原創-衣裳的呢喃\n- 防風少年",
     "tags": {},
@@ -5429,7 +5429,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@eli.pluma.lin",
-        "url": "https://www.instagram.com/eli.pluma.lin"
+        "url": "https://www.instagram.com/eli.pluma.lin/"
       }
     ]
   },
@@ -5478,7 +5478,7 @@ window.BOOTHS = [
     "circle_name": "一隻羊身上的羊毛",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/yomowork_mov/status/1984905750158958686?s=20",
+    "x_url": "https://x.com/yomowork_mov",
     "area": "綜合",
     "body": "## 📝 IF7 出展重點\n\nQ-03 一隻羊身上的羊毛\n\n**新刊**: 『鬱火焚生 — 羊毛歌詞集 2022〜2025』 — 原創歌詞集\n\n*「鬱望，被隱藏著／不斷地將文字刺向⋯心／等待著下雨後的天空」*\n\n出處: [X 工商](https://x.com/yomowork_mov/status/2058147906339950911)",
     "tags": {
@@ -5507,7 +5507,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@yomowork_mov",
-        "url": "https://x.com/yomowork_mov/status/1984905750158958686?s=20"
+        "url": "https://x.com/yomowork_mov"
       }
     ]
   },
@@ -5554,7 +5554,7 @@ window.BOOTHS = [
     "circle_name": "沓沓",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/ut_91127?igsh=MWlqazQwdGI5cGtiMw%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/ut_91127/",
     "area": "綜合",
     "body": "- 原創-縛\n- 原創-健力少女POWER!\n- 原創-VISION",
     "tags": {},
@@ -5564,7 +5564,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@ut_91127",
-        "url": "https://www.instagram.com/ut_91127?igsh=MWlqazQwdGI5cGtiMw%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/ut_91127/"
       }
     ]
   },
@@ -5820,7 +5820,7 @@ window.BOOTHS = [
     "circle_name": "尹先",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/roxanne21___/?hl=zh-tw",
+    "x_url": "https://www.instagram.com/roxanne21___/",
     "area": "綜合",
     "body": "- 原創-秋季\n- 原創-summer chill\n- 原創-女孩",
     "tags": {},
@@ -5830,7 +5830,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@roxanne21___",
-        "url": "https://www.instagram.com/roxanne21___/?hl=zh-tw"
+        "url": "https://www.instagram.com/roxanne21___/"
       }
     ]
   },
@@ -5904,7 +5904,7 @@ window.BOOTHS = [
     "circle_name": "安全渡夏",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/not_december1212",
+    "x_url": "https://www.instagram.com/not_december1212/",
     "area": "綜合",
     "body": "- 原創-徒長草子（多肉植物zine）\n- 原創-Echeveria女子圖鑑（多肉植物zine）",
     "tags": {},
@@ -5914,7 +5914,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@not_december1212",
-        "url": "https://www.instagram.com/not_december1212"
+        "url": "https://www.instagram.com/not_december1212/"
       }
     ]
   },
@@ -6027,7 +6027,7 @@ window.BOOTHS = [
     "circle_name": "跳到兔子都不知道",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/rabbit_rose_?igsh=MTZyNTZ2bDRtcDl4eQ==",
+    "x_url": "https://www.instagram.com/rabbit_rose_/",
     "area": "綜合",
     "body": "- 原創-少女風格插畫筆記本\n- 原創-少女風格插畫明信片",
     "tags": {
@@ -6040,7 +6040,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@rabbit_rose_",
-        "url": "https://www.instagram.com/rabbit_rose_?igsh=MTZyNTZ2bDRtcDl4eQ=="
+        "url": "https://www.instagram.com/rabbit_rose_/"
       }
     ],
     "cells": [
@@ -6053,7 +6053,7 @@ window.BOOTHS = [
     "circle_name": "少女心室",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/crybaby_77_illustration?igsh=MXhieGVvamtkbDl1OQ%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/crybaby_77_illustration/",
     "area": "綜合",
     "body": "- 原創周邊（貼紙、明信片、吊飾）\n- 原創繪本（三本）\n- 原創手作串珠（手機練、飾品）",
     "tags": {
@@ -6065,7 +6065,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@crybaby_77_illustration",
-        "url": "https://www.instagram.com/crybaby_77_illustration?igsh=MXhieGVvamtkbDl1OQ%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/crybaby_77_illustration/"
       }
     ],
     "cells": [
@@ -6078,7 +6078,7 @@ window.BOOTHS = [
     "circle_name": "漂流中的無",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/lya_0328?igsh=MXUzOHRraTlmZHdzMg%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/lya_0328/",
     "area": "綜合",
     "body": "- 原創-蒼律\n- 原創-漂流中的無",
     "tags": {},
@@ -6088,7 +6088,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@lya_0328",
-        "url": "https://www.instagram.com/lya_0328?igsh=MXUzOHRraTlmZHdzMg%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/lya_0328/"
       }
     ]
   },
@@ -6097,7 +6097,7 @@ window.BOOTHS = [
     "circle_name": "懶惰朽吉 wohenlanduo",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/wohenlanduo",
+    "x_url": "https://www.instagram.com/wohenlanduo/",
     "area": "綜合",
     "body": "- 原創-小魔女插畫\n- 原創-路人女子插畫",
     "tags": {
@@ -6109,7 +6109,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@wohenlanduo",
-        "url": "https://www.instagram.com/wohenlanduo"
+        "url": "https://www.instagram.com/wohenlanduo/"
       }
     ]
   },
@@ -6208,7 +6208,7 @@ window.BOOTHS = [
     "circle_name": "fu富",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/___.fu____",
+    "x_url": "https://www.instagram.com/___.fu____/",
     "area": "綜合",
     "body": "- 原創-青之泥 第一章 伴著你-漫畫\n- 原創-青之泥-明信片\n- 原創-青之泥-海報",
     "tags": {
@@ -6221,7 +6221,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@___.fu____",
-        "url": "https://www.instagram.com/___.fu____"
+        "url": "https://www.instagram.com/___.fu____/"
       }
     ]
   },
@@ -6367,7 +6367,7 @@ window.BOOTHS = [
     "circle_name": "麻玖叮",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/maruoo0121/?igshid=YmMyMTA2M2Y%3D",
+    "x_url": "https://www.instagram.com/maruoo0121/",
     "area": "綜合",
     "body": "- 原創-麻玖叮小魔女系列\n- 原創-礦石插圖",
     "tags": {},
@@ -6377,7 +6377,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@maruoo0121",
-        "url": "https://www.instagram.com/maruoo0121/?igshid=YmMyMTA2M2Y%3D"
+        "url": "https://www.instagram.com/maruoo0121/"
       }
     ],
     "cells": [
@@ -6514,7 +6514,7 @@ window.BOOTHS = [
     "circle_name": "奇妙動物商店",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/unfriendlyanimals",
+    "x_url": "https://www.instagram.com/unfriendlyanimals/",
     "area": "綜合",
     "body": "- 原創-不友善的奇妙動物",
     "tags": {},
@@ -6524,7 +6524,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@unfriendlyanimals",
-        "url": "https://www.instagram.com/unfriendlyanimals"
+        "url": "https://www.instagram.com/unfriendlyanimals/"
       }
     ],
     "cells": [
@@ -6602,7 +6602,7 @@ window.BOOTHS = [
     "circle_name": "超開星",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/flaming_starrr?igsh=MTdqb3RhdDgweTE1Nw==",
+    "x_url": "https://www.instagram.com/flaming_starrr/",
     "area": "綜合",
     "body": "- 原創-鳥類插畫\n- 原創-食物鳥IP宇宙",
     "tags": {
@@ -6614,7 +6614,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@flaming_starrr",
-        "url": "https://www.instagram.com/flaming_starrr?igsh=MTdqb3RhdDgweTE1Nw=="
+        "url": "https://www.instagram.com/flaming_starrr/"
       }
     ],
     "cells": [
@@ -6627,7 +6627,7 @@ window.BOOTHS = [
     "circle_name": "金平糖Starcandy_sheep",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/starcandy_sheep",
+    "x_url": "https://www.instagram.com/starcandy_sheep/",
     "area": "綜合",
     "body": "- 原創-金平糖羊雞\n- 原創-同步戰紀",
     "tags": {},
@@ -6637,7 +6637,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@starcandy_sheep",
-        "url": "https://www.instagram.com/starcandy_sheep"
+        "url": "https://www.instagram.com/starcandy_sheep/"
       }
     ]
   },
@@ -6688,7 +6688,7 @@ window.BOOTHS = [
     "circle_name": "HyggeLove",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/hygge._love?igsh=MThvcDUxM3Vhc3Rndw%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/hygge._love/",
     "area": "綜合",
     "body": "- 原創-幸運呱呱",
     "tags": {},
@@ -6698,7 +6698,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@hygge._love",
-        "url": "https://www.instagram.com/hygge._love?igsh=MThvcDUxM3Vhc3Rndw%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/hygge._love/"
       }
     ]
   },
@@ -6707,7 +6707,7 @@ window.BOOTHS = [
     "circle_name": "劍龍細胞",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/dayday._.sleep?igsh=MTRkamN6N2d3cjUzMQ%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/dayday._.sleep/",
     "area": "綜合",
     "body": "- 原創-雙面壓克力吊飾\n- 原創-明信片\n- 原創-壓克力雙面PP夾",
     "tags": {
@@ -6719,7 +6719,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@dayday._.sleep",
-        "url": "https://www.instagram.com/dayday._.sleep?igsh=MTRkamN6N2d3cjUzMQ%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/dayday._.sleep/"
       }
     ]
   },
@@ -6829,7 +6829,7 @@ window.BOOTHS = [
     "circle_name": "Aggie 慢慢走 ",
     "author": "",
     "x_handle": "",
-    "x_url": "https://instagram.com/aggie__amble?r=nametag",
+    "x_url": "https://instagram.com/aggie__amble/",
     "area": "綜合",
     "body": "- 星語小卡\n- 刺蝟的小禮物\n- 黑潮之歌",
     "tags": {
@@ -6841,7 +6841,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@aggie__amble",
-        "url": "https://instagram.com/aggie__amble?r=nametag"
+        "url": "https://instagram.com/aggie__amble/"
       }
     ],
     "cells": [
@@ -7524,7 +7524,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@taiwanlilyproject",
-        "url": "https://www.instagram.com/taiwanlilyproject"
+        "url": "https://www.instagram.com/taiwanlilyproject/"
       },
       {
         "platform": "plurk",
@@ -7900,12 +7900,12 @@ window.BOOTHS = [
     "circle_name": "shioisland",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr",
+    "x_url": "https://www.instagram.com/shioisland/",
     "socials": [
       {
         "platform": "ig",
         "handle": "@shioisland",
-        "url": "https://www.instagram.com/shioisland?igsh=djZ3Y3JpOGg3bTJq&utm_source=qr"
+        "url": "https://www.instagram.com/shioisland/"
       }
     ],
     "body": "## 📝 IF7 出展重點\n- 新刊 **『Madder & Teal Vol. Rosy Haze』** (原創、 A5/30P/左翻/黑白/NT 200)\n\n- 〈夏日飛行〉 至 〈你是止痛藥〉 之間 補充劇情\n- 特典: **5/30 現場限定 雷射黑膠造型小卡** (限量) ＆ 一般首刷 = 炫光明信片\n- [IG 新刊發表 + 試閱](https://www.instagram.com/shioisland/p/DXiwclyk8Qv/)",
@@ -9213,12 +9213,12 @@ window.BOOTHS = [
     "circle_name": "老P股",
     "author": "",
     "x_handle": "pesirxy",
-    "x_url": "https://x.com/pesirxy?s=21",
+    "x_url": "https://x.com/pesirxy",
     "socials": [
       {
         "platform": "x",
         "handle": "@pesirxy",
-        "url": "https://x.com/pesirxy?s=21"
+        "url": "https://x.com/pesirxy"
       }
     ],
     "body": "## 📝 IF7 出展重點\n- 新刊 [**『立希的病榻突圍戰』**](https://x.com/i/status/2059847133314830477) (希 all、 MyGO!!!!!、 A5 / 35P / NT 200) ／ 購入特典 **MyGO!!!!! 二創設定集** (A5/10P) 隨書附贈 / 數量有限\n- 攤位 擺娃 + 打工小祥 出沒",
@@ -9772,12 +9772,12 @@ window.BOOTHS = [
     "circle_name": "陽光女子百合團",
     "author": "",
     "x_handle": "rito_yu6039",
-    "x_url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w",
+    "x_url": "https://x.com/rito_yu6039",
     "socials": [
       {
         "platform": "x",
         "handle": "@rito_yu6039",
-        "url": "https://x.com/rito_yu6039?s=21&t=B2bmzWyenr-f9o6UBHdH8w"
+        "url": "https://x.com/rito_yu6039"
       }
     ],
     "body": "## 📝 IF7 出展重點\n- 新刊 2 種: [**『α100之狼』 (上)**](https://x.com/i/status/2058489327047639119) (海希、 B5/53P/R15/NT 350)\n\n- **『毅然回首』** (蘇米、 A4/21P+2P短漫/全年齡/NT 200)\n- 免費配布 多種 (限量)",
@@ -9827,7 +9827,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@ame_aou",
-        "url": "https://www.instagram.com/ame_aou"
+        "url": "https://www.instagram.com/ame_aou/"
       },
       {
         "platform": "plurk",
@@ -10103,7 +10103,7 @@ window.BOOTHS = [
     "circle_name": "香香又色色的",
     "author": "",
     "x_handle": "",
-    "x_url": "https://instagram.com/arayo__0616",
+    "x_url": "https://instagram.com/arayo__0616/",
     "body": "- 原創百合漫畫（新刊）-天使們低語的漫長告別",
     "tags": {
       "original": true,
@@ -10134,7 +10134,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@arayo__0616",
-        "url": "https://instagram.com/arayo__0616"
+        "url": "https://instagram.com/arayo__0616/"
       }
     ]
   },
@@ -10700,12 +10700,12 @@ window.BOOTHS = [
     "circle_name": "廢柴小R",
     "author": "",
     "x_handle": "rissole715",
-    "x_url": "https://x.com/rissole715?s=21",
+    "x_url": "https://x.com/rissole715",
     "socials": [
       {
         "platform": "x",
         "handle": "@rissole715",
-        "url": "https://x.com/rissole715?s=21"
+        "url": "https://x.com/rissole715"
       }
     ],
     "body": "## 📝 IF7 出展重點\n- 新刊 [**超時空輝耀姬 漫畫本**](https://x.com/i/status/2059287434211606542)\n\n- 寄攤 藍老師 小說本、 初祥 小說本 (新刊) + 初祥 漫畫 既刊\n- 代售 向波老師 海希本\n\n## 🎪 場後 (2026-05-30 evening)\n- 寄攤 藍『心之瞄点』12:11 頃 完售 ([catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/))",
@@ -11514,7 +11514,7 @@ window.BOOTHS = [
     "circle_name": "活派 對",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/kumalongrule34?s=21",
+    "x_url": "https://x.com/kumalongrule34",
     "area": "綜合",
     "body": "- 多鄰國的 LiLy 跟zari\n- 多鄰國的Lin 跟 bea\n- 豬大哥",
     "tags": {},
@@ -11524,7 +11524,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@kumalongrule34",
-        "url": "https://x.com/kumalongrule34?s=21"
+        "url": "https://x.com/kumalongrule34"
       }
     ]
   },
@@ -11580,7 +11580,7 @@ window.BOOTHS = [
     "circle_name": "日初翱祥-陌千",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.threads.com/@mochian0819?hl=zh-tw",
+    "x_url": "https://www.threads.com/@mochian0819",
     "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千 — 創集繪 出刊一周年):\n- 本場新刊総数 6 本 (本子大幅増)\n- 自卓 新刊群 — 含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) (Ave Mujica 初祥初) 1 萬字加筆、 布丁井老師封面\n- 初祥初新刊購入で 初祥飯友 限量加購可 ([最終 promo](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 認親卡 (印珍珠紙、 4 擇 1 規則): (1) 卡片／小禮物 (2) 完整包裝食物 (3) 購買新刊＋追蹤證明＋一句感言 (4) [詳細](https://x.com/Mochian0819/status/2060236134186443183)\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 預計直播\n- 出處: [原 品書](https://x.com/Mochian0819/status/2058506706448159133)\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉×八千代 (iroyachi) 同人小說本 — ⚠️ R18 / 購買時請出示成年證明\n- 13:30 後現場提供簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))\n\n## 🎪 場後 (2026-05-30 evening)\n- 🟡 通販 = 「家帰ってから処理」 ([Threads](https://www.threads.com/@mochian0819/post/DY9Xx-HEtKg))",
     "tags": {
       "super-kaguya": true,
@@ -11647,7 +11647,7 @@ window.BOOTHS = [
       {
         "platform": "threads",
         "handle": "@mochian0819",
-        "url": "https://www.threads.com/@mochian0819?hl=zh-tw"
+        "url": "https://www.threads.com/@mochian0819"
       }
     ]
   },
@@ -12516,7 +12516,7 @@ window.BOOTHS = [
     "circle_name": "同攤不同推",
     "author": "",
     "x_handle": "",
-    "x_url": "https://x.com/ak_lina0?s=20",
+    "x_url": "https://x.com/ak_lina0",
     "area": "VW",
     "body": "- Vocaloid-初音、巡音、鏡音連\n- Vocaloid-鏡音鈴、Meiko、Kaito",
     "tags": {},
@@ -12526,7 +12526,7 @@ window.BOOTHS = [
       {
         "platform": "x",
         "handle": "@ak_lina0",
-        "url": "https://x.com/ak_lina0?s=20"
+        "url": "https://x.com/ak_lina0"
       }
     ],
     "cells": [
@@ -14075,7 +14075,7 @@ window.BOOTHS = [
     "circle_name": "青雨閣",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/chj_joanna?igsh=MXBpZWhiNGRtOXJweg%3D%3D&utm_source=qr",
+    "x_url": "https://www.instagram.com/chj_joanna/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -14089,7 +14089,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@chj_joanna",
-        "url": "https://www.instagram.com/chj_joanna?igsh=MXBpZWhiNGRtOXJweg%3D%3D&utm_source=qr"
+        "url": "https://www.instagram.com/chj_joanna/"
       }
     ],
     "cells": [
@@ -14270,7 +14270,7 @@ window.BOOTHS = [
     "circle_name": "迷鹿島",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/lostdeerisland",
+    "x_url": "https://www.instagram.com/lostdeerisland/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -14284,7 +14284,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@lostdeerisland",
-        "url": "https://www.instagram.com/lostdeerisland"
+        "url": "https://www.instagram.com/lostdeerisland/"
       }
     ],
     "cells": [
@@ -14492,7 +14492,7 @@ window.BOOTHS = [
     "circle_name": "YUI優伊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/yuiotagiri?igsh=Mm84cHI5aHZzY3Vk&utm_source=qr",
+    "x_url": "https://www.instagram.com/yuiotagiri/",
     "area": "綜合",
     "body": "- 個人原創 女僕作品",
     "tags": {
@@ -14505,7 +14505,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@yuiotagiri",
-        "url": "https://www.instagram.com/yuiotagiri?igsh=Mm84cHI5aHZzY3Vk&utm_source=qr"
+        "url": "https://www.instagram.com/yuiotagiri/"
       }
     ]
   },
@@ -14772,7 +14772,7 @@ window.BOOTHS = [
     "circle_name": "醫生說保羅沃克於是媽媽轉身向山裡走去",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/botoakaza?igsh=N3FsMWRjMmxtZTE1&utm_source=qr",
+    "x_url": "https://www.instagram.com/botoakaza/",
     "area": "綜合",
     "body": "- 主播女孩重度依賴",
     "tags": {
@@ -14785,7 +14785,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@botoakaza",
-        "url": "https://www.instagram.com/botoakaza?igsh=N3FsMWRjMmxtZTE1&utm_source=qr"
+        "url": "https://www.instagram.com/botoakaza/"
       }
     ]
   },
@@ -15012,7 +15012,7 @@ window.BOOTHS = [
     "circle_name": "穿毛衣的狗",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/bearjiajia625?igsh=MW1oMmlhaWNudnQyNg==",
+    "x_url": "https://www.instagram.com/bearjiajia625/",
     "area": "綜合",
     "body": "- 鉤針娃衣\n- 鉤針娃帽\n- MIU404",
     "tags": {},
@@ -15022,7 +15022,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@bearjiajia625",
-        "url": "https://www.instagram.com/bearjiajia625?igsh=MW1oMmlhaWNudnQyNg=="
+        "url": "https://www.instagram.com/bearjiajia625/"
       }
     ]
   },
@@ -15094,7 +15094,7 @@ window.BOOTHS = [
     "circle_name": "給孩紙穿上衣服帽子",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.threads.com/@xuan___0719?igshid=NTc4MTIwNjQ2YQ==",
+    "x_url": "https://www.threads.com/@xuan___0719",
     "area": "綜合",
     "body": "## 📝 IF7 出展重點\n\nZ-23 Jun (ㄚ君)\n\n- 娃衣／帽 (指娃尺寸基本)\n- 可帶娃來試穿\n- 全手工製作、 量有限\n\n出處: [X 宣傳](https://x.com/Jun077011/status/2058506041705554410)",
     "tags": {
@@ -15117,7 +15117,7 @@ window.BOOTHS = [
       {
         "platform": "threads",
         "handle": "@xuan___0719",
-        "url": "https://www.threads.com/@xuan___0719?igshid=NTc4MTIwNjQ2YQ=="
+        "url": "https://www.threads.com/@xuan___0719"
       }
     ]
   },
@@ -15181,7 +15181,7 @@ window.BOOTHS = [
     "circle_name": "雨狐雜貨",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/rainfox2021?igsh=YXN4cDRvbW5kOTRs",
+    "x_url": "https://www.instagram.com/rainfox2021/",
     "area": "綜合",
     "body": "",
     "tags": {
@@ -15193,7 +15193,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@rainfox2021",
-        "url": "https://www.instagram.com/rainfox2021?igsh=YXN4cDRvbW5kOTRs"
+        "url": "https://www.instagram.com/rainfox2021/"
       }
     ]
   },
@@ -15202,7 +15202,7 @@ window.BOOTHS = [
     "circle_name": "夜未央手作坊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/endlessnight_tw?igsh=YWdmN3U4d3J0OThh",
+    "x_url": "https://www.instagram.com/endlessnight_tw/",
     "area": "綜合",
     "body": "- 崩鐵\n- 光與夜之戀",
     "tags": {
@@ -15214,7 +15214,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@endlessnight_tw",
-        "url": "https://www.instagram.com/endlessnight_tw?igsh=YWdmN3U4d3J0OThh"
+        "url": "https://www.instagram.com/endlessnight_tw/"
       }
     ]
   },
@@ -15287,7 +15287,7 @@ window.BOOTHS = [
     "circle_name": "菫色之庭",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/_pansy.yard_",
+    "x_url": "https://www.instagram.com/_pansy.yard_/",
     "area": "綜合",
     "body": "- 原創-推活用具\n- 原創-手作卡套\n- 原創-娃用配件",
     "tags": {},
@@ -15297,7 +15297,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@_pansy.yard_",
-        "url": "https://www.instagram.com/_pansy.yard_"
+        "url": "https://www.instagram.com/_pansy.yard_/"
       }
     ]
   },
@@ -15450,7 +15450,7 @@ window.BOOTHS = [
     "circle_name": "信作坊",
     "author": "",
     "x_handle": "",
-    "x_url": "https://www.instagram.com/shinstudio.tc",
+    "x_url": "https://www.instagram.com/shinstudio.tc/",
     "area": "綜合",
     "body": "- 蒸氣龐克齒輪飾品\n- 戀與深空印象明信片套組\n- 有毒系列骨骼絲巾與飾品盒",
     "tags": {
@@ -15462,7 +15462,7 @@ window.BOOTHS = [
       {
         "platform": "ig",
         "handle": "@shinstudio.tc",
-        "url": "https://www.instagram.com/shinstudio.tc"
+        "url": "https://www.instagram.com/shinstudio.tc/"
       }
     ],
     "cells": [
