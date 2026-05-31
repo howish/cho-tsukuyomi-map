@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Booth Coord Tool · cho-tsukuyomi-map (IF7)</title>
+  <title>Booth Coord Tool · cho-tsukuyomi-map</title>
   <style>
     :root {
       --bg: #faf7f2;
@@ -152,14 +152,57 @@
       <span class="hint">Ctrl + ホイールでもズーム</span>
     </div>
     <div class="map-inner" id="map-inner">
-      <img id="map-img" src="map.jpg" alt="map">
+      <img id="map-img" src="" alt="map">
       <svg id="overlay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
     </div>
   </div>
 </div>
 
-<script src="data.js"></script>
-<script src="coords.js"></script>
+<!-- Dynamic event loader: reads ?event=<slug> from URL, fetches the event's
+     data.js + coords.js + map.jpg from /<slug>/, then dispatches a 'eventloaded'
+     event for the main script below to take over. -->
+<script>
+(function() {
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('event');
+  if (!slug) {
+    // No event specified — show selector before loading anything
+    fetch('events.json').then(r => r.json()).then(d => {
+      const list = (d.events || []).filter(e => e.slug);
+      const container = document.body;
+      container.innerHTML = `<div style="max-width:520px;margin:3rem auto;padding:1.5rem;background:#fff;border-radius:10px;font-family:-apple-system,sans-serif;">
+        <h1>📍 Booth Coord Tool</h1>
+        <p>イベント を選んでください:</p>
+        <ul style="font-size:1.1rem;line-height:2;">
+          ${list.map(e => `<li><a href="?event=${e.slug}">${e.short_name || e.name}</a> <span style="color:#888;font-size:0.85rem;">(${e.date_display || e.date})</span></li>`).join('')}
+        </ul>
+        <p style="margin-top:1.5rem;color:#888;font-size:0.85rem;">URL に <code>?event=&lt;slug&gt;</code> を付けて直接アクセスもできます。</p>
+      </div>`;
+    });
+    return;
+  }
+  // Load data.js + coords.js dynamically, then signal ready
+  document.getElementById('map-img').src = slug + '/map.jpg';
+  document.title = `Booth Coord Tool — ${slug}`;
+  // Use script tags (because they set window.BOOTHS / window.BOOTH_COORDS via sync eval)
+  let pending = 2;
+  function done() {
+    if (--pending === 0) {
+      window.dispatchEvent(new CustomEvent('eventloaded', { detail: { slug } }));
+    }
+  }
+  function loadScript(src, onerr) {
+    const s = document.createElement('script');
+    s.src = src;
+    s.onload = done;
+    s.onerror = () => { onerr && onerr(); done(); };
+    document.head.appendChild(s);
+  }
+  loadScript(slug + '/data.js');
+  // coords.js is optional (new events may not have any yet)
+  loadScript(slug + '/coords.js', () => { window.BOOTH_COORDS = window.BOOTH_COORDS || {}; });
+})();
+</script>
 <script>
 /**
  * Booth coord tool — band-mode input.
@@ -661,7 +704,14 @@ document.getElementById('show-upstream').addEventListener('change', (e) => {
   renderAll();
 });
 
-init();
+// Defer init until the dynamic event loader signals data is ready (or fire
+// immediately if data.js / coords.js were already loaded synchronously, e.g.
+// from a direct subdir copy or testing harness).
+if (window.BOOTHS && window.BOOTHS.length) {
+  init();
+} else {
+  window.addEventListener('eventloaded', () => init(), { once: true });
+}
 </script>
 </body>
 </html>
