@@ -41,10 +41,14 @@ header .event-info {
 }
 
 header .disclaimer {
-  margin: 0.8rem auto 0 auto;
+  margin: 0.9rem auto 0 auto;
+  padding: 0.7rem 1rem;
+  background: rgba(255,255,255,0.10);
+  border-radius: 8px;
   font-size: 0.8rem;
-  opacity: 0.85;
-  max-width: 600px;
+  line-height: 1.55;
+  max-width: 640px;
+  text-align: left;
 }
 
 header .community-credit {
