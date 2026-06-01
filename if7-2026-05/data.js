@@ -4540,7 +4540,7 @@ window.BOOTHS = [
   {
     "booth_id": "S-19/20",
     "circle_id": "kokokoro__",
-    "body": "## 📝 IF7 出展重點\n- [原 tweet](https://x.com/i/status/2057110462534459871)",
+    "body": "## 📝 IF7 出展重點\n- [原 tweet](https://x.com/i/status/2057110462534459871)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **百合翁場後通販 上架** — [711 賣貨便 (GM2303286629191)](https://myship.7-11.com.tw/general/detail/GM2303286629191) ([告知 X](https://x.com/Kokokoro__/status/2061311189775454581))\n",
     "tags": {
       "original": true
     },
@@ -4819,7 +4819,7 @@ window.BOOTHS = [
   {
     "booth_id": "S-28",
     "circle_id": "liugozekino",
-    "body": "## 📝 IF7 出展重點\n\n**初祥 簽繪板 競標** (主人祥 × 女僕初):\n- 起價 NT 300、每一標必須是 50 的倍數\n- 競標方式: 推特 (X) 留言 — 留得標時電話／@特推 ID\n- 競標時間 14:40 截止 (場後 5 分鐘公布結果)\n- 場後尾刀預計遲 5 分鐘簽繪板 — 不提供寄送服務\n- 若得標者下無法聯絡上得標者領取板子、將會輪到下一順位\n- 出處: [競標規則 X post](https://x.com/Liugozekino/status/2058533374575444239) / [初祥 簽繪板 詳細](https://x.com/i/status/2059118273388740955)",
+    "body": "## 📝 IF7 出展重點\n\n**初祥 簽繪板 競標** (主人祥 × 女僕初):\n- 起價 NT 300、每一標必須是 50 的倍數\n- 競標方式: 推特 (X) 留言 — 留得標時電話／@特推 ID\n- 競標時間 14:40 截止 (場後 5 分鐘公布結果)\n- 場後尾刀預計遲 5 分鐘簽繪板 — 不提供寄送服務\n- 若得標者下無法聯絡上得標者領取板子、將會輪到下一順位\n- 出處: [競標規則 X post](https://x.com/Liugozekino/status/2058533374575444239) / [初祥 簽繪板 詳細](https://x.com/i/status/2059118273388740955)\n\n## 🎪 場後 (2026-05-30 → 6/3)\n- ✅ **初祥本 熱銷** (5/30 場上)\n- 🟡 **慾情2 餘量** — 數日後與其他餘量商品一起開賣貨便通販 ([告知 X](https://x.com/Liugozekino/status/2060980384561803397))\n- 📋 **加印統計表單 (5/31 → 6/3)** — [Google Form](https://forms.gle/ARwyyqNycBhcnQT86) (達一定數量才開加印通販)\n- 📝 **小百翁 場後 repo** — [6 連投 まとめ](https://x.com/Liugozekino/status/2061090026650579021)\n",
     "tags": {
       "avemujica": true,
       "illust": true
@@ -5497,7 +5497,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-01",
     "circle_id": "kourui_07",
-    "body": "## 📝 IF7 出展重點\n- T01 首次參加 ／ 帶來 [**新品 3 種**](https://x.com/i/status/2058505698166911056)",
+    "body": "## 📝 IF7 出展重點\n- T01 首次參加 ／ 帶來 [**新品 3 種**](https://x.com/i/status/2058505698166911056)\n\n## 🎪 場後 (2026-05-30 → 6/6)\n- ✅ **新刊 + 新品周邊 順利完售** (5/30) ([場後感謝 X](https://x.com/kourui_07/status/2060939133133160668))\n- 🟢 **場後通販 開放** (5/31 → 6/6) — [711 賣貨便 (GM2605139274935)](https://myship.7-11.com.tw/general/detail/GM2605139274935) ([告知 X](https://x.com/kourui_07/status/2061031084390076464)) ／ 訂單數量に応じて 加印\n",
     "tags": {},
     "warnings": [],
     "cover_urls": [
@@ -5528,7 +5528,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-02",
     "circle_id": "kimijunn",
-    "body": "## 📝 IF7 出展重點\n- 新刊 [**ういさき 本**](https://x.com/i/status/2054548578165813484) (吸血鬼 初華 × 貴族大小姐 祥子、 有吸血描寫) ／ 印量調查 進行中\n- 出處: [品書 X](https://x.com/kimiJUNN/status/2060000487118901599)",
+    "body": "## 📝 IF7 出展重點\n- 新刊 [**ういさき 本**](https://x.com/i/status/2054548578165813484) (吸血鬼 初華 × 貴族大小姐 祥子、 有吸血描寫) ／ 印量調查 進行中\n- 出處: [品書 X](https://x.com/kimiJUNN/status/2060000487118901599)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 上架 (限台灣)** — [711 賣貨便 (GM2605310221488)](https://myship.7-11.com.tw/cart/confirm/GM2605310221488) (加印中、 6 月中出貨予定)\n- 📱 **電子書 (Booky / 海外向け)** — [doujin.com.tw 69771](https://www.doujin.com.tw/books/info/69771) ([告知 X](https://x.com/kimiJUNN/status/2061090080509595675))\n",
     "tags": {
       "avemujica": true,
       "manga": true
@@ -5637,7 +5637,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-05",
     "circle_id": "pesirxy",
-    "body": "## 📝 IF7 出展重點\n- 新刊 [**『立希的病榻突圍戰』**](https://x.com/i/status/2059847133314830477) (希 all、 MyGO!!!!!、 A5 / 35P / NT 200) ／ 購入特典 **MyGO!!!!! 二創設定集** (A5/10P) 隨書附贈 / 數量有限\n- 攤位 擺娃 + 打工小祥 出沒",
+    "body": "## 📝 IF7 出展重點\n- 新刊 [**『立希的病榻突圍戰』**](https://x.com/i/status/2059847133314830477) (希 all、 MyGO!!!!!、 A5 / 35P / NT 200) ／ 購入特典 **MyGO!!!!! 二創設定集** (A5/10P) 隨書附贈 / 數量有限\n- 攤位 擺娃 + 打工小祥 出沒\n\n## 🎪 場後 (2026-05-30 → 6/10)\n- ✅ **暫時售完 → 緊急加印** (5/30 場上) ([告知 X](https://x.com/pesirxy/status/2060576712560431331))\n- 🟢 **場後通販 開放** (6/1 → 6/10) — [711 賣貨便 (GM2606010306965)](https://myship.7-11.com.tw/cart/confirm/GM2606010306965) ／ 6/10 後 3 日以内 統一發貨 ([告知 X](https://x.com/pesirxy/status/2061362409198248216))\n",
     "tags": {
       "free": true
     },
@@ -6076,7 +6076,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-18",
     "circle_id": "rito_yu6039",
-    "body": "## 📝 IF7 出展重點\n- 新刊 2 種: [**『α100之狼』 (上)**](https://x.com/i/status/2058489327047639119) (海希、 B5/53P/R15/NT 350)\n\n- **『毅然回首』** (蘇米、 A4/21P+2P短漫/全年齡/NT 200)\n- 免費配布 多種 (限量)",
+    "body": "## 📝 IF7 出展重點\n- 新刊 2 種: [**『α100之狼』 (上)**](https://x.com/i/status/2058489327047639119) (海希、 B5/53P/R15/NT 350)\n\n- **『毅然回首』** (蘇米、 A4/21P+2P短漫/全年齡/NT 200)\n- 免費配布 多種 (限量)\n\n## 🎪 場後 (2026-05-30 → 6/6)\n- 🟢 **海希本 通販 上架** (5/31 → 6/6 加印統計) — [711 賣貨便 (GM2605310261942)](https://myship.7-11.com.tw/general/detail/GM2605310261942) ／ 通販には特典明信片 付き ([告知 X](https://x.com/rito_yu6039/status/2061064913687331095))\n- 📱 **海希本 電子書 (Booky)** — [doujin.com.tw 70035](https://www.doujin.com.tw/books/info/70035) (6/1 上架) ([告知 X](https://x.com/rito_yu6039/status/2061357228624605342))\n- 📱 **蘇米本 pixiv 全文公開** — [pixiv 108018912](https://www.pixiv.net/artworks/108018912)\n- 💌 **心得回饋表單** — [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc8TH8s1ZlR5frydNYwcKpXcYRQ2B_rRvdRpbNNNjBLz1zjQQ/viewform) ([告知 X](https://x.com/rito_yu6039/status/2061362688249471480))\n",
     "tags": {},
     "warnings": [],
     "cover_urls": [
@@ -6507,7 +6507,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-33/34",
     "circle_id": "gray170220",
-    "body": "## 📝 IF7 出展重點\n- 新刊 海希海 小說 [**『笨拙的我們適合戀愛』**](https://x.com/i/status/2057699457446433108) (NT 250)\n\n- 既刊 初祥初 **『月錯覺』**、 睦祥睦 **『漫雨季』** (各 NT 250)\n- 免費小說 3 種: 紗夜莉莎 『晴時雨時』、 貓燈 『星下影』、 海希 『合半拍』",
+    "body": "## 📝 IF7 出展重點\n- 新刊 海希海 小說 [**『笨拙的我們適合戀愛』**](https://x.com/i/status/2057699457446433108) (NT 250)\n\n- 既刊 初祥初 **『月錯覺』**、 睦祥睦 **『漫雨季』** (各 NT 250)\n- 免費小說 3 種: 紗夜莉莎 『晴時雨時』、 貓燈 『星下影』、 海希 『合半拍』\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **實體本 通販 開始** — [711 賣貨便 (GM2505087694103)](https://myship.7-11.com.tw/general/detail/GM2505087694103) ([告知 X](https://x.com/gray170220/status/2060662169285603378))\n- 📱 **電子書** — [doujin.com.tw 70011](https://www.doujin.com.tw/books/info/70011) ([告知 X](https://x.com/gray170220/status/2060660734758125717)) ／ [author page](https://www.doujin.com.tw/authors/info/g:bYLjW7p9eEdS)\n",
     "tags": {
       "novel": true
     },
@@ -6648,7 +6648,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-35",
     "circle_id": "yoyoray20001996",
-    "body": "## 📝 IF7 出展重點\n\nT-35 RAY 的響食天堂 (うみたき / 海希)\n\n**新刊**:\n- 插圖本 **『海希的...KISS 多重宇宙』** — 全年齡向 / B5 / 22P — NT 250/本 ([預購表單 X](https://x.com/i/status/2059248150913945744))\n\n**寄攤** (Kー雪一 [@Oox30](https://x.com/Oox30) ＋ Lehcar [@Lehcar_my](https://x.com/Lehcar_my)):\n- 漫畫 **『1R · 2人 · 365日』** — ⚠️ R18 / A5 / 黑白內頁 38P — NT 300/本\n\n**既品**:\n- A6 明信片 NT 35/張 ／ 組合價 NT 120 (4 種)\n- 磁鐵 NT 100/個\n- A6 簽繪板 NT 400/幅 (亮霧小婚紗、 艾蓮斯與婉歆)\n- 海希馬年春聯組 NT 160/組 — 海錫馬 ×2 (15×15cm) ＋ 立春馬 ×1 (15×15cm) ＋ 海希驅瑪 (10×10cm)\n\n出處: [Twitter 工商](https://x.com/yoyoray20001996/status/2058413207333851172)",
+    "body": "## 📝 IF7 出展重點\n\nT-35 RAY 的響食天堂 (うみたき / 海希)\n\n**新刊**:\n- 插圖本 **『海希的...KISS 多重宇宙』** — 全年齡向 / B5 / 22P — NT 250/本 ([預購表單 X](https://x.com/i/status/2059248150913945744))\n\n**寄攤** (Kー雪一 [@Oox30](https://x.com/Oox30) ＋ Lehcar [@Lehcar_my](https://x.com/Lehcar_my)):\n- 漫畫 **『1R · 2人 · 365日』** — ⚠️ R18 / A5 / 黑白內頁 38P — NT 300/本\n\n**既品**:\n- A6 明信片 NT 35/張 ／ 組合價 NT 120 (4 種)\n- 磁鐵 NT 100/個\n- A6 簽繪板 NT 400/幅 (亮霧小婚紗、 艾蓮斯與婉歆)\n- 海希馬年春聯組 NT 160/組 — 海錫馬 ×2 (15×15cm) ＋ 立春馬 ×1 (15×15cm) ＋ 海希驅瑪 (10×10cm)\n\n出處: [Twitter 工商](https://x.com/yoyoray20001996/status/2058413207333851172)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟡 **場後通販＆電子書** — 「幾日後 開放予定」 (5/31 告知) ([告知 X](https://x.com/yoyoray20001996/status/2061046043027103873))\n",
     "tags": {
       "goudou": true,
       "r18": true,
@@ -6805,7 +6805,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-37",
     "circle_id": "rissole715",
-    "body": "## 📝 IF7 出展重點\n- 新刊 [**超時空輝耀姬 漫畫本**](https://x.com/i/status/2059287434211606542)\n\n- 寄攤 藍老師 小說本、 初祥 小說本 (新刊) + 初祥 漫畫 既刊\n- 代售 向波老師 海希本\n\n## 🎪 場後 (2026-05-30 evening)\n- 寄攤 藍『心之瞄点』12:11 頃 完售 ([catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/))",
+    "body": "## 📝 IF7 出展重點\n- 新刊 [**超時空輝耀姬 漫畫本**](https://x.com/i/status/2059287434211606542)\n\n- 寄攤 藍老師 小說本、 初祥 小說本 (新刊) + 初祥 漫畫 既刊\n- 代售 向波老師 海希本\n\n## 🎪 場後 (2026-05-30 evening)\n- 寄攤 藍『心之瞄点』12:11 頃 完售 ([catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/))\n- ➕ **場後 感想 repo** — 「老師突然神降臨」 (5/31 → 6/1) ([repo X](https://x.com/rissole715/status/2061279593152307594))\n",
     "tags": {
       "super-kaguya": true,
       "manga": true,
@@ -6831,7 +6831,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-38",
     "circle_id": "kuroajrtineico",
-    "body": "## 📝 IF7 出展重點\n- 現場販賣 + 網購 並行\n- 試閱 + 購買 link 於 X 回覆欄\n- [原 tweet (品書 update)](https://x.com/i/status/2052661700286173413)",
+    "body": "## 📝 IF7 出展重點\n- 現場販賣 + 網購 並行\n- 試閱 + 購買 link 於 X 回覆欄\n- [原 tweet (品書 update)](https://x.com/i/status/2052661700286173413)\n\n## 🎪 場後 (2026-05-30 → )\n- 💛 **場後感謝** — 5/30 來攤の皆様への 感謝 + 收信感動 ([場後感謝 X](https://x.com/KuroAjrtineico/status/2060984008843162037))\n",
     "tags": {},
     "warnings": [],
     "cover_urls": [
@@ -7805,7 +7805,7 @@ window.BOOTHS = [
   {
     "booth_id": "U-30",
     "circle_id": "melon2943",
-    "body": "## 📝 IF7 出展重點\n- [U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- 太呱章了: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- 河豚老師 ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 **超時空輝姬 漫畫本** + 既刊 睦祥 漫畫本\n- 菟子老師 ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **超時空輝耀姬 同人小說 『C'EX-OTOGIBANASHI』** (彩葉×八千代 R-18 中篇集、 3 萬字 / 12 章、 [@su4_zm](https://www.threads.com/@su4_zm) 老師彩色封面)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)",
+    "body": "## 📝 IF7 出展重點\n- [U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- 太呱章了: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- 河豚老師 ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 **超時空輝姬 漫畫本** + 既刊 睦祥 漫畫本\n- 菟子老師 ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **超時空輝耀姬 同人小說 『C'EX-OTOGIBANASHI』** (彩葉×八千代 R-18 中篇集、 3 萬字 / 12 章、 [@su4_zm](https://www.threads.com/@su4_zm) 老師彩色封面)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **太呱章了 (主攤) 睦祥本 場後通販 開放** — [711 賣貨便 (GM2510056163595)](https://myship.7-11.com.tw/general/detail/GM2510056163595) (+ NT 10 包材費) ([告知 X](https://x.com/melon2943/status/2061050815398433192))\n",
     "tags": {
       "super-kaguya": true,
       "manga": true,
