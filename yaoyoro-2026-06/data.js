@@ -95,12 +95,7 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": [
-      {
-        "source_url": "https://x.com/omochidry/status/2060536442808668509",
-        "display_url": "https://pbs.twimg.com/media/HJh--MpbkAAL_Vt.jpg"
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "ヤオ-08",

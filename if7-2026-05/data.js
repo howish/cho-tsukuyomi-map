@@ -6664,10 +6664,6 @@ window.BOOTHS = [
         "display_locked": false
       },
       {
-        "source_url": "https://x.com/gray170220/status/2059266453401108602",
-        "display_url": "https://pbs.twimg.com/media/HJPnhO_aEAEK0n7.jpg"
-      },
-      {
         "source_url": "https://x.com/yoyoray20001996/status/2059247631805931977",
         "display_url": "https://pbs.twimg.com/media/HJPnNtzaUAAcM4-.jpg"
       },
@@ -7826,11 +7822,6 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/melon2943/status/2059651837452800061",
         "display_url": "https://pbs.twimg.com/media/HJVaa7qbAAE92Rv.jpg",
-        "display_locked": false
-      },
-      {
-        "source_url": "https://x.com/_icpfo1/status/2059655387868254335",
-        "display_url": "https://pbs.twimg.com/media/HJVdqB7awAE9a6M.jpg",
         "display_locked": false
       },
       {

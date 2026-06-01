@@ -344,12 +344,7 @@ window.BOOTHS = [
       "goods": true
     },
     "min_price": 500,
-    "cover_urls": [
-      {
-        "source_url": "https://x.com/kyou_watanuki/status/2057506985675997524",
-        "display_url": "https://pbs.twimg.com/media/HI2OWIsaoAARpdu.jpg?name=orig"
-      }
-    ],
+    "cover_urls": [],
     "warnings": [
       [
         "online",
@@ -1013,14 +1008,6 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
         "display_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig"
-      },
-      {
-        "source_url": "https://x.com/kmt9993/status/2057079862385672471",
-        "display_url": "https://pbs.twimg.com/media/HHtgYWcbYAAjSkI.jpg?name=orig"
-      },
-      {
-        "source_url": "https://x.com/kmt9993/status/2057079862385672471",
-        "display_url": "https://pbs.twimg.com/media/HHtgYWeaIAAjKMb.jpg?name=orig"
       }
     ],
     "warnings": [
@@ -1059,12 +1046,7 @@ window.BOOTHS = [
         "https://x.com/imudegozaimasu/status/2058410103842414766"
       ]
     ],
-    "cover_urls": [
-      {
-        "source_url": "https://x.com/xuz_op/status/2057095033933955507",
-        "display_url": "https://pbs.twimg.com/media/HIrUltUaIAARLL5.jpg?name=orig"
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "B-05",
@@ -1148,12 +1130,7 @@ window.BOOTHS = [
       "goods": false
     },
     "min_price": 500,
-    "cover_urls": [
-      {
-        "source_url": "https://x.com/tsugu_tarou/status/2056700551166095636",
-        "display_url": "https://pbs.twimg.com/media/HIAiQ_ja4AAuc_n.jpg?name=orig"
-      }
-    ],
+    "cover_urls": [],
     "warnings": [
       [
         "soldout",
