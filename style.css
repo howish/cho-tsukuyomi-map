@@ -69,10 +69,6 @@ header .community-credit {
   border-radius: 6px;
   border: 1px dashed rgba(255, 215, 0, 0.4);
 }
-/* Auto-hide when the event has no community_catalog_url (app.js leaves
-   the element empty). Otherwise the dashed box renders as a stray
-   highlight under the disclaimer. */
-header .community-credit:empty { display: none; }
 
 header a {
   color: #ffd700;

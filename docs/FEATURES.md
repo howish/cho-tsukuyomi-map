@@ -208,7 +208,10 @@ Per-row grids are generated at runtime from `EVENT_CONFIG.rows`.
 <p class="community-credit" id="community-credit"></p>
 ```
 
-Populated from `EVENT_CONFIG.community_credit` (free-form HTML).
+Populated when `EVENT_CONFIG.community_catalog_url` is set (links to a
+community catalog / spreadsheet). **Omit this `<p>` entirely** if your event
+has no community resource — leaving the empty element renders an empty
+dashed-border box under the disclaimer.
 
 ### 📜  Footer
 
