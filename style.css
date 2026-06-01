@@ -1,3 +1,11 @@
+/* HTML `hidden` attribute → always wins over any author `display: *` rule.
+   Author CSS (e.g. `.modal { display: flex }`) normally beats the UA
+   stylesheet's implicit `display: none` for [hidden]. This one-line rule
+   restores the spec intent so JS can set `el.hidden = true` without each
+   element type needing its own `.foo[hidden] { display: none !important }`
+   companion rule. */
+[hidden] { display: none !important; }
+
 :root {
   --bg: #fafafa;
   --bg-card: #fff;
@@ -633,10 +641,7 @@ section {
   align-items: center;
   margin-bottom: 0.5rem;
 }
-/* Respect the `hidden` attribute — set by app.js when filters.js leaves a
-   category empty for this event. Without this rule the display:flex above
-   would override the implicit display:none from the hidden attribute. */
-.filters[hidden] { display: none !important; }
+/* hidden attribute respected via global [hidden] rule at top of file */
 
 .filter-row-label {
   font-size: 0.8rem;
@@ -879,7 +884,6 @@ section {
 }
 
 .search-clear:hover { background: #f3edf7; color: var(--accent); }
-.search-clear[hidden] { display: none; }
 
 /* Filter panel collapse — toggle button at the right of the search row
    hides every chip row but keeps the search box visible. State stored in
@@ -1125,11 +1129,8 @@ section {
 }
 
 .back-to-top:hover { opacity: 1; transform: translateY(-2px); }
-.back-to-top[hidden] { display: none; }
 
 /* Modal */
-.modal[hidden] { display: none !important; }
-.edit-panel[hidden] { display: none !important; }
 
 .modal {
   position: fixed;
