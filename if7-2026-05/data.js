@@ -4566,7 +4566,7 @@ window.BOOTHS = [
   {
     "booth_id": "S-21",
     "circle_id": "komerice_lo",
-    "body": "## 📝 IF7 出展重點\n- 新刊 [**R-18 本**](https://x.com/i/status/2054458383512883590) (試閱 + 印量調查 連結於 X 回覆欄)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟡 通販＆電子書 規劃中\n- 🆕 **下回新刊** 『那個仙台同學』 R-18 / 22P / NT 200 — 封面完成, **印量調查中** ([Threads 詳細＋表單](https://www.threads.com/@chi._.5417/post/DYcRZgVkzzj))\n\n出處: [場後 X](https://x.com/komerice_lo/status/2060705443673219381)",
+    "body": "## 📝 IF7 出展重點\n- 新刊 **『那個仙台同學』** — R-18 / 22P / NT 200 (週クラ 系)\n- 試閱 + 印量調查 連結於 Threads 詳細\n\n出處: [Threads 詳細＋表單](https://www.threads.com/@chi._.5417/post/DYcRZgVkzzj) / [X 印量調查告知](https://x.com/i/status/2054458383512883590)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟡 通販＆電子書 規劃中\n\n出處: [場後 X](https://x.com/komerice_lo/status/2060705443673219381)",
     "tags": {
       "super-kaguya": true
     },
