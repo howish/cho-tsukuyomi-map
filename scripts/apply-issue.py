@@ -460,8 +460,14 @@ def main():
                      help='Apply from a local .md file (download path from edit mode)')
     ap.add_argument('--event', default='if7-2026-05')
     ap.add_argument('--dry-run', action='store_true', help='Print the plan, no R2/data.js/git mutations')
-    ap.add_argument('--fb-cookies', default=str(Path.home() / 'project' / 'fb-cookies.txt'))
-    ap.add_argument('--threads-cookies', default=str(Path.home() / 'project' / 'threads-cookies.txt'))
+    # Cookies: env var first (FB_COOKIES_NETSCAPE_PATH / THREADS_COOKIES_NETSCAPE_PATH),
+    # then legacy ~/project/{fb,threads}-cookies.txt fallback for back-compat.
+    ap.add_argument('--fb-cookies', default=(
+        os.environ.get('FB_COOKIES_NETSCAPE_PATH')
+        or str(Path.home() / 'project' / 'fb-cookies.txt')))
+    ap.add_argument('--threads-cookies', default=(
+        os.environ.get('THREADS_COOKIES_NETSCAPE_PATH')
+        or str(Path.home() / 'project' / 'threads-cookies.txt')))
     args = ap.parse_args()
     EVENT = args.event
 
