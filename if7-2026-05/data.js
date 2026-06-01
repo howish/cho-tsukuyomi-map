@@ -6190,7 +6190,7 @@ window.BOOTHS = [
     "cover_urls": [
       {
         "source_url": "https://www.facebook.com/share/p/1PSqJu3Rwv/",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-23_24/share-1PSqJu3Rwv/1.jpg",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-23_24/share-1PSqJu3Rwv/0.jpg",
         "display_locked": true
       },
       {
