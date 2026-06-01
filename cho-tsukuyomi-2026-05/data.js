@@ -59,15 +59,15 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HJAXMITa4AA-VLy.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/2konose/status/2057958266756632784",
+        "source_url": "https://x.com/masaki_sakura/status/2057810297482821844",
         "display_url": "https://pbs.twimg.com/media/HI7PjwSbAAEFvk-.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/2konose/status/2057958364022452639",
+        "source_url": "https://x.com/masaki_sakura/status/2057824749586464832",
         "display_url": "https://pbs.twimg.com/media/HI7ctA7bsAAQpbT.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/2konose/status/2057958408389869949",
+        "source_url": "https://x.com/masaki_sakura/status/2057818959307817037",
         "display_url": "https://pbs.twimg.com/media/HI7Xb9wa0AAxnaG.jpg?name=orig"
       }
     ],
@@ -98,7 +98,7 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058327710452392065",
+        "source_url": "https://x.com/TERURU_sakura/status/2056356297067712954",
         "display_url": "https://pbs.twimg.com/media/HImlJvCboAEN__p.jpg?name=orig"
       }
     ],
@@ -132,7 +132,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://x.com/2konose/status/2057676975234486615",
+        "source_url": "https://x.com/xuz_op/status/2057063027443458517",
         "display_url": "https://pbs.twimg.com/media/HIwn65RbwAASz3N.jpg?name=orig"
       },
       {
@@ -283,11 +283,11 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HI7dIkSacAAroPb.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/hanaya_102/status/2057683958956241224",
+        "source_url": "https://x.com/2konose/status/2057071985960890861",
         "display_url": "https://pbs.twimg.com/media/HIwwDshbIAAabeG.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/hanaya_102/status/2057683958956241224",
+        "source_url": "https://x.com/2konose/status/2057071985960890861",
         "display_url": "https://pbs.twimg.com/media/HIwwDsga0AAPefE.jpg?name=orig"
       }
     ]
@@ -382,11 +382,11 @@ window.BOOTHS = [
     "min_price": 400,
     "cover_urls": [
       {
-        "source_url": "https://x.com/2konose/status/2057830891872014421",
+        "source_url": "https://x.com/Noroshino8/status/2057029854814666894",
         "display_url": "https://pbs.twimg.com/media/HIwJuH-bQAAuKxt.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/2konose/status/2057830891872014421",
+        "source_url": "https://x.com/Noroshino8/status/2057029854814666894",
         "display_url": "https://pbs.twimg.com/media/HIwJuLMbkAAsNqi.jpg?name=orig"
       }
     ],
@@ -726,7 +726,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058331421857743117",
+        "source_url": "https://x.com/EiNeEna_mikan/status/2057725649859797199",
         "display_url": "https://pbs.twimg.com/media/HI4eoiYbEAIfPLi.jpg?name=orig"
       },
       {
@@ -828,15 +828,15 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HI1p_Nmb0AA6VWS.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/chasiburicorico/status/2057800431049613678",
+        "source_url": "https://x.com/tsugu_tarou/status/2057784063579365706",
         "display_url": "https://pbs.twimg.com/media/HI63J9iagAIArNj.png?name=orig"
       },
       {
-        "source_url": "https://x.com/chasiburicorico/status/2057800431049613678",
+        "source_url": "https://x.com/tsugu_tarou/status/2057784063579365706",
         "display_url": "https://pbs.twimg.com/media/HI63KpQbgAAToYI.png?name=orig"
       },
       {
-        "source_url": "https://x.com/chasiburicorico/status/2057800431049613678",
+        "source_url": "https://x.com/tsugu_tarou/status/2057784063579365706",
         "display_url": "https://pbs.twimg.com/media/HI63P6yaQAA0YI2.jpg?name=orig"
       }
     ]
@@ -899,7 +899,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://x.com/chasiburicorico/status/2058015400932286955",
+        "source_url": "https://x.com/sango3_3/status/2058014312149729693",
         "display_url": "https://pbs.twimg.com/media/HI-H0y1bAAAEn6j.jpg?name=orig"
       }
     ],
@@ -933,7 +933,7 @@ window.BOOTHS = [
     "min_price": 600,
     "cover_urls": [
       {
-        "source_url": "https://x.com/2konose/status/2058331452153180259",
+        "source_url": "https://x.com/chasiburicorico/status/2057061116388528387",
         "display_url": "https://pbs.twimg.com/media/HIwmLhQboAARAAV.jpg?name=orig"
       }
     ],
@@ -1011,7 +1011,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058332412573348239",
+        "source_url": "https://x.com/arupaka5tuki/status/2057791004049359178",
         "display_url": "https://pbs.twimg.com/media/HI6-AWAa4AEcB1j.jpg?name=orig"
       },
       {
@@ -1092,7 +1092,7 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HIrinmCb0AA484j.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/arupaka5tuki/status/2058308561302900909",
+        "source_url": "https://x.com/kmt9993/status/2058306910026416342",
         "display_url": "https://pbs.twimg.com/media/HJCTOZCbwAAcLy5.jpg?name=orig"
       }
     ],
@@ -1387,7 +1387,7 @@ window.BOOTHS = [
     "min_price": 1000,
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058328833917604147",
+        "source_url": "https://x.com/takoyaki_110721/status/2056662314913583531",
         "display_url": "https://pbs.twimg.com/media/HIq7eelbsAAH8WC.jpg?name=orig"
       }
     ],
@@ -1558,7 +1558,7 @@ window.BOOTHS = [
     "min_price": 500,
     "cover_urls": [
       {
-        "source_url": "https://x.com/chasiburicorico/status/2057830627349815337",
+        "source_url": "https://x.com/2015chaosgroup/status/2057804696711307690",
         "display_url": "https://pbs.twimg.com/media/HI7KdaYa0AAY0-h.jpg?name=orig"
       }
     ],
@@ -1616,15 +1616,15 @@ window.BOOTHS = [
     },
     "cover_urls": [
       {
-        "source_url": "https://x.com/nb164/status/2058176178226356297",
+        "source_url": "https://x.com/haruhannohane/status/2056677009766678649",
         "display_url": "https://pbs.twimg.com/media/HIrIy3haYAA2D6-.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/haruhannohane/status/2058147573802979329",
+        "source_url": "https://x.com/haruhannohane/status/2053370879191753073",
         "display_url": "https://pbs.twimg.com/media/HH8J7IBaUAAhCg5.jpg?name=orig"
       },
       {
-        "source_url": "https://x.com/haruhannohane/status/2058147573802979329",
+        "source_url": "https://x.com/haruhannohane/status/2053370879191753073",
         "display_url": "https://pbs.twimg.com/media/HH8J7PSb0AAN1wU.jpg?name=orig"
       }
     ],
@@ -1687,7 +1687,7 @@ window.BOOTHS = [
     },
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058331660937224194",
+        "source_url": "https://x.com/umenoichiru/status/2057778599198130529",
         "display_url": "https://pbs.twimg.com/media/HI6yudFawAA0cti.jpg?name=orig"
       },
       {
@@ -1778,7 +1778,7 @@ window.BOOTHS = [
     ],
     "cover_urls": [
       {
-        "source_url": "https://x.com/anmitiyon/status/2058329079850672243",
+        "source_url": "https://x.com/rUwhdLQqtI433/status/2057478416287596934",
         "display_url": "https://pbs.twimg.com/media/HI2hi3zbkAIR9xh.jpg?name=orig"
       },
       {

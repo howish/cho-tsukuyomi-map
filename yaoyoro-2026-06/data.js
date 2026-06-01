@@ -133,7 +133,7 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HJji5_caoAA2N-I.jpg"
       },
       {
-        "source_url": "https://x.com/masaki_sakura/status/2060934800568160391",
+        "source_url": "https://x.com/masaki_sakura/status/2004888622911422866",
         "display_url": "https://pbs.twimg.com/media/G9LLemkbgAA5BRZ.jpg"
       }
     ]
@@ -242,7 +242,7 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://x.com/zuzuzu_222/status/2060697512571527515",
+        "source_url": "https://x.com/umaauraa5/status/2060696666177782151",
         "display_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg"
       }
     ]
