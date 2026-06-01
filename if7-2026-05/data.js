@@ -7825,6 +7825,11 @@ window.BOOTHS = [
         "display_locked": false
       },
       {
+        "source_url": "https://x.com/_icpfo1/status/2059655387868254335",
+        "display_url": "https://pbs.twimg.com/media/HJVdqB7awAE9a6M.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://www.threads.com/@usagi._.novelist/post/DYCH7mrj32e",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DYCH7mrj32e/0.jpg",
         "display_locked": false

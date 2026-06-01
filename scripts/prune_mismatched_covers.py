@@ -11,9 +11,16 @@ the wrong image stops being shown under the booth's name.
 Skips:
 - /i/status/ URLs (author not resolvable)
 - author handles in the circle.socials list (legitimate co-circles)
+- handles in .cover_author_allowlist.json (manually-confirmed 寄攤 partners)
 - Non-X cover URLs (FB / Plurk / IG / Threads / Bsky / direct image)
 
 Idempotent. Run after canonicalize_rt_sources.py.
+
+**Note**: As of 2026-06-01, this script is NOT wired into the rebuild
+pipeline. Policy shifted to manual review (Yachiyo per-case judgment) —
+the rebuild instead runs audit_cover_author_match.py. Keep this script
+around for occasional bulk-prune after confirming all flagged entries
+are genuinely wrong attribution.
 """
 from __future__ import annotations
 
