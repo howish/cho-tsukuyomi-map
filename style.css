@@ -629,6 +629,10 @@ section {
   align-items: center;
   margin-bottom: 0.5rem;
 }
+/* Respect the `hidden` attribute — set by app.js when filters.js leaves a
+   category empty for this event. Without this rule the display:flex above
+   would override the implicit display:none from the hidden attribute. */
+.filters[hidden] { display: none !important; }
 
 .filter-row-label {
   font-size: 0.8rem;
