@@ -45,15 +45,56 @@
   }
 
   // ---- Pending decisions (localStorage) ----
+  // pending[author_id] = name-decision (rename / skip), one per author.
+  // pending_socials[author_id] = [{platform, url, handle}, ...] add_social ops.
   function loadPending() {
     try {
       return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     } catch (e) { return {}; }
   }
+  function loadPendingSocials() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-socials') || '{}');
+    } catch (e) { return {}; }
+  }
   function savePending(p) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   }
+  function savePendingSocials(ps) {
+    localStorage.setItem(STORAGE_KEY + '-socials', JSON.stringify(ps));
+  }
   let pending = loadPending();
+  let pendingSocials = loadPendingSocials();
+
+  // Auto-detect platform from URL host.
+  const PLATFORM_FROM_HOST = [
+    [/(?:^|\/\/)(?:www\.)?(?:x\.com|twitter\.com)\//, 'x'],
+    [/(?:^|\/\/)(?:www\.)?plurk\.com\//, 'plurk'],
+    [/(?:^|\/\/)(?:www\.)?(?:facebook\.com|fb\.com|m\.facebook\.com|fb\.me)\//, 'fb'],
+    [/(?:^|\/\/)(?:www\.)?instagram\.com\//, 'ig'],
+    [/(?:^|\/\/)(?:www\.)?threads\.(?:com|net)\//, 'threads'],
+    [/(?:^|\/\/)bsky\.app\//, 'bsky'],
+    [/(?:^|\/\/)(?:www\.)?pixiv\.net\//, 'pixiv'],
+    [/(?:^|\/\/)(?:www\.)?doujin\.com\.tw\//, 'doujin_tw'],
+    [/(?:^|\/\/)(?:lit\.link|linktr\.ee|portaly\.cc)\//, 'aggregator'],
+    [/\.booth\.pm\//, 'booth_pm'],
+    [/\.wixsite\.com\//, 'wix'],
+    [/\.tumblr\.com\//, 'blog'],
+    [/(?:youtube\.com|youtu\.be)\//, 'generic'],
+  ];
+  function detectPlatform(url) {
+    if (!url) return 'generic';
+    for (const [rx, plat] of PLATFORM_FROM_HOST) if (rx.test(url)) return plat;
+    return 'generic';
+  }
+  function extractHandle(url, platform) {
+    if (!url) return '';
+    // Handle pattern depends on platform; pick the last meaningful path segment
+    const m = url.match(/(?:^|\/)([^\/\?#]+)\/?(?:[\?#]|$)/g);
+    if (!m || m.length === 0) return '';
+    const last = m[m.length - 1].replace(/[\/\?#]/g, '');
+    return last ? '@' + last : '';
+  }
 
   // ---- Source dropdown options ----
   const SOURCE_OPTIONS = [
@@ -192,7 +233,7 @@
 
     card.appendChild(head);
 
-    // Probe links — all socials + x_handle
+    // Probe links — all socials + x_handle + pending-added
     const links = el('div', { class: 'card-probe-links' });
     if (a.x_handle) {
       links.appendChild(el('a', {
@@ -210,10 +251,95 @@
         target: '_blank', rel: 'noopener',
       }, label));
     }
+    // Pending-added socials (visually distinct)
+    const adds = pendingSocials[a.id] || [];
+    adds.forEach((s, idx) => {
+      const wrap = el('span', { class: 'card-probe-link pending-add', title: 'pending 追加' });
+      wrap.appendChild(el('a', {
+        href: s.url,
+        target: '_blank', rel: 'noopener',
+        class: 'pending-add-link',
+      }, '+ ' + s.platform + (s.handle ? ' ' + s.handle : '')));
+      wrap.appendChild(el('button', {
+        type: 'button',
+        class: 'pending-add-remove',
+        title: 'pending 追加を取消',
+        onclick: () => {
+          pendingSocials[a.id].splice(idx, 1);
+          if (pendingSocials[a.id].length === 0) delete pendingSocials[a.id];
+          savePendingSocials(pendingSocials);
+          render();
+        },
+      }, '×'));
+      links.appendChild(wrap);
+    });
     if (!links.children.length) {
-      links.appendChild(el('span', { class: 'card-probe-link' }, '⚠️ SNS リンクなし'));
+      links.appendChild(el('span', { class: 'card-probe-link no-links' }, '⚠️ SNS リンクなし'));
     }
     card.appendChild(links);
+
+    // Add-social inline form (collapsed by default)
+    const addBlock = el('div', { class: 'add-social-block' });
+    const addToggle = el('button', {
+      type: 'button',
+      class: 'add-social-toggle',
+      onclick: () => addBlock.classList.toggle('open'),
+    }, '+ SNS link 追加');
+    const addForm = el('div', { class: 'add-social-form' });
+
+    const urlInput = el('input', {
+      type: 'url',
+      placeholder: 'URL (https://...)',
+      class: 'add-social-url',
+    });
+    const platSelect = el('select', { class: 'add-social-platform' });
+    const PLAT_OPTIONS = ['x', 'plurk', 'fb', 'ig', 'threads', 'bsky', 'pixiv',
+      'doujin_tw', 'aggregator', 'booth_pm', 'wix', 'blog', 'gamer', 'generic'];
+    for (const p of PLAT_OPTIONS) {
+      platSelect.appendChild(el('option', { value: p }, p));
+    }
+    const handleInput = el('input', {
+      type: 'text',
+      placeholder: 'handle (任意、例: @foo)',
+      class: 'add-social-handle',
+    });
+    // Auto-detect platform + handle as user types URL
+    urlInput.addEventListener('input', () => {
+      const u = urlInput.value.trim();
+      if (u) {
+        const p = detectPlatform(u);
+        platSelect.value = p;
+        if (!handleInput.value) handleInput.value = extractHandle(u, p);
+      }
+    });
+    const addBtn = el('button', {
+      type: 'button',
+      class: 'add-social-add',
+      onclick: () => {
+        let u = urlInput.value.trim();
+        if (!u) { alert('URL を入力してください'); return; }
+        if (!/^https?:\/\//.test(u)) u = 'https://' + u;
+        const platform = platSelect.value;
+        const handle = handleInput.value.trim();
+        (pendingSocials[a.id] = pendingSocials[a.id] || []).push({ platform, url: u, handle });
+        savePendingSocials(pendingSocials);
+        // Reset form
+        urlInput.value = '';
+        handleInput.value = '';
+        addBlock.classList.remove('open');
+        render();
+      },
+    }, '+ 追加');
+
+    addForm.appendChild(urlInput);
+    const row2 = el('div', { class: 'add-social-row' });
+    row2.appendChild(platSelect);
+    row2.appendChild(handleInput);
+    row2.appendChild(addBtn);
+    addForm.appendChild(row2);
+    addBlock.appendChild(addToggle);
+    addBlock.appendChild(addForm);
+    card.appendChild(addBlock);
 
     // Yachiyo note
     const plat = authorPrimaryPlatform(a);
@@ -361,10 +487,12 @@
   function renderPending() {
     const panel = document.getElementById('review-pending-panel');
     const list = document.getElementById('pending-list');
-    const count = Object.keys(pending).length;
-    document.getElementById('pending-count').textContent = count;
+    const nameCount = Object.keys(pending).length;
+    const socialCount = Object.values(pendingSocials).reduce((s, arr) => s + arr.length, 0);
+    const total = nameCount + socialCount;
+    document.getElementById('pending-count').textContent = total;
     list.innerHTML = '';
-    if (count === 0) {
+    if (total === 0) {
       panel.hidden = true;
       return;
     }
@@ -374,11 +502,19 @@
       const li = el('li');
       li.appendChild(el('strong', {}, aid));
       if (d.decision === 'rename') {
-        li.appendChild(el('span', {}, `→ ${d.name} (${d.source})`));
+        li.appendChild(el('span', {}, `📝 → ${d.name} (${d.source})`));
       } else {
-        li.appendChild(el('span', {}, '→ skip (本名不明)'));
+        li.appendChild(el('span', {}, '⏭ skip (本名不明)'));
       }
       list.appendChild(li);
+    }
+    for (const aid in pendingSocials) {
+      for (const s of pendingSocials[aid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, aid));
+        li.appendChild(el('span', {}, `🔗 + ${s.platform} ${s.handle || ''} → ${s.url}`));
+        list.appendChild(li);
+      }
     }
     // Size hint
     const body = buildSubmissionBody();
@@ -392,7 +528,19 @@
 
   // ---- Submission ----
   function pendingArray() {
-    return Object.values(pending);
+    const out = Object.values(pending).slice();
+    for (const aid in pendingSocials) {
+      for (const s of pendingSocials[aid]) {
+        out.push({
+          author_id: aid,
+          decision: 'add_social',
+          platform: s.platform,
+          url: s.url,
+          handle: s.handle || '',
+        });
+      }
+    }
+    return out;
   }
 
   function buildSubmissionBody() {
@@ -509,7 +657,9 @@
   document.getElementById('pending-clear').addEventListener('click', () => {
     if (!confirm('保留中の決定を全クリアしますか?')) return;
     pending = {};
+    pendingSocials = {};
     savePending(pending);
+    savePendingSocials(pendingSocials);
     render();
   });
 
