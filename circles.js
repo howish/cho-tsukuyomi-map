@@ -10201,9 +10201,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_00063d801927": {
     "id": "a_00063d801927",
-    "name": "",
-    "name_inferred": "我要看警察組Sexy★Guilty啊",
-    "name_source": "circle_name",
+    "name": "C.G.",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/CATGIRL0926",
     "socials": [
@@ -10216,9 +10216,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_009c8ae8451c": {
     "id": "a_009c8ae8451c",
-    "name": "",
-    "name_inferred": "魷刃有魚",
-    "name_source": "circle_name",
+    "name": "奶油",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/kuriimuda",
     "socials": [
@@ -10261,9 +10261,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_015fc3c18a92": {
     "id": "a_015fc3c18a92",
-    "name": "",
-    "name_inferred": "喬公異旅 with shrimp emotions",
-    "name_source": "circle_name",
+    "name": "hallucinogens",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/hallucinogens",
     "socials": [
@@ -10339,9 +10339,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_034f8555900e": {
     "id": "a_034f8555900e",
-    "name": "",
-    "name_inferred": "大腦空談論",
-    "name_source": "circle_name",
+    "name": "楓茉",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/mlo_8828",
     "socials": [
@@ -10513,9 +10513,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0a22a919959c": {
     "id": "a_0a22a919959c",
-    "name": "",
-    "name_inferred": "利利皆心土",
-    "name_source": "circle_name",
+    "name": "絳",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/Mi_key",
     "socials": [
@@ -10726,9 +10726,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_11e8ffa41463": {
     "id": "a_11e8ffa41463",
-    "name": "",
-    "name_inferred": "僧多粥少",
-    "name_source": "circle_name",
+    "name": "僧僧多粥粥少VW10-V14",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/giwa10310425",
     "socials": [
@@ -11060,9 +11060,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1b7f3d6874bb": {
     "id": "a_1b7f3d6874bb",
-    "name": "",
-    "name_inferred": "奇異鳥巡迴演唱會",
-    "name_source": "circle_name",
+    "name": "梨安子",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/lian4302",
     "socials": [
@@ -11090,9 +11090,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1bca87ba04af": {
     "id": "a_1bca87ba04af",
-    "name": "",
-    "name_inferred": "輝夜AI追夢椅",
-    "name_source": "circle_name",
+    "name": "傑特帕斯",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/juatpass",
     "socials": [
@@ -11120,9 +11120,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1c428f7ee706": {
     "id": "a_1c428f7ee706",
-    "name": "",
-    "name_inferred": "INSIDE LAB",
-    "name_source": "circle_name",
+    "name": "Kizuki🦇創集繪S31",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ToMato182",
     "socials": [
@@ -11165,9 +11165,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1dfeaf87eb0d": {
     "id": "a_1dfeaf87eb0d",
-    "name": "",
-    "name_inferred": "食蟻獸的螞蟻窩",
-    "name_source": "circle_name",
+    "name": "EnoKi ▼ エノキ",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/enokimitsuki",
     "socials": [
@@ -11300,9 +11300,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_218750e10789": {
     "id": "a_218750e10789",
-    "name": "",
-    "name_inferred": "夢靈虎居",
-    "name_source": "circle_name",
+    "name": "夢 靈 虎 居",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/dreamxsoul",
     "socials": [
@@ -11450,9 +11450,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_25a8023cd010": {
     "id": "a_25a8023cd010",
-    "name": "",
-    "name_inferred": "いろはに甘い節分",
-    "name_source": "circle_name",
+    "name": "珀琳圍牆",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/caramel06",
     "socials": [
@@ -11575,9 +11575,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_27ca1f8a8a37": {
     "id": "a_27ca1f8a8a37",
-    "name": "",
-    "name_inferred": "叁拾顆南瓜",
-    "name_source": "circle_name",
+    "name": "南瓜｜GJ J13",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ziv188622",
     "socials": [
@@ -11740,9 +11740,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_2dcc10f31d42": {
     "id": "a_2dcc10f31d42",
-    "name": "",
-    "name_inferred": "柑橘薄荷凍",
-    "name_source": "circle_name",
+    "name": "ゆあ⊹VW-V03",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/yua_neko",
     "socials": [
@@ -11842,9 +11842,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_32612d474b4a": {
     "id": "a_32612d474b4a",
-    "name": "",
-    "name_inferred": "SUNSUN",
-    "name_source": "circle_name",
+    "name": "優萱🍬創集繪L11",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/iamritai2001",
     "socials": [
@@ -11905,9 +11905,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3397bb930318": {
     "id": "a_3397bb930318",
-    "name": "",
-    "name_inferred": "勝者早餐大冰紅",
-    "name_source": "circle_name",
+    "name": "人尹🔁冷飲",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/renyinaloha",
     "socials": [
@@ -11965,9 +11965,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_362acdc9567e": {
     "id": "a_362acdc9567e",
-    "name": "",
-    "name_inferred": "砂鍋魚頭",
-    "name_source": "circle_name",
+    "name": "CX0",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/stargazer233",
     "socials": [
@@ -12138,9 +12138,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_38ab12ded32c": {
     "id": "a_38ab12ded32c",
-    "name": "",
-    "name_inferred": "鹽昆布茶泡飯",
-    "name_source": "circle_name",
+    "name": "冰雨×冴凜深坑中",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/SeRn1009",
     "socials": [
@@ -12198,9 +12198,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3d6ff30f9483": {
     "id": "a_3d6ff30f9483",
-    "name": "",
-    "name_inferred": "發芽的沙發馬鈴薯",
-    "name_source": "circle_name",
+    "name": "吃魚不吃魚🐠P37",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/sly450026",
     "socials": [
@@ -12477,9 +12477,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_44acefc09bd6": {
     "id": "a_44acefc09bd6",
-    "name": "",
-    "name_inferred": "紫乃沒有乃",
-    "name_source": "circle_name",
+    "name": "紫乃",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/CNO",
     "socials": [
@@ -12710,9 +12710,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4c1f1b688373": {
     "id": "a_4c1f1b688373",
-    "name": "",
-    "name_inferred": "芒果汁加珍珠",
-    "name_source": "circle_name",
+    "name": "小河🧋創集繪小百翁S11",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3i2nll7mkt",
     "socials": [
@@ -12824,9 +12824,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4edbda676c9f": {
     "id": "a_4edbda676c9f",
-    "name": "",
-    "name_inferred": "經費有限公司",
-    "name_source": "circle_name",
+    "name": "涵🗡️能躺何必坐",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/han_adtw",
     "socials": [
@@ -12839,9 +12839,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4f65a9f362ce": {
     "id": "a_4f65a9f362ce",
-    "name": "",
-    "name_inferred": "JO要划船",
-    "name_source": "circle_name",
+    "name": "花窗•修煉人蔘",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/kawa_7128",
     "socials": [
@@ -12884,9 +12884,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5150b7a1e116": {
     "id": "a_5150b7a1e116",
-    "name": "",
-    "name_inferred": "Rio.ouo哩喔",
-    "name_source": "circle_name",
+    "name": "Rio哩喔",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ryuouo",
     "socials": [
@@ -12899,9 +12899,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_51a19600c2b0": {
     "id": "a_51a19600c2b0",
-    "name": "",
-    "name_inferred": "遺品整理師 / OtaMatch宅友圈",
-    "name_source": "circle_name",
+    "name": "塔客聯合辦公室",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/retaku",
     "socials": [
@@ -12914,9 +12914,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_52434df2575f": {
     "id": "a_52434df2575f",
-    "name": "",
-    "name_inferred": "杏仁豆腐の旋律",
-    "name_source": "circle_name",
+    "name": "杏仁豆腐 創集繪_L34",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/weirin0",
     "socials": [
@@ -12944,9 +12944,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_53892e710438": {
     "id": "a_53892e710438",
-    "name": "",
-    "name_inferred": "在浪影斑駁的夏天出門右轉兩三步",
-    "name_source": "circle_name",
+    "name": "斑夏",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/yvonneching8218",
     "socials": [
@@ -13064,9 +13064,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_553c14451dc3": {
     "id": "a_553c14451dc3",
-    "name": "",
-    "name_inferred": "Little Box",
-    "name_source": "circle_name",
+    "name": "Hako★",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/harukam03",
     "socials": [
@@ -13253,9 +13253,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5acdbd1bb946": {
     "id": "a_5acdbd1bb946",
-    "name": "",
-    "name_inferred": "臨時通告",
-    "name_source": "circle_name",
+    "name": "阿茄",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/skyberryelement",
     "socials": [
@@ -13268,9 +13268,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5b8525675b67": {
     "id": "a_5b8525675b67",
-    "name": "",
-    "name_inferred": "依舊笑容紙不住",
-    "name_source": "circle_name",
+    "name": "紙屑",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/r_bish",
     "socials": [
@@ -13283,9 +13283,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5c12d0c4be70": {
     "id": "a_5c12d0c4be70",
-    "name": "",
-    "name_inferred": "現在我有一團兵淇淋",
-    "name_source": "circle_name",
+    "name": "07Z3",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/uni_07z3",
     "socials": [
@@ -13343,9 +13343,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5ca6942c789d": {
     "id": "a_5ca6942c789d",
-    "name": "",
-    "name_inferred": "薯星星",
-    "name_source": "circle_name",
+    "name": "蘇美薯球",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://plurk.com/potatosonnet",
     "socials": [
@@ -13487,9 +13487,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_60c61a7fec63": {
     "id": "a_60c61a7fec63",
-    "name": "",
-    "name_inferred": "倉鼠補習蛋糕店(暫)",
-    "name_source": "circle_name",
+    "name": "御宅鼠🐿養精蓄銳",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/yujaisu",
     "socials": [
@@ -13622,9 +13622,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_645263a4c0bc": {
     "id": "a_645263a4c0bc",
-    "name": "",
-    "name_inferred": "會飛的紙條",
-    "name_source": "circle_name",
+    "name": "NoTa",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/Silver_NoTa",
     "socials": [
@@ -13661,9 +13661,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_66d894ad5602": {
     "id": "a_66d894ad5602",
-    "name": "",
-    "name_inferred": "動物押花",
-    "name_source": "circle_name",
+    "name": "滾滾🦁整理整理中",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/summerbonekiara",
     "socials": [
@@ -13805,9 +13805,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_68f7f9144ffe": {
     "id": "a_68f7f9144ffe",
-    "name": "",
-    "name_inferred": "迢迢路條條",
-    "name_source": "circle_name",
+    "name": "漸絃💖GJ M31",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/arcusong",
     "socials": [
@@ -13835,9 +13835,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6c234df8522b": {
     "id": "a_6c234df8522b",
-    "name": "",
-    "name_inferred": "阿喔喔咧合作社",
-    "name_source": "circle_name",
+    "name": "吐司🍞創集繪X02",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3icizou1me",
     "socials": [
@@ -13949,9 +13949,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6ff340080b2a": {
     "id": "a_6ff340080b2a",
-    "name": "",
-    "name_inferred": "BOMB DONUT",
-    "name_source": "circle_name",
+    "name": "YS🏍️萩ㄑㄧㄡ原推廣委員會🪽",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/gulyocat",
     "socials": [
@@ -13979,9 +13979,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_71d2fbd61593": {
     "id": "a_71d2fbd61593",
-    "name": "",
-    "name_inferred": "TMPB Project",
-    "name_source": "circle_name",
+    "name": "良田saRahda",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/s22393",
     "socials": [
@@ -14054,7 +14054,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_749ae6f904ab": {
     "id": "a_749ae6f904ab",
-    "name": "槭槭（ㄘㄨˋㄘㄨˋ",
+    "name": "槭槭",
     "name_inferred": "",
     "name_source": "plurk_bio_zh_call_high",
     "x_handle": "",
@@ -14069,9 +14069,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_754bddfc4f71": {
     "id": "a_754bddfc4f71",
-    "name": "",
-    "name_inferred": "上樑不正下樑歪",
-    "name_source": "circle_name",
+    "name": "歪歪☞IF創集繪N31",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/leo504436",
     "socials": [
@@ -14099,9 +14099,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_75c9bf29aed4": {
     "id": "a_75c9bf29aed4",
-    "name": "",
-    "name_inferred": "モエ畫稿同萌",
-    "name_source": "circle_name",
+    "name": "日日比🍍💀創集繪Q13",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/chiuchiu0428",
     "socials": [
@@ -14198,9 +14198,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7826cd288555": {
     "id": "a_7826cd288555",
-    "name": "",
-    "name_inferred": "Confeito",
-    "name_source": "circle_name",
+    "name": "麥奇★蜜蜂需要曬太陽",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/MIKEY21",
     "socials": [
@@ -14378,9 +14378,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7f5125e652c3": {
     "id": "a_7f5125e652c3",
-    "name": "",
-    "name_inferred": "不安定星系",
-    "name_source": "circle_name",
+    "name": "カルピス星人",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/karupisu_planet",
     "socials": [
@@ -14458,9 +14458,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_81f0e1ac3f5d": {
     "id": "a_81f0e1ac3f5d",
-    "name": "",
-    "name_inferred": "MP9999",
-    "name_source": "circle_name",
+    "name": "MASAMI★創集繪【J12",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/mp9999",
     "socials": [
@@ -14703,9 +14703,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_8698f970b85f": {
     "id": "a_8698f970b85f",
-    "name": "",
-    "name_inferred": "非瑜不能吃",
-    "name_source": "circle_name",
+    "name": "非瑜✦大家都去看前橋魔女嘛",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/moonshadow331",
     "socials": [
@@ -14718,9 +14718,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_86a06b80cdda": {
     "id": "a_86a06b80cdda",
-    "name": "",
-    "name_inferred": "我朋友沒朋友",
-    "name_source": "circle_name",
+    "name": "MaTo🦊創集繪W2526",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/zdyui810",
     "socials": [
@@ -14898,9 +14898,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_8e4911013c84": {
     "id": "a_8e4911013c84",
-    "name": "",
-    "name_inferred": "鵺空",
-    "name_source": "circle_name",
+    "name": "鵺空✦創集繪K28",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/snipeyozora",
     "socials": [
@@ -15078,9 +15078,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_941b173be6f9": {
     "id": "a_941b173be6f9",
-    "name": "",
-    "name_inferred": "狐日和",
-    "name_source": "circle_name",
+    "name": "⊹⁺₊島澤🦊",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/gloomlysky",
     "socials": [
@@ -15143,9 +15143,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9690dcf02076": {
     "id": "a_9690dcf02076",
-    "name": "",
-    "name_inferred": "哇呀燈塔塔",
-    "name_source": "circle_name",
+    "name": "majakka塔 ‖ 哇呀",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/poki1130",
     "socials": [
@@ -15173,9 +15173,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_975f5236b9e8": {
     "id": "a_975f5236b9e8",
-    "name": "",
-    "name_inferred": "遠航冒險",
-    "name_source": "circle_name",
+    "name": "遠航冒險｜新石紀IF場內串聯",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/newstone",
     "socials": [
@@ -15242,9 +15242,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9a603343710c": {
     "id": "a_9a603343710c",
-    "name": "",
-    "name_inferred": "羊肉燒賣",
-    "name_source": "circle_name",
+    "name": "羊肉❅",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/swet1002",
     "socials": [
@@ -15332,9 +15332,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9be70f27cf26": {
     "id": "a_9be70f27cf26",
-    "name": "",
-    "name_inferred": "維也納貓咖附餐烤飯糰",
-    "name_source": "circle_name",
+    "name": "圭沂:GJ O09",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/sakana_56",
     "socials": [
@@ -15647,9 +15647,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a56507228360": {
     "id": "a_a56507228360",
-    "name": "",
-    "name_inferred": "須彌芥子",
-    "name_source": "circle_name",
+    "name": "芥子🌱來場感謝",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/a983azy",
     "socials": [
@@ -15677,9 +15677,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a5f784e601df": {
     "id": "a_a5f784e601df",
-    "name": "",
-    "name_inferred": "迷你蛋",
-    "name_source": "circle_name",
+    "name": "兔兔",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/nagoberry",
     "socials": [
@@ -15920,9 +15920,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_acdd66b90078": {
     "id": "a_acdd66b90078",
-    "name": "",
-    "name_inferred": "米De加奶不加糖",
-    "name_source": "circle_name",
+    "name": "米De*創集絵K36",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/a86872329",
     "socials": [
@@ -15935,9 +15935,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ad38cd9a7134": {
     "id": "a_ad38cd9a7134",
-    "name": "",
-    "name_inferred": "汁星",
-    "name_source": "circle_name",
+    "name": "卡汁🍊",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "http://www.plurk.com/kazA_A",
     "socials": [
@@ -15965,9 +15965,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ade7fd39106e": {
     "id": "a_ade7fd39106e",
-    "name": "",
-    "name_inferred": "喬魯諾巴巴大俠二號",
-    "name_source": "circle_name",
+    "name": "泰茲¥5/30創集繪L8-10",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/sayoku",
     "socials": [
@@ -16160,9 +16160,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b180a7e61a14": {
     "id": "a_b180a7e61a14",
-    "name": "",
-    "name_inferred": "紫色狐狸山",
-    "name_source": "circle_name",
+    "name": "玉牙YUYA🦊^^.",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/lll8256",
     "socials": [
@@ -16369,9 +16369,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b90427a46f7c": {
     "id": "a_b90427a46f7c",
-    "name": "",
-    "name_inferred": "亞矢愛吃爆米花",
-    "name_source": "circle_name",
+    "name": "創集繪O14🔥🌊亞矢",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ayas929",
     "socials": [
@@ -16464,9 +16464,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_bd101ced774c": {
     "id": "a_bd101ced774c",
-    "name": "",
-    "name_inferred": "怎麼沒有麥香魚",
-    "name_source": "circle_name",
+    "name": "詠真🧡集創繪 L14",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/truemako21",
     "socials": [
@@ -16569,9 +16569,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c04d4039926f": {
     "id": "a_c04d4039926f",
-    "name": "",
-    "name_inferred": "Y是英文字母的Y",
-    "name_source": "circle_name",
+    "name": "Y君(YG)VW-V13",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/yenchun916",
     "socials": [
@@ -16644,9 +16644,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c194c81213a9": {
     "id": "a_c194c81213a9",
-    "name": "",
-    "name_inferred": "今夜漫長",
-    "name_source": "circle_name",
+    "name": "砂礫(〃∀〃) 大感謝",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/lostsilence",
     "socials": [
@@ -17023,9 +17023,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_cceafad29f3f": {
     "id": "a_cceafad29f3f",
-    "name": "",
-    "name_inferred": "東雲之森",
-    "name_source": "circle_name",
+    "name": "淺瀰＊布穀兩日F16創集X04",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3gvbo8hc97",
     "socials": [
@@ -17038,9 +17038,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_cd83e224c7e8": {
     "id": "a_cd83e224c7e8",
-    "name": "",
-    "name_inferred": "口口鳥工作室",
-    "name_source": "circle_name",
+    "name": "創集繪W17",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/winnie292720",
     "socials": [
@@ -17083,9 +17083,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_cf3a19e797fb": {
     "id": "a_cf3a19e797fb",
-    "name": "",
-    "name_inferred": "勝利早餐店",
-    "name_source": "circle_name",
+    "name": "白紋 ☁️☁️",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/choco6644",
     "socials": [
@@ -17182,9 +17182,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d3771a5b040d": {
     "id": "a_d3771a5b040d",
-    "name": "",
-    "name_inferred": "西宿舍洗衣間",
-    "name_source": "circle_name",
+    "name": "🐤tonton-創集繪S30",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/spton",
     "socials": [
@@ -17197,9 +17197,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d40f9ba7deb6": {
     "id": "a_d40f9ba7deb6",
-    "name": "",
-    "name_inferred": "光明系同人女",
-    "name_source": "circle_name",
+    "name": "偶咦♞創集繪L01",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ooinn_arts",
     "socials": [
@@ -17227,9 +17227,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d471f0bbd86d": {
     "id": "a_d471f0bbd86d",
-    "name": "",
-    "name_inferred": "蜂蜜奶油",
-    "name_source": "circle_name",
+    "name": "千千🍋創集繪Z16",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/therealchien",
     "socials": [
@@ -17317,9 +17317,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d64f0e9971e3": {
     "id": "a_d64f0e9971e3",
-    "name": "",
-    "name_inferred": "小布j.us",
-    "name_source": "circle_name",
+    "name": "小布-甚直本",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/sghg181",
     "socials": [
@@ -17497,9 +17497,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_dd43d76bb52e": {
     "id": "a_dd43d76bb52e",
-    "name": "",
-    "name_inferred": "男男軟體園區",
-    "name_source": "circle_name",
+    "name": "紳士校┃EZ DO RAP",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/sakuraharu",
     "socials": [
@@ -17561,9 +17561,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_debffc7254b1": {
     "id": "a_debffc7254b1",
-    "name": "",
-    "name_inferred": "激凍冰的紅茶",
-    "name_source": "circle_name",
+    "name": "冰的紅茶_創集繪_U01",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/shu_pong203",
     "socials": [
@@ -17576,9 +17576,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_dec9962f7ef8": {
     "id": "a_dec9962f7ef8",
-    "name": "",
-    "name_inferred": "muto!",
-    "name_source": "circle_name",
+    "name": "˗ˏˋ muto！ˎˊ˗",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/dimly_bobo",
     "socials": [
@@ -17705,9 +17705,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_e0d16d646cf5": {
     "id": "a_e0d16d646cf5",
-    "name": "",
-    "name_inferred": "3206",
-    "name_source": "circle_name",
+    "name": "🏍星雪🏎創集繪N09N10🌽",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/j3180554",
     "socials": [
@@ -17785,9 +17785,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_e69e12c3070d": {
     "id": "a_e69e12c3070d",
-    "name": "",
-    "name_inferred": "GG++",
-    "name_source": "circle_name",
+    "name": "+加倍佳-五月場次感謝大家",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/karo3618",
     "socials": [
@@ -17893,9 +17893,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_eb75c2f376b5": {
     "id": "a_eb75c2f376b5",
-    "name": "",
-    "name_inferred": "FukamiShop",
-    "name_source": "circle_name",
+    "name": "ΔΔΔ",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/conk4",
     "socials": [
@@ -17938,9 +17938,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ed83b2e64270": {
     "id": "a_ed83b2e64270",
-    "name": "",
-    "name_inferred": "亡骸之歌",
-    "name_source": "circle_name",
+    "name": "白行",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/WhiteStyle1015",
     "socials": [
@@ -18073,9 +18073,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f244df796970": {
     "id": "a_f244df796970",
-    "name": "",
-    "name_inferred": "凱特少爺",
-    "name_source": "circle_name",
+    "name": "創集繪感謝大家x凌嵐",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ryouarashi",
     "socials": [
@@ -18172,9 +18172,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f5c9a24af3c5": {
     "id": "a_f5c9a24af3c5",
-    "name": "",
-    "name_inferred": "我還沒嚮導uwu",
-    "name_source": "circle_name",
+    "name": "凜川",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
     "socials": [
@@ -18307,9 +18307,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f92acdfe8075": {
     "id": "a_f92acdfe8075",
-    "name": "",
-    "name_inferred": "ONE DAY HERO",
-    "name_source": "circle_name",
+    "name": "OneDayHero_K21",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/plusultra2026",
     "socials": [
@@ -18382,9 +18382,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_fa8a455a236e": {
     "id": "a_fa8a455a236e",
-    "name": "",
-    "name_inferred": "腐黑學",
-    "name_source": "circle_name",
+    "name": "腐黑學 創集繪J05",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/rbs2009",
     "socials": [
@@ -18541,9 +18541,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_fefdcf5e2a2e": {
     "id": "a_fefdcf5e2a2e",
-    "name": "",
-    "name_inferred": "馬鈴薯燉肉",
-    "name_source": "circle_name",
+    "name": "くく 🍼",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.plurk.com/abcs628945",
     "socials": [
