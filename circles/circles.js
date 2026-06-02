@@ -33,7 +33,12 @@
     const m = url.match(/^https?:\/\/([^\/]+)(\/.*)?$/);
     if (!m) return url;
     const host = m[1].replace(/^www\./, '');
-    const path = (m[2] || '').replace(/[?#].*$/, '').replace(/\/+$/, '');
+    const pathRaw = m[2] || '';
+    const path = pathRaw.replace(/[?#].*$/, '').replace(/\/+$/, '');
+    if (platform === 'fb') {
+      const idMatch = pathRaw.match(/profile\.php\?id=(\d+)/);
+      if (idMatch) return '@fb-' + idMatch[1].slice(-6);
+    }
     const patterns = {
       x:         /^\/@?([A-Za-z0-9_]+)/,
       plurk:     /^\/(?:m\/)?@?([A-Za-z0-9_]+)/,
