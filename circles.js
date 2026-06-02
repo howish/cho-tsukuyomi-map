@@ -11057,16 +11057,6 @@ window.AUTHORS_BY_ID = {
         "platform": "threads",
         "handle": "@nekohige0123 (鬍鬚)",
         "url": "https://www.threads.com/@nekohige0123"
-      },
-      {
-        "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@x_milllllla_x"
-      },
-      {
-        "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@nekohige0123"
       }
     ]
   },
@@ -11141,11 +11131,6 @@ window.AUTHORS_BY_ID = {
         "platform": "pixiv",
         "handle": "多多",
         "url": "https://www.pixiv.net/users/21810609"
-      },
-      {
-        "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/yezijia1"
       }
     ]
   },
@@ -13001,24 +12986,9 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.youtube.com/@apple"
       },
       {
-        "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/emily60212"
-      },
-      {
         "platform": "x",
         "handle": "",
         "url": "https://twitter.com/fonin_fuuin"
-      },
-      {
-        "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/foninteru"
-      },
-      {
-        "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/3703509"
       },
       {
         "platform": "fb",
@@ -13385,11 +13355,6 @@ window.AUTHORS_BY_ID = {
         "platform": "threads",
         "handle": "",
         "url": "https://www.threads.com/@kotem_painting"
-      },
-      {
-        "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@kotem_painting"
       },
       {
         "platform": "ig",
@@ -14581,11 +14546,6 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
       },
       {
-        "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=20901804"
-      },
-      {
         "platform": "fb",
         "handle": "",
         "url": "https://www.facebook.com/media/set/?set=a.685021834474963&type=3"
@@ -15497,11 +15457,6 @@ window.AUTHORS_BY_ID = {
         "platform": "x",
         "handle": "@biphang35g",
         "url": "https://x.com/biphang35g"
-      },
-      {
-        "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/biphang35g"
       }
     ]
   },
@@ -18137,11 +18092,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "handle": "",
-        "url": "https://twitter.com/ame_aou"
-      },
-      {
-        "platform": "x",
-        "handle": "",
         "url": "https://twitter.com/ame_5000"
       },
       {
@@ -18178,11 +18128,6 @@ window.AUTHORS_BY_ID = {
         "platform": "generic",
         "handle": "",
         "url": "https://marshmallow-qa.com/qkkfure4wwgx2ge?t=wnTLQz&utm_medium=url_text&utm_source=promotion"
-      },
-      {
-        "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@ame_aou"
       }
     ]
   },
@@ -19532,11 +19477,6 @@ window.AUTHORS_BY_ID = {
         "platform": "plurk",
         "handle": "",
         "url": "https://avatars.plurk.com/17707316-big83859203.jpg"
-      },
-      {
-        "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@taiwanlilyproject"
       }
     ]
   },
@@ -19946,11 +19886,6 @@ window.AUTHORS_BY_ID = {
         "platform": "plurk",
         "handle": "@garaura",
         "url": "https://www.plurk.com/garaura"
-      },
-      {
-        "platform": "x",
-        "handle": "@mzenura",
-        "url": "https://x.com/mzenura"
       }
     ]
   },
