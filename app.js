@@ -712,6 +712,17 @@
         addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
       });
     }
+    // Merge author-level socials (from circles.json enrichment) — booth data.js
+    // is the original source but enrichment lives on the author record. The
+    // dedup inside addSocialChip ensures the same URL doesn't render twice.
+    if (Array.isArray(b.members)) {
+      for (const m of b.members) {
+        for (const s of (m.socials || [])) {
+          if (!s || !s.url) continue;
+          addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
+        }
+      }
+    }
     // Phase B-small (2026-06-02): 寄攤 / 委託 partners — chip styling alone
     // differentiates from primary author. Schema accepts either bare strings
     // (legacy X-only) or {platform, handle, name?} objects (multi-platform).

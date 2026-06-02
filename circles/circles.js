@@ -83,19 +83,33 @@
     if (c.author && c.author !== c.circle_name) head.appendChild(el('span', { class: 'circle-author' }, c.author));
     row.appendChild(head);
 
-    // Social link chips
+    // Social link chips — x_handle (primary author) renders as the lead X
+    // chip; the rest come from socials[]. Dedup by canonical URL.
+    const linkRow = el('div', { class: 'circle-links' });
+    const seenChipUrls = new Set();
+    function pushChip(platform, url, handle) {
+      const norm = (url || '').replace(/^https?:\/\//, '').replace(/^www\./, '').split('?')[0].split('#')[0].replace(/\/+$/, '').toLowerCase();
+      if (!norm || seenChipUrls.has(norm)) return;
+      seenChipUrls.add(norm);
+      const id = handle || extractHandleFromUrl(url, platform);
+      const label = (PLATFORM_ICON[platform] || '🔗') + ' ' + id;
+      linkRow.appendChild(el('a', {
+        class: 'circle-link-chip chip-' + platform,
+        href: url, target: '_blank', rel: 'noopener',
+        title: platform + (handle ? ' / ' + handle : ''),
+      }, label));
+    }
+    // Lead X chip from x_handle (the canonical primary author X identity)
+    if (c.x_handle) {
+      pushChip('x', 'https://x.com/' + c.x_handle, '@' + c.x_handle);
+    }
     if (c.socials && c.socials.length) {
-      const linkRow = el('div', { class: 'circle-links' });
       const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
       c.socials.slice().sort((a, b) => order(a) - order(b)).forEach(s => {
-        const id = s.handle || extractHandleFromUrl(s.url, s.platform);
-        const label = (PLATFORM_ICON[s.platform] || '🔗') + ' ' + id;
-        linkRow.appendChild(el('a', {
-          class: 'circle-link-chip chip-' + s.platform,
-          href: s.url, target: '_blank', rel: 'noopener',
-          title: s.platform + (s.handle ? ' / ' + s.handle : ''),
-        }, label));
+        pushChip(s.platform, s.url, s.handle);
       });
+    }
+    if (linkRow.children.length) {
       row.appendChild(linkRow);
     } else {
       row.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
