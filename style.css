@@ -1410,6 +1410,22 @@ section {
 /* Per-platform tint for the chip background (subtle, accessible contrast). */
 #modal-body .modal-meta a.social-chip-x { background: #e9ecef; }
 #modal-body .modal-meta a.social-chip-pixiv { background: #e6f0ff; color: #0096fa; }
+
+/* Consignment partner chip (寄攤 / 委託) — visually de-emphasised so the
+   primary author chip stays dominant. Outline + light bg + smaller text. */
+#modal-body .modal-meta a.author-chip.consignment {
+  background: transparent;
+  border: 1px dashed var(--accent);
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+}
+#modal-body .modal-meta a.author-chip.consignment:hover {
+  background: var(--accent);
+  color: #fff;
+  border-style: solid;
+}
 #modal-body .modal-meta a.social-chip-bsky { background: #e6f0ff; color: #0085ff; }
 #modal-body .modal-meta a.social-chip-fb { background: #e7f0ff; color: #1877f2; }
 #modal-body .modal-meta a.social-chip-ig { background: #fef0f4; color: #d81b60; }
