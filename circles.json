@@ -10247,6 +10247,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/inabatok"
+        },
+        {
+          "platform": "blog",
+          "handle": "@inabatok.tumblr.com",
+          "url": "https://inabatok.tumblr.com/"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=219951"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@ina814",
+          "url": "https://www.plurk.com/ina814"
         }
       ]
     },
@@ -10443,6 +10458,11 @@
           "platform": "doujin_tw",
           "handle": "@sakuracoffee",
           "url": "https://www.doujin.com.tw/authors/info/sakuracoffee"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@90465000",
+          "url": "https://www.plurk.com/90465000"
         }
       ]
     },
@@ -11526,6 +11546,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/op7804620"
+        },
+        {
+          "platform": "fb",
+          "handle": "@AskQuestions04",
+          "url": "https://www.facebook.com/AskQuestions04/"
         }
       ]
     },
@@ -11851,6 +11876,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/Go41577"
+        },
+        {
+          "platform": "fb",
+          "handle": "@go41577dog",
+          "url": "https://www.facebook.com/go41577dog/"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=15849031"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@Go41577",
+          "url": "https://www.plurk.com/Go41577"
         }
       ]
     },
@@ -12687,6 +12727,26 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/emily60212/goods"
+        },
+        {
+          "platform": "aggregator",
+          "handle": "@foninteru",
+          "url": "https://portaly.cc/foninteru"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=3703509"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@fonin_fuuin",
+          "url": "https://www.plurk.com/fonin_fuuin"
+        },
+        {
+          "platform": "x",
+          "handle": "@foninteru",
+          "url": "https://x.com/foninteru"
         }
       ]
     },
@@ -12766,6 +12826,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@haruka_99",
+          "url": "https://www.plurk.com/haruka_99"
         }
       ]
     },
@@ -12782,6 +12847,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/windstaryu/goods"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=6363212"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@windstaryu",
+          "url": "https://www.plurk.com/windstaryu"
         }
       ]
     },
@@ -12798,6 +12873,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/liftrasa5"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=17218700"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@MakeConfetti",
+          "url": "https://www.plurk.com/MakeConfetti"
         }
       ]
     },
@@ -12914,6 +12999,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/mola0632"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=493228"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@mola0632",
+          "url": "https://www.plurk.com/mola0632"
         }
       ]
     },
@@ -13855,6 +13950,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/kaori0408"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=13604486"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@jsff0713031723",
+          "url": "https://www.plurk.com/jsff0713031723"
+        },
+        {
+          "platform": "x",
+          "handle": "@kaoriri48",
+          "url": "https://x.com/kaoriri48"
         }
       ]
     },
@@ -13998,9 +14108,9 @@
     },
     {
       "id": "a_67e653155494",
-      "name": "",
-      "name_inferred": "No Yuri, No Life.",
-      "name_source": "circle_name",
+      "name": "Raker",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://portaly.cc/raker.natsume.0701",
@@ -14039,6 +14149,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=20901804"
         }
       ]
     },
@@ -14081,6 +14196,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/dd_r2112"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@COU_E",
+          "url": "http://www.plurk.com/COU_E"
+        },
+        {
+          "platform": "threads",
+          "handle": "@@ig_cou_e",
+          "url": "https://www.threads.com/@ig_cou_e"
         }
       ]
     },
@@ -14778,6 +14903,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/grams35"
+        },
+        {
+          "platform": "aggregator",
+          "handle": "@biphang",
+          "url": "https://lit.link/biphang"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@biphang",
+          "url": "https://www.plurk.com/biphang"
+        },
+        {
+          "platform": "x",
+          "handle": "@biphang35g",
+          "url": "https://x.com/biphang35g"
         }
       ]
     },
@@ -15071,6 +15211,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@beautywind",
+          "url": "https://www.plurk.com/beautywind"
         }
       ]
     },
@@ -15460,6 +15605,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/523/books"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@ninevsnine",
+          "url": "https://www.plurk.com/ninevsnine/"
         }
       ]
     },
@@ -15790,6 +15940,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/yangbu/goods"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@yangbu",
+          "url": "https://www.plurk.com/yangbu"
         }
       ]
     },
@@ -15998,6 +16153,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=91965075"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@blacksheep_liu",
+          "url": "https://www.plurk.com/blacksheep_liu"
+        },
+        {
+          "platform": "x",
+          "handle": "@liudigltal",
+          "url": "https://x.com/liudigltal"
         }
       ]
     },
@@ -16238,6 +16408,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/flyinglo"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@flyinglo",
+          "url": "https://www.plurk.com/flyinglo"
         }
       ]
     },
@@ -16625,6 +16800,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/shentos"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@ifeelfree",
+          "url": "https://www.plurk.com/ifeelfree"
         }
       ]
     },
@@ -16657,6 +16837,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/8694"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@kiami",
+          "url": "https://www.plurk.com/kiami"
         }
       ]
     },
@@ -16816,6 +17001,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=1665150"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@bambooboo",
+          "url": "https://www.plurk.com/bambooboo"
         }
       ]
     },
@@ -16864,6 +17059,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/shihchan"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@shihchan",
+          "url": "https://www.plurk.com/shihchan"
         }
       ]
     },
@@ -16965,6 +17165,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/1507/goods"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@jiouya",
+          "url": "http://www.plurk.com/jiouya"
         }
       ]
     },
@@ -17650,6 +17855,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/aliali_c"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=2897957"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@Tpcjog",
+          "url": "https://www.plurk.com/Tpcjog"
         }
       ]
     },
@@ -17778,6 +17993,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "http://www.pixiv.net/member.php?id=34176"
         }
       ]
     },
@@ -17826,6 +18046,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/theice"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@the_ice",
+          "url": "https://www.plurk.com/the_ice"
         }
       ]
     },
@@ -18340,6 +18565,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/hoegg/goods"
+        },
+        {
+          "platform": "ig",
+          "handle": "@egg._.3690",
+          "url": "https://www.instagram.com/egg._.3690/?igshid=YWJhMjlhZTc="
+        },
+        {
+          "platform": "plurk",
+          "handle": "@eggsmana",
+          "url": "https://www.plurk.com/eggsmana"
         }
       ]
     },
@@ -18536,6 +18771,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/"
+        },
+        {
+          "platform": "fb",
+          "handle": "@迷走巡鹿-498172533694108",
+          "url": "https://www.facebook.com/迷走巡鹿-498172533694108/"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@oo00winnie00oo",
+          "url": "https://www.plurk.com/oo00winnie00oo"
         }
       ]
     },
@@ -18584,6 +18829,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab"
+        },
+        {
+          "platform": "x",
+          "handle": "@mzenura",
+          "url": "https://twitter.com/mzenura"
         }
       ]
     },
@@ -18978,6 +19228,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/linda6030221"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=3354728"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@linda6030221",
+          "url": "https://www.plurk.com/linda6030221"
         }
       ]
     },
@@ -19100,6 +19360,21 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/authors/info/dn269annie"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=689745"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@mikoartdrawing",
+          "url": "https://www.plurk.com/mikoartdrawing"
+        },
+        {
+          "platform": "ig",
+          "handle": "@mikoartdrawing",
+          "url": "https://www.instagram.com/mikoartdrawing"
         }
       ]
     },
