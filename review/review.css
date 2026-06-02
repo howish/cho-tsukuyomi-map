@@ -22,10 +22,12 @@
 /* ---- Sidebar ---- */
 
 .review-sidebar {
-  background: rgba(40, 30, 55, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #fbf7f4;
+  color: #2a1e3a;
+  border: 1px solid #d8c8e0;
   border-radius: 12px;
   padding: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 900px) {
@@ -39,7 +41,8 @@
   margin: 0 0 12px 0;
   font-size: 14px;
   letter-spacing: 0.05em;
-  color: #c4a8d8;
+  color: #6c4a9d;
+  font-weight: 600;
 }
 
 .filter-block {
@@ -49,10 +52,11 @@
 .filter-label {
   display: block;
   font-size: 11px;
-  color: #9b7eb8;
+  color: #7a6a8c;
   margin-bottom: 6px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  font-weight: 600;
 }
 
 .filter-row {
@@ -62,41 +66,51 @@
 }
 
 .filter-btn {
-  background: rgba(80, 60, 110, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: #e0d4f0;
+  background: #ede4f5;
+  border: 1px solid #c8b8d8;
+  color: #4a3a5c;
   font-size: 12px;
   padding: 5px 12px;
   border-radius: 14px;
   cursor: pointer;
   transition: all 0.15s;
   -webkit-tap-highlight-color: transparent;
+  font-weight: 500;
 }
-.filter-btn:hover, .filter-btn:active { background: rgba(110, 80, 150, 0.7); }
+.filter-btn:hover, .filter-btn:active {
+  background: #d8c8e8;
+  border-color: #a888c0;
+}
 .filter-btn.active {
   background: #8b6cb4;
-  border-color: #b69ed8;
+  border-color: #6c4a9d;
   color: #fff;
 }
 
 .review-search {
   width: 100%;
-  background: rgba(20, 15, 30, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: #e0d4f0;
-  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid #b8a8c8;
+  color: #2a1e3a;
+  padding: 9px 12px;
   border-radius: 8px;
   font-size: 13px;
   box-sizing: border-box;
 }
 
+.review-search:focus {
+  outline: none;
+  border-color: #8b6cb4;
+  box-shadow: 0 0 0 3px rgba(139, 108, 180, 0.15);
+}
+
 .review-stats {
   margin-top: 14px;
   padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid #e0d4ec;
   font-size: 12px;
-  color: #c4a8d8;
-  font-weight: 500;
+  color: #4a3a5c;
+  font-weight: 600;
 }
 
 /* ---- Queue list ---- */
@@ -355,10 +369,12 @@
 /* ---- Pending panel ---- */
 
 .review-pending-panel {
-  background: rgba(40, 30, 55, 0.7);
-  border: 1px solid rgba(180, 150, 220, 0.2);
+  background: #fbf7f4;
+  color: #2a1e3a;
+  border: 1px solid #d8c8e0;
   border-radius: 12px;
   padding: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 900px) {
@@ -373,7 +389,8 @@
 .review-pending-panel h3 {
   margin: 0 0 12px 0;
   font-size: 14px;
-  color: #6cb47b;
+  color: #2a7a44;
+  font-weight: 600;
 }
 
 .pending-list {
@@ -386,17 +403,20 @@
 }
 
 .pending-list li {
-  padding: 6px 10px;
+  padding: 7px 10px;
   margin: 4px 0;
-  background: rgba(60, 45, 90, 0.45);
+  background: #ede4f5;
+  border: 1px solid #d8c8e0;
   border-radius: 6px;
+  color: #2a1e3a;
 }
 
 .pending-list li strong {
   display: block;
-  font-family: monospace;
+  font-family: ui-monospace, monospace;
   font-size: 11px;
-  color: #d4b8e8;
+  color: #6c4a9d;
+  font-weight: 600;
 }
 
 .pending-actions {
@@ -407,36 +427,43 @@
 
 .pending-actions button {
   flex: 1 1 auto;
-  background: rgba(80, 60, 110, 0.7);
-  border: 1px solid rgba(180, 150, 220, 0.2);
-  color: #fff;
+  background: #ede4f5;
+  border: 1px solid #c8b8d8;
+  color: #4a3a5c;
   padding: 9px 12px;
   border-radius: 8px;
   font-size: 12px;
   cursor: pointer;
-  font-weight: 500;
-}
-.pending-actions button.primary {
-  background: #6cb47b;
-  border-color: #6cb47b;
   font-weight: 600;
 }
-.pending-actions button.primary:hover { background: #7fc88e; }
+.pending-actions button:hover { background: #d8c8e8; }
+.pending-actions button.primary {
+  background: #4a9d63;
+  border-color: #4a9d63;
+  color: #fff;
+}
+.pending-actions button.primary:hover { background: #3d8a54; }
 .pending-actions button.ghost {
   background: transparent;
-  color: #9b7eb8;
+  border-color: transparent;
+  color: #999;
 }
+.pending-actions button.ghost:hover { background: #f0e8f0; color: #c85858; }
 
 .pending-hint {
   margin-top: 10px;
   font-size: 11px;
-  color: #d4a880;
+  color: #8b6d24;
+  background: #fff3d8;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border-left: 3px solid #d8a040;
   line-height: 1.4;
 }
 
 .loading, .empty {
   text-align: center;
-  color: #9b7eb8;
+  color: #7a6a8c;
   padding: 32px 16px;
   font-style: italic;
 }
