@@ -229,6 +229,13 @@ def main():
     for aid in sorted(authors.keys()):
         a = authors[aid]
         a.pop('_seen_urls', None)
+        # Dedup: drop socials entries that just repeat x_handle's X URL
+        # (the x_handle field already implies it — rendering both = visual
+        # duplicate chip).
+        if a.get('x_handle'):
+            x_norm = norm_url(f'https://x.com/{a["x_handle"]}')
+            a['socials'] = [s for s in (a.get('socials') or [])
+                            if norm_url(s.get('url', '')) != x_norm]
         author_out.append(a)
 
     out_obj = {'circles': circle_out, 'authors': author_out}

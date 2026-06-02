@@ -10162,13 +10162,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "1R0HASU",
     "x_url": "https://x.com/1R0HASU",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@1R0HASU",
-        "url": "https://x.com/1R0HASU"
-      }
-    ]
+    "socials": []
   },
   "2015chaosgroup": {
     "id": "2015chaosgroup",
@@ -10178,13 +10172,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "2015chaosgroup",
     "x_url": "https://x.com/2015chaosgroup",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@2015chaosgroup",
-        "url": "https://x.com/2015chaosgroup"
-      }
-    ]
+    "socials": []
   },
   "2konose": {
     "id": "2konose",
@@ -10194,13 +10182,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "2konose",
     "x_url": "https://x.com/2konose",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@2konose",
-        "url": "https://x.com/2konose"
-      }
-    ]
+    "socials": []
   },
   "a_00063d801927": {
     "id": "a_00063d801927",
@@ -21006,13 +20988,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "A_n_Tu_len",
     "x_url": "https://x.com/A_n_Tu_len",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@A_n_Tu_len",
-        "url": "https://x.com/A_n_Tu_len"
-      }
-    ]
+    "socials": []
   },
   "abzome": {
     "id": "abzome",
@@ -21022,13 +20998,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ABzome",
     "x_url": "https://x.com/ABzome",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ABzome",
-        "url": "https://x.com/ABzome"
-      }
-    ]
+    "socials": []
   },
   "amane61115": {
     "id": "amane61115",
@@ -21038,13 +21008,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "amane61115",
     "x_url": "https://x.com/amane61115",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@amane61115",
-        "url": "https://x.com/amane61115"
-      }
-    ]
+    "socials": []
   },
   "amtkmituki": {
     "id": "amtkmituki",
@@ -21054,13 +21018,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "amtkmituki",
     "x_url": "https://x.com/amtkmituki",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@amtkmituki",
-        "url": "https://x.com/amtkmituki"
-      }
-    ]
+    "socials": []
   },
   "ani77561234": {
     "id": "ani77561234",
@@ -21070,13 +21028,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ani77561234",
     "x_url": "https://x.com/ani77561234",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ani77561234",
-        "url": "https://x.com/ani77561234"
-      }
-    ]
+    "socials": []
   },
   "anmitiyon": {
     "id": "anmitiyon",
@@ -21086,13 +21038,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "anmitiyon",
     "x_url": "https://x.com/anmitiyon",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@anmitiyon",
-        "url": "https://x.com/anmitiyon"
-      }
-    ]
+    "socials": []
   },
   "aoimanabu": {
     "id": "aoimanabu",
@@ -21102,13 +21048,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "aoimanabu",
     "x_url": "https://x.com/aoimanabu",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@aoimanabu",
-        "url": "https://x.com/aoimanabu"
-      }
-    ]
+    "socials": []
   },
   "arnciel": {
     "id": "arnciel",
@@ -21118,13 +21058,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "arnciel",
     "x_url": "https://x.com/arnciel",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@arnciel",
-        "url": "https://x.com/arnciel"
-      }
-    ]
+    "socials": []
   },
   "arupaka5tuki": {
     "id": "arupaka5tuki",
@@ -21134,13 +21068,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "arupaka5tuki",
     "x_url": "https://x.com/arupaka5tuki",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@arupaka5tuki",
-        "url": "https://x.com/arupaka5tuki"
-      }
-    ]
+    "socials": []
   },
   "ato252058": {
     "id": "ato252058",
@@ -21150,13 +21078,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ato252058",
     "x_url": "https://x.com/ato252058",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ato252058",
-        "url": "https://x.com/ato252058"
-      }
-    ]
+    "socials": []
   },
   "atu_110_011": {
     "id": "atu_110_011",
@@ -21166,13 +21088,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Atu_110_011",
     "x_url": "https://x.com/Atu_110_011",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Atu_110_011",
-        "url": "https://x.com/Atu_110_011"
-      }
-    ]
+    "socials": []
   },
   "c_77sotome": {
     "id": "c_77sotome",
@@ -21182,13 +21098,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "C_77sotome",
     "x_url": "https://x.com/C_77sotome",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@C_77sotome",
-        "url": "https://x.com/C_77sotome"
-      }
-    ]
+    "socials": []
   },
   "chasiburicorico": {
     "id": "chasiburicorico",
@@ -21198,13 +21108,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "chasiburicorico",
     "x_url": "https://x.com/chasiburicorico",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@chasiburicorico",
-        "url": "https://x.com/chasiburicorico"
-      }
-    ]
+    "socials": []
   },
   "chihlun42": {
     "id": "chihlun42",
@@ -21214,13 +21118,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Chihlun42",
     "x_url": "https://x.com/Chihlun42",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Chihlun42",
-        "url": "https://x.com/Chihlun42"
-      }
-    ]
+    "socials": []
   },
   "crazycat_47": {
     "id": "crazycat_47",
@@ -21230,13 +21128,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Crazycat_47",
     "x_url": "https://x.com/Crazycat_47",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Crazycat_47",
-        "url": "https://x.com/Crazycat_47"
-      }
-    ]
+    "socials": []
   },
   "d_tk2": {
     "id": "d_tk2",
@@ -21246,13 +21138,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "d_tk2",
     "x_url": "https://x.com/d_tk2",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@d_tk2",
-        "url": "https://x.com/d_tk2"
-      }
-    ]
+    "socials": []
   },
   "eijunesound": {
     "id": "eijunesound",
@@ -21262,13 +21148,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "EijuneSound",
     "x_url": "https://x.com/EijuneSound",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@EijuneSound",
-        "url": "https://x.com/EijuneSound"
-      }
-    ]
+    "socials": []
   },
   "eineena_mikan": {
     "id": "eineena_mikan",
@@ -21288,13 +21168,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Eiyuuu7777",
     "x_url": "https://x.com/Eiyuuu7777",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Eiyuuu7777",
-        "url": "https://x.com/Eiyuuu7777"
-      }
-    ]
+    "socials": []
   },
   "fluffy_palette": {
     "id": "fluffy_palette",
@@ -21304,13 +21178,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "fluffy_palette",
     "x_url": "https://x.com/fluffy_palette",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@fluffy_palette",
-        "url": "https://x.com/fluffy_palette"
-      }
-    ]
+    "socials": []
   },
   "gray170220": {
     "id": "gray170220",
@@ -21320,13 +21188,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "gray170220",
     "x_url": "https://x.com/gray170220",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@gray170220",
-        "url": "https://x.com/gray170220"
-      }
-    ]
+    "socials": []
   },
   "gunp_m": {
     "id": "gunp_m",
@@ -21336,13 +21198,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "gunp_m",
     "x_url": "https://x.com/gunp_m",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@gunp_m",
-        "url": "https://x.com/gunp_m"
-      }
-    ]
+    "socials": []
   },
   "hanaya_102": {
     "id": "hanaya_102",
@@ -21352,13 +21208,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "hanaya_102",
     "x_url": "https://x.com/hanaya_102",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@hanaya_102",
-        "url": "https://x.com/hanaya_102"
-      }
-    ]
+    "socials": []
   },
   "haneko0417": {
     "id": "haneko0417",
@@ -21369,11 +21219,6 @@ window.AUTHORS_BY_ID = {
     "x_handle": "haneko0417",
     "x_url": "https://www.plurk.com/haneko0216",
     "socials": [
-      {
-        "platform": "x",
-        "handle": "@haneko0417",
-        "url": "https://x.com/haneko0417"
-      },
       {
         "platform": "plurk",
         "handle": "@haneko0216",
@@ -21389,13 +21234,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "haruhannohane",
     "x_url": "https://x.com/haruhannohane",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@haruhannohane",
-        "url": "https://x.com/haruhannohane"
-      }
-    ]
+    "socials": []
   },
   "hihumi_akaba": {
     "id": "hihumi_akaba",
@@ -21405,13 +21244,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "hihumi_akaba",
     "x_url": "https://x.com/hihumi_akaba",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@hihumi_akaba",
-        "url": "https://x.com/hihumi_akaba"
-      }
-    ]
+    "socials": []
   },
   "hikari863126": {
     "id": "hikari863126",
@@ -21421,13 +21254,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "hikari863126 ",
     "x_url": "https://x.com/hikari863126 ",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@hikari863126 ",
-        "url": "https://x.com/hikari863126 "
-      }
-    ]
+    "socials": []
   },
   "hinagikubooks": {
     "id": "hinagikubooks",
@@ -21437,13 +21264,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "HinagikuBooks",
     "x_url": "https://x.com/HinagikuBooks",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@HinagikuBooks",
-        "url": "https://x.com/HinagikuBooks"
-      }
-    ]
+    "socials": []
   },
   "huskychuk": {
     "id": "huskychuk",
@@ -21453,13 +21274,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Huskychuk",
     "x_url": "https://x.com/Huskychuk",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Huskychuk",
-        "url": "https://x.com/Huskychuk"
-      }
-    ]
+    "socials": []
   },
   "imudegozaimasu": {
     "id": "imudegozaimasu",
@@ -21469,13 +21284,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "imudegozaimasu",
     "x_url": "https://x.com/imudegozaimasu",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@imudegozaimasu",
-        "url": "https://x.com/imudegozaimasu"
-      }
-    ]
+    "socials": []
   },
   "kaguramix": {
     "id": "kaguramix",
@@ -21485,13 +21294,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kaguramix",
     "x_url": "https://x.com/kaguramix",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kaguramix",
-        "url": "https://x.com/kaguramix"
-      }
-    ]
+    "socials": []
   },
   "kaiman_00": {
     "id": "kaiman_00",
@@ -21501,13 +21304,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kaiman_00",
     "x_url": "https://x.com/kaiman_00",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kaiman_00",
-        "url": "https://x.com/kaiman_00"
-      }
-    ]
+    "socials": []
   },
   "kauderni01356": {
     "id": "kauderni01356",
@@ -21517,13 +21314,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kauderni01356",
     "x_url": "https://x.com/kauderni01356",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kauderni01356",
-        "url": "https://x.com/kauderni01356"
-      }
-    ]
+    "socials": []
   },
   "kei_megumi_": {
     "id": "kei_megumi_",
@@ -21533,13 +21324,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Kei_Megumi_",
     "x_url": "https://x.com/Kei_Megumi_",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Kei_Megumi_",
-        "url": "https://x.com/Kei_Megumi_"
-      }
-    ]
+    "socials": []
   },
   "kimijunn": {
     "id": "kimijunn",
@@ -21549,13 +21334,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kimiJUNN",
     "x_url": "https://x.com/kimiJUNN",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kimiJUNN",
-        "url": "https://x.com/kimiJUNN"
-      }
-    ]
+    "socials": []
   },
   "kimikuon": {
     "id": "kimikuon",
@@ -21565,13 +21344,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kimikuon",
     "x_url": "https://x.com/kimikuon",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kimikuon",
-        "url": "https://x.com/kimikuon"
-      }
-    ]
+    "socials": []
   },
   "kitanaitanuki": {
     "id": "kitanaitanuki",
@@ -21581,13 +21354,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kitanaitanuki",
     "x_url": "https://x.com/kitanaitanuki",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kitanaitanuki",
-        "url": "https://x.com/kitanaitanuki"
-      }
-    ]
+    "socials": []
   },
   "kmt9993": {
     "id": "kmt9993",
@@ -21597,13 +21364,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kmt9993",
     "x_url": "https://x.com/kmt9993",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kmt9993",
-        "url": "https://x.com/kmt9993"
-      }
-    ]
+    "socials": []
   },
   "kokokoro__": {
     "id": "kokokoro__",
@@ -21613,13 +21374,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Kokokoro__",
     "x_url": "https://x.com/Kokokoro__",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Kokokoro__",
-        "url": "https://x.com/Kokokoro__"
-      }
-    ]
+    "socials": []
   },
   "komerice_lo": {
     "id": "komerice_lo",
@@ -21630,11 +21385,6 @@ window.AUTHORS_BY_ID = {
     "x_handle": "komerice_lo",
     "x_url": "https://x.com/komerice_lo",
     "socials": [
-      {
-        "platform": "x",
-        "handle": "@komerice_lo",
-        "url": "https://x.com/komerice_lo"
-      },
       {
         "platform": "threads",
         "handle": "@chi._.5417",
@@ -21650,13 +21400,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kourui_07",
     "x_url": "https://x.com/kourui_07",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kourui_07",
-        "url": "https://x.com/kourui_07"
-      }
-    ]
+    "socials": []
   },
   "kuroajrtineico": {
     "id": "kuroajrtineico",
@@ -21666,13 +21410,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "KuroAjrtineico",
     "x_url": "https://x.com/KuroAjrtineico",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@KuroAjrtineico",
-        "url": "https://x.com/KuroAjrtineico"
-      }
-    ]
+    "socials": []
   },
   "kyou_watanuki": {
     "id": "kyou_watanuki",
@@ -21682,13 +21420,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "kyou_watanuki",
     "x_url": "https://x.com/kyou_watanuki",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@kyou_watanuki",
-        "url": "https://x.com/kyou_watanuki"
-      }
-    ]
+    "socials": []
   },
   "laylay_152": {
     "id": "laylay_152",
@@ -21698,13 +21430,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "laylay_152",
     "x_url": "https://x.com/laylay_152",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@laylay_152",
-        "url": "https://x.com/laylay_152"
-      }
-    ]
+    "socials": []
   },
   "liugozekino": {
     "id": "liugozekino",
@@ -21714,13 +21440,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Liugozekino",
     "x_url": "https://x.com/Liugozekino",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Liugozekino",
-        "url": "https://x.com/Liugozekino"
-      }
-    ]
+    "socials": []
   },
   "manmaderain": {
     "id": "manmaderain",
@@ -21730,13 +21450,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ManMadeRain",
     "x_url": "https://x.com/ManMadeRain",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ManMadeRain",
-        "url": "https://x.com/ManMadeRain"
-      }
-    ]
+    "socials": []
   },
   "masaki_sakura": {
     "id": "masaki_sakura",
@@ -21746,13 +21460,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "masaki_sakura",
     "x_url": "https://x.com/masaki_sakura",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@masaki_sakura",
-        "url": "https://x.com/masaki_sakura"
-      }
-    ]
+    "socials": []
   },
   "meiliismywife": {
     "id": "meiliismywife",
@@ -21762,13 +21470,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "meiliismywife",
     "x_url": "https://x.com/meiliismywife",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@meiliismywife",
-        "url": "https://x.com/meiliismywife"
-      }
-    ]
+    "socials": []
   },
   "mekimekix": {
     "id": "mekimekix",
@@ -21778,13 +21480,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "mekimekix",
     "x_url": "https://x.com/mekimekix",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@mekimekix",
-        "url": "https://x.com/mekimekix"
-      }
-    ]
+    "socials": []
   },
   "melon2943": {
     "id": "melon2943",
@@ -21794,13 +21490,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "melon2943",
     "x_url": "https://x.com/melon2943",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@melon2943",
-        "url": "https://x.com/melon2943"
-      }
-    ]
+    "socials": []
   },
   "mitsukiriko": {
     "id": "mitsukiriko",
@@ -21810,13 +21500,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "mitsukiriko",
     "x_url": "https://x.com/mitsukiriko",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@mitsukiriko",
-        "url": "https://x.com/mitsukiriko"
-      }
-    ]
+    "socials": []
   },
   "mizonozomizo": {
     "id": "mizonozomizo",
@@ -21826,13 +21510,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "mizonozomizo",
     "x_url": "https://x.com/mizonozomizo",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@mizonozomizo",
-        "url": "https://x.com/mizonozomizo"
-      }
-    ]
+    "socials": []
   },
   "nanashiwan": {
     "id": "nanashiwan",
@@ -21842,13 +21520,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "nanashiwan",
     "x_url": "https://x.com/nanashiwan",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@nanashiwan",
-        "url": "https://x.com/nanashiwan"
-      }
-    ]
+    "socials": []
   },
   "nb164": {
     "id": "nb164",
@@ -21858,13 +21530,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "nb164",
     "x_url": "https://x.com/nb164",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@nb164",
-        "url": "https://x.com/nb164"
-      }
-    ]
+    "socials": []
   },
   "noah_ark38": {
     "id": "noah_ark38",
@@ -21874,13 +21540,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "noah_ark38",
     "x_url": "https://x.com/noah_ark38",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@noah_ark38",
-        "url": "https://x.com/noah_ark38"
-      }
-    ]
+    "socials": []
   },
   "noroshino8": {
     "id": "noroshino8",
@@ -21890,13 +21550,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Noroshino8",
     "x_url": "https://x.com/Noroshino8",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Noroshino8",
-        "url": "https://x.com/Noroshino8"
-      }
-    ]
+    "socials": []
   },
   "nyanruikai": {
     "id": "nyanruikai",
@@ -21906,13 +21560,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "nyanruikai",
     "x_url": "https://x.com/nyanruikai",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@nyanruikai",
-        "url": "https://x.com/nyanruikai"
-      }
-    ]
+    "socials": []
   },
   "oginoyori": {
     "id": "oginoyori",
@@ -21923,11 +21571,6 @@ window.AUTHORS_BY_ID = {
     "x_handle": "oginoyori",
     "x_url": "https://oginoyori.wixsite.com/oginoyori",
     "socials": [
-      {
-        "platform": "x",
-        "handle": "@oginoyori",
-        "url": "https://x.com/oginoyori"
-      },
       {
         "platform": "wix",
         "handle": "",
@@ -21948,13 +21591,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ohmiyamiyamiya",
     "x_url": "https://x.com/ohmiyamiyamiya",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ohmiyamiyamiya",
-        "url": "https://x.com/ohmiyamiyamiya"
-      }
-    ]
+    "socials": []
   },
   "oka_3d_01": {
     "id": "oka_3d_01",
@@ -21964,13 +21601,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "oka_3d_01",
     "x_url": "https://x.com/oka_3d_01",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@oka_3d_01",
-        "url": "https://x.com/oka_3d_01"
-      }
-    ]
+    "socials": []
   },
   "omochidry": {
     "id": "omochidry",
@@ -21980,13 +21611,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "omochidry",
     "x_url": "https://x.com/omochidry",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@omochidry",
-        "url": "https://x.com/omochidry"
-      }
-    ]
+    "socials": []
   },
   "osatou_kinosu": {
     "id": "osatou_kinosu",
@@ -21996,13 +21621,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "osatou_kinosu",
     "x_url": "https://x.com/osatou_kinosu",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@osatou_kinosu",
-        "url": "https://x.com/osatou_kinosu"
-      }
-    ]
+    "socials": []
   },
   "papercraorigami": {
     "id": "papercraorigami",
@@ -22012,13 +21631,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "papercraorigami",
     "x_url": "https://x.com/papercraorigami",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@papercraorigami",
-        "url": "https://x.com/papercraorigami"
-      }
-    ]
+    "socials": []
   },
   "pesirxy": {
     "id": "pesirxy",
@@ -22028,13 +21641,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "pesirxy",
     "x_url": "https://x.com/pesirxy",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@pesirxy",
-        "url": "https://x.com/pesirxy"
-      }
-    ]
+    "socials": []
   },
   "pianorock_y": {
     "id": "pianorock_y",
@@ -22044,13 +21651,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "pianorock_y",
     "x_url": "https://x.com/pianorock_y",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@pianorock_y",
-        "url": "https://x.com/pianorock_y"
-      }
-    ]
+    "socials": []
   },
   "pomeka35": {
     "id": "pomeka35",
@@ -22061,11 +21662,6 @@ window.AUTHORS_BY_ID = {
     "x_handle": "pomeka35",
     "x_url": "https://x.com/pomeka35",
     "socials": [
-      {
-        "platform": "x",
-        "handle": "@pomeka35",
-        "url": "https://x.com/pomeka35"
-      },
       {
         "platform": "x",
         "handle": "@vivi890812",
@@ -22081,13 +21677,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Qutouten_",
     "x_url": "https://x.com/Qutouten_",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Qutouten_",
-        "url": "https://x.com/Qutouten_"
-      }
-    ]
+    "socials": []
   },
   "rbaba_cain2": {
     "id": "rbaba_cain2",
@@ -22097,13 +21687,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "rbaba_cain2",
     "x_url": "https://x.com/rbaba_cain2",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@rbaba_cain2",
-        "url": "https://x.com/rbaba_cain2"
-      }
-    ]
+    "socials": []
   },
   "rissole715": {
     "id": "rissole715",
@@ -22113,13 +21697,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "rissole715",
     "x_url": "https://x.com/rissole715",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@rissole715",
-        "url": "https://x.com/rissole715"
-      }
-    ]
+    "socials": []
   },
   "rito_yu6039": {
     "id": "rito_yu6039",
@@ -22129,13 +21707,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "rito_yu6039",
     "x_url": "https://x.com/rito_yu6039",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@rito_yu6039",
-        "url": "https://x.com/rito_yu6039"
-      }
-    ]
+    "socials": []
   },
   "ruwhdlqqti433": {
     "id": "ruwhdlqqti433",
@@ -22145,13 +21717,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "rUwhdLQqtI433",
     "x_url": "https://x.com/rUwhdLQqtI433",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@rUwhdLQqtI433",
-        "url": "https://x.com/rUwhdLQqtI433"
-      }
-    ]
+    "socials": []
   },
   "sango3_3": {
     "id": "sango3_3",
@@ -22161,13 +21727,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "sango3_3",
     "x_url": "https://x.com/sango3_3",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@sango3_3",
-        "url": "https://x.com/sango3_3"
-      }
-    ]
+    "socials": []
   },
   "senbako1": {
     "id": "senbako1",
@@ -22177,13 +21737,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "SENBAKO1",
     "x_url": "https://x.com/SENBAKO1",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@SENBAKO1",
-        "url": "https://x.com/SENBAKO1"
-      }
-    ]
+    "socials": []
   },
   "shopon1201": {
     "id": "shopon1201",
@@ -22193,13 +21747,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "shopon1201",
     "x_url": "https://x.com/shopon1201",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@shopon1201",
-        "url": "https://x.com/shopon1201"
-      }
-    ]
+    "socials": []
   },
   "sinyatako1": {
     "id": "sinyatako1",
@@ -22209,13 +21757,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "sinyatako1",
     "x_url": "https://x.com/sinyatako1",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@sinyatako1",
-        "url": "https://x.com/sinyatako1"
-      }
-    ]
+    "socials": []
   },
   "soyas_": {
     "id": "soyas_",
@@ -22225,13 +21767,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "soyas_",
     "x_url": "https://x.com/soyas_",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@soyas_",
-        "url": "https://x.com/soyas_"
-      }
-    ]
+    "socials": []
   },
   "star_kzer": {
     "id": "star_kzer",
@@ -22241,13 +21777,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "star_Kzer",
     "x_url": "https://x.com/star_Kzer",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@star_Kzer",
-        "url": "https://x.com/star_Kzer"
-      }
-    ]
+    "socials": []
   },
   "syouri_nizi0305": {
     "id": "syouri_nizi0305",
@@ -22257,13 +21787,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "syouri_nizi0305",
     "x_url": "https://x.com/syouri_nizi0305",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@syouri_nizi0305",
-        "url": "https://x.com/syouri_nizi0305"
-      }
-    ]
+    "socials": []
   },
   "takoyaki_110721": {
     "id": "takoyaki_110721",
@@ -22273,13 +21797,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "takoyaki_110721",
     "x_url": "https://x.com/takoyaki_110721",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@takoyaki_110721",
-        "url": "https://x.com/takoyaki_110721"
-      }
-    ]
+    "socials": []
   },
   "teruru_sakura": {
     "id": "teruru_sakura",
@@ -22289,13 +21807,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "TERURU_sakura",
     "x_url": "https://x.com/TERURU_sakura",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@TERURU_sakura",
-        "url": "https://x.com/TERURU_sakura"
-      }
-    ]
+    "socials": []
   },
   "testesmyland": {
     "id": "testesmyland",
@@ -22305,13 +21817,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "testesmyland",
     "x_url": "https://x.com/testesmyland",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@testesmyland",
-        "url": "https://x.com/testesmyland"
-      }
-    ]
+    "socials": []
   },
   "tsugu_tarou": {
     "id": "tsugu_tarou",
@@ -22321,13 +21827,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "tsugu_tarou",
     "x_url": "https://x.com/tsugu_tarou",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@tsugu_tarou",
-        "url": "https://x.com/tsugu_tarou"
-      }
-    ]
+    "socials": []
   },
   "tukise_after": {
     "id": "tukise_after",
@@ -22337,13 +21837,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "tukise_after",
     "x_url": "https://x.com/tukise_after",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@tukise_after",
-        "url": "https://x.com/tukise_after"
-      }
-    ]
+    "socials": []
   },
   "tutanai_ap05": {
     "id": "tutanai_ap05",
@@ -22353,13 +21847,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "Tutanai_ap05",
     "x_url": "https://x.com/Tutanai_ap05",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@Tutanai_ap05",
-        "url": "https://x.com/Tutanai_ap05"
-      }
-    ]
+    "socials": []
   },
   "ujat_47": {
     "id": "ujat_47",
@@ -22369,13 +21857,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "ujat_47",
     "x_url": "https://x.com/ujat_47",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@ujat_47",
-        "url": "https://x.com/ujat_47"
-      }
-    ]
+    "socials": []
   },
   "umaauraa5": {
     "id": "umaauraa5",
@@ -22385,13 +21867,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "umaauraa5",
     "x_url": "https://x.com/umaauraa5",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@umaauraa5",
-        "url": "https://x.com/umaauraa5"
-      }
-    ]
+    "socials": []
   },
   "umenoichiru": {
     "id": "umenoichiru",
@@ -22401,13 +21877,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "umenoichiru",
     "x_url": "https://x.com/umenoichiru",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@umenoichiru",
-        "url": "https://x.com/umenoichiru"
-      }
-    ]
+    "socials": []
   },
   "unido_fu": {
     "id": "unido_fu",
@@ -22417,13 +21887,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "unido_fu",
     "x_url": "https://x.com/unido_fu",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@unido_fu",
-        "url": "https://x.com/unido_fu"
-      }
-    ]
+    "socials": []
   },
   "vinegar_terrier": {
     "id": "vinegar_terrier",
@@ -22433,13 +21897,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "vinegar_terrier",
     "x_url": "https://x.com/vinegar_terrier",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@vinegar_terrier",
-        "url": "https://x.com/vinegar_terrier"
-      }
-    ]
+    "socials": []
   },
   "xuz_op": {
     "id": "xuz_op",
@@ -22449,13 +21907,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "xuz_op",
     "x_url": "https://x.com/xuz_op",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@xuz_op",
-        "url": "https://x.com/xuz_op"
-      }
-    ]
+    "socials": []
   },
   "xx_sow": {
     "id": "xx_sow",
@@ -22465,13 +21917,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "xx_sow",
     "x_url": "https://x.com/xx_sow",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@xx_sow",
-        "url": "https://x.com/xx_sow"
-      }
-    ]
+    "socials": []
   },
   "yoyoray20001996": {
     "id": "yoyoray20001996",
@@ -22481,13 +21927,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "yoyoray20001996",
     "x_url": "https://x.com/yoyoray20001996",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@yoyoray20001996",
-        "url": "https://x.com/yoyoray20001996"
-      }
-    ]
+    "socials": []
   },
   "yukkurishimiya": {
     "id": "yukkurishimiya",
@@ -22497,13 +21937,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "YukkuriShimiya",
     "x_url": "https://x.com/YukkuriShimiya",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@YukkuriShimiya",
-        "url": "https://x.com/YukkuriShimiya"
-      }
-    ]
+    "socials": []
   },
   "yurikissaten": {
     "id": "yurikissaten",
@@ -22513,13 +21947,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "yurikissaten",
     "x_url": "https://x.com/yurikissaten",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@yurikissaten",
-        "url": "https://x.com/yurikissaten"
-      }
-    ]
+    "socials": []
   },
   "yuto_higuchi_": {
     "id": "yuto_higuchi_",
@@ -22529,13 +21957,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "YUTO_HIGUCHI_",
     "x_url": "https://x.com/YUTO_HIGUCHI_",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@YUTO_HIGUCHI_",
-        "url": "https://x.com/YUTO_HIGUCHI_"
-      }
-    ]
+    "socials": []
   },
   "yuyuyang0402": {
     "id": "yuyuyang0402",
@@ -22545,13 +21967,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "yuyuyang0402",
     "x_url": "https://x.com/yuyuyang0402",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@yuyuyang0402",
-        "url": "https://x.com/yuyuyang0402"
-      }
-    ]
+    "socials": []
   },
   "zuka_misuzu": {
     "id": "zuka_misuzu",
@@ -22561,13 +21977,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "zuka_misuzu",
     "x_url": "https://x.com/zuka_misuzu",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@zuka_misuzu",
-        "url": "https://x.com/zuka_misuzu"
-      }
-    ]
+    "socials": []
   },
   "zuzuzu_222": {
     "id": "zuzuzu_222",
@@ -22577,13 +21987,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "zuzuzu_222",
     "x_url": "https://x.com/zuzuzu_222",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@zuzuzu_222",
-        "url": "https://x.com/zuzuzu_222"
-      }
-    ]
+    "socials": []
   }
 };
 window.BOOKS_BY_CIRCLE = {
