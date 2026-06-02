@@ -10291,9 +10291,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_021a3e9f6f9e": {
     "id": "a_021a3e9f6f9e",
-    "name": "",
-    "name_inferred": "飛行熊咪貓商會",
-    "name_source": "circle_name",
+    "name": "Yishi 依希",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
     "socials": [
@@ -10453,9 +10453,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_092280c25bda": {
     "id": "a_092280c25bda",
-    "name": "",
-    "name_inferred": "工坊·夏至千里",
-    "name_source": "circle_name",
+    "name": "工坊·夏至千里",
+    "name_inferred": "",
+    "name_source": "gamer_review",
     "x_handle": "",
     "x_url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
     "socials": [
@@ -10468,9 +10468,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_092f9b1e58ba": {
     "id": "a_092f9b1e58ba",
-    "name": "",
-    "name_inferred": "華役少爺",
-    "name_source": "circle_name",
+    "name": "原創用",
+    "name_inferred": "",
+    "name_source": "plurk_review_paren_alt",
     "x_handle": "",
     "x_url": "https://www.plurk.com/tsaox",
     "socials": [
@@ -10528,9 +10528,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0a7f5fd5868f": {
     "id": "a_0a7f5fd5868f",
-    "name": "",
-    "name_inferred": "壊孤児",
-    "name_source": "circle_name",
+    "name": "那隻鹿",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/na.zhi.lu/",
     "socials": [
@@ -10543,9 +10543,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0b651a77658f": {
     "id": "a_0b651a77658f",
-    "name": "",
-    "name_inferred": "墨扉文化",
-    "name_source": "circle_name",
+    "name": "墨扉文化",
+    "name_inferred": "",
+    "name_source": "generic_review",
     "x_handle": "",
     "x_url": "https://morefate.com/",
     "socials": [
@@ -10582,9 +10582,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0d1a6db8effb": {
     "id": "a_0d1a6db8effb",
-    "name": "",
-    "name_inferred": "Candy Box",
-    "name_source": "circle_name",
+    "name": "Candy Box",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/miyakocat",
     "socials": [
@@ -10636,9 +10636,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0ebcfa1490cb": {
     "id": "a_0ebcfa1490cb",
-    "name": "",
-    "name_inferred": "百元肉肉",
-    "name_source": "circle_name",
+    "name": "hyakuen",
+    "name_inferred": "",
+    "name_source": "pixiv_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.pixiv.net/users/612797",
     "socials": [
@@ -10651,9 +10651,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0f0153a7bddd": {
     "id": "a_0f0153a7bddd",
-    "name": "",
-    "name_inferred": "小白熊",
-    "name_source": "circle_name",
+    "name": "白米熊",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/whitericebear",
     "socials": [
@@ -10696,9 +10696,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_0fc99326d4b3": {
     "id": "a_0fc99326d4b3",
-    "name": "",
-    "name_inferred": "KARAS押形",
-    "name_source": "circle_name",
+    "name": "ＫＡＲＡＳ押形",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/KARASoshigata",
     "socials": [
@@ -10741,9 +10741,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_11f03afce7aa": {
     "id": "a_11f03afce7aa",
-    "name": "",
-    "name_inferred": "葫蘆夏天hwulusummer",
-    "name_source": "circle_name",
+    "name": "ĪLhwuilusummer",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://hwulu.com/",
     "socials": [
@@ -10906,9 +10906,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_18df038a6549": {
     "id": "a_18df038a6549",
-    "name": "",
-    "name_inferred": "櫻兔子的板男線",
-    "name_source": "circle_name",
+    "name": "櫻兔子SRboss",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/SRboss",
     "socials": [
@@ -11006,9 +11006,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_195e1ebf478c": {
     "id": "a_195e1ebf478c",
-    "name": "",
-    "name_inferred": "多多",
-    "name_source": "circle_name",
+    "name": "多多",
+    "name_inferred": "",
+    "name_source": "aggregator_review",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/yeijijia",
     "socials": [
@@ -11075,9 +11075,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1bb161542fe4": {
     "id": "a_1bb161542fe4",
-    "name": "",
-    "name_inferred": "Crazy Country",
-    "name_source": "circle_name",
+    "name": "圓阿圓circle",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/eecircle",
     "socials": [
@@ -11105,9 +11105,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1c2679b96f7f": {
     "id": "a_1c2679b96f7f",
-    "name": "",
-    "name_inferred": "月見草",
-    "name_source": "circle_name",
+    "name": "+-- 月見草 --+",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://seemoon.biz/",
     "socials": [
@@ -11150,9 +11150,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1df8ec744919": {
     "id": "a_1df8ec744919",
-    "name": "",
-    "name_inferred": "亂中有序",
-    "name_source": "circle_name",
+    "name": "亂中有序 LJYS Doujin",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/LJYS.doujin",
     "socials": [
@@ -11210,9 +11210,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_1ef1cba002cb": {
     "id": "a_1ef1cba002cb",
-    "name": "",
-    "name_inferred": "VSPOT",
-    "name_source": "circle_name",
+    "name": "虛擬歌手說唱創作聯盟 - VSPOT",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/vspot.tw/",
     "socials": [
@@ -11240,9 +11240,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_20617e479e57": {
     "id": "a_20617e479e57",
-    "name": "",
-    "name_inferred": "阿靡緹柚潔",
-    "name_source": "circle_name",
+    "name": "阿靡緹柚潔",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/loveliver0827",
     "socials": [
@@ -11315,9 +11315,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_218d550df03e": {
     "id": "a_218d550df03e",
-    "name": "",
-    "name_inferred": "電線桿有限公司",
-    "name_source": "circle_name",
+    "name": "加零在電線桿下",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/jia0kelvin",
     "socials": [
@@ -11465,9 +11465,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_25b2bee0a3ee": {
     "id": "a_25b2bee0a3ee",
-    "name": "",
-    "name_inferred": "學P又扛了冬C！",
-    "name_source": "circle_name",
+    "name": "Yume Hu",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/huyume1023",
     "socials": [
@@ -11480,9 +11480,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_25b595a15d49": {
     "id": "a_25b595a15d49",
-    "name": "",
-    "name_inferred": "GAC",
-    "name_source": "circle_name",
+    "name": "舒寬裕",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/shu.kuan.yu.2025",
     "socials": [
@@ -11495,9 +11495,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_25c6d6a32e4d": {
     "id": "a_25c6d6a32e4d",
-    "name": "",
-    "name_inferred": "Socotaku帝大社研宅學組",
-    "name_source": "circle_name",
+    "name": "Socotaku 現代御宅的基礎知識",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/socotaku",
     "socials": [
@@ -11635,9 +11635,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_2af48b0341a1": {
     "id": "a_2af48b0341a1",
-    "name": "",
-    "name_inferred": "非黑即白",
-    "name_source": "circle_name",
+    "name": "非黑即白",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/akomari",
     "socials": [
@@ -11665,9 +11665,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_2bca9a09f67b": {
     "id": "a_2bca9a09f67b",
-    "name": "",
-    "name_inferred": "龍虎社",
-    "name_source": "circle_name",
+    "name": "龍虎創作社",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/LungFu.Club",
     "socials": [
@@ -11812,9 +11812,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_31cb926b21f5": {
     "id": "a_31cb926b21f5",
-    "name": "",
-    "name_inferred": "非常用緊急避難所",
-    "name_source": "circle_name",
+    "name": "非常用緊急避難所",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/IceDR",
     "socials": [
@@ -11857,9 +11857,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_327df9fc84dd": {
     "id": "a_327df9fc84dd",
-    "name": "",
-    "name_inferred": "粉色甜點舖",
-    "name_source": "circle_name",
+    "name": "野川^^",
+    "name_inferred": "",
+    "name_source": "plurk_review_zh_is_med",
     "x_handle": "",
     "x_url": "https://www.plurk.com/chentina1022",
     "socials": [
@@ -11950,9 +11950,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_358de90ba6a5": {
     "id": "a_358de90ba6a5",
-    "name": "",
-    "name_inferred": "REI'sROOM",
-    "name_source": "circle_name",
+    "name": "REI's ROOM",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/reisroom711/",
     "socials": [
@@ -11980,9 +11980,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_363c38e43d50": {
     "id": "a_363c38e43d50",
-    "name": "",
-    "name_inferred": "我愛吉娃娃",
-    "name_source": "circle_name",
+    "name": "Sh Fi",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr",
     "socials": [
@@ -12034,9 +12034,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_37a733577b06": {
     "id": "a_37a733577b06",
-    "name": "",
-    "name_inferred": "歐油希歡樂產業",
-    "name_source": "circle_name",
+    "name": "歐油希歡樂產業",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ouyouxi2020",
     "socials": [
@@ -12069,9 +12069,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3818783688d4": {
     "id": "a_3818783688d4",
-    "name": "",
-    "name_inferred": "絕讚發霉中",
-    "name_source": "circle_name",
+    "name": "絕讚發霉中",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tentaclespet/",
     "socials": [
@@ -12183,9 +12183,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3cac19709eec": {
     "id": "a_3cac19709eec",
-    "name": "",
-    "name_inferred": "魍魎夜色",
-    "name_source": "circle_name",
+    "name": "舉啞鈴的亞林",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61556596875660",
     "socials": [
@@ -12213,9 +12213,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3e43feb30584": {
     "id": "a_3e43feb30584",
-    "name": "",
-    "name_inferred": "阿農Anon",
-    "name_source": "circle_name",
+    "name": "阿農Anon",
+    "name_inferred": "",
+    "name_source": "aggregator_review",
     "x_handle": "",
     "x_url": "https://portaly.cc/anon_114c",
     "socials": [
@@ -12273,9 +12273,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_3f3d88330065": {
     "id": "a_3f3d88330065",
-    "name": "",
-    "name_inferred": "烏烏烏大維",
-    "name_source": "circle_name",
+    "name": "Kuan Wei Lin",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kuan.wei.lin.372350",
     "socials": [
@@ -12402,9 +12402,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_424330010a3e": {
     "id": "a_424330010a3e",
-    "name": "",
-    "name_inferred": "殘花寒香一杯飲",
-    "name_source": "circle_name",
+    "name": "殘花寒香一杯飲",
+    "name_inferred": "",
+    "name_source": "wix_review",
     "x_handle": "",
     "x_url": "https://ed940930.wixsite.com/original",
     "socials": [
@@ -12447,9 +12447,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4474c820a1fa": {
     "id": "a_4474c820a1fa",
-    "name": "",
-    "name_inferred": "廢墟樂園",
-    "name_source": "circle_name",
+    "name": "AK/安愷",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/AKhibari",
     "socials": [
@@ -12492,9 +12492,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_45557ebf712a": {
     "id": "a_45557ebf712a",
-    "name": "",
-    "name_inferred": "KAITO的狗",
-    "name_source": "circle_name",
+    "name": "兎本 嫿",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tu.ben.hua?",
     "socials": [
@@ -12566,9 +12566,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_487c8e1e073e": {
     "id": "a_487c8e1e073e",
-    "name": "",
-    "name_inferred": "晚安夜良",
-    "name_source": "circle_name",
+    "name": "夜良ଘ",
+    "name_inferred": "",
+    "name_source": "plurk_review_zh_is_med",
     "x_handle": "",
     "x_url": "https://www.plurk.com/greenrivernight",
     "socials": [
@@ -12671,9 +12671,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4ae1cb0ef1d0": {
     "id": "a_4ae1cb0ef1d0",
-    "name": "",
-    "name_inferred": "喜歡小男孩就是風潮",
-    "name_source": "circle_name",
+    "name": "R Bu Bu",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/rrrrrbu/",
     "socials": [
@@ -12740,9 +12740,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_4d2cea2d361b": {
     "id": "a_4d2cea2d361b",
-    "name": "",
-    "name_inferred": "海祭 EonsGarden ",
-    "name_source": "circle_name",
+    "name": "Ruin Master",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/ruinmaster",
     "socials": [
@@ -12854,9 +12854,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_50a344f18962": {
     "id": "a_50a344f18962",
-    "name": "",
-    "name_inferred": "穗茉",
-    "name_source": "circle_name",
+    "name": "陳毅安（穂茉",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61575655409441",
     "socials": [
@@ -13004,9 +13004,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_53f6679927f0": {
     "id": "a_53f6679927f0",
-    "name": "",
-    "name_inferred": "しろはす",
-    "name_source": "circle_name",
+    "name": "高分子聚合奶茶",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Polymilktea",
     "socials": [
@@ -13049,9 +13049,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_54bec5fc1529": {
     "id": "a_54bec5fc1529",
-    "name": "",
-    "name_inferred": "阿廣同好會",
-    "name_source": "circle_name",
+    "name": "Edward Lo",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "www.facebook.com/edward98311",
     "socials": [
@@ -13154,9 +13154,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5898bca19572": {
     "id": "a_5898bca19572",
-    "name": "",
-    "name_inferred": "絨毛點",
-    "name_source": "circle_name",
+    "name": "絨毛點 / 手作飾品",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/fluffpoint",
     "socials": [
@@ -13214,9 +13214,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_59cbd8f50b6d": {
     "id": "a_59cbd8f50b6d",
-    "name": "",
-    "name_inferred": "烏鴉",
-    "name_source": "circle_name",
+    "name": "犬三",
+    "name_inferred": "",
+    "name_source": "pixiv_review_title_strip",
     "x_handle": "",
     "x_url": "https://kvoid000.wixsite.com/corvus",
     "socials": [
@@ -13313,9 +13313,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5c728934d564": {
     "id": "a_5c728934d564",
-    "name": "",
-    "name_inferred": "秋貓Akineko",
-    "name_source": "circle_name",
+    "name": "秋貓-Akineko",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/aa2233aa",
     "socials": [
@@ -13373,9 +13373,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5dfed0fe62b5": {
     "id": "a_5dfed0fe62b5",
-    "name": "",
-    "name_inferred": "海洋工作室",
-    "name_source": "circle_name",
+    "name": "星海爭霸",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
     "socials": [
@@ -13433,9 +13433,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5f3ba31db611": {
     "id": "a_5f3ba31db611",
-    "name": "",
-    "name_inferred": "玥炭繪館@比名子的山珍海味",
-    "name_source": "circle_name",
+    "name": "玥炭繪館@比名子的山珍海味",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/maoyuue",
     "socials": [
@@ -13448,9 +13448,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_5fa08c3ac1f9": {
     "id": "a_5fa08c3ac1f9",
-    "name": "",
-    "name_inferred": "鮮蝦魚板",
-    "name_source": "circle_name",
+    "name": "鮮蝦魚板",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/u/yu_882",
     "socials": [
@@ -13517,9 +13517,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6124a738e4c2": {
     "id": "a_6124a738e4c2",
-    "name": "",
-    "name_inferred": "猿田彦的鼻子",
-    "name_source": "circle_name",
+    "name": "Rei Xu",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/rei.xu.3",
     "socials": [
@@ -13676,9 +13676,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_66dabb203faf": {
     "id": "a_66dabb203faf",
-    "name": "",
-    "name_inferred": "歨歨悅神社",
-    "name_source": "circle_name",
+    "name": "歨歨悅神社",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/niansui623",
     "socials": [
@@ -13889,9 +13889,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6e87dbc7db2e": {
     "id": "a_6e87dbc7db2e",
-    "name": "",
-    "name_inferred": "七色蘑菇燴飯",
-    "name_source": "circle_name",
+    "name": "某波",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/7iromushrooms",
     "socials": [
@@ -13904,9 +13904,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6ee29a7547ec": {
     "id": "a_6ee29a7547ec",
-    "name": "",
-    "name_inferred": "快樂罌粟花自耕農會",
-    "name_source": "circle_name",
+    "name": "Threadsのᴛʀᴀᴘᴀ",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://trapasocks.pse.is/8rdrx6",
     "socials": [
@@ -13934,9 +13934,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_6f0fa0758aca": {
     "id": "a_6f0fa0758aca",
-    "name": "",
-    "name_inferred": "布斯圖原創IP福狗波波威信",
-    "name_source": "circle_name",
+    "name": "Ballballwilson",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/ballballwilson",
     "socials": [
@@ -14024,9 +14024,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_72dafae620dd": {
     "id": "a_72dafae620dd",
-    "name": "",
-    "name_inferred": "台北祥初女",
-    "name_source": "circle_name",
+    "name": "Pipi Yaya",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/pipi.yaya.90",
     "socials": [
@@ -14144,9 +14144,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_77711770b700": {
     "id": "a_77711770b700",
-    "name": "",
-    "name_inferred": "日落地平線",
-    "name_source": "circle_name",
+    "name": "Brac",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/en/brac",
     "socials": [
@@ -14273,9 +14273,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7c2d29bdc03c": {
     "id": "a_7c2d29bdc03c",
-    "name": "",
-    "name_inferred": "極東霓虹實驗室",
-    "name_source": "circle_name",
+    "name": "極東霓虹實驗室",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/HOLIDAY_9NightKnight",
     "socials": [
@@ -14288,9 +14288,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7c5408200ee0": {
     "id": "a_7c5408200ee0",
-    "name": "",
-    "name_inferred": "三分糖‧手作中",
-    "name_source": "circle_name",
+    "name": "三分糖‧手作中",
+    "name_inferred": "",
+    "name_source": "generic_review",
     "x_handle": "",
     "x_url": "https://blog.erenehsu.com/HappyCandy/",
     "socials": [
@@ -14348,9 +14348,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7ea1e191ecdf": {
     "id": "a_7ea1e191ecdf",
-    "name": "",
-    "name_inferred": "三支音叉",
-    "name_source": "circle_name",
+    "name": "Alice Chien",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1EDMa5ftC9/",
     "socials": [
@@ -14393,9 +14393,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7f73aa9b6456": {
     "id": "a_7f73aa9b6456",
-    "name": "",
-    "name_inferred": "木子的百合花園",
-    "name_source": "circle_name",
+    "name": "木子的百合花園",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/MuziYuri/",
     "socials": [
@@ -14413,9 +14413,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_7fdd518acacc": {
     "id": "a_7fdd518acacc",
-    "name": "",
-    "name_inferred": "企鵝冰屋",
-    "name_source": "circle_name",
+    "name": "蕭小帳",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/xiao.xiao.zhang.520906",
     "socials": [
@@ -14428,9 +14428,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_80140afb2a8d": {
     "id": "a_80140afb2a8d",
-    "name": "",
-    "name_inferred": "腦洞煉製所",
-    "name_source": "circle_name",
+    "name": "腦洞煉製所",
+    "name_inferred": "",
+    "name_source": "aggregator_review",
     "x_handle": "",
     "x_url": "https://portaly.cc/refineyy",
     "socials": [
@@ -14628,9 +14628,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_85447c5b4ad5": {
     "id": "a_85447c5b4ad5",
-    "name": "",
-    "name_inferred": "aPriori",
-    "name_source": "circle_name",
+    "name": "aPriori  ｜ア・プリオリ",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/menyakuranari",
     "socials": [
@@ -14658,9 +14658,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_85bdfa9a1e53": {
     "id": "a_85bdfa9a1e53",
-    "name": "",
-    "name_inferred": "Zoiri",
-    "name_source": "circle_name",
+    "name": "Zoiri",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
     "socials": [
@@ -14688,9 +14688,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_85f0b7d8c5e1": {
     "id": "a_85f0b7d8c5e1",
-    "name": "",
-    "name_inferred": "夜行動物館",
-    "name_source": "circle_name",
+    "name": "夜行動物館",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/hanyangcomic?_ps=1",
     "socials": [
@@ -14808,9 +14808,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_8a1262b8fd78": {
     "id": "a_8a1262b8fd78",
-    "name": "",
-    "name_inferred": "角角吉",
-    "name_source": "circle_name",
+    "name": "角角吉",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/jiao.ji.327793/",
     "socials": [
@@ -14913,9 +14913,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_8e988a0b57db": {
     "id": "a_8e988a0b57db",
-    "name": "",
-    "name_inferred": "IDOL MaX",
-    "name_source": "circle_name",
+    "name": "趕鴿子上架　仮",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61583559591571",
     "socials": [
@@ -14973,9 +14973,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_919be03fb4ca": {
     "id": "a_919be03fb4ca",
-    "name": "",
-    "name_inferred": "壞狗狂奔，咎人要緊",
-    "name_source": "circle_name",
+    "name": "Tan Tan",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tan.tan.828001",
     "socials": [
@@ -15048,9 +15048,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_93ff56ae15b2": {
     "id": "a_93ff56ae15b2",
-    "name": "",
-    "name_inferred": "月亮代表我的心",
-    "name_source": "circle_name",
+    "name": "王永翔",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
     "socials": [
@@ -15093,9 +15093,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_95efc8eb01cf": {
     "id": "a_95efc8eb01cf",
-    "name": "",
-    "name_inferred": "K醬ㄉ攤",
-    "name_source": "circle_name",
+    "name": "Kei HaBara",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
     "socials": [
@@ -15158,9 +15158,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_974c1413bd0e": {
     "id": "a_974c1413bd0e",
-    "name": "",
-    "name_inferred": "極月學園偶像大師同好會",
-    "name_source": "circle_name",
+    "name": "RicKe Kao",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/ricke.kao",
     "socials": [
@@ -15188,9 +15188,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_97e01334a968": {
     "id": "a_97e01334a968",
-    "name": "",
-    "name_inferred": "不調了不調了😭",
-    "name_source": "circle_name",
+    "name": "張陪騎",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/mei.emerald.96?",
     "socials": [
@@ -15227,9 +15227,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_99b677827c65": {
     "id": "a_99b677827c65",
-    "name": "",
-    "name_inferred": "YO RIN",
-    "name_source": "circle_name",
+    "name": "被AI取代✖幽零的創作列表",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
     "socials": [
@@ -15257,9 +15257,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9a97bc8879ab": {
     "id": "a_9a97bc8879ab",
-    "name": "",
-    "name_inferred": "厭世熊寶貝",
-    "name_source": "circle_name",
+    "name": "藍櫻",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/en/rainnyafoi",
     "socials": [
@@ -15347,9 +15347,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9c1442ddf746": {
     "id": "a_9c1442ddf746",
-    "name": "",
-    "name_inferred": "jyouka",
-    "name_source": "circle_name",
+    "name": "jyouka",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/jyouka2019",
     "socials": [
@@ -15362,9 +15362,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9d98fa19a4b5": {
     "id": "a_9d98fa19a4b5",
-    "name": "",
-    "name_inferred": "強迫症少年",
-    "name_source": "circle_name",
+    "name": "半熟Omu",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/FoxMoonOmu/",
     "socials": [
@@ -15392,9 +15392,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9e9c8767ce86": {
     "id": "a_9e9c8767ce86",
-    "name": "",
-    "name_inferred": "月貓創意",
-    "name_source": "circle_name",
+    "name": "月貓創意",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/nokomakawa/",
     "socials": [
@@ -15407,9 +15407,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9ed16a7c1ee5": {
     "id": "a_9ed16a7c1ee5",
-    "name": "",
-    "name_inferred": "海豹柑柑Mikan seal",
-    "name_source": "circle_name",
+    "name": "海豹柑柑_MikanSeal",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Mikanseal074",
     "socials": [
@@ -15437,9 +15437,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9f23c71603a7": {
     "id": "a_9f23c71603a7",
-    "name": "",
-    "name_inferred": "柒隻美洲鱷",
-    "name_source": "circle_name",
+    "name": "柒卡 Chikka",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=100087498796559",
     "socials": [
@@ -15452,9 +15452,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_9fa28a8ef29a": {
     "id": "a_9fa28a8ef29a",
-    "name": "",
-    "name_inferred": "咦きづら怡部！",
-    "name_source": "circle_name",
+    "name": "詩 Shih",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/co.shih",
     "socials": [
@@ -15527,9 +15527,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a040305280cd": {
     "id": "a_a040305280cd",
-    "name": "",
-    "name_inferred": "Prediction",
-    "name_source": "circle_name",
+    "name": "盈盈",
+    "name_inferred": "",
+    "name_source": "pixiv_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.pixiv.net/users/1181363",
     "socials": [
@@ -15557,9 +15557,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a0fe6fb743c8": {
     "id": "a_a0fe6fb743c8",
-    "name": "",
-    "name_inferred": "本喵放空自我",
-    "name_source": "circle_name",
+    "name": "憂鬱貓",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/YuutsuNeko/",
     "socials": [
@@ -15572,9 +15572,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a2dfa5ddf3c3": {
     "id": "a_a2dfa5ddf3c3",
-    "name": "",
-    "name_inferred": "環繞著土星的光環 ",
-    "name_source": "circle_name",
+    "name": "環繞著土星的光環 ",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/tama48849",
     "socials": [
@@ -15587,9 +15587,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a33b957ea2fa": {
     "id": "a_a33b957ea2fa",
-    "name": "",
-    "name_inferred": "蜜糖波旁",
-    "name_source": "circle_name",
+    "name": "原井",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/harai.uine",
     "socials": [
@@ -15662,9 +15662,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a5856a921b74": {
     "id": "a_a5856a921b74",
-    "name": "",
-    "name_inferred": "C.I.L.S Box",
-    "name_source": "circle_name",
+    "name": "CILS Box-ICICLE",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/cilsbox/",
     "socials": [
@@ -15782,9 +15782,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a8e8257f7f7d": {
     "id": "a_a8e8257f7f7d",
-    "name": "",
-    "name_inferred": "甜品製造所",
-    "name_source": "circle_name",
+    "name": "劉同學",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/liu.tong.xue.241219/",
     "socials": [
@@ -15812,9 +15812,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a992a5dfc5b2": {
     "id": "a_a992a5dfc5b2",
-    "name": "",
-    "name_inferred": "kikokako",
-    "name_source": "circle_name",
+    "name": "庫里",
+    "name_inferred": "",
+    "name_source": "plurk_review_paren_alt",
     "x_handle": "",
     "x_url": "https://www.plurk.com/kikokakok",
     "socials": [
@@ -15827,9 +15827,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_a99a8bbbf6b3": {
     "id": "a_a99a8bbbf6b3",
-    "name": "",
-    "name_inferred": "sailor b-612",
-    "name_source": "circle_name",
+    "name": "Sailor B-612",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
     "socials": [
@@ -15872,9 +15872,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_aaa559d8a745": {
     "id": "a_aaa559d8a745",
-    "name": "",
-    "name_inferred": "古比Gubi",
-    "name_source": "circle_name",
+    "name": "古比(Gubi",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/en/gubiTW",
     "socials": [
@@ -15887,9 +15887,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ab3819a29509": {
     "id": "a_ab3819a29509",
-    "name": "",
-    "name_inferred": "taimini棉花娃衣",
-    "name_source": "circle_name",
+    "name": "taimini棉花娃衣",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/taimini865",
     "socials": [
@@ -15980,9 +15980,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ae2e0def98d1": {
     "id": "a_ae2e0def98d1",
-    "name": "",
-    "name_inferred": "山鐘塔第三防衛機關",
-    "name_source": "circle_name",
+    "name": "時鐘",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/shi.zhong.394980/",
     "socials": [
@@ -15995,9 +15995,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ae525c039a80": {
     "id": "a_ae525c039a80",
-    "name": "",
-    "name_inferred": "JO世主JO我一命",
-    "name_source": "circle_name",
+    "name": "陳婉瑜",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/cwy.0316.joestar/",
     "socials": [
@@ -16070,9 +16070,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_af483169587b": {
     "id": "a_af483169587b",
-    "name": "",
-    "name_inferred": "夜行飛船",
-    "name_source": "circle_name",
+    "name": "夜 行 飛 船",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/zh-tw/witlhgti",
     "socials": [
@@ -16145,9 +16145,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b0f06aaf96fb": {
     "id": "a_b0f06aaf96fb",
-    "name": "",
-    "name_inferred": "魔法少女被告席",
-    "name_source": "circle_name",
+    "name": "漿漿",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/jiang.jiang.193870",
     "socials": [
@@ -16175,9 +16175,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b1b9a573ed87": {
     "id": "a_b1b9a573ed87",
-    "name": "",
-    "name_inferred": "ML台灣外景事務局",
-    "name_source": "circle_name",
+    "name": "偶大百百tw外景事務局",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/GesamtkunstwerkundEi",
     "socials": [
@@ -16190,9 +16190,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b1d3ee2ef624": {
     "id": "a_b1d3ee2ef624",
-    "name": "",
-    "name_inferred": "深海裡的大鯨魚",
-    "name_source": "circle_name",
+    "name": "布魯威爾的繪圖記事",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/BlueWhale.s.art",
     "socials": [
@@ -16220,9 +16220,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b1e2f4702fe4": {
     "id": "a_b1e2f4702fe4",
-    "name": "",
-    "name_inferred": "句點",
-    "name_source": "circle_name",
+    "name": "句點",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr",
     "socials": [
@@ -16250,9 +16250,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b3fb16b89fd9": {
     "id": "a_b3fb16b89fd9",
-    "name": "",
-    "name_inferred": "常勝冠軍為你嗯吶",
-    "name_source": "circle_name",
+    "name": "幻之流星",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://sakuds.carrd.co",
     "socials": [
@@ -16289,9 +16289,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_b545c7b1814b": {
     "id": "a_b545c7b1814b",
-    "name": "",
-    "name_inferred": "又當寡婦了",
-    "name_source": "circle_name",
+    "name": "柳澤梅鶯",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/liu.ze.mei.ying",
     "socials": [
@@ -16494,9 +16494,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_be03a47f4b47": {
     "id": "a_be03a47f4b47",
-    "name": "",
-    "name_inferred": "奈櫻工坊",
-    "name_source": "circle_name",
+    "name": "手搖動畫機",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
     "socials": [
@@ -16539,9 +16539,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_bfae0600c25f": {
     "id": "a_bfae0600c25f",
-    "name": "",
-    "name_inferred": "廢人線",
-    "name_source": "circle_name",
+    "name": "廢人線",
+    "name_inferred": "",
+    "name_source": "generic_review",
     "x_handle": "",
     "x_url": "https://wxf0202.blog.fc2.com/",
     "socials": [
@@ -16659,9 +16659,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c2006c01e940": {
     "id": "a_c2006c01e940",
-    "name": "",
-    "name_inferred": "74 PrODUCTION",
-    "name_source": "circle_name",
+    "name": "74 Production",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/IdolProduction74",
     "socials": [
@@ -16819,9 +16819,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c6e980191791": {
     "id": "a_c6e980191791",
-    "name": "",
-    "name_inferred": "貓專用牛乳",
-    "name_source": "circle_name",
+    "name": "猫専用牛乳（貓專用牛乳）―那須花花",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/mikan888/",
     "socials": [
@@ -16849,9 +16849,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c762bcea00b8": {
     "id": "a_c762bcea00b8",
-    "name": "",
-    "name_inferred": "台北人",
-    "name_source": "circle_name",
+    "name": "Kun Salamander",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/kun.salamander.3/",
     "socials": [
@@ -16864,9 +16864,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c7b2a43f3e88": {
     "id": "a_c7b2a43f3e88",
-    "name": "",
-    "name_inferred": "你也是舞台少女？",
-    "name_source": "circle_name",
+    "name": "九夏／Irene309",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/Irene309w/",
     "socials": [
@@ -16879,9 +16879,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c8e1bb8cb3bb": {
     "id": "a_c8e1bb8cb3bb",
-    "name": "",
-    "name_inferred": "天下第一邦",
-    "name_source": "circle_name",
+    "name": "Bestdreamers",
+    "name_inferred": "",
+    "name_source": "wix_review_title_strip",
     "x_handle": "",
     "x_url": "https://bestbandreamers.wixsite.com/mygo",
     "socials": [
@@ -16924,9 +16924,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_c9e158b76076": {
     "id": "a_c9e158b76076",
-    "name": "",
-    "name_inferred": "月刊蜉迴都",
-    "name_source": "circle_name",
+    "name": "▴月刊ふえと⌬電気式㋩㋠㋯㋡▾",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://epilog.blog49.fc2.com/",
     "socials": [
@@ -16939,9 +16939,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ca16eef463f7": {
     "id": "a_ca16eef463f7",
-    "name": "",
-    "name_inferred": "魚燒",
-    "name_source": "circle_name",
+    "name": "魚燒",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yuclovers",
     "socials": [
@@ -16984,9 +16984,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_caa82958f8a4": {
     "id": "a_caa82958f8a4",
-    "name": "",
-    "name_inferred": "吐司狐的麵包樹",
-    "name_source": "circle_name",
+    "name": "吐司狐的麵包樹",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
     "socials": [
@@ -17068,9 +17068,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_cf038b22fec3": {
     "id": "a_cf038b22fec3",
-    "name": "",
-    "name_inferred": "迷你小啾的手創窩",
-    "name_source": "circle_name",
+    "name": "迷你小啾的窩",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
     "socials": [
@@ -17113,9 +17113,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d02a16b89beb": {
     "id": "a_d02a16b89beb",
-    "name": "",
-    "name_inferred": "巨龍棲息地",
-    "name_source": "circle_name",
+    "name": "PonPon碰碰",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/en/twponpon",
     "socials": [
@@ -17143,9 +17143,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d1c7b09049bc": {
     "id": "a_d1c7b09049bc",
-    "name": "",
-    "name_inferred": "美栗",
-    "name_source": "circle_name",
+    "name": "美栗",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
     "socials": [
@@ -17257,9 +17257,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d4b2b1ce01cc": {
     "id": "a_d4b2b1ce01cc",
-    "name": "",
-    "name_inferred": "玦聚-Jadeverse",
-    "name_source": "circle_name",
+    "name": "玦聚 Jadeverse",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://lit.link/en/jadeverse",
     "socials": [
@@ -17347,9 +17347,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d718255b2416": {
     "id": "a_d718255b2416",
-    "name": "",
-    "name_inferred": "悸胱香香G",
-    "name_source": "circle_name",
+    "name": "G董",
+    "name_inferred": "",
+    "name_source": "plurk_review_zh_is_med",
     "x_handle": "",
     "x_url": "https://www.plurk.com/nyanggbbb",
     "socials": [
@@ -17392,9 +17392,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_d7fcf73259e8": {
     "id": "a_d7fcf73259e8",
-    "name": "",
-    "name_inferred": "電梯上樓",
-    "name_source": "circle_name",
+    "name": "Quarter Lift",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/lift.quarter",
     "socials": [
@@ -17452,9 +17452,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_db4423cb0adb": {
     "id": "a_db4423cb0adb",
-    "name": "",
-    "name_inferred": "夜触人身",
-    "name_source": "circle_name",
+    "name": "Rinkopoi 綸子ぽい",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yetsubody",
     "socials": [
@@ -17606,9 +17606,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_df31c7ea631b": {
     "id": "a_df31c7ea631b",
-    "name": "",
-    "name_inferred": "悠紗",
-    "name_source": "circle_name",
+    "name": "悠紗",
+    "name_inferred": "",
+    "name_source": "fb_review",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yuusa200502/",
     "socials": [
@@ -17645,9 +17645,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_df66ca62e553": {
     "id": "a_df66ca62e553",
-    "name": "",
-    "name_inferred": "風船猫插畫神社",
-    "name_source": "circle_name",
+    "name": "ねこ ねこめし",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/lai.liang.yan.2025/",
     "socials": [
@@ -17660,9 +17660,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_df97e0c406d7": {
     "id": "a_df97e0c406d7",
-    "name": "",
-    "name_inferred": "LOVE BUZZ",
-    "name_source": "circle_name",
+    "name": "Synka 辛卡",
+    "name_inferred": "",
+    "name_source": "aggregator_review_title_strip",
     "x_handle": "",
     "x_url": "https://linktr.ee/Synka",
     "socials": [
@@ -17869,9 +17869,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_eae2fbc23928": {
     "id": "a_eae2fbc23928",
-    "name": "",
-    "name_inferred": "怪獸少女KaijuShoujo",
-    "name_source": "circle_name",
+    "name": "劉憲忠",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/sian.liu.756/",
     "socials": [
@@ -17908,9 +17908,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_eb870f806258": {
     "id": "a_eb870f806258",
-    "name": "",
-    "name_inferred": "水母阿嬤手作",
-    "name_source": "circle_name",
+    "name": "水母阿嬤手作",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/allen210146",
     "socials": [
@@ -17953,9 +17953,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_ee9a3bd5ab13": {
     "id": "a_ee9a3bd5ab13",
-    "name": "",
-    "name_inferred": "阿喵家",
-    "name_source": "circle_name",
+    "name": "Nukomimi Channel",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.youtube.com/@nukomimiP",
     "socials": [
@@ -18013,9 +18013,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f00afa47f06b": {
     "id": "a_f00afa47f06b",
-    "name": "",
-    "name_inferred": "向隅團",
-    "name_source": "circle_name",
+    "name": "nookpartner",
+    "name_inferred": "",
+    "name_source": "wix_review_title_strip",
     "x_handle": "",
     "x_url": "https://bwa9090.wixsite.com/nookpartner",
     "socials": [
@@ -18058,9 +18058,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f19ae2dafa4f": {
     "id": "a_f19ae2dafa4f",
-    "name": "",
-    "name_inferred": "期間限定",
-    "name_source": "circle_name",
+    "name": "SLOW.WORK",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://slow.work/",
     "socials": [
@@ -18088,9 +18088,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f25f70ce5eaa": {
     "id": "a_f25f70ce5eaa",
-    "name": "",
-    "name_inferred": "肝硬化企業-熬夜榨肝部門",
-    "name_source": "circle_name",
+    "name": "Tabibito",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=100057130852699",
     "socials": [
@@ -18103,9 +18103,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f316162849c6": {
     "id": "a_f316162849c6",
-    "name": "",
-    "name_inferred": "直走到底",
-    "name_source": "circle_name",
+    "name": "阿高",
+    "name_inferred": "",
+    "name_source": "plurk_review_zh_is_med",
     "x_handle": "",
     "x_url": "https://www.plurk.com/folia0702",
     "socials": [
@@ -18118,9 +18118,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f34386636f25": {
     "id": "a_f34386636f25",
-    "name": "",
-    "name_inferred": "鯊魚腳速食",
-    "name_source": "circle_name",
+    "name": "Arsum",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61555969822241",
     "socials": [
@@ -18133,9 +18133,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f584a29440d8": {
     "id": "a_f584a29440d8",
-    "name": "",
-    "name_inferred": "晚安丁豆子",
-    "name_source": "circle_name",
+    "name": "晚安丁豆子",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/ding8059",
     "socials": [
@@ -18187,9 +18187,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f5f6f1418798": {
     "id": "a_f5f6f1418798",
-    "name": "",
-    "name_inferred": "coolcoolburger",
-    "name_source": "circle_name",
+    "name": "CoolCoolBurger",
+    "name_inferred": "",
+    "name_source": "fb_review_title_strip",
     "x_handle": "",
     "x_url": "https://www.facebook.com/coolcoolburger",
     "socials": [
@@ -18262,9 +18262,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f8a18d34b6b0": {
     "id": "a_f8a18d34b6b0",
-    "name": "",
-    "name_inferred": "刺刺工坊",
-    "name_source": "circle_name",
+    "name": "伯能Yoken",
+    "name_inferred": "",
+    "name_source": "plurk_review_zh_is_med",
     "x_handle": "",
     "x_url": "https://www.plurk.com/yoken1021",
     "socials": [
@@ -18292,9 +18292,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f91837c7fe69": {
     "id": "a_f91837c7fe69",
-    "name": "",
-    "name_inferred": "把查克拉集中到手上",
-    "name_source": "circle_name",
+    "name": "★10Y通販用☆",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://myship.7-11.com.tw/general/detail/GM2106126257486",
     "socials": [
@@ -18367,9 +18367,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_f9da4f1da812": {
     "id": "a_f9da4f1da812",
-    "name": "",
-    "name_inferred": "MinuetWorks",
-    "name_source": "circle_name",
+    "name": "Tr",
+    "name_inferred": "",
+    "name_source": "generic_review_title_strip",
     "x_handle": "",
     "x_url": "https://solo.to/travis_minuet",
     "socials": [
@@ -18442,9 +18442,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_fb87b379b8a2": {
     "id": "a_fb87b379b8a2",
-    "name": "",
-    "name_inferred": "畜生園",
-    "name_source": "circle_name",
+    "name": "畜生園",
+    "name_inferred": "",
+    "name_source": "wix_review",
     "x_handle": "",
     "x_url": "https://kuailedongwuyuan.wixsite.com/my-site-1",
     "socials": [
@@ -18496,9 +18496,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_fe008d465c68": {
     "id": "a_fe008d465c68",
-    "name": "",
-    "name_inferred": "涵金手作",
-    "name_source": "circle_name",
+    "name": "涵金手作",
+    "name_inferred": "",
+    "name_source": "plurk_review",
     "x_handle": "",
     "x_url": "https://www.plurk.com/hijin_handmand",
     "socials": [
