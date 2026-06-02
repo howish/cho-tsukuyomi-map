@@ -62,6 +62,16 @@
       return JSON.parse(localStorage.getItem(STORAGE_KEY + '-removals') || '{}');
     } catch (e) { return {}; }
   }
+  function loadPendingAliases() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-aliases') || '{}');
+    } catch (e) { return {}; }
+  }
+  function loadPendingAliasRemovals() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-alias-removals') || '{}');
+    } catch (e) { return {}; }
+  }
   function savePending(p) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   }
@@ -71,9 +81,30 @@
   function savePendingRemovals(pr) {
     localStorage.setItem(STORAGE_KEY + '-removals', JSON.stringify(pr));
   }
+  function savePendingAliases(pa) {
+    localStorage.setItem(STORAGE_KEY + '-aliases', JSON.stringify(pa));
+  }
+  function savePendingAliasRemovals(par) {
+    localStorage.setItem(STORAGE_KEY + '-alias-removals', JSON.stringify(par));
+  }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
-  let pendingRemovals = loadPendingRemovals();  // {author_id: [url, ...]}
+  let pendingRemovals = loadPendingRemovals();           // {author_id: [url, ...]}
+  let pendingAliases = loadPendingAliases();             // {author_id: [alias, ...]} - to add
+  let pendingAliasRemovals = loadPendingAliasRemovals(); // {author_id: [alias, ...]} - to remove
+
+  function isAliasMarkedForRemoval(aid, alias) {
+    return (pendingAliasRemovals[aid] || []).includes(alias);
+  }
+  function toggleAliasRemoval(aid, alias) {
+    const arr = pendingAliasRemovals[aid] = pendingAliasRemovals[aid] || [];
+    const i = arr.indexOf(alias);
+    if (i >= 0) arr.splice(i, 1);
+    else arr.push(alias);
+    if (arr.length === 0) delete pendingAliasRemovals[aid];
+    savePendingAliasRemovals(pendingAliasRemovals);
+    render();
+  }
 
   function isMarkedForRemoval(aid, url) {
     return (pendingRemovals[aid] || []).includes(url);
@@ -196,6 +227,7 @@
     if (!q) return true;
     const blob = [
       a.id, a.name, a.name_inferred, a.x_handle,
+      ...(a.aliases || []),
       ...(AUTHOR_CIRCLES[a.id] || []).map(c => c.circle_name),
       ...(a.socials || []).map(s => s.handle || ''),
     ].filter(Boolean).join(' ').toLowerCase();
@@ -252,6 +284,76 @@
     }, a.name_source || '(empty)'));
     curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
     head.appendChild(curRow);
+
+    // Alias row — existing aliases (with × to remove) + pending aliases + add form
+    const existingAliases = a.aliases || [];
+    const pendingAdds = pendingAliases[a.id] || [];
+    if (existingAliases.length || pendingAdds.length) {
+      const aliasRow = el('div', { class: 'card-alias-row' });
+      aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
+      existingAliases.forEach(al => {
+        const marked = isAliasMarkedForRemoval(a.id, al);
+        const chip = el('span', {
+          class: 'alias-chip' + (marked ? ' marked-remove' : ''),
+        });
+        chip.appendChild(el('span', { class: 'alias-text' }, al));
+        chip.appendChild(el('button', {
+          type: 'button',
+          class: 'alias-remove',
+          title: marked ? '削除を取消' : 'この別名を削除',
+          onclick: () => toggleAliasRemoval(a.id, al),
+        }, marked ? '↺' : '×'));
+        aliasRow.appendChild(chip);
+      });
+      pendingAdds.forEach((al, idx) => {
+        const chip = el('span', { class: 'alias-chip pending-add' });
+        chip.appendChild(el('span', { class: 'alias-text' }, '+ ' + al));
+        chip.appendChild(el('button', {
+          type: 'button',
+          class: 'alias-remove',
+          title: 'pending 追加を取消',
+          onclick: () => {
+            pendingAliases[a.id].splice(idx, 1);
+            if (pendingAliases[a.id].length === 0) delete pendingAliases[a.id];
+            savePendingAliases(pendingAliases);
+            render();
+          },
+        }, '×'));
+        aliasRow.appendChild(chip);
+      });
+      head.appendChild(aliasRow);
+    }
+
+    // Add-alias inline form (always available)
+    const aliasAddBlock = el('div', { class: 'add-alias-block' });
+    const aliasInput = el('input', {
+      type: 'text',
+      placeholder: '+ 別名追加 (例: 庫里、本名 etc)',
+      class: 'add-alias-input',
+    });
+    const aliasAddBtn = el('button', {
+      type: 'button',
+      class: 'add-alias-btn',
+      onclick: () => {
+        const al = (aliasInput.value || '').trim();
+        if (!al) return;
+        const arr = pendingAliases[a.id] = pendingAliases[a.id] || [];
+        if (al === a.name || al === a.name_inferred || arr.includes(al) || (a.aliases || []).includes(al)) {
+          alert('重複している、もう登録済み');
+          return;
+        }
+        arr.push(al);
+        savePendingAliases(pendingAliases);
+        aliasInput.value = '';
+        render();
+      },
+    }, '+');
+    aliasInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); aliasAddBtn.click(); }
+    });
+    aliasAddBlock.appendChild(aliasInput);
+    aliasAddBlock.appendChild(aliasAddBtn);
+    head.appendChild(aliasAddBlock);
 
     card.appendChild(head);
 
@@ -532,7 +634,9 @@
     const nameCount = Object.keys(pending).length;
     const socialCount = Object.values(pendingSocials).reduce((s, arr) => s + arr.length, 0);
     const removalCount = Object.values(pendingRemovals).reduce((s, arr) => s + arr.length, 0);
-    const total = nameCount + socialCount + removalCount;
+    const aliasAddCount = Object.values(pendingAliases).reduce((s, arr) => s + arr.length, 0);
+    const aliasRemCount = Object.values(pendingAliasRemovals).reduce((s, arr) => s + arr.length, 0);
+    const total = nameCount + socialCount + removalCount + aliasAddCount + aliasRemCount;
     document.getElementById('pending-count').textContent = total;
     list.innerHTML = '';
     if (total === 0) {
@@ -567,6 +671,22 @@
         list.appendChild(li);
       }
     }
+    for (const aid in pendingAliases) {
+      for (const al of pendingAliases[aid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, aid));
+        li.appendChild(el('span', {}, `🏷️ + alias → ${al}`));
+        list.appendChild(li);
+      }
+    }
+    for (const aid in pendingAliasRemovals) {
+      for (const al of pendingAliasRemovals[aid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, aid));
+        li.appendChild(el('span', {}, `🏷️ - alias → ${al}`));
+        list.appendChild(li);
+      }
+    }
     // Size hint
     const body = buildSubmissionBody();
     const hint = document.getElementById('pending-hint');
@@ -598,6 +718,16 @@
           decision: 'remove_social',
           url,
         });
+      }
+    }
+    for (const aid in pendingAliases) {
+      for (const alias of pendingAliases[aid]) {
+        out.push({ author_id: aid, decision: 'add_alias', alias });
+      }
+    }
+    for (const aid in pendingAliasRemovals) {
+      for (const alias of pendingAliasRemovals[aid]) {
+        out.push({ author_id: aid, decision: 'remove_alias', alias });
       }
     }
     return out;
@@ -719,9 +849,13 @@
     pending = {};
     pendingSocials = {};
     pendingRemovals = {};
+    pendingAliases = {};
+    pendingAliasRemovals = {};
     savePending(pending);
     savePendingSocials(pendingSocials);
     savePendingRemovals(pendingRemovals);
+    savePendingAliases(pendingAliases);
+    savePendingAliasRemovals(pendingAliasRemovals);
     render();
   });
 

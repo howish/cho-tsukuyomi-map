@@ -117,7 +117,8 @@
       if (q) {
         const blob = [c.circle_name, c.author, c.x_handle,
                       ...(c.events || []).map(e => e.name),
-                      ...(c.socials || []).map(s => s.handle)]
+                      ...(c.socials || []).map(s => s.handle),
+                      ...(c.memberAuthors || []).flatMap(m => [m.name, ...(m.aliases || [])])]
           .join(' ').toLowerCase();
         if (!blob.includes(q)) continue;
       }

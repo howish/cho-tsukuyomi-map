@@ -432,7 +432,9 @@
       id: 'booth-' + b.booth_id.toLowerCase(),
       'data-booth-id': b.booth_id,
       'data-filters': filterTokens.join(',') + (isFav ? ',fav' : ''),
-      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle].filter(Boolean).join(' ').toLowerCase(),
+      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle,
+        ...(b.members || []).flatMap(m => [m.name, ...(m.aliases || [])])
+      ].filter(Boolean).join(' ').toLowerCase(),
       role: 'button',
       tabindex: '0',
       'aria-label': T('card_aria', { boothId: b.booth_id, circle: b.circle_name || '', author: b.author || '' })
@@ -613,13 +615,21 @@
       if (!name) return;
       // Skip chip when it just repeats circle_name (the h3 already shows it).
       if (name === b.circle_name) return;
+      const aliases = (m.aliases || []).filter(Boolean);
+      const displayName = aliases.length
+        ? `${name} (${aliases.join(' / ')})`
+        : name;
       const chipHref = m.x_url || (m.x_handle ? 'https://x.com/' + m.x_handle : null);
       if (chipHref) {
         meta.appendChild(el('a', {
           href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
-        }, name));
+          title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
+        }, displayName));
       } else {
-        meta.appendChild(el('span', { class: 'author-chip' }, name));
+        meta.appendChild(el('span', {
+          class: 'author-chip',
+          title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
+        }, displayName));
       }
     });
     // Build the platform chip set — dedupe by URL host+path so the same

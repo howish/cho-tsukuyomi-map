@@ -248,6 +248,97 @@
   border-color: #6c4a9d;
 }
 
+/* Alias row —別名 chips + inline add */
+.card-alias-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #4a3a5c;
+  margin-top: 4px;
+}
+.card-alias-label {
+  color: #7a6a8c;
+  font-weight: 500;
+}
+.alias-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 4px 3px 10px;
+  background: #ede4f5;
+  border: 1px solid #c8b8d8;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #4a3a5c;
+}
+.alias-chip.pending-add {
+  background: #fff3d8;
+  border: 1px dashed #d8a040;
+  color: #8b6d24;
+  font-weight: 600;
+}
+.alias-chip.marked-remove {
+  background: #fde0e0;
+  border-color: #c85858;
+  color: #8a2828;
+  text-decoration: line-through;
+}
+.alias-chip .alias-remove {
+  background: rgba(0, 0, 0, 0.06);
+  border: none;
+  color: #6c4a9d;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 700;
+  line-height: 1;
+}
+.alias-chip .alias-remove:hover {
+  background: #c85858;
+  color: #fff;
+}
+.alias-chip.marked-remove .alias-remove:hover {
+  background: #4a9d63;
+}
+
+.add-alias-block {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+.add-alias-input {
+  flex: 1 1 auto;
+  background: #fff;
+  border: 1px solid #b8a8c8;
+  color: #2a1e3a;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  min-width: 0;
+}
+.add-alias-input:focus {
+  outline: none;
+  border-color: #8b6cb4;
+  box-shadow: 0 0 0 2px rgba(139, 108, 180, 0.15);
+}
+.add-alias-btn {
+  flex: 0 0 auto;
+  background: #8b6cb4;
+  border: none;
+  color: #fff;
+  padding: 0 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.add-alias-btn:hover { background: #6c4a9d; }
+
 /* Existing chip with inline × removal button */
 .card-probe-link.existing {
   display: inline-flex;

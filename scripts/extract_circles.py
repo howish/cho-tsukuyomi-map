@@ -91,6 +91,7 @@ def main():
                     'name': a.get('name') or '',
                     'name_inferred': a.get('name_inferred') or '',
                     'name_source': a.get('name_source') or '',
+                    'aliases': list(a.get('aliases') or []),
                     'x_handle': a.get('x_handle') or '',
                     'x_url': a.get('x_url') or '',
                     'socials': list(a.get('socials') or []),
