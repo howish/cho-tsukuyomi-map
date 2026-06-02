@@ -5041,6 +5041,13 @@ window.BOOTHS = [
   {
     "booth_id": "S-35/36",
     "circle_id": "c_55c8671ca3b8",
+    "consignment_partners": [
+      {
+        "platform": "x",
+        "handle": "AoIzumi_Akiharu",
+        "name": "碎烆"
+      }
+    ],
     "body": "## 📝 IF7 出展重點\n- 主攤 S-35/36 合攤 ／ 緋染天空 + 賽馬娘 + **超時空輝耀姬** 多 fandom 周邊\n\n**寄攤 — 碎烆** ([@AoIzumi_Akiharu](https://x.com/AoIzumi_Akiharu)) 超時空輝耀姬 同人短篇集:\n- 新刊 **『743A』** — R-18 同人短篇集 / A5 / 右翻 / 84P / NT 200\n- 收錄 7 篇短文 + 3 張黑白 Q 版插畫 + 1 面彩色拉頁\n- 封面繪師 七御 / 內頁插畫 火登 / 巧犬\n- ⚠️ R-18 — 購買時將驗證身分證件 ([source](https://x.com/AoIzumi_Akiharu/status/2059513177558388971))\n\n**寄攤 — 幻ちゃん** 賽馬娘 周邊:\n- 搖搖馬立牌 29 款 — NT 200 / 款, 3 款 NT 500\n- 搖搖尾串串吊飾 4 款 — NT 300 / 款, 2 款 NT 500\n\n💡 開場時段請備零錢, 不接受大鈔\n\n出處: [Plurk announce](https://www.plurk.com/p/3iljqk97pp)",
     "tags": {
       "super-kaguya": true,
@@ -5572,6 +5579,13 @@ window.BOOTHS = [
   {
     "booth_id": "T-03",
     "circle_id": "c_9e1aea7997f4",
+    "consignment_partners": [
+      {
+        "platform": "x",
+        "handle": "huihuihui_0w0",
+        "name": "卉卉"
+      }
+    ],
     "body": "## 📝 IF7 出展重點\n- 米拉 新刊 **『潛語 MURMURATION』** — 喵祥喵 / 漫畫 / A5 / 20P / NT 150 (隨書贈 明信片)\n- **迷子推し活 T** — 鬍鬚 design / S~XXL / NT 500 (其他尺寸網購可)\n- **樂奈腦洞 T** — 米拉 design / M~XXL / NT 500\n- 米拉 喵祥喵 BDSM 明信片 / 認親卡\n- **雞狗 CP 吊飾** 5 種 — 卉卉 [@huihuihui_0w0](https://x.com/huihuihui_0w0) 寄攤 (初祥 / 茜李 / 喵祥 / 愛爽 / 海希) — 各 NT 150\n- 簽繪板 競標 予定\n\n關連: BanG Dream! It's MyGO!!!!!\n\n出處: [米拉 新刊『潛語』](https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj) / [米拉 booth T 品書 + 吊飾](https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2) / [鬍鬚 補足](https://www.threads.com/@nekohige0123/post/DY5NeogEqwh)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 開放** — 喵祥喵新刊 + 喵祥飯友 少量 + 鬍鬚 推し活 T 等 (新刊・飯友 注文 附手繪小卡片)\n- 🟢 **鬍鬚 線上通販** 營業中 — [myship 7-11 (GM2605269948811)](https://myship.7-11.com.tw/general/detail/GM2605269948811)\n- ✅ 米拉 **貓希 簽繪板 競標 成立** (場後 711 寄送)\n- 🎯 **下次 百翁** 預定\n\n出處: [Threads pinned](https://www.threads.com/@x_milllllla_x) / [鬍鬚 撤了感謝](https://www.threads.com/@nekohige0123/post/DY9FKHHkStk) / [米拉 競標感謝](https://www.threads.com/@x_milllllla_x/post/DY9z1Vej6W-)",
     "tags": {
       "bandori": true,
@@ -6648,6 +6662,18 @@ window.BOOTHS = [
   {
     "booth_id": "T-35",
     "circle_id": "yoyoray20001996",
+    "consignment_partners": [
+      {
+        "platform": "x",
+        "handle": "Oox30",
+        "name": "Kー雪一"
+      },
+      {
+        "platform": "x",
+        "handle": "Lehcar_my",
+        "name": "Lehcar"
+      }
+    ],
     "body": "## 📝 IF7 出展重點 (うみたき / 海希)\n\n**新刊**:\n- 插圖本 **『海希的...KISS 多重宇宙』** — 全年齡 / B5 / 22P / NT 250\n\n**寄攤** (Kー雪一 [@Oox30](https://x.com/Oox30) + Lehcar [@Lehcar_my](https://x.com/Lehcar_my)):\n- 漫畫 **『1R · 2人 · 365日』** — R-18 / A5 / 38P / NT 300\n\n**既品**:\n- A6 明信片 — NT 35 / 張 (組合 4 種 NT 120)\n- 磁鐵 — NT 100\n- A6 簽繪板 — NT 400 (亮霧小婚紗 / 艾蓮斯與婉歆)\n- 海希馬年春聯組 — NT 160 (海錫馬 ×2 + 立春馬 ×1 + 海希驅瑪)\n\n出處: [預購表單 X](https://x.com/i/status/2059248150913945744) / [Twitter 工商](https://x.com/yoyoray20001996/status/2058413207333851172)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟡 **場後通販＆電子書** — 數日後預定開放\n\n出處: [告知 X](https://x.com/yoyoray20001996/status/2061046043027103873)",
     "tags": {
       "goudou": true,
@@ -6695,6 +6721,13 @@ window.BOOTHS = [
   {
     "booth_id": "T-36",
     "circle_id": "c_84f117140304",
+    "consignment_partners": [
+      {
+        "platform": "threads",
+        "handle": "cho_kaguya_hime",
+        "name": "月讀ツクヨミ DC群"
+      }
+    ],
     "body": "## 📝 IF7 出展重點\n- 寄攤 (Ye Zi): alien stage / 我在意的對象不是男人 / 探險活寶 / 輝耀姬 (百合翁新刊加筆中)\n- 寄攤 (月讀 ツクヨミ DC 群 [@cho_kaguya_hime](https://www.threads.com/@cho_kaguya_hime), 該群第 1 本合本):\n  - 新刊合本 **『CPK《Remix》』** — 超時空輝耀姬 · 彩葉 × 輝耀 × 八千代 / A5 / 98P / 全年齡 / NT 250\n  - 預先表單填寫者優惠 + 現場無料明信片特典\n  - 12 作家合著: +0, cema, Claris, 八月, 丹, 水神, 立夜, 剎翼, 笨丸, 魚, 葉唯, 楓月\n\n出處: [原 FB post](https://www.facebook.com/share/p/1EptQghttr/) / [初發表 Threads](https://www.threads.com/@cho_kaguya_hime/post/DX6nHNQkwKd) / [再次宣傳 Threads](https://www.threads.com/@cho_kaguya_hime/post/DY4uZqgEwbB)\n\n## 🎪 場後 (2026-05-30 → )\n- ✅ 既刊復刻 **『感度八千倍』** (Cema) 12:13 頃 完售 ([catalog](https://docs.google.com/spreadsheets/d/1Wn-C7Nhz6qA7CDJdGPWwEEMLyUTpVxqFCu05YYUCcs4/))\n- 🟢 **超輝新刊『拯救B計畫』 場後通販 開放** (A5 / 62P / 黑白 / 繁中, 隨書「超時空女同捉哀狼人殺卡包」1 包 4 款全) — 連結於 FB 留言區\n- 🟢 **『超時空黑白圖合集』 場後通販 開放** (A5 / 38P) — ※ 卡包不同梱\n- 📦 餘量倉庫轉送, 早期出貨\n\n出處: [FB 告知](https://www.facebook.com/tentaclespet/)",
     "tags": {
       "super-kaguya": true,
@@ -7299,6 +7332,13 @@ window.BOOTHS = [
   {
     "booth_id": "U-11",
     "circle_id": "c_846075d4d9f5",
+    "consignment_partners": [
+      {
+        "platform": "plurk",
+        "handle": "kyokasan",
+        "name": "kyokasan"
+      }
+    ],
     "area": "綜合",
     "body": "## 📝 IF7 出展重點\n\n位置: 小百翁隔壁排 U-11\n\n- 新刊 (百合 ACG 評論誌) 印製趕不及, 現場頒布少量「天窗本」自取\n- 既刊＋寄賣 **『Litmus』** (內含 [@kyokasan](https://www.plurk.com/kyokasan) 百合影劇論) 販售\n- 未來新刊情報集中於 SOCOTAKU 特設頁\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq5q9ldoo)\n\n## 🎯 下次活動\n- 6/7 **PF44** 非典型專家博覽會 — 香港友社《Litmus 試紙 第二期》(五篇評論 + 作家訪談 + 書評) 會場頒布\n\n## 🛒 常駐通販\n- SOCOTAKU 賣貨便 ([Plurk 告知](https://www.plurk.com/socotaku))",
     "tags": {
@@ -7806,7 +7846,21 @@ window.BOOTHS = [
     "booth_id": "U-30",
     "circle_id": "melon2943",
     "consignment_partners": [
-      "_icpfo1"
+      {
+        "platform": "x",
+        "handle": "_icpfo1",
+        "name": "河豚老師"
+      },
+      {
+        "platform": "threads",
+        "handle": "usagi._.novelist",
+        "name": "菟子老師"
+      },
+      {
+        "platform": "threads",
+        "handle": "su4_zm",
+        "name": "su4_zm (封面)"
+      }
     ],
     "body": "## 📝 IF7 出展重點\n- [U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- **太呱章了**: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- **河豚老師** ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 超時空輝姬 漫畫本 + 既刊 睦祥 漫畫本\n- **菟子老師** ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **超時空輝耀姬 同人小說 『C'EX-OTOGIBANASHI』** (彩葉 × 八千代 R-18 中篇集 / 3 萬字 / 12 章, [@su4_zm](https://www.threads.com/@su4_zm) 老師彩色封面)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **太呱章了 (主攤) 睦祥本 場後通販 開放** — [711 賣貨便 (GM2510056163595)](https://myship.7-11.com.tw/general/detail/GM2510056163595) (+ NT 10 包材費)\n\n出處: [告知 X](https://x.com/melon2943/status/2061050815398433192)",
     "tags": {

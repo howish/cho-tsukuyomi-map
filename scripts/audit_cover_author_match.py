@@ -47,10 +47,18 @@ def main():
             for s in (circle.get('socials') or []):
                 h = (s.get('handle') or '').lstrip('@').lower()
                 if h: partner_handles.add(h)
-            # Accept handles in booth.consignment_partners[] (Phase A schema,
-            # per-event 寄攤 / 委託 partners — see EDITORIAL_GUIDELINES §15)
-            for h in (b.get('consignment_partners') or []):
-                partner_handles.add(h.lstrip('@').lower())
+            # Accept handles in booth.consignment_partners[] (Phase B-small
+            # schema, per-event 寄攤 / 委託 partners — see EDITORIAL_GUIDELINES §15).
+            # Entries can be either bare strings (legacy, X handle) or
+            # objects {platform, handle, name?}. Only platform="x" entries
+            # are relevant for X cover-author mismatch suppression.
+            for entry in (b.get('consignment_partners') or []):
+                if isinstance(entry, str):
+                    partner_handles.add(entry.lstrip('@').lower())
+                elif isinstance(entry, dict) and entry.get('platform') == 'x':
+                    h = entry.get('handle') or ''
+                    if h:
+                        partner_handles.add(h.lstrip('@').lower())
             for c in (b.get('cover_urls') or []):
                 src_u = c.get('source_url', '')
                 m2 = X_STATUS_RE.match(src_u)

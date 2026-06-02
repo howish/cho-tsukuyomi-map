@@ -625,18 +625,42 @@
         addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
       });
     }
-    // Phase A (2026-06-02): 寄攤 / 委託 partners — chip styling alone
-    // differentiates from primary author (dashed outline, lighter weight,
-    // smaller). No emoji prefix to avoid crowding next to platform icons.
+    // Phase B-small (2026-06-02): 寄攤 / 委託 partners — chip styling alone
+    // differentiates from primary author. Schema accepts either bare strings
+    // (legacy X-only) or {platform, handle, name?} objects (multi-platform).
     if (Array.isArray(b.consignment_partners) && b.consignment_partners.length) {
-      b.consignment_partners.forEach(handle => {
-        const h = String(handle).replace(/^@/, '');
-        const partnerCircle = CIRCLES_BY_ID[h.toLowerCase()];
-        const label = partnerCircle && partnerCircle.circle_name
-          ? `${partnerCircle.circle_name} @${h}`
-          : `@${h}`;
+      const PLATFORM_URL_PREFIX = {
+        x: 'https://x.com/',
+        threads: 'https://www.threads.com/@',
+        plurk: 'https://www.plurk.com/',
+        bsky: 'https://bsky.app/profile/',
+        pixiv: 'https://www.pixiv.net/users/',
+        fb: 'https://www.facebook.com/',
+        ig: 'https://www.instagram.com/',
+      };
+      b.consignment_partners.forEach(entry => {
+        let platform = 'x';
+        let handle = '';
+        let name = '';
+        if (typeof entry === 'string') {
+          handle = entry.replace(/^@/, '');
+        } else if (entry && typeof entry === 'object') {
+          platform = entry.platform || 'x';
+          handle = String(entry.handle || '').replace(/^@/, '');
+          name = entry.name || '';
+        }
+        if (!handle) return;
+        // Name fallback: explicit > CIRCLES_BY_ID lookup (X handles only) > none
+        if (!name && platform === 'x') {
+          const c = CIRCLES_BY_ID[handle.toLowerCase()];
+          if (c && c.circle_name) name = c.circle_name;
+        }
+        const platLabel = platform === 'x' ? '@' + handle :
+                          platform + ':' + handle;
+        const label = name ? `${name} ${platLabel}` : platLabel;
+        const prefix = PLATFORM_URL_PREFIX[platform] || 'https://x.com/';
         meta.appendChild(el('a', {
-          href: 'https://x.com/' + h, target: '_blank', rel: 'noopener',
+          href: prefix + handle, target: '_blank', rel: 'noopener',
           class: 'author-chip consignment',
           title: T('modal_consignment_title') || '寄攤 / 委託 partner',
         }, label));

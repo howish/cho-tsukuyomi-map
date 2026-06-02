@@ -58,9 +58,15 @@ def main():
             for s in (circle.get('socials') or []):
                 h = (s.get('handle') or '').lstrip('@').lower()
                 if h: partner_handles.add(h)
-            # Phase A schema: per-booth 寄攤 / 委託 partners
-            for h in (b.get('consignment_partners') or []):
-                partner_handles.add(h.lstrip('@').lower())
+            # Phase B-small schema: per-booth 寄攤 / 委託 partners.
+            # Bare-string entries (legacy) or {platform, handle, name?} objects.
+            for entry in (b.get('consignment_partners') or []):
+                if isinstance(entry, str):
+                    partner_handles.add(entry.lstrip('@').lower())
+                elif isinstance(entry, dict) and entry.get('platform') == 'x':
+                    h = entry.get('handle') or ''
+                    if h:
+                        partner_handles.add(h.lstrip('@').lower())
 
             kept = []
             for c in (b.get('cover_urls') or []):
