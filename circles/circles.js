@@ -196,8 +196,33 @@
   }
 
   // ---- bootstrap ----
+  // B-big-1 (2026-06-02): circles now have members:[author_id] and the
+  // person-level fields (x_handle, author, socials) live on authors.
+  // Hydrate each circle with primary-member fields so the existing render
+  // code keeps working without per-line refactors.
   const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
-  allCircles = sortCircles(Object.values(CIRCLES_BY_ID));
+  const AUTHORS_BY_ID = window.AUTHORS_BY_ID || {};
+  function hydrateCircle(c) {
+    const memberIds = c.members || [];
+    const memberAuthors = memberIds.map(id => AUTHORS_BY_ID[id]).filter(Boolean);
+    const primary = memberAuthors[0] || {};
+    const seen = new Set();
+    const socials = [];
+    for (const s of (primary.socials || []).concat(c.socials || [])) {
+      const k = s && s.url ? s.url.replace(/^https?:\/\//, '').replace(/^www\./, '').toLowerCase() : '';
+      if (!k || seen.has(k)) continue;
+      seen.add(k);
+      socials.push(s);
+    }
+    return Object.assign({}, c, {
+      author: primary.name || '',
+      x_handle: primary.x_handle || '',
+      x_url: primary.x_url || '',
+      socials,
+      memberAuthors,
+    });
+  }
+  allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
   buildEventFilters();
   buildPlatformFilters();
   applyFilter();

@@ -28,6 +28,23 @@ def main():
     root = Path(__file__).parent.parent
     circles_data = json.loads((root / 'circles.json').read_text(encoding='utf-8'))
     circles_by_id = {c['id']: c for c in circles_data['circles']}
+    authors_by_id = {a['id']: a for a in circles_data.get('authors', [])}
+
+    def collect_circle_handles(circle):
+        """Return all X handles associated with a circle: every member's
+        x_handle + the circle's own socials. (B-big-1 schema, 2026-06-02)"""
+        handles = set()
+        for aid in (circle.get('members') or []):
+            a = authors_by_id.get(aid) or {}
+            h = (a.get('x_handle') or '').lstrip('@').lower()
+            if h: handles.add(h)
+            for s in (a.get('socials') or []):
+                sh = (s.get('handle') or '').lstrip('@').lower()
+                if sh: handles.add(sh)
+        for s in (circle.get('socials') or []):
+            sh = (s.get('handle') or '').lstrip('@').lower()
+            if sh: handles.add(sh)
+        return handles
 
     rows = []
     for ev_dir in sorted(root.iterdir()):
@@ -40,13 +57,13 @@ def main():
         booths = json.loads(m.group(1))
         for b in booths:
             circle = circles_by_id.get(b.get('circle_id'), {})
-            booth_handle = (circle.get('x_handle') or '').lower()
+            # Primary X handle = first member's x_handle (or legacy circle field)
+            primary_author = (authors_by_id.get((circle.get('members') or [None])[0]) or {}) if circle.get('members') else {}
+            booth_handle = (primary_author.get('x_handle') or '').lower()
             if not booth_handle: continue
-            # Accept handles in circle.socials (co-circles, permanent partners)
-            partner_handles = {booth_handle}
-            for s in (circle.get('socials') or []):
-                h = (s.get('handle') or '').lstrip('@').lower()
-                if h: partner_handles.add(h)
+            # Collect partner handles: all members' handles + circle.socials
+            partner_handles = collect_circle_handles(circle)
+            partner_handles.add(booth_handle)
             # Accept handles in booth.consignment_partners[] (Phase B-small
             # schema, per-event 寄攤 / 委託 partners — see EDITORIAL_GUIDELINES §15).
             # Entries can be either bare strings (legacy, X handle) or

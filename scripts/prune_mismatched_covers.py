@@ -37,6 +37,7 @@ def main():
     root = Path(__file__).parent.parent
     circles_data = json.loads((root / 'circles.json').read_text(encoding='utf-8'))
     circles_by_id = {c['id']: c for c in circles_data['circles']}
+    authors_by_id = {a['id']: a for a in circles_data.get('authors', [])}
 
     grand_pruned = 0
     for ev_dir in sorted(root.iterdir()):
@@ -52,9 +53,20 @@ def main():
         pruned_examples = []
         for b in booths:
             circle = circles_by_id.get(b.get('circle_id'), {})
-            booth_handle = (circle.get('x_handle') or '').lower()
+            # Primary author = first member (B-big-1 schema)
+            primary_author = (authors_by_id.get((circle.get('members') or [None])[0]) or {}) if circle.get('members') else {}
+            booth_handle = (primary_author.get('x_handle') or '').lower()
             if not booth_handle: continue
             partner_handles = {booth_handle}
+            # All members' handles + their socials
+            for aid in (circle.get('members') or []):
+                a = authors_by_id.get(aid) or {}
+                h = (a.get('x_handle') or '').lstrip('@').lower()
+                if h: partner_handles.add(h)
+                for s in (a.get('socials') or []):
+                    sh = (s.get('handle') or '').lstrip('@').lower()
+                    if sh: partner_handles.add(sh)
+            # Circle-level socials (FB page, blog, etc.)
             for s in (circle.get('socials') or []):
                 h = (s.get('handle') or '').lstrip('@').lower()
                 if h: partner_handles.add(h)

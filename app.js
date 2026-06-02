@@ -311,16 +311,35 @@
   }
   const favs = loadFavs();
 
-  // Hydrate booths with circle data from window.CIRCLES_BY_ID (circles.js).
+  // Hydrate booths with circle + author data (B-big-1 schema, 2026-06-02):
+  // circles.js exports both CIRCLES_BY_ID and AUTHORS_BY_ID. Each circle has
+  // members: [author_id]. Solo circle (most common) = 1 member. The first
+  // member is the primary author whose info fills the booth's display
+  // fields (b.author, b.x_handle, etc.); secondary members are stored in
+  // b.members for the modal to render as additional chips.
   const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
+  const AUTHORS_BY_ID = window.AUTHORS_BY_ID || {};
   const booths = (window.BOOTHS || []).slice().map(b => {
     const c = CIRCLES_BY_ID[b.circle_id] || {};
+    const memberIds = c.members || [];
+    const memberAuthors = memberIds.map(id => AUTHORS_BY_ID[id]).filter(Boolean);
+    const primaryAuthor = memberAuthors[0] || {};
+    // Combine circle-level socials + primary author socials, dedup by URL
+    const seenUrls = new Set();
+    const socials = [];
+    for (const s of (primaryAuthor.socials || []).concat(c.socials || [])) {
+      const key = (s && s.url) ? s.url.replace(/^https?:\/\//, '').replace(/^www\./, '').toLowerCase() : '';
+      if (!key || seenUrls.has(key)) continue;
+      seenUrls.add(key);
+      socials.push(s);
+    }
     return Object.assign({
       circle_name: c.circle_name || '',
-      author: c.author || '',
-      x_handle: c.x_handle || '',
-      x_url: c.x_url || '',
-      socials: c.socials || [],
+      author: primaryAuthor.name || '',
+      x_handle: primaryAuthor.x_handle || '',
+      x_url: primaryAuthor.x_url || '',
+      socials,
+      members: memberAuthors,         // full author records for the modal
     }, b);
   }).sort((a, b) => a.booth_id.localeCompare(b.booth_id));
 
@@ -576,17 +595,24 @@
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
     }
-    // Author chip — display name, clickable to x_url when present
-    if (b.author) {
-      const chipHref = b.x_url || (b.x_handle ? 'https://x.com/' + b.x_handle : null);
+    // Author chips — 1 per circle member (B-big-1 schema). Solo circle = 1
+    // chip (== legacy behaviour). Multi-author circle = multiple chips
+    // shown side by side, primary first.
+    const memberRecords = Array.isArray(b.members) && b.members.length
+      ? b.members
+      : (b.author ? [{name: b.author, x_handle: b.x_handle, x_url: b.x_url}] : []);
+    memberRecords.forEach(m => {
+      const name = m.name || '';
+      if (!name) return;
+      const chipHref = m.x_url || (m.x_handle ? 'https://x.com/' + m.x_handle : null);
       if (chipHref) {
         meta.appendChild(el('a', {
           href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
-        }, b.author));
+        }, name));
       } else {
-        meta.appendChild(el('span', { class: 'author-chip' }, b.author));
+        meta.appendChild(el('span', { class: 'author-chip' }, name));
       }
-    }
+    });
     // Build the platform chip set — dedupe by URL host+path so the same
     // link doesn't render twice (e.g. b.x_handle and a socials entry both
     // pointing to the same X profile, or two socials entries that both

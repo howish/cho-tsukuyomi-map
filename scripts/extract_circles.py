@@ -1,11 +1,24 @@
 #!/usr/bin/env python3
-"""Extract circle/author records from all event data.js into circles.json (SSOT).
+"""Extract circle + author records into circles.json (SSOT).
 
-After this, each event's data.js should be slimmed down via migrate_to_circle_ref.py.
+Phase B-big-1 (2026-06-02): circles.json has two top-level arrays:
+  - circles: [{id, circle_name, members: [author_id], socials, events}]
+  - authors: [{id, name, x_handle, x_url, socials, pixiv_url?}]
 
-ID strategy:
-- Primary: x_handle (lowercased) — stable, URL-readable
-- Fallback: 'c_' + sha1(circle_name + '|' + author)[:12]
+A circle has 1+ members. Solo circle = 1 member (most common). Multi-author
+circles list all members. Same author across multiple circles → same
+author.id in each circle's members.
+
+Author identity:
+  - Primary: x_handle (lowercased) — stable, URL-readable
+  - Fallback: 'a_' + sha1(name + '|' + circle_id)[:12]
+
+Circle identity (unchanged from earlier):
+  - Primary: x_handle (lowercased) of the first/primary member
+  - Fallback: 'c_' + sha1(circle_name + '|' + author)[:12]
+
+Idempotent: if circles.json already has both circles[] and authors[],
+preserves them across runs (only events lists are rebuilt fresh).
 """
 from __future__ import annotations
 
@@ -25,12 +38,19 @@ def load_booths(path: Path) -> list[dict]:
 
 
 def circle_id_for(b: dict) -> str:
-    """Derive a stable circle ID from a booth record."""
     h = (b.get('x_handle') or '').strip().lower()
     if h:
         return h
     key = (b.get('circle_name') or '') + '|' + (b.get('author') or '')
     return 'c_' + hashlib.sha1(key.encode('utf-8')).hexdigest()[:12]
+
+
+def author_id_for(name: str, x_handle: str, circle_id: str) -> str:
+    h = (x_handle or '').strip().lower()
+    if h:
+        return h
+    key = f'{name or ""}|{circle_id or ""}'.encode('utf-8')
+    return 'a_' + hashlib.sha1(key).hexdigest()[:12]
 
 
 def norm_url(u: str) -> str:
@@ -42,31 +62,41 @@ def norm_url(u: str) -> str:
 
 def main():
     root = Path(__file__).parent.parent
-    circles: dict[str, dict] = {}
 
-    # Pre-populate from existing circles.json — preserves circle data when
-    # event data.js is already slim (only has circle_id, no embedded fields).
-    # Events list is always rebuilt fresh below, so we wipe it on entry.
+    # Pre-load existing circles + authors from circles.json. The events list
+    # for each circle is wiped on entry (rebuilt fresh below).
+    circles: dict[str, dict] = {}
+    authors: dict[str, dict] = {}
     existing_json = root / 'circles.json'
     if existing_json.is_file():
         try:
             ed = json.loads(existing_json.read_text(encoding='utf-8'))
             for c in (ed.get('circles') or []):
-                if c.get('id'):
-                    circles[c['id']] = {
-                        'id': c['id'],
-                        'circle_name': c.get('circle_name') or '',
-                        'author': c.get('author') or '',
-                        'x_handle': c.get('x_handle') or '',
-                        'x_url': c.get('x_url') or '',
-                        'socials': list(c.get('socials') or []),
-                        'events': [],   # rebuilt from data.js below
-                        '_seen_urls': {norm_url(s.get('url', '')) for s in (c.get('socials') or []) if s.get('url')},
-                    }
-        except Exception:
-            pass
+                if not c.get('id'): continue
+                circles[c['id']] = {
+                    'id': c['id'],
+                    'circle_name': c.get('circle_name') or '',
+                    'members': list(c.get('members') or []),
+                    'socials': list(c.get('socials') or []),
+                    'events': [],
+                    '_seen_urls': {norm_url(s.get('url', '')) for s in (c.get('socials') or []) if s.get('url')},
+                }
+            for a in (ed.get('authors') or []):
+                if not a.get('id'): continue
+                authors[a['id']] = {
+                    'id': a['id'],
+                    'name': a.get('name') or '',
+                    'x_handle': a.get('x_handle') or '',
+                    'x_url': a.get('x_url') or '',
+                    'socials': list(a.get('socials') or []),
+                    '_seen_urls': {norm_url(s.get('url', '')) for s in (a.get('socials') or []) if s.get('url')},
+                }
+                if a.get('pixiv_url'):
+                    authors[a['id']]['pixiv_url'] = a['pixiv_url']
+        except Exception as e:
+            print(f'warn: pre-load failed: {e}', file=sys.stderr)
 
-    # Load events.json to map slug → display name + date (for events list)
+    # Load events.json for slug → display
     events_map = {}
     events_file = root / 'events.json'
     if events_file.is_file():
@@ -81,6 +111,7 @@ def main():
         except Exception:
             pass
 
+    # Walk all event data.js — collect circle + author + event references
     for ev_dir in sorted(root.iterdir()):
         data_js = ev_dir / 'data.js'
         if not data_js.is_file(): continue
@@ -90,15 +121,12 @@ def main():
         ev_slug = ev_dir.name
         ev_meta = events_map.get(ev_slug, {'name': ev_slug, 'date': ''})
         for b in booths:
-            # Prefer explicit circle_id (post-migration data.js); else derive
             cid = b.get('circle_id') or circle_id_for(b)
             if cid not in circles:
                 circles[cid] = {
                     'id': cid,
                     'circle_name': b.get('circle_name') or '',
-                    'author': b.get('author') or '',
-                    'x_handle': b.get('x_handle') or '',
-                    'x_url': b.get('x_url') or '',
+                    'members': [],
                     'socials': [],
                     'events': [],
                     '_seen_urls': set(),
@@ -110,60 +138,95 @@ def main():
                 'date': ev_meta['date'],
                 'booth_id': b.get('booth_id') or '',
             })
-            # Update fields if missing (don't clobber)
             if b.get('circle_name') and not c['circle_name']:
                 c['circle_name'] = b['circle_name']
-            if b.get('author') and not c['author']:
-                c['author'] = b['author']
-            if b.get('x_handle') and not c['x_handle']:
-                c['x_handle'] = b['x_handle']
-            if b.get('x_url') and not c['x_url']:
-                c['x_url'] = b['x_url']
-            # Implicit X social from x_handle
-            all_socials = list(b.get('socials') or [])
+
+            # Determine the primary author for this booth's circle.
+            # If circle.members already populated (from pre-load or earlier event),
+            # use the first member. Otherwise derive from booth fields.
+            if c['members']:
+                primary_aid = c['members'][0]
+            else:
+                primary_aid = author_id_for(
+                    b.get('author') or b.get('circle_name') or '',
+                    b.get('x_handle') or '',
+                    cid,
+                )
+                c['members'].append(primary_aid)
+
+            # Ensure author record exists
+            if primary_aid not in authors:
+                authors[primary_aid] = {
+                    'id': primary_aid,
+                    'name': b.get('author') or b.get('circle_name') or primary_aid,
+                    'x_handle': b.get('x_handle') or '',
+                    'x_url': b.get('x_url') or '',
+                    'socials': [],
+                    '_seen_urls': set(),
+                }
+            a = authors[primary_aid]
+            if b.get('author') and a['name'] == primary_aid:
+                a['name'] = b['author']
+            if b.get('x_handle') and not a['x_handle']:
+                a['x_handle'] = b['x_handle']
+            if b.get('x_url') and not a['x_url']:
+                a['x_url'] = b['x_url']
+
+            # Booth-embedded socials get accumulated onto the author (personal
+            # socials). Implicit X social from x_handle is also added.
+            booth_socials = list(b.get('socials') or [])
             if b.get('x_handle'):
-                all_socials.insert(0, {
+                booth_socials.insert(0, {
                     'platform': 'x',
                     'handle': '@' + b['x_handle'],
                     'url': 'https://x.com/' + b['x_handle'],
                 })
-            for s in all_socials:
+            for s in booth_socials:
                 if not s or not s.get('url'): continue
                 n = norm_url(s['url'])
-                if not n or n in c['_seen_urls']: continue
-                c['_seen_urls'].add(n)
-                c['socials'].append({
+                if not n or n in a['_seen_urls']: continue
+                a['_seen_urls'].add(n)
+                a['socials'].append({
                     'platform': s.get('platform') or 'generic',
                     'handle': s.get('handle') or '',
                     'url': s['url'],
                 })
 
-    # Strip internal tracking + sort events chronologically + emit
-    out = []
+    # Emit — strip internal tracking + sort events
+    circle_out = []
     for cid in sorted(circles.keys()):
         c = circles[cid]
-        del c['_seen_urls']
+        c.pop('_seen_urls', None)
         c['events'].sort(key=lambda e: e.get('date') or '')
-        out.append(c)
+        circle_out.append(c)
 
-    # SSOT: circles.json (human-edited / inspected source of truth)
+    author_out = []
+    for aid in sorted(authors.keys()):
+        a = authors[aid]
+        a.pop('_seen_urls', None)
+        author_out.append(a)
+
     target_json = root / 'circles.json'
     target_json.write_text(
-        json.dumps({'circles': out}, ensure_ascii=False, indent=2) + '\n',
+        json.dumps({'circles': circle_out, 'authors': author_out},
+                   ensure_ascii=False, indent=2) + '\n',
         encoding='utf-8',
     )
-    print(f'wrote {target_json} — {len(out)} circles')
+    print(f'wrote {target_json} — {len(circle_out)} circles, {len(author_out)} authors')
 
-    # Runtime: circles.js (script-tag loadable, sync) — id-keyed lookup
-    by_id = {c['id']: c for c in out}
+    # Runtime lookup: circles.js exports both CIRCLES_BY_ID and AUTHORS_BY_ID
+    circles_by_id = {c['id']: c for c in circle_out}
+    authors_by_id = {a['id']: a for a in author_out}
     target_js = root / 'circles.js'
     target_js.write_text(
         '/* AUTO-GENERATED by scripts/extract_circles.py — do not edit. SSOT is circles.json */\n'
         'window.CIRCLES_BY_ID = ' +
-        json.dumps(by_id, ensure_ascii=False, indent=2) + ';\n',
+        json.dumps(circles_by_id, ensure_ascii=False, indent=2) + ';\n'
+        'window.AUTHORS_BY_ID = ' +
+        json.dumps(authors_by_id, ensure_ascii=False, indent=2) + ';\n',
         encoding='utf-8',
     )
-    print(f'wrote {target_js} — {len(by_id)} entries (runtime lookup)')
+    print(f'wrote {target_js} — {len(circles_by_id)} circles + {len(authors_by_id)} authors (runtime)')
 
 
 if __name__ == '__main__':

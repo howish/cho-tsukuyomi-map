@@ -333,10 +333,59 @@ handle 無し booth (公式 SNS 未公開) は:
 - modal の chip UI: platform-specific URL prefix (`x.com/` / `threads.com/@` / `plurk.com/` etc.) でクリック → 正しい profile へ
 - 今後 寄攤 のある booth は body 内に `寄攤: @handle (作品名)` と書き、 同時に `consignment_partners` に object として追加する
 
-**未対応 (Phase B-big 候補)**:
+**未対応 (Phase B-big-2 候補)**:
 - 合本 (1冊 N作家) の contributors 表現 — まだ body text only
-- 同一作家・複数 circle 名義の cross-event link — まだ別人扱い
-- author を first-class entity として分離 (現状 circle と混同)
+- books[] 別 table の導入 (合本に N authors を first-class で関連付け)
+
+## 16. author 分離 (Phase B-big-1, 2026-06-02)
+
+**問題**: 旧 schema では 1 circle に 1 author 暗黙紐付けされ、 同一作家・複数 circle 名義や multi-author circle (e.g. 百合餓狼之盟 — 小艾＋蕗舟＋寄售) を first-class に表現できなかった。
+
+**新 schema**: `circles.json` に top-level 2 array:
+
+```json
+{
+  "circles": [
+    {"id": "kourui_07", "circle_name": "黑夜與金月", "members": ["kourui_07"], "socials": [], "events": [...]}
+  ],
+  "authors": [
+    {"id": "kourui_07", "name": "kourui", "x_handle": "kourui_07", "x_url": "...", "socials": [...]}
+  ]
+}
+```
+
+**field 分離**:
+- `circles[].members[]`: author ID 配列。 solo = 1、 multi-author = N。 順序 = primary first
+- `circles[].socials[]`: circle-level (FB page、 blog、 commerce link 等)。 solo case はほぼ空
+- `authors[].socials[]`: 個人 socials (X / pixiv / personal blog 等)、 person-level identity
+- `authors[].x_handle` / `x_url`: 個人 X 識別
+
+**ID 規約**:
+- author.id = X handle (lowercase) を主 / なければ `a_<hash>`
+- circle.id = primary member の X handle (lowercase) を主 / なければ `c_<hash>`
+- 1:1 solo case: circle.id == author.id (URL 互換性のため意図的)
+
+**runtime export** (`circles.js`):
+- `window.CIRCLES_BY_ID`: circle 全件 (含 members[])
+- `window.AUTHORS_BY_ID`: author 全件 (含 socials)
+- app.js / circles/circles.js が hydrate 時に primary member の field を booth/circle に展開、 既存 render code が透過動作
+
+**multi-author circle の追加方法**:
+```json
+"members": ["main_author_id", "guest_author_id"]
+```
+新 author を `authors[]` に追加、 circle.members に append。 mechanical migration では識別困難な case (e.g., 百合餓狼之盟 / S-37/38 小花 / U-21/22 日初翱祥 等) は順次 manual update。
+
+**audit / prune の挙動**:
+- `audit_cover_author_match.py` + `prune_mismatched_covers.py` は circle.members を全 iterate、 各 author.x_handle + author.socials の handle を partner_handles として収集
+- + circle.socials (circle-level)
+- + booth.consignment_partners (Phase B-small)
+
+**migration script**: `scripts/migrate_to_authors_split.py` (one-time、 2026-06-02 実行済)。 以後 `extract_circles.py` が canonical extractor、 認識済 circle.members を respect しつつ event lists を re-build。
+
+**未対応 (Phase B-big-2)**:
+- books[] 別 table → 合本 contributors の first-class 表現
+- 同一作家・複数 circle 名義の merge は author.id 共有で表現可能、 ただし mechanical 検出には NLP / 手動 review 必要
 
 ---
 

@@ -59,7 +59,11 @@ def check_event_data(path: Path) -> list[tuple[str, str, str, list[str]]]:
 
 
 def check_circles_json(path: Path) -> list[tuple[str, str, str, list[str]]]:
-    """Check circles.json (post-normalization)."""
+    """Check circles.json (post-normalization).
+
+    B-big-1 (2026-06-02): URLs now live on authors[] (personal socials)
+    rather than circles[] (circle-level only). Walk both arrays.
+    """
     d = json.loads(path.read_text(encoding='utf-8'))
     out = []
     for c in (d.get('circles') or []):
@@ -70,7 +74,16 @@ def check_circles_json(path: Path) -> list[tuple[str, str, str, list[str]]]:
         for s in (c.get('socials') or []):
             if s and s.get('url'):
                 v = violations_in(s['url'])
-                if v: out.append((cid, f"socials[{s.get('platform','?')}].url", s['url'], v))
+                if v: out.append((cid, f"circle.socials[{s.get('platform','?')}].url", s['url'], v))
+    for a in (d.get('authors') or []):
+        aid = a.get('id') or '?'
+        if a.get('x_url'):
+            v = violations_in(a['x_url'])
+            if v: out.append((aid, 'author.x_url', a['x_url'], v))
+        for s in (a.get('socials') or []):
+            if s and s.get('url'):
+                v = violations_in(s['url'])
+                if v: out.append((aid, f"author.socials[{s.get('platform','?')}].url", s['url'], v))
     return out
 
 
