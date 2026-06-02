@@ -1412,19 +1412,28 @@ section {
 #modal-body .modal-meta a.social-chip-pixiv { background: #e6f0ff; color: #0096fa; }
 
 /* Consignment partner chip (寄攤 / 委託) — visually de-emphasised so the
-   primary author chip stays dominant. Outline + light bg + smaller text. */
+   primary author chip stays dominant. Differentiation via style alone:
+   - dashed outline (no fill bg) — primary has solid fill
+   - smaller font + tighter padding — secondary status
+   - lighter font weight
+   - square-rounded corners (4px) vs primary's pill (12px) — shape diff
+   - opacity 0.85 — slight visual recede
+   Hover snaps to primary-style (filled, sharper) so click intent is clear. */
 #modal-body .modal-meta a.author-chip.consignment {
   background: transparent;
   border: 1px dashed var(--accent);
+  border-radius: 4px;
   color: var(--accent);
   font-weight: 500;
   font-size: 0.78rem;
-  padding: 0.15rem 0.5rem;
+  padding: 0.12rem 0.45rem;
+  opacity: 0.85;
 }
 #modal-body .modal-meta a.author-chip.consignment:hover {
   background: var(--accent);
   color: #fff;
   border-style: solid;
+  opacity: 1;
 }
 #modal-body .modal-meta a.social-chip-bsky { background: #e6f0ff; color: #0085ff; }
 #modal-body .modal-meta a.social-chip-fb { background: #e7f0ff; color: #1877f2; }

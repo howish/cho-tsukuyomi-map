@@ -625,21 +625,20 @@
         addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
       });
     }
-    // Phase A (2026-06-02): 寄攤 / 委託 partners — visual diff from primary
-    // author chip via .author-chip.consignment class. Name resolved from
-    // CIRCLES_BY_ID if the partner handle is itself a registered circle;
-    // otherwise just shows @handle.
+    // Phase A (2026-06-02): 寄攤 / 委託 partners — chip styling alone
+    // differentiates from primary author (dashed outline, lighter weight,
+    // smaller). No emoji prefix to avoid crowding next to platform icons.
     if (Array.isArray(b.consignment_partners) && b.consignment_partners.length) {
       b.consignment_partners.forEach(handle => {
         const h = String(handle).replace(/^@/, '');
         const partnerCircle = CIRCLES_BY_ID[h.toLowerCase()];
         const label = partnerCircle && partnerCircle.circle_name
-          ? `🤝 ${partnerCircle.circle_name} @${h}`
-          : `🤝 @${h}`;
+          ? `${partnerCircle.circle_name} @${h}`
+          : `@${h}`;
         meta.appendChild(el('a', {
           href: 'https://x.com/' + h, target: '_blank', rel: 'noopener',
           class: 'author-chip consignment',
-          title: T('modal_consignment_title') || '寄攤 partner',
+          title: T('modal_consignment_title') || '寄攤 / 委託 partner',
         }, label));
       });
     }
