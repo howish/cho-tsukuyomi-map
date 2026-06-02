@@ -110,24 +110,26 @@
 /* ---- Card ---- */
 
 .author-card {
-  background: rgba(40, 30, 55, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #fbf7f4;
+  color: #2a1e3a;
+  border: 1px solid #d8c8e0;
   border-radius: 12px;
   padding: 14px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   transition: border-color 0.15s;
 }
 
 .author-card.has-decision {
-  border-color: #6cb47b;
-  background: rgba(40, 60, 45, 0.45);
+  border-color: #4a9d63;
+  background: #e8f5ed;
 }
 
 .author-card.skip-decision {
-  border-color: #8b8b8b;
-  background: rgba(45, 45, 50, 0.45);
+  border-color: #999;
+  background: #ededef;
 }
 
 /* Head: circle/author name big, meta small */
@@ -140,21 +142,21 @@
 .card-circle-line {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #2a1e3a;
   line-height: 1.3;
   word-break: break-all;
 }
 
 .card-circle-link {
-  color: #f0e4ff;
+  color: #4a3a5c;
   text-decoration: none;
-  border-bottom: 1px dotted rgba(180, 150, 220, 0.4);
+  border-bottom: 1px dotted #8b6cb4;
 }
 .card-circle-link:hover { border-bottom-style: solid; }
 
 .card-circle-events {
   font-size: 11px;
-  color: #9b7eb8;
+  color: #7a6a8c;
   font-weight: 400;
   margin-left: 6px;
 }
@@ -165,7 +167,7 @@
   align-items: center;
   gap: 6px;
   font-size: 12px;
-  color: #c4a8d8;
+  color: #4a3a5c;
 }
 
 .card-current-label {
@@ -174,32 +176,34 @@
 
 .card-current-name {
   font-weight: 600;
-  color: #e0d4f0;
+  color: #2a1e3a;
 }
 
 .card-current-name.confirmed {
-  color: #6cb47b;
+  color: #2a7a44;
 }
 
 .card-source-tag {
   font-size: 10px;
-  padding: 2px 6px;
+  padding: 2px 8px;
   border-radius: 8px;
-  background: rgba(120, 90, 160, 0.4);
-  color: #d4b8e8;
+  background: #ede4f5;
+  color: #6c4a9d;
   text-transform: lowercase;
+  border: 1px solid #d8c8e0;
 }
 
 .card-source-tag.inferred {
-  background: rgba(180, 140, 80, 0.3);
-  color: #f0d0a0;
+  background: #fff3d8;
+  color: #8b6d24;
+  border-color: #d8c8a0;
 }
 
 .card-author-id {
   margin-left: auto;
   font-family: ui-monospace, monospace;
-  font-size: 9px;
-  color: #5a4a6c;
+  font-size: 10px;
+  color: #a094b0;
 }
 
 /* Probe links — chips */
@@ -213,31 +217,32 @@
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 14px;
-  background: rgba(70, 50, 100, 0.5);
-  color: #d4b8e8;
+  background: #ede4f5;
+  color: #4a3a5c;
   text-decoration: none;
-  border: 1px solid rgba(180, 150, 220, 0.15);
+  border: 1px solid #c8b8d8;
   -webkit-tap-highlight-color: transparent;
   white-space: nowrap;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 500;
 }
 .card-probe-link:hover, .card-probe-link:active {
-  background: rgba(110, 75, 160, 0.75);
+  background: #8b6cb4;
   color: #fff;
-  border-color: rgba(200, 170, 240, 0.4);
+  border-color: #6c4a9d;
 }
 
 /* Yachiyo note — small but readable hint */
 .card-yachiyo-note {
   font-size: 12px;
-  color: #b8e0b0;
-  background: rgba(30, 50, 35, 0.35);
-  padding: 6px 10px;
+  color: #2a5a34;
+  background: #e8f5ed;
+  padding: 8px 12px;
   border-radius: 8px;
-  border-left: 3px solid #6cb47b;
-  line-height: 1.4;
+  border-left: 3px solid #4a9d63;
+  line-height: 1.45;
 }
 
 /* ---- Decision form ---- */
@@ -247,7 +252,7 @@
   flex-direction: column;
   gap: 8px;
   padding-top: 8px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid #e0d4ec;
 }
 
 .card-form-row {
@@ -258,27 +263,28 @@
 
 .card-form input[type="text"] {
   flex: 1 1 auto;
-  background: rgba(20, 15, 30, 0.7);
-  border: 1px solid rgba(180, 150, 220, 0.25);
-  color: #fff;
+  background: #fff;
+  border: 1px solid #b8a8c8;
+  color: #2a1e3a;
   padding: 10px 12px;
   border-radius: 8px;
   font-size: 14px;
   min-width: 0;
+  font-weight: 500;
 }
 
 .card-form input[type="text"]:focus {
   outline: none;
   border-color: #8b6cb4;
-  background: rgba(30, 20, 45, 0.8);
+  box-shadow: 0 0 0 3px rgba(139, 108, 180, 0.15);
 }
 
 .card-form select {
   flex: 0 0 auto;
-  background: rgba(20, 15, 30, 0.7);
-  border: 1px solid rgba(180, 150, 220, 0.2);
-  color: #e0d4f0;
-  padding: 8px 10px;
+  background: #fff;
+  border: 1px solid #b8a8c8;
+  color: #4a3a5c;
+  padding: 9px 10px;
   border-radius: 8px;
   font-size: 13px;
   max-width: 100%;
@@ -295,23 +301,24 @@
   color: #fff;
   padding: 10px 14px;
   border-radius: 8px;
-  font-size: 13px;
+  font-size: 14px;
   cursor: pointer;
   font-weight: 600;
   -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .card-form button.confirm-btn {
-  background: #6cb47b;
+  background: #4a9d63;
 }
-.card-form button.confirm-btn:hover, .card-form button.confirm-btn:active { background: #7fc88e; }
+.card-form button.confirm-btn:hover, .card-form button.confirm-btn:active { background: #3d8a54; }
 
 .card-form button.skip-btn {
-  background: rgba(140, 140, 140, 0.6);
+  background: #8b8b8b;
   flex: 0 0 auto;
-  padding: 10px 16px;
+  padding: 10px 18px;
 }
-.card-form button.skip-btn:hover, .card-form button.skip-btn:active { background: rgba(160, 160, 160, 0.8); }
+.card-form button.skip-btn:hover, .card-form button.skip-btn:active { background: #707070; }
 
 /* Existing decision badge */
 .card-form-decision {
@@ -319,27 +326,31 @@
   align-items: center;
   gap: 10px;
   padding: 10px 12px;
-  background: rgba(60, 100, 70, 0.35);
+  background: #d8efdc;
+  border: 1px solid #4a9d63;
   border-radius: 8px;
   font-size: 13px;
-  color: #c8e8c0;
+  color: #1a5a2c;
+  font-weight: 500;
 }
 
 .card-form-decision .decision-text {
   flex: 1 1 auto;
+  word-break: break-all;
 }
 
 .card-form-decision .remove-btn {
   flex: 0 0 auto;
-  background: rgba(180, 100, 100, 0.6);
+  background: #c85858;
   border: none;
   color: #fff;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 6px;
   font-size: 12px;
+  font-weight: 600;
   cursor: pointer;
 }
-.card-form-decision .remove-btn:hover { background: rgba(200, 120, 120, 0.8); }
+.card-form-decision .remove-btn:hover { background: #b04040; }
 
 /* ---- Pending panel ---- */
 
