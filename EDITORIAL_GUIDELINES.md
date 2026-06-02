@@ -359,6 +359,46 @@ handle 無し booth (公式 SNS 未公開) は:
 - `circles[].socials[]`: circle-level (FB page、 blog、 commerce link 等)。 solo case はほぼ空
 - `authors[].socials[]`: 個人 socials (X / pixiv / personal blog 等)、 person-level identity
 - `authors[].x_handle` / `x_url`: 個人 X 識別
+- `authors[].name` / `name_inferred` / `name_source`: **4-state schema** (下記 §16.1)
+
+### 16.1 author.name の 4 状態 (2026-06-02)
+
+「circle 名と作家名が同じか分からない」 が頻繁に起きる。 default で circle 名を author name に流し込むと、 後から本当の名前判明した時 「これ確認済? 推測?」 区別不能になり incremental update が chaos 化。
+
+**4 状態 schema**:
+```json
+{
+  "id": "ウサホリ_id",
+  "name": "",                       // 確定情報 (user 入力済)
+  "name_inferred": "ウサホリ",       // 推測値 (= circle 名 or x_handle、 display fallback)
+  "name_source": "circle_name"     // "user" | "circle_name" | "x_handle" | ""
+}
+```
+
+| 状態 | name | name_inferred | name_source | 意味 |
+|---|---|---|---|---|
+| **ない** | (entry 非存在) | — | — | author 概念が circle に無い (rare) |
+| **まだ知らない** | `""` | `""` | `""` | author 存在は確実、 名前未特定 |
+| **推測した** | `""` | 何か | `"circle_name"` / `"x_handle"` | 推測値あり、 未確認 |
+| **確定** | 何か | `""` (移動済) | `"user"` | 確認済 |
+
+**display fallback** (UI):
+```
+name || name_inferred || circle_name || id
+```
+→ user は何かしらの名前を見るが、 開発者は schema 上で「これ確認済 vs 推測」 を区別できる
+
+**migration** (`2026-06-02 実行済`):
+- 元 `c.author` が set されてた 67 case → `name=<value>, name_inferred="", name_source="user"`
+- 元 `c.author` が空 (default で circle_name に流し込まれてた) 567 case → `name="", name_inferred=<circle_name>, name_source="circle_name"`
+- ghost contributors (books から、 circle 無し) 28 case → 既存 name そのまま
+
+**今後の運用**:
+- 新 author 追加時、 確実な名前は `name` に、 推測は `name_inferred` に
+- 名前判明したら `name_inferred` → `name` に格上げ (rule of thumb: source = "user" に変更も)
+- 自動 derivation (extract_circles.py) は default で `name=""` 維持 — 安易に「埋めた」 感を出さない
+
+**派生 query**: `name == "" && name_source == "circle_name"` で 「要確認 author」 一覧抽出可能。 将来 audit script に「未確認率」 metric 追加候補。
 
 **ID 規約**:
 - author.id = X handle (lowercase) を主 / なければ `a_<hash>`

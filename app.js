@@ -333,9 +333,15 @@
       seenUrls.add(key);
       socials.push(s);
     }
+    // 4-state name resolution: confirmed > inferred > circle_name > id.
+    // primaryAuthor.name === confirmed; .name_inferred === guess (often
+    // equals circle_name when the author is the brand).
+    const displayAuthor = primaryAuthor.name
+      || primaryAuthor.name_inferred
+      || '';
     return Object.assign({
       circle_name: c.circle_name || '',
-      author: primaryAuthor.name || '',
+      author: displayAuthor,
       x_handle: primaryAuthor.x_handle || '',
       x_url: primaryAuthor.x_url || '',
       socials,
@@ -597,12 +603,13 @@
     }
     // Author chips — 1 per circle member (B-big-1 schema). Solo circle = 1
     // chip (== legacy behaviour). Multi-author circle = multiple chips
-    // shown side by side, primary first.
+    // shown side by side, primary first. 4-state name resolution applies
+    // (confirmed > inferred); display nothing if neither is set.
     const memberRecords = Array.isArray(b.members) && b.members.length
       ? b.members
       : (b.author ? [{name: b.author, x_handle: b.x_handle, x_url: b.x_url}] : []);
     memberRecords.forEach(m => {
-      const name = m.name || '';
+      const name = m.name || m.name_inferred || '';
       if (!name) return;
       const chipHref = m.x_url || (m.x_handle ? 'https://x.com/' + m.x_handle : null);
       if (chipHref) {
@@ -761,7 +768,7 @@
           bk.contributors.forEach(aid => {
             const a = AUTHORS_BY_ID2[aid];
             if (!a) return;
-            const name = a.name || aid;
+            const name = a.name || a.name_inferred || aid;
             if (a.x_url) {
               ulist.appendChild(el('a', {
                 href: a.x_url, target: '_blank', rel: 'noopener',

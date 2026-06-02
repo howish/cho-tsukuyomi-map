@@ -89,6 +89,8 @@ def main():
                 authors[a['id']] = {
                     'id': a['id'],
                     'name': a.get('name') or '',
+                    'name_inferred': a.get('name_inferred') or '',
+                    'name_source': a.get('name_source') or '',
                     'x_handle': a.get('x_handle') or '',
                     'x_url': a.get('x_url') or '',
                     'socials': list(a.get('socials') or []),
@@ -157,19 +159,38 @@ def main():
                 )
                 c['members'].append(primary_aid)
 
-            # Ensure author record exists
+            # Ensure author record exists (4-state schema, 2026-06-02):
+            #   name:           confirmed name (empty if not yet known)
+            #   name_inferred:  best guess (circle_name / x_handle), display fallback
+            #   name_source:    "user" | "circle_name" | "x_handle" | ""
+            # If new derivation lacks an explicit b['author'], leave name=""
+            # and store the circle_name guess in name_inferred. Future runs
+            # don't overwrite an explicit user-set name.
             if primary_aid not in authors:
+                if b.get('author'):
+                    name = b['author']; inferred = ''; source = 'user'
+                elif b.get('circle_name'):
+                    name = ''; inferred = b['circle_name']; source = 'circle_name'
+                elif b.get('x_handle'):
+                    name = ''; inferred = b['x_handle']; source = 'x_handle'
+                else:
+                    name = ''; inferred = primary_aid; source = 'x_handle'
                 authors[primary_aid] = {
                     'id': primary_aid,
-                    'name': b.get('author') or b.get('circle_name') or primary_aid,
+                    'name': name,
+                    'name_inferred': inferred,
+                    'name_source': source,
                     'x_handle': b.get('x_handle') or '',
                     'x_url': b.get('x_url') or '',
                     'socials': [],
                     '_seen_urls': set(),
                 }
             a = authors[primary_aid]
-            if b.get('author') and a['name'] == primary_aid:
+            # Promote inferred → confirmed if a later booth has explicit author
+            if b.get('author') and not a.get('name'):
                 a['name'] = b['author']
+                a['name_inferred'] = ''
+                a['name_source'] = 'user'
             if b.get('x_handle') and not a['x_handle']:
                 a['x_handle'] = b['x_handle']
             if b.get('x_url') and not a['x_url']:

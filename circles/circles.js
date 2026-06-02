@@ -214,8 +214,9 @@
       seen.add(k);
       socials.push(s);
     }
+    // 4-state name fallback: confirmed > inferred (often == circle name)
     return Object.assign({}, c, {
-      author: primary.name || '',
+      author: primary.name || primary.name_inferred || '',
       x_handle: primary.x_handle || '',
       x_url: primary.x_url || '',
       socials,

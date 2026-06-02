@@ -10156,7 +10156,9 @@
   "authors": [
     {
       "id": "1r0hasu",
-      "name": "ウサホリ",
+      "name": "",
+      "name_inferred": "ウサホリ",
+      "name_source": "circle_name",
       "x_handle": "1R0HASU",
       "x_url": "https://x.com/1R0HASU",
       "socials": [
@@ -10170,6 +10172,8 @@
     {
       "id": "2015chaosgroup",
       "name": "上村なびあ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "2015chaosgroup",
       "x_url": "https://x.com/2015chaosgroup",
       "socials": [
@@ -10183,6 +10187,8 @@
     {
       "id": "2konose",
       "name": "つこのせ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "2konose",
       "x_url": "https://x.com/2konose",
       "socials": [
@@ -10195,7 +10201,9 @@
     },
     {
       "id": "a_00063d801927",
-      "name": "我要看警察組Sexy★Guilty啊",
+      "name": "",
+      "name_inferred": "我要看警察組Sexy★Guilty啊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/CATGIRL0926",
       "socials": [
@@ -10208,7 +10216,9 @@
     },
     {
       "id": "a_009c8ae8451c",
-      "name": "魷刃有魚",
+      "name": "",
+      "name_inferred": "魷刃有魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/u/kuriimuda",
       "socials": [
@@ -10221,7 +10231,9 @@
     },
     {
       "id": "a_00b40e85103e",
-      "name": "日照不足",
+      "name": "",
+      "name_inferred": "日照不足",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/inabatok",
       "socials": [
@@ -10234,7 +10246,9 @@
     },
     {
       "id": "a_00e946001035",
-      "name": "麻玖叮",
+      "name": "",
+      "name_inferred": "麻玖叮",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/maruoo0121/",
       "socials": [
@@ -10247,7 +10261,9 @@
     },
     {
       "id": "a_015fc3c18a92",
-      "name": "喬公異旅 with shrimp emotions",
+      "name": "",
+      "name_inferred": "喬公異旅 with shrimp emotions",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/hallucinogens",
       "socials": [
@@ -10260,7 +10276,9 @@
     },
     {
       "id": "a_01f8bd8a76e5",
-      "name": "BiBiRoM",
+      "name": "",
+      "name_inferred": "BiBiRoM",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/bibirooom/",
       "socials": [
@@ -10273,7 +10291,9 @@
     },
     {
       "id": "a_021a3e9f6f9e",
-      "name": "飛行熊咪貓商會",
+      "name": "",
+      "name_inferred": "飛行熊咪貓商會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
       "socials": [
@@ -10287,13 +10307,17 @@
     {
       "id": "a_0264692abaa1",
       "name": "Claris",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_02e35dbc3f96",
-      "name": "活派 對",
+      "name": "",
+      "name_inferred": "活派 對",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/kumalongrule34",
       "socials": [
@@ -10307,13 +10331,17 @@
     {
       "id": "a_0338cbf86c74",
       "name": "夜夢ND",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_034f8555900e",
-      "name": "大腦空談論",
+      "name": "",
+      "name_inferred": "大腦空談論",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/mlo_8828",
       "socials": [
@@ -10326,7 +10354,9 @@
     },
     {
       "id": "a_036a7bcf0121",
-      "name": "Blamon布來蒙",
+      "name": "",
+      "name_inferred": "Blamon布來蒙",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/blamonho/",
       "socials": [
@@ -10339,7 +10369,9 @@
     },
     {
       "id": "a_059da7a6ca4a",
-      "name": "山山來馳",
+      "name": "",
+      "name_inferred": "山山來馳",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/shanshanrun/",
       "socials": [
@@ -10352,7 +10384,9 @@
     },
     {
       "id": "a_065e39305d61",
-      "name": "水獺世界",
+      "name": "",
+      "name_inferred": "水獺世界",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/sonehareko/",
       "socials": [
@@ -10365,7 +10399,9 @@
     },
     {
       "id": "a_07121c45313d",
-      "name": "給孩紙穿上衣服帽子",
+      "name": "",
+      "name_inferred": "給孩紙穿上衣服帽子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@xuan___0719",
       "socials": [
@@ -10378,7 +10414,9 @@
     },
     {
       "id": "a_085a06367a00",
-      "name": "歐耶歐耶天素羅",
+      "name": "",
+      "name_inferred": "歐耶歐耶天素羅",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/sakuracoffee",
       "socials": [
@@ -10391,7 +10429,9 @@
     },
     {
       "id": "a_087de213c406",
-      "name": "詠櫻堂",
+      "name": "",
+      "name_inferred": "詠櫻堂",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/cherryblossomfactory",
       "socials": [
@@ -10405,13 +10445,17 @@
     {
       "id": "a_08bbd4172407",
       "name": "八重洲",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_092280c25bda",
-      "name": "工坊·夏至千里",
+      "name": "",
+      "name_inferred": "工坊·夏至千里",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
       "socials": [
@@ -10424,7 +10468,9 @@
     },
     {
       "id": "a_092f9b1e58ba",
-      "name": "華役少爺",
+      "name": "",
+      "name_inferred": "華役少爺",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/tsaox",
       "socials": [
@@ -10437,7 +10483,9 @@
     },
     {
       "id": "a_09a071a91e62",
-      "name": "煞氣",
+      "name": "",
+      "name_inferred": "煞氣",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://babygollgo.pixnet.net/blog",
       "socials": [
@@ -10450,7 +10498,9 @@
     },
     {
       "id": "a_0a0f139cdc24",
-      "name": "穿毛衣的狗",
+      "name": "",
+      "name_inferred": "穿毛衣的狗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/bearjiajia625/",
       "socials": [
@@ -10463,7 +10513,9 @@
     },
     {
       "id": "a_0a22a919959c",
-      "name": "利利皆心土",
+      "name": "",
+      "name_inferred": "利利皆心土",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/Mi_key",
       "socials": [
@@ -10476,7 +10528,9 @@
     },
     {
       "id": "a_0a7f5fd5868f",
-      "name": "壊孤児",
+      "name": "",
+      "name_inferred": "壊孤児",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/na.zhi.lu/",
       "socials": [
@@ -10489,7 +10543,9 @@
     },
     {
       "id": "a_0b651a77658f",
-      "name": "墨扉文化",
+      "name": "",
+      "name_inferred": "墨扉文化",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://morefate.com/",
       "socials": [
@@ -10502,7 +10558,9 @@
     },
     {
       "id": "a_0c4800b01a54",
-      "name": "肝硬化企業-小心肝印畫部門",
+      "name": "",
+      "name_inferred": "肝硬化企業-小心肝印畫部門",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/kure_kyouu",
       "socials": [
@@ -10516,13 +10574,17 @@
     {
       "id": "a_0d0547eb579c",
       "name": "蕗舟",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_0d1a6db8effb",
-      "name": "Candy Box",
+      "name": "",
+      "name_inferred": "Candy Box",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/miyakocat",
       "socials": [
@@ -10535,7 +10597,9 @@
     },
     {
       "id": "a_0d1b5562b0bd",
-      "name": "分岔分岔",
+      "name": "",
+      "name_inferred": "分岔分岔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/somepaet/",
       "socials": [
@@ -10548,7 +10612,9 @@
     },
     {
       "id": "a_0eaa6aeccec1",
-      "name": "泡芙兔兔的工作室",
+      "name": "",
+      "name_inferred": "泡芙兔兔的工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "facebook.com/puffbunny.oo.p",
       "socials": [
@@ -10562,13 +10628,17 @@
     {
       "id": "a_0eaceba7eef3",
       "name": "剎翼",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_0ebcfa1490cb",
-      "name": "百元肉肉",
+      "name": "",
+      "name_inferred": "百元肉肉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.pixiv.net/users/612797",
       "socials": [
@@ -10581,7 +10651,9 @@
     },
     {
       "id": "a_0f0153a7bddd",
-      "name": "小白熊",
+      "name": "",
+      "name_inferred": "小白熊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/whitericebear",
       "socials": [
@@ -10594,7 +10666,9 @@
     },
     {
       "id": "a_0f19b15304ed",
-      "name": "7Hrs雜貨店",
+      "name": "",
+      "name_inferred": "7Hrs雜貨店",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/small_lauchui_p/",
       "socials": [
@@ -10608,6 +10682,8 @@
     {
       "id": "a_0fab6ac5e3d6",
       "name": "王家豪",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "https://www.facebook.com/MrFBA2/",
       "socials": [
@@ -10620,7 +10696,9 @@
     },
     {
       "id": "a_0fc99326d4b3",
-      "name": "KARAS押形",
+      "name": "",
+      "name_inferred": "KARAS押形",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/KARASoshigata",
       "socials": [
@@ -10633,7 +10711,9 @@
     },
     {
       "id": "a_11d305b05f50",
-      "name": "信作坊",
+      "name": "",
+      "name_inferred": "信作坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/shinstudio.tc/",
       "socials": [
@@ -10646,7 +10726,9 @@
     },
     {
       "id": "a_11e8ffa41463",
-      "name": "僧多粥少",
+      "name": "",
+      "name_inferred": "僧多粥少",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/giwa10310425",
       "socials": [
@@ -10659,7 +10741,9 @@
     },
     {
       "id": "a_11f03afce7aa",
-      "name": "葫蘆夏天hwulusummer",
+      "name": "",
+      "name_inferred": "葫蘆夏天hwulusummer",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://hwulu.com/",
       "socials": [
@@ -10672,7 +10756,9 @@
     },
     {
       "id": "a_12315880a20e",
-      "name": "樹手無策",
+      "name": "",
+      "name_inferred": "樹手無策",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/natsuki6795/",
       "socials": [
@@ -10685,7 +10771,9 @@
     },
     {
       "id": "a_1252e053b395",
-      "name": "ゴ電参デ",
+      "name": "",
+      "name_inferred": "ゴ電参デ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ben_artbb/",
       "socials": [
@@ -10698,7 +10786,9 @@
     },
     {
       "id": "a_13c45bd50b0d",
-      "name": "士雷 shirai",
+      "name": "",
+      "name_inferred": "士雷 shirai",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/100072024726/",
       "socials": [
@@ -10711,7 +10801,9 @@
     },
     {
       "id": "a_14832f905e98",
-      "name": "SUB and WU",
+      "name": "",
+      "name_inferred": "SUB and WU",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/wu_pei_shin/",
       "socials": [
@@ -10724,7 +10816,9 @@
     },
     {
       "id": "a_16141ba45c80",
-      "name": "夜貓館咖啡屋",
+      "name": "",
+      "name_inferred": "夜貓館咖啡屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yamyoukan/",
       "socials": [
@@ -10737,7 +10831,9 @@
     },
     {
       "id": "a_16596945aec7",
-      "name": "SZKOBO袖子工作坊",
+      "name": "",
+      "name_inferred": "SZKOBO袖子工作坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/szkobo.new/",
       "socials": [
@@ -10750,7 +10846,9 @@
     },
     {
       "id": "a_16ca842c2ace",
-      "name": "栗子牛奶",
+      "name": "",
+      "name_inferred": "栗子牛奶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr",
       "socials": [
@@ -10763,7 +10861,9 @@
     },
     {
       "id": "a_18475ef22237",
-      "name": "冷坑人生",
+      "name": "",
+      "name_inferred": "冷坑人生",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
       "socials": [
@@ -10776,7 +10876,9 @@
     },
     {
       "id": "a_185e3bfd0511",
-      "name": "宇宙觀察小隊",
+      "name": "",
+      "name_inferred": "宇宙觀察小隊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/alientomato_inearth/",
       "socials": [
@@ -10789,7 +10891,9 @@
     },
     {
       "id": "a_18d6b35ee2e8",
-      "name": "ninjin_tabenai",
+      "name": "",
+      "name_inferred": "ninjin_tabenai",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ninjin_tabenai/",
       "socials": [
@@ -10802,7 +10906,9 @@
     },
     {
       "id": "a_18df038a6549",
-      "name": "櫻兔子的板男線",
+      "name": "",
+      "name_inferred": "櫻兔子的板男線",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/SRboss",
       "socials": [
@@ -10815,7 +10921,9 @@
     },
     {
       "id": "a_18e355829ccc",
-      "name": "未來群像",
+      "name": "",
+      "name_inferred": "未來群像",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/FutureImagesTW",
       "socials": [
@@ -10828,7 +10936,9 @@
     },
     {
       "id": "a_19057cce238f",
-      "name": "要樂奈不要已讀我",
+      "name": "",
+      "name_inferred": "要樂奈不要已讀我",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
       "socials": [
@@ -10851,7 +10961,9 @@
     },
     {
       "id": "a_192a2081fb29",
-      "name": "貓球砲彈",
+      "name": "",
+      "name_inferred": "貓球砲彈",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@ninanon_15",
       "socials": [
@@ -10864,7 +10976,9 @@
     },
     {
       "id": "a_1948bd8260ce",
-      "name": "childeyes",
+      "name": "",
+      "name_inferred": "childeyes",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/PropellerWalker",
       "socials": [
@@ -10877,7 +10991,9 @@
     },
     {
       "id": "a_194d58819f16",
-      "name": "于笙是條魚",
+      "name": "",
+      "name_inferred": "于笙是條魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/100810w/",
       "socials": [
@@ -10890,7 +11006,9 @@
     },
     {
       "id": "a_195e1ebf478c",
-      "name": "多多",
+      "name": "",
+      "name_inferred": "多多",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/yeijijia",
       "socials": [
@@ -10918,7 +11036,9 @@
     },
     {
       "id": "a_1abca6525a56",
-      "name": "桃京武戯夜",
+      "name": "",
+      "name_inferred": "桃京武戯夜",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://twitter.com/takapiyo",
       "socials": [
@@ -10932,13 +11052,17 @@
     {
       "id": "a_1acd3de5d4e6",
       "name": "暮春",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_1b7f3d6874bb",
-      "name": "奇異鳥巡迴演唱會",
+      "name": "",
+      "name_inferred": "奇異鳥巡迴演唱會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/lian4302",
       "socials": [
@@ -10951,7 +11075,9 @@
     },
     {
       "id": "a_1bb161542fe4",
-      "name": "Crazy Country",
+      "name": "",
+      "name_inferred": "Crazy Country",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/eecircle",
       "socials": [
@@ -10964,7 +11090,9 @@
     },
     {
       "id": "a_1bca87ba04af",
-      "name": "輝夜AI追夢椅",
+      "name": "",
+      "name_inferred": "輝夜AI追夢椅",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/juatpass",
       "socials": [
@@ -10977,7 +11105,9 @@
     },
     {
       "id": "a_1c2679b96f7f",
-      "name": "月見草",
+      "name": "",
+      "name_inferred": "月見草",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://seemoon.biz/",
       "socials": [
@@ -10990,7 +11120,9 @@
     },
     {
       "id": "a_1c428f7ee706",
-      "name": "INSIDE LAB",
+      "name": "",
+      "name_inferred": "INSIDE LAB",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ToMato182",
       "socials": [
@@ -11003,7 +11135,9 @@
     },
     {
       "id": "a_1caef309d90b",
-      "name": "金平糖Starcandy_sheep",
+      "name": "",
+      "name_inferred": "金平糖Starcandy_sheep",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/starcandy_sheep/",
       "socials": [
@@ -11016,7 +11150,9 @@
     },
     {
       "id": "a_1df8ec744919",
-      "name": "亂中有序",
+      "name": "",
+      "name_inferred": "亂中有序",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/LJYS.doujin",
       "socials": [
@@ -11029,7 +11165,9 @@
     },
     {
       "id": "a_1dfeaf87eb0d",
-      "name": "食蟻獸的螞蟻窩",
+      "name": "",
+      "name_inferred": "食蟻獸的螞蟻窩",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/enokimitsuki",
       "socials": [
@@ -11042,7 +11180,9 @@
     },
     {
       "id": "a_1e74bb0ed287",
-      "name": "銀髮少年",
+      "name": "",
+      "name_inferred": "銀髮少年",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/slivershonenwuwu/",
       "socials": [
@@ -11055,7 +11195,9 @@
     },
     {
       "id": "a_1ec284ade279",
-      "name": "漂流中的無",
+      "name": "",
+      "name_inferred": "漂流中的無",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/lya_0328/",
       "socials": [
@@ -11068,7 +11210,9 @@
     },
     {
       "id": "a_1ef1cba002cb",
-      "name": "VSPOT",
+      "name": "",
+      "name_inferred": "VSPOT",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/vspot.tw/",
       "socials": [
@@ -11081,7 +11225,9 @@
     },
     {
       "id": "a_1f3489113493",
-      "name": "做我的蠢糗大萌",
+      "name": "",
+      "name_inferred": "做我的蠢糗大萌",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/marikuforever/",
       "socials": [
@@ -11094,7 +11240,9 @@
     },
     {
       "id": "a_20617e479e57",
-      "name": "阿靡緹柚潔",
+      "name": "",
+      "name_inferred": "阿靡緹柚潔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/loveliver0827",
       "socials": [
@@ -11107,7 +11255,9 @@
     },
     {
       "id": "a_20c3351d11d2",
-      "name": "白範工作室",
+      "name": "",
+      "name_inferred": "白範工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.creative-comic.tw/zh/publisher/StudioRise13",
       "socials": [
@@ -11120,7 +11270,9 @@
     },
     {
       "id": "a_20ccb01b2e2e",
-      "name": "JO團花大錢",
+      "name": "",
+      "name_inferred": "JO團花大錢",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://blandlove.weebly.com/",
       "socials": [
@@ -11133,7 +11285,9 @@
     },
     {
       "id": "a_20d972d96aae",
-      "name": "老雁小坊",
+      "name": "",
+      "name_inferred": "老雁小坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100064287512194",
       "socials": [
@@ -11146,7 +11300,9 @@
     },
     {
       "id": "a_218750e10789",
-      "name": "夢靈虎居",
+      "name": "",
+      "name_inferred": "夢靈虎居",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/dreamxsoul",
       "socials": [
@@ -11159,7 +11315,9 @@
     },
     {
       "id": "a_218d550df03e",
-      "name": "電線桿有限公司",
+      "name": "",
+      "name_inferred": "電線桿有限公司",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/jia0kelvin",
       "socials": [
@@ -11172,7 +11330,9 @@
     },
     {
       "id": "a_223ea289169a",
-      "name": "格爾迪恩的芙拉爾",
+      "name": "",
+      "name_inferred": "格爾迪恩的芙拉爾",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/MFgeldian/",
       "socials": [
@@ -11185,7 +11345,9 @@
     },
     {
       "id": "a_22c8e16a1faa",
-      "name": "名字可以自己取欸",
+      "name": "",
+      "name_inferred": "名字可以自己取欸",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
       "socials": [
@@ -11198,7 +11360,9 @@
     },
     {
       "id": "a_22e2152d179a",
-      "name": "野海熊熊可麗餅",
+      "name": "",
+      "name_inferred": "野海熊熊可麗餅",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/suanmo99/",
       "socials": [
@@ -11211,7 +11375,9 @@
     },
     {
       "id": "a_2319d830bc4f",
-      "name": "龍哥",
+      "name": "",
+      "name_inferred": "龍哥",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/creative1shit2021/",
       "socials": [
@@ -11224,7 +11390,9 @@
     },
     {
       "id": "a_231b67b8178b",
-      "name": "懶惰朽吉 wohenlanduo",
+      "name": "",
+      "name_inferred": "懶惰朽吉 wohenlanduo",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/wohenlanduo/",
       "socials": [
@@ -11237,7 +11405,9 @@
     },
     {
       "id": "a_237c67fb10d2",
-      "name": "十九回目逃亡",
+      "name": "",
+      "name_inferred": "十九回目逃亡",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/815",
       "socials": [
@@ -11250,7 +11420,9 @@
     },
     {
       "id": "a_245a1c4b5282",
-      "name": "老問小問題",
+      "name": "",
+      "name_inferred": "老問小問題",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/op7804620",
       "socials": [
@@ -11263,7 +11435,9 @@
     },
     {
       "id": "a_24fe8c497d1c",
-      "name": "脖狐的脖子",
+      "name": "",
+      "name_inferred": "脖狐的脖子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
       "socials": [
@@ -11276,7 +11450,9 @@
     },
     {
       "id": "a_25a8023cd010",
-      "name": "いろはに甘い節分",
+      "name": "",
+      "name_inferred": "いろはに甘い節分",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/caramel06",
       "socials": [
@@ -11289,7 +11465,9 @@
     },
     {
       "id": "a_25b2bee0a3ee",
-      "name": "學P又扛了冬C！",
+      "name": "",
+      "name_inferred": "學P又扛了冬C！",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/huyume1023",
       "socials": [
@@ -11302,7 +11480,9 @@
     },
     {
       "id": "a_25b595a15d49",
-      "name": "GAC",
+      "name": "",
+      "name_inferred": "GAC",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/shu.kuan.yu.2025",
       "socials": [
@@ -11315,7 +11495,9 @@
     },
     {
       "id": "a_25c6d6a32e4d",
-      "name": "Socotaku帝大社研宅學組",
+      "name": "",
+      "name_inferred": "Socotaku帝大社研宅學組",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/socotaku",
       "socials": [
@@ -11333,7 +11515,9 @@
     },
     {
       "id": "a_262ed3c0bfc9",
-      "name": "悶騷的盤子",
+      "name": "",
+      "name_inferred": "悶騷的盤子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61558258981354",
       "socials": [
@@ -11346,7 +11530,9 @@
     },
     {
       "id": "a_2684c6028fab",
-      "name": "夢橋 DreamBridge",
+      "name": "",
+      "name_inferred": "夢橋 DreamBridge",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/dream_bridge_alw/",
       "socials": [
@@ -11359,7 +11545,9 @@
     },
     {
       "id": "a_271cb3e4949c",
-      "name": "青雨閣",
+      "name": "",
+      "name_inferred": "青雨閣",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/chj_joanna/",
       "socials": [
@@ -11372,7 +11560,9 @@
     },
     {
       "id": "a_27833951c44b",
-      "name": "XX畫廊-ARu art",
+      "name": "",
+      "name_inferred": "XX畫廊-ARu art",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
       "socials": [
@@ -11385,7 +11575,9 @@
     },
     {
       "id": "a_27ca1f8a8a37",
-      "name": "叁拾顆南瓜",
+      "name": "",
+      "name_inferred": "叁拾顆南瓜",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ziv188622",
       "socials": [
@@ -11398,7 +11590,9 @@
     },
     {
       "id": "a_2929cdbcb8f0",
-      "name": "鰹鰹ㄉ煩惱星球",
+      "name": "",
+      "name_inferred": "鰹鰹ㄉ煩惱星球",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/yanyan___777/",
       "socials": [
@@ -11411,7 +11605,9 @@
     },
     {
       "id": "a_29b90a976955",
-      "name": "貓晏的小舖",
+      "name": "",
+      "name_inferred": "貓晏的小舖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100063824298824",
       "socials": [
@@ -11424,7 +11620,9 @@
     },
     {
       "id": "a_29eddf08f181",
-      "name": "透明雞翅膀",
+      "name": "",
+      "name_inferred": "透明雞翅膀",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/7384",
       "socials": [
@@ -11437,7 +11635,9 @@
     },
     {
       "id": "a_2af48b0341a1",
-      "name": "非黑即白",
+      "name": "",
+      "name_inferred": "非黑即白",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/akomari",
       "socials": [
@@ -11450,7 +11650,9 @@
     },
     {
       "id": "a_2b10272ad6fa",
-      "name": "Uniautomata",
+      "name": "",
+      "name_inferred": "Uniautomata",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/uniautomata_studio/",
       "socials": [
@@ -11463,7 +11665,9 @@
     },
     {
       "id": "a_2bca9a09f67b",
-      "name": "龍虎社",
+      "name": "",
+      "name_inferred": "龍虎社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/LungFu.Club",
       "socials": [
@@ -11476,7 +11680,9 @@
     },
     {
       "id": "a_2bd5c2e76525",
-      "name": "廢柴畫畫人營業中",
+      "name": "",
+      "name_inferred": "廢柴畫畫人營業中",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ps.gojo.mm/",
       "socials": [
@@ -11489,7 +11695,9 @@
     },
     {
       "id": "a_2d10fc3ecb04",
-      "name": "塞納河底看不見星空",
+      "name": "",
+      "name_inferred": "塞納河底看不見星空",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
       "socials": [
@@ -11502,7 +11710,9 @@
     },
     {
       "id": "a_2d2f795bb7c3",
-      "name": "跳到兔子都不知道",
+      "name": "",
+      "name_inferred": "跳到兔子都不知道",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/rabbit_rose_/",
       "socials": [
@@ -11515,7 +11725,9 @@
     },
     {
       "id": "a_2d31f7192950",
-      "name": "嘟嚕啦咘嗒",
+      "name": "",
+      "name_inferred": "嘟嚕啦咘嗒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/Go41577",
       "socials": [
@@ -11528,7 +11740,9 @@
     },
     {
       "id": "a_2dcc10f31d42",
-      "name": "柑橘薄荷凍",
+      "name": "",
+      "name_inferred": "柑橘薄荷凍",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/yua_neko",
       "socials": [
@@ -11541,7 +11755,9 @@
     },
     {
       "id": "a_2e452c166908",
-      "name": "花樁屋",
+      "name": "",
+      "name_inferred": "花樁屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/amaranth2013/",
       "socials": [
@@ -11554,7 +11770,9 @@
     },
     {
       "id": "a_2edbca6b7b37",
-      "name": "西瓜學園",
+      "name": "",
+      "name_inferred": "西瓜學園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "#",
       "socials": []
@@ -11562,13 +11780,17 @@
     {
       "id": "a_30bb41338923",
       "name": "葉唯",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_31173427d1bb",
-      "name": "かくkaku",
+      "name": "",
+      "name_inferred": "かくkaku",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/ewokaku0w0",
       "socials": [
@@ -11582,13 +11804,17 @@
     {
       "id": "a_318d508f93e5",
       "name": "伊諾",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_31cb926b21f5",
-      "name": "非常用緊急避難所",
+      "name": "",
+      "name_inferred": "非常用緊急避難所",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/IceDR",
       "socials": [
@@ -11601,7 +11827,9 @@
     },
     {
       "id": "a_321c4eff19f6",
-      "name": "鱷魚的蛋蛋",
+      "name": "",
+      "name_inferred": "鱷魚的蛋蛋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/agathexu/",
       "socials": [
@@ -11614,7 +11842,9 @@
     },
     {
       "id": "a_32612d474b4a",
-      "name": "SUNSUN",
+      "name": "",
+      "name_inferred": "SUNSUN",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/iamritai2001",
       "socials": [
@@ -11627,7 +11857,9 @@
     },
     {
       "id": "a_327df9fc84dd",
-      "name": "粉色甜點舖",
+      "name": "",
+      "name_inferred": "粉色甜點舖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/chentina1022",
       "socials": [
@@ -11640,7 +11872,9 @@
     },
     {
       "id": "a_32be8c092f8f",
-      "name": "迷鹿島",
+      "name": "",
+      "name_inferred": "迷鹿島",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/lostdeerisland/",
       "socials": [
@@ -11654,6 +11888,8 @@
     {
       "id": "a_32cac33e2772",
       "name": "魚",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
@@ -11661,13 +11897,17 @@
     {
       "id": "a_330be19f3346",
       "name": "丹",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_3397bb930318",
-      "name": "勝者早餐大冰紅",
+      "name": "",
+      "name_inferred": "勝者早餐大冰紅",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/renyinaloha",
       "socials": [
@@ -11680,7 +11920,9 @@
     },
     {
       "id": "a_33cd6f669379",
-      "name": "魔女柒柒",
+      "name": "",
+      "name_inferred": "魔女柒柒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/77witch_7two/",
       "socials": [
@@ -11693,7 +11935,9 @@
     },
     {
       "id": "a_34798b1c7e27",
-      "name": "Mo子宅屋",
+      "name": "",
+      "name_inferred": "Mo子宅屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
       "socials": [
@@ -11706,7 +11950,9 @@
     },
     {
       "id": "a_358de90ba6a5",
-      "name": "REI'sROOM",
+      "name": "",
+      "name_inferred": "REI'sROOM",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/reisroom711/",
       "socials": [
@@ -11719,7 +11965,9 @@
     },
     {
       "id": "a_362acdc9567e",
-      "name": "砂鍋魚頭",
+      "name": "",
+      "name_inferred": "砂鍋魚頭",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/stargazer233",
       "socials": [
@@ -11732,7 +11980,9 @@
     },
     {
       "id": "a_363c38e43d50",
-      "name": "我愛吉娃娃",
+      "name": "",
+      "name_inferred": "我愛吉娃娃",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr",
       "socials": [
@@ -11745,7 +11995,9 @@
     },
     {
       "id": "a_36b9a5a84393",
-      "name": "Planetes Observare",
+      "name": "",
+      "name_inferred": "Planetes Observare",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/PlanetesObservare",
       "socials": [
@@ -11759,13 +12011,17 @@
     {
       "id": "a_371cf9fb0c7a",
       "name": "立夜",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_3784914e7419",
-      "name": "墨丘利",
+      "name": "",
+      "name_inferred": "墨丘利",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://marslake2.weebly.com/",
       "socials": [
@@ -11778,7 +12034,9 @@
     },
     {
       "id": "a_37a733577b06",
-      "name": "歐油希歡樂產業",
+      "name": "",
+      "name_inferred": "歐油希歡樂產業",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ouyouxi2020",
       "socials": [
@@ -11796,7 +12054,9 @@
     },
     {
       "id": "a_37a87fecdffe",
-      "name": "Gs.灰階-gs.gray",
+      "name": "",
+      "name_inferred": "Gs.灰階-gs.gray",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/gs.gray_000/",
       "socials": [
@@ -11809,7 +12069,9 @@
     },
     {
       "id": "a_3818783688d4",
-      "name": "絕讚發霉中",
+      "name": "",
+      "name_inferred": "絕讚發霉中",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/tentaclespet/",
       "socials": [
@@ -11822,7 +12084,9 @@
     },
     {
       "id": "a_383d0246ece5",
-      "name": "紫月",
+      "name": "",
+      "name_inferred": "紫月",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
       "socials": [
@@ -11836,13 +12100,17 @@
     {
       "id": "a_384f3abedb37",
       "name": "八月",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_38522e7dfc47",
-      "name": "Twinkle",
+      "name": "",
+      "name_inferred": "Twinkle",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/twinkle21_comic/",
       "socials": [
@@ -11855,7 +12123,9 @@
     },
     {
       "id": "a_38a1fef81cc9",
-      "name": "Enzo與室友",
+      "name": "",
+      "name_inferred": "Enzo與室友",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/enzo.zoldyck.tw/",
       "socials": [
@@ -11868,7 +12138,9 @@
     },
     {
       "id": "a_38ab12ded32c",
-      "name": "鹽昆布茶泡飯",
+      "name": "",
+      "name_inferred": "鹽昆布茶泡飯",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/SeRn1009",
       "socials": [
@@ -11881,7 +12153,9 @@
     },
     {
       "id": "a_390c25e3a0be",
-      "name": "記得繳房貸",
+      "name": "",
+      "name_inferred": "記得繳房貸",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/nagadrawdraw",
       "socials": [
@@ -11894,7 +12168,9 @@
     },
     {
       "id": "a_3a128cd5c2d0",
-      "name": "下空少女",
+      "name": "",
+      "name_inferred": "下空少女",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yu.cheng.9843499",
       "socials": [
@@ -11907,7 +12183,9 @@
     },
     {
       "id": "a_3cac19709eec",
-      "name": "魍魎夜色",
+      "name": "",
+      "name_inferred": "魍魎夜色",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61556596875660",
       "socials": [
@@ -11920,7 +12198,9 @@
     },
     {
       "id": "a_3d6ff30f9483",
-      "name": "發芽的沙發馬鈴薯",
+      "name": "",
+      "name_inferred": "發芽的沙發馬鈴薯",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/u/sly450026",
       "socials": [
@@ -11933,7 +12213,9 @@
     },
     {
       "id": "a_3e43feb30584",
-      "name": "阿農Anon",
+      "name": "",
+      "name_inferred": "阿農Anon",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/anon_114c",
       "socials": [
@@ -11946,7 +12228,9 @@
     },
     {
       "id": "a_3e839d7425d4",
-      "name": "漫顏 manga color",
+      "name": "",
+      "name_inferred": "漫顏 manga color",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://shop.codingcat-design.com.tw/manga-color/",
       "socials": [
@@ -11959,7 +12243,9 @@
     },
     {
       "id": "a_3ebdffd05bb9",
-      "name": "花開。花烙",
+      "name": "",
+      "name_inferred": "花開。花烙",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://blossoming-faded.blog/",
       "socials": [
@@ -11987,7 +12273,9 @@
     },
     {
       "id": "a_3f3d88330065",
-      "name": "烏烏烏大維",
+      "name": "",
+      "name_inferred": "烏烏烏大維",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/kuan.wei.lin.372350",
       "socials": [
@@ -12000,7 +12288,9 @@
     },
     {
       "id": "a_3f892fe3fdc7",
-      "name": "嶴嶼",
+      "name": "",
+      "name_inferred": "嶴嶼",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/chowwuart/",
       "socials": [
@@ -12013,7 +12303,9 @@
     },
     {
       "id": "a_401189d83b6c",
-      "name": "冷水青蛙鍋",
+      "name": "",
+      "name_inferred": "冷水青蛙鍋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/LengWaGuo/",
       "socials": [
@@ -12026,7 +12318,9 @@
     },
     {
       "id": "a_401d67f30701",
-      "name": "Good Omens 好預兆",
+      "name": "",
+      "name_inferred": "Good Omens 好預兆",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/good_omens.tw/://",
       "socials": [
@@ -12039,7 +12333,9 @@
     },
     {
       "id": "a_409d41e814d3",
-      "name": "吉度中毒歐豆K",
+      "name": "",
+      "name_inferred": "吉度中毒歐豆K",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
       "socials": [
@@ -12052,7 +12348,9 @@
     },
     {
       "id": "a_40c07fc12a05",
-      "name": "伊那爾栖的微笑",
+      "name": "",
+      "name_inferred": "伊那爾栖的微笑",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/laaaw444",
       "socials": [
@@ -12066,13 +12364,17 @@
     {
       "id": "a_41c2ffd85f86",
       "name": "艾沐",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_41dfce158ffb",
-      "name": "優格白喵",
+      "name": "",
+      "name_inferred": "優格白喵",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/mazuco1214_ryu",
       "socials": [
@@ -12085,7 +12387,9 @@
     },
     {
       "id": "a_4203793f2381",
-      "name": "王葳",
+      "name": "",
+      "name_inferred": "王葳",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/doublewdoublew/",
       "socials": [
@@ -12098,7 +12402,9 @@
     },
     {
       "id": "a_424330010a3e",
-      "name": "殘花寒香一杯飲",
+      "name": "",
+      "name_inferred": "殘花寒香一杯飲",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://ed940930.wixsite.com/original",
       "socials": [
@@ -12111,7 +12417,9 @@
     },
     {
       "id": "a_42af7b1a5b54",
-      "name": "Ya喵子的貓窩",
+      "name": "",
+      "name_inferred": "Ya喵子的貓窩",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yanekomeow",
       "socials": [
@@ -12124,7 +12432,9 @@
     },
     {
       "id": "a_43e06b0050a1",
-      "name": "TOMO",
+      "name": "",
+      "name_inferred": "TOMO",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/tomoewhat77/",
       "socials": [
@@ -12137,7 +12447,9 @@
     },
     {
       "id": "a_4474c820a1fa",
-      "name": "廢墟樂園",
+      "name": "",
+      "name_inferred": "廢墟樂園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/AKhibari",
       "socials": [
@@ -12150,7 +12462,9 @@
     },
     {
       "id": "a_449a9d02e0de",
-      "name": "炉研所",
+      "name": "",
+      "name_inferred": "炉研所",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/krosa1028",
       "socials": [
@@ -12163,7 +12477,9 @@
     },
     {
       "id": "a_44acefc09bd6",
-      "name": "紫乃沒有乃",
+      "name": "",
+      "name_inferred": "紫乃沒有乃",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/CNO",
       "socials": [
@@ -12176,7 +12492,9 @@
     },
     {
       "id": "a_45557ebf712a",
-      "name": "KAITO的狗",
+      "name": "",
+      "name_inferred": "KAITO的狗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/tu.ben.hua?",
       "socials": [
@@ -12189,7 +12507,9 @@
     },
     {
       "id": "a_458f1edc0d01",
-      "name": "虛無布饅頭",
+      "name": "",
+      "name_inferred": "虛無布饅頭",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
       "socials": [
@@ -12202,7 +12522,9 @@
     },
     {
       "id": "a_4634132f9334",
-      "name": "莫雨飄楓",
+      "name": "",
+      "name_inferred": "莫雨飄楓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/abc9012071",
       "socials": [
@@ -12216,13 +12538,17 @@
     {
       "id": "a_4741dca10047",
       "name": "武佳栩",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_4851f6c42ec1",
-      "name": "迷途羔羊",
+      "name": "",
+      "name_inferred": "迷途羔羊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://bsky.app/profile/nkpa.bsky.social",
       "socials": [
@@ -12240,7 +12566,9 @@
     },
     {
       "id": "a_487c8e1e073e",
-      "name": "晚安夜良",
+      "name": "",
+      "name_inferred": "晚安夜良",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/greenrivernight",
       "socials": [
@@ -12253,7 +12581,9 @@
     },
     {
       "id": "a_48bfb7ede1c9",
-      "name": "四季手作",
+      "name": "",
+      "name_inferred": "四季手作",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
       "socials": [
@@ -12266,7 +12596,9 @@
     },
     {
       "id": "a_48ea97cd139e",
-      "name": "外星空想",
+      "name": "",
+      "name_inferred": "外星空想",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
       "socials": [
@@ -12279,7 +12611,9 @@
     },
     {
       "id": "a_49032385f9e3",
-      "name": "紫玉藤花別館",
+      "name": "",
+      "name_inferred": "紫玉藤花別館",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/liftrasa5",
       "socials": [
@@ -12292,7 +12626,9 @@
     },
     {
       "id": "a_495bc9f8c3fb",
-      "name": "MYAOWL喵喔",
+      "name": "",
+      "name_inferred": "MYAOWL喵喔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/myaowl/",
       "socials": [
@@ -12305,7 +12641,9 @@
     },
     {
       "id": "a_49a813c212ef",
-      "name": "蒼銀之星",
+      "name": "",
+      "name_inferred": "蒼銀之星",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/aokihoshi/",
       "socials": [
@@ -12318,7 +12656,9 @@
     },
     {
       "id": "a_4a31cf2abbe3",
-      "name": "弗雷曼反應",
+      "name": "",
+      "name_inferred": "弗雷曼反應",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@45_artwork",
       "socials": [
@@ -12331,7 +12671,9 @@
     },
     {
       "id": "a_4ae1cb0ef1d0",
-      "name": "喜歡小男孩就是風潮",
+      "name": "",
+      "name_inferred": "喜歡小男孩就是風潮",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/rrrrrbu/",
       "socials": [
@@ -12345,13 +12687,17 @@
     {
       "id": "a_4afdf96bbce5",
       "name": "U魂",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_4b89253c02f8",
-      "name": "1111事務所海線辦事處",
+      "name": "",
+      "name_inferred": "1111事務所海線辦事處",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/IMAS1111TWTC//",
       "socials": [
@@ -12364,7 +12710,9 @@
     },
     {
       "id": "a_4c1f1b688373",
-      "name": "芒果汁加珍珠",
+      "name": "",
+      "name_inferred": "芒果汁加珍珠",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/p/3i2nll7mkt",
       "socials": [
@@ -12377,7 +12725,9 @@
     },
     {
       "id": "a_4d1266cd5c08",
-      "name": "朱閣綺戶倆口人",
+      "name": "",
+      "name_inferred": "朱閣綺戶倆口人",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/mola0632",
       "socials": [
@@ -12390,7 +12740,9 @@
     },
     {
       "id": "a_4d2cea2d361b",
-      "name": "海祭 EonsGarden ",
+      "name": "",
+      "name_inferred": "海祭 EonsGarden ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/ruinmaster",
       "socials": [
@@ -12403,7 +12755,9 @@
     },
     {
       "id": "a_4d949769a91a",
-      "name": "太空水龍頭恐慌",
+      "name": "",
+      "name_inferred": "太空水龍頭恐慌",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/SpaceFaucet/",
       "socials": [
@@ -12416,7 +12770,9 @@
     },
     {
       "id": "a_4dbf8806f3d5",
-      "name": "KA_compilation",
+      "name": "",
+      "name_inferred": "KA_compilation",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/KA_compilation",
       "socials": [
@@ -12429,7 +12785,9 @@
     },
     {
       "id": "a_4de70bb6308d",
-      "name": "枯藤Kotem",
+      "name": "",
+      "name_inferred": "枯藤Kotem",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/KotemWriter13",
       "socials": [
@@ -12442,14 +12800,18 @@
     },
     {
       "id": "a_4e5db8e22cd2",
-      "name": "逆光合作用",
+      "name": "",
+      "name_inferred": "逆光合作用",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "#",
       "socials": []
     },
     {
       "id": "a_4e8c2abfd22b",
-      "name": "墨貓空氣幻境",
+      "name": "",
+      "name_inferred": "墨貓空氣幻境",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/blackomicat",
       "socials": [
@@ -12462,7 +12824,9 @@
     },
     {
       "id": "a_4edbda676c9f",
-      "name": "經費有限公司",
+      "name": "",
+      "name_inferred": "經費有限公司",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/han_adtw",
       "socials": [
@@ -12475,7 +12839,9 @@
     },
     {
       "id": "a_4f65a9f362ce",
-      "name": "JO要划船",
+      "name": "",
+      "name_inferred": "JO要划船",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/kawa_7128",
       "socials": [
@@ -12488,7 +12854,9 @@
     },
     {
       "id": "a_50a344f18962",
-      "name": "穗茉",
+      "name": "",
+      "name_inferred": "穗茉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61575655409441",
       "socials": [
@@ -12501,7 +12869,9 @@
     },
     {
       "id": "a_513c5887f723",
-      "name": "x_x",
+      "name": "",
+      "name_inferred": "x_x",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/rabbit.x__x/",
       "socials": [
@@ -12514,7 +12884,9 @@
     },
     {
       "id": "a_5150b7a1e116",
-      "name": "Rio.ouo哩喔",
+      "name": "",
+      "name_inferred": "Rio.ouo哩喔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ryuouo",
       "socials": [
@@ -12527,7 +12899,9 @@
     },
     {
       "id": "a_51a19600c2b0",
-      "name": "遺品整理師 / OtaMatch宅友圈",
+      "name": "",
+      "name_inferred": "遺品整理師 / OtaMatch宅友圈",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/retaku",
       "socials": [
@@ -12540,7 +12914,9 @@
     },
     {
       "id": "a_52434df2575f",
-      "name": "杏仁豆腐の旋律",
+      "name": "",
+      "name_inferred": "杏仁豆腐の旋律",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/weirin0",
       "socials": [
@@ -12553,7 +12929,9 @@
     },
     {
       "id": "a_52c2826c6b62",
-      "name": "shioisland",
+      "name": "",
+      "name_inferred": "shioisland",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/shioisland/",
       "socials": [
@@ -12566,7 +12944,9 @@
     },
     {
       "id": "a_53892e710438",
-      "name": "在浪影斑駁的夏天出門右轉兩三步",
+      "name": "",
+      "name_inferred": "在浪影斑駁的夏天出門右轉兩三步",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/yvonneching8218",
       "socials": [
@@ -12579,7 +12959,9 @@
     },
     {
       "id": "a_53a4b49cc315",
-      "name": "燈無殖物園",
+      "name": "",
+      "name_inferred": "燈無殖物園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/lightoffill",
       "socials": [
@@ -12592,7 +12974,9 @@
     },
     {
       "id": "a_53b157bca165",
-      "name": "捏捏茶宇宙",
+      "name": "",
+      "name_inferred": "捏捏茶宇宙",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/TeaNe11",
       "socials": [
@@ -12605,7 +12989,9 @@
     },
     {
       "id": "a_53e29a48c6fd",
-      "name": "魔法少女ノ魔法焼酒",
+      "name": "",
+      "name_inferred": "魔法少女ノ魔法焼酒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/akiragiorgio/",
       "socials": [
@@ -12618,7 +13004,9 @@
     },
     {
       "id": "a_53f6679927f0",
-      "name": "しろはす",
+      "name": "",
+      "name_inferred": "しろはす",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/Polymilktea",
       "socials": [
@@ -12631,7 +13019,9 @@
     },
     {
       "id": "a_5491254e8127",
-      "name": "Ikusen",
+      "name": "",
+      "name_inferred": "Ikusen",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm",
       "socials": [
@@ -12644,7 +13034,9 @@
     },
     {
       "id": "a_54bdb6aa6ab1",
-      "name": "N.D.S.L.",
+      "name": "",
+      "name_inferred": "N.D.S.L.",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/365/books",
       "socials": [
@@ -12657,7 +13049,9 @@
     },
     {
       "id": "a_54bec5fc1529",
-      "name": "阿廣同好會",
+      "name": "",
+      "name_inferred": "阿廣同好會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "www.facebook.com/edward98311",
       "socials": [
@@ -12670,7 +13064,9 @@
     },
     {
       "id": "a_553c14451dc3",
-      "name": "Little Box",
+      "name": "",
+      "name_inferred": "Little Box",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/harukam03",
       "socials": [
@@ -12683,7 +13079,9 @@
     },
     {
       "id": "a_558fb090cf9c",
-      "name": "stellane",
+      "name": "",
+      "name_inferred": "stellane",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/Stellane2025",
       "socials": [
@@ -12696,7 +13094,9 @@
     },
     {
       "id": "a_55be2db3317c",
-      "name": "安全渡夏",
+      "name": "",
+      "name_inferred": "安全渡夏",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/not_december1212/",
       "socials": [
@@ -12709,7 +13109,9 @@
     },
     {
       "id": "a_5663a24fc490",
-      "name": "喬魯諾巴巴大俠",
+      "name": "",
+      "name_inferred": "喬魯諾巴巴大俠",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://bsky.app/profile/nginnk12.bsky.social",
       "socials": [
@@ -12722,7 +13124,9 @@
     },
     {
       "id": "a_56d5eec0298b",
-      "name": "Astudio.o",
+      "name": "",
+      "name_inferred": "Astudio.o",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/astudio.o/",
       "socials": [
@@ -12735,7 +13139,9 @@
     },
     {
       "id": "a_56f1705c2803",
-      "name": "X餐廳",
+      "name": "",
+      "name_inferred": "X餐廳",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/enoshdreams/",
       "socials": [
@@ -12748,7 +13154,9 @@
     },
     {
       "id": "a_5898bca19572",
-      "name": "絨毛點",
+      "name": "",
+      "name_inferred": "絨毛點",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/fluffpoint",
       "socials": [
@@ -12761,7 +13169,9 @@
     },
     {
       "id": "a_593d989ec424",
-      "name": "仲華 | 生物插畫",
+      "name": "",
+      "name_inferred": "仲華 | 生物插畫",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/zhliu.art/",
       "socials": [
@@ -12774,7 +13184,9 @@
     },
     {
       "id": "a_59756e08b1fa",
-      "name": "劍龍細胞",
+      "name": "",
+      "name_inferred": "劍龍細胞",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/dayday._.sleep/",
       "socials": [
@@ -12787,7 +13199,9 @@
     },
     {
       "id": "a_59a221e3cc4a",
-      "name": "驚奇菓織間",
+      "name": "",
+      "name_inferred": "驚奇菓織間",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/battahandmade",
       "socials": [
@@ -12800,7 +13214,9 @@
     },
     {
       "id": "a_59cbd8f50b6d",
-      "name": "烏鴉",
+      "name": "",
+      "name_inferred": "烏鴉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://kvoid000.wixsite.com/corvus",
       "socials": [
@@ -12829,13 +13245,17 @@
     {
       "id": "a_5a5b641526f8",
       "name": "Nowhere",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_5acdbd1bb946",
-      "name": "臨時通告",
+      "name": "",
+      "name_inferred": "臨時通告",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/skyberryelement",
       "socials": [
@@ -12848,7 +13268,9 @@
     },
     {
       "id": "a_5b8525675b67",
-      "name": "依舊笑容紙不住",
+      "name": "",
+      "name_inferred": "依舊笑容紙不住",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/r_bish",
       "socials": [
@@ -12861,7 +13283,9 @@
     },
     {
       "id": "a_5c12d0c4be70",
-      "name": "現在我有一團兵淇淋",
+      "name": "",
+      "name_inferred": "現在我有一團兵淇淋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/uni_07z3",
       "socials": [
@@ -12874,7 +13298,9 @@
     },
     {
       "id": "a_5c3fa13bf43e",
-      "name": "狐陶木手捏陶 Hutaomu clay",
+      "name": "",
+      "name_inferred": "狐陶木手捏陶 Hutaomu clay",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hutaomu_clay/",
       "socials": [
@@ -12887,7 +13313,9 @@
     },
     {
       "id": "a_5c728934d564",
-      "name": "秋貓Akineko",
+      "name": "",
+      "name_inferred": "秋貓Akineko",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/aa2233aa",
       "socials": [
@@ -12900,7 +13328,9 @@
     },
     {
       "id": "a_5c8ef4961f94",
-      "name": "Ciao*",
+      "name": "",
+      "name_inferred": "Ciao*",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ciaoowoneko/",
       "socials": [
@@ -12913,7 +13343,9 @@
     },
     {
       "id": "a_5ca6942c789d",
-      "name": "薯星星",
+      "name": "",
+      "name_inferred": "薯星星",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://plurk.com/potatosonnet",
       "socials": [
@@ -12926,7 +13358,9 @@
     },
     {
       "id": "a_5de969487300",
-      "name": "超級同人大戰 SDW",
+      "name": "",
+      "name_inferred": "超級同人大戰 SDW",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/superdoujinwar/",
       "socials": [
@@ -12939,7 +13373,9 @@
     },
     {
       "id": "a_5dfed0fe62b5",
-      "name": "海洋工作室",
+      "name": "",
+      "name_inferred": "海洋工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
       "socials": [
@@ -12952,7 +13388,9 @@
     },
     {
       "id": "a_5ea2b8ac248f",
-      "name": "Cathy Kao",
+      "name": "",
+      "name_inferred": "Cathy Kao",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/cathy.kao.35/",
       "socials": [
@@ -12965,7 +13403,9 @@
     },
     {
       "id": "a_5eecca5ba2b7",
-      "name": "杏。Xing",
+      "name": "",
+      "name_inferred": "杏。Xing",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/XingJustDrawIt",
       "socials": [
@@ -12978,7 +13418,9 @@
     },
     {
       "id": "a_5f20345438d1",
-      "name": "木木梟保育協會",
+      "name": "",
+      "name_inferred": "木木梟保育協會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/",
       "socials": [
@@ -12991,7 +13433,9 @@
     },
     {
       "id": "a_5f3ba31db611",
-      "name": "玥炭繪館@比名子的山珍海味",
+      "name": "",
+      "name_inferred": "玥炭繪館@比名子的山珍海味",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/maoyuue",
       "socials": [
@@ -13004,7 +13448,9 @@
     },
     {
       "id": "a_5fa08c3ac1f9",
-      "name": "鮮蝦魚板",
+      "name": "",
+      "name_inferred": "鮮蝦魚板",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/u/yu_882",
       "socials": [
@@ -13017,14 +13463,18 @@
     },
     {
       "id": "a_60aea36eb9b8",
-      "name": "宿原僎個人",
+      "name": "",
+      "name_inferred": "宿原僎個人",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "#",
       "socials": []
     },
     {
       "id": "a_60c38bab9ce4",
-      "name": "Eli Lin 依萊",
+      "name": "",
+      "name_inferred": "Eli Lin 依萊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/eli.pluma.lin/",
       "socials": [
@@ -13037,7 +13487,9 @@
     },
     {
       "id": "a_60c61a7fec63",
-      "name": "倉鼠補習蛋糕店(暫)",
+      "name": "",
+      "name_inferred": "倉鼠補習蛋糕店(暫)",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/yujaisu",
       "socials": [
@@ -13050,7 +13502,9 @@
     },
     {
       "id": "a_60c62aef4453",
-      "name": "章魚燒要加海苔還是梅粉",
+      "name": "",
+      "name_inferred": "章魚燒要加海苔還是梅粉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/tenseven_1777/",
       "socials": [
@@ -13063,7 +13517,9 @@
     },
     {
       "id": "a_6124a738e4c2",
-      "name": "猿田彦的鼻子",
+      "name": "",
+      "name_inferred": "猿田彦的鼻子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/rei.xu.3",
       "socials": [
@@ -13076,7 +13532,9 @@
     },
     {
       "id": "a_6147be126a7b",
-      "name": "PIN製造所",
+      "name": "",
+      "name_inferred": "PIN製造所",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.pinkoi.com/store/pinillustration",
       "socials": [
@@ -13089,7 +13547,9 @@
     },
     {
       "id": "a_61d10fdad8f3",
-      "name": "真的畫不完",
+      "name": "",
+      "name_inferred": "真的畫不完",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@yakinikuww_1220",
       "socials": [
@@ -13102,7 +13562,9 @@
     },
     {
       "id": "a_61f7ef770034",
-      "name": "咬一口鯰魚",
+      "name": "",
+      "name_inferred": "咬一口鯰魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://sites.google.com/view/bite1catfish/",
       "socials": [
@@ -13115,7 +13577,9 @@
     },
     {
       "id": "a_62024e1bc287",
-      "name": "カイミク同好會",
+      "name": "",
+      "name_inferred": "カイミク同好會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/coffeefish_05",
       "socials": [
@@ -13128,7 +13592,9 @@
     },
     {
       "id": "a_63211ce94bc8",
-      "name": "儉約判定+",
+      "name": "",
+      "name_inferred": "儉約判定+",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/thediecity",
       "socials": [
@@ -13141,7 +13607,9 @@
     },
     {
       "id": "a_63c5ea153dbd",
-      "name": "松鼠麵包",
+      "name": "",
+      "name_inferred": "松鼠麵包",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/kaori0408",
       "socials": [
@@ -13154,7 +13622,9 @@
     },
     {
       "id": "a_645263a4c0bc",
-      "name": "會飛的紙條",
+      "name": "",
+      "name_inferred": "會飛的紙條",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/Silver_NoTa",
       "socials": [
@@ -13167,7 +13637,9 @@
     },
     {
       "id": "a_663a2e47913b",
-      "name": "貓咪的嘎吱窩",
+      "name": "",
+      "name_inferred": "貓咪的嘎吱窩",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/b.c1206",
       "socials": [
@@ -13181,13 +13653,17 @@
     {
       "id": "a_6642e53c7b2b",
       "name": "ahonok",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_66d894ad5602",
-      "name": "動物押花",
+      "name": "",
+      "name_inferred": "動物押花",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/summerbonekiara",
       "socials": [
@@ -13200,7 +13676,9 @@
     },
     {
       "id": "a_66dabb203faf",
-      "name": "歨歨悅神社",
+      "name": "",
+      "name_inferred": "歨歨悅神社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/niansui623",
       "socials": [
@@ -13213,7 +13691,9 @@
     },
     {
       "id": "a_670a5a4eb558",
-      "name": "男同女同天理不容",
+      "name": "",
+      "name_inferred": "男同女同天理不容",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
       "socials": [
@@ -13226,7 +13706,9 @@
     },
     {
       "id": "a_6749066f8b9e",
-      "name": "記憶中的記事本",
+      "name": "",
+      "name_inferred": "記憶中的記事本",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://twitter.com/cometwave",
       "socials": [
@@ -13239,7 +13721,9 @@
     },
     {
       "id": "a_6751ecb6d4e9",
-      "name": "在線幽靈",
+      "name": "",
+      "name_inferred": "在線幽靈",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@online._.ghost",
       "socials": [
@@ -13252,7 +13736,9 @@
     },
     {
       "id": "a_67ce979a451a",
-      "name": "海鮮飯飯",
+      "name": "",
+      "name_inferred": "海鮮飯飯",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/twelve474719/",
       "socials": [
@@ -13265,7 +13751,9 @@
     },
     {
       "id": "a_67e653155494",
-      "name": "No Yuri, No Life.",
+      "name": "",
+      "name_inferred": "No Yuri, No Life.",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/raker.natsume.0701",
       "socials": [
@@ -13309,13 +13797,17 @@
     {
       "id": "a_689a8c49412f",
       "name": "笨丸",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_68f7f9144ffe",
-      "name": "迢迢路條條",
+      "name": "",
+      "name_inferred": "迢迢路條條",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/arcusong",
       "socials": [
@@ -13328,7 +13820,9 @@
     },
     {
       "id": "a_6bd880bb920d",
-      "name": "幫幫的家",
+      "name": "",
+      "name_inferred": "幫幫的家",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/dd_r2112",
       "socials": [
@@ -13341,7 +13835,9 @@
     },
     {
       "id": "a_6c234df8522b",
-      "name": "阿喔喔咧合作社",
+      "name": "",
+      "name_inferred": "阿喔喔咧合作社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/p/3icizou1me",
       "socials": [
@@ -13355,13 +13851,17 @@
     {
       "id": "a_6cb2c1bac97e",
       "name": "WASTE-MAN",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_6d47b2d64fe0",
-      "name": "龍伯爵的下午茶",
+      "name": "",
+      "name_inferred": "龍伯爵的下午茶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/by.lordlung/",
       "socials": [
@@ -13374,7 +13874,9 @@
     },
     {
       "id": "a_6e7640c562d8",
-      "name": "全糖雞蛋卷x楓黎",
+      "name": "",
+      "name_inferred": "全糖雞蛋卷x楓黎",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/fengliart520/",
       "socials": [
@@ -13387,7 +13889,9 @@
     },
     {
       "id": "a_6e87dbc7db2e",
-      "name": "七色蘑菇燴飯",
+      "name": "",
+      "name_inferred": "七色蘑菇燴飯",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/7iromushrooms",
       "socials": [
@@ -13400,7 +13904,9 @@
     },
     {
       "id": "a_6ee29a7547ec",
-      "name": "快樂罌粟花自耕農會",
+      "name": "",
+      "name_inferred": "快樂罌粟花自耕農會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://trapasocks.pse.is/8rdrx6",
       "socials": [
@@ -13413,7 +13919,9 @@
     },
     {
       "id": "a_6efbc0363fed",
-      "name": "橘橘大法好人類分部",
+      "name": "",
+      "name_inferred": "橘橘大法好人類分部",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/elena_lai_12/",
       "socials": [
@@ -13426,7 +13934,9 @@
     },
     {
       "id": "a_6f0fa0758aca",
-      "name": "布斯圖原創IP福狗波波威信",
+      "name": "",
+      "name_inferred": "布斯圖原創IP福狗波波威信",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ballballwilson",
       "socials": [
@@ -13439,7 +13949,9 @@
     },
     {
       "id": "a_6ff340080b2a",
-      "name": "BOMB DONUT",
+      "name": "",
+      "name_inferred": "BOMB DONUT",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/gulyocat",
       "socials": [
@@ -13452,7 +13964,9 @@
     },
     {
       "id": "a_70b4c26173c7",
-      "name": "骨頭Bone",
+      "name": "",
+      "name_inferred": "骨頭Bone",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/BoneYong/",
       "socials": [
@@ -13465,7 +13979,9 @@
     },
     {
       "id": "a_71d2fbd61593",
-      "name": "TMPB Project",
+      "name": "",
+      "name_inferred": "TMPB Project",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/s22393",
       "socials": [
@@ -13478,7 +13994,9 @@
     },
     {
       "id": "a_7200258c2f61",
-      "name": "包伯尼幼兒園",
+      "name": "",
+      "name_inferred": "包伯尼幼兒園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
       "socials": [
@@ -13491,7 +14009,9 @@
     },
     {
       "id": "a_72cb92abbe3e",
-      "name": "一隻甲鳥子",
+      "name": "",
+      "name_inferred": "一隻甲鳥子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/aaaduck/",
       "socials": [
@@ -13504,7 +14024,9 @@
     },
     {
       "id": "a_72dafae620dd",
-      "name": "台北祥初女",
+      "name": "",
+      "name_inferred": "台北祥初女",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/pipi.yaya.90",
       "socials": [
@@ -13517,7 +14039,9 @@
     },
     {
       "id": "a_7355f22f6b42",
-      "name": "海塩雪糕",
+      "name": "",
+      "name_inferred": "海塩雪糕",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/seasalt_oc/",
       "socials": [
@@ -13530,7 +14054,9 @@
     },
     {
       "id": "a_749ae6f904ab",
-      "name": "好想變成微生物",
+      "name": "",
+      "name_inferred": "好想變成微生物",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/bleedmaple",
       "socials": [
@@ -13543,7 +14069,9 @@
     },
     {
       "id": "a_754bddfc4f71",
-      "name": "上樑不正下樑歪",
+      "name": "",
+      "name_inferred": "上樑不正下樑歪",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/leo504436",
       "socials": [
@@ -13556,7 +14084,9 @@
     },
     {
       "id": "a_75c408e3fb89",
-      "name": "橘子寶寶手作舖",
+      "name": "",
+      "name_inferred": "橘子寶寶手作舖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61550680396750",
       "socials": [
@@ -13569,7 +14099,9 @@
     },
     {
       "id": "a_75c9bf29aed4",
-      "name": "モエ畫稿同萌",
+      "name": "",
+      "name_inferred": "モエ畫稿同萌",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/chiuchiu0428",
       "socials": [
@@ -13582,7 +14114,9 @@
     },
     {
       "id": "a_76059b3ff9bb",
-      "name": "雨狐雜貨",
+      "name": "",
+      "name_inferred": "雨狐雜貨",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/rainfox2021/",
       "socials": [
@@ -13595,7 +14129,9 @@
     },
     {
       "id": "a_763d56f5fed3",
-      "name": "sally : deja-vu",
+      "name": "",
+      "name_inferred": "sally : deja-vu",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/slychen",
       "socials": [
@@ -13608,7 +14144,9 @@
     },
     {
       "id": "a_77711770b700",
-      "name": "日落地平線",
+      "name": "",
+      "name_inferred": "日落地平線",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/brac",
       "socials": [
@@ -13621,14 +14159,18 @@
     },
     {
       "id": "a_778b8829384e",
-      "name": "開天窗",
+      "name": "",
+      "name_inferred": "開天窗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "#",
       "socials": []
     },
     {
       "id": "a_77d246c20bc0",
-      "name": "粉紅泡泡小宇宙★",
+      "name": "",
+      "name_inferred": "粉紅泡泡小宇宙★",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/6995",
       "socials": [
@@ -13641,7 +14183,9 @@
     },
     {
       "id": "a_7817e816dfa9",
-      "name": "富士繪社",
+      "name": "",
+      "name_inferred": "富士繪社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100069793502478",
       "socials": [
@@ -13654,7 +14198,9 @@
     },
     {
       "id": "a_7826cd288555",
-      "name": "Confeito",
+      "name": "",
+      "name_inferred": "Confeito",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/MIKEY21",
       "socials": [
@@ -13667,7 +14213,9 @@
     },
     {
       "id": "a_7839dffee91f",
-      "name": "反青復明三角勇者",
+      "name": "",
+      "name_inferred": "反青復明三角勇者",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/senyu",
       "socials": [
@@ -13680,7 +14228,9 @@
     },
     {
       "id": "a_79bbd080451e",
-      "name": "共聚物精靈",
+      "name": "",
+      "name_inferred": "共聚物精靈",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/CopolymerWizard",
       "socials": [
@@ -13693,7 +14243,9 @@
     },
     {
       "id": "a_7a1d61a44075",
-      "name": "腰痛黃瓜",
+      "name": "",
+      "name_inferred": "腰痛黃瓜",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@kyuuri991205",
       "socials": [
@@ -13706,7 +14258,9 @@
     },
     {
       "id": "a_7a580d37b8e6",
-      "name": "莓梗",
+      "name": "",
+      "name_inferred": "莓梗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/yujian_lll/",
       "socials": [
@@ -13719,7 +14273,9 @@
     },
     {
       "id": "a_7c2d29bdc03c",
-      "name": "極東霓虹實驗室",
+      "name": "",
+      "name_inferred": "極東霓虹實驗室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/HOLIDAY_9NightKnight",
       "socials": [
@@ -13732,7 +14288,9 @@
     },
     {
       "id": "a_7c5408200ee0",
-      "name": "三分糖‧手作中",
+      "name": "",
+      "name_inferred": "三分糖‧手作中",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://blog.erenehsu.com/HappyCandy/",
       "socials": [
@@ -13745,7 +14303,9 @@
     },
     {
       "id": "a_7c65971f27d2",
-      "name": "蘿蔔兔Too",
+      "name": "",
+      "name_inferred": "蘿蔔兔Too",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hsiao.local.girl/",
       "socials": [
@@ -13758,7 +14318,9 @@
     },
     {
       "id": "a_7d98872c692e",
-      "name": "淡江大學偶像大師同好會",
+      "name": "",
+      "name_inferred": "淡江大學偶像大師同好會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/tku_imas_tw",
       "socials": [
@@ -13771,7 +14333,9 @@
     },
     {
       "id": "a_7e0f96c1cd8d",
-      "name": "小眼睛LITTLEEYES",
+      "name": "",
+      "name_inferred": "小眼睛LITTLEEYES",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/littleeyes_b216/",
       "socials": [
@@ -13784,7 +14348,9 @@
     },
     {
       "id": "a_7ea1e191ecdf",
-      "name": "三支音叉",
+      "name": "",
+      "name_inferred": "三支音叉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1EDMa5ftC9/",
       "socials": [
@@ -13797,7 +14363,9 @@
     },
     {
       "id": "a_7f4e5f5752f4",
-      "name": "塗鴉仙人掌",
+      "name": "",
+      "name_inferred": "塗鴉仙人掌",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/minproject888/",
       "socials": [
@@ -13810,7 +14378,9 @@
     },
     {
       "id": "a_7f5125e652c3",
-      "name": "不安定星系",
+      "name": "",
+      "name_inferred": "不安定星系",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/karupisu_planet",
       "socials": [
@@ -13823,7 +14393,9 @@
     },
     {
       "id": "a_7f73aa9b6456",
-      "name": "木子的百合花園",
+      "name": "",
+      "name_inferred": "木子的百合花園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/MuziYuri/",
       "socials": [
@@ -13841,7 +14413,9 @@
     },
     {
       "id": "a_7fdd518acacc",
-      "name": "企鵝冰屋",
+      "name": "",
+      "name_inferred": "企鵝冰屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/xiao.xiao.zhang.520906",
       "socials": [
@@ -13854,7 +14428,9 @@
     },
     {
       "id": "a_80140afb2a8d",
-      "name": "腦洞煉製所",
+      "name": "",
+      "name_inferred": "腦洞煉製所",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/refineyy",
       "socials": [
@@ -13867,7 +14443,9 @@
     },
     {
       "id": "a_804fa3c4ee12",
-      "name": "Bubble Wave",
+      "name": "",
+      "name_inferred": "Bubble Wave",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/Bubble_Wave",
       "socials": [
@@ -13880,7 +14458,9 @@
     },
     {
       "id": "a_81f0e1ac3f5d",
-      "name": "MP9999",
+      "name": "",
+      "name_inferred": "MP9999",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/mp9999",
       "socials": [
@@ -13893,7 +14473,9 @@
     },
     {
       "id": "a_82263d62efdc",
-      "name": "BIPO",
+      "name": "",
+      "name_inferred": "BIPO",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/grams35",
       "socials": [
@@ -13906,7 +14488,9 @@
     },
     {
       "id": "a_822e5692580f",
-      "name": "梨日子圖文",
+      "name": "",
+      "name_inferred": "梨日子圖文",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ri_life_draw/",
       "socials": [
@@ -13919,7 +14503,9 @@
     },
     {
       "id": "a_825d90fe46fe",
-      "name": "Lagom",
+      "name": "",
+      "name_inferred": "Lagom",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/lagom.art_/",
       "socials": [
@@ -13932,7 +14518,9 @@
     },
     {
       "id": "a_8372bf50b8e2",
-      "name": "yoru深夜聊天室",
+      "name": "",
+      "name_inferred": "yoru深夜聊天室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/nightleave1030",
       "socials": [
@@ -13945,7 +14533,9 @@
     },
     {
       "id": "a_83784034907f",
-      "name": "Aggie 慢慢走 ",
+      "name": "",
+      "name_inferred": "Aggie 慢慢走 ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://instagram.com/aggie__amble/",
       "socials": [
@@ -13958,7 +14548,9 @@
     },
     {
       "id": "a_83aef4a17481",
-      "name": "萬應室裡的下午茶",
+      "name": "",
+      "name_inferred": "萬應室裡的下午茶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/erasertea/",
       "socials": [
@@ -13971,7 +14563,9 @@
     },
     {
       "id": "a_84de79b2befd",
-      "name": "#92b5a9",
+      "name": "",
+      "name_inferred": "#92b5a9",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/_92b5a9/",
       "socials": [
@@ -13984,7 +14578,9 @@
     },
     {
       "id": "a_84ea9a4eda60",
-      "name": "百合餓狼之盟",
+      "name": "",
+      "name_inferred": "百合餓狼之盟",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/lunoestory.novel/",
       "socials": [
@@ -14002,7 +14598,9 @@
     },
     {
       "id": "a_8506de3506bb",
-      "name": "白叶",
+      "name": "",
+      "name_inferred": "白叶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ouo336",
       "socials": [
@@ -14015,7 +14613,9 @@
     },
     {
       "id": "a_853d18d7d481",
-      "name": "AM0:00",
+      "name": "",
+      "name_inferred": "AM0:00",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/AM00019932687",
       "socials": [
@@ -14028,7 +14628,9 @@
     },
     {
       "id": "a_85447c5b4ad5",
-      "name": "aPriori",
+      "name": "",
+      "name_inferred": "aPriori",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/menyakuranari",
       "socials": [
@@ -14041,7 +14643,9 @@
     },
     {
       "id": "a_85648e851be8",
-      "name": "夜未央手作坊",
+      "name": "",
+      "name_inferred": "夜未央手作坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/endlessnight_tw/",
       "socials": [
@@ -14054,7 +14658,9 @@
     },
     {
       "id": "a_85bdfa9a1e53",
-      "name": "Zoiri",
+      "name": "",
+      "name_inferred": "Zoiri",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
       "socials": [
@@ -14067,7 +14673,9 @@
     },
     {
       "id": "a_85be0343e65e",
-      "name": "洛洛麵包舖",
+      "name": "",
+      "name_inferred": "洛洛麵包舖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
       "socials": [
@@ -14080,7 +14688,9 @@
     },
     {
       "id": "a_85f0b7d8c5e1",
-      "name": "夜行動物館",
+      "name": "",
+      "name_inferred": "夜行動物館",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/hanyangcomic?_ps=1",
       "socials": [
@@ -14093,7 +14703,9 @@
     },
     {
       "id": "a_8698f970b85f",
-      "name": "非瑜不能吃",
+      "name": "",
+      "name_inferred": "非瑜不能吃",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/moonshadow331",
       "socials": [
@@ -14106,7 +14718,9 @@
     },
     {
       "id": "a_86a06b80cdda",
-      "name": "我朋友沒朋友",
+      "name": "",
+      "name_inferred": "我朋友沒朋友",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/zdyui810",
       "socials": [
@@ -14119,7 +14733,9 @@
     },
     {
       "id": "a_86e81e108ce3",
-      "name": "好八不間斷",
+      "name": "",
+      "name_inferred": "好八不間斷",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/2GeTrEkT264",
       "socials": [
@@ -14132,7 +14748,9 @@
     },
     {
       "id": "a_870bb05546ae",
-      "name": "音之狂想曲",
+      "name": "",
+      "name_inferred": "音之狂想曲",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
       "socials": [
@@ -14145,7 +14763,9 @@
     },
     {
       "id": "a_87810c914f1c",
-      "name": "默屋",
+      "name": "",
+      "name_inferred": "默屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/moriowo.s",
       "socials": [
@@ -14158,7 +14778,9 @@
     },
     {
       "id": "a_881d7d0eb6fc",
-      "name": "My Garden我的庭園(毛毛氈創作坊)",
+      "name": "",
+      "name_inferred": "My Garden我的庭園(毛毛氈創作坊)",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/MyGardenMyLife",
       "socials": [
@@ -14171,7 +14793,9 @@
     },
     {
       "id": "a_88a55622f03f",
-      "name": "月月子不在家",
+      "name": "",
+      "name_inferred": "月月子不在家",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ChristinStudio",
       "socials": [
@@ -14184,7 +14808,9 @@
     },
     {
       "id": "a_8a1262b8fd78",
-      "name": "角角吉",
+      "name": "",
+      "name_inferred": "角角吉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/jiao.ji.327793/",
       "socials": [
@@ -14197,7 +14823,9 @@
     },
     {
       "id": "a_8b21d7164fe8",
-      "name": "尹先",
+      "name": "",
+      "name_inferred": "尹先",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/roxanne21___/",
       "socials": [
@@ -14210,7 +14838,9 @@
     },
     {
       "id": "a_8b32662d9b45",
-      "name": "The Berry Pie 貝栗派",
+      "name": "",
+      "name_inferred": "The Berry Pie 貝栗派",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/the_berrypie/",
       "socials": [
@@ -14223,7 +14853,9 @@
     },
     {
       "id": "a_8ca68ed5ab31",
-      "name": "ボカロ虛擬歌姬交流會",
+      "name": "",
+      "name_inferred": "ボカロ虛擬歌姬交流會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
       "socials": [
@@ -14236,7 +14868,9 @@
     },
     {
       "id": "a_8d572fb35599",
-      "name": "香香又色色的",
+      "name": "",
+      "name_inferred": "香香又色色的",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://instagram.com/arayo__0616/",
       "socials": [
@@ -14249,7 +14883,9 @@
     },
     {
       "id": "a_8de56617ff3b",
-      "name": "Liuyingchieh",
+      "name": "",
+      "name_inferred": "Liuyingchieh",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://facebook.com/media/set/?set=a.10160389843616259",
       "socials": [
@@ -14262,7 +14898,9 @@
     },
     {
       "id": "a_8e4911013c84",
-      "name": "鵺空",
+      "name": "",
+      "name_inferred": "鵺空",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/snipeyozora",
       "socials": [
@@ -14275,7 +14913,9 @@
     },
     {
       "id": "a_8e988a0b57db",
-      "name": "IDOL MaX",
+      "name": "",
+      "name_inferred": "IDOL MaX",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61583559591571",
       "socials": [
@@ -14288,7 +14928,9 @@
     },
     {
       "id": "a_8fcb195f9781",
-      "name": "舒本裡的小精靈",
+      "name": "",
+      "name_inferred": "舒本裡的小精靈",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/xy884088/",
       "socials": [
@@ -14301,7 +14943,9 @@
     },
     {
       "id": "a_91472a7bbad6",
-      "name": "壁上觀",
+      "name": "",
+      "name_inferred": "壁上觀",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://w0960.pixnet.net/blog",
       "socials": [
@@ -14314,7 +14958,9 @@
     },
     {
       "id": "a_915a6b6bd7d0",
-      "name": "senla.",
+      "name": "",
+      "name_inferred": "senla.",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/Shenlan_echo",
       "socials": [
@@ -14327,7 +14973,9 @@
     },
     {
       "id": "a_919be03fb4ca",
-      "name": "壞狗狂奔，咎人要緊",
+      "name": "",
+      "name_inferred": "壞狗狂奔，咎人要緊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/tan.tan.828001",
       "socials": [
@@ -14340,7 +14988,9 @@
     },
     {
       "id": "a_91c634cc2f56",
-      "name": "JELDA",
+      "name": "",
+      "name_inferred": "JELDA",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/jelda_arts/",
       "socials": [
@@ -14353,7 +15003,9 @@
     },
     {
       "id": "a_91d95d803c2a",
-      "name": "零界點",
+      "name": "",
+      "name_inferred": "零界點",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/yinqarys",
       "socials": [
@@ -14366,7 +15018,9 @@
     },
     {
       "id": "a_9225cb340690",
-      "name": "HyggeLove",
+      "name": "",
+      "name_inferred": "HyggeLove",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hygge._love/",
       "socials": [
@@ -14379,7 +15033,9 @@
     },
     {
       "id": "a_92e7f707867a",
-      "name": "《Brain Damage》",
+      "name": "",
+      "name_inferred": "《Brain Damage》",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/brain.bamage/",
       "socials": [
@@ -14392,7 +15048,9 @@
     },
     {
       "id": "a_93ff56ae15b2",
-      "name": "月亮代表我的心",
+      "name": "",
+      "name_inferred": "月亮代表我的心",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
       "socials": [
@@ -14405,7 +15063,9 @@
     },
     {
       "id": "a_940fd784703d",
-      "name": "房間工作室",
+      "name": "",
+      "name_inferred": "房間工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/_inner_room/",
       "socials": [
@@ -14418,7 +15078,9 @@
     },
     {
       "id": "a_941b173be6f9",
-      "name": "狐日和",
+      "name": "",
+      "name_inferred": "狐日和",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/gloomlysky",
       "socials": [
@@ -14431,7 +15093,9 @@
     },
     {
       "id": "a_95efc8eb01cf",
-      "name": "K醬ㄉ攤",
+      "name": "",
+      "name_inferred": "K醬ㄉ攤",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
       "socials": [
@@ -14449,7 +15113,9 @@
     },
     {
       "id": "a_9647dad20387",
-      "name": "NiNE's",
+      "name": "",
+      "name_inferred": "NiNE's",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/523/books",
       "socials": [
@@ -14462,7 +15128,9 @@
     },
     {
       "id": "a_966fd8676e1d",
-      "name": "Maidenhair",
+      "name": "",
+      "name_inferred": "Maidenhair",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/mamo20220624",
       "socials": [
@@ -14475,7 +15143,9 @@
     },
     {
       "id": "a_9690dcf02076",
-      "name": "哇呀燈塔塔",
+      "name": "",
+      "name_inferred": "哇呀燈塔塔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/poki1130",
       "socials": [
@@ -14488,7 +15158,9 @@
     },
     {
       "id": "a_974c1413bd0e",
-      "name": "極月學園偶像大師同好會",
+      "name": "",
+      "name_inferred": "極月學園偶像大師同好會",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ricke.kao",
       "socials": [
@@ -14501,7 +15173,9 @@
     },
     {
       "id": "a_975f5236b9e8",
-      "name": "遠航冒險",
+      "name": "",
+      "name_inferred": "遠航冒險",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/newstone",
       "socials": [
@@ -14514,7 +15188,9 @@
     },
     {
       "id": "a_97e01334a968",
-      "name": "不調了不調了😭",
+      "name": "",
+      "name_inferred": "不調了不調了😭",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/mei.emerald.96?",
       "socials": [
@@ -14528,13 +15204,17 @@
     {
       "id": "a_98dc6605dbd5",
       "name": "cema",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_990fd2b3d27f",
-      "name": "大眾澡堂",
+      "name": "",
+      "name_inferred": "大眾澡堂",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yuyudesu0806/",
       "socials": [
@@ -14547,7 +15227,9 @@
     },
     {
       "id": "a_99b677827c65",
-      "name": "YO RIN",
+      "name": "",
+      "name_inferred": "YO RIN",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
       "socials": [
@@ -14560,7 +15242,9 @@
     },
     {
       "id": "a_9a603343710c",
-      "name": "羊肉燒賣",
+      "name": "",
+      "name_inferred": "羊肉燒賣",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/swet1002",
       "socials": [
@@ -14573,7 +15257,9 @@
     },
     {
       "id": "a_9a97bc8879ab",
-      "name": "厭世熊寶貝",
+      "name": "",
+      "name_inferred": "厭世熊寶貝",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/rainnyafoi",
       "socials": [
@@ -14586,7 +15272,9 @@
     },
     {
       "id": "a_9aa78fc009fa",
-      "name": "LRLR",
+      "name": "",
+      "name_inferred": "LRLR",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/yyoaooao",
       "socials": [
@@ -14599,7 +15287,9 @@
     },
     {
       "id": "a_9ada1d1d743c",
-      "name": "紡星社",
+      "name": "",
+      "name_inferred": "紡星社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/61573677164059/",
       "socials": [
@@ -14612,7 +15302,9 @@
     },
     {
       "id": "a_9b16ac406020",
-      "name": "INXK",
+      "name": "",
+      "name_inferred": "INXK",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/_inxk.ntn_/",
       "socials": [
@@ -14625,7 +15317,9 @@
     },
     {
       "id": "a_9b2bdac78cce",
-      "name": "奇妙動物商店",
+      "name": "",
+      "name_inferred": "奇妙動物商店",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/unfriendlyanimals/",
       "socials": [
@@ -14638,7 +15332,9 @@
     },
     {
       "id": "a_9be70f27cf26",
-      "name": "維也納貓咖附餐烤飯糰",
+      "name": "",
+      "name_inferred": "維也納貓咖附餐烤飯糰",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/sakana_56",
       "socials": [
@@ -14651,7 +15347,9 @@
     },
     {
       "id": "a_9c1442ddf746",
-      "name": "jyouka",
+      "name": "",
+      "name_inferred": "jyouka",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/jyouka2019",
       "socials": [
@@ -14664,7 +15362,9 @@
     },
     {
       "id": "a_9d98fa19a4b5",
-      "name": "強迫症少年",
+      "name": "",
+      "name_inferred": "強迫症少年",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/FoxMoonOmu/",
       "socials": [
@@ -14677,7 +15377,9 @@
     },
     {
       "id": "a_9dd386048d1c",
-      "name": "紙皮盒",
+      "name": "",
+      "name_inferred": "紙皮盒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/2719",
       "socials": [
@@ -14690,7 +15392,9 @@
     },
     {
       "id": "a_9e9c8767ce86",
-      "name": "月貓創意",
+      "name": "",
+      "name_inferred": "月貓創意",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/nokomakawa/",
       "socials": [
@@ -14703,7 +15407,9 @@
     },
     {
       "id": "a_9ed16a7c1ee5",
-      "name": "海豹柑柑Mikan seal",
+      "name": "",
+      "name_inferred": "海豹柑柑Mikan seal",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/Mikanseal074",
       "socials": [
@@ -14716,7 +15422,9 @@
     },
     {
       "id": "a_9efd1751df72",
-      "name": "羊不吃草",
+      "name": "",
+      "name_inferred": "羊不吃草",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
       "socials": [
@@ -14729,7 +15437,9 @@
     },
     {
       "id": "a_9f23c71603a7",
-      "name": "柒隻美洲鱷",
+      "name": "",
+      "name_inferred": "柒隻美洲鱷",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100087498796559",
       "socials": [
@@ -14742,7 +15452,9 @@
     },
     {
       "id": "a_9fa28a8ef29a",
-      "name": "咦きづら怡部！",
+      "name": "",
+      "name_inferred": "咦きづら怡部！",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/co.shih",
       "socials": [
@@ -14755,7 +15467,9 @@
     },
     {
       "id": "a_9fa3945ba9ed",
-      "name": "狐狸樹屋",
+      "name": "",
+      "name_inferred": "狐狸樹屋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/axitreehouse/",
       "socials": [
@@ -14768,7 +15482,9 @@
     },
     {
       "id": "a_9fd02fb61112",
-      "name": "田中水草",
+      "name": "",
+      "name_inferred": "田中水草",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/almn.sk.page/",
       "socials": [
@@ -14781,7 +15497,9 @@
     },
     {
       "id": "a_a01223411b00",
-      "name": "OrangeDragon橘子龍龍",
+      "name": "",
+      "name_inferred": "OrangeDragon橘子龍龍",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/chang_yu_i/",
       "socials": [
@@ -14794,7 +15512,9 @@
     },
     {
       "id": "a_a03133499927",
-      "name": "回家日記",
+      "name": "",
+      "name_inferred": "回家日記",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/back_home_diary/",
       "socials": [
@@ -14807,7 +15527,9 @@
     },
     {
       "id": "a_a040305280cd",
-      "name": "Prediction",
+      "name": "",
+      "name_inferred": "Prediction",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.pixiv.net/users/1181363",
       "socials": [
@@ -14820,7 +15542,9 @@
     },
     {
       "id": "a_a0e06a6fcb54",
-      "name": "恐龍的五官在側面",
+      "name": "",
+      "name_inferred": "恐龍的五官在側面",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/miba_1.8/",
       "socials": [
@@ -14833,7 +15557,9 @@
     },
     {
       "id": "a_a0fe6fb743c8",
-      "name": "本喵放空自我",
+      "name": "",
+      "name_inferred": "本喵放空自我",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/YuutsuNeko/",
       "socials": [
@@ -14846,7 +15572,9 @@
     },
     {
       "id": "a_a2dfa5ddf3c3",
-      "name": "環繞著土星的光環 ",
+      "name": "",
+      "name_inferred": "環繞著土星的光環 ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/tama48849",
       "socials": [
@@ -14859,7 +15587,9 @@
     },
     {
       "id": "a_a33b957ea2fa",
-      "name": "蜜糖波旁",
+      "name": "",
+      "name_inferred": "蜜糖波旁",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/harai.uine",
       "socials": [
@@ -14872,7 +15602,9 @@
     },
     {
       "id": "a_a44b5b95a82b",
-      "name": "沓沓",
+      "name": "",
+      "name_inferred": "沓沓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ut_91127/",
       "socials": [
@@ -14885,7 +15617,9 @@
     },
     {
       "id": "a_a44d182e67e2",
-      "name": "羊角蟹粉",
+      "name": "",
+      "name_inferred": "羊角蟹粉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
       "socials": [
@@ -14898,7 +15632,9 @@
     },
     {
       "id": "a_a53a6d227fc4",
-      "name": "嬰兒站在停屍間問醫生是保爸爸還是保媽媽",
+      "name": "",
+      "name_inferred": "嬰兒站在停屍間問醫生是保爸爸還是保媽媽",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/t0ng_eyyy/",
       "socials": [
@@ -14911,7 +15647,9 @@
     },
     {
       "id": "a_a56507228360",
-      "name": "須彌芥子",
+      "name": "",
+      "name_inferred": "須彌芥子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/a983azy",
       "socials": [
@@ -14924,7 +15662,9 @@
     },
     {
       "id": "a_a5856a921b74",
-      "name": "C.I.L.S Box",
+      "name": "",
+      "name_inferred": "C.I.L.S Box",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/cilsbox/",
       "socials": [
@@ -14937,7 +15677,9 @@
     },
     {
       "id": "a_a5f784e601df",
-      "name": "迷你蛋",
+      "name": "",
+      "name_inferred": "迷你蛋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/nagoberry",
       "socials": [
@@ -14950,7 +15692,9 @@
     },
     {
       "id": "a_a631bd78d6f8",
-      "name": "CEMACEMAS",
+      "name": "",
+      "name_inferred": "CEMACEMAS",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/yui_creator/",
       "socials": [
@@ -14963,7 +15707,9 @@
     },
     {
       "id": "a_a6c6c13c22f6",
-      "name": "少女心室",
+      "name": "",
+      "name_inferred": "少女心室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/crybaby_77_illustration/",
       "socials": [
@@ -14976,7 +15722,9 @@
     },
     {
       "id": "a_a6d35a42ab37",
-      "name": "古藤工作室 by MOMO",
+      "name": "",
+      "name_inferred": "古藤工作室 by MOMO",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/gutenmomo",
       "socials": [
@@ -14989,7 +15737,9 @@
     },
     {
       "id": "a_a7040b545d24",
-      "name": "四季更迭的翻車魚",
+      "name": "",
+      "name_inferred": "四季更迭的翻車魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/MOLAMOLAComics",
       "socials": [
@@ -15002,7 +15752,9 @@
     },
     {
       "id": "a_a72de8b13ec8",
-      "name": "•°+夜落烏啼+°•",
+      "name": "",
+      "name_inferred": "•°+夜落烏啼+°•",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/bossraven77/",
       "socials": [
@@ -15015,7 +15767,9 @@
     },
     {
       "id": "a_a886ffba4980",
-      "name": "P星帶月",
+      "name": "",
+      "name_inferred": "P星帶月",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97",
       "socials": [
@@ -15028,7 +15782,9 @@
     },
     {
       "id": "a_a8e8257f7f7d",
-      "name": "甜品製造所",
+      "name": "",
+      "name_inferred": "甜品製造所",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/liu.tong.xue.241219/",
       "socials": [
@@ -15041,7 +15797,9 @@
     },
     {
       "id": "a_a9689fe60fe0",
-      "name": "bbibinbing",
+      "name": "",
+      "name_inferred": "bbibinbing",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/bbibinbingART/",
       "socials": [
@@ -15054,7 +15812,9 @@
     },
     {
       "id": "a_a992a5dfc5b2",
-      "name": "kikokako",
+      "name": "",
+      "name_inferred": "kikokako",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/kikokakok",
       "socials": [
@@ -15067,7 +15827,9 @@
     },
     {
       "id": "a_a99a8bbbf6b3",
-      "name": "sailor b-612",
+      "name": "",
+      "name_inferred": "sailor b-612",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
       "socials": [
@@ -15080,7 +15842,9 @@
     },
     {
       "id": "a_aa8afb7bf664",
-      "name": "文字滿苑",
+      "name": "",
+      "name_inferred": "文字滿苑",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/flyinglo",
       "socials": [
@@ -15093,7 +15857,9 @@
     },
     {
       "id": "a_aa9044a8dee1",
-      "name": "PONKA",
+      "name": "",
+      "name_inferred": "PONKA",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/ponka2024",
       "socials": [
@@ -15106,7 +15872,9 @@
     },
     {
       "id": "a_aaa559d8a745",
-      "name": "古比Gubi",
+      "name": "",
+      "name_inferred": "古比Gubi",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/gubiTW",
       "socials": [
@@ -15119,7 +15887,9 @@
     },
     {
       "id": "a_ab3819a29509",
-      "name": "taimini棉花娃衣",
+      "name": "",
+      "name_inferred": "taimini棉花娃衣",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/taimini865",
       "socials": [
@@ -15133,6 +15903,8 @@
     {
       "id": "a_ac6275a30b30",
       "name": "ラプトル7",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
@@ -15140,13 +15912,17 @@
     {
       "id": "a_ac792dcc8d22",
       "name": "水神",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_acdd66b90078",
-      "name": "米De加奶不加糖",
+      "name": "",
+      "name_inferred": "米De加奶不加糖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/a86872329",
       "socials": [
@@ -15159,7 +15935,9 @@
     },
     {
       "id": "a_ad38cd9a7134",
-      "name": "汁星",
+      "name": "",
+      "name_inferred": "汁星",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "http://www.plurk.com/kazA_A",
       "socials": [
@@ -15172,7 +15950,9 @@
     },
     {
       "id": "a_ad96eac8285c",
-      "name": "瘋人塔",
+      "name": "",
+      "name_inferred": "瘋人塔",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/gunn11222/",
       "socials": [
@@ -15185,7 +15965,9 @@
     },
     {
       "id": "a_ade7fd39106e",
-      "name": "喬魯諾巴巴大俠二號",
+      "name": "",
+      "name_inferred": "喬魯諾巴巴大俠二號",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/u/sayoku",
       "socials": [
@@ -15198,7 +15980,9 @@
     },
     {
       "id": "a_ae2e0def98d1",
-      "name": "山鐘塔第三防衛機關",
+      "name": "",
+      "name_inferred": "山鐘塔第三防衛機關",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/shi.zhong.394980/",
       "socials": [
@@ -15211,7 +15995,9 @@
     },
     {
       "id": "a_ae525c039a80",
-      "name": "JO世主JO我一命",
+      "name": "",
+      "name_inferred": "JO世主JO我一命",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/cwy.0316.joestar/",
       "socials": [
@@ -15224,7 +16010,9 @@
     },
     {
       "id": "a_aea788a9694a",
-      "name": "風聲颯颯",
+      "name": "",
+      "name_inferred": "風聲颯颯",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/lifa4dream",
       "socials": [
@@ -15237,7 +16025,9 @@
     },
     {
       "id": "a_aebc3a181c6d",
-      "name": "薄荷巧克力",
+      "name": "",
+      "name_inferred": "薄荷巧克力",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
       "socials": [
@@ -15250,7 +16040,9 @@
     },
     {
       "id": "a_aee147b45aa8",
-      "name": "西米不是米",
+      "name": "",
+      "name_inferred": "西米不是米",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/simelu2016",
       "socials": [
@@ -15263,7 +16055,9 @@
     },
     {
       "id": "a_af4618460316",
-      "name": "狐咖啡",
+      "name": "",
+      "name_inferred": "狐咖啡",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/foxcoffeexx/",
       "socials": [
@@ -15276,7 +16070,9 @@
     },
     {
       "id": "a_af483169587b",
-      "name": "夜行飛船",
+      "name": "",
+      "name_inferred": "夜行飛船",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/zh-tw/witlhgti",
       "socials": [
@@ -15304,7 +16100,9 @@
     },
     {
       "id": "a_af5b36debf57",
-      "name": "一月一日委託行",
+      "name": "",
+      "name_inferred": "一月一日委託行",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@fromjanuary1st",
       "socials": [
@@ -15317,7 +16115,9 @@
     },
     {
       "id": "a_af8f6e997e63",
-      "name": "YUI優伊",
+      "name": "",
+      "name_inferred": "YUI優伊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/yuiotagiri/",
       "socials": [
@@ -15330,7 +16130,9 @@
     },
     {
       "id": "a_b0ba7589e57d",
-      "name": "初入貓蘆",
+      "name": "",
+      "name_inferred": "初入貓蘆",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/jj_catclaw",
       "socials": [
@@ -15343,7 +16145,9 @@
     },
     {
       "id": "a_b0f06aaf96fb",
-      "name": "魔法少女被告席",
+      "name": "",
+      "name_inferred": "魔法少女被告席",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/jiang.jiang.193870",
       "socials": [
@@ -15356,7 +16160,9 @@
     },
     {
       "id": "a_b180a7e61a14",
-      "name": "紫色狐狸山",
+      "name": "",
+      "name_inferred": "紫色狐狸山",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/lll8256",
       "socials": [
@@ -15369,7 +16175,9 @@
     },
     {
       "id": "a_b1b9a573ed87",
-      "name": "ML台灣外景事務局",
+      "name": "",
+      "name_inferred": "ML台灣外景事務局",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/GesamtkunstwerkundEi",
       "socials": [
@@ -15382,7 +16190,9 @@
     },
     {
       "id": "a_b1d3ee2ef624",
-      "name": "深海裡的大鯨魚",
+      "name": "",
+      "name_inferred": "深海裡的大鯨魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/BlueWhale.s.art",
       "socials": [
@@ -15395,7 +16205,9 @@
     },
     {
       "id": "a_b1db032fe05c",
-      "name": "這世界充滿著愛",
+      "name": "",
+      "name_inferred": "這世界充滿著愛",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/shentos",
       "socials": [
@@ -15408,7 +16220,9 @@
     },
     {
       "id": "a_b1e2f4702fe4",
-      "name": "句點",
+      "name": "",
+      "name_inferred": "句點",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr",
       "socials": [
@@ -15421,7 +16235,9 @@
     },
     {
       "id": "a_b2e2c03f464d",
-      "name": "JAkUtEn*",
+      "name": "",
+      "name_inferred": "JAkUtEn*",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/8694",
       "socials": [
@@ -15434,7 +16250,9 @@
     },
     {
       "id": "a_b3fb16b89fd9",
-      "name": "常勝冠軍為你嗯吶",
+      "name": "",
+      "name_inferred": "常勝冠軍為你嗯吶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://sakuds.carrd.co",
       "socials": [
@@ -15448,13 +16266,17 @@
     {
       "id": "a_b4020a99d5e2",
       "name": "マミハ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_b4c202a36a44",
-      "name": "雪之饗(studio e'kis)",
+      "name": "",
+      "name_inferred": "雪之饗(studio e'kis)",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ekis2018",
       "socials": [
@@ -15467,7 +16289,9 @@
     },
     {
       "id": "a_b545c7b1814b",
-      "name": "又當寡婦了",
+      "name": "",
+      "name_inferred": "又當寡婦了",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/liu.ze.mei.ying",
       "socials": [
@@ -15480,7 +16304,9 @@
     },
     {
       "id": "a_b659b5a7631b",
-      "name": "阿吉×微光島嶼",
+      "name": "",
+      "name_inferred": "阿吉×微光島嶼",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/jidraw018/",
       "socials": [
@@ -15493,7 +16319,9 @@
     },
     {
       "id": "a_b65d29c893d9",
-      "name": "Vivace",
+      "name": "",
+      "name_inferred": "Vivace",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/saza_073",
       "socials": [
@@ -15506,7 +16334,9 @@
     },
     {
       "id": "a_b6c67d6db5c1",
-      "name": "n++",
+      "name": "",
+      "name_inferred": "n++",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@nu.rkgk",
       "socials": [
@@ -15520,6 +16350,8 @@
     {
       "id": "a_b6fc49c2f690",
       "name": "Rumie Chen",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "https://www.facebook.com/shadowsinkincoffee/",
       "socials": [
@@ -15537,7 +16369,9 @@
     },
     {
       "id": "a_b90427a46f7c",
-      "name": "亞矢愛吃爆米花",
+      "name": "",
+      "name_inferred": "亞矢愛吃爆米花",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ayas929",
       "socials": [
@@ -15550,7 +16384,9 @@
     },
     {
       "id": "a_b93b498d92cf",
-      "name": "南方山竹筍",
+      "name": "",
+      "name_inferred": "南方山竹筍",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
       "socials": [
@@ -15563,7 +16399,9 @@
     },
     {
       "id": "a_b975fc77c131",
-      "name": "心靜自然廢",
+      "name": "",
+      "name_inferred": "心靜自然廢",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/letyourmidpeace",
       "socials": [
@@ -15576,7 +16414,9 @@
     },
     {
       "id": "a_ba0028af0551",
-      "name": "寢室裡養鳥",
+      "name": "",
+      "name_inferred": "寢室裡養鳥",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/keepingbirds",
       "socials": [
@@ -15589,7 +16429,9 @@
     },
     {
       "id": "a_ba372a3db5fd",
-      "name": "每天戳一句",
+      "name": "",
+      "name_inferred": "每天戳一句",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/shihchan",
       "socials": [
@@ -15602,7 +16444,9 @@
     },
     {
       "id": "a_bb5969e8a2b8",
-      "name": "塔邦棒棒",
+      "name": "",
+      "name_inferred": "塔邦棒棒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://bsky.app/profile/taboom002.bsky.social",
       "socials": [
@@ -15620,7 +16464,9 @@
     },
     {
       "id": "a_bd101ced774c",
-      "name": "怎麼沒有麥香魚",
+      "name": "",
+      "name_inferred": "怎麼沒有麥香魚",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/truemako21",
       "socials": [
@@ -15633,7 +16479,9 @@
     },
     {
       "id": "a_bd7f512d4e14",
-      "name": "天行者工作室",
+      "name": "",
+      "name_inferred": "天行者工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/ss0912309713",
       "socials": [
@@ -15646,7 +16494,9 @@
     },
     {
       "id": "a_be03a47f4b47",
-      "name": "奈櫻工坊",
+      "name": "",
+      "name_inferred": "奈櫻工坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
       "socials": [
@@ -15660,6 +16510,8 @@
     {
       "id": "a_be1bf9f49977",
       "name": "顧攤 helper",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "https://www.facebook.com/blackrosetwc/",
       "socials": [
@@ -15672,7 +16524,9 @@
     },
     {
       "id": "a_bf4fa0d0f8e8",
-      "name": "庫樓",
+      "name": "",
+      "name_inferred": "庫樓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1507/goods",
       "socials": [
@@ -15685,7 +16539,9 @@
     },
     {
       "id": "a_bfae0600c25f",
-      "name": "廢人線",
+      "name": "",
+      "name_inferred": "廢人線",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://wxf0202.blog.fc2.com/",
       "socials": [
@@ -15698,7 +16554,9 @@
     },
     {
       "id": "a_c01247bb7cb4",
-      "name": "Streamer Fairy Art",
+      "name": "",
+      "name_inferred": "Streamer Fairy Art",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/Streamer_Fairy_Art",
       "socials": [
@@ -15711,7 +16569,9 @@
     },
     {
       "id": "a_c04d4039926f",
-      "name": "Y是英文字母的Y",
+      "name": "",
+      "name_inferred": "Y是英文字母的Y",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/yenchun916",
       "socials": [
@@ -15724,7 +16584,9 @@
     },
     {
       "id": "a_c11706fb056f",
-      "name": "白夢夜空",
+      "name": "",
+      "name_inferred": "白夢夜空",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://instagram.com/shiroyu.store/",
       "socials": [
@@ -15737,7 +16599,9 @@
     },
     {
       "id": "a_c11d784dc7f3",
-      "name": "安安淡定",
+      "name": "",
+      "name_inferred": "安安淡定",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://youtu.be/ZinwCw1XCiI",
       "socials": [
@@ -15750,7 +16614,9 @@
     },
     {
       "id": "a_c175e7f1ab0d",
-      "name": "布丁杯★",
+      "name": "",
+      "name_inferred": "布丁杯★",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hahu_paint/",
       "socials": [
@@ -15763,7 +16629,9 @@
     },
     {
       "id": "a_c19349cc6d9f",
-      "name": "檸檬青Xuetong",
+      "name": "",
+      "name_inferred": "檸檬青Xuetong",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/xuetong1205/",
       "socials": [
@@ -15776,7 +16644,9 @@
     },
     {
       "id": "a_c194c81213a9",
-      "name": "今夜漫長",
+      "name": "",
+      "name_inferred": "今夜漫長",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/lostsilence",
       "socials": [
@@ -15789,7 +16659,9 @@
     },
     {
       "id": "a_c2006c01e940",
-      "name": "74 PrODUCTION",
+      "name": "",
+      "name_inferred": "74 PrODUCTION",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/IdolProduction74",
       "socials": [
@@ -15802,7 +16674,9 @@
     },
     {
       "id": "a_c215d51e1d6e",
-      "name": "青雨アメ",
+      "name": "",
+      "name_inferred": "青雨アメ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/ame_aou",
       "socials": [
@@ -15835,7 +16709,9 @@
     },
     {
       "id": "a_c220be64297f",
-      "name": "木回木 horohoro",
+      "name": "",
+      "name_inferred": "木回木 horohoro",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/horohoro",
       "socials": [
@@ -15848,7 +16724,9 @@
     },
     {
       "id": "a_c25bcef45053",
-      "name": "午夜星辰",
+      "name": "",
+      "name_inferred": "午夜星辰",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1CEXsim9cC/",
       "socials": [
@@ -15861,7 +16739,9 @@
     },
     {
       "id": "a_c2fa5803c2ef",
-      "name": "超開星",
+      "name": "",
+      "name_inferred": "超開星",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/flaming_starrr/",
       "socials": [
@@ -15874,7 +16754,9 @@
     },
     {
       "id": "a_c3463609fe2c",
-      "name": "犬蜀Ray",
+      "name": "",
+      "name_inferred": "犬蜀Ray",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61572454107536",
       "socials": [
@@ -15887,7 +16769,9 @@
     },
     {
       "id": "a_c4e83188516b",
-      "name": "錯落交織 Interweave",
+      "name": "",
+      "name_inferred": "錯落交織 Interweave",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://interweave.booth.pm/",
       "socials": [
@@ -15905,7 +16789,9 @@
     },
     {
       "id": "a_c58ed3835f20",
-      "name": "AYS可愛生活伴侶",
+      "name": "",
+      "name_inferred": "AYS可愛生活伴侶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/anonymous626_ig/",
       "socials": [
@@ -15918,7 +16804,9 @@
     },
     {
       "id": "a_c64d1c7fd0e9",
-      "name": "JULAI小宇宙",
+      "name": "",
+      "name_inferred": "JULAI小宇宙",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/fiiishion/",
       "socials": [
@@ -15931,7 +16819,9 @@
     },
     {
       "id": "a_c6e980191791",
-      "name": "貓專用牛乳",
+      "name": "",
+      "name_inferred": "貓專用牛乳",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/mikan888/",
       "socials": [
@@ -15944,7 +16834,9 @@
     },
     {
       "id": "a_c6ecb0eea035",
-      "name": "遇見幸福手創館Met Happiness ",
+      "name": "",
+      "name_inferred": "遇見幸福手創館Met Happiness ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/189QQVF5Pm/",
       "socials": [
@@ -15957,7 +16849,9 @@
     },
     {
       "id": "a_c762bcea00b8",
-      "name": "台北人",
+      "name": "",
+      "name_inferred": "台北人",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/kun.salamander.3/",
       "socials": [
@@ -15970,7 +16864,9 @@
     },
     {
       "id": "a_c7b2a43f3e88",
-      "name": "你也是舞台少女？",
+      "name": "",
+      "name_inferred": "你也是舞台少女？",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/Irene309w/",
       "socials": [
@@ -15983,7 +16879,9 @@
     },
     {
       "id": "a_c8e1bb8cb3bb",
-      "name": "天下第一邦",
+      "name": "",
+      "name_inferred": "天下第一邦",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://bestbandreamers.wixsite.com/mygo",
       "socials": [
@@ -15996,7 +16894,9 @@
     },
     {
       "id": "a_c93e187fb260",
-      "name": "KIPEN正港奇片",
+      "name": "",
+      "name_inferred": "KIPEN正港奇片",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hguuy123/",
       "socials": [
@@ -16009,7 +16909,9 @@
     },
     {
       "id": "a_c979f74f90f0",
-      "name": "平生純 Hirao Jun",
+      "name": "",
+      "name_inferred": "平生純 Hirao Jun",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/hirao_jun_/",
       "socials": [
@@ -16022,7 +16924,9 @@
     },
     {
       "id": "a_c9e158b76076",
-      "name": "月刊蜉迴都",
+      "name": "",
+      "name_inferred": "月刊蜉迴都",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://epilog.blog49.fc2.com/",
       "socials": [
@@ -16035,7 +16939,9 @@
     },
     {
       "id": "a_ca16eef463f7",
-      "name": "魚燒",
+      "name": "",
+      "name_inferred": "魚燒",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yuclovers",
       "socials": [
@@ -16048,7 +16954,9 @@
     },
     {
       "id": "a_ca65290c2e9f",
-      "name": "Tobey·又·",
+      "name": "",
+      "name_inferred": "Tobey·又·",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://potofu.me/tobey",
       "socials": [
@@ -16061,7 +16969,9 @@
     },
     {
       "id": "a_ca8e902b5cff",
-      "name": "今天肚子餓",
+      "name": "",
+      "name_inferred": "今天肚子餓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/kiri520/",
       "socials": [
@@ -16074,7 +16984,9 @@
     },
     {
       "id": "a_caa82958f8a4",
-      "name": "吐司狐的麵包樹",
+      "name": "",
+      "name_inferred": "吐司狐的麵包樹",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
       "socials": [
@@ -16087,7 +16999,9 @@
     },
     {
       "id": "a_cb0226b2be63",
-      "name": "櫻羽艾瑪會側手翻3.0",
+      "name": "",
+      "name_inferred": "櫻羽艾瑪會側手翻3.0",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/615853064360/",
       "socials": [
@@ -16101,13 +17015,17 @@
     {
       "id": "a_cc6909c084e0",
       "name": "狼尾草",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_cceafad29f3f",
-      "name": "東雲之森",
+      "name": "",
+      "name_inferred": "東雲之森",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/p/3gvbo8hc97",
       "socials": [
@@ -16120,7 +17038,9 @@
     },
     {
       "id": "a_cd83e224c7e8",
-      "name": "口口鳥工作室",
+      "name": "",
+      "name_inferred": "口口鳥工作室",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/winnie292720",
       "socials": [
@@ -16133,7 +17053,9 @@
     },
     {
       "id": "a_ce0cc24e5b7b",
-      "name": "阿嵐章魚繪圖手作舖",
+      "name": "",
+      "name_inferred": "阿嵐章魚繪圖手作舖",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1BwHfvUqMu/",
       "socials": [
@@ -16146,7 +17068,9 @@
     },
     {
       "id": "a_cf038b22fec3",
-      "name": "迷你小啾的手創窩",
+      "name": "",
+      "name_inferred": "迷你小啾的手創窩",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
       "socials": [
@@ -16159,7 +17083,9 @@
     },
     {
       "id": "a_cf3a19e797fb",
-      "name": "勝利早餐店",
+      "name": "",
+      "name_inferred": "勝利早餐店",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/choco6644",
       "socials": [
@@ -16172,7 +17098,9 @@
     },
     {
       "id": "a_cfeb77c84a62",
-      "name": "灰色和諧",
+      "name": "",
+      "name_inferred": "灰色和諧",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://cxc.today/zh/@Gray_Harmony/work",
       "socials": [
@@ -16185,7 +17113,9 @@
     },
     {
       "id": "a_d02a16b89beb",
-      "name": "巨龍棲息地",
+      "name": "",
+      "name_inferred": "巨龍棲息地",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/twponpon",
       "socials": [
@@ -16198,7 +17128,9 @@
     },
     {
       "id": "a_d118d9342e6f",
-      "name": "醫生說保羅沃克於是媽媽轉身向山裡走去",
+      "name": "",
+      "name_inferred": "醫生說保羅沃克於是媽媽轉身向山裡走去",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/botoakaza/",
       "socials": [
@@ -16211,7 +17143,9 @@
     },
     {
       "id": "a_d1c7b09049bc",
-      "name": "美栗",
+      "name": "",
+      "name_inferred": "美栗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
       "socials": [
@@ -16225,13 +17159,17 @@
     {
       "id": "a_d1d61b12d81e",
       "name": "某波",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_d2caae8d57ec",
-      "name": "跟著鐵球跑",
+      "name": "",
+      "name_inferred": "跟著鐵球跑",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/aliali_c",
       "socials": [
@@ -16244,7 +17182,9 @@
     },
     {
       "id": "a_d3771a5b040d",
-      "name": "西宿舍洗衣間",
+      "name": "",
+      "name_inferred": "西宿舍洗衣間",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/spton",
       "socials": [
@@ -16257,7 +17197,9 @@
     },
     {
       "id": "a_d40f9ba7deb6",
-      "name": "光明系同人女",
+      "name": "",
+      "name_inferred": "光明系同人女",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ooinn_arts",
       "socials": [
@@ -16270,7 +17212,9 @@
     },
     {
       "id": "a_d4691f7aae66",
-      "name": "肝硬化企業-通通爆肝部門",
+      "name": "",
+      "name_inferred": "肝硬化企業-通通爆肝部門",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@buuuuu8le",
       "socials": [
@@ -16283,7 +17227,9 @@
     },
     {
       "id": "a_d471f0bbd86d",
-      "name": "蜂蜜奶油",
+      "name": "",
+      "name_inferred": "蜂蜜奶油",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/u/therealchien",
       "socials": [
@@ -16296,7 +17242,9 @@
     },
     {
       "id": "a_d473933bd7dc",
-      "name": "月代雪會後空翻2.0",
+      "name": "",
+      "name_inferred": "月代雪會後空翻2.0",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61584209204739",
       "socials": [
@@ -16309,7 +17257,9 @@
     },
     {
       "id": "a_d4b2b1ce01cc",
-      "name": "玦聚-Jadeverse",
+      "name": "",
+      "name_inferred": "玦聚-Jadeverse",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://lit.link/en/jadeverse",
       "socials": [
@@ -16322,7 +17272,9 @@
     },
     {
       "id": "a_d529b9b0c0cf",
-      "name": "XZY in 冷凍庫",
+      "name": "",
+      "name_inferred": "XZY in 冷凍庫",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1JQ7Y3ei6c/",
       "socials": [
@@ -16335,7 +17287,9 @@
     },
     {
       "id": "a_d5bc5acb88c2",
-      "name": "角砂糖kakusugar",
+      "name": "",
+      "name_inferred": "角砂糖kakusugar",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
       "socials": [
@@ -16348,7 +17302,9 @@
     },
     {
       "id": "a_d6052dd44a5b",
-      "name": "東閣小樓",
+      "name": "",
+      "name_inferred": "東閣小樓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/daybreak2779?",
       "socials": [
@@ -16361,7 +17317,9 @@
     },
     {
       "id": "a_d64f0e9971e3",
-      "name": "小布j.us",
+      "name": "",
+      "name_inferred": "小布j.us",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/sghg181",
       "socials": [
@@ -16374,7 +17332,9 @@
     },
     {
       "id": "a_d6b68aa047e6",
-      "name": "薛丁格的水族箱",
+      "name": "",
+      "name_inferred": "薛丁格的水族箱",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/theice",
       "socials": [
@@ -16387,7 +17347,9 @@
     },
     {
       "id": "a_d718255b2416",
-      "name": "悸胱香香G",
+      "name": "",
+      "name_inferred": "悸胱香香G",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/nyanggbbb",
       "socials": [
@@ -16400,7 +17362,9 @@
     },
     {
       "id": "a_d77dbd5d8be9",
-      "name": "狐狸的尾巴",
+      "name": "",
+      "name_inferred": "狐狸的尾巴",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://reurl.cc/R9pnmz",
       "socials": [
@@ -16413,7 +17377,9 @@
     },
     {
       "id": "a_d7f37536ffb6",
-      "name": "微米手作工坊",
+      "name": "",
+      "name_inferred": "微米手作工坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61554262122181",
       "socials": [
@@ -16426,7 +17392,9 @@
     },
     {
       "id": "a_d7fcf73259e8",
-      "name": "電梯上樓",
+      "name": "",
+      "name_inferred": "電梯上樓",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/lift.quarter",
       "socials": [
@@ -16439,7 +17407,9 @@
     },
     {
       "id": "a_da1e8374d9e5",
-      "name": "fu富",
+      "name": "",
+      "name_inferred": "fu富",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/___.fu____/",
       "socials": [
@@ -16452,7 +17422,9 @@
     },
     {
       "id": "a_da26478672dc",
-      "name": "KitsuneP.毛茸樂園",
+      "name": "",
+      "name_inferred": "KitsuneP.毛茸樂園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/teamss_2018_foxskin068/",
       "socials": [
@@ -16465,7 +17437,9 @@
     },
     {
       "id": "a_dac89a557392",
-      "name": "仙界大濕快樂攤",
+      "name": "",
+      "name_inferred": "仙界大濕快樂攤",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/wet_elephant/",
       "socials": [
@@ -16478,7 +17452,9 @@
     },
     {
       "id": "a_db4423cb0adb",
-      "name": "夜触人身",
+      "name": "",
+      "name_inferred": "夜触人身",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yetsubody",
       "socials": [
@@ -16491,7 +17467,9 @@
     },
     {
       "id": "a_db4d75141326",
-      "name": "ㄒㄒ不是TT",
+      "name": "",
+      "name_inferred": "ㄒㄒ不是TT",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/tt1219_/",
       "socials": [
@@ -16504,7 +17482,9 @@
     },
     {
       "id": "a_dd119f80d51c",
-      "name": "菫色之庭",
+      "name": "",
+      "name_inferred": "菫色之庭",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/_pansy.yard_/",
       "socials": [
@@ -16517,7 +17497,9 @@
     },
     {
       "id": "a_dd43d76bb52e",
-      "name": "男男軟體園區",
+      "name": "",
+      "name_inferred": "男男軟體園區",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/sakuraharu",
       "socials": [
@@ -16531,13 +17513,17 @@
     {
       "id": "a_dde5db50fadd",
       "name": "阿臥",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_ddfbb48e1871",
-      "name": "慢來moonlight",
+      "name": "",
+      "name_inferred": "慢來moonlight",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/moonlight432Hz",
       "socials": [
@@ -16550,7 +17536,9 @@
     },
     {
       "id": "a_de70fc4a09a0",
-      "name": "Kakela＊Hane+孤僻少女",
+      "name": "",
+      "name_inferred": "Kakela＊Hane+孤僻少女",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
       "socials": [
@@ -16573,7 +17561,9 @@
     },
     {
       "id": "a_debffc7254b1",
-      "name": "激凍冰的紅茶",
+      "name": "",
+      "name_inferred": "激凍冰的紅茶",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/shu_pong203",
       "socials": [
@@ -16586,7 +17576,9 @@
     },
     {
       "id": "a_dec9962f7ef8",
-      "name": "muto!",
+      "name": "",
+      "name_inferred": "muto!",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/dimly_bobo",
       "socials": [
@@ -16599,7 +17591,9 @@
     },
     {
       "id": "a_def163307c88",
-      "name": "鯨魚窩",
+      "name": "",
+      "name_inferred": "鯨魚窩",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://diewhale.tokiame.net",
       "socials": [
@@ -16612,7 +17606,9 @@
     },
     {
       "id": "a_df31c7ea631b",
-      "name": "悠紗",
+      "name": "",
+      "name_inferred": "悠紗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/yuusa200502/",
       "socials": [
@@ -16625,14 +17621,18 @@
     },
     {
       "id": "a_df40cab50128",
-      "name": "落英之都",
+      "name": "",
+      "name_inferred": "落英之都",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "#",
       "socials": []
     },
     {
       "id": "a_df563c90ca65",
-      "name": "糸中註定冴愛凛",
+      "name": "",
+      "name_inferred": "糸中註定冴愛凛",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/irina_reichi",
       "socials": [
@@ -16645,7 +17645,9 @@
     },
     {
       "id": "a_df66ca62e553",
-      "name": "風船猫插畫神社",
+      "name": "",
+      "name_inferred": "風船猫插畫神社",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/lai.liang.yan.2025/",
       "socials": [
@@ -16658,7 +17660,9 @@
     },
     {
       "id": "a_df97e0c406d7",
-      "name": "LOVE BUZZ",
+      "name": "",
+      "name_inferred": "LOVE BUZZ",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/Synka",
       "socials": [
@@ -16671,7 +17675,9 @@
     },
     {
       "id": "a_e0018c24cf6d",
-      "name": "天羽然Deangelo",
+      "name": "",
+      "name_inferred": "天羽然Deangelo",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/deangelo_1024/",
       "socials": [
@@ -16684,7 +17690,9 @@
     },
     {
       "id": "a_e02103b3d62c",
-      "name": "C=C",
+      "name": "",
+      "name_inferred": "C=C",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/x321k123",
       "socials": [
@@ -16697,7 +17705,9 @@
     },
     {
       "id": "a_e0d16d646cf5",
-      "name": "3206",
+      "name": "",
+      "name_inferred": "3206",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/j3180554",
       "socials": [
@@ -16710,7 +17720,9 @@
     },
     {
       "id": "a_e111ac3430ef",
-      "name": "台灣百合漫畫研究",
+      "name": "",
+      "name_inferred": "台灣百合漫畫研究",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://linktr.ee/taiwanlilyproject",
       "socials": [
@@ -16743,7 +17755,9 @@
     },
     {
       "id": "a_e1c8e83f21ba",
-      "name": "Super ASERI 超級焦躁",
+      "name": "",
+      "name_inferred": "Super ASERI 超級焦躁",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@creauset_x13a",
       "socials": [
@@ -16756,7 +17770,9 @@
     },
     {
       "id": "a_e404d084fe28",
-      "name": "黑鮪食堂",
+      "name": "",
+      "name_inferred": "黑鮪食堂",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/blacktuna/",
       "socials": [
@@ -16769,7 +17785,9 @@
     },
     {
       "id": "a_e69e12c3070d",
-      "name": "GG++",
+      "name": "",
+      "name_inferred": "GG++",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/karo3618",
       "socials": [
@@ -16782,7 +17800,9 @@
     },
     {
       "id": "a_e7ab5fdd169f",
-      "name": "青瀞農場狗狗狗",
+      "name": "",
+      "name_inferred": "青瀞農場狗狗狗",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://portaly.cc/kyouwork",
       "socials": [
@@ -16795,7 +17815,9 @@
     },
     {
       "id": "a_e884687a81a3",
-      "name": "紅豆真滷蛋",
+      "name": "",
+      "name_inferred": "紅豆真滷蛋",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
       "socials": [
@@ -16808,7 +17830,9 @@
     },
     {
       "id": "a_e958ef19a994",
-      "name": "Birdink",
+      "name": "",
+      "name_inferred": "Birdink",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/birdink.koriyangart/",
       "socials": [
@@ -16822,13 +17846,17 @@
     {
       "id": "a_e95fb932d20f",
       "name": "+0",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_e98f337c13d6",
-      "name": "新夭brainholesky",
+      "name": "",
+      "name_inferred": "新夭brainholesky",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/brainholesky/",
       "socials": [
@@ -16841,7 +17869,9 @@
     },
     {
       "id": "a_eae2fbc23928",
-      "name": "怪獸少女KaijuShoujo",
+      "name": "",
+      "name_inferred": "怪獸少女KaijuShoujo",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/sian.liu.756/",
       "socials": [
@@ -16855,13 +17885,17 @@
     {
       "id": "a_eb4515110bb1",
       "name": "零零人",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_eb75c2f376b5",
-      "name": "FukamiShop",
+      "name": "",
+      "name_inferred": "FukamiShop",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/conk4",
       "socials": [
@@ -16874,7 +17908,9 @@
     },
     {
       "id": "a_eb870f806258",
-      "name": "水母阿嬤手作",
+      "name": "",
+      "name_inferred": "水母阿嬤手作",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/allen210146",
       "socials": [
@@ -16887,7 +17923,9 @@
     },
     {
       "id": "a_ec50a9b929f6",
-      "name": "COC_TRPG原創模組/劇本_2be禿筆",
+      "name": "",
+      "name_inferred": "COC_TRPG原創模組/劇本_2be禿筆",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/2be_2drink/",
       "socials": [
@@ -16900,7 +17938,9 @@
     },
     {
       "id": "a_ed83b2e64270",
-      "name": "亡骸之歌",
+      "name": "",
+      "name_inferred": "亡骸之歌",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/WhiteStyle1015",
       "socials": [
@@ -16913,7 +17953,9 @@
     },
     {
       "id": "a_ee9a3bd5ab13",
-      "name": "阿喵家",
+      "name": "",
+      "name_inferred": "阿喵家",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.youtube.com/@nukomimiP",
       "socials": [
@@ -16926,7 +17968,9 @@
     },
     {
       "id": "a_eef562f0026a",
-      "name": "日初翱祥-陌千",
+      "name": "",
+      "name_inferred": "日初翱祥-陌千",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@mochian0819",
       "socials": [
@@ -16939,7 +17983,9 @@
     },
     {
       "id": "a_ef2762780d0e",
-      "name": "小林他的家",
+      "name": "",
+      "name_inferred": "小林他的家",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/udalin0803/",
       "socials": [
@@ -16952,7 +17998,9 @@
     },
     {
       "id": "a_efa8e738dd88",
-      "name": "迷走。巡鹿",
+      "name": "",
+      "name_inferred": "迷走。巡鹿",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
       "socials": [
@@ -16965,7 +18013,9 @@
     },
     {
       "id": "a_f00afa47f06b",
-      "name": "向隅團",
+      "name": "",
+      "name_inferred": "向隅團",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://bwa9090.wixsite.com/nookpartner",
       "socials": [
@@ -16978,7 +18028,9 @@
     },
     {
       "id": "a_f03f979bc5d2",
-      "name": "墨水浴缸",
+      "name": "",
+      "name_inferred": "墨水浴缸",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/oruka_oru",
       "socials": [
@@ -16991,7 +18043,9 @@
     },
     {
       "id": "a_f07d27e70f07",
-      "name": "URA BOU",
+      "name": "",
+      "name_inferred": "URA BOU",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
       "socials": [
@@ -17004,7 +18058,9 @@
     },
     {
       "id": "a_f19ae2dafa4f",
-      "name": "期間限定",
+      "name": "",
+      "name_inferred": "期間限定",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://slow.work/",
       "socials": [
@@ -17017,7 +18073,9 @@
     },
     {
       "id": "a_f244df796970",
-      "name": "凱特少爺",
+      "name": "",
+      "name_inferred": "凱特少爺",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ryouarashi",
       "socials": [
@@ -17030,7 +18088,9 @@
     },
     {
       "id": "a_f25f70ce5eaa",
-      "name": "肝硬化企業-熬夜榨肝部門",
+      "name": "",
+      "name_inferred": "肝硬化企業-熬夜榨肝部門",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100057130852699",
       "socials": [
@@ -17043,7 +18103,9 @@
     },
     {
       "id": "a_f316162849c6",
-      "name": "直走到底",
+      "name": "",
+      "name_inferred": "直走到底",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/folia0702",
       "socials": [
@@ -17056,7 +18118,9 @@
     },
     {
       "id": "a_f34386636f25",
-      "name": "鯊魚腳速食",
+      "name": "",
+      "name_inferred": "鯊魚腳速食",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=61555969822241",
       "socials": [
@@ -17069,7 +18133,9 @@
     },
     {
       "id": "a_f584a29440d8",
-      "name": "晚安丁豆子",
+      "name": "",
+      "name_inferred": "晚安丁豆子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/ding8059",
       "socials": [
@@ -17082,7 +18148,9 @@
     },
     {
       "id": "a_f5ae270c86f4",
-      "name": "Big Wolf",
+      "name": "",
+      "name_inferred": "Big Wolf",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/gogo_wolf",
       "socials": [
@@ -17096,13 +18164,17 @@
     {
       "id": "a_f5c0620d04e0",
       "name": "楓月",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_f5c9a24af3c5",
-      "name": "我還沒嚮導uwu",
+      "name": "",
+      "name_inferred": "我還沒嚮導uwu",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
       "socials": [
@@ -17115,7 +18187,9 @@
     },
     {
       "id": "a_f5f6f1418798",
-      "name": "coolcoolburger",
+      "name": "",
+      "name_inferred": "coolcoolburger",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/coolcoolburger",
       "socials": [
@@ -17128,7 +18202,9 @@
     },
     {
       "id": "a_f66041decf36",
-      "name": "史前臺北人",
+      "name": "",
+      "name_inferred": "史前臺北人",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/coccyxdog/",
       "socials": [
@@ -17141,7 +18217,9 @@
     },
     {
       "id": "a_f834e19730b1",
-      "name": "老祖宗保佑我",
+      "name": "",
+      "name_inferred": "老祖宗保佑我",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/Luer_reul",
       "socials": [
@@ -17154,7 +18232,9 @@
     },
     {
       "id": "a_f83a55edd5c3",
-      "name": "一塊阿梨酥",
+      "name": "",
+      "name_inferred": "一塊阿梨酥",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.instagram.com/ali._.su_/",
       "socials": [
@@ -17167,7 +18247,9 @@
     },
     {
       "id": "a_f84bad70201f",
-      "name": "養魚要用浴缸",
+      "name": "",
+      "name_inferred": "養魚要用浴缸",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/mcj131825526",
       "socials": [
@@ -17180,7 +18262,9 @@
     },
     {
       "id": "a_f8a18d34b6b0",
-      "name": "刺刺工坊",
+      "name": "",
+      "name_inferred": "刺刺工坊",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/yoken1021",
       "socials": [
@@ -17193,7 +18277,9 @@
     },
     {
       "id": "a_f8b63ec60b04",
-      "name": "啉雜集",
+      "name": "",
+      "name_inferred": "啉雜集",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.threads.com/@_rskniwn_",
       "socials": [
@@ -17206,7 +18292,9 @@
     },
     {
       "id": "a_f91837c7fe69",
-      "name": "把查克拉集中到手上",
+      "name": "",
+      "name_inferred": "把查克拉集中到手上",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://myship.7-11.com.tw/general/detail/GM2106126257486",
       "socials": [
@@ -17219,7 +18307,9 @@
     },
     {
       "id": "a_f92acdfe8075",
-      "name": "ONE DAY HERO",
+      "name": "",
+      "name_inferred": "ONE DAY HERO",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/plusultra2026",
       "socials": [
@@ -17232,7 +18322,9 @@
     },
     {
       "id": "a_f92c8adfd061",
-      "name": "彩虹盤子",
+      "name": "",
+      "name_inferred": "彩虹盤子",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/CShiroha?",
       "socials": [
@@ -17245,7 +18337,9 @@
     },
     {
       "id": "a_f9a656f1351a",
-      "name": "一隻羊身上的羊毛",
+      "name": "",
+      "name_inferred": "一隻羊身上的羊毛",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/yomowork_mov",
       "socials": [
@@ -17258,7 +18352,9 @@
     },
     {
       "id": "a_f9b630d0a6a7",
-      "name": "倉庫角落",
+      "name": "",
+      "name_inferred": "倉庫角落",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/koma262",
       "socials": [
@@ -17271,7 +18367,9 @@
     },
     {
       "id": "a_f9da4f1da812",
-      "name": "MinuetWorks",
+      "name": "",
+      "name_inferred": "MinuetWorks",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://solo.to/travis_minuet",
       "socials": [
@@ -17284,7 +18382,9 @@
     },
     {
       "id": "a_fa8a455a236e",
-      "name": "腐黑學",
+      "name": "",
+      "name_inferred": "腐黑學",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/rbs2009",
       "socials": [
@@ -17297,7 +18397,9 @@
     },
     {
       "id": "a_faaca5391295",
-      "name": "SYUlei",
+      "name": "",
+      "name_inferred": "SYUlei",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/niwawulei",
       "socials": [
@@ -17310,7 +18412,9 @@
     },
     {
       "id": "a_faec7b249085",
-      "name": "船到橋頭自然直",
+      "name": "",
+      "name_inferred": "船到橋頭自然直",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/linda6030221",
       "socials": [
@@ -17323,7 +18427,9 @@
     },
     {
       "id": "a_fb244f0f0976",
-      "name": "貞尼鹹粥",
+      "name": "",
+      "name_inferred": "貞尼鹹粥",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/jenniecongee",
       "socials": [
@@ -17336,7 +18442,9 @@
     },
     {
       "id": "a_fb87b379b8a2",
-      "name": "畜生園",
+      "name": "",
+      "name_inferred": "畜生園",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://kuailedongwuyuan.wixsite.com/my-site-1",
       "socials": [
@@ -17349,7 +18457,9 @@
     },
     {
       "id": "a_fb91ed57a10b",
-      "name": "小民日子Dayslikethis",
+      "name": "",
+      "name_inferred": "小民日子Dayslikethis",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/18Dayslikethis",
       "socials": [
@@ -17362,7 +18472,9 @@
     },
     {
       "id": "a_fcf46ce19568",
-      "name": "同攤不同推",
+      "name": "",
+      "name_inferred": "同攤不同推",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://x.com/ak_lina0",
       "socials": [
@@ -17376,13 +18488,17 @@
     {
       "id": "a_fd5f79e59d94",
       "name": "マヨ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "",
       "socials": []
     },
     {
       "id": "a_fe008d465c68",
-      "name": "涵金手作",
+      "name": "",
+      "name_inferred": "涵金手作",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/hijin_handmand",
       "socials": [
@@ -17396,6 +18512,8 @@
     {
       "id": "a_fe475f817cfb",
       "name": "Xiang Yin 庠隱",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "",
       "x_url": "https://www.facebook.com/xiangyinwork/",
       "socials": [
@@ -17408,7 +18526,9 @@
     },
     {
       "id": "a_fe73b65d5d50",
-      "name": "貓咪粗乃丸",
+      "name": "",
+      "name_inferred": "貓咪粗乃丸",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/authors/info/dn269annie",
       "socials": [
@@ -17421,7 +18541,9 @@
     },
     {
       "id": "a_fefdcf5e2a2e",
-      "name": "馬鈴薯燉肉",
+      "name": "",
+      "name_inferred": "馬鈴薯燉肉",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/abcs628945",
       "socials": [
@@ -17434,7 +18556,9 @@
     },
     {
       "id": "a_ff2a913e6544",
-      "name": "滾滾姨媽手作",
+      "name": "",
+      "name_inferred": "滾滾姨媽手作",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.plurk.com/gungunyima",
       "socials": [
@@ -17447,7 +18571,9 @@
     },
     {
       "id": "a_ff9f5a241606",
-      "name": "ㄚ淳戴著綠色三角錐",
+      "name": "",
+      "name_inferred": "ㄚ淳戴著綠色三角錐",
+      "name_source": "circle_name",
       "x_handle": "",
       "x_url": "https://www.facebook.com/profile.php?id=100080676961776",
       "socials": [
@@ -17461,6 +18587,8 @@
     {
       "id": "a_n_tu_len",
       "name": "めん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "A_n_Tu_len",
       "x_url": "https://x.com/A_n_Tu_len",
       "socials": [
@@ -17473,7 +18601,9 @@
     },
     {
       "id": "abzome",
-      "name": "エビゾメ",
+      "name": "",
+      "name_inferred": "エビゾメ",
+      "name_source": "circle_name",
       "x_handle": "ABzome",
       "x_url": "https://x.com/ABzome",
       "socials": [
@@ -17486,7 +18616,9 @@
     },
     {
       "id": "amane61115",
-      "name": "白河夜船",
+      "name": "",
+      "name_inferred": "白河夜船",
+      "name_source": "circle_name",
       "x_handle": "amane61115",
       "x_url": "https://x.com/amane61115",
       "socials": [
@@ -17500,6 +18632,8 @@
     {
       "id": "amtkmituki",
       "name": "あまみつき",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "amtkmituki",
       "x_url": "https://x.com/amtkmituki",
       "socials": [
@@ -17512,7 +18646,9 @@
     },
     {
       "id": "ani77561234",
-      "name": "果物一途",
+      "name": "",
+      "name_inferred": "果物一途",
+      "name_source": "circle_name",
       "x_handle": "ani77561234",
       "x_url": "https://x.com/ani77561234",
       "socials": [
@@ -17526,6 +18662,8 @@
     {
       "id": "anmitiyon",
       "name": "みちよんぽちゃん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "anmitiyon",
       "x_url": "https://x.com/anmitiyon",
       "socials": [
@@ -17539,6 +18677,8 @@
     {
       "id": "aoimanabu",
       "name": "あおいまなぶ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "aoimanabu",
       "x_url": "https://x.com/aoimanabu",
       "socials": [
@@ -17552,6 +18692,8 @@
     {
       "id": "arnciel",
       "name": "ぶれぶれ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "arnciel",
       "x_url": "https://x.com/arnciel",
       "socials": [
@@ -17564,7 +18706,9 @@
     },
     {
       "id": "arupaka5tuki",
-      "name": "あるぱかコ",
+      "name": "",
+      "name_inferred": "あるぱかコ",
+      "name_source": "circle_name",
       "x_handle": "arupaka5tuki",
       "x_url": "https://x.com/arupaka5tuki",
       "socials": [
@@ -17578,6 +18722,8 @@
     {
       "id": "ato252058",
       "name": "ato!",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "ato252058",
       "x_url": "https://x.com/ato252058",
       "socials": [
@@ -17591,6 +18737,8 @@
     {
       "id": "atu_110_011",
       "name": "Atu",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Atu_110_011",
       "x_url": "https://x.com/Atu_110_011",
       "socials": [
@@ -17604,6 +18752,8 @@
     {
       "id": "c_77sotome",
       "name": "椎奈々",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "C_77sotome",
       "x_url": "https://x.com/C_77sotome",
       "socials": [
@@ -17617,6 +18767,8 @@
     {
       "id": "chasiburicorico",
       "name": "お茶渋",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "chasiburicorico",
       "x_url": "https://x.com/chasiburicorico",
       "socials": [
@@ -17629,7 +18781,9 @@
     },
     {
       "id": "chihlun42",
-      "name": "Majuchime",
+      "name": "",
+      "name_inferred": "Majuchime",
+      "name_source": "circle_name",
       "x_handle": "Chihlun42",
       "x_url": "https://x.com/Chihlun42",
       "socials": [
@@ -17642,7 +18796,9 @@
     },
     {
       "id": "crazycat_47",
-      "name": "瘋貓食堂",
+      "name": "",
+      "name_inferred": "瘋貓食堂",
+      "name_source": "circle_name",
       "x_handle": "Crazycat_47",
       "x_url": "https://x.com/Crazycat_47",
       "socials": [
@@ -17656,6 +18812,8 @@
     {
       "id": "d_tk2",
       "name": "団長",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "d_tk2",
       "x_url": "https://x.com/d_tk2",
       "socials": [
@@ -17669,6 +18827,8 @@
     {
       "id": "eijunesound",
       "name": "えいじゅん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "EijuneSound",
       "x_url": "https://x.com/EijuneSound",
       "socials": [
@@ -17681,7 +18841,9 @@
     },
     {
       "id": "eineena_mikan",
-      "name": "超・誠心誠意",
+      "name": "",
+      "name_inferred": "超・誠心誠意",
+      "name_source": "circle_name",
       "x_handle": "EiNeEna_mikan",
       "x_url": "https://x.com/EiNeEna_mikan",
       "socials": [
@@ -17695,6 +18857,8 @@
     {
       "id": "eiyuuu7777",
       "name": "えいゆう",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Eiyuuu7777",
       "x_url": "https://x.com/Eiyuuu7777",
       "socials": [
@@ -17708,6 +18872,8 @@
     {
       "id": "fluffy_palette",
       "name": "HIRO",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "fluffy_palette",
       "x_url": "https://x.com/fluffy_palette",
       "socials": [
@@ -17720,7 +18886,9 @@
     },
     {
       "id": "gray170220",
-      "name": "有百合人生就不是灰的",
+      "name": "",
+      "name_inferred": "有百合人生就不是灰的",
+      "name_source": "circle_name",
       "x_handle": "gray170220",
       "x_url": "https://x.com/gray170220",
       "socials": [
@@ -17733,7 +18901,9 @@
     },
     {
       "id": "gunp_m",
-      "name": "GUNP",
+      "name": "",
+      "name_inferred": "GUNP",
+      "name_source": "circle_name",
       "x_handle": "gunp_m",
       "x_url": "https://x.com/gunp_m",
       "socials": [
@@ -17747,6 +18917,8 @@
     {
       "id": "hanaya_102",
       "name": "花谷",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "hanaya_102",
       "x_url": "https://x.com/hanaya_102",
       "socials": [
@@ -17759,7 +18931,9 @@
     },
     {
       "id": "haneko0417",
-      "name": "翼之影",
+      "name": "",
+      "name_inferred": "翼之影",
+      "name_source": "circle_name",
       "x_handle": "haneko0417",
       "x_url": "https://www.plurk.com/haneko0216",
       "socials": [
@@ -17778,6 +18952,8 @@
     {
       "id": "haruhannohane",
       "name": "春半の渦",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "haruhannohane",
       "x_url": "https://x.com/haruhannohane",
       "socials": [
@@ -17791,6 +18967,8 @@
     {
       "id": "hihumi_akaba",
       "name": "赤羽ひふみ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "hihumi_akaba",
       "x_url": "https://x.com/hihumi_akaba",
       "socials": [
@@ -17803,7 +18981,9 @@
     },
     {
       "id": "hikari863126",
-      "name": "有這樣的喜樂蒂你幾點回家？",
+      "name": "",
+      "name_inferred": "有這樣的喜樂蒂你幾點回家？",
+      "name_source": "circle_name",
       "x_handle": "hikari863126 ",
       "x_url": "https://x.com/hikari863126 ",
       "socials": [
@@ -17817,6 +18997,8 @@
     {
       "id": "hinagikubooks",
       "name": "小鳥遊 昴",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "HinagikuBooks",
       "x_url": "https://x.com/HinagikuBooks",
       "socials": [
@@ -17830,6 +19012,8 @@
     {
       "id": "huskychuk",
       "name": "俺俺俺俺",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Huskychuk",
       "x_url": "https://x.com/Huskychuk",
       "socials": [
@@ -17842,7 +19026,9 @@
     },
     {
       "id": "imudegozaimasu",
-      "name": "いも・ぽてと",
+      "name": "",
+      "name_inferred": "いも・ぽてと",
+      "name_source": "circle_name",
       "x_handle": "imudegozaimasu",
       "x_url": "https://x.com/imudegozaimasu",
       "socials": [
@@ -17856,6 +19042,8 @@
     {
       "id": "kaguramix",
       "name": "神楽つな",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kaguramix",
       "x_url": "https://x.com/kaguramix",
       "socials": [
@@ -17869,6 +19057,8 @@
     {
       "id": "kaiman_00",
       "name": "かいまん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kaiman_00",
       "x_url": "https://x.com/kaiman_00",
       "socials": [
@@ -17882,6 +19072,8 @@
     {
       "id": "kauderni01356",
       "name": "カウ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kauderni01356",
       "x_url": "https://x.com/kauderni01356",
       "socials": [
@@ -17894,7 +19086,9 @@
     },
     {
       "id": "kei_megumi_",
-      "name": "恵海けい",
+      "name": "",
+      "name_inferred": "恵海けい",
+      "name_source": "circle_name",
       "x_handle": "Kei_Megumi_",
       "x_url": "https://x.com/Kei_Megumi_",
       "socials": [
@@ -17907,7 +19101,9 @@
     },
     {
       "id": "kimijunn",
-      "name": "大金毛很可愛",
+      "name": "",
+      "name_inferred": "大金毛很可愛",
+      "name_source": "circle_name",
       "x_handle": "kimiJUNN",
       "x_url": "https://x.com/kimiJUNN",
       "socials": [
@@ -17921,6 +19117,8 @@
     {
       "id": "kimikuon",
       "name": "キミ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kimikuon",
       "x_url": "https://x.com/kimikuon",
       "socials": [
@@ -17934,6 +19132,8 @@
     {
       "id": "kitanaitanuki",
       "name": "たぬき",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kitanaitanuki",
       "x_url": "https://x.com/kitanaitanuki",
       "socials": [
@@ -17947,6 +19147,8 @@
     {
       "id": "kmt9993",
       "name": "カメタ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kmt9993",
       "x_url": "https://x.com/kmt9993",
       "socials": [
@@ -17959,7 +19161,9 @@
     },
     {
       "id": "kokokoro__",
-      "name": "陽台有好康",
+      "name": "",
+      "name_inferred": "陽台有好康",
+      "name_source": "circle_name",
       "x_handle": "Kokokoro__",
       "x_url": "https://x.com/Kokokoro__",
       "socials": [
@@ -17972,7 +19176,9 @@
     },
     {
       "id": "komerice_lo",
-      "name": "好米味",
+      "name": "",
+      "name_inferred": "好米味",
+      "name_source": "circle_name",
       "x_handle": "komerice_lo",
       "x_url": "https://x.com/komerice_lo",
       "socials": [
@@ -17990,7 +19196,9 @@
     },
     {
       "id": "kourui_07",
-      "name": "黑夜與金月",
+      "name": "",
+      "name_inferred": "黑夜與金月",
+      "name_source": "circle_name",
       "x_handle": "kourui_07",
       "x_url": "https://x.com/kourui_07",
       "socials": [
@@ -18003,7 +19211,9 @@
     },
     {
       "id": "kuroajrtineico",
-      "name": "黑黑黑",
+      "name": "",
+      "name_inferred": "黑黑黑",
+      "name_source": "circle_name",
       "x_handle": "KuroAjrtineico",
       "x_url": "https://x.com/KuroAjrtineico",
       "socials": [
@@ -18017,6 +19227,8 @@
     {
       "id": "kyou_watanuki",
       "name": "渡貫きょう",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "kyou_watanuki",
       "x_url": "https://x.com/kyou_watanuki",
       "socials": [
@@ -18029,7 +19241,9 @@
     },
     {
       "id": "laylay_152",
-      "name": "Polaris",
+      "name": "",
+      "name_inferred": "Polaris",
+      "name_source": "circle_name",
       "x_handle": "laylay_152",
       "x_url": "https://x.com/laylay_152",
       "socials": [
@@ -18042,7 +19256,9 @@
     },
     {
       "id": "liugozekino",
-      "name": "應許之地",
+      "name": "",
+      "name_inferred": "應許之地",
+      "name_source": "circle_name",
       "x_handle": "Liugozekino",
       "x_url": "https://x.com/Liugozekino",
       "socials": [
@@ -18055,7 +19271,9 @@
     },
     {
       "id": "manmaderain",
-      "name": "人工降雨",
+      "name": "",
+      "name_inferred": "人工降雨",
+      "name_source": "circle_name",
       "x_handle": "ManMadeRain",
       "x_url": "https://x.com/ManMadeRain",
       "socials": [
@@ -18069,6 +19287,8 @@
     {
       "id": "masaki_sakura",
       "name": "桜真咲",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "masaki_sakura",
       "x_url": "https://x.com/masaki_sakura",
       "socials": [
@@ -18082,6 +19302,8 @@
     {
       "id": "meiliismywife",
       "name": "ポポロン",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "meiliismywife",
       "x_url": "https://x.com/meiliismywife",
       "socials": [
@@ -18095,6 +19317,8 @@
     {
       "id": "mekimekix",
       "name": "めきめき",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "mekimekix",
       "x_url": "https://x.com/mekimekix",
       "socials": [
@@ -18107,7 +19331,9 @@
     },
     {
       "id": "melon2943",
-      "name": "太呱章了",
+      "name": "",
+      "name_inferred": "太呱章了",
+      "name_source": "circle_name",
       "x_handle": "melon2943",
       "x_url": "https://x.com/melon2943",
       "socials": [
@@ -18120,7 +19346,9 @@
     },
     {
       "id": "mitsukiriko",
-      "name": "みつきりこ",
+      "name": "",
+      "name_inferred": "みつきりこ",
+      "name_source": "circle_name",
       "x_handle": "mitsukiriko",
       "x_url": "https://x.com/mitsukiriko",
       "socials": [
@@ -18133,7 +19361,9 @@
     },
     {
       "id": "mizonozomizo",
-      "name": "(空飛ぶお布団)",
+      "name": "",
+      "name_inferred": "(空飛ぶお布団)",
+      "name_source": "circle_name",
       "x_handle": "mizonozomizo",
       "x_url": "https://x.com/mizonozomizo",
       "socials": [
@@ -18147,6 +19377,8 @@
     {
       "id": "nanashiwan",
       "name": "ちゃなつ!",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "nanashiwan",
       "x_url": "https://x.com/nanashiwan",
       "socials": [
@@ -18160,6 +19392,8 @@
     {
       "id": "nb164",
       "name": "タダ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "nb164",
       "x_url": "https://x.com/nb164",
       "socials": [
@@ -18172,7 +19406,9 @@
     },
     {
       "id": "noah_ark38",
-      "name": "更科るな",
+      "name": "",
+      "name_inferred": "更科るな",
+      "name_source": "circle_name",
       "x_handle": "noah_ark38",
       "x_url": "https://x.com/noah_ark38",
       "socials": [
@@ -18186,6 +19422,8 @@
     {
       "id": "noroshino8",
       "name": "狼煙乃",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Noroshino8",
       "x_url": "https://x.com/Noroshino8",
       "socials": [
@@ -18199,6 +19437,8 @@
     {
       "id": "nyanruikai",
       "name": "ステルスにゃんこ、幸春るいか",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "nyanruikai",
       "x_url": "https://x.com/nyanruikai",
       "socials": [
@@ -18211,7 +19451,9 @@
     },
     {
       "id": "oginoyori",
-      "name": "旅者的足音",
+      "name": "",
+      "name_inferred": "旅者的足音",
+      "name_source": "circle_name",
       "x_handle": "oginoyori",
       "x_url": "https://oginoyori.wixsite.com/oginoyori",
       "socials": [
@@ -18234,7 +19476,9 @@
     },
     {
       "id": "ohmiyamiyamiya",
-      "name": "(みゃ)",
+      "name": "",
+      "name_inferred": "(みゃ)",
+      "name_source": "circle_name",
       "x_handle": "ohmiyamiyamiya",
       "x_url": "https://x.com/ohmiyamiyamiya",
       "socials": [
@@ -18248,6 +19492,8 @@
     {
       "id": "oka_3d_01",
       "name": "おかくま",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "oka_3d_01",
       "x_url": "https://x.com/oka_3d_01",
       "socials": [
@@ -18261,6 +19507,8 @@
     {
       "id": "omochidry",
       "name": "ホシモチ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "omochidry",
       "x_url": "https://x.com/omochidry",
       "socials": [
@@ -18274,6 +19522,8 @@
     {
       "id": "osatou_kinosu",
       "name": "木乃酢",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "osatou_kinosu",
       "x_url": "https://x.com/osatou_kinosu",
       "socials": [
@@ -18287,6 +19537,8 @@
     {
       "id": "papercraorigami",
       "name": "イチ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "papercraorigami",
       "x_url": "https://x.com/papercraorigami",
       "socials": [
@@ -18299,7 +19551,9 @@
     },
     {
       "id": "pesirxy",
-      "name": "老P股",
+      "name": "",
+      "name_inferred": "老P股",
+      "name_source": "circle_name",
       "x_handle": "pesirxy",
       "x_url": "https://x.com/pesirxy",
       "socials": [
@@ -18313,6 +19567,8 @@
     {
       "id": "pianorock_y",
       "name": "ピアノロック・ヤクザ、たっくん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "pianorock_y",
       "x_url": "https://x.com/pianorock_y",
       "socials": [
@@ -18325,7 +19581,9 @@
     },
     {
       "id": "pomeka35",
-      "name": "小花",
+      "name": "",
+      "name_inferred": "小花",
+      "name_source": "circle_name",
       "x_handle": "pomeka35",
       "x_url": "https://x.com/pomeka35",
       "socials": [
@@ -18344,6 +19602,8 @@
     {
       "id": "qutouten_",
       "name": "句読点",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Qutouten_",
       "x_url": "https://x.com/Qutouten_",
       "socials": [
@@ -18356,7 +19616,9 @@
     },
     {
       "id": "rbaba_cain2",
-      "name": "阿里阿巴巴阿千千",
+      "name": "",
+      "name_inferred": "阿里阿巴巴阿千千",
+      "name_source": "circle_name",
       "x_handle": "rbaba_cain2",
       "x_url": "https://x.com/rbaba_cain2",
       "socials": [
@@ -18369,7 +19631,9 @@
     },
     {
       "id": "rissole715",
-      "name": "廢柴小R",
+      "name": "",
+      "name_inferred": "廢柴小R",
+      "name_source": "circle_name",
       "x_handle": "rissole715",
       "x_url": "https://x.com/rissole715",
       "socials": [
@@ -18382,7 +19646,9 @@
     },
     {
       "id": "rito_yu6039",
-      "name": "陽光女子百合團",
+      "name": "",
+      "name_inferred": "陽光女子百合團",
+      "name_source": "circle_name",
       "x_handle": "rito_yu6039",
       "x_url": "https://x.com/rito_yu6039",
       "socials": [
@@ -18396,6 +19662,8 @@
     {
       "id": "ruwhdlqqti433",
       "name": "いいくに",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "rUwhdLQqtI433",
       "x_url": "https://x.com/rUwhdLQqtI433",
       "socials": [
@@ -18409,6 +19677,8 @@
     {
       "id": "sango3_3",
       "name": "サークル名「**くろかり**」",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "sango3_3",
       "x_url": "https://x.com/sango3_3",
       "socials": [
@@ -18422,6 +19692,8 @@
     {
       "id": "senbako1",
       "name": "快楽園梅香",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "SENBAKO1",
       "x_url": "https://x.com/SENBAKO1",
       "socials": [
@@ -18435,6 +19707,8 @@
     {
       "id": "shopon1201",
       "name": "しょうぽん",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "shopon1201",
       "x_url": "https://x.com/shopon1201",
       "socials": [
@@ -18447,7 +19721,9 @@
     },
     {
       "id": "sinyatako1",
-      "name": "湖底章魚音樂盒",
+      "name": "",
+      "name_inferred": "湖底章魚音樂盒",
+      "name_source": "circle_name",
       "x_handle": "sinyatako1",
       "x_url": "https://x.com/sinyatako1",
       "socials": [
@@ -18461,6 +19737,8 @@
     {
       "id": "soyas_",
       "name": "そやす",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "soyas_",
       "x_url": "https://x.com/soyas_",
       "socials": [
@@ -18474,6 +19752,8 @@
     {
       "id": "star_kzer",
       "name": "霧崎",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "star_Kzer",
       "x_url": "https://x.com/star_Kzer",
       "socials": [
@@ -18487,6 +19767,8 @@
     {
       "id": "syouri_nizi0305",
       "name": "ショウリ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "syouri_nizi0305",
       "x_url": "https://x.com/syouri_nizi0305",
       "socials": [
@@ -18499,7 +19781,9 @@
     },
     {
       "id": "takoyaki_110721",
-      "name": "しろた本舗",
+      "name": "",
+      "name_inferred": "しろた本舗",
+      "name_source": "circle_name",
       "x_handle": "takoyaki_110721",
       "x_url": "https://x.com/takoyaki_110721",
       "socials": [
@@ -18512,7 +19796,9 @@
     },
     {
       "id": "teruru_sakura",
-      "name": "さくらてるる",
+      "name": "",
+      "name_inferred": "さくらてるる",
+      "name_source": "circle_name",
       "x_handle": "TERURU_sakura",
       "x_url": "https://x.com/TERURU_sakura",
       "socials": [
@@ -18525,7 +19811,9 @@
     },
     {
       "id": "testesmyland",
-      "name": "(穂波てす)",
+      "name": "",
+      "name_inferred": "(穂波てす)",
+      "name_source": "circle_name",
       "x_handle": "testesmyland",
       "x_url": "https://x.com/testesmyland",
       "socials": [
@@ -18539,6 +19827,8 @@
     {
       "id": "tsugu_tarou",
       "name": "ツグ太郎",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "tsugu_tarou",
       "x_url": "https://x.com/tsugu_tarou",
       "socials": [
@@ -18552,6 +19842,8 @@
     {
       "id": "tukise_after",
       "name": "つきせ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "tukise_after",
       "x_url": "https://x.com/tukise_after",
       "socials": [
@@ -18565,6 +19857,8 @@
     {
       "id": "tutanai_ap05",
       "name": "兎たない",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "Tutanai_ap05",
       "x_url": "https://x.com/Tutanai_ap05",
       "socials": [
@@ -18578,6 +19872,8 @@
     {
       "id": "ujat_47",
       "name": "うじゃじゃじゃ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "ujat_47",
       "x_url": "https://x.com/ujat_47",
       "socials": [
@@ -18591,6 +19887,8 @@
     {
       "id": "umaauraa5",
       "name": "るべ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "umaauraa5",
       "x_url": "https://x.com/umaauraa5",
       "socials": [
@@ -18603,7 +19901,9 @@
     },
     {
       "id": "umenoichiru",
-      "name": "梅野いちる",
+      "name": "",
+      "name_inferred": "梅野いちる",
+      "name_source": "circle_name",
       "x_handle": "umenoichiru",
       "x_url": "https://x.com/umenoichiru",
       "socials": [
@@ -18617,6 +19917,8 @@
     {
       "id": "unido_fu",
       "name": "雲丹豆腐",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "unido_fu",
       "x_url": "https://x.com/unido_fu",
       "socials": [
@@ -18630,6 +19932,8 @@
     {
       "id": "vinegar_terrier",
       "name": "酢飯",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "vinegar_terrier",
       "x_url": "https://x.com/vinegar_terrier",
       "socials": [
@@ -18643,6 +19947,8 @@
     {
       "id": "xuz_op",
       "name": "しほね",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "xuz_op",
       "x_url": "https://x.com/xuz_op",
       "socials": [
@@ -18655,7 +19961,9 @@
     },
     {
       "id": "xx_sow",
-      "name": "(ちょりsow)",
+      "name": "",
+      "name_inferred": "(ちょりsow)",
+      "name_source": "circle_name",
       "x_handle": "xx_sow",
       "x_url": "https://x.com/xx_sow",
       "socials": [
@@ -18668,7 +19976,9 @@
     },
     {
       "id": "yoyoray20001996",
-      "name": "Ray的饗食天堂",
+      "name": "",
+      "name_inferred": "Ray的饗食天堂",
+      "name_source": "circle_name",
       "x_handle": "yoyoray20001996",
       "x_url": "https://x.com/yoyoray20001996",
       "socials": [
@@ -18682,6 +19992,8 @@
     {
       "id": "yukkurishimiya",
       "name": "シミヤ",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "YukkuriShimiya",
       "x_url": "https://x.com/YukkuriShimiya",
       "socials": [
@@ -18695,6 +20007,8 @@
     {
       "id": "yurikissaten",
       "name": "ビー",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "yurikissaten",
       "x_url": "https://x.com/yurikissaten",
       "socials": [
@@ -18708,6 +20022,8 @@
     {
       "id": "yuto_higuchi_",
       "name": "YUTO HIGUCHI",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "YUTO_HIGUCHI_",
       "x_url": "https://x.com/YUTO_HIGUCHI_",
       "socials": [
@@ -18720,7 +20036,9 @@
     },
     {
       "id": "yuyuyang0402",
-      "name": "奇魚果大王",
+      "name": "",
+      "name_inferred": "奇魚果大王",
+      "name_source": "circle_name",
       "x_handle": "yuyuyang0402",
       "x_url": "https://x.com/yuyuyang0402",
       "socials": [
@@ -18734,6 +20052,8 @@
     {
       "id": "zuka_misuzu",
       "name": "鈴鹿猫",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "zuka_misuzu",
       "x_url": "https://x.com/zuka_misuzu",
       "socials": [
@@ -18747,6 +20067,8 @@
     {
       "id": "zuzuzu_222",
       "name": "そばがき、巽ぺーた",
+      "name_inferred": "",
+      "name_source": "user",
       "x_handle": "zuzuzu_222",
       "x_url": "https://x.com/zuzuzu_222",
       "socials": [
