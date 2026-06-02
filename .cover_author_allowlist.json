@@ -1,9 +1,0 @@
-{
-  "_doc": "Per-booth allowlist of cover_url source authors that DON'T match the booth's circle handle but are legitimate (寄攤 / 委託 / collab partner). Update when a manual review confirms a mismatch is intentional. Format: { <event-slug>: { <booth_id>: { 'handles': [<x_handle_no_at>], 'note': '<why>' } } }",
-  "if7-2026-05": {
-    "U-30": {
-      "handles": ["_icpfo1"],
-      "note": "河豚老師 — body 明記の 寄攤 partner (新刊 超時空輝姬 漫畫本)"
-    }
-  }
-}

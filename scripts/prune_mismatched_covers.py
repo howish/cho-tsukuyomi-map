@@ -11,7 +11,7 @@ the wrong image stops being shown under the booth's name.
 Skips:
 - /i/status/ URLs (author not resolvable)
 - author handles in the circle.socials list (legitimate co-circles)
-- handles in .cover_author_allowlist.json (manually-confirmed 寄攤 partners)
+- handles in booth.consignment_partners[] (Phase A schema, per-event 寄攤)
 - Non-X cover URLs (FB / Plurk / IG / Threads / Bsky / direct image)
 
 Idempotent. Run after canonicalize_rt_sources.py.
@@ -58,6 +58,9 @@ def main():
             for s in (circle.get('socials') or []):
                 h = (s.get('handle') or '').lstrip('@').lower()
                 if h: partner_handles.add(h)
+            # Phase A schema: per-booth 寄攤 / 委託 partners
+            for h in (b.get('consignment_partners') or []):
+                partner_handles.add(h.lstrip('@').lower())
 
             kept = []
             for c in (b.get('cover_urls') or []):

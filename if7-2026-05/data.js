@@ -7805,6 +7805,9 @@ window.BOOTHS = [
   {
     "booth_id": "U-30",
     "circle_id": "melon2943",
+    "consignment_partners": [
+      "_icpfo1"
+    ],
     "body": "## 📝 IF7 出展重點\n- [U30 品書 (太呱章了)](https://x.com/i/status/2059651837452800061): 太呱章了 (主) + 寄攤 2 人\n- **太呱章了**: 新刊 睦祥 短篇小說本 + 既刊 長篇小說本\n- **河豚老師** ([@_icpfo1](https://x.com/_icpfo1)) 寄攤: 新刊 超時空輝姬 漫畫本 + 既刊 睦祥 漫畫本\n- **菟子老師** ([@usagi._.novelist](https://www.threads.com/@usagi._.novelist)) 寄攤: 新刊 **超時空輝耀姬 同人小說 『C'EX-OTOGIBANASHI』** (彩葉 × 八千代 R-18 中篇集 / 3 萬字 / 12 章, [@su4_zm](https://www.threads.com/@su4_zm) 老師彩色封面)\n  - [印量調查](https://www.threads.com/@usagi._.novelist/post/DX0et6xj_pM) / [新刊發表](https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **太呱章了 (主攤) 睦祥本 場後通販 開放** — [711 賣貨便 (GM2510056163595)](https://myship.7-11.com.tw/general/detail/GM2510056163595) (+ NT 10 包材費)\n\n出處: [告知 X](https://x.com/melon2943/status/2061050815398433192)",
     "tags": {
       "super-kaguya": true,

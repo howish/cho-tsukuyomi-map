@@ -294,6 +294,36 @@ handle 無し booth (公式 SNS 未公開) は:
 ノイズ pattern や、新しい signal type (例: 6/14 ぷにケットで導入されるかもしれない
 新 convention) があれば追記する。
 
+## 15. booth schema 拡張: 寄攤 / 委託 partners (Phase A, 2026-06-02)
+
+**問題**: 「1 circle = 1 author = 1 booth」 の暗黙前提では、 寄攤 (consignment、 1 booth で他作家の本を併売) や 合本 (1冊 N作家) を first-class に扱えなかった。 cover_url の author mismatch audit で誤検出が出ていた (T-35 のKー雪一寄攤、 U-30 の河豚老師寄攤 等)。
+
+**Phase A 解 — booth に optional な配列フィールド追加**:
+
+```json
+{
+  "booth_id": "U-30",
+  "circle_id": "melon2943",
+  "consignment_partners": ["_icpfo1"],   // 寄攤 partner の X handle 配列 (no @ prefix, lowercase)
+  ...
+}
+```
+
+**semantics**:
+- 配列は **per-event / per-booth** — circle の永続的な属性ではなく、 「この event でこの booth が一時的に carry する寄攤作家」 を意味する
+- 円形的な partner (常時 co-circle、 S-37/38 等) は `circles.json` の `socials` list に入れる方が長期的に正解
+- 短期 / 一回限り (寄攤、 委託、 collab promo) はここに入れる
+
+**運用効果**:
+- `audit_cover_author_match.py` + `prune_mismatched_covers.py` が自動的に partner_handles として認識
+- legacy の `.cover_author_allowlist.json` は廃止 (Phase A migration 完了済)
+- 今後 寄攤 のある booth は body 内に `寄攤: @handle (作品名)` と書き、 同時に `consignment_partners: [handle]` を data.js に追加する
+
+**未対応 (Phase B 候補)**:
+- 合本 (1冊 N作家) の contributors 表現 — まだ body text only
+- 同一作家・複数 circle 名義の cross-event link — まだ別人扱い
+- author を first-class entity として分離 (現状 circle と混同)
+
 ---
 
 **Maintainer**: [@howish](https://github.com/howish) ／ **Fan-guide 運営協力**: 月見ヤチヨ (Lunami Yachiyo)
