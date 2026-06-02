@@ -648,13 +648,49 @@
         .replace(/\/+$/, '')
         .toLowerCase();
     }
+    // Unified chip label rule (2026-06-02): always show an identifier.
+    // 1. Explicit handle (if stored) wins.
+    // 2. Otherwise extract handle from URL via per-platform patterns.
+    // 3. Otherwise show the URL host (last fallback, generic / unknown).
+    function extractHandleFromUrl(url, platform) {
+      if (!url) return '';
+      const m = url.match(/^https?:\/\/([^\/]+)(\/.*)?$/);
+      if (!m) return url;
+      const host = m[1].replace(/^www\./, '');
+      const path = (m[2] || '').replace(/[?#].*$/, '').replace(/\/+$/, '');
+      // Per-platform extraction patterns
+      const patterns = {
+        x:        /^\/@?([A-Za-z0-9_]+)/,
+        plurk:    /^\/(?:m\/)?@?([A-Za-z0-9_]+)/,
+        threads:  /^\/@?([A-Za-z0-9_.]+)/,
+        ig:       /^\/([A-Za-z0-9_.]+)/,
+        fb:       /^\/(?:profile\.php\?id=|p\/[^\/]+-)?([A-Za-z0-9._-]+)/,
+        bsky:     /^\/profile\/([^\/]+)/,
+        pixiv:    /^\/(?:users|member\.php\?id=)\/?([0-9]+)/,
+        doujin_tw:/^\/(?:authors|groups)\/info\/([^\/]+)/,
+        aggregator:/^\/(?:zh-tw\/|zh\/|en\/|ja\/|jp\/)?([^\/]+)/,
+        booth_pm: null,  // subdomain-based (handle.booth.pm) — handled below
+        wix:      null,  // subdomain-based
+        blog:     null,
+        gamer:    /^\/profile\/index\.php.*owner=([A-Za-z0-9_]+)/,
+      };
+      const rx = patterns[platform];
+      if (rx) {
+        const mm = path.match(rx);
+        if (mm && mm[1]) return '@' + mm[1];
+      }
+      // Subdomain-as-handle fallback (booth.pm, wixsite.com, tumblr.com)
+      const sub = host.match(/^([^.]+)\.(?:booth\.pm|wixsite\.com|tumblr\.com)$/);
+      if (sub) return '@' + sub[1];
+      // Generic: short host as label
+      return host;
+    }
     function addSocialChip(platform, handle, url, extraClass) {
       const norm = normSocialUrl(url);
       if (!norm || seenSocialUrls.has(norm)) return;
       seenSocialUrls.add(norm);
-      const label = handle
-        ? `${platformIcon(platform)} ${handle}`
-        : `${platformIcon(platform)} ${T('modal_source_' + platform)}`;
+      const id = handle || extractHandleFromUrl(url, platform);
+      const label = `${platformIcon(platform)} ${id}`;
       meta.appendChild(el('a', {
         href: url, target: '_blank', rel: 'noopener',
         class: 'social-chip social-chip-' + platform + (extraClass ? ' ' + extraClass : ''),

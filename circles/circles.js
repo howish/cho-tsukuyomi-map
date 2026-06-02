@@ -27,6 +27,35 @@
     wix: '🌐', blog: '📝', gamer: '🎮', generic: '🔗',
   };
 
+  // Unified chip label rule (2026-06-02): always show an identifier.
+  function extractHandleFromUrl(url, platform) {
+    if (!url) return '';
+    const m = url.match(/^https?:\/\/([^\/]+)(\/.*)?$/);
+    if (!m) return url;
+    const host = m[1].replace(/^www\./, '');
+    const path = (m[2] || '').replace(/[?#].*$/, '').replace(/\/+$/, '');
+    const patterns = {
+      x:         /^\/@?([A-Za-z0-9_]+)/,
+      plurk:     /^\/(?:m\/)?@?([A-Za-z0-9_]+)/,
+      threads:   /^\/@?([A-Za-z0-9_.]+)/,
+      ig:        /^\/([A-Za-z0-9_.]+)/,
+      fb:        /^\/(?:profile\.php\?id=)?([A-Za-z0-9._-]+)/,
+      bsky:      /^\/profile\/([^\/]+)/,
+      pixiv:     /^\/(?:users|member\.php\?id=)\/?([0-9]+)/,
+      doujin_tw: /^\/(?:authors|groups)\/info\/([^\/]+)/,
+      aggregator:/^\/(?:zh-tw\/|zh\/|en\/|ja\/|jp\/)?([^\/]+)/,
+      gamer:     /^\/profile\/index\.php.*owner=([A-Za-z0-9_]+)/,
+    };
+    const rx = patterns[platform];
+    if (rx) {
+      const mm = path.match(rx);
+      if (mm && mm[1]) return '@' + mm[1];
+    }
+    const sub = host.match(/^([^.]+)\.(?:booth\.pm|wixsite\.com|tumblr\.com)$/);
+    if (sub) return '@' + sub[1];
+    return host;
+  }
+
   // Sort: multi-event first, then alphabetical
   function sortCircles(circles) {
     return circles.sort((a, b) => {
@@ -54,8 +83,8 @@
       const linkRow = el('div', { class: 'circle-links' });
       const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
       c.socials.slice().sort((a, b) => order(a) - order(b)).forEach(s => {
-        const label = (PLATFORM_ICON[s.platform] || '🔗') +
-                      (s.handle ? ' ' + s.handle : ' ' + (s.platform || 'link'));
+        const id = s.handle || extractHandleFromUrl(s.url, s.platform);
+        const label = (PLATFORM_ICON[s.platform] || '🔗') + ' ' + id;
         linkRow.appendChild(el('a', {
           class: 'circle-link-chip chip-' + s.platform,
           href: s.url, target: '_blank', rel: 'noopener',
