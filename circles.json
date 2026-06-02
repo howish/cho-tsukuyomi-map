@@ -10907,13 +10907,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_18475ef22237",
@@ -11014,7 +11008,7 @@
           "url": "https://twitter.com/FutureImagesTW"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@FutureImagesTW"
         },
@@ -11029,19 +11023,14 @@
           "url": "https://www.threads.net/@futureimages.tw"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/futureimages.tw/"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/FutureImages.TW"
-        },
-        {
-          "platform": "discord",
-          "handle": "",
-          "url": "https://discord.gg/75vd8PYVDP"
         }
       ]
     },
@@ -11144,11 +11133,6 @@
           "url": "https://lit.link/zh-tw/yeijijia"
         },
         {
-          "platform": "fb",
-          "handle": "葉子嘉(多多)",
-          "url": "https://www.facebook.com/share/1C7YTrFDCe/"
-        },
-        {
           "platform": "x",
           "handle": "@yezijia1",
           "url": "https://x.com/yezijia1"
@@ -11222,12 +11206,12 @@
           "url": "https://lit.link/zh-tw/eecircle"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/eecircle/"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/eecircle"
         },
@@ -11257,7 +11241,7 @@
           "url": "https://www.doujin.com.tw/authors/info/f741852guy/goods"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@circleee7181"
         }
@@ -12120,12 +12104,12 @@
           "url": "https://www.threads.com/@star_finder__"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/star_finder__/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/ewokaku0w0"
         },
@@ -12334,13 +12318,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_36b9a5a84393",
@@ -12531,7 +12509,7 @@
           "url": "https://twitter.com/nagadrawdraw"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/nagadrawdraw/"
         },
@@ -12620,12 +12598,12 @@
           "url": "https://portaly.cc/anon_114c"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@apple"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/anon_114c"
         },
@@ -12635,7 +12613,7 @@
           "url": "https://twitter.com/anon_114c"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/anon_114c"
         }
@@ -12919,7 +12897,7 @@
           "url": "https://www.doujin.com.tw/authors/info/aishizi852"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@LeoAkAk"
         }
@@ -13008,27 +12986,17 @@
           "url": "https://x.com/foninteru"
         },
         {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtu.be/4W2Q5ivTgjw?si=r0zB0oKKW_yycSBk"
-        },
-        {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@fonin4376"
         },
         {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtu.be/CDn0fMDi9d0?si=yNAahbAe30EB_E5q"
-        },
-        {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@foninteru"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@apple"
         },
@@ -13053,7 +13021,7 @@
           "url": "https://www.pixiv.net/users/3703509"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/foninfuuin"
         }
@@ -13346,16 +13314,6 @@
           "url": "https://lit.link/zh-tw/ruinmaster"
         },
         {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/share/1ZFfAqZke1/"
-        },
-        {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/share/16PkTHGDeX/"
-        },
-        {
           "platform": "plurk",
           "handle": "",
           "url": "https://www.plurk.com/rose20011212"
@@ -13414,7 +13372,7 @@
           "url": "https://lit.link/en/KotemWriter13"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@kotem3103"
         },
@@ -13434,17 +13392,17 @@
           "url": "https://www.threads.net/@kotem_painting"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kotem_painting/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kotem_handmade/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kotem_novel_writer/"
         },
@@ -13454,7 +13412,7 @@
           "url": "https://www.plurk.com/kotemdesign"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/KotemNovelWriter/"
         }
@@ -13485,7 +13443,7 @@
           "url": "https://portaly.cc/blackomicat"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/blackomicat"
         },
@@ -13505,7 +13463,7 @@
           "url": "https://www.pixiv.net/users/3779383"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/blackomicat/"
         },
@@ -13675,7 +13633,7 @@
           "url": "https://portaly.cc/lightoffill"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/LightOffill/"
         },
@@ -13690,7 +13648,7 @@
           "url": "https://www.threads.net/@lightoffill"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/lightoffill/"
         }
@@ -13713,17 +13671,7 @@
         {
           "platform": "pixiv",
           "handle": "",
-          "url": "https://embed.pixiv.net/user_profile.php?id=2267269&k=f886d0ee4868e574f3112ea26f5b1770"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
           "url": "https://www.pixiv.net/users/2267269"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/uploads/avatars/038/193138_190.png?4412"
         },
         {
           "platform": "doujin_tw",
@@ -13731,14 +13679,9 @@
           "url": "https://www.doujin.com.tw/authors/info/teaneuniverse"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/teane1413"
-        },
-        {
-          "platform": "discord",
-          "handle": "",
-          "url": "https://discord.gg/mDQDAsUdgB"
         },
         {
           "platform": "plurk",
@@ -13761,7 +13704,7 @@
           "url": "https://x.com/teane141611"
         },
         {
-          "platform": "booth",
+          "platform": "booth_pm",
           "handle": "",
           "url": "https://teane141611.booth.pm/items/7093857"
         }
@@ -13807,13 +13750,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm",
-      "socials": [
-        {
-          "platform": "generic",
-          "handle": "",
-          "url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_54bdb6aa6ab1",
@@ -14199,13 +14136,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "StarOcean0911",
-          "url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_5ea2b8ac248f",
@@ -14625,11 +14556,6 @@
           "url": "https://portaly.cc/raker.natsume.0701"
         },
         {
-          "platform": "fb",
-          "handle": "photo",
-          "url": "https://www.facebook.com/photo/?fbid=543046895339125&set=pb.100089014576405.-2207520000"
-        },
-        {
           "platform": "pixiv",
           "handle": "Pixiv 20901804",
           "url": "https://www.pixiv.net/users/20901804"
@@ -14660,22 +14586,17 @@
           "url": "https://www.pixiv.net/member.php?id=20901804"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/media/set/?set=a.685021834474963&type=3"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/raker natsume"
         },
         {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/share/p/16ByhAsxBN/"
-        },
-        {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/raker.natsume.0701"
         }
@@ -15069,45 +14990,15 @@
         {
           "platform": "doujin_tw",
           "handle": "",
-          "url": "https://www.doujin.com.tw/uploads/groups/8d/bc/8dbcc765028ac14ef26fd05844dad542_120.jpg"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/346/books"
         },
         {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtu.be/t6ov_PF--zc 《左手》(vol.1-3蓋亞文化) 《一起..."
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtu.be/Jh74jWa1jG4?si=DDTjXEb2VUm-0ilU"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtube.com/shorts/BMM-aw1eeCg?si=OUppPa_LTit34gGK"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtube.com/shorts/-HPptwo18q0?si=azaEEpaCqoM3IIFE"
-        },
-        {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/slychen"
         },
         {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://youtu.be/t6ov_PF--zc?si=gmEylEWzYrGG6CA_"
-        },
-        {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/slychen"
         },
@@ -15127,7 +15018,7 @@
           "url": "https://www.plurk.com/slychen"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/sally_dejavu"
         }
@@ -15196,15 +15087,10 @@
         {
           "platform": "pixiv",
           "handle": "",
-          "url": "https://embed.pixiv.net/user_profile.php?id=4039813&k=723dbe8f345e06b1ccc29c33bf650b6e"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
           "url": "http://www.pixiv.net/member.php?id=4039813"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/icefish.pie"
         }
@@ -15264,40 +15150,20 @@
         {
           "platform": "doujin_tw",
           "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/67256"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/goods/info/93514"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/66454"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/6432"
         },
         {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/goods/info/93515"
-        },
-        {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/watch?v=gFu75hjWEeM"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@UYUjira"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@apple"
         },
@@ -15454,13 +15320,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1EDMa5ftC9/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1EDMa5ftC9/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_7f4e5f5752f4",
@@ -15567,19 +15427,14 @@
           "url": "https://linktr.ee/Bubble_Wave"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/bw.bubblewave"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/bw.bubblewave"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://embed.pixiv.net/user_profile.php?id=104597084&k=514a44b3bd926dd22e53a6ad72fc1dbc"
         },
         {
           "platform": "pixiv",
@@ -15642,16 +15497,6 @@
           "platform": "x",
           "handle": "@biphang35g",
           "url": "https://x.com/biphang35g"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/60148"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/63216"
         },
         {
           "platform": "x",
@@ -15824,17 +15669,17 @@
           "url": "https://lit.link/zh-tw/menyakuranari"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/apriori_circle/"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/playlist?list=OLAK5uy_kW6SHtoOqYl2LhVcCmDQPeRKJ8YZSLUbc"
         },
         {
-          "platform": "melonbooks",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.melonbooks.co.jp/circle/index.php?circle_id=134471"
         },
@@ -15844,12 +15689,12 @@
           "url": "https://twitter.com/apriori_circle"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/apriori.circle/"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/profile.php?id=61576247713314"
         }
@@ -15879,13 +15724,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1D2oqZA8kB/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_85be0343e65e",
@@ -15895,13 +15734,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_85f0b7d8c5e1",
@@ -16018,12 +15851,12 @@
           "url": "https://twitter.com/moriowo_"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/moriowo.s/"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@moriowo.s"
         },
@@ -16340,13 +16173,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_940fd784703d",
@@ -16610,12 +16437,12 @@
           "url": "https://twitter.com/rainnyafoi"
         },
         {
-          "platform": "tumblr",
+          "platform": "blog",
           "handle": "",
           "url": "https://rainnyafoi.tumblr.com/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/rainnyafoi/"
         },
@@ -16651,7 +16478,7 @@
           "url": "https://www.plurk.com/p/ot76v9"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/yyoaooao/"
         },
@@ -16661,7 +16488,7 @@
           "url": "https://x.com/yyoaooao"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/li.pei.fu.517583/"
         }
@@ -17276,13 +17103,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_aa8afb7bf664",
@@ -17351,7 +17172,7 @@
           "url": "https://twitter.com/zxcv1234442"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/profile.php?id=100000797014323"
         }
@@ -17730,13 +17551,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_b2e2c03f464d",
@@ -18143,7 +17958,7 @@
           "url": "https://linktr.ee/Streamer_Fairy_Art"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/streamer_fairy"
         },
@@ -18163,7 +17978,7 @@
           "url": "https://x.com/Streamer_fairy"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/streamerfairy"
         }
@@ -18209,13 +18024,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://youtu.be/ZinwCw1XCiI",
-      "socials": [
-        {
-          "platform": "generic",
-          "handle": "",
-          "url": "https://youtu.be/ZinwCw1XCiI"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_c175e7f1ab0d",
@@ -18321,7 +18130,7 @@
           "url": "https://www.doujin.com.tw/authors/info/yucianw"
         },
         {
-          "platform": "booth",
+          "platform": "booth_pm",
           "handle": "",
           "url": "https://ame5000.booth.pm/"
         },
@@ -18336,69 +18145,29 @@
           "url": "https://twitter.com/ame_5000"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/Ame.5000.77/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/cian_tattoo/"
         },
         {
-          "platform": "discord",
-          "handle": "",
-          "url": "https://discord.gg/aR4b9FhHP"
-        },
-        {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/share/p/1AagSq8Wxy/https://www.facebook.com/share/p/1AagSq8Wxy/"
-        },
-        {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/Ame.5000/"
         },
         {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/share/p/1HZHCQSmpX/"
-        },
-        {
-          "platform": "facebook",
-          "handle": "",
-          "url": "https://www.facebook.com/ame.aou/posts/pfbid07odbMUtvtK1JPFFyhqyb89t4B11N52CkXyqvuC3aiW2ywBgUpiYyCyQVUAz5irkdl"
-        },
-        {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/ame.aou"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/cal7fa"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://www.pixiv.net/artworks/116988709"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://www.pixiv.net/artworks/116988588"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://www.pixiv.net/artworks/116988766"
-        },
-        {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://www.pixiv.net/artworks/116989029"
         },
         {
           "platform": "pixiv",
@@ -18406,12 +18175,7 @@
           "url": "https://www.pixiv.net/users/70474424"
         },
         {
-          "platform": "pixiv",
-          "handle": "",
-          "url": "https://www.pixiv.net/artworks/116988608"
-        },
-        {
-          "platform": "marshmallow",
+          "platform": "generic",
           "handle": "",
           "url": "https://marshmallow-qa.com/qkkfure4wwgx2ge?t=wnTLQz&utm_medium=url_text&utm_source=promotion"
         },
@@ -18437,149 +18201,64 @@
           "url": "https://portaly.cc/horohoro"
         },
         {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/DUA1hd5iRt9/"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/CzqzsdaSVOm/?img_index=1"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/C3sBrifvREy/"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/DECvdGfvlVZ/?img_index=1"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/C5S_ADhv_RA/?img_index=1"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "http://instagram.com/p/DW1GeIIgQXM/?img_index=1"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/evapenghaoyu/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/chunhe.market/"
         },
         {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/C3pfnLdPXh8/"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/Ck99xwfvnM_/"
-        },
-        {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/DTroBs3gQf3/"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/merry.go.round.wonderland/"
         },
         {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/DLmsK4lpaaR/"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/horohorodesign"
         },
         {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/CnOCCdru-Ed/?utm_source=ig_web_copy_link"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/evaeyesnlens/"
         },
         {
-          "platform": "instagram",
-          "handle": "",
-          "url": "https://www.instagram.com/p/DL4g41hTCN7/"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/somnambulist.mrkt/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/hotel.sennas/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/leqing2023/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/suisui_life/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/freeair8market/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kon2fuku2/"
         },
         {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://www.youtube.com/shorts/s-JJEMzr6X8"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://www.youtube.com/shorts/lLDG9-h7EkQ"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://www.youtube.com/shorts/CUerwtJiZnM"
-        },
-        {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@horohoroDesign"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://www.youtube.com/shorts/fRpH63O5oXM"
-        },
-        {
-          "platform": "youtube",
-          "handle": "",
-          "url": "https://www.youtube.com/shorts/aQUpCwiVcoo"
         },
         {
           "platform": "plurk",
@@ -18597,17 +18276,17 @@
           "url": "https://www.plurk.com/horo_horo"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/profile.php?id=100066849969690"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "http://facebook.com/xxx"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/D3Fest"
         }
@@ -18621,13 +18300,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1CEXsim9cC/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1CEXsim9cC/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_c2fa5803c2ef",
@@ -18738,13 +18411,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/189QQVF5Pm/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/189QQVF5Pm/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_c762bcea00b8",
@@ -18898,13 +18565,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1CQbBy6mTJ/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_cb0226b2be63",
@@ -18972,13 +18633,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1BwHfvUqMu/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1BwHfvUqMu/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_cf038b22fec3",
@@ -18988,13 +18643,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1ADgk3caBw/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_cf3a19e797fb",
@@ -19043,12 +18692,12 @@
           "url": "https://lit.link/en/twponpon"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/ponponnnnn"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/profile.php?id=61572881690363"
         },
@@ -19058,7 +18707,7 @@
           "url": "https://twitter.com/tw_ponpon"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/ponpon1013443?igsh=MWVsanNsOWdyY2g2bQ==&amp;utm_source=qr/"
         }
@@ -19227,37 +18876,37 @@
           "url": "https://lit.link/en/jadeverse"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/RyoyakS2nd"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/fei.shun.2025"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/cywhitebear"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/hua.xiao.hua.859628"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/jiao.ji.327793"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/lostar.chen.2025"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/OrukaOru"
         }
@@ -19271,13 +18920,7 @@
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.facebook.com/share/1JQ7Y3ei6c/",
-      "socials": [
-        {
-          "platform": "fb",
-          "handle": "share",
-          "url": "https://www.facebook.com/share/1JQ7Y3ei6c/"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_d5bc5acb88c2",
@@ -19321,95 +18964,15 @@
         {
           "platform": "doujin_tw",
           "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/53677"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/58505"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/47792"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/61152"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/50857"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/44044"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/61158"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/65409"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/62603"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/52043"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/49839"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/61159"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/68499"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/57136"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/44766"
-        },
-        {
-          "platform": "doujin_tw",
-          "handle": "",
           "url": "https://www.doujin.com.tw/booky/books/search/q?keyword=kakusugar"
         },
         {
-          "platform": "doujin_tw",
-          "handle": "",
-          "url": "https://www.doujin.com.tw/books/info/66194"
-        },
-        {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kakusugarpic/"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kakusugarhandmade/"
         }
@@ -19674,7 +19237,7 @@
           "url": "https://x.com/OMOUchoten"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/Moonlight432Hz"
         },
@@ -19684,17 +19247,17 @@
           "url": "https://www.threads.net/@moonlight432hz"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/noonenowns"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/moonlight432hz"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/mindacupoftea/"
         },
@@ -19704,7 +19267,7 @@
           "url": "https://www.pixiv.net/users/107119229"
         },
         {
-          "platform": "youtube",
+          "platform": "generic",
           "handle": "",
           "url": "https://www.youtube.com/@moonlight432Hz"
         },
@@ -19951,17 +19514,17 @@
           "url": "https://www.plurk.com/The_Taiwan_Lily_Project"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://instagram.com/thetaiwanlilyproject"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/profile.php?id=61581988013539"
         },
         {
-          "platform": "facebook",
+          "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/people/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%90%88%E6%BC%AB%E7%95%AB%E7%A0%94%E7%A9%B6/61581988013539"
         },
@@ -20080,7 +19643,7 @@
           "url": "https://twitter.com/kyou_work"
         },
         {
-          "platform": "instagram",
+          "platform": "ig",
           "handle": "",
           "url": "https://www.instagram.com/kyou_work"
         }
