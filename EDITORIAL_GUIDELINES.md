@@ -383,9 +383,67 @@ handle 無し booth (公式 SNS 未公開) は:
 
 **migration script**: `scripts/migrate_to_authors_split.py` (one-time、 2026-06-02 実行済)。 以後 `extract_circles.py` が canonical extractor、 認識済 circle.members を respect しつつ event lists を re-build。
 
-**未対応 (Phase B-big-2)**:
-- books[] 別 table → 合本 contributors の first-class 表現
-- 同一作家・複数 circle 名義の merge は author.id 共有で表現可能、 ただし mechanical 検出には NLP / 手動 review 必要
+**未対応**:
+- 同一作家・複数 circle 名義の merge は author.id 共有で表現可能、 ただし mechanical 検出には NLP / 手動 review 必要 (B-big-1 で schema は ready、 個別 case を識別したら author.id を統合)
+
+## 17. books[] 別 table (Phase B-big-2, 2026-06-02)
+
+**問題**: 合本 (1冊 N 作家合著) は circle 単位では表現できない (1 circle が出版する書籍 1 つに複数作家 contributors)。 body text の中 だけに「12 作家合著: A, B, C...」 と書かれてて、 検索 / cross-link 不可能だった。
+
+**新 schema**: `circles.json` の top-level に `books[]` 追加:
+
+```json
+{
+  "circles": [...],
+  "authors": [...],
+  "books": [
+    {
+      "id": "cpk_remix",
+      "title": "『CPK《Remix》』",
+      "circle_id": "c_84f117140304",   // 発行 circle (寄攤 元 でも OK)
+      "contributors": ["a_xxx", "a_yyy", ...],   // author IDs
+      "event_ids": ["if7-2026-05"],
+      "format": "A5/98P/全年齡",
+      "price": 250, "currency": "NT",
+      "kind": "anthology",             // "anthology" | "single"
+      "cps": ["iroka", "iroyachi"], "tags": ["super-kaguya"],
+      "note": "..."                    // optional 説明
+    }
+  ]
+}
+```
+
+**ghost author**:
+- contributors のうち X handle わからない case は **hash-derived author id** (`a_<sha8>`) で minimal entry 作成 (name のみ、 socials 空)
+- 後で handle 判明したら author entry 充実、 id 共有で他の book / circle と link
+
+**runtime export** (`circles.js`):
+- `window.BOOKS_BY_CIRCLE`: `{circle_id: [book, book, ...]}` 形式 (booth modal が circle_id key で即 lookup できる用)
+- 全 books array は circles.json で SSOT、 runtime には inverted index のみ
+
+**UI**:
+- modal の meta section 直後に `📚 発行合本` section
+- `<details>` で expandable、 default closed
+- 各 book: title / format / price + contributor chip list (X handle あれば click → profile)
+- contributor chip は author table から name + x_url を resolve
+
+**初期 dataset** (4 既知合本):
+- T-16 `mofu_mofu_paradise` (5 作家)
+- T-30 `flawless_dreamers` (5 作家)
+- T-36 `cpk_remix` (12 作家)
+- T-42 `mbcc_kyokuchou_to_kanojo` (6 作家)
+
+合計 661 authors (628 = 既存 + 33 = ghost)、 4 books。
+
+**Workflow** (新 合本 追加時):
+1. circles.json の `books` array に新 entry 直 push (id 重複避け)
+2. 必要なら新 contributor を `authors` array に append (ghost OK)
+3. `python3 scripts/extract_circles.py` で `circles.js` 再生成
+4. modal で自動表示
+
+**未対応 (Phase B-big-3 候補?)**:
+- author page (`/author/<id>/`) で 「contributed to: 合本 A, B...」 cross-event list
+- 既存 booth.body 内の「作家群: ...」 text を books[] に migrate (自動化困難、 segment manual)
 
 ---
 

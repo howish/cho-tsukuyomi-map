@@ -733,6 +733,51 @@
     meta.appendChild(modalFav);
     body.appendChild(meta);
 
+    // Anthology books published by this booth's circle (B-big-2 schema,
+    // 2026-06-02). Shows "発行合本: 『title』 (N contributors)" with each
+    // book linking to a contributor breakdown popover (future) — for now
+    // expandable <details> with the contributor list.
+    const BOOKS_BY_CIRCLE = window.BOOKS_BY_CIRCLE || {};
+    const AUTHORS_BY_ID2 = window.AUTHORS_BY_ID || {};
+    const circleBooks = BOOKS_BY_CIRCLE[b.circle_id] || [];
+    if (circleBooks.length) {
+      const anthoSection = el('div', { class: 'modal-anthology' });
+      anthoSection.appendChild(el('h4', { class: 'anthology-header' },
+        T('modal_anthology_header') || '📚 発行合本 / Anthology'));
+      circleBooks.forEach(bk => {
+        const wrap = el('details', { class: 'anthology-book' });
+        const summary = el('summary', null,
+          `${bk.title}` +
+          (bk.format ? ` — ${bk.format}` : '') +
+          (bk.price ? ` / ${bk.currency || ''} ${bk.price}` : '') +
+          ` · ${bk.contributors ? bk.contributors.length : 0} 作家`
+        );
+        wrap.appendChild(summary);
+        if (bk.note) {
+          wrap.appendChild(el('p', { class: 'anthology-note' }, bk.note));
+        }
+        if (bk.contributors && bk.contributors.length) {
+          const ulist = el('div', { class: 'anthology-contributors' });
+          bk.contributors.forEach(aid => {
+            const a = AUTHORS_BY_ID2[aid];
+            if (!a) return;
+            const name = a.name || aid;
+            if (a.x_url) {
+              ulist.appendChild(el('a', {
+                href: a.x_url, target: '_blank', rel: 'noopener',
+                class: 'anthology-contributor-chip',
+              }, name));
+            } else {
+              ulist.appendChild(el('span', { class: 'anthology-contributor-chip' }, name));
+            }
+          });
+          wrap.appendChild(ulist);
+        }
+        anthoSection.appendChild(wrap);
+      });
+      body.appendChild(anthoSection);
+    }
+
     // (Old "X で開く" / "Plurk で開く" big button removed — the social chips
     // above now expose the same link with platform-specific colour and
     // handle, so the standalone button was redundant.)

@@ -10284,6 +10284,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_0264692abaa1": {
+    "id": "a_0264692abaa1",
+    "name": "Claris",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_02e35dbc3f96": {
     "id": "a_02e35dbc3f96",
     "name": "活派 對",
@@ -10296,6 +10303,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://x.com/kumalongrule34"
       }
     ]
+  },
+  "a_0338cbf86c74": {
+    "id": "a_0338cbf86c74",
+    "name": "夜夢ND",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_034f8555900e": {
     "id": "a_034f8555900e",
@@ -10387,6 +10401,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.facebook.com/cherryblossomfactory"
       }
     ]
+  },
+  "a_08bbd4172407": {
+    "id": "a_08bbd4172407",
+    "name": "八重洲",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_092280c25bda": {
     "id": "a_092280c25bda",
@@ -10492,6 +10513,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_0d0547eb579c": {
+    "id": "a_0d0547eb579c",
+    "name": "蕗舟",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_0d1a6db8effb": {
     "id": "a_0d1a6db8effb",
     "name": "Candy Box",
@@ -10530,6 +10558,13 @@ window.AUTHORS_BY_ID = {
         "url": "facebook.com/puffbunny.oo.p"
       }
     ]
+  },
+  "a_0eaceba7eef3": {
+    "id": "a_0eaceba7eef3",
+    "name": "剎翼",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_0ebcfa1490cb": {
     "id": "a_0ebcfa1490cb",
@@ -10893,6 +10928,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://twitter.com/takapiyo"
       }
     ]
+  },
+  "a_1acd3de5d4e6": {
+    "id": "a_1acd3de5d4e6",
+    "name": "暮春",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_1b7f3d6874bb": {
     "id": "a_1b7f3d6874bb",
@@ -11517,6 +11559,13 @@ window.AUTHORS_BY_ID = {
     "x_url": "#",
     "socials": []
   },
+  "a_30bb41338923": {
+    "id": "a_30bb41338923",
+    "name": "葉唯",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_31173427d1bb": {
     "id": "a_31173427d1bb",
     "name": "かくkaku",
@@ -11529,6 +11578,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://portaly.cc/ewokaku0w0"
       }
     ]
+  },
+  "a_318d508f93e5": {
+    "id": "a_318d508f93e5",
+    "name": "伊諾",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_31cb926b21f5": {
     "id": "a_31cb926b21f5",
@@ -11594,6 +11650,20 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.instagram.com/lostdeerisland/"
       }
     ]
+  },
+  "a_32cac33e2772": {
+    "id": "a_32cac33e2772",
+    "name": "魚",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
+  "a_330be19f3346": {
+    "id": "a_330be19f3346",
+    "name": "丹",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_3397bb930318": {
     "id": "a_3397bb930318",
@@ -11686,6 +11756,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_371cf9fb0c7a": {
+    "id": "a_371cf9fb0c7a",
+    "name": "立夜",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_3784914e7419": {
     "id": "a_3784914e7419",
     "name": "墨丘利",
@@ -11755,6 +11832,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B"
       }
     ]
+  },
+  "a_384f3abedb37": {
+    "id": "a_384f3abedb37",
+    "name": "八月",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_38522e7dfc47": {
     "id": "a_38522e7dfc47",
@@ -11979,6 +12063,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_41c2ffd85f86": {
+    "id": "a_41c2ffd85f86",
+    "name": "艾沐",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_41dfce158ffb": {
     "id": "a_41dfce158ffb",
     "name": "優格白喵",
@@ -12122,6 +12213,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_4741dca10047": {
+    "id": "a_4741dca10047",
+    "name": "武佳栩",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_4851f6c42ec1": {
     "id": "a_4851f6c42ec1",
     "name": "迷途羔羊",
@@ -12243,6 +12341,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.facebook.com/rrrrrbu/"
       }
     ]
+  },
+  "a_4afdf96bbce5": {
+    "id": "a_4afdf96bbce5",
+    "name": "U魂",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_4b89253c02f8": {
     "id": "a_4b89253c02f8",
@@ -12721,6 +12826,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_5a5b641526f8": {
+    "id": "a_5a5b641526f8",
+    "name": "Nowhere",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_5acdbd1bb946": {
     "id": "a_5acdbd1bb946",
     "name": "臨時通告",
@@ -13194,6 +13306,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_689a8c49412f": {
+    "id": "a_689a8c49412f",
+    "name": "笨丸",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_68f7f9144ffe": {
     "id": "a_68f7f9144ffe",
     "name": "迢迢路條條",
@@ -13232,6 +13351,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.plurk.com/p/3icizou1me"
       }
     ]
+  },
+  "a_6cb2c1bac97e": {
+    "id": "a_6cb2c1bac97e",
+    "name": "WASTE-MAN",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_6d47b2d64fe0": {
     "id": "a_6d47b2d64fe0",
@@ -14399,6 +14525,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_98dc6605dbd5": {
+    "id": "a_98dc6605dbd5",
+    "name": "cema",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_990fd2b3d27f": {
     "id": "a_990fd2b3d27f",
     "name": "大眾澡堂",
@@ -14996,6 +15129,20 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.plurk.com/taimini865"
       }
     ]
+  },
+  "a_ac6275a30b30": {
+    "id": "a_ac6275a30b30",
+    "name": "ラプトル7",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
+  "a_ac792dcc8d22": {
+    "id": "a_ac792dcc8d22",
+    "name": "水神",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_acdd66b90078": {
     "id": "a_acdd66b90078",
@@ -15951,6 +16098,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_cc6909c084e0": {
+    "id": "a_cc6909c084e0",
+    "name": "狼尾草",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_cceafad29f3f": {
     "id": "a_cceafad29f3f",
     "name": "東雲之森",
@@ -16067,6 +16221,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"
       }
     ]
+  },
+  "a_d1d61b12d81e": {
+    "id": "a_d1d61b12d81e",
+    "name": "某波",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_d2caae8d57ec": {
     "id": "a_d2caae8d57ec",
@@ -16367,6 +16528,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_dde5db50fadd": {
+    "id": "a_dde5db50fadd",
+    "name": "阿臥",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_ddfbb48e1871": {
     "id": "a_ddfbb48e1871",
     "name": "慢來moonlight",
@@ -16651,6 +16819,13 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_e95fb932d20f": {
+    "id": "a_e95fb932d20f",
+    "name": "+0",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
+  },
   "a_e98f337c13d6": {
     "id": "a_e98f337c13d6",
     "name": "新夭brainholesky",
@@ -16676,6 +16851,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.facebook.com/sian.liu.756/"
       }
     ]
+  },
+  "a_eb4515110bb1": {
+    "id": "a_eb4515110bb1",
+    "name": "零零人",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_eb75c2f376b5": {
     "id": "a_eb75c2f376b5",
@@ -16910,6 +17092,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://x.com/gogo_wolf"
       }
     ]
+  },
+  "a_f5c0620d04e0": {
+    "id": "a_f5c0620d04e0",
+    "name": "楓月",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_f5c9a24af3c5": {
     "id": "a_f5c9a24af3c5",
@@ -17183,6 +17372,13 @@ window.AUTHORS_BY_ID = {
         "url": "https://x.com/ak_lina0"
       }
     ]
+  },
+  "a_fd5f79e59d94": {
+    "id": "a_fd5f79e59d94",
+    "name": "マヨ",
+    "x_handle": "",
+    "x_url": "",
+    "socials": []
   },
   "a_fe008d465c68": {
     "id": "a_fe008d465c68",
@@ -18561,4 +18757,123 @@ window.AUTHORS_BY_ID = {
       }
     ]
   }
+};
+window.BOOKS_BY_CIRCLE = {
+  "c_5418243449eb": [
+    {
+      "id": "mofu_mofu_paradise",
+      "title": "『MOFU MOFU PARADISE』",
+      "circle_id": "c_5418243449eb",
+      "contributors": [
+        "a_6cb2c1bac97e",
+        "a_4afdf96bbce5",
+        "a_08bbd4172407",
+        "a_fd5f79e59d94",
+        "a_d1d61b12d81e"
+      ],
+      "event_ids": [
+        "if7-2026-05"
+      ],
+      "format": "A5/40P/一般向",
+      "price": 200,
+      "currency": "NT",
+      "kind": "anthology",
+      "cps": [],
+      "tags": [
+        "lovelive"
+      ],
+      "note": "鐘嵐珠 × 三船栞子、 漫畫+插圖+小說 混合"
+    }
+  ],
+  "c_b7751fb3b188": [
+    {
+      "id": "flawless_dreamers",
+      "title": "『Flawless Dreamers』",
+      "circle_id": "c_b7751fb3b188",
+      "contributors": [
+        "a_5a5b641526f8",
+        "a_0338cbf86c74",
+        "a_ac6275a30b30",
+        "a_318d508f93e5",
+        "a_1acd3de5d4e6"
+      ],
+      "event_ids": [
+        "if7-2026-05"
+      ],
+      "format": "A5/合本/插畫+漫畫+小說",
+      "price": 300,
+      "currency": "NT",
+      "kind": "anthology",
+      "cps": [
+        "dresagu"
+      ],
+      "tags": [
+        "touhou"
+      ],
+      "note": "東方Project · 稀神探女 × 朵蕾米蘇伊特 (ドレサグ / 鷺貘)"
+    }
+  ],
+  "c_84f117140304": [
+    {
+      "id": "cpk_remix",
+      "title": "『CPK《Remix》』",
+      "circle_id": "c_84f117140304",
+      "contributors": [
+        "a_e95fb932d20f",
+        "a_98dc6605dbd5",
+        "a_0264692abaa1",
+        "a_384f3abedb37",
+        "a_330be19f3346",
+        "a_ac792dcc8d22",
+        "a_371cf9fb0c7a",
+        "a_0eaceba7eef3",
+        "a_689a8c49412f",
+        "a_32cac33e2772",
+        "a_30bb41338923",
+        "a_f5c0620d04e0"
+      ],
+      "event_ids": [
+        "if7-2026-05"
+      ],
+      "format": "A5/98P/全年齡",
+      "price": 250,
+      "currency": "NT",
+      "kind": "anthology",
+      "cps": [
+        "iroka",
+        "iroyachi"
+      ],
+      "tags": [
+        "super-kaguya"
+      ],
+      "note": "超時空輝耀姬 · 彩葉 × 輝耀 × 八千代 主題、 月讀ツクヨミDC群 第1本合本"
+    }
+  ],
+  "c_af61eccf260e": [
+    {
+      "id": "mbcc_kyokuchou_to_kanojo",
+      "title": "『MBCC 局長與她的女人們』",
+      "circle_id": "c_af61eccf260e",
+      "contributors": [
+        "a_4741dca10047",
+        "a_eb4515110bb1",
+        "a_dde5db50fadd",
+        "a_41c2ffd85f86",
+        "a_cc6909c084e0",
+        "a_0d0547eb579c"
+      ],
+      "event_ids": [
+        "if7-2026-05"
+      ],
+      "format": "小說合本",
+      "price": 250,
+      "currency": "NT",
+      "kind": "anthology",
+      "cps": [],
+      "tags": [
+        "arknights-endfield"
+      ],
+      "note": "無期迷途 百合小說合本、 CP: 縈縈 / 蜜莉 / 瑟琳 / 可可莉克 / 奧古斯特 / 卓婭 / 安吉爾 / 卡門奈特"
+    }
+  ]
 };

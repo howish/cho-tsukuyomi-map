@@ -1411,6 +1411,65 @@ section {
 #modal-body .modal-meta a.social-chip-x { background: #e9ecef; }
 #modal-body .modal-meta a.social-chip-pixiv { background: #e6f0ff; color: #0096fa; }
 
+/* Anthology / 合本 section (B-big-2 schema, 2026-06-02) — shows books
+   published by the booth's circle with contributor breakdowns. Subtle
+   styling so it sits between meta and body without dominating. */
+#modal-body .modal-anthology {
+  margin: 0.8rem 0 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: rgba(155, 110, 195, 0.06);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+}
+#modal-body .anthology-header {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+#modal-body .anthology-book {
+  margin: 0.4rem 0;
+}
+#modal-body .anthology-book > summary {
+  cursor: pointer;
+  font-size: 0.88rem;
+  padding: 0.2rem 0;
+  list-style: none;
+}
+#modal-body .anthology-book > summary::-webkit-details-marker { display: none; }
+#modal-body .anthology-book > summary::before {
+  content: '▸ ';
+  color: var(--accent);
+  display: inline-block;
+  transition: transform 0.15s;
+}
+#modal-body .anthology-book[open] > summary::before {
+  transform: rotate(90deg);
+}
+#modal-body .anthology-note {
+  margin: 0.3rem 0 0.4rem 1rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+#modal-body .anthology-contributors {
+  margin: 0.3rem 0 0.3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+#modal-body .anthology-contributor-chip {
+  background: rgba(155, 110, 195, 0.12);
+  color: var(--accent);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+#modal-body a.anthology-contributor-chip:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
 /* Consignment partner chip (寄攤 / 委託) — visually de-emphasised so the
    primary author chip stays dominant. Differentiation via style alone:
    - dashed outline (no fill bg) — primary has solid fill
