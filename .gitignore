@@ -21,3 +21,4 @@ __pycache__/
 /plurk_*.md
 .name-resolver/
 enrich-decisions.json
+agg-decisions.json
