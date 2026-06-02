@@ -46,7 +46,7 @@
     });
     const head = el('div', { class: 'circle-row-head' });
     head.appendChild(el('span', { class: 'circle-name' }, c.circle_name || '(無名)'));
-    if (c.author) head.appendChild(el('span', { class: 'circle-author' }, c.author));
+    if (c.author && c.author !== c.circle_name) head.appendChild(el('span', { class: 'circle-author' }, c.author));
     row.appendChild(head);
 
     // Social link chips

@@ -485,7 +485,7 @@
     if (b.circle_name) {
       card.appendChild(el('div', { class: 'booth-name' }, b.circle_name));
     }
-    if (b.author) {
+    if (b.author && b.author !== b.circle_name) {
       card.appendChild(el('div', { class: 'booth-author' }, b.author));
     }
     if (b.min_price) {
@@ -611,6 +611,8 @@
     memberRecords.forEach(m => {
       const name = m.name || m.name_inferred || '';
       if (!name) return;
+      // Skip chip when it just repeats circle_name (the h3 already shows it).
+      if (name === b.circle_name) return;
       const chipHref = m.x_url || (m.x_handle ? 'https://x.com/' + m.x_handle : null);
       if (chipHref) {
         meta.appendChild(el('a', {
