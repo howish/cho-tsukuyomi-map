@@ -495,6 +495,66 @@
   line-height: 1.45;
 }
 
+/* ---- WebSearch candidates block ---- */
+.card-ws-block {
+  background: #f0f4ff;
+  border: 1px solid #b8c8e8;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 6px;
+}
+.card-ws-label {
+  font-size: 11px;
+  color: #3d5a9d;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.card-ws-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-ws-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  background: #fff;
+  border: 1px solid #d8e0ec;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.card-ws-item.conf-high { border-left: 3px solid #4a9d63; }
+.card-ws-item.conf-medium { border-left: 3px solid #d8a040; }
+.card-ws-item.conf-low { border-left: 3px solid #999; }
+.card-ws-link {
+  color: #3d5a9d;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-all;
+  flex: 1 1 200px;
+}
+.card-ws-link:hover { text-decoration: underline; }
+.card-ws-snippet {
+  flex: 1 1 100%;
+  font-size: 11px;
+  color: #6a7a9a;
+  line-height: 1.4;
+}
+.card-ws-add {
+  flex: 0 0 auto;
+  background: #4a9d63;
+  border: none;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.card-ws-add:hover { background: #3d8a54; }
+
 /* ---- Decision form ---- */
 
 .card-form {

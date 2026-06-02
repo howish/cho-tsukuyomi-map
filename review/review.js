@@ -15,6 +15,7 @@
 
   const CIRCLES = window.CIRCLES_BY_ID || {};
   const AUTHORS = window.AUTHORS_BY_ID || {};
+  const WS_CANDIDATES = window.WS_CANDIDATES || {};  // {author_id: [{url, platform, snippet, confidence}]}
 
   // ---- DOM helpers ----
   function el(tag, attrs, children) {
@@ -489,6 +490,44 @@
     const plat = authorPrimaryPlatform(a);
     const note = PLATFORM_NOTES[plat] || PLATFORM_NOTES.plain;
     card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
+
+    // WebSearch candidates (if any) — surface as clickable chips with snippet
+    const wsHits = WS_CANDIDATES[a.id] || [];
+    if (wsHits.length) {
+      const wsBlock = el('div', { class: 'card-ws-block' });
+      wsBlock.appendChild(el('div', { class: 'card-ws-label' }, '🌐 WebSearch 候補 (click で実物確認 → 下の + で追加)'));
+      const list = el('div', { class: 'card-ws-list' });
+      wsHits.forEach(h => {
+        const item = el('div', { class: 'card-ws-item conf-' + (h.confidence || 'medium') });
+        const link = el('a', {
+          href: h.url, target: '_blank', rel: 'noopener',
+          class: 'card-ws-link',
+        }, `${h.platform || '🔗'} → ${h.url}`);
+        item.appendChild(link);
+        if (h.snippet) {
+          item.appendChild(el('div', { class: 'card-ws-snippet' }, '💬 ' + h.snippet));
+        }
+        // Quick-add button: prefills the add-social form
+        const addBtn = el('button', {
+          type: 'button',
+          class: 'card-ws-add',
+          title: 'この URL を pending 追加',
+          onclick: () => {
+            (pendingSocials[a.id] = pendingSocials[a.id] || []).push({
+              platform: h.platform || 'generic',
+              url: h.url,
+              handle: '',
+            });
+            savePendingSocials(pendingSocials);
+            render();
+          },
+        }, '+ 追加');
+        item.appendChild(addBtn);
+        list.appendChild(item);
+      });
+      wsBlock.appendChild(list);
+      card.appendChild(wsBlock);
+    }
 
     // Decision badge or form
     if (decision) {
