@@ -10935,9 +10935,9 @@
     },
     {
       "id": "a_18475ef22237",
-      "name": "",
-      "name_inferred": "冷坑人生",
-      "name_source": "circle_name",
+      "name": "緋嵐",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
@@ -10946,6 +10946,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/6122/books"
+        },
+        {
+          "platform": "generic",
+          "handle": "@shuliy",
+          "url": "https://www.doujin.com.tw/authors/info/shuliy"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@shuliy",
+          "url": "https://www.plurk.com/shuliy"
         }
       ]
     },
@@ -11405,7 +11415,9 @@
       "name": "夢 靈 虎 居",
       "name_inferred": "",
       "name_source": "plurk_profile",
-      "aliases": [],
+      "aliases": [
+        "靈犽"
+      ],
       "x_handle": "",
       "x_url": "https://www.plurk.com/dreamxsoul",
       "socials": [
@@ -11423,6 +11435,16 @@
           "platform": "fb",
           "handle": "",
           "url": "https://www.facebook.com/dreamxsoul/"
+        },
+        {
+          "platform": "generic",
+          "handle": "@g:lasjgrt23yo8k",
+          "url": "https://www.doujin.com.tw/authors/info/g:lasjgrt23yo8k"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@torarara",
+          "url": "https://www.plurk.com/torarara"
         }
       ]
     },
@@ -11540,6 +11562,11 @@
           "platform": "plurk",
           "handle": "@Yamiku",
           "url": "https://www.plurk.com/Yamiku"
+        },
+        {
+          "platform": "generic",
+          "handle": "@yamiku0419",
+          "url": "https://www.doujin.com.tw/authors/info/yamiku0419"
         }
       ]
     },
@@ -11763,9 +11790,9 @@
     },
     {
       "id": "a_29eddf08f181",
-      "name": "",
-      "name_inferred": "透明雞翅膀",
-      "name_source": "circle_name",
+      "name": "軒宇",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/7384",
@@ -11774,6 +11801,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/7384"
+        },
+        {
+          "platform": "generic",
+          "handle": "@Sheree",
+          "url": "https://www.doujin.com.tw/authors/info/Sheree"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@sheree821012",
+          "url": "https://www.plurk.com/sheree821012"
         }
       ]
     },
@@ -11843,9 +11880,9 @@
     },
     {
       "id": "a_2d10fc3ecb04",
-      "name": "",
-      "name_inferred": "塞納河底看不見星空",
-      "name_source": "circle_name",
+      "name": "萬呆牛",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
@@ -11854,6 +11891,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/4848/books"
+        },
+        {
+          "platform": "generic",
+          "handle": "@liangzhen_wan",
+          "url": "https://www.doujin.com.tw/authors/info/liangzhen_wan"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@leann123123",
+          "url": "https://www.plurk.com/leann123123"
         }
       ]
     },
@@ -12825,9 +12872,9 @@
     },
     {
       "id": "a_48bfb7ede1c9",
-      "name": "",
-      "name_inferred": "四季手作",
-      "name_source": "circle_name",
+      "name": "9 遙",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
@@ -12841,6 +12888,16 @@
           "platform": "plurk",
           "handle": "@haruka_99",
           "url": "https://www.plurk.com/haruka_99"
+        },
+        {
+          "platform": "generic",
+          "handle": "@jane85320",
+          "url": "https://www.doujin.com.tw/authors/info/jane85320"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@haruka_9",
+          "url": "https://www.plurk.com/haruka_9"
         }
       ]
     },
@@ -13338,9 +13395,9 @@
     },
     {
       "id": "a_54bdb6aa6ab1",
-      "name": "",
-      "name_inferred": "N.D.S.L.",
-      "name_source": "circle_name",
+      "name": "DS",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/365/books",
@@ -13349,6 +13406,21 @@
           "platform": "doujin_tw",
           "handle": "@365",
           "url": "https://www.doujin.com.tw/groups/info/365/books"
+        },
+        {
+          "platform": "generic",
+          "handle": "@DarkShadow",
+          "url": "https://www.doujin.com.tw/authors/info/DarkShadow"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=226568"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@DarkCurtis",
+          "url": "https://www.plurk.com/DarkCurtis"
         }
       ]
     },
@@ -14577,9 +14649,9 @@
     },
     {
       "id": "a_77d246c20bc0",
-      "name": "",
-      "name_inferred": "粉紅泡泡小宇宙★",
-      "name_source": "circle_name",
+      "name": "銀魚派 ✷꙳",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/6995",
@@ -14588,6 +14660,16 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/6995"
+        },
+        {
+          "platform": "generic",
+          "handle": "@sunnylee1884",
+          "url": "https://www.doujin.com.tw/authors/info/sunnylee1884"
+        },
+        {
+          "platform": "aggregator",
+          "handle": "@icefish.pie",
+          "url": "https://linktr.ee/icefish.pie"
         }
       ]
     },
@@ -15210,9 +15292,9 @@
     },
     {
       "id": "a_870bb05546ae",
-      "name": "",
-      "name_inferred": "音之狂想曲",
-      "name_source": "circle_name",
+      "name": "舞飛音",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
@@ -15226,6 +15308,16 @@
           "platform": "plurk",
           "handle": "@beautywind",
           "url": "https://www.plurk.com/beautywind"
+        },
+        {
+          "platform": "generic",
+          "handle": "@beautywind",
+          "url": "https://www.doujin.com.tw/authors/info/beautywind"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@ncgdni",
+          "url": "https://www.plurk.com/p/ncgdni"
         }
       ]
     },
@@ -15604,9 +15696,9 @@
     },
     {
       "id": "a_9647dad20387",
-      "name": "",
-      "name_inferred": "NiNE's",
-      "name_source": "circle_name",
+      "name": "NiNE",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/523/books",
@@ -15620,6 +15712,21 @@
           "platform": "plurk",
           "handle": "@ninevsnine",
           "url": "https://www.plurk.com/ninevsnine/"
+        },
+        {
+          "platform": "generic",
+          "handle": "@ninevsnine",
+          "url": "https://www.doujin.com.tw/authors/info/ninevsnine"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=967258"
+        },
+        {
+          "platform": "x",
+          "handle": "@ninevsnine",
+          "url": "https://x.com/ninevsnine"
         }
       ]
     },
@@ -15891,9 +15998,9 @@
     },
     {
       "id": "a_9dd386048d1c",
-      "name": "",
-      "name_inferred": "紙皮盒",
-      "name_source": "circle_name",
+      "name": "KAUKAU",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/2719",
@@ -15902,6 +16009,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/2719"
+        },
+        {
+          "platform": "generic",
+          "handle": "@kaukau",
+          "url": "https://www.doujin.com.tw/authors/info/kaukau"
         }
       ]
     },
@@ -16608,9 +16720,9 @@
     },
     {
       "id": "a_aebc3a181c6d",
-      "name": "",
-      "name_inferred": "薄荷巧克力",
-      "name_source": "circle_name",
+      "name": "紫闇",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
@@ -16619,6 +16731,11 @@
           "platform": "doujin_tw",
           "handle": "",
           "url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab"
+        },
+        {
+          "platform": "generic",
+          "handle": "@myhand22",
+          "url": "https://www.doujin.com.tw/authors/info/myhand22"
         }
       ]
     },
@@ -16836,9 +16953,9 @@
     },
     {
       "id": "a_b2e2c03f464d",
-      "name": "",
-      "name_inferred": "JAkUtEn*",
-      "name_source": "circle_name",
+      "name": "仔夏",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/8694",
@@ -16852,6 +16969,21 @@
           "platform": "plurk",
           "handle": "@kiami",
           "url": "https://www.plurk.com/kiami"
+        },
+        {
+          "platform": "generic",
+          "handle": "@kiami",
+          "url": "https://www.doujin.com.tw/authors/info/kiami"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=232204"
+        },
+        {
+          "platform": "x",
+          "handle": "@konatsu0502",
+          "url": "https://x.com/konatsu0502"
         }
       ]
     },
@@ -17164,9 +17296,9 @@
     },
     {
       "id": "a_bf4fa0d0f8e8",
-      "name": "",
-      "name_inferred": "庫樓",
-      "name_source": "circle_name",
+      "name": "阿戰",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/1507/goods",
@@ -17180,6 +17312,16 @@
           "platform": "plurk",
           "handle": "@jiouya",
           "url": "http://www.plurk.com/jiouya"
+        },
+        {
+          "platform": "generic",
+          "handle": "@jiouya",
+          "url": "https://www.doujin.com.tw/authors/info/jiouya"
+        },
+        {
+          "platform": "x",
+          "handle": "@KovaEhwaz",
+          "url": "https://twitter.com/KovaEhwaz"
         }
       ]
     },
@@ -17992,9 +18134,9 @@
     },
     {
       "id": "a_d5bc5acb88c2",
-      "name": "",
-      "name_inferred": "角砂糖kakusugar",
-      "name_source": "circle_name",
+      "name": "透子",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
@@ -18008,6 +18150,21 @@
           "platform": "pixiv",
           "handle": "@member.php",
           "url": "http://www.pixiv.net/member.php?id=34176"
+        },
+        {
+          "platform": "generic",
+          "handle": "@kakusugar",
+          "url": "https://www.doujin.com.tw/authors/info/kakusugar"
+        },
+        {
+          "platform": "aggregator",
+          "handle": "@zOZNTqafh2bDz3BdZIxv2UgLEtm2",
+          "url": "https://lit.link/en/zOZNTqafh2bDz3BdZIxv2UgLEtm2"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@satou",
+          "url": "https://www.plurk.com/satou"
         }
       ]
     },
@@ -18828,9 +18985,9 @@
     },
     {
       "id": "a_f07d27e70f07",
-      "name": "",
-      "name_inferred": "URA BOU",
-      "name_source": "circle_name",
+      "name": "URA（うら）",
+      "name_inferred": "",
+      "name_source": "doujin_tw_profile",
       "aliases": [],
       "x_handle": "",
       "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
@@ -18844,6 +19001,26 @@
           "platform": "x",
           "handle": "@mzenura",
           "url": "https://twitter.com/mzenura"
+        },
+        {
+          "platform": "generic",
+          "handle": "@bockdog",
+          "url": "https://www.doujin.com.tw/authors/info/bockdog"
+        },
+        {
+          "platform": "pixiv",
+          "handle": "@member.php",
+          "url": "https://www.pixiv.net/member.php?id=65362684"
+        },
+        {
+          "platform": "plurk",
+          "handle": "@garaura",
+          "url": "https://www.plurk.com/garaura"
+        },
+        {
+          "platform": "x",
+          "handle": "@mzenura",
+          "url": "https://x.com/mzenura"
         }
       ]
     },
