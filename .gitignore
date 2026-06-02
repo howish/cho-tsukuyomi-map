@@ -19,3 +19,4 @@ __pycache__/
 /threads_*.md
 /plurk_*.json
 /plurk_*.md
+.name-resolver/
