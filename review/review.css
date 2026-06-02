@@ -248,6 +248,52 @@
   border-color: #6c4a9d;
 }
 
+/* Existing chip with inline × removal button */
+.card-probe-link.existing {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 4px 3px 10px;
+}
+.card-probe-link.existing .existing-link {
+  color: #4a3a5c;
+  text-decoration: none;
+}
+.card-probe-link.existing .existing-link:hover { text-decoration: underline; }
+.card-probe-link.existing .existing-remove {
+  background: rgba(0, 0, 0, 0.06);
+  border: none;
+  color: #6c4a9d;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 11px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 700;
+}
+.card-probe-link.existing .existing-remove:hover {
+  background: #c85858;
+  color: #fff;
+}
+/* Marked for removal — red strikethrough chip */
+.card-probe-link.existing.marked-remove {
+  background: #fde0e0;
+  border-color: #c85858;
+  color: #8a2828;
+  text-decoration: line-through;
+}
+.card-probe-link.existing.marked-remove .existing-link { color: #8a2828; }
+.card-probe-link.existing.marked-remove .existing-remove {
+  background: rgba(202, 88, 88, 0.2);
+  color: #8a2828;
+}
+.card-probe-link.existing.marked-remove .existing-remove:hover {
+  background: #4a9d63;
+  color: #fff;
+}
+
 /* Pending-added social chip — visually distinct from existing */
 .card-probe-link.pending-add {
   background: #fff3d8;

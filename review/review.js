@@ -57,14 +57,36 @@
       return JSON.parse(localStorage.getItem(STORAGE_KEY + '-socials') || '{}');
     } catch (e) { return {}; }
   }
+  function loadPendingRemovals() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-removals') || '{}');
+    } catch (e) { return {}; }
+  }
   function savePending(p) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   }
   function savePendingSocials(ps) {
     localStorage.setItem(STORAGE_KEY + '-socials', JSON.stringify(ps));
   }
+  function savePendingRemovals(pr) {
+    localStorage.setItem(STORAGE_KEY + '-removals', JSON.stringify(pr));
+  }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
+  let pendingRemovals = loadPendingRemovals();  // {author_id: [url, ...]}
+
+  function isMarkedForRemoval(aid, url) {
+    return (pendingRemovals[aid] || []).includes(url);
+  }
+  function toggleRemoval(aid, url) {
+    const arr = pendingRemovals[aid] = pendingRemovals[aid] || [];
+    const i = arr.indexOf(url);
+    if (i >= 0) arr.splice(i, 1);
+    else arr.push(url);
+    if (arr.length === 0) delete pendingRemovals[aid];
+    savePendingRemovals(pendingRemovals);
+    render();
+  }
 
   // Auto-detect platform from URL host.
   const PLATFORM_FROM_HOST = [
@@ -235,21 +257,41 @@
 
     // Probe links — all socials + x_handle + pending-added
     const links = el('div', { class: 'card-probe-links' });
-    if (a.x_handle) {
-      links.appendChild(el('a', {
-        class: 'card-probe-link',
-        href: 'https://x.com/' + a.x_handle,
+
+    function chipWithRemove(url, labelText, isPrimaryXHandle) {
+      const marked = isMarkedForRemoval(a.id, url);
+      const wrap = el('span', {
+        class: 'card-probe-link existing' + (marked ? ' marked-remove' : ''),
+      });
+      wrap.appendChild(el('a', {
+        class: 'existing-link',
+        href: url,
         target: '_blank', rel: 'noopener',
-      }, '𝕏 @' + a.x_handle));
+      }, labelText));
+      // Primary x_handle lives on the author row directly (not in socials[]);
+      // removing it would require a separate decision type — disable for now.
+      if (!isPrimaryXHandle) {
+        wrap.appendChild(el('button', {
+          type: 'button',
+          class: 'existing-remove',
+          title: marked ? '削除を取消' : 'この link を削除',
+          onclick: () => toggleRemoval(a.id, url),
+        }, marked ? '↺' : '×'));
+      }
+      return wrap;
+    }
+
+    if (a.x_handle) {
+      links.appendChild(chipWithRemove(
+        'https://x.com/' + a.x_handle,
+        '𝕏 @' + a.x_handle,
+        true,
+      ));
     }
     for (const s of (a.socials || [])) {
       if (!s.url) continue;
       const label = (s.platform || '🔗') + (s.handle ? ' ' + s.handle : '');
-      links.appendChild(el('a', {
-        class: 'card-probe-link',
-        href: s.url,
-        target: '_blank', rel: 'noopener',
-      }, label));
+      links.appendChild(chipWithRemove(s.url, label, false));
     }
     // Pending-added socials (visually distinct)
     const adds = pendingSocials[a.id] || [];
@@ -489,7 +531,8 @@
     const list = document.getElementById('pending-list');
     const nameCount = Object.keys(pending).length;
     const socialCount = Object.values(pendingSocials).reduce((s, arr) => s + arr.length, 0);
-    const total = nameCount + socialCount;
+    const removalCount = Object.values(pendingRemovals).reduce((s, arr) => s + arr.length, 0);
+    const total = nameCount + socialCount + removalCount;
     document.getElementById('pending-count').textContent = total;
     list.innerHTML = '';
     if (total === 0) {
@@ -516,6 +559,14 @@
         list.appendChild(li);
       }
     }
+    for (const aid in pendingRemovals) {
+      for (const url of pendingRemovals[aid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, aid));
+        li.appendChild(el('span', {}, `🗑 - link → ${url}`));
+        list.appendChild(li);
+      }
+    }
     // Size hint
     const body = buildSubmissionBody();
     const hint = document.getElementById('pending-hint');
@@ -537,6 +588,15 @@
           platform: s.platform,
           url: s.url,
           handle: s.handle || '',
+        });
+      }
+    }
+    for (const aid in pendingRemovals) {
+      for (const url of pendingRemovals[aid]) {
+        out.push({
+          author_id: aid,
+          decision: 'remove_social',
+          url,
         });
       }
     }
@@ -658,8 +718,10 @@
     if (!confirm('保留中の決定を全クリアしますか?')) return;
     pending = {};
     pendingSocials = {};
+    pendingRemovals = {};
     savePending(pending);
     savePendingSocials(pendingSocials);
+    savePendingRemovals(pendingRemovals);
     render();
   });
 
