@@ -10786,16 +10786,21 @@ window.AUTHORS_BY_ID = {
   },
   "a_13c45bd50b0d": {
     "id": "a_13c45bd50b0d",
-    "name": "",
-    "name_inferred": "士雷 shirai",
-    "name_source": "circle_name",
+    "name": "士雷shirai",
+    "name_inferred": "",
+    "name_source": "user",
     "x_handle": "",
     "x_url": "https://www.facebook.com/100072024726/",
     "socials": [
       {
+        "platform": "x",
+        "handle": "@uanuan_93",
+        "url": "https://x.com/uanuan_93"
+      },
+      {
         "platform": "fb",
-        "handle": "profile 10007202…",
-        "url": "https://www.facebook.com/100072024726/"
+        "handle": "shirai-100072024726705",
+        "url": "https://www.facebook.com/p/%E5%A3%AB%E9%9B%B7shirai-100072024726705"
       }
     ]
   },
@@ -11405,9 +11410,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_237c67fb10d2": {
     "id": "a_237c67fb10d2",
-    "name": "",
-    "name_inferred": "十九回目逃亡",
-    "name_source": "circle_name",
+    "name": "Yamiku",
+    "name_inferred": "",
+    "name_source": "plurk_profile",
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/groups/info/815",
     "socials": [
@@ -11415,6 +11420,11 @@ window.AUTHORS_BY_ID = {
         "platform": "doujin_tw",
         "handle": "",
         "url": "https://www.doujin.com.tw/groups/info/815"
+      },
+      {
+        "platform": "plurk",
+        "handle": "@Yamiku",
+        "url": "https://www.plurk.com/Yamiku"
       }
     ]
   },
@@ -12168,16 +12178,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_3a128cd5c2d0": {
     "id": "a_3a128cd5c2d0",
-    "name": "",
-    "name_inferred": "下空少女",
-    "name_source": "circle_name",
+    "name": "夏久",
+    "name_inferred": "",
+    "name_source": "user",
     "x_handle": "",
     "x_url": "https://www.facebook.com/yu.cheng.9843499",
     "socials": [
       {
         "platform": "fb",
-        "handle": "yu.cheng.9843499",
-        "url": "https://www.facebook.com/yu.cheng.9843499"
+        "handle": "@KokaNatsuhisa",
+        "url": "https://www.facebook.com/KokaNatsuhisa"
       }
     ]
   },
@@ -12695,18 +12705,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_4b89253c02f8": {
     "id": "a_4b89253c02f8",
-    "name": "",
-    "name_inferred": "1111事務所海線辦事處",
-    "name_source": "circle_name",
+    "name": "1111事務所海線辦事處",
+    "name_inferred": "",
+    "name_source": "fb_profile",
     "x_handle": "",
     "x_url": "https://www.facebook.com/IMAS1111TWTC//",
-    "socials": [
-      {
-        "platform": "fb",
-        "handle": "IMAS1111TWTC",
-        "url": "https://www.facebook.com/IMAS1111TWTC//"
-      }
-    ]
+    "socials": []
   },
   "a_4c1f1b688373": {
     "id": "a_4c1f1b688373",
@@ -18841,18 +18845,12 @@ window.AUTHORS_BY_ID = {
   },
   "eineena_mikan": {
     "id": "eineena_mikan",
-    "name": "",
-    "name_inferred": "超・誠心誠意",
-    "name_source": "circle_name",
+    "name": "まあまあ、そう言わないで下さい。",
+    "name_inferred": "",
+    "name_source": "x_profile",
     "x_handle": "EiNeEna_mikan",
     "x_url": "https://x.com/EiNeEna_mikan",
-    "socials": [
-      {
-        "platform": "x",
-        "handle": "@EiNeEna_mikan",
-        "url": "https://x.com/EiNeEna_mikan"
-      }
-    ]
+    "socials": []
   },
   "eiyuuu7777": {
     "id": "eiyuuu7777",
