@@ -147,45 +147,50 @@
       : 'author-card';
     const card = el('div', { class: cls });
 
-    // Head
+    // Head — circle name big + current/source/author_id sub-row
     const head = el('div', { class: 'card-head' });
-    const displayName = a.name || a.name_inferred || '(空)';
-    const isConfirmed = a.name_source !== 'circle_name' && a.name_source !== '';
-    head.appendChild(el('span', {
-      class: 'card-current-name' + (isConfirmed ? ' confirmed' : ''),
-    }, displayName));
-    head.appendChild(el('span', {
-      class: 'card-source-tag' + (a.name_source === 'circle_name' ? ' inferred' : ''),
-    }, a.name_source || '(empty)'));
-    head.appendChild(el('span', { class: 'card-author-id' }, a.id));
-    card.appendChild(head);
 
-    // Circles
+    // Circle line (big, prominent)
     const circles = AUTHOR_CIRCLES[a.id] || [];
+    const circleLine = el('div', { class: 'card-circle-line' });
     if (circles.length) {
-      const cdiv = el('div', { class: 'card-circles' });
-      cdiv.appendChild(document.createTextNode('Circle: '));
       circles.forEach((c, i) => {
-        if (i > 0) cdiv.appendChild(document.createTextNode(', '));
-        const events = (c.events || []).map(e => `${e.slug}/${e.booth_id}`);
-        // Link to first event's booth page if available
+        if (i > 0) circleLine.appendChild(document.createTextNode('・'));
         const firstEv = (c.events || [])[0];
         if (firstEv) {
-          cdiv.appendChild(el('a', {
+          circleLine.appendChild(el('a', {
             class: 'card-circle-link',
             href: `../${firstEv.slug}/#${firstEv.booth_id}`,
-            target: '_blank',
-            rel: 'noopener',
+            target: '_blank', rel: 'noopener',
           }, c.circle_name || c.id));
         } else {
-          cdiv.appendChild(el('span', {}, c.circle_name || c.id));
+          circleLine.appendChild(el('span', {}, c.circle_name || c.id));
         }
+        const events = (c.events || []).map(e => `${e.slug.split('-')[0]} ${e.booth_id}`);
         if (events.length) {
-          cdiv.appendChild(el('span', { class: 'card-circle-events' }, '(' + events.join(', ') + ')'));
+          circleLine.appendChild(el('span', { class: 'card-circle-events' }, events.join(', ')));
         }
       });
-      card.appendChild(cdiv);
+    } else {
+      circleLine.appendChild(el('span', {}, '(circle なし)'));
     }
+    head.appendChild(circleLine);
+
+    // Current state row
+    const displayName = a.name || a.name_inferred || '(空)';
+    const isConfirmed = a.name_source !== 'circle_name' && a.name_source !== '';
+    const curRow = el('div', { class: 'card-current-row' });
+    curRow.appendChild(el('span', { class: 'card-current-label' }, '現:'));
+    curRow.appendChild(el('span', {
+      class: 'card-current-name' + (isConfirmed ? ' confirmed' : ''),
+    }, displayName));
+    curRow.appendChild(el('span', {
+      class: 'card-source-tag' + (a.name_source === 'circle_name' ? ' inferred' : ''),
+    }, a.name_source || '(empty)'));
+    curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
+    head.appendChild(curRow);
+
+    card.appendChild(head);
 
     // Probe links — all socials + x_handle
     const links = el('div', { class: 'card-probe-links' });
@@ -215,20 +220,21 @@
     const note = PLATFORM_NOTES[plat] || PLATFORM_NOTES.plain;
     card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
 
-    // Decision form
+    // Decision badge or form
     if (decision) {
       const dDiv = el('div', { class: 'card-form-decision' });
+      const text = el('span', { class: 'decision-text' });
       if (decision.decision === 'rename') {
-        dDiv.appendChild(document.createTextNode(`✅ rename → ${decision.name} (source: ${decision.source})`));
-      } else if (decision.decision === 'skip') {
-        dDiv.appendChild(document.createTextNode(`⏭ skip — 本名不明で永続`));
+        text.appendChild(document.createTextNode(`✅ → ${decision.name} (${decision.source})`));
+      } else {
+        text.appendChild(document.createTextNode('⏭ skip — 本名不明で永続'));
       }
-      const undoBtn = el('button', {
+      dDiv.appendChild(text);
+      dDiv.appendChild(el('button', {
         class: 'remove-btn',
         type: 'button',
         onclick: () => { delete pending[a.id]; savePending(pending); render(); },
-      }, '取消');
-      dDiv.appendChild(undoBtn);
+      }, '取消'));
       card.appendChild(dDiv);
     } else {
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
@@ -236,12 +242,11 @@
       const nameInput = el('input', {
         type: 'text',
         name: 'name',
-        placeholder: '本人の display_name (例: 珀琳圍牆)',
+        placeholder: '本人の display_name',
         value: a.name_inferred || '',
       });
 
       const sourceSelect = el('select', { name: 'source' });
-      // Default to platform-derived source if applicable
       const defaultSource = plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
         : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
         : plat === 'threads' ? 'threads_profile' : plat === 'bsky' ? 'bsky_profile'
@@ -253,8 +258,17 @@
         sourceSelect.appendChild(opt);
       }
 
-      const confirmBtn = el('button', {
+      // Row 1: name input + source select
+      const row1 = el('div', { class: 'card-form-row' });
+      row1.appendChild(nameInput);
+      row1.appendChild(sourceSelect);
+      form.appendChild(row1);
+
+      // Row 2: confirm + skip
+      const actions = el('div', { class: 'card-form-actions' });
+      actions.appendChild(el('button', {
         type: 'button',
+        class: 'confirm-btn',
         onclick: () => {
           const name = (nameInput.value || '').trim();
           const source = sourceSelect.value;
@@ -267,9 +281,8 @@
           savePending(pending);
           render();
         },
-      }, '✅ 確定');
-
-      const skipBtn = el('button', {
+      }, '✅ 確定'));
+      actions.appendChild(el('button', {
         type: 'button',
         class: 'skip-btn',
         onclick: () => {
@@ -277,12 +290,9 @@
           savePending(pending);
           render();
         },
-      }, '⏭ skip');
+      }, '⏭ skip'));
+      form.appendChild(actions);
 
-      form.appendChild(nameInput);
-      form.appendChild(sourceSelect);
-      form.appendChild(confirmBtn);
-      form.appendChild(skipBtn);
       card.appendChild(form);
     }
 
