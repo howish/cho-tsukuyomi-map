@@ -11413,6 +11413,16 @@ window.AUTHORS_BY_ID = {
         "platform": "plurk",
         "handle": "@dreamxsoul",
         "url": "https://www.plurk.com/dreamxsoul"
+      },
+      {
+        "platform": "doujin_tw",
+        "handle": "",
+        "url": "https://www.doujin.com.tw/groups/info/6465"
+      },
+      {
+        "platform": "fb",
+        "handle": "",
+        "url": "https://www.facebook.com/dreamxsoul/"
       }
     ]
   },
