@@ -332,6 +332,7 @@
       || '';
     return Object.assign({
       circle_name: c.circle_name || '',
+      circle_socials: c.socials || [],          // 合同 SNS (per-circle, not per-author)
       author: displayAuthor,
       members: memberAuthors,                  // full author records — chips read from here
     }, b);
@@ -619,6 +620,27 @@
       }
       const hostMatch = url.match(/^https?:\/\/([^\/]+)/);
       return hostMatch ? hostMatch[1].replace(/^www\./, '') : url;
+    }
+    // Circle-level socials (合同 SNS) — render BEFORE per-member groups so
+    // the joint identity reads first. Counts toward seenSocialUrls dedup.
+    if (Array.isArray(b.circle_socials) && b.circle_socials.length) {
+      const cGroup = el('div', { class: 'author-group circle-group' });
+      cGroup.appendChild(el('span', { class: 'author-name circle-label' }, '🎪 合同'));
+      for (const s of b.circle_socials) {
+        if (!s || !s.url) continue;
+        const platform = s.platform || detectSourceType(s.url);
+        const norm = normSocialUrl(s.url);
+        if (!norm || seenSocialUrls.has(norm)) continue;
+        seenSocialUrls.add(norm);
+        const handle = extractHandleFromUrl(s.url);
+        const platLabel = T('modal_source_' + platform);
+        cGroup.appendChild(el('a', {
+          href: s.url, target: '_blank', rel: 'noopener',
+          class: 'social-chip social-chip-' + platform,
+          title: handle ? `${platLabel} — ${handle}` : platLabel,
+        }, platformIcon(platform)));
+      }
+      if (cGroup.children.length > 1) meta.appendChild(cGroup);
     }
     const memberRecords = Array.isArray(b.members) && b.members.length
       ? b.members

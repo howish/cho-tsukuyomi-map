@@ -7,6 +7,8 @@ circles.json. Each decision is one of:
   - add_social: {author_id, decision: "add_social", platform, url, handle?}
   - add_member: {circle_id, decision: "add_member", name, source,
                  socials: [{platform, url}], aliases?: [...]}
+  - add_circle_social: {circle_id, decision: "add_circle_social",
+                        platform, url}   (合同 SNS — appends to circle.socials[])
   - skip:       {author_id, decision: "skip"}  (no-op, just clears flag)
 
 On rename: also clears audit_flagged metadata (name_audit_reason,
@@ -48,7 +50,7 @@ def main():
     d = json.loads(p.read_text(encoding='utf-8'))
     by_id = {a['id']: a for a in d['authors']}
 
-    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'skip': 0, 'skipped': 0}
+    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'skip': 0, 'skipped': 0}
     notes = []
     circles_by_id = {c['id']: c for c in d['circles']}
 
@@ -108,6 +110,26 @@ def main():
                 by_id[new_aid] = new_author
             c.setdefault('members', []).append(new_aid)
             counts['add_member'] += 1
+            continue
+
+        if kind == 'add_circle_social':
+            cid = dec.get('circle_id')
+            c = circles_by_id.get(cid)
+            if not c:
+                notes.append(f'  add_circle_social: circle {cid} not found, skipped')
+                counts['skipped'] += 1
+                continue
+            url = (dec.get('url') or '').strip()
+            plat = dec.get('platform') or 'generic'
+            if not url:
+                notes.append(f'  add_circle_social to {cid}: empty url, skipped')
+                counts['skipped'] += 1
+                continue
+            seen = {norm_url(s.get('url', '')) for s in (c.get('socials') or [])}
+            if norm_url(url) in seen:
+                continue  # already present
+            c.setdefault('socials', []).append({'platform': plat, 'url': url})
+            counts['add_circle_social'] += 1
             continue
 
         aid = dec.get('author_id')

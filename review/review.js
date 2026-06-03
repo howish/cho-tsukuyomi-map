@@ -78,6 +78,11 @@
       return JSON.parse(localStorage.getItem(STORAGE_KEY + '-new-members') || '[]');
     } catch (e) { return []; }
   }
+  function loadPendingCircleSocials() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-circle-socials') || '{}');
+    } catch (e) { return {}; }
+  }
   function savePending(p) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   }
@@ -96,6 +101,9 @@
   function savePendingNewMembers(pn) {
     localStorage.setItem(STORAGE_KEY + '-new-members', JSON.stringify(pn));
   }
+  function savePendingCircleSocials(pcs) {
+    localStorage.setItem(STORAGE_KEY + '-circle-socials', JSON.stringify(pcs));
+  }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
   let pendingRemovals = loadPendingRemovals();           // {author_id: [url, ...]}
@@ -103,6 +111,8 @@
   let pendingAliasRemovals = loadPendingAliasRemovals(); // {author_id: [alias, ...]} - to remove
   // pendingNewMembers — flat array of {tempId, circle_id, name, source, socials[], aliases[]}
   let pendingNewMembers = loadPendingNewMembers();
+  // pendingCircleSocials — {circle_id: [{platform, url}, ...]} for circle-level SNS
+  let pendingCircleSocials = loadPendingCircleSocials();
 
   function isAliasMarkedForRemoval(aid, alias) {
     return (pendingAliasRemovals[aid] || []).includes(alias);
@@ -250,41 +260,16 @@
   }
 
   // ---- Card rendering ----
+  // Renders one author panel (nested inside a circle card). Circle header
+  // is rendered by renderCircleCard, not here.
   function renderCard(a) {
     const decision = pending[a.id] || null;
     const cls = decision
-      ? (decision.decision === 'skip' ? 'author-card skip-decision' : 'author-card has-decision')
-      : 'author-card';
+      ? (decision.decision === 'skip' ? 'author-panel skip-decision' : 'author-panel has-decision')
+      : 'author-panel';
     const card = el('div', { class: cls });
 
-    // Head — circle name big + current/source/author_id sub-row
     const head = el('div', { class: 'card-head' });
-
-    // Circle line (big, prominent)
-    const circles = AUTHOR_CIRCLES[a.id] || [];
-    const circleLine = el('div', { class: 'card-circle-line' });
-    if (circles.length) {
-      circles.forEach((c, i) => {
-        if (i > 0) circleLine.appendChild(document.createTextNode('・'));
-        const firstEv = (c.events || [])[0];
-        if (firstEv) {
-          circleLine.appendChild(el('a', {
-            class: 'card-circle-link',
-            href: `../${firstEv.slug}/#${firstEv.booth_id}`,
-            target: '_blank', rel: 'noopener',
-          }, c.circle_name || c.id));
-        } else {
-          circleLine.appendChild(el('span', {}, c.circle_name || c.id));
-        }
-        const events = (c.events || []).map(e => `${e.slug.split('-')[0]} ${e.booth_id}`);
-        if (events.length) {
-          circleLine.appendChild(el('span', { class: 'card-circle-events' }, events.join(', ')));
-        }
-      });
-    } else {
-      circleLine.appendChild(el('span', {}, '(circle なし)'));
-    }
-    head.appendChild(circleLine);
 
     // Current state row
     const displayName = a.name || a.name_inferred || '(空)';
@@ -660,99 +645,188 @@
       card.appendChild(form);
     }
 
-    // ---- Add-member section (合同サークル 等で 2nd author を追加) ----
-    // For each circle this author belongs to, show pending new-members
-    // already queued + a "+ メンバー" button to open an inline form.
-    (AUTHOR_CIRCLES[a.id] || []).forEach(c => {
-      const sect = el('div', { class: 'card-addmember' });
-      sect.appendChild(el('div', { class: 'card-addmember-label' },
-        `+ メンバー追加 to サークル「${c.circle_name || c.id}」`));
+    return card;
+  }
 
-      // List queued new members for this circle
-      pendingNewMembers
-        .filter(m => m.circle_id === c.id)
-        .forEach(m => {
-          const row = el('div', { class: 'card-addmember-pending' });
-          const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
-          row.appendChild(el('span', {}, `🆕 ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
-          row.appendChild(el('button', {
-            type: 'button',
-            class: 'remove-btn',
-            onclick: () => {
-              pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
-              savePendingNewMembers(pendingNewMembers);
-              render();
-            },
-          }, '×'));
-          sect.appendChild(row);
-        });
+  // ---- Circle-card rendering ----
+  // Wraps one or more author panels under a circle header + circle-level
+  // SNS section + "+ メンバー追加" affordance. This is the outer container
+  // the main loop produces.
+  function renderCircleCard(circle, members) {
+    const card = el('div', { class: 'circle-card' });
 
-      // Toggle button + inline form
-      const formWrap = el('div', { class: 'card-addmember-form', style: 'display:none;' });
-      const nameIn = el('input', { type: 'text', placeholder: '新 author の名前' });
-      const xUrlIn = el('input', { type: 'text', placeholder: 'X URL (任意, https://x.com/...)' });
-      const sourceSel = el('select');
-      for (const o of SOURCE_OPTIONS) {
-        const opt = el('option', { value: o.value }, o.label);
-        if (o.value === 'user') opt.selected = true;
-        sourceSel.appendChild(opt);
-      }
-      const submitBtn = el('button', {
+    // Circle header — name + booth/events + jump link
+    const head = el('div', { class: 'circle-card-head' });
+    const titleRow = el('div', { class: 'circle-card-title-row' });
+    const firstEv = (circle.events || [])[0];
+    if (firstEv) {
+      titleRow.appendChild(el('a', {
+        class: 'circle-card-name',
+        href: `../${firstEv.slug}/#${firstEv.booth_id}`,
+        target: '_blank', rel: 'noopener',
+      }, '🎪 ' + (circle.circle_name || circle.id)));
+    } else {
+      titleRow.appendChild(el('span', { class: 'circle-card-name' }, '🎪 ' + (circle.circle_name || circle.id)));
+    }
+    const events = (circle.events || []).map(e => `${e.slug.split('-')[0]} ${e.booth_id}`);
+    if (events.length) {
+      titleRow.appendChild(el('span', { class: 'circle-card-events' }, events.join(' · ')));
+    }
+    head.appendChild(titleRow);
+    card.appendChild(head);
+
+    // Circle-level socials (合同 SNS) — chips + add form
+    const cSocSection = el('div', { class: 'circle-socials' });
+    cSocSection.appendChild(el('span', { class: 'circle-socials-label' }, '合同 SNS:'));
+    (circle.socials || []).forEach(s => {
+      cSocSection.appendChild(el('a', {
+        href: s.url, target: '_blank', rel: 'noopener',
+        class: 'circle-social-chip',
+        title: s.url,
+      }, `${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 40)}`));
+    });
+    (pendingCircleSocials[circle.id] || []).forEach((s, idx) => {
+      const chip = el('span', { class: 'circle-social-chip pending-add' });
+      chip.appendChild(document.createTextNode(`+ ${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 40)}`));
+      chip.appendChild(el('button', {
         type: 'button',
-        class: 'confirm-btn',
+        class: 'alias-remove',
+        title: 'pending 追加を取消',
         onclick: () => {
-          const name = (nameIn.value || '').trim();
-          if (!name) { alert('名前を入力してください'); return; }
-          const socials = [];
-          const xUrl = (xUrlIn.value || '').trim();
-          if (xUrl) socials.push({ platform: 'x', url: xUrl });
-          const tempId = 'new_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6);
-          pendingNewMembers.push({
-            tempId,
-            circle_id: c.id,
-            name,
-            source: sourceSel.value,
-            socials,
-            aliases: [],
-          });
-          savePendingNewMembers(pendingNewMembers);
-          nameIn.value = ''; xUrlIn.value = '';
+          pendingCircleSocials[circle.id].splice(idx, 1);
+          if (pendingCircleSocials[circle.id].length === 0) delete pendingCircleSocials[circle.id];
+          savePendingCircleSocials(pendingCircleSocials);
           render();
         },
-      }, '+ 追加');
-      const cancelBtn = el('button', {
-        type: 'button',
-        class: 'skip-btn',
-        onclick: () => { formWrap.style.display = 'none'; addBtn.style.display = ''; },
-      }, '取消');
-      const row1 = el('div', { class: 'card-addmember-row' });
-      row1.appendChild(nameIn);
-      row1.appendChild(sourceSel);
-      formWrap.appendChild(row1);
-      const row2 = el('div', { class: 'card-addmember-row' });
-      row2.appendChild(xUrlIn);
-      formWrap.appendChild(row2);
-      const row3 = el('div', { class: 'card-addmember-row' });
-      row3.appendChild(submitBtn);
-      row3.appendChild(cancelBtn);
-      formWrap.appendChild(row3);
-      sect.appendChild(formWrap);
+      }, '×'));
+      cSocSection.appendChild(chip);
+    });
+    // Add form (toggle)
+    const cSocFormWrap = el('span', { class: 'circle-social-add-wrap' });
+    const cSocInput = el('input', {
+      type: 'text', placeholder: '+ 合同 SNS URL', class: 'circle-social-input',
+      style: 'display:none;',
+    });
+    const cSocAddBtn = el('button', {
+      type: 'button', class: 'circle-social-add-btn',
+      onclick: () => {
+        if (cSocInput.style.display === 'none') {
+          cSocInput.style.display = '';
+          cSocInput.focus();
+          cSocAddBtn.textContent = '+ 追加';
+        } else {
+          const u = (cSocInput.value || '').trim();
+          if (!u) { cSocInput.style.display = 'none'; cSocAddBtn.textContent = '+ サークル SNS'; return; }
+          const plat = detectPlatformFromUrl(u);
+          (pendingCircleSocials[circle.id] = pendingCircleSocials[circle.id] || []).push({ platform: plat, url: u });
+          savePendingCircleSocials(pendingCircleSocials);
+          cSocInput.value = '';
+          render();
+        }
+      },
+    }, '+ サークル SNS');
+    cSocFormWrap.appendChild(cSocInput);
+    cSocFormWrap.appendChild(cSocAddBtn);
+    cSocSection.appendChild(cSocFormWrap);
+    card.appendChild(cSocSection);
 
-      const addBtn = el('button', {
-        type: 'button',
-        class: 'addmember-toggle-btn',
-        onclick: () => {
-          formWrap.style.display = '';
-          addBtn.style.display = 'none';
-          nameIn.focus();
-        },
-      }, '+ メンバー追加');
-      sect.appendChild(addBtn);
-
-      card.appendChild(sect);
+    // Existing members — one author panel per
+    const membersWrap = el('div', { class: 'circle-card-members' });
+    members.forEach((a, i) => {
+      const panel = renderCard(a);
+      panel.classList.add('member-' + (i + 1));
+      // Add a tiny "Author N" label
+      const label = el('div', { class: 'author-panel-label' }, `👤 Author ${i + 1}` + (i === 0 ? ' (default)' : ''));
+      panel.insertBefore(label, panel.firstChild);
+      membersWrap.appendChild(panel);
     });
 
+    // Pending new members for this circle — render as ghost panels
+    pendingNewMembers.filter(m => m.circle_id === circle.id).forEach((m, i) => {
+      const ghost = el('div', { class: 'author-panel ghost-new' });
+      ghost.appendChild(el('div', { class: 'author-panel-label' }, `👤 Author ${members.length + i + 1} (新規)`));
+      const row = el('div', { class: 'ghost-new-row' });
+      const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
+      row.appendChild(el('span', {}, `🆕 ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
+      row.appendChild(el('button', {
+        type: 'button',
+        class: 'remove-btn',
+        onclick: () => {
+          pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '×'));
+      ghost.appendChild(row);
+      membersWrap.appendChild(ghost);
+    });
+
+    card.appendChild(membersWrap);
+
+    // Add-member section at the bottom of the circle card
+    const addSect = el('div', { class: 'circle-addmember' });
+    const formWrap = el('div', { class: 'card-addmember-form', style: 'display:none;' });
+    const nameIn = el('input', { type: 'text', placeholder: '新 author の名前' });
+    const xUrlIn = el('input', { type: 'text', placeholder: 'X URL (任意, https://x.com/...)' });
+    const sourceSel = el('select');
+    for (const o of SOURCE_OPTIONS) {
+      const opt = el('option', { value: o.value }, o.label);
+      if (o.value === 'user') opt.selected = true;
+      sourceSel.appendChild(opt);
+    }
+    const submitBtn = el('button', {
+      type: 'button', class: 'confirm-btn',
+      onclick: () => {
+        const name = (nameIn.value || '').trim();
+        if (!name) { alert('名前を入力してください'); return; }
+        const socials = [];
+        const xUrl = (xUrlIn.value || '').trim();
+        if (xUrl) socials.push({ platform: 'x', url: xUrl });
+        const tempId = 'new_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6);
+        pendingNewMembers.push({
+          tempId, circle_id: circle.id, name,
+          source: sourceSel.value, socials, aliases: [],
+        });
+        savePendingNewMembers(pendingNewMembers);
+        nameIn.value = ''; xUrlIn.value = '';
+        render();
+      },
+    }, '+ 追加');
+    const cancelBtn = el('button', {
+      type: 'button', class: 'skip-btn',
+      onclick: () => { formWrap.style.display = 'none'; addBtn.style.display = ''; },
+    }, '取消');
+    const row1 = el('div', { class: 'card-addmember-row' });
+    row1.appendChild(nameIn); row1.appendChild(sourceSel);
+    formWrap.appendChild(row1);
+    const row2 = el('div', { class: 'card-addmember-row' });
+    row2.appendChild(xUrlIn);
+    formWrap.appendChild(row2);
+    const row3 = el('div', { class: 'card-addmember-row' });
+    row3.appendChild(submitBtn); row3.appendChild(cancelBtn);
+    formWrap.appendChild(row3);
+    addSect.appendChild(formWrap);
+    const addBtn = el('button', {
+      type: 'button', class: 'addmember-toggle-btn',
+      onclick: () => {
+        formWrap.style.display = '';
+        addBtn.style.display = 'none';
+        nameIn.focus();
+      },
+    }, '+ メンバー追加');
+    addSect.appendChild(addBtn);
+    card.appendChild(addSect);
+
     return card;
+  }
+
+  // Auto-detect platform from URL host (mirrors PLATFORM_FROM_HOST above
+  // — separate helper because addCircleSocial needs it).
+  function detectPlatformFromUrl(url) {
+    for (const [rx, p] of PLATFORM_FROM_HOST) {
+      if (rx.test(url)) return p;
+    }
+    return 'generic';
   }
 
   // ---- Filter UI builders ----
@@ -880,6 +954,14 @@
       li.appendChild(el('span', {}, `🆕 + member → ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
       list.appendChild(li);
     }
+    for (const cid in pendingCircleSocials) {
+      for (const s of pendingCircleSocials[cid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, cid));
+        li.appendChild(el('span', {}, `🔗 + circle SNS → ${s.platform} ${s.url}`));
+        list.appendChild(li);
+      }
+    }
     // Size hint
     const body = buildSubmissionBody();
     const hint = document.getElementById('pending-hint');
@@ -933,6 +1015,16 @@
         aliases: m.aliases || [],
       });
     }
+    for (const cid in pendingCircleSocials) {
+      for (const s of pendingCircleSocials[cid]) {
+        out.push({
+          decision: 'add_circle_social',
+          circle_id: cid,
+          platform: s.platform,
+          url: s.url,
+        });
+      }
+    }
     return out;
   }
 
@@ -985,35 +1077,53 @@
   }
 
   // ---- Main render ----
+  // Iterates circles (not authors flat) so each card groups all members of
+  // a circle under one container. Filters: a circle shows if ANY of its
+  // members passes the author-level filters + search.
   function render() {
     const list = document.getElementById('review-list');
     const stats = document.getElementById('review-stats');
     const q = (document.getElementById('review-search').value || '').trim();
     list.innerHTML = '';
-    let shown = 0;
     const total = authorList().length;
     let unresolved = 0;
     for (const a of authorList()) {
       if (a.name_source === 'circle_name' || a.name_source === 'audit_flagged') unresolved++;
     }
-    // Render in a stable order: pending first, then by inferred name
-    const sorted = authorList().sort((a, b) => {
-      const pa = pending[a.id] ? 0 : 1;
-      const pb = pending[b.id] ? 0 : 1;
-      if (pa !== pb) return pa - pb;
-      return (a.name_inferred || a.id).localeCompare(b.name_inferred || b.id);
+
+    // Gather circles that have at least one member matching filters/search.
+    // Skip circles whose members are all clean AND no pending new-member is
+    // queued for this circle.
+    const circleHits = [];
+    const seenCircleIds = new Set();
+    for (const cid in CIRCLES) {
+      const circle = CIRCLES[cid];
+      const memberIds = circle.members || [];
+      const memberAuthors = memberIds.map(mid => AUTHORS[mid]).filter(Boolean);
+      const anyMatch = memberAuthors.some(a => authorMatchesFilters(a) && authorMatchesSearch(a, q));
+      const hasPendingNewMember = pendingNewMembers.some(m => m.circle_id === cid);
+      if (!anyMatch && !hasPendingNewMember) continue;
+      if (seenCircleIds.has(cid)) continue;
+      seenCircleIds.add(cid);
+      // Sort key: any-pending-decision-or-new-member → 0, else 1
+      const hasPending = memberAuthors.some(a => pending[a.id]) || hasPendingNewMember;
+      circleHits.push({ circle, memberAuthors, sortKey: hasPending ? 0 : 1 });
+    }
+    circleHits.sort((a, b) => {
+      if (a.sortKey !== b.sortKey) return a.sortKey - b.sortKey;
+      return (a.circle.circle_name || a.circle.id).localeCompare(b.circle.circle_name || b.circle.id);
     });
-    for (const a of sorted) {
-      if (!authorMatchesFilters(a)) continue;
-      if (!authorMatchesSearch(a, q)) continue;
-      list.appendChild(renderCard(a));
+
+    let shown = 0;
+    for (const { circle, memberAuthors } of circleHits) {
+      list.appendChild(renderCircleCard(circle, memberAuthors));
       shown++;
-      if (shown >= 500) break;  // safety cap; filter further if needed
+      if (shown >= 500) break;
     }
     if (shown === 0) {
-      list.appendChild(el('p', { class: 'empty' }, '該当 author なし'));
+      list.appendChild(el('p', { class: 'empty' }, '該当サークルなし'));
     }
-    stats.textContent = `${shown} 件表示 / 未確定 ${unresolved} / 全 ${total}`;
+    stats.textContent = `${shown} circles / 未確定 author ${unresolved} / 全 author ${total}`;
     renderPending();
   }
 
