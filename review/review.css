@@ -224,6 +224,16 @@
 .circle-action-bar button.confirm-btn.accept-suggestion-btn:hover { background: #6438e0; }
 .circle-action-bar button.skip-btn { background: #8b8b8b; }
 .circle-action-bar button.skip-btn:hover { background: #707070; }
+.circle-action-bar button.revert-btn { background: #c85858; }
+.circle-action-bar button.revert-btn:hover { background: #a84545; }
+
+/* When every existing-member is decided, tint the whole circle card green
+   so howish can sweep down the queue and instantly spot "this one's done". */
+.circle-card.all-confirmed {
+  border-color: #4a9d63;
+  background: #f0fbf3;
+}
+.circle-card.all-confirmed .circle-card-head { border-bottom-color: #b8dec5; }
 
 .author-panel.has-decision {
   border-color: #4a9d63;

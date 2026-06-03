@@ -712,7 +712,11 @@
   // SNS section + "+ メンバー追加" affordance. This is the outer container
   // the main loop produces.
   function renderCircleCard(circle, members) {
-    const card = el('div', { class: 'circle-card' });
+    // Visual highlight when every existing-member has a pending decision.
+    // (Pending new-members are independent — they're drafts the user is
+    // editing, so they don't gate the "circle done" state.)
+    const allConfirmed = members.length > 0 && members.every(a => pending[a.id]);
+    const card = el('div', { class: 'circle-card' + (allConfirmed ? ' all-confirmed' : '') });
 
     // Circle header — name + booth/events + jump link
     const head = el('div', { class: 'circle-card-head' });
@@ -903,10 +907,10 @@
     card.appendChild(addSect);
 
     // ---- Circle-level bulk action bar ----
-    // Only render if there's at least one undecided existing-author panel
-    // (committers list is populated). Buttons act on every committer in
-    // sequence.
-    if (committers.length) {
+    // Render when there are undecided panels (committers) OR when there are
+    // already-decided members (so the reviewer can bulk-revert).
+    const decidedMembers = members.filter(a => pending[a.id]);
+    if (committers.length || decidedMembers.length) {
       const bar = el('div', { class: 'circle-action-bar' });
       const hasAnySuggestion = committers.some(c => c.hasSuggestion);
       if (hasAnySuggestion) {
@@ -934,17 +938,32 @@
           render();
         },
       }, '✅ 確定 all'));
-      bar.appendChild(el('button', {
-        type: 'button',
-        class: 'skip-btn',
-        title: '全 author を skip (本名不明扱い)',
-        onclick: () => {
-          if (!confirm('このサークル全 author を skip にしますか？')) return;
-          committers.forEach(c => c.skip());
-          savePending(pending);
-          render();
-        },
-      }, '⏭ skip all'));
+      if (committers.length) {
+        bar.appendChild(el('button', {
+          type: 'button',
+          class: 'skip-btn',
+          title: '全 author を skip (本名不明扱い)',
+          onclick: () => {
+            if (!confirm('このサークル全 author を skip にしますか？')) return;
+            committers.forEach(c => c.skip());
+            savePending(pending);
+            render();
+          },
+        }, '⏭ skip all'));
+      }
+      if (decidedMembers.length) {
+        bar.appendChild(el('button', {
+          type: 'button',
+          class: 'revert-btn',
+          title: '確定済の全 author を取消',
+          onclick: () => {
+            if (!confirm(`このサークルの確定済 ${decidedMembers.length} author を取消しますか？`)) return;
+            decidedMembers.forEach(a => { delete pending[a.id]; });
+            savePending(pending);
+            render();
+          },
+        }, '↩ 確定 取消 all'));
+      }
       card.appendChild(bar);
     }
 
