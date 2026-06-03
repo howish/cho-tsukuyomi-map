@@ -10210,7 +10210,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.plurk.com/u/kuriimuda",
     "socials": [
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/u/kuriimuda",
         "handle": "@kuriimuda"
       }
@@ -10303,13 +10303,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/profile.php?id=61551985430535#",
-        "handle": "profile 61551985…"
-      }
-    ]
+    "socials": []
   },
   "a_0264692abaa1": {
     "id": "a_0264692abaa1",
@@ -10516,7 +10510,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://babygollgo.pixnet.net/blog",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "blog",
         "url": "https://babygollgo.pixnet.net/blog",
         "handle": ""
       }
@@ -10919,12 +10913,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/6122/books",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/shuliy",
         "handle": "@shuliy"
       },
@@ -11008,7 +11002,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@FutureImagesTW",
         "handle": ""
       },
@@ -11211,22 +11205,17 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "threads",
-        "url": "https://www.threads.com/@eecircle?igshid=NTc4MTIwNjQ2YQ==",
-        "handle": ""
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/f741852guy",
         "handle": ""
       },
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/f741852guy/goods",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@circleee7181",
         "handle": ""
       }
@@ -11434,7 +11423,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://blandlove.weebly.com/",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "blog",
         "url": "https://blandlove.weebly.com/",
         "handle": ""
       }
@@ -11483,11 +11472,6 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
-        "url": "https://www.doujin.com.tw/authors/info/g:lasjgrt23yo8k",
-        "handle": "@g:lasjgrt23yo8k"
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/torarara",
         "handle": "@torarara"
@@ -11534,13 +11518,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
-        "handle": "peekaboo.ouzi"
-      }
-    ]
+    "socials": []
   },
   "a_22e2152d179a": {
     "id": "a_22e2152d179a",
@@ -11610,7 +11588,7 @@ window.AUTHORS_BY_ID = {
         "handle": "@Yamiku"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/yamiku0419",
         "handle": "@yamiku0419"
       }
@@ -11645,13 +11623,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
-    "socials": [
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
-        "handle": "@invites"
-      }
-    ]
+    "socials": []
   },
   "a_25a8023cd010": {
     "id": "a_25a8023cd010",
@@ -11778,13 +11750,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
-        "handle": "xxpainterroom"
-      }
-    ]
+    "socials": []
   },
   "a_27ca1f8a8a37": {
     "id": "a_27ca1f8a8a37",
@@ -11849,7 +11815,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/Sheree",
         "handle": "@Sheree"
       },
@@ -11934,12 +11900,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/4848/books",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/liangzhen_wan",
         "handle": "@liangzhen_wan"
       },
@@ -12255,13 +12221,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
-        "handle": "BLUE1OR2"
-      }
-    ]
+    "socials": []
   },
   "a_358de90ba6a5": {
     "id": "a_358de90ba6a5",
@@ -12341,7 +12301,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://marslake2.weebly.com/",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "blog",
         "url": "https://marslake2.weebly.com/",
         "handle": ""
       }
@@ -12408,13 +12368,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_384f3abedb37": {
     "id": "a_384f3abedb37",
@@ -12562,7 +12516,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.plurk.com/u/sly450026",
     "socials": [
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/u/sly450026",
         "handle": "@sly450026"
       }
@@ -12583,7 +12537,7 @@ window.AUTHORS_BY_ID = {
         "handle": "portaly"
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@apple",
         "handle": ""
       },
@@ -12630,7 +12584,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://blossoming-faded.blog/",
     "socials": [
       {
-        "platform": "blog",
+        "platform": "generic",
         "url": "https://blossoming-faded.blog/",
         "handle": "花開。花烙"
       },
@@ -12707,13 +12661,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.instagram.com/good_omens.tw/://",
-    "socials": [
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/good_omens.tw/://",
-        "handle": "@good_omens.tw"
-      }
-    ]
+    "socials": []
   },
   "a_409d41e814d3": {
     "id": "a_409d41e814d3",
@@ -12723,13 +12671,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_40c07fc12a05": {
     "id": "a_40c07fc12a05",
@@ -12882,7 +12824,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@LeoAkAk",
         "handle": ""
       }
@@ -12928,13 +12870,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/tu.ben.hua?",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/tu.ben.hua?",
-        "handle": "tu.ben.hua"
-      }
-    ]
+    "socials": []
   },
   "a_458f1edc0d01": {
     "id": "a_458f1edc0d01",
@@ -12946,7 +12882,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
         "handle": ""
       },
@@ -12971,17 +12907,17 @@ window.AUTHORS_BY_ID = {
         "handle": "@foninteru"
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@fonin4376",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@foninteru",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@apple",
         "handle": ""
       },
@@ -13070,17 +13006,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
     "socials": [
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
-        "handle": ""
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/haruka_99",
         "handle": "@haruka_99"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/jane85320",
         "handle": "@jane85320"
       },
@@ -13101,7 +13032,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
         "handle": ""
       },
@@ -13281,11 +13212,6 @@ window.AUTHORS_BY_ID = {
         "platform": "plurk",
         "url": "https://www.plurk.com/rose20011212",
         "handle": ""
-      },
-      {
-        "platform": "threads",
-        "url": "https://www.threads.com/@master12ruin?invite=0",
-        "handle": ""
       }
     ]
   },
@@ -13336,7 +13262,7 @@ window.AUTHORS_BY_ID = {
         "handle": "lit.link"
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@kotem3103",
         "handle": ""
       },
@@ -13658,7 +13584,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "booth_pm",
+        "platform": "generic",
         "url": "https://teane141611.booth.pm/items/7093857",
         "handle": ""
       }
@@ -13716,12 +13642,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/365/books",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/365/books",
         "handle": "@365"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/DarkShadow",
         "handle": "@DarkShadow"
       },
@@ -14166,7 +14092,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.plurk.com/u/yu_882",
     "socials": [
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/u/yu_882",
         "handle": "@yu_882"
       }
@@ -14910,7 +14836,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/346/books",
         "handle": ""
       },
@@ -14992,7 +14918,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/sunnylee1884",
         "handle": "@sunnylee1884"
       },
@@ -15061,21 +14987,16 @@ window.AUTHORS_BY_ID = {
       },
       {
         "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/authors/info/g:m288r4lmncgog",
-        "handle": ""
-      },
-      {
-        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/groups/info/6432",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@UYUjira",
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@apple",
         "handle": ""
       },
@@ -15581,16 +15502,6 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
-        "url": "https://www.youtube.com/playlist?list=OLAK5uy_kW6SHtoOqYl2LhVcCmDQPeRKJ8YZSLUbc",
-        "handle": ""
-      },
-      {
-        "platform": "generic",
-        "url": "https://www.melonbooks.co.jp/circle/index.php?circle_id=134471",
-        "handle": ""
-      },
-      {
         "platform": "x",
         "url": "https://twitter.com/apriori_circle",
         "handle": ""
@@ -15651,13 +15562,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/hanyangcomic?_ps=1",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/hanyangcomic?_ps=1",
-        "handle": "hanyangcomic"
-      }
-    ]
+    "socials": []
   },
   "a_8698f970b85f": {
     "id": "a_8698f970b85f",
@@ -15717,17 +15622,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
     "socials": [
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
-        "handle": ""
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/beautywind",
         "handle": "@beautywind"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/beautywind",
         "handle": "@beautywind"
       }
@@ -15758,7 +15658,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@moriowo.s",
         "handle": ""
       },
@@ -15862,13 +15762,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
-        "handle": "miku3939circle"
-      }
-    ]
+    "socials": []
   },
   "a_8d572fb35599": {
     "id": "a_8d572fb35599",
@@ -15954,7 +15848,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://w0960.pixnet.net/blog",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "blog",
         "url": "https://w0960.pixnet.net/blog",
         "handle": ""
       }
@@ -16108,11 +16002,6 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
     "socials": [
       {
-        "platform": "fb",
-        "url": "https://www.facebook.com/s092077?locale=zh_TW",
-        "handle": "s092077"
-      },
-      {
         "platform": "threads",
         "url": "https://www.threads.com/@kei_habara",
         "handle": "@kei_habara"
@@ -16129,7 +16018,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/523/books",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/523/books",
         "handle": ""
       },
@@ -16139,7 +16028,7 @@ window.AUTHORS_BY_ID = {
         "handle": "@ninevsnine"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/ninevsnine",
         "handle": "@ninevsnine"
       },
@@ -16227,13 +16116,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/mei.emerald.96?",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/mei.emerald.96?",
-        "handle": "mei.emerald.96"
-      }
-    ]
+    "socials": []
   },
   "a_98dc6605dbd5": {
     "id": "a_98dc6605dbd5",
@@ -16269,13 +16152,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_9a603343710c": {
     "id": "a_9a603343710c",
@@ -16491,7 +16368,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/kaukau",
         "handle": "@kaukau"
       }
@@ -16539,7 +16416,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
         "handle": ""
       },
@@ -16751,11 +16628,6 @@ window.AUTHORS_BY_ID = {
     "x_handle": "",
     "x_url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
     "socials": [
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
-        "handle": ""
-      },
       {
         "platform": "pixiv",
         "url": "https://www.pixiv.net/member.php?id=91965075",
@@ -17158,7 +17030,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.plurk.com/u/sayoku",
     "socials": [
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/u/sayoku",
         "handle": "@sayoku"
       }
@@ -17223,11 +17095,6 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
-        "handle": ""
-      },
-      {
-        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/myhand22",
         "handle": "@myhand22"
       }
@@ -17459,7 +17326,7 @@ window.AUTHORS_BY_ID = {
         "handle": "@kiami"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/kiami",
         "handle": "@kiami"
       },
@@ -17483,13 +17350,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://sakuds.carrd.co",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://sakuds.carrd.co",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_b4020a99d5e2": {
     "id": "a_b4020a99d5e2",
@@ -17623,11 +17484,6 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
     "socials": [
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
-        "handle": ""
-      },
-      {
         "platform": "pixiv",
         "url": "https://www.pixiv.net/member.php?id=1665150",
         "handle": "@member.php"
@@ -17755,7 +17611,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "blog",
         "url": "https://anenin.weebly.com/2516325622212053005927231.html",
         "handle": ""
       }
@@ -17787,7 +17643,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/1507/goods",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/groups/info/1507/goods",
         "handle": ""
       },
@@ -17797,7 +17653,7 @@ window.AUTHORS_BY_ID = {
         "handle": "@jiouya"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/jiouya",
         "handle": "@jiouya"
       },
@@ -17996,7 +17852,7 @@ window.AUTHORS_BY_ID = {
         "handle": "@ame_aou"
       },
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/ame.5000",
         "handle": "@ame.5000"
       },
@@ -18043,11 +17899,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "pixiv",
         "url": "https://www.pixiv.net/users/70474424",
-        "handle": ""
-      },
-      {
-        "platform": "generic",
-        "url": "https://marshmallow-qa.com/qkkfure4wwgx2ge?t=wnTLQz&utm_medium=url_text&utm_source=promotion",
         "handle": ""
       }
     ]
@@ -18122,7 +17973,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@horohoroDesign",
         "handle": ""
       },
@@ -18519,13 +18370,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://cxc.today/zh/@Gray_Harmony/work",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://cxc.today/zh/@Gray_Harmony/work",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_d02a16b89beb": {
     "id": "a_d02a16b89beb",
@@ -18555,11 +18400,6 @@ window.AUTHORS_BY_ID = {
         "platform": "x",
         "url": "https://twitter.com/tw_ponpon",
         "handle": ""
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/ponpon1013443?igsh=MWVsanNsOWdyY2g2bQ==&amp;utm_source=qr/",
-        "handle": ""
       }
     ]
   },
@@ -18587,13 +18427,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
-        "handle": "people"
-      }
-    ]
+    "socials": []
   },
   "a_d1d61b12d81e": {
     "id": "a_d1d61b12d81e",
@@ -18689,7 +18523,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.plurk.com/u/therealchien",
     "socials": [
       {
-        "platform": "plurk",
+        "platform": "generic",
         "url": "https://www.plurk.com/u/therealchien",
         "handle": "@therealchien"
       }
@@ -18782,17 +18616,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
     "socials": [
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
-        "handle": ""
-      },
-      {
         "platform": "pixiv",
         "url": "http://www.pixiv.net/member.php?id=34176",
         "handle": "@member.php"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/kakusugar",
         "handle": "@kakusugar"
       },
@@ -18809,11 +18638,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "url": "https://x.com/kakusugarpic",
-        "handle": ""
-      },
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/booky/books/search/q?keyword=kakusugar",
         "handle": ""
       },
       {
@@ -18836,13 +18660,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/daybreak2779?",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/daybreak2779?",
-        "handle": "daybreak2779"
-      }
-    ]
+    "socials": []
   },
   "a_d64f0e9971e3": {
     "id": "a_d64f0e9971e3",
@@ -19117,7 +18935,7 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@moonlight432Hz",
         "handle": ""
       },
@@ -19138,7 +18956,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/x20285/books",
         "handle": ""
       },
@@ -19194,13 +19012,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://diewhale.tokiame.net",
-    "socials": [
-      {
-        "platform": "generic",
-        "url": "https://diewhale.tokiame.net",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_df31c7ea631b": {
     "id": "a_df31c7ea631b",
@@ -19372,11 +19184,6 @@ window.AUTHORS_BY_ID = {
         "platform": "fb",
         "url": "https://www.facebook.com/profile.php?id=61581988013539",
         "handle": ""
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/people/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%90%88%E6%BC%AB%E7%95%AB%E7%A0%94%E7%A9%B6/61581988013539",
-        "handle": ""
       }
     ]
   },
@@ -19484,14 +19291,9 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
         "handle": ""
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/egg._.3690/?igshid=YWJhMjlhZTc=",
-        "handle": "@egg._.3690"
       },
       {
         "platform": "plurk",
@@ -19642,7 +19444,7 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.youtube.com/@nukomimiP",
     "socials": [
       {
-        "platform": "generic",
+        "platform": "youtube",
         "url": "https://www.youtube.com/@nukomimiP",
         "handle": ""
       }
@@ -19690,14 +19492,9 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
     "socials": [
       {
-        "platform": "doujin_tw",
+        "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
         "handle": ""
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/迷走巡鹿-498172533694108/",
-        "handle": "@迷走巡鹿-498172533694108"
       },
       {
         "platform": "plurk",
@@ -19748,17 +19545,12 @@ window.AUTHORS_BY_ID = {
     "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
     "socials": [
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
-        "handle": ""
-      },
-      {
         "platform": "x",
         "url": "https://twitter.com/mzenura",
         "handle": "@mzenura"
       },
       {
-        "platform": "generic",
+        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/bockdog",
         "handle": "@bockdog"
       },
@@ -20058,13 +19850,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.facebook.com/CShiroha?",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/CShiroha?",
-        "handle": "CShiroha"
-      }
-    ]
+    "socials": []
   },
   "a_f9a656f1351a": {
     "id": "a_f9a656f1351a",

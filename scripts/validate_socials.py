@@ -22,28 +22,10 @@ from pathlib import Path
 from collections import defaultdict
 
 sys.path.insert(0, str(Path.home() / '.claude/skills/author-name-resolver/scripts'))
-from resolver import _PLATFORM_ALIAS, _NON_PROFILE_RE, _canonicalize_url
-
-# Platform → expected host substrings (any match passes)
-PLATFORM_HOSTS = {
-    'x': ['x.com', 'twitter.com'],
-    'plurk': ['plurk.com'],
-    'fb': ['facebook.com', 'fb.com', 'fb.me'],
-    'ig': ['instagram.com'],
-    'threads': ['threads.com', 'threads.net'],
-    'pixiv': ['pixiv.net'],
-    'bsky': ['bsky.app'],
-    'doujin_tw': ['doujin.com.tw'],
-    'aggregator': ['lit.link', 'linktr.ee', 'portaly.cc'],
-    'booth_pm': ['booth.pm'],
-    'wix': ['wixsite.com', 'wix.com'],
-    'blog': [],  # too loose
-    'gamer': ['gamer.com.tw'],
-    'generic': [],
-}
+from resolver import _PLATFORM_ALIAS, _PROFILE_PATTERNS, _match_profile, _canonicalize_url
 
 SINGLE_EXPECTED = {'x', 'plurk', 'ig', 'pixiv', 'threads', 'bsky',
-                   'doujin_tw', 'aggregator', 'booth_pm', 'gamer'}
+                   'doujin_tw', 'aggregator', 'booth_pm', 'gamer', 'youtube'}
 
 
 def main():
@@ -76,22 +58,22 @@ def main():
                 issues.append({**ctx, 'rule': 'E1_missing_scheme_or_host'})
                 continue
 
-            # E2: not a non-profile URL
-            if any(rx.search(url) for rx in _NON_PROFILE_RE):
-                issues.append({**ctx, 'rule': 'E2_non_profile_url'})
+            # E2: URL must match one of the per-platform allow patterns
+            matched = _match_profile(url)
+            if matched is None:
+                issues.append({**ctx, 'rule': 'E2_no_profile_pattern_match'})
                 continue
+            expected_plat, _ = matched
 
             # E3: platform name canonical (no alias)
             if plat in _PLATFORM_ALIAS:
                 issues.append({**ctx, 'rule': 'E3_platform_alias',
                                'expected': _PLATFORM_ALIAS[plat]})
 
-            # E4: platform matches host
-            expected_hosts = PLATFORM_HOSTS.get(plat, None)
-            if expected_hosts:
-                if not any(h in url.lower() for h in expected_hosts):
-                    issues.append({**ctx, 'rule': 'E4_platform_host_mismatch',
-                                   'expected_hosts': expected_hosts})
+            # E4: stored platform name agrees with URL-derived canonical
+            if plat != expected_plat:
+                issues.append({**ctx, 'rule': 'E4_platform_mismatch',
+                               'expected': expected_plat})
 
             # E5: canonical duplicate
             ck = _canonicalize_url(url)
