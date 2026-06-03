@@ -191,16 +191,17 @@
   const filterPlatforms = new Set(); // selected platforms (empty = all)
 
   function authorPrimaryPlatform(a) {
-    if (a.x_handle) return 'x';
     const s = a.socials || [];
     if (s.length === 0) return '_none';
-    return s[0].platform || 'generic';
+    // Prefer x if available, else first social
+    const x = s.find(x => x.platform === 'x');
+    return (x ? 'x' : (s[0].platform || 'generic'));
   }
 
   function authorPrimaryUrl(a) {
-    if (a.x_handle) return 'https://x.com/' + a.x_handle;
     const s = a.socials || [];
-    return (s[0] && s[0].url) || '';
+    const x = s.find(x => x.platform === 'x');
+    return (x ? x.url : (s[0] && s[0].url)) || '';
   }
 
   function authorMatchesFilters(a) {
@@ -227,7 +228,7 @@
   function authorMatchesSearch(a, q) {
     if (!q) return true;
     const blob = [
-      a.id, a.name, a.name_inferred, a.x_handle,
+      a.id, a.name, a.name_inferred,
       ...(a.aliases || []),
       ...(AUTHOR_CIRCLES[a.id] || []).map(c => c.circle_name),
       ...(a.socials || []).map(s => s.handle || ''),
@@ -358,10 +359,11 @@
 
     card.appendChild(head);
 
-    // Probe links — all socials + x_handle + pending-added
+    // Probe links — all from socials[] (x_handle is gone, X URL is just
+    // another socials entry now).
     const links = el('div', { class: 'card-probe-links' });
 
-    function chipWithRemove(url, labelText, isPrimaryXHandle) {
+    function chipWithRemove(url, labelText) {
       const marked = isMarkedForRemoval(a.id, url);
       const wrap = el('span', {
         class: 'card-probe-link existing' + (marked ? ' marked-remove' : ''),
@@ -371,30 +373,19 @@
         href: url,
         target: '_blank', rel: 'noopener',
       }, labelText));
-      // Primary x_handle lives on the author row directly (not in socials[]);
-      // removing it would require a separate decision type — disable for now.
-      if (!isPrimaryXHandle) {
-        wrap.appendChild(el('button', {
-          type: 'button',
-          class: 'existing-remove',
-          title: marked ? '削除を取消' : 'この link を削除',
-          onclick: () => toggleRemoval(a.id, url),
-        }, marked ? '↺' : '×'));
-      }
+      wrap.appendChild(el('button', {
+        type: 'button',
+        class: 'existing-remove',
+        title: marked ? '削除を取消' : 'この link を削除',
+        onclick: () => toggleRemoval(a.id, url),
+      }, marked ? '↺' : '×'));
       return wrap;
     }
 
-    if (a.x_handle) {
-      links.appendChild(chipWithRemove(
-        'https://x.com/' + a.x_handle,
-        '𝕏 @' + a.x_handle,
-        true,
-      ));
-    }
     for (const s of (a.socials || [])) {
       if (!s.url) continue;
       const label = (s.platform || '🔗') + (s.handle ? ' ' + s.handle : '');
-      links.appendChild(chipWithRemove(s.url, label, false));
+      links.appendChild(chipWithRemove(s.url, label));
     }
     // Pending-added socials (visually distinct)
     const adds = pendingSocials[a.id] || [];

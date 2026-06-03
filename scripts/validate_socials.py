@@ -37,9 +37,6 @@ def main():
 
     for a in d['authors']:
         seen_canon = set()
-        if a.get('x_handle'):
-            seen_canon.add(_canonicalize_url(f'https://x.com/{a["x_handle"]}'))
-
         plat_count = defaultdict(int)
 
         for s in (a.get('socials') or []):

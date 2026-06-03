@@ -3,7 +3,7 @@
 
 Phase B-big-1 (2026-06-02): circles.json has two top-level arrays:
   - circles: [{id, circle_name, members: [author_id], socials, events}]
-  - authors: [{id, name, x_handle, x_url, socials, pixiv_url?}]
+  - authors: [{id, name, name_inferred, name_source, aliases, socials, pixiv_url?}]
 
 A circle has 1+ members. Solo circle = 1 member (most common). Multi-author
 circles list all members. Same author across multiple circles → same
@@ -92,8 +92,6 @@ def main():
                     'name_inferred': a.get('name_inferred') or '',
                     'name_source': a.get('name_source') or '',
                     'aliases': list(a.get('aliases') or []),
-                    'x_handle': a.get('x_handle') or '',
-                    'x_url': a.get('x_url') or '',
                     'socials': list(a.get('socials') or []),
                     '_seen_urls': {norm_url(s.get('url', '')) for s in (a.get('socials') or []) if s.get('url')},
                 }
@@ -181,8 +179,6 @@ def main():
                     'name': name,
                     'name_inferred': inferred,
                     'name_source': source,
-                    'x_handle': b.get('x_handle') or '',
-                    'x_url': b.get('x_url') or '',
                     'socials': [],
                     '_seen_urls': set(),
                 }
@@ -192,18 +188,14 @@ def main():
                 a['name'] = b['author']
                 a['name_inferred'] = ''
                 a['name_source'] = 'user'
-            if b.get('x_handle') and not a['x_handle']:
-                a['x_handle'] = b['x_handle']
-            if b.get('x_url') and not a['x_url']:
-                a['x_url'] = b['x_url']
 
             # Booth-embedded socials get accumulated onto the author (personal
-            # socials). Implicit X social from x_handle is also added.
+            # socials). Implicit X social from x_handle is added as a regular
+            # socials entry (x_handle field itself is no longer stored).
             booth_socials = list(b.get('socials') or [])
             if b.get('x_handle'):
                 booth_socials.insert(0, {
                     'platform': 'x',
-                    'handle': '@' + b['x_handle'],
                     'url': 'https://x.com/' + b['x_handle'],
                 })
             for s in booth_socials:
@@ -229,13 +221,6 @@ def main():
     for aid in sorted(authors.keys()):
         a = authors[aid]
         a.pop('_seen_urls', None)
-        # Dedup: drop socials entries that just repeat x_handle's X URL
-        # (the x_handle field already implies it — rendering both = visual
-        # duplicate chip).
-        if a.get('x_handle'):
-            x_norm = norm_url(f'https://x.com/{a["x_handle"]}')
-            a['socials'] = [s for s in (a.get('socials') or [])
-                            if norm_url(s.get('url', '')) != x_norm]
         author_out.append(a)
 
     out_obj = {'circles': circle_out, 'authors': author_out}

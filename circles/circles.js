@@ -47,28 +47,28 @@
     return circles.sort((a, b) => {
       const ad = b.events.length - a.events.length;
       if (ad !== 0) return ad;
-      const an = (a.circle_name || a.x_handle || '').toLowerCase();
-      const bn = (b.circle_name || b.x_handle || '').toLowerCase();
+      const an = (a.circle_name || a.id || '').toLowerCase();
+      const bn = (b.circle_name || b.id || '').toLowerCase();
       return an.localeCompare(bn);
     });
   }
 
   function renderRow(c) {
     const multi = c.events.length > 1;
+    const hasSocials = (c.socials && c.socials.length) > 0;
     const row = el('div', {
       class: 'circle-row' + (multi ? ' multi-event' : '') +
-              (!c.x_handle ? ' no-handle' : ''),
+              (!hasSocials ? ' no-handle' : ''),
     });
     const head = el('div', { class: 'circle-row-head' });
     head.appendChild(el('span', { class: 'circle-name' }, c.circle_name || '(無名)'));
     if (c.author && c.author !== c.circle_name) head.appendChild(el('span', { class: 'circle-author' }, c.author));
     row.appendChild(head);
 
-    // Social link chips — x_handle (primary author) renders as the lead X
-    // chip; the rest come from socials[]. Dedup by canonical URL.
+    // Social link chips — all from socials[] (URL = single source).
     const linkRow = el('div', { class: 'circle-links' });
     const seenChipUrls = new Set();
-    function pushChip(platform, url, handle) {
+    function pushChip(platform, url) {
       const norm = (url || '').replace(/^https?:\/\//, '').replace(/^www\./, '').split('?')[0].split('#')[0].replace(/\/+$/, '').toLowerCase();
       if (!norm || seenChipUrls.has(norm)) return;
       seenChipUrls.add(norm);
@@ -77,17 +77,13 @@
       linkRow.appendChild(el('a', {
         class: 'circle-link-chip chip-' + platform,
         href: url, target: '_blank', rel: 'noopener',
-        title: platform + (handle ? ' / ' + handle : ''),
+        title: platform,
       }, label));
-    }
-    // Lead X chip from x_handle (the canonical primary author X identity)
-    if (c.x_handle) {
-      pushChip('x', 'https://x.com/' + c.x_handle, '@' + c.x_handle);
     }
     if (c.socials && c.socials.length) {
       const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
       c.socials.slice().sort((a, b) => order(a) - order(b)).forEach(s => {
-        pushChip(s.platform, s.url, s.handle);
+        pushChip(s.platform, s.url);
       });
     }
     if (linkRow.children.length) {
@@ -122,7 +118,7 @@
   function passesFilters(c) {
     // Base filter
     if (baseFilter === 'multi' && c.events.length < 2) return false;
-    if (baseFilter === 'no-handle' && c.x_handle) return false;
+    if (baseFilter === 'no-handle' && (c.socials || []).length > 0) return false;
     // Event filter: circle must be in AT LEAST ONE selected event
     if (eventFilters.size > 0) {
       const inSelected = (c.events || []).some(e => eventFilters.has(e.slug));
@@ -144,7 +140,7 @@
     for (const c of allCircles) {
       if (!passesFilters(c)) continue;
       if (q) {
-        const blob = [c.circle_name, c.author, c.x_handle,
+        const blob = [c.circle_name, c.author, c.id,
                       ...(c.events || []).map(e => e.name),
                       ...(c.socials || []).map(s => s.handle),
                       ...(c.memberAuthors || []).flatMap(m => [m.name, ...(m.aliases || [])])]
@@ -247,8 +243,6 @@
     // 4-state name fallback: confirmed > inferred (often == circle name)
     return Object.assign({}, c, {
       author: primary.name || primary.name_inferred || '',
-      x_handle: primary.x_handle || '',
-      x_url: primary.x_url || '',
       socials,
       memberAuthors,
     });

@@ -333,7 +333,6 @@
     return Object.assign({
       circle_name: c.circle_name || '',
       author: displayAuthor,
-      x_handle: primaryAuthor.x_handle || '',  // kept for card data-search blob
       members: memberAuthors,                  // full author records — chips read from here
     }, b);
   }).sort((a, b) => a.booth_id.localeCompare(b.booth_id));
@@ -421,8 +420,9 @@
       id: 'booth-' + b.booth_id.toLowerCase(),
       'data-booth-id': b.booth_id,
       'data-filters': filterTokens.join(',') + (isFav ? ',fav' : ''),
-      'data-search': [b.booth_id, b.circle_name, b.author, b.x_handle,
-        ...(b.members || []).flatMap(m => [m.name, ...(m.aliases || [])])
+      'data-search': [b.booth_id, b.circle_name, b.author,
+        ...(b.members || []).flatMap(m => [m.name, ...(m.aliases || []),
+                                            ...(m.socials || []).map(s => s.url)])
       ].filter(Boolean).join(' ').toLowerCase(),
       role: 'button',
       tabindex: '0',
@@ -598,7 +598,7 @@
     // (confirmed > inferred); display nothing if neither is set.
     const memberRecords = Array.isArray(b.members) && b.members.length
       ? b.members
-      : (b.author ? [{name: b.author, x_handle: b.x_handle, x_url: b.x_url}] : []);
+      : (b.author ? [{name: b.author}] : []);
     memberRecords.forEach(m => {
       const name = m.name || m.name_inferred || '';
       if (!name) return;
@@ -608,7 +608,9 @@
       const displayName = aliases.length
         ? `${name} (${aliases.join(' / ')})`
         : name;
-      const chipHref = m.x_url || (m.x_handle ? 'https://x.com/' + m.x_handle : null);
+      // Author chip links to their X profile if present in socials
+      const xSocial = (m.socials || []).find(s => s.platform === 'x');
+      const chipHref = xSocial ? xSocial.url : null;
       if (chipHref) {
         meta.appendChild(el('a', {
           href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
@@ -666,14 +668,10 @@
         title: T('modal_source_' + platform),
       }, label));
     }
-    // All chips sourced from b.members[] (= circles.json author entities).
-    // booth data.js used to also store x_handle / socials per booth, but
-    // they're 0/0 across all current events — author entity is the SSOT.
+    // All chips sourced from b.members[] socials (= circles.json SSOT).
+    // X URL is just another socials entry, no special-case path.
     if (Array.isArray(b.members)) {
       for (const m of b.members) {
-        if (m.x_handle) {
-          addSocialChip('x', '@' + m.x_handle, 'https://x.com/' + m.x_handle, 'handle-link');
-        }
         for (const s of (m.socials || [])) {
           if (!s || !s.url) continue;
           addSocialChip(s.platform || detectSourceType(s.url), '', s.url);
@@ -1356,7 +1354,8 @@
         const altDiv = el('div', { class: 'modal-body-md', style: 'border-top:1px dashed #ccc;margin-top:0.8rem;padding-top:0.8rem;' });
         let alt_html = `<strong>${escapeHtml(a.circle_name || '')}</strong>`;
         if (a.author) alt_html += ` (${escapeHtml(a.author)})`;
-        if (a.x_url) alt_html += ` <a href="${escapeAttr(a.x_url)}" target="_blank" rel="noopener">@${escapeHtml(a.x_handle)}</a>`;
+        // (legacy alt entries omit X link — was a.x_url/a.x_handle on data.js
+        // alt records; unused since alt is rare and data.js never populates it)
         alt_html += '<br>' + mdToHtml(a.body || '');
         altDiv.innerHTML = alt_html;
         body.appendChild(altDiv);

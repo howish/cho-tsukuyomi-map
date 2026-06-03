@@ -10160,9 +10160,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "1R0HASU",
-      "x_url": "https://x.com/1R0HASU",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/1R0HASU"
+        }
+      ]
     },
     {
       "id": "2015chaosgroup",
@@ -10170,9 +10173,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "2015chaosgroup",
-      "x_url": "https://x.com/2015chaosgroup",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/2015chaosgroup"
+        }
+      ]
     },
     {
       "id": "2konose",
@@ -10180,9 +10186,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "2konose",
-      "x_url": "https://x.com/2konose",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/2konose"
+        }
+      ]
     },
     {
       "id": "a_00063d801927",
@@ -10190,8 +10199,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/CATGIRL0926",
       "socials": [
         {
           "platform": "plurk",
@@ -10205,8 +10212,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/u/kuriimuda",
       "socials": []
     },
     {
@@ -10215,8 +10220,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/inabatok",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -10242,8 +10245,6 @@
       "name_inferred": "麻玖叮",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/maruoo0121/",
       "socials": [
         {
           "platform": "ig",
@@ -10257,8 +10258,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/hallucinogens",
       "socials": [
         {
           "platform": "plurk",
@@ -10272,8 +10271,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/bibirooom/",
       "socials": [
         {
           "platform": "ig",
@@ -10287,8 +10284,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61551985430535#",
       "socials": []
     },
     {
@@ -10297,8 +10292,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -10307,8 +10300,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/kumalongrule34",
       "socials": [
         {
           "platform": "x",
@@ -10322,8 +10313,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -10332,8 +10321,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/mlo_8828",
       "socials": [
         {
           "platform": "plurk",
@@ -10347,8 +10334,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/blamonho/",
       "socials": [
         {
           "platform": "ig",
@@ -10362,8 +10347,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/shanshanrun/",
       "socials": [
         {
           "platform": "ig",
@@ -10377,8 +10360,6 @@
       "name_inferred": "",
       "name_source": "fb_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/sonehareko/",
       "socials": [
         {
           "platform": "fb",
@@ -10392,8 +10373,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@xuan___0719",
       "socials": [
         {
           "platform": "threads",
@@ -10407,8 +10386,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/sakuracoffee",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -10426,8 +10403,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/cherryblossomfactory",
       "socials": [
         {
           "platform": "fb",
@@ -10441,8 +10416,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -10451,8 +10424,6 @@
       "name_inferred": "",
       "name_source": "gamer_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
       "socials": [
         {
           "platform": "gamer",
@@ -10466,8 +10437,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_paren_alt",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/tsaox",
       "socials": [
         {
           "platform": "plurk",
@@ -10481,8 +10450,6 @@
       "name_inferred": "煞氣",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://babygollgo.pixnet.net/blog",
       "socials": [
         {
           "platform": "blog",
@@ -10496,8 +10463,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/bearjiajia625/",
       "socials": [
         {
           "platform": "ig",
@@ -10511,8 +10476,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/Mi_key",
       "socials": [
         {
           "platform": "plurk",
@@ -10526,8 +10489,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/na.zhi.lu/",
       "socials": [
         {
           "platform": "fb",
@@ -10541,8 +10502,6 @@
       "name_inferred": "",
       "name_source": "generic_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://morefate.com/",
       "socials": [
         {
           "platform": "generic",
@@ -10556,8 +10515,6 @@
       "name_inferred": "肝硬化企業-小心肝印畫部門",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/kure_kyouu",
       "socials": [
         {
           "platform": "x",
@@ -10571,8 +10528,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -10581,8 +10536,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/miyakocat",
       "socials": [
         {
           "platform": "plurk",
@@ -10596,8 +10549,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/somepaet/",
       "socials": [
         {
           "platform": "ig",
@@ -10611,8 +10562,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "facebook.com/puffbunny.oo.p",
       "socials": [
         {
           "platform": "fb",
@@ -10626,8 +10575,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -10636,8 +10583,6 @@
       "name_inferred": "",
       "name_source": "pixiv_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.pixiv.net/users/612797",
       "socials": [
         {
           "platform": "pixiv",
@@ -10651,8 +10596,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/whitericebear",
       "socials": [
         {
           "platform": "fb",
@@ -10666,8 +10609,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/small_lauchui_p/",
       "socials": [
         {
           "platform": "ig",
@@ -10681,8 +10622,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/MrFBA2/",
       "socials": [
         {
           "platform": "fb",
@@ -10696,8 +10635,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/KARASoshigata",
       "socials": [
         {
           "platform": "fb",
@@ -10711,8 +10648,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/shinstudio.tc/",
       "socials": [
         {
           "platform": "ig",
@@ -10726,8 +10661,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/giwa10310425",
       "socials": [
         {
           "platform": "plurk",
@@ -10741,8 +10674,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://hwulu.com/",
       "socials": [
         {
           "platform": "generic",
@@ -10756,8 +10687,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/natsuki6795/",
       "socials": [
         {
           "platform": "ig",
@@ -10771,8 +10700,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ben_artbb/",
       "socials": [
         {
           "platform": "ig",
@@ -10786,8 +10713,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/100072024726/",
       "socials": [
         {
           "platform": "x",
@@ -10801,8 +10726,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/wu_pei_shin/",
       "socials": [
         {
           "platform": "ig",
@@ -10816,8 +10739,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yamyoukan/",
       "socials": [
         {
           "platform": "fb",
@@ -10831,8 +10752,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/szkobo.new/",
       "socials": [
         {
           "platform": "ig",
@@ -10846,8 +10765,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -10856,8 +10773,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/6122/books",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -10875,8 +10790,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/alientomato_inearth/",
       "socials": [
         {
           "platform": "ig",
@@ -10890,8 +10803,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ninjin_tabenai/",
       "socials": [
         {
           "platform": "ig",
@@ -10905,8 +10816,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/SRboss",
       "socials": [
         {
           "platform": "fb",
@@ -10920,8 +10829,6 @@
       "name_inferred": "",
       "name_source": "aggregator_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/FutureImagesTW",
       "socials": [
         {
           "platform": "aggregator",
@@ -10963,8 +10870,6 @@
       "name_inferred": "",
       "name_source": "aggregator_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
       "socials": [
         {
           "platform": "aggregator",
@@ -10986,8 +10891,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@ninanon_15",
       "socials": [
         {
           "platform": "threads",
@@ -11001,8 +10904,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/PropellerWalker",
       "socials": [
         {
           "platform": "x",
@@ -11016,8 +10917,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/100810w/",
       "socials": [
         {
           "platform": "ig",
@@ -11031,8 +10930,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/yeijijia",
       "socials": [
         {
           "platform": "aggregator",
@@ -11054,8 +10951,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://twitter.com/takapiyo",
       "socials": [
         {
           "platform": "x",
@@ -11069,8 +10964,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -11079,8 +10972,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/lian4302",
       "socials": [
         {
           "platform": "plurk",
@@ -11094,8 +10985,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/eecircle",
       "socials": [
         {
           "platform": "aggregator",
@@ -11133,8 +11022,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/juatpass",
       "socials": [
         {
           "platform": "plurk",
@@ -11148,8 +11035,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://seemoon.biz/",
       "socials": [
         {
           "platform": "generic",
@@ -11163,8 +11048,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ToMato182",
       "socials": [
         {
           "platform": "plurk",
@@ -11178,8 +11061,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/starcandy_sheep/",
       "socials": [
         {
           "platform": "ig",
@@ -11193,8 +11074,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/LJYS.doujin",
       "socials": [
         {
           "platform": "fb",
@@ -11208,8 +11087,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/enokimitsuki",
       "socials": [
         {
           "platform": "plurk",
@@ -11223,8 +11100,6 @@
       "name_inferred": "銀髮少年",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/slivershonenwuwu/",
       "socials": [
         {
           "platform": "ig",
@@ -11238,8 +11113,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/lya_0328/",
       "socials": [
         {
           "platform": "ig",
@@ -11253,8 +11126,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/vspot.tw/",
       "socials": [
         {
           "platform": "fb",
@@ -11268,8 +11139,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/marikuforever/",
       "socials": [
         {
           "platform": "fb",
@@ -11283,8 +11152,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/loveliver0827",
       "socials": [
         {
           "platform": "plurk",
@@ -11298,8 +11165,6 @@
       "name_inferred": "白範工作室",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.creative-comic.tw/zh/publisher/StudioRise13",
       "socials": []
     },
     {
@@ -11308,8 +11173,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://blandlove.weebly.com/",
       "socials": [
         {
           "platform": "blog",
@@ -11323,8 +11186,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100064287512194",
       "socials": [
         {
           "platform": "fb",
@@ -11340,8 +11201,6 @@
       "aliases": [
         "靈犽"
       ],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/dreamxsoul",
       "socials": [
         {
           "platform": "plurk",
@@ -11367,8 +11226,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/jia0kelvin",
       "socials": [
         {
           "platform": "fb",
@@ -11382,8 +11239,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/MFgeldian/",
       "socials": [
         {
           "platform": "fb",
@@ -11397,8 +11252,6 @@
       "name_inferred": "名字可以自己取欸",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
       "socials": []
     },
     {
@@ -11407,8 +11260,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/suanmo99/",
       "socials": [
         {
           "platform": "ig",
@@ -11422,8 +11273,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/creative1shit2021/",
       "socials": [
         {
           "platform": "ig",
@@ -11437,8 +11286,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/wohenlanduo/",
       "socials": [
         {
           "platform": "ig",
@@ -11452,8 +11299,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/815",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -11475,8 +11320,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/op7804620",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -11494,8 +11337,6 @@
       "name_inferred": "脖狐的脖子",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
       "socials": []
     },
     {
@@ -11504,8 +11345,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/caramel06",
       "socials": [
         {
           "platform": "plurk",
@@ -11519,8 +11358,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/huyume1023",
       "socials": [
         {
           "platform": "fb",
@@ -11534,8 +11371,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/shu.kuan.yu.2025",
       "socials": [
         {
           "platform": "fb",
@@ -11549,8 +11384,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/socotaku",
       "socials": [
         {
           "platform": "fb",
@@ -11568,8 +11401,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61558258981354",
       "socials": [
         {
           "platform": "fb",
@@ -11583,8 +11414,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/dream_bridge_alw/",
       "socials": [
         {
           "platform": "ig",
@@ -11598,8 +11427,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/chj_joanna/",
       "socials": [
         {
           "platform": "ig",
@@ -11613,8 +11440,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
       "socials": []
     },
     {
@@ -11623,8 +11448,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ziv188622",
       "socials": [
         {
           "platform": "plurk",
@@ -11638,8 +11461,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/yanyan___777/",
       "socials": [
         {
           "platform": "ig",
@@ -11653,8 +11474,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100063824298824",
       "socials": [
         {
           "platform": "fb",
@@ -11668,8 +11487,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/7384",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -11691,8 +11508,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/akomari",
       "socials": [
         {
           "platform": "plurk",
@@ -11706,8 +11521,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/uniautomata_studio/",
       "socials": [
         {
           "platform": "ig",
@@ -11721,8 +11534,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/LungFu.Club",
       "socials": [
         {
           "platform": "fb",
@@ -11736,8 +11547,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ps.gojo.mm/",
       "socials": [
         {
           "platform": "ig",
@@ -11751,8 +11560,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/4848/books",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -11770,8 +11577,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/rabbit_rose_/",
       "socials": [
         {
           "platform": "ig",
@@ -11785,8 +11590,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/Go41577",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -11812,8 +11615,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/yua_neko",
       "socials": [
         {
           "platform": "plurk",
@@ -11827,8 +11628,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/amaranth2013/",
       "socials": [
         {
           "platform": "ig",
@@ -11842,8 +11641,6 @@
       "name_inferred": "西瓜學園",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "#",
       "socials": []
     },
     {
@@ -11852,8 +11649,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -11862,8 +11657,6 @@
       "name_inferred": "かくkaku",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/ewokaku0w0",
       "socials": [
         {
           "platform": "aggregator",
@@ -11909,8 +11702,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -11919,8 +11710,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/IceDR",
       "socials": [
         {
           "platform": "plurk",
@@ -11934,8 +11723,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/agathexu/",
       "socials": [
         {
           "platform": "ig",
@@ -11949,8 +11736,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/iamritai2001",
       "socials": [
         {
           "platform": "plurk",
@@ -11964,8 +11749,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_zh_is_med",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/chentina1022",
       "socials": [
         {
           "platform": "plurk",
@@ -11979,8 +11762,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/lostdeerisland/",
       "socials": [
         {
           "platform": "ig",
@@ -11994,8 +11775,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12004,8 +11783,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12014,8 +11791,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/renyinaloha",
       "socials": [
         {
           "platform": "plurk",
@@ -12029,8 +11804,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/77witch_7two/",
       "socials": [
         {
           "platform": "ig",
@@ -12044,8 +11817,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
       "socials": []
     },
     {
@@ -12054,8 +11825,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/reisroom711/",
       "socials": [
         {
           "platform": "fb",
@@ -12069,8 +11838,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/stargazer233",
       "socials": [
         {
           "platform": "plurk",
@@ -12084,8 +11851,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -12094,8 +11859,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/PlanetesObservare",
       "socials": [
         {
           "platform": "fb",
@@ -12109,8 +11872,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12119,8 +11880,6 @@
       "name_inferred": "墨丘利",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://marslake2.weebly.com/",
       "socials": [
         {
           "platform": "blog",
@@ -12134,8 +11893,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ouyouxi2020",
       "socials": [
         {
           "platform": "plurk",
@@ -12153,8 +11910,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/gs.gray_000/",
       "socials": [
         {
           "platform": "ig",
@@ -12168,8 +11923,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/tentaclespet/",
       "socials": [
         {
           "platform": "fb",
@@ -12183,8 +11936,6 @@
       "name_inferred": "紫月",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
       "socials": []
     },
     {
@@ -12193,8 +11944,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12203,8 +11952,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/twinkle21_comic/",
       "socials": [
         {
           "platform": "ig",
@@ -12218,8 +11965,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/enzo.zoldyck.tw/",
       "socials": [
         {
           "platform": "ig",
@@ -12233,8 +11978,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/SeRn1009",
       "socials": [
         {
           "platform": "plurk",
@@ -12248,8 +11991,6 @@
       "name_inferred": "記得繳房貸",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/nagadrawdraw",
       "socials": [
         {
           "platform": "aggregator",
@@ -12287,8 +12028,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yu.cheng.9843499",
       "socials": [
         {
           "platform": "fb",
@@ -12302,8 +12041,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61556596875660",
       "socials": [
         {
           "platform": "fb",
@@ -12317,8 +12054,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/u/sly450026",
       "socials": []
     },
     {
@@ -12327,8 +12062,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/anon_114c",
       "socials": [
         {
           "platform": "aggregator",
@@ -12354,8 +12087,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://shop.codingcat-design.com.tw/manga-color/",
       "socials": []
     },
     {
@@ -12364,8 +12095,6 @@
       "name_inferred": "花開。花烙",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://blossoming-faded.blog/",
       "socials": [
         {
           "platform": "generic",
@@ -12391,8 +12120,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/kuan.wei.lin.372350",
       "socials": [
         {
           "platform": "fb",
@@ -12406,8 +12133,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/chowwuart/",
       "socials": [
         {
           "platform": "ig",
@@ -12421,8 +12146,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/LengWaGuo/",
       "socials": [
         {
           "platform": "fb",
@@ -12436,8 +12159,6 @@
       "name_inferred": "Good Omens 好預兆",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/good_omens.tw/://",
       "socials": []
     },
     {
@@ -12446,8 +12167,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
       "socials": []
     },
     {
@@ -12456,8 +12175,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/laaaw444",
       "socials": [
         {
           "platform": "x",
@@ -12471,8 +12188,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12481,8 +12196,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/mazuco1214_ryu",
       "socials": [
         {
           "platform": "x",
@@ -12496,8 +12209,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/doublewdoublew/",
       "socials": [
         {
           "platform": "ig",
@@ -12511,8 +12222,6 @@
       "name_inferred": "",
       "name_source": "wix_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://ed940930.wixsite.com/original",
       "socials": [
         {
           "platform": "wix",
@@ -12526,8 +12235,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yanekomeow",
       "socials": [
         {
           "platform": "fb",
@@ -12541,8 +12248,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/tomoewhat77/",
       "socials": [
         {
           "platform": "ig",
@@ -12556,8 +12261,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/AKhibari",
       "socials": [
         {
           "platform": "aggregator",
@@ -12599,8 +12302,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/krosa1028",
       "socials": [
         {
           "platform": "x",
@@ -12614,8 +12315,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/CNO",
       "socials": [
         {
           "platform": "plurk",
@@ -12629,8 +12328,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/tu.ben.hua?",
       "socials": []
     },
     {
@@ -12639,8 +12336,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
       "socials": [
         {
           "platform": "aggregator",
@@ -12686,8 +12381,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/abc9012071",
       "socials": [
         {
           "platform": "fb",
@@ -12701,8 +12394,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12711,8 +12402,6 @@
       "name_inferred": "",
       "name_source": "bsky_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://bsky.app/profile/nkpa.bsky.social",
       "socials": [
         {
           "platform": "bsky",
@@ -12730,8 +12419,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_zh_is_med",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/greenrivernight",
       "socials": [
         {
           "platform": "plurk",
@@ -12745,8 +12432,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
       "socials": [
         {
           "platform": "plurk",
@@ -12768,8 +12453,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
       "socials": [
         {
           "platform": "pixiv",
@@ -12787,8 +12470,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/liftrasa5",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -12810,8 +12491,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/myaowl/",
       "socials": [
         {
           "platform": "ig",
@@ -12825,8 +12504,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/aokihoshi/",
       "socials": [
         {
           "platform": "fb",
@@ -12840,8 +12517,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@45_artwork",
       "socials": [
         {
           "platform": "threads",
@@ -12855,8 +12530,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/rrrrrbu/",
       "socials": [
         {
           "platform": "fb",
@@ -12870,8 +12543,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -12880,8 +12551,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/IMAS1111TWTC//",
       "socials": []
     },
     {
@@ -12890,8 +12559,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/p/3i2nll7mkt",
       "socials": []
     },
     {
@@ -12900,8 +12567,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/mola0632",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -12923,8 +12588,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/ruinmaster",
       "socials": [
         {
           "platform": "aggregator",
@@ -12942,8 +12605,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/SpaceFaucet/",
       "socials": [
         {
           "platform": "fb",
@@ -12957,8 +12618,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/KA_compilation",
       "socials": [
         {
           "platform": "x",
@@ -12972,8 +12631,6 @@
       "name_inferred": "",
       "name_source": "aggregator_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/KotemWriter13",
       "socials": [
         {
           "platform": "aggregator",
@@ -13019,8 +12676,6 @@
       "name_inferred": "逆光合作用",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "#",
       "socials": []
     },
     {
@@ -13029,8 +12684,6 @@
       "name_inferred": "墨貓空氣幻境",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/blackomicat",
       "socials": [
         {
           "platform": "aggregator",
@@ -13068,8 +12721,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/han_adtw",
       "socials": [
         {
           "platform": "plurk",
@@ -13083,8 +12734,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/kawa_7128",
       "socials": [
         {
           "platform": "plurk",
@@ -13098,8 +12747,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61575655409441",
       "socials": [
         {
           "platform": "fb",
@@ -13113,8 +12760,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/rabbit.x__x/",
       "socials": [
         {
           "platform": "ig",
@@ -13128,8 +12773,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ryuouo",
       "socials": [
         {
           "platform": "plurk",
@@ -13143,8 +12786,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/retaku",
       "socials": [
         {
           "platform": "plurk",
@@ -13158,8 +12799,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/weirin0",
       "socials": [
         {
           "platform": "plurk",
@@ -13173,8 +12812,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/shioisland/",
       "socials": [
         {
           "platform": "ig",
@@ -13188,8 +12825,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/yvonneching8218",
       "socials": [
         {
           "platform": "plurk",
@@ -13203,8 +12838,6 @@
       "name_inferred": "燈無殖物園",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/lightoffill",
       "socials": [
         {
           "platform": "aggregator",
@@ -13234,8 +12867,6 @@
       "name_inferred": "捏捏茶宇宙",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/TeaNe11",
       "socials": [
         {
           "platform": "aggregator",
@@ -13273,8 +12904,6 @@
       "name_inferred": "",
       "name_source": "fb_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/akiragiorgio/",
       "socials": [
         {
           "platform": "fb",
@@ -13288,8 +12917,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/Polymilktea",
       "socials": [
         {
           "platform": "fb",
@@ -13303,8 +12930,6 @@
       "name_inferred": "Ikusen",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://youtu.be/coZxpzzPvIc?si=AWVDfAD4XZlOq7Sm",
       "socials": []
     },
     {
@@ -13313,8 +12938,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/365/books",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -13336,8 +12959,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "www.facebook.com/edward98311",
       "socials": [
         {
           "platform": "fb",
@@ -13351,8 +12972,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/harukam03",
       "socials": [
         {
           "platform": "plurk",
@@ -13366,8 +12985,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/Stellane2025",
       "socials": [
         {
           "platform": "x",
@@ -13381,8 +12998,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/not_december1212/",
       "socials": [
         {
           "platform": "ig",
@@ -13396,8 +13011,6 @@
       "name_inferred": "",
       "name_source": "bsky_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://bsky.app/profile/nginnk12.bsky.social",
       "socials": [
         {
           "platform": "bsky",
@@ -13411,8 +13024,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/astudio.o/",
       "socials": [
         {
           "platform": "ig",
@@ -13426,8 +13037,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/enoshdreams/",
       "socials": [
         {
           "platform": "ig",
@@ -13441,8 +13050,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/fluffpoint",
       "socials": [
         {
           "platform": "fb",
@@ -13456,8 +13063,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/zhliu.art/",
       "socials": [
         {
           "platform": "ig",
@@ -13471,8 +13076,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/dayday._.sleep/",
       "socials": [
         {
           "platform": "ig",
@@ -13486,8 +13089,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/battahandmade",
       "socials": [
         {
           "platform": "x",
@@ -13501,8 +13102,6 @@
       "name_inferred": "",
       "name_source": "pixiv_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://kvoid000.wixsite.com/corvus",
       "socials": [
         {
           "platform": "pixiv",
@@ -13528,8 +13127,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -13538,8 +13135,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/skyberryelement",
       "socials": [
         {
           "platform": "plurk",
@@ -13553,8 +13148,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/r_bish",
       "socials": [
         {
           "platform": "plurk",
@@ -13568,8 +13161,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/uni_07z3",
       "socials": [
         {
           "platform": "plurk",
@@ -13583,8 +13174,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hutaomu_clay/",
       "socials": [
         {
           "platform": "ig",
@@ -13598,8 +13187,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/aa2233aa",
       "socials": [
         {
           "platform": "fb",
@@ -13613,8 +13200,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ciaoowoneko/",
       "socials": [
         {
           "platform": "ig",
@@ -13628,8 +13213,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://plurk.com/potatosonnet",
       "socials": [
         {
           "platform": "plurk",
@@ -13643,8 +13226,6 @@
       "name_inferred": "超級同人大戰 SDW",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/superdoujinwar/",
       "socials": [
         {
           "platform": "fb",
@@ -13658,8 +13239,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl",
       "socials": []
     },
     {
@@ -13668,8 +13247,6 @@
       "name_inferred": "Cathy Kao",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/cathy.kao.35/",
       "socials": [
         {
           "platform": "fb",
@@ -13683,8 +13260,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/XingJustDrawIt",
       "socials": [
         {
           "platform": "fb",
@@ -13698,8 +13273,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/",
       "socials": []
     },
     {
@@ -13708,8 +13281,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/maoyuue",
       "socials": [
         {
           "platform": "fb",
@@ -13723,8 +13294,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/u/yu_882",
       "socials": []
     },
     {
@@ -13733,8 +13302,6 @@
       "name_inferred": "宿原僎個人",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "#",
       "socials": []
     },
     {
@@ -13743,8 +13310,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/eli.pluma.lin/",
       "socials": [
         {
           "platform": "ig",
@@ -13758,8 +13323,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/yujaisu",
       "socials": [
         {
           "platform": "plurk",
@@ -13773,8 +13336,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/tenseven_1777/",
       "socials": [
         {
           "platform": "ig",
@@ -13788,8 +13349,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/rei.xu.3",
       "socials": [
         {
           "platform": "fb",
@@ -13803,8 +13362,6 @@
       "name_inferred": "PIN製造所",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.pinkoi.com/store/pinillustration",
       "socials": []
     },
     {
@@ -13813,8 +13370,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@yakinikuww_1220",
       "socials": [
         {
           "platform": "threads",
@@ -13828,8 +13383,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://sites.google.com/view/bite1catfish/",
       "socials": []
     },
     {
@@ -13838,8 +13391,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/coffeefish_05",
       "socials": [
         {
           "platform": "x",
@@ -13853,8 +13404,6 @@
       "name_inferred": "儉約判定+",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/thediecity",
       "socials": [
         {
           "platform": "plurk",
@@ -13868,8 +13417,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/kaori0408",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -13895,8 +13442,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/Silver_NoTa",
       "socials": [
         {
           "platform": "plurk",
@@ -13910,8 +13455,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/b.c1206",
       "socials": [
         {
           "platform": "fb",
@@ -13925,8 +13468,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -13935,8 +13476,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/summerbonekiara",
       "socials": [
         {
           "platform": "plurk",
@@ -13950,8 +13489,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/niansui623",
       "socials": [
         {
           "platform": "plurk",
@@ -13965,8 +13502,6 @@
       "name_inferred": "男同女同天理不容",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
       "socials": []
     },
     {
@@ -13975,8 +13510,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://twitter.com/cometwave",
       "socials": [
         {
           "platform": "x",
@@ -13990,8 +13523,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@online._.ghost",
       "socials": [
         {
           "platform": "threads",
@@ -14005,8 +13536,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/twelve474719/",
       "socials": [
         {
           "platform": "ig",
@@ -14020,8 +13549,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/raker.natsume.0701",
       "socials": [
         {
           "platform": "aggregator",
@@ -14055,8 +13582,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -14065,8 +13590,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/arcusong",
       "socials": [
         {
           "platform": "plurk",
@@ -14080,8 +13603,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/dd_r2112",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -14103,8 +13624,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/p/3icizou1me",
       "socials": []
     },
     {
@@ -14113,8 +13632,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -14123,8 +13640,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/by.lordlung/",
       "socials": [
         {
           "platform": "ig",
@@ -14138,8 +13653,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/fengliart520/",
       "socials": [
         {
           "platform": "fb",
@@ -14153,8 +13666,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/7iromushrooms",
       "socials": [
         {
           "platform": "fb",
@@ -14168,8 +13679,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://trapasocks.pse.is/8rdrx6",
       "socials": []
     },
     {
@@ -14178,8 +13687,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/elena_lai_12/",
       "socials": [
         {
           "platform": "ig",
@@ -14193,8 +13700,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ballballwilson",
       "socials": [
         {
           "platform": "fb",
@@ -14208,8 +13713,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/gulyocat",
       "socials": [
         {
           "platform": "plurk",
@@ -14223,8 +13726,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/BoneYong/",
       "socials": [
         {
           "platform": "fb",
@@ -14238,8 +13739,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/s22393",
       "socials": [
         {
           "platform": "plurk",
@@ -14253,8 +13752,6 @@
       "name_inferred": "包伯尼幼兒園",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
       "socials": [
         {
           "platform": "fb",
@@ -14268,8 +13765,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/aaaduck/",
       "socials": [
         {
           "platform": "ig",
@@ -14283,8 +13778,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/pipi.yaya.90",
       "socials": [
         {
           "platform": "fb",
@@ -14298,8 +13791,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/seasalt_oc/",
       "socials": [
         {
           "platform": "ig",
@@ -14313,8 +13804,6 @@
       "name_inferred": "",
       "name_source": "plurk_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/bleedmaple",
       "socials": [
         {
           "platform": "plurk",
@@ -14328,8 +13817,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/leo504436",
       "socials": [
         {
           "platform": "plurk",
@@ -14343,8 +13830,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61550680396750",
       "socials": [
         {
           "platform": "fb",
@@ -14358,8 +13843,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/chiuchiu0428",
       "socials": [
         {
           "platform": "plurk",
@@ -14373,8 +13856,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/rainfox2021/",
       "socials": [
         {
           "platform": "ig",
@@ -14388,8 +13869,6 @@
       "name_inferred": "sally : deja-vu",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/slychen",
       "socials": [
         {
           "platform": "aggregator",
@@ -14423,8 +13902,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/brac",
       "socials": [
         {
           "platform": "aggregator",
@@ -14446,8 +13923,6 @@
       "name_inferred": "開天窗",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "#",
       "socials": []
     },
     {
@@ -14456,8 +13931,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/6995",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -14487,8 +13960,6 @@
       "name_inferred": "富士繪社",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100069793502478",
       "socials": [
         {
           "platform": "fb",
@@ -14502,8 +13973,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/MIKEY21",
       "socials": [
         {
           "platform": "plurk",
@@ -14517,8 +13986,6 @@
       "name_inferred": "反青復明三角勇者",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/senyu",
       "socials": [
         {
           "platform": "aggregator",
@@ -14556,8 +14023,6 @@
       "name_inferred": "共聚物精靈",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/CopolymerWizard",
       "socials": [
         {
           "platform": "fb",
@@ -14571,8 +14036,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@kyuuri991205",
       "socials": [
         {
           "platform": "threads",
@@ -14586,8 +14049,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/yujian_lll/",
       "socials": [
         {
           "platform": "ig",
@@ -14601,8 +14062,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/HOLIDAY_9NightKnight",
       "socials": [
         {
           "platform": "plurk",
@@ -14616,8 +14075,6 @@
       "name_inferred": "",
       "name_source": "generic_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://blog.erenehsu.com/HappyCandy/",
       "socials": []
     },
     {
@@ -14626,8 +14083,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hsiao.local.girl/",
       "socials": [
         {
           "platform": "ig",
@@ -14641,8 +14096,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/tku_imas_tw",
       "socials": [
         {
           "platform": "x",
@@ -14656,8 +14109,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/littleeyes_b216/",
       "socials": [
         {
           "platform": "ig",
@@ -14671,8 +14122,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1EDMa5ftC9/",
       "socials": []
     },
     {
@@ -14681,8 +14130,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/minproject888/",
       "socials": [
         {
           "platform": "ig",
@@ -14696,8 +14143,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/karupisu_planet",
       "socials": [
         {
           "platform": "plurk",
@@ -14711,8 +14156,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/MuziYuri/",
       "socials": [
         {
           "platform": "fb",
@@ -14730,8 +14173,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/xiao.xiao.zhang.520906",
       "socials": [
         {
           "platform": "fb",
@@ -14745,8 +14186,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/refineyy",
       "socials": [
         {
           "platform": "aggregator",
@@ -14764,8 +14203,6 @@
       "name_inferred": "Bubble Wave",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/Bubble_Wave",
       "socials": [
         {
           "platform": "aggregator",
@@ -14799,8 +14236,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/mp9999",
       "socials": [
         {
           "platform": "plurk",
@@ -14814,8 +14249,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/grams35",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -14841,8 +14274,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ri_life_draw/",
       "socials": [
         {
           "platform": "ig",
@@ -14856,8 +14287,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/lagom.art_/",
       "socials": [
         {
           "platform": "ig",
@@ -14871,8 +14300,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/nightleave1030",
       "socials": [
         {
           "platform": "x",
@@ -14886,8 +14313,6 @@
       "name_inferred": "Aggie 慢慢走 ",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://instagram.com/aggie__amble/",
       "socials": [
         {
           "platform": "ig",
@@ -14901,8 +14326,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/erasertea/",
       "socials": [
         {
           "platform": "ig",
@@ -14916,8 +14339,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/_92b5a9/",
       "socials": [
         {
           "platform": "ig",
@@ -14931,8 +14352,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/lunoestory.novel/",
       "socials": [
         {
           "platform": "ig",
@@ -14950,8 +14369,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ouo336",
       "socials": [
         {
           "platform": "fb",
@@ -14965,8 +14382,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/AM00019932687",
       "socials": [
         {
           "platform": "x",
@@ -14980,8 +14395,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/menyakuranari",
       "socials": [
         {
           "platform": "aggregator",
@@ -15011,8 +14424,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/endlessnight_tw/",
       "socials": [
         {
           "platform": "ig",
@@ -15026,8 +14437,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1D2oqZA8kB/",
       "socials": []
     },
     {
@@ -15036,8 +14445,6 @@
       "name_inferred": "",
       "name_source": "fb_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -15046,8 +14453,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/hanyangcomic?_ps=1",
       "socials": []
     },
     {
@@ -15056,8 +14461,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/moonshadow331",
       "socials": [
         {
           "platform": "plurk",
@@ -15071,8 +14474,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/zdyui810",
       "socials": [
         {
           "platform": "plurk",
@@ -15086,8 +14487,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/2GeTrEkT264",
       "socials": [
         {
           "platform": "x",
@@ -15101,8 +14500,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
       "socials": [
         {
           "platform": "plurk",
@@ -15120,8 +14517,6 @@
       "name_inferred": "默屋",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/moriowo.s",
       "socials": [
         {
           "platform": "aggregator",
@@ -15155,8 +14550,6 @@
       "name_inferred": "My Garden我的庭園(毛毛氈創作坊)",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/MyGardenMyLife",
       "socials": [
         {
           "platform": "fb",
@@ -15170,8 +14563,6 @@
       "name_inferred": "月月子不在家",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ChristinStudio",
       "socials": [
         {
           "platform": "fb",
@@ -15185,8 +14576,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/jiao.ji.327793/",
       "socials": [
         {
           "platform": "fb",
@@ -15200,8 +14589,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/roxanne21___/",
       "socials": [
         {
           "platform": "ig",
@@ -15215,8 +14602,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/the_berrypie/",
       "socials": [
         {
           "platform": "ig",
@@ -15230,8 +14615,6 @@
       "name_inferred": "ボカロ虛擬歌姬交流會",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
       "socials": []
     },
     {
@@ -15240,8 +14623,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://instagram.com/arayo__0616/",
       "socials": [
         {
           "platform": "ig",
@@ -15255,8 +14636,6 @@
       "name_inferred": "Liuyingchieh",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://facebook.com/media/set/?set=a.10160389843616259",
       "socials": []
     },
     {
@@ -15265,8 +14644,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/snipeyozora",
       "socials": [
         {
           "platform": "plurk",
@@ -15280,8 +14657,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61583559591571",
       "socials": [
         {
           "platform": "fb",
@@ -15295,8 +14670,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/xy884088/",
       "socials": [
         {
           "platform": "ig",
@@ -15310,8 +14683,6 @@
       "name_inferred": "",
       "name_source": "generic_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://w0960.pixnet.net/blog",
       "socials": [
         {
           "platform": "blog",
@@ -15325,8 +14696,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/Shenlan_echo",
       "socials": [
         {
           "platform": "x",
@@ -15340,8 +14709,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/tan.tan.828001",
       "socials": [
         {
           "platform": "fb",
@@ -15355,8 +14722,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/jelda_arts/",
       "socials": [
         {
           "platform": "ig",
@@ -15370,8 +14735,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/yinqarys",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -15385,8 +14748,6 @@
       "name_inferred": "HyggeLove",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hygge._love/",
       "socials": [
         {
           "platform": "ig",
@@ -15400,8 +14761,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/brain.bamage/",
       "socials": [
         {
           "platform": "ig",
@@ -15415,8 +14774,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -15425,8 +14782,6 @@
       "name_inferred": "房間工作室",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/_inner_room/",
       "socials": [
         {
           "platform": "ig",
@@ -15440,8 +14795,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/gloomlysky",
       "socials": [
         {
           "platform": "plurk",
@@ -15455,8 +14808,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/s092077?locale=zh_TW",
       "socials": [
         {
           "platform": "threads",
@@ -15470,8 +14821,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/523/books",
       "socials": [
         {
           "platform": "plurk",
@@ -15497,8 +14846,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/mamo20220624",
       "socials": [
         {
           "platform": "x",
@@ -15512,8 +14859,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/poki1130",
       "socials": [
         {
           "platform": "plurk",
@@ -15527,8 +14872,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ricke.kao",
       "socials": [
         {
           "platform": "fb",
@@ -15542,8 +14885,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/newstone",
       "socials": [
         {
           "platform": "plurk",
@@ -15557,8 +14898,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/mei.emerald.96?",
       "socials": []
     },
     {
@@ -15567,8 +14906,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -15577,8 +14914,6 @@
       "name_inferred": "",
       "name_source": "fb_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yuyudesu0806/",
       "socials": [
         {
           "platform": "fb",
@@ -15592,8 +14927,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
       "socials": []
     },
     {
@@ -15602,8 +14935,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/swet1002",
       "socials": [
         {
           "platform": "plurk",
@@ -15617,8 +14948,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/rainnyafoi",
       "socials": [
         {
           "platform": "aggregator",
@@ -15660,8 +14989,6 @@
       "name_inferred": "LRLR",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/yyoaooao",
       "socials": [
         {
           "platform": "aggregator",
@@ -15691,8 +15018,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/61573677164059/",
       "socials": [
         {
           "platform": "fb",
@@ -15706,8 +15031,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/_inxk.ntn_/",
       "socials": [
         {
           "platform": "ig",
@@ -15721,8 +15044,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/unfriendlyanimals/",
       "socials": [
         {
           "platform": "ig",
@@ -15736,8 +15057,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/sakana_56",
       "socials": [
         {
           "platform": "plurk",
@@ -15751,8 +15070,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/jyouka2019",
       "socials": [
         {
           "platform": "fb",
@@ -15766,8 +15083,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/FoxMoonOmu/",
       "socials": [
         {
           "platform": "fb",
@@ -15781,8 +15096,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/2719",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -15800,8 +15113,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/nokomakawa/",
       "socials": [
         {
           "platform": "fb",
@@ -15815,8 +15126,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/Mikanseal074",
       "socials": [
         {
           "platform": "fb",
@@ -15830,8 +15139,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
       "socials": [
         {
           "platform": "plurk",
@@ -15845,8 +15152,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100087498796559",
       "socials": [
         {
           "platform": "fb",
@@ -15860,8 +15165,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/co.shih",
       "socials": [
         {
           "platform": "fb",
@@ -15875,8 +15178,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/axitreehouse/",
       "socials": [
         {
           "platform": "ig",
@@ -15890,8 +15191,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/almn.sk.page/",
       "socials": [
         {
           "platform": "fb",
@@ -15905,8 +15204,6 @@
       "name_inferred": "OrangeDragon橘子龍龍",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/chang_yu_i/",
       "socials": [
         {
           "platform": "ig",
@@ -15920,8 +15217,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/back_home_diary/",
       "socials": [
         {
           "platform": "ig",
@@ -15935,8 +15230,6 @@
       "name_inferred": "",
       "name_source": "pixiv_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.pixiv.net/users/1181363",
       "socials": [
         {
           "platform": "pixiv",
@@ -15950,8 +15243,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/miba_1.8/",
       "socials": [
         {
           "platform": "ig",
@@ -15965,8 +15256,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/YuutsuNeko/",
       "socials": [
         {
           "platform": "fb",
@@ -15980,8 +15269,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/tama48849",
       "socials": [
         {
           "platform": "fb",
@@ -15995,8 +15282,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/harai.uine",
       "socials": [
         {
           "platform": "fb",
@@ -16010,8 +15295,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ut_91127/",
       "socials": [
         {
           "platform": "ig",
@@ -16025,8 +15308,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
       "socials": [
         {
           "platform": "pixiv",
@@ -16048,8 +15329,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/t0ng_eyyy/",
       "socials": [
         {
           "platform": "ig",
@@ -16063,8 +15342,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/a983azy",
       "socials": [
         {
           "platform": "plurk",
@@ -16078,8 +15355,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/cilsbox/",
       "socials": [
         {
           "platform": "fb",
@@ -16093,8 +15368,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/nagoberry",
       "socials": [
         {
           "platform": "plurk",
@@ -16108,8 +15381,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/yui_creator/",
       "socials": [
         {
           "platform": "ig",
@@ -16123,8 +15394,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/crybaby_77_illustration/",
       "socials": [
         {
           "platform": "ig",
@@ -16138,8 +15407,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/gutenmomo",
       "socials": [
         {
           "platform": "fb",
@@ -16153,8 +15420,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/MOLAMOLAComics",
       "socials": [
         {
           "platform": "fb",
@@ -16168,8 +15433,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/bossraven77/",
       "socials": [
         {
           "platform": "ig",
@@ -16183,8 +15446,6 @@
       "name_inferred": "P星帶月",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97",
       "socials": []
     },
     {
@@ -16193,8 +15454,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/liu.tong.xue.241219/",
       "socials": [
         {
           "platform": "fb",
@@ -16208,8 +15467,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/bbibinbingART/",
       "socials": [
         {
           "platform": "fb",
@@ -16223,8 +15480,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_paren_alt",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/kikokakok",
       "socials": [
         {
           "platform": "plurk",
@@ -16238,8 +15493,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -16248,8 +15501,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/flyinglo",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -16267,8 +15518,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/ponka2024",
       "socials": [
         {
           "platform": "x",
@@ -16282,8 +15531,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/gubiTW",
       "socials": [
         {
           "platform": "aggregator",
@@ -16313,8 +15560,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/taimini865",
       "socials": [
         {
           "platform": "plurk",
@@ -16328,8 +15573,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -16338,8 +15581,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -16348,8 +15589,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/a86872329",
       "socials": [
         {
           "platform": "plurk",
@@ -16363,8 +15602,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "http://www.plurk.com/kazA_A",
       "socials": [
         {
           "platform": "plurk",
@@ -16378,8 +15615,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/gunn11222/",
       "socials": [
         {
           "platform": "ig",
@@ -16393,8 +15628,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/u/sayoku",
       "socials": []
     },
     {
@@ -16403,8 +15636,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/shi.zhong.394980/",
       "socials": [
         {
           "platform": "fb",
@@ -16418,8 +15649,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/cwy.0316.joestar/",
       "socials": [
         {
           "platform": "fb",
@@ -16433,8 +15662,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/lifa4dream",
       "socials": [
         {
           "platform": "fb",
@@ -16448,8 +15675,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -16463,8 +15688,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/simelu2016",
       "socials": [
         {
           "platform": "fb",
@@ -16478,8 +15701,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/foxcoffeexx/",
       "socials": [
         {
           "platform": "ig",
@@ -16493,8 +15714,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/zh-tw/witlhgti",
       "socials": [
         {
           "platform": "aggregator",
@@ -16520,8 +15739,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@fromjanuary1st",
       "socials": [
         {
           "platform": "threads",
@@ -16535,8 +15752,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/yuiotagiri/",
       "socials": [
         {
           "platform": "ig",
@@ -16550,8 +15765,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/jj_catclaw",
       "socials": [
         {
           "platform": "x",
@@ -16565,8 +15778,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/jiang.jiang.193870",
       "socials": [
         {
           "platform": "fb",
@@ -16580,8 +15791,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/lll8256",
       "socials": [
         {
           "platform": "plurk",
@@ -16595,8 +15804,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/GesamtkunstwerkundEi",
       "socials": [
         {
           "platform": "fb",
@@ -16610,8 +15817,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/BlueWhale.s.art",
       "socials": [
         {
           "platform": "fb",
@@ -16625,8 +15830,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/shentos",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -16644,8 +15847,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr",
       "socials": []
     },
     {
@@ -16654,8 +15855,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/8694",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -16685,8 +15884,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://sakuds.carrd.co",
       "socials": []
     },
     {
@@ -16695,8 +15892,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -16705,8 +15900,6 @@
       "name_inferred": "雪之饗(studio e'kis)",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ekis2018",
       "socials": [
         {
           "platform": "fb",
@@ -16720,8 +15913,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/liu.ze.mei.ying",
       "socials": [
         {
           "platform": "fb",
@@ -16735,8 +15926,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/jidraw018/",
       "socials": [
         {
           "platform": "ig",
@@ -16750,8 +15939,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/saza_073",
       "socials": [
         {
           "platform": "x",
@@ -16765,8 +15952,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@nu.rkgk",
       "socials": [
         {
           "platform": "threads",
@@ -16780,8 +15965,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/shadowsinkincoffee/",
       "socials": [
         {
           "platform": "fb",
@@ -16795,8 +15978,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ayas929",
       "socials": [
         {
           "platform": "plurk",
@@ -16810,8 +15991,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
       "socials": [
         {
           "platform": "pixiv",
@@ -16829,8 +16008,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/letyourmidpeace",
       "socials": [
         {
           "platform": "fb",
@@ -16844,8 +16021,6 @@
       "name_inferred": "寢室裡養鳥",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/keepingbirds",
       "socials": [
         {
           "platform": "fb",
@@ -16859,8 +16034,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/shihchan",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -16878,8 +16051,6 @@
       "name_inferred": "",
       "name_source": "bsky_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://bsky.app/profile/taboom002.bsky.social",
       "socials": [
         {
           "platform": "bsky",
@@ -16897,8 +16068,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/truemako21",
       "socials": [
         {
           "platform": "plurk",
@@ -16912,8 +16081,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/ss0912309713",
       "socials": [
         {
           "platform": "fb",
@@ -16927,8 +16094,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://anenin.weebly.com/2516325622212053005927231.html",
       "socials": [
         {
           "platform": "blog",
@@ -16942,8 +16107,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/blackrosetwc/",
       "socials": [
         {
           "platform": "fb",
@@ -16957,8 +16120,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/1507/goods",
       "socials": [
         {
           "platform": "plurk",
@@ -16980,8 +16141,6 @@
       "name_inferred": "",
       "name_source": "generic_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://wxf0202.blog.fc2.com/",
       "socials": []
     },
     {
@@ -16990,8 +16149,6 @@
       "name_inferred": "Streamer Fairy Art",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/Streamer_Fairy_Art",
       "socials": [
         {
           "platform": "aggregator",
@@ -17021,8 +16178,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/yenchun916",
       "socials": [
         {
           "platform": "plurk",
@@ -17036,8 +16191,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://instagram.com/shiroyu.store/",
       "socials": [
         {
           "platform": "ig",
@@ -17051,8 +16204,6 @@
       "name_inferred": "安安淡定",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://youtu.be/ZinwCw1XCiI",
       "socials": []
     },
     {
@@ -17061,8 +16212,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hahu_paint/",
       "socials": [
         {
           "platform": "ig",
@@ -17076,8 +16225,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/xuetong1205/",
       "socials": [
         {
           "platform": "ig",
@@ -17091,8 +16238,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/lostsilence",
       "socials": [
         {
           "platform": "plurk",
@@ -17106,8 +16251,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/IdolProduction74",
       "socials": [
         {
           "platform": "fb",
@@ -17121,8 +16264,6 @@
       "name_inferred": "青雨アメ",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/ame_aou",
       "socials": [
         {
           "platform": "aggregator",
@@ -17184,8 +16325,6 @@
       "name_inferred": "木回木 horohoro",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/horohoro",
       "socials": [
         {
           "platform": "aggregator",
@@ -17267,8 +16406,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1CEXsim9cC/",
       "socials": []
     },
     {
@@ -17277,8 +16414,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/flaming_starrr/",
       "socials": [
         {
           "platform": "ig",
@@ -17292,8 +16427,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61572454107536",
       "socials": [
         {
           "platform": "fb",
@@ -17307,8 +16440,6 @@
       "name_inferred": "錯落交織 Interweave",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://interweave.booth.pm/",
       "socials": [
         {
           "platform": "booth_pm",
@@ -17322,8 +16453,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/anonymous626_ig/",
       "socials": [
         {
           "platform": "ig",
@@ -17337,8 +16466,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/fiiishion/",
       "socials": [
         {
           "platform": "ig",
@@ -17352,8 +16479,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/mikan888/",
       "socials": [
         {
           "platform": "fb",
@@ -17367,8 +16492,6 @@
       "name_inferred": "遇見幸福手創館Met Happiness ",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/189QQVF5Pm/",
       "socials": []
     },
     {
@@ -17377,8 +16500,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/kun.salamander.3/",
       "socials": [
         {
           "platform": "fb",
@@ -17392,8 +16513,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/Irene309w/",
       "socials": [
         {
           "platform": "fb",
@@ -17407,8 +16526,6 @@
       "name_inferred": "",
       "name_source": "wix_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://bestbandreamers.wixsite.com/mygo",
       "socials": [
         {
           "platform": "wix",
@@ -17422,8 +16539,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hguuy123/",
       "socials": [
         {
           "platform": "ig",
@@ -17437,8 +16552,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/hirao_jun_/",
       "socials": [
         {
           "platform": "ig",
@@ -17452,8 +16565,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://epilog.blog49.fc2.com/",
       "socials": []
     },
     {
@@ -17462,8 +16573,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yuclovers",
       "socials": [
         {
           "platform": "fb",
@@ -17477,8 +16586,6 @@
       "name_inferred": "Tobey·又·",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://potofu.me/tobey",
       "socials": []
     },
     {
@@ -17487,8 +16594,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/kiri520/",
       "socials": [
         {
           "platform": "ig",
@@ -17502,8 +16607,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1CQbBy6mTJ/",
       "socials": []
     },
     {
@@ -17512,8 +16615,6 @@
       "name_inferred": "櫻羽艾瑪會側手翻3.0",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/615853064360/",
       "socials": [
         {
           "platform": "fb",
@@ -17527,8 +16628,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -17537,8 +16636,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/p/3gvbo8hc97",
       "socials": []
     },
     {
@@ -17547,8 +16644,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/winnie292720",
       "socials": [
         {
           "platform": "plurk",
@@ -17562,8 +16657,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1BwHfvUqMu/",
       "socials": []
     },
     {
@@ -17572,8 +16665,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1ADgk3caBw/",
       "socials": []
     },
     {
@@ -17582,8 +16673,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/choco6644",
       "socials": [
         {
           "platform": "plurk",
@@ -17597,8 +16686,6 @@
       "name_inferred": "灰色和諧",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://cxc.today/zh/@Gray_Harmony/work",
       "socials": []
     },
     {
@@ -17607,8 +16694,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/twponpon",
       "socials": [
         {
           "platform": "aggregator",
@@ -17634,8 +16719,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/botoakaza/",
       "socials": [
         {
           "platform": "ig",
@@ -17649,8 +16732,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
       "socials": []
     },
     {
@@ -17659,8 +16740,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -17669,8 +16748,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/aliali_c",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -17692,8 +16769,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/spton",
       "socials": [
         {
           "platform": "plurk",
@@ -17707,8 +16782,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ooinn_arts",
       "socials": [
         {
           "platform": "plurk",
@@ -17722,8 +16795,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@buuuuu8le",
       "socials": [
         {
           "platform": "threads",
@@ -17737,8 +16808,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/u/therealchien",
       "socials": []
     },
     {
@@ -17747,8 +16816,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61584209204739",
       "socials": [
         {
           "platform": "fb",
@@ -17762,8 +16829,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://lit.link/en/jadeverse",
       "socials": [
         {
           "platform": "aggregator",
@@ -17805,8 +16870,6 @@
       "name_inferred": "XZY in 冷凍庫",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/share/1JQ7Y3ei6c/",
       "socials": []
     },
     {
@@ -17815,8 +16878,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
       "socials": [
         {
           "platform": "pixiv",
@@ -17854,8 +16915,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/daybreak2779?",
       "socials": []
     },
     {
@@ -17864,8 +16923,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/sghg181",
       "socials": [
         {
           "platform": "plurk",
@@ -17879,8 +16936,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/theice",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -17898,8 +16953,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_zh_is_med",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/nyanggbbb",
       "socials": [
         {
           "platform": "plurk",
@@ -17913,8 +16966,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://reurl.cc/R9pnmz",
       "socials": []
     },
     {
@@ -17923,8 +16974,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61554262122181",
       "socials": [
         {
           "platform": "fb",
@@ -17938,8 +16987,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/lift.quarter",
       "socials": [
         {
           "platform": "fb",
@@ -17953,8 +17000,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/___.fu____/",
       "socials": [
         {
           "platform": "ig",
@@ -17968,8 +17013,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/teamss_2018_foxskin068/",
       "socials": [
         {
           "platform": "ig",
@@ -17983,8 +17026,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/wet_elephant/",
       "socials": [
         {
           "platform": "ig",
@@ -17998,8 +17039,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yetsubody",
       "socials": [
         {
           "platform": "fb",
@@ -18013,8 +17052,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/tt1219_/",
       "socials": [
         {
           "platform": "ig",
@@ -18028,8 +17065,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/_pansy.yard_/",
       "socials": [
         {
           "platform": "ig",
@@ -18043,8 +17078,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/sakuraharu",
       "socials": [
         {
           "platform": "plurk",
@@ -18058,8 +17091,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -18068,8 +17099,6 @@
       "name_inferred": "慢來moonlight",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/moonlight432Hz",
       "socials": [
         {
           "platform": "aggregator",
@@ -18119,8 +17148,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/x20285/books",
       "socials": [
         {
           "platform": "plurk",
@@ -18138,8 +17165,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/shu_pong203",
       "socials": [
         {
           "platform": "plurk",
@@ -18153,8 +17178,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/dimly_bobo",
       "socials": [
         {
           "platform": "plurk",
@@ -18168,8 +17191,6 @@
       "name_inferred": "",
       "name_source": "generic_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://diewhale.tokiame.net",
       "socials": []
     },
     {
@@ -18178,8 +17199,6 @@
       "name_inferred": "",
       "name_source": "fb_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/yuusa200502/",
       "socials": [
         {
           "platform": "fb",
@@ -18193,8 +17212,6 @@
       "name_inferred": "落英之都",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "#",
       "socials": []
     },
     {
@@ -18203,8 +17220,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/irina_reichi",
       "socials": [
         {
           "platform": "x",
@@ -18218,8 +17233,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/lai.liang.yan.2025/",
       "socials": [
         {
           "platform": "fb",
@@ -18233,8 +17246,6 @@
       "name_inferred": "",
       "name_source": "aggregator_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/Synka",
       "socials": [
         {
           "platform": "aggregator",
@@ -18252,8 +17263,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/deangelo_1024/",
       "socials": [
         {
           "platform": "ig",
@@ -18267,8 +17276,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/x321k123",
       "socials": [
         {
           "platform": "x",
@@ -18282,8 +17289,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/j3180554",
       "socials": [
         {
           "platform": "plurk",
@@ -18297,8 +17302,6 @@
       "name_inferred": "",
       "name_source": "aggregator_bio_en_call",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://linktr.ee/taiwanlilyproject",
       "socials": [
         {
           "platform": "aggregator",
@@ -18336,8 +17339,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@creauset_x13a",
       "socials": [
         {
           "platform": "threads",
@@ -18351,8 +17352,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/blacktuna/",
       "socials": [
         {
           "platform": "fb",
@@ -18366,8 +17365,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/karo3618",
       "socials": [
         {
           "platform": "plurk",
@@ -18381,8 +17378,6 @@
       "name_inferred": "",
       "name_source": "aggregator_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://portaly.cc/kyouwork",
       "socials": [
         {
           "platform": "aggregator",
@@ -18420,8 +17415,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
       "socials": [
         {
           "platform": "plurk",
@@ -18435,8 +17428,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/birdink.koriyangart/",
       "socials": [
         {
           "platform": "ig",
@@ -18450,8 +17441,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -18460,8 +17449,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/brainholesky/",
       "socials": [
         {
           "platform": "ig",
@@ -18475,8 +17462,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/sian.liu.756/",
       "socials": [
         {
           "platform": "fb",
@@ -18490,8 +17475,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -18500,8 +17483,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/conk4",
       "socials": [
         {
           "platform": "plurk",
@@ -18515,8 +17496,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/allen210146",
       "socials": [
         {
           "platform": "plurk",
@@ -18530,8 +17509,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/2be_2drink/",
       "socials": [
         {
           "platform": "ig",
@@ -18545,8 +17522,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/WhiteStyle1015",
       "socials": [
         {
           "platform": "plurk",
@@ -18560,8 +17535,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.youtube.com/@nukomimiP",
       "socials": [
         {
           "platform": "youtube",
@@ -18575,8 +17548,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@mochian0819",
       "socials": [
         {
           "platform": "threads",
@@ -18590,8 +17561,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/udalin0803/",
       "socials": [
         {
           "platform": "ig",
@@ -18605,8 +17574,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
       "socials": [
         {
           "platform": "plurk",
@@ -18620,8 +17587,6 @@
       "name_inferred": "",
       "name_source": "wix_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://bwa9090.wixsite.com/nookpartner",
       "socials": [
         {
           "platform": "wix",
@@ -18635,8 +17600,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/oruka_oru",
       "socials": [
         {
           "platform": "x",
@@ -18650,8 +17613,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
       "socials": [
         {
           "platform": "x",
@@ -18677,8 +17638,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://slow.work/",
       "socials": [
         {
           "platform": "generic",
@@ -18692,8 +17651,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ryouarashi",
       "socials": [
         {
           "platform": "plurk",
@@ -18707,8 +17664,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100057130852699",
       "socials": [
         {
           "platform": "fb",
@@ -18722,8 +17677,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_zh_is_med",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/folia0702",
       "socials": [
         {
           "platform": "plurk",
@@ -18737,8 +17690,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=61555969822241",
       "socials": [
         {
           "platform": "fb",
@@ -18752,8 +17703,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/ding8059",
       "socials": [
         {
           "platform": "plurk",
@@ -18767,8 +17716,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/gogo_wolf",
       "socials": [
         {
           "platform": "x",
@@ -18782,8 +17729,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -18792,8 +17737,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
       "socials": []
     },
     {
@@ -18802,8 +17745,6 @@
       "name_inferred": "",
       "name_source": "fb_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/coolcoolburger",
       "socials": [
         {
           "platform": "fb",
@@ -18817,8 +17758,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/coccyxdog/",
       "socials": [
         {
           "platform": "ig",
@@ -18832,8 +17771,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/Luer_reul",
       "socials": [
         {
           "platform": "x",
@@ -18847,8 +17784,6 @@
       "name_inferred": "",
       "name_source": "ig_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.instagram.com/ali._.su_/",
       "socials": [
         {
           "platform": "ig",
@@ -18862,8 +17797,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/mcj131825526",
       "socials": [
         {
           "platform": "x",
@@ -18877,8 +17810,6 @@
       "name_inferred": "",
       "name_source": "plurk_review_zh_is_med",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/yoken1021",
       "socials": [
         {
           "platform": "plurk",
@@ -18892,8 +17823,6 @@
       "name_inferred": "",
       "name_source": "threads_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.threads.com/@_rskniwn_",
       "socials": [
         {
           "platform": "threads",
@@ -18907,8 +17836,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://myship.7-11.com.tw/general/detail/GM2106126257486",
       "socials": []
     },
     {
@@ -18917,8 +17844,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/plusultra2026",
       "socials": [
         {
           "platform": "plurk",
@@ -18932,8 +17857,6 @@
       "name_inferred": "彩虹盤子",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/CShiroha?",
       "socials": []
     },
     {
@@ -18942,8 +17865,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/yomowork_mov",
       "socials": [
         {
           "platform": "x",
@@ -18957,8 +17878,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/koma262",
       "socials": [
         {
           "platform": "x",
@@ -18972,8 +17891,6 @@
       "name_inferred": "",
       "name_source": "generic_review_title_strip",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://solo.to/travis_minuet",
       "socials": []
     },
     {
@@ -18982,8 +17899,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/rbs2009",
       "socials": [
         {
           "platform": "plurk",
@@ -18997,8 +17912,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/niwawulei",
       "socials": [
         {
           "platform": "x",
@@ -19012,8 +17925,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/linda6030221",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -19035,8 +17946,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/jenniecongee",
       "socials": [
         {
           "platform": "x",
@@ -19050,8 +17959,6 @@
       "name_inferred": "",
       "name_source": "wix_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://kuailedongwuyuan.wixsite.com/my-site-1",
       "socials": [
         {
           "platform": "wix",
@@ -19065,8 +17972,6 @@
       "name_inferred": "",
       "name_source": "fb_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/18Dayslikethis",
       "socials": [
         {
           "platform": "fb",
@@ -19080,8 +17985,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://x.com/ak_lina0",
       "socials": [
         {
           "platform": "x",
@@ -19095,8 +17998,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "",
       "socials": []
     },
     {
@@ -19105,8 +18006,6 @@
       "name_inferred": "",
       "name_source": "plurk_review",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/hijin_handmand",
       "socials": [
         {
           "platform": "plurk",
@@ -19120,8 +18019,6 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/xiangyinwork/",
       "socials": [
         {
           "platform": "fb",
@@ -19135,8 +18032,6 @@
       "name_inferred": "",
       "name_source": "doujin_tw_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.doujin.com.tw/authors/info/dn269annie",
       "socials": [
         {
           "platform": "doujin_tw",
@@ -19162,8 +18057,6 @@
       "name_inferred": "",
       "name_source": "plurk_profile",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/abcs628945",
       "socials": [
         {
           "platform": "plurk",
@@ -19177,8 +18070,6 @@
       "name_inferred": "",
       "name_source": "plurk_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.plurk.com/gungunyima",
       "socials": [
         {
           "platform": "plurk",
@@ -19192,8 +18083,6 @@
       "name_inferred": "",
       "name_source": "fb_bio_zh_call_high",
       "aliases": [],
-      "x_handle": "",
-      "x_url": "https://www.facebook.com/profile.php?id=100080676961776",
       "socials": [
         {
           "platform": "fb",
@@ -19207,9 +18096,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "A_n_Tu_len",
-      "x_url": "https://x.com/A_n_Tu_len",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/A_n_Tu_len"
+        }
+      ]
     },
     {
       "id": "abzome",
@@ -19217,9 +18109,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "ABzome",
-      "x_url": "https://x.com/ABzome",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ABzome"
+        }
+      ]
     },
     {
       "id": "amane61115",
@@ -19227,9 +18122,12 @@
       "name_inferred": "白河夜船",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "amane61115",
-      "x_url": "https://x.com/amane61115",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/amane61115"
+        }
+      ]
     },
     {
       "id": "amtkmituki",
@@ -19237,9 +18135,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "amtkmituki",
-      "x_url": "https://x.com/amtkmituki",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/amtkmituki"
+        }
+      ]
     },
     {
       "id": "ani77561234",
@@ -19247,9 +18148,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "ani77561234",
-      "x_url": "https://x.com/ani77561234",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ani77561234"
+        }
+      ]
     },
     {
       "id": "anmitiyon",
@@ -19257,9 +18161,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "anmitiyon",
-      "x_url": "https://x.com/anmitiyon",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/anmitiyon"
+        }
+      ]
     },
     {
       "id": "aoimanabu",
@@ -19267,9 +18174,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "aoimanabu",
-      "x_url": "https://x.com/aoimanabu",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/aoimanabu"
+        }
+      ]
     },
     {
       "id": "arnciel",
@@ -19277,9 +18187,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "arnciel",
-      "x_url": "https://x.com/arnciel",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/arnciel"
+        }
+      ]
     },
     {
       "id": "arupaka5tuki",
@@ -19287,9 +18200,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "arupaka5tuki",
-      "x_url": "https://x.com/arupaka5tuki",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/arupaka5tuki"
+        }
+      ]
     },
     {
       "id": "ato252058",
@@ -19297,9 +18213,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "ato252058",
-      "x_url": "https://x.com/ato252058",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ato252058"
+        }
+      ]
     },
     {
       "id": "atu_110_011",
@@ -19307,9 +18226,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Atu_110_011",
-      "x_url": "https://x.com/Atu_110_011",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Atu_110_011"
+        }
+      ]
     },
     {
       "id": "c_77sotome",
@@ -19317,9 +18239,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "C_77sotome",
-      "x_url": "https://x.com/C_77sotome",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/C_77sotome"
+        }
+      ]
     },
     {
       "id": "chasiburicorico",
@@ -19327,9 +18252,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "chasiburicorico",
-      "x_url": "https://x.com/chasiburicorico",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/chasiburicorico"
+        }
+      ]
     },
     {
       "id": "chihlun42",
@@ -19337,9 +18265,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "Chihlun42",
-      "x_url": "https://x.com/Chihlun42",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Chihlun42"
+        }
+      ]
     },
     {
       "id": "crazycat_47",
@@ -19347,9 +18278,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "Crazycat_47",
-      "x_url": "https://x.com/Crazycat_47",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Crazycat_47"
+        }
+      ]
     },
     {
       "id": "d_tk2",
@@ -19357,9 +18291,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "d_tk2",
-      "x_url": "https://x.com/d_tk2",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/d_tk2"
+        }
+      ]
     },
     {
       "id": "eijunesound",
@@ -19367,9 +18304,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "EijuneSound",
-      "x_url": "https://x.com/EijuneSound",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/EijuneSound"
+        }
+      ]
     },
     {
       "id": "eineena_mikan",
@@ -19377,9 +18317,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "EiNeEna_mikan",
-      "x_url": "https://x.com/EiNeEna_mikan",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/EiNeEna_mikan"
+        }
+      ]
     },
     {
       "id": "eiyuuu7777",
@@ -19387,9 +18330,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Eiyuuu7777",
-      "x_url": "https://x.com/Eiyuuu7777",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Eiyuuu7777"
+        }
+      ]
     },
     {
       "id": "fluffy_palette",
@@ -19397,9 +18343,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "fluffy_palette",
-      "x_url": "https://x.com/fluffy_palette",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/fluffy_palette"
+        }
+      ]
     },
     {
       "id": "gray170220",
@@ -19407,9 +18356,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "gray170220",
-      "x_url": "https://x.com/gray170220",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/gray170220"
+        }
+      ]
     },
     {
       "id": "gunp_m",
@@ -19417,9 +18369,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "gunp_m",
-      "x_url": "https://x.com/gunp_m",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/gunp_m"
+        }
+      ]
     },
     {
       "id": "hanaya_102",
@@ -19427,9 +18382,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "hanaya_102",
-      "x_url": "https://x.com/hanaya_102",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/hanaya_102"
+        }
+      ]
     },
     {
       "id": "haneko0417",
@@ -19437,8 +18395,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "haneko0417",
-      "x_url": "https://www.plurk.com/haneko0216",
       "socials": [
         {
           "platform": "plurk",
@@ -19452,9 +18408,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "haruhannohane",
-      "x_url": "https://x.com/haruhannohane",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/haruhannohane"
+        }
+      ]
     },
     {
       "id": "hihumi_akaba",
@@ -19462,9 +18421,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "hihumi_akaba",
-      "x_url": "https://x.com/hihumi_akaba",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/hihumi_akaba"
+        }
+      ]
     },
     {
       "id": "hikari863126",
@@ -19472,9 +18434,12 @@
       "name_inferred": "有這樣的喜樂蒂你幾點回家？",
       "name_source": "circle_name",
       "aliases": [],
-      "x_handle": "hikari863126 ",
-      "x_url": "https://x.com/hikari863126 ",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/hikari863126"
+        }
+      ]
     },
     {
       "id": "hinagikubooks",
@@ -19482,9 +18447,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "HinagikuBooks",
-      "x_url": "https://x.com/HinagikuBooks",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/HinagikuBooks"
+        }
+      ]
     },
     {
       "id": "huskychuk",
@@ -19492,9 +18460,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Huskychuk",
-      "x_url": "https://x.com/Huskychuk",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Huskychuk"
+        }
+      ]
     },
     {
       "id": "imudegozaimasu",
@@ -19502,9 +18473,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "imudegozaimasu",
-      "x_url": "https://x.com/imudegozaimasu",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/imudegozaimasu"
+        }
+      ]
     },
     {
       "id": "kaguramix",
@@ -19512,9 +18486,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kaguramix",
-      "x_url": "https://x.com/kaguramix",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kaguramix"
+        }
+      ]
     },
     {
       "id": "kaiman_00",
@@ -19522,9 +18499,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kaiman_00",
-      "x_url": "https://x.com/kaiman_00",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kaiman_00"
+        }
+      ]
     },
     {
       "id": "kauderni01356",
@@ -19532,9 +18512,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kauderni01356",
-      "x_url": "https://x.com/kauderni01356",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kauderni01356"
+        }
+      ]
     },
     {
       "id": "kei_megumi_",
@@ -19542,9 +18525,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "Kei_Megumi_",
-      "x_url": "https://x.com/Kei_Megumi_",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Kei_Megumi_"
+        }
+      ]
     },
     {
       "id": "kimijunn",
@@ -19552,9 +18538,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "kimiJUNN",
-      "x_url": "https://x.com/kimiJUNN",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kimiJUNN"
+        }
+      ]
     },
     {
       "id": "kimikuon",
@@ -19562,9 +18551,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kimikuon",
-      "x_url": "https://x.com/kimikuon",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kimikuon"
+        }
+      ]
     },
     {
       "id": "kitanaitanuki",
@@ -19572,9 +18564,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kitanaitanuki",
-      "x_url": "https://x.com/kitanaitanuki",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kitanaitanuki"
+        }
+      ]
     },
     {
       "id": "kmt9993",
@@ -19582,9 +18577,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kmt9993",
-      "x_url": "https://x.com/kmt9993",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kmt9993"
+        }
+      ]
     },
     {
       "id": "kokokoro__",
@@ -19592,9 +18590,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "Kokokoro__",
-      "x_url": "https://x.com/Kokokoro__",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Kokokoro__"
+        }
+      ]
     },
     {
       "id": "komerice_lo",
@@ -19602,9 +18603,11 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "komerice_lo",
-      "x_url": "https://x.com/komerice_lo",
       "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/komerice_lo"
+        },
         {
           "platform": "threads",
           "url": "https://www.threads.com/@chi._.5417"
@@ -19617,9 +18620,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "kourui_07",
-      "x_url": "https://x.com/kourui_07",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kourui_07"
+        }
+      ]
     },
     {
       "id": "kuroajrtineico",
@@ -19627,9 +18633,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "KuroAjrtineico",
-      "x_url": "https://x.com/KuroAjrtineico",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/KuroAjrtineico"
+        }
+      ]
     },
     {
       "id": "kyou_watanuki",
@@ -19637,9 +18646,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "kyou_watanuki",
-      "x_url": "https://x.com/kyou_watanuki",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/kyou_watanuki"
+        }
+      ]
     },
     {
       "id": "laylay_152",
@@ -19647,9 +18659,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "laylay_152",
-      "x_url": "https://x.com/laylay_152",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/laylay_152"
+        }
+      ]
     },
     {
       "id": "liugozekino",
@@ -19657,9 +18672,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "Liugozekino",
-      "x_url": "https://x.com/Liugozekino",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Liugozekino"
+        }
+      ]
     },
     {
       "id": "manmaderain",
@@ -19667,9 +18685,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "ManMadeRain",
-      "x_url": "https://x.com/ManMadeRain",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ManMadeRain"
+        }
+      ]
     },
     {
       "id": "masaki_sakura",
@@ -19677,9 +18698,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "masaki_sakura",
-      "x_url": "https://x.com/masaki_sakura",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/masaki_sakura"
+        }
+      ]
     },
     {
       "id": "meiliismywife",
@@ -19687,9 +18711,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "meiliismywife",
-      "x_url": "https://x.com/meiliismywife",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/meiliismywife"
+        }
+      ]
     },
     {
       "id": "mekimekix",
@@ -19697,9 +18724,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "mekimekix",
-      "x_url": "https://x.com/mekimekix",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/mekimekix"
+        }
+      ]
     },
     {
       "id": "melon2943",
@@ -19707,9 +18737,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "melon2943",
-      "x_url": "https://x.com/melon2943",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/melon2943"
+        }
+      ]
     },
     {
       "id": "mitsukiriko",
@@ -19717,9 +18750,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "mitsukiriko",
-      "x_url": "https://x.com/mitsukiriko",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/mitsukiriko"
+        }
+      ]
     },
     {
       "id": "mizonozomizo",
@@ -19727,9 +18763,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "mizonozomizo",
-      "x_url": "https://x.com/mizonozomizo",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/mizonozomizo"
+        }
+      ]
     },
     {
       "id": "nanashiwan",
@@ -19737,9 +18776,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "nanashiwan",
-      "x_url": "https://x.com/nanashiwan",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/nanashiwan"
+        }
+      ]
     },
     {
       "id": "nb164",
@@ -19747,9 +18789,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "nb164",
-      "x_url": "https://x.com/nb164",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/nb164"
+        }
+      ]
     },
     {
       "id": "noah_ark38",
@@ -19757,9 +18802,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "noah_ark38",
-      "x_url": "https://x.com/noah_ark38",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/noah_ark38"
+        }
+      ]
     },
     {
       "id": "noroshino8",
@@ -19767,9 +18815,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Noroshino8",
-      "x_url": "https://x.com/Noroshino8",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Noroshino8"
+        }
+      ]
     },
     {
       "id": "nyanruikai",
@@ -19777,9 +18828,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "nyanruikai",
-      "x_url": "https://x.com/nyanruikai",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/nyanruikai"
+        }
+      ]
     },
     {
       "id": "oginoyori",
@@ -19787,8 +18841,6 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "oginoyori",
-      "x_url": "https://oginoyori.wixsite.com/oginoyori",
       "socials": [
         {
           "platform": "wix",
@@ -19806,9 +18858,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "ohmiyamiyamiya",
-      "x_url": "https://x.com/ohmiyamiyamiya",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ohmiyamiyamiya"
+        }
+      ]
     },
     {
       "id": "oka_3d_01",
@@ -19816,9 +18871,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "oka_3d_01",
-      "x_url": "https://x.com/oka_3d_01",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/oka_3d_01"
+        }
+      ]
     },
     {
       "id": "omochidry",
@@ -19826,9 +18884,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "omochidry",
-      "x_url": "https://x.com/omochidry",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/omochidry"
+        }
+      ]
     },
     {
       "id": "osatou_kinosu",
@@ -19836,9 +18897,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "osatou_kinosu",
-      "x_url": "https://x.com/osatou_kinosu",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/osatou_kinosu"
+        }
+      ]
     },
     {
       "id": "papercraorigami",
@@ -19846,9 +18910,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "papercraorigami",
-      "x_url": "https://x.com/papercraorigami",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/papercraorigami"
+        }
+      ]
     },
     {
       "id": "pesirxy",
@@ -19856,9 +18923,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "pesirxy",
-      "x_url": "https://x.com/pesirxy",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/pesirxy"
+        }
+      ]
     },
     {
       "id": "pianorock_y",
@@ -19866,9 +18936,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "pianorock_y",
-      "x_url": "https://x.com/pianorock_y",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/pianorock_y"
+        }
+      ]
     },
     {
       "id": "pomeka35",
@@ -19876,9 +18949,11 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "pomeka35",
-      "x_url": "https://x.com/pomeka35",
       "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/pomeka35"
+        },
         {
           "platform": "x",
           "url": "https://x.com/vivi890812"
@@ -19891,9 +18966,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Qutouten_",
-      "x_url": "https://x.com/Qutouten_",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Qutouten_"
+        }
+      ]
     },
     {
       "id": "rbaba_cain2",
@@ -19901,9 +18979,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "rbaba_cain2",
-      "x_url": "https://x.com/rbaba_cain2",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/rbaba_cain2"
+        }
+      ]
     },
     {
       "id": "rissole715",
@@ -19911,9 +18992,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "rissole715",
-      "x_url": "https://x.com/rissole715",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/rissole715"
+        }
+      ]
     },
     {
       "id": "rito_yu6039",
@@ -19921,9 +19005,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "rito_yu6039",
-      "x_url": "https://x.com/rito_yu6039",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/rito_yu6039"
+        }
+      ]
     },
     {
       "id": "ruwhdlqqti433",
@@ -19931,9 +19018,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "rUwhdLQqtI433",
-      "x_url": "https://x.com/rUwhdLQqtI433",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/rUwhdLQqtI433"
+        }
+      ]
     },
     {
       "id": "sango3_3",
@@ -19941,9 +19031,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "sango3_3",
-      "x_url": "https://x.com/sango3_3",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/sango3_3"
+        }
+      ]
     },
     {
       "id": "senbako1",
@@ -19951,9 +19044,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "SENBAKO1",
-      "x_url": "https://x.com/SENBAKO1",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/SENBAKO1"
+        }
+      ]
     },
     {
       "id": "shopon1201",
@@ -19961,9 +19057,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "shopon1201",
-      "x_url": "https://x.com/shopon1201",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/shopon1201"
+        }
+      ]
     },
     {
       "id": "sinyatako1",
@@ -19971,9 +19070,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "sinyatako1",
-      "x_url": "https://x.com/sinyatako1",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/sinyatako1"
+        }
+      ]
     },
     {
       "id": "soyas_",
@@ -19981,9 +19083,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "soyas_",
-      "x_url": "https://x.com/soyas_",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/soyas_"
+        }
+      ]
     },
     {
       "id": "star_kzer",
@@ -19991,9 +19096,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "star_Kzer",
-      "x_url": "https://x.com/star_Kzer",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/star_Kzer"
+        }
+      ]
     },
     {
       "id": "syouri_nizi0305",
@@ -20001,9 +19109,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "syouri_nizi0305",
-      "x_url": "https://x.com/syouri_nizi0305",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/syouri_nizi0305"
+        }
+      ]
     },
     {
       "id": "takoyaki_110721",
@@ -20011,9 +19122,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "takoyaki_110721",
-      "x_url": "https://x.com/takoyaki_110721",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/takoyaki_110721"
+        }
+      ]
     },
     {
       "id": "teruru_sakura",
@@ -20021,9 +19135,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "TERURU_sakura",
-      "x_url": "https://x.com/TERURU_sakura",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/TERURU_sakura"
+        }
+      ]
     },
     {
       "id": "testesmyland",
@@ -20031,9 +19148,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "testesmyland",
-      "x_url": "https://x.com/testesmyland",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/testesmyland"
+        }
+      ]
     },
     {
       "id": "tsugu_tarou",
@@ -20041,9 +19161,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "tsugu_tarou",
-      "x_url": "https://x.com/tsugu_tarou",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/tsugu_tarou"
+        }
+      ]
     },
     {
       "id": "tukise_after",
@@ -20051,9 +19174,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "tukise_after",
-      "x_url": "https://x.com/tukise_after",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/tukise_after"
+        }
+      ]
     },
     {
       "id": "tutanai_ap05",
@@ -20061,9 +19187,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "Tutanai_ap05",
-      "x_url": "https://x.com/Tutanai_ap05",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Tutanai_ap05"
+        }
+      ]
     },
     {
       "id": "ujat_47",
@@ -20071,9 +19200,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "ujat_47",
-      "x_url": "https://x.com/ujat_47",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ujat_47"
+        }
+      ]
     },
     {
       "id": "umaauraa5",
@@ -20081,9 +19213,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "umaauraa5",
-      "x_url": "https://x.com/umaauraa5",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/umaauraa5"
+        }
+      ]
     },
     {
       "id": "umenoichiru",
@@ -20091,9 +19226,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "umenoichiru",
-      "x_url": "https://x.com/umenoichiru",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/umenoichiru"
+        }
+      ]
     },
     {
       "id": "unido_fu",
@@ -20101,9 +19239,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "unido_fu",
-      "x_url": "https://x.com/unido_fu",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/unido_fu"
+        }
+      ]
     },
     {
       "id": "vinegar_terrier",
@@ -20111,9 +19252,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "vinegar_terrier",
-      "x_url": "https://x.com/vinegar_terrier",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/vinegar_terrier"
+        }
+      ]
     },
     {
       "id": "xuz_op",
@@ -20121,9 +19265,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "xuz_op",
-      "x_url": "https://x.com/xuz_op",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/xuz_op"
+        }
+      ]
     },
     {
       "id": "xx_sow",
@@ -20131,9 +19278,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "xx_sow",
-      "x_url": "https://x.com/xx_sow",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/xx_sow"
+        }
+      ]
     },
     {
       "id": "yoyoray20001996",
@@ -20141,9 +19291,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "yoyoray20001996",
-      "x_url": "https://x.com/yoyoray20001996",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/yoyoray20001996"
+        }
+      ]
     },
     {
       "id": "yukkurishimiya",
@@ -20151,9 +19304,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "YukkuriShimiya",
-      "x_url": "https://x.com/YukkuriShimiya",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/YukkuriShimiya"
+        }
+      ]
     },
     {
       "id": "yurikissaten",
@@ -20161,9 +19317,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "yurikissaten",
-      "x_url": "https://x.com/yurikissaten",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/yurikissaten"
+        }
+      ]
     },
     {
       "id": "yuto_higuchi_",
@@ -20171,9 +19330,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "YUTO_HIGUCHI_",
-      "x_url": "https://x.com/YUTO_HIGUCHI_",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/YUTO_HIGUCHI_"
+        }
+      ]
     },
     {
       "id": "yuyuyang0402",
@@ -20181,9 +19343,12 @@
       "name_inferred": "",
       "name_source": "x_profile",
       "aliases": [],
-      "x_handle": "yuyuyang0402",
-      "x_url": "https://x.com/yuyuyang0402",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/yuyuyang0402"
+        }
+      ]
     },
     {
       "id": "zuka_misuzu",
@@ -20191,9 +19356,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "zuka_misuzu",
-      "x_url": "https://x.com/zuka_misuzu",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/zuka_misuzu"
+        }
+      ]
     },
     {
       "id": "zuzuzu_222",
@@ -20201,9 +19369,12 @@
       "name_inferred": "",
       "name_source": "user",
       "aliases": [],
-      "x_handle": "zuzuzu_222",
-      "x_url": "https://x.com/zuzuzu_222",
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/zuzuzu_222"
+        }
+      ]
     }
   ],
   "books": [
