@@ -1437,9 +1437,17 @@ section {
   font-style: italic;
 }
 
-/* Per-platform tint for the chip background (subtle, accessible contrast). */
-#modal-body .modal-meta a.social-chip-x { background: #e9ecef; }
+/* Per-platform tint — mirrors circles/circles.css so event modal and
+   circle list both look the same. SVG icons inherit color via
+   currentColor so the brand color flows into the icon. */
+#modal-body .modal-meta a.social-chip-x { background: #e9ecef; color: #000; }
 #modal-body .modal-meta a.social-chip-pixiv { background: #e6f0ff; color: #0096fa; }
+#modal-body .modal-meta a.social-chip-doujin_tw { background: #fef9e6; color: #b07700; }
+#modal-body .modal-meta a.social-chip-booth_pm { background: #ffeae0; color: #c45200; }
+#modal-body .modal-meta a.social-chip-gamer { background: #e8f5e9; color: #2e7d32; }
+#modal-body .modal-meta a.social-chip-youtube { background: #fdeaea; color: #ff0000; }
+#modal-body .modal-meta a.social-chip-marshmallow { background: #fef0f4; color: #ff6699; }
+#modal-body .modal-meta a.social-chip-patreon { background: #fff2ec; color: #ff424d; }
 
 /* Anthology / 合本 section (B-big-2 schema, 2026-06-02) — shows books
    published by the booth's circle with contributor breakdowns. Subtle
@@ -1532,6 +1540,7 @@ section {
 #modal-body .modal-meta a.social-chip-aggregator { background: #f0f9e8; color: #2e7d32; }
 #modal-body .modal-meta a.social-chip-wix,
 #modal-body .modal-meta a.social-chip-blog { background: #f5e9ff; color: #6a1b9a; }
+#modal-body .modal-meta a.social-chip-x:hover,
 #modal-body .modal-meta a.social-chip-pixiv:hover,
 #modal-body .modal-meta a.social-chip-bsky:hover,
 #modal-body .modal-meta a.social-chip-fb:hover,
@@ -1540,7 +1549,13 @@ section {
 #modal-body .modal-meta a.social-chip-plurk:hover,
 #modal-body .modal-meta a.social-chip-aggregator:hover,
 #modal-body .modal-meta a.social-chip-wix:hover,
-#modal-body .modal-meta a.social-chip-blog:hover { color: #fff; }
+#modal-body .modal-meta a.social-chip-blog:hover,
+#modal-body .modal-meta a.social-chip-doujin_tw:hover,
+#modal-body .modal-meta a.social-chip-booth_pm:hover,
+#modal-body .modal-meta a.social-chip-gamer:hover,
+#modal-body .modal-meta a.social-chip-youtube:hover,
+#modal-body .modal-meta a.social-chip-marshmallow:hover,
+#modal-body .modal-meta a.social-chip-patreon:hover { color: #fff; }
 
 .modal-fav {
   background: #fffaf0;

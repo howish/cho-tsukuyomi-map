@@ -149,6 +149,9 @@
 .chip-booth_pm { background: #ffeae0; color: #c45200; }
 .chip-wix, .chip-blog { background: #f5e9ff; color: #6a1b9a; }
 .chip-gamer { background: #e8f5e9; color: #2e7d32; }
+.chip-youtube { background: #fdeaea; color: #ff0000; }
+.chip-marshmallow { background: #fef0f4; color: #ff6699; }
+.chip-patreon { background: #fff2ec; color: #ff424d; }
 
 .circle-events {
   display: flex;
