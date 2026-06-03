@@ -10253,15 +10253,11 @@
     },
     {
       "id": "a_00e946001035",
-      "name": "",
+      "name": "麻玖叮",
       "name_inferred": "麻玖叮",
-      "name_source": "circle_name",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
-        {
-          "platform": "ig",
-          "url": "https://www.instagram.com/maruoo0121/"
-        },
         {
           "platform": "ig",
           "url": "https://www.instagram.com/majo_ding/"
@@ -11199,9 +11195,9 @@
     },
     {
       "id": "a_20c3351d11d2",
-      "name": "",
+      "name": "白範工作室",
       "name_inferred": "白範工作室",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
@@ -11946,9 +11942,9 @@
     },
     {
       "id": "a_3784914e7419",
-      "name": "",
+      "name": "Lake",
       "name_inferred": "墨丘利",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
       "socials": [
         {
@@ -12163,7 +12159,7 @@
       "id": "a_3ebdffd05bb9",
       "name": "雪緞",
       "name_inferred": "花開。花烙",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
       "socials": [
         {
@@ -12754,9 +12750,9 @@
     },
     {
       "id": "a_4e8c2abfd22b",
-      "name": "",
+      "name": "墨貓空氣幻境",
       "name_inferred": "墨貓空氣幻境",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -12910,9 +12906,9 @@
     },
     {
       "id": "a_53a4b49cc315",
-      "name": "",
+      "name": "燈無殖物園",
       "name_inferred": "燈無殖物園",
-      "name_source": "circle_name",
+      "name_source": "aggregator_profile",
       "aliases": [],
       "socials": [
         {
@@ -13307,9 +13303,9 @@
     },
     {
       "id": "a_5de969487300",
-      "name": "",
+      "name": "超級同人大戰 SDW",
       "name_inferred": "超級同人大戰 SDW",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
@@ -13592,11 +13588,26 @@
     },
     {
       "id": "a_670a5a4eb558",
-      "name": "",
+      "name": "Zhou Pinky",
       "name_inferred": "男同女同天理不容",
-      "name_source": "circle_name",
-      "aliases": [],
-      "socials": []
+      "name_source": "user",
+      "aliases": [
+        "鮭魚"
+      ],
+      "socials": [
+        {
+          "platform": "fb",
+          "url": "https://www.facebook.com/zhou.pinky.2025/"
+        },
+        {
+          "platform": "ig",
+          "url": "https://www.instagram.com/salmon_997822"
+        },
+        {
+          "platform": "aggregator",
+          "url": "https://lit.link/zh-tw/salmon997822"
+        }
+      ]
     },
     {
       "id": "a_6749066f8b9e",
@@ -13842,15 +13853,11 @@
     },
     {
       "id": "a_7200258c2f61",
-      "name": "",
+      "name": "包伯",
       "name_inferred": "包伯尼幼兒園",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
-        {
-          "platform": "fb",
-          "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"
-        },
         {
           "platform": "threads",
           "url": "https://www.threads.com/@bobny0504"
@@ -14080,9 +14087,9 @@
     },
     {
       "id": "a_7839dffee91f",
-      "name": "",
+      "name": "戰Yu",
       "name_inferred": "反青復明三角勇者",
-      "name_source": "circle_name",
+      "name_source": "pixiv_profile",
       "aliases": [],
       "socials": [
         {
@@ -14907,9 +14914,9 @@
     },
     {
       "id": "a_940fd784703d",
-      "name": "",
+      "name": "房間工作室",
       "name_inferred": "房間工作室",
-      "name_source": "circle_name",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
@@ -14919,6 +14926,10 @@
         {
           "platform": "pinkoi",
           "url": "https://www.pinkoi.com/store/inner-room"
+        },
+        {
+          "platform": "fb",
+          "url": "https://www.facebook.com/theroomspace/"
         }
       ]
     },
@@ -16583,14 +16594,33 @@
     },
     {
       "id": "a_c4e83188516b",
-      "name": "",
+      "name": "夜夢",
       "name_inferred": "錯落交織 Interweave",
-      "name_source": "circle_name",
-      "aliases": [],
+      "name_source": "user",
+      "aliases": [
+        "ND",
+        "NightDream"
+      ],
       "socials": [
         {
           "platform": "booth_pm",
           "url": "https://interweave.booth.pm/"
+        },
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/3044491"
+        },
+        {
+          "platform": "fb",
+          "url": "https://www.facebook.com/FantasyInterweave/"
+        },
+        {
+          "platform": "x",
+          "url": "https://x.com/NightDream11"
+        },
+        {
+          "platform": "plurk",
+          "url": "https://www.plurk.com/NightDream"
         }
       ]
     },
@@ -16635,9 +16665,9 @@
     },
     {
       "id": "a_c6ecb0eea035",
-      "name": "",
+      "name": "遇見幸福手創館Met Happiness",
       "name_inferred": "遇見幸福手創館Met Happiness ",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
@@ -16740,11 +16770,16 @@
     },
     {
       "id": "a_ca65290c2e9f",
-      "name": "",
+      "name": "Tobey·又·",
       "name_inferred": "Tobey·又·",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
-      "socials": []
+      "socials": [
+        {
+          "platform": "fb",
+          "url": "https://www.facebook.com/tobey7777/"
+        }
+      ]
     },
     {
       "id": "a_ca8e902b5cff",
@@ -17024,14 +17059,18 @@
     },
     {
       "id": "a_d529b9b0c0cf",
-      "name": "",
+      "name": "XZY",
       "name_inferred": "XZY in 冷凍庫",
-      "name_source": "circle_name",
+      "name_source": "aggregator_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/xzy97451099/"
+        },
+        {
+          "platform": "aggregator",
+          "url": "https://lit.link/zh-tw/xzy97451099"
         }
       ]
     },
@@ -17258,9 +17297,9 @@
     },
     {
       "id": "a_ddfbb48e1871",
-      "name": "",
+      "name": "慢來moonlight",
       "name_inferred": "慢來moonlight",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -17286,10 +17325,6 @@
         {
           "platform": "ig",
           "url": "https://www.instagram.com/moonlight432hz"
-        },
-        {
-          "platform": "ig",
-          "url": "https://www.instagram.com/mindacupoftea/"
         },
         {
           "platform": "pixiv",
@@ -18291,9 +18326,9 @@
     },
     {
       "id": "amane61115",
-      "name": "",
+      "name": "白河夜船",
       "name_inferred": "白河夜船",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -18605,9 +18640,9 @@
     },
     {
       "id": "hikari863126",
-      "name": "",
+      "name": "民浩",
       "name_inferred": "有這樣的喜樂蒂你幾點回家？",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {

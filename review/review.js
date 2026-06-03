@@ -644,9 +644,20 @@
           .replace(/^https?:\/\//, '').replace(/^www\./, '')
           .split('?')[0].split('#')[0].replace(/\/+$/, '');
       }
-      // Post / non-profile URL shapes — drop these so the reviewer only
-      // sees verifiable profile pages.
-      const POST_URL_RX = /\/(?:posts|photos|photo|videos|video|status|p|reel|reels|story|stories|story_fbid)\/|\/post\/|\/photo\.php|\?fbid=/;
+      // Filter chain: drop URLs not matching the project allow-list
+      // (window.PROFILE_PATTERNS — the same patterns used to validate
+      // saved socials). This rejects post URLs, photo URLs, and any URL
+      // that doesn't match a known platform's profile shape.
+      const PROFILE_PATTERNS = window.PROFILE_PATTERNS || [];
+      function isAllowedProfileUrl(url) {
+        if (!url) return false;
+        for (const p of PROFILE_PATTERNS) {
+          try {
+            if (new RegExp(p.regex).test(url)) return true;
+          } catch (e) {}
+        }
+        return false;
+      }
       const registeredNorms = new Set(
         ((a.socials || []).map(s => normWsUrl(s.url || '')))
           .concat((pendingSocials[a.id] || []).map(s => normWsUrl(s.url || '')))
@@ -655,9 +666,9 @@
         (dismissedWsCandidates[a.id] || []).map(normWsUrl)
       );
       const wsHits = (WS_CANDIDATES[a.id] || []).filter(h => {
+        if (!isAllowedProfileUrl(h.url)) return false;  // allow-list
         const n = normWsUrl(h.url);
         if (registeredNorms.has(n) || dismissedNorms.has(n)) return false;
-        if (POST_URL_RX.test(h.url)) return false;  // skip post URLs
         return true;
       });
       if (wsHits.length) {
