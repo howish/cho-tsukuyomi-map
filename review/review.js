@@ -741,22 +741,32 @@
     head.appendChild(titleRow);
     card.appendChild(head);
 
-    // Circle-level socials (合同 SNS) — chips + add form
-    const cSocSection = el('div', { class: 'circle-socials' });
-    cSocSection.appendChild(el('span', { class: 'circle-socials-label' }, '合同 SNS:'));
+    // Circle-level socials (合同 SNS) — reuses the same chip + form shape
+    // as the per-author socials section so howish reads them at a glance.
+    const cLabel = el('div', { class: 'circle-socials-heading' }, '🎪 合同 SNS:');
+    card.appendChild(cLabel);
+
+    const cLinks = el('div', { class: 'card-probe-links' });
     (circle.socials || []).forEach(s => {
-      cSocSection.appendChild(el('a', {
-        href: s.url, target: '_blank', rel: 'noopener',
-        class: 'circle-social-chip',
-        title: s.url,
-      }, `${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 40)}`));
+      if (!s.url) return;
+      const label = (s.platform || '🔗') + (s.handle ? ' ' + s.handle : '');
+      const wrap = el('span', { class: 'card-probe-link existing' });
+      wrap.appendChild(el('a', {
+        class: 'existing-link', href: s.url, target: '_blank', rel: 'noopener',
+      }, label));
+      // Remove from circle.socials? Not yet — needs a remove_circle_social
+      // decision type. For now circle socials are append-only via review queue.
+      cLinks.appendChild(wrap);
     });
     (pendingCircleSocials[circle.id] || []).forEach((s, idx) => {
-      const chip = el('span', { class: 'circle-social-chip pending-add' });
-      chip.appendChild(document.createTextNode(`+ ${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 40)}`));
-      chip.appendChild(el('button', {
+      const wrap = el('span', { class: 'card-probe-link pending-add', title: 'pending 追加' });
+      wrap.appendChild(el('a', {
+        href: s.url, target: '_blank', rel: 'noopener',
+        class: 'pending-add-link',
+      }, '+ ' + s.platform + (s.handle ? ' ' + s.handle : '')));
+      wrap.appendChild(el('button', {
         type: 'button',
-        class: 'alias-remove',
+        class: 'pending-add-remove',
         title: 'pending 追加を取消',
         onclick: () => {
           pendingCircleSocials[circle.id].splice(idx, 1);
@@ -765,36 +775,65 @@
           render();
         },
       }, '×'));
-      cSocSection.appendChild(chip);
+      cLinks.appendChild(wrap);
     });
-    // Add form (toggle)
-    const cSocFormWrap = el('span', { class: 'circle-social-add-wrap' });
-    const cSocInput = el('input', {
-      type: 'text', placeholder: '+ 合同 SNS URL', class: 'circle-social-input',
-      style: 'display:none;',
+    if (!cLinks.children.length) {
+      cLinks.appendChild(el('span', { class: 'card-probe-link no-links' }, '(合同 SNS なし)'));
+    }
+    card.appendChild(cLinks);
+
+    // Add form — matches the author-panel `+ SNS link 追加` collapsed pattern
+    const cAddBlock = el('div', { class: 'add-social-block' });
+    const cAddToggle = el('button', {
+      type: 'button', class: 'add-social-toggle',
+      onclick: () => cAddBlock.classList.toggle('open'),
+    }, '+ 合同 SNS 追加');
+    const cAddForm = el('div', { class: 'add-social-form' });
+    const cUrlInput = el('input', { type: 'url', placeholder: 'URL (https://...)', class: 'add-social-url' });
+    const cPlatSel = el('select', { class: 'add-social-platform' });
+    const C_PLAT_OPTIONS = ['x', 'plurk', 'fb', 'ig', 'threads', 'bsky', 'pixiv',
+      'doujin_tw', 'aggregator', 'booth_pm', 'wix', 'blog', 'gamer', 'generic'];
+    for (const p of C_PLAT_OPTIONS) {
+      cPlatSel.appendChild(el('option', { value: p }, p));
+    }
+    const cHandleInput = el('input', { type: 'text', placeholder: 'handle (任意)', class: 'add-social-handle' });
+    cUrlInput.addEventListener('input', () => {
+      const u = cUrlInput.value.trim();
+      if (u) {
+        const p = detectPlatform(u);
+        cPlatSel.value = p;
+        if (!cHandleInput.value) cHandleInput.value = extractHandle(u, p);
+      }
     });
-    const cSocAddBtn = el('button', {
-      type: 'button', class: 'circle-social-add-btn',
+    const cAddBtn = el('button', {
+      type: 'button', class: 'add-social-add',
       onclick: () => {
-        if (cSocInput.style.display === 'none') {
-          cSocInput.style.display = '';
-          cSocInput.focus();
-          cSocAddBtn.textContent = '+ 追加';
-        } else {
-          const u = (cSocInput.value || '').trim();
-          if (!u) { cSocInput.style.display = 'none'; cSocAddBtn.textContent = '+ サークル SNS'; return; }
-          const plat = detectPlatformFromUrl(u);
-          (pendingCircleSocials[circle.id] = pendingCircleSocials[circle.id] || []).push({ platform: plat, url: u });
-          savePendingCircleSocials(pendingCircleSocials);
-          cSocInput.value = '';
-          render();
+        let u = cUrlInput.value.trim();
+        if (!u) { alert('URL を入力してください'); return; }
+        if (!/^https?:\/\//.test(u)) u = 'https://' + u;
+        const platform = cPlatSel.value;
+        const handle = cHandleInput.value.trim();
+        const arr = pendingCircleSocials[circle.id] = pendingCircleSocials[circle.id] || [];
+        if (arr.some(s => s.url === u) || (circle.socials || []).some(s => s.url === u)) {
+          alert('重複している'); return;
         }
+        arr.push({ platform, url: u, handle });
+        savePendingCircleSocials(pendingCircleSocials);
+        cUrlInput.value = '';
+        cHandleInput.value = '';
+        cAddBlock.classList.remove('open');
+        render();
       },
-    }, '+ サークル SNS');
-    cSocFormWrap.appendChild(cSocInput);
-    cSocFormWrap.appendChild(cSocAddBtn);
-    cSocSection.appendChild(cSocFormWrap);
-    card.appendChild(cSocSection);
+    }, '+ 追加');
+    cAddForm.appendChild(cUrlInput);
+    const cRow2 = el('div', { class: 'add-social-row' });
+    cRow2.appendChild(cPlatSel);
+    cRow2.appendChild(cHandleInput);
+    cRow2.appendChild(cAddBtn);
+    cAddForm.appendChild(cRow2);
+    cAddBlock.appendChild(cAddToggle);
+    cAddBlock.appendChild(cAddForm);
+    card.appendChild(cAddBlock);
 
     // Members — unified renderAuthorPanel for both existing authors AND
     // pending new-member drafts. authorNum increments across the merged list
