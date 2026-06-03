@@ -277,7 +277,9 @@
     const isDefault = opts.isDefault;
 
     const decision = !isNew ? (pending[a.id] || null) : null;
-    const cls = isNew ? 'author-panel ghost-new'
+    // Visual: existing と new で同じ panel スタイル — howish 要望 (見た目は
+    // Author 1 と一緒)。状態の違いは「(新規)」ラベル + 🗑 ボタンだけで判別。
+    const cls = isNew ? 'author-panel'
       : (decision ? (decision.decision === 'skip' ? 'author-panel skip-decision' : 'author-panel has-decision') : 'author-panel');
     const card = el('div', { class: cls });
 
@@ -334,7 +336,9 @@
         aliasRow.appendChild(chip);
       });
       pendingAdds.forEach((al, idx) => {
-        const chip = el('span', { class: 'alias-chip pending-add' });
+        // For new members, render chips like saved (no pending-add styling)
+        // so the panel looks identical to a finalized Author 1 (howish 要望)。
+        const chip = el('span', { class: 'alias-chip' + (isNew ? '' : ' pending-add') });
         chip.appendChild(el('span', { class: 'alias-text' }, isNew ? al : ('+ ' + al)));
         chip.appendChild(el('button', {
           type: 'button',
@@ -420,18 +424,21 @@
       links.appendChild(wrap);
     });
     pendingSocAdds.forEach((s, idx) => {
+      // For new members, render chips like saved socials (existing styling)
+      // so the panel looks identical to a finalized Author 1. For existing
+      // authors, pending-add styling distinguishes "queued but not committed".
       const wrap = el('span', {
-        class: 'card-probe-link pending-add',
-        title: isNew ? '新規 author の SNS' : 'pending 追加',
+        class: isNew ? 'card-probe-link existing' : 'card-probe-link pending-add',
+        title: isNew ? 'この link を削除' : 'pending 追加',
       });
       wrap.appendChild(el('a', {
         href: s.url,
         target: '_blank', rel: 'noopener',
-        class: 'pending-add-link',
+        class: isNew ? 'existing-link' : 'pending-add-link',
       }, (isNew ? '' : '+ ') + s.platform + (s.handle ? ' ' + s.handle : '')));
       wrap.appendChild(el('button', {
         type: 'button',
-        class: 'pending-add-remove',
+        class: isNew ? 'existing-remove' : 'pending-add-remove',
         title: isNew ? 'この link を削除' : 'pending 追加を取消',
         onclick: () => {
           if (isNew) {
