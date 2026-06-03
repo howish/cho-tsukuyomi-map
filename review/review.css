@@ -213,6 +213,26 @@
   border-color: #d8c8a0;
 }
 
+/* deep-cleanup audit flagged — distinct red-orange so reviewers see
+   "this isn't just unresolved, it was specifically flagged" */
+.card-source-tag.flagged {
+  background: #ffe2dd;
+  color: #c4380a;
+  border-color: #f0bdb0;
+}
+.card-current-name.flagged {
+  color: #c4380a;
+}
+.card-audit-reason {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  background: #fff4ec;
+  color: #c4380a;
+  border: 1px solid #f0bdb0;
+  font-family: ui-monospace, monospace;
+}
+
 .card-author-id {
   margin-left: auto;
   font-family: ui-monospace, monospace;

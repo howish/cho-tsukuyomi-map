@@ -97,6 +97,13 @@ def main():
                 }
                 if a.get('pixiv_url'):
                     authors[a['id']]['pixiv_url'] = a['pixiv_url']
+                # Audit / review metadata — preserved across rebuilds so the
+                # review queue keeps showing flagged entries until a reviewer
+                # resolves them.
+                if a.get('name_source_prev'):
+                    authors[a['id']]['name_source_prev'] = a['name_source_prev']
+                if a.get('name_audit_reason'):
+                    authors[a['id']]['name_audit_reason'] = a['name_audit_reason']
         except Exception as e:
             print(f'warn: pre-load failed: {e}', file=sys.stderr)
 

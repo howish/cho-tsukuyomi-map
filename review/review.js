@@ -205,9 +205,12 @@
   }
 
   function authorMatchesFilters(a) {
-    // Status
+    // Status — "unresolved" includes both inferred-from-circle-name (the
+    // skill never confirmed) AND audit_flagged (deep-cleanup audit pushed
+    // an ambiguous name in here for human judgment).
     if (filterStatus === 'unresolved') {
-      if (a.name_source !== 'circle_name' && !pending[a.id]) return false;
+      const unresolvedSrc = a.name_source === 'circle_name' || a.name_source === 'audit_flagged';
+      if (!unresolvedSrc && !pending[a.id]) return false;
     }
     // Event
     if (filterEvents.size > 0) {
@@ -275,15 +278,23 @@
 
     // Current state row
     const displayName = a.name || a.name_inferred || '(空)';
-    const isConfirmed = a.name_source !== 'circle_name' && a.name_source !== '';
+    const isFlagged = a.name_source === 'audit_flagged';
+    const isInferred = a.name_source === 'circle_name';
+    const isConfirmed = !isInferred && !isFlagged && a.name_source !== '';
     const curRow = el('div', { class: 'card-current-row' });
     curRow.appendChild(el('span', { class: 'card-current-label' }, '現:'));
     curRow.appendChild(el('span', {
-      class: 'card-current-name' + (isConfirmed ? ' confirmed' : ''),
+      class: 'card-current-name' + (isConfirmed ? ' confirmed' : '') + (isFlagged ? ' flagged' : ''),
     }, displayName));
     curRow.appendChild(el('span', {
-      class: 'card-source-tag' + (a.name_source === 'circle_name' ? ' inferred' : ''),
+      class: 'card-source-tag' + (isInferred ? ' inferred' : '') + (isFlagged ? ' flagged' : ''),
     }, a.name_source || '(empty)'));
+    if (isFlagged && a.name_audit_reason) {
+      curRow.appendChild(el('span', {
+        class: 'card-audit-reason',
+        title: 'deep-cleanup audit でフラグ — 人間判断待ち',
+      }, '⚠ ' + a.name_audit_reason));
+    }
     curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
     head.appendChild(curRow);
 
@@ -821,7 +832,7 @@
     const total = authorList().length;
     let unresolved = 0;
     for (const a of authorList()) {
-      if (a.name_source === 'circle_name') unresolved++;
+      if (a.name_source === 'circle_name' || a.name_source === 'audit_flagged') unresolved++;
     }
     // Render in a stable order: pending first, then by inferred name
     const sorted = authorList().sort((a, b) => {

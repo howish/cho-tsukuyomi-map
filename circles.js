@@ -10422,14 +10422,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_092280c25bda",
     "name": "工坊·夏至千里",
     "name_inferred": "",
-    "name_source": "gamer_review",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "gamer",
         "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth"
       }
-    ]
+    ],
+    "name_source_prev": "gamer_review",
+    "name_audit_reason": "subtitle_vs_alias"
   },
   "a_092f9b1e58ba": {
     "id": "a_092f9b1e58ba",
@@ -11719,10 +11721,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_321c4eff19f6": {
     "id": "a_321c4eff19f6",
-    "name": "Agathe/阿嘎特.奇美拉",
+    "name": "Agathe",
     "name_inferred": "",
     "name_source": "ig_profile",
-    "aliases": [],
+    "aliases": [
+      "阿嘎特.奇美拉"
+    ],
     "socials": [
       {
         "platform": "ig",
@@ -12205,10 +12209,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_4203793f2381": {
     "id": "a_4203793f2381",
-    "name": "王       葳 | Wei Wang",
+    "name": "王葳",
     "name_inferred": "",
     "name_source": "ig_profile",
-    "aliases": [],
+    "aliases": [
+      "Wei Wang"
+    ],
     "socials": [
       {
         "platform": "ig",
@@ -12257,10 +12263,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_4474c820a1fa": {
     "id": "a_4474c820a1fa",
-    "name": "AK/安愷",
+    "name": "AK",
     "name_inferred": "",
     "name_source": "aggregator_review_title_strip",
-    "aliases": [],
+    "aliases": [
+      "安愷"
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -12996,14 +13004,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_55be2db3317c",
     "name": "⣿⣿ 安   全   渡   夏  ②⓪②③ ⣿⣿",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/not_december1212/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "heavy_decoration"
   },
   "a_5663a24fc490": {
     "id": "a_5663a24fc490",
@@ -13048,14 +13058,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_5898bca19572",
     "name": "絨毛點 / 手作飾品",
     "name_inferred": "",
-    "name_source": "fb_review_title_strip",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
         "url": "https://www.facebook.com/fluffpoint"
       }
-    ]
+    ],
+    "name_source_prev": "fb_review_title_strip",
+    "name_audit_reason": "subtitle_vs_alias"
   },
   "a_593d989ec424": {
     "id": "a_593d989ec424",
@@ -14378,10 +14390,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_853d18d7d481": {
     "id": "a_853d18d7d481",
-    "name": "AM000/小豆",
+    "name": "AM000",
     "name_inferred": "",
     "name_source": "x_profile",
-    "aliases": [],
+    "aliases": [
+      "小豆"
+    ],
     "socials": [
       {
         "platform": "x",
@@ -14391,10 +14405,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_85447c5b4ad5": {
     "id": "a_85447c5b4ad5",
-    "name": "aPriori  ｜ア・プリオリ",
+    "name": "aPriori",
     "name_inferred": "",
     "name_source": "aggregator_review_title_strip",
-    "aliases": [],
+    "aliases": [
+      "ア・プリオリ"
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -15265,7 +15281,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_a2dfa5ddf3c3": {
     "id": "a_a2dfa5ddf3c3",
-    "name": "環繞著土星的光環 ",
+    "name": "環繞著土星的光環",
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
@@ -15624,7 +15640,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_ade7fd39106e": {
     "id": "a_ade7fd39106e",
-    "name": "泰茲¥5/30創集繪L8-10",
+    "name": "泰茲",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -16509,10 +16525,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_c7b2a43f3e88": {
     "id": "a_c7b2a43f3e88",
-    "name": "九夏／Irene309",
+    "name": "九夏",
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
-    "aliases": [],
+    "aliases": [
+      "Irene309"
+    ],
     "socials": [
       {
         "platform": "fb",
@@ -17609,10 +17627,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_f07d27e70f07": {
     "id": "a_f07d27e70f07",
-    "name": "URA（うら）",
+    "name": "URA",
     "name_inferred": "",
     "name_source": "doujin_tw_profile",
-    "aliases": [],
+    "aliases": [
+      "うら"
+    ],
     "socials": [
       {
         "platform": "x",
@@ -17754,10 +17774,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_f66041decf36": {
     "id": "a_f66041decf36",
-    "name": "尾椎狗/00286",
+    "name": "尾椎狗",
     "name_inferred": "",
     "name_source": "ig_profile",
-    "aliases": [],
+    "aliases": [
+      "00286"
+    ],
     "socials": [
       {
         "platform": "ig",
@@ -18079,10 +18101,14 @@ window.AUTHORS_BY_ID = {
   },
   "a_ff9f5a241606": {
     "id": "a_ff9f5a241606",
-    "name": "綠錐/泲淳/ㄚ淳/ru",
+    "name": "綠錐",
     "name_inferred": "",
     "name_source": "fb_bio_zh_call_high",
-    "aliases": [],
+    "aliases": [
+      "泲淳",
+      "ㄚ淳",
+      "ru"
+    ],
     "socials": [
       {
         "platform": "fb",
@@ -18521,7 +18547,7 @@ window.AUTHORS_BY_ID = {
   },
   "kei_megumi_": {
     "id": "kei_megumi_",
-    "name": "恵海けい＠5/24超ツクヨミ祭_6/21ツクスク_8月夏コミ",
+    "name": "恵海けい",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -18746,7 +18772,7 @@ window.AUTHORS_BY_ID = {
   },
   "mitsukiriko": {
     "id": "mitsukiriko",
-    "name": "みつきりこ🐈5/24 B-07",
+    "name": "みつきりこ🐈",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -19131,7 +19157,7 @@ window.AUTHORS_BY_ID = {
   },
   "teruru_sakura": {
     "id": "teruru_sakura",
-    "name": "さくらてるる🌸7/26 パンケーキ食べたい",
+    "name": "さくらてるる🌸",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
