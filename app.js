@@ -516,15 +516,13 @@
     return 'generic';
   }
 
-  // Platform emoji used on social chips. Falls back to 🔗 for unknown.
+  // Platform icon — real brand mark (Simple Icons SVG path) when known,
+  // emoji fallback otherwise. Returns a Node, not a string (callers
+  // appendChild directly).
   function platformIcon(platform) {
-    const map = {
-      x: '𝕏', plurk: 'P', fb: 'f', ig: 'IG', threads: '@',
-      pixiv: '🅿', bsky: '🦋', booth_pm: '🛒', marshmallow: '🌸',
-      patreon: '🅿', gamer: '🐉', wix: '🌐', blog: '📓',
-      doujin_tw: '本', aggregator: '🔗', generic: '🔗',
-    };
-    return map[platform] || '🔗';
+    return window.platformIconNode
+      ? window.platformIconNode(platform)
+      : document.createTextNode('🔗');
   }
 
   function mdToHtml(md) {

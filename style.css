@@ -1419,6 +1419,16 @@ section {
   gap: 0.25rem;
 }
 
+/* SVG brand icon inside chips — sized to match adjacent text, inherits
+   color via currentColor so per-platform tint works. */
+.platform-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+}
+#modal-body .modal-meta .platform-icon { width: 0.95em; height: 0.95em; }
+
 /* name_inferred (guess from circle_name / handle) — visibly softer so
    the reader knows it's not user-confirmed. */
 #modal-body .modal-meta .author-name.inferred {

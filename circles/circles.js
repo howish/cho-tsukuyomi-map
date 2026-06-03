@@ -21,11 +21,13 @@
     return e;
   }
 
-  const PLATFORM_ICON = {
-    x: '𝕏', plurk: 'P', fb: 'f', ig: '📷', threads: '@', pixiv: 'px',
-    bsky: '🦋', doujin_tw: '同人', aggregator: '🔗', booth_pm: '🛒',
-    wix: '🌐', blog: '📝', gamer: '🎮', generic: '🔗',
-  };
+  // Platform icon Node (Simple Icons SVG when known, emoji fallback).
+  // window.platformIconNode is defined in /platform-icons.js.
+  function platformIcon(platform) {
+    return window.platformIconNode
+      ? window.platformIconNode(platform)
+      : document.createTextNode('🔗');
+  }
 
   // Unified chip label — walks window.PROFILE_PATTERNS (single source of
   // truth, generated from author-name-resolver skill).
@@ -73,12 +75,16 @@
       if (!norm || seenChipUrls.has(norm)) return;
       seenChipUrls.add(norm);
       const id = extractHandleFromUrl(url, platform);
-      const label = (PLATFORM_ICON[platform] || '🔗') + ' ' + id;
-      linkRow.appendChild(el('a', {
+      const chip = el('a', {
         class: 'circle-link-chip chip-' + platform,
         href: url, target: '_blank', rel: 'noopener',
-        title: platform,
-      }, label));
+        title: platform + (id ? ' — ' + id : ''),
+      });
+      chip.appendChild(platformIcon(platform));
+      if (id) {
+        chip.appendChild(document.createTextNode(' ' + id));
+      }
+      linkRow.appendChild(chip);
     }
     if (c.socials && c.socials.length) {
       const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
@@ -204,9 +210,9 @@
     const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
     const row = document.getElementById('filter-row-platforms');
     sorted.forEach(([p, n]) => {
-      const icon = PLATFORM_ICON[p] || '🔗';
-      const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p },
-        `${icon} ${p} (${n})`);
+      const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p });
+      btn.appendChild(platformIcon(p));
+      btn.appendChild(document.createTextNode(` ${p} (${n})`));
       btn.addEventListener('click', () => {
         if (platformFilters.has(p)) {
           platformFilters.delete(p);
