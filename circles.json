@@ -4810,9 +4810,15 @@
       "id": "c_8aaf68aaf39b",
       "circle_name": "雪之饗(studio e'kis)",
       "members": [
-        "a_b4c202a36a44"
+        "a_b4c202a36a44",
+        "a_7c76f0d65ab1"
       ],
-      "socials": [],
+      "socials": [
+        {
+          "platform": "fb",
+          "url": "https://www.facebook.com/ekis2018"
+        }
+      ],
       "events": [
         {
           "slug": "if7-2026-05",
@@ -10517,14 +10523,18 @@
     },
     {
       "id": "a_0c4800b01a54",
-      "name": "",
+      "name": "鏡羽",
       "name_inferred": "肝硬化企業-小心肝印畫部門",
-      "name_source": "circle_name",
+      "name_source": "pixiv_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/kure_kyouu"
+        },
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/6550997"
         }
       ]
     },
@@ -11108,9 +11118,9 @@
     },
     {
       "id": "a_1e74bb0ed287",
-      "name": "",
+      "name": "銀髮少年",
       "name_inferred": "銀髮少年",
-      "name_source": "circle_name",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
@@ -11667,10 +11677,12 @@
     },
     {
       "id": "a_31173427d1bb",
-      "name": "",
+      "name": "kaku",
       "name_inferred": "かくkaku",
-      "name_source": "circle_name",
-      "aliases": [],
+      "name_source": "x_profile",
+      "aliases": [
+        "かく"
+      ],
       "socials": [
         {
           "platform": "aggregator",
@@ -12003,9 +12015,9 @@
     },
     {
       "id": "a_390c25e3a0be",
-      "name": "",
+      "name": "長切",
       "name_inferred": "記得繳房貸",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -12107,9 +12119,9 @@
     },
     {
       "id": "a_3ebdffd05bb9",
-      "name": "",
+      "name": "雪緞",
       "name_inferred": "花開。花烙",
-      "name_source": "audit_flagged",
+      "name_source": "circle_name",
       "aliases": [],
       "socials": [
         {
@@ -12128,15 +12140,7 @@
           "platform": "aggregator",
           "url": "https://linktr.ee/blossoming.faded"
         }
-      ],
-      "name_source_prev": "circle_name",
-      "name_audit_reason": "punct_separated_alias: → 花開 + aliases ['花烙']",
-      "name_audit_suggestion": {
-        "name": "花開",
-        "aliases": [
-          "花烙"
-        ]
-      }
+      ]
     },
     {
       "id": "a_3f3d88330065",
@@ -13909,9 +13913,9 @@
     },
     {
       "id": "a_763d56f5fed3",
-      "name": "",
+      "name": "SALLY",
       "name_inferred": "sally : deja-vu",
-      "name_source": "circle_name",
+      "name_source": "aggregator_profile",
       "aliases": [],
       "socials": [
         {
@@ -14063,14 +14067,20 @@
     },
     {
       "id": "a_79bbd080451e",
-      "name": "",
+      "name": "共聚物精靈",
       "name_inferred": "共聚物精靈",
-      "name_source": "circle_name",
-      "aliases": [],
+      "name_source": "fb_profile",
+      "aliases": [
+        "間宮ゆき"
+      ],
       "socials": [
         {
           "platform": "fb",
           "url": "https://www.facebook.com/CopolymerWizard"
+        },
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/6336012"
         }
       ]
     },
@@ -14133,6 +14143,14 @@
           "url": "https://www.instagram.com/hsiao.local.girl/"
         }
       ]
+    },
+    {
+      "id": "a_7c76f0d65ab1",
+      "name": "水々",
+      "name_inferred": "",
+      "name_source": "user",
+      "aliases": [],
+      "socials": []
     },
     {
       "id": "a_7d98872c692e",
@@ -14615,9 +14633,9 @@
     },
     {
       "id": "a_88a55622f03f",
-      "name": "",
+      "name": "月月子",
       "name_inferred": "月月子不在家",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
@@ -14667,9 +14685,9 @@
     },
     {
       "id": "a_8ca68ed5ab31",
-      "name": "",
+      "name": "ボカロ虛擬歌姬交流會",
       "name_inferred": "ボカロ虛擬歌姬交流會",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
       "socials": []
     },
@@ -15963,16 +15981,11 @@
     },
     {
       "id": "a_b4c202a36a44",
-      "name": "",
+      "name": "Siayo",
       "name_inferred": "雪之饗(studio e'kis)",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
-      "socials": [
-        {
-          "platform": "fb",
-          "url": "https://www.facebook.com/ekis2018"
-        }
-      ]
+      "socials": []
     },
     {
       "id": "a_b545c7b1814b",
@@ -16212,9 +16225,9 @@
     },
     {
       "id": "a_c01247bb7cb4",
-      "name": "",
+      "name": "Kaya",
       "name_inferred": "Streamer Fairy Art",
-      "name_source": "circle_name",
+      "name_source": "aggregator_profile",
       "aliases": [],
       "socials": [
         {
@@ -16267,9 +16280,9 @@
     },
     {
       "id": "a_c11d784dc7f3",
-      "name": "",
+      "name": "安安淡定",
       "name_inferred": "安安淡定",
-      "name_source": "circle_name",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
@@ -16332,9 +16345,9 @@
     },
     {
       "id": "a_c215d51e1d6e",
-      "name": "",
+      "name": "青雨アメ",
       "name_inferred": "青雨アメ",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -19018,24 +19031,18 @@
     },
     {
       "id": "pianorock_y",
-      "name": "ピアノロック・ヤクザ、たっくん",
+      "name": "ピアノロック・ヤクザ",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "user",
+      "aliases": [
+        "たっくん"
+      ],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/pianorock_y"
         }
-      ],
-      "name_source_prev": "user",
-      "name_audit_reason": "punct_separated_alias: → ピアノロック・ヤクザ + aliases ['たっくん']",
-      "name_audit_suggestion": {
-        "name": "ピアノロック・ヤクザ",
-        "aliases": [
-          "たっくん"
-        ]
-      }
+      ]
     },
     {
       "id": "pomeka35",
@@ -19472,24 +19479,18 @@
     },
     {
       "id": "zuzuzu_222",
-      "name": "そばがき、巽ぺーた",
+      "name": "そばがき",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "user",
+      "aliases": [
+        "巽ぺーた"
+      ],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/zuzuzu_222"
         }
-      ],
-      "name_source_prev": "user",
-      "name_audit_reason": "punct_separated_alias: → そばがき + aliases ['巽ぺーた']",
-      "name_audit_suggestion": {
-        "name": "そばがき",
-        "aliases": [
-          "巽ぺーた"
-        ]
-      }
+      ]
     }
   ],
   "books": [
