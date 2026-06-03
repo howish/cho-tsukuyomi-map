@@ -668,7 +668,10 @@
       const norm = normSocialUrl(url);
       if (!norm || seenSocialUrls.has(norm)) return;
       seenSocialUrls.add(norm);
-      const id = handle || extractHandleFromUrl(url, platform);
+      // Always use URL-derived label — stored `handle` field is sometimes
+      // misleading (e.g. aggregator-resolver stored "Linktree" as handle).
+      // URL is the authoritative source.
+      const id = extractHandleFromUrl(url, platform) || handle;
       const label = `${platformIcon(platform)} ${id}`;
       meta.appendChild(el('a', {
         href: url, target: '_blank', rel: 'noopener',
