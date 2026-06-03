@@ -642,21 +642,23 @@
           title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
         }, fullName));
       }
-      // SNS chips for THIS member's socials — global dedupe across members
-      // so a co-owned URL doesn't double-render.
+      // SNS chips for THIS member's socials — icon-only (handle goes in
+      // tooltip). Name is already shown by the .author-name span (or by
+      // the h3 when it == circle_name), so chips just mark "they're on X".
+      // Global dedupe across members so a co-owned URL doesn't double-render.
       for (const s of (m.socials || [])) {
         if (!s || !s.url) continue;
         const platform = s.platform || detectSourceType(s.url);
         const norm = normSocialUrl(s.url);
         if (!norm || seenSocialUrls.has(norm)) continue;
         seenSocialUrls.add(norm);
-        const id = extractHandleFromUrl(s.url);
-        const label = `${platformIcon(platform)} ${id}`;
+        const handle = extractHandleFromUrl(s.url);
+        const platLabel = T('modal_source_' + platform);
         group.appendChild(el('a', {
           href: s.url, target: '_blank', rel: 'noopener',
           class: 'social-chip social-chip-' + platform,
-          title: T('modal_source_' + platform),
-        }, label));
+          title: handle ? `${platLabel} — ${handle}` : platLabel,
+        }, platformIcon(platform)));
       }
       if (group.children.length) meta.appendChild(group);
     });
