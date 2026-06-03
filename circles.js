@@ -12432,10 +12432,6 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.youtube.com/@foninteru"
       },
       {
-        "platform": "youtube",
-        "url": "https://www.youtube.com/@apple"
-      },
-      {
         "platform": "x",
         "url": "https://twitter.com/fonin_fuuin"
       },
@@ -14103,10 +14099,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "youtube",
         "url": "https://www.youtube.com/@UYUjira"
-      },
-      {
-        "platform": "youtube",
-        "url": "https://www.youtube.com/@apple"
       },
       {
         "platform": "x",
@@ -16494,43 +16486,7 @@ window.AUTHORS_BY_ID = {
       },
       {
         "platform": "ig",
-        "url": "https://www.instagram.com/chunhe.market/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/merry.go.round.wonderland/"
-      },
-      {
-        "platform": "ig",
         "url": "https://www.instagram.com/horohorodesign"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/evaeyesnlens/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/somnambulist.mrkt/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/hotel.sennas/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/leqing2023/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/suisui_life/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/freeair8market/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/kon2fuku2/"
       },
       {
         "platform": "youtube",
@@ -16547,14 +16503,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/profile.php?id=100066849969690"
-      },
-      {
-        "platform": "fb",
-        "url": "http://facebook.com/xxx"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/D3Fest"
       }
     ]
   },
