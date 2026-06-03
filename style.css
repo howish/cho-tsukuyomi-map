@@ -1388,10 +1388,12 @@ section {
   font-size: 0.85rem;
 }
 
-#modal-body .modal-meta span,
+#modal-body .modal-meta > span,
 #modal-body .modal-meta a.author-chip,
 #modal-body .modal-meta a.handle-link,
-#modal-body .modal-meta a.social-chip {
+#modal-body .modal-meta a.social-chip,
+#modal-body .modal-meta .author-group > .author-name,
+#modal-body .modal-meta .author-group > a.social-chip {
   background: #f3edf7;
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
@@ -1405,6 +1407,24 @@ section {
 #modal-body .modal-meta a.social-chip:hover {
   background: var(--accent);
   color: #fff;
+}
+
+/* Per-member identity group — keeps the name and that member's SNS
+   chips visually attached so "this name owns these handles" reads at
+   a glance. Tighter gap than modal-meta to differentiate the cluster. */
+#modal-body .modal-meta .author-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* name_inferred (guess from circle_name / handle) — visibly softer so
+   the reader knows it's not user-confirmed. */
+#modal-body .modal-meta .author-name.inferred {
+  opacity: 0.65;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /* Per-platform tint for the chip background (subtle, accessible contrast). */

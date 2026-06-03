@@ -314,9 +314,9 @@
   // Hydrate booths with circle + author data (B-big-1 schema, 2026-06-02):
   // circles.js exports both CIRCLES_BY_ID and AUTHORS_BY_ID. Each circle has
   // members: [author_id]. Solo circle (most common) = 1 member. The first
-  // member is the primary author whose info fills the booth's display
-  // fields (b.author, b.x_handle, etc.); secondary members are stored in
-  // b.members for the modal to render as additional chips.
+  // member is the primary author whose name fills b.author for card display;
+  // full member records (with socials) are stored in b.members for the
+  // modal to render per-member identity groups.
   const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
   const AUTHORS_BY_ID = window.AUTHORS_BY_ID || {};
   const booths = (window.BOOTHS || []).slice().map(b => {
@@ -592,41 +592,12 @@
     if (b.followers != null) {
       meta.appendChild(el('span', null, T('modal_followers', { n: b.followers.toLocaleString() })));
     }
-    // Author chips — 1 per circle member (B-big-1 schema). Solo circle = 1
-    // chip (== legacy behaviour). Multi-author circle = multiple chips
-    // shown side by side, primary first. 4-state name resolution applies
-    // (confirmed > inferred); display nothing if neither is set.
-    const memberRecords = Array.isArray(b.members) && b.members.length
-      ? b.members
-      : (b.author ? [{name: b.author}] : []);
-    memberRecords.forEach(m => {
-      const name = m.name || m.name_inferred || '';
-      if (!name) return;
-      // Skip chip when it just repeats circle_name (the h3 already shows it).
-      if (name === b.circle_name) return;
-      const aliases = (m.aliases || []).filter(Boolean);
-      const displayName = aliases.length
-        ? `${name} (${aliases.join(' / ')})`
-        : name;
-      // Author chip links to their X profile if present in socials
-      const xSocial = (m.socials || []).find(s => s.platform === 'x');
-      const chipHref = xSocial ? xSocial.url : null;
-      if (chipHref) {
-        meta.appendChild(el('a', {
-          href: chipHref, target: '_blank', rel: 'noopener', class: 'author-chip',
-          title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
-        }, displayName));
-      } else {
-        meta.appendChild(el('span', {
-          class: 'author-chip',
-          title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
-        }, displayName));
-      }
-    });
-    // Build the platform chip set — dedupe by URL host+path so the same
-    // link doesn't render twice (e.g. b.x_handle and a socials entry both
-    // pointing to the same X profile, or two socials entries that both
-    // resolved to the same X handle).
+    // Per-member identity group: name + that member's SNS chips together.
+    // Replaces the older "author chip + separate SNS chips" split — that
+    // split caused redundancy (author chip linked to X, X SNS chip linked
+    // to same X). 4-state name resolution applies: confirmed > inferred.
+    // Skip the name span when it just repeats circle_name (h3 already
+    // shows it) — chips still render under the (anonymous) group.
     const seenSocialUrls = new Set();
     function normSocialUrl(u) {
       if (!u) return '';
@@ -639,10 +610,7 @@
         .replace(/\/+$/, '')
         .toLowerCase();
     }
-    // Unified chip label rule — walks window.PROFILE_PATTERNS (generated
-    // from the author-name-resolver skill, single source of truth). First
-    // pattern whose regex matches wins; returns formatted handle.
-    function extractHandleFromUrl(url, _platform) {
+    function extractHandleFromUrl(url) {
       if (!url) return '';
       const patterns = window.PROFILE_PATTERNS || [];
       for (const {regex, fmt} of patterns) {
@@ -651,33 +619,47 @@
           return fmt.replace('{}', m.groups.handle);
         }
       }
-      // Last-resort fallback: show URL host
       const hostMatch = url.match(/^https?:\/\/([^\/]+)/);
       return hostMatch ? hostMatch[1].replace(/^www\./, '') : url;
     }
-    function addSocialChip(platform, handle, url, extraClass) {
-      const norm = normSocialUrl(url);
-      if (!norm || seenSocialUrls.has(norm)) return;
-      seenSocialUrls.add(norm);
-      // URL is the single source of truth — stored `handle` ignored.
-      const id = extractHandleFromUrl(url, platform);
-      const label = `${platformIcon(platform)} ${id}`;
-      meta.appendChild(el('a', {
-        href: url, target: '_blank', rel: 'noopener',
-        class: 'social-chip social-chip-' + platform + (extraClass ? ' ' + extraClass : ''),
-        title: T('modal_source_' + platform),
-      }, label));
-    }
-    // All chips sourced from b.members[] socials (= circles.json SSOT).
-    // X URL is just another socials entry, no special-case path.
-    if (Array.isArray(b.members)) {
-      for (const m of b.members) {
-        for (const s of (m.socials || [])) {
-          if (!s || !s.url) continue;
-          addSocialChip(s.platform || detectSourceType(s.url), '', s.url);
-        }
+    const memberRecords = Array.isArray(b.members) && b.members.length
+      ? b.members
+      : (b.author ? [{name: b.author}] : []);
+    memberRecords.forEach(m => {
+      const group = el('div', { class: 'author-group' });
+      const confirmedName = m.name || '';
+      const inferredName = m.name_inferred || '';
+      const displayName = confirmedName || inferredName;
+      const isInferred = !confirmedName && !!inferredName;
+      // Name span — only when it adds info beyond the h3 circle_name.
+      if (displayName && displayName !== b.circle_name) {
+        const aliases = (m.aliases || []).filter(Boolean);
+        const fullName = aliases.length
+          ? `${displayName} (${aliases.join(' / ')})`
+          : displayName;
+        group.appendChild(el('span', {
+          class: 'author-name' + (isInferred ? ' inferred' : ''),
+          title: aliases.length ? `別名: ${aliases.join(', ')}` : '',
+        }, fullName));
       }
-    }
+      // SNS chips for THIS member's socials — global dedupe across members
+      // so a co-owned URL doesn't double-render.
+      for (const s of (m.socials || [])) {
+        if (!s || !s.url) continue;
+        const platform = s.platform || detectSourceType(s.url);
+        const norm = normSocialUrl(s.url);
+        if (!norm || seenSocialUrls.has(norm)) continue;
+        seenSocialUrls.add(norm);
+        const id = extractHandleFromUrl(s.url);
+        const label = `${platformIcon(platform)} ${id}`;
+        group.appendChild(el('a', {
+          href: s.url, target: '_blank', rel: 'noopener',
+          class: 'social-chip social-chip-' + platform,
+          title: T('modal_source_' + platform),
+        }, label));
+      }
+      if (group.children.length) meta.appendChild(group);
+    });
     // Phase B-small (2026-06-02): 寄攤 / 委託 partners — chip styling alone
     // differentiates from primary author. Schema accepts either bare strings
     // (legacy X-only) or {platform, handle, name?} objects (multi-platform).
@@ -789,9 +771,10 @@
             const a = AUTHORS_BY_ID2[aid];
             if (!a) return;
             const name = a.name || a.name_inferred || aid;
-            if (a.x_url) {
+            const xSocial = (a.socials || []).find(s => s.platform === 'x');
+            if (xSocial && xSocial.url) {
               ulist.appendChild(el('a', {
-                href: a.x_url, target: '_blank', rel: 'noopener',
+                href: xSocial.url, target: '_blank', rel: 'noopener',
                 class: 'anthology-contributor-chip',
               }, name));
             } else {
