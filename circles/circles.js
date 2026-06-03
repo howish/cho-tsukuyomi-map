@@ -27,38 +27,19 @@
     wix: '🌐', blog: '📝', gamer: '🎮', generic: '🔗',
   };
 
-  // Unified chip label rule (2026-06-02): always show an identifier.
-  function extractHandleFromUrl(url, platform) {
+  // Unified chip label — walks window.PROFILE_PATTERNS (single source of
+  // truth, generated from author-name-resolver skill).
+  function extractHandleFromUrl(url, _platform) {
     if (!url) return '';
-    const m = url.match(/^https?:\/\/([^\/]+)(\/.*)?$/);
-    if (!m) return url;
-    const host = m[1].replace(/^www\./, '');
-    const pathRaw = m[2] || '';
-    const path = pathRaw.replace(/[?#].*$/, '').replace(/\/+$/, '');
-    if (platform === 'fb') {
-      const idMatch = pathRaw.match(/profile\.php\?id=(\d+)/);
-      if (idMatch) return '@fb-' + idMatch[1].slice(-6);
+    const patterns = window.PROFILE_PATTERNS || [];
+    for (const {regex, fmt} of patterns) {
+      const m = url.match(new RegExp(regex));
+      if (m && m.groups && m.groups.handle) {
+        return fmt.replace('{}', m.groups.handle);
+      }
     }
-    const patterns = {
-      x:         /^\/@?([A-Za-z0-9_]+)/,
-      plurk:     /^\/(?:m\/)?@?([A-Za-z0-9_]+)/,
-      threads:   /^\/@?([A-Za-z0-9_.]+)/,
-      ig:        /^\/([A-Za-z0-9_.]+)/,
-      fb:        /^\/(?:profile\.php\?id=)?([A-Za-z0-9._-]+)/,
-      bsky:      /^\/profile\/([^\/]+)/,
-      pixiv:     /^\/(?:users|member\.php\?id=)\/?([0-9]+)/,
-      doujin_tw: /^\/(?:authors|groups)\/info\/([^\/]+)/,
-      aggregator:/^\/(?:zh-tw\/|zh\/|en\/|ja\/|jp\/)?([^\/]+)/,
-      gamer:     /^\/profile\/index\.php.*owner=([A-Za-z0-9_]+)/,
-    };
-    const rx = patterns[platform];
-    if (rx) {
-      const mm = path.match(rx);
-      if (mm && mm[1]) return '@' + mm[1];
-    }
-    const sub = host.match(/^([^.]+)\.(?:booth\.pm|wixsite\.com|tumblr\.com)$/);
-    if (sub) return '@' + sub[1];
-    return host;
+    const hostMatch = url.match(/^https?:\/\/([^\/]+)/);
+    return hostMatch ? hostMatch[1].replace(/^www\./, '') : url;
   }
 
   // Sort: multi-event first, then alphabetical

@@ -648,48 +648,21 @@
         .replace(/\/+$/, '')
         .toLowerCase();
     }
-    // Unified chip label rule (2026-06-02): always show an identifier.
-    // 1. Explicit handle (if stored) wins.
-    // 2. Otherwise extract handle from URL via per-platform patterns.
-    // 3. Otherwise show the URL host (last fallback, generic / unknown).
-    function extractHandleFromUrl(url, platform) {
+    // Unified chip label rule — walks window.PROFILE_PATTERNS (generated
+    // from the author-name-resolver skill, single source of truth). First
+    // pattern whose regex matches wins; returns formatted handle.
+    function extractHandleFromUrl(url, _platform) {
       if (!url) return '';
-      const m = url.match(/^https?:\/\/([^\/]+)(\/.*)?$/);
-      if (!m) return url;
-      const host = m[1].replace(/^www\./, '');
-      const pathRaw = m[2] || '';
-      const path = pathRaw.replace(/[?#].*$/, '').replace(/\/+$/, '');
-      // FB profile.php?id=N — id lives in query string, not path
-      if (platform === 'fb') {
-        const idMatch = pathRaw.match(/profile\.php\?id=(\d+)/);
-        if (idMatch) return '@fb-' + idMatch[1].slice(-6);  // last 6 digits for brevity
+      const patterns = window.PROFILE_PATTERNS || [];
+      for (const {regex, fmt} of patterns) {
+        const m = url.match(new RegExp(regex));
+        if (m && m.groups && m.groups.handle) {
+          return fmt.replace('{}', m.groups.handle);
+        }
       }
-      // Per-platform extraction patterns
-      const patterns = {
-        x:        /^\/@?([A-Za-z0-9_]+)/,
-        plurk:    /^\/(?:m\/)?@?([A-Za-z0-9_]+)/,
-        threads:  /^\/@?([A-Za-z0-9_.]+)/,
-        ig:       /^\/([A-Za-z0-9_.]+)/,
-        fb:       /^\/(?:profile\.php\?id=|p\/[^\/]+-)?([A-Za-z0-9._-]+)/,
-        bsky:     /^\/profile\/([^\/]+)/,
-        pixiv:    /^\/(?:users|member\.php\?id=)\/?([0-9]+)/,
-        doujin_tw:/^\/(?:authors|groups)\/info\/([^\/]+)/,
-        aggregator:/^\/(?:zh-tw\/|zh\/|en\/|ja\/|jp\/)?([^\/]+)/,
-        booth_pm: null,  // subdomain-based (handle.booth.pm) — handled below
-        wix:      null,  // subdomain-based
-        blog:     null,
-        gamer:    /^\/profile\/index\.php.*owner=([A-Za-z0-9_]+)/,
-      };
-      const rx = patterns[platform];
-      if (rx) {
-        const mm = path.match(rx);
-        if (mm && mm[1]) return '@' + mm[1];
-      }
-      // Subdomain-as-handle fallback (booth.pm, wixsite.com, tumblr.com)
-      const sub = host.match(/^([^.]+)\.(?:booth\.pm|wixsite\.com|tumblr\.com)$/);
-      if (sub) return '@' + sub[1];
-      // Generic: short host as label
-      return host;
+      // Last-resort fallback: show URL host
+      const hostMatch = url.match(/^https?:\/\/([^\/]+)/);
+      return hostMatch ? hostMatch[1].replace(/^www\./, '') : url;
     }
     function addSocialChip(platform, handle, url, extraClass) {
       const norm = normSocialUrl(url);
