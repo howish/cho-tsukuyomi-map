@@ -10549,14 +10549,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_0d1b5562b0bd",
     "name": "ㄆㄐ（半熙",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/somepaet/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "unclosed_paren_alias: → ㄆㄐ + aliases ['半熙']"
   },
   "a_0eaa6aeccec1": {
     "id": "a_0eaa6aeccec1",
@@ -10726,14 +10728,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_14832f905e98",
     "name": "PEI-SHIN,WU",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/wu_pei_shin/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "punct_separated_alias: → PEI-SHIN + aliases ['WU']"
   },
   "a_16141ba45c80": {
     "id": "a_16141ba45c80",
@@ -10750,7 +10754,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_16596945aec7": {
     "id": "a_16596945aec7",
-    "name": "SZKOBO袖子（此新帳為主",
+    "name": "SZKOBO袖子",
     "name_inferred": "",
     "name_source": "ig_profile",
     "aliases": [],
@@ -10790,14 +10794,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_185e3bfd0511",
     "name": "西法（Cifer",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/alientomato_inearth/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "unclosed_paren_alias: → 西法 + aliases ['Cifer']"
   },
   "a_18d6b35ee2e8": {
     "id": "a_18d6b35ee2e8",
@@ -11046,7 +11052,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_1c428f7ee706": {
     "id": "a_1c428f7ee706",
-    "name": "Kizuki🦇創集繪S31",
+    "name": "Kizuki🦇",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -11384,7 +11390,7 @@ window.AUTHORS_BY_ID = {
     "id": "a_25c6d6a32e4d",
     "name": "Socotaku 現代御宅的基礎知識",
     "name_inferred": "",
-    "name_source": "fb_review_title_strip",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
@@ -11395,7 +11401,9 @@ window.AUTHORS_BY_ID = {
         "platform": "plurk",
         "url": "https://www.plurk.com/socotaku"
       }
-    ]
+    ],
+    "name_source_prev": "fb_review_title_strip",
+    "name_audit_reason": "event_marker: → Socotaku"
   },
   "a_262ed3c0bfc9": {
     "id": "a_262ed3c0bfc9",
@@ -11427,14 +11435,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_271cb3e4949c",
     "name": "青雨 冰(張慧捷",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/chj_joanna/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "unclosed_paren_alias: → 青雨 冰 + aliases ['張慧捷']"
   },
   "a_27833951c44b": {
     "id": "a_27833951c44b",
@@ -11446,7 +11456,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_27ca1f8a8a37": {
     "id": "a_27ca1f8a8a37",
-    "name": "南瓜｜GJ J13",
+    "name": "南瓜",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -11461,14 +11471,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_2929cdbcb8f0",
     "name": "鰹鰹ㄉ煩惱星球(◐∇◐*",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/yanyan___777/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "unclosed_paren_alias: → 鰹鰹ㄉ煩惱星球 + aliases ['◐∇◐*']"
   },
   "a_29b90a976955": {
     "id": "a_29b90a976955",
@@ -11736,7 +11748,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_32612d474b4a": {
     "id": "a_32612d474b4a",
-    "name": "優萱🍬創集繪L11",
+    "name": "優萱🍬",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -12097,7 +12109,7 @@ window.AUTHORS_BY_ID = {
     "id": "a_3ebdffd05bb9",
     "name": "",
     "name_inferred": "花開。花烙",
-    "name_source": "circle_name",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
@@ -12116,7 +12128,9 @@ window.AUTHORS_BY_ID = {
         "platform": "aggregator",
         "url": "https://linktr.ee/blossoming.faded"
       }
-    ]
+    ],
+    "name_source_prev": "circle_name",
+    "name_audit_reason": "punct_separated_alias: → 花開 + aliases ['花烙']"
   },
   "a_3f3d88330065": {
     "id": "a_3f3d88330065",
@@ -12563,7 +12577,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_4c1f1b688373": {
     "id": "a_4c1f1b688373",
-    "name": "小河🧋創集繪小百翁S11",
+    "name": "小河🧋",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -12753,14 +12767,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_50a344f18962",
     "name": "陳毅安（穂茉",
     "name_inferred": "",
-    "name_source": "fb_review_title_strip",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
         "url": "https://www.facebook.com/profile.php?id=61575655409441"
       }
-    ]
+    ],
+    "name_source_prev": "fb_review_title_strip",
+    "name_audit_reason": "unclosed_paren_alias: → 陳毅安 + aliases ['穂茉']"
   },
   "a_513c5887f723": {
     "id": "a_513c5887f723",
@@ -12803,7 +12819,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_52434df2575f": {
     "id": "a_52434df2575f",
-    "name": "杏仁豆腐 創集繪_L34",
+    "name": "杏仁豆腐",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -13019,14 +13035,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_5663a24fc490",
     "name": "innk🙏布榖町、創集繪來場感謝❤️",
     "name_inferred": "",
-    "name_source": "bsky_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "bsky",
         "url": "https://bsky.app/profile/nginnk12.bsky.social"
       }
-    ]
+    ],
+    "name_source_prev": "bsky_profile",
+    "name_audit_reason": "event_marker: → innk🙏"
   },
   "a_56d5eec0298b": {
     "id": "a_56d5eec0298b",
@@ -13598,7 +13616,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_68f7f9144ffe": {
     "id": "a_68f7f9144ffe",
-    "name": "漸絃💖GJ M31",
+    "name": "漸絃💖",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -13632,7 +13650,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_6c234df8522b": {
     "id": "a_6c234df8522b",
-    "name": "吐司🍞創集繪X02",
+    "name": "吐司🍞",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -13723,14 +13741,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_6ff340080b2a",
     "name": "YS🏍️萩ㄑㄧㄡ原推廣委員會🪽",
     "name_inferred": "",
-    "name_source": "plurk_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/gulyocat"
       }
-    ]
+    ],
+    "name_source_prev": "plurk_profile",
+    "name_audit_reason": "event_marker: → YS🏍️萩ㄑㄧㄡ原"
   },
   "a_70b4c26173c7": {
     "id": "a_70b4c26173c7",
@@ -13825,7 +13845,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_754bddfc4f71": {
     "id": "a_754bddfc4f71",
-    "name": "歪歪☞IF創集繪N31",
+    "name": "歪歪☞",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -13851,7 +13871,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_75c9bf29aed4": {
     "id": "a_75c9bf29aed4",
-    "name": "日日比🍍💀創集繪Q13",
+    "name": "日日比🍍💀",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -14244,7 +14264,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_81f0e1ac3f5d": {
     "id": "a_81f0e1ac3f5d",
-    "name": "MASAMI★創集繪【J12",
+    "name": "MASAMI★",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -14310,14 +14330,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_8372bf50b8e2",
     "name": "夜離 Yoru💙創集繪X09-10",
     "name_inferred": "",
-    "name_source": "x_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/nightleave1030"
       }
-    ]
+    ],
+    "name_source_prev": "x_profile",
+    "name_audit_reason": "event_marker: → 夜離 Yoru💙"
   },
   "a_83784034907f": {
     "id": "a_83784034907f",
@@ -14486,7 +14508,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_86a06b80cdda": {
     "id": "a_86a06b80cdda",
-    "name": "MaTo🦊創集繪W2526",
+    "name": "MaTo🦊",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -14656,7 +14678,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_8e4911013c84": {
     "id": "a_8e4911013c84",
-    "name": "鵺空✦創集繪K28",
+    "name": "鵺空✦",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -14899,14 +14921,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_975f5236b9e8",
     "name": "遠航冒險｜新石紀IF場內串聯",
     "name_inferred": "",
-    "name_source": "plurk_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/newstone"
       }
-    ]
+    ],
+    "name_source_prev": "plurk_profile",
+    "name_audit_reason": "event_marker: → 遠航冒險｜新石紀"
   },
   "a_97e01334a968": {
     "id": "a_97e01334a968",
@@ -15069,7 +15093,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_9be70f27cf26": {
     "id": "a_9be70f27cf26",
-    "name": "圭沂:GJ O09",
+    "name": "圭沂",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -15354,7 +15378,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_a56507228360": {
     "id": "a_a56507228360",
-    "name": "芥子🌱來場感謝",
+    "name": "芥子🌱",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -15421,14 +15445,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_a6d35a42ab37",
     "name": "古藤工作室 by MOMO",
     "name_inferred": "",
-    "name_source": "fb_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
         "url": "https://www.facebook.com/gutenmomo"
       }
-    ]
+    ],
+    "name_source_prev": "fb_profile",
+    "name_audit_reason": "event_marker: → 古藤工作室"
   },
   "a_a7040b545d24": {
     "id": "a_a7040b545d24",
@@ -15445,7 +15471,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_a72de8b13ec8": {
     "id": "a_a72de8b13ec8",
-    "name": "•°+夜落烏啼+°• [插畫×文創×甜點］",
+    "name": "•°+夜落烏啼+°•",
     "name_inferred": "",
     "name_source": "ig_profile",
     "aliases": [],
@@ -15545,7 +15571,7 @@ window.AUTHORS_BY_ID = {
     "id": "a_aaa559d8a745",
     "name": "古比(Gubi",
     "name_inferred": "",
-    "name_source": "aggregator_review_title_strip",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
@@ -15568,7 +15594,9 @@ window.AUTHORS_BY_ID = {
         "platform": "fb",
         "url": "https://www.facebook.com/profile.php?id=100000797014323"
       }
-    ]
+    ],
+    "name_source_prev": "aggregator_review_title_strip",
+    "name_audit_reason": "unclosed_paren_alias: → 古比 + aliases ['Gubi']"
   },
   "a_ab3819a29509": {
     "id": "a_ab3819a29509",
@@ -15777,7 +15805,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_b0ba7589e57d": {
     "id": "a_b0ba7589e57d",
-    "name": "猫又［歡迎約稿～～可詳談👌］",
+    "name": "猫又",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -15940,14 +15968,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_b659b5a7631b",
     "name": "阿吉×微光島嶼（阿吉的大雜繪",
     "name_inferred": "",
-    "name_source": "ig_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/jidraw018/"
       }
-    ]
+    ],
+    "name_source_prev": "ig_profile",
+    "name_audit_reason": "unclosed_paren_alias: → 阿吉×微光島嶼 + aliases ['阿吉的大雜繪']"
   },
   "a_b65d29c893d9": {
     "id": "a_b65d29c893d9",
@@ -15992,14 +16022,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_b90427a46f7c",
     "name": "創集繪O14🔥🌊亞矢",
     "name_inferred": "",
-    "name_source": "plurk_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/ayas929"
       }
-    ]
+    ],
+    "name_source_prev": "plurk_profile",
+    "name_audit_reason": "event_prefix: → 亞矢"
   },
   "a_b93b498d92cf": {
     "id": "a_b93b498d92cf",
@@ -16080,7 +16112,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_bd101ced774c": {
     "id": "a_bd101ced774c",
-    "name": "詠真🧡集創繪 L14",
+    "name": "詠真🧡",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -16783,7 +16815,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_d3771a5b040d": {
     "id": "a_d3771a5b040d",
-    "name": "🐤tonton-創集繪S30",
+    "name": "🐤tonton",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -16796,7 +16828,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_d40f9ba7deb6": {
     "id": "a_d40f9ba7deb6",
-    "name": "偶咦♞創集繪L01",
+    "name": "偶咦♞",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -16822,7 +16854,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_d471f0bbd86d": {
     "id": "a_d471f0bbd86d",
-    "name": "千千🍋創集繪Z16",
+    "name": "千千🍋",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -17179,7 +17211,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_debffc7254b1": {
     "id": "a_debffc7254b1",
-    "name": "冰的紅茶_創集繪_U01",
+    "name": "冰的紅茶",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -17234,7 +17266,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_df563c90ca65": {
     "id": "a_df563c90ca65",
-    "name": "濕抹布-創集繪K13",
+    "name": "濕抹布",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -17303,7 +17335,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_e0d16d646cf5": {
     "id": "a_e0d16d646cf5",
-    "name": "🏍星雪🏎創集繪N09N10🌽",
+    "name": "🏍星雪🏎",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -17381,14 +17413,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_e69e12c3070d",
     "name": "+加倍佳-五月場次感謝大家",
     "name_inferred": "",
-    "name_source": "plurk_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/karo3618"
       }
-    ]
+    ],
+    "name_source_prev": "plurk_profile",
+    "name_audit_reason": "event_marker: → +加倍佳"
   },
   "a_e7ab5fdd169f": {
     "id": "a_e7ab5fdd169f",
@@ -17669,14 +17703,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_f244df796970",
     "name": "創集繪感謝大家x凌嵐",
     "name_inferred": "",
-    "name_source": "plurk_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/ryouarashi"
       }
-    ]
+    ],
+    "name_source_prev": "plurk_profile",
+    "name_audit_reason": "event_prefix: → 感謝大家x凌嵐"
   },
   "a_f25f70ce5eaa": {
     "id": "a_f25f70ce5eaa",
@@ -17817,14 +17853,16 @@ window.AUTHORS_BY_ID = {
     "id": "a_f84bad70201f",
     "name": "薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴 創集繪M07",
     "name_inferred": "",
-    "name_source": "x_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/mcj131825526"
       }
-    ]
+    ],
+    "name_source_prev": "x_profile",
+    "name_audit_reason": "event_marker: → 薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴"
   },
   "a_f8a18d34b6b0": {
     "id": "a_f8a18d34b6b0",
@@ -17917,7 +17955,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_fa8a455a236e": {
     "id": "a_fa8a455a236e",
-    "name": "腐黑學 創集繪J05",
+    "name": "腐黑學",
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
@@ -18289,14 +18327,16 @@ window.AUTHORS_BY_ID = {
     "id": "chihlun42",
     "name": "Lun(H.C.L",
     "name_inferred": "",
-    "name_source": "x_profile",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/Chihlun42"
       }
-    ]
+    ],
+    "name_source_prev": "x_profile",
+    "name_audit_reason": "unclosed_paren_alias: → Lun + aliases ['H.C.L']"
   },
   "crazycat_47": {
     "id": "crazycat_47",
@@ -18378,7 +18418,7 @@ window.AUTHORS_BY_ID = {
   },
   "gray170220": {
     "id": "gray170220",
-    "name": "灰🌤️創集繪",
+    "name": "灰🌤️",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -18852,14 +18892,16 @@ window.AUTHORS_BY_ID = {
     "id": "nyanruikai",
     "name": "ステルスにゃんこ、幸春るいか",
     "name_inferred": "",
-    "name_source": "user",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/nyanruikai"
       }
-    ]
+    ],
+    "name_source_prev": "user",
+    "name_audit_reason": "punct_separated_alias: → ステルスにゃんこ + aliases ['幸春るいか']"
   },
   "oginoyori": {
     "id": "oginoyori",
@@ -18960,14 +19002,16 @@ window.AUTHORS_BY_ID = {
     "id": "pianorock_y",
     "name": "ピアノロック・ヤクザ、たっくん",
     "name_inferred": "",
-    "name_source": "user",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/pianorock_y"
       }
-    ]
+    ],
+    "name_source_prev": "user",
+    "name_audit_reason": "punct_separated_alias: → ピアノロック・ヤクザ + aliases ['たっくん']"
   },
   "pomeka35": {
     "id": "pomeka35",
@@ -19313,7 +19357,7 @@ window.AUTHORS_BY_ID = {
   },
   "yoyoray20001996": {
     "id": "yoyoray20001996",
-    "name": "RAYRAY🐻創集繪T35",
+    "name": "RAYRAY🐻",
     "name_inferred": "",
     "name_source": "x_profile",
     "aliases": [],
@@ -19393,14 +19437,16 @@ window.AUTHORS_BY_ID = {
     "id": "zuzuzu_222",
     "name": "そばがき、巽ぺーた",
     "name_inferred": "",
-    "name_source": "user",
+    "name_source": "audit_flagged",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
         "url": "https://x.com/zuzuzu_222"
       }
-    ]
+    ],
+    "name_source_prev": "user",
+    "name_audit_reason": "punct_separated_alias: → そばがき + aliases ['巽ぺーた']"
   }
 };
 window.BOOKS_BY_CIRCLE = {
