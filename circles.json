@@ -10558,7 +10558,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → ㄆㄐ + aliases ['半熙']"
+      "name_audit_reason": "unclosed_paren_alias: → ㄆㄐ + aliases ['半熙']",
+      "name_audit_suggestion": {
+        "name": "ㄆㄐ",
+        "aliases": [
+          "半熙"
+        ]
+      }
     },
     {
       "id": "a_0eaa6aeccec1",
@@ -10737,7 +10743,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "punct_separated_alias: → PEI-SHIN + aliases ['WU']"
+      "name_audit_reason": "punct_separated_alias: → PEI-SHIN + aliases ['WU']",
+      "name_audit_suggestion": {
+        "name": "PEI-SHIN",
+        "aliases": [
+          "WU"
+        ]
+      }
     },
     {
       "id": "a_16141ba45c80",
@@ -10803,7 +10815,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 西法 + aliases ['Cifer']"
+      "name_audit_reason": "unclosed_paren_alias: → 西法 + aliases ['Cifer']",
+      "name_audit_suggestion": {
+        "name": "西法",
+        "aliases": [
+          "Cifer"
+        ]
+      }
     },
     {
       "id": "a_18d6b35ee2e8",
@@ -11403,7 +11421,11 @@
         }
       ],
       "name_source_prev": "fb_review_title_strip",
-      "name_audit_reason": "event_marker: → Socotaku"
+      "name_audit_reason": "event_marker: → Socotaku",
+      "name_audit_suggestion": {
+        "name": "Socotaku",
+        "aliases": []
+      }
     },
     {
       "id": "a_262ed3c0bfc9",
@@ -11444,7 +11466,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 青雨 冰 + aliases ['張慧捷']"
+      "name_audit_reason": "unclosed_paren_alias: → 青雨 冰 + aliases ['張慧捷']",
+      "name_audit_suggestion": {
+        "name": "青雨 冰",
+        "aliases": [
+          "張慧捷"
+        ]
+      }
     },
     {
       "id": "a_27833951c44b",
@@ -11480,7 +11508,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 鰹鰹ㄉ煩惱星球 + aliases ['◐∇◐*']"
+      "name_audit_reason": "unclosed_paren_alias: → 鰹鰹ㄉ煩惱星球 + aliases ['◐∇◐*']",
+      "name_audit_suggestion": {
+        "name": "鰹鰹ㄉ煩惱星球",
+        "aliases": [
+          "◐∇◐*"
+        ]
+      }
     },
     {
       "id": "a_29b90a976955",
@@ -12130,7 +12164,13 @@
         }
       ],
       "name_source_prev": "circle_name",
-      "name_audit_reason": "punct_separated_alias: → 花開 + aliases ['花烙']"
+      "name_audit_reason": "punct_separated_alias: → 花開 + aliases ['花烙']",
+      "name_audit_suggestion": {
+        "name": "花開",
+        "aliases": [
+          "花烙"
+        ]
+      }
     },
     {
       "id": "a_3f3d88330065",
@@ -12776,7 +12816,13 @@
         }
       ],
       "name_source_prev": "fb_review_title_strip",
-      "name_audit_reason": "unclosed_paren_alias: → 陳毅安 + aliases ['穂茉']"
+      "name_audit_reason": "unclosed_paren_alias: → 陳毅安 + aliases ['穂茉']",
+      "name_audit_suggestion": {
+        "name": "陳毅安",
+        "aliases": [
+          "穂茉"
+        ]
+      }
     },
     {
       "id": "a_513c5887f723",
@@ -13044,7 +13090,11 @@
         }
       ],
       "name_source_prev": "bsky_profile",
-      "name_audit_reason": "event_marker: → innk🙏"
+      "name_audit_reason": "event_marker: → innk🙏",
+      "name_audit_suggestion": {
+        "name": "innk🙏",
+        "aliases": []
+      }
     },
     {
       "id": "a_56d5eec0298b",
@@ -13750,7 +13800,11 @@
         }
       ],
       "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → YS🏍️萩ㄑㄧㄡ原"
+      "name_audit_reason": "event_marker: → YS🏍️萩ㄑㄧㄡ原",
+      "name_audit_suggestion": {
+        "name": "YS🏍️萩ㄑㄧㄡ原",
+        "aliases": []
+      }
     },
     {
       "id": "a_70b4c26173c7",
@@ -14339,7 +14393,11 @@
         }
       ],
       "name_source_prev": "x_profile",
-      "name_audit_reason": "event_marker: → 夜離 Yoru💙"
+      "name_audit_reason": "event_marker: → 夜離 Yoru💙",
+      "name_audit_suggestion": {
+        "name": "夜離 Yoru💙",
+        "aliases": []
+      }
     },
     {
       "id": "a_83784034907f",
@@ -14930,7 +14988,11 @@
         }
       ],
       "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → 遠航冒險｜新石紀"
+      "name_audit_reason": "event_marker: → 遠航冒險｜新石紀",
+      "name_audit_suggestion": {
+        "name": "遠航冒險｜新石紀",
+        "aliases": []
+      }
     },
     {
       "id": "a_97e01334a968",
@@ -15454,7 +15516,11 @@
         }
       ],
       "name_source_prev": "fb_profile",
-      "name_audit_reason": "event_marker: → 古藤工作室"
+      "name_audit_reason": "event_marker: → 古藤工作室",
+      "name_audit_suggestion": {
+        "name": "古藤工作室",
+        "aliases": []
+      }
     },
     {
       "id": "a_a7040b545d24",
@@ -15596,7 +15662,13 @@
         }
       ],
       "name_source_prev": "aggregator_review_title_strip",
-      "name_audit_reason": "unclosed_paren_alias: → 古比 + aliases ['Gubi']"
+      "name_audit_reason": "unclosed_paren_alias: → 古比 + aliases ['Gubi']",
+      "name_audit_suggestion": {
+        "name": "古比",
+        "aliases": [
+          "Gubi"
+        ]
+      }
     },
     {
       "id": "a_ab3819a29509",
@@ -15977,7 +16049,13 @@
         }
       ],
       "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 阿吉×微光島嶼 + aliases ['阿吉的大雜繪']"
+      "name_audit_reason": "unclosed_paren_alias: → 阿吉×微光島嶼 + aliases ['阿吉的大雜繪']",
+      "name_audit_suggestion": {
+        "name": "阿吉×微光島嶼",
+        "aliases": [
+          "阿吉的大雜繪"
+        ]
+      }
     },
     {
       "id": "a_b65d29c893d9",
@@ -16031,7 +16109,11 @@
         }
       ],
       "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_prefix: → 亞矢"
+      "name_audit_reason": "event_prefix: → 亞矢",
+      "name_audit_suggestion": {
+        "name": "亞矢",
+        "aliases": []
+      }
     },
     {
       "id": "a_b93b498d92cf",
@@ -17422,7 +17504,11 @@
         }
       ],
       "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → +加倍佳"
+      "name_audit_reason": "event_marker: → +加倍佳",
+      "name_audit_suggestion": {
+        "name": "+加倍佳",
+        "aliases": []
+      }
     },
     {
       "id": "a_e7ab5fdd169f",
@@ -17712,7 +17798,11 @@
         }
       ],
       "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_prefix: → 感謝大家x凌嵐"
+      "name_audit_reason": "event_prefix: → 感謝大家x凌嵐",
+      "name_audit_suggestion": {
+        "name": "感謝大家x凌嵐",
+        "aliases": []
+      }
     },
     {
       "id": "a_f25f70ce5eaa",
@@ -17862,7 +17952,11 @@
         }
       ],
       "name_source_prev": "x_profile",
-      "name_audit_reason": "event_marker: → 薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴"
+      "name_audit_reason": "event_marker: → 薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴",
+      "name_audit_suggestion": {
+        "name": "薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴",
+        "aliases": []
+      }
     },
     {
       "id": "a_f8a18d34b6b0",
@@ -18336,7 +18430,13 @@
         }
       ],
       "name_source_prev": "x_profile",
-      "name_audit_reason": "unclosed_paren_alias: → Lun + aliases ['H.C.L']"
+      "name_audit_reason": "unclosed_paren_alias: → Lun + aliases ['H.C.L']",
+      "name_audit_suggestion": {
+        "name": "Lun",
+        "aliases": [
+          "H.C.L"
+        ]
+      }
     },
     {
       "id": "crazycat_47",
@@ -18901,7 +19001,13 @@
         }
       ],
       "name_source_prev": "user",
-      "name_audit_reason": "punct_separated_alias: → ステルスにゃんこ + aliases ['幸春るいか']"
+      "name_audit_reason": "punct_separated_alias: → ステルスにゃんこ + aliases ['幸春るいか']",
+      "name_audit_suggestion": {
+        "name": "ステルスにゃんこ",
+        "aliases": [
+          "幸春るいか"
+        ]
+      }
     },
     {
       "id": "oginoyori",
@@ -19011,7 +19117,13 @@
         }
       ],
       "name_source_prev": "user",
-      "name_audit_reason": "punct_separated_alias: → ピアノロック・ヤクザ + aliases ['たっくん']"
+      "name_audit_reason": "punct_separated_alias: → ピアノロック・ヤクザ + aliases ['たっくん']",
+      "name_audit_suggestion": {
+        "name": "ピアノロック・ヤクザ",
+        "aliases": [
+          "たっくん"
+        ]
+      }
     },
     {
       "id": "pomeka35",
@@ -19446,7 +19558,13 @@
         }
       ],
       "name_source_prev": "user",
-      "name_audit_reason": "punct_separated_alias: → そばがき + aliases ['巽ぺーた']"
+      "name_audit_reason": "punct_separated_alias: → そばがき + aliases ['巽ぺーた']",
+      "name_audit_suggestion": {
+        "name": "そばがき",
+        "aliases": [
+          "巽ぺーた"
+        ]
+      }
     }
   ],
   "books": [

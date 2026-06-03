@@ -643,6 +643,14 @@
 }
 .card-form button.confirm-btn:hover, .card-form button.confirm-btn:active { background: #3d8a54; }
 
+/* one-click accept-suggestion button — distinct purple so the reviewer
+   can spot "the auto-cleanup proposed something" at a glance */
+.card-form button.accept-suggestion-btn {
+  background: #7c4dff;
+}
+.card-form button.accept-suggestion-btn:hover,
+.card-form button.accept-suggestion-btn:active { background: #6438e0; }
+
 .card-form button.skip-btn {
   background: #8b8b8b;
   flex: 0 0 auto;

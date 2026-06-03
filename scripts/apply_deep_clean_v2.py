@@ -84,14 +84,20 @@ def main():
             if existing: a['aliases'] = existing
             applied += 1
         else:
-            # Flag for review
+            # Flag for review with both human-readable reason AND
+            # machine-readable suggestion (so the review UI can offer a
+            # one-click "accept" button).
             if a.get('name_source') != 'audit_flagged':
                 a.setdefault('name_source_prev', a.get('name_source', ''))
                 a['name_source'] = 'audit_flagged'
-            suggestion = f'→ {dec["after_name"]}'
+            suggestion_text = f'→ {dec["after_name"]}'
             if dec.get('after_aliases'):
-                suggestion += f' + aliases {dec["after_aliases"]}'
-            a['name_audit_reason'] = f'{dec["rule"]}: {suggestion}'
+                suggestion_text += f' + aliases {dec["after_aliases"]}'
+            a['name_audit_reason'] = f'{dec["rule"]}: {suggestion_text}'
+            a['name_audit_suggestion'] = {
+                'name': dec['after_name'],
+                'aliases': list(dec.get('after_aliases') or []),
+            }
             flagged += 1
 
     p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

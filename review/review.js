@@ -550,22 +550,40 @@
     } else {
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
 
+      // Pre-fill: if audit-flagged with a structured suggestion, default
+      // the input to the suggested name (one-click accept-able). Else
+      // fall back to name_inferred as before.
+      const suggestion = a.name_audit_suggestion || null;
+      const presetName = suggestion ? suggestion.name : (a.name_inferred || '');
+
       const nameInput = el('input', {
         type: 'text',
         name: 'name',
         placeholder: '本人の display_name',
-        value: a.name_inferred || '',
+        value: presetName,
       });
 
       const sourceSelect = el('select', { name: 'source' });
-      const defaultSource = plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
+      // When audit-flagged, restore the original (pre-flag) source as the
+      // default — the cleanup didn't change WHERE we got the name from,
+      // just normalized the value.
+      const defaultSource = (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
+        : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
         : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
         : plat === 'threads' ? 'threads_profile' : plat === 'bsky' ? 'bsky_profile'
         : plat === 'pixiv' ? 'pixiv_profile' : plat === 'doujin_tw' ? 'doujin_tw_profile'
         : plat === 'aggregator' ? 'aggregator_profile' : 'user';
+      let foundOpt = false;
       for (const o of SOURCE_OPTIONS) {
         const opt = el('option', { value: o.value }, o.label);
-        if (o.value === defaultSource) opt.selected = true;
+        if (o.value === defaultSource) { opt.selected = true; foundOpt = true; }
+        sourceSelect.appendChild(opt);
+      }
+      if (!foundOpt && defaultSource) {
+        // Original source not in dropdown (e.g. fb_review_title_strip) —
+        // append it so the reviewer can preserve it.
+        const opt = el('option', { value: defaultSource }, defaultSource);
+        opt.selected = true;
         sourceSelect.appendChild(opt);
       }
 
@@ -575,8 +593,36 @@
       row1.appendChild(sourceSelect);
       form.appendChild(row1);
 
-      // Row 2: confirm + skip
+      // Row 2: confirm + skip + (if suggestion exists) one-click accept
       const actions = el('div', { class: 'card-form-actions' });
+      if (suggestion) {
+        // ✨ Accept-suggestion button — one click commits suggested name
+        // AND queues all suggested aliases as pending adds.
+        actions.appendChild(el('button', {
+          type: 'button',
+          class: 'confirm-btn accept-suggestion-btn',
+          title: 'cleanup 提案を そのまま 採用',
+          onclick: () => {
+            pending[a.id] = {
+              author_id: a.id,
+              decision: 'rename',
+              name: suggestion.name,
+              source: defaultSource || 'user',
+            };
+            // Queue suggested aliases (dedup against existing on the author)
+            const existing = a.aliases || [];
+            const adds = (suggestion.aliases || []).filter(al => !existing.includes(al));
+            if (adds.length) {
+              pendingAliases[a.id] = (pendingAliases[a.id] || []).concat(
+                adds.filter(al => !(pendingAliases[a.id] || []).includes(al))
+              );
+              savePendingAliases(pendingAliases);
+            }
+            savePending(pending);
+            render();
+          },
+        }, '✨ 提案 採用'));
+      }
       actions.appendChild(el('button', {
         type: 'button',
         class: 'confirm-btn',
