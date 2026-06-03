@@ -197,7 +197,9 @@
   border-top: 1px dashed #d8c8e0;
 }
 
-/* Circle-level bulk action bar — ✨ 反映 all / ✅ 確定 all / ⏭ skip all */
+/* Circle-level bulk action bar — ✨ 反映 all / ✅ 確定 all / ⏭ skip all.
+   Buttons aren't inside `.card-form` so the per-class color rules from
+   the form selectors don't reach them — we set the same colors directly. */
 .circle-action-bar {
   display: flex;
   gap: 8px;
@@ -216,6 +218,12 @@
   font-weight: 600;
   color: #fff;
 }
+.circle-action-bar button.confirm-btn { background: #4a9d63; }
+.circle-action-bar button.confirm-btn:hover { background: #3d8a54; }
+.circle-action-bar button.confirm-btn.accept-suggestion-btn { background: #7c4dff; }
+.circle-action-bar button.confirm-btn.accept-suggestion-btn:hover { background: #6438e0; }
+.circle-action-bar button.skip-btn { background: #8b8b8b; }
+.circle-action-bar button.skip-btn:hover { background: #707070; }
 
 .author-panel.has-decision {
   border-color: #4a9d63;
