@@ -741,24 +741,11 @@
       membersWrap.appendChild(panel);
     });
 
-    // Pending new members for this circle — render as ghost panels
+    // Pending new members for this circle — render as editable panels so
+    // the reviewer can continue refining name / source / aliases / socials
+    // after the initial add.
     pendingNewMembers.filter(m => m.circle_id === circle.id).forEach((m, i) => {
-      const ghost = el('div', { class: 'author-panel ghost-new' });
-      ghost.appendChild(el('div', { class: 'author-panel-label' }, `👤 Author ${members.length + i + 1} (新規)`));
-      const row = el('div', { class: 'ghost-new-row' });
-      const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
-      row.appendChild(el('span', {}, `🆕 ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
-      row.appendChild(el('button', {
-        type: 'button',
-        class: 'remove-btn',
-        onclick: () => {
-          pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
-          savePendingNewMembers(pendingNewMembers);
-          render();
-        },
-      }, '×'));
-      ghost.appendChild(row);
-      membersWrap.appendChild(ghost);
+      membersWrap.appendChild(renderPendingNewMemberPanel(m, members.length + i + 1));
     });
 
     card.appendChild(membersWrap);
@@ -827,6 +814,130 @@
       if (rx.test(url)) return p;
     }
     return 'generic';
+  }
+
+  // ---- Editable panel for a pending new member ----
+  // Mirrors the existing author-panel shape but mutates the pendingNewMembers
+  // entry directly (no separate localStorage keys per draft).
+  function renderPendingNewMemberPanel(m, authorNum) {
+    const panel = el('div', { class: 'author-panel ghost-new editable' });
+    panel.appendChild(el('div', { class: 'author-panel-label' }, `👤 Author ${authorNum} (新規)`));
+
+    // Name + source row
+    const row1 = el('div', { class: 'card-form-row' });
+    const nameInput = el('input', { type: 'text', value: m.name, placeholder: '名前' });
+    nameInput.addEventListener('input', () => {
+      m.name = nameInput.value;
+      savePendingNewMembers(pendingNewMembers);
+    });
+    const sourceSel = el('select');
+    for (const o of SOURCE_OPTIONS) {
+      const opt = el('option', { value: o.value }, o.label);
+      if (o.value === m.source) opt.selected = true;
+      sourceSel.appendChild(opt);
+    }
+    sourceSel.addEventListener('change', () => {
+      m.source = sourceSel.value;
+      savePendingNewMembers(pendingNewMembers);
+    });
+    row1.appendChild(nameInput);
+    row1.appendChild(sourceSel);
+    panel.appendChild(row1);
+
+    // Aliases
+    const aliasRow = el('div', { class: 'card-alias-row' });
+    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
+    (m.aliases || []).forEach((al, idx) => {
+      const chip = el('span', { class: 'alias-chip' });
+      chip.appendChild(el('span', { class: 'alias-text' }, al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove', title: '削除',
+        onclick: () => {
+          m.aliases.splice(idx, 1);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '×'));
+      aliasRow.appendChild(chip);
+    });
+    const aliasIn = el('input', { type: 'text', placeholder: '+ 別名', class: 'add-alias-input' });
+    const aliasBtn = el('button', {
+      type: 'button', class: 'add-alias-btn',
+      onclick: () => {
+        const v = (aliasIn.value || '').trim();
+        if (!v) return;
+        m.aliases = m.aliases || [];
+        if (m.aliases.includes(v)) { alert('重複'); return; }
+        m.aliases.push(v);
+        savePendingNewMembers(pendingNewMembers);
+        aliasIn.value = '';
+        render();
+      },
+    }, '+');
+    aliasIn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); aliasBtn.click(); }
+    });
+    aliasRow.appendChild(aliasIn);
+    aliasRow.appendChild(aliasBtn);
+    panel.appendChild(aliasRow);
+
+    // Socials — chips with × + add form
+    const socRow = el('div', { class: 'card-probe-links' });
+    (m.socials || []).forEach((s, idx) => {
+      const wrap = el('span', { class: 'card-probe-link existing' });
+      wrap.appendChild(el('a', {
+        class: 'existing-link', href: s.url, target: '_blank', rel: 'noopener',
+      }, `${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 32)}`));
+      wrap.appendChild(el('button', {
+        type: 'button', class: 'existing-remove', title: 'この link を削除',
+        onclick: () => {
+          m.socials.splice(idx, 1);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '×'));
+      socRow.appendChild(wrap);
+    });
+    panel.appendChild(socRow);
+
+    const addSocRow = el('div', { class: 'card-add-social-row' });
+    const urlIn = el('input', { type: 'text', placeholder: '+ SNS URL' });
+    const urlAddBtn = el('button', {
+      type: 'button', class: 'add-alias-btn',
+      onclick: () => {
+        const u = (urlIn.value || '').trim();
+        if (!u) return;
+        const plat = detectPlatformFromUrl(u);
+        m.socials = m.socials || [];
+        // dedup vs existing in m.socials
+        if (m.socials.some(s => s.url === u)) { alert('重複'); return; }
+        m.socials.push({ platform: plat, url: u });
+        savePendingNewMembers(pendingNewMembers);
+        urlIn.value = '';
+        render();
+      },
+    }, '+ SNS');
+    urlIn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); urlAddBtn.click(); }
+    });
+    addSocRow.appendChild(urlIn);
+    addSocRow.appendChild(urlAddBtn);
+    panel.appendChild(addSocRow);
+
+    // Remove-member button
+    const removeBtn = el('button', {
+      type: 'button', class: 'skip-btn',
+      style: 'align-self: flex-start; margin-top: 8px;',
+      onclick: () => {
+        if (!confirm('この新規メンバーを削除しますか？')) return;
+        pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+        savePendingNewMembers(pendingNewMembers);
+        render();
+      },
+    }, '🗑 このメンバーを削除');
+    panel.appendChild(removeBtn);
+
+    return panel;
   }
 
   // ---- Filter UI builders ----
