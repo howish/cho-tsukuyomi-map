@@ -9,6 +9,8 @@ circles.json. Each decision is one of:
                  socials: [{platform, url}], aliases?: [...]}
   - add_circle_social: {circle_id, decision: "add_circle_social",
                         platform, url}   (合同 SNS — appends to circle.socials[])
+  - remove_social: {author_id, decision: "remove_social", url}
+                   (removes matching URL from author.socials[])
   - remove_member: {author_id, circle_id, decision: "remove_member"}
                    (drops author_id from circle.members[]; the author record
                    itself is preserved in case it's a member of other circles)
@@ -35,6 +37,22 @@ import sys
 from pathlib import Path
 
 
+# Platform-name aliases — review queue UI may emit "linktree" / "linktr_ee"
+# but our internal canonical is "aggregator" (lit.link/linktr.ee/portaly.cc).
+PLATFORM_ALIAS = {
+    'linktree': 'aggregator',
+    'linktr_ee': 'aggregator',
+    'litlink': 'aggregator',
+    'lit_link': 'aggregator',
+    'portaly': 'aggregator',
+    'portaly_cc': 'aggregator',
+}
+
+
+def canon_platform(p: str) -> str:
+    return PLATFORM_ALIAS.get(p, p)
+
+
 def norm_url(u: str) -> str:
     if not u: return ''
     return (u.replace('http://', '').replace('https://', '')
@@ -53,7 +71,7 @@ def main():
     d = json.loads(p.read_text(encoding='utf-8'))
     by_id = {a['id']: a for a in d['authors']}
 
-    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'remove_member': 0, 'skip': 0, 'skipped': 0}
+    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'remove_member': 0, 'remove_social': 0, 'skip': 0, 'skipped': 0}
     notes = []
     circles_by_id = {c['id']: c for c in d['circles']}
 
@@ -106,7 +124,7 @@ def main():
                     if not url or norm_url(url) in seen: continue
                     seen.add(norm_url(url))
                     new_author['socials'].append({
-                        'platform': s.get('platform') or 'generic',
+                        'platform': canon_platform(s.get('platform') or 'generic'),
                         'url': url,
                     })
                 d['authors'].append(new_author)
@@ -123,7 +141,7 @@ def main():
                 counts['skipped'] += 1
                 continue
             url = (dec.get('url') or '').strip()
-            plat = dec.get('platform') or 'generic'
+            plat = canon_platform(dec.get('platform') or 'generic')
             if not url:
                 notes.append(f'  add_circle_social to {cid}: empty url, skipped')
                 counts['skipped'] += 1
@@ -164,7 +182,7 @@ def main():
 
         elif kind == 'add_social':
             url = (dec.get('url') or '').strip()
-            plat = dec.get('platform') or 'generic'
+            plat = canon_platform(dec.get('platform') or 'generic')
             if not url:
                 notes.append(f'  {aid}: add_social empty url, skipped')
                 counts['skipped'] += 1
@@ -179,6 +197,22 @@ def main():
             socials.append(entry)
             a['socials'] = socials
             counts['add_social'] += 1
+
+        elif kind == 'remove_social':
+            url = (dec.get('url') or '').strip()
+            if not url:
+                notes.append(f'  {aid}: remove_social empty url, skipped')
+                counts['skipped'] += 1
+                continue
+            n = norm_url(url)
+            socials = a.get('socials') or []
+            kept = [s for s in socials if norm_url(s.get('url', '')) != n]
+            if len(kept) != len(socials):
+                a['socials'] = kept
+                counts['remove_social'] += 1
+            else:
+                notes.append(f'  {aid}: remove_social url not found, skipped')
+                counts['skipped'] += 1
 
         elif kind == 'remove_member':
             cid = dec.get('circle_id')

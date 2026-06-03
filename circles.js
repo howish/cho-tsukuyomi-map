@@ -9484,9 +9484,15 @@ window.CIRCLES_BY_ID = {
     "id": "nyanruikai",
     "circle_name": "にゃんるい会",
     "members": [
-      "nyanruikai"
+      "nyanruikai",
+      "ruuuika"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "x",
+        "url": "https://x.com/nyanruikai"
+      }
+    ],
     "events": [
       {
         "slug": "yaoyoro-2026-06",
@@ -13391,11 +13397,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_6147be126a7b": {
     "id": "a_6147be126a7b",
-    "name": "",
+    "name": "PIN製造所",
     "name_inferred": "PIN製造所",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/pinillustration/"
+      }
+    ]
   },
   "a_61d10fdad8f3": {
     "id": "a_61d10fdad8f3",
@@ -14583,14 +14594,22 @@ window.AUTHORS_BY_ID = {
   },
   "a_881d7d0eb6fc": {
     "id": "a_881d7d0eb6fc",
-    "name": "",
+    "name": "My Garden我的庭園(毛毛氈創作坊)",
     "name_inferred": "My Garden我的庭園(毛毛氈創作坊)",
-    "name_source": "circle_name",
+    "name_source": "fb_profile",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
         "url": "https://www.facebook.com/MyGardenMyLife"
+      },
+      {
+        "platform": "aggregator",
+        "url": "https://linktr.ee/mygardenmylife"
+      },
+      {
+        "platform": "pinkoi",
+        "url": "https://www.pinkoi.com/store/mygardenmylife"
       }
     ]
   },
@@ -14669,11 +14688,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_8de56617ff3b": {
     "id": "a_8de56617ff3b",
-    "name": "",
+    "name": "Liuyingchieh",
     "name_inferred": "Liuyingchieh",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "http://liuyingchieh.com/"
+      }
+    ]
   },
   "a_8e4911013c84": {
     "id": "a_8e4911013c84",
@@ -15237,14 +15261,18 @@ window.AUTHORS_BY_ID = {
   },
   "a_a01223411b00": {
     "id": "a_a01223411b00",
-    "name": "",
+    "name": "OrangeDragon橘子龍龍",
     "name_inferred": "OrangeDragon橘子龍龍",
-    "name_source": "circle_name",
+    "name_source": "ig_profile",
     "aliases": [],
     "socials": [
       {
         "platform": "ig",
         "url": "https://www.instagram.com/chang_yu_i/"
+      },
+      {
+        "platform": "aggregator",
+        "url": "https://lit.link/zh-tw/changyui"
       }
     ]
   },
@@ -16243,7 +16271,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "安安淡定",
     "name_source": "circle_name",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/permy1332"
+      }
+    ]
   },
   "a_c175e7f1ab0d": {
     "id": "a_c175e7f1ab0d",
@@ -18877,24 +18910,16 @@ window.AUTHORS_BY_ID = {
   },
   "nyanruikai": {
     "id": "nyanruikai",
-    "name": "ステルスにゃんこ、幸春るいか",
+    "name": "ステルスにゃんこ",
     "name_inferred": "",
-    "name_source": "audit_flagged",
+    "name_source": "user",
     "aliases": [],
     "socials": [
       {
         "platform": "x",
-        "url": "https://x.com/nyanruikai"
+        "url": "https://x.com/stealthnyancos"
       }
-    ],
-    "name_source_prev": "user",
-    "name_audit_reason": "punct_separated_alias: → ステルスにゃんこ + aliases ['幸春るいか']",
-    "name_audit_suggestion": {
-      "name": "ステルスにゃんこ",
-      "aliases": [
-        "幸春るいか"
-      ]
-    }
+    ]
   },
   "oginoyori": {
     "id": "oginoyori",
@@ -19078,6 +19103,19 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "url": "https://x.com/rito_yu6039"
+      }
+    ]
+  },
+  "ruuuika": {
+    "id": "ruuuika",
+    "name": "幸春るいか",
+    "name_inferred": "",
+    "name_source": "user",
+    "aliases": [],
+    "socials": [
+      {
+        "platform": "x",
+        "url": "https://x.com/ruuuika"
       }
     ]
   },

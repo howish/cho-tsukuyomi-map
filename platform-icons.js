@@ -19,6 +19,7 @@ window.PLATFORM_ICON_SVG = {
 window.PLATFORM_ICON_FALLBACK = {
   doujin_tw: '本', aggregator: '🔗', generic: '🔗',
   booth_pm: '🛒', marshmallow: '🌸', gamer: '🐉', blog: '📓',
+  pinkoi: '🛍',
 };
 
 /* Returns an inline <svg> Node (when SVG path exists) or a Text Node

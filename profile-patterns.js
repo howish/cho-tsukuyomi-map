@@ -89,8 +89,13 @@ window.PROFILE_PATTERNS = [
     "fmt": "@{}"
   },
   {
+    "platform": "pinkoi",
+    "regex": "^https?://(?:www\\.)?pinkoi\\.com/store/(?<handle>[A-Za-z0-9_-]+)/?$",
+    "fmt": "@{}"
+  },
+  {
     "platform": "generic",
-    "regex": "^https?://(?<handle>[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+){1,3})/(?:[A-Za-z0-9_./-]{1,40})?/?$",
+    "regex": "^https?://(?<handle>[a-z0-9-]+\\.[a-z]{2,8})/?$",
     "fmt": "{}"
   }
 ];
