@@ -13235,13 +13235,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3i2nll7mkt",
-    "socials": [
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3i2nll7mkt",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_4d1266cd5c08": {
     "id": "a_4d1266cd5c08",
@@ -14541,21 +14535,6 @@ window.AUTHORS_BY_ID = {
         "handle": "@rakerrabbit"
       },
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE",
-        "handle": ""
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/media/set/?set=a.685021834474963&type=3",
-        "handle": ""
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/raker natsume",
-        "handle": ""
-      },
-      {
         "platform": "fb",
         "url": "https://www.facebook.com/raker.natsume.0701",
         "handle": ""
@@ -14622,13 +14601,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3icizou1me",
-    "socials": [
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3icizou1me",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_6cb2c1bac97e": {
     "id": "a_6cb2c1bac97e",
@@ -15773,11 +15746,6 @@ window.AUTHORS_BY_ID = {
         "platform": "generic",
         "url": "https://www.doujin.com.tw/authors/info/beautywind",
         "handle": "@beautywind"
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/ncgdni",
-        "handle": "@ncgdni"
       }
     ]
   },
@@ -15947,13 +15915,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://facebook.com/media/set/?set=a.10160389843616259",
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://facebook.com/media/set/?set=a.10160389843616259",
-        "handle": "media"
-      }
-    ]
+    "socials": []
   },
   "a_8e4911013c84": {
     "id": "a_8e4911013c84",
@@ -16420,11 +16382,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/yyoaooao",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/ot76v9",
         "handle": ""
       },
       {
@@ -17658,11 +17615,6 @@ window.AUTHORS_BY_ID = {
         "platform": "fb",
         "url": "https://www.facebook.com/shadowsinkincoffee/",
         "handle": "shadowsinkincoffee"
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3ipcz6llj1",
-        "handle": "@貓小喳"
       }
     ]
   },
@@ -18202,11 +18154,6 @@ window.AUTHORS_BY_ID = {
       },
       {
         "platform": "plurk",
-        "url": "https://www.plurk.com/p/3gzf0k3gw3",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
         "url": "https://www.plurk.com/Evapenghaoyu",
         "handle": ""
       },
@@ -18287,11 +18234,6 @@ window.AUTHORS_BY_ID = {
         "platform": "booth_pm",
         "url": "https://interweave.booth.pm/",
         "handle": "BOOTH"
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3ipsk965nk",
-        "handle": "@夜夢ND"
       }
     ]
   },
@@ -18541,13 +18483,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3gvbo8hc97",
-    "socials": [
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3gvbo8hc97",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_cd83e224c7e8": {
     "id": "a_cd83e224c7e8",
@@ -19544,22 +19480,7 @@ window.AUTHORS_BY_ID = {
       },
       {
         "platform": "plurk",
-        "url": "https://www.plurk.com/p/3icdnutc1g",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3ip85jffqc",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
         "url": "https://www.plurk.com/kyou_work",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3iq81pi7lw",
         "handle": ""
       },
       {
@@ -20014,13 +19935,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://www.plurk.com/p/3gkmcbw7hv",
-    "socials": [
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/p/3gkmcbw7hv",
-        "handle": ""
-      }
-    ]
+    "socials": []
   },
   "a_f5f6f1418798": {
     "id": "a_f5f6f1418798",
