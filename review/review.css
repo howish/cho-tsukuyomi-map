@@ -197,6 +197,26 @@
   border-top: 1px dashed #d8c8e0;
 }
 
+/* Circle-level bulk action bar — ✨ 反映 all / ✅ 確定 all / ⏭ skip all */
+.circle-action-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #d8c8e0;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.circle-action-bar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+
 .author-panel.has-decision {
   border-color: #4a9d63;
   background: #e8f5ed;

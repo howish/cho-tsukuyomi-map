@@ -626,7 +626,11 @@
       }, '取消'));
       card.appendChild(dDiv);
     } else {
-      // Existing-author, no decision yet — show form with ✨/✅/⏭.
+      // Existing-author, no decision yet — show name + source inputs, but
+      // NO action buttons here. Bulk ✨/✅/⏭ buttons live at circle level
+      // (per howish — most circles are 1-author so circle-level is cleaner).
+      // The closure that knows about THIS panel's inputs is registered with
+      // opts.committer so the bulk button can read each panel's draft state.
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
       const suggestion = a.name_audit_suggestion || null;
       const presetName = suggestion ? suggestion.name : (a.name_inferred || '');
@@ -659,14 +663,17 @@
       row1.appendChild(nameInput);
       row1.appendChild(sourceSelect);
       form.appendChild(row1);
+      card.appendChild(form);
 
-      const actions = el('div', { class: 'card-form-actions' });
-      if (suggestion) {
-        actions.appendChild(el('button', {
-          type: 'button',
-          class: 'confirm-btn accept-suggestion-btn',
-          title: '提案を入力欄に反映 — 確定するには ✅ を押す',
-          onclick: () => {
+      // Register this panel's commit / skip / suggestion handlers so the
+      // circle-level bulk action area can drive them. Skip if no committer
+      // (caller didn't provide one — render-without-bulk fallback).
+      if (opts.committer) {
+        opts.committer.push({
+          authorId: a.id,
+          hasSuggestion: !!suggestion,
+          applySuggestion: () => {
+            if (!suggestion) return;
             nameInput.value = suggestion.name;
             const existing = a.aliases || [];
             const alreadyPending = pendingAliases[a.id] || [];
@@ -677,37 +684,23 @@
               pendingAliases[a.id] = alreadyPending.concat(adds);
               savePendingAliases(pendingAliases);
             }
-            render();
           },
-        }, '✨ 提案 反映'));
-      }
-      actions.appendChild(el('button', {
-        type: 'button',
-        class: 'confirm-btn',
-        onclick: () => {
-          const name = (nameInput.value || '').trim();
-          const source = sourceSelect.value;
-          if (source === 'user_unknown') {
-            pending[a.id] = { author_id: a.id, decision: 'skip' };
-          } else {
-            if (!name) { alert('name を入力してください'); return; }
+          commit: () => {
+            const name = (nameInput.value || '').trim();
+            const source = sourceSelect.value;
+            if (source === 'user_unknown') {
+              pending[a.id] = { author_id: a.id, decision: 'skip' };
+              return true;
+            }
+            if (!name) return false;  // skip silently — bulk button moves on
             pending[a.id] = { author_id: a.id, decision: 'rename', name, source };
-          }
-          savePending(pending);
-          render();
-        },
-      }, '✅ 確定'));
-      actions.appendChild(el('button', {
-        type: 'button',
-        class: 'skip-btn',
-        onclick: () => {
-          pending[a.id] = { author_id: a.id, decision: 'skip' };
-          savePending(pending);
-          render();
-        },
-      }, '⏭ skip'));
-      form.appendChild(actions);
-      card.appendChild(form);
+            return true;
+          },
+          skip: () => {
+            pending[a.id] = { author_id: a.id, decision: 'skip' };
+          },
+        });
+      }
     }
 
     return card;
@@ -836,12 +829,15 @@
     card.appendChild(cAddBlock);
 
     // Members — unified renderAuthorPanel for both existing authors AND
-    // pending new-member drafts. authorNum increments across the merged list
-    // so labels read "Author 1 (default) / Author 2 (新規) / ..." naturally.
+    // pending new-member drafts. Existing-author panels register their
+    // commit handlers with `committers` so the circle-level bulk action
+    // bar at the bottom can drive ✅/⏭/✨ across all members in one go.
+    const committers = [];
     const membersWrap = el('div', { class: 'circle-card-members' });
     members.forEach((a, i) => {
       membersWrap.appendChild(renderAuthorPanel({
         author: a, authorNum: i + 1, isDefault: i === 0,
+        committer: committers,
       }));
     });
     pendingNewMembers.filter(m => m.circle_id === circle.id).forEach((m, i) => {
@@ -905,6 +901,52 @@
     }, '+ メンバー追加');
     addSect.appendChild(addBtn);
     card.appendChild(addSect);
+
+    // ---- Circle-level bulk action bar ----
+    // Only render if there's at least one undecided existing-author panel
+    // (committers list is populated). Buttons act on every committer in
+    // sequence.
+    if (committers.length) {
+      const bar = el('div', { class: 'circle-action-bar' });
+      const hasAnySuggestion = committers.some(c => c.hasSuggestion);
+      if (hasAnySuggestion) {
+        bar.appendChild(el('button', {
+          type: 'button',
+          class: 'confirm-btn accept-suggestion-btn',
+          title: '全 author の deep-clean 提案を入力欄に反映 (確定はまだ)',
+          onclick: () => {
+            committers.forEach(c => { if (c.hasSuggestion) c.applySuggestion(); });
+            render();
+          },
+        }, '✨ 提案 反映 all'));
+      }
+      bar.appendChild(el('button', {
+        type: 'button',
+        class: 'confirm-btn',
+        title: '全 author の name を確定',
+        onclick: () => {
+          let okCount = 0;
+          committers.forEach(c => { if (c.commit()) okCount++; });
+          savePending(pending);
+          if (okCount === 0) {
+            alert('確定できる author がいません (name 空など)');
+          }
+          render();
+        },
+      }, '✅ 確定 all'));
+      bar.appendChild(el('button', {
+        type: 'button',
+        class: 'skip-btn',
+        title: '全 author を skip (本名不明扱い)',
+        onclick: () => {
+          if (!confirm('このサークル全 author を skip にしますか？')) return;
+          committers.forEach(c => c.skip());
+          savePending(pending);
+          render();
+        },
+      }, '⏭ skip all'));
+      card.appendChild(bar);
+    }
 
     return card;
   }
