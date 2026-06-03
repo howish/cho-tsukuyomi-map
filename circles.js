@@ -10195,8 +10195,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@CATGIRL0926",
-        "url": "https://www.plurk.com/CATGIRL0926"
+        "url": "https://www.plurk.com/CATGIRL0926",
+        "handle": "@CATGIRL0926"
       }
     ]
   },
@@ -10211,8 +10211,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@kuriimuda",
-        "url": "https://www.plurk.com/u/kuriimuda"
+        "url": "https://www.plurk.com/u/kuriimuda",
+        "handle": "@kuriimuda"
       }
     ]
   },
@@ -10227,23 +10227,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/inabatok"
+        "url": "https://www.doujin.com.tw/authors/info/inabatok",
+        "handle": ""
       },
       {
         "platform": "blog",
-        "handle": "@inabatok.tumblr.com",
-        "url": "https://inabatok.tumblr.com/"
+        "url": "https://inabatok.tumblr.com/",
+        "handle": "@inabatok.tumblr.com"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=219951"
+        "url": "https://www.pixiv.net/member.php?id=219951",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@ina814",
-        "url": "https://www.plurk.com/ina814"
+        "url": "https://www.plurk.com/ina814",
+        "handle": "@ina814"
       }
     ]
   },
@@ -10258,8 +10258,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@maruoo0121",
-        "url": "https://www.instagram.com/maruoo0121/"
+        "url": "https://www.instagram.com/maruoo0121/",
+        "handle": "@maruoo0121"
       }
     ]
   },
@@ -10274,8 +10274,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@hallucinogens",
-        "url": "https://www.plurk.com/hallucinogens"
+        "url": "https://www.plurk.com/hallucinogens",
+        "handle": "@hallucinogens"
       }
     ]
   },
@@ -10290,8 +10290,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@bibirooom",
-        "url": "https://www.instagram.com/bibirooom/"
+        "url": "https://www.instagram.com/bibirooom/",
+        "handle": "@bibirooom"
       }
     ]
   },
@@ -10306,8 +10306,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61551985…",
-        "url": "https://www.facebook.com/profile.php?id=61551985430535#"
+        "url": "https://www.facebook.com/profile.php?id=61551985430535#",
+        "handle": "profile 61551985…"
       }
     ]
   },
@@ -10332,8 +10332,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@kumalongrule34",
-        "url": "https://x.com/kumalongrule34"
+        "url": "https://x.com/kumalongrule34",
+        "handle": "@kumalongrule34"
       }
     ]
   },
@@ -10358,8 +10358,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@mlo_8828",
-        "url": "https://www.plurk.com/mlo_8828"
+        "url": "https://www.plurk.com/mlo_8828",
+        "handle": "@mlo_8828"
       }
     ]
   },
@@ -10374,8 +10374,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@blamonho",
-        "url": "https://www.instagram.com/blamonho/"
+        "url": "https://www.instagram.com/blamonho/",
+        "handle": "@blamonho"
       }
     ]
   },
@@ -10390,8 +10390,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@shanshanrun",
-        "url": "https://www.instagram.com/shanshanrun/"
+        "url": "https://www.instagram.com/shanshanrun/",
+        "handle": "@shanshanrun"
       }
     ]
   },
@@ -10406,8 +10406,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "sonehareko",
-        "url": "https://www.facebook.com/sonehareko/"
+        "url": "https://www.facebook.com/sonehareko/",
+        "handle": "sonehareko"
       }
     ]
   },
@@ -10422,8 +10422,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@xuan___0719",
-        "url": "https://www.threads.com/@xuan___0719"
+        "url": "https://www.threads.com/@xuan___0719",
+        "handle": "@xuan___0719"
       }
     ]
   },
@@ -10438,13 +10438,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "@sakuracoffee",
-        "url": "https://www.doujin.com.tw/authors/info/sakuracoffee"
+        "url": "https://www.doujin.com.tw/authors/info/sakuracoffee",
+        "handle": "@sakuracoffee"
       },
       {
         "platform": "plurk",
-        "handle": "@90465000",
-        "url": "https://www.plurk.com/90465000"
+        "url": "https://www.plurk.com/90465000",
+        "handle": "@90465000"
       }
     ]
   },
@@ -10459,8 +10459,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "cherryblossomfactory",
-        "url": "https://www.facebook.com/cherryblossomfactory"
+        "url": "https://www.facebook.com/cherryblossomfactory",
+        "handle": "cherryblossomfactory"
       }
     ]
   },
@@ -10485,8 +10485,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "gamer",
-        "handle": "巴哈姆特",
-        "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth"
+        "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth",
+        "handle": "巴哈姆特"
       }
     ]
   },
@@ -10501,8 +10501,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@tsaox",
-        "url": "https://www.plurk.com/tsaox"
+        "url": "https://www.plurk.com/tsaox",
+        "handle": "@tsaox"
       }
     ]
   },
@@ -10517,8 +10517,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://babygollgo.pixnet.net/blog"
+        "url": "https://babygollgo.pixnet.net/blog",
+        "handle": ""
       }
     ]
   },
@@ -10533,8 +10533,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@bearjiajia625",
-        "url": "https://www.instagram.com/bearjiajia625/"
+        "url": "https://www.instagram.com/bearjiajia625/",
+        "handle": "@bearjiajia625"
       }
     ]
   },
@@ -10549,8 +10549,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@Mi_key",
-        "url": "https://www.plurk.com/Mi_key"
+        "url": "https://www.plurk.com/Mi_key",
+        "handle": "@Mi_key"
       }
     ]
   },
@@ -10565,8 +10565,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "na.zhi.lu",
-        "url": "https://www.facebook.com/na.zhi.lu/"
+        "url": "https://www.facebook.com/na.zhi.lu/",
+        "handle": "na.zhi.lu"
       }
     ]
   },
@@ -10581,8 +10581,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://morefate.com/"
+        "url": "https://morefate.com/",
+        "handle": ""
       }
     ]
   },
@@ -10597,8 +10597,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@kure_kyouu",
-        "url": "https://x.com/kure_kyouu"
+        "url": "https://x.com/kure_kyouu",
+        "handle": "@kure_kyouu"
       }
     ]
   },
@@ -10623,8 +10623,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@miyakocat",
-        "url": "https://www.plurk.com/miyakocat"
+        "url": "https://www.plurk.com/miyakocat",
+        "handle": "@miyakocat"
       }
     ]
   },
@@ -10639,8 +10639,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@somepaet",
-        "url": "https://www.instagram.com/somepaet/"
+        "url": "https://www.instagram.com/somepaet/",
+        "handle": "@somepaet"
       }
     ]
   },
@@ -10655,8 +10655,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "puffbunny.oo.p",
-        "url": "facebook.com/puffbunny.oo.p"
+        "url": "https://facebook.com/puffbunny.oo.p",
+        "handle": "puffbunny.oo.p"
       }
     ]
   },
@@ -10681,8 +10681,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "pixiv",
-        "handle": "Pixiv 612797",
-        "url": "https://www.pixiv.net/users/612797"
+        "url": "https://www.pixiv.net/users/612797",
+        "handle": "Pixiv 612797"
       }
     ]
   },
@@ -10697,8 +10697,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "whitericebear",
-        "url": "https://www.facebook.com/whitericebear"
+        "url": "https://www.facebook.com/whitericebear",
+        "handle": "whitericebear"
       }
     ]
   },
@@ -10713,8 +10713,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@small_lauchui_p",
-        "url": "https://www.instagram.com/small_lauchui_p/"
+        "url": "https://www.instagram.com/small_lauchui_p/",
+        "handle": "@small_lauchui_p"
       }
     ]
   },
@@ -10729,8 +10729,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "MrFBA2",
-        "url": "https://www.facebook.com/MrFBA2/"
+        "url": "https://www.facebook.com/MrFBA2/",
+        "handle": "MrFBA2"
       }
     ]
   },
@@ -10745,8 +10745,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "KARASoshigata",
-        "url": "https://www.facebook.com/KARASoshigata"
+        "url": "https://www.facebook.com/KARASoshigata",
+        "handle": "KARASoshigata"
       }
     ]
   },
@@ -10761,8 +10761,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@shinstudio.tc",
-        "url": "https://www.instagram.com/shinstudio.tc/"
+        "url": "https://www.instagram.com/shinstudio.tc/",
+        "handle": "@shinstudio.tc"
       }
     ]
   },
@@ -10777,8 +10777,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@giwa10310425",
-        "url": "https://www.plurk.com/giwa10310425"
+        "url": "https://www.plurk.com/giwa10310425",
+        "handle": "@giwa10310425"
       }
     ]
   },
@@ -10793,8 +10793,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://hwulu.com/"
+        "url": "https://hwulu.com/",
+        "handle": ""
       }
     ]
   },
@@ -10809,8 +10809,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@natsuki6795",
-        "url": "https://www.instagram.com/natsuki6795/"
+        "url": "https://www.instagram.com/natsuki6795/",
+        "handle": "@natsuki6795"
       }
     ]
   },
@@ -10825,8 +10825,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ben_artbb",
-        "url": "https://www.instagram.com/ben_artbb/"
+        "url": "https://www.instagram.com/ben_artbb/",
+        "handle": "@ben_artbb"
       }
     ]
   },
@@ -10841,13 +10841,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@uanuan_93",
-        "url": "https://x.com/uanuan_93"
+        "url": "https://x.com/uanuan_93",
+        "handle": "@uanuan_93"
       },
       {
         "platform": "fb",
-        "handle": "shirai-100072024726705",
-        "url": "https://www.facebook.com/p/%E5%A3%AB%E9%9B%B7shirai-100072024726705"
+        "url": "https://www.facebook.com/p/%E5%A3%AB%E9%9B%B7shirai-100072024726705",
+        "handle": "shirai-100072024726705"
       }
     ]
   },
@@ -10862,8 +10862,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@wu_pei_shin",
-        "url": "https://www.instagram.com/wu_pei_shin/"
+        "url": "https://www.instagram.com/wu_pei_shin/",
+        "handle": "@wu_pei_shin"
       }
     ]
   },
@@ -10878,8 +10878,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yamyoukan",
-        "url": "https://www.facebook.com/yamyoukan/"
+        "url": "https://www.facebook.com/yamyoukan/",
+        "handle": "yamyoukan"
       }
     ]
   },
@@ -10894,8 +10894,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@szkobo.new",
-        "url": "https://www.instagram.com/szkobo.new/"
+        "url": "https://www.instagram.com/szkobo.new/",
+        "handle": "@szkobo.new"
       }
     ]
   },
@@ -10920,18 +10920,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/6122/books"
+        "url": "https://www.doujin.com.tw/groups/info/6122/books",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@shuliy",
-        "url": "https://www.doujin.com.tw/authors/info/shuliy"
+        "url": "https://www.doujin.com.tw/authors/info/shuliy",
+        "handle": "@shuliy"
       },
       {
         "platform": "plurk",
-        "handle": "@shuliy",
-        "url": "https://www.plurk.com/shuliy"
+        "url": "https://www.plurk.com/shuliy",
+        "handle": "@shuliy"
       }
     ]
   },
@@ -10946,8 +10946,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@alientomato_inearth",
-        "url": "https://www.instagram.com/alientomato_inearth/"
+        "url": "https://www.instagram.com/alientomato_inearth/",
+        "handle": "@alientomato_inearth"
       }
     ]
   },
@@ -10962,8 +10962,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ninjin_tabenai",
-        "url": "https://www.instagram.com/ninjin_tabenai/"
+        "url": "https://www.instagram.com/ninjin_tabenai/",
+        "handle": "@ninjin_tabenai"
       }
     ]
   },
@@ -10978,8 +10978,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "SRboss",
-        "url": "https://www.facebook.com/SRboss"
+        "url": "https://www.facebook.com/SRboss",
+        "handle": "SRboss"
       }
     ]
   },
@@ -10994,43 +10994,43 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/FutureImagesTW"
+        "url": "https://lit.link/en/FutureImagesTW",
+        "handle": "lit.link"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/RinHuei"
+        "url": "https://twitter.com/RinHuei",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/FutureImagesTW"
+        "url": "https://twitter.com/FutureImagesTW",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@FutureImagesTW"
+        "url": "https://www.youtube.com/@FutureImagesTW",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/futureimages"
+        "url": "https://www.plurk.com/futureimages",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@futureimages.tw"
+        "url": "https://www.threads.net/@futureimages.tw",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/futureimages.tw/"
+        "url": "https://www.instagram.com/futureimages.tw/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/FutureImages.TW"
+        "url": "https://www.facebook.com/FutureImages.TW",
+        "handle": ""
       }
     ]
   },
@@ -11045,18 +11045,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/x_milllllla_x_nekohige"
+        "url": "https://lit.link/zh-tw/x_milllllla_x_nekohige",
+        "handle": "lit.link"
       },
       {
         "platform": "threads",
-        "handle": "@x_milllllla_x (米拉)",
-        "url": "https://www.threads.com/@x_milllllla_x"
+        "url": "https://www.threads.com/@x_milllllla_x",
+        "handle": "@x_milllllla_x (米拉)"
       },
       {
         "platform": "threads",
-        "handle": "@nekohige0123 (鬍鬚)",
-        "url": "https://www.threads.com/@nekohige0123"
+        "url": "https://www.threads.com/@nekohige0123",
+        "handle": "@nekohige0123 (鬍鬚)"
       }
     ]
   },
@@ -11071,8 +11071,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@ninanon_15",
-        "url": "https://www.threads.com/@ninanon_15"
+        "url": "https://www.threads.com/@ninanon_15",
+        "handle": "@ninanon_15"
       }
     ]
   },
@@ -11087,8 +11087,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@PropellerWalker",
-        "url": "https://x.com/PropellerWalker"
+        "url": "https://x.com/PropellerWalker",
+        "handle": "@PropellerWalker"
       }
     ]
   },
@@ -11103,8 +11103,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@100810w",
-        "url": "https://www.instagram.com/100810w/"
+        "url": "https://www.instagram.com/100810w/",
+        "handle": "@100810w"
       }
     ]
   },
@@ -11119,18 +11119,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/yeijijia"
+        "url": "https://lit.link/zh-tw/yeijijia",
+        "handle": "lit.link"
       },
       {
         "platform": "x",
-        "handle": "@yezijia1",
-        "url": "https://x.com/yezijia1"
+        "url": "https://x.com/yezijia1",
+        "handle": "@yezijia1"
       },
       {
         "platform": "pixiv",
-        "handle": "多多",
-        "url": "https://www.pixiv.net/users/21810609"
+        "url": "https://www.pixiv.net/users/21810609",
+        "handle": "多多"
       }
     ]
   },
@@ -11145,8 +11145,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@takapiyo",
-        "url": "https://twitter.com/takapiyo"
+        "url": "https://twitter.com/takapiyo",
+        "handle": "@takapiyo"
       }
     ]
   },
@@ -11171,8 +11171,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@lian4302",
-        "url": "https://www.plurk.com/lian4302"
+        "url": "https://www.plurk.com/lian4302",
+        "handle": "@lian4302"
       }
     ]
   },
@@ -11187,48 +11187,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/eecircle"
+        "url": "https://lit.link/zh-tw/eecircle",
+        "handle": "lit.link"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/eecircle/"
+        "url": "https://www.instagram.com/eecircle/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/eecircle"
+        "url": "https://www.facebook.com/eecircle",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/5045552"
+        "url": "https://www.pixiv.net/users/5045552",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/eecircle_yuan"
+        "url": "https://twitter.com/eecircle_yuan",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@eecircle?igshid=NTc4MTIwNjQ2YQ=="
+        "url": "https://www.threads.com/@eecircle?igshid=NTc4MTIwNjQ2YQ==",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/f741852guy"
+        "url": "https://www.plurk.com/f741852guy",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/f741852guy/goods"
+        "url": "https://www.doujin.com.tw/authors/info/f741852guy/goods",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@circleee7181"
+        "url": "https://www.youtube.com/@circleee7181",
+        "handle": ""
       }
     ]
   },
@@ -11243,8 +11243,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@juatpass",
-        "url": "https://www.plurk.com/juatpass"
+        "url": "https://www.plurk.com/juatpass",
+        "handle": "@juatpass"
       }
     ]
   },
@@ -11259,8 +11259,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://seemoon.biz/"
+        "url": "https://seemoon.biz/",
+        "handle": ""
       }
     ]
   },
@@ -11275,8 +11275,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ToMato182",
-        "url": "https://www.plurk.com/ToMato182"
+        "url": "https://www.plurk.com/ToMato182",
+        "handle": "@ToMato182"
       }
     ]
   },
@@ -11291,8 +11291,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@starcandy_sheep",
-        "url": "https://www.instagram.com/starcandy_sheep/"
+        "url": "https://www.instagram.com/starcandy_sheep/",
+        "handle": "@starcandy_sheep"
       }
     ]
   },
@@ -11307,8 +11307,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "LJYS.doujin",
-        "url": "https://www.facebook.com/LJYS.doujin"
+        "url": "https://www.facebook.com/LJYS.doujin",
+        "handle": "LJYS.doujin"
       }
     ]
   },
@@ -11323,8 +11323,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@enokimitsuki",
-        "url": "https://www.plurk.com/enokimitsuki"
+        "url": "https://www.plurk.com/enokimitsuki",
+        "handle": "@enokimitsuki"
       }
     ]
   },
@@ -11339,8 +11339,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@slivershonenwuwu",
-        "url": "https://www.instagram.com/slivershonenwuwu/"
+        "url": "https://www.instagram.com/slivershonenwuwu/",
+        "handle": "@slivershonenwuwu"
       }
     ]
   },
@@ -11355,8 +11355,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@lya_0328",
-        "url": "https://www.instagram.com/lya_0328/"
+        "url": "https://www.instagram.com/lya_0328/",
+        "handle": "@lya_0328"
       }
     ]
   },
@@ -11371,8 +11371,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "vspot.tw",
-        "url": "https://www.facebook.com/vspot.tw/"
+        "url": "https://www.facebook.com/vspot.tw/",
+        "handle": "vspot.tw"
       }
     ]
   },
@@ -11387,8 +11387,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "marikuforever",
-        "url": "https://www.facebook.com/marikuforever/"
+        "url": "https://www.facebook.com/marikuforever/",
+        "handle": "marikuforever"
       }
     ]
   },
@@ -11403,8 +11403,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@loveliver0827",
-        "url": "https://www.plurk.com/loveliver0827"
+        "url": "https://www.plurk.com/loveliver0827",
+        "handle": "@loveliver0827"
       }
     ]
   },
@@ -11419,8 +11419,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.creative-comic.tw/zh/publisher/StudioRise13"
+        "url": "https://www.creative-comic.tw/zh/publisher/StudioRise13",
+        "handle": ""
       }
     ]
   },
@@ -11435,8 +11435,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://blandlove.weebly.com/"
+        "url": "https://blandlove.weebly.com/",
+        "handle": ""
       }
     ]
   },
@@ -11451,8 +11451,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10006428…",
-        "url": "https://www.facebook.com/profile.php?id=100064287512194"
+        "url": "https://www.facebook.com/profile.php?id=100064287512194",
+        "handle": "profile 10006428…"
       }
     ]
   },
@@ -11469,28 +11469,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@dreamxsoul",
-        "url": "https://www.plurk.com/dreamxsoul"
+        "url": "https://www.plurk.com/dreamxsoul",
+        "handle": "@dreamxsoul"
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/6465"
+        "url": "https://www.doujin.com.tw/groups/info/6465",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/dreamxsoul/"
+        "url": "https://www.facebook.com/dreamxsoul/",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@g:lasjgrt23yo8k",
-        "url": "https://www.doujin.com.tw/authors/info/g:lasjgrt23yo8k"
+        "url": "https://www.doujin.com.tw/authors/info/g:lasjgrt23yo8k",
+        "handle": "@g:lasjgrt23yo8k"
       },
       {
         "platform": "plurk",
-        "handle": "@torarara",
-        "url": "https://www.plurk.com/torarara"
+        "url": "https://www.plurk.com/torarara",
+        "handle": "@torarara"
       }
     ]
   },
@@ -11505,8 +11505,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "jia0kelvin",
-        "url": "https://www.facebook.com/jia0kelvin"
+        "url": "https://www.facebook.com/jia0kelvin",
+        "handle": "jia0kelvin"
       }
     ]
   },
@@ -11521,8 +11521,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "MFgeldian",
-        "url": "https://www.facebook.com/MFgeldian/"
+        "url": "https://www.facebook.com/MFgeldian/",
+        "handle": "MFgeldian"
       }
     ]
   },
@@ -11537,8 +11537,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "peekaboo.ouzi",
-        "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW"
+        "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW",
+        "handle": "peekaboo.ouzi"
       }
     ]
   },
@@ -11553,8 +11553,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@suanmo99",
-        "url": "https://www.instagram.com/suanmo99/"
+        "url": "https://www.instagram.com/suanmo99/",
+        "handle": "@suanmo99"
       }
     ]
   },
@@ -11569,8 +11569,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@creative1shit2021",
-        "url": "https://www.instagram.com/creative1shit2021/"
+        "url": "https://www.instagram.com/creative1shit2021/",
+        "handle": "@creative1shit2021"
       }
     ]
   },
@@ -11585,8 +11585,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@wohenlanduo",
-        "url": "https://www.instagram.com/wohenlanduo/"
+        "url": "https://www.instagram.com/wohenlanduo/",
+        "handle": "@wohenlanduo"
       }
     ]
   },
@@ -11601,18 +11601,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/815"
+        "url": "https://www.doujin.com.tw/groups/info/815",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@Yamiku",
-        "url": "https://www.plurk.com/Yamiku"
+        "url": "https://www.plurk.com/Yamiku",
+        "handle": "@Yamiku"
       },
       {
         "platform": "generic",
-        "handle": "@yamiku0419",
-        "url": "https://www.doujin.com.tw/authors/info/yamiku0419"
+        "url": "https://www.doujin.com.tw/authors/info/yamiku0419",
+        "handle": "@yamiku0419"
       }
     ]
   },
@@ -11627,13 +11627,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/op7804620"
+        "url": "https://www.doujin.com.tw/authors/info/op7804620",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "@AskQuestions04",
-        "url": "https://www.facebook.com/AskQuestions04/"
+        "url": "https://www.facebook.com/AskQuestions04/",
+        "handle": "@AskQuestions04"
       }
     ]
   },
@@ -11648,8 +11648,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@invites",
-        "url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r"
+        "url": "https://www.instagram.com/invites/contact/?i=1ag4rp7cxotsl&utm_content=i1n8j6r",
+        "handle": "@invites"
       }
     ]
   },
@@ -11664,8 +11664,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@caramel06",
-        "url": "https://www.plurk.com/caramel06"
+        "url": "https://www.plurk.com/caramel06",
+        "handle": "@caramel06"
       }
     ]
   },
@@ -11680,8 +11680,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "huyume1023",
-        "url": "https://www.facebook.com/huyume1023"
+        "url": "https://www.facebook.com/huyume1023",
+        "handle": "huyume1023"
       }
     ]
   },
@@ -11696,8 +11696,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "shu.kuan.yu.2025",
-        "url": "https://www.facebook.com/shu.kuan.yu.2025"
+        "url": "https://www.facebook.com/shu.kuan.yu.2025",
+        "handle": "shu.kuan.yu.2025"
       }
     ]
   },
@@ -11712,13 +11712,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "socotaku",
-        "url": "https://www.facebook.com/socotaku"
+        "url": "https://www.facebook.com/socotaku",
+        "handle": "socotaku"
       },
       {
         "platform": "plurk",
-        "handle": "@socotaku",
-        "url": "https://www.plurk.com/socotaku"
+        "url": "https://www.plurk.com/socotaku",
+        "handle": "@socotaku"
       }
     ]
   },
@@ -11733,8 +11733,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61558258…",
-        "url": "https://www.facebook.com/profile.php?id=61558258981354"
+        "url": "https://www.facebook.com/profile.php?id=61558258981354",
+        "handle": "profile 61558258…"
       }
     ]
   },
@@ -11749,8 +11749,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@dream_bridge_alw",
-        "url": "https://www.instagram.com/dream_bridge_alw/"
+        "url": "https://www.instagram.com/dream_bridge_alw/",
+        "handle": "@dream_bridge_alw"
       }
     ]
   },
@@ -11765,8 +11765,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@chj_joanna",
-        "url": "https://www.instagram.com/chj_joanna/"
+        "url": "https://www.instagram.com/chj_joanna/",
+        "handle": "@chj_joanna"
       }
     ]
   },
@@ -11781,8 +11781,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "xxpainterroom",
-        "url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks"
+        "url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks",
+        "handle": "xxpainterroom"
       }
     ]
   },
@@ -11797,8 +11797,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ziv188622",
-        "url": "https://www.plurk.com/ziv188622"
+        "url": "https://www.plurk.com/ziv188622",
+        "handle": "@ziv188622"
       }
     ]
   },
@@ -11813,8 +11813,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@yanyan___777",
-        "url": "https://www.instagram.com/yanyan___777/"
+        "url": "https://www.instagram.com/yanyan___777/",
+        "handle": "@yanyan___777"
       }
     ]
   },
@@ -11829,8 +11829,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10006382…",
-        "url": "https://www.facebook.com/profile.php?id=100063824298824"
+        "url": "https://www.facebook.com/profile.php?id=100063824298824",
+        "handle": "profile 10006382…"
       }
     ]
   },
@@ -11845,18 +11845,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/7384"
+        "url": "https://www.doujin.com.tw/groups/info/7384",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@Sheree",
-        "url": "https://www.doujin.com.tw/authors/info/Sheree"
+        "url": "https://www.doujin.com.tw/authors/info/Sheree",
+        "handle": "@Sheree"
       },
       {
         "platform": "plurk",
-        "handle": "@sheree821012",
-        "url": "https://www.plurk.com/sheree821012"
+        "url": "https://www.plurk.com/sheree821012",
+        "handle": "@sheree821012"
       }
     ]
   },
@@ -11871,8 +11871,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@akomari",
-        "url": "https://www.plurk.com/akomari"
+        "url": "https://www.plurk.com/akomari",
+        "handle": "@akomari"
       }
     ]
   },
@@ -11887,8 +11887,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@uniautomata_studio",
-        "url": "https://www.instagram.com/uniautomata_studio/"
+        "url": "https://www.instagram.com/uniautomata_studio/",
+        "handle": "@uniautomata_studio"
       }
     ]
   },
@@ -11903,8 +11903,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "LungFu.Club",
-        "url": "https://www.facebook.com/LungFu.Club"
+        "url": "https://www.facebook.com/LungFu.Club",
+        "handle": "LungFu.Club"
       }
     ]
   },
@@ -11919,8 +11919,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ps.gojo.mm",
-        "url": "https://www.instagram.com/ps.gojo.mm/"
+        "url": "https://www.instagram.com/ps.gojo.mm/",
+        "handle": "@ps.gojo.mm"
       }
     ]
   },
@@ -11935,18 +11935,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/4848/books"
+        "url": "https://www.doujin.com.tw/groups/info/4848/books",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@liangzhen_wan",
-        "url": "https://www.doujin.com.tw/authors/info/liangzhen_wan"
+        "url": "https://www.doujin.com.tw/authors/info/liangzhen_wan",
+        "handle": "@liangzhen_wan"
       },
       {
         "platform": "plurk",
-        "handle": "@leann123123",
-        "url": "https://www.plurk.com/leann123123"
+        "url": "https://www.plurk.com/leann123123",
+        "handle": "@leann123123"
       }
     ]
   },
@@ -11961,8 +11961,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@rabbit_rose_",
-        "url": "https://www.instagram.com/rabbit_rose_/"
+        "url": "https://www.instagram.com/rabbit_rose_/",
+        "handle": "@rabbit_rose_"
       }
     ]
   },
@@ -11977,23 +11977,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/Go41577"
+        "url": "https://www.doujin.com.tw/authors/info/Go41577",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "@go41577dog",
-        "url": "https://www.facebook.com/go41577dog/"
+        "url": "https://www.facebook.com/go41577dog/",
+        "handle": "@go41577dog"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=15849031"
+        "url": "https://www.pixiv.net/member.php?id=15849031",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@Go41577",
-        "url": "https://www.plurk.com/Go41577"
+        "url": "https://www.plurk.com/Go41577",
+        "handle": "@Go41577"
       }
     ]
   },
@@ -12008,8 +12008,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yua_neko",
-        "url": "https://www.plurk.com/yua_neko"
+        "url": "https://www.plurk.com/yua_neko",
+        "handle": "@yua_neko"
       }
     ]
   },
@@ -12024,8 +12024,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@amaranth2013",
-        "url": "https://www.instagram.com/amaranth2013/"
+        "url": "https://www.instagram.com/amaranth2013/",
+        "handle": "@amaranth2013"
       }
     ]
   },
@@ -12060,48 +12060,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/ewokaku0w0"
+        "url": "https://portaly.cc/ewokaku0w0",
+        "handle": "portaly"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/ewokaku0w0"
+        "url": "https://twitter.com/ewokaku0w0",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/Star_Finder__"
+        "url": "https://x.com/Star_Finder__",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/UwUKaku"
+        "url": "https://x.com/UwUKaku",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@ewokaku0w0"
+        "url": "https://www.threads.net/@ewokaku0w0",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@star_finder__"
+        "url": "https://www.threads.com/@star_finder__",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/star_finder__/"
+        "url": "https://www.instagram.com/star_finder__/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/ewokaku0w0"
+        "url": "https://www.instagram.com/ewokaku0w0",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/Finderscope"
+        "url": "https://www.plurk.com/Finderscope",
+        "handle": ""
       }
     ]
   },
@@ -12126,8 +12126,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@IceDR",
-        "url": "https://www.plurk.com/IceDR"
+        "url": "https://www.plurk.com/IceDR",
+        "handle": "@IceDR"
       }
     ]
   },
@@ -12142,8 +12142,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@agathexu",
-        "url": "https://www.instagram.com/agathexu/"
+        "url": "https://www.instagram.com/agathexu/",
+        "handle": "@agathexu"
       }
     ]
   },
@@ -12158,8 +12158,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@iamritai2001",
-        "url": "https://www.plurk.com/iamritai2001"
+        "url": "https://www.plurk.com/iamritai2001",
+        "handle": "@iamritai2001"
       }
     ]
   },
@@ -12174,8 +12174,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@chentina1022",
-        "url": "https://www.plurk.com/chentina1022"
+        "url": "https://www.plurk.com/chentina1022",
+        "handle": "@chentina1022"
       }
     ]
   },
@@ -12190,8 +12190,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@lostdeerisland",
-        "url": "https://www.instagram.com/lostdeerisland/"
+        "url": "https://www.instagram.com/lostdeerisland/",
+        "handle": "@lostdeerisland"
       }
     ]
   },
@@ -12226,8 +12226,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@renyinaloha",
-        "url": "https://www.plurk.com/renyinaloha"
+        "url": "https://www.plurk.com/renyinaloha",
+        "handle": "@renyinaloha"
       }
     ]
   },
@@ -12242,8 +12242,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@77witch_7two",
-        "url": "https://www.instagram.com/77witch_7two/"
+        "url": "https://www.instagram.com/77witch_7two/",
+        "handle": "@77witch_7two"
       }
     ]
   },
@@ -12258,8 +12258,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "BLUE1OR2",
-        "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW"
+        "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW",
+        "handle": "BLUE1OR2"
       }
     ]
   },
@@ -12274,8 +12274,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "reisroom711",
-        "url": "https://www.facebook.com/reisroom711/"
+        "url": "https://www.facebook.com/reisroom711/",
+        "handle": "reisroom711"
       }
     ]
   },
@@ -12290,8 +12290,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@stargazer233",
-        "url": "https://www.plurk.com/stargazer233"
+        "url": "https://www.plurk.com/stargazer233",
+        "handle": "@stargazer233"
       }
     ]
   },
@@ -12316,8 +12316,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "PlanetesObservare",
-        "url": "https://www.facebook.com/PlanetesObservare"
+        "url": "https://www.facebook.com/PlanetesObservare",
+        "handle": "PlanetesObservare"
       }
     ]
   },
@@ -12342,8 +12342,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://marslake2.weebly.com/"
+        "url": "https://marslake2.weebly.com/",
+        "handle": ""
       }
     ]
   },
@@ -12358,13 +12358,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ouyouxi2020",
-        "url": "https://www.plurk.com/ouyouxi2020"
+        "url": "https://www.plurk.com/ouyouxi2020",
+        "handle": "@ouyouxi2020"
       },
       {
         "platform": "x",
-        "handle": "@AoIzumi_Akiharu",
-        "url": "https://x.com/AoIzumi_Akiharu"
+        "url": "https://x.com/AoIzumi_Akiharu",
+        "handle": "@AoIzumi_Akiharu"
       }
     ]
   },
@@ -12379,8 +12379,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@gs.gray_000",
-        "url": "https://www.instagram.com/gs.gray_000/"
+        "url": "https://www.instagram.com/gs.gray_000/",
+        "handle": "@gs.gray_000"
       }
     ]
   },
@@ -12395,8 +12395,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "tentaclespet",
-        "url": "https://www.facebook.com/tentaclespet/"
+        "url": "https://www.facebook.com/tentaclespet/",
+        "handle": "tentaclespet"
       }
     ]
   },
@@ -12411,8 +12411,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B"
+        "url": "https://www.tiktok.com/@.mi_0530?_r=1&_t=ZS-93VCZ34Qw1B",
+        "handle": ""
       }
     ]
   },
@@ -12437,8 +12437,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@twinkle21_comic",
-        "url": "https://www.instagram.com/twinkle21_comic/"
+        "url": "https://www.instagram.com/twinkle21_comic/",
+        "handle": "@twinkle21_comic"
       }
     ]
   },
@@ -12453,8 +12453,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@enzo.zoldyck.tw",
-        "url": "https://www.instagram.com/enzo.zoldyck.tw/"
+        "url": "https://www.instagram.com/enzo.zoldyck.tw/",
+        "handle": "@enzo.zoldyck.tw"
       }
     ]
   },
@@ -12469,8 +12469,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@SeRn1009",
-        "url": "https://www.plurk.com/SeRn1009"
+        "url": "https://www.plurk.com/SeRn1009",
+        "handle": "@SeRn1009"
       }
     ]
   },
@@ -12485,38 +12485,38 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/nagadrawdraw"
+        "url": "https://portaly.cc/nagadrawdraw",
+        "handle": "portaly"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/nagadrawdraw"
+        "url": "https://twitter.com/nagadrawdraw",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/nagadrawdraw/"
+        "url": "https://www.instagram.com/nagadrawdraw/",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/nagaaaaa12"
+        "url": "https://www.plurk.com/nagaaaaa12",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@nagadrawdraw"
+        "url": "https://www.threads.com/@nagadrawdraw",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/117352552"
+        "url": "https://www.pixiv.net/users/117352552",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/1463338"
+        "url": "https://www.pixiv.net/users/1463338",
+        "handle": ""
       }
     ]
   },
@@ -12531,8 +12531,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "@KokaNatsuhisa",
-        "url": "https://www.facebook.com/KokaNatsuhisa"
+        "url": "https://www.facebook.com/KokaNatsuhisa",
+        "handle": "@KokaNatsuhisa"
       }
     ]
   },
@@ -12547,8 +12547,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61556596…",
-        "url": "https://www.facebook.com/profile.php?id=61556596875660"
+        "url": "https://www.facebook.com/profile.php?id=61556596875660",
+        "handle": "profile 61556596…"
       }
     ]
   },
@@ -12563,8 +12563,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@sly450026",
-        "url": "https://www.plurk.com/u/sly450026"
+        "url": "https://www.plurk.com/u/sly450026",
+        "handle": "@sly450026"
       }
     ]
   },
@@ -12579,28 +12579,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/anon_114c"
+        "url": "https://portaly.cc/anon_114c",
+        "handle": "portaly"
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@apple"
+        "url": "https://www.youtube.com/@apple",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/anon_114c"
+        "url": "https://www.youtube.com/anon_114c",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/anon_114c"
+        "url": "https://twitter.com/anon_114c",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/anon_114c"
+        "url": "https://www.instagram.com/anon_114c",
+        "handle": ""
       }
     ]
   },
@@ -12615,8 +12615,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://shop.codingcat-design.com.tw/manga-color/"
+        "url": "https://shop.codingcat-design.com.tw/manga-color/",
+        "handle": ""
       }
     ]
   },
@@ -12631,23 +12631,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "blog",
-        "handle": "花開。花烙",
-        "url": "https://blossoming-faded.blog/"
+        "url": "https://blossoming-faded.blog/",
+        "handle": "花開。花烙"
       },
       {
         "platform": "ig",
-        "handle": "@blossoming.faded",
-        "url": "https://www.instagram.com/blossoming.faded/"
+        "url": "https://www.instagram.com/blossoming.faded/",
+        "handle": "@blossoming.faded"
       },
       {
         "platform": "threads",
-        "handle": "@blossoming.faded",
-        "url": "https://www.threads.com/@blossoming.faded"
+        "url": "https://www.threads.com/@blossoming.faded",
+        "handle": "@blossoming.faded"
       },
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/blossoming.faded"
+        "url": "https://linktr.ee/blossoming.faded",
+        "handle": "Linktree"
       }
     ]
   },
@@ -12662,8 +12662,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "kuan.wei.lin.372350",
-        "url": "https://www.facebook.com/kuan.wei.lin.372350"
+        "url": "https://www.facebook.com/kuan.wei.lin.372350",
+        "handle": "kuan.wei.lin.372350"
       }
     ]
   },
@@ -12678,8 +12678,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@chowwuart",
-        "url": "https://www.instagram.com/chowwuart/"
+        "url": "https://www.instagram.com/chowwuart/",
+        "handle": "@chowwuart"
       }
     ]
   },
@@ -12694,8 +12694,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "LengWaGuo",
-        "url": "https://www.facebook.com/LengWaGuo/"
+        "url": "https://www.facebook.com/LengWaGuo/",
+        "handle": "LengWaGuo"
       }
     ]
   },
@@ -12710,8 +12710,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@good_omens.tw",
-        "url": "https://www.instagram.com/good_omens.tw/://"
+        "url": "https://www.instagram.com/good_omens.tw/://",
+        "handle": "@good_omens.tw"
       }
     ]
   },
@@ -12726,8 +12726,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81"
+        "url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81",
+        "handle": ""
       }
     ]
   },
@@ -12742,8 +12742,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@laaaw444",
-        "url": "https://x.com/laaaw444"
+        "url": "https://x.com/laaaw444",
+        "handle": "@laaaw444"
       }
     ]
   },
@@ -12768,8 +12768,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@mazuco1214_ryu",
-        "url": "https://x.com/mazuco1214_ryu"
+        "url": "https://x.com/mazuco1214_ryu",
+        "handle": "@mazuco1214_ryu"
       }
     ]
   },
@@ -12784,8 +12784,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@doublewdoublew",
-        "url": "https://www.instagram.com/doublewdoublew/"
+        "url": "https://www.instagram.com/doublewdoublew/",
+        "handle": "@doublewdoublew"
       }
     ]
   },
@@ -12800,8 +12800,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "wix",
-        "handle": "",
-        "url": "https://ed940930.wixsite.com/original"
+        "url": "https://ed940930.wixsite.com/original",
+        "handle": ""
       }
     ]
   },
@@ -12816,8 +12816,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yanekomeow",
-        "url": "https://www.facebook.com/yanekomeow"
+        "url": "https://www.facebook.com/yanekomeow",
+        "handle": "yanekomeow"
       }
     ]
   },
@@ -12832,8 +12832,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@tomoewhat77",
-        "url": "https://www.instagram.com/tomoewhat77/"
+        "url": "https://www.instagram.com/tomoewhat77/",
+        "handle": "@tomoewhat77"
       }
     ]
   },
@@ -12848,43 +12848,43 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/AKhibari"
+        "url": "https://lit.link/zh-tw/AKhibari",
+        "handle": "lit.link"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/LeoAkAk_X"
+        "url": "https://twitter.com/LeoAkAk_X",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/AKKKK94289185"
+        "url": "https://twitter.com/AKKKK94289185",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/aishizi852"
+        "url": "https://twitter.com/aishizi852",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/LeoAkAk"
+        "url": "https://www.plurk.com/LeoAkAk",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/aishizi852"
+        "url": "https://www.plurk.com/aishizi852",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/aishizi852"
+        "url": "https://www.doujin.com.tw/authors/info/aishizi852",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@LeoAkAk"
+        "url": "https://www.youtube.com/@LeoAkAk",
+        "handle": ""
       }
     ]
   },
@@ -12899,8 +12899,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@krosa1028",
-        "url": "https://x.com/krosa1028"
+        "url": "https://x.com/krosa1028",
+        "handle": "@krosa1028"
       }
     ]
   },
@@ -12915,8 +12915,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@CNO",
-        "url": "https://www.plurk.com/CNO"
+        "url": "https://www.plurk.com/CNO",
+        "handle": "@CNO"
       }
     ]
   },
@@ -12931,8 +12931,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "tu.ben.hua",
-        "url": "https://www.facebook.com/tu.ben.hua?"
+        "url": "https://www.facebook.com/tu.ben.hua?",
+        "handle": "tu.ben.hua"
       }
     ]
   },
@@ -12947,53 +12947,53 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/emily60212/goods"
+        "url": "https://www.doujin.com.tw/authors/info/emily60212/goods",
+        "handle": ""
       },
       {
         "platform": "aggregator",
-        "handle": "@foninteru",
-        "url": "https://portaly.cc/foninteru"
+        "url": "https://portaly.cc/foninteru",
+        "handle": "@foninteru"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=3703509"
+        "url": "https://www.pixiv.net/member.php?id=3703509",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@fonin_fuuin",
-        "url": "https://www.plurk.com/fonin_fuuin"
+        "url": "https://www.plurk.com/fonin_fuuin",
+        "handle": "@fonin_fuuin"
       },
       {
         "platform": "x",
-        "handle": "@foninteru",
-        "url": "https://x.com/foninteru"
+        "url": "https://x.com/foninteru",
+        "handle": "@foninteru"
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@fonin4376"
+        "url": "https://www.youtube.com/@fonin4376",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@foninteru"
+        "url": "https://www.youtube.com/@foninteru",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@apple"
+        "url": "https://www.youtube.com/@apple",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/fonin_fuuin"
+        "url": "https://twitter.com/fonin_fuuin",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/foninfuuin"
+        "url": "https://www.facebook.com/foninfuuin",
+        "handle": ""
       }
     ]
   },
@@ -13008,8 +13008,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "abc9012071",
-        "url": "https://www.facebook.com/abc9012071"
+        "url": "https://www.facebook.com/abc9012071",
+        "handle": "abc9012071"
       }
     ]
   },
@@ -13034,13 +13034,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "bsky",
-        "handle": "@nkpa",
-        "url": "https://bsky.app/profile/nkpa.bsky.social"
+        "url": "https://bsky.app/profile/nkpa.bsky.social",
+        "handle": "@nkpa"
       },
       {
         "platform": "x",
-        "handle": "@RmenOish",
-        "url": "https://x.com/RmenOish"
+        "url": "https://x.com/RmenOish",
+        "handle": "@RmenOish"
       }
     ]
   },
@@ -13055,8 +13055,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@greenrivernight",
-        "url": "https://www.plurk.com/greenrivernight"
+        "url": "https://www.plurk.com/greenrivernight",
+        "handle": "@greenrivernight"
       }
     ]
   },
@@ -13071,23 +13071,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab"
+        "url": "https://www.doujin.com.tw/groups/info/8239/goods#groups_tab",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@haruka_99",
-        "url": "https://www.plurk.com/haruka_99"
+        "url": "https://www.plurk.com/haruka_99",
+        "handle": "@haruka_99"
       },
       {
         "platform": "generic",
-        "handle": "@jane85320",
-        "url": "https://www.doujin.com.tw/authors/info/jane85320"
+        "url": "https://www.doujin.com.tw/authors/info/jane85320",
+        "handle": "@jane85320"
       },
       {
         "platform": "plurk",
-        "handle": "@haruka_9",
-        "url": "https://www.plurk.com/haruka_9"
+        "url": "https://www.plurk.com/haruka_9",
+        "handle": "@haruka_9"
       }
     ]
   },
@@ -13102,18 +13102,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/windstaryu/goods"
+        "url": "https://www.doujin.com.tw/authors/info/windstaryu/goods",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=6363212"
+        "url": "https://www.pixiv.net/member.php?id=6363212",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@windstaryu",
-        "url": "https://www.plurk.com/windstaryu"
+        "url": "https://www.plurk.com/windstaryu",
+        "handle": "@windstaryu"
       }
     ]
   },
@@ -13128,18 +13128,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/liftrasa5"
+        "url": "https://www.doujin.com.tw/authors/info/liftrasa5",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=17218700"
+        "url": "https://www.pixiv.net/member.php?id=17218700",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@MakeConfetti",
-        "url": "https://www.plurk.com/MakeConfetti"
+        "url": "https://www.plurk.com/MakeConfetti",
+        "handle": "@MakeConfetti"
       }
     ]
   },
@@ -13154,8 +13154,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@myaowl",
-        "url": "https://www.instagram.com/myaowl/"
+        "url": "https://www.instagram.com/myaowl/",
+        "handle": "@myaowl"
       }
     ]
   },
@@ -13170,8 +13170,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "aokihoshi",
-        "url": "https://www.facebook.com/aokihoshi/"
+        "url": "https://www.facebook.com/aokihoshi/",
+        "handle": "aokihoshi"
       }
     ]
   },
@@ -13186,8 +13186,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@45_artwork",
-        "url": "https://www.threads.com/@45_artwork"
+        "url": "https://www.threads.com/@45_artwork",
+        "handle": "@45_artwork"
       }
     ]
   },
@@ -13202,8 +13202,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "rrrrrbu",
-        "url": "https://www.facebook.com/rrrrrbu/"
+        "url": "https://www.facebook.com/rrrrrbu/",
+        "handle": "rrrrrbu"
       }
     ]
   },
@@ -13238,8 +13238,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3i2nll7mkt"
+        "url": "https://www.plurk.com/p/3i2nll7mkt",
+        "handle": ""
       }
     ]
   },
@@ -13254,18 +13254,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/mola0632"
+        "url": "https://www.doujin.com.tw/authors/info/mola0632",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=493228"
+        "url": "https://www.pixiv.net/member.php?id=493228",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@mola0632",
-        "url": "https://www.plurk.com/mola0632"
+        "url": "https://www.plurk.com/mola0632",
+        "handle": "@mola0632"
       }
     ]
   },
@@ -13280,18 +13280,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/ruinmaster"
+        "url": "https://lit.link/zh-tw/ruinmaster",
+        "handle": "lit.link"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/rose20011212"
+        "url": "https://www.plurk.com/rose20011212",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@master12ruin?invite=0"
+        "url": "https://www.threads.com/@master12ruin?invite=0",
+        "handle": ""
       }
     ]
   },
@@ -13306,8 +13306,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "SpaceFaucet",
-        "url": "https://www.facebook.com/SpaceFaucet/"
+        "url": "https://www.facebook.com/SpaceFaucet/",
+        "handle": "SpaceFaucet"
       }
     ]
   },
@@ -13322,8 +13322,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@KA_compilation",
-        "url": "https://x.com/KA_compilation"
+        "url": "https://x.com/KA_compilation",
+        "handle": "@KA_compilation"
       }
     ]
   },
@@ -13338,48 +13338,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/KotemWriter13"
+        "url": "https://lit.link/en/KotemWriter13",
+        "handle": "lit.link"
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@kotem3103"
+        "url": "https://www.youtube.com/@kotem3103",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/116437109"
+        "url": "https://www.pixiv.net/users/116437109",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@kotem_painting"
+        "url": "https://www.threads.com/@kotem_painting",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kotem_painting/"
+        "url": "https://www.instagram.com/kotem_painting/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kotem_handmade/"
+        "url": "https://www.instagram.com/kotem_handmade/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kotem_novel_writer/"
+        "url": "https://www.instagram.com/kotem_novel_writer/",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/kotemdesign"
+        "url": "https://www.plurk.com/kotemdesign",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/KotemNovelWriter/"
+        "url": "https://www.facebook.com/KotemNovelWriter/",
+        "handle": ""
       }
     ]
   },
@@ -13404,38 +13404,38 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/blackomicat"
+        "url": "https://portaly.cc/blackomicat",
+        "handle": "portaly"
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/blackomicat"
+        "url": "https://www.facebook.com/blackomicat",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@blackomicat"
+        "url": "https://www.threads.net/@blackomicat",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/blackomicat"
+        "url": "https://twitter.com/blackomicat",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/3779383"
+        "url": "https://www.pixiv.net/users/3779383",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/blackomicat/"
+        "url": "https://www.instagram.com/blackomicat/",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/blackomi"
+        "url": "https://www.plurk.com/blackomi",
+        "handle": ""
       }
     ]
   },
@@ -13450,8 +13450,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@han_adtw",
-        "url": "https://www.plurk.com/han_adtw"
+        "url": "https://www.plurk.com/han_adtw",
+        "handle": "@han_adtw"
       }
     ]
   },
@@ -13466,8 +13466,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@kawa_7128",
-        "url": "https://www.plurk.com/kawa_7128"
+        "url": "https://www.plurk.com/kawa_7128",
+        "handle": "@kawa_7128"
       }
     ]
   },
@@ -13482,8 +13482,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61575655…",
-        "url": "https://www.facebook.com/profile.php?id=61575655409441"
+        "url": "https://www.facebook.com/profile.php?id=61575655409441",
+        "handle": "profile 61575655…"
       }
     ]
   },
@@ -13498,8 +13498,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@rabbit.x__x",
-        "url": "https://www.instagram.com/rabbit.x__x/"
+        "url": "https://www.instagram.com/rabbit.x__x/",
+        "handle": "@rabbit.x__x"
       }
     ]
   },
@@ -13514,8 +13514,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ryuouo",
-        "url": "https://www.plurk.com/ryuouo"
+        "url": "https://www.plurk.com/ryuouo",
+        "handle": "@ryuouo"
       }
     ]
   },
@@ -13530,8 +13530,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@retaku",
-        "url": "https://www.plurk.com/retaku"
+        "url": "https://www.plurk.com/retaku",
+        "handle": "@retaku"
       }
     ]
   },
@@ -13546,8 +13546,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@weirin0",
-        "url": "https://www.plurk.com/weirin0"
+        "url": "https://www.plurk.com/weirin0",
+        "handle": "@weirin0"
       }
     ]
   },
@@ -13562,8 +13562,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@shioisland",
-        "url": "https://www.instagram.com/shioisland/"
+        "url": "https://www.instagram.com/shioisland/",
+        "handle": "@shioisland"
       }
     ]
   },
@@ -13578,8 +13578,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yvonneching8218",
-        "url": "https://www.plurk.com/yvonneching8218"
+        "url": "https://www.plurk.com/yvonneching8218",
+        "handle": "@yvonneching8218"
       }
     ]
   },
@@ -13594,28 +13594,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/lightoffill"
+        "url": "https://portaly.cc/lightoffill",
+        "handle": "portaly"
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/LightOffill/"
+        "url": "https://www.facebook.com/LightOffill/",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/QuietLamp"
+        "url": "https://www.plurk.com/QuietLamp",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@lightoffill"
+        "url": "https://www.threads.net/@lightoffill",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/lightoffill/"
+        "url": "https://www.instagram.com/lightoffill/",
+        "handle": ""
       }
     ]
   },
@@ -13630,48 +13630,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/TeaNe11"
+        "url": "https://linktr.ee/TeaNe11",
+        "handle": "Linktree"
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/2267269"
+        "url": "https://www.pixiv.net/users/2267269",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/teaneuniverse"
+        "url": "https://www.doujin.com.tw/authors/info/teaneuniverse",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/teane1413"
+        "url": "https://instagram.com/teane1413",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/teane_universe"
+        "url": "https://www.plurk.com/teane_universe",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://avatars.plurk.com/17201849-big80582179.jpg"
+        "url": "https://avatars.plurk.com/17201849-big80582179.jpg",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@teanene.comicart"
+        "url": "https://www.threads.com/@teanene.comicart",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/teane141611"
+        "url": "https://x.com/teane141611",
+        "handle": ""
       },
       {
         "platform": "booth_pm",
-        "handle": "",
-        "url": "https://teane141611.booth.pm/items/7093857"
+        "url": "https://teane141611.booth.pm/items/7093857",
+        "handle": ""
       }
     ]
   },
@@ -13686,8 +13686,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "akiragiorgio",
-        "url": "https://www.facebook.com/akiragiorgio/"
+        "url": "https://www.facebook.com/akiragiorgio/",
+        "handle": "akiragiorgio"
       }
     ]
   },
@@ -13702,8 +13702,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "Polymilktea",
-        "url": "https://www.facebook.com/Polymilktea"
+        "url": "https://www.facebook.com/Polymilktea",
+        "handle": "Polymilktea"
       }
     ]
   },
@@ -13728,23 +13728,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "@365",
-        "url": "https://www.doujin.com.tw/groups/info/365/books"
+        "url": "https://www.doujin.com.tw/groups/info/365/books",
+        "handle": "@365"
       },
       {
         "platform": "generic",
-        "handle": "@DarkShadow",
-        "url": "https://www.doujin.com.tw/authors/info/DarkShadow"
+        "url": "https://www.doujin.com.tw/authors/info/DarkShadow",
+        "handle": "@DarkShadow"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=226568"
+        "url": "https://www.pixiv.net/member.php?id=226568",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@DarkCurtis",
-        "url": "https://www.plurk.com/DarkCurtis"
+        "url": "https://www.plurk.com/DarkCurtis",
+        "handle": "@DarkCurtis"
       }
     ]
   },
@@ -13759,8 +13759,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "edward98311",
-        "url": "www.facebook.com/edward98311"
+        "url": "https://www.facebook.com/edward98311",
+        "handle": "edward98311"
       }
     ]
   },
@@ -13775,8 +13775,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@harukam03",
-        "url": "https://www.plurk.com/harukam03"
+        "url": "https://www.plurk.com/harukam03",
+        "handle": "@harukam03"
       }
     ]
   },
@@ -13791,8 +13791,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@Stellane2025",
-        "url": "https://x.com/Stellane2025"
+        "url": "https://x.com/Stellane2025",
+        "handle": "@Stellane2025"
       }
     ]
   },
@@ -13807,8 +13807,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@not_december1212",
-        "url": "https://www.instagram.com/not_december1212/"
+        "url": "https://www.instagram.com/not_december1212/",
+        "handle": "@not_december1212"
       }
     ]
   },
@@ -13823,8 +13823,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "bsky",
-        "handle": "@nginnk12",
-        "url": "https://bsky.app/profile/nginnk12.bsky.social"
+        "url": "https://bsky.app/profile/nginnk12.bsky.social",
+        "handle": "@nginnk12"
       }
     ]
   },
@@ -13839,8 +13839,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@astudio.o",
-        "url": "https://www.instagram.com/astudio.o/"
+        "url": "https://www.instagram.com/astudio.o/",
+        "handle": "@astudio.o"
       }
     ]
   },
@@ -13855,8 +13855,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@enoshdreams",
-        "url": "https://www.instagram.com/enoshdreams/"
+        "url": "https://www.instagram.com/enoshdreams/",
+        "handle": "@enoshdreams"
       }
     ]
   },
@@ -13871,8 +13871,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "fluffpoint",
-        "url": "https://www.facebook.com/fluffpoint"
+        "url": "https://www.facebook.com/fluffpoint",
+        "handle": "fluffpoint"
       }
     ]
   },
@@ -13887,8 +13887,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@zhliu.art",
-        "url": "https://www.instagram.com/zhliu.art/"
+        "url": "https://www.instagram.com/zhliu.art/",
+        "handle": "@zhliu.art"
       }
     ]
   },
@@ -13903,8 +13903,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@dayday._.sleep",
-        "url": "https://www.instagram.com/dayday._.sleep/"
+        "url": "https://www.instagram.com/dayday._.sleep/",
+        "handle": "@dayday._.sleep"
       }
     ]
   },
@@ -13919,8 +13919,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@battahandmade",
-        "url": "https://x.com/battahandmade"
+        "url": "https://x.com/battahandmade",
+        "handle": "@battahandmade"
       }
     ]
   },
@@ -13935,23 +13935,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "pixiv",
-        "handle": "@cyuan_nil",
-        "url": "https://www.pixiv.net/users/123196145"
+        "url": "https://www.pixiv.net/users/123196145",
+        "handle": "@cyuan_nil"
       },
       {
         "platform": "x",
-        "handle": "@cyuan_nil",
-        "url": "https://x.com/cyuan_nil"
+        "url": "https://x.com/cyuan_nil",
+        "handle": "@cyuan_nil"
       },
       {
         "platform": "bsky",
-        "handle": "@cyuan",
-        "url": "https://bsky.app/profile/cyuan.bsky.social"
+        "url": "https://bsky.app/profile/cyuan.bsky.social",
+        "handle": "@cyuan"
       },
       {
         "platform": "wix",
-        "handle": "Portfolio",
-        "url": "https://kvoid000.wixsite.com/corvus"
+        "url": "https://kvoid000.wixsite.com/corvus",
+        "handle": "Portfolio"
       }
     ]
   },
@@ -13976,8 +13976,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@skyberryelement",
-        "url": "https://www.plurk.com/skyberryelement"
+        "url": "https://www.plurk.com/skyberryelement",
+        "handle": "@skyberryelement"
       }
     ]
   },
@@ -13992,8 +13992,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@r_bish",
-        "url": "https://www.plurk.com/r_bish"
+        "url": "https://www.plurk.com/r_bish",
+        "handle": "@r_bish"
       }
     ]
   },
@@ -14008,8 +14008,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@uni_07z3",
-        "url": "https://www.plurk.com/uni_07z3"
+        "url": "https://www.plurk.com/uni_07z3",
+        "handle": "@uni_07z3"
       }
     ]
   },
@@ -14024,8 +14024,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hutaomu_clay",
-        "url": "https://www.instagram.com/hutaomu_clay/"
+        "url": "https://www.instagram.com/hutaomu_clay/",
+        "handle": "@hutaomu_clay"
       }
     ]
   },
@@ -14040,8 +14040,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "aa2233aa",
-        "url": "https://www.facebook.com/aa2233aa"
+        "url": "https://www.facebook.com/aa2233aa",
+        "handle": "aa2233aa"
       }
     ]
   },
@@ -14056,8 +14056,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ciaoowoneko",
-        "url": "https://www.instagram.com/ciaoowoneko/"
+        "url": "https://www.instagram.com/ciaoowoneko/",
+        "handle": "@ciaoowoneko"
       }
     ]
   },
@@ -14072,8 +14072,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@potatosonnet",
-        "url": "https://plurk.com/potatosonnet"
+        "url": "https://plurk.com/potatosonnet",
+        "handle": "@potatosonnet"
       }
     ]
   },
@@ -14088,8 +14088,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "superdoujinwar",
-        "url": "https://www.facebook.com/superdoujinwar/"
+        "url": "https://www.facebook.com/superdoujinwar/",
+        "handle": "superdoujinwar"
       }
     ]
   },
@@ -14114,8 +14114,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "cathy.kao.35",
-        "url": "https://www.facebook.com/cathy.kao.35/"
+        "url": "https://www.facebook.com/cathy.kao.35/",
+        "handle": "cathy.kao.35"
       }
     ]
   },
@@ -14130,8 +14130,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "XingJustDrawIt",
-        "url": "https://www.facebook.com/XingJustDrawIt"
+        "url": "https://www.facebook.com/XingJustDrawIt",
+        "handle": "XingJustDrawIt"
       }
     ]
   },
@@ -14146,8 +14146,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "p",
-        "url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/"
+        "url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/",
+        "handle": "p"
       }
     ]
   },
@@ -14162,8 +14162,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "maoyuue",
-        "url": "https://www.facebook.com/maoyuue"
+        "url": "https://www.facebook.com/maoyuue",
+        "handle": "maoyuue"
       }
     ]
   },
@@ -14178,8 +14178,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yu_882",
-        "url": "https://www.plurk.com/u/yu_882"
+        "url": "https://www.plurk.com/u/yu_882",
+        "handle": "@yu_882"
       }
     ]
   },
@@ -14204,8 +14204,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@eli.pluma.lin",
-        "url": "https://www.instagram.com/eli.pluma.lin/"
+        "url": "https://www.instagram.com/eli.pluma.lin/",
+        "handle": "@eli.pluma.lin"
       }
     ]
   },
@@ -14220,8 +14220,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yujaisu",
-        "url": "https://www.plurk.com/yujaisu"
+        "url": "https://www.plurk.com/yujaisu",
+        "handle": "@yujaisu"
       }
     ]
   },
@@ -14236,8 +14236,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@tenseven_1777",
-        "url": "https://www.instagram.com/tenseven_1777/"
+        "url": "https://www.instagram.com/tenseven_1777/",
+        "handle": "@tenseven_1777"
       }
     ]
   },
@@ -14252,8 +14252,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "rei.xu.3",
-        "url": "https://www.facebook.com/rei.xu.3"
+        "url": "https://www.facebook.com/rei.xu.3",
+        "handle": "rei.xu.3"
       }
     ]
   },
@@ -14268,8 +14268,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.pinkoi.com/store/pinillustration"
+        "url": "https://www.pinkoi.com/store/pinillustration",
+        "handle": ""
       }
     ]
   },
@@ -14284,8 +14284,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@yakinikuww_1220",
-        "url": "https://www.threads.com/@yakinikuww_1220"
+        "url": "https://www.threads.com/@yakinikuww_1220",
+        "handle": "@yakinikuww_1220"
       }
     ]
   },
@@ -14300,8 +14300,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://sites.google.com/view/bite1catfish/"
+        "url": "https://sites.google.com/view/bite1catfish/",
+        "handle": ""
       }
     ]
   },
@@ -14316,8 +14316,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@coffeefish_05",
-        "url": "https://x.com/coffeefish_05"
+        "url": "https://x.com/coffeefish_05",
+        "handle": "@coffeefish_05"
       }
     ]
   },
@@ -14332,8 +14332,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@thediecity",
-        "url": "https://www.plurk.com/thediecity"
+        "url": "https://www.plurk.com/thediecity",
+        "handle": "@thediecity"
       }
     ]
   },
@@ -14348,23 +14348,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/kaori0408"
+        "url": "https://www.doujin.com.tw/authors/info/kaori0408",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=13604486"
+        "url": "https://www.pixiv.net/member.php?id=13604486",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@jsff0713031723",
-        "url": "https://www.plurk.com/jsff0713031723"
+        "url": "https://www.plurk.com/jsff0713031723",
+        "handle": "@jsff0713031723"
       },
       {
         "platform": "x",
-        "handle": "@kaoriri48",
-        "url": "https://x.com/kaoriri48"
+        "url": "https://x.com/kaoriri48",
+        "handle": "@kaoriri48"
       }
     ]
   },
@@ -14379,8 +14379,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@Silver_NoTa",
-        "url": "https://www.plurk.com/Silver_NoTa"
+        "url": "https://www.plurk.com/Silver_NoTa",
+        "handle": "@Silver_NoTa"
       }
     ]
   },
@@ -14395,8 +14395,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "b.c1206",
-        "url": "https://www.facebook.com/b.c1206"
+        "url": "https://www.facebook.com/b.c1206",
+        "handle": "b.c1206"
       }
     ]
   },
@@ -14421,8 +14421,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@summerbonekiara",
-        "url": "https://www.plurk.com/summerbonekiara"
+        "url": "https://www.plurk.com/summerbonekiara",
+        "handle": "@summerbonekiara"
       }
     ]
   },
@@ -14437,8 +14437,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@niansui623",
-        "url": "https://www.plurk.com/niansui623"
+        "url": "https://www.plurk.com/niansui623",
+        "handle": "@niansui623"
       }
     ]
   },
@@ -14453,8 +14453,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@q",
-        "url": "https://qrcode.plurk.com/q/tsugineallen-3x.png"
+        "url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
+        "handle": "@q"
       }
     ]
   },
@@ -14469,8 +14469,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@cometwave",
-        "url": "https://twitter.com/cometwave"
+        "url": "https://twitter.com/cometwave",
+        "handle": "@cometwave"
       }
     ]
   },
@@ -14485,8 +14485,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@online._.ghost",
-        "url": "https://www.threads.com/@online._.ghost"
+        "url": "https://www.threads.com/@online._.ghost",
+        "handle": "@online._.ghost"
       }
     ]
   },
@@ -14501,8 +14501,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@twelve474719",
-        "url": "https://www.instagram.com/twelve474719/"
+        "url": "https://www.instagram.com/twelve474719/",
+        "handle": "@twelve474719"
       }
     ]
   },
@@ -14517,48 +14517,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/raker.natsume.0701"
+        "url": "https://portaly.cc/raker.natsume.0701",
+        "handle": "portaly"
       },
       {
         "platform": "pixiv",
-        "handle": "Pixiv 20901804",
-        "url": "https://www.pixiv.net/users/20901804"
+        "url": "https://www.pixiv.net/users/20901804",
+        "handle": "Pixiv 20901804"
       },
       {
         "platform": "plurk",
-        "handle": "@linhannah",
-        "url": "https://www.plurk.com/linhannah"
+        "url": "https://www.plurk.com/linhannah",
+        "handle": "@linhannah"
       },
       {
         "platform": "threads",
-        "handle": "@raker.natsume",
-        "url": "https://www.threads.net/@raker.natsume"
+        "url": "https://www.threads.net/@raker.natsume",
+        "handle": "@raker.natsume"
       },
       {
         "platform": "x",
-        "handle": "@rakerrabbit",
-        "url": "https://twitter.com/rakerrabbit"
+        "url": "https://twitter.com/rakerrabbit",
+        "handle": "@rakerrabbit"
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE"
+        "url": "https://www.doujin.com.tw/authors/info/fb:44XFSN2dE",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/media/set/?set=a.685021834474963&type=3"
+        "url": "https://www.facebook.com/media/set/?set=a.685021834474963&type=3",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/raker natsume"
+        "url": "https://www.facebook.com/raker natsume",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/raker.natsume.0701"
+        "url": "https://www.facebook.com/raker.natsume.0701",
+        "handle": ""
       }
     ]
   },
@@ -14583,8 +14583,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@arcusong",
-        "url": "https://www.plurk.com/arcusong"
+        "url": "https://www.plurk.com/arcusong",
+        "handle": "@arcusong"
       }
     ]
   },
@@ -14599,18 +14599,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/dd_r2112"
+        "url": "https://www.doujin.com.tw/authors/info/dd_r2112",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@COU_E",
-        "url": "http://www.plurk.com/COU_E"
+        "url": "http://www.plurk.com/COU_E",
+        "handle": "@COU_E"
       },
       {
         "platform": "threads",
-        "handle": "@@ig_cou_e",
-        "url": "https://www.threads.com/@ig_cou_e"
+        "url": "https://www.threads.com/@ig_cou_e",
+        "handle": "@@ig_cou_e"
       }
     ]
   },
@@ -14625,8 +14625,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3icizou1me"
+        "url": "https://www.plurk.com/p/3icizou1me",
+        "handle": ""
       }
     ]
   },
@@ -14651,8 +14651,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@by.lordlung",
-        "url": "https://www.instagram.com/by.lordlung/"
+        "url": "https://www.instagram.com/by.lordlung/",
+        "handle": "@by.lordlung"
       }
     ]
   },
@@ -14667,8 +14667,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "fengliart520",
-        "url": "https://www.facebook.com/fengliart520/"
+        "url": "https://www.facebook.com/fengliart520/",
+        "handle": "fengliart520"
       }
     ]
   },
@@ -14683,8 +14683,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "7iromushrooms",
-        "url": "https://www.facebook.com/7iromushrooms"
+        "url": "https://www.facebook.com/7iromushrooms",
+        "handle": "7iromushrooms"
       }
     ]
   },
@@ -14699,8 +14699,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://trapasocks.pse.is/8rdrx6"
+        "url": "https://trapasocks.pse.is/8rdrx6",
+        "handle": ""
       }
     ]
   },
@@ -14715,8 +14715,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@elena_lai_12",
-        "url": "https://www.instagram.com/elena_lai_12/"
+        "url": "https://www.instagram.com/elena_lai_12/",
+        "handle": "@elena_lai_12"
       }
     ]
   },
@@ -14731,8 +14731,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ballballwilson",
-        "url": "https://www.facebook.com/ballballwilson"
+        "url": "https://www.facebook.com/ballballwilson",
+        "handle": "ballballwilson"
       }
     ]
   },
@@ -14747,8 +14747,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@gulyocat",
-        "url": "https://www.plurk.com/gulyocat"
+        "url": "https://www.plurk.com/gulyocat",
+        "handle": "@gulyocat"
       }
     ]
   },
@@ -14763,8 +14763,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "BoneYong",
-        "url": "https://www.facebook.com/BoneYong/"
+        "url": "https://www.facebook.com/BoneYong/",
+        "handle": "BoneYong"
       }
     ]
   },
@@ -14779,8 +14779,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@s22393",
-        "url": "https://www.plurk.com/s22393"
+        "url": "https://www.plurk.com/s22393",
+        "handle": "@s22393"
       }
     ]
   },
@@ -14795,8 +14795,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "li.chun.ba.ba.da.xia",
-        "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"
+        "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/",
+        "handle": "li.chun.ba.ba.da.xia"
       }
     ]
   },
@@ -14811,8 +14811,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@aaaduck",
-        "url": "https://www.instagram.com/aaaduck/"
+        "url": "https://www.instagram.com/aaaduck/",
+        "handle": "@aaaduck"
       }
     ]
   },
@@ -14827,8 +14827,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "pipi.yaya.90",
-        "url": "https://www.facebook.com/pipi.yaya.90"
+        "url": "https://www.facebook.com/pipi.yaya.90",
+        "handle": "pipi.yaya.90"
       }
     ]
   },
@@ -14843,8 +14843,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@seasalt_oc",
-        "url": "https://www.instagram.com/seasalt_oc/"
+        "url": "https://www.instagram.com/seasalt_oc/",
+        "handle": "@seasalt_oc"
       }
     ]
   },
@@ -14859,8 +14859,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@bleedmaple",
-        "url": "https://www.plurk.com/bleedmaple"
+        "url": "https://www.plurk.com/bleedmaple",
+        "handle": "@bleedmaple"
       }
     ]
   },
@@ -14875,8 +14875,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@leo504436",
-        "url": "https://www.plurk.com/leo504436"
+        "url": "https://www.plurk.com/leo504436",
+        "handle": "@leo504436"
       }
     ]
   },
@@ -14891,8 +14891,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61550680…",
-        "url": "https://www.facebook.com/profile.php?id=61550680396750"
+        "url": "https://www.facebook.com/profile.php?id=61550680396750",
+        "handle": "profile 61550680…"
       }
     ]
   },
@@ -14907,8 +14907,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@chiuchiu0428",
-        "url": "https://www.plurk.com/chiuchiu0428"
+        "url": "https://www.plurk.com/chiuchiu0428",
+        "handle": "@chiuchiu0428"
       }
     ]
   },
@@ -14923,8 +14923,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@rainfox2021",
-        "url": "https://www.instagram.com/rainfox2021/"
+        "url": "https://www.instagram.com/rainfox2021/",
+        "handle": "@rainfox2021"
       }
     ]
   },
@@ -14939,48 +14939,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/slychen"
+        "url": "https://linktr.ee/slychen",
+        "handle": "Linktree"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/slychen"
+        "url": "https://x.com/slychen",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/346/books"
+        "url": "https://www.doujin.com.tw/groups/info/346/books",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/slychen"
+        "url": "https://www.youtube.com/slychen",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/slychen"
+        "url": "https://www.facebook.com/slychen",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@sally_dejavu"
+        "url": "https://www.threads.com/@sally_dejavu",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://avatars.plurk.com/3869333-big43146625.jpg"
+        "url": "https://avatars.plurk.com/3869333-big43146625.jpg",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/slychen"
+        "url": "https://www.plurk.com/slychen",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/sally_dejavu"
+        "url": "https://instagram.com/sally_dejavu",
+        "handle": ""
       }
     ]
   },
@@ -14995,18 +14995,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/brac"
+        "url": "https://lit.link/en/brac",
+        "handle": "lit.link"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/lightmin_cola"
+        "url": "https://twitter.com/lightmin_cola",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/lightmin"
+        "url": "https://www.plurk.com/lightmin",
+        "handle": ""
       }
     ]
   },
@@ -15031,28 +15031,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/6995"
+        "url": "https://www.doujin.com.tw/groups/info/6995",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@sunnylee1884",
-        "url": "https://www.doujin.com.tw/authors/info/sunnylee1884"
+        "url": "https://www.doujin.com.tw/authors/info/sunnylee1884",
+        "handle": "@sunnylee1884"
       },
       {
         "platform": "aggregator",
-        "handle": "@icefish.pie",
-        "url": "https://linktr.ee/icefish.pie"
+        "url": "https://linktr.ee/icefish.pie",
+        "handle": "@icefish.pie"
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "http://www.pixiv.net/member.php?id=4039813"
+        "url": "http://www.pixiv.net/member.php?id=4039813",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/icefish.pie"
+        "url": "https://instagram.com/icefish.pie",
+        "handle": ""
       }
     ]
   },
@@ -15067,8 +15067,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10006979…",
-        "url": "https://www.facebook.com/profile.php?id=100069793502478"
+        "url": "https://www.facebook.com/profile.php?id=100069793502478",
+        "handle": "profile 10006979…"
       }
     ]
   },
@@ -15083,8 +15083,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@MIKEY21",
-        "url": "https://www.plurk.com/MIKEY21"
+        "url": "https://www.plurk.com/MIKEY21",
+        "handle": "@MIKEY21"
       }
     ]
   },
@@ -15099,48 +15099,43 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/senyu"
+        "url": "https://portaly.cc/senyu",
+        "handle": "portaly"
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/g:m288r4lmncgog"
+        "url": "https://www.doujin.com.tw/authors/info/g:m288r4lmncgog",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/6432"
+        "url": "https://www.doujin.com.tw/groups/info/6432",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/watch?v=gFu75hjWEeM"
+        "url": "https://www.youtube.com/@UYUjira",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@UYUjira"
-      },
-      {
-        "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@apple"
+        "url": "https://www.youtube.com/@apple",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/3kakuyuusha"
+        "url": "https://twitter.com/3kakuyuusha",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/sankakuyuusha"
+        "url": "https://www.plurk.com/sankakuyuusha",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/24982491"
+        "url": "https://www.pixiv.net/users/24982491",
+        "handle": ""
       }
     ]
   },
@@ -15155,8 +15150,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "CopolymerWizard",
-        "url": "https://www.facebook.com/CopolymerWizard"
+        "url": "https://www.facebook.com/CopolymerWizard",
+        "handle": "CopolymerWizard"
       }
     ]
   },
@@ -15171,8 +15166,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@kyuuri991205",
-        "url": "https://www.threads.com/@kyuuri991205"
+        "url": "https://www.threads.com/@kyuuri991205",
+        "handle": "@kyuuri991205"
       }
     ]
   },
@@ -15187,8 +15182,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@yujian_lll",
-        "url": "https://www.instagram.com/yujian_lll/"
+        "url": "https://www.instagram.com/yujian_lll/",
+        "handle": "@yujian_lll"
       }
     ]
   },
@@ -15203,8 +15198,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@HOLIDAY_9NightKnight",
-        "url": "https://www.plurk.com/HOLIDAY_9NightKnight"
+        "url": "https://www.plurk.com/HOLIDAY_9NightKnight",
+        "handle": "@HOLIDAY_9NightKnight"
       }
     ]
   },
@@ -15219,8 +15214,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://blog.erenehsu.com/HappyCandy/"
+        "url": "https://blog.erenehsu.com/HappyCandy/",
+        "handle": ""
       }
     ]
   },
@@ -15235,8 +15230,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hsiao.local.girl",
-        "url": "https://www.instagram.com/hsiao.local.girl/"
+        "url": "https://www.instagram.com/hsiao.local.girl/",
+        "handle": "@hsiao.local.girl"
       }
     ]
   },
@@ -15251,8 +15246,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@tku_imas_tw",
-        "url": "https://x.com/tku_imas_tw"
+        "url": "https://x.com/tku_imas_tw",
+        "handle": "@tku_imas_tw"
       }
     ]
   },
@@ -15267,8 +15262,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@littleeyes_b216",
-        "url": "https://www.instagram.com/littleeyes_b216/"
+        "url": "https://www.instagram.com/littleeyes_b216/",
+        "handle": "@littleeyes_b216"
       }
     ]
   },
@@ -15293,8 +15288,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@minproject888",
-        "url": "https://www.instagram.com/minproject888/"
+        "url": "https://www.instagram.com/minproject888/",
+        "handle": "@minproject888"
       }
     ]
   },
@@ -15309,8 +15304,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@karupisu_planet",
-        "url": "https://www.plurk.com/karupisu_planet"
+        "url": "https://www.plurk.com/karupisu_planet",
+        "handle": "@karupisu_planet"
       }
     ]
   },
@@ -15325,13 +15320,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "MuziYuri",
-        "url": "https://www.facebook.com/MuziYuri/"
+        "url": "https://www.facebook.com/MuziYuri/",
+        "handle": "MuziYuri"
       },
       {
         "platform": "threads",
-        "handle": "@muziyuri",
-        "url": "https://www.threads.com/@muziyuri"
+        "url": "https://www.threads.com/@muziyuri",
+        "handle": "@muziyuri"
       }
     ]
   },
@@ -15346,8 +15341,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "xiao.xiao.zhang.520906",
-        "url": "https://www.facebook.com/xiao.xiao.zhang.520906"
+        "url": "https://www.facebook.com/xiao.xiao.zhang.520906",
+        "handle": "xiao.xiao.zhang.520906"
       }
     ]
   },
@@ -15362,13 +15357,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/refineyy"
+        "url": "https://portaly.cc/refineyy",
+        "handle": "portaly"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/refineyy2021"
+        "url": "https://www.plurk.com/refineyy2021",
+        "handle": ""
       }
     ]
   },
@@ -15383,33 +15378,33 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/Bubble_Wave"
+        "url": "https://linktr.ee/Bubble_Wave",
+        "handle": "Linktree"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/bw.bubblewave"
+        "url": "https://instagram.com/bw.bubblewave",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/bw.bubblewave"
+        "url": "https://www.facebook.com/bw.bubblewave",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/104597084"
+        "url": "https://www.pixiv.net/users/104597084",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@bw.bubblewave"
+        "url": "https://www.threads.com/@bw.bubblewave",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/bw_bubblewave"
+        "url": "https://x.com/bw_bubblewave",
+        "handle": ""
       }
     ]
   },
@@ -15424,8 +15419,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@mp9999",
-        "url": "https://www.plurk.com/mp9999"
+        "url": "https://www.plurk.com/mp9999",
+        "handle": "@mp9999"
       }
     ]
   },
@@ -15440,23 +15435,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/grams35"
+        "url": "https://www.doujin.com.tw/authors/info/grams35",
+        "handle": ""
       },
       {
         "platform": "aggregator",
-        "handle": "@biphang",
-        "url": "https://lit.link/biphang"
+        "url": "https://lit.link/biphang",
+        "handle": "@biphang"
       },
       {
         "platform": "plurk",
-        "handle": "@biphang",
-        "url": "https://www.plurk.com/biphang"
+        "url": "https://www.plurk.com/biphang",
+        "handle": "@biphang"
       },
       {
         "platform": "x",
-        "handle": "@biphang35g",
-        "url": "https://x.com/biphang35g"
+        "url": "https://x.com/biphang35g",
+        "handle": "@biphang35g"
       }
     ]
   },
@@ -15471,8 +15466,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ri_life_draw",
-        "url": "https://www.instagram.com/ri_life_draw/"
+        "url": "https://www.instagram.com/ri_life_draw/",
+        "handle": "@ri_life_draw"
       }
     ]
   },
@@ -15487,8 +15482,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@lagom.art_",
-        "url": "https://www.instagram.com/lagom.art_/"
+        "url": "https://www.instagram.com/lagom.art_/",
+        "handle": "@lagom.art_"
       }
     ]
   },
@@ -15503,8 +15498,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@nightleave1030",
-        "url": "https://x.com/nightleave1030"
+        "url": "https://x.com/nightleave1030",
+        "handle": "@nightleave1030"
       }
     ]
   },
@@ -15519,8 +15514,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@aggie__amble",
-        "url": "https://instagram.com/aggie__amble/"
+        "url": "https://instagram.com/aggie__amble/",
+        "handle": "@aggie__amble"
       }
     ]
   },
@@ -15535,8 +15530,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@erasertea",
-        "url": "https://www.instagram.com/erasertea/"
+        "url": "https://www.instagram.com/erasertea/",
+        "handle": "@erasertea"
       }
     ]
   },
@@ -15551,8 +15546,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@_92b5a9",
-        "url": "https://www.instagram.com/_92b5a9/"
+        "url": "https://www.instagram.com/_92b5a9/",
+        "handle": "@_92b5a9"
       }
     ]
   },
@@ -15567,13 +15562,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@lunoestory.novel",
-        "url": "https://www.instagram.com/lunoestory.novel/"
+        "url": "https://www.instagram.com/lunoestory.novel/",
+        "handle": "@lunoestory.novel"
       },
       {
         "platform": "threads",
-        "handle": "@l90715566123",
-        "url": "https://www.threads.com/@l90715566123"
+        "url": "https://www.threads.com/@l90715566123",
+        "handle": "@l90715566123"
       }
     ]
   },
@@ -15588,8 +15583,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ouo336",
-        "url": "https://www.facebook.com/ouo336"
+        "url": "https://www.facebook.com/ouo336",
+        "handle": "ouo336"
       }
     ]
   },
@@ -15604,8 +15599,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@AM00019932687",
-        "url": "https://x.com/AM00019932687"
+        "url": "https://x.com/AM00019932687",
+        "handle": "@AM00019932687"
       }
     ]
   },
@@ -15620,38 +15615,38 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/menyakuranari"
+        "url": "https://lit.link/zh-tw/menyakuranari",
+        "handle": "lit.link"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/apriori_circle/"
+        "url": "https://www.instagram.com/apriori_circle/",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/playlist?list=OLAK5uy_kW6SHtoOqYl2LhVcCmDQPeRKJ8YZSLUbc"
+        "url": "https://www.youtube.com/playlist?list=OLAK5uy_kW6SHtoOqYl2LhVcCmDQPeRKJ8YZSLUbc",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.melonbooks.co.jp/circle/index.php?circle_id=134471"
+        "url": "https://www.melonbooks.co.jp/circle/index.php?circle_id=134471",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/apriori_circle"
+        "url": "https://twitter.com/apriori_circle",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/apriori.circle/"
+        "url": "https://www.facebook.com/apriori.circle/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/profile.php?id=61576247713314"
+        "url": "https://www.facebook.com/profile.php?id=61576247713314",
+        "handle": ""
       }
     ]
   },
@@ -15666,8 +15661,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@endlessnight_tw",
-        "url": "https://www.instagram.com/endlessnight_tw/"
+        "url": "https://www.instagram.com/endlessnight_tw/",
+        "handle": "@endlessnight_tw"
       }
     ]
   },
@@ -15702,8 +15697,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "hanyangcomic",
-        "url": "https://www.facebook.com/hanyangcomic?_ps=1"
+        "url": "https://www.facebook.com/hanyangcomic?_ps=1",
+        "handle": "hanyangcomic"
       }
     ]
   },
@@ -15718,8 +15713,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@moonshadow331",
-        "url": "https://www.plurk.com/moonshadow331"
+        "url": "https://www.plurk.com/moonshadow331",
+        "handle": "@moonshadow331"
       }
     ]
   },
@@ -15734,8 +15729,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@zdyui810",
-        "url": "https://www.plurk.com/zdyui810"
+        "url": "https://www.plurk.com/zdyui810",
+        "handle": "@zdyui810"
       }
     ]
   },
@@ -15750,8 +15745,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@2GeTrEkT264",
-        "url": "https://x.com/2GeTrEkT264"
+        "url": "https://x.com/2GeTrEkT264",
+        "handle": "@2GeTrEkT264"
       }
     ]
   },
@@ -15766,23 +15761,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab"
+        "url": "https://www.doujin.com.tw/groups/info/1330/books#groups_tab",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@beautywind",
-        "url": "https://www.plurk.com/beautywind"
+        "url": "https://www.plurk.com/beautywind",
+        "handle": "@beautywind"
       },
       {
         "platform": "generic",
-        "handle": "@beautywind",
-        "url": "https://www.doujin.com.tw/authors/info/beautywind"
+        "url": "https://www.doujin.com.tw/authors/info/beautywind",
+        "handle": "@beautywind"
       },
       {
         "platform": "plurk",
-        "handle": "@ncgdni",
-        "url": "https://www.plurk.com/p/ncgdni"
+        "url": "https://www.plurk.com/p/ncgdni",
+        "handle": "@ncgdni"
       }
     ]
   },
@@ -15797,38 +15792,38 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/moriowo.s"
+        "url": "https://linktr.ee/moriowo.s",
+        "handle": "Linktree"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/moriowo_"
+        "url": "https://twitter.com/moriowo_",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/moriowo.s/"
+        "url": "https://www.instagram.com/moriowo.s/",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@moriowo.s"
+        "url": "https://www.youtube.com/@moriowo.s",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.com/@moriowo.s"
+        "url": "https://www.threads.com/@moriowo.s",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/moriowos"
+        "url": "https://www.plurk.com/moriowos",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://avatars.plurk.com/16725327-big55397797.jpg"
+        "url": "https://avatars.plurk.com/16725327-big55397797.jpg",
+        "handle": ""
       }
     ]
   },
@@ -15843,8 +15838,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "MyGardenMyLife",
-        "url": "https://www.facebook.com/MyGardenMyLife"
+        "url": "https://www.facebook.com/MyGardenMyLife",
+        "handle": "MyGardenMyLife"
       }
     ]
   },
@@ -15859,8 +15854,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ChristinStudio",
-        "url": "https://www.facebook.com/ChristinStudio"
+        "url": "https://www.facebook.com/ChristinStudio",
+        "handle": "ChristinStudio"
       }
     ]
   },
@@ -15875,8 +15870,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "jiao.ji.327793",
-        "url": "https://www.facebook.com/jiao.ji.327793/"
+        "url": "https://www.facebook.com/jiao.ji.327793/",
+        "handle": "jiao.ji.327793"
       }
     ]
   },
@@ -15891,8 +15886,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@roxanne21___",
-        "url": "https://www.instagram.com/roxanne21___/"
+        "url": "https://www.instagram.com/roxanne21___/",
+        "handle": "@roxanne21___"
       }
     ]
   },
@@ -15907,8 +15902,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@the_berrypie",
-        "url": "https://www.instagram.com/the_berrypie/"
+        "url": "https://www.instagram.com/the_berrypie/",
+        "handle": "@the_berrypie"
       }
     ]
   },
@@ -15923,8 +15918,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "miku3939circle",
-        "url": "https://www.facebook.com/miku3939circle?locale=zh_TW"
+        "url": "https://www.facebook.com/miku3939circle?locale=zh_TW",
+        "handle": "miku3939circle"
       }
     ]
   },
@@ -15939,8 +15934,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@arayo__0616",
-        "url": "https://instagram.com/arayo__0616/"
+        "url": "https://instagram.com/arayo__0616/",
+        "handle": "@arayo__0616"
       }
     ]
   },
@@ -15955,8 +15950,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "media",
-        "url": "https://facebook.com/media/set/?set=a.10160389843616259"
+        "url": "https://facebook.com/media/set/?set=a.10160389843616259",
+        "handle": "media"
       }
     ]
   },
@@ -15971,8 +15966,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@snipeyozora",
-        "url": "https://www.plurk.com/snipeyozora"
+        "url": "https://www.plurk.com/snipeyozora",
+        "handle": "@snipeyozora"
       }
     ]
   },
@@ -15987,8 +15982,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61583559…",
-        "url": "https://www.facebook.com/profile.php?id=61583559591571"
+        "url": "https://www.facebook.com/profile.php?id=61583559591571",
+        "handle": "profile 61583559…"
       }
     ]
   },
@@ -16003,8 +15998,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@xy884088",
-        "url": "https://www.instagram.com/xy884088/"
+        "url": "https://www.instagram.com/xy884088/",
+        "handle": "@xy884088"
       }
     ]
   },
@@ -16019,8 +16014,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://w0960.pixnet.net/blog"
+        "url": "https://w0960.pixnet.net/blog",
+        "handle": ""
       }
     ]
   },
@@ -16035,8 +16030,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@Shenlan_echo",
-        "url": "https://x.com/Shenlan_echo"
+        "url": "https://x.com/Shenlan_echo",
+        "handle": "@Shenlan_echo"
       }
     ]
   },
@@ -16051,8 +16046,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "tan.tan.828001",
-        "url": "https://www.facebook.com/tan.tan.828001"
+        "url": "https://www.facebook.com/tan.tan.828001",
+        "handle": "tan.tan.828001"
       }
     ]
   },
@@ -16067,8 +16062,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@jelda_arts",
-        "url": "https://www.instagram.com/jelda_arts/"
+        "url": "https://www.instagram.com/jelda_arts/",
+        "handle": "@jelda_arts"
       }
     ]
   },
@@ -16083,8 +16078,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/yinqarys"
+        "url": "https://www.doujin.com.tw/authors/info/yinqarys",
+        "handle": ""
       }
     ]
   },
@@ -16099,8 +16094,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hygge._love",
-        "url": "https://www.instagram.com/hygge._love/"
+        "url": "https://www.instagram.com/hygge._love/",
+        "handle": "@hygge._love"
       }
     ]
   },
@@ -16115,8 +16110,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@brain.bamage",
-        "url": "https://www.instagram.com/brain.bamage/"
+        "url": "https://www.instagram.com/brain.bamage/",
+        "handle": "@brain.bamage"
       }
     ]
   },
@@ -16141,8 +16136,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@_inner_room",
-        "url": "https://www.instagram.com/_inner_room/"
+        "url": "https://www.instagram.com/_inner_room/",
+        "handle": "@_inner_room"
       }
     ]
   },
@@ -16157,8 +16152,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@gloomlysky",
-        "url": "https://www.plurk.com/gloomlysky"
+        "url": "https://www.plurk.com/gloomlysky",
+        "handle": "@gloomlysky"
       }
     ]
   },
@@ -16173,13 +16168,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "s092077",
-        "url": "https://www.facebook.com/s092077?locale=zh_TW"
+        "url": "https://www.facebook.com/s092077?locale=zh_TW",
+        "handle": "s092077"
       },
       {
         "platform": "threads",
-        "handle": "@kei_habara",
-        "url": "https://www.threads.com/@kei_habara"
+        "url": "https://www.threads.com/@kei_habara",
+        "handle": "@kei_habara"
       }
     ]
   },
@@ -16194,28 +16189,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/523/books"
+        "url": "https://www.doujin.com.tw/groups/info/523/books",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@ninevsnine",
-        "url": "https://www.plurk.com/ninevsnine/"
+        "url": "https://www.plurk.com/ninevsnine/",
+        "handle": "@ninevsnine"
       },
       {
         "platform": "generic",
-        "handle": "@ninevsnine",
-        "url": "https://www.doujin.com.tw/authors/info/ninevsnine"
+        "url": "https://www.doujin.com.tw/authors/info/ninevsnine",
+        "handle": "@ninevsnine"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=967258"
+        "url": "https://www.pixiv.net/member.php?id=967258",
+        "handle": "@member.php"
       },
       {
         "platform": "x",
-        "handle": "@ninevsnine",
-        "url": "https://x.com/ninevsnine"
+        "url": "https://x.com/ninevsnine",
+        "handle": "@ninevsnine"
       }
     ]
   },
@@ -16230,8 +16225,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@mamo20220624",
-        "url": "https://x.com/mamo20220624"
+        "url": "https://x.com/mamo20220624",
+        "handle": "@mamo20220624"
       }
     ]
   },
@@ -16246,8 +16241,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@poki1130",
-        "url": "https://www.plurk.com/poki1130"
+        "url": "https://www.plurk.com/poki1130",
+        "handle": "@poki1130"
       }
     ]
   },
@@ -16262,8 +16257,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ricke.kao",
-        "url": "https://www.facebook.com/ricke.kao"
+        "url": "https://www.facebook.com/ricke.kao",
+        "handle": "ricke.kao"
       }
     ]
   },
@@ -16278,8 +16273,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@newstone",
-        "url": "https://www.plurk.com/newstone"
+        "url": "https://www.plurk.com/newstone",
+        "handle": "@newstone"
       }
     ]
   },
@@ -16294,8 +16289,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "mei.emerald.96",
-        "url": "https://www.facebook.com/mei.emerald.96?"
+        "url": "https://www.facebook.com/mei.emerald.96?",
+        "handle": "mei.emerald.96"
       }
     ]
   },
@@ -16320,8 +16315,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yuyudesu0806",
-        "url": "https://www.facebook.com/yuyudesu0806/"
+        "url": "https://www.facebook.com/yuyudesu0806/",
+        "handle": "yuyudesu0806"
       }
     ]
   },
@@ -16336,8 +16331,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827"
+        "url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827",
+        "handle": ""
       }
     ]
   },
@@ -16352,8 +16347,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@swet1002",
-        "url": "https://www.plurk.com/swet1002"
+        "url": "https://www.plurk.com/swet1002",
+        "handle": "@swet1002"
       }
     ]
   },
@@ -16368,43 +16363,43 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/rainnyafoi"
+        "url": "https://lit.link/en/rainnyafoi",
+        "handle": "lit.link"
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/2154250"
+        "url": "https://www.pixiv.net/users/2154250",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/rainnyafoi"
+        "url": "https://www.plurk.com/rainnyafoi",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/yafoi0225"
+        "url": "https://twitter.com/yafoi0225",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/rainnyafoi"
+        "url": "https://twitter.com/rainnyafoi",
+        "handle": ""
       },
       {
         "platform": "blog",
-        "handle": "",
-        "url": "https://rainnyafoi.tumblr.com/"
+        "url": "https://rainnyafoi.tumblr.com/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/rainnyafoi/"
+        "url": "https://www.instagram.com/rainnyafoi/",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/rainnyafoi"
+        "url": "https://www.doujin.com.tw/authors/info/rainnyafoi",
+        "handle": ""
       }
     ]
   },
@@ -16419,33 +16414,33 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/yyoaooao"
+        "url": "https://portaly.cc/yyoaooao",
+        "handle": "portaly"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/yyoaooao"
+        "url": "https://www.plurk.com/yyoaooao",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/ot76v9"
+        "url": "https://www.plurk.com/p/ot76v9",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/yyoaooao/"
+        "url": "https://www.instagram.com/yyoaooao/",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/yyoaooao"
+        "url": "https://x.com/yyoaooao",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/li.pei.fu.517583/"
+        "url": "https://www.facebook.com/li.pei.fu.517583/",
+        "handle": ""
       }
     ]
   },
@@ -16460,8 +16455,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61573677…",
-        "url": "https://www.facebook.com/61573677164059/"
+        "url": "https://www.facebook.com/61573677164059/",
+        "handle": "profile 61573677…"
       }
     ]
   },
@@ -16476,8 +16471,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@_inxk.ntn_",
-        "url": "https://www.instagram.com/_inxk.ntn_/"
+        "url": "https://www.instagram.com/_inxk.ntn_/",
+        "handle": "@_inxk.ntn_"
       }
     ]
   },
@@ -16492,8 +16487,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@unfriendlyanimals",
-        "url": "https://www.instagram.com/unfriendlyanimals/"
+        "url": "https://www.instagram.com/unfriendlyanimals/",
+        "handle": "@unfriendlyanimals"
       }
     ]
   },
@@ -16508,8 +16503,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@sakana_56",
-        "url": "https://www.plurk.com/sakana_56"
+        "url": "https://www.plurk.com/sakana_56",
+        "handle": "@sakana_56"
       }
     ]
   },
@@ -16524,8 +16519,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "jyouka2019",
-        "url": "https://www.facebook.com/jyouka2019"
+        "url": "https://www.facebook.com/jyouka2019",
+        "handle": "jyouka2019"
       }
     ]
   },
@@ -16540,8 +16535,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "FoxMoonOmu",
-        "url": "https://www.facebook.com/FoxMoonOmu/"
+        "url": "https://www.facebook.com/FoxMoonOmu/",
+        "handle": "FoxMoonOmu"
       }
     ]
   },
@@ -16556,13 +16551,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/2719"
+        "url": "https://www.doujin.com.tw/groups/info/2719",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@kaukau",
-        "url": "https://www.doujin.com.tw/authors/info/kaukau"
+        "url": "https://www.doujin.com.tw/authors/info/kaukau",
+        "handle": "@kaukau"
       }
     ]
   },
@@ -16577,8 +16572,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "nokomakawa",
-        "url": "https://www.facebook.com/nokomakawa/"
+        "url": "https://www.facebook.com/nokomakawa/",
+        "handle": "nokomakawa"
       }
     ]
   },
@@ -16593,8 +16588,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "Mikanseal074",
-        "url": "https://www.facebook.com/Mikanseal074"
+        "url": "https://www.facebook.com/Mikanseal074",
+        "handle": "Mikanseal074"
       }
     ]
   },
@@ -16609,13 +16604,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/yangbu/goods"
+        "url": "https://www.doujin.com.tw/authors/info/yangbu/goods",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@yangbu",
-        "url": "https://www.plurk.com/yangbu"
+        "url": "https://www.plurk.com/yangbu",
+        "handle": "@yangbu"
       }
     ]
   },
@@ -16630,8 +16625,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10008749…",
-        "url": "https://www.facebook.com/profile.php?id=100087498796559"
+        "url": "https://www.facebook.com/profile.php?id=100087498796559",
+        "handle": "profile 10008749…"
       }
     ]
   },
@@ -16646,8 +16641,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "co.shih",
-        "url": "https://www.facebook.com/co.shih"
+        "url": "https://www.facebook.com/co.shih",
+        "handle": "co.shih"
       }
     ]
   },
@@ -16662,8 +16657,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@axitreehouse",
-        "url": "https://www.instagram.com/axitreehouse/"
+        "url": "https://www.instagram.com/axitreehouse/",
+        "handle": "@axitreehouse"
       }
     ]
   },
@@ -16678,8 +16673,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "almn.sk.page",
-        "url": "https://www.facebook.com/almn.sk.page/"
+        "url": "https://www.facebook.com/almn.sk.page/",
+        "handle": "almn.sk.page"
       }
     ]
   },
@@ -16694,8 +16689,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@chang_yu_i",
-        "url": "https://www.instagram.com/chang_yu_i/"
+        "url": "https://www.instagram.com/chang_yu_i/",
+        "handle": "@chang_yu_i"
       }
     ]
   },
@@ -16710,8 +16705,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@back_home_diary",
-        "url": "https://www.instagram.com/back_home_diary/"
+        "url": "https://www.instagram.com/back_home_diary/",
+        "handle": "@back_home_diary"
       }
     ]
   },
@@ -16726,8 +16721,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "pixiv",
-        "handle": "Pixiv 1181363",
-        "url": "https://www.pixiv.net/users/1181363"
+        "url": "https://www.pixiv.net/users/1181363",
+        "handle": "Pixiv 1181363"
       }
     ]
   },
@@ -16742,8 +16737,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@miba_1.8",
-        "url": "https://www.instagram.com/miba_1.8/"
+        "url": "https://www.instagram.com/miba_1.8/",
+        "handle": "@miba_1.8"
       }
     ]
   },
@@ -16758,8 +16753,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "YuutsuNeko",
-        "url": "https://www.facebook.com/YuutsuNeko/"
+        "url": "https://www.facebook.com/YuutsuNeko/",
+        "handle": "YuutsuNeko"
       }
     ]
   },
@@ -16774,8 +16769,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "tama48849",
-        "url": "https://www.facebook.com/tama48849"
+        "url": "https://www.facebook.com/tama48849",
+        "handle": "tama48849"
       }
     ]
   },
@@ -16790,8 +16785,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "harai.uine",
-        "url": "https://www.facebook.com/harai.uine"
+        "url": "https://www.facebook.com/harai.uine",
+        "handle": "harai.uine"
       }
     ]
   },
@@ -16806,8 +16801,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ut_91127",
-        "url": "https://www.instagram.com/ut_91127/"
+        "url": "https://www.instagram.com/ut_91127/",
+        "handle": "@ut_91127"
       }
     ]
   },
@@ -16822,23 +16817,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW"
+        "url": "https://www.doujin.com.tw/authors/info/g:cdE6g2aKhzdW",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=91965075"
+        "url": "https://www.pixiv.net/member.php?id=91965075",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@blacksheep_liu",
-        "url": "https://www.plurk.com/blacksheep_liu"
+        "url": "https://www.plurk.com/blacksheep_liu",
+        "handle": "@blacksheep_liu"
       },
       {
         "platform": "x",
-        "handle": "@liudigltal",
-        "url": "https://x.com/liudigltal"
+        "url": "https://x.com/liudigltal",
+        "handle": "@liudigltal"
       }
     ]
   },
@@ -16853,8 +16848,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@t0ng_eyyy",
-        "url": "https://www.instagram.com/t0ng_eyyy/"
+        "url": "https://www.instagram.com/t0ng_eyyy/",
+        "handle": "@t0ng_eyyy"
       }
     ]
   },
@@ -16869,8 +16864,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@a983azy",
-        "url": "https://www.plurk.com/a983azy"
+        "url": "https://www.plurk.com/a983azy",
+        "handle": "@a983azy"
       }
     ]
   },
@@ -16885,8 +16880,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "cilsbox",
-        "url": "https://www.facebook.com/cilsbox/"
+        "url": "https://www.facebook.com/cilsbox/",
+        "handle": "cilsbox"
       }
     ]
   },
@@ -16901,8 +16896,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@nagoberry",
-        "url": "https://www.plurk.com/nagoberry"
+        "url": "https://www.plurk.com/nagoberry",
+        "handle": "@nagoberry"
       }
     ]
   },
@@ -16917,8 +16912,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@yui_creator",
-        "url": "https://www.instagram.com/yui_creator/"
+        "url": "https://www.instagram.com/yui_creator/",
+        "handle": "@yui_creator"
       }
     ]
   },
@@ -16933,8 +16928,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@crybaby_77_illustration",
-        "url": "https://www.instagram.com/crybaby_77_illustration/"
+        "url": "https://www.instagram.com/crybaby_77_illustration/",
+        "handle": "@crybaby_77_illustration"
       }
     ]
   },
@@ -16949,8 +16944,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "gutenmomo",
-        "url": "https://www.facebook.com/gutenmomo"
+        "url": "https://www.facebook.com/gutenmomo",
+        "handle": "gutenmomo"
       }
     ]
   },
@@ -16965,8 +16960,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "MOLAMOLAComics",
-        "url": "https://www.facebook.com/MOLAMOLAComics"
+        "url": "https://www.facebook.com/MOLAMOLAComics",
+        "handle": "MOLAMOLAComics"
       }
     ]
   },
@@ -16981,8 +16976,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@bossraven77",
-        "url": "https://www.instagram.com/bossraven77/"
+        "url": "https://www.instagram.com/bossraven77/",
+        "handle": "@bossraven77"
       }
     ]
   },
@@ -16997,8 +16992,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97"
+        "url": "https://efficient-soy-aa6.notion.site/P-b8b28fa30eda4bee86ee449ec7b89b97",
+        "handle": ""
       }
     ]
   },
@@ -17013,8 +17008,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "liu.tong.xue.241219",
-        "url": "https://www.facebook.com/liu.tong.xue.241219/"
+        "url": "https://www.facebook.com/liu.tong.xue.241219/",
+        "handle": "liu.tong.xue.241219"
       }
     ]
   },
@@ -17029,8 +17024,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "bbibinbingART",
-        "url": "https://www.facebook.com/bbibinbingART/"
+        "url": "https://www.facebook.com/bbibinbingART/",
+        "handle": "bbibinbingART"
       }
     ]
   },
@@ -17045,8 +17040,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@kikokakok",
-        "url": "https://www.plurk.com/kikokakok"
+        "url": "https://www.plurk.com/kikokakok",
+        "handle": "@kikokakok"
       }
     ]
   },
@@ -17071,13 +17066,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/flyinglo"
+        "url": "https://www.doujin.com.tw/authors/info/flyinglo",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@flyinglo",
-        "url": "https://www.plurk.com/flyinglo"
+        "url": "https://www.plurk.com/flyinglo",
+        "handle": "@flyinglo"
       }
     ]
   },
@@ -17092,8 +17087,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@ponka2024",
-        "url": "https://x.com/ponka2024"
+        "url": "https://x.com/ponka2024",
+        "handle": "@ponka2024"
       }
     ]
   },
@@ -17108,28 +17103,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/gubiTW"
+        "url": "https://lit.link/en/gubiTW",
+        "handle": "lit.link"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/zxcv318061"
+        "url": "https://www.plurk.com/zxcv318061",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/13961146"
+        "url": "https://www.pixiv.net/users/13961146",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/zxcv1234442"
+        "url": "https://twitter.com/zxcv1234442",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/profile.php?id=100000797014323"
+        "url": "https://www.facebook.com/profile.php?id=100000797014323",
+        "handle": ""
       }
     ]
   },
@@ -17144,8 +17139,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@taimini865",
-        "url": "https://www.plurk.com/taimini865"
+        "url": "https://www.plurk.com/taimini865",
+        "handle": "@taimini865"
       }
     ]
   },
@@ -17180,8 +17175,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@a86872329",
-        "url": "https://www.plurk.com/a86872329"
+        "url": "https://www.plurk.com/a86872329",
+        "handle": "@a86872329"
       }
     ]
   },
@@ -17196,8 +17191,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@kazA_A",
-        "url": "http://www.plurk.com/kazA_A"
+        "url": "http://www.plurk.com/kazA_A",
+        "handle": "@kazA_A"
       }
     ]
   },
@@ -17212,8 +17207,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@gunn11222",
-        "url": "https://www.instagram.com/gunn11222/"
+        "url": "https://www.instagram.com/gunn11222/",
+        "handle": "@gunn11222"
       }
     ]
   },
@@ -17228,8 +17223,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@sayoku",
-        "url": "https://www.plurk.com/u/sayoku"
+        "url": "https://www.plurk.com/u/sayoku",
+        "handle": "@sayoku"
       }
     ]
   },
@@ -17244,8 +17239,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "shi.zhong.394980",
-        "url": "https://www.facebook.com/shi.zhong.394980/"
+        "url": "https://www.facebook.com/shi.zhong.394980/",
+        "handle": "shi.zhong.394980"
       }
     ]
   },
@@ -17260,8 +17255,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "cwy.0316.joestar",
-        "url": "https://www.facebook.com/cwy.0316.joestar/"
+        "url": "https://www.facebook.com/cwy.0316.joestar/",
+        "handle": "cwy.0316.joestar"
       }
     ]
   },
@@ -17276,8 +17271,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "lifa4dream",
-        "url": "https://www.facebook.com/lifa4dream"
+        "url": "https://www.facebook.com/lifa4dream",
+        "handle": "lifa4dream"
       }
     ]
   },
@@ -17292,13 +17287,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab"
+        "url": "https://www.doujin.com.tw/groups/info/1406/books#groups_tab",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "@myhand22",
-        "url": "https://www.doujin.com.tw/authors/info/myhand22"
+        "url": "https://www.doujin.com.tw/authors/info/myhand22",
+        "handle": "@myhand22"
       }
     ]
   },
@@ -17313,8 +17308,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "simelu2016",
-        "url": "https://www.facebook.com/simelu2016"
+        "url": "https://www.facebook.com/simelu2016",
+        "handle": "simelu2016"
       }
     ]
   },
@@ -17329,8 +17324,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@foxcoffeexx",
-        "url": "https://www.instagram.com/foxcoffeexx/"
+        "url": "https://www.instagram.com/foxcoffeexx/",
+        "handle": "@foxcoffeexx"
       }
     ]
   },
@@ -17345,23 +17340,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/zh-tw/witlhgti"
+        "url": "https://lit.link/zh-tw/witlhgti",
+        "handle": "lit.link"
       },
       {
         "platform": "ig",
-        "handle": "@________witlhgti________",
-        "url": "https://www.instagram.com/________witlhgti________/"
+        "url": "https://www.instagram.com/________witlhgti________/",
+        "handle": "@________witlhgti________"
       },
       {
         "platform": "fb",
-        "handle": "profile 61582400…",
-        "url": "https://www.facebook.com/profile.php?id=61582400081677"
+        "url": "https://www.facebook.com/profile.php?id=61582400081677",
+        "handle": "profile 61582400…"
       },
       {
         "platform": "x",
-        "handle": "@witlhgti",
-        "url": "https://twitter.com/witlhgti"
+        "url": "https://twitter.com/witlhgti",
+        "handle": "@witlhgti"
       }
     ]
   },
@@ -17376,8 +17371,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@fromjanuary1st",
-        "url": "https://www.threads.com/@fromjanuary1st"
+        "url": "https://www.threads.com/@fromjanuary1st",
+        "handle": "@fromjanuary1st"
       }
     ]
   },
@@ -17392,8 +17387,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@yuiotagiri",
-        "url": "https://www.instagram.com/yuiotagiri/"
+        "url": "https://www.instagram.com/yuiotagiri/",
+        "handle": "@yuiotagiri"
       }
     ]
   },
@@ -17408,8 +17403,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@jj_catclaw",
-        "url": "https://x.com/jj_catclaw"
+        "url": "https://x.com/jj_catclaw",
+        "handle": "@jj_catclaw"
       }
     ]
   },
@@ -17424,8 +17419,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "jiang.jiang.193870",
-        "url": "https://www.facebook.com/jiang.jiang.193870"
+        "url": "https://www.facebook.com/jiang.jiang.193870",
+        "handle": "jiang.jiang.193870"
       }
     ]
   },
@@ -17440,8 +17435,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@lll8256",
-        "url": "https://www.plurk.com/lll8256"
+        "url": "https://www.plurk.com/lll8256",
+        "handle": "@lll8256"
       }
     ]
   },
@@ -17456,8 +17451,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "GesamtkunstwerkundEi",
-        "url": "https://www.facebook.com/GesamtkunstwerkundEi"
+        "url": "https://www.facebook.com/GesamtkunstwerkundEi",
+        "handle": "GesamtkunstwerkundEi"
       }
     ]
   },
@@ -17472,8 +17467,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "BlueWhale.s.art",
-        "url": "https://www.facebook.com/BlueWhale.s.art"
+        "url": "https://www.facebook.com/BlueWhale.s.art",
+        "handle": "BlueWhale.s.art"
       }
     ]
   },
@@ -17488,13 +17483,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/shentos"
+        "url": "https://www.doujin.com.tw/authors/info/shentos",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@ifeelfree",
-        "url": "https://www.plurk.com/ifeelfree"
+        "url": "https://www.plurk.com/ifeelfree",
+        "handle": "@ifeelfree"
       }
     ]
   },
@@ -17519,28 +17514,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/8694"
+        "url": "https://www.doujin.com.tw/groups/info/8694",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@kiami",
-        "url": "https://www.plurk.com/kiami"
+        "url": "https://www.plurk.com/kiami",
+        "handle": "@kiami"
       },
       {
         "platform": "generic",
-        "handle": "@kiami",
-        "url": "https://www.doujin.com.tw/authors/info/kiami"
+        "url": "https://www.doujin.com.tw/authors/info/kiami",
+        "handle": "@kiami"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=232204"
+        "url": "https://www.pixiv.net/member.php?id=232204",
+        "handle": "@member.php"
       },
       {
         "platform": "x",
-        "handle": "@konatsu0502",
-        "url": "https://x.com/konatsu0502"
+        "url": "https://x.com/konatsu0502",
+        "handle": "@konatsu0502"
       }
     ]
   },
@@ -17555,8 +17550,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://sakuds.carrd.co"
+        "url": "https://sakuds.carrd.co",
+        "handle": ""
       }
     ]
   },
@@ -17581,8 +17576,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ekis2018",
-        "url": "https://www.facebook.com/ekis2018"
+        "url": "https://www.facebook.com/ekis2018",
+        "handle": "ekis2018"
       }
     ]
   },
@@ -17597,8 +17592,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "liu.ze.mei.ying",
-        "url": "https://www.facebook.com/liu.ze.mei.ying"
+        "url": "https://www.facebook.com/liu.ze.mei.ying",
+        "handle": "liu.ze.mei.ying"
       }
     ]
   },
@@ -17613,8 +17608,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@jidraw018",
-        "url": "https://www.instagram.com/jidraw018/"
+        "url": "https://www.instagram.com/jidraw018/",
+        "handle": "@jidraw018"
       }
     ]
   },
@@ -17629,8 +17624,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@saza_073",
-        "url": "https://x.com/saza_073"
+        "url": "https://x.com/saza_073",
+        "handle": "@saza_073"
       }
     ]
   },
@@ -17645,8 +17640,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@nu.rkgk",
-        "url": "https://www.threads.com/@nu.rkgk"
+        "url": "https://www.threads.com/@nu.rkgk",
+        "handle": "@nu.rkgk"
       }
     ]
   },
@@ -17661,13 +17656,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "shadowsinkincoffee",
-        "url": "https://www.facebook.com/shadowsinkincoffee/"
+        "url": "https://www.facebook.com/shadowsinkincoffee/",
+        "handle": "shadowsinkincoffee"
       },
       {
         "platform": "plurk",
-        "handle": "@貓小喳",
-        "url": "https://www.plurk.com/p/3ipcz6llj1"
+        "url": "https://www.plurk.com/p/3ipcz6llj1",
+        "handle": "@貓小喳"
       }
     ]
   },
@@ -17682,8 +17677,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ayas929",
-        "url": "https://www.plurk.com/ayas929"
+        "url": "https://www.plurk.com/ayas929",
+        "handle": "@ayas929"
       }
     ]
   },
@@ -17698,18 +17693,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab"
+        "url": "https://www.doujin.com.tw/authors/info/bbsame#authors_tab",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=1665150"
+        "url": "https://www.pixiv.net/member.php?id=1665150",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@bambooboo",
-        "url": "https://www.plurk.com/bambooboo"
+        "url": "https://www.plurk.com/bambooboo",
+        "handle": "@bambooboo"
       }
     ]
   },
@@ -17724,8 +17719,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "letyourmidpeace",
-        "url": "https://www.facebook.com/letyourmidpeace"
+        "url": "https://www.facebook.com/letyourmidpeace",
+        "handle": "letyourmidpeace"
       }
     ]
   },
@@ -17740,8 +17735,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "keepingbirds",
-        "url": "https://www.facebook.com/keepingbirds"
+        "url": "https://www.facebook.com/keepingbirds",
+        "handle": "keepingbirds"
       }
     ]
   },
@@ -17756,13 +17751,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/shihchan"
+        "url": "https://www.doujin.com.tw/authors/info/shihchan",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@shihchan",
-        "url": "https://www.plurk.com/shihchan"
+        "url": "https://www.plurk.com/shihchan",
+        "handle": "@shihchan"
       }
     ]
   },
@@ -17777,13 +17772,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "bsky",
-        "handle": "@taboom002",
-        "url": "https://bsky.app/profile/taboom002.bsky.social"
+        "url": "https://bsky.app/profile/taboom002.bsky.social",
+        "handle": "@taboom002"
       },
       {
         "platform": "threads",
-        "handle": "@taboom002",
-        "url": "https://www.threads.com/@taboom002"
+        "url": "https://www.threads.com/@taboom002",
+        "handle": "@taboom002"
       }
     ]
   },
@@ -17798,8 +17793,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@truemako21",
-        "url": "https://www.plurk.com/truemako21"
+        "url": "https://www.plurk.com/truemako21",
+        "handle": "@truemako21"
       }
     ]
   },
@@ -17814,8 +17809,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "ss0912309713",
-        "url": "https://www.facebook.com/ss0912309713"
+        "url": "https://www.facebook.com/ss0912309713",
+        "handle": "ss0912309713"
       }
     ]
   },
@@ -17830,8 +17825,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://anenin.weebly.com/2516325622212053005927231.html"
+        "url": "https://anenin.weebly.com/2516325622212053005927231.html",
+        "handle": ""
       }
     ]
   },
@@ -17846,8 +17841,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "blackrosetwc",
-        "url": "https://www.facebook.com/blackrosetwc/"
+        "url": "https://www.facebook.com/blackrosetwc/",
+        "handle": "blackrosetwc"
       }
     ]
   },
@@ -17862,23 +17857,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/1507/goods"
+        "url": "https://www.doujin.com.tw/groups/info/1507/goods",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@jiouya",
-        "url": "http://www.plurk.com/jiouya"
+        "url": "http://www.plurk.com/jiouya",
+        "handle": "@jiouya"
       },
       {
         "platform": "generic",
-        "handle": "@jiouya",
-        "url": "https://www.doujin.com.tw/authors/info/jiouya"
+        "url": "https://www.doujin.com.tw/authors/info/jiouya",
+        "handle": "@jiouya"
       },
       {
         "platform": "x",
-        "handle": "@KovaEhwaz",
-        "url": "https://twitter.com/KovaEhwaz"
+        "url": "https://twitter.com/KovaEhwaz",
+        "handle": "@KovaEhwaz"
       }
     ]
   },
@@ -17893,8 +17888,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://wxf0202.blog.fc2.com/"
+        "url": "https://wxf0202.blog.fc2.com/",
+        "handle": ""
       }
     ]
   },
@@ -17909,33 +17904,33 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/Streamer_Fairy_Art"
+        "url": "https://linktr.ee/Streamer_Fairy_Art",
+        "handle": "Linktree"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/streamer_fairy"
+        "url": "https://instagram.com/streamer_fairy",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/streamerfairy"
+        "url": "https://www.plurk.com/streamerfairy",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://avatars.plurk.com/14600570-big92403967.jpg"
+        "url": "https://avatars.plurk.com/14600570-big92403967.jpg",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/Streamer_fairy"
+        "url": "https://x.com/Streamer_fairy",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/streamerfairy"
+        "url": "https://www.facebook.com/streamerfairy",
+        "handle": ""
       }
     ]
   },
@@ -17950,8 +17945,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yenchun916",
-        "url": "https://www.plurk.com/yenchun916"
+        "url": "https://www.plurk.com/yenchun916",
+        "handle": "@yenchun916"
       }
     ]
   },
@@ -17966,8 +17961,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@shiroyu.store",
-        "url": "https://instagram.com/shiroyu.store/"
+        "url": "https://instagram.com/shiroyu.store/",
+        "handle": "@shiroyu.store"
       }
     ]
   },
@@ -17992,8 +17987,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hahu_paint",
-        "url": "https://www.instagram.com/hahu_paint/"
+        "url": "https://www.instagram.com/hahu_paint/",
+        "handle": "@hahu_paint"
       }
     ]
   },
@@ -18008,8 +18003,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@xuetong1205",
-        "url": "https://www.instagram.com/xuetong1205/"
+        "url": "https://www.instagram.com/xuetong1205/",
+        "handle": "@xuetong1205"
       }
     ]
   },
@@ -18024,8 +18019,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@lostsilence",
-        "url": "https://www.plurk.com/lostsilence"
+        "url": "https://www.plurk.com/lostsilence",
+        "handle": "@lostsilence"
       }
     ]
   },
@@ -18040,8 +18035,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "IdolProduction74",
-        "url": "https://www.facebook.com/IdolProduction74"
+        "url": "https://www.facebook.com/IdolProduction74",
+        "handle": "IdolProduction74"
       }
     ]
   },
@@ -18056,78 +18051,78 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/ame_aou"
+        "url": "https://portaly.cc/ame_aou",
+        "handle": "portaly"
       },
       {
         "platform": "threads",
-        "handle": "@ame_aou",
-        "url": "https://www.threads.com/@ame_aou"
+        "url": "https://www.threads.com/@ame_aou",
+        "handle": "@ame_aou"
       },
       {
         "platform": "x",
-        "handle": "@ame_aou",
-        "url": "https://x.com/ame_aou"
+        "url": "https://x.com/ame_aou",
+        "handle": "@ame_aou"
       },
       {
         "platform": "ig",
-        "handle": "@ame_aou",
-        "url": "https://www.instagram.com/ame_aou/"
+        "url": "https://www.instagram.com/ame_aou/",
+        "handle": "@ame_aou"
       },
       {
         "platform": "plurk",
-        "handle": "@ame.5000",
-        "url": "https://www.plurk.com/ame.5000"
+        "url": "https://www.plurk.com/ame.5000",
+        "handle": "@ame.5000"
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/yucianw"
+        "url": "https://www.doujin.com.tw/authors/info/yucianw",
+        "handle": ""
       },
       {
         "platform": "booth_pm",
-        "handle": "",
-        "url": "https://ame5000.booth.pm/"
+        "url": "https://ame5000.booth.pm/",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/ame_5000"
+        "url": "https://twitter.com/ame_5000",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/Ame.5000.77/"
+        "url": "https://www.instagram.com/Ame.5000.77/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/cian_tattoo/"
+        "url": "https://www.instagram.com/cian_tattoo/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/Ame.5000/"
+        "url": "https://www.facebook.com/Ame.5000/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/ame.aou"
+        "url": "https://www.facebook.com/ame.aou",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/cal7fa"
+        "url": "https://www.facebook.com/cal7fa",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/70474424"
+        "url": "https://www.pixiv.net/users/70474424",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://marshmallow-qa.com/qkkfure4wwgx2ge?t=wnTLQz&utm_medium=url_text&utm_source=promotion"
+        "url": "https://marshmallow-qa.com/qkkfure4wwgx2ge?t=wnTLQz&utm_medium=url_text&utm_source=promotion",
+        "handle": ""
       }
     ]
   },
@@ -18142,98 +18137,98 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/horohoro"
+        "url": "https://portaly.cc/horohoro",
+        "handle": "portaly"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/evapenghaoyu/"
+        "url": "https://www.instagram.com/evapenghaoyu/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/chunhe.market/"
+        "url": "https://www.instagram.com/chunhe.market/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/merry.go.round.wonderland/"
+        "url": "https://www.instagram.com/merry.go.round.wonderland/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/horohorodesign"
+        "url": "https://www.instagram.com/horohorodesign",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/evaeyesnlens/"
+        "url": "https://www.instagram.com/evaeyesnlens/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/somnambulist.mrkt/"
+        "url": "https://www.instagram.com/somnambulist.mrkt/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/hotel.sennas/"
+        "url": "https://www.instagram.com/hotel.sennas/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/leqing2023/"
+        "url": "https://www.instagram.com/leqing2023/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/suisui_life/"
+        "url": "https://www.instagram.com/suisui_life/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/freeair8market/"
+        "url": "https://www.instagram.com/freeair8market/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kon2fuku2/"
+        "url": "https://www.instagram.com/kon2fuku2/",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@horohoroDesign"
+        "url": "https://www.youtube.com/@horohoroDesign",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3gzf0k3gw3"
+        "url": "https://www.plurk.com/p/3gzf0k3gw3",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/Evapenghaoyu"
+        "url": "https://www.plurk.com/Evapenghaoyu",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/horo_horo"
+        "url": "https://www.plurk.com/horo_horo",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/profile.php?id=100066849969690"
+        "url": "https://www.facebook.com/profile.php?id=100066849969690",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "http://facebook.com/xxx"
+        "url": "http://facebook.com/xxx",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/D3Fest"
+        "url": "https://www.facebook.com/D3Fest",
+        "handle": ""
       }
     ]
   },
@@ -18258,8 +18253,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@flaming_starrr",
-        "url": "https://www.instagram.com/flaming_starrr/"
+        "url": "https://www.instagram.com/flaming_starrr/",
+        "handle": "@flaming_starrr"
       }
     ]
   },
@@ -18274,8 +18269,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61572454…",
-        "url": "https://www.facebook.com/profile.php?id=61572454107536"
+        "url": "https://www.facebook.com/profile.php?id=61572454107536",
+        "handle": "profile 61572454…"
       }
     ]
   },
@@ -18290,13 +18285,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "booth_pm",
-        "handle": "BOOTH",
-        "url": "https://interweave.booth.pm/"
+        "url": "https://interweave.booth.pm/",
+        "handle": "BOOTH"
       },
       {
         "platform": "plurk",
-        "handle": "@夜夢ND",
-        "url": "https://www.plurk.com/p/3ipsk965nk"
+        "url": "https://www.plurk.com/p/3ipsk965nk",
+        "handle": "@夜夢ND"
       }
     ]
   },
@@ -18311,8 +18306,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@anonymous626_ig",
-        "url": "https://www.instagram.com/anonymous626_ig/"
+        "url": "https://www.instagram.com/anonymous626_ig/",
+        "handle": "@anonymous626_ig"
       }
     ]
   },
@@ -18327,8 +18322,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@fiiishion",
-        "url": "https://www.instagram.com/fiiishion/"
+        "url": "https://www.instagram.com/fiiishion/",
+        "handle": "@fiiishion"
       }
     ]
   },
@@ -18343,8 +18338,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "mikan888",
-        "url": "https://www.facebook.com/mikan888/"
+        "url": "https://www.facebook.com/mikan888/",
+        "handle": "mikan888"
       }
     ]
   },
@@ -18369,8 +18364,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "kun.salamander.3",
-        "url": "https://www.facebook.com/kun.salamander.3/"
+        "url": "https://www.facebook.com/kun.salamander.3/",
+        "handle": "kun.salamander.3"
       }
     ]
   },
@@ -18385,8 +18380,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "Irene309w",
-        "url": "https://www.facebook.com/Irene309w/"
+        "url": "https://www.facebook.com/Irene309w/",
+        "handle": "Irene309w"
       }
     ]
   },
@@ -18401,8 +18396,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "wix",
-        "handle": "",
-        "url": "https://bestbandreamers.wixsite.com/mygo"
+        "url": "https://bestbandreamers.wixsite.com/mygo",
+        "handle": ""
       }
     ]
   },
@@ -18417,8 +18412,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hguuy123",
-        "url": "https://www.instagram.com/hguuy123/"
+        "url": "https://www.instagram.com/hguuy123/",
+        "handle": "@hguuy123"
       }
     ]
   },
@@ -18433,8 +18428,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@hirao_jun_",
-        "url": "https://www.instagram.com/hirao_jun_/"
+        "url": "https://www.instagram.com/hirao_jun_/",
+        "handle": "@hirao_jun_"
       }
     ]
   },
@@ -18449,8 +18444,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://epilog.blog49.fc2.com/"
+        "url": "https://epilog.blog49.fc2.com/",
+        "handle": ""
       }
     ]
   },
@@ -18465,8 +18460,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yuclovers",
-        "url": "https://www.facebook.com/yuclovers"
+        "url": "https://www.facebook.com/yuclovers",
+        "handle": "yuclovers"
       }
     ]
   },
@@ -18481,8 +18476,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://potofu.me/tobey"
+        "url": "https://potofu.me/tobey",
+        "handle": ""
       }
     ]
   },
@@ -18497,8 +18492,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@kiri520",
-        "url": "https://www.instagram.com/kiri520/"
+        "url": "https://www.instagram.com/kiri520/",
+        "handle": "@kiri520"
       }
     ]
   },
@@ -18523,8 +18518,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61585306…",
-        "url": "https://www.facebook.com/615853064360/"
+        "url": "https://www.facebook.com/615853064360/",
+        "handle": "profile 61585306…"
       }
     ]
   },
@@ -18549,8 +18544,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3gvbo8hc97"
+        "url": "https://www.plurk.com/p/3gvbo8hc97",
+        "handle": ""
       }
     ]
   },
@@ -18565,8 +18560,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@winnie292720",
-        "url": "https://www.plurk.com/winnie292720"
+        "url": "https://www.plurk.com/winnie292720",
+        "handle": "@winnie292720"
       }
     ]
   },
@@ -18601,8 +18596,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@choco6644",
-        "url": "https://www.plurk.com/choco6644"
+        "url": "https://www.plurk.com/choco6644",
+        "handle": "@choco6644"
       }
     ]
   },
@@ -18617,8 +18612,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://cxc.today/zh/@Gray_Harmony/work"
+        "url": "https://cxc.today/zh/@Gray_Harmony/work",
+        "handle": ""
       }
     ]
   },
@@ -18633,28 +18628,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/twponpon"
+        "url": "https://lit.link/en/twponpon",
+        "handle": "lit.link"
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/ponponnnnn"
+        "url": "https://www.facebook.com/ponponnnnn",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/profile.php?id=61572881690363"
+        "url": "https://www.facebook.com/profile.php?id=61572881690363",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/tw_ponpon"
+        "url": "https://twitter.com/tw_ponpon",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/ponpon1013443?igsh=MWVsanNsOWdyY2g2bQ==&amp;utm_source=qr/"
+        "url": "https://www.instagram.com/ponpon1013443?igsh=MWVsanNsOWdyY2g2bQ==&amp;utm_source=qr/",
+        "handle": ""
       }
     ]
   },
@@ -18669,8 +18664,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@botoakaza",
-        "url": "https://www.instagram.com/botoakaza/"
+        "url": "https://www.instagram.com/botoakaza/",
+        "handle": "@botoakaza"
       }
     ]
   },
@@ -18685,8 +18680,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "people",
-        "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"
+        "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/",
+        "handle": "people"
       }
     ]
   },
@@ -18711,18 +18706,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/aliali_c"
+        "url": "https://www.doujin.com.tw/authors/info/aliali_c",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=2897957"
+        "url": "https://www.pixiv.net/member.php?id=2897957",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@Tpcjog",
-        "url": "https://www.plurk.com/Tpcjog"
+        "url": "https://www.plurk.com/Tpcjog",
+        "handle": "@Tpcjog"
       }
     ]
   },
@@ -18737,8 +18732,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@spton (tonton)",
-        "url": "https://www.plurk.com/spton"
+        "url": "https://www.plurk.com/spton",
+        "handle": "@spton (tonton)"
       }
     ]
   },
@@ -18753,8 +18748,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ooinn_arts",
-        "url": "https://www.plurk.com/ooinn_arts"
+        "url": "https://www.plurk.com/ooinn_arts",
+        "handle": "@ooinn_arts"
       }
     ]
   },
@@ -18769,8 +18764,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@buuuuu8le",
-        "url": "https://www.threads.com/@buuuuu8le"
+        "url": "https://www.threads.com/@buuuuu8le",
+        "handle": "@buuuuu8le"
       }
     ]
   },
@@ -18785,8 +18780,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@therealchien",
-        "url": "https://www.plurk.com/u/therealchien"
+        "url": "https://www.plurk.com/u/therealchien",
+        "handle": "@therealchien"
       }
     ]
   },
@@ -18801,8 +18796,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61584209…",
-        "url": "https://www.facebook.com/profile.php?id=61584209204739"
+        "url": "https://www.facebook.com/profile.php?id=61584209204739",
+        "handle": "profile 61584209…"
       }
     ]
   },
@@ -18817,43 +18812,43 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "lit.link",
-        "url": "https://lit.link/en/jadeverse"
+        "url": "https://lit.link/en/jadeverse",
+        "handle": "lit.link"
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/RyoyakS2nd"
+        "url": "https://www.facebook.com/RyoyakS2nd",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/fei.shun.2025"
+        "url": "https://www.facebook.com/fei.shun.2025",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/cywhitebear"
+        "url": "https://www.facebook.com/cywhitebear",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/hua.xiao.hua.859628"
+        "url": "https://www.facebook.com/hua.xiao.hua.859628",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/jiao.ji.327793"
+        "url": "https://www.facebook.com/jiao.ji.327793",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/lostar.chen.2025"
+        "url": "https://www.facebook.com/lostar.chen.2025",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/OrukaOru"
+        "url": "https://www.facebook.com/OrukaOru",
+        "handle": ""
       }
     ]
   },
@@ -18878,48 +18873,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab"
+        "url": "https://www.doujin.com.tw/groups/info/369/books#groups_tab",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "http://www.pixiv.net/member.php?id=34176"
+        "url": "http://www.pixiv.net/member.php?id=34176",
+        "handle": "@member.php"
       },
       {
         "platform": "generic",
-        "handle": "@kakusugar",
-        "url": "https://www.doujin.com.tw/authors/info/kakusugar"
+        "url": "https://www.doujin.com.tw/authors/info/kakusugar",
+        "handle": "@kakusugar"
       },
       {
         "platform": "aggregator",
-        "handle": "@zOZNTqafh2bDz3BdZIxv2UgLEtm2",
-        "url": "https://lit.link/en/zOZNTqafh2bDz3BdZIxv2UgLEtm2"
+        "url": "https://lit.link/en/zOZNTqafh2bDz3BdZIxv2UgLEtm2",
+        "handle": "@zOZNTqafh2bDz3BdZIxv2UgLEtm2"
       },
       {
         "platform": "plurk",
-        "handle": "@satou",
-        "url": "https://www.plurk.com/satou"
+        "url": "https://www.plurk.com/satou",
+        "handle": "@satou"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/kakusugarpic"
+        "url": "https://x.com/kakusugarpic",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/booky/books/search/q?keyword=kakusugar"
+        "url": "https://www.doujin.com.tw/booky/books/search/q?keyword=kakusugar",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kakusugarpic/"
+        "url": "https://www.instagram.com/kakusugarpic/",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kakusugarhandmade/"
+        "url": "https://www.instagram.com/kakusugarhandmade/",
+        "handle": ""
       }
     ]
   },
@@ -18934,8 +18929,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "daybreak2779",
-        "url": "https://www.facebook.com/daybreak2779?"
+        "url": "https://www.facebook.com/daybreak2779?",
+        "handle": "daybreak2779"
       }
     ]
   },
@@ -18950,8 +18945,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@sghg181",
-        "url": "https://www.plurk.com/sghg181"
+        "url": "https://www.plurk.com/sghg181",
+        "handle": "@sghg181"
       }
     ]
   },
@@ -18966,13 +18961,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/theice"
+        "url": "https://www.doujin.com.tw/authors/info/theice",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@the_ice",
-        "url": "https://www.plurk.com/the_ice"
+        "url": "https://www.plurk.com/the_ice",
+        "handle": "@the_ice"
       }
     ]
   },
@@ -18987,8 +18982,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@nyanggbbb",
-        "url": "https://www.plurk.com/nyanggbbb"
+        "url": "https://www.plurk.com/nyanggbbb",
+        "handle": "@nyanggbbb"
       }
     ]
   },
@@ -19003,8 +18998,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://reurl.cc/R9pnmz"
+        "url": "https://reurl.cc/R9pnmz",
+        "handle": ""
       }
     ]
   },
@@ -19019,8 +19014,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61554262…",
-        "url": "https://www.facebook.com/profile.php?id=61554262122181"
+        "url": "https://www.facebook.com/profile.php?id=61554262122181",
+        "handle": "profile 61554262…"
       }
     ]
   },
@@ -19035,8 +19030,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "lift.quarter",
-        "url": "https://www.facebook.com/lift.quarter"
+        "url": "https://www.facebook.com/lift.quarter",
+        "handle": "lift.quarter"
       }
     ]
   },
@@ -19051,8 +19046,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@___.fu____",
-        "url": "https://www.instagram.com/___.fu____/"
+        "url": "https://www.instagram.com/___.fu____/",
+        "handle": "@___.fu____"
       }
     ]
   },
@@ -19067,8 +19062,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@teamss_2018_foxskin068",
-        "url": "https://www.instagram.com/teamss_2018_foxskin068/"
+        "url": "https://www.instagram.com/teamss_2018_foxskin068/",
+        "handle": "@teamss_2018_foxskin068"
       }
     ]
   },
@@ -19083,8 +19078,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@wet_elephant",
-        "url": "https://www.instagram.com/wet_elephant/"
+        "url": "https://www.instagram.com/wet_elephant/",
+        "handle": "@wet_elephant"
       }
     ]
   },
@@ -19099,8 +19094,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yetsubody",
-        "url": "https://www.facebook.com/yetsubody"
+        "url": "https://www.facebook.com/yetsubody",
+        "handle": "yetsubody"
       }
     ]
   },
@@ -19115,8 +19110,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@tt1219_",
-        "url": "https://www.instagram.com/tt1219_/"
+        "url": "https://www.instagram.com/tt1219_/",
+        "handle": "@tt1219_"
       }
     ]
   },
@@ -19131,8 +19126,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@_pansy.yard_",
-        "url": "https://www.instagram.com/_pansy.yard_/"
+        "url": "https://www.instagram.com/_pansy.yard_/",
+        "handle": "@_pansy.yard_"
       }
     ]
   },
@@ -19147,8 +19142,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@sakuraharu",
-        "url": "https://www.plurk.com/sakuraharu"
+        "url": "https://www.plurk.com/sakuraharu",
+        "handle": "@sakuraharu"
       }
     ]
   },
@@ -19173,53 +19168,53 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/moonlight432Hz"
+        "url": "https://portaly.cc/moonlight432Hz",
+        "handle": "portaly"
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://x.com/OMOUchoten"
+        "url": "https://x.com/OMOUchoten",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/Moonlight432Hz"
+        "url": "https://www.facebook.com/Moonlight432Hz",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@moonlight432hz"
+        "url": "https://www.threads.net/@moonlight432hz",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/noonenowns"
+        "url": "https://www.instagram.com/noonenowns",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/moonlight432hz"
+        "url": "https://www.instagram.com/moonlight432hz",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/mindacupoftea/"
+        "url": "https://www.instagram.com/mindacupoftea/",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "",
-        "url": "https://www.pixiv.net/users/107119229"
+        "url": "https://www.pixiv.net/users/107119229",
+        "handle": ""
       },
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@moonlight432Hz"
+        "url": "https://www.youtube.com/@moonlight432Hz",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/M00NLIGHT"
+        "url": "https://www.plurk.com/M00NLIGHT",
+        "handle": ""
       }
     ]
   },
@@ -19234,18 +19229,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/x20285/books"
+        "url": "https://www.doujin.com.tw/authors/info/x20285/books",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "@hane_anna",
-        "url": "https://www.plurk.com/hane_anna"
+        "url": "https://www.plurk.com/hane_anna",
+        "handle": "@hane_anna"
       },
       {
         "platform": "pixiv",
-        "handle": "130351",
-        "url": "https://www.pixiv.net/member.php?id=130351"
+        "url": "https://www.pixiv.net/member.php?id=130351",
+        "handle": "130351"
       }
     ]
   },
@@ -19260,8 +19255,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@shu_pong203",
-        "url": "https://www.plurk.com/shu_pong203"
+        "url": "https://www.plurk.com/shu_pong203",
+        "handle": "@shu_pong203"
       }
     ]
   },
@@ -19276,8 +19271,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@dimly_bobo",
-        "url": "https://www.plurk.com/dimly_bobo"
+        "url": "https://www.plurk.com/dimly_bobo",
+        "handle": "@dimly_bobo"
       }
     ]
   },
@@ -19292,8 +19287,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://diewhale.tokiame.net"
+        "url": "https://diewhale.tokiame.net",
+        "handle": ""
       }
     ]
   },
@@ -19308,8 +19303,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "yuusa200502",
-        "url": "https://www.facebook.com/yuusa200502/"
+        "url": "https://www.facebook.com/yuusa200502/",
+        "handle": "yuusa200502"
       }
     ]
   },
@@ -19334,8 +19329,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@irina_reichi",
-        "url": "https://x.com/irina_reichi"
+        "url": "https://x.com/irina_reichi",
+        "handle": "@irina_reichi"
       }
     ]
   },
@@ -19350,8 +19345,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "lai.liang.yan.2025",
-        "url": "https://www.facebook.com/lai.liang.yan.2025/"
+        "url": "https://www.facebook.com/lai.liang.yan.2025/",
+        "handle": "lai.liang.yan.2025"
       }
     ]
   },
@@ -19366,13 +19361,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/Synka"
+        "url": "https://linktr.ee/Synka",
+        "handle": "Linktree"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/Synka"
+        "url": "https://www.plurk.com/Synka",
+        "handle": ""
       }
     ]
   },
@@ -19387,8 +19382,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@deangelo_1024",
-        "url": "https://www.instagram.com/deangelo_1024/"
+        "url": "https://www.instagram.com/deangelo_1024/",
+        "handle": "@deangelo_1024"
       }
     ]
   },
@@ -19403,8 +19398,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@x321k123",
-        "url": "https://x.com/x321k123"
+        "url": "https://x.com/x321k123",
+        "handle": "@x321k123"
       }
     ]
   },
@@ -19419,8 +19414,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@j3180554",
-        "url": "https://www.plurk.com/j3180554"
+        "url": "https://www.plurk.com/j3180554",
+        "handle": "@j3180554"
       }
     ]
   },
@@ -19435,48 +19430,48 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "Linktree",
-        "url": "https://linktr.ee/taiwanlilyproject"
+        "url": "https://linktr.ee/taiwanlilyproject",
+        "handle": "Linktree"
       },
       {
         "platform": "x",
-        "handle": "@TwLilyProject",
-        "url": "https://x.com/TwLilyProject"
+        "url": "https://x.com/TwLilyProject",
+        "handle": "@TwLilyProject"
       },
       {
         "platform": "threads",
-        "handle": "@taiwanlilyproject",
-        "url": "https://www.threads.com/@taiwanlilyproject"
+        "url": "https://www.threads.com/@taiwanlilyproject",
+        "handle": "@taiwanlilyproject"
       },
       {
         "platform": "ig",
-        "handle": "@taiwanlilyproject",
-        "url": "https://www.instagram.com/taiwanlilyproject/"
+        "url": "https://www.instagram.com/taiwanlilyproject/",
+        "handle": "@taiwanlilyproject"
       },
       {
         "platform": "plurk",
-        "handle": "@The_Taiwan_Lily_Project",
-        "url": "https://www.plurk.com/The_Taiwan_Lily_Project"
+        "url": "https://www.plurk.com/The_Taiwan_Lily_Project",
+        "handle": "@The_Taiwan_Lily_Project"
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://instagram.com/thetaiwanlilyproject"
+        "url": "https://instagram.com/thetaiwanlilyproject",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/profile.php?id=61581988013539"
+        "url": "https://www.facebook.com/profile.php?id=61581988013539",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "",
-        "url": "https://www.facebook.com/people/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%90%88%E6%BC%AB%E7%95%AB%E7%A0%94%E7%A9%B6/61581988013539"
+        "url": "https://www.facebook.com/people/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%90%88%E6%BC%AB%E7%95%AB%E7%A0%94%E7%A9%B6/61581988013539",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://avatars.plurk.com/17707316-big83859203.jpg"
+        "url": "https://avatars.plurk.com/17707316-big83859203.jpg",
+        "handle": ""
       }
     ]
   },
@@ -19491,8 +19486,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@creauset_x13a",
-        "url": "https://www.threads.com/@creauset_x13a"
+        "url": "https://www.threads.com/@creauset_x13a",
+        "handle": "@creauset_x13a"
       }
     ]
   },
@@ -19507,8 +19502,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "blacktuna",
-        "url": "https://www.facebook.com/blacktuna/"
+        "url": "https://www.facebook.com/blacktuna/",
+        "handle": "blacktuna"
       }
     ]
   },
@@ -19523,8 +19518,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@karo3618",
-        "url": "https://www.plurk.com/karo3618"
+        "url": "https://www.plurk.com/karo3618",
+        "handle": "@karo3618"
       }
     ]
   },
@@ -19539,53 +19534,53 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "aggregator",
-        "handle": "portaly",
-        "url": "https://portaly.cc/kyouwork"
+        "url": "https://portaly.cc/kyouwork",
+        "handle": "portaly"
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/kyousukeni"
+        "url": "https://www.plurk.com/kyousukeni",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3icdnutc1g"
+        "url": "https://www.plurk.com/p/3icdnutc1g",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3ip85jffqc"
+        "url": "https://www.plurk.com/p/3ip85jffqc",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/kyou_work"
+        "url": "https://www.plurk.com/kyou_work",
+        "handle": ""
       },
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3iq81pi7lw"
+        "url": "https://www.plurk.com/p/3iq81pi7lw",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "",
-        "url": "https://www.threads.net/@kyou_work"
+        "url": "https://www.threads.net/@kyou_work",
+        "handle": ""
       },
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/kyou_work"
+        "url": "https://www.doujin.com.tw/authors/info/kyou_work",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "",
-        "url": "https://twitter.com/kyou_work"
+        "url": "https://twitter.com/kyou_work",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "",
-        "url": "https://www.instagram.com/kyou_work"
+        "url": "https://www.instagram.com/kyou_work",
+        "handle": ""
       }
     ]
   },
@@ -19600,18 +19595,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/hoegg/goods"
+        "url": "https://www.doujin.com.tw/authors/info/hoegg/goods",
+        "handle": ""
       },
       {
         "platform": "ig",
-        "handle": "@egg._.3690",
-        "url": "https://www.instagram.com/egg._.3690/?igshid=YWJhMjlhZTc="
+        "url": "https://www.instagram.com/egg._.3690/?igshid=YWJhMjlhZTc=",
+        "handle": "@egg._.3690"
       },
       {
         "platform": "plurk",
-        "handle": "@eggsmana",
-        "url": "https://www.plurk.com/eggsmana"
+        "url": "https://www.plurk.com/eggsmana",
+        "handle": "@eggsmana"
       }
     ]
   },
@@ -19626,8 +19621,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@birdink.koriyangart",
-        "url": "https://www.instagram.com/birdink.koriyangart/"
+        "url": "https://www.instagram.com/birdink.koriyangart/",
+        "handle": "@birdink.koriyangart"
       }
     ]
   },
@@ -19652,8 +19647,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@brainholesky",
-        "url": "https://www.instagram.com/brainholesky/"
+        "url": "https://www.instagram.com/brainholesky/",
+        "handle": "@brainholesky"
       }
     ]
   },
@@ -19668,8 +19663,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "sian.liu.756",
-        "url": "https://www.facebook.com/sian.liu.756/"
+        "url": "https://www.facebook.com/sian.liu.756/",
+        "handle": "sian.liu.756"
       }
     ]
   },
@@ -19694,8 +19689,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@conk4",
-        "url": "https://www.plurk.com/conk4"
+        "url": "https://www.plurk.com/conk4",
+        "handle": "@conk4"
       }
     ]
   },
@@ -19710,8 +19705,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@allen210146",
-        "url": "https://www.plurk.com/allen210146"
+        "url": "https://www.plurk.com/allen210146",
+        "handle": "@allen210146"
       }
     ]
   },
@@ -19726,8 +19721,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@2be_2drink",
-        "url": "https://www.instagram.com/2be_2drink/"
+        "url": "https://www.instagram.com/2be_2drink/",
+        "handle": "@2be_2drink"
       }
     ]
   },
@@ -19742,8 +19737,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@WhiteStyle1015",
-        "url": "https://www.plurk.com/WhiteStyle1015"
+        "url": "https://www.plurk.com/WhiteStyle1015",
+        "handle": "@WhiteStyle1015"
       }
     ]
   },
@@ -19758,8 +19753,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://www.youtube.com/@nukomimiP"
+        "url": "https://www.youtube.com/@nukomimiP",
+        "handle": ""
       }
     ]
   },
@@ -19774,8 +19769,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@mochian0819",
-        "url": "https://www.threads.com/@mochian0819"
+        "url": "https://www.threads.com/@mochian0819",
+        "handle": "@mochian0819"
       }
     ]
   },
@@ -19790,8 +19785,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@udalin0803",
-        "url": "https://www.instagram.com/udalin0803/"
+        "url": "https://www.instagram.com/udalin0803/",
+        "handle": "@udalin0803"
       }
     ]
   },
@@ -19806,18 +19801,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/"
+        "url": "https://www.doujin.com.tw/authors/info/deerwinnie1012/goods/",
+        "handle": ""
       },
       {
         "platform": "fb",
-        "handle": "@迷走巡鹿-498172533694108",
-        "url": "https://www.facebook.com/迷走巡鹿-498172533694108/"
+        "url": "https://www.facebook.com/迷走巡鹿-498172533694108/",
+        "handle": "@迷走巡鹿-498172533694108"
       },
       {
         "platform": "plurk",
-        "handle": "@oo00winnie00oo",
-        "url": "https://www.plurk.com/oo00winnie00oo"
+        "url": "https://www.plurk.com/oo00winnie00oo",
+        "handle": "@oo00winnie00oo"
       }
     ]
   },
@@ -19832,8 +19827,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "wix",
-        "handle": "",
-        "url": "https://bwa9090.wixsite.com/nookpartner"
+        "url": "https://bwa9090.wixsite.com/nookpartner",
+        "handle": ""
       }
     ]
   },
@@ -19848,8 +19843,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@oruka_oru",
-        "url": "https://x.com/oruka_oru"
+        "url": "https://x.com/oruka_oru",
+        "handle": "@oruka_oru"
       }
     ]
   },
@@ -19864,28 +19859,28 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab"
+        "url": "https://www.doujin.com.tw/groups/info/2584/books#groups_tab",
+        "handle": ""
       },
       {
         "platform": "x",
-        "handle": "@mzenura",
-        "url": "https://twitter.com/mzenura"
+        "url": "https://twitter.com/mzenura",
+        "handle": "@mzenura"
       },
       {
         "platform": "generic",
-        "handle": "@bockdog",
-        "url": "https://www.doujin.com.tw/authors/info/bockdog"
+        "url": "https://www.doujin.com.tw/authors/info/bockdog",
+        "handle": "@bockdog"
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=65362684"
+        "url": "https://www.pixiv.net/member.php?id=65362684",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@garaura",
-        "url": "https://www.plurk.com/garaura"
+        "url": "https://www.plurk.com/garaura",
+        "handle": "@garaura"
       }
     ]
   },
@@ -19900,8 +19895,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://slow.work/"
+        "url": "https://slow.work/",
+        "handle": ""
       }
     ]
   },
@@ -19916,8 +19911,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ryouarashi",
-        "url": "https://www.plurk.com/ryouarashi"
+        "url": "https://www.plurk.com/ryouarashi",
+        "handle": "@ryouarashi"
       }
     ]
   },
@@ -19932,8 +19927,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10005713…",
-        "url": "https://www.facebook.com/profile.php?id=100057130852699"
+        "url": "https://www.facebook.com/profile.php?id=100057130852699",
+        "handle": "profile 10005713…"
       }
     ]
   },
@@ -19948,8 +19943,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@folia0702",
-        "url": "https://www.plurk.com/folia0702"
+        "url": "https://www.plurk.com/folia0702",
+        "handle": "@folia0702"
       }
     ]
   },
@@ -19964,8 +19959,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 61555969…",
-        "url": "https://www.facebook.com/profile.php?id=61555969822241"
+        "url": "https://www.facebook.com/profile.php?id=61555969822241",
+        "handle": "profile 61555969…"
       }
     ]
   },
@@ -19980,8 +19975,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@ding8059",
-        "url": "https://www.plurk.com/ding8059"
+        "url": "https://www.plurk.com/ding8059",
+        "handle": "@ding8059"
       }
     ]
   },
@@ -19996,8 +19991,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@gogo_wolf",
-        "url": "https://x.com/gogo_wolf"
+        "url": "https://x.com/gogo_wolf",
+        "handle": "@gogo_wolf"
       }
     ]
   },
@@ -20022,8 +20017,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "",
-        "url": "https://www.plurk.com/p/3gkmcbw7hv"
+        "url": "https://www.plurk.com/p/3gkmcbw7hv",
+        "handle": ""
       }
     ]
   },
@@ -20038,8 +20033,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "coolcoolburger",
-        "url": "https://www.facebook.com/coolcoolburger"
+        "url": "https://www.facebook.com/coolcoolburger",
+        "handle": "coolcoolburger"
       }
     ]
   },
@@ -20054,8 +20049,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@coccyxdog",
-        "url": "https://www.instagram.com/coccyxdog/"
+        "url": "https://www.instagram.com/coccyxdog/",
+        "handle": "@coccyxdog"
       }
     ]
   },
@@ -20070,8 +20065,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@Luer_reul",
-        "url": "https://x.com/Luer_reul"
+        "url": "https://x.com/Luer_reul",
+        "handle": "@Luer_reul"
       }
     ]
   },
@@ -20086,8 +20081,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "ig",
-        "handle": "@ali._.su_",
-        "url": "https://www.instagram.com/ali._.su_/"
+        "url": "https://www.instagram.com/ali._.su_/",
+        "handle": "@ali._.su_"
       }
     ]
   },
@@ -20102,8 +20097,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@mcj131825526",
-        "url": "https://x.com/mcj131825526"
+        "url": "https://x.com/mcj131825526",
+        "handle": "@mcj131825526"
       }
     ]
   },
@@ -20118,8 +20113,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@yoken1021",
-        "url": "https://www.plurk.com/yoken1021"
+        "url": "https://www.plurk.com/yoken1021",
+        "handle": "@yoken1021"
       }
     ]
   },
@@ -20134,8 +20129,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@_rskniwn_",
-        "url": "https://www.threads.com/@_rskniwn_"
+        "url": "https://www.threads.com/@_rskniwn_",
+        "handle": "@_rskniwn_"
       }
     ]
   },
@@ -20150,8 +20145,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://myship.7-11.com.tw/general/detail/GM2106126257486"
+        "url": "https://myship.7-11.com.tw/general/detail/GM2106126257486",
+        "handle": ""
       }
     ]
   },
@@ -20166,8 +20161,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@plusultra2026",
-        "url": "https://www.plurk.com/plusultra2026"
+        "url": "https://www.plurk.com/plusultra2026",
+        "handle": "@plusultra2026"
       }
     ]
   },
@@ -20182,8 +20177,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "CShiroha",
-        "url": "https://www.facebook.com/CShiroha?"
+        "url": "https://www.facebook.com/CShiroha?",
+        "handle": "CShiroha"
       }
     ]
   },
@@ -20198,8 +20193,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@yomowork_mov",
-        "url": "https://x.com/yomowork_mov"
+        "url": "https://x.com/yomowork_mov",
+        "handle": "@yomowork_mov"
       }
     ]
   },
@@ -20214,8 +20209,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@koma262",
-        "url": "https://x.com/koma262"
+        "url": "https://x.com/koma262",
+        "handle": "@koma262"
       }
     ]
   },
@@ -20230,8 +20225,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "generic",
-        "handle": "",
-        "url": "https://solo.to/travis_minuet"
+        "url": "https://solo.to/travis_minuet",
+        "handle": ""
       }
     ]
   },
@@ -20246,8 +20241,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@rbs2009",
-        "url": "https://www.plurk.com/rbs2009"
+        "url": "https://www.plurk.com/rbs2009",
+        "handle": "@rbs2009"
       }
     ]
   },
@@ -20262,8 +20257,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@niwawulei",
-        "url": "https://x.com/niwawulei"
+        "url": "https://x.com/niwawulei",
+        "handle": "@niwawulei"
       }
     ]
   },
@@ -20278,18 +20273,18 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/linda6030221"
+        "url": "https://www.doujin.com.tw/authors/info/linda6030221",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=3354728"
+        "url": "https://www.pixiv.net/member.php?id=3354728",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@linda6030221",
-        "url": "https://www.plurk.com/linda6030221"
+        "url": "https://www.plurk.com/linda6030221",
+        "handle": "@linda6030221"
       }
     ]
   },
@@ -20304,8 +20299,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@jenniecongee",
-        "url": "https://x.com/jenniecongee"
+        "url": "https://x.com/jenniecongee",
+        "handle": "@jenniecongee"
       }
     ]
   },
@@ -20320,8 +20315,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "wix",
-        "handle": "",
-        "url": "https://kuailedongwuyuan.wixsite.com/my-site-1"
+        "url": "https://kuailedongwuyuan.wixsite.com/my-site-1",
+        "handle": ""
       }
     ]
   },
@@ -20336,8 +20331,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "18Dayslikethis",
-        "url": "https://www.facebook.com/18Dayslikethis"
+        "url": "https://www.facebook.com/18Dayslikethis",
+        "handle": "18Dayslikethis"
       }
     ]
   },
@@ -20352,8 +20347,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@ak_lina0",
-        "url": "https://x.com/ak_lina0"
+        "url": "https://x.com/ak_lina0",
+        "handle": "@ak_lina0"
       }
     ]
   },
@@ -20378,8 +20373,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@hijin_handmand",
-        "url": "https://www.plurk.com/hijin_handmand"
+        "url": "https://www.plurk.com/hijin_handmand",
+        "handle": "@hijin_handmand"
       }
     ]
   },
@@ -20394,8 +20389,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "xiangyinwork",
-        "url": "https://www.facebook.com/xiangyinwork/"
+        "url": "https://www.facebook.com/xiangyinwork/",
+        "handle": "xiangyinwork"
       }
     ]
   },
@@ -20410,23 +20405,23 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "handle": "",
-        "url": "https://www.doujin.com.tw/authors/info/dn269annie"
+        "url": "https://www.doujin.com.tw/authors/info/dn269annie",
+        "handle": ""
       },
       {
         "platform": "pixiv",
-        "handle": "@member.php",
-        "url": "https://www.pixiv.net/member.php?id=689745"
+        "url": "https://www.pixiv.net/member.php?id=689745",
+        "handle": "@member.php"
       },
       {
         "platform": "plurk",
-        "handle": "@mikoartdrawing",
-        "url": "https://www.plurk.com/mikoartdrawing"
+        "url": "https://www.plurk.com/mikoartdrawing",
+        "handle": "@mikoartdrawing"
       },
       {
         "platform": "ig",
-        "handle": "@mikoartdrawing",
-        "url": "https://www.instagram.com/mikoartdrawing"
+        "url": "https://www.instagram.com/mikoartdrawing",
+        "handle": "@mikoartdrawing"
       }
     ]
   },
@@ -20441,8 +20436,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@abcs628945",
-        "url": "https://www.plurk.com/abcs628945"
+        "url": "https://www.plurk.com/abcs628945",
+        "handle": "@abcs628945"
       }
     ]
   },
@@ -20457,8 +20452,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@gungunyima",
-        "url": "https://www.plurk.com/gungunyima"
+        "url": "https://www.plurk.com/gungunyima",
+        "handle": "@gungunyima"
       }
     ]
   },
@@ -20473,8 +20468,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "fb",
-        "handle": "profile 10008067…",
-        "url": "https://www.facebook.com/profile.php?id=100080676961776"
+        "url": "https://www.facebook.com/profile.php?id=100080676961776",
+        "handle": "profile 10008067…"
       }
     ]
   },
@@ -20719,8 +20714,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "plurk",
-        "handle": "@haneko0216",
-        "url": "https://www.plurk.com/haneko0216"
+        "url": "https://www.plurk.com/haneko0216",
+        "handle": "@haneko0216"
       }
     ]
   },
@@ -20885,8 +20880,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "threads",
-        "handle": "@chi._.5417",
-        "url": "https://www.threads.com/@chi._.5417"
+        "url": "https://www.threads.com/@chi._.5417",
+        "handle": "@chi._.5417"
       }
     ]
   },
@@ -21071,13 +21066,13 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "wix",
-        "handle": "",
-        "url": "https://oginoyori.wixsite.com/oginoyori"
+        "url": "https://oginoyori.wixsite.com/oginoyori",
+        "handle": ""
       },
       {
         "platform": "threads",
-        "handle": "@yori0116",
-        "url": "https://www.threads.com/@yori0116"
+        "url": "https://www.threads.com/@yori0116",
+        "handle": "@yori0116"
       }
     ]
   },
@@ -21162,8 +21157,8 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "x",
-        "handle": "@vivi890812",
-        "url": "https://x.com/vivi890812"
+        "url": "https://x.com/vivi890812",
+        "handle": "@vivi890812"
       }
     ]
   },
