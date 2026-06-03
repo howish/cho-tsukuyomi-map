@@ -1388,12 +1388,10 @@ section {
   font-size: 0.85rem;
 }
 
-#modal-body .modal-meta > span,
+#modal-body .modal-meta span,
 #modal-body .modal-meta a.author-chip,
 #modal-body .modal-meta a.handle-link,
-#modal-body .modal-meta a.social-chip,
-#modal-body .modal-meta .author-group > .author-name,
-#modal-body .modal-meta .author-group > a.social-chip {
+#modal-body .modal-meta a.social-chip {
   background: #f3edf7;
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
