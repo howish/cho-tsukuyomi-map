@@ -10420,18 +10420,16 @@
     },
     {
       "id": "a_092280c25bda",
-      "name": "工坊·夏至千里",
+      "name": "夏至千里",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "generic_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "gamer",
           "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth"
         }
-      ],
-      "name_source_prev": "gamer_review",
-      "name_audit_reason": "subtitle_vs_alias"
+      ]
     },
     {
       "id": "a_092f9b1e58ba",
@@ -10547,24 +10545,18 @@
     },
     {
       "id": "a_0d1b5562b0bd",
-      "name": "ㄆㄐ（半熙",
+      "name": "半熙",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "ig_profile",
+      "aliases": [
+        "ㄆㄐ"
+      ],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/somepaet/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → ㄆㄐ + aliases ['半熙']",
-      "name_audit_suggestion": {
-        "name": "ㄆㄐ",
-        "aliases": [
-          "半熙"
-        ]
-      }
+      ]
     },
     {
       "id": "a_0eaa6aeccec1",
@@ -10732,24 +10724,18 @@
     },
     {
       "id": "a_14832f905e98",
-      "name": "PEI-SHIN,WU",
+      "name": "PEI-SHIN",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "ig_profile",
+      "aliases": [
+        "WU"
+      ],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/wu_pei_shin/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "punct_separated_alias: → PEI-SHIN + aliases ['WU']",
-      "name_audit_suggestion": {
-        "name": "PEI-SHIN",
-        "aliases": [
-          "WU"
-        ]
-      }
+      ]
     },
     {
       "id": "a_16141ba45c80",
@@ -10804,24 +10790,18 @@
     },
     {
       "id": "a_185e3bfd0511",
-      "name": "西法（Cifer",
+      "name": "西法",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "ig_profile",
+      "aliases": [
+        "Cifer"
+      ],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/alientomato_inearth/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 西法 + aliases ['Cifer']",
-      "name_audit_suggestion": {
-        "name": "西法",
-        "aliases": [
-          "Cifer"
-        ]
-      }
+      ]
     },
     {
       "id": "a_18d6b35ee2e8",
@@ -11406,9 +11386,9 @@
     },
     {
       "id": "a_25c6d6a32e4d",
-      "name": "Socotaku 現代御宅的基礎知識",
+      "name": "Socotaku",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "fb_review_title_strip",
       "aliases": [],
       "socials": [
         {
@@ -11419,13 +11399,7 @@
           "platform": "plurk",
           "url": "https://www.plurk.com/socotaku"
         }
-      ],
-      "name_source_prev": "fb_review_title_strip",
-      "name_audit_reason": "event_marker: → Socotaku",
-      "name_audit_suggestion": {
-        "name": "Socotaku",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_262ed3c0bfc9",
@@ -11455,24 +11429,18 @@
     },
     {
       "id": "a_271cb3e4949c",
-      "name": "青雨 冰(張慧捷",
+      "name": "青雨 冰",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "ig_profile",
+      "aliases": [
+        "張慧捷"
+      ],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/chj_joanna/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 青雨 冰 + aliases ['張慧捷']",
-      "name_audit_suggestion": {
-        "name": "青雨 冰",
-        "aliases": [
-          "張慧捷"
-        ]
-      }
+      ]
     },
     {
       "id": "a_27833951c44b",
@@ -11497,24 +11465,16 @@
     },
     {
       "id": "a_2929cdbcb8f0",
-      "name": "鰹鰹ㄉ煩惱星球(◐∇◐*",
+      "name": "鰹鰹ㄉ煩惱星球",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/yanyan___777/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 鰹鰹ㄉ煩惱星球 + aliases ['◐∇◐*']",
-      "name_audit_suggestion": {
-        "name": "鰹鰹ㄉ煩惱星球",
-        "aliases": [
-          "◐∇◐*"
-        ]
-      }
+      ]
     },
     {
       "id": "a_29b90a976955",
@@ -12213,9 +12173,9 @@
     },
     {
       "id": "a_401d67f30701",
-      "name": "",
+      "name": "Good Omens 好預兆",
       "name_inferred": "Good Omens 好預兆",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
       "socials": []
     },
@@ -12805,24 +12765,18 @@
     },
     {
       "id": "a_50a344f18962",
-      "name": "陳毅安（穂茉",
+      "name": "陳毅安",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "fb_review_title_strip",
+      "aliases": [
+        "穂茉"
+      ],
       "socials": [
         {
           "platform": "fb",
           "url": "https://www.facebook.com/profile.php?id=61575655409441"
         }
-      ],
-      "name_source_prev": "fb_review_title_strip",
-      "name_audit_reason": "unclosed_paren_alias: → 陳毅安 + aliases ['穂茉']",
-      "name_audit_suggestion": {
-        "name": "陳毅安",
-        "aliases": [
-          "穂茉"
-        ]
-      }
+      ]
     },
     {
       "id": "a_513c5887f723",
@@ -12996,11 +12950,20 @@
     },
     {
       "id": "a_5491254e8127",
-      "name": "",
+      "name": "Ikusen",
       "name_inferred": "Ikusen",
-      "name_source": "circle_name",
+      "name_source": "user",
       "aliases": [],
-      "socials": []
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ikusen_"
+        },
+        {
+          "platform": "aggregator",
+          "url": "https://portaly.cc/Ikusen"
+        }
+      ]
     },
     {
       "id": "a_54bdb6aa6ab1",
@@ -13064,37 +13027,29 @@
     },
     {
       "id": "a_55be2db3317c",
-      "name": "⣿⣿ 安   全   渡   夏  ②⓪②③ ⣿⣿",
+      "name": "安全渡夏",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/not_december1212/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "heavy_decoration"
+      ]
     },
     {
       "id": "a_5663a24fc490",
-      "name": "innk🙏布榖町、創集繪來場感謝❤️",
+      "name": "innk",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "bsky_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "bsky",
           "url": "https://bsky.app/profile/nginnk12.bsky.social"
         }
-      ],
-      "name_source_prev": "bsky_profile",
-      "name_audit_reason": "event_marker: → innk🙏",
-      "name_audit_suggestion": {
-        "name": "innk🙏",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_56d5eec0298b",
@@ -13124,18 +13079,16 @@
     },
     {
       "id": "a_5898bca19572",
-      "name": "絨毛點 / 手作飾品",
+      "name": "絨毛點",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "fb_review_title_strip",
       "aliases": [],
       "socials": [
         {
           "platform": "fb",
           "url": "https://www.facebook.com/fluffpoint"
         }
-      ],
-      "name_source_prev": "fb_review_title_strip",
-      "name_audit_reason": "subtitle_vs_alias"
+      ]
     },
     {
       "id": "a_593d989ec424",
@@ -13323,9 +13276,9 @@
     },
     {
       "id": "a_5ea2b8ac248f",
-      "name": "",
+      "name": "Cathy Kao",
       "name_inferred": "Cathy Kao",
-      "name_source": "circle_name",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
@@ -13789,22 +13742,16 @@
     },
     {
       "id": "a_6ff340080b2a",
-      "name": "YS🏍️萩ㄑㄧㄡ原推廣委員會🪽",
+      "name": "YS",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "plurk",
           "url": "https://www.plurk.com/gulyocat"
         }
-      ],
-      "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → YS🏍️萩ㄑㄧㄡ原",
-      "name_audit_suggestion": {
-        "name": "YS🏍️萩ㄑㄧㄡ原",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_70b4c26173c7",
@@ -14285,9 +14232,9 @@
     },
     {
       "id": "a_804fa3c4ee12",
-      "name": "",
+      "name": "Bubble Wave",
       "name_inferred": "Bubble Wave",
-      "name_source": "circle_name",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
@@ -14382,28 +14329,22 @@
     },
     {
       "id": "a_8372bf50b8e2",
-      "name": "夜離 Yoru💙創集繪X09-10",
+      "name": "夜離 Yoru💙",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "x_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/nightleave1030"
         }
-      ],
-      "name_source_prev": "x_profile",
-      "name_audit_reason": "event_marker: → 夜離 Yoru💙",
-      "name_audit_suggestion": {
-        "name": "夜離 Yoru💙",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_83784034907f",
-      "name": "",
+      "name": "Aggie 慢慢走",
       "name_inferred": "Aggie 慢慢走 ",
-      "name_source": "circle_name",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
@@ -14840,9 +14781,9 @@
     },
     {
       "id": "a_9225cb340690",
-      "name": "",
+      "name": "HyggeLove",
       "name_inferred": "HyggeLove",
-      "name_source": "circle_name",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
@@ -14977,22 +14918,16 @@
     },
     {
       "id": "a_975f5236b9e8",
-      "name": "遠航冒險｜新石紀IF場內串聯",
+      "name": "遠航冒險",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "plurk",
           "url": "https://www.plurk.com/newstone"
         }
-      ],
-      "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → 遠航冒險｜新石紀",
-      "name_audit_suggestion": {
-        "name": "遠航冒險｜新石紀",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_97e01334a968",
@@ -15087,9 +15022,9 @@
     },
     {
       "id": "a_9aa78fc009fa",
-      "name": "",
+      "name": "佩夫",
       "name_inferred": "LRLR",
-      "name_source": "circle_name",
+      "name_source": "aggregator_profile",
       "aliases": [],
       "socials": [
         {
@@ -15505,22 +15440,16 @@
     },
     {
       "id": "a_a6d35a42ab37",
-      "name": "古藤工作室 by MOMO",
+      "name": "MOMO",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "fb_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "fb",
           "url": "https://www.facebook.com/gutenmomo"
         }
-      ],
-      "name_source_prev": "fb_profile",
-      "name_audit_reason": "event_marker: → 古藤工作室",
-      "name_audit_suggestion": {
-        "name": "古藤工作室",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_a7040b545d24",
@@ -15635,10 +15564,12 @@
     },
     {
       "id": "a_aaa559d8a745",
-      "name": "古比(Gubi",
+      "name": "古比",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "aggregator_review_title_strip",
+      "aliases": [
+        "Gubi"
+      ],
       "socials": [
         {
           "platform": "aggregator",
@@ -15660,15 +15591,7 @@
           "platform": "fb",
           "url": "https://www.facebook.com/profile.php?id=100000797014323"
         }
-      ],
-      "name_source_prev": "aggregator_review_title_strip",
-      "name_audit_reason": "unclosed_paren_alias: → 古比 + aliases ['Gubi']",
-      "name_audit_suggestion": {
-        "name": "古比",
-        "aliases": [
-          "Gubi"
-        ]
-      }
+      ]
     },
     {
       "id": "a_ab3819a29509",
@@ -16038,24 +15961,16 @@
     },
     {
       "id": "a_b659b5a7631b",
-      "name": "阿吉×微光島嶼（阿吉的大雜繪",
+      "name": "阿吉",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "ig_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "ig",
           "url": "https://www.instagram.com/jidraw018/"
         }
-      ],
-      "name_source_prev": "ig_profile",
-      "name_audit_reason": "unclosed_paren_alias: → 阿吉×微光島嶼 + aliases ['阿吉的大雜繪']",
-      "name_audit_suggestion": {
-        "name": "阿吉×微光島嶼",
-        "aliases": [
-          "阿吉的大雜繪"
-        ]
-      }
+      ]
     },
     {
       "id": "a_b65d29c893d9",
@@ -16098,22 +16013,16 @@
     },
     {
       "id": "a_b90427a46f7c",
-      "name": "創集繪O14🔥🌊亞矢",
+      "name": "亞矢",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "plurk",
           "url": "https://www.plurk.com/ayas929"
         }
-      ],
-      "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_prefix: → 亞矢",
-      "name_audit_suggestion": {
-        "name": "亞矢",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_b93b498d92cf",
@@ -17493,22 +17402,16 @@
     },
     {
       "id": "a_e69e12c3070d",
-      "name": "+加倍佳-五月場次感謝大家",
+      "name": "+加倍佳",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "plurk",
           "url": "https://www.plurk.com/karo3618"
         }
-      ],
-      "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_marker: → +加倍佳",
-      "name_audit_suggestion": {
-        "name": "+加倍佳",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_e7ab5fdd169f",
@@ -17787,22 +17690,16 @@
     },
     {
       "id": "a_f244df796970",
-      "name": "創集繪感謝大家x凌嵐",
+      "name": "凌嵐",
       "name_inferred": "",
-      "name_source": "audit_flagged",
+      "name_source": "plurk_profile",
       "aliases": [],
       "socials": [
         {
           "platform": "plurk",
           "url": "https://www.plurk.com/ryouarashi"
         }
-      ],
-      "name_source_prev": "plurk_profile",
-      "name_audit_reason": "event_prefix: → 感謝大家x凌嵐",
-      "name_audit_suggestion": {
-        "name": "感謝大家x凌嵐",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_f25f70ce5eaa",
@@ -17941,22 +17838,18 @@
     },
     {
       "id": "a_f84bad70201f",
-      "name": "薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴 創集繪M07",
+      "name": "薄巧鈞",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "x_profile",
+      "aliases": [
+        "MCJ"
+      ],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/mcj131825526"
         }
-      ],
-      "name_source_prev": "x_profile",
-      "name_audit_reason": "event_marker: → 薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴",
-      "name_audit_suggestion": {
-        "name": "薄巧鈞MCJ👼🥽🖋️🔅🎫𐂴",
-        "aliases": []
-      }
+      ]
     },
     {
       "id": "a_f8a18d34b6b0",
@@ -18419,24 +18312,18 @@
     },
     {
       "id": "chihlun42",
-      "name": "Lun(H.C.L",
+      "name": "Lun",
       "name_inferred": "",
-      "name_source": "audit_flagged",
-      "aliases": [],
+      "name_source": "x_profile",
+      "aliases": [
+        "H.C.L"
+      ],
       "socials": [
         {
           "platform": "x",
           "url": "https://x.com/Chihlun42"
         }
-      ],
-      "name_source_prev": "x_profile",
-      "name_audit_reason": "unclosed_paren_alias: → Lun + aliases ['H.C.L']",
-      "name_audit_suggestion": {
-        "name": "Lun",
-        "aliases": [
-          "H.C.L"
-        ]
-      }
+      ]
     },
     {
       "id": "crazycat_47",
