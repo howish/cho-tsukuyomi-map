@@ -596,32 +596,29 @@
       // Row 2: confirm + skip + (if suggestion exists) one-click accept
       const actions = el('div', { class: 'card-form-actions' });
       if (suggestion) {
-        // ✨ Accept-suggestion button — one click commits suggested name
-        // AND queues all suggested aliases as pending adds.
+        // ✨ Load-suggestion button — populates the form with the proposed
+        // name + aliases WITHOUT finalising. Reviewer can still edit the
+        // input or remove alias chips, then click ✅ 確定 to commit.
         actions.appendChild(el('button', {
           type: 'button',
           class: 'confirm-btn accept-suggestion-btn',
-          title: 'cleanup 提案を そのまま 採用',
+          title: '提案を入力欄に反映 — 確定するには ✅ を押す',
           onclick: () => {
-            pending[a.id] = {
-              author_id: a.id,
-              decision: 'rename',
-              name: suggestion.name,
-              source: defaultSource || 'user',
-            };
-            // Queue suggested aliases (dedup against existing on the author)
+            nameInput.value = suggestion.name;
+            // Queue suggested aliases as pending adds (dedup against
+            // existing author aliases + already-queued pending adds)
             const existing = a.aliases || [];
-            const adds = (suggestion.aliases || []).filter(al => !existing.includes(al));
+            const alreadyPending = pendingAliases[a.id] || [];
+            const adds = (suggestion.aliases || []).filter(
+              al => !existing.includes(al) && !alreadyPending.includes(al)
+            );
             if (adds.length) {
-              pendingAliases[a.id] = (pendingAliases[a.id] || []).concat(
-                adds.filter(al => !(pendingAliases[a.id] || []).includes(al))
-              );
+              pendingAliases[a.id] = alreadyPending.concat(adds);
               savePendingAliases(pendingAliases);
             }
-            savePending(pending);
             render();
           },
-        }, '✨ 提案 採用'));
+        }, '✨ 提案 反映'));
       }
       actions.appendChild(el('button', {
         type: 'button',
