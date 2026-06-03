@@ -1,0 +1,16 @@
+{
+  "name": "yachi8000.app — 同人即売会 サークルガイド",
+  "short_name": "サークルガイド",
+  "description": "同人即売会の非公式 fan guide ハブ。各 event の会場マップ + サークル一覧 + お品書き + X リンク統合表示。",
+  "lang": "ja",
+  "categories": ["entertainment", "books", "social"],
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fafafa",
+  "theme_color": "#4a3a5c",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
