@@ -240,3 +240,15 @@ h2 {
   .event-icon { font-size: 2rem; }
   .event-name { font-size: 1rem; }
 }
+
+/* Simple Icons SVG brand mark — sized to match adjacent text via 1em,
+   inherits color via currentColor so per-platform chip tints still apply.
+   Without this rule, SVGs without explicit width/height attrs default to
+   300x150 and blow up the chip. Shared across hub / circles / review. */
+.platform-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  flex-shrink: 0;
+}
