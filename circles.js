@@ -13648,11 +13648,6 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "plurk",
-        "url": "https://avatars.plurk.com/17201849-big80582179.jpg",
-        "handle": ""
-      },
-      {
         "platform": "threads",
         "url": "https://www.threads.com/@teanene.comicart",
         "handle": ""
@@ -14444,13 +14439,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "x_handle": "",
     "x_url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
-    "socials": [
-      {
-        "platform": "plurk",
-        "url": "https://qrcode.plurk.com/q/tsugineallen-3x.png",
-        "handle": "@q"
-      }
-    ]
+    "socials": []
   },
   "a_6749066f8b9e": {
     "id": "a_6749066f8b9e",
@@ -14938,11 +14927,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "threads",
         "url": "https://www.threads.com/@sally_dejavu",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://avatars.plurk.com/3869333-big43146625.jpg",
         "handle": ""
       },
       {
@@ -15786,11 +15770,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/moriowos",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://avatars.plurk.com/16725327-big55397797.jpg",
         "handle": ""
       }
     ]
@@ -17870,11 +17849,6 @@ window.AUTHORS_BY_ID = {
         "handle": ""
       },
       {
-        "platform": "plurk",
-        "url": "https://avatars.plurk.com/14600570-big92403967.jpg",
-        "handle": ""
-      },
-      {
         "platform": "x",
         "url": "https://x.com/Streamer_fairy",
         "handle": ""
@@ -19402,11 +19376,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/people/%E5%8F%B0%E7%81%A3%E7%99%BE%E5%90%88%E6%BC%AB%E7%95%AB%E7%A0%94%E7%A9%B6/61581988013539",
-        "handle": ""
-      },
-      {
-        "platform": "plurk",
-        "url": "https://avatars.plurk.com/17707316-big83859203.jpg",
         "handle": ""
       }
     ]
