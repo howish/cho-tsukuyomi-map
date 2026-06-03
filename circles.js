@@ -10261,6 +10261,22 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "ig",
         "url": "https://www.instagram.com/maruoo0121/"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/majo_ding/"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@majo_ding"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@marud.majodin"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/marud.majodin/"
       }
     ]
   },
@@ -11187,7 +11203,20 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "白範工作室",
     "name_source": "circle_name",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/Studio.reRise/"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@rise_manga"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/rise_manga/"
+      }
+    ]
   },
   "a_20ccb01b2e2e": {
     "id": "a_20ccb01b2e2e",
@@ -11359,7 +11388,20 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "脖狐的脖子",
     "name_source": "circle_name",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/bohuneck/"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/bohusneck/"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@bohuneck"
+      }
+    ]
   },
   "a_25a8023cd010": {
     "id": "a_25a8023cd010",
@@ -13273,6 +13315,10 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/superdoujinwar/"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/superdoujinwars/"
       }
     ]
   },
@@ -13804,6 +13850,10 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/li.chun.ba.ba.da.xia/"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@bobny0504"
       }
     ]
   },
@@ -14865,6 +14915,10 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "ig",
         "url": "https://www.instagram.com/_inner_room/"
+      },
+      {
+        "platform": "pinkoi",
+        "url": "https://www.pinkoi.com/store/inner-room"
       }
     ]
   },
@@ -16105,6 +16159,14 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/keepingbirds"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/cting4127/"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/411817578989863"
       }
     ]
   },
@@ -16577,7 +16639,16 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "遇見幸福手創館Met Happiness ",
     "name_source": "circle_name",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/HappinessHandmade.Angelfamily/"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/methappiness/"
+      }
+    ]
   },
   "a_c762bcea00b8": {
     "id": "a_c762bcea00b8",
@@ -16957,7 +17028,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "XZY in 冷凍庫",
     "name_source": "circle_name",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/xzy97451099/"
+      }
+    ]
   },
   "a_d5bc5acb88c2": {
     "id": "a_d5bc5acb88c2",
@@ -18537,6 +18613,14 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "url": "https://x.com/hikari863126"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/3DUYI/"
+      },
+      {
+        "platform": "x",
+        "url": "https://x.com/kimiJUNN"
       }
     ]
   },
