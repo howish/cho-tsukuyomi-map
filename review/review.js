@@ -73,6 +73,11 @@
       return JSON.parse(localStorage.getItem(STORAGE_KEY + '-alias-removals') || '{}');
     } catch (e) { return {}; }
   }
+  function loadPendingNewMembers() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-new-members') || '[]');
+    } catch (e) { return []; }
+  }
   function savePending(p) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
   }
@@ -88,11 +93,16 @@
   function savePendingAliasRemovals(par) {
     localStorage.setItem(STORAGE_KEY + '-alias-removals', JSON.stringify(par));
   }
+  function savePendingNewMembers(pn) {
+    localStorage.setItem(STORAGE_KEY + '-new-members', JSON.stringify(pn));
+  }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
   let pendingRemovals = loadPendingRemovals();           // {author_id: [url, ...]}
   let pendingAliases = loadPendingAliases();             // {author_id: [alias, ...]} - to add
   let pendingAliasRemovals = loadPendingAliasRemovals(); // {author_id: [alias, ...]} - to remove
+  // pendingNewMembers — flat array of {tempId, circle_id, name, source, socials[], aliases[]}
+  let pendingNewMembers = loadPendingNewMembers();
 
   function isAliasMarkedForRemoval(aid, alias) {
     return (pendingAliasRemovals[aid] || []).includes(alias);
@@ -650,6 +660,98 @@
       card.appendChild(form);
     }
 
+    // ---- Add-member section (合同サークル 等で 2nd author を追加) ----
+    // For each circle this author belongs to, show pending new-members
+    // already queued + a "+ メンバー" button to open an inline form.
+    (AUTHOR_CIRCLES[a.id] || []).forEach(c => {
+      const sect = el('div', { class: 'card-addmember' });
+      sect.appendChild(el('div', { class: 'card-addmember-label' },
+        `+ メンバー追加 to サークル「${c.circle_name || c.id}」`));
+
+      // List queued new members for this circle
+      pendingNewMembers
+        .filter(m => m.circle_id === c.id)
+        .forEach(m => {
+          const row = el('div', { class: 'card-addmember-pending' });
+          const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
+          row.appendChild(el('span', {}, `🆕 ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
+          row.appendChild(el('button', {
+            type: 'button',
+            class: 'remove-btn',
+            onclick: () => {
+              pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+              savePendingNewMembers(pendingNewMembers);
+              render();
+            },
+          }, '×'));
+          sect.appendChild(row);
+        });
+
+      // Toggle button + inline form
+      const formWrap = el('div', { class: 'card-addmember-form', style: 'display:none;' });
+      const nameIn = el('input', { type: 'text', placeholder: '新 author の名前' });
+      const xUrlIn = el('input', { type: 'text', placeholder: 'X URL (任意, https://x.com/...)' });
+      const sourceSel = el('select');
+      for (const o of SOURCE_OPTIONS) {
+        const opt = el('option', { value: o.value }, o.label);
+        if (o.value === 'user') opt.selected = true;
+        sourceSel.appendChild(opt);
+      }
+      const submitBtn = el('button', {
+        type: 'button',
+        class: 'confirm-btn',
+        onclick: () => {
+          const name = (nameIn.value || '').trim();
+          if (!name) { alert('名前を入力してください'); return; }
+          const socials = [];
+          const xUrl = (xUrlIn.value || '').trim();
+          if (xUrl) socials.push({ platform: 'x', url: xUrl });
+          const tempId = 'new_' + Date.now() + '_' + Math.random().toString(36).slice(2, 6);
+          pendingNewMembers.push({
+            tempId,
+            circle_id: c.id,
+            name,
+            source: sourceSel.value,
+            socials,
+            aliases: [],
+          });
+          savePendingNewMembers(pendingNewMembers);
+          nameIn.value = ''; xUrlIn.value = '';
+          render();
+        },
+      }, '+ 追加');
+      const cancelBtn = el('button', {
+        type: 'button',
+        class: 'skip-btn',
+        onclick: () => { formWrap.style.display = 'none'; addBtn.style.display = ''; },
+      }, '取消');
+      const row1 = el('div', { class: 'card-addmember-row' });
+      row1.appendChild(nameIn);
+      row1.appendChild(sourceSel);
+      formWrap.appendChild(row1);
+      const row2 = el('div', { class: 'card-addmember-row' });
+      row2.appendChild(xUrlIn);
+      formWrap.appendChild(row2);
+      const row3 = el('div', { class: 'card-addmember-row' });
+      row3.appendChild(submitBtn);
+      row3.appendChild(cancelBtn);
+      formWrap.appendChild(row3);
+      sect.appendChild(formWrap);
+
+      const addBtn = el('button', {
+        type: 'button',
+        class: 'addmember-toggle-btn',
+        onclick: () => {
+          formWrap.style.display = '';
+          addBtn.style.display = 'none';
+          nameIn.focus();
+        },
+      }, '+ メンバー追加');
+      sect.appendChild(addBtn);
+
+      card.appendChild(sect);
+    });
+
     return card;
   }
 
@@ -771,6 +873,13 @@
         list.appendChild(li);
       }
     }
+    for (const m of pendingNewMembers) {
+      const li = el('li');
+      li.appendChild(el('strong', {}, m.circle_id));
+      const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
+      li.appendChild(el('span', {}, `🆕 + member → ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
+      list.appendChild(li);
+    }
     // Size hint
     const body = buildSubmissionBody();
     const hint = document.getElementById('pending-hint');
@@ -813,6 +922,16 @@
       for (const alias of pendingAliasRemovals[aid]) {
         out.push({ author_id: aid, decision: 'remove_alias', alias });
       }
+    }
+    for (const m of pendingNewMembers) {
+      out.push({
+        decision: 'add_member',
+        circle_id: m.circle_id,
+        name: m.name,
+        source: m.source,
+        socials: m.socials || [],
+        aliases: m.aliases || [],
+      });
     }
     return out;
   }
