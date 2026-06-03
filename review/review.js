@@ -636,12 +636,17 @@
       card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
 
       // Filter WebSearch candidates: drop URLs already in author.socials,
-      // already queued in pendingSocials, or dismissed by the reviewer.
+      // already queued in pendingSocials, dismissed by reviewer, OR are
+      // post/photo/status URLs (not the author's profile root — howish
+      // can't verify "is this them" from a single post).
       function normWsUrl(u) {
         return (u || '').toLowerCase()
           .replace(/^https?:\/\//, '').replace(/^www\./, '')
           .split('?')[0].split('#')[0].replace(/\/+$/, '');
       }
+      // Post / non-profile URL shapes — drop these so the reviewer only
+      // sees verifiable profile pages.
+      const POST_URL_RX = /\/(?:posts|photos|photo|videos|video|status|p|reel|reels|story|stories|story_fbid)\/|\/post\/|\/photo\.php|\?fbid=/;
       const registeredNorms = new Set(
         ((a.socials || []).map(s => normWsUrl(s.url || '')))
           .concat((pendingSocials[a.id] || []).map(s => normWsUrl(s.url || '')))
@@ -651,7 +656,9 @@
       );
       const wsHits = (WS_CANDIDATES[a.id] || []).filter(h => {
         const n = normWsUrl(h.url);
-        return !registeredNorms.has(n) && !dismissedNorms.has(n);
+        if (registeredNorms.has(n) || dismissedNorms.has(n)) return false;
+        if (POST_URL_RX.test(h.url)) return false;  // skip post URLs
+        return true;
       });
       if (wsHits.length) {
         const wsBlock = el('div', { class: 'card-ws-block' });
