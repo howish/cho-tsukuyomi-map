@@ -674,18 +674,24 @@
   color: #6a7a9a;
   line-height: 1.4;
 }
-.card-ws-add {
+.card-ws-btn-row {
   flex: 0 0 auto;
-  background: #4a9d63;
+  display: flex;
+  gap: 6px;
+}
+.card-ws-add, .card-ws-dismiss {
   border: none;
-  color: #fff;
   padding: 5px 12px;
   border-radius: 6px;
   font-size: 11px;
   cursor: pointer;
   font-weight: 600;
+  color: #fff;
 }
+.card-ws-add { background: #4a9d63; }
 .card-ws-add:hover { background: #3d8a54; }
+.card-ws-dismiss { background: #999; }
+.card-ws-dismiss:hover { background: #c85858; }
 
 /* ---- Decision form ---- */
 

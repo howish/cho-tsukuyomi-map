@@ -104,6 +104,14 @@
   function savePendingCircleSocials(pcs) {
     localStorage.setItem(STORAGE_KEY + '-circle-socials', JSON.stringify(pcs));
   }
+  function loadDismissedWs() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-dismissed-ws') || '{}');
+    } catch (e) { return {}; }
+  }
+  function saveDismissedWs(dw) {
+    localStorage.setItem(STORAGE_KEY + '-dismissed-ws', JSON.stringify(dw));
+  }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
   let pendingRemovals = loadPendingRemovals();           // {author_id: [url, ...]}
@@ -113,6 +121,9 @@
   let pendingNewMembers = loadPendingNewMembers();
   // pendingCircleSocials — {circle_id: [{platform, url}, ...]} for circle-level SNS
   let pendingCircleSocials = loadPendingCircleSocials();
+  // dismissedWsCandidates — {author_id: [url, ...]} URLs that user said
+  // "not this person" on WebSearch candidates list (hides them from queue)
+  let dismissedWsCandidates = loadDismissedWs();
 
   function isAliasMarkedForRemoval(aid, alias) {
     return (pendingAliasRemovals[aid] || []).includes(alias);
@@ -299,6 +310,81 @@
     card.appendChild(el('div', { class: 'author-panel-label' },
       `👤 Author ${authorNum}` + (isNew ? ' (新規)' : (isDefault ? ' (default)' : ''))));
 
+    // ---- Name + source inputs (built early so they can be inserted high in
+    // the panel — right after current-state row, before aliases). Only when
+    // the panel isn't a skip/remove state. Auto-save = draft on every keystroke.
+    const suggestion = !isNew ? (a.name_audit_suggestion || null) : null;
+    let nameInput = null;
+    let sourceSelect = null;
+    let nameSourceRow = null;
+    if (!isSkip && !isRemove) {
+      // Preset name: existing → pending.name > suggestion > inferred; new → m.name
+      let presetName;
+      if (isNew) presetName = m.name || '';
+      else if (decision && decision.name != null) presetName = decision.name;
+      else if (suggestion) presetName = suggestion.name;
+      else presetName = a.name_inferred || '';
+
+      nameInput = el('input', {
+        type: 'text', name: 'name', placeholder: '本人の display_name', value: presetName,
+      });
+      nameInput.addEventListener('input', () => {
+        if (isNew) {
+          m.name = nameInput.value;
+          m.confirmed = false;
+          savePendingNewMembers(pendingNewMembers);
+        } else {
+          const v = nameInput.value;
+          if (!v) { delete pending[a.id]; }
+          else {
+            pending[a.id] = Object.assign({}, pending[a.id] || {},
+              { author_id: a.id, decision: 'rename', name: v,
+                source: sourceSelect.value, confirmed: false });
+          }
+          savePending(pending);
+        }
+      });
+
+      sourceSelect = el('select', { name: 'source' });
+      const plat = !isNew ? authorPrimaryPlatform(a) : 'user';
+      const defaultSource = isNew
+        ? (m.source || 'user')
+        : (decision && decision.source) ? decision.source
+        : (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
+        : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
+        : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
+        : plat === 'threads' ? 'threads_profile' : plat === 'bsky' ? 'bsky_profile'
+        : plat === 'pixiv' ? 'pixiv_profile' : plat === 'doujin_tw' ? 'doujin_tw_profile'
+        : plat === 'aggregator' ? 'aggregator_profile' : 'user';
+      let foundOpt = false;
+      for (const o of SOURCE_OPTIONS) {
+        const opt = el('option', { value: o.value }, o.label);
+        if (o.value === defaultSource) { opt.selected = true; foundOpt = true; }
+        sourceSelect.appendChild(opt);
+      }
+      if (!foundOpt && defaultSource) {
+        const opt = el('option', { value: defaultSource }, defaultSource);
+        opt.selected = true;
+        sourceSelect.appendChild(opt);
+      }
+      sourceSelect.addEventListener('change', () => {
+        if (isNew) {
+          m.source = sourceSelect.value;
+          m.confirmed = false;
+          savePendingNewMembers(pendingNewMembers);
+        } else if (nameInput.value) {
+          pending[a.id] = Object.assign({}, pending[a.id] || {},
+            { author_id: a.id, decision: 'rename', name: nameInput.value,
+              source: sourceSelect.value, confirmed: false });
+          savePending(pending);
+        }
+      });
+
+      nameSourceRow = el('div', { class: 'card-form-row card-name-row' });
+      nameSourceRow.appendChild(nameInput);
+      nameSourceRow.appendChild(sourceSelect);
+    }
+
     const head = el('div', { class: 'card-head' });
 
     // Current state row — only for existing authors (no saved state yet for new)
@@ -324,6 +410,11 @@
       curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
       head.appendChild(curRow);
     }
+
+    // Insert name + source row HIGH in the panel (right after current
+    // state, before aliases) — howish prefers the primary input near the
+    // top so the eye lands on it after reading 「現:」.
+    if (nameSourceRow) head.appendChild(nameSourceRow);
 
     // ---- Alias section (unified) ----
     // existing: union(savedAliases [toggle-remove], pendingAliases [cancel])
@@ -544,10 +635,28 @@
       const note = PLATFORM_NOTES[plat] || PLATFORM_NOTES.plain;
       card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
 
-      const wsHits = WS_CANDIDATES[a.id] || [];
+      // Filter WebSearch candidates: drop URLs already in author.socials,
+      // already queued in pendingSocials, or dismissed by the reviewer.
+      function normWsUrl(u) {
+        return (u || '').toLowerCase()
+          .replace(/^https?:\/\//, '').replace(/^www\./, '')
+          .split('?')[0].split('#')[0].replace(/\/+$/, '');
+      }
+      const registeredNorms = new Set(
+        ((a.socials || []).map(s => normWsUrl(s.url || '')))
+          .concat((pendingSocials[a.id] || []).map(s => normWsUrl(s.url || '')))
+      );
+      const dismissedNorms = new Set(
+        (dismissedWsCandidates[a.id] || []).map(normWsUrl)
+      );
+      const wsHits = (WS_CANDIDATES[a.id] || []).filter(h => {
+        const n = normWsUrl(h.url);
+        return !registeredNorms.has(n) && !dismissedNorms.has(n);
+      });
       if (wsHits.length) {
         const wsBlock = el('div', { class: 'card-ws-block' });
-        wsBlock.appendChild(el('div', { class: 'card-ws-label' }, '🌐 WebSearch 候補 (click で実物確認 → 下の + で追加)'));
+        wsBlock.appendChild(el('div', { class: 'card-ws-label' },
+          '🌐 WebSearch 候補 (click で実物確認 → 「+ 採用」or 「× 違う」)'));
         const list = el('div', { class: 'card-ws-list' });
         wsHits.forEach(h => {
           const item = el('div', { class: 'card-ws-item conf-' + (h.confidence || 'medium') });
@@ -559,10 +668,11 @@
           if (h.snippet) {
             item.appendChild(el('div', { class: 'card-ws-snippet' }, '💬 ' + h.snippet));
           }
-          const wsAddBtn = el('button', {
+          const btnRow = el('div', { class: 'card-ws-btn-row' });
+          btnRow.appendChild(el('button', {
             type: 'button',
             class: 'card-ws-add',
-            title: 'この URL を pending 追加',
+            title: 'この URL を pending 追加 (要本人 page 確認)',
             onclick: () => {
               (pendingSocials[a.id] = pendingSocials[a.id] || []).push({
                 platform: h.platform || 'generic',
@@ -572,8 +682,18 @@
               savePendingSocials(pendingSocials);
               render();
             },
-          }, '+ 追加');
-          item.appendChild(wsAddBtn);
+          }, '+ 採用'));
+          btnRow.appendChild(el('button', {
+            type: 'button',
+            class: 'card-ws-dismiss',
+            title: '違う人 — この候補を非表示にする',
+            onclick: () => {
+              (dismissedWsCandidates[a.id] = dismissedWsCandidates[a.id] || []).push(h.url);
+              saveDismissedWs(dismissedWsCandidates);
+              render();
+            },
+          }, '× 違う'));
+          item.appendChild(btnRow);
           list.appendChild(item);
         });
         wsBlock.appendChild(list);
@@ -595,87 +715,9 @@
         isSkip ? '⏭ skip — 本名不明で永続' : '🗑 remove_member — apply で circle から除外'));
       card.appendChild(dDiv);
     } else {
+      // Name + source row already inserted high in the panel. Only the
+      // 🗑 削除 button lives down here.
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
-      const suggestion = !isNew ? (a.name_audit_suggestion || null) : null;
-
-      // Preset name: existing → pending.name > suggestion > inferred; new → m.name
-      let presetName;
-      if (isNew) {
-        presetName = m.name || '';
-      } else if (decision && decision.name != null) {
-        presetName = decision.name;
-      } else if (suggestion) {
-        presetName = suggestion.name;
-      } else {
-        presetName = a.name_inferred || '';
-      }
-
-      const nameInput = el('input', {
-        type: 'text', name: 'name', placeholder: '本人の display_name', value: presetName,
-      });
-      // Auto-save: typing → draft state (confirmed=false). The bulk
-      // ✅ 確定 all promotes drafts to confirmed.
-      nameInput.addEventListener('input', () => {
-        if (isNew) {
-          m.name = nameInput.value;
-          m.confirmed = false;  // touching invalidates confirmation
-          savePendingNewMembers(pendingNewMembers);
-        } else {
-          const v = nameInput.value;
-          if (!v) {
-            // Empty input → drop pending decision entirely (back to untouched)
-            delete pending[a.id];
-          } else {
-            pending[a.id] = Object.assign({}, pending[a.id] || {},
-              { author_id: a.id, decision: 'rename', name: v,
-                source: sourceSelect.value, confirmed: false });
-          }
-          savePending(pending);
-        }
-      });
-
-      const sourceSelect = el('select', { name: 'source' });
-      const plat = !isNew ? authorPrimaryPlatform(a) : 'user';
-      const defaultSource = isNew
-        ? (m.source || 'user')
-        : (decision && decision.source) ? decision.source
-        : (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
-        : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
-        : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
-        : plat === 'threads' ? 'threads_profile' : plat === 'bsky' ? 'bsky_profile'
-        : plat === 'pixiv' ? 'pixiv_profile' : plat === 'doujin_tw' ? 'doujin_tw_profile'
-        : plat === 'aggregator' ? 'aggregator_profile' : 'user';
-      let foundOpt = false;
-      for (const o of SOURCE_OPTIONS) {
-        const opt = el('option', { value: o.value }, o.label);
-        if (o.value === defaultSource) { opt.selected = true; foundOpt = true; }
-        sourceSelect.appendChild(opt);
-      }
-      if (!foundOpt && defaultSource) {
-        const opt = el('option', { value: defaultSource }, defaultSource);
-        opt.selected = true;
-        sourceSelect.appendChild(opt);
-      }
-      sourceSelect.addEventListener('change', () => {
-        if (isNew) {
-          m.source = sourceSelect.value;
-          m.confirmed = false;
-          savePendingNewMembers(pendingNewMembers);
-        } else if (nameInput.value) {
-          pending[a.id] = Object.assign({}, pending[a.id] || {},
-            { author_id: a.id, decision: 'rename', name: nameInput.value,
-              source: sourceSelect.value, confirmed: false });
-          savePending(pending);
-        }
-      });
-
-      const row1 = el('div', { class: 'card-form-row' });
-      row1.appendChild(nameInput);
-      row1.appendChild(sourceSelect);
-      form.appendChild(row1);
-
-      // 🗑 削除 — per-author. Existing: creates pending remove_member
-      // (immediate, no draft). New: drops from pendingNewMembers.
       const actions = el('div', { class: 'card-form-actions' });
       actions.appendChild(el('button', {
         type: 'button',
