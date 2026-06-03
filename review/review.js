@@ -259,47 +259,67 @@
     return blob.includes(q.toLowerCase());
   }
 
-  // ---- Card rendering ----
-  // Renders one author panel (nested inside a circle card). Circle header
-  // is rendered by renderCircleCard, not here.
-  function renderCard(a) {
-    const decision = pending[a.id] || null;
-    const cls = decision
-      ? (decision.decision === 'skip' ? 'author-panel skip-decision' : 'author-panel has-decision')
-      : 'author-panel';
+  // ---- Unified author-panel rendering ----
+  // Single function for BOTH existing-author cards (Author 1 = default) and
+  // pending-new-member drafts (Author 2+ added via 「+ メンバー追加」). The
+  // shape is identical; state-access branches by `isNew`:
+  //   - existing: reads from author record + pending decision overlay
+  //   - new:      reads from m (pendingNewMembers entry); mutations write
+  //               directly via savePendingNewMembers()
+  // Action buttons differ: existing has ✅/⏭/✨, new has 🗑.
+  //
+  // opts = { author?, newMember?, authorNum, isDefault }
+  function renderAuthorPanel(opts) {
+    const isNew = !!opts.newMember;
+    const a = opts.author;
+    const m = opts.newMember;
+    const authorNum = opts.authorNum;
+    const isDefault = opts.isDefault;
+
+    const decision = !isNew ? (pending[a.id] || null) : null;
+    const cls = isNew ? 'author-panel ghost-new'
+      : (decision ? (decision.decision === 'skip' ? 'author-panel skip-decision' : 'author-panel has-decision') : 'author-panel');
     const card = el('div', { class: cls });
+
+    // Author label — `(default)` for existing first, `(新規)` for new
+    card.appendChild(el('div', { class: 'author-panel-label' },
+      `👤 Author ${authorNum}` + (isNew ? ' (新規)' : (isDefault ? ' (default)' : ''))));
 
     const head = el('div', { class: 'card-head' });
 
-    // Current state row
-    const displayName = a.name || a.name_inferred || '(空)';
-    const isFlagged = a.name_source === 'audit_flagged';
-    const isInferred = a.name_source === 'circle_name';
-    const isConfirmed = !isInferred && !isFlagged && a.name_source !== '';
-    const curRow = el('div', { class: 'card-current-row' });
-    curRow.appendChild(el('span', { class: 'card-current-label' }, '現:'));
-    curRow.appendChild(el('span', {
-      class: 'card-current-name' + (isConfirmed ? ' confirmed' : '') + (isFlagged ? ' flagged' : ''),
-    }, displayName));
-    curRow.appendChild(el('span', {
-      class: 'card-source-tag' + (isInferred ? ' inferred' : '') + (isFlagged ? ' flagged' : ''),
-    }, a.name_source || '(empty)'));
-    if (isFlagged && a.name_audit_reason) {
+    // Current state row — only for existing authors (no saved state yet for new)
+    if (!isNew) {
+      const displayName = a.name || a.name_inferred || '(空)';
+      const isFlagged = a.name_source === 'audit_flagged';
+      const isInferred = a.name_source === 'circle_name';
+      const isConfirmed = !isInferred && !isFlagged && a.name_source !== '';
+      const curRow = el('div', { class: 'card-current-row' });
+      curRow.appendChild(el('span', { class: 'card-current-label' }, '現:'));
       curRow.appendChild(el('span', {
-        class: 'card-audit-reason',
-        title: 'deep-cleanup audit でフラグ — 人間判断待ち',
-      }, '⚠ ' + a.name_audit_reason));
+        class: 'card-current-name' + (isConfirmed ? ' confirmed' : '') + (isFlagged ? ' flagged' : ''),
+      }, displayName));
+      curRow.appendChild(el('span', {
+        class: 'card-source-tag' + (isInferred ? ' inferred' : '') + (isFlagged ? ' flagged' : ''),
+      }, a.name_source || '(empty)'));
+      if (isFlagged && a.name_audit_reason) {
+        curRow.appendChild(el('span', {
+          class: 'card-audit-reason',
+          title: 'deep-cleanup audit でフラグ — 人間判断待ち',
+        }, '⚠ ' + a.name_audit_reason));
+      }
+      curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
+      head.appendChild(curRow);
     }
-    curRow.appendChild(el('span', { class: 'card-author-id' }, a.id));
-    head.appendChild(curRow);
 
-    // Alias row — existing aliases (with × to remove) + pending aliases + add form
-    const existingAliases = a.aliases || [];
-    const pendingAdds = pendingAliases[a.id] || [];
-    if (existingAliases.length || pendingAdds.length) {
+    // ---- Alias section (unified) ----
+    // existing: union(savedAliases [toggle-remove], pendingAliases [cancel])
+    // new:      m.aliases only [direct delete]
+    const savedAliases = isNew ? [] : (a.aliases || []);
+    const pendingAdds = isNew ? (m.aliases || []) : (pendingAliases[a.id] || []);
+    if (savedAliases.length || pendingAdds.length) {
       const aliasRow = el('div', { class: 'card-alias-row' });
       aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
-      existingAliases.forEach(al => {
+      savedAliases.forEach(al => {
         const marked = isAliasMarkedForRemoval(a.id, al);
         const chip = el('span', {
           class: 'alias-chip' + (marked ? ' marked-remove' : ''),
@@ -315,15 +335,20 @@
       });
       pendingAdds.forEach((al, idx) => {
         const chip = el('span', { class: 'alias-chip pending-add' });
-        chip.appendChild(el('span', { class: 'alias-text' }, '+ ' + al));
+        chip.appendChild(el('span', { class: 'alias-text' }, isNew ? al : ('+ ' + al)));
         chip.appendChild(el('button', {
           type: 'button',
           class: 'alias-remove',
-          title: 'pending 追加を取消',
+          title: isNew ? 'この別名を削除' : 'pending 追加を取消',
           onclick: () => {
-            pendingAliases[a.id].splice(idx, 1);
-            if (pendingAliases[a.id].length === 0) delete pendingAliases[a.id];
-            savePendingAliases(pendingAliases);
+            if (isNew) {
+              m.aliases.splice(idx, 1);
+              savePendingNewMembers(pendingNewMembers);
+            } else {
+              pendingAliases[a.id].splice(idx, 1);
+              if (pendingAliases[a.id].length === 0) delete pendingAliases[a.id];
+              savePendingAliases(pendingAliases);
+            }
             render();
           },
         }, '×'));
@@ -332,7 +357,7 @@
       head.appendChild(aliasRow);
     }
 
-    // Add-alias inline form (always available)
+    // Add-alias inline form (unified)
     const aliasAddBlock = el('div', { class: 'add-alias-block' });
     const aliasInput = el('input', {
       type: 'text',
@@ -345,13 +370,20 @@
       onclick: () => {
         const al = (aliasInput.value || '').trim();
         if (!al) return;
-        const arr = pendingAliases[a.id] = pendingAliases[a.id] || [];
-        if (al === a.name || al === a.name_inferred || arr.includes(al) || (a.aliases || []).includes(al)) {
-          alert('重複している、もう登録済み');
-          return;
+        if (isNew) {
+          m.aliases = m.aliases || [];
+          if (m.aliases.includes(al)) { alert('重複している、もう登録済み'); return; }
+          m.aliases.push(al);
+          savePendingNewMembers(pendingNewMembers);
+        } else {
+          const arr = pendingAliases[a.id] = pendingAliases[a.id] || [];
+          if (al === a.name || al === a.name_inferred || arr.includes(al) || (a.aliases || []).includes(al)) {
+            alert('重複している、もう登録済み');
+            return;
+          }
+          arr.push(al);
+          savePendingAliases(pendingAliases);
         }
-        arr.push(al);
-        savePendingAliases(pendingAliases);
         aliasInput.value = '';
         render();
       },
@@ -362,54 +394,54 @@
     aliasAddBlock.appendChild(aliasInput);
     aliasAddBlock.appendChild(aliasAddBtn);
     head.appendChild(aliasAddBlock);
-
     card.appendChild(head);
 
-    // Probe links — all from socials[] (x_handle is gone, X URL is just
-    // another socials entry now).
+    // ---- Socials section (unified) ----
     const links = el('div', { class: 'card-probe-links' });
+    const savedSocials = isNew ? [] : (a.socials || []);
+    const pendingSocAdds = isNew ? (m.socials || []) : (pendingSocials[a.id] || []);
 
-    function chipWithRemove(url, labelText) {
-      const marked = isMarkedForRemoval(a.id, url);
+    savedSocials.forEach(s => {
+      if (!s.url) return;
+      const label = (s.platform || '🔗') + (s.handle ? ' ' + s.handle : '');
+      const marked = isMarkedForRemoval(a.id, s.url);
       const wrap = el('span', {
         class: 'card-probe-link existing' + (marked ? ' marked-remove' : ''),
       });
       wrap.appendChild(el('a', {
         class: 'existing-link',
-        href: url,
-        target: '_blank', rel: 'noopener',
-      }, labelText));
+        href: s.url, target: '_blank', rel: 'noopener',
+      }, label));
       wrap.appendChild(el('button', {
-        type: 'button',
-        class: 'existing-remove',
+        type: 'button', class: 'existing-remove',
         title: marked ? '削除を取消' : 'この link を削除',
-        onclick: () => toggleRemoval(a.id, url),
+        onclick: () => toggleRemoval(a.id, s.url),
       }, marked ? '↺' : '×'));
-      return wrap;
-    }
-
-    for (const s of (a.socials || [])) {
-      if (!s.url) continue;
-      const label = (s.platform || '🔗') + (s.handle ? ' ' + s.handle : '');
-      links.appendChild(chipWithRemove(s.url, label));
-    }
-    // Pending-added socials (visually distinct)
-    const adds = pendingSocials[a.id] || [];
-    adds.forEach((s, idx) => {
-      const wrap = el('span', { class: 'card-probe-link pending-add', title: 'pending 追加' });
+      links.appendChild(wrap);
+    });
+    pendingSocAdds.forEach((s, idx) => {
+      const wrap = el('span', {
+        class: 'card-probe-link pending-add',
+        title: isNew ? '新規 author の SNS' : 'pending 追加',
+      });
       wrap.appendChild(el('a', {
         href: s.url,
         target: '_blank', rel: 'noopener',
         class: 'pending-add-link',
-      }, '+ ' + s.platform + (s.handle ? ' ' + s.handle : '')));
+      }, (isNew ? '' : '+ ') + s.platform + (s.handle ? ' ' + s.handle : '')));
       wrap.appendChild(el('button', {
         type: 'button',
         class: 'pending-add-remove',
-        title: 'pending 追加を取消',
+        title: isNew ? 'この link を削除' : 'pending 追加を取消',
         onclick: () => {
-          pendingSocials[a.id].splice(idx, 1);
-          if (pendingSocials[a.id].length === 0) delete pendingSocials[a.id];
-          savePendingSocials(pendingSocials);
+          if (isNew) {
+            m.socials.splice(idx, 1);
+            savePendingNewMembers(pendingNewMembers);
+          } else {
+            pendingSocials[a.id].splice(idx, 1);
+            if (pendingSocials[a.id].length === 0) delete pendingSocials[a.id];
+            savePendingSocials(pendingSocials);
+          }
           render();
         },
       }, '×'));
@@ -420,7 +452,7 @@
     }
     card.appendChild(links);
 
-    // Add-social inline form (collapsed by default)
+    // Add-social inline form (unified, collapsed by default)
     const addBlock = el('div', { class: 'add-social-block' });
     const addToggle = el('button', {
       type: 'button',
@@ -428,7 +460,6 @@
       onclick: () => addBlock.classList.toggle('open'),
     }, '+ SNS link 追加');
     const addForm = el('div', { class: 'add-social-form' });
-
     const urlInput = el('input', {
       type: 'url',
       placeholder: 'URL (https://...)',
@@ -445,7 +476,6 @@
       placeholder: 'handle (任意、例: @foo)',
       class: 'add-social-handle',
     });
-    // Auto-detect platform + handle as user types URL
     urlInput.addEventListener('input', () => {
       const u = urlInput.value.trim();
       if (u) {
@@ -454,7 +484,7 @@
         if (!handleInput.value) handleInput.value = extractHandle(u, p);
       }
     });
-    const addBtn = el('button', {
+    const addSocBtn = el('button', {
       type: 'button',
       class: 'add-social-add',
       onclick: () => {
@@ -463,71 +493,117 @@
         if (!/^https?:\/\//.test(u)) u = 'https://' + u;
         const platform = platSelect.value;
         const handle = handleInput.value.trim();
-        (pendingSocials[a.id] = pendingSocials[a.id] || []).push({ platform, url: u, handle });
-        savePendingSocials(pendingSocials);
-        // Reset form
+        if (isNew) {
+          m.socials = m.socials || [];
+          if (m.socials.some(s => s.url === u)) { alert('重複している'); return; }
+          m.socials.push({ platform, url: u, handle });
+          savePendingNewMembers(pendingNewMembers);
+        } else {
+          (pendingSocials[a.id] = pendingSocials[a.id] || []).push({ platform, url: u, handle });
+          savePendingSocials(pendingSocials);
+        }
         urlInput.value = '';
         handleInput.value = '';
         addBlock.classList.remove('open');
         render();
       },
     }, '+ 追加');
-
     addForm.appendChild(urlInput);
     const row2 = el('div', { class: 'add-social-row' });
     row2.appendChild(platSelect);
     row2.appendChild(handleInput);
-    row2.appendChild(addBtn);
+    row2.appendChild(addSocBtn);
     addForm.appendChild(row2);
     addBlock.appendChild(addToggle);
     addBlock.appendChild(addForm);
     card.appendChild(addBlock);
 
-    // Yachiyo note
-    const plat = authorPrimaryPlatform(a);
-    const note = PLATFORM_NOTES[plat] || PLATFORM_NOTES.plain;
-    card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
+    // Yachiyo note + WebSearch hits — existing-author only (no value for
+    // a freshly-typed draft, since the user is the source).
+    if (!isNew) {
+      const plat = authorPrimaryPlatform(a);
+      const note = PLATFORM_NOTES[plat] || PLATFORM_NOTES.plain;
+      card.appendChild(el('div', { class: 'card-yachiyo-note' }, '💭 ' + note));
 
-    // WebSearch candidates (if any) — surface as clickable chips with snippet
-    const wsHits = WS_CANDIDATES[a.id] || [];
-    if (wsHits.length) {
-      const wsBlock = el('div', { class: 'card-ws-block' });
-      wsBlock.appendChild(el('div', { class: 'card-ws-label' }, '🌐 WebSearch 候補 (click で実物確認 → 下の + で追加)'));
-      const list = el('div', { class: 'card-ws-list' });
-      wsHits.forEach(h => {
-        const item = el('div', { class: 'card-ws-item conf-' + (h.confidence || 'medium') });
-        const link = el('a', {
-          href: h.url, target: '_blank', rel: 'noopener',
-          class: 'card-ws-link',
-        }, `${h.platform || '🔗'} → ${h.url}`);
-        item.appendChild(link);
-        if (h.snippet) {
-          item.appendChild(el('div', { class: 'card-ws-snippet' }, '💬 ' + h.snippet));
-        }
-        // Quick-add button: prefills the add-social form
-        const addBtn = el('button', {
-          type: 'button',
-          class: 'card-ws-add',
-          title: 'この URL を pending 追加',
-          onclick: () => {
-            (pendingSocials[a.id] = pendingSocials[a.id] || []).push({
-              platform: h.platform || 'generic',
-              url: h.url,
-              handle: '',
-            });
-            savePendingSocials(pendingSocials);
-            render();
-          },
-        }, '+ 追加');
-        item.appendChild(addBtn);
-        list.appendChild(item);
-      });
-      wsBlock.appendChild(list);
-      card.appendChild(wsBlock);
+      const wsHits = WS_CANDIDATES[a.id] || [];
+      if (wsHits.length) {
+        const wsBlock = el('div', { class: 'card-ws-block' });
+        wsBlock.appendChild(el('div', { class: 'card-ws-label' }, '🌐 WebSearch 候補 (click で実物確認 → 下の + で追加)'));
+        const list = el('div', { class: 'card-ws-list' });
+        wsHits.forEach(h => {
+          const item = el('div', { class: 'card-ws-item conf-' + (h.confidence || 'medium') });
+          const link = el('a', {
+            href: h.url, target: '_blank', rel: 'noopener',
+            class: 'card-ws-link',
+          }, `${h.platform || '🔗'} → ${h.url}`);
+          item.appendChild(link);
+          if (h.snippet) {
+            item.appendChild(el('div', { class: 'card-ws-snippet' }, '💬 ' + h.snippet));
+          }
+          const wsAddBtn = el('button', {
+            type: 'button',
+            class: 'card-ws-add',
+            title: 'この URL を pending 追加',
+            onclick: () => {
+              (pendingSocials[a.id] = pendingSocials[a.id] || []).push({
+                platform: h.platform || 'generic',
+                url: h.url,
+                handle: '',
+              });
+              savePendingSocials(pendingSocials);
+              render();
+            },
+          }, '+ 追加');
+          item.appendChild(wsAddBtn);
+          list.appendChild(item);
+        });
+        wsBlock.appendChild(list);
+        card.appendChild(wsBlock);
+      }
     }
 
-    // Decision badge or form
-    if (decision) {
+    // ---- Decision / action area ----
+    if (isNew) {
+      // New-member: live-bound name + source inputs + 🗑 delete button.
+      // No 確定 needed because the draft IS the pending decision.
+      const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
+      const nameInput = el('input', {
+        type: 'text', placeholder: '本人の display_name', value: m.name,
+      });
+      nameInput.addEventListener('input', () => {
+        m.name = nameInput.value;
+        savePendingNewMembers(pendingNewMembers);
+      });
+      const sourceSelect = el('select');
+      for (const o of SOURCE_OPTIONS) {
+        const opt = el('option', { value: o.value }, o.label);
+        if (o.value === (m.source || 'user')) opt.selected = true;
+        sourceSelect.appendChild(opt);
+      }
+      sourceSelect.addEventListener('change', () => {
+        m.source = sourceSelect.value;
+        savePendingNewMembers(pendingNewMembers);
+      });
+      const row1 = el('div', { class: 'card-form-row' });
+      row1.appendChild(nameInput);
+      row1.appendChild(sourceSelect);
+      form.appendChild(row1);
+
+      const actions = el('div', { class: 'card-form-actions' });
+      actions.appendChild(el('button', {
+        type: 'button',
+        class: 'skip-btn',
+        onclick: () => {
+          if (!confirm('この新規メンバーを削除しますか？')) return;
+          pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '🗑 削除'));
+      form.appendChild(actions);
+      card.appendChild(form);
+    } else if (decision) {
+      // Existing-author with already-set decision: show the badge + 取消.
       const dDiv = el('div', { class: 'card-form-decision' });
       const text = el('span', { class: 'decision-text' });
       if (decision.decision === 'rename') {
@@ -543,25 +619,18 @@
       }, '取消'));
       card.appendChild(dDiv);
     } else {
+      // Existing-author, no decision yet — show form with ✨/✅/⏭.
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
-
-      // Pre-fill: if audit-flagged with a structured suggestion, default
-      // the input to the suggested name (one-click accept-able). Else
-      // fall back to name_inferred as before.
       const suggestion = a.name_audit_suggestion || null;
       const presetName = suggestion ? suggestion.name : (a.name_inferred || '');
-
       const nameInput = el('input', {
         type: 'text',
         name: 'name',
         placeholder: '本人の display_name',
         value: presetName,
       });
-
       const sourceSelect = el('select', { name: 'source' });
-      // When audit-flagged, restore the original (pre-flag) source as the
-      // default — the cleanup didn't change WHERE we got the name from,
-      // just normalized the value.
+      const plat = authorPrimaryPlatform(a);
       const defaultSource = (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
         : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
         : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
@@ -575,33 +644,23 @@
         sourceSelect.appendChild(opt);
       }
       if (!foundOpt && defaultSource) {
-        // Original source not in dropdown (e.g. fb_review_title_strip) —
-        // append it so the reviewer can preserve it.
         const opt = el('option', { value: defaultSource }, defaultSource);
         opt.selected = true;
         sourceSelect.appendChild(opt);
       }
-
-      // Row 1: name input + source select
       const row1 = el('div', { class: 'card-form-row' });
       row1.appendChild(nameInput);
       row1.appendChild(sourceSelect);
       form.appendChild(row1);
 
-      // Row 2: confirm + skip + (if suggestion exists) one-click accept
       const actions = el('div', { class: 'card-form-actions' });
       if (suggestion) {
-        // ✨ Load-suggestion button — populates the form with the proposed
-        // name + aliases WITHOUT finalising. Reviewer can still edit the
-        // input or remove alias chips, then click ✅ 確定 to commit.
         actions.appendChild(el('button', {
           type: 'button',
           class: 'confirm-btn accept-suggestion-btn',
           title: '提案を入力欄に反映 — 確定するには ✅ を押す',
           onclick: () => {
             nameInput.value = suggestion.name;
-            // Queue suggested aliases as pending adds (dedup against
-            // existing author aliases + already-queued pending adds)
             const existing = a.aliases || [];
             const alreadyPending = pendingAliases[a.id] || [];
             const adds = (suggestion.aliases || []).filter(
@@ -641,12 +700,12 @@
         },
       }, '⏭ skip'));
       form.appendChild(actions);
-
       card.appendChild(form);
     }
 
     return card;
   }
+
 
   // ---- Circle-card rendering ----
   // Wraps one or more author panels under a circle header + circle-level
@@ -730,22 +789,19 @@
     cSocSection.appendChild(cSocFormWrap);
     card.appendChild(cSocSection);
 
-    // Existing members — one author panel per
+    // Members — unified renderAuthorPanel for both existing authors AND
+    // pending new-member drafts. authorNum increments across the merged list
+    // so labels read "Author 1 (default) / Author 2 (新規) / ..." naturally.
     const membersWrap = el('div', { class: 'circle-card-members' });
     members.forEach((a, i) => {
-      const panel = renderCard(a);
-      panel.classList.add('member-' + (i + 1));
-      // Add a tiny "Author N" label
-      const label = el('div', { class: 'author-panel-label' }, `👤 Author ${i + 1}` + (i === 0 ? ' (default)' : ''));
-      panel.insertBefore(label, panel.firstChild);
-      membersWrap.appendChild(panel);
+      membersWrap.appendChild(renderAuthorPanel({
+        author: a, authorNum: i + 1, isDefault: i === 0,
+      }));
     });
-
-    // Pending new members for this circle — render as editable panels so
-    // the reviewer can continue refining name / source / aliases / socials
-    // after the initial add.
     pendingNewMembers.filter(m => m.circle_id === circle.id).forEach((m, i) => {
-      membersWrap.appendChild(renderPendingNewMemberPanel(m, members.length + i + 1));
+      membersWrap.appendChild(renderAuthorPanel({
+        newMember: m, authorNum: members.length + i + 1, isDefault: false,
+      }));
     });
 
     card.appendChild(membersWrap);
@@ -816,129 +872,6 @@
     return 'generic';
   }
 
-  // ---- Editable panel for a pending new member ----
-  // Mirrors the existing author-panel shape but mutates the pendingNewMembers
-  // entry directly (no separate localStorage keys per draft).
-  function renderPendingNewMemberPanel(m, authorNum) {
-    const panel = el('div', { class: 'author-panel ghost-new editable' });
-    panel.appendChild(el('div', { class: 'author-panel-label' }, `👤 Author ${authorNum} (新規)`));
-
-    // Name + source row
-    const row1 = el('div', { class: 'card-form-row' });
-    const nameInput = el('input', { type: 'text', value: m.name, placeholder: '名前' });
-    nameInput.addEventListener('input', () => {
-      m.name = nameInput.value;
-      savePendingNewMembers(pendingNewMembers);
-    });
-    const sourceSel = el('select');
-    for (const o of SOURCE_OPTIONS) {
-      const opt = el('option', { value: o.value }, o.label);
-      if (o.value === m.source) opt.selected = true;
-      sourceSel.appendChild(opt);
-    }
-    sourceSel.addEventListener('change', () => {
-      m.source = sourceSel.value;
-      savePendingNewMembers(pendingNewMembers);
-    });
-    row1.appendChild(nameInput);
-    row1.appendChild(sourceSel);
-    panel.appendChild(row1);
-
-    // Aliases
-    const aliasRow = el('div', { class: 'card-alias-row' });
-    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
-    (m.aliases || []).forEach((al, idx) => {
-      const chip = el('span', { class: 'alias-chip' });
-      chip.appendChild(el('span', { class: 'alias-text' }, al));
-      chip.appendChild(el('button', {
-        type: 'button', class: 'alias-remove', title: '削除',
-        onclick: () => {
-          m.aliases.splice(idx, 1);
-          savePendingNewMembers(pendingNewMembers);
-          render();
-        },
-      }, '×'));
-      aliasRow.appendChild(chip);
-    });
-    const aliasIn = el('input', { type: 'text', placeholder: '+ 別名', class: 'add-alias-input' });
-    const aliasBtn = el('button', {
-      type: 'button', class: 'add-alias-btn',
-      onclick: () => {
-        const v = (aliasIn.value || '').trim();
-        if (!v) return;
-        m.aliases = m.aliases || [];
-        if (m.aliases.includes(v)) { alert('重複'); return; }
-        m.aliases.push(v);
-        savePendingNewMembers(pendingNewMembers);
-        aliasIn.value = '';
-        render();
-      },
-    }, '+');
-    aliasIn.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') { e.preventDefault(); aliasBtn.click(); }
-    });
-    aliasRow.appendChild(aliasIn);
-    aliasRow.appendChild(aliasBtn);
-    panel.appendChild(aliasRow);
-
-    // Socials — chips with × + add form
-    const socRow = el('div', { class: 'card-probe-links' });
-    (m.socials || []).forEach((s, idx) => {
-      const wrap = el('span', { class: 'card-probe-link existing' });
-      wrap.appendChild(el('a', {
-        class: 'existing-link', href: s.url, target: '_blank', rel: 'noopener',
-      }, `${s.platform}: ${s.url.replace(/^https?:\/\//, '').slice(0, 32)}`));
-      wrap.appendChild(el('button', {
-        type: 'button', class: 'existing-remove', title: 'この link を削除',
-        onclick: () => {
-          m.socials.splice(idx, 1);
-          savePendingNewMembers(pendingNewMembers);
-          render();
-        },
-      }, '×'));
-      socRow.appendChild(wrap);
-    });
-    panel.appendChild(socRow);
-
-    const addSocRow = el('div', { class: 'card-add-social-row' });
-    const urlIn = el('input', { type: 'text', placeholder: '+ SNS URL' });
-    const urlAddBtn = el('button', {
-      type: 'button', class: 'add-alias-btn',
-      onclick: () => {
-        const u = (urlIn.value || '').trim();
-        if (!u) return;
-        const plat = detectPlatformFromUrl(u);
-        m.socials = m.socials || [];
-        // dedup vs existing in m.socials
-        if (m.socials.some(s => s.url === u)) { alert('重複'); return; }
-        m.socials.push({ platform: plat, url: u });
-        savePendingNewMembers(pendingNewMembers);
-        urlIn.value = '';
-        render();
-      },
-    }, '+ SNS');
-    urlIn.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') { e.preventDefault(); urlAddBtn.click(); }
-    });
-    addSocRow.appendChild(urlIn);
-    addSocRow.appendChild(urlAddBtn);
-    panel.appendChild(addSocRow);
-
-    // Remove-member button
-    const removeBtn = el('button', {
-      type: 'button', class: 'skip-btn',
-      style: 'align-self: flex-start; margin-top: 8px;',
-      onclick: () => {
-        if (!confirm('この新規メンバーを削除しますか？')) return;
-        pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
-        savePendingNewMembers(pendingNewMembers);
-        render();
-      },
-    }, '🗑 このメンバーを削除');
-    panel.appendChild(removeBtn);
-
-    return panel;
-  }
 
   // ---- Filter UI builders ----
   function buildEventFilter() {
