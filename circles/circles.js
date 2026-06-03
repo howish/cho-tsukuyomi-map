@@ -72,7 +72,7 @@
       const norm = (url || '').replace(/^https?:\/\//, '').replace(/^www\./, '').split('?')[0].split('#')[0].replace(/\/+$/, '').toLowerCase();
       if (!norm || seenChipUrls.has(norm)) return;
       seenChipUrls.add(norm);
-      const id = extractHandleFromUrl(url, platform) || handle;
+      const id = extractHandleFromUrl(url, platform);
       const label = (PLATFORM_ICON[platform] || '🔗') + ' ' + id;
       linkRow.appendChild(el('a', {
         class: 'circle-link-chip chip-' + platform,

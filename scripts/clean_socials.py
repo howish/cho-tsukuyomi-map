@@ -30,14 +30,15 @@ for a in d['authors']:
     # 1. Sanitize each social entry (normalize platform, filter non-profile)
     cleaned = []
     for s in (a.get('socials') or []):
-        result = _sanitize_social(s.get('platform', ''), s.get('url', ''), s.get('handle', ''))
+        result = _sanitize_social(s.get('platform', ''), s.get('url', ''), '')
         if result is None:
             stripped += 1
             continue
-        platform, url, handle = result
+        platform, url, _ = result
         if platform != s.get('platform') or url != s.get('url'):
             relabeled += 1
-        cleaned.append({'platform': platform, 'url': url, 'handle': handle})
+        # handle field dropped — extractHandleFromUrl is the single source.
+        cleaned.append({'platform': platform, 'url': url})
 
     # 2. Dedup against canonical URL (+ x_handle implicit X URL)
     seen = set()
