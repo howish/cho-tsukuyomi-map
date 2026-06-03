@@ -324,15 +324,6 @@
     const memberIds = c.members || [];
     const memberAuthors = memberIds.map(id => AUTHORS_BY_ID[id]).filter(Boolean);
     const primaryAuthor = memberAuthors[0] || {};
-    // Combine circle-level socials + primary author socials, dedup by URL
-    const seenUrls = new Set();
-    const socials = [];
-    for (const s of (primaryAuthor.socials || []).concat(c.socials || [])) {
-      const key = (s && s.url) ? s.url.replace(/^https?:\/\//, '').replace(/^www\./, '').toLowerCase() : '';
-      if (!key || seenUrls.has(key)) continue;
-      seenUrls.add(key);
-      socials.push(s);
-    }
     // 4-state name resolution: confirmed > inferred > circle_name > id.
     // primaryAuthor.name === confirmed; .name_inferred === guess (often
     // equals circle_name when the author is the brand).
@@ -342,10 +333,8 @@
     return Object.assign({
       circle_name: c.circle_name || '',
       author: displayAuthor,
-      x_handle: primaryAuthor.x_handle || '',
-      x_url: primaryAuthor.x_url || '',
-      socials,
-      members: memberAuthors,         // full author records for the modal
+      x_handle: primaryAuthor.x_handle || '',  // kept for card data-search blob
+      members: memberAuthors,                  // full author records — chips read from here
     }, b);
   }).sort((a, b) => a.booth_id.localeCompare(b.booth_id));
 
@@ -677,23 +666,17 @@
         title: T('modal_source_' + platform),
       }, label));
     }
-    if (b.x_handle) {
-      addSocialChip('x', '@' + b.x_handle, 'https://x.com/' + b.x_handle, 'handle-link');
-    }
-    if (Array.isArray(b.socials) && b.socials.length) {
-      b.socials.forEach(s => {
-        if (!s || !s.url) return;
-        addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
-      });
-    }
-    // Merge author-level socials (from circles.json enrichment) — booth data.js
-    // is the original source but enrichment lives on the author record. The
-    // dedup inside addSocialChip ensures the same URL doesn't render twice.
+    // All chips sourced from b.members[] (= circles.json author entities).
+    // booth data.js used to also store x_handle / socials per booth, but
+    // they're 0/0 across all current events — author entity is the SSOT.
     if (Array.isArray(b.members)) {
       for (const m of b.members) {
+        if (m.x_handle) {
+          addSocialChip('x', '@' + m.x_handle, 'https://x.com/' + m.x_handle, 'handle-link');
+        }
         for (const s of (m.socials || [])) {
           if (!s || !s.url) continue;
-          addSocialChip(s.platform || detectSourceType(s.url), s.handle, s.url);
+          addSocialChip(s.platform || detectSourceType(s.url), '', s.url);
         }
       }
     }
