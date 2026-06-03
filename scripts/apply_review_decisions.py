@@ -9,6 +9,9 @@ circles.json. Each decision is one of:
                  socials: [{platform, url}], aliases?: [...]}
   - add_circle_social: {circle_id, decision: "add_circle_social",
                         platform, url}   (合同 SNS — appends to circle.socials[])
+  - remove_member: {author_id, circle_id, decision: "remove_member"}
+                   (drops author_id from circle.members[]; the author record
+                   itself is preserved in case it's a member of other circles)
   - skip:       {author_id, decision: "skip"}  (no-op, just clears flag)
 
 On rename: also clears audit_flagged metadata (name_audit_reason,
@@ -50,7 +53,7 @@ def main():
     d = json.loads(p.read_text(encoding='utf-8'))
     by_id = {a['id']: a for a in d['authors']}
 
-    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'skip': 0, 'skipped': 0}
+    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'remove_member': 0, 'skip': 0, 'skipped': 0}
     notes = []
     circles_by_id = {c['id']: c for c in d['circles']}
 
@@ -176,6 +179,19 @@ def main():
             socials.append(entry)
             a['socials'] = socials
             counts['add_social'] += 1
+
+        elif kind == 'remove_member':
+            cid = dec.get('circle_id')
+            c = circles_by_id.get(cid)
+            if not c:
+                notes.append(f'  remove_member: circle {cid} not found, skipped')
+                counts['skipped'] += 1
+                continue
+            members = c.get('members') or []
+            if aid in members:
+                c['members'] = [x for x in members if x != aid]
+                counts['remove_member'] += 1
+            # Author record stays (might be a member of other circles)
 
         elif kind == 'skip':
             # Author still unknown — just clear the audit-flag (keep

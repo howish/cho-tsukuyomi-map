@@ -277,10 +277,22 @@
     const isDefault = opts.isDefault;
 
     const decision = !isNew ? (pending[a.id] || null) : null;
-    // Visual: existing と new で同じ panel スタイル — howish 要望 (見た目は
-    // Author 1 と一緒)。状態の違いは「(新規)」ラベル + 🗑 ボタンだけで判別。
-    const cls = isNew ? 'author-panel'
-      : (decision ? (decision.decision === 'skip' ? 'author-panel skip-decision' : 'author-panel has-decision') : 'author-panel');
+    // Unified state model (parallel for existing + new):
+    //   - draft:     pending exists but confirmed=false → yellow tint
+    //   - confirmed: pending && confirmed=true (rename or remove) → green
+    //   - skip:      decision==='skip' (always confirmed)        → gray
+    //   - untouched: neither pending nor entry → no tint
+    const isDraft = isNew ? (m && m.name && !m.confirmed)
+      : (decision && !decision.confirmed && decision.decision !== 'skip' && decision.decision !== 'remove_member');
+    const isSkip = !isNew && decision && decision.decision === 'skip';
+    const isRemove = !isNew && decision && decision.decision === 'remove_member';
+    const isConfirmed = isNew ? (m && m.confirmed)
+      : (decision && decision.confirmed && decision.decision === 'rename');
+    let cls = 'author-panel';
+    if (isSkip) cls += ' skip-decision';
+    else if (isRemove) cls += ' remove-decision';
+    else if (isConfirmed) cls += ' has-decision';
+    else if (isDraft) cls += ' is-draft';
     const card = el('div', { class: cls });
 
     // Author label — `(default)` for existing first, `(新規)` for new
@@ -570,79 +582,64 @@
     }
 
     // ---- Decision / action area ----
-    if (isNew) {
-      // New-member: live-bound name + source inputs + 🗑 delete button.
-      // No 確定 needed because the draft IS the pending decision.
-      const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
-      const nameInput = el('input', {
-        type: 'text', placeholder: '本人の display_name', value: m.name,
-      });
-      nameInput.addEventListener('input', () => {
-        m.name = nameInput.value;
-        savePendingNewMembers(pendingNewMembers);
-      });
-      const sourceSelect = el('select');
-      for (const o of SOURCE_OPTIONS) {
-        const opt = el('option', { value: o.value }, o.label);
-        if (o.value === (m.source || 'user')) opt.selected = true;
-        sourceSelect.appendChild(opt);
-      }
-      sourceSelect.addEventListener('change', () => {
-        m.source = sourceSelect.value;
-        savePendingNewMembers(pendingNewMembers);
-      });
-      const row1 = el('div', { class: 'card-form-row' });
-      row1.appendChild(nameInput);
-      row1.appendChild(sourceSelect);
-      form.appendChild(row1);
-
-      const actions = el('div', { class: 'card-form-actions' });
-      actions.appendChild(el('button', {
-        type: 'button',
-        class: 'skip-btn',
-        onclick: () => {
-          if (!confirm('この新規メンバーを削除しますか？')) return;
-          pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
-          savePendingNewMembers(pendingNewMembers);
-          render();
-        },
-      }, '🗑 削除'));
-      form.appendChild(actions);
-      card.appendChild(form);
-    } else if (decision) {
-      // Existing-author with already-set decision: show the badge + 取消.
+    // ---- Unified action area ----
+    // Both existing and new authors render the same way: editable name +
+    // source inputs (auto-save as draft) + 🗑 削除 button. ✅/⏭/取消 live
+    // at circle level only.
+    //
+    // For existing skip/remove states, show a small status pill instead
+    // of inputs (those decisions are immediate, no draft step).
+    if (isSkip || isRemove) {
       const dDiv = el('div', { class: 'card-form-decision' });
-      const text = el('span', { class: 'decision-text' });
-      if (decision.decision === 'rename') {
-        text.appendChild(document.createTextNode(`✅ → ${decision.name} (${decision.source})`));
-      } else {
-        text.appendChild(document.createTextNode('⏭ skip — 本名不明で永続'));
-      }
-      dDiv.appendChild(text);
-      dDiv.appendChild(el('button', {
-        class: 'remove-btn',
-        type: 'button',
-        onclick: () => { delete pending[a.id]; savePending(pending); render(); },
-      }, '取消'));
+      dDiv.appendChild(el('span', { class: 'decision-text' },
+        isSkip ? '⏭ skip — 本名不明で永続' : '🗑 remove_member — apply で circle から除外'));
       card.appendChild(dDiv);
     } else {
-      // Existing-author, no decision yet — show name + source inputs, but
-      // NO action buttons here. Bulk ✨/✅/⏭ buttons live at circle level
-      // (per howish — most circles are 1-author so circle-level is cleaner).
-      // The closure that knows about THIS panel's inputs is registered with
-      // opts.committer so the bulk button can read each panel's draft state.
       const form = el('form', { class: 'card-form', onsubmit: (e) => e.preventDefault() });
-      const suggestion = a.name_audit_suggestion || null;
-      const presetName = suggestion ? suggestion.name : (a.name_inferred || '');
+      const suggestion = !isNew ? (a.name_audit_suggestion || null) : null;
+
+      // Preset name: existing → pending.name > suggestion > inferred; new → m.name
+      let presetName;
+      if (isNew) {
+        presetName = m.name || '';
+      } else if (decision && decision.name != null) {
+        presetName = decision.name;
+      } else if (suggestion) {
+        presetName = suggestion.name;
+      } else {
+        presetName = a.name_inferred || '';
+      }
+
       const nameInput = el('input', {
-        type: 'text',
-        name: 'name',
-        placeholder: '本人の display_name',
-        value: presetName,
+        type: 'text', name: 'name', placeholder: '本人の display_name', value: presetName,
       });
+      // Auto-save: typing → draft state (confirmed=false). The bulk
+      // ✅ 確定 all promotes drafts to confirmed.
+      nameInput.addEventListener('input', () => {
+        if (isNew) {
+          m.name = nameInput.value;
+          m.confirmed = false;  // touching invalidates confirmation
+          savePendingNewMembers(pendingNewMembers);
+        } else {
+          const v = nameInput.value;
+          if (!v) {
+            // Empty input → drop pending decision entirely (back to untouched)
+            delete pending[a.id];
+          } else {
+            pending[a.id] = Object.assign({}, pending[a.id] || {},
+              { author_id: a.id, decision: 'rename', name: v,
+                source: sourceSelect.value, confirmed: false });
+          }
+          savePending(pending);
+        }
+      });
+
       const sourceSelect = el('select', { name: 'source' });
-      const plat = authorPrimaryPlatform(a);
-      const defaultSource = (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
+      const plat = !isNew ? authorPrimaryPlatform(a) : 'user';
+      const defaultSource = isNew
+        ? (m.source || 'user')
+        : (decision && decision.source) ? decision.source
+        : (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
         : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
         : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
         : plat === 'threads' ? 'threads_profile' : plat === 'bsky' ? 'bsky_profile'
@@ -659,19 +656,56 @@
         opt.selected = true;
         sourceSelect.appendChild(opt);
       }
+      sourceSelect.addEventListener('change', () => {
+        if (isNew) {
+          m.source = sourceSelect.value;
+          m.confirmed = false;
+          savePendingNewMembers(pendingNewMembers);
+        } else if (nameInput.value) {
+          pending[a.id] = Object.assign({}, pending[a.id] || {},
+            { author_id: a.id, decision: 'rename', name: nameInput.value,
+              source: sourceSelect.value, confirmed: false });
+          savePending(pending);
+        }
+      });
+
       const row1 = el('div', { class: 'card-form-row' });
       row1.appendChild(nameInput);
       row1.appendChild(sourceSelect);
       form.appendChild(row1);
+
+      // 🗑 削除 — per-author. Existing: creates pending remove_member
+      // (immediate, no draft). New: drops from pendingNewMembers.
+      const actions = el('div', { class: 'card-form-actions' });
+      actions.appendChild(el('button', {
+        type: 'button',
+        class: 'skip-btn',
+        onclick: () => {
+          if (isNew) {
+            if (!confirm('この新規メンバーを削除しますか？')) return;
+            pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+            savePendingNewMembers(pendingNewMembers);
+          } else {
+            if (!confirm(`Author「${a.name || a.name_inferred || a.id}」を circle から削除しますか？(apply 時に circle.members[] から外れる)`)) return;
+            pending[a.id] = { author_id: a.id, decision: 'remove_member',
+                              circle_id: opts.circle.id, confirmed: true };
+            savePending(pending);
+          }
+          render();
+        },
+      }, '🗑 削除'));
+      form.appendChild(actions);
       card.appendChild(form);
 
-      // Register this panel's commit / skip / suggestion handlers so the
-      // circle-level bulk action area can drive them. Skip if no committer
-      // (caller didn't provide one — render-without-bulk fallback).
+      // Register handlers so circle-level bulk bar can drive ✨/✅/⏭/↩
       if (opts.committer) {
         opts.committer.push({
-          authorId: a.id,
+          isNew,
+          authorId: !isNew ? a.id : null,
+          tempId: isNew ? m.tempId : null,
           hasSuggestion: !!suggestion,
+          isConfirmed: !!isConfirmed,
+          isDraft: !!isDraft,
           applySuggestion: () => {
             if (!suggestion) return;
             nameInput.value = suggestion.name;
@@ -684,20 +718,37 @@
               pendingAliases[a.id] = alreadyPending.concat(adds);
               savePendingAliases(pendingAliases);
             }
+            // Trigger auto-save of the name change
+            nameInput.dispatchEvent(new Event('input'));
           },
-          commit: () => {
-            const name = (nameInput.value || '').trim();
-            const source = sourceSelect.value;
-            if (source === 'user_unknown') {
-              pending[a.id] = { author_id: a.id, decision: 'skip' };
+          confirm: () => {
+            // Promote draft → confirmed. Reads input value at click time.
+            if (isNew) {
+              if (!m.name || !m.name.trim()) return false;
+              m.confirmed = true;
+              savePendingNewMembers(pendingNewMembers);
               return true;
             }
-            if (!name) return false;  // skip silently — bulk button moves on
-            pending[a.id] = { author_id: a.id, decision: 'rename', name, source };
+            const name = (nameInput.value || '').trim();
+            if (!name) return false;
+            pending[a.id] = { author_id: a.id, decision: 'rename', name,
+                              source: sourceSelect.value, confirmed: true };
+            savePending(pending);
             return true;
           },
           skip: () => {
-            pending[a.id] = { author_id: a.id, decision: 'skip' };
+            if (isNew) return;  // skip not meaningful for a draft new-member
+            pending[a.id] = { author_id: a.id, decision: 'skip', confirmed: true };
+            savePending(pending);
+          },
+          revert: () => {
+            if (isNew) {
+              m.confirmed = false;
+              savePendingNewMembers(pendingNewMembers);
+            } else {
+              delete pending[a.id];
+              savePending(pending);
+            }
           },
         });
       }
@@ -712,10 +763,15 @@
   // SNS section + "+ メンバー追加" affordance. This is the outer container
   // the main loop produces.
   function renderCircleCard(circle, members) {
-    // Visual highlight when every existing-member has a pending decision.
-    // (Pending new-members are independent — they're drafts the user is
-    // editing, so they don't gate the "circle done" state.)
-    const allConfirmed = members.length > 0 && members.every(a => pending[a.id]);
+    // Green tint when every author (existing + pending new) has a
+    // CONFIRMED state. Drafts (not yet confirmed) don't qualify.
+    const newMembersForCircle = pendingNewMembers.filter(m => m.circle_id === circle.id);
+    const existingAllOk = members.length > 0 && members.every(a => {
+      const p = pending[a.id];
+      return p && p.confirmed;  // rename/skip/remove all need confirmed
+    });
+    const newAllOk = newMembersForCircle.every(m => m.confirmed);
+    const allConfirmed = existingAllOk && newAllOk;
     const card = el('div', { class: 'circle-card' + (allConfirmed ? ' all-confirmed' : '') });
 
     // Circle header — name + booth/events + jump link
@@ -840,13 +896,14 @@
     const membersWrap = el('div', { class: 'circle-card-members' });
     members.forEach((a, i) => {
       membersWrap.appendChild(renderAuthorPanel({
-        author: a, authorNum: i + 1, isDefault: i === 0,
+        author: a, circle, authorNum: i + 1, isDefault: i === 0,
         committer: committers,
       }));
     });
     pendingNewMembers.filter(m => m.circle_id === circle.id).forEach((m, i) => {
       membersWrap.appendChild(renderAuthorPanel({
-        newMember: m, authorNum: members.length + i + 1, isDefault: false,
+        newMember: m, circle, authorNum: members.length + i + 1, isDefault: false,
+        committer: committers,
       }));
     });
 
@@ -907,17 +964,19 @@
     card.appendChild(addSect);
 
     // ---- Circle-level bulk action bar ----
-    // Render when there are undecided panels (committers) OR when there are
-    // already-decided members (so the reviewer can bulk-revert).
-    const decidedMembers = members.filter(a => pending[a.id]);
-    if (committers.length || decidedMembers.length) {
+    // 確定 / 取消 / skip / 提案反映 are all circle-level operations (per
+    // howish — author level has no decision verbs, just edit + 🗑).
+    if (committers.length) {
       const bar = el('div', { class: 'circle-action-bar' });
       const hasAnySuggestion = committers.some(c => c.hasSuggestion);
+      const hasAnyDraft = committers.some(c => c.isDraft);
+      const hasAnyConfirmed = committers.some(c => c.isConfirmed);
+
       if (hasAnySuggestion) {
         bar.appendChild(el('button', {
           type: 'button',
           class: 'confirm-btn accept-suggestion-btn',
-          title: '全 author の deep-clean 提案を入力欄に反映 (確定はまだ)',
+          title: '全 flagged author の deep-clean 提案を input に流す (draft)',
           onclick: () => {
             committers.forEach(c => { if (c.hasSuggestion) c.applySuggestion(); });
             render();
@@ -927,42 +986,35 @@
       bar.appendChild(el('button', {
         type: 'button',
         class: 'confirm-btn',
-        title: '全 author の name を確定',
+        title: '全 author の draft を確定 (outgoing decisions に含める)',
         onclick: () => {
           let okCount = 0;
-          committers.forEach(c => { if (c.commit()) okCount++; });
-          savePending(pending);
-          if (okCount === 0) {
-            alert('確定できる author がいません (name 空など)');
-          }
+          committers.forEach(c => { if (c.confirm()) okCount++; });
+          if (okCount === 0) alert('確定できる author がいません (name 空)');
           render();
         },
       }, '✅ 確定 all'));
-      if (committers.length) {
-        bar.appendChild(el('button', {
-          type: 'button',
-          class: 'skip-btn',
-          title: '全 author を skip (本名不明扱い)',
-          onclick: () => {
-            if (!confirm('このサークル全 author を skip にしますか？')) return;
-            committers.forEach(c => c.skip());
-            savePending(pending);
-            render();
-          },
-        }, '⏭ skip all'));
-      }
-      if (decidedMembers.length) {
+      bar.appendChild(el('button', {
+        type: 'button',
+        class: 'skip-btn',
+        title: '全 author を skip (本名不明扱い、existing のみ)',
+        onclick: () => {
+          if (!confirm('このサークル全 author を skip にしますか？')) return;
+          committers.forEach(c => c.skip());
+          render();
+        },
+      }, '⏭ skip all'));
+      if (hasAnyConfirmed || hasAnyDraft) {
         bar.appendChild(el('button', {
           type: 'button',
           class: 'revert-btn',
-          title: '確定済の全 author を取消',
+          title: '全 author の pending state を取消 (existing → 削除、new → draft 化)',
           onclick: () => {
-            if (!confirm(`このサークルの確定済 ${decidedMembers.length} author を取消しますか？`)) return;
-            decidedMembers.forEach(a => { delete pending[a.id]; });
-            savePending(pending);
+            if (!confirm('このサークルの pending state を全部取消しますか？')) return;
+            committers.forEach(c => c.revert());
             render();
           },
-        }, '↩ 確定 取消 all'));
+        }, '↩ 取消 all'));
       }
       card.appendChild(bar);
     }
@@ -1059,10 +1111,13 @@
       const d = pending[aid];
       const li = el('li');
       li.appendChild(el('strong', {}, aid));
+      const conf = d.confirmed ? '✅' : '✏️ draft';
       if (d.decision === 'rename') {
-        li.appendChild(el('span', {}, `📝 → ${d.name} (${d.source})`));
+        li.appendChild(el('span', {}, `${conf} 📝 → ${d.name} (${d.source})`));
+      } else if (d.decision === 'remove_member') {
+        li.appendChild(el('span', {}, `${conf} 🗑 remove_member`));
       } else {
-        li.appendChild(el('span', {}, '⏭ skip (本名不明)'));
+        li.appendChild(el('span', {}, `${conf} ⏭ skip (本名不明)`));
       }
       list.appendChild(li);
     }
@@ -1102,7 +1157,8 @@
       const li = el('li');
       li.appendChild(el('strong', {}, m.circle_id));
       const socials_summary = (m.socials || []).map(s => `${s.platform}:${s.url.replace(/^https?:\/\//, '')}`).join(', ');
-      li.appendChild(el('span', {}, `🆕 + member → ${m.name} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
+      const conf = m.confirmed ? '✅' : '✏️ draft';
+      li.appendChild(el('span', {}, `${conf} 🆕 + member → ${m.name || '(空)'} (${m.source})${socials_summary ? ' — ' + socials_summary : ''}`));
       list.appendChild(li);
     }
     for (const cid in pendingCircleSocials) {
@@ -1124,8 +1180,16 @@
   }
 
   // ---- Submission ----
+  // Only `confirmed === true` entries are emitted; drafts stay out.
   function pendingArray() {
-    const out = Object.values(pending).slice();
+    const out = [];
+    for (const aid in pending) {
+      const d = pending[aid];
+      if (!d.confirmed) continue;  // skip drafts
+      // Strip the `confirmed` flag from outgoing (apply script doesn't need it)
+      const { confirmed, ...rest } = d;
+      out.push(rest);
+    }
     for (const aid in pendingSocials) {
       for (const s of pendingSocials[aid]) {
         out.push({
@@ -1157,6 +1221,7 @@
       }
     }
     for (const m of pendingNewMembers) {
+      if (!m.confirmed) continue;  // skip drafts
       out.push({
         decision: 'add_member',
         circle_id: m.circle_id,

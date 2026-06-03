@@ -245,6 +245,19 @@
   background: #ededef;
 }
 
+/* Draft state — user has edited inputs but hasn't bulk-✅ confirmed yet.
+   Subtle yellow tint so howish can spot "this needs ✅ before submit". */
+.author-panel.is-draft {
+  border-color: #d8a040;
+  background: #fff9ec;
+}
+
+/* Remove-member pending — author will be dropped from circle on apply. */
+.author-panel.remove-decision {
+  border-color: #c85858;
+  background: #fbecec;
+}
+
 /* Head: circle/author name big, meta small */
 .card-head {
   display: flex;
