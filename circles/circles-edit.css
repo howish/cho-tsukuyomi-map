@@ -1213,3 +1213,19 @@ body.edit-mode .circle-row .circle-row-head .circle-alias-row {
 .member-section .accept-suggestion-btn:hover {
   background: #6438e0;
 }
+
+/* Sprint Bγ-polish F (2026-06-04): action row moved to bottom of section,
+ * ✅ confirm toggleable. Confirmed state shows distinct color so the
+ * "click again to un-confirm" affordance is visible. */
+.member-section .card-form-actions {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #d8c8e0;
+}
+.member-section .confirm-btn.is-confirmed {
+  background: #3d8a54;
+  box-shadow: 0 0 0 2px rgba(74, 157, 99, 0.25);
+}
+.member-section .confirm-btn.is-confirmed:hover {
+  background: #c85858;  /* preview of "un-confirm" intent */
+}

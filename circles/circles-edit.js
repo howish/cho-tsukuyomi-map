@@ -765,81 +765,79 @@
       nameRow.appendChild(sourceSelect);
       head.appendChild(nameRow);
 
-      // Action buttons row
-      const actions = el('div', { class: 'card-form-actions' });
-      // ✅ Confirm
-      const confirmBtn = el('button', {
-        type: 'button', class: 'confirm-btn',
-        onclick: () => {
+      // Action buttons row is built here but APPENDED TO THE SECTION at the
+      // very end (after aliases, socials, WS candidates) per howish
+      // 2026-06-04 — keeps the head focused on identity (name + source).
+      var actions = el('div', { class: 'card-form-actions' });
+      // ✅ Confirm — toggleable (click again to un-confirm back to draft).
+      var confirmBtn = el('button', {
+        type: 'button', class: 'confirm-btn' + (isConfirmed ? ' is-confirmed' : ''),
+        title: isConfirmed ? 'もう一度押して draft に戻す' : '名前と source を確定',
+      }, isConfirmed ? '✅ 確定済 (取消)' : '✅ 確定');
+      confirmBtn.addEventListener('click', () => {
+        if (isConfirmed) {
+          // Toggle back to draft — keep name/source intact, just unmark
+          pending[a.id] = Object.assign({}, pending[a.id], { confirmed: false });
+          savePending(pending);
+        } else {
           const name = (nameInput.value || '').trim();
           if (!name) { alert('名前を入力してください'); return; }
           pending[a.id] = { author_id: a.id, decision: 'rename', name,
                             source: sourceSelect.value, confirmed: true };
           savePending(pending);
-          render();
-        },
-      }, isConfirmed ? '✅ 確定済' : '✅ 確定');
+        }
+        render();
+      });
       actions.appendChild(confirmBtn);
-      // ✨ Suggestion bulk-accept (Sprint Bγ-polish C 2026-06-04) — only
-      // when an audit suggestion exists and the reviewer hasn't confirmed
-      // a decision yet. Fills name + adds suggested aliases as pending.
-      const suggestion = a.name_audit_suggestion;
+      // ✨ Suggestion bulk-accept (Sprint Bγ-polish C) — only when an audit
+      // suggestion exists and the reviewer hasn't confirmed yet.
+      var suggestion = a.name_audit_suggestion;
       if (suggestion && suggestion.name && !isConfirmed) {
-        const sugBtn = el('button', {
+        var sugBtn = el('button', {
           type: 'button', class: 'accept-suggestion-btn',
           title: suggestion.reason ? '理由: ' + suggestion.reason : '監査候補を採用',
-          onclick: () => {
-            nameInput.value = suggestion.name;
-            // Add suggested aliases as pending (skip dupes)
-            const existing = a.aliases || [];
-            const alreadyPending = pendingAliases[a.id] || [];
-            const adds = (suggestion.aliases || []).filter(
-              al => !existing.includes(al) && !alreadyPending.includes(al)
-            );
-            if (adds.length) {
-              pendingAliases[a.id] = alreadyPending.concat(adds);
-              savePendingAliases(pendingAliases);
-            }
-            // Trigger the input event so pending gets the new name+source
-            nameInput.dispatchEvent(new Event('input'));
-            render();
-          },
         }, '✨ 候補採用');
+        sugBtn.addEventListener('click', () => {
+          nameInput.value = suggestion.name;
+          const existing = a.aliases || [];
+          const alreadyPending = pendingAliases[a.id] || [];
+          const adds = (suggestion.aliases || []).filter(
+            al => !existing.includes(al) && !alreadyPending.includes(al)
+          );
+          if (adds.length) {
+            pendingAliases[a.id] = alreadyPending.concat(adds);
+            savePendingAliases(pendingAliases);
+          }
+          nameInput.dispatchEvent(new Event('input'));
+          render();
+        });
         actions.appendChild(sugBtn);
       }
-      // ⏭ Skip
-      actions.appendChild(el('button', {
-        type: 'button', class: 'skip-btn',
-        onclick: () => {
-          if (!confirm('本名不明として永続 skip しますか？')) return;
-          pending[a.id] = { author_id: a.id, decision: 'skip', confirmed: true };
-          savePending(pending);
-          render();
-        },
-      }, '⏭ skip'));
       // 🗑 remove_member
-      actions.appendChild(el('button', {
+      var removeBtn = el('button', {
         type: 'button', class: 'remove-btn',
-        onclick: () => {
-          if (!confirm(`Author「${a.name || a.name_inferred || a.id}」を circle から削除しますか？`)) return;
-          pending[a.id] = { author_id: a.id, decision: 'remove_member',
-                            circle_id: c.id, confirmed: true };
+      }, '🗑 削除');
+      removeBtn.addEventListener('click', () => {
+        if (!confirm(`Author「${a.name || a.name_inferred || a.id}」を circle から削除しますか？`)) return;
+        pending[a.id] = { author_id: a.id, decision: 'remove_member',
+                          circle_id: c.id, confirmed: true };
+        savePending(pending);
+        render();
+      });
+      actions.appendChild(removeBtn);
+      // ↩ revert (if any pending — fully clears the decision incl. draft state)
+      if (decision) {
+        var revertBtn = el('button', {
+          type: 'button', class: 'revert-btn',
+        }, '↩ 取消');
+        revertBtn.addEventListener('click', () => {
+          delete pending[a.id];
           savePending(pending);
           render();
-        },
-      }, '🗑 削除'));
-      // ↩ revert (if any pending)
-      if (decision) {
-        actions.appendChild(el('button', {
-          type: 'button', class: 'revert-btn',
-          onclick: () => {
-            delete pending[a.id];
-            savePending(pending);
-            render();
-          },
-        }, '↩ 取消'));
+        });
+        actions.appendChild(revertBtn);
       }
-      head.appendChild(actions);
+      // actions row is appended to sec AFTER socials/WS — see end of fn.
     }
 
     // Member alias row (saved + pending + add input)
@@ -937,6 +935,12 @@
 
     // WS (WebSearch) candidates — surface as "🌐 候補" block at end of section
     decorateMemberWSCandidates(sec, a);
+
+    // Action buttons row at the absolute bottom of the section (per howish
+    // 2026-06-04). `actions` was built at the head section above; we
+    // defer its placement to here so it sits below all the editing
+    // affordances (aliases, socials, WS candidates).
+    if (typeof actions !== 'undefined' && actions) sec.appendChild(actions);
   }
 
   // WS candidate decoration — moved from old renderAuthorPanel (Sprint Bγ
@@ -1153,26 +1157,33 @@
     nameRow.appendChild(sourceSelect);
     head.appendChild(nameRow);
 
+    // Action row built here, appended at section bottom after socials.
     const actions = el('div', { class: 'card-form-actions' });
-    actions.appendChild(el('button', {
-      type: 'button', class: 'confirm-btn',
-      onclick: () => {
+    const confirmBtn = el('button', {
+      type: 'button', class: 'confirm-btn' + (m.confirmed ? ' is-confirmed' : ''),
+      title: m.confirmed ? 'もう一度押して draft に戻す' : '新規メンバーを確定',
+    }, m.confirmed ? '✅ 確定済 (取消)' : '✅ 確定');
+    confirmBtn.addEventListener('click', () => {
+      if (m.confirmed) {
+        m.confirmed = false;
+      } else {
         if (!m.name || !m.name.trim()) { alert('名前を入力してください'); return; }
         m.confirmed = true;
-        savePendingNewMembers(pendingNewMembers);
-        render();
-      },
-    }, m.confirmed ? '✅ 確定済' : '✅ 確定'));
-    actions.appendChild(el('button', {
+      }
+      savePendingNewMembers(pendingNewMembers);
+      render();
+    });
+    actions.appendChild(confirmBtn);
+    const newRemoveBtn = el('button', {
       type: 'button', class: 'remove-btn',
-      onclick: () => {
-        if (!confirm('この新規メンバーを削除しますか？')) return;
-        pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
-        savePendingNewMembers(pendingNewMembers);
-        render();
-      },
-    }, '🗑 削除'));
-    head.appendChild(actions);
+    }, '🗑 削除');
+    newRemoveBtn.addEventListener('click', () => {
+      if (!confirm('この新規メンバーを削除しますか？')) return;
+      pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+      savePendingNewMembers(pendingNewMembers);
+      render();
+    });
+    actions.appendChild(newRemoveBtn);
     sec.appendChild(head);
 
     // Aliases (m.aliases — direct mutation)
@@ -1233,6 +1244,9 @@
     });
     sec.appendChild(chipRow);
     appendAddSocialForm(sec, chipRow, 'new-member', m);
+    // Action row (✅ 確定 / 🗑 削除) sits at the absolute bottom of the
+    // section per howish 2026-06-04.
+    sec.appendChild(actions);
   }
 
   // ---- Edit-mode hooks for circles.js applyFilter ----
