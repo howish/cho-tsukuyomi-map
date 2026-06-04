@@ -336,12 +336,20 @@
   // pending state so the cards reflect the new decision overlay.
   window.YACHI_RERENDER = function() { applyFilter(); };
 
-  function buildEventFilters(opts) {
-    const attachHandlers = !opts || opts.attachHandlers !== false;
-    // collect (slug, name) from all circle events, count occurrences
+  // Filter click handlers are wired ONCE here for both modes — circles.js
+  // owns the eventFilters / platformFilters state (Sprint Bγ-polish E
+  // 2026-06-04). After mutation, calls YACHI_ON_FILTER_CHANGE (set by edit
+  // mode to reset its pagination) then triggers applyFilter.
+  function onFilterChange() {
+    readPage = 0;
+    if (window.YACHI_ON_FILTER_CHANGE) window.YACHI_ON_FILTER_CHANGE();
+    applyFilter();
+  }
+
+  function buildEventFilters() {
     const counts = new Map();
     for (const c of allCircles) {
-      const seen = new Set();  // dedupe per circle (a circle has same event only once typically)
+      const seen = new Set();
       for (const e of (c.events || [])) {
         if (seen.has(e.slug)) continue;
         seen.add(e.slug);
@@ -355,25 +363,21 @@
     sorted.forEach(ev => {
       const btn = el('button', { class: 'filter-btn', 'data-event': ev.slug },
         `${ev.name} (${ev.count})`);
-      if (attachHandlers) {
-        btn.addEventListener('click', () => {
-          if (eventFilters.has(ev.slug)) {
-            eventFilters.delete(ev.slug);
-            btn.classList.remove('active');
-          } else {
-            eventFilters.add(ev.slug);
-            btn.classList.add('active');
-          }
-          readPage = 0;
-          applyFilter();
-        });
-      }
+      btn.addEventListener('click', () => {
+        if (eventFilters.has(ev.slug)) {
+          eventFilters.delete(ev.slug);
+          btn.classList.remove('active');
+        } else {
+          eventFilters.add(ev.slug);
+          btn.classList.add('active');
+        }
+        onFilterChange();
+      });
       row.appendChild(btn);
     });
   }
 
-  function buildPlatformFilters(opts) {
-    const attachHandlers = !opts || opts.attachHandlers !== false;
+  function buildPlatformFilters() {
     const counts = new Map();
     for (const c of allCircles) {
       const seen = new Set();
@@ -390,19 +394,16 @@
       const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p });
       btn.appendChild(platformIcon(p));
       btn.appendChild(document.createTextNode(` ${p} (${n})`));
-      if (attachHandlers) {
-        btn.addEventListener('click', () => {
-          if (platformFilters.has(p)) {
-            platformFilters.delete(p);
-            btn.classList.remove('active');
-          } else {
-            platformFilters.add(p);
-            btn.classList.add('active');
-          }
-          readPage = 0;
-          applyFilter();
-        });
-      }
+      btn.addEventListener('click', () => {
+        if (platformFilters.has(p)) {
+          platformFilters.delete(p);
+          btn.classList.remove('active');
+        } else {
+          platformFilters.add(p);
+          btn.classList.add('active');
+        }
+        onFilterChange();
+      });
       row.appendChild(btn);
     });
   }
@@ -452,12 +453,13 @@
     const editList = document.getElementById('review-list');
     if (editList) editList.hidden = true;  // not used in Bβ+; deleted in Bγ
 
-    // Build shared filter chips (data-driven). Edit-mode click handlers are
-    // attached by circles-edit.js after it loads. Hydration also feeds
-    // applyFilter() below.
+    // Build shared filter chips (data-driven). Click handlers are wired
+    // here (circles.js owns event/platform filter state for both modes,
+    // Sprint Bγ-polish E 2026-06-04). circles-edit.js only adds the
+    // status filter handler (edit-only chip).
     allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
-    buildEventFilters({ attachHandlers: false });
-    buildPlatformFilters({ attachHandlers: false });
+    buildEventFilters();
+    buildPlatformFilters();
 
     // Edit-mode handlers (search, filter clicks, render) are wired by
     // circles-edit.js after it loads. circles.js doesn't touch the search

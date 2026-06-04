@@ -237,11 +237,11 @@
     return Object.values(AUTHORS);
   }
 
+  // Sprint Bγ-polish E (2026-06-04): event/platform filter state lives in
+  // circles.js and drives both modes. Edit mode only owns status filter.
   let filterStatus = 'unresolved';  // 'unresolved' | 'all'
-  const filterEvents = new Set();   // selected event slugs (empty = all)
   let currentPage = 0;
   const PAGE_SIZE = 20;
-  const filterPlatforms = new Set(); // selected platforms (empty = all)
 
   function authorPrimaryPlatform(a) {
     const s = a.socials || [];
@@ -258,25 +258,12 @@
   }
 
   function authorMatchesFilters(a) {
-    // Status — "unresolved" includes both inferred-from-circle-name (the
-    // skill never confirmed) AND audit_flagged (deep-cleanup audit pushed
-    // an ambiguous name in here for human judgment).
+    // Sprint Bγ-polish E (2026-06-04): event + platform filtering now done
+    // at circle level by circles.js's passesFilters. This function only
+    // enforces the edit-only status filter.
     if (filterStatus === 'unresolved') {
       const unresolvedSrc = a.name_source === 'circle_name' || a.name_source === 'audit_flagged';
       if (!unresolvedSrc && !pending[a.id]) return false;
-    }
-    // Event
-    if (filterEvents.size > 0) {
-      const circles = AUTHOR_CIRCLES[a.id] || [];
-      const events = new Set();
-      for (const c of circles) for (const e of (c.events || [])) events.add(e.slug);
-      let hit = false;
-      for (const s of events) if (filterEvents.has(s)) { hit = true; break; }
-      if (!hit) return false;
-    }
-    // Platform
-    if (filterPlatforms.size > 0) {
-      if (!filterPlatforms.has(authorPrimaryPlatform(a))) return false;
     }
     return true;
   }
@@ -294,48 +281,9 @@
 
 
 
-  // ---- Filter UI handler attachment (Sprint Bα 2026-06-04) ----
-  // The filter chip rows are now BUILT by circles.js from circle-level data
-  // (shared with read mode). circles-edit.js only attaches edit-mode click
-  // handlers to the existing chips. Selector targets the unified DOM IDs
-  // (#filter-row-events, #filter-row-platforms) from circles/index.html.
-  function attachEventFilterHandlers() {
-    const row = document.getElementById('filter-row-events');
-    if (!row) return;
-    row.querySelectorAll('.filter-btn[data-event]').forEach(btn => {
-      const slug = btn.dataset.event;
-      btn.addEventListener('click', () => {
-        if (filterEvents.has(slug)) {
-          filterEvents.delete(slug);
-          btn.classList.remove('active');
-        } else {
-          filterEvents.add(slug);
-          btn.classList.add('active');
-        }
-        currentPage = 0;
-        render();
-      });
-    });
-  }
-
-  function attachPlatformFilterHandlers() {
-    const row = document.getElementById('filter-row-platforms');
-    if (!row) return;
-    row.querySelectorAll('.filter-btn[data-platform]').forEach(btn => {
-      const p = btn.dataset.platform;
-      btn.addEventListener('click', () => {
-        if (filterPlatforms.has(p)) {
-          filterPlatforms.delete(p);
-          btn.classList.remove('active');
-        } else {
-          filterPlatforms.add(p);
-          btn.classList.add('active');
-        }
-        currentPage = 0;
-        render();
-      });
-    });
-  }
+  // Sprint Bγ-polish E (2026-06-04): event/platform filter handlers are
+  // now wired by circles.js once (state shared between modes). circles-edit.js
+  // hooks YACHI_ON_FILTER_CHANGE to reset its pagination on filter changes.
 
   // ---- Pending panel ----
   function renderPending() {
@@ -1362,10 +1310,10 @@
   // render path uses our pagination/decorator/stats.
   setupHooks();
 
-  // Filter chips are built by circles.js (shared between read + edit). We
-  // just attach edit-mode handlers to the existing chips.
-  attachEventFilterHandlers();
-  attachPlatformFilterHandlers();
+  // Reset pagination whenever any shared filter changes (circles.js calls
+  // this hook on event/platform/base/search changes; read mode resets its
+  // own readPage internally).
+  window.YACHI_ON_FILTER_CHANGE = function() { currentPage = 0; };
 
   // Status filter (edit-only chip row #filter-row-status)
   document.querySelectorAll('#filter-row-status [data-status]').forEach(btn => {
@@ -1415,29 +1363,6 @@
     savePendingAliasRemovals(pendingAliasRemovals);
     render();
   });
-
-  // Initial URL params (?event=slug&platform=plurk)
-  const params = new URLSearchParams(location.search);
-  if (params.get('event')) {
-    const slugs = params.get('event').split(',');
-    for (const s of slugs) {
-      filterEvents.add(s);
-      const btn = document.querySelector(`#filter-event .filter-btn`);
-      // mark all matching
-      document.querySelectorAll('#filter-event .filter-btn').forEach(b => {
-        if (b.textContent.includes(s)) b.classList.add('active');
-      });
-    }
-  }
-  if (params.get('platform')) {
-    const plats = params.get('platform').split(',');
-    for (const p of plats) {
-      filterPlatforms.add(p);
-      document.querySelectorAll('#filter-platform .filter-btn').forEach(b => {
-        if (b.textContent.startsWith(p + ' ')) b.classList.add('active');
-      });
-    }
-  }
 
   render();
 })();
