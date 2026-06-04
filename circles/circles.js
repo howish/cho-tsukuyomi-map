@@ -96,10 +96,13 @@
   // - 1 member with own socials empty (regardless of name match) → flat:
   //   the 🎪 合同 label only carries signal when contrasted with a 👤 section
   //   that has its own socials; without that, inline the chips directly
-  //   (2026-06-04 refinement per howish feedback)
   // - else (multi-member OR 1 member with distinct identity + own socials)
   //   → 2-tier
+  // Sprint Bβ (2026-06-04): edit mode NEVER flat — reviewer needs every
+  // editable surface (circle aliases, circle socials, each member's rename
+  // input + aliases + socials) accessible per card.
   function shouldRenderFlat(c) {
+    if (isEditMode) return false;
     const members = c.memberAuthors || [];
     if (members.length !== 1) return false;
     const primary = members[0] || {};
@@ -117,6 +120,7 @@
       class: 'circle-row' + (multi ? ' multi-event' : '') +
               (!hasSocials ? ' no-handle' : '') +
               (flat ? '' : ' two-tier'),
+      'data-circle-id': c.id,
     });
 
     // Title row — circle name + aliases (+ author chip in flat mode if name differs)
@@ -155,13 +159,14 @@
         row.appendChild(renderSocialChipRow(cSocials, seenKeys));
       }
 
-      // Each member as its own section. Skip silent members (no socials)
-      // — empty 👤 sections add visual weight without informational value.
-      // shouldRenderFlat already absorbs the 1-silent-member case; this
-      // keeps multi-member layouts clean when some members are silent.
+      // Each member as its own section. In read mode skip silent members
+      // (no socials) — empty 👤 sections add visual weight without info
+      // value. In edit mode ALWAYS render the section so the decorator
+      // has a slot to inject rename input / alias / add-social affordances
+      // for every author. data-member-id lets the decorator find sections.
       (c.memberAuthors || []).forEach(m => {
-        if (!(m.socials || []).length) return;
-        const sec = el('div', { class: 'circle-section member-section' });
+        if (!isEditMode && !(m.socials || []).length) return;
+        const sec = el('div', { class: 'circle-section member-section', 'data-member-id': m.id });
         const memberHead = el('div', { class: 'member-head' });
         const displayName = m.name || m.name_inferred || '(無名作家)';
         memberHead.appendChild(el('span', { class: 'section-label member-name' },
@@ -217,12 +222,22 @@
   }
 
   function applyFilter() {
+    // Sprint Bβ minimal (2026-06-04): edit mode owns the list rendering
+    // via circles-edit.js's render(). circles.js's applyFilter is read-mode
+    // only — early-exit if edit mode somehow triggers it (search input
+    // event etc.). Full visual card unification deferred to Bβ.next.
+    if (isEditMode) return;
     const q = (document.getElementById('circles-search').value || '').trim().toLowerCase();
     const list = document.getElementById('circles-list');
     list.innerHTML = '';
     let count = 0;
+    // Sprint Bβ (2026-06-04): hook lets circles-edit.js gate further (e.g.
+    // status filter on author.name_source). Returns true by default.
+    const extraFilter = window.YACHI_PASSES_FILTER || (() => true);
+    const decorate = window.YACHI_DECORATE_CARD;  // optional, only set by edit
     for (const c of allCircles) {
       if (!passesFilters(c)) continue;
+      if (!extraFilter(c)) continue;
       if (q) {
         const blob = [c.circle_name, c.author, c.id,
                       ...(c.aliases || []),
@@ -232,16 +247,30 @@
           .join(' ').toLowerCase();
         if (!blob.includes(q)) continue;
       }
-      list.appendChild(renderRow(c));
+      const row = renderRow(c);
+      list.appendChild(row);
+      if (decorate) decorate(row, c);
       count++;
     }
     if (count === 0) {
       list.appendChild(el('p', { class: 'empty' }, '該当するサークルなし'));
     }
-    const stats = document.getElementById('circles-stats');
-    const multiCount = allCircles.filter(c => c.events.length > 1).length;
-    stats.textContent = `${count.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
+    // Stats: in edit mode, circles-edit.js owns the text (it knows about
+    // pending decisions, unresolved counts, page numbers). In read mode,
+    // emit our own summary.
+    if (!isEditMode) {
+      const stats = document.getElementById('circles-stats');
+      const multiCount = allCircles.filter(c => c.events.length > 1).length;
+      stats.textContent = `${count.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
+    } else if (window.YACHI_UPDATE_STATS) {
+      window.YACHI_UPDATE_STATS(count);
+    }
   }
+
+  // Public re-render trigger for edit-mode decorator (decision added/removed).
+  // Defined as a window-level closure so circles-edit.js can call it without
+  // wrapping its own IIFE around circles.js.
+  window.YACHI_RERENDER = function() { applyFilter(); };
 
   function buildEventFilters(opts) {
     const attachHandlers = !opts || opts.attachHandlers !== false;
@@ -349,22 +378,30 @@
   }
 
   if (isEditMode) {
-    // Edit mode bootstrap:
-    // 1. Hide read-mode list, reveal review-list (Bβ will unify these)
-    // 2. Build event + platform filter chips from data (shared with edit)
-    //    but DON'T attach read-mode click handlers — circles-edit.js will
-    // 3. Lazy-load circles-edit.css + ws-candidates.js + circles-edit.js
-    //    (read-mode visitors don't pay the ~200KB payload)
-    const readList = document.getElementById('circles-list');
+    // Edit mode bootstrap (Sprint Bβ 2026-06-04):
+    // Both modes now share #circles-list — circles.js's renderRow draws
+    // the 2-tier card and circles-edit.js decorates it via the
+    // YACHI_DECORATE_CARD hook. #review-list is now redundant (deleted
+    // visually); it'll be removed from HTML in Bγ.
     const editList = document.getElementById('review-list');
-    if (readList) readList.hidden = true;
-    if (editList) editList.hidden = false;
+    if (editList) editList.hidden = true;  // not used in Bβ+; deleted in Bγ
 
     // Build shared filter chips (data-driven). Edit-mode click handlers are
-    // attached by circles-edit.js after it loads.
+    // attached by circles-edit.js after it loads. Hydration also feeds
+    // applyFilter() below.
     allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
     buildEventFilters({ attachHandlers: false });
     buildPlatformFilters({ attachHandlers: false });
+
+    // Edit-mode handlers (search, filter clicks, render) are wired by
+    // circles-edit.js after it loads. circles.js doesn't touch the search
+    // input or run applyFilter in edit mode — its applyFilter is a no-op
+    // when isEditMode is true (see check inside applyFilter).
+    //
+    // Sprint Bβ scope: edit mode renders into #circles-list (the SHARED
+    // list container) rather than its own #review-list. The cards still
+    // come from circles-edit.js's renderCircleCard for now; visual unify
+    // of cards (read-mode 2-tier shape) is a follow-up sub-sprint.
 
     // Cache-bust: reuse this script's own ?v= so edit assets stay in sync.
     const ownScript = document.currentScript ||

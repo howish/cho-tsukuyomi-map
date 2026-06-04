@@ -1460,9 +1460,11 @@
   // a circle under one container. Filters: a circle shows if ANY of its
   // members passes the author-level filters + search.
   function render() {
-    // Sprint Bα (2026-06-04): shared #circles-stats + #circles-search drive
-    // both modes; #review-list still holds edit-mode cards until Bβ.
-    const list = document.getElementById('review-list');
+    // Sprint Bβ (2026-06-04): edit mode renders into the SHARED #circles-list
+    // (read mode also targets it but circles.js's applyFilter early-exits
+    // in edit mode). #review-list is deleted from HTML in Bβ. Stats text
+    // is written to #circles-stats, same as Sprint Bα.
+    const list = document.getElementById('circles-list');
     const stats = document.getElementById('circles-stats');
     const searchEl = document.getElementById('circles-search');
     const q = (searchEl ? searchEl.value : '').trim();
