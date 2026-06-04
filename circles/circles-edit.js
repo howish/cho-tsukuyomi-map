@@ -589,6 +589,18 @@
       const sec = card.querySelector(`.circle-section.member-section[data-member-id="${cssEscape(a.id)}"]`);
       if (sec) decorateMember(sec, a, c);
     });
+
+    // Sprint Bγ-polish B (2026-06-04): render any pending new-member drafts
+    // for this circle as additional member sections, then offer the
+    // "+ 新メンバー追加" button.
+    newMembersForCircle.forEach(m => {
+      const sec = el('div', { class: 'circle-section member-section new-member-section' });
+      if (m.confirmed) sec.classList.add('has-decision');
+      else if (m.name) sec.classList.add('is-draft');
+      decorateNewMember(sec, m, c);
+      card.appendChild(sec);
+    });
+    appendAddMemberButton(card, c);
   }
 
   // Small helper — escape characters in a string so it's safe to embed in
@@ -1065,6 +1077,13 @@
           }
           arr.push({ platform, url: u, handle });
           savePendingCircleSocials(pendingCircleSocials);
+        } else if (kind === 'new-member') {
+          entity.socials = entity.socials || [];
+          if (entity.socials.some(s => s.url === u)) {
+            alert('重複している'); return;
+          }
+          entity.socials.push({ platform, url: u, handle });
+          savePendingNewMembers(pendingNewMembers);
         } else {
           const arr = pendingSocials[entity.id] = pendingSocials[entity.id] || [];
           if (arr.some(s => s.url === u) || (entity.socials || []).some(s => s.url === u)) {
@@ -1088,6 +1107,139 @@
     addBlock.appendChild(addToggle);
     addBlock.appendChild(addForm);
     container.appendChild(addBlock);
+  }
+
+  // Sprint Bγ-polish B (2026-06-04): + 新メンバー追加 button + new-member
+  // section decorator. Used when a circle's roster needs a member that
+  // doesn't yet exist as an Author record (e.g. collective member becomes
+  // visible mid-cycle).
+  function appendAddMemberButton(card, c) {
+    const btn = el('button', {
+      type: 'button', class: 'add-member-btn',
+      onclick: () => {
+        const tempId = 'new_' + Math.random().toString(36).slice(2, 10);
+        pendingNewMembers.push({
+          tempId, circle_id: c.id, name: '', source: 'user',
+          aliases: [], socials: [], confirmed: false,
+        });
+        savePendingNewMembers(pendingNewMembers);
+        render();
+      },
+    }, '+ 新メンバー追加');
+    card.appendChild(btn);
+  }
+
+  function decorateNewMember(sec, m, c) {
+    const head = el('div', { class: 'member-head' });
+    head.appendChild(el('span', { class: 'section-label member-name' }, '👤 (新規)'));
+
+    const nameInput = el('input', {
+      type: 'text', placeholder: '本人の display_name', value: m.name || '',
+      class: 'card-name-input',
+    });
+    const sourceSelect = el('select', { class: 'card-source-select' });
+    for (const o of SOURCE_OPTIONS) {
+      const opt = el('option', { value: o.value }, o.label);
+      if (o.value === (m.source || 'user')) opt.selected = true;
+      sourceSelect.appendChild(opt);
+    }
+    nameInput.addEventListener('input', () => {
+      m.name = nameInput.value;
+      m.confirmed = false;
+      savePendingNewMembers(pendingNewMembers);
+      renderPending();
+    });
+    sourceSelect.addEventListener('change', () => {
+      m.source = sourceSelect.value;
+      m.confirmed = false;
+      savePendingNewMembers(pendingNewMembers);
+      renderPending();
+    });
+    const nameRow = el('div', { class: 'card-form-row card-name-row' });
+    nameRow.appendChild(nameInput);
+    nameRow.appendChild(sourceSelect);
+    head.appendChild(nameRow);
+
+    const actions = el('div', { class: 'card-form-actions' });
+    actions.appendChild(el('button', {
+      type: 'button', class: 'confirm-btn',
+      onclick: () => {
+        if (!m.name || !m.name.trim()) { alert('名前を入力してください'); return; }
+        m.confirmed = true;
+        savePendingNewMembers(pendingNewMembers);
+        render();
+      },
+    }, m.confirmed ? '✅ 確定済' : '✅ 確定'));
+    actions.appendChild(el('button', {
+      type: 'button', class: 'remove-btn',
+      onclick: () => {
+        if (!confirm('この新規メンバーを削除しますか？')) return;
+        pendingNewMembers = pendingNewMembers.filter(x => x.tempId !== m.tempId);
+        savePendingNewMembers(pendingNewMembers);
+        render();
+      },
+    }, '🗑 削除'));
+    head.appendChild(actions);
+    sec.appendChild(head);
+
+    // Aliases (m.aliases — direct mutation)
+    const aliasRow = el('div', { class: 'card-alias-row' });
+    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
+    (m.aliases || []).forEach((al, idx) => {
+      const chip = el('span', { class: 'alias-chip' });
+      chip.appendChild(el('span', { class: 'alias-text' }, al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove',
+        onclick: () => {
+          m.aliases.splice(idx, 1);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '×'));
+      aliasRow.appendChild(chip);
+    });
+    const aliasInput = el('input', { type: 'text', placeholder: '+ 別名', class: 'add-alias-input' });
+    const aliasBtn = el('button', {
+      type: 'button', class: 'add-alias-btn',
+      onclick: () => {
+        const v = (aliasInput.value || '').trim();
+        if (!v) return;
+        m.aliases = m.aliases || [];
+        if (m.aliases.includes(v)) { alert('重複'); return; }
+        m.aliases.push(v);
+        savePendingNewMembers(pendingNewMembers);
+        aliasInput.value = '';
+        render();
+      },
+    }, '+');
+    aliasInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); aliasBtn.click(); }
+    });
+    aliasRow.appendChild(aliasInput);
+    aliasRow.appendChild(aliasBtn);
+    sec.appendChild(aliasRow);
+
+    // Socials chip row + add form
+    const chipRow = el('div', { class: 'circle-links' });
+    (m.socials || []).forEach((s, idx) => {
+      const chip = el('a', {
+        class: 'circle-link-chip chip-' + s.platform,
+        href: s.url, target: '_blank', rel: 'noopener',
+      });
+      chip.appendChild(document.createTextNode(s.platform + (s.handle ? ' ' + s.handle : '')));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'existing-remove',
+        onclick: (e) => {
+          e.preventDefault();
+          m.socials.splice(idx, 1);
+          savePendingNewMembers(pendingNewMembers);
+          render();
+        },
+      }, '×'));
+      chipRow.appendChild(chip);
+    });
+    sec.appendChild(chipRow);
+    appendAddSocialForm(sec, chipRow, 'new-member', m);
   }
 
   // ---- Edit-mode hooks for circles.js applyFilter ----

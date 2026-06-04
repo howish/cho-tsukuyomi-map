@@ -1270,3 +1270,29 @@ body.edit-mode .circle-row .circle-row-head .circle-alias-row {
   flex: 1 0 100%;
   margin-top: 4px;
 }
+
+/* Sprint Bγ-polish B (2026-06-04): + 新メンバー追加 button + new-member section */
+.add-member-btn {
+  align-self: flex-start;
+  margin-top: 8px;
+  background: transparent;
+  border: 1px dashed #b8a8c8;
+  color: #6c4a9d;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.add-member-btn:hover {
+  background: #ede4f5;
+  border-style: solid;
+}
+
+.member-section.new-member-section {
+  border-left-color: #b890d8 !important;
+  background: #f7eefb;
+}
+.member-section.new-member-section .member-name {
+  color: #7a3aa6;
+}
