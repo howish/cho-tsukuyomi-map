@@ -1647,7 +1647,16 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_5de969487300"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/superdoujinwar/"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/superdoujinwars/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -1999,7 +2008,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_ddfbb48e1871"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/moonlight432hz"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -2015,7 +2029,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_18e355829ccc"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "x",
+        "url": "https://twitter.com/FutureImagesTW"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -2720,7 +2739,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_77d246c20bc0"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/6995"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -3373,7 +3397,16 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_00e946001035"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/marud.majodin/"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@marud.majodin"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -3709,7 +3742,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_85447c5b4ad5"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/apriori.circle/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -3933,7 +3971,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_29eddf08f181"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/7384"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -4374,7 +4417,16 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_d5bc5acb88c2"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/kakusugarpic/"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/kakusugarhandmade/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -7214,7 +7266,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_237c67fb10d2"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/815"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -7663,7 +7720,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_7839dffee91f"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/6432"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -7967,7 +8029,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_9dd386048d1c"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/2719"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -8287,7 +8354,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_b2e2c03f464d"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/8694"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -8319,7 +8391,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_e111ac3430ef"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/taiwanlilyproject/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -8751,7 +8828,12 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_218750e10789"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/groups/info/6465"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -10318,14 +10400,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "threads",
         "url": "https://www.threads.com/@majo_ding"
-      },
-      {
-        "platform": "threads",
-        "url": "https://www.threads.com/@marud.majodin"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/marud.majodin/"
       }
     ]
   },
@@ -10934,10 +11008,6 @@ window.AUTHORS_BY_ID = {
         "url": "https://twitter.com/RinHuei"
       },
       {
-        "platform": "x",
-        "url": "https://twitter.com/FutureImagesTW"
-      },
-      {
         "platform": "youtube",
         "url": "https://www.youtube.com/@FutureImagesTW"
       },
@@ -11315,10 +11385,6 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.plurk.com/dreamxsoul"
       },
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/6465"
-      },
-      {
         "platform": "fb",
         "url": "https://www.facebook.com/dreamxsoul/"
       },
@@ -11408,10 +11474,6 @@ window.AUTHORS_BY_ID = {
     "name_source": "plurk_profile",
     "aliases": [],
     "socials": [
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/815"
-      },
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/Yamiku"
@@ -11611,10 +11673,6 @@ window.AUTHORS_BY_ID = {
     "name_source": "doujin_tw_profile",
     "aliases": [],
     "socials": [
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/7384"
-      },
       {
         "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/Sheree"
@@ -13369,16 +13427,7 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "超級同人大戰 SDW",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/superdoujinwar/"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/superdoujinwars/"
-      }
-    ]
+    "socials": []
   },
   "a_5dfed0fe62b5": {
     "id": "a_5dfed0fe62b5",
@@ -14114,10 +14163,6 @@ window.AUTHORS_BY_ID = {
     "socials": [
       {
         "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/6995"
-      },
-      {
-        "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/sunnylee1884"
       },
       {
@@ -14165,10 +14210,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "aggregator",
         "url": "https://portaly.cc/senyu"
-      },
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/6432"
       },
       {
         "platform": "youtube",
@@ -14596,10 +14637,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "url": "https://twitter.com/apriori_circle"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/apriori.circle/"
       },
       {
         "platform": "fb",
@@ -15309,10 +15346,6 @@ window.AUTHORS_BY_ID = {
     "name_source": "doujin_tw_profile",
     "aliases": [],
     "socials": [
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/2719"
-      },
       {
         "platform": "doujin_tw",
         "url": "https://www.doujin.com.tw/authors/info/kaukau"
@@ -16087,10 +16120,6 @@ window.AUTHORS_BY_ID = {
     "name_source": "doujin_tw_profile",
     "aliases": [],
     "socials": [
-      {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/groups/info/8694"
-      },
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/kiami"
@@ -17128,14 +17157,6 @@ window.AUTHORS_BY_ID = {
       {
         "platform": "x",
         "url": "https://x.com/kakusugarpic"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/kakusugarpic/"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/kakusugarhandmade/"
       }
     ]
   },
@@ -17351,10 +17372,6 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.instagram.com/noonenowns"
       },
       {
-        "platform": "ig",
-        "url": "https://www.instagram.com/moonlight432hz"
-      },
-      {
         "platform": "pixiv",
         "url": "https://www.pixiv.net/users/107119229"
       },
@@ -17551,16 +17568,8 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.threads.com/@taiwanlilyproject"
       },
       {
-        "platform": "ig",
-        "url": "https://www.instagram.com/taiwanlilyproject/"
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/The_Taiwan_Lily_Project"
-      },
-      {
-        "platform": "ig",
-        "url": "https://instagram.com/thetaiwanlilyproject"
       },
       {
         "platform": "fb",
