@@ -425,9 +425,7 @@ window.CIRCLES_BY_ID = {
   "c_046dec11051a": {
     "id": "c_046dec11051a",
     "circle_name": "木木梟保育協會",
-    "members": [
-      "a_5f20345438d1"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -436,6 +434,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "O-03"
       }
+    ],
+    "removed_members": [
+      "a_5f20345438d1"
     ]
   },
   "c_05031a9dbb68": {
@@ -905,9 +906,7 @@ window.CIRCLES_BY_ID = {
   "c_16913d78f589": {
     "id": "c_16913d78f589",
     "circle_name": "1111事務所海線辦事處",
-    "members": [
-      "a_4b89253c02f8"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -916,6 +915,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "W-14"
       }
+    ],
+    "removed_members": [
+      "a_4b89253c02f8"
     ]
   },
   "c_16a5c41f467b": {
@@ -7289,9 +7291,7 @@ window.CIRCLES_BY_ID = {
   "c_cf235327c230": {
     "id": "c_cf235327c230",
     "circle_name": "ボカロ虛擬歌姬交流會",
-    "members": [
-      "a_8ca68ed5ab31"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -7300,6 +7300,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "V-01/02"
       }
+    ],
+    "removed_members": [
+      "a_8ca68ed5ab31"
     ]
   },
   "c_cf67e5bf4bfd": {
