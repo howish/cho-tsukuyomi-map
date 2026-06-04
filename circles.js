@@ -3116,7 +3116,36 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_c220be64297f"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "aggregator",
+        "url": "https://portaly.cc/horohoro"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/horohorodesign"
+      },
+      {
+        "platform": "generic",
+        "url": "https://www.youtube.com/@horohoroDesign"
+      },
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/horo_horo"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.com/@horohorodesign"
+      },
+      {
+        "platform": "generic",
+        "url": "https://www.pinkoi.com/store/horohoro"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/horohorodesign333/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -3964,7 +3993,16 @@ window.CIRCLES_BY_ID = {
     "members": [
       "a_ba0028af0551"
     ],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/keepingbirds"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/cting4127/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -12931,9 +12969,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_53b157bca165": {
     "id": "a_53b157bca165",
-    "name": "",
+    "name": "TeaNe🌿",
     "name_inferred": "捏捏茶宇宙",
-    "name_source": "circle_name",
+    "name_source": "aggregator_profile",
     "aliases": [],
     "socials": [
       {
@@ -13486,9 +13524,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_63211ce94bc8": {
     "id": "a_63211ce94bc8",
-    "name": "",
+    "name": "所拉",
     "name_inferred": "儉約判定+",
-    "name_source": "circle_name",
+    "name_source": "plurk_profile",
     "aliases": [],
     "socials": [
       {
@@ -16154,22 +16192,14 @@ window.AUTHORS_BY_ID = {
   },
   "a_ba0028af0551": {
     "id": "a_ba0028af0551",
-    "name": "",
+    "name": "鷫囂",
     "name_inferred": "寢室裡養鳥",
-    "name_source": "circle_name",
+    "name_source": "fb_profile",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
-        "url": "https://www.facebook.com/keepingbirds"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/cting4127/"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/411817578989863"
+        "url": "https://www.facebook.com/ming.law.1272/"
       }
     ]
   },
@@ -16471,38 +16501,20 @@ window.AUTHORS_BY_ID = {
   },
   "a_c220be64297f": {
     "id": "a_c220be64297f",
-    "name": "",
+    "name": "宜法",
     "name_inferred": "木回木 horohoro",
-    "name_source": "circle_name",
-    "aliases": [],
+    "name_source": "aggregator_profile",
+    "aliases": [
+      "Eva"
+    ],
     "socials": [
-      {
-        "platform": "aggregator",
-        "url": "https://portaly.cc/horohoro"
-      },
       {
         "platform": "ig",
         "url": "https://www.instagram.com/evapenghaoyu/"
       },
       {
-        "platform": "ig",
-        "url": "https://www.instagram.com/horohorodesign"
-      },
-      {
-        "platform": "youtube",
-        "url": "https://www.youtube.com/@horohoroDesign"
-      },
-      {
         "platform": "plurk",
         "url": "https://www.plurk.com/Evapenghaoyu"
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/horo_horo"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/profile.php?id=100066849969690"
       }
     ]
   },
@@ -17354,11 +17366,20 @@ window.AUTHORS_BY_ID = {
   },
   "a_df40cab50128": {
     "id": "a_df40cab50128",
-    "name": "",
+    "name": "落英之都",
     "name_inferred": "落英之都",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/tsubaki2007/"
+      },
+      {
+        "platform": "aggregator",
+        "url": "https://linktr.ee/tsubaki2007"
+      }
+    ]
   },
   "a_df563c90ca65": {
     "id": "a_df563c90ca65",
