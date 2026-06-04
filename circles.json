@@ -1446,12 +1446,7 @@
       "id": "c_280daecf275b",
       "circle_name": "西瓜學園",
       "members": [],
-      "socials": [
-        {
-          "platform": "generic",
-          "url": "https://#"
-        }
-      ],
+      "socials": [],
       "events": [
         {
           "slug": "if7-2026-05",
@@ -2375,12 +2370,7 @@
       "id": "c_425ee6eab594",
       "circle_name": "逆光合作用",
       "members": [],
-      "socials": [
-        {
-          "platform": "generic",
-          "url": "https://#"
-        }
-      ],
+      "socials": [],
       "events": [
         {
           "slug": "if7-2026-05",
@@ -6034,12 +6024,7 @@
       "id": "c_aaae6886c6d5",
       "circle_name": "開天窗",
       "members": [],
-      "socials": [
-        {
-          "platform": "generic",
-          "url": "https://#"
-        }
-      ],
+      "socials": [],
       "events": [
         {
           "slug": "if7-2026-05",
@@ -6555,7 +6540,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW"
+          "url": "https://www.facebook.com/peekaboo.ouzi"
         }
       ],
       "events": [
@@ -7430,7 +7415,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/miku3939circle?locale=zh_TW"
+          "url": "https://www.facebook.com/miku3939circle"
         }
       ],
       "events": [
@@ -10666,7 +10651,7 @@
       "socials": [
         {
           "platform": "gamer",
-          "url": "https://home.gamer.com.tw/profile/index.php?&owner=summerkmth"
+          "url": "https://home.gamer.com.tw/profile/index.php?owner=summerkmth"
         }
       ]
     },
@@ -11023,7 +11008,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/1NQdcJHA2c/"
         }
       ]
     },
@@ -12079,7 +12064,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW"
+          "url": "https://www.facebook.com/BLUE1OR2"
         }
       ]
     },
@@ -12118,7 +12103,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/17vTJBokcc/"
         }
       ]
     },
@@ -12446,7 +12431,7 @@
       "socials": [
         {
           "platform": "ig",
-          "url": "https://www.instagram.com/good_omens.tw/://"
+          "url": "https://www.instagram.com/good_omens.tw"
         }
       ]
     },
@@ -12629,7 +12614,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/tu.ben.hua?"
+          "url": "https://www.facebook.com/tu.ben.hua"
         }
       ]
     },
@@ -14811,7 +14796,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/1DirLS4LyR/"
         }
       ]
     },
@@ -15165,7 +15150,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/1DmvzJRbeL/"
         }
       ]
     },
@@ -15302,7 +15287,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/mei.emerald.96?"
+          "url": "https://www.facebook.com/mei.emerald.96"
         }
       ]
     },
@@ -15920,7 +15905,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/1ARVcf2Hec/"
         }
       ]
     },
@@ -16286,7 +16271,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr"
+          "url": "https://www.facebook.com/share/1794YovwHr/"
         }
       ]
     },
@@ -17388,7 +17373,7 @@
       "socials": [
         {
           "platform": "fb",
-          "url": "https://www.facebook.com/daybreak2779?"
+          "url": "https://www.facebook.com/daybreak2779"
         }
       ]
     },
