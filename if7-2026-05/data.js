@@ -151,7 +151,7 @@ window.BOOTHS = [
     "booth_id": "J-14",
     "circle_id": "c_250cd807c0e8",
     "area": "綜合",
-    "body": "",
+    "body": "- 名偵探柯南\n- 排球少年\n- 咒術迴戰",
     "tags": {
       "haikyuu": true,
       "conan": true,
@@ -453,7 +453,7 @@ window.BOOTHS = [
     "booth_id": "J-27",
     "circle_id": "c_176c47554564",
     "area": "綜合",
-    "body": "",
+    "body": "- 我的英雄學院\n- Ave mujica\n- Mygo",
     "tags": {
       "mygo": true,
       "mha": true,
@@ -579,7 +579,7 @@ window.BOOTHS = [
     "booth_id": "J-39",
     "circle_id": "c_cd2a77f1835d",
     "area": "綜合",
-    "body": "",
+    "body": "- 鬼滅之刃\n- JOJO",
     "tags": {
       "demon-slayer": true,
       "jojo": true
@@ -602,7 +602,7 @@ window.BOOTHS = [
     "booth_id": "K-01",
     "circle_id": "c_cd32c2563f9d",
     "area": "綜合",
-    "body": "",
+    "body": "- 新石紀",
     "tags": {
       "shounen-jump": true
     },
@@ -732,7 +732,7 @@ window.BOOTHS = [
     "booth_id": "K-11",
     "circle_id": "c_1b093c3c5624",
     "area": "綜合",
-    "body": "",
+    "body": "- 新石紀\n- VOCALOID",
     "tags": {
       "vocaloid": true,
       "shounen-jump": true
@@ -1000,7 +1000,7 @@ window.BOOTHS = [
     "booth_id": "K-37",
     "circle_id": "c_42d2a9cc067c",
     "area": "綜合",
-    "body": "",
+    "body": "- 我的英雄學院\n- 排球少年\n- 獵人",
     "tags": {
       "haikyuu": true,
       "hxh": true,
@@ -1056,7 +1056,7 @@ window.BOOTHS = [
     "booth_id": "L-02",
     "circle_id": "c_b168db740743",
     "area": "綜合",
-    "body": "",
+    "body": "- JOJO的奇妙冒險",
     "tags": {
       "jojo": true
     },
@@ -1067,7 +1067,7 @@ window.BOOTHS = [
     "booth_id": "L-03",
     "circle_id": "c_c461218bfa09",
     "area": "綜合",
-    "body": "",
+    "body": "- JOJO的奇妙冒險",
     "tags": {
       "jojo": true
     },
@@ -1078,7 +1078,7 @@ window.BOOTHS = [
     "booth_id": "L-04",
     "circle_id": "c_1ce6d2332d98",
     "area": "綜合",
-    "body": "",
+    "body": "- JOJO的奇妙冒險",
     "tags": {
       "jojo": true
     },
@@ -1117,7 +1117,7 @@ window.BOOTHS = [
     "booth_id": "L-07",
     "circle_id": "c_31050e10d9df",
     "area": "綜合",
-    "body": "",
+    "body": "- JOJO的奇妙冒險\n- 進擊的巨人",
     "tags": {
       "aot": true,
       "jojo": true
@@ -1164,7 +1164,7 @@ window.BOOTHS = [
     "booth_id": "L-12",
     "circle_id": "c_9af52d1639d5",
     "area": "綜合",
-    "body": "",
+    "body": "- JOJO的奇妙冒險",
     "tags": {
       "jojo": true
     },
@@ -1253,7 +1253,7 @@ window.BOOTHS = [
     "booth_id": "L-21",
     "circle_id": "c_65d37d75cd2b",
     "area": "綜合",
-    "body": "",
+    "body": "- 葬送的芙莉蓮\n- 莉可麗絲\n- 庫洛魔法使",
     "tags": {
       "mahoutsukai": true,
       "lycoris": true,
@@ -1275,7 +1275,7 @@ window.BOOTHS = [
     "booth_id": "L-23/24",
     "circle_id": "c_e3017d0ec1e9",
     "area": "綜合",
-    "body": "",
+    "body": "- 進擊的巨人\n- 葬送的芙莉蓮\n- 迷宮飯",
     "tags": {
       "dungeon-meshi": true,
       "aot": true,
@@ -1308,7 +1308,7 @@ window.BOOTHS = [
     "booth_id": "L-27/28",
     "circle_id": "c_a9ce85fe2a08",
     "area": "綜合",
-    "body": "",
+    "body": "- 哈利波特\n- 新世界狂歡",
     "tags": {
       "harry-potter": true,
       "shingeki": true
@@ -1474,7 +1474,7 @@ window.BOOTHS = [
     "booth_id": "M-03/04",
     "circle_id": "c_3bc2ca19857d",
     "area": "綜合",
-    "body": "",
+    "body": "- 彩虹社EN\n- 戀與深空\n- 絕區零",
     "tags": {
       "nijisanji": true,
       "love-deepspace": true,
@@ -1729,7 +1729,7 @@ window.BOOTHS = [
     "booth_id": "M-24",
     "circle_id": "c_9df7e1eb0889",
     "area": "綜合",
-    "body": "",
+    "body": "- 進擊的巨人\n- 名偵探柯南",
     "tags": {
       "conan": true,
       "aot": true
@@ -1831,7 +1831,7 @@ window.BOOTHS = [
     "booth_id": "M-32",
     "circle_id": "c_7be3422503dc",
     "area": "綜合",
-    "body": "",
+    "body": "- 世界計畫\n- Vocaloid\n- 孤獨搖滾",
     "tags": {
       "vocaloid": true,
       "bocchi-rock": true
@@ -1843,7 +1843,7 @@ window.BOOTHS = [
     "booth_id": "M-33/34",
     "circle_id": "c_372618a363bc",
     "area": "綜合",
-    "body": "",
+    "body": "- 鏈鋸人\n- 葬送的芙莉蓮\n- 咒術迴戰",
     "tags": {
       "jjk": true,
       "chainsawman": true,
@@ -2006,7 +2006,7 @@ window.BOOTHS = [
     "booth_id": "N-07",
     "circle_id": "c_21136122792e",
     "area": "綜合",
-    "body": "",
+    "body": "- PLAVE\n- 我的英雄學院",
     "tags": {
       "plave": true,
       "mha": true
@@ -2018,7 +2018,7 @@ window.BOOTHS = [
     "booth_id": "N-08",
     "circle_id": "c_2ce9ad0de929",
     "area": "綜合",
-    "body": "",
+    "body": "- PLAVE",
     "tags": {
       "plave": true
     },
@@ -2237,7 +2237,7 @@ window.BOOTHS = [
     "booth_id": "N-25/26",
     "circle_id": "c_e13a27930a26",
     "area": "綜合",
-    "body": "",
+    "body": "- 新世界狂歡\n- 彩虹社EN",
     "tags": {
       "nijisanji": true,
       "shingeki": true
@@ -2339,7 +2339,7 @@ window.BOOTHS = [
     "booth_id": "N-36/36",
     "circle_id": "c_488cc73cecff",
     "area": "綜合",
-    "body": "",
+    "body": "- 戀與深空\n- 彩虹社\n- 咒術迴戰",
     "tags": {
       "nijisanji": true,
       "love-deepspace": true,
@@ -2402,7 +2402,7 @@ window.BOOTHS = [
     "booth_id": "O-03",
     "circle_id": "c_046dec11051a",
     "area": "綜合",
-    "body": "",
+    "body": "- 寶可夢",
     "tags": {
       "pokemon": true
     },
@@ -2413,7 +2413,7 @@ window.BOOTHS = [
     "booth_id": "O-04",
     "circle_id": "c_eab84ec5e400",
     "area": "綜合",
-    "body": "",
+    "body": "- 寶可夢",
     "tags": {
       "pokemon": true
     },
@@ -2509,7 +2509,7 @@ window.BOOTHS = [
     "booth_id": "O-12",
     "circle_id": "c_fb41dc1d32b6",
     "area": "綜合",
-    "body": "",
+    "body": "- Pokémon\n- 魔物獵人",
     "tags": {
       "monhun": true,
       "pokemon": true
@@ -2532,7 +2532,7 @@ window.BOOTHS = [
     "booth_id": "O-14",
     "circle_id": "c_0be3380f21e4",
     "area": "綜合",
-    "body": "",
+    "body": "- 鬼滅之刃",
     "tags": {
       "demon-slayer": true
     },
@@ -3174,7 +3174,7 @@ window.BOOTHS = [
     "booth_id": "P-34",
     "circle_id": "c_6e679b04e18f",
     "area": "綜合",
-    "body": "",
+    "body": "- 原創",
     "tags": {
       "original": true
     },
@@ -6071,7 +6071,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-06",
     "circle_id": "c_2785e3e6674f",
-    "body": "",
+    "body": "- Avemujica\n- MyGO!!!!!\n- 秘密的偶像公主",
     "tags": {},
     "warnings": [],
     "_meta_scrape": {
@@ -7842,7 +7842,7 @@ window.BOOTHS = [
     "booth_id": "U-18",
     "circle_id": "c_08864ef48751",
     "area": "綜合",
-    "body": "",
+    "body": "- 賽馬娘\n- BangDream!",
     "tags": {
       "uma-musume": true,
       "bandori": true
@@ -8439,7 +8439,7 @@ window.BOOTHS = [
     "booth_id": "U-38",
     "circle_id": "c_fd273b18dc95",
     "area": "VW",
-    "body": "",
+    "body": "- 世界計畫\n- Vocaloid",
     "tags": {
       "vocaloid": true
     },
@@ -8450,7 +8450,7 @@ window.BOOTHS = [
     "booth_id": "U-39",
     "circle_id": "c_7445b561a3d6",
     "area": "VW",
-    "body": "",
+    "body": "- Vocaloid",
     "tags": {
       "vocaloid": true
     },
@@ -8551,7 +8551,7 @@ window.BOOTHS = [
     "booth_id": "V-05",
     "circle_id": "c_5ff2cb107a72",
     "area": "VW",
-    "body": "",
+    "body": "- Vocaloid",
     "tags": {
       "vocaloid": true
     },
@@ -8618,7 +8618,7 @@ window.BOOTHS = [
     "booth_id": "V-12",
     "circle_id": "c_77f322cf4a29",
     "area": "VW",
-    "body": "",
+    "body": "- VOCALOID",
     "tags": {
       "vocaloid": true
     },
@@ -8643,7 +8643,7 @@ window.BOOTHS = [
     "booth_id": "V-14",
     "circle_id": "c_88ecaf3ba792",
     "area": "VW",
-    "body": "",
+    "body": "- VOCALOID",
     "tags": {
       "vocaloid": true
     },
@@ -8732,7 +8732,7 @@ window.BOOTHS = [
     "booth_id": "V-23",
     "circle_id": "c_a01e825829bc",
     "area": "VW",
-    "body": "",
+    "body": "- Vocaloid\n- 世界計畫",
     "tags": {
       "vocaloid": true
     },
@@ -8743,7 +8743,7 @@ window.BOOTHS = [
     "booth_id": "V-24",
     "circle_id": "c_cfaccf5a9870",
     "area": "VW",
-    "body": "",
+    "body": "- VOCALOID\n- KAITO",
     "tags": {
       "vocaloid": true
     },
@@ -8930,7 +8930,7 @@ window.BOOTHS = [
     "booth_id": "W-01",
     "circle_id": "c_f06f9effcde7",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9136,7 +9136,7 @@ window.BOOTHS = [
     "booth_id": "W-16",
     "circle_id": "c_757bff109c37",
     "area": "偶大",
-    "body": "",
+    "body": "- 偶像大師系列",
     "tags": {
       "idolmaster": true
     },
@@ -9202,7 +9202,7 @@ window.BOOTHS = [
     "booth_id": "W-22",
     "circle_id": "c_7e89359f82d8",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9225,7 +9225,7 @@ window.BOOTHS = [
     "booth_id": "W-24",
     "circle_id": "c_1d4f8e980bf2",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9251,7 +9251,7 @@ window.BOOTHS = [
     "booth_id": "W-27/28",
     "circle_id": "c_b393b8285d31",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9266,7 +9266,7 @@ window.BOOTHS = [
     "booth_id": "W-29",
     "circle_id": "c_2b588b3750de",
     "area": "偶大",
-    "body": "",
+    "body": "- 偶像大師系列",
     "tags": {
       "idolmaster": true
     },
@@ -9333,7 +9333,7 @@ window.BOOTHS = [
     "booth_id": "W-35",
     "circle_id": "c_cd09319153d0",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9344,7 +9344,7 @@ window.BOOTHS = [
     "booth_id": "W-36",
     "circle_id": "c_a44529cc8275",
     "area": "偶大",
-    "body": "",
+    "body": "- 学園アイドルマスター",
     "tags": {
       "gakumas": true
     },
@@ -9390,7 +9390,7 @@ window.BOOTHS = [
     "booth_id": "W-39/40",
     "circle_id": "c_b045468f22bb",
     "area": "偶大",
-    "body": "",
+    "body": "- 學園偶像大師",
     "tags": {
       "gakumas": true
     },
@@ -9423,7 +9423,7 @@ window.BOOTHS = [
     "booth_id": "X-03",
     "circle_id": "c_aaae6886c6d5",
     "area": "綜合",
-    "body": "",
+    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
     "tags": {
       "genshin": true,
       "hsr": true,
@@ -9529,7 +9529,7 @@ window.BOOTHS = [
     "booth_id": "X-11/12",
     "circle_id": "c_0c70438b474b",
     "area": "綜合",
-    "body": "",
+    "body": "- 原神\n- 絕區零\n- 崩壞：星穹鐵道",
     "tags": {
       "genshin": true,
       "hsr": true,
@@ -9559,7 +9559,7 @@ window.BOOTHS = [
     "booth_id": "X-14",
     "circle_id": "c_acf99d4253b1",
     "area": "綜合",
-    "body": "",
+    "body": "- 原神\n- 星穹鐵道\n- 絕區零",
     "tags": {
       "genshin": true,
       "hsr": true,
@@ -9588,7 +9588,7 @@ window.BOOTHS = [
     "booth_id": "X-17/18",
     "circle_id": "c_e69ba39aeadd",
     "area": "綜合",
-    "body": "",
+    "body": "- hololive\n- 原神\n- 崩壞星穹鐵道",
     "tags": {
       "genshin": true,
       "hsr": true,
@@ -9617,7 +9617,7 @@ window.BOOTHS = [
     "booth_id": "X-20",
     "circle_id": "c_cf67e5bf4bfd",
     "area": "綜合",
-    "body": "",
+    "body": "- 崩壞星穹鐵道\n- 寶可夢",
     "tags": {
       "pokemon": true,
       "hsr": true
@@ -9644,7 +9644,7 @@ window.BOOTHS = [
     "booth_id": "X-23/24",
     "circle_id": "c_d40fd32bec4b",
     "area": "綜合",
-    "body": "",
+    "body": "- 戀與深空\n- 星穹鐵道\n- 原神",
     "tags": {
       "genshin": true,
       "hsr": true,
@@ -9814,7 +9814,7 @@ window.BOOTHS = [
     "booth_id": "Y-15",
     "circle_id": "c_af8971d9368f",
     "area": "綜合",
-    "body": "",
+    "body": "- 崩壞星穹鐵道\n- 原神\n- 明日方舟",
     "tags": {
       "genshin": true,
       "arknights": true,
@@ -9918,7 +9918,7 @@ window.BOOTHS = [
     "booth_id": "Y-22",
     "circle_id": "c_f6596efeb728",
     "area": "綜合",
-    "body": "",
+    "body": "- 絕區零",
     "tags": {
       "zzz": true
     },
@@ -9997,7 +9997,7 @@ window.BOOTHS = [
     "booth_id": "Z-06",
     "circle_id": "c_fa0c1b159de2",
     "area": "綜合",
-    "body": "",
+    "body": "- 絕區零",
     "tags": {
       "zzz": true
     },
@@ -10209,7 +10209,7 @@ window.BOOTHS = [
     "booth_id": "Z-26",
     "circle_id": "c_45a55333b3ee",
     "area": "綜合",
-    "body": "",
+    "body": "- 戀與深空",
     "tags": {
       "love-deepspace": true
     },
