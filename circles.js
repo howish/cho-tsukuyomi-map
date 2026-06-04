@@ -2033,6 +2033,30 @@ window.CIRCLES_BY_ID = {
       {
         "platform": "x",
         "url": "https://twitter.com/FutureImagesTW"
+      },
+      {
+        "platform": "aggregator",
+        "url": "https://lit.link/en/FutureImagesTW"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@FutureImagesTW"
+      },
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/futureimages"
+      },
+      {
+        "platform": "threads",
+        "url": "https://www.threads.net/@futureimages.tw"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/futureimages.tw/"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/FutureImages.TW"
       }
     ],
     "events": [
@@ -3746,6 +3770,22 @@ window.CIRCLES_BY_ID = {
       {
         "platform": "fb",
         "url": "https://www.facebook.com/apriori.circle/"
+      },
+      {
+        "platform": "aggregator",
+        "url": "https://lit.link/zh-tw/menyakuranari"
+      },
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/apriori_circle/"
+      },
+      {
+        "platform": "x",
+        "url": "https://twitter.com/apriori_circle"
+      },
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/profile.php?id=61576247713314"
       }
     ],
     "events": [
@@ -4425,6 +4465,14 @@ window.CIRCLES_BY_ID = {
       {
         "platform": "ig",
         "url": "https://www.instagram.com/kakusugarhandmade/"
+      },
+      {
+        "platform": "doujin_tw",
+        "url": "https://www.doujin.com.tw/authors/info/kakusugar"
+      },
+      {
+        "platform": "x",
+        "url": "https://x.com/kakusugarpic"
       }
     ],
     "events": [
@@ -10994,46 +11042,22 @@ window.AUTHORS_BY_ID = {
   },
   "a_18e355829ccc": {
     "id": "a_18e355829ccc",
-    "name": "未來群像",
+    "name": "鈴虫",
     "name_inferred": "",
-    "name_source": "aggregator_profile",
+    "name_source": "x_profile",
     "aliases": [],
     "socials": [
       {
-        "platform": "aggregator",
-        "url": "https://lit.link/en/FutureImagesTW"
-      },
-      {
         "platform": "x",
         "url": "https://twitter.com/RinHuei"
-      },
-      {
-        "platform": "youtube",
-        "url": "https://www.youtube.com/@FutureImagesTW"
-      },
-      {
-        "platform": "plurk",
-        "url": "https://www.plurk.com/futureimages"
-      },
-      {
-        "platform": "threads",
-        "url": "https://www.threads.net/@futureimages.tw"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/futureimages.tw/"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/FutureImages.TW"
       }
     ]
   },
   "a_19057cce238f": {
     "id": "a_19057cce238f",
-    "name": "要樂奈不要已讀我",
+    "name": "米拉",
     "name_inferred": "",
-    "name_source": "aggregator_profile",
+    "name_source": "threads_profile",
     "aliases": [],
     "socials": [
       {
@@ -11091,9 +11115,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_195e1ebf478c": {
     "id": "a_195e1ebf478c",
-    "name": "多多",
+    "name": "葉子嘉",
     "name_inferred": "",
-    "name_source": "aggregator_review",
+    "name_source": "x_profile",
     "aliases": [],
     "socials": [
       {
@@ -12870,7 +12894,7 @@ window.AUTHORS_BY_ID = {
   },
   "a_4e8c2abfd22b": {
     "id": "a_4e8c2abfd22b",
-    "name": "墨貓空氣幻境",
+    "name": "BlackOmi",
     "name_inferred": "墨貓空氣幻境",
     "name_source": "x_profile",
     "aliases": [],
@@ -14625,24 +14649,7 @@ window.AUTHORS_BY_ID = {
     "aliases": [
       "ア・プリオリ"
     ],
-    "socials": [
-      {
-        "platform": "aggregator",
-        "url": "https://lit.link/zh-tw/menyakuranari"
-      },
-      {
-        "platform": "ig",
-        "url": "https://www.instagram.com/apriori_circle/"
-      },
-      {
-        "platform": "x",
-        "url": "https://twitter.com/apriori_circle"
-      },
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/profile.php?id=61576247713314"
-      }
-    ]
+    "socials": []
   },
   "a_85648e851be8": {
     "id": "a_85648e851be8",
@@ -17143,20 +17150,12 @@ window.AUTHORS_BY_ID = {
         "url": "http://www.pixiv.net/member.php?id=34176"
       },
       {
-        "platform": "doujin_tw",
-        "url": "https://www.doujin.com.tw/authors/info/kakusugar"
-      },
-      {
         "platform": "aggregator",
         "url": "https://lit.link/en/zOZNTqafh2bDz3BdZIxv2UgLEtm2"
       },
       {
         "platform": "plurk",
         "url": "https://www.plurk.com/satou"
-      },
-      {
-        "platform": "x",
-        "url": "https://x.com/kakusugarpic"
       }
     ]
   },
