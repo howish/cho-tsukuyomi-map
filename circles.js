@@ -426,7 +426,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_046dec11051a",
     "circle_name": "木木梟保育協會",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/p/%E6%9C%A8%E6%9C%A8%E6%A2%9F%E4%BF%9D%E8%82%B2%E5%8D%94%E6%9C%83-100086222487714/"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -907,7 +912,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_16913d78f589",
     "circle_name": "1111事務所海線辦事處",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/IMAS1111TWTC//"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -1436,7 +1446,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_280daecf275b",
     "circle_name": "西瓜學園",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://#"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -2360,7 +2375,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_425ee6eab594",
     "circle_name": "逆光合作用",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://#"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -6014,7 +6034,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_aaae6886c6d5",
     "circle_name": "開天窗",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://#"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -6527,7 +6552,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_b964b51423ff",
     "circle_name": "名字可以自己取欸",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/peekaboo.ouzi?locale=zh_TW"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -7397,7 +7427,12 @@ window.CIRCLES_BY_ID = {
     "id": "c_cf235327c230",
     "circle_name": "ボカロ虛擬歌姬交流會",
     "members": [],
-    "socials": [],
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/miku3939circle?locale=zh_TW"
+      }
+    ],
     "events": [
       {
         "slug": "if7-2026-05",
@@ -10407,7 +10442,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/u/kuriimuda"
+      }
+    ]
   },
   "a_00b40e85103e": {
     "id": "a_00b40e85103e",
@@ -10980,7 +11020,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1NQdcJHA2c/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_18475ef22237": {
     "id": "a_18475ef22237",
@@ -11649,7 +11694,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/xxpainterroom/?ref=bookmarks"
+      }
+    ]
   },
   "a_27ca1f8a8a37": {
     "id": "a_27ca1f8a8a37",
@@ -12026,7 +12076,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/BLUE1OR2?locale=zh_TW"
+      }
+    ]
   },
   "a_358de90ba6a5": {
     "id": "a_358de90ba6a5",
@@ -12060,7 +12115,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/17vTJBokcc/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_36b9a5a84393": {
     "id": "a_36b9a5a84393",
@@ -12268,7 +12328,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/u/sly450026"
+      }
+    ]
   },
   "a_3e43feb30584": {
     "id": "a_3e43feb30584",
@@ -12301,7 +12366,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://shop.codingcat-design.com.tw/manga-color/"
+      }
+    ]
   },
   "a_3ebdffd05bb9": {
     "id": "a_3ebdffd05bb9",
@@ -12373,7 +12443,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "Good Omens 好預兆",
     "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "ig",
+        "url": "https://www.instagram.com/good_omens.tw/://"
+      }
+    ]
   },
   "a_409d41e814d3": {
     "id": "a_409d41e814d3",
@@ -12381,7 +12456,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://sites.google.com/view/hjopg/%E9%A6%96%E9%A0%81"
+      }
+    ]
   },
   "a_40c07fc12a05": {
     "id": "a_40c07fc12a05",
@@ -12546,7 +12626,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/tu.ben.hua?"
+      }
+    ]
   },
   "a_458f1edc0d01": {
     "id": "a_458f1edc0d01",
@@ -12773,7 +12858,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/p/3i2nll7mkt"
+      }
+    ]
   },
   "a_4d1266cd5c08": {
     "id": "a_4d1266cd5c08",
@@ -13459,7 +13549,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/StarOcean0911/posts/pfbid023RjYGTpnaUYqFtR9nGTjigxhoLxQZRjoJXR9WvgnutkJBbYExH17Sf7DArWxHwDRl"
+      }
+    ]
   },
   "a_5ea2b8ac248f": {
     "id": "a_5ea2b8ac248f",
@@ -13514,7 +13609,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/u/yu_882"
+      }
+    ]
   },
   "a_60aea36eb9b8": {
     "id": "a_60aea36eb9b8",
@@ -13613,7 +13713,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://sites.google.com/view/bite1catfish/"
+      }
+    ]
   },
   "a_62024e1bc287": {
     "id": "a_62024e1bc287",
@@ -13869,7 +13974,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/p/3icizou1me"
+      }
+    ]
   },
   "a_6cb2c1bac97e": {
     "id": "a_6cb2c1bac97e",
@@ -13932,7 +14042,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://trapasocks.pse.is/8rdrx6"
+      }
+    ]
   },
   "a_6efbc0363fed": {
     "id": "a_6efbc0363fed",
@@ -14317,7 +14432,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://blog.erenehsu.com/HappyCandy/"
+      }
+    ]
   },
   "a_7c65971f27d2": {
     "id": "a_7c65971f27d2",
@@ -14372,7 +14492,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1EDMa5ftC9/"
+      }
+    ]
   },
   "a_7f4e5f5752f4": {
     "id": "a_7f4e5f5752f4",
@@ -14670,7 +14795,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1D2oqZA8kB/"
+      }
+    ]
   },
   "a_85be0343e65e": {
     "id": "a_85be0343e65e",
@@ -14678,7 +14808,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_bio_zh_call_high",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1DirLS4LyR/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_85f0b7d8c5e1": {
     "id": "a_85f0b7d8c5e1",
@@ -14686,7 +14821,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/hanyangcomic?_ps=1"
+      }
+    ]
   },
   "a_8698f970b85f": {
     "id": "a_8698f970b85f",
@@ -15022,7 +15162,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1DmvzJRbeL/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_940fd784703d": {
     "id": "a_940fd784703d",
@@ -15154,7 +15299,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/mei.emerald.96?"
+      }
+    ]
   },
   "a_98dc6605dbd5": {
     "id": "a_98dc6605dbd5",
@@ -15183,7 +15333,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://home.gamer.com.tw/profile/index_creation.php?owner=zero0813&folder=474827"
+      }
+    ]
   },
   "a_9a603343710c": {
     "id": "a_9a603343710c",
@@ -15762,7 +15917,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1ARVcf2Hec/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_aa8afb7bf664": {
     "id": "a_aa8afb7bf664",
@@ -15899,7 +16059,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/u/sayoku"
+      }
+    ]
   },
   "a_ae2e0def98d1": {
     "id": "a_ae2e0def98d1",
@@ -16118,7 +16283,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1794YovwHr/?mibextid=wwXIfr"
+      }
+    ]
   },
   "a_b2e2c03f464d": {
     "id": "a_b2e2c03f464d",
@@ -16151,7 +16321,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://sakuds.carrd.co"
+      }
+    ]
   },
   "a_b4020a99d5e2": {
     "id": "a_b4020a99d5e2",
@@ -16403,7 +16578,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://wxf0202.blog.fc2.com/"
+      }
+    ]
   },
   "a_c01247bb7cb4": {
     "id": "a_c01247bb7cb4",
@@ -16611,7 +16791,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1CEXsim9cC/"
+      }
+    ]
   },
   "a_c2fa5803c2ef": {
     "id": "a_c2fa5803c2ef",
@@ -16800,7 +16985,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://epilog.blog49.fc2.com/"
+      }
+    ]
   },
   "a_ca16eef463f7": {
     "id": "a_ca16eef463f7",
@@ -16847,7 +17037,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1CQbBy6mTJ/"
+      }
+    ]
   },
   "a_cb0226b2be63": {
     "id": "a_cb0226b2be63",
@@ -16876,7 +17071,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/p/3gvbo8hc97"
+      }
+    ]
   },
   "a_cd83e224c7e8": {
     "id": "a_cd83e224c7e8",
@@ -16897,7 +17097,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1BwHfvUqMu/"
+      }
+    ]
   },
   "a_cf038b22fec3": {
     "id": "a_cf038b22fec3",
@@ -16905,7 +17110,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/share/1ADgk3caBw/"
+      }
+    ]
   },
   "a_cf3a19e797fb": {
     "id": "a_cf3a19e797fb",
@@ -16989,7 +17199,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_review",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/people/%E8%91%9B%E7%BE%8E%E6%A0%97/61561221459878/"
+      }
+    ]
   },
   "a_d1d61b12d81e": {
     "id": "a_d1d61b12d81e",
@@ -17065,7 +17280,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/u/therealchien"
+      }
+    ]
   },
   "a_d473933bd7dc": {
     "id": "a_d473933bd7dc",
@@ -17165,7 +17385,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "fb_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/daybreak2779?"
+      }
+    ]
   },
   "a_d64f0e9971e3": {
     "id": "a_d64f0e9971e3",
@@ -17216,7 +17441,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://reurl.cc/R9pnmz"
+      }
+    ]
   },
   "a_d7f37536ffb6": {
     "id": "a_d7f37536ffb6",
@@ -17433,7 +17663,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://diewhale.tokiame.net"
+      }
+    ]
   },
   "a_df31c7ea631b": {
     "id": "a_df31c7ea631b",
@@ -17982,7 +18217,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/p/3gkmcbw7hv"
+      }
+    ]
   },
   "a_f5f6f1418798": {
     "id": "a_f5f6f1418798",
@@ -18085,7 +18325,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://myship.7-11.com.tw/general/detail/GM2106126257486"
+      }
+    ]
   },
   "a_f92acdfe8075": {
     "id": "a_f92acdfe8075",
@@ -18145,7 +18390,12 @@ window.AUTHORS_BY_ID = {
     "name_inferred": "",
     "name_source": "generic_review_title_strip",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "generic",
+        "url": "https://solo.to/travis_minuet"
+      }
+    ]
   },
   "a_fa8a455a236e": {
     "id": "a_fa8a455a236e",
