@@ -91,15 +91,21 @@
   }
 
   // Decide flat-vs-2tier per howish's rule (2026-06-04):
-  // - 1 member AND author display name == circle name (or empty/inferred fallback to circle name)
+  // - 1 member AND author display name == circle name (or empty/inferred fallback)
   //   → flat: merge circle+author socials into one row, omit member section
-  // - else → 2-tier: circle header section + member section(s)
+  // - 1 member with own socials empty (regardless of name match) → flat:
+  //   the 🎪 合同 label only carries signal when contrasted with a 👤 section
+  //   that has its own socials; without that, inline the chips directly
+  //   (2026-06-04 refinement per howish feedback)
+  // - else (multi-member OR 1 member with distinct identity + own socials)
+  //   → 2-tier
   function shouldRenderFlat(c) {
     const members = c.memberAuthors || [];
     if (members.length !== 1) return false;
     const primary = members[0] || {};
     const displayName = primary.name || primary.name_inferred || '';
-    return !displayName || displayName === c.circle_name;
+    if (!displayName || displayName === c.circle_name) return true;
+    return (primary.socials || []).length === 0;
   }
 
   function renderRow(c) {
@@ -149,8 +155,12 @@
         row.appendChild(sec);
       }
 
-      // Each member as its own section.
-      (c.memberAuthors || []).forEach((m, idx) => {
+      // Each member as its own section. Skip silent members (no socials)
+      // — empty 👤 sections add visual weight without informational value.
+      // shouldRenderFlat already absorbs the 1-silent-member case; this
+      // keeps multi-member layouts clean when some members are silent.
+      (c.memberAuthors || []).forEach(m => {
+        if (!(m.socials || []).length) return;
         const sec = el('div', { class: 'circle-section member-section' });
         const memberHead = el('div', { class: 'member-head' });
         const displayName = m.name || m.name_inferred || '(無名作家)';
@@ -161,12 +171,7 @@
             '(' + m.aliases.join(' / ') + ')'));
         }
         sec.appendChild(memberHead);
-        const mSocialRow = renderSocialChipRow(m.socials || [], seenKeys);
-        if (mSocialRow.children.length) {
-          sec.appendChild(mSocialRow);
-        } else if (!cSocials.length && idx === 0) {
-          sec.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
-        }
+        sec.appendChild(renderSocialChipRow(m.socials || [], seenKeys));
         row.appendChild(sec);
       });
     }
