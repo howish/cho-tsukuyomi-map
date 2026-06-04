@@ -541,12 +541,16 @@
     // Sprint Bγ-polish B (2026-06-04): render any pending new-member drafts
     // for this circle as additional member sections, then offer the
     // "+ 新メンバー追加" button.
+    // Per howish 2026-06-04: both new-member sections AND the add button
+    // sit ABOVE the .circle-events row (events stay last in the card).
+    const eventsRow = card.querySelector(':scope > .circle-events');
     newMembersForCircle.forEach(m => {
       const sec = el('div', { class: 'circle-section member-section new-member-section' });
       if (m.confirmed) sec.classList.add('has-decision');
       else if (m.name) sec.classList.add('is-draft');
       decorateNewMember(sec, m, c);
-      card.appendChild(sec);
+      if (eventsRow) card.insertBefore(sec, eventsRow);
+      else card.appendChild(sec);
     });
     appendAddMemberButton(card, c);
   }
@@ -1010,6 +1014,9 @@
   // Unified add-social form factory — used for both circle and member contexts.
   // `kind` is 'circle' (writes to pendingCircleSocials[c.id]) or 'member'
   // (writes to pendingSocials[a.id]); `entity` is the corresponding object.
+  // If `afterEl` is provided, the add-social block is inserted right after
+  // it (so the affordance sits adjacent to the chip row). Otherwise it's
+  // appended to the container.
   function appendAddSocialForm(container, afterEl, kind, entity) {
     const addBlock = el('div', { class: 'add-social-block' });
     const addToggle = el('button', {
@@ -1081,7 +1088,13 @@
     addForm.appendChild(row2);
     addBlock.appendChild(addToggle);
     addBlock.appendChild(addForm);
-    container.appendChild(addBlock);
+    if (afterEl && afterEl.parentNode === container && afterEl.nextSibling) {
+      container.insertBefore(addBlock, afterEl.nextSibling);
+    } else if (afterEl && afterEl.parentNode === container) {
+      container.appendChild(addBlock);  // afterEl is last child — append works
+    } else {
+      container.appendChild(addBlock);
+    }
   }
 
   // Sprint Bγ-polish B (2026-06-04): + 新メンバー追加 button + new-member
@@ -1091,17 +1104,22 @@
   function appendAddMemberButton(card, c) {
     const btn = el('button', {
       type: 'button', class: 'add-member-btn',
-      onclick: () => {
-        const tempId = 'new_' + Math.random().toString(36).slice(2, 10);
-        pendingNewMembers.push({
-          tempId, circle_id: c.id, name: '', source: 'user',
-          aliases: [], socials: [], confirmed: false,
-        });
-        savePendingNewMembers(pendingNewMembers);
-        render();
-      },
     }, '+ 新メンバー追加');
-    card.appendChild(btn);
+    btn.addEventListener('click', () => {
+      const tempId = 'new_' + Math.random().toString(36).slice(2, 10);
+      pendingNewMembers.push({
+        tempId, circle_id: c.id, name: '', source: 'user',
+        aliases: [], socials: [], confirmed: false,
+      });
+      savePendingNewMembers(pendingNewMembers);
+      render();
+    });
+    // Insert ABOVE the .circle-events row so the affordance sits with the
+    // members it'll add to (per howish 2026-06-04). If no events row exists
+    // (shouldn't happen but be safe), append to card.
+    const events = card.querySelector(':scope > .circle-events');
+    if (events) card.insertBefore(btn, events);
+    else card.appendChild(btn);
   }
 
   function decorateNewMember(sec, m, c) {
