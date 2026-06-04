@@ -792,7 +792,7 @@
       var confirmBtn = el('button', {
         type: 'button', class: 'confirm-btn' + (isConfirmed ? ' is-confirmed' : ''),
         title: isConfirmed ? 'もう一度押して draft に戻す' : '名前と source を確定',
-      }, isConfirmed ? '✅ 確定済 (戻す)' : '✅ 確定');
+      }, isConfirmed ? '✅ 確定済 (取消)' : '✅ 確定');
       confirmBtn.addEventListener('click', () => {
         if (isConfirmed) {
           // Toggle back to draft — keep name/source intact, just unmark
@@ -844,14 +844,34 @@
         render();
       });
       actions.appendChild(removeBtn);
-      // ↩ revert (if any pending — fully clears the decision incl. draft state)
-      if (decision) {
+      // ↩ 戻す — true "revert to pre-edit state" per howish 2026-06-04.
+      // Clears EVERY per-author pending mutation: rename / aliases / socials
+      // (both adds and removals). Distinct from ✅ toggle which only flips
+      // confirmed↔draft on a single rename. Shown only when something is
+      // actually pending for this author.
+      var hasAnyPending =
+        !!decision ||
+        ((pendingAliases[a.id] || []).length > 0) ||
+        ((pendingAliasRemovals[a.id] || []).length > 0) ||
+        ((pendingSocials[a.id] || []).length > 0) ||
+        ((pendingRemovals[a.id] || []).length > 0);
+      if (hasAnyPending) {
         var revertBtn = el('button', {
           type: 'button', class: 'revert-btn',
+          title: 'この author の編集内容を全て破棄して元に戻す',
         }, '↩ 戻す');
         revertBtn.addEventListener('click', () => {
+          if (!confirm('この author の保留中の編集 (rename / aliases / socials 全部) を破棄しますか？')) return;
           delete pending[a.id];
+          delete pendingAliases[a.id];
+          delete pendingAliasRemovals[a.id];
+          delete pendingSocials[a.id];
+          delete pendingRemovals[a.id];
           savePending(pending);
+          savePendingAliases(pendingAliases);
+          savePendingAliasRemovals(pendingAliasRemovals);
+          savePendingSocials(pendingSocials);
+          savePendingRemovals(pendingRemovals);
           render();
         });
         actions.appendChild(revertBtn);
@@ -1187,7 +1207,7 @@
     const confirmBtn = el('button', {
       type: 'button', class: 'confirm-btn' + (m.confirmed ? ' is-confirmed' : ''),
       title: m.confirmed ? 'もう一度押して draft に戻す' : '新規メンバーを確定',
-    }, m.confirmed ? '✅ 確定済 (戻す)' : '✅ 確定');
+    }, m.confirmed ? '✅ 確定済 (取消)' : '✅ 確定');
     confirmBtn.addEventListener('click', () => {
       if (m.confirmed) {
         m.confirmed = false;
