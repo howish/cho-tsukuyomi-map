@@ -1289,9 +1289,8 @@
 
     window.YACHI_DECORATE_CARD = decorateCard;
 
-    // YACHI_PAGINATE: edit mode shows 20/page; read mode has no pagination
-    // (this hook isn't set in read mode). Appends pagination nav as a child
-    // of `list`, returns the visible subset.
+    // YACHI_PAGINATE: edit mode shows 20/page. Per howish 2026-06-04,
+    // nav sits BOTH above and below the cards. Returns the visible subset.
     window.YACHI_PAGINATE = function(matches, list) {
       const totalCircles = matches.length;
       const totalPages = Math.max(1, Math.ceil(totalCircles / PAGE_SIZE));
@@ -1300,36 +1299,43 @@
       const startIdx = currentPage * PAGE_SIZE;
       const endIdx = Math.min(startIdx + PAGE_SIZE, totalCircles);
 
-      // Pagination nav scheduled to be appended AFTER cards by applyFilter,
-      // but applyFilter appends our return to list in order. Easier: build
-      // nav now, append after the function call (we can't here without DOM
-      // mutation). Use a microtask to defer.
-      Promise.resolve().then(() => {
-        if (totalPages > 1) {
-          const nav = el('div', { class: 'review-pagination' });
-          function pageBtn(label, targetPage, disabled, active) {
-            const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
-            return el('button', {
-              type: 'button', class: cls,
-              onclick: () => { if (!disabled && !active) { currentPage = targetPage; render(); window.scrollTo(0, 0); } },
-            }, label);
+      function buildNav(positionLabel) {
+        const nav = el('div', { class: 'review-pagination review-pagination-' + positionLabel });
+        function pageBtn(label, targetPage, disabled, active) {
+          const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
+          const btn = el('button', { type: 'button', class: cls }, label);
+          if (!disabled && !active) {
+            btn.addEventListener('click', () => {
+              currentPage = targetPage;
+              render();
+              window.scrollTo(0, 0);
+            });
           }
-          nav.appendChild(pageBtn('← prev', currentPage - 1, currentPage === 0, false));
-          const pageNums = [];
-          for (let p = 0; p < totalPages; p++) {
-            if (p === 0 || p === totalPages - 1 || (p >= currentPage - 2 && p <= currentPage + 2)) {
-              pageNums.push(p);
-            } else if (pageNums[pageNums.length - 1] !== '…') {
-              pageNums.push('…');
-            }
-          }
-          pageNums.forEach(p => {
-            if (p === '…') nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
-            else nav.appendChild(pageBtn(String(p + 1), p, false, p === currentPage));
-          });
-          nav.appendChild(pageBtn('next →', currentPage + 1, currentPage === totalPages - 1, false));
-          list.appendChild(nav);
+          return btn;
         }
+        nav.appendChild(pageBtn('← prev', currentPage - 1, currentPage === 0, false));
+        const pageNums = [];
+        for (let p = 0; p < totalPages; p++) {
+          if (p === 0 || p === totalPages - 1 || (p >= currentPage - 2 && p <= currentPage + 2)) {
+            pageNums.push(p);
+          } else if (pageNums[pageNums.length - 1] !== '…') {
+            pageNums.push('…');
+          }
+        }
+        pageNums.forEach(p => {
+          if (p === '…') nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
+          else nav.appendChild(pageBtn(String(p + 1), p, false, p === currentPage));
+        });
+        nav.appendChild(pageBtn('next →', currentPage + 1, currentPage === totalPages - 1, false));
+        return nav;
+      }
+
+      // Top nav prepended synchronously (cards haven't been appended yet
+      // at this point). Bottom nav via microtask after applyFilter
+      // appends the cards.
+      if (totalPages > 1) list.appendChild(buildNav('top'));
+      Promise.resolve().then(() => {
+        if (totalPages > 1) list.appendChild(buildNav('bottom'));
       });
       return matches.slice(startIdx, endIdx);
     };

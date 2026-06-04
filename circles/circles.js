@@ -256,8 +256,9 @@
     list.innerHTML = '';
     const extraFilter = window.YACHI_PASSES_FILTER || (() => true);
     const decorate = window.YACHI_DECORATE_CARD;
-    // Read-mode default pagination: 50/page, appends nav below cards.
-    // Edit mode overrides this hook with its own 20/page paginator.
+    // Read-mode default pagination: 50/page. Per howish 2026-06-04, nav
+    // sits BOTH above and below the cards. Edit mode overrides via
+    // window.YACHI_PAGINATE — circles-edit.js applies the same pattern.
     const paginate = window.YACHI_PAGINATE || function(arr, listEl) {
       const totalCircles = arr.length;
       const totalPages = Math.max(1, Math.ceil(totalCircles / READ_PAGE_SIZE));
@@ -265,14 +266,13 @@
       if (readPage < 0) readPage = 0;
       const startIdx = readPage * READ_PAGE_SIZE;
       const endIdx = Math.min(startIdx + READ_PAGE_SIZE, totalCircles);
-      // Append nav after cards via microtask (same pattern edit mode uses).
-      Promise.resolve().then(() => {
-        if (totalPages <= 1) return;
-        const nav = el('div', { class: 'review-pagination' });
+
+      // Build a fresh nav (handlers bound per call so prepend + append
+      // can each carry their own).
+      function buildNav(positionLabel) {
+        const nav = el('div', { class: 'review-pagination review-pagination-' + positionLabel });
         function pageBtn(label, target, disabled, active) {
           const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
-          // Use addEventListener — circles.js's el() helper doesn't bind
-          // function-typed onclick attributes as event handlers.
           const btn = el('button', { type: 'button', class: cls }, label);
           if (!disabled && !active) {
             btn.addEventListener('click', () => {
@@ -298,7 +298,14 @@
           else nav.appendChild(pageBtn(String(p + 1), p, false, p === readPage));
         });
         nav.appendChild(pageBtn('next →', readPage + 1, readPage === totalPages - 1, false));
-        listEl.appendChild(nav);
+        return nav;
+      }
+
+      // Insert TOP nav synchronously before the cards (list is already
+      // cleared at this point). BOTTOM nav via microtask after cards.
+      if (totalPages > 1) listEl.appendChild(buildNav('top'));
+      Promise.resolve().then(() => {
+        if (totalPages > 1) listEl.appendChild(buildNav('bottom'));
       });
       return arr.slice(startIdx, endIdx);
     };
