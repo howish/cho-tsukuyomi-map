@@ -1197,13 +1197,9 @@ body.edit-mode .circle-row .circle-row-head .circle-alias-row {
   border-style: solid;
 }
 
-.member-section.new-member-section {
-  border-left-color: #b890d8 !important;
-  background: #f7eefb;
-}
-.member-section.new-member-section .member-name {
-  color: #7a3aa6;
-}
+/* Bγ-polish (2026-06-04): new-member-section visual differentiator
+ * dropped per howish — new members render identically to existing,
+ * with state conveyed via shared .is-draft / .has-decision tints. */
 
 /* Sprint Bγ-polish C (2026-06-04): ✨ 候補採用 button — purple accent
  * so the reviewer can spot "the auto-cleanup proposed something" instantly. */

@@ -554,7 +554,11 @@
     // sit ABOVE the .circle-events row (events stay last in the card).
     const eventsRow = card.querySelector(':scope > .circle-events');
     newMembersForCircle.forEach(m => {
-      const sec = el('div', { class: 'circle-section member-section new-member-section' });
+      // Per howish 2026-06-04: new-member section visually identical to
+      // existing member sections — same class, same head shape. Draft/
+      // confirmed state tints come from is-draft / has-decision (shared
+      // with existing-member states).
+      const sec = el('div', { class: 'circle-section member-section' });
       if (m.confirmed) sec.classList.add('has-decision');
       else if (m.name) sec.classList.add('is-draft');
       decorateNewMember(sec, m, c);
@@ -1173,7 +1177,7 @@
 
   function decorateNewMember(sec, m, c) {
     const head = el('div', { class: 'member-head' });
-    head.appendChild(el('span', { class: 'section-label member-name' }, '👤 (新規)'));
+    head.appendChild(el('span', { class: 'section-label member-name' }, '👤'));
 
     const nameInput = el('input', {
       type: 'text', placeholder: '本人の display_name', value: m.name || '',
