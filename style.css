@@ -1379,6 +1379,12 @@ section {
   margin: 0 0 0.3rem 0;
   color: var(--accent);
 }
+#modal-body h3 .modal-circle-aliases {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: var(--text-muted, #7a6a8c);
+  margin-left: 0.3em;
+}
 
 #modal-body .modal-meta {
   display: flex;

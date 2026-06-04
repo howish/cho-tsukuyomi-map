@@ -79,6 +79,7 @@ def main():
                 circles[c['id']] = {
                     'id': c['id'],
                     'circle_name': c.get('circle_name') or '',
+                    'aliases': list(c.get('aliases') or []),                    # circle 別名 (多言語 / 改名 / 略称)
                     'members': list(c.get('members') or []),
                     'socials': list(c.get('socials') or []),
                     'events': [],
@@ -142,6 +143,7 @@ def main():
                 circles[cid] = {
                     'id': cid,
                     'circle_name': b.get('circle_name') or '',
+                    'aliases': [],
                     'members': [],
                     'socials': [],
                     'events': [],
@@ -242,6 +244,8 @@ def main():
         c.pop('_seen_urls', None)
         if not c.get('removed_members'):
             c.pop('removed_members', None)  # don't emit empty list
+        if not c.get('aliases'):
+            c.pop('aliases', None)
         c['events'].sort(key=lambda e: e.get('date') or '')
         circle_out.append(c)
 

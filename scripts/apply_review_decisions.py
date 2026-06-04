@@ -9,6 +9,9 @@ circles.json. Each decision is one of:
                  socials: [{platform, url}], aliases?: [...]}
   - add_circle_social: {circle_id, decision: "add_circle_social",
                         platform, url}   (合同 SNS — appends to circle.socials[])
+  - add_circle_alias: {circle_id, decision: "add_circle_alias", alias}
+                      (circle 別名 — 多言語併記 / 改名 / ニックネーム)
+  - remove_circle_alias: {circle_id, decision: "remove_circle_alias", alias}
   - remove_social: {author_id, decision: "remove_social", url}
                    (removes matching URL from author.socials[])
   - remove_member: {author_id, circle_id, decision: "remove_member"}
@@ -71,7 +74,7 @@ def main():
     d = json.loads(p.read_text(encoding='utf-8'))
     by_id = {a['id']: a for a in d['authors']}
 
-    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'remove_member': 0, 'remove_social': 0, 'skip': 0, 'skipped': 0}
+    counts = {'rename': 0, 'add_alias': 0, 'add_social': 0, 'add_member': 0, 'add_circle_social': 0, 'add_circle_alias': 0, 'remove_circle_alias': 0, 'remove_member': 0, 'remove_social': 0, 'skip': 0, 'skipped': 0}
     notes = []
     circles_by_id = {c['id']: c for c in d['circles']}
 
@@ -131,6 +134,35 @@ def main():
                 by_id[new_aid] = new_author
             c.setdefault('members', []).append(new_aid)
             counts['add_member'] += 1
+            continue
+
+        if kind == 'add_circle_alias':
+            cid = dec.get('circle_id')
+            c = circles_by_id.get(cid)
+            alias = (dec.get('alias') or '').strip()
+            if not c or not alias:
+                notes.append(f'  add_circle_alias to {cid}: missing circle or alias')
+                counts['skipped'] += 1
+                continue
+            aliases = list(c.get('aliases') or [])
+            if alias not in aliases:
+                aliases.append(alias)
+                c['aliases'] = aliases
+                counts['add_circle_alias'] += 1
+            continue
+
+        if kind == 'remove_circle_alias':
+            cid = dec.get('circle_id')
+            c = circles_by_id.get(cid)
+            alias = (dec.get('alias') or '').strip()
+            if not c or not alias:
+                notes.append(f'  remove_circle_alias from {cid}: missing circle or alias')
+                counts['skipped'] += 1
+                continue
+            aliases = list(c.get('aliases') or [])
+            if alias in aliases:
+                c['aliases'] = [x for x in aliases if x != alias]
+                counts['remove_circle_alias'] += 1
             continue
 
         if kind == 'add_circle_social':

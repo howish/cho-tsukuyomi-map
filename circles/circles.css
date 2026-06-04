@@ -108,6 +108,13 @@
   color: var(--text-muted);
 }
 
+.circle-aliases {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-left: 0.3rem;
+}
+
 .circle-links {
   display: flex;
   flex-wrap: wrap;

@@ -109,8 +109,24 @@
       return JSON.parse(localStorage.getItem(STORAGE_KEY + '-dismissed-ws') || '{}');
     } catch (e) { return {}; }
   }
+  function loadPendingCircleAliases() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-circle-aliases') || '{}');
+    } catch (e) { return {}; }
+  }
+  function loadPendingCircleAliasRemovals() {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY + '-circle-alias-removals') || '{}');
+    } catch (e) { return {}; }
+  }
   function saveDismissedWs(dw) {
     localStorage.setItem(STORAGE_KEY + '-dismissed-ws', JSON.stringify(dw));
+  }
+  function savePendingCircleAliases(pca) {
+    localStorage.setItem(STORAGE_KEY + '-circle-aliases', JSON.stringify(pca));
+  }
+  function savePendingCircleAliasRemovals(pcar) {
+    localStorage.setItem(STORAGE_KEY + '-circle-alias-removals', JSON.stringify(pcar));
   }
   let pending = loadPending();
   let pendingSocials = loadPendingSocials();
@@ -124,6 +140,10 @@
   // dismissedWsCandidates — {author_id: [url, ...]} URLs that user said
   // "not this person" on WebSearch candidates list (hides them from queue)
   let dismissedWsCandidates = loadDismissedWs();
+  // pendingCircleAliases — {circle_id: [alias, ...]} to add on apply
+  let pendingCircleAliases = loadPendingCircleAliases();
+  // pendingCircleAliasRemovals — {circle_id: [alias, ...]} to remove on apply
+  let pendingCircleAliasRemovals = loadPendingCircleAliasRemovals();
 
   function isAliasMarkedForRemoval(aid, alias) {
     return (pendingAliasRemovals[aid] || []).includes(alias);
@@ -852,6 +872,76 @@
       titleRow.appendChild(el('span', { class: 'circle-card-events' }, events.join(' · ')));
     }
     head.appendChild(titleRow);
+
+    // Circle aliases — saved + pending adds + pending removals, plus an
+    // add input. Mirrors the per-author alias section.
+    const savedCAliases = circle.aliases || [];
+    const pendingCAliasAdds = pendingCircleAliases[circle.id] || [];
+    const pendingCAliasRemoves = pendingCircleAliasRemovals[circle.id] || [];
+    if (savedCAliases.length || pendingCAliasAdds.length || true) {
+      const aliasRow = el('div', { class: 'circle-alias-row' });
+      aliasRow.appendChild(el('span', { class: 'circle-alias-label' }, '別名:'));
+      savedCAliases.forEach(al => {
+        const marked = pendingCAliasRemoves.includes(al);
+        const chip = el('span', { class: 'alias-chip' + (marked ? ' marked-remove' : '') });
+        chip.appendChild(el('span', { class: 'alias-text' }, al));
+        chip.appendChild(el('button', {
+          type: 'button', class: 'alias-remove',
+          title: marked ? '削除を取消' : 'この別名を削除',
+          onclick: () => {
+            const arr = pendingCircleAliasRemovals[circle.id] = pendingCircleAliasRemovals[circle.id] || [];
+            const i = arr.indexOf(al);
+            if (i >= 0) arr.splice(i, 1);
+            else arr.push(al);
+            if (arr.length === 0) delete pendingCircleAliasRemovals[circle.id];
+            savePendingCircleAliasRemovals(pendingCircleAliasRemovals);
+            render();
+          },
+        }, marked ? '↺' : '×'));
+        aliasRow.appendChild(chip);
+      });
+      pendingCAliasAdds.forEach((al, idx) => {
+        const chip = el('span', { class: 'alias-chip pending-add' });
+        chip.appendChild(el('span', { class: 'alias-text' }, '+ ' + al));
+        chip.appendChild(el('button', {
+          type: 'button', class: 'alias-remove',
+          title: 'pending 追加を取消',
+          onclick: () => {
+            pendingCircleAliases[circle.id].splice(idx, 1);
+            if (pendingCircleAliases[circle.id].length === 0) delete pendingCircleAliases[circle.id];
+            savePendingCircleAliases(pendingCircleAliases);
+            render();
+          },
+        }, '×'));
+        aliasRow.appendChild(chip);
+      });
+      // Add input
+      const cAliasInput = el('input', {
+        type: 'text', placeholder: '+ 別名追加 (例: 英名 / 旧名 / 略称)', class: 'add-alias-input',
+      });
+      const cAliasBtn = el('button', {
+        type: 'button', class: 'add-alias-btn',
+        onclick: () => {
+          const v = (cAliasInput.value || '').trim();
+          if (!v) return;
+          const arr = pendingCircleAliases[circle.id] = pendingCircleAliases[circle.id] || [];
+          if (v === circle.circle_name || (circle.aliases || []).includes(v) || arr.includes(v)) {
+            alert('重複している、もう登録済み');
+            return;
+          }
+          arr.push(v);
+          savePendingCircleAliases(pendingCircleAliases);
+          cAliasInput.value = '';
+          render();
+        },
+      }, '+');
+      cAliasInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') { e.preventDefault(); cAliasBtn.click(); }
+      });
+      aliasRow.appendChild(cAliasInput);
+      aliasRow.appendChild(cAliasBtn);
+      head.appendChild(aliasRow);
+    }
     card.appendChild(head);
 
     // Circle-level socials (合同 SNS) — reuses the same chip + form shape
@@ -1229,6 +1319,22 @@
         list.appendChild(li);
       }
     }
+    for (const cid in pendingCircleAliases) {
+      for (const al of pendingCircleAliases[cid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, cid));
+        li.appendChild(el('span', {}, `🏷️ + circle alias → ${al}`));
+        list.appendChild(li);
+      }
+    }
+    for (const cid in pendingCircleAliasRemovals) {
+      for (const al of pendingCircleAliasRemovals[cid]) {
+        const li = el('li');
+        li.appendChild(el('strong', {}, cid));
+        li.appendChild(el('span', {}, `🏷️ - circle alias → ${al}`));
+        list.appendChild(li);
+      }
+    }
     // Size hint
     const body = buildSubmissionBody();
     const hint = document.getElementById('pending-hint');
@@ -1299,6 +1405,16 @@
           platform: s.platform,
           url: s.url,
         });
+      }
+    }
+    for (const cid in pendingCircleAliases) {
+      for (const alias of pendingCircleAliases[cid]) {
+        out.push({ decision: 'add_circle_alias', circle_id: cid, alias });
+      }
+    }
+    for (const cid in pendingCircleAliasRemovals) {
+      for (const alias of pendingCircleAliasRemovals[cid]) {
+        out.push({ decision: 'remove_circle_alias', circle_id: cid, alias });
       }
     }
     return out;

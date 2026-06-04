@@ -156,6 +156,21 @@
   margin-bottom: 4px;
 }
 
+/* Circle aliases — same chip shape as author aliases, just inline in
+   the circle header. Lets reviewer add 多言語併記 / 旧名 / 略称 etc. */
+.circle-alias-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.circle-alias-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c4a9d;
+}
+
 .circle-card-members {
   display: flex; flex-direction: column; gap: 10px;
 }

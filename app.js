@@ -332,6 +332,7 @@
       || '';
     return Object.assign({
       circle_name: c.circle_name || '',
+      circle_aliases: c.aliases || [],          // 別名 (多言語 / 旧名 / 略称)
       circle_socials: c.socials || [],          // 合同 SNS (per-circle, not per-author)
       author: displayAuthor,
       members: memberAuthors,                  // full author records — chips read from here
@@ -585,7 +586,15 @@
     navBar.appendChild(nextBtn);
     body.appendChild(navBar);
 
-    body.appendChild(el('h3', null, `${b.booth_id} ${b.circle_name || ''}`));
+    {
+      const h3 = el('h3', null, `${b.booth_id} ${b.circle_name || ''}`);
+      // Surface circle aliases inline (多言語 / 旧名 / 略称) as small dim text
+      if (Array.isArray(b.circle_aliases) && b.circle_aliases.length) {
+        h3.appendChild(el('span', { class: 'modal-circle-aliases' },
+          ' (' + b.circle_aliases.join(' / ') + ')'));
+      }
+      body.appendChild(h3);
+    }
 
     const meta = el('div', { class: 'modal-meta' });
     if (b.followers != null) {

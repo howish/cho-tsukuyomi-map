@@ -64,6 +64,10 @@
     });
     const head = el('div', { class: 'circle-row-head' });
     head.appendChild(el('span', { class: 'circle-name' }, c.circle_name || '(無名)'));
+    if (c.aliases && c.aliases.length) {
+      head.appendChild(el('span', { class: 'circle-aliases' },
+        '(' + c.aliases.join(' / ') + ')'));
+    }
     if (c.author && c.author !== c.circle_name) head.appendChild(el('span', { class: 'circle-author' }, c.author));
     row.appendChild(head);
 
@@ -147,6 +151,7 @@
       if (!passesFilters(c)) continue;
       if (q) {
         const blob = [c.circle_name, c.author, c.id,
+                      ...(c.aliases || []),
                       ...(c.events || []).map(e => e.name),
                       ...(c.socials || []).map(s => s.handle),
                       ...(c.memberAuthors || []).flatMap(m => [m.name, ...(m.aliases || [])])]
