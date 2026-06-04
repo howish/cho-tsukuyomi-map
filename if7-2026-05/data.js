@@ -2488,7 +2488,7 @@ window.BOOTHS = [
     "booth_id": "O-25",
     "circle_id": "c_776c7a6ec4d8",
     "area": "綜合",
-    "body": "- 原創BL\n- 互攻互受\n- 軍武大男",
+    "body": "- 原創BL\n- 互攻互受\n- 軍武大男\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販**: 全訂單已寄出 ([Threads](https://www.threads.com/@teanene.comicart/post/DZICULcmG5k))\n- 🔁 **明信片加印** 預定 — 千業 CARRY ([Threads](https://www.threads.com/@teanene.comicart/post/DY7TvraGKvi))\n- 🔁 **乳牛新品** 後續再上架賣場 ([Threads](https://www.threads.com/@teanene.comicart/post/DY_hbHRmFA2))\n- 🎯 **下次參加**: NiCE 雙攤 — 新 OC (人外系列) 籌備中 ([場後感謝 Threads](https://www.threads.com/@teanene.comicart/post/DY_gSRZGNED))",
     "tags": {},
     "warnings": [],
     "cover_urls": []
@@ -2497,7 +2497,7 @@ window.BOOTHS = [
     "booth_id": "O-26",
     "circle_id": "c_25f130f71832",
     "area": "綜合",
-    "body": "- 原創-蛋餅加蛋不加辣\n- 原創-陳靖與人杰",
+    "body": "- 原創-蛋餅加蛋不加辣\n- 原創-陳靖與人杰\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 準備中** — 需要時間準備\n\n出處: [場後感謝 Threads](https://www.threads.com/@moriowo.s/post/DZF3EaAkhC0) / [通販公告](https://www.threads.com/@moriowo.s/post/DZF4szNkuSY)",
     "tags": {},
     "warnings": [],
     "cover_urls": []
@@ -3029,7 +3029,7 @@ window.BOOTHS = [
     "booth_id": "Q-02",
     "circle_id": "c_ea7d689af304",
     "area": "綜合",
-    "body": "- 原創驚悚短篇漫畫",
+    "body": "## 📝 IF7 出展重點\n\n- **新刊** 『精選漫畫作品集』 — 收錄近兩年原創短篇 / 140P\n- 咪芙 (貓) 裝飾貼紙\n- 去年歐美翁創作 WICKED 系列商品 寄售\n\n出處: [Threads 出展告知](https://www.threads.com/@online._.ghost/post/DY6HjHZkbKl) / [內頁試閱](https://www.threads.com/@online._.ghost/post/DY6HvttEZ0E)",
     "tags": {
       "manga": true
     },
@@ -3188,7 +3188,7 @@ window.BOOTHS = [
     "booth_id": "Q-18",
     "circle_id": "c_7f58e6a6c91f",
     "area": "綜合",
-    "body": "- 原創-遊記‧旅行箱(迷你盒裝小書#3)\n- 原創-漫畫出租店(迷你小書)\n- 原創-狗狗漫畫明信片/貼紙",
+    "body": "## 📝 IF7 出展重點\n\n- 主要漫畫小書 + 狗狗明信片 / 貼紙 (一般 size 漫畫本部分缺貨、 以現場品項為主)\n- 作者 SALLY ([@sally_dejavu](https://www.threads.com/@sally_dejavu)) — 商業連載 『一起搭捷運，好嗎？』 (原動力文化、 全 4 集完結)\n\n## 📦 寄售點\n\n- **童里繪本洋行** (台北市大安區潮州街 15 號) — 迷你系列小書 4 種展售 + 見本翻閱\n\n出處: [IF7 出展告知](https://www.threads.com/@sally_dejavu/post/DYl0AcKCcLw) / [童里寄售告知](https://www.threads.com/@sally_dejavu/post/DX_Rd0diWqD)",
     "tags": {
       "manga": true,
       "goods": true
@@ -3298,7 +3298,7 @@ window.BOOTHS = [
     "booth_id": "Q-30",
     "circle_id": "c_4354906ea3f1",
     "area": "綜合",
-    "body": "## 📝 IF7 出展重點\n\nQ-30 かくkaku\n\n- 原創: 菌菇類貼紙 ／ 少女塗鴉 ／ 奇奇怪怪塗鴉 等\n- 二創予定: 寶石之國\n\n出處: [X EVENT 告知](https://x.com/ewokaku0w0/status/2059499845350797742)",
+    "body": "## 📝 IF7 出展重點\n\nQ-30 かくkaku\n\n- 原創: 菌菇類貼紙 ／ 少女塗鴉 ／ 奇奇怪怪塗鴉 等\n- 二創予定: 寶石之國\n\n出處: [X EVENT 告知](https://x.com/ewokaku0w0/status/2059499845350797742)\n\n## 🎪 場後 (2026-05-30 → )\n- 🎯 **下次參加**: GJ35 (台中) — 報名審核中\n- 也已預告下次想參加 歐美翁\n\n出處: [場後感謝 Threads](https://www.threads.com/@ewokaku0w0/post/DY91tMDGaxV)",
     "tags": {
       "goods": true,
       "original": true
@@ -3864,7 +3864,7 @@ window.BOOTHS = [
   {
     "booth_id": "S-02",
     "circle_id": "c_08ac1871a5fb",
-    "body": "- 原創-快樂老鼠\n\n## 📝 IF7 出展重點\n- S-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)",
+    "body": "- 原創-快樂老鼠\n\n## 📝 IF7 出展重點\n- S-02 出展 ／ 現場無料: 小漫畫 + 認親卡 (含 SU 認親卡)\n- [Threads post](https://www.threads.com/@bobny0504/post/DY4a1sqDJBA)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 開放** — myship 7-11 [包伯尼福利中心](https://myship.7-11.com.tw/general/) (假日有空就出貨)\n- 🔜 **第二集** 預定於 **NICE** 發售 — 約 50P + 認親卡 / 特典\n\n出處: [場後通販告知](https://www.threads.com/@bobny0504/post/DZBsxbiAIcD) / [賣場連結](https://www.threads.com/@bobny0504/post/DZBsyf_gCVI)",
     "tags": {
       "original": true,
       "manga": true
@@ -5233,7 +5233,7 @@ window.BOOTHS = [
   {
     "booth_id": "S-41",
     "circle_id": "c_2d9a6f15d3cd",
-    "body": "## 📝 IF7 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** — 超かぐや姫 · **彩葉 × 八千代 (ハチヨ)** / B5 / 26P / 漫畫 / NT 200\n- 既刊 **『走吧塔檔!』** — Bocchi the Rock · 千滝 / B5 / 28P / NT 200\n- 既刊 **『貓咪的育成手冊』** — Bocchi the Rock · 千滝 / B5 / 26P / NT 200\n\n出處: [本攤最終宣傳 Threads](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **餘量通販 開始** — myship 711 賣貨便\n- 🎯 **下次內容檢討中** — 狂賭の桃清 / 或輝耀姬續編\n\n出處: [Threads pinned](https://www.threads.com/@taboom002)",
+    "body": "## 📝 IF7 出展重點\n- 新刊 **『如何讓女朋友對自己撒嬌!』** — 超かぐや姫 · **彩葉 × 八千代 (ハチヨ)** / B5 / 26P / 漫畫 / NT 200\n- 既刊 **『走吧塔檔!』** — Bocchi the Rock · 千滝 / B5 / 28P / NT 200\n- 既刊 **『貓咪的育成手冊』** — Bocchi the Rock · 千滝 / B5 / 26P / NT 200\n\n出處: [本攤最終宣傳 Threads](https://www.threads.com/@taboom002/post/DY4nxPwj8c5)\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **百翁餘量通販 開始** — myship 7-11 賣貨便 ([Threads pinned 告知](https://www.threads.com/@taboom002/post/DZCELLWD1ig))\n- 🎯 **下次內容檢討中** — 狂賭の桃清 / 或輝耀姬續編 ([Threads](https://www.threads.com/@taboom002/post/DY_xffOj2G8))",
     "tags": {
       "super-kaguya": true,
       "lycoris": true,
@@ -6112,7 +6112,7 @@ window.BOOTHS = [
   {
     "booth_id": "T-19/20",
     "circle_id": "c_61b7378b9210",
-    "body": "## 📝 IF7 出展重點\n- 新刊 **『重愛 02』** — Ave Mujica 系列 (\"憤怒\" 主題, 長篇系列多 CP)\n- 系列 CP: **初祥睦** (初華 × 祥子 × 睦) + **海喵** + **瑞穗 × 南** (みなみ)\n- 新刊 **『8168』** — 超時空輝耀姬 (青雨) / 全年齡 / 36P / 黑白漫畫 / NT 300\n- 雜食 (友好~互毆) 內容含\n- 當日請備零錢 (50 元尾數多)\n\n關連既刊: 原創 1000 BLUE\n\n出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)\n\n## 🎪 場後 (2026-05-30 → 6/4)\n- 🎯 **C108 申請中** — 八千代新刊預計帶到日本, 當落結果待 6/5 ([X post](https://x.com/ame_aou/status/2062384107544600920))",
+    "body": "## 📝 IF7 出展重點\n- 新刊 **『重愛 02』** — Ave Mujica 系列 (\"憤怒\" 主題, 長篇系列多 CP)\n- 系列 CP: **初祥睦** (初華 × 祥子 × 睦) + **海喵** + **瑞穗 × 南** (みなみ)\n- 新刊 **『8168』** — 超時空輝耀姬 (青雨) / 全年齡 / 36P / 黑白漫畫 / NT 300\n- 雜食 (友好~互毆) 內容含\n- 當日請備零錢 (50 元尾數多)\n\n關連既刊: 原創 1000 BLUE\n\n出處: [重愛 02 新刊試閱](https://www.threads.com/@ame_aou/post/DYw084uGvYB) / [品書](https://www.threads.com/@ame_aou/post/DY1_MQymsBy)\n\n## 🎪 場後 (2026-05-30 → 6/4)\n- 🟢 **個人場後通販 上架** — 全品項補貨 (含祥睦系列), 特典明信片 (場販＋自家通販限定) ／ 預計 6/7 統一出貨, 為趕稿提前到 6/3 晚出貨 ([Threads pinned](https://www.threads.com/@ame_aou/post/DZAQsGqGtGf) / [賣場連結 myship 7-11](https://www.threads.com/@ame_aou/post/DZAQ63cmi4j))\n- 🔁 委託通販 後續再補上\n- 🎯 **C108 申請中** — 八千代新刊預計帶到日本, 當落結果待 6/5 ([X post](https://x.com/ame_aou/status/2062384107544600920))",
     "tags": {
       "super-kaguya": true,
       "original": true,
@@ -7462,7 +7462,7 @@ window.BOOTHS = [
   {
     "booth_id": "U-21/22",
     "circle_id": "c_bcf0e4302551",
-    "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千):\n- 新刊 6 本 (含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) — Ave Mujica 初祥初, 1 萬字加筆, 布丁井封面)\n- 初祥初新刊購入 → 初祥飯友 限量加購可 ([最終 promo](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 認親卡 印珍珠紙, 4 擇 1:\n  (1) 卡片 / 小禮物\n  (2) 完整包裝食物\n  (3) 購買新刊 + 追蹤證明 + 一句感言\n  (4) [詳細](https://x.com/Mochian0819/status/2060236134186443183)\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 直播預定\n\n出處: [原品書](https://x.com/Mochian0819/status/2058506706448159133)\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉 × 八千代 (iroyachi) 同人小說本 / R-18 (購買需身分證明)\n- 13:30 後現場簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 開始** — 預購→場後通販順序出貨, 多本訂單包手費部分返還\n- 📦 **輝耀姬餘量較多** (當初印量保守) — 早期下訂推薦\n- 📊 **重組若葉睦 加印待ち** — 完售視次刷\n- 💛 場後 心得投稿 (出刊 1 周年記念)\n\n出處: [場後通販 Threads](https://www.threads.com/@mochian0819)",
+    "body": "## 📝 IF7 出展重點\n\n**主攤** (陌千):\n- 新刊 6 本 (含 [**『蝕』**](https://www.threads.com/@mochian0819/post/DXzAS81ktnR) — Ave Mujica 初祥初, 1 萬字加筆, 布丁井封面)\n- 初祥初新刊購入 → 初祥飯友 限量加購可 ([最終 promo](https://www.threads.com/@mochian0819/post/DY7LmI3km5T))\n- 認親卡 印珍珠紙, 4 擇 1:\n  (1) 卡片 / 小禮物\n  (2) 完整包裝食物\n  (3) 購買新刊 + 追蹤證明 + 一句感言\n  (4) [詳細](https://x.com/Mochian0819/status/2060236134186443183)\n- 寄攤 U-23 天下第一邦 二周年合本 (爽祥) 亦有參與\n- 5/28 22:00 [@karas_oshigata](https://www.threads.com/@karas_oshigata) 老師頻道 直播預定\n\n出處: [原品書](https://x.com/Mochian0819/status/2058506706448159133)\n\n**寄攤** (剎翼):\n- **『The From 吻的形式』** — 超時空輝耀姬 · 彩葉 × 八千代 (iroyachi) 同人小說本 / R-18 (購買需身分證明)\n- 13:30 後現場簽名服務\n- 主攤＋寄攤合計請備剛好金額 ([source](https://www.plurk.com/p/3iq8bupcr9))\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 開始** — [myship 7-11 常態賣場 (日初翱祥)](https://www.threads.com/@mochian0819/post/DZAZL4okt5l) ／ 預購→場後通販順序出貨, 多本訂單包手費部分返還 ([Threads 告知](https://www.threads.com/@mochian0819/post/DZAYHhYEoC0))\n- 📦 **輝耀姬餘量較多** (當初印量保守) — 早期下訂推薦\n- 📊 **重組若葉睦 加印待ち** — 完售視次刷\n- 💛 場後 心得投稿 (出刊 1 周年記念) — 蝕 抽獎已確定, 輝耀姬 待定 ([場後心得 Threads](https://www.threads.com/@mochian0819/post/DZALzGhEvT0))",
     "tags": {
       "super-kaguya": true,
       "avemujica": true,
@@ -9482,7 +9482,7 @@ window.BOOTHS = [
     "booth_id": "Z-02",
     "circle_id": "c_e46dabfd65b6",
     "area": "綜合",
-    "body": "",
+    "body": "## 📝 IF7 出展重點\n- Z-02 出展 (與宮遊合攤) — 首次同人展擺攤\n- 出示追蹤畫面贈 明信片 x1\n- 認親卡 交換\n\n## 🎪 場後 (2026-05-30 → )\n- 🎯 **下次參加**: 8/15 NiCE 2\n\n出處: [場後心得 Threads](https://www.threads.com/@45_artwork/post/DY9sc8MGcqz) / [場前工商 Threads](https://www.threads.com/@45_artwork/post/DYyXic0CZ2u)",
     "tags": {
       "hsr": true
     },
@@ -9767,7 +9767,7 @@ window.BOOTHS = [
     "booth_id": "Z-29",
     "circle_id": "c_33f47941b5fa",
     "area": "綜合",
-    "body": "- 手作娃衣 娃娃頭飾\n- 手作人類配戴choker 頭飾\n- 手作人類配戴領片",
+    "body": "- 手作娃衣 娃娃頭飾\n- 手作人類配戴choker 頭飾\n- 手作人類配戴領片\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **賣貨便通販**: 10cm 娃用圓舞裙 + 15cm 娃用項鍊 (滿 NT 380 免運) ([Threads](https://www.threads.com/@fromjanuary1st/post/DZDHaa_E5xm))\n- 🔜 **製作預告**: 娃用浴衣 (天藍底山茶花 / 紫藤花) ([Threads](https://www.threads.com/@fromjanuary1st/post/DZIIYVckzub))\n- 🎯 **下次參加**: 8 月 南港展覽館 NiCE",
     "tags": {
       "goods": true
     },
@@ -9867,7 +9867,7 @@ window.BOOTHS = [
     "booth_id": "Z-41/42",
     "circle_id": "c_579b32c9073f",
     "area": "綜合",
-    "body": "- 原創-木鑲花飾品（奇幻魔法主題、日系紋樣、台灣花磚主題...etc）\n- 原創-娃用拍照道具\n- 原創-出攤用小木牌、招牌",
+    "body": "- 原創-木鑲花飾品（奇幻魔法主題、日系紋樣、台灣花磚主題...etc）\n- 原創-娃用拍照道具\n- 原創-出攤用小木牌、招牌\n\n## 🎯 下次參加\n\n- **日本手作祭** (ishands) — 攤位 **A41**\n\n出處: [Threads 攤位告知](https://www.threads.com/@horohorodesign/post/DZHMI7iE3L3)",
     "tags": {},
     "warnings": [],
     "cover_urls": [],
