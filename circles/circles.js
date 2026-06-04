@@ -146,13 +146,13 @@
       // (e.g. if a circle has a social that an author also lists).
       const seenKeys = new Set();
 
-      // Circle-level socials (合同 SNS) — only if any.
+      // Circle-level socials render directly under the circle name as a
+      // chip row — no "🎪 合同" label (per howish 2026-06-04: the label
+      // adds no signal; the chips ARE the circle's identity at the same
+      // level as the circle name).
       const cSocials = c.circle_socials || [];
       if (cSocials.length) {
-        const sec = el('div', { class: 'circle-section circle-socials-section' });
-        sec.appendChild(el('span', { class: 'section-label' }, '🎪 合同'));
-        sec.appendChild(renderSocialChipRow(cSocials, seenKeys));
-        row.appendChild(sec);
+        row.appendChild(renderSocialChipRow(cSocials, seenKeys));
       }
 
       // Each member as its own section. Skip silent members (no socials)
