@@ -1131,8 +1131,8 @@ body.edit-mode .circle-link-chip.pending-add .pending-add-remove:hover {
 .member-section .skip-btn:hover { background: #707070; }
 .member-section .remove-btn { background: #c85858; }
 .member-section .remove-btn:hover { background: #a84444; }
-.member-section .revert-btn { background: transparent; color: #6c4a9d; border: 1px solid #b8a8c8; }
-.member-section .revert-btn:hover { background: #ede4f5; }
+.member-section .revert-btn { background: #b890d8; color: #fff; }
+.member-section .revert-btn:hover { background: #9b6dc4; }
 
 /* Decision state tinting — applied to .member-section by decorator */
 .member-section.is-draft {
