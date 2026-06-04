@@ -222,19 +222,19 @@
   }
 
   function applyFilter() {
-    // Sprint Bβ minimal (2026-06-04): edit mode owns the list rendering
-    // via circles-edit.js's render(). circles.js's applyFilter is read-mode
-    // only — early-exit if edit mode somehow triggers it (search input
-    // event etc.). Full visual card unification deferred to Bβ.next.
-    if (isEditMode) return;
+    // Sprint Bβ.next (2026-06-04): single render path for both modes.
+    // circles-edit.js wires hooks (YACHI_PASSES_FILTER, YACHI_DECORATE_CARD,
+    // YACHI_PAGINATE, YACHI_UPDATE_STATS) at bootstrap; read mode leaves
+    // them undefined and uses defaults.
     const q = (document.getElementById('circles-search').value || '').trim().toLowerCase();
     const list = document.getElementById('circles-list');
     list.innerHTML = '';
-    let count = 0;
-    // Sprint Bβ (2026-06-04): hook lets circles-edit.js gate further (e.g.
-    // status filter on author.name_source). Returns true by default.
     const extraFilter = window.YACHI_PASSES_FILTER || (() => true);
-    const decorate = window.YACHI_DECORATE_CARD;  // optional, only set by edit
+    const decorate = window.YACHI_DECORATE_CARD;
+    const paginate = window.YACHI_PAGINATE || ((arr) => arr);
+
+    // Gather all matches first (so pagination/stats know the full count).
+    const matches = [];
     for (const c of allCircles) {
       if (!passesFilters(c)) continue;
       if (!extraFilter(c)) continue;
@@ -247,29 +247,36 @@
           .join(' ').toLowerCase();
         if (!blob.includes(q)) continue;
       }
+      matches.push(c);
+    }
+
+    // Pagination hook returns the subset to render. Edit mode slices to
+    // 20/page; read mode returns the full set.
+    const visible = paginate(matches, list);
+
+    for (const c of visible) {
       const row = renderRow(c);
       list.appendChild(row);
       if (decorate) decorate(row, c);
-      count++;
     }
-    if (count === 0) {
+
+    if (matches.length === 0) {
       list.appendChild(el('p', { class: 'empty' }, '該当するサークルなし'));
     }
-    // Stats: in edit mode, circles-edit.js owns the text (it knows about
-    // pending decisions, unresolved counts, page numbers). In read mode,
-    // emit our own summary.
-    if (!isEditMode) {
+
+    // Stats: edit-mode hook writes its own text (page/pending/etc.); read
+    // mode falls back to the existing summary.
+    if (window.YACHI_UPDATE_STATS) {
+      window.YACHI_UPDATE_STATS({ matches, visible, total: allCircles.length });
+    } else {
       const stats = document.getElementById('circles-stats');
       const multiCount = allCircles.filter(c => c.events.length > 1).length;
-      stats.textContent = `${count.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
-    } else if (window.YACHI_UPDATE_STATS) {
-      window.YACHI_UPDATE_STATS(count);
+      stats.textContent = `${matches.length.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
     }
   }
 
-  // Public re-render trigger for edit-mode decorator (decision added/removed).
-  // Defined as a window-level closure so circles-edit.js can call it without
-  // wrapping its own IIFE around circles.js.
+  // Public re-render trigger — circles-edit.js calls this after mutating
+  // pending state so the cards reflect the new decision overlay.
   window.YACHI_RERENDER = function() { applyFilter(); };
 
   function buildEventFilters(opts) {

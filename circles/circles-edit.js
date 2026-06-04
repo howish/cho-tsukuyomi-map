@@ -1455,99 +1455,549 @@
     return filename;
   }
 
-  // ---- Main render ----
-  // Iterates circles (not authors flat) so each card groups all members of
-  // a circle under one container. Filters: a circle shows if ANY of its
-  // members passes the author-level filters + search.
-  function render() {
-    // Sprint Bβ (2026-06-04): edit mode renders into the SHARED #circles-list
-    // (read mode also targets it but circles.js's applyFilter early-exits
-    // in edit mode). #review-list is deleted from HTML in Bβ. Stats text
-    // is written to #circles-stats, same as Sprint Bα.
-    const list = document.getElementById('circles-list');
-    const stats = document.getElementById('circles-stats');
-    const searchEl = document.getElementById('circles-search');
-    const q = (searchEl ? searchEl.value : '').trim();
-    list.innerHTML = '';
-    const total = authorList().length;
-    let unresolved = 0;
-    for (const a of authorList()) {
-      if (a.name_source === 'circle_name' || a.name_source === 'audit_flagged') unresolved++;
-    }
+  // ---- Decorator for circles.js's 2-tier card (Sprint Bβ.next 2026-06-04) ----
+  // circles.js owns the visual card shape (circle name + circle.socials chips
+  // + 👤 member sections). This decorator augments each card in place with
+  // edit-mode action UI: aliases (×/+), socials (×/+), per-member rename
+  // input + source dropdown + confirm/skip/remove buttons.
+  // Re-render after a mutation goes through render() → renderPending() +
+  // YACHI_RERENDER() → applyFilter() → renderRow + decorateCard.
+  function decorateCard(card, c) {
+    // "all-confirmed" tint
+    const newMembersForCircle = pendingNewMembers.filter(m => m.circle_id === c.id);
+    const members = c.memberAuthors || [];
+    const existingAllOk = members.length > 0 && members.every(a => {
+      const p = pending[a.id];
+      return p && p.confirmed;
+    });
+    const newAllOk = newMembersForCircle.every(m => m.confirmed);
+    if (existingAllOk && newAllOk) card.classList.add('all-confirmed');
 
-    // Gather circles that have at least one member matching filters/search.
-    // Skip circles whose members are all clean AND no pending new-member is
-    // queued for this circle.
-    const circleHits = [];
-    const seenCircleIds = new Set();
-    for (const cid in CIRCLES) {
-      const circle = CIRCLES[cid];
-      const memberIds = circle.members || [];
-      const memberAuthors = memberIds.map(mid => AUTHORS[mid]).filter(Boolean);
-      const anyMatch = memberAuthors.some(a => authorMatchesFilters(a) && authorMatchesSearch(a, q));
-      const hasPendingNewMember = pendingNewMembers.some(m => m.circle_id === cid);
-      if (!anyMatch && !hasPendingNewMember) continue;
-      if (seenCircleIds.has(cid)) continue;
-      seenCircleIds.add(cid);
-      // Sort key: any-pending-decision-or-new-member → 0, else 1
-      const hasPending = memberAuthors.some(a => pending[a.id]) || hasPendingNewMember;
-      circleHits.push({ circle, memberAuthors, sortKey: hasPending ? 0 : 1 });
-    }
-    circleHits.sort((a, b) => {
-      if (a.sortKey !== b.sortKey) return a.sortKey - b.sortKey;
-      return (a.circle.circle_name || a.circle.id).localeCompare(b.circle.circle_name || b.circle.id);
+    decorateCircleHead(card, c);
+    decorateCircleSocials(card, c);
+    members.forEach(a => {
+      const sec = card.querySelector(`.circle-section.member-section[data-member-id="${cssEscape(a.id)}"]`);
+      if (sec) decorateMember(sec, a, c);
+    });
+  }
+
+  // Small helper — escape characters in a string so it's safe to embed in
+  // an attribute selector. CSS.escape is the standard but absent in JSDOM
+  // older versions; fall back to a regex.
+  function cssEscape(s) {
+    if (typeof CSS !== 'undefined' && CSS.escape) return CSS.escape(s);
+    return String(s).replace(/[!"#$%&'()*+,./:;<=>?@\[\\\]^`{|}~]/g, '\\$&');
+  }
+
+  function decorateCircleHead(card, c) {
+    const head = card.querySelector(':scope > .circle-row-head');
+    if (!head) return;
+    const savedAliases = c.aliases || [];
+    const pendingAdds = pendingCircleAliases[c.id] || [];
+    const pendingRemoves = pendingCircleAliasRemovals[c.id] || [];
+
+    const aliasRow = el('div', { class: 'circle-alias-row' });
+    aliasRow.appendChild(el('span', { class: 'circle-alias-label' }, '別名:'));
+
+    savedAliases.forEach(al => {
+      const marked = pendingRemoves.includes(al);
+      const chip = el('span', { class: 'alias-chip' + (marked ? ' marked-remove' : '') });
+      chip.appendChild(el('span', { class: 'alias-text' }, al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove',
+        title: marked ? '削除を取消' : 'この別名を削除',
+        onclick: () => {
+          const arr = pendingCircleAliasRemovals[c.id] = pendingCircleAliasRemovals[c.id] || [];
+          const i = arr.indexOf(al);
+          if (i >= 0) arr.splice(i, 1); else arr.push(al);
+          if (arr.length === 0) delete pendingCircleAliasRemovals[c.id];
+          savePendingCircleAliasRemovals(pendingCircleAliasRemovals);
+          render();
+        },
+      }, marked ? '↺' : '×'));
+      aliasRow.appendChild(chip);
     });
 
-    const totalCircles = circleHits.length;
-    const totalPages = Math.max(1, Math.ceil(totalCircles / PAGE_SIZE));
-    if (currentPage >= totalPages) currentPage = totalPages - 1;
-    if (currentPage < 0) currentPage = 0;
-    const startIdx = currentPage * PAGE_SIZE;
-    const endIdx = Math.min(startIdx + PAGE_SIZE, totalCircles);
-    const pageHits = circleHits.slice(startIdx, endIdx);
+    pendingAdds.forEach((al, idx) => {
+      const chip = el('span', { class: 'alias-chip pending-add' });
+      chip.appendChild(el('span', { class: 'alias-text' }, '+ ' + al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove',
+        title: 'pending 追加を取消',
+        onclick: () => {
+          pendingCircleAliases[c.id].splice(idx, 1);
+          if (pendingCircleAliases[c.id].length === 0) delete pendingCircleAliases[c.id];
+          savePendingCircleAliases(pendingCircleAliases);
+          render();
+        },
+      }, '×'));
+      aliasRow.appendChild(chip);
+    });
 
-    for (const { circle, memberAuthors } of pageHits) {
-      list.appendChild(renderCircleCard(circle, memberAuthors));
-    }
-    if (totalCircles === 0) {
-      list.appendChild(el('p', { class: 'empty' }, '該当サークルなし'));
-    } else if (totalPages > 1) {
-      // Page nav at bottom
-      const nav = el('div', { class: 'review-pagination' });
-      function pageBtn(label, targetPage, disabled, active) {
-        const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
-        const btn = el('button', {
-          type: 'button', class: cls,
-          onclick: () => { if (!disabled && !active) { currentPage = targetPage; render(); window.scrollTo(0, 0); } },
-        }, label);
-        return btn;
-      }
-      nav.appendChild(pageBtn('← prev', currentPage - 1, currentPage === 0, false));
-      // Page numbers (compact: first, ..., current ± 2, ..., last)
-      const pageNums = [];
-      for (let p = 0; p < totalPages; p++) {
-        if (p === 0 || p === totalPages - 1 || (p >= currentPage - 2 && p <= currentPage + 2)) {
-          pageNums.push(p);
-        } else if (pageNums[pageNums.length - 1] !== '…') {
-          pageNums.push('…');
+    const aliasInput = el('input', {
+      type: 'text', placeholder: '+ 別名追加', class: 'add-alias-input',
+    });
+    const aliasBtn = el('button', {
+      type: 'button', class: 'add-alias-btn',
+      onclick: () => {
+        const v = (aliasInput.value || '').trim();
+        if (!v) return;
+        const arr = pendingCircleAliases[c.id] = pendingCircleAliases[c.id] || [];
+        if (v === c.circle_name || (c.aliases || []).includes(v) || arr.includes(v)) {
+          alert('重複している、もう登録済み');
+          return;
         }
+        arr.push(v);
+        savePendingCircleAliases(pendingCircleAliases);
+        aliasInput.value = '';
+        render();
+      },
+    }, '+');
+    aliasInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); aliasBtn.click(); }
+    });
+    aliasRow.appendChild(aliasInput);
+    aliasRow.appendChild(aliasBtn);
+    head.appendChild(aliasRow);
+  }
+
+  function decorateCircleSocials(card, c) {
+    // Find or insert the chip row directly under .circle-row-head.
+    let chipRow = card.querySelector(':scope > .circle-row-head + .circle-links');
+    if (!chipRow) {
+      // Insert an empty chip row right after .circle-row-head
+      chipRow = el('div', { class: 'circle-links' });
+      const head = card.querySelector(':scope > .circle-row-head');
+      if (head && head.nextSibling) card.insertBefore(chipRow, head.nextSibling);
+      else card.appendChild(chipRow);
+    }
+
+    // Augment existing circle social chips with × button
+    chipRow.querySelectorAll('.circle-link-chip').forEach(chip => {
+      const url = chip.getAttribute('href');
+      if (!url) return;
+      // Only augment chips that came from circle.socials (not member socials)
+      // — the renderSocialChipRow output for the circle-socials section is
+      // the first .circle-links child, member chips are inside member-sections.
+      const marked = (pendingRemovals[c.id] || []).includes(url);  // shared bag for now (Bγ may add per-circle-social removal)
+      // Skip if button already added
+      if (chip.querySelector('.existing-remove')) return;
+      chip.appendChild(el('button', {
+        type: 'button', class: 'existing-remove',
+        title: 'この合同 SNS を削除',
+        onclick: (e) => {
+          e.preventDefault();
+          // Mark via pendingCircleSocials-removal scheme (placeholder — Bγ refines)
+          const arr = pendingRemovals[c.id] = pendingRemovals[c.id] || [];
+          const i = arr.indexOf(url);
+          if (i >= 0) arr.splice(i, 1); else arr.push(url);
+          if (arr.length === 0) delete pendingRemovals[c.id];
+          savePendingRemovals(pendingRemovals);
+          render();
+        },
+      }, '×'));
+    });
+
+    // Append pending-add circle socials as chips
+    (pendingCircleSocials[c.id] || []).forEach((s, idx) => {
+      const chip = el('a', {
+        class: 'circle-link-chip pending-add chip-' + s.platform,
+        href: s.url, target: '_blank', rel: 'noopener',
+      });
+      chip.appendChild(document.createTextNode('+ ' + s.platform + (s.handle ? ' ' + s.handle : '')));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'pending-add-remove',
+        onclick: (e) => {
+          e.preventDefault();
+          pendingCircleSocials[c.id].splice(idx, 1);
+          if (pendingCircleSocials[c.id].length === 0) delete pendingCircleSocials[c.id];
+          savePendingCircleSocials(pendingCircleSocials);
+          render();
+        },
+      }, '×'));
+      chipRow.appendChild(chip);
+    });
+
+    appendAddSocialForm(card, chipRow, 'circle', c);
+  }
+
+  function decorateMember(sec, a, c) {
+    const decision = pending[a.id] || null;
+    const isDraft = decision && !decision.confirmed && decision.decision !== 'skip' && decision.decision !== 'remove_member';
+    const isSkip = decision && decision.decision === 'skip';
+    const isRemove = decision && decision.decision === 'remove_member';
+    const isConfirmed = decision && decision.confirmed && decision.decision === 'rename';
+    if (isSkip) sec.classList.add('skip-decision');
+    else if (isRemove) sec.classList.add('remove-decision');
+    else if (isConfirmed) sec.classList.add('has-decision');
+    else if (isDraft) sec.classList.add('is-draft');
+
+    const head = sec.querySelector(':scope > .member-head');
+
+    // Name + source row (skip for skip/remove states)
+    let nameInput = null, sourceSelect = null;
+    if (head && !isSkip && !isRemove) {
+      let presetName;
+      if (decision && decision.name != null) presetName = decision.name;
+      else if (a.name_audit_suggestion && a.name_audit_suggestion.name) presetName = a.name_audit_suggestion.name;
+      else presetName = a.name || a.name_inferred || '';
+
+      nameInput = el('input', {
+        type: 'text', placeholder: '本人の display_name', value: presetName,
+        class: 'card-name-input',
+      });
+      sourceSelect = el('select', { class: 'card-source-select' });
+      const plat = authorPrimaryPlatform(a);
+      const defaultSource = (decision && decision.source) ? decision.source
+        : (a.name_source === 'audit_flagged' && a.name_source_prev) ? a.name_source_prev
+        : plat === 'x' ? 'x_profile' : plat === 'plurk' ? 'plurk_profile'
+        : plat === 'fb' ? 'fb_profile' : plat === 'ig' ? 'ig_profile'
+        : plat === 'threads' ? 'threads_profile' : plat === 'pixiv' ? 'pixiv_profile'
+        : plat === 'doujin_tw' ? 'doujin_tw_profile' : plat === 'aggregator' ? 'aggregator_profile'
+        : 'user';
+      let foundOpt = false;
+      for (const o of SOURCE_OPTIONS) {
+        const opt = el('option', { value: o.value }, o.label);
+        if (o.value === defaultSource) { opt.selected = true; foundOpt = true; }
+        sourceSelect.appendChild(opt);
       }
-      pageNums.forEach(p => {
-        if (p === '…') {
-          nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
-        } else {
-          nav.appendChild(pageBtn(String(p + 1), p, false, p === currentPage));
+      if (!foundOpt && defaultSource) {
+        const opt = el('option', { value: defaultSource }, defaultSource);
+        opt.selected = true;
+        sourceSelect.appendChild(opt);
+      }
+      nameInput.addEventListener('input', () => {
+        const v = nameInput.value;
+        if (!v) { delete pending[a.id]; }
+        else {
+          pending[a.id] = Object.assign({}, pending[a.id] || {},
+            { author_id: a.id, decision: 'rename', name: v,
+              source: sourceSelect.value, confirmed: false });
+        }
+        savePending(pending);
+        renderPending();
+      });
+      sourceSelect.addEventListener('change', () => {
+        if (nameInput.value) {
+          pending[a.id] = Object.assign({}, pending[a.id] || {},
+            { author_id: a.id, decision: 'rename', name: nameInput.value,
+              source: sourceSelect.value, confirmed: false });
+          savePending(pending);
+          renderPending();
         }
       });
-      nav.appendChild(pageBtn('next →', currentPage + 1, currentPage === totalPages - 1, false));
-      list.appendChild(nav);
+      const nameRow = el('div', { class: 'card-form-row card-name-row' });
+      nameRow.appendChild(nameInput);
+      nameRow.appendChild(sourceSelect);
+      head.appendChild(nameRow);
+
+      // Action buttons row
+      const actions = el('div', { class: 'card-form-actions' });
+      // ✅ Confirm
+      const confirmBtn = el('button', {
+        type: 'button', class: 'confirm-btn',
+        onclick: () => {
+          const name = (nameInput.value || '').trim();
+          if (!name) { alert('名前を入力してください'); return; }
+          pending[a.id] = { author_id: a.id, decision: 'rename', name,
+                            source: sourceSelect.value, confirmed: true };
+          savePending(pending);
+          render();
+        },
+      }, isConfirmed ? '✅ 確定済' : '✅ 確定');
+      actions.appendChild(confirmBtn);
+      // ⏭ Skip
+      actions.appendChild(el('button', {
+        type: 'button', class: 'skip-btn',
+        onclick: () => {
+          if (!confirm('本名不明として永続 skip しますか？')) return;
+          pending[a.id] = { author_id: a.id, decision: 'skip', confirmed: true };
+          savePending(pending);
+          render();
+        },
+      }, '⏭ skip'));
+      // 🗑 remove_member
+      actions.appendChild(el('button', {
+        type: 'button', class: 'remove-btn',
+        onclick: () => {
+          if (!confirm(`Author「${a.name || a.name_inferred || a.id}」を circle から削除しますか？`)) return;
+          pending[a.id] = { author_id: a.id, decision: 'remove_member',
+                            circle_id: c.id, confirmed: true };
+          savePending(pending);
+          render();
+        },
+      }, '🗑 削除'));
+      // ↩ revert (if any pending)
+      if (decision) {
+        actions.appendChild(el('button', {
+          type: 'button', class: 'revert-btn',
+          onclick: () => {
+            delete pending[a.id];
+            savePending(pending);
+            render();
+          },
+        }, '↩ 取消'));
+      }
+      head.appendChild(actions);
     }
-    const showingRange = totalCircles ? `${startIdx + 1}–${endIdx}` : '0';
-    stats.textContent = `${showingRange} / ${totalCircles} circles 表示 (page ${currentPage + 1}/${totalPages}) — 未確定 author ${unresolved} / 全 author ${total}`;
+
+    // Member alias row (saved + pending + add input)
+    const savedAliases = a.aliases || [];
+    const pendingMemAdds = pendingAliases[a.id] || [];
+    const aliasRow = el('div', { class: 'card-alias-row' });
+    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
+    savedAliases.forEach(al => {
+      const marked = isAliasMarkedForRemoval(a.id, al);
+      const chip = el('span', { class: 'alias-chip' + (marked ? ' marked-remove' : '') });
+      chip.appendChild(el('span', { class: 'alias-text' }, al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove',
+        title: marked ? '削除を取消' : 'この別名を削除',
+        onclick: () => toggleAliasRemoval(a.id, al),
+      }, marked ? '↺' : '×'));
+      aliasRow.appendChild(chip);
+    });
+    pendingMemAdds.forEach((al, idx) => {
+      const chip = el('span', { class: 'alias-chip pending-add' });
+      chip.appendChild(el('span', { class: 'alias-text' }, '+ ' + al));
+      chip.appendChild(el('button', {
+        type: 'button', class: 'alias-remove',
+        onclick: () => {
+          pendingAliases[a.id].splice(idx, 1);
+          if (pendingAliases[a.id].length === 0) delete pendingAliases[a.id];
+          savePendingAliases(pendingAliases);
+          render();
+        },
+      }, '×'));
+      aliasRow.appendChild(chip);
+    });
+    const mAliasInput = el('input', {
+      type: 'text', placeholder: '+ 別名追加', class: 'add-alias-input',
+    });
+    const mAliasBtn = el('button', {
+      type: 'button', class: 'add-alias-btn',
+      onclick: () => {
+        const v = (mAliasInput.value || '').trim();
+        if (!v) return;
+        const arr = pendingAliases[a.id] = pendingAliases[a.id] || [];
+        if (v === a.name || v === a.name_inferred || arr.includes(v) || (a.aliases || []).includes(v)) {
+          alert('重複している、もう登録済み');
+          return;
+        }
+        arr.push(v);
+        savePendingAliases(pendingAliases);
+        mAliasInput.value = '';
+        render();
+      },
+    }, '+');
+    mAliasInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); mAliasBtn.click(); }
+    });
+    aliasRow.appendChild(mAliasInput);
+    aliasRow.appendChild(mAliasBtn);
+    sec.appendChild(aliasRow);
+
+    // Augment existing member social chips with × button
+    const memberChipRow = sec.querySelector(':scope > .circle-links');
+    if (memberChipRow) {
+      memberChipRow.querySelectorAll('.circle-link-chip').forEach(chip => {
+        const url = chip.getAttribute('href');
+        if (!url) return;
+        const marked = isMarkedForRemoval(a.id, url);
+        chip.classList.toggle('marked-remove', marked);
+        if (chip.querySelector('.existing-remove')) return;
+        chip.appendChild(el('button', {
+          type: 'button', class: 'existing-remove',
+          title: marked ? '削除を取消' : 'この link を削除',
+          onclick: (e) => { e.preventDefault(); toggleRemoval(a.id, url); },
+        }, marked ? '↺' : '×'));
+      });
+      // Append pending-add chips
+      (pendingSocials[a.id] || []).forEach((s, idx) => {
+        const chip = el('a', {
+          class: 'circle-link-chip pending-add chip-' + s.platform,
+          href: s.url, target: '_blank', rel: 'noopener',
+        });
+        chip.appendChild(document.createTextNode('+ ' + s.platform + (s.handle ? ' ' + s.handle : '')));
+        chip.appendChild(el('button', {
+          type: 'button', class: 'pending-add-remove',
+          onclick: (e) => {
+            e.preventDefault();
+            pendingSocials[a.id].splice(idx, 1);
+            if (pendingSocials[a.id].length === 0) delete pendingSocials[a.id];
+            savePendingSocials(pendingSocials);
+            render();
+          },
+        }, '×'));
+        memberChipRow.appendChild(chip);
+      });
+      appendAddSocialForm(sec, memberChipRow, 'member', a);
+    }
+  }
+
+  // Unified add-social form factory — used for both circle and member contexts.
+  // `kind` is 'circle' (writes to pendingCircleSocials[c.id]) or 'member'
+  // (writes to pendingSocials[a.id]); `entity` is the corresponding object.
+  function appendAddSocialForm(container, afterEl, kind, entity) {
+    const addBlock = el('div', { class: 'add-social-block' });
+    const addToggle = el('button', {
+      type: 'button', class: 'add-social-toggle',
+      onclick: () => addBlock.classList.toggle('open'),
+    }, kind === 'circle' ? '+ 合同 SNS 追加' : '+ SNS 追加');
+    const addForm = el('div', { class: 'add-social-form' });
+    const urlInput = el('input', {
+      type: 'url', placeholder: 'URL (https://...)', class: 'add-social-url',
+    });
+    const platSelect = el('select', { class: 'add-social-platform' });
+    const PLAT_OPTIONS = ['x', 'plurk', 'fb', 'ig', 'threads', 'bsky', 'pixiv',
+      'doujin_tw', 'aggregator', 'booth_pm', 'wix', 'blog', 'gamer', 'generic'];
+    for (const p of PLAT_OPTIONS) {
+      platSelect.appendChild(el('option', { value: p }, p));
+    }
+    const handleInput = el('input', {
+      type: 'text', placeholder: 'handle (任意)', class: 'add-social-handle',
+    });
+    urlInput.addEventListener('input', () => {
+      const u = urlInput.value.trim();
+      if (u) {
+        const p = detectPlatform(u);
+        platSelect.value = p;
+        if (!handleInput.value) handleInput.value = extractHandle(u, p);
+      }
+    });
+    const addSocBtn = el('button', {
+      type: 'button', class: 'add-social-add',
+      onclick: () => {
+        let u = urlInput.value.trim();
+        if (!u) { alert('URL を入力してください'); return; }
+        if (!/^https?:\/\//.test(u)) u = 'https://' + u;
+        const platform = platSelect.value;
+        const handle = handleInput.value.trim();
+        if (kind === 'circle') {
+          const arr = pendingCircleSocials[entity.id] = pendingCircleSocials[entity.id] || [];
+          if (arr.some(s => s.url === u) || (entity.socials || []).some(s => s.url === u)) {
+            alert('重複している'); return;
+          }
+          arr.push({ platform, url: u, handle });
+          savePendingCircleSocials(pendingCircleSocials);
+        } else {
+          const arr = pendingSocials[entity.id] = pendingSocials[entity.id] || [];
+          if (arr.some(s => s.url === u) || (entity.socials || []).some(s => s.url === u)) {
+            alert('重複している'); return;
+          }
+          arr.push({ platform, url: u, handle });
+          savePendingSocials(pendingSocials);
+        }
+        urlInput.value = '';
+        handleInput.value = '';
+        addBlock.classList.remove('open');
+        render();
+      },
+    }, '+ 追加');
+    addForm.appendChild(urlInput);
+    const row2 = el('div', { class: 'add-social-row' });
+    row2.appendChild(platSelect);
+    row2.appendChild(handleInput);
+    row2.appendChild(addSocBtn);
+    addForm.appendChild(row2);
+    addBlock.appendChild(addToggle);
+    addBlock.appendChild(addForm);
+    container.appendChild(addBlock);
+  }
+
+  // ---- Edit-mode hooks for circles.js applyFilter ----
+  // YACHI_PASSES_FILTER: a circle shows if ANY of its members passes the
+  // edit-mode author-level filters (status/event/platform/search). circles.js
+  // also runs its own search blob check (over hydrated circle fields), so
+  // this hook only enforces the status filter (the edit-only one).
+  function setupHooks() {
+    window.YACHI_PASSES_FILTER = function(c) {
+      const members = c.memberAuthors || [];
+      const hasPendingNewMember = pendingNewMembers.some(m => m.circle_id === c.id);
+      if (!members.length) return hasPendingNewMember;
+      const anyMatch = members.some(a => authorMatchesFilters(a));
+      return anyMatch || hasPendingNewMember;
+    };
+
+    window.YACHI_DECORATE_CARD = decorateCard;
+
+    // YACHI_PAGINATE: edit mode shows 20/page; read mode has no pagination
+    // (this hook isn't set in read mode). Appends pagination nav as a child
+    // of `list`, returns the visible subset.
+    window.YACHI_PAGINATE = function(matches, list) {
+      const totalCircles = matches.length;
+      const totalPages = Math.max(1, Math.ceil(totalCircles / PAGE_SIZE));
+      if (currentPage >= totalPages) currentPage = totalPages - 1;
+      if (currentPage < 0) currentPage = 0;
+      const startIdx = currentPage * PAGE_SIZE;
+      const endIdx = Math.min(startIdx + PAGE_SIZE, totalCircles);
+
+      // Pagination nav scheduled to be appended AFTER cards by applyFilter,
+      // but applyFilter appends our return to list in order. Easier: build
+      // nav now, append after the function call (we can't here without DOM
+      // mutation). Use a microtask to defer.
+      Promise.resolve().then(() => {
+        if (totalPages > 1) {
+          const nav = el('div', { class: 'review-pagination' });
+          function pageBtn(label, targetPage, disabled, active) {
+            const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
+            return el('button', {
+              type: 'button', class: cls,
+              onclick: () => { if (!disabled && !active) { currentPage = targetPage; render(); window.scrollTo(0, 0); } },
+            }, label);
+          }
+          nav.appendChild(pageBtn('← prev', currentPage - 1, currentPage === 0, false));
+          const pageNums = [];
+          for (let p = 0; p < totalPages; p++) {
+            if (p === 0 || p === totalPages - 1 || (p >= currentPage - 2 && p <= currentPage + 2)) {
+              pageNums.push(p);
+            } else if (pageNums[pageNums.length - 1] !== '…') {
+              pageNums.push('…');
+            }
+          }
+          pageNums.forEach(p => {
+            if (p === '…') nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
+            else nav.appendChild(pageBtn(String(p + 1), p, false, p === currentPage));
+          });
+          nav.appendChild(pageBtn('next →', currentPage + 1, currentPage === totalPages - 1, false));
+          list.appendChild(nav);
+        }
+      });
+      return matches.slice(startIdx, endIdx);
+    };
+
+    // YACHI_UPDATE_STATS: edit-mode stats text overrides read-mode default.
+    window.YACHI_UPDATE_STATS = function({ matches, visible, total }) {
+      const stats = document.getElementById('circles-stats');
+      if (!stats) return;
+      const totalCircles = matches.length;
+      const totalPages = Math.max(1, Math.ceil(totalCircles / PAGE_SIZE));
+      const startIdx = currentPage * PAGE_SIZE;
+      const endIdx = Math.min(startIdx + PAGE_SIZE, totalCircles);
+      const totalAuthors = authorList().length;
+      let unresolved = 0;
+      for (const a of authorList()) {
+        if (a.name_source === 'circle_name' || a.name_source === 'audit_flagged') unresolved++;
+      }
+      const showingRange = totalCircles ? `${startIdx + 1}–${endIdx}` : '0';
+      stats.textContent =
+        `${showingRange} / ${totalCircles} circles 表示 (page ${currentPage + 1}/${totalPages}) — ` +
+        `未確定 author ${unresolved} / 全 author ${totalAuthors}`;
+    };
+  }
+
+  // render() — thin wrapper: refresh pending panel + re-run the shared
+  // applyFilter (which calls our decorator on each card).
+  function render() {
     renderPending();
+    if (window.YACHI_RERENDER) window.YACHI_RERENDER();
   }
 
   // ---- Bootstrap ----
+  // Wire edit-mode hooks BEFORE the first applyFilter call so circles.js's
+  // render path uses our pagination/decorator/stats.
+  setupHooks();
+
   // Filter chips are built by circles.js (shared between read + edit). We
   // just attach edit-mode handlers to the existing chips.
   attachEventFilterHandlers();
