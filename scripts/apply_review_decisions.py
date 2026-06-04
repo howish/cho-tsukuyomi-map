@@ -224,7 +224,15 @@ def main():
             members = c.get('members') or []
             if aid in members:
                 c['members'] = [x for x in members if x != aid]
-                counts['remove_member'] += 1
+            # Also record in removed_members so extract_circles.py doesn't
+            # auto-re-add this aid as primary on next rebuild. Without this
+            # mark, the booth data.js auto-derivation re-creates the same
+            # author and the removal silently reverts.
+            removed = list(c.get('removed_members') or [])
+            if aid not in removed:
+                removed.append(aid)
+                c['removed_members'] = removed
+            counts['remove_member'] += 1
             # Author record stays (might be a member of other circles)
 
         elif kind == 'skip':

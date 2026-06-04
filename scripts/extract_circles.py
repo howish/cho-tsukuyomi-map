@@ -82,6 +82,7 @@ def main():
                     'members': list(c.get('members') or []),
                     'socials': list(c.get('socials') or []),
                     'events': [],
+                    'removed_members': list(c.get('removed_members') or []),  # blocks auto-re-add
                     '_seen_urls': {norm_url(s.get('url', '')) for s in (c.get('socials') or []) if s.get('url')},
                 }
             for a in (ed.get('authors') or []):
@@ -159,8 +160,22 @@ def main():
             # Determine the primary author for this booth's circle.
             # If circle.members already populated (from pre-load or earlier event),
             # use the first member. Otherwise derive from booth fields.
+            #
+            # `removed_members` is the sticky-delete marker — if the derived
+            # primary_aid is on that list, the reviewer has explicitly
+            # detached this author from the circle (typically because the
+            # circle has no resolvable human behind it). Skip ALL author
+            # processing for this booth — circle.members stays empty, no
+            # auto-re-add, and downstream rendering shows just circle name.
+            removed_set = set(c.get('removed_members') or [])
             if c['members']:
                 primary_aid = c['members'][0]
+            elif removed_set:
+                # Sticky-deleted circle (reviewer explicitly detached). Skip
+                # all author processing — booth events still tally for this
+                # circle but members[] stays empty so downstream rendering
+                # shows only circle name, no author.
+                continue
             else:
                 primary_aid = author_id_for(
                     b.get('author') or b.get('circle_name') or '',
@@ -225,6 +240,8 @@ def main():
     for cid in sorted(circles.keys()):
         c = circles[cid]
         c.pop('_seen_urls', None)
+        if not c.get('removed_members'):
+            c.pop('removed_members', None)  # don't emit empty list
         c['events'].sort(key=lambda e: e.get('date') or '')
         circle_out.append(c)
 

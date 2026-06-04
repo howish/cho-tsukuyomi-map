@@ -1433,9 +1433,7 @@ window.CIRCLES_BY_ID = {
   "c_280daecf275b": {
     "id": "c_280daecf275b",
     "circle_name": "西瓜學園",
-    "members": [
-      "a_2edbca6b7b37"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -1444,6 +1442,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "P-10"
       }
+    ],
+    "removed_members": [
+      "a_2edbca6b7b37"
     ]
   },
   "c_2867d67e21fc": {
@@ -2313,9 +2314,7 @@ window.CIRCLES_BY_ID = {
   "c_425ee6eab594": {
     "id": "c_425ee6eab594",
     "circle_name": "逆光合作用",
-    "members": [
-      "a_4e5db8e22cd2"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -2324,6 +2323,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "O-30"
       }
+    ],
+    "removed_members": [
+      "a_4e5db8e22cd2"
     ]
   },
   "c_426096be4f26": {
@@ -5909,9 +5911,7 @@ window.CIRCLES_BY_ID = {
   "c_aaae6886c6d5": {
     "id": "c_aaae6886c6d5",
     "circle_name": "開天窗",
-    "members": [
-      "a_778b8829384e"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -5920,6 +5920,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "X-03"
       }
+    ],
+    "removed_members": [
+      "a_778b8829384e"
     ]
   },
   "c_ab48a702af61": {
@@ -6421,9 +6424,7 @@ window.CIRCLES_BY_ID = {
   "c_b964b51423ff": {
     "id": "c_b964b51423ff",
     "circle_name": "名字可以自己取欸",
-    "members": [
-      "a_22c8e16a1faa"
-    ],
+    "members": [],
     "socials": [],
     "events": [
       {
@@ -6432,6 +6433,9 @@ window.CIRCLES_BY_ID = {
         "date": "2026-05-30",
         "booth_id": "P-13/14"
       }
+    ],
+    "removed_members": [
+      "a_22c8e16a1faa"
     ]
   },
   "c_bafb4e62377b": {
@@ -10256,6 +10260,14 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_00438216bc9d": {
+    "id": "a_00438216bc9d",
+    "name": "",
+    "name_inferred": "a_00438216bc9d",
+    "name_source": "x_handle",
+    "aliases": [],
+    "socials": []
+  },
   "a_009c8ae8451c": {
     "id": "a_009c8ae8451c",
     "name": "奶油",
@@ -10508,9 +10520,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_09a071a91e62": {
     "id": "a_09a071a91e62",
-    "name": "",
+    "name": "煞氣",
     "name_inferred": "煞氣",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
     "socials": [
       {
@@ -10748,6 +10760,14 @@ window.AUTHORS_BY_ID = {
         "url": "https://hwulu.com/"
       }
     ]
+  },
+  "a_1213d731b6c1": {
+    "id": "a_1213d731b6c1",
+    "name": "",
+    "name_inferred": "a_1213d731b6c1",
+    "name_source": "x_handle",
+    "aliases": [],
+    "socials": []
   },
   "a_12315880a20e": {
     "id": "a_12315880a20e",
@@ -11418,9 +11438,9 @@ window.AUTHORS_BY_ID = {
   },
   "a_24fe8c497d1c": {
     "id": "a_24fe8c497d1c",
-    "name": "",
+    "name": "脖狐的脖子",
     "name_inferred": "脖狐的脖子",
-    "name_source": "circle_name",
+    "name_source": "ig_profile",
     "aliases": [],
     "socials": [
       {
@@ -12036,11 +12056,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_383d0246ece5": {
     "id": "a_383d0246ece5",
-    "name": "",
+    "name": "紫月",
     "name_inferred": "紫月",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/mickey0903"
+      }
+    ]
   },
   "a_384f3abedb37": {
     "id": "a_384f3abedb37",
@@ -13417,11 +13442,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_60aea36eb9b8": {
     "id": "a_60aea36eb9b8",
-    "name": "",
+    "name": "宿原僎",
     "name_inferred": "宿原僎個人",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/jukuharatsutae"
+      }
+    ]
   },
   "a_60c38bab9ce4": {
     "id": "a_60c38bab9ce4",
@@ -13773,6 +13803,14 @@ window.AUTHORS_BY_ID = {
     "aliases": [],
     "socials": []
   },
+  "a_6d39b8e9d176": {
+    "id": "a_6d39b8e9d176",
+    "name": "",
+    "name_inferred": "a_6d39b8e9d176",
+    "name_source": "x_handle",
+    "aliases": [],
+    "socials": []
+  },
   "a_6d47b2d64fe0": {
     "id": "a_6d47b2d64fe0",
     "name": "龍伯爵的下午茶",
@@ -14095,16 +14133,11 @@ window.AUTHORS_BY_ID = {
   },
   "a_7817e816dfa9": {
     "id": "a_7817e816dfa9",
-    "name": "",
+    "name": "富士繪社",
     "name_inferred": "富士繪社",
-    "name_source": "circle_name",
+    "name_source": "fb_profile",
     "aliases": [],
-    "socials": [
-      {
-        "platform": "fb",
-        "url": "https://www.facebook.com/profile.php?id=100069793502478"
-      }
-    ]
+    "socials": []
   },
   "a_7826cd288555": {
     "id": "a_7826cd288555",
@@ -14666,10 +14699,12 @@ window.AUTHORS_BY_ID = {
   },
   "a_87810c914f1c": {
     "id": "a_87810c914f1c",
-    "name": "",
+    "name": "默里",
     "name_inferred": "默屋",
-    "name_source": "circle_name",
-    "aliases": [],
+    "name_source": "x_profile",
+    "aliases": [
+      "Mori"
+    ],
     "socials": [
       {
         "platform": "aggregator",
@@ -15540,6 +15575,14 @@ window.AUTHORS_BY_ID = {
       }
     ]
   },
+  "a_a59eaf451497": {
+    "id": "a_a59eaf451497",
+    "name": "",
+    "name_inferred": "a_a59eaf451497",
+    "name_source": "x_handle",
+    "aliases": [],
+    "socials": []
+  },
   "a_a5f784e601df": {
     "id": "a_a5f784e601df",
     "name": "兔兔",
@@ -15620,11 +15663,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_a886ffba4980": {
     "id": "a_a886ffba4980",
-    "name": "",
+    "name": "七零",
     "name_inferred": "P星帶月",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/weirdchi"
+      }
+    ]
   },
   "a_a8e8257f7f7d": {
     "id": "a_a8e8257f7f7d",
@@ -16764,14 +16812,14 @@ window.AUTHORS_BY_ID = {
   },
   "a_cb0226b2be63": {
     "id": "a_cb0226b2be63",
-    "name": "",
+    "name": "櫻羽艾瑪會側手翻3.0",
     "name_inferred": "櫻羽艾瑪會側手翻3.0",
-    "name_source": "circle_name",
+    "name_source": "fb_profile",
     "aliases": [],
     "socials": [
       {
         "platform": "fb",
-        "url": "https://www.facebook.com/615853064360/"
+        "url": "https://www.facebook.com/profile.php?id=61585306436059"
       }
     ]
   },
@@ -16835,11 +16883,28 @@ window.AUTHORS_BY_ID = {
   },
   "a_cfeb77c84a62": {
     "id": "a_cfeb77c84a62",
-    "name": "",
+    "name": "灰諧",
     "name_inferred": "灰色和諧",
-    "name_source": "circle_name",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "fb",
+        "url": "https://www.facebook.com/gray.forgotten/"
+      },
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/ruyc2598"
+      },
+      {
+        "platform": "pixiv",
+        "url": "https://www.pixiv.net/users/4884158"
+      },
+      {
+        "platform": "generic",
+        "url": "https://cxc.today/zh/@Gray_Harmony"
+      }
+    ]
   },
   "a_d02a16b89beb": {
     "id": "a_d02a16b89beb",
@@ -18026,11 +18091,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_f92c8adfd061": {
     "id": "a_f92c8adfd061",
-    "name": "",
+    "name": "PAN子",
     "name_inferred": "彩虹盤子",
-    "name_source": "circle_name",
+    "name_source": "plurk_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "plurk",
+        "url": "https://www.plurk.com/takok0752"
+      }
+    ]
   },
   "a_f9a656f1351a": {
     "id": "a_f9a656f1351a",
