@@ -204,6 +204,11 @@
   const eventFilters = new Set();     // selected event slugs (subset)
   const platformFilters = new Set();  // selected platforms (subset)
 
+  // Read-mode pagination (Sprint Bγ-polish D 2026-06-04).
+  // Edit mode overrides via YACHI_PAGINATE hook; read mode uses these defaults.
+  let readPage = 0;
+  const READ_PAGE_SIZE = 50;
+
   function passesFilters(c) {
     // Base filter
     if (baseFilter === 'multi' && c.events.length < 2) return false;
@@ -231,7 +236,52 @@
     list.innerHTML = '';
     const extraFilter = window.YACHI_PASSES_FILTER || (() => true);
     const decorate = window.YACHI_DECORATE_CARD;
-    const paginate = window.YACHI_PAGINATE || ((arr) => arr);
+    // Read-mode default pagination: 50/page, appends nav below cards.
+    // Edit mode overrides this hook with its own 20/page paginator.
+    const paginate = window.YACHI_PAGINATE || function(arr, listEl) {
+      const totalCircles = arr.length;
+      const totalPages = Math.max(1, Math.ceil(totalCircles / READ_PAGE_SIZE));
+      if (readPage >= totalPages) readPage = totalPages - 1;
+      if (readPage < 0) readPage = 0;
+      const startIdx = readPage * READ_PAGE_SIZE;
+      const endIdx = Math.min(startIdx + READ_PAGE_SIZE, totalCircles);
+      // Append nav after cards via microtask (same pattern edit mode uses).
+      Promise.resolve().then(() => {
+        if (totalPages <= 1) return;
+        const nav = el('div', { class: 'review-pagination' });
+        function pageBtn(label, target, disabled, active) {
+          const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
+          // Use addEventListener — circles.js's el() helper doesn't bind
+          // function-typed onclick attributes as event handlers.
+          const btn = el('button', { type: 'button', class: cls }, label);
+          if (!disabled && !active) {
+            btn.addEventListener('click', () => {
+              readPage = target;
+              applyFilter();
+              window.scrollTo(0, 0);
+            });
+          }
+          return btn;
+        }
+        nav.appendChild(pageBtn('← prev', readPage - 1, readPage === 0, false));
+        const pageNums = [];
+        for (let p = 0; p < totalPages; p++) {
+          if (p === 0 || p === totalPages - 1 ||
+              (p >= readPage - 2 && p <= readPage + 2)) {
+            pageNums.push(p);
+          } else if (pageNums[pageNums.length - 1] !== '…') {
+            pageNums.push('…');
+          }
+        }
+        pageNums.forEach(p => {
+          if (p === '…') nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
+          else nav.appendChild(pageBtn(String(p + 1), p, false, p === readPage));
+        });
+        nav.appendChild(pageBtn('next →', readPage + 1, readPage === totalPages - 1, false));
+        listEl.appendChild(nav);
+      });
+      return arr.slice(startIdx, endIdx);
+    };
 
     // Gather all matches first (so pagination/stats know the full count).
     const matches = [];
@@ -271,7 +321,14 @@
     } else {
       const stats = document.getElementById('circles-stats');
       const multiCount = allCircles.filter(c => c.events.length > 1).length;
-      stats.textContent = `${matches.length.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
+      const totalPages = Math.max(1, Math.ceil(matches.length / READ_PAGE_SIZE));
+      const startIdx = readPage * READ_PAGE_SIZE;
+      const endIdx = Math.min(startIdx + READ_PAGE_SIZE, matches.length);
+      const range = matches.length ? `${startIdx + 1}–${endIdx}` : '0';
+      const pageSuffix = totalPages > 1 ? ` (page ${readPage + 1}/${totalPages})` : '';
+      stats.textContent =
+        `${range} / ${matches.length.toLocaleString()} 件表示${pageSuffix}` +
+        ` ／ 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
     }
   }
 
@@ -307,6 +364,7 @@
             eventFilters.add(ev.slug);
             btn.classList.add('active');
           }
+          readPage = 0;
           applyFilter();
         });
       }
@@ -341,6 +399,7 @@
             platformFilters.add(p);
             btn.classList.add('active');
           }
+          readPage = 0;
           applyFilter();
         });
       }
@@ -465,16 +524,19 @@
   buildPlatformFilters();
   applyFilter();
 
-  // Wire up search + base filters (multi/no-handle/all)
+  // Wire up search + base filters (multi/no-handle/all). Any filter change
+  // resets to page 0 so the user doesn't end up on a now-empty page.
   const searchInput = document.getElementById('circles-search');
   const searchClear = document.getElementById('circles-search-clear');
   searchInput.addEventListener('input', () => {
     searchClear.hidden = !searchInput.value;
+    readPage = 0;
     applyFilter();
   });
   searchClear.addEventListener('click', () => {
     searchInput.value = '';
     searchClear.hidden = true;
+    readPage = 0;
     applyFilter();
     searchInput.focus();
   });
@@ -483,6 +545,7 @@
       document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       baseFilter = btn.dataset.filter;
+      readPage = 0;
       applyFilter();
     });
   });
