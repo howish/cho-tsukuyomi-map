@@ -956,6 +956,46 @@
   font-style: italic;
 }
 
+/* Pagination footer at the bottom of the review list */
+.review-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  padding: 16px 8px;
+  margin-top: 8px;
+}
+.review-pagination .page-btn {
+  background: #fff;
+  border: 1px solid #d8c8e0;
+  color: #4a3a5c;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  min-width: 36px;
+}
+.review-pagination .page-btn:hover:not(.disabled):not(.active) {
+  border-color: #6c4a9d;
+  background: #f3edf7;
+}
+.review-pagination .page-btn.active {
+  background: #6c4a9d;
+  color: #fff;
+  border-color: #6c4a9d;
+  cursor: default;
+}
+.review-pagination .page-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.review-pagination .page-ellipsis {
+  padding: 0 4px;
+  color: #999;
+}
+
 /* ---- add-member section (合同サークル の 2nd author 追加) ---- */
 .card-addmember {
   margin-top: 16px;

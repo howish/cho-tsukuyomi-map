@@ -239,6 +239,8 @@
 
   let filterStatus = 'unresolved';  // 'unresolved' | 'all'
   const filterEvents = new Set();   // selected event slugs (empty = all)
+  let currentPage = 0;
+  const PAGE_SIZE = 20;
   const filterPlatforms = new Set(); // selected platforms (empty = all)
 
   function authorPrimaryPlatform(a) {
@@ -1207,6 +1209,7 @@
           filterEvents.add(ev.slug);
           btn.classList.add('active');
         }
+        currentPage = 0;
         render();
       });
       row.appendChild(btn);
@@ -1234,6 +1237,7 @@
           filterPlatforms.add(p);
           btn.classList.add('active');
         }
+        currentPage = 0;
         render();
       });
       row.appendChild(btn);
@@ -1506,16 +1510,52 @@
       return (a.circle.circle_name || a.circle.id).localeCompare(b.circle.circle_name || b.circle.id);
     });
 
-    let shown = 0;
-    for (const { circle, memberAuthors } of circleHits) {
+    const totalCircles = circleHits.length;
+    const totalPages = Math.max(1, Math.ceil(totalCircles / PAGE_SIZE));
+    if (currentPage >= totalPages) currentPage = totalPages - 1;
+    if (currentPage < 0) currentPage = 0;
+    const startIdx = currentPage * PAGE_SIZE;
+    const endIdx = Math.min(startIdx + PAGE_SIZE, totalCircles);
+    const pageHits = circleHits.slice(startIdx, endIdx);
+
+    for (const { circle, memberAuthors } of pageHits) {
       list.appendChild(renderCircleCard(circle, memberAuthors));
-      shown++;
-      if (shown >= 500) break;
     }
-    if (shown === 0) {
+    if (totalCircles === 0) {
       list.appendChild(el('p', { class: 'empty' }, '該当サークルなし'));
+    } else if (totalPages > 1) {
+      // Page nav at bottom
+      const nav = el('div', { class: 'review-pagination' });
+      function pageBtn(label, targetPage, disabled, active) {
+        const cls = 'page-btn' + (disabled ? ' disabled' : '') + (active ? ' active' : '');
+        const btn = el('button', {
+          type: 'button', class: cls,
+          onclick: () => { if (!disabled && !active) { currentPage = targetPage; render(); window.scrollTo(0, 0); } },
+        }, label);
+        return btn;
+      }
+      nav.appendChild(pageBtn('← prev', currentPage - 1, currentPage === 0, false));
+      // Page numbers (compact: first, ..., current ± 2, ..., last)
+      const pageNums = [];
+      for (let p = 0; p < totalPages; p++) {
+        if (p === 0 || p === totalPages - 1 || (p >= currentPage - 2 && p <= currentPage + 2)) {
+          pageNums.push(p);
+        } else if (pageNums[pageNums.length - 1] !== '…') {
+          pageNums.push('…');
+        }
+      }
+      pageNums.forEach(p => {
+        if (p === '…') {
+          nav.appendChild(el('span', { class: 'page-ellipsis' }, '…'));
+        } else {
+          nav.appendChild(pageBtn(String(p + 1), p, false, p === currentPage));
+        }
+      });
+      nav.appendChild(pageBtn('next →', currentPage + 1, currentPage === totalPages - 1, false));
+      list.appendChild(nav);
     }
-    stats.textContent = `${shown} circles / 未確定 author ${unresolved} / 全 author ${total}`;
+    const showingRange = totalCircles ? `${startIdx + 1}–${endIdx}` : '0';
+    stats.textContent = `${showingRange} / ${totalCircles} circles 表示 (page ${currentPage + 1}/${totalPages}) — 未確定 author ${unresolved} / 全 author ${total}`;
     renderPending();
   }
 
@@ -1529,12 +1569,16 @@
       document.querySelectorAll('[data-status]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       filterStatus = btn.dataset.status;
+      currentPage = 0;
       render();
     });
   });
 
-  // Search
-  document.getElementById('review-search').addEventListener('input', render);
+  // Search — reset to page 0 when query changes
+  document.getElementById('review-search').addEventListener('input', () => {
+    currentPage = 0;
+    render();
+  });
 
   // Pending actions
   document.getElementById('submit-github').addEventListener('click', () => {
