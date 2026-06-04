@@ -1168,9 +1168,15 @@ body.edit-mode .circle-link-chip.pending-add .pending-add-remove:hover {
   flex-wrap: wrap;
   align-items: center;
 }
+/* Sprint Bγ-polish J (2026-06-04): circle alias chips flow INLINE next to
+ * the circle name so they read as part of the title (per howish). The
+ * default .circle-alias-row was a flex column block — override here in
+ * the head context to inline-flex with no top margin. */
 body.edit-mode .circle-row .circle-row-head .circle-alias-row {
-  flex: 1 0 100%;
-  margin-top: 4px;
+  flex: 0 1 auto;
+  margin-top: 0;
+  gap: 4px;
+  align-items: center;
 }
 
 /* Sprint Bγ-polish B (2026-06-04): + 新メンバー追加 button + new-member section */

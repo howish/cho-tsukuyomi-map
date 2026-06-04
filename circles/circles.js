@@ -199,13 +199,33 @@
   }
 
   let allCircles = [];
-  // Filter state: only one base filter active, multiple event/platform filters AND-combined
-  let baseFilter = 'all';
-  const eventFilters = new Set();     // selected event slugs (subset)
-  const platformFilters = new Set();  // selected platforms (subset)
 
-  // Read-mode pagination (Sprint Bγ-polish D 2026-06-04).
-  // Edit mode overrides via YACHI_PAGINATE hook; read mode uses these defaults.
+  // Sprint Bγ-polish I (2026-06-04): persist filter selections to
+  // localStorage so reload / mode toggle preserves the view.
+  const FILTER_KEY = 'circles-filter-state-v1';
+  function loadFilterState() {
+    try { return JSON.parse(localStorage.getItem(FILTER_KEY) || '{}'); }
+    catch (e) { return {}; }
+  }
+  function saveFilterState() {
+    try {
+      localStorage.setItem(FILTER_KEY, JSON.stringify({
+        baseFilter, eventFilters: [...eventFilters],
+        platformFilters: [...platformFilters],
+        search: (document.getElementById('circles-search') || {}).value || '',
+      }));
+    } catch (e) {}
+  }
+  const savedFilterState = loadFilterState();
+
+  // Filter state: only one base filter active, multiple event/platform filters AND-combined
+  let baseFilter = savedFilterState.baseFilter || 'all';
+  const eventFilters = new Set(savedFilterState.eventFilters || []);
+  const platformFilters = new Set(savedFilterState.platformFilters || []);
+
+  // Read-mode pagination (Sprint Bγ-polish D 2026-06-04). Edit mode
+  // overrides via YACHI_PAGINATE hook; read mode uses these defaults.
+  // Pagination state is NOT persisted (resets to page 1 on reload).
   let readPage = 0;
   const READ_PAGE_SIZE = 50;
 
@@ -343,6 +363,7 @@
   function onFilterChange() {
     readPage = 0;
     if (window.YACHI_ON_FILTER_CHANGE) window.YACHI_ON_FILTER_CHANGE();
+    saveFilterState();
     applyFilter();
   }
 
@@ -361,7 +382,8 @@
     const sorted = [...counts.values()].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
     const row = document.getElementById('filter-row-events');
     sorted.forEach(ev => {
-      const btn = el('button', { class: 'filter-btn', 'data-event': ev.slug },
+      const btnClass = 'filter-btn' + (eventFilters.has(ev.slug) ? ' active' : '');
+      const btn = el('button', { class: btnClass, 'data-event': ev.slug },
         `${ev.name} (${ev.count})`);
       btn.addEventListener('click', () => {
         if (eventFilters.has(ev.slug)) {
@@ -391,7 +413,8 @@
     const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
     const row = document.getElementById('filter-row-platforms');
     sorted.forEach(([p, n]) => {
-      const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p });
+      const btnClass = 'filter-btn chip-' + p + (platformFilters.has(p) ? ' active' : '');
+      const btn = el('button', { class: btnClass, 'data-platform': p });
       btn.appendChild(platformIcon(p));
       btn.appendChild(document.createTextNode(` ${p} (${n})`));
       btn.addEventListener('click', () => {
@@ -461,6 +484,15 @@
     buildEventFilters();
     buildPlatformFilters();
 
+    // Restore persisted search (chips already get .active via buildXxx;
+    // base filter is read-only in edit mode — not exposed in the UI).
+    const sInput = document.getElementById('circles-search');
+    if (sInput && savedFilterState.search) {
+      sInput.value = savedFilterState.search;
+      const sClear = document.getElementById('circles-search-clear');
+      if (sClear) sClear.hidden = false;
+    }
+
     // Edit-mode handlers (search, filter clicks, render) are wired by
     // circles-edit.js after it loads. circles.js doesn't touch the search
     // input or run applyFilter in edit mode — its applyFilter is a no-op
@@ -524,21 +556,35 @@
   allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
   buildEventFilters();
   buildPlatformFilters();
-  applyFilter();
 
-  // Wire up search + base filters (multi/no-handle/all). Any filter change
-  // resets to page 0 so the user doesn't end up on a now-empty page.
+  // Restore persisted base filter + search before first applyFilter so the
+  // initial render reflects the saved state (Sprint Bγ-polish I).
+  document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => {
+    if (b.dataset.filter === baseFilter) b.classList.add('active');
+    else b.classList.remove('active');
+  });
   const searchInput = document.getElementById('circles-search');
   const searchClear = document.getElementById('circles-search-clear');
+  if (savedFilterState.search) {
+    searchInput.value = savedFilterState.search;
+    searchClear.hidden = false;
+  }
+
+  applyFilter();
+
+  // Wire up search + base filter handlers — any change resets pagination
+  // and persists the filter state.
   searchInput.addEventListener('input', () => {
     searchClear.hidden = !searchInput.value;
     readPage = 0;
+    saveFilterState();
     applyFilter();
   });
   searchClear.addEventListener('click', () => {
     searchInput.value = '';
     searchClear.hidden = true;
     readPage = 0;
+    saveFilterState();
     applyFilter();
     searchInput.focus();
   });
@@ -548,6 +594,7 @@
       btn.classList.add('active');
       baseFilter = btn.dataset.filter;
       readPage = 0;
+      saveFilterState();
       applyFilter();
     });
   });

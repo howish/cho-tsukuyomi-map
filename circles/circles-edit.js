@@ -239,7 +239,16 @@
 
   // Sprint Bγ-polish E (2026-06-04): event/platform filter state lives in
   // circles.js and drives both modes. Edit mode only owns status filter.
-  let filterStatus = 'unresolved';  // 'unresolved' | 'all'
+  // Sprint Bγ-polish I (2026-06-04): persist status filter in localStorage
+  // so reload + mode-toggle preserves the view.
+  const STATUS_KEY = 'circles-edit-status-filter-v1';
+  let filterStatus = (function() {
+    try { return localStorage.getItem(STATUS_KEY) || 'unresolved'; }
+    catch (e) { return 'unresolved'; }
+  })();
+  function saveFilterStatus() {
+    try { localStorage.setItem(STATUS_KEY, filterStatus); } catch (e) {}
+  }
   let currentPage = 0;
   const PAGE_SIZE = 20;
 
@@ -570,8 +579,10 @@
     const pendingAdds = pendingCircleAliases[c.id] || [];
     const pendingRemoves = pendingCircleAliasRemovals[c.id] || [];
 
+    // Sprint Bγ-polish J (2026-06-04): no "別名:" label — the chip shape
+    // already communicates "this is an alias". Circle aliases sit inline
+    // with the circle name (CSS rule on .circle-alias-row).
     const aliasRow = el('div', { class: 'circle-alias-row' });
-    aliasRow.appendChild(el('span', { class: 'circle-alias-label' }, '別名:'));
 
     savedAliases.forEach(al => {
       const marked = pendingRemoves.includes(al);
@@ -856,7 +867,6 @@
     const savedAliases = a.aliases || [];
     const pendingMemAdds = pendingAliases[a.id] || [];
     const aliasRow = el('div', { class: 'card-alias-row' });
-    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
     savedAliases.forEach(al => {
       const marked = isAliasMarkedForRemoval(a.id, al);
       const chip = el('span', { class: 'alias-chip' + (marked ? ' marked-remove' : '') });
@@ -1203,7 +1213,6 @@
 
     // Aliases (m.aliases — direct mutation)
     const aliasRow = el('div', { class: 'card-alias-row' });
-    aliasRow.appendChild(el('span', { class: 'card-alias-label' }, '別名:'));
     (m.aliases || []).forEach((al, idx) => {
       const chip = el('span', { class: 'alias-chip' });
       chip.appendChild(el('span', { class: 'alias-text' }, al));
@@ -1362,12 +1371,16 @@
   // own readPage internally).
   window.YACHI_ON_FILTER_CHANGE = function() { currentPage = 0; };
 
-  // Status filter (edit-only chip row #filter-row-status)
+  // Status filter (edit-only chip row #filter-row-status) — mark the saved
+  // selection active on bootstrap so the persisted state is visible.
   document.querySelectorAll('#filter-row-status [data-status]').forEach(btn => {
+    if (btn.dataset.status === filterStatus) btn.classList.add('active');
+    else btn.classList.remove('active');
     btn.addEventListener('click', () => {
       document.querySelectorAll('#filter-row-status [data-status]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       filterStatus = btn.dataset.status;
+      saveFilterStatus();
       currentPage = 0;
       render();
     });
