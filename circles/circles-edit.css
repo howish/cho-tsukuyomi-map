@@ -1296,3 +1296,19 @@ body.edit-mode .circle-row .circle-row-head .circle-alias-row {
 .member-section.new-member-section .member-name {
   color: #7a3aa6;
 }
+
+/* Sprint Bγ-polish C (2026-06-04): ✨ 候補採用 button — purple accent
+ * so the reviewer can spot "the auto-cleanup proposed something" instantly. */
+.member-section .accept-suggestion-btn {
+  background: #7c4dff;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.member-section .accept-suggestion-btn:hover {
+  background: #6438e0;
+}

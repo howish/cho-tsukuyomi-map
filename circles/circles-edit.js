@@ -828,6 +828,33 @@
         },
       }, isConfirmed ? '✅ 確定済' : '✅ 確定');
       actions.appendChild(confirmBtn);
+      // ✨ Suggestion bulk-accept (Sprint Bγ-polish C 2026-06-04) — only
+      // when an audit suggestion exists and the reviewer hasn't confirmed
+      // a decision yet. Fills name + adds suggested aliases as pending.
+      const suggestion = a.name_audit_suggestion;
+      if (suggestion && suggestion.name && !isConfirmed) {
+        const sugBtn = el('button', {
+          type: 'button', class: 'accept-suggestion-btn',
+          title: suggestion.reason ? '理由: ' + suggestion.reason : '監査候補を採用',
+          onclick: () => {
+            nameInput.value = suggestion.name;
+            // Add suggested aliases as pending (skip dupes)
+            const existing = a.aliases || [];
+            const alreadyPending = pendingAliases[a.id] || [];
+            const adds = (suggestion.aliases || []).filter(
+              al => !existing.includes(al) && !alreadyPending.includes(al)
+            );
+            if (adds.length) {
+              pendingAliases[a.id] = alreadyPending.concat(adds);
+              savePendingAliases(pendingAliases);
+            }
+            // Trigger the input event so pending gets the new name+source
+            nameInput.dispatchEvent(new Event('input'));
+            render();
+          },
+        }, '✨ 候補採用');
+        actions.appendChild(sugBtn);
+      }
       // ⏭ Skip
       actions.appendChild(el('button', {
         type: 'button', class: 'skip-btn',
