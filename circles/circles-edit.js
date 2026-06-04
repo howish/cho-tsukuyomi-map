@@ -708,6 +708,14 @@
 
     const head = sec.querySelector(':scope > .member-head');
 
+    // Per howish 2026-06-04: drop the duplicated member-name text in edit
+    // mode — the name input below carries the editable value. Keep just
+    // the 👤 marker so the role stays visually anchored.
+    if (head) {
+      const nameSpan = head.querySelector(':scope > .member-name');
+      if (nameSpan) nameSpan.textContent = '👤';
+    }
+
     // Name + source row (skip for skip/remove states)
     let nameInput = null, sourceSelect = null;
     if (head && !isSkip && !isRemove) {
@@ -841,6 +849,10 @@
     }
 
     // Member alias row (saved + pending + add input)
+    // Per howish 2026-06-04: append IMMEDIATELY after member-head so the
+    // "name + source" + "aliases" + "socials" groups are visually
+    // sequenced. The afterEl-aware appendAddSocialForm relies on chip
+    // row position, so we insert this row BEFORE the chip row.
     const savedAliases = a.aliases || [];
     const pendingMemAdds = pendingAliases[a.id] || [];
     const aliasRow = el('div', { class: 'card-alias-row' });
@@ -894,7 +906,11 @@
     });
     aliasRow.appendChild(mAliasInput);
     aliasRow.appendChild(mAliasBtn);
-    sec.appendChild(aliasRow);
+    // Insert aliasRow BEFORE the chip row so the order is:
+    //   member-head (name+source) → aliases edit → socials chips → ...
+    const _chipRowForAlias = sec.querySelector(':scope > .circle-links');
+    if (_chipRowForAlias) sec.insertBefore(aliasRow, _chipRowForAlias);
+    else sec.appendChild(aliasRow);
 
     // Augment existing member social chips with × button
     const memberChipRow = sec.querySelector(':scope > .circle-links');

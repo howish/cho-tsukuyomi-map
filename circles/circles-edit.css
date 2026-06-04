@@ -1229,3 +1229,47 @@ body.edit-mode .circle-row .circle-row-head .circle-alias-row {
 .member-section .confirm-btn.is-confirmed:hover {
   background: #c85858;  /* preview of "un-confirm" intent */
 }
+
+/* Sprint Bγ-polish G (2026-06-04): visual cleanup per howish feedback
+ * - Hide redundant inline alias displays (decorator owns editable view)
+ * - Dashed dividers between sub-sections so name/aliases/socials/actions
+ *   read as distinct groups
+ * - Member-name span shows just 👤 in edit mode (text replaced by JS) */
+
+body.edit-mode .member-aliases,
+body.edit-mode .circle-row .circle-aliases {
+  display: none;
+}
+
+/* 👤 marker stays bold but adjacent to the input row */
+body.edit-mode .member-name {
+  font-size: 0.95rem;
+  flex: 0 0 auto;
+}
+
+/* Dashed dividers between sub-sections inside a .member-section.
+ * Order in DOM: head → aliases → socials chips → +SNS form → WS → actions
+ * (action divider already added via .card-form-actions border-top). */
+.member-section .card-alias-row {
+  padding-top: 8px;
+  border-top: 1px dashed #d8c8e0;
+}
+.member-section > .circle-links {
+  padding-top: 8px;
+  border-top: 1px dashed #d8c8e0;
+}
+.member-section .add-social-block {
+  /* sits right after socials chip row visually — no extra divider here
+   * since the chip row already has one */
+}
+.member-section .card-ws-block {
+  padding-top: 8px;
+  border-top: 1px dashed #d8c8e0;
+}
+
+/* Same dividers in the circle header area between alias edit row +
+ * circle.socials chip row + add-social form */
+.circle-row.two-tier > .circle-links {
+  padding-top: 6px;
+  border-top: 1px dashed #d8c8e0;
+}
