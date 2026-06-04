@@ -1184,51 +1184,35 @@
   }
 
 
-  // ---- Filter UI builders ----
-  function buildEventFilter() {
-    const counts = {};
-    for (const cid in CIRCLES) {
-      const c = CIRCLES[cid];
-      for (const e of (c.events || [])) {
-        if (!counts[e.slug]) counts[e.slug] = { slug: e.slug, name: e.name, count: 0 };
-        counts[e.slug].count++;
-      }
-    }
-    const sorted = Object.values(counts).sort((a, b) => a.slug.localeCompare(b.slug));
-    const row = document.getElementById('filter-event');
-    sorted.forEach(ev => {
-      const btn = el('button', {
-        class: 'filter-btn',
-        type: 'button',
-      }, `${ev.name} (${ev.count})`);
+  // ---- Filter UI handler attachment (Sprint Bα 2026-06-04) ----
+  // The filter chip rows are now BUILT by circles.js from circle-level data
+  // (shared with read mode). circles-edit.js only attaches edit-mode click
+  // handlers to the existing chips. Selector targets the unified DOM IDs
+  // (#filter-row-events, #filter-row-platforms) from circles/index.html.
+  function attachEventFilterHandlers() {
+    const row = document.getElementById('filter-row-events');
+    if (!row) return;
+    row.querySelectorAll('.filter-btn[data-event]').forEach(btn => {
+      const slug = btn.dataset.event;
       btn.addEventListener('click', () => {
-        if (filterEvents.has(ev.slug)) {
-          filterEvents.delete(ev.slug);
+        if (filterEvents.has(slug)) {
+          filterEvents.delete(slug);
           btn.classList.remove('active');
         } else {
-          filterEvents.add(ev.slug);
+          filterEvents.add(slug);
           btn.classList.add('active');
         }
         currentPage = 0;
         render();
       });
-      row.appendChild(btn);
     });
   }
 
-  function buildPlatformFilter() {
-    const counts = {};
-    for (const a of authorList()) {
-      const p = authorPrimaryPlatform(a);
-      counts[p] = (counts[p] || 0) + 1;
-    }
-    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-    const row = document.getElementById('filter-platform');
-    sorted.forEach(([p, n]) => {
-      const btn = el('button', {
-        class: 'filter-btn',
-        type: 'button',
-      }, `${p} (${n})`);
+  function attachPlatformFilterHandlers() {
+    const row = document.getElementById('filter-row-platforms');
+    if (!row) return;
+    row.querySelectorAll('.filter-btn[data-platform]').forEach(btn => {
+      const p = btn.dataset.platform;
       btn.addEventListener('click', () => {
         if (filterPlatforms.has(p)) {
           filterPlatforms.delete(p);
@@ -1240,7 +1224,6 @@
         currentPage = 0;
         render();
       });
-      row.appendChild(btn);
     });
   }
 
@@ -1477,9 +1460,12 @@
   // a circle under one container. Filters: a circle shows if ANY of its
   // members passes the author-level filters + search.
   function render() {
+    // Sprint Bα (2026-06-04): shared #circles-stats + #circles-search drive
+    // both modes; #review-list still holds edit-mode cards until Bβ.
     const list = document.getElementById('review-list');
-    const stats = document.getElementById('review-stats');
-    const q = (document.getElementById('review-search').value || '').trim();
+    const stats = document.getElementById('circles-stats');
+    const searchEl = document.getElementById('circles-search');
+    const q = (searchEl ? searchEl.value : '').trim();
     list.innerHTML = '';
     const total = authorList().length;
     let unresolved = 0;
@@ -1560,13 +1546,15 @@
   }
 
   // ---- Bootstrap ----
-  buildEventFilter();
-  buildPlatformFilter();
+  // Filter chips are built by circles.js (shared between read + edit). We
+  // just attach edit-mode handlers to the existing chips.
+  attachEventFilterHandlers();
+  attachPlatformFilterHandlers();
 
-  // Status filter
-  document.querySelectorAll('[data-status]').forEach(btn => {
+  // Status filter (edit-only chip row #filter-row-status)
+  document.querySelectorAll('#filter-row-status [data-status]').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-status]').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('#filter-row-status [data-status]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       filterStatus = btn.dataset.status;
       currentPage = 0;
@@ -1574,11 +1562,15 @@
     });
   });
 
-  // Search — reset to page 0 when query changes
-  document.getElementById('review-search').addEventListener('input', () => {
-    currentPage = 0;
-    render();
-  });
+  // Search — shared #circles-search input drives both modes. Reset to page 0
+  // when the query changes (edit-mode pagination concept).
+  const searchInput = document.getElementById('circles-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      currentPage = 0;
+      render();
+    });
+  }
 
   // Pending actions
   document.getElementById('submit-github').addEventListener('click', () => {

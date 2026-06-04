@@ -243,7 +243,8 @@
     stats.textContent = `${count.toLocaleString()} 件表示 / 全 ${allCircles.length.toLocaleString()} サークル (${multiCount} 件が 2 event 以上)`;
   }
 
-  function buildEventFilters() {
+  function buildEventFilters(opts) {
+    const attachHandlers = !opts || opts.attachHandlers !== false;
     // collect (slug, name) from all circle events, count occurrences
     const counts = new Map();
     for (const c of allCircles) {
@@ -261,21 +262,24 @@
     sorted.forEach(ev => {
       const btn = el('button', { class: 'filter-btn', 'data-event': ev.slug },
         `${ev.name} (${ev.count})`);
-      btn.addEventListener('click', () => {
-        if (eventFilters.has(ev.slug)) {
-          eventFilters.delete(ev.slug);
-          btn.classList.remove('active');
-        } else {
-          eventFilters.add(ev.slug);
-          btn.classList.add('active');
-        }
-        applyFilter();
-      });
+      if (attachHandlers) {
+        btn.addEventListener('click', () => {
+          if (eventFilters.has(ev.slug)) {
+            eventFilters.delete(ev.slug);
+            btn.classList.remove('active');
+          } else {
+            eventFilters.add(ev.slug);
+            btn.classList.add('active');
+          }
+          applyFilter();
+        });
+      }
       row.appendChild(btn);
     });
   }
 
-  function buildPlatformFilters() {
+  function buildPlatformFilters(opts) {
+    const attachHandlers = !opts || opts.attachHandlers !== false;
     const counts = new Map();
     for (const c of allCircles) {
       const seen = new Set();
@@ -292,26 +296,45 @@
       const btn = el('button', { class: 'filter-btn chip-' + p, 'data-platform': p });
       btn.appendChild(platformIcon(p));
       btn.appendChild(document.createTextNode(` ${p} (${n})`));
-      btn.addEventListener('click', () => {
-        if (platformFilters.has(p)) {
-          platformFilters.delete(p);
-          btn.classList.remove('active');
-        } else {
-          platformFilters.add(p);
-          btn.classList.add('active');
-        }
-        applyFilter();
-      });
+      if (attachHandlers) {
+        btn.addEventListener('click', () => {
+          if (platformFilters.has(p)) {
+            platformFilters.delete(p);
+            btn.classList.remove('active');
+          } else {
+            platformFilters.add(p);
+            btn.classList.add('active');
+          }
+          applyFilter();
+        });
+      }
       row.appendChild(btn);
     });
   }
 
+  // ---- Shared data hydration (used by both modes) ----
+  // circles.json drives both the read-mode list AND the shared filter chips
+  // (event/platform). Hoisted above the mode-detection block so the edit
+  // branch can call hydrateCircle + buildEventFilters + buildPlatformFilters
+  // without temporal-dead-zone errors.
+  const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
+  const AUTHORS_BY_ID = window.AUTHORS_BY_ID || {};
+
   // ---- Mode detection ----
   // Single canonical URL /circles/ serves both read mode (default) and edit
-  // mode (?mode=edit). Edit mode reveals review.js's pending-decisions UI
-  // and renders via the lazily-loaded circles-edit.js + ws-candidates.js.
-  // /review/ is now a redirect to ?mode=edit.
+  // mode (?mode=edit). Edit mode reveals the pending-decisions UI and
+  // attaches edit-only handlers; /review/ is a redirect to ?mode=edit.
+  // Sprint Bα (2026-06-04): both modes share the same filter UI (chip rows
+  // in #shared-controls). circles.js always builds the event + platform
+  // chip rows from data; in read mode it also attaches read-mode handlers
+  // and renders #circles-list. In edit mode it skips handlers + render and
+  // hands off to circles-edit.js, which attaches its own handlers to the
+  // same chips and renders into #review-list (Bβ will unify the list too).
   const isEditMode = new URLSearchParams(location.search).get('mode') === 'edit';
+
+  // Set body class so CSS can show/hide mode-specific filter rows
+  // (filter-row-edit-only / filter-row-read-only).
+  document.body.classList.add(isEditMode ? 'edit-mode' : 'read-mode');
 
   // Toggle the mode-link in the header (text + href) so the user can flip back.
   const modeToggle = document.getElementById('mode-toggle');
@@ -326,15 +349,24 @@
   }
 
   if (isEditMode) {
-    // Hand off rendering entirely to circles-edit.js. Hide read-mode DOM,
-    // reveal edit-mode DOM, then lazy-load the edit scripts so read-mode
-    // visits don't pay the 200KB+ payload.
-    const readMain = document.getElementById('read-mode-main');
-    const editMain = document.getElementById('edit-mode-main');
-    if (readMain) readMain.hidden = true;
-    if (editMain) editMain.hidden = false;
-    // Cache-bust: reuse this script's own ?v= so edit assets stay in sync
-    // with the page's deployed version.
+    // Edit mode bootstrap:
+    // 1. Hide read-mode list, reveal review-list (Bβ will unify these)
+    // 2. Build event + platform filter chips from data (shared with edit)
+    //    but DON'T attach read-mode click handlers — circles-edit.js will
+    // 3. Lazy-load circles-edit.css + ws-candidates.js + circles-edit.js
+    //    (read-mode visitors don't pay the ~200KB payload)
+    const readList = document.getElementById('circles-list');
+    const editList = document.getElementById('review-list');
+    if (readList) readList.hidden = true;
+    if (editList) editList.hidden = false;
+
+    // Build shared filter chips (data-driven). Edit-mode click handlers are
+    // attached by circles-edit.js after it loads.
+    allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
+    buildEventFilters({ attachHandlers: false });
+    buildPlatformFilters({ attachHandlers: false });
+
+    // Cache-bust: reuse this script's own ?v= so edit assets stay in sync.
     const ownScript = document.currentScript ||
       [...document.scripts].reverse().find(s => /circles\/circles\.js/.test(s.src));
     const v = ownScript
@@ -344,8 +376,6 @@
     css.rel = 'stylesheet';
     css.href = 'circles-edit.css?v=' + v;
     document.head.appendChild(css);
-    // Load ws-candidates.js first (provides window.WS_CANDIDATES), then
-    // circles-edit.js (consumes it on bootstrap).
     const s1 = document.createElement('script');
     s1.src = 'ws-candidates.js?v=' + v;
     s1.onload = () => {
@@ -354,7 +384,7 @@
       document.body.appendChild(s2);
     };
     document.body.appendChild(s1);
-    return;  // Skip read-mode bootstrap.
+    return;  // Skip read-mode-specific bootstrap (handlers + render).
   }
 
   // ---- Read-mode bootstrap ----
@@ -362,8 +392,6 @@
   // person-level fields (x_handle, author, socials) live on authors.
   // Hydrate each circle with primary-member fields so the existing render
   // code keeps working without per-line refactors.
-  const CIRCLES_BY_ID = window.CIRCLES_BY_ID || {};
-  const AUTHORS_BY_ID = window.AUTHORS_BY_ID || {};
   function hydrateCircle(c) {
     const memberIds = c.members || [];
     const memberAuthors = memberIds.map(id => AUTHORS_BY_ID[id]).filter(Boolean);

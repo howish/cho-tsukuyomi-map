@@ -259,3 +259,11 @@
   color: var(--text-muted);
 }
 .error { color: #d32f2f; }
+
+/* Mode-specific filter row visibility — Sprint Bα (2026-06-04):
+ * The same horizontal chip rows drive both modes, but the status filter
+ * (未確定のみ / 全 author) is meaningful only in edit mode, and the base
+ * filter (multi/no-handle/全部) is read-only-meaningful. CSS hides whichever
+ * row doesn't apply to the active mode (body class set by circles.js). */
+body.read-mode .filter-row-edit-only { display: none; }
+body.edit-mode .filter-row-read-only { display: none; }
