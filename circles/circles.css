@@ -267,3 +267,9 @@
  * row doesn't apply to the active mode (body class set by circles.js). */
 body.read-mode .filter-row-edit-only { display: none; }
 body.edit-mode .filter-row-read-only { display: none; }
+
+/* Make sure the [hidden] attribute always wins over the display:flex rule
+ * on .circles-list / .review-list. Without this, edit mode shows BOTH the
+ * read-mode "読み込み中..." placeholder and the edit-mode list because the
+ * class selector's specificity (0,0,1,0) outranks the UA's [hidden] rule. */
+.circles-list[hidden], .review-list[hidden] { display: none; }
