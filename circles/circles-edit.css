@@ -59,33 +59,9 @@
   font-weight: 600;
 }
 
-.filter-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-
-.filter-btn {
-  background: #ede4f5;
-  border: 1px solid #c8b8d8;
-  color: #4a3a5c;
-  font-size: 12px;
-  padding: 5px 12px;
-  border-radius: 14px;
-  cursor: pointer;
-  transition: all 0.15s;
-  -webkit-tap-highlight-color: transparent;
-  font-weight: 500;
-}
-.filter-btn:hover, .filter-btn:active {
-  background: #d8c8e8;
-  border-color: #a888c0;
-}
-.filter-btn.active {
-  background: #8b6cb4;
-  border-color: #6c4a9d;
-  color: #fff;
-}
+/* .filter-row + .filter-btn styling now lives in circles.css (Bγ-polish
+ * fix 2026-06-04). Both modes share the same horizontal chip rows from
+ * #shared-controls so they should look identical. */
 
 .review-search {
   width: 100%;
@@ -956,45 +932,7 @@
   font-style: italic;
 }
 
-/* Pagination footer at the bottom of the review list */
-.review-pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  flex-wrap: wrap;
-  padding: 16px 8px;
-  margin-top: 8px;
-}
-.review-pagination .page-btn {
-  background: #fff;
-  border: 1px solid #d8c8e0;
-  color: #4a3a5c;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 13px;
-  cursor: pointer;
-  font-weight: 500;
-  min-width: 36px;
-}
-.review-pagination .page-btn:hover:not(.disabled):not(.active) {
-  border-color: #6c4a9d;
-  background: #f3edf7;
-}
-.review-pagination .page-btn.active {
-  background: #6c4a9d;
-  color: #fff;
-  border-color: #6c4a9d;
-  cursor: default;
-}
-.review-pagination .page-btn.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-.review-pagination .page-ellipsis {
-  padding: 0 4px;
-  color: #999;
-}
+/* Pagination styles relocated to circles.css (Bγ-polish fix 2026-06-04). */
 
 /* ---- add-member section (合同サークル の 2nd author 追加) ---- */
 .card-addmember {
@@ -1220,45 +1158,8 @@ body.edit-mode .circle-link-chip.pending-add .pending-add-remove:hover {
   box-shadow: 0 0 0 2px rgba(74, 157, 99, 0.15);
 }
 
-/* Pagination nav — Bβ.next added but unstyled */
-.review-pagination {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid #e0d4ec;
-}
-.review-pagination .page-btn {
-  background: #fff;
-  border: 1px solid #c8b8d8;
-  color: #6c4a9d;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 13px;
-  cursor: pointer;
-  font-weight: 500;
-}
-.review-pagination .page-btn:hover {
-  background: #ede4f5;
-  border-color: #8b6cb4;
-}
-.review-pagination .page-btn.active {
-  background: #6c4a9d;
-  color: #fff;
-  border-color: #6c4a9d;
-  cursor: default;
-}
-.review-pagination .page-btn.disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-.review-pagination .page-ellipsis {
-  padding: 0 4px;
-  color: #888;
-}
+/* Pagination styles relocated to circles.css (Bγ-polish fix 2026-06-04)
+ * so they apply in BOTH modes consistently. */
 
 /* Circle alias row sits inside .circle-row-head (head was a baseline flex
  * row in read mode; in edit mode we add a new line for aliases below). */

@@ -66,6 +66,13 @@
   font-size: 0.85rem;
   cursor: pointer;
   color: var(--text);
+  transition: all 0.15s;
+  -webkit-tap-highlight-color: transparent;
+  font-weight: 500;
+}
+.filter-btn:hover:not(.active) {
+  background: #f3edf7;
+  border-color: var(--accent);
 }
 
 .filter-btn.active {
@@ -273,3 +280,46 @@ body.edit-mode .filter-row-read-only { display: none; }
  * read-mode "読み込み中..." placeholder and the edit-mode list because the
  * class selector's specificity (0,0,1,0) outranks the UA's [hidden] rule. */
 .circles-list[hidden], .review-list[hidden] { display: none; }
+
+/* Pagination — shared between read mode (50/page) and edit mode (20/page).
+ * Both renderers (circles.js applyFilter default + edit's YACHI_PAGINATE)
+ * use the same .review-pagination + .page-btn classes. */
+.review-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.review-pagination .page-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-weight: 500;
+  min-width: 2.2rem;
+}
+.review-pagination .page-btn:hover:not(.disabled):not(.active) {
+  background: #f3edf7;
+  border-color: var(--accent);
+}
+.review-pagination .page-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  cursor: default;
+}
+.review-pagination .page-btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.review-pagination .page-ellipsis {
+  padding: 0 0.3rem;
+  color: var(--text-muted);
+}
