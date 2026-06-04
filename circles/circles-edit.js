@@ -1034,16 +1034,15 @@
   // Unified add-social form factory — used for both circle and member contexts.
   // `kind` is 'circle' (writes to pendingCircleSocials[c.id]) or 'member'
   // (writes to pendingSocials[a.id]); `entity` is the corresponding object.
-  // If `afterEl` is provided, the add-social block is inserted right after
-  // it (so the affordance sits adjacent to the chip row). Otherwise it's
-  // appended to the container.
+  // Per howish 2026-06-04: the toggle button sits at the END of the chip
+  // row (afterEl) as a sibling of the chips so it visually reads as
+  // "next item". The expanding form appears below the chip row when open.
   function appendAddSocialForm(container, afterEl, kind, entity) {
-    const addBlock = el('div', { class: 'add-social-block' });
     const addToggle = el('button', {
       type: 'button', class: 'add-social-toggle',
-      onclick: () => addBlock.classList.toggle('open'),
-    }, kind === 'circle' ? '+ 合同 SNS 追加' : '+ SNS 追加');
+    }, '+ SNS 追加');
     const addForm = el('div', { class: 'add-social-form' });
+    addToggle.addEventListener('click', () => addForm.classList.toggle('open'));
     const urlInput = el('input', {
       type: 'url', placeholder: 'URL (https://...)', class: 'add-social-url',
     });
@@ -1096,7 +1095,7 @@
         }
         urlInput.value = '';
         handleInput.value = '';
-        addBlock.classList.remove('open');
+        addForm.classList.remove('open');
         render();
       },
     }, '+ 追加');
@@ -1106,14 +1105,14 @@
     row2.appendChild(handleInput);
     row2.appendChild(addSocBtn);
     addForm.appendChild(row2);
-    addBlock.appendChild(addToggle);
-    addBlock.appendChild(addForm);
+    // Toggle button sits as the LAST CHILD of the chip row (afterEl).
+    // The form sits as the NEXT SIBLING of the chip row in the container,
+    // expanded when .open is toggled by clicking the button.
+    if (afterEl) afterEl.appendChild(addToggle);
     if (afterEl && afterEl.parentNode === container && afterEl.nextSibling) {
-      container.insertBefore(addBlock, afterEl.nextSibling);
-    } else if (afterEl && afterEl.parentNode === container) {
-      container.appendChild(addBlock);  // afterEl is last child — append works
+      container.insertBefore(addForm, afterEl.nextSibling);
     } else {
-      container.appendChild(addBlock);
+      container.appendChild(addForm);
     }
   }
 

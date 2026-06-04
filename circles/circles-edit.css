@@ -542,35 +542,36 @@
   color: #fff;
 }
 
-/* Add-social inline form */
-.add-social-block {
-  margin-top: 4px;
-}
+/* Add-social toggle now lives inline with the chip row (Sprint Bγ-polish H
+ * 2026-06-04). Styled like a chip with dashed border so it reads as a
+ * "next chip" in the row. The expanding form is a sibling of the chip row
+ * (collapsed by default, opened by the toggle's click handler). */
 .add-social-toggle {
   background: transparent;
   border: 1px dashed #b8a8c8;
   color: #6c4a9d;
-  font-size: 11px;
-  padding: 4px 12px;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.7rem;
   border-radius: 12px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 1.4;
 }
 .add-social-toggle:hover {
   background: #ede4f5;
   border-style: solid;
 }
-.add-social-block .add-social-form {
+.add-social-form {
   display: none;
   flex-direction: column;
   gap: 6px;
-  margin-top: 8px;
+  margin-top: 6px;
   padding: 10px;
   background: #ede4f5;
   border-radius: 8px;
   border: 1px solid #d8c8e0;
 }
-.add-social-block.open .add-social-form { display: flex; }
+.add-social-form.open { display: flex; }
 .add-social-row {
   display: flex;
   gap: 6px;
