@@ -60,7 +60,9 @@ window.BOOTHS = [
     "body": "- 馴龍高手\n- CHRONOIR\n- 神力女超人\n\n## 📝 IF7 出展重點\n- 本人臨時無法到場, 由朋友代為攜帶少量商品擺攤\n- 現場無庫存的品項 可私訊, 將開賣貨便賣場\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iqdlzzqe6)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3WAlq3NVbBQMoGEuhEEfNq.jpg"
+    ]
   },
   {
     "booth_id": "J-06",
@@ -80,7 +82,9 @@ window.BOOTHS = [
     "body": "- 馴龍高手\n- 原創 - 草履貓\n- 芙莉蓮\n\n## 🎪 場後 (2026-05-30 → )\n- 📦 **場後餘量通販** — 新品餘量已上 [賣貨便 (貓咪粗乃丸 Miko 刊物/週邊)](https://www.plurk.com/p/3iqhapxdk3)\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/54IxL10aU4jXOpgZNZdvi7.jpg"
+    ]
   },
   {
     "booth_id": "J-08",
@@ -127,7 +131,9 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 新品聚焦在 **人中之龍 — 峯大**: 行李箱收納盒 / 立牌印章 / 滴膠吊飾 / 行李束帶\n- 既有題材: 東離劍遊紀、魔戒/哈比人\n- 品書未提前公布，當天攤位佈置好才更新\n\n出處: [極限場宣 (5/30)](https://www.plurk.com/p/3iqf8taedg)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/6R2FsUvEbBniVwbPp8pozb.jpg"
+    ]
   },
   {
     "booth_id": "J-13",
@@ -136,7 +142,10 @@ window.BOOTHS = [
     "body": "- 捍衛戰士獨行俠\n- 黑豹\n- 防風少年\n\n## 🎪 場後 (2026-05-30 → )\n- 💛 **場後感謝** + 新刊『伊卡洛斯之翅』(捍衛戰士獨行俠 · 公雞 × 劊子手 / A5 / 21000字 / NT 200) 預計走通販 ([Plurk REPO](https://www.plurk.com/p/3iqi24fq1x))\n- 🎯 **下次參加**: 冬季歐美場 預定\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/aBzqVd1WVlqWOrkGb7qJI.png",
+      "https://images.plurk.com/2TVeLXv4hzGh7TKmE9RV25.png"
+    ]
   },
   {
     "booth_id": "J-14",
@@ -174,7 +183,9 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- FF14 — 流沙票根 新品 + 既品加印\n\n## 🎪 場後 (2026-06-02 evening)\n- 📦 **通販已開** — [賣貨便賣場](https://myship.7-11.com.tw/general/detail/GM2305218786270)\n- 🎁 消費禮 光戰招募卡片 (送完為止)\n\n## 🎯 下次參加\n- 8/15 NiCE2\n\n出處: [參場公告 (4/10)](https://x.com/KovaEhwaz/status/2042426820558274983) / [通販開放 (6/2)](https://x.com/KovaEhwaz/status/2061806651687178649)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJ0B-DWa8AAde5a.jpg"
+    ]
   },
   {
     "booth_id": "J-18",
@@ -395,7 +406,8 @@ window.BOOTHS = [
         "source_url": "https://x.com/ani77561234/status/2059233545353388299",
         "display_url": "https://pbs.twimg.com/media/HJPc5I2aUAENudM.jpg",
         "display_locked": false
-      }
+      },
+      "https://pbs.twimg.com/media/HJ8MHvrbYAAZE2N.jpg"
     ],
     "_meta_scrape_sk": {
       "platform_used": "x",
@@ -468,7 +480,9 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/1pmVAm1TS6NpN3nQzI35oH.png"
+    ]
   },
   {
     "booth_id": "J-30",
@@ -593,7 +607,9 @@ window.BOOTHS = [
       "shounen-jump": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/1LcnvWGuc4RznRlRHCSQWJ.png"
+    ]
   },
   {
     "booth_id": "K-02",
@@ -627,7 +643,9 @@ window.BOOTHS = [
       "harry-potter": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/7qoO15Z28PrSAIefD5u0eF.jpg"
+    ]
   },
   {
     "booth_id": "K-05",
@@ -639,7 +657,10 @@ window.BOOTHS = [
       "shounen-jump": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3riVLogSb7qdYLKgNgM7EY.jpg",
+      "https://images.plurk.com/3F9f9BkhjWxtJ0S8vttOrS.png"
+    ]
   },
   {
     "booth_id": "K-06",
@@ -671,7 +692,9 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 主攤 (Mi_key): 忍亂 利土井 女僕新刊 + 既刊\n- 寄攤 (老優): 海賊 索香 新刊\n- 🎁 卡片 / 貼紙 無料換購\n- 與老優同攤 ([連攤告知](https://www.plurk.com/p/3iqc3mtsz9))\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iq1pzkswa) / [開攤告知](https://www.plurk.com/p/3iqfueorsn)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3uDqF2uZZeq9dAOZkcZ4AK.jpg"
+    ]
   },
   {
     "booth_id": "K-09",
@@ -680,7 +703,9 @@ window.BOOTHS = [
     "body": "- 原創-胎\n- 原創-動物\n- 忍者亂太郎\n\n## 🎪 場後 (2026-05-30 → )\n- 📦 **場後通販** — [2.5小時工坊 賣場](https://www.plurk.com/p/3iqmrpv7yd) (出貨期較長)\n- 🎯 **下次參加**: NiCE\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/7b3iWbQX1wYKnqWynGl4If.png"
+    ]
   },
   {
     "booth_id": "K-10",
@@ -721,7 +746,9 @@ window.BOOTHS = [
     "area": "綜合",
     "body": "## 🎪 場後 (2026-06-02 evening)\n- 📦 **通販已開** — [賣貨便賣場](https://myship.7-11.com.tw/general/detail/GM2605199564988)\n- ⚠️ 兩款 壓克力立牌 為 **預購** 狀態, 其他品項 現貨\n- 📅 6/15 開始陸續出貨 (壓克力立牌 出貨時間 另行公告)\n- 💡 可預購＋現貨 一起下單 (但出貨會比較慢)\n\n出處: [場後通販告知 (6/2)](https://x.com/coffeefish_05/status/2061661169866379357)",
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://pbs.twimg.com/media/HJx95lvbAAA0SBQ.jpg"
+    ]
   },
   {
     "booth_id": "K-13",
@@ -739,7 +766,9 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 藍色監獄 (冴凜) — 新刊 + 無料\n- 冴凜文本『餘燼』 — 凜跑去 pxg 前提，原作未來向 + 穿越 (HE)、NTD 250 暫定\n- AO3 試閱 + 印量調查開放中\n\n出處: [攤位佈置](https://www.plurk.com/p/3iqfnx3wem) / [印量調查](https://www.plurk.com/p/3iny9bxtkc)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3gLv6hRDwFNI6COm4Nx81S.jpg"
+    ]
   },
   {
     "booth_id": "K-15",
@@ -751,7 +780,9 @@ window.BOOTHS = [
       "haikyuu": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/7GsKw4pf98rw5FKyuYyC9H.png"
+    ]
   },
   {
     "booth_id": "K-16",
@@ -797,7 +828,9 @@ window.BOOTHS = [
     "body": "- 我的英雄學園",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/702nVP2Hy64YNZlUPQZkhz.jpg"
+    ]
   },
   {
     "booth_id": "K-22",
@@ -806,7 +839,9 @@ window.BOOTHS = [
     "body": "- 魔法少女",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3aeOj5X0fukw91SlOiTOcG.png"
+    ]
   },
   {
     "booth_id": "K-23",
@@ -916,7 +951,9 @@ window.BOOTHS = [
     "body": "- 地 關於地球的運動\n- 一百公尺\n\n## 🎪 場後 (2026-05-30 → )\n- 📦 **場後通販 開放** — [全家賣場 + 楓林館](https://www.plurk.com/p/3iqwkugj8f) (航海王 索香 / JOJO SBR / 地。關於地球的運動 / オクバデ / 一百公尺), 楓林館指定商品新品上架優惠中, 下標需於備註留 email\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/3bbu32qKIAP4aK0hr4KiGn.png"
+    ]
   },
   {
     "booth_id": "K-33",
@@ -1010,7 +1047,10 @@ window.BOOTHS = [
       "jojo": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/1elUra8fEdjn4K8DuPyAdc.png",
+      "https://images.plurk.com/7KJLf8SKShC8Vtg87K2AJC.png"
+    ]
   },
   {
     "booth_id": "L-02",
@@ -1054,7 +1094,10 @@ window.BOOTHS = [
       "jojo": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/4qzuChezFO8ZWG24B33FBI.jpg",
+      "https://images.plurk.com/2pTmNJhtlk0PRLcqzkzis6.jpg"
+    ]
   },
   {
     "booth_id": "L-06",
@@ -1065,7 +1108,10 @@ window.BOOTHS = [
       "jojo": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/5g4AJZGkcyUIbjQcvUghY9.png",
+      "https://images.plurk.com/5jKvNhfrx5oNvIpLYabBeB.jpg"
+    ]
   },
   {
     "booth_id": "L-07",
@@ -1110,7 +1156,9 @@ window.BOOTHS = [
       "touken": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/5MTiyIGeoUAhEedh9dVpnx.jpg"
+    ]
   },
   {
     "booth_id": "L-12",
@@ -1132,7 +1180,9 @@ window.BOOTHS = [
       "jjk": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/4sEAQRGoRsBLQR4lvc5Qsr.png"
+    ]
   },
   {
     "booth_id": "L-14",
@@ -1186,7 +1236,9 @@ window.BOOTHS = [
       "original": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/i2rCMwRyiktpXirCoJ198.png"
+    ]
   },
   {
     "booth_id": "L-20",
@@ -1277,7 +1329,9 @@ window.BOOTHS = [
       "shingeki": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      "https://images.plurk.com/4NuCN2cUmvQV990m1fTlbe.jpg"
+    ]
   },
   {
     "booth_id": "L-30",
@@ -1323,7 +1377,13 @@ window.BOOTHS = [
     "body": "- 原創-Last day 直至最後一天\n- 神樂鉢\n\n## 🎪 場後 (2026-05-30 → )\n- 📦 **奈漆本《Ambivalent》場後通販** — [杏仁豆腐の賣場](https://www.plurk.com/p/3iqhqbu60w) (神樂鉢 · 巳坂奈之基 × 漆羽洋兒)\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/1qEZN2i49sgO3shD1po50O.jpg",
+        "display_url": "https://images.plurk.com/1qEZN2i49sgO3shD1po50O.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "L-35",
@@ -1472,7 +1532,18 @@ window.BOOTHS = [
       "nijisanji": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4WBVwtFv9f3r8cHseNNNR7.jpg",
+        "display_url": "https://images.plurk.com/4WBVwtFv9f3r8cHseNNNR7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/661aKrUbcWe9g1CB96YZvV.jpg",
+        "display_url": "https://images.plurk.com/661aKrUbcWe9g1CB96YZvV.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-10",
@@ -1501,7 +1572,13 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- Nijisanji 彩虹社 JP / EN\n\n## 🎪 場後 (2026-06-02 evening)\n- 📦 **場後通販開放** — [賣貨便賣場](https://myship.7-11.com.tw/general/detail/GM2504166376256) (~6/13)\n- ⚠️ Baby Ver 套組 剩最後 1 組 (不會再製)\n- ⚠️ 赤城 / 小柳 入油吊飾 數量倒數中\n- 🌏 海外購買 請私訊 (EMS / 順豐, paypal)\n\n出處: [布穀町來場感謝 (5/24)](https://x.com/niwawulei/status/2058526221898846681) / [場後通販告知 (6/2)](https://x.com/niwawulei/status/2061648711957307746)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJFasH_bwAAJz1J.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJFasH_bwAAJz1J.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-13/14",
@@ -1552,7 +1629,18 @@ window.BOOTHS = [
       "original": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJb3Z1ebkAAvBF-.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJb3Z1ebkAAvBF-.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJiQtNIa0AA5x1v.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJiQtNIa0AA5x1v.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-19",
@@ -1604,7 +1692,13 @@ window.BOOTHS = [
     "body": "- 黃金神威\n- 厭世阿萬\n- TRIGUN\n\n## 🎪 場後 (2026-05-30 → )\n- 📦 **場後通販 已開放** — [賣貨便 (粉肝/IF7 合併出貨)](https://www.plurk.com/p/3ipy7gt6n5), matsuko 夾子修正版 (現場為瑕疵款)\n- 🎯 **下次參加**: [8/15 NiCE2](https://www.plurk.com/p/oppbb3)\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/6UKh5P18QPBZOitQ3snfOL.png",
+        "display_url": "https://images.plurk.com/6UKh5P18QPBZOitQ3snfOL.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-21/22",
@@ -1641,7 +1735,13 @@ window.BOOTHS = [
       "aot": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4fKkhYD1oZprVJy5OVevv4.jpg",
+        "display_url": "https://images.plurk.com/4fKkhYD1oZprVJy5OVevv4.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-25",
@@ -1673,7 +1773,13 @@ window.BOOTHS = [
       "conan": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3UtYqtJCHaNsztacYOtSea.jpg",
+        "display_url": "https://images.plurk.com/3UtYqtJCHaNsztacYOtSea.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "M-28",
@@ -1821,7 +1927,13 @@ window.BOOTHS = [
       "vocaloid": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/QwxxCkcMM1m4gpgY2Wdq8.jpg",
+        "display_url": "https://images.plurk.com/QwxxCkcMM1m4gpgY2Wdq8.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-02",
@@ -1851,7 +1963,13 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- i7 (IDOLiSH7) 為主，會帶原創 + 我英 + 排球\n- 商品列表可參考 **[同人誌中心 - 芋頭winnie](https://www.plurk.com/p/3iqcrk9i7m)**\n- ike (Luxiem) 畢業特價中 — **通販賣場開到 5/31** — [告知](https://www.plurk.com/p/3iqcrk9i7m)\n\n出處: [IF7 工商](https://www.plurk.com/p/3iqcrk9i7m)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3tl4t4RbsZ6OzHxBnZBZdS.jpg",
+        "display_url": "https://images.plurk.com/3tl4t4RbsZ6OzHxBnZBZdS.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-04",
@@ -1962,7 +2080,13 @@ window.BOOTHS = [
       "plave": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/J9orE6c2wNFifXiXIwt0g.jpg",
+        "display_url": "https://images.plurk.com/J9orE6c2wNFifXiXIwt0g.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-14",
@@ -2043,7 +2167,13 @@ window.BOOTHS = [
     "body": "- 全知讀者視角\n- NIJISANJI EN\n- KPOP獵魔女團\n\n## 🎪 場後 (2026-05-30 → )\n- 📊 **部分商品 完售** ([場後 Plurk](https://www.plurk.com/p/3iqhx29gfa))\n- 📦 **新品通販** 週五前上架 [小7賣貨便 + 蝦皮](https://www.plurk.com/p/3ir5wm2co1)\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/7wufS7Xwd4y2s8An5F8iAI.png",
+        "display_url": "https://images.plurk.com/7wufS7Xwd4y2s8An5F8iAI.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-21",
@@ -2054,7 +2184,13 @@ window.BOOTHS = [
       "shingeki": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3wRADOgV9xQbfMXKHoC5aX.jpg",
+        "display_url": "https://images.plurk.com/3wRADOgV9xQbfMXKHoC5aX.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-22",
@@ -2089,7 +2225,13 @@ window.BOOTHS = [
       "shingeki": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/1HCfhorffLFMi2GrY8vQY0.jpg",
+        "display_url": "https://images.plurk.com/1HCfhorffLFMi2GrY8vQY0.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "N-25/26",
@@ -2287,7 +2429,13 @@ window.BOOTHS = [
       "pokemon": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/1o4N8EbLGMFAwHUsNnApBx.jpg",
+        "display_url": "https://images.plurk.com/1o4N8EbLGMFAwHUsNnApBx.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-06",
@@ -2349,7 +2497,13 @@ window.BOOTHS = [
     "body": "- 精靈寶可夢",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3duTzJ8ILsZfa2GQND442a.jpg",
+        "display_url": "https://images.plurk.com/3duTzJ8ILsZfa2GQND442a.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-12",
@@ -2383,7 +2537,13 @@ window.BOOTHS = [
       "demon-slayer": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/6V1oTdoZnsSoPj3stXFvk1.jpg",
+        "display_url": "https://images.plurk.com/6V1oTdoZnsSoPj3stXFvk1.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-15",
@@ -2394,7 +2554,13 @@ window.BOOTHS = [
       "chainsawman": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/5l9ffhoxH9lhJ7lv320eNz.jpg",
+        "display_url": "https://images.plurk.com/5l9ffhoxH9lhJ7lv320eNz.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-16",
@@ -2412,7 +2578,13 @@ window.BOOTHS = [
     "body": "- 九日",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3AOqDMndevOKIldDow6Vaz.jpg",
+        "display_url": "https://images.plurk.com/3AOqDMndevOKIldDow6Vaz.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-18",
@@ -2468,7 +2640,18 @@ window.BOOTHS = [
       "novel": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3NTL2XFNutI60iIeJQgfY7.jpg",
+        "display_url": "https://images.plurk.com/3NTL2XFNutI60iIeJQgfY7.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/5NKXPMXNy876yG8cCNgYqq.jpg",
+        "display_url": "https://images.plurk.com/5NKXPMXNy876yG8cCNgYqq.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-24",
@@ -2486,7 +2669,13 @@ window.BOOTHS = [
     "body": "- 原創BL\n- 互攻互受\n- 軍武大男\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販**: 全訂單已寄出 ([Threads](https://www.threads.com/@teanene.comicart/post/DZICULcmG5k))\n- 🔁 **明信片加印** 預定 — 千業 CARRY ([Threads](https://www.threads.com/@teanene.comicart/post/DY7TvraGKvi))\n- 🔁 **乳牛新品** 後續再上架賣場 ([Threads](https://www.threads.com/@teanene.comicart/post/DY_hbHRmFA2))\n- 🎯 **下次參加**: NiCE 雙攤 — 新 OC (人外系列) 籌備中 ([場後感謝 Threads](https://www.threads.com/@teanene.comicart/post/DY_gSRZGNED))",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HIhwkz_bMAEOJer.jpg",
+        "display_url": "https://pbs.twimg.com/media/HIhwkz_bMAEOJer.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-26",
@@ -2495,7 +2684,18 @@ window.BOOTHS = [
     "body": "- 原創-蛋餅加蛋不加辣\n- 原創-陳靖與人杰\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販 準備中** — 需要時間準備\n\n出處: [場後感謝 Threads](https://www.threads.com/@moriowo.s/post/DZF3EaAkhC0) / [通販公告](https://www.threads.com/@moriowo.s/post/DZF4szNkuSY)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/FwDmYhoaUAAi_-K.png",
+        "display_url": "https://pbs.twimg.com/media/FwDmYhoaUAAi_-K.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/707855627_17963604927108925_235071280995621385_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNjM0Mjc0MjkzNjA0MTc5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vV12BhzWUd4Q7kNvwFu_tIE&_nc_oc=Adrm4pUkW57mQQP516cxyDsaP9I17CBQ7PhuLIv-FWzbjGLejHoEPKteD9rWhAA8XPU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=3evlWcqt0xej8NyZxg78YA&_nc_ss=7a22e&oh=00_Af8UnncvI_7MDW8iKebzZqdvFUDrtICsZV-7rW0dn5m_0Q&oe=6A26EBBC",
+        "display_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/707855627_17963604927108925_235071280995621385_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNjM0Mjc0MjkzNjA0MTc5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vV12BhzWUd4Q7kNvwFu_tIE&_nc_oc=Adrm4pUkW57mQQP516cxyDsaP9I17CBQ7PhuLIv-FWzbjGLejHoEPKteD9rWhAA8XPU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=3evlWcqt0xej8NyZxg78YA&_nc_ss=7a22e&oh=00_Af8UnncvI_7MDW8iKebzZqdvFUDrtICsZV-7rW0dn5m_0Q&oe=6A26EBBC",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-27",
@@ -2504,7 +2704,18 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 原創 — 卡波列葬歌 / 原作：我 / HACHI\n- 二創 — 終末地、明日方舟 博芳\n\n## 🎪 場後 (2026-05-30 → 06-02)\n- 📦 **場後通販已上架** — 布穀町 + 創集繪 新品都已上架賣貨便 — [告知](https://www.plurk.com/p/3iqli8rj2z)\n\n出處: [攤位佈置](https://www.plurk.com/p/3iqfjgzigx) / [場後通販](https://www.plurk.com/p/3iqli8rj2z)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/2QprP8lZnohofJnNYDxiNo.jpg",
+        "display_url": "https://images.plurk.com/2QprP8lZnohofJnNYDxiNo.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/7lxTrO1xkxYIZuw9Ou0HDZ.jpg",
+        "display_url": "https://images.plurk.com/7lxTrO1xkxYIZuw9Ou0HDZ.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-28",
@@ -2522,7 +2733,18 @@ window.BOOTHS = [
     "body": "- 原創-RISO塗鴉冊\n- 精靈寶可夢\n- 逆轉裁判\n\n## 🎪 場後 (2026-05-30 → )\n- ✅ **Ib 吊飾 完售**\n- 🟢 **場後通販 上架** — [透明雞翅膀 通販賣場](https://www.plurk.com/p/3iqmtt1uw2) (幽靈偵探 / 逆轉裁判 / 寶可夢 / 來我家玩吧 / 煙草 / 孔版 / RISO)\n\n出處: [場後通販告知](https://www.plurk.com/p/3iqmtt1uw2)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/2klSJ35Lml8jSh9OVXcMGQ.png",
+        "display_url": "https://images.plurk.com/2klSJ35Lml8jSh9OVXcMGQ.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/73gdmmznDlzihCGGTKdB6k.png",
+        "display_url": "https://images.plurk.com/73gdmmznDlzihCGGTKdB6k.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-30",
@@ -2627,7 +2849,18 @@ window.BOOTHS = [
       "haikyuu": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3ZEQOsBlaxfri6tOAEmzna.png",
+        "display_url": "https://images.plurk.com/3ZEQOsBlaxfri6tOAEmzna.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/DFIntZRzy9bq4YAFyNr6n.png",
+        "display_url": "https://images.plurk.com/DFIntZRzy9bq4YAFyNr6n.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "O-40",
@@ -2906,7 +3139,18 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n\n- 原創BL 『吸！吸！吐！』 中篇 / 上篇\n- 原創 『重疊重疊重疊重疊』\n\n## 🎪 場後 (2026-06-01)\n\n📦 IF07 + COO4 場後通販開始 — 新刊 『吸！吸！吐！ 中集《長切》』 A5 / 34P / 黑白 / NT 180 / R-18 — 賣貨便 同人誌場後通販 link 公開\n\n出處: [場後通販告知 (2026-06-01)](https://x.com/nagadrawdraw/status/2061425583230448109)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://pbs.twimg.com/media/HJunfD6b0AA68T5.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJunfD6b0AA68T5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/705365108_17913956553392353_7092597051838795276_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTM5NzgxNjMxNTQ2MDI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5QrRAlpOtUwQ7kNvwEHTOTN&_nc_oc=AdrpExaj4hYbIh6STRGTfIAehI-SoQI0hN3zvn8_98Uw2ADc0AX5hqfhZaqUnh-dXN8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=nG4GxFW3JytkfMjccLfOTg&_nc_ss=7a22e&oh=00_Af_jmozprFfdRuLMF2ip_zpWG_PI69vY65aQmWWUJ4DAow&oe=6A26DFA1",
+        "display_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/705365108_17913956553392353_7092597051838795276_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTM5NzgxNjMxNTQ2MDI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5QrRAlpOtUwQ7kNvwEHTOTN&_nc_oc=AdrpExaj4hYbIh6STRGTfIAehI-SoQI0hN3zvn8_98Uw2ADc0AX5hqfhZaqUnh-dXN8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=nG4GxFW3JytkfMjccLfOTg&_nc_ss=7a22e&oh=00_Af_jmozprFfdRuLMF2ip_zpWG_PI69vY65aQmWWUJ4DAow&oe=6A26DFA1",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "P-32",
@@ -2944,7 +3188,18 @@ window.BOOTHS = [
     "body": "- 原創＿TANPOPO\n- 原創＿ø\n- 原創＿mønlight universe",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/708312316_18626508001059866_555936381533228854_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNjcwMDU1MjM2NTk4OTg5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0qfVjpLwuKMQ7kNvwHgyRoV&_nc_oc=Adq7hRzMbPO7TQaEz2O7Vwj07HikTArRarcwfiGpK2PSYrA2dPAte9aJoS_ETaTZGKo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=EwBJMfNJJsUbEwKC4ftC0Q&_nc_ss=7a22e&oh=00_Af-HtCvb7_Dt9Y_QTxBblOw0WJq13rx6DWKQTDN0XepVJg&oe=6A26FB6A",
+        "display_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/708312316_18626508001059866_555936381533228854_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNjcwMDU1MjM2NTk4OTg5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0qfVjpLwuKMQ7kNvwHgyRoV&_nc_oc=Adq7hRzMbPO7TQaEz2O7Vwj07HikTArRarcwfiGpK2PSYrA2dPAte9aJoS_ETaTZGKo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=EwBJMfNJJsUbEwKC4ftC0Q&_nc_ss=7a22e&oh=00_Af-HtCvb7_Dt9Y_QTxBblOw0WJq13rx6DWKQTDN0XepVJg&oe=6A26FB6A",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/705312785_17963579607117346_1559951564520656812_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwMTgzMDc1MjM0MjM0Nzg5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=orXPP2mp3dUQ7kNvwHEnpvg&_nc_oc=AdpV0c4enScjcHfL-fMWCi1_lovfBwvi2ywEc2BNblZcjhG5hbXLYMPGUyVcDjf7HWM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=vYjZIfQfvlYkWLVz7krHnw&_nc_ss=7a22e&oh=00_Af9Cgga2jNJjShg2cuFrAK5Nr92X1f0t6Hai6Xi12fHCNA&oe=6A26F22B",
+        "display_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/705312785_17963579607117346_1559951564520656812_n.jpg?stp=cp6_dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwMTgzMDc1MjM0MjM0Nzg5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=orXPP2mp3dUQ7kNvwHEnpvg&_nc_oc=AdpV0c4enScjcHfL-fMWCi1_lovfBwvi2ywEc2BNblZcjhG5hbXLYMPGUyVcDjf7HWM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=vYjZIfQfvlYkWLVz7krHnw&_nc_ss=7a22e&oh=00_Af9Cgga2jNJjShg2cuFrAK5Nr92X1f0t6Hai6Xi12fHCNA&oe=6A26F22B",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "P-36",
@@ -3029,7 +3284,13 @@ window.BOOTHS = [
       "manga": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/698719612_17907132876413932_3021984515452365675_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg5ODE4MzkyNjY3NDQ4NDM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vo9YD6qKToAQ7kNvwGjRmkU&_nc_oc=Adp2zo5wdmQhOq5bfXk5y1GD7cMIcHFw1nao6DqY_Z3xU08IQNRLmwCJxq5xQOJTAIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=7uXH6e1-ntQ9i3VNPQM5ug&_nc_ss=7a22e&oh=00_Af82pkAahsIMbUPWnv0emFh1JP_0Rt3SoXtISt5PWHvwRA&oe=6A2706A3",
+        "display_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/698719612_17907132876413932_3021984515452365675_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzg5ODE4MzkyNjY3NDQ4NDM0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vo9YD6qKToAQ7kNvwGjRmkU&_nc_oc=Adp2zo5wdmQhOq5bfXk5y1GD7cMIcHFw1nao6DqY_Z3xU08IQNRLmwCJxq5xQOJTAIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=7uXH6e1-ntQ9i3VNPQM5ug&_nc_ss=7a22e&oh=00_Af82pkAahsIMbUPWnv0emFh1JP_0Rt3SoXtISt5PWHvwRA&oe=6A2706A3",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Q-03",
@@ -3132,7 +3393,13 @@ window.BOOTHS = [
     "body": "- 原創-海祭EonsGarden",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/2imQhKJ8CLGV2jkaFNo5kL.jpg",
+        "display_url": "https://images.plurk.com/2imQhKJ8CLGV2jkaFNo5kL.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Q-13",
@@ -3141,7 +3408,18 @@ window.BOOTHS = [
     "body": "- 原創-妖戀物語\n\n## 🎪 場後 (2026-05-30 → )\n- 💛 **場後感謝** — 原創百合本『蕾利加與潘莉』 (NT 150 / 18P / A5 膠裝) + 原創 BG 既刊 皆有賣出\n- 📦 **新刊餘量** 將上通販 ([Plurk REPO](https://www.plurk.com/p/3iqmtiyu56))\n- 🎯 **下次參加**: 暑假場\n",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4gtf6g1pnEdb8ADFdfNW0D.jpg",
+        "display_url": "https://images.plurk.com/4gtf6g1pnEdb8ADFdfNW0D.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/5fZIfKYbVTdkD1KReOqzlN.jpg",
+        "display_url": "https://images.plurk.com/5fZIfKYbVTdkD1KReOqzlN.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Q-14",
@@ -3528,7 +3806,13 @@ window.BOOTHS = [
       "haikyuu": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4oIKbwIIRFDPJ6aSNhiisz.png",
+        "display_url": "https://images.plurk.com/4oIKbwIIRFDPJ6aSNhiisz.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "R-09/10",
@@ -3596,7 +3880,13 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/3RvWTKlOHdSqGgbZoBJhWp.jpg",
+        "display_url": "https://images.plurk.com/3RvWTKlOHdSqGgbZoBJhWp.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "R-18",
@@ -3899,6 +4189,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/5.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/713604108_17897323500452117_3072269237287721836_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwOTYwMjg2MjM5NjYzODk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=H8BfsxX3M6YQ7kNvwHbscYt&_nc_oc=AdqrYMIQd8JIOnLR2YXCxmqH0Ey5q8-uDd3p_CraOE7rwd4a77vCsp93dIcj6xZlags&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=5OUQSmVgRu0yFaUIl10SBQ&_nc_ss=7a22e&oh=00_Af_mqJXDga-Oq08ND-z9AzG5NZKGNu4N5KyHKxzcB2oyQw&oe=6A26F41C",
+        "display_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/713604108_17897323500452117_3072269237287721836_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwOTYwMjg2MjM5NjYzODk3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=H8BfsxX3M6YQ7kNvwHbscYt&_nc_oc=AdqrYMIQd8JIOnLR2YXCxmqH0Ey5q8-uDd3p_CraOE7rwd4a77vCsp93dIcj6xZlags&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=5OUQSmVgRu0yFaUIl10SBQ&_nc_ss=7a22e&oh=00_Af_mqJXDga-Oq08ND-z9AzG5NZKGNu4N5KyHKxzcB2oyQw&oe=6A26F41C",
         "display_locked": false
       }
     ],
@@ -4381,7 +4676,18 @@ window.BOOTHS = [
       "original": true
     },
     "warnings": [],
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4plyd13ZxK5NNtdjRLAKoS.jpg",
+        "display_url": "https://images.plurk.com/4plyd13ZxK5NNtdjRLAKoS.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/2eA5btq1vfV690eHyXRPnB.jpg",
+        "display_url": "https://images.plurk.com/2eA5btq1vfV690eHyXRPnB.jpg",
+        "display_locked": false
+      }
+    ],
     "_meta_scrape": {
       "platform_used": "plurk",
       "image_count_avail": 6,
@@ -4577,6 +4883,11 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/komerice_lo/status/2054458383512883590",
         "display_url": "https://pbs.twimg.com/media/HILnAgVbwAAsfb_.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJy0RLib0AAuuIe.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJy0RLib0AAuuIe.jpg",
         "display_locked": false
       }
     ],
@@ -4837,6 +5148,11 @@ window.BOOTHS = [
         "source_url": "https://x.com/Liugozekino/status/2058533374575444239",
         "display_url": "https://pbs.twimg.com/media/HJFhMeCbsAERlSy.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJ5Df9FagAAFhbB.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJ5Df9FagAAFhbB.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -4988,6 +5304,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqc0l1cjn",
         "display_url": "https://images.plurk.com/79EBtUhfMYIoEKRqyd669h.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4logDWJjxouc1UIMzvP1Ul.png",
+        "display_url": "https://images.plurk.com/4logDWJjxouc1UIMzvP1Ul.png",
         "display_locked": false
       }
     ],
@@ -5215,6 +5536,16 @@ window.BOOTHS = [
         "source_url": "https://www.threads.com/@raker.natsume/post/DXokKYFCY85",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DXokKYFCY85/0.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJQeD1JaoAAuWSY.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJQeD1JaoAAuWSY.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/708927908_17873415312614273_6065935079912764279_n.webp?_nc_cat=100&ig_cache_key=MzkxMDYxNDMwNTM1MTUwNTAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjEyNy5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LsEv1mTiaZ0Q7kNvwFOb2Ac&_nc_oc=AdqaXIFWQbWXqFjDieQTQPPFvl50JVZQjkGQATk_NljF6Zxzzqqi64ZGGSrpIbxm9R0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=-IRQR7Emx_qNo4zHUk4cdQ&_nc_ss=7a22e&oh=00_Af_5Ars67tEAicgj8ATsi7UIqOOgTxCcxf9Suos3XqoqzQ&oe=6A26E450",
+        "display_url": "https://instagram.ftpe20-1.fna.fbcdn.net/v/t51.82787-15/708927908_17873415312614273_6065935079912764279_n.webp?_nc_cat=100&ig_cache_key=MzkxMDYxNDMwNTM1MTUwNTAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjEyNy5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LsEv1mTiaZ0Q7kNvwFOb2Ac&_nc_oc=AdqaXIFWQbWXqFjDieQTQPPFvl50JVZQjkGQATk_NljF6Zxzzqqi64ZGGSrpIbxm9R0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-1.fna&_nc_gid=-IRQR7Emx_qNo4zHUk4cdQ&_nc_ss=7a22e&oh=00_Af_5Ars67tEAicgj8ATsi7UIqOOgTxCcxf9Suos3XqoqzQ&oe=6A26E450",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -5289,6 +5620,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@taboom002/post/DYKK9yaj1Pr",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-41/threads-DYKK9yaj1Pr/9.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/703026411_17951526702151147_3284634773564380326_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkwMDUyMjQ4MjUxMjExOTU3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjU5MS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3qW5AEcn9wwQ7kNvwFQMZsd&_nc_oc=AdpDJ5n1JJJ6bKTpOiOGlzNHP7gO2kQqj5szCdMDbHHE7y_u3J-Z00fQwsDFtWLYaYk&_nc_ad=z-m&_nc_cid=0&_nc_ss=7a22e&oh=00_Af-A91GRplYkdfb59wSG5M9eT5HVofp7JPmmnPLb3dpQyA&oe=6A2704F9",
+        "display_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/703026411_17951526702151147_3284634773564380326_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkwMDUyMjQ4MjUxMjExOTU3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjU5MS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3qW5AEcn9wwQ7kNvwFQMZsd&_nc_oc=AdpDJ5n1JJJ6bKTpOiOGlzNHP7gO2kQqj5szCdMDbHHE7y_u3J-Z00fQwsDFtWLYaYk&_nc_ad=z-m&_nc_cid=0&_nc_ss=7a22e&oh=00_Af-A91GRplYkdfb59wSG5M9eT5HVofp7JPmmnPLb3dpQyA&oe=6A2704F9",
         "display_locked": false
       }
     ],
@@ -5514,6 +5850,16 @@ window.BOOTHS = [
         "source_url": "https://x.com/kourui_07/status/2058825538312311004",
         "display_url": "https://pbs.twimg.com/media/HJJq6g1bsAAH9sa.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJpA2J2bEAA5ZEk.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJpA2J2bEAA5ZEk.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJsbMMabEAEEKEZ.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJsbMMabEAEEKEZ.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -5558,6 +5904,16 @@ window.BOOTHS = [
         "source_url": "https://x.com/i/status/2054548578165813484",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-02/3.jpg",
         "display_locked": true
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJp2PewawAE2cfH.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJp2PewawAE2cfH.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HIHwtxObgAA4Q3s.jpg",
+        "display_url": "https://pbs.twimg.com/media/HIHwtxObgAA4Q3s.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -5604,6 +5960,11 @@ window.BOOTHS = [
       {
         "source_url": "https://prd.storage.lit.link/images/creators/533a8af2-bde2-4f15-9ca4-1a65e6817b81/ogp/ogp_image.jpg",
         "display_url": "https://prd.storage.lit.link/images/creators/533a8af2-bde2-4f15-9ca4-1a65e6817b81/ogp/ogp_image.jpg"
+      },
+      {
+        "source_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/713325041_17947533363193113_3106065451509044602_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwOTA4ODkzNzgwOTc2NzE2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1Z2elrTX8QUQ7kNvwHu3uqY&_nc_oc=AdqLWYj239CugQHi2HYg6XVDM6axZSuc3AjLhdnWjHyuxoqQI2ntyrNnQbKxCbrSFQM&_nc_ad=z-m&_nc_cid=0&_nc_ss=7a22e&oh=00_Af_cSkkgCEkm7tCMvZqlCkmFKVxweoT7E4jJDUBlHo-xDw&oe=6A2709B6",
+        "display_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/713325041_17947533363193113_3106065451509044602_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwOTA4ODkzNzgwOTc2NzE2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1Z2elrTX8QUQ7kNvwHu3uqY&_nc_oc=AdqLWYj239CugQHi2HYg6XVDM6axZSuc3AjLhdnWjHyuxoqQI2ntyrNnQbKxCbrSFQM&_nc_ad=z-m&_nc_cid=0&_nc_ss=7a22e&oh=00_Af_cSkkgCEkm7tCMvZqlCkmFKVxweoT7E4jJDUBlHo-xDw&oe=6A2709B6",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -5692,6 +6053,11 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/Pesirxy/status/2053686601273028923",
         "display_url": "https://pbs.twimg.com/media/HIApDzXbIAAT6fj.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJtuLr0aMAAsoVp.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJtuLr0aMAAsoVp.jpg",
         "display_locked": false
       }
     ],
@@ -6467,6 +6833,11 @@ window.BOOTHS = [
         "source_url": "https://www.plurk.com/p/3iqc24eb8g",
         "display_url": "https://images.plurk.com/4HIhLtCgZo24iVdRVcSuWm.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4XTn6ClKZCyTK53pa8Vj79.jpg",
+        "display_url": "https://images.plurk.com/4XTn6ClKZCyTK53pa8Vj79.jpg",
+        "display_locked": false
       }
     ],
     "area": "百合"
@@ -6700,6 +7071,11 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/yoyoray20001996/status/2059125670295531812",
         "display_url": "https://pbs.twimg.com/media/HJN74SFa0AA7lYl.jpg"
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJ8T5q0bEAAT9Uo.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJ8T5q0bEAAT9Uo.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape": {
@@ -6842,6 +7218,11 @@ window.BOOTHS = [
         "source_url": "https://x.com/rissole715/status/2059287434211606542",
         "display_url": "https://pbs.twimg.com/media/HJQOjH0bUAAqhRZ.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://pbs.twimg.com/media/HJjXYF_aUAA-KhL.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJjXYF_aUAA-KhL.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
@@ -6957,6 +7338,11 @@ window.BOOTHS = [
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmu3ltd4ek2j",
         "display_url": "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:4lrc36bkhiazmubvfo5gbh7p/bafkreifp72dw2rnawdgtc74govybcepze3i7nwlsefwwrq5fnvahignu3y",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2060649424645455971",
+        "display_url": "https://pbs.twimg.com/media/HJjlsyhbwAAYIXw.jpg",
+        "display_locked": false
       }
     ],
     "area": "百合"
@@ -7052,6 +7438,16 @@ window.BOOTHS = [
         "source_url": "https://www.facebook.com/share/p/1Drh4Wt4uG/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-40/share-1Drh4Wt4uG/14.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059209383478006188",
+        "display_url": "https://pbs.twimg.com/media/HJPHtapbQAA1HAW.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2057844220862537926",
+        "display_url": "https://pbs.twimg.com/media/HI7uP3YaEAAtrHd.jpg",
+        "display_locked": false
       }
     ],
     "_meta_scrape_sk": {
@@ -7083,6 +7479,11 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq2yu8lsy",
         "display_url": "https://images.plurk.com/6yp6KxLcef2uKakmZKgXyN.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4YdGrKKgzzvyRF9VUh6C4U.jpg",
+        "display_url": "https://images.plurk.com/4YdGrKKgzzvyRF9VUh6C4U.jpg",
         "display_locked": false
       }
     ],
@@ -7203,6 +7604,16 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq1o69rzu",
         "display_url": "https://images.plurk.com/2RDthUBh3VgxPCqkMJ9dTd.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/1FAwo6aymhlVzQH56YCRUx.png",
+        "display_url": "https://images.plurk.com/1FAwo6aymhlVzQH56YCRUx.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4K7pgAwJPVJbOTenroa9ip.png",
+        "display_url": "https://images.plurk.com/4K7pgAwJPVJbOTenroa9ip.png",
         "display_locked": false
       }
     ]
@@ -7927,6 +8338,11 @@ window.BOOTHS = [
         "source_url": "https://www.threads.com/@usagi._.novelist/post/DY3pbFRD5j-",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-30/threads-DY3pbFRD5j-/8.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2059615779734335941",
+        "display_url": "https://pbs.twimg.com/media/HJU5oDSaYAArl3p.jpg",
+        "display_locked": false
       }
     ],
     "area": "綜合"
@@ -7940,7 +8356,13 @@ window.BOOTHS = [
       "gakumas": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/7E1qawxnIHTJ4nQ6zQ4kcz.jpg",
+        "display_url": "https://images.plurk.com/7E1qawxnIHTJ4nQ6zQ4kcz.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "U-32",
@@ -8101,7 +8523,18 @@ window.BOOTHS = [
       "vocaloid": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/27OqZbMrud11TRLc3JaJJD.jpg",
+        "display_url": "https://images.plurk.com/27OqZbMrud11TRLc3JaJJD.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/3HvLpdQIOhQzPccpwY4sYB.jpg",
+        "display_url": "https://images.plurk.com/3HvLpdQIOhQzPccpwY4sYB.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "V-04",
@@ -8198,7 +8631,13 @@ window.BOOTHS = [
     "area": "VW",
     "body": "## 📝 IF7 出展重點 (VW10)\n- VOCAWORLD / vocaloid (自家私設 MEITO) + Helluva Boss Stolitz\n- 本場無新品，少量加印『おじゃま虫咪苦飯友』\n- 💴 來攤請盡量自備零錢\n\n出處: [場前工商](https://www.plurk.com/p/3iqcr3ceqv) / [當日攤位](https://www.plurk.com/p/3iqfm1mteo)",
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/6hXDmr4KRCj1EEuZQHzJgA.png",
+        "display_url": "https://images.plurk.com/6hXDmr4KRCj1EEuZQHzJgA.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "V-14",
@@ -8505,7 +8944,18 @@ window.BOOTHS = [
     "body": "- 學園偶像大師 (学園アイドルマスター)\n- 世界計畫 繽紛舞台！ feat. 初音未來",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/1WN2Gt3YT4SJ6Q8qwYBOCc.jpg",
+        "display_url": "https://images.plurk.com/1WN2Gt3YT4SJ6Q8qwYBOCc.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4uLi7lSfPMnOjF9dpEomRd.jpg",
+        "display_url": "https://images.plurk.com/4uLi7lSfPMnOjF9dpEomRd.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "W-03",
@@ -8654,6 +9104,11 @@ window.BOOTHS = [
         "source_url": "https://x.com/tku_imas_tw/status/2061731117758361934",
         "display_url": "https://pbs.twimg.com/media/HJy9HB-bEAASXTi.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2060630465263095913",
+        "display_url": "https://pbs.twimg.com/media/HJjUeyeaoAAzq40.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -8715,7 +9170,13 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 偶像大師 SideM 短文集\n- 新刊 **『My ego』** 含博物館票券 + 奧茲水彩風書籤\n- 收錄角色: 橘志狼 / 渡辺みのり / 北村想楽 / 花園百々人 / 神楽麗 / 華村翔真 / 水嶋咲 / Oz\n\n## 🎪 場後 (2026-05-30 → 6/03)\n- 🛒 **場後通販 上線** ([Plurk 通販告知](https://www.plurk.com/p/3iqrg05pv4))",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/48R7RdhprcwbZgU2onTdwF.png",
+        "display_url": "https://images.plurk.com/48R7RdhprcwbZgU2onTdwF.png",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "W-20",
@@ -9007,7 +9468,18 @@ window.BOOTHS = [
       "hsr": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/hSlNEstReswvBFNL0yEKx.png",
+        "display_url": "https://images.plurk.com/hSlNEstReswvBFNL0yEKx.png",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/7DtFoKALgThsYWQlbIoaOz.jpg",
+        "display_url": "https://images.plurk.com/7DtFoKALgThsYWQlbIoaOz.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "X-08",
@@ -9393,6 +9865,11 @@ window.BOOTHS = [
         "source_url": "https://x.com/oruka_oru/status/2058472848419914070",
         "display_url": "https://pbs.twimg.com/media/HJEpcHUbAAAyIRh.jpg",
         "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2058472848419914070",
+        "display_url": "https://pbs.twimg.com/media/HJEpcJ9bgAAlwNe.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -9601,7 +10078,13 @@ window.BOOTHS = [
     "body": "- NIJISANJI EN\n- LUXIEM\n- 指娃衣服",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2062310426055188511",
+        "display_url": "https://pbs.twimg.com/media/HJ4vEj5asAAiN5X.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Z-16",
@@ -9776,7 +10259,18 @@ window.BOOTHS = [
       "love-deepspace": true
     },
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/63M8fKiU8GjwgFYQBAH0h4.jpg",
+        "display_url": "https://images.plurk.com/63M8fKiU8GjwgFYQBAH0h4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/4BYY0LY6Hh4Nm66hRo3EAe.jpg",
+        "display_url": "https://images.plurk.com/4BYY0LY6Hh4Nm66hRo3EAe.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Z-31",
@@ -9794,7 +10288,18 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 趴娃衣 + 娃用拍照輔助道具 (もちもち / ミニもちもち / 摸幾 / 趴娃 / 醜娃 / 手指偶 / 棉花娃 / 黏土人 適用)\n- 新品: **手指偶拍照用道具** (一對) + **Y 字形娃用拍照支撐架**\n- 歡迎自帶娃來試穿\n\n## 🎯 下次參加\n- 6/7 **TCS16** — 國立中興大學惠蓀堂 1F 內前走廊 — 攤位 **B08** — [告知](https://www.plurk.com/p/3iqsjb0yeo)\n\n出處: [創集繪場前](https://www.plurk.com/p/3iq1bc63w8)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/7Fs6IvUEtAxhgGMz2U3F9.jpg",
+        "display_url": "https://images.plurk.com/7Fs6IvUEtAxhgGMz2U3F9.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/2w7IZMDl6Y051xgHRsWM1E.jpg",
+        "display_url": "https://images.plurk.com/2w7IZMDl6Y051xgHRsWM1E.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Z-33/34",
@@ -9827,7 +10332,18 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 韓服娃衣 + 娃用飾品配件\n- 阿嬤 (與姨媽 Z-35 連攤), 旁邊空曠歡迎來玩\n\n出處: [Plurk 開攤告知](https://www.plurk.com/p/3iqfp6fvz7)\n\n## 🎪 場後 (2026-05-30 → 6/03)\n- 🛒 **場後通販 上線** — 8cm 黑笠套 / 庶民套 / 暗紋外套套 / 罩衫 / 吊帶褲、 8cm & 10cm 通用甜點頭飾 ([Plurk 通販告知](https://www.plurk.com/p/3iqrinvwft))\n- 賣貨便 6/1 (一) 19:00 上架\n\n## 🎯 下次參加\n- 2026/8/15 NiCE 2 (南港)",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/1sv08YKLY4L5C8sjePWKxN.jpg",
+        "display_url": "https://images.plurk.com/1sv08YKLY4L5C8sjePWKxN.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://images.plurk.com/uPUo6GYCdoUsKc8wRbzm3.jpg",
+        "display_url": "https://images.plurk.com/uPUo6GYCdoUsKc8wRbzm3.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "Z-37/38",
@@ -9927,7 +10443,13 @@ window.BOOTHS = [
     "body": "- 遺品整理師─協助處理遭遺留或遺棄的收藏品，無論是自己或是周遭親友想要了解，歡迎向我們洽詢。OtaMatch宅友圈─以『宅興趣』及『價值觀』出發的拓展社交圈活動。",
     "tags": {},
     "warnings": [],
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://images.plurk.com/4vVVjJ4qSirHI0gHAOUobC.jpg",
+        "display_url": "https://images.plurk.com/4vVVjJ4qSirHI0gHAOUobC.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "特-02",
