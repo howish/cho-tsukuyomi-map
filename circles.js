@@ -5848,7 +5848,8 @@ window.CIRCLES_BY_ID = {
     "id": "c_a1c040440783",
     "circle_name": "飛行熊咪貓商會",
     "members": [
-      "a_021a3e9f6f9e"
+      "a_021a3e9f6f9e",
+      "a_a0add991c749"
     ],
     "socials": [],
     "events": [
@@ -10506,9 +10507,14 @@ window.AUTHORS_BY_ID = {
     "id": "a_021a3e9f6f9e",
     "name": "Yishi 依希",
     "name_inferred": "",
-    "name_source": "fb_review_title_strip",
+    "name_source": "user",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "aggregator",
+        "url": "https://portaly.cc/YiSHi0111"
+      }
+    ]
   },
   "a_0264692abaa1": {
     "id": "a_0264692abaa1",
@@ -13784,11 +13790,16 @@ window.AUTHORS_BY_ID = {
   },
   "a_6642e53c7b2b": {
     "id": "a_6642e53c7b2b",
-    "name": "ahonok",
+    "name": "このは",
     "name_inferred": "",
-    "name_source": "user",
+    "name_source": "x_profile",
     "aliases": [],
-    "socials": []
+    "socials": [
+      {
+        "platform": "x",
+        "url": "https://x.com/konoha202020"
+      }
+    ]
   },
   "a_66d894ad5602": {
     "id": "a_66d894ad5602",
@@ -15632,6 +15643,14 @@ window.AUTHORS_BY_ID = {
         "url": "https://www.pixiv.net/users/1181363"
       }
     ]
+  },
+  "a_a0add991c749": {
+    "id": "a_a0add991c749",
+    "name": "阿熊",
+    "name_inferred": "",
+    "name_source": "user",
+    "aliases": [],
+    "socials": []
   },
   "a_a0e06a6fcb54": {
     "id": "a_a0e06a6fcb54",

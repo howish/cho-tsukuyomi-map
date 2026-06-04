@@ -792,7 +792,7 @@
       var confirmBtn = el('button', {
         type: 'button', class: 'confirm-btn' + (isConfirmed ? ' is-confirmed' : ''),
         title: isConfirmed ? 'もう一度押して draft に戻す' : '名前と source を確定',
-      }, isConfirmed ? '✅ 確定済 (取消)' : '✅ 確定');
+      }, isConfirmed ? '✅ 確定済 (戻す)' : '✅ 確定');
       confirmBtn.addEventListener('click', () => {
         if (isConfirmed) {
           // Toggle back to draft — keep name/source intact, just unmark
@@ -848,7 +848,7 @@
       if (decision) {
         var revertBtn = el('button', {
           type: 'button', class: 'revert-btn',
-        }, '↩ 取消');
+        }, '↩ 戻す');
         revertBtn.addEventListener('click', () => {
           delete pending[a.id];
           savePending(pending);
@@ -1187,7 +1187,7 @@
     const confirmBtn = el('button', {
       type: 'button', class: 'confirm-btn' + (m.confirmed ? ' is-confirmed' : ''),
       title: m.confirmed ? 'もう一度押して draft に戻す' : '新規メンバーを確定',
-    }, m.confirmed ? '✅ 確定済 (取消)' : '✅ 確定');
+    }, m.confirmed ? '✅ 確定済 (戻す)' : '✅ 確定');
     confirmBtn.addEventListener('click', () => {
       if (m.confirmed) {
         m.confirmed = false;
