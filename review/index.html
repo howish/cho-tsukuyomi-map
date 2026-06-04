@@ -3,90 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Author 作者名 review queue — yachi8000.app</title>
-<meta name="description" content="未確定 author 一覧。各 author の SNS プロファイルを確認して本名/表示名を確定する review UI。">
-<link rel="stylesheet" href="../hub.css?v=1780575005">
-<link rel="stylesheet" href="review.css?v=1780575005">
-<link rel="icon" type="image/svg+xml" href="../cho-tsukuyomi-2026-05/icon.svg">
-<meta name="theme-color" content="#4a3a5c">
+<title>Redirecting to /circles/?mode=edit — yachi8000.app</title>
+<meta http-equiv="refresh" content="0; url=../circles/?mode=edit">
+<link rel="canonical" href="../circles/?mode=edit">
+<style>
+body { font-family: system-ui, sans-serif; padding: 2rem; color: #4a3a5c; }
+a { color: #6a4a8a; }
+</style>
 </head>
 <body>
-<header class="hub-header">
-  <h1>🔍 Author 作者名 review queue</h1>
-  <p class="hub-subtitle">
-    <a href="../" class="hub-back-link">← ハブに戻る</a>
-    ／ <a href="../circles/" class="hub-back-link">サークル一覧</a>
-    ／ 各 author の SNS で本名/表示名を確認、決定を GitHub Issue で送信
-  </p>
-</header>
-
-<aside class="review-pending-panel" id="review-pending-panel" hidden>
-  <div class="pending-header">
-    <h3>📤 保留中の決定 (<span id="pending-count">0</span>)</h3>
-    <div class="pending-actions">
-      <button id="submit-github" class="primary">GitHub Issue で送信</button>
-      <button id="submit-download">decisions.json を DL</button>
-      <button id="pending-clear" class="ghost">全クリア</button>
-    </div>
-  </div>
-  <details class="pending-detail">
-    <summary>詳細を見る</summary>
-    <ol class="pending-list" id="pending-list"></ol>
-  </details>
-  <p class="pending-hint" id="pending-hint"></p>
-</aside>
-
-<main class="review-main">
-  <aside class="review-sidebar">
-    <h3>Filters</h3>
-
-    <div class="filter-block">
-      <label class="filter-label">表示</label>
-      <div class="filter-row">
-        <button class="filter-btn active" data-status="unresolved">未確定のみ</button>
-        <button class="filter-btn" data-status="all">全 author</button>
-      </div>
-    </div>
-
-    <div class="filter-block">
-      <label class="filter-label">Event</label>
-      <div class="filter-row" id="filter-event">
-        <!-- injected at runtime -->
-      </div>
-    </div>
-
-    <div class="filter-block">
-      <label class="filter-label">Platform</label>
-      <div class="filter-row" id="filter-platform">
-        <!-- injected at runtime -->
-      </div>
-    </div>
-
-    <div class="filter-block">
-      <label class="filter-label">検索</label>
-      <input type="search" id="review-search" placeholder="circle / handle で検索..." class="review-search">
-    </div>
-
-    <div class="review-stats" id="review-stats">読み込み中...</div>
-  </aside>
-
-  <section class="review-list" id="review-list">
-    <p class="loading">読み込み中...</p>
-  </section>
-</main>
-
-<footer class="hub-footer">
-  <p>
-    Built by <a href="https://github.com/howish" target="_blank" rel="noopener">@howish</a>
-    ／ <a href="https://github.com/howish/cho-tsukuyomi-map" target="_blank" rel="noopener">GitHub</a>
-    ／ 決定は <code>author-name-resolver</code> skill が apply
-  </p>
-</footer>
-
-<script src="../profile-patterns.js?v=1780575005"></script>
-<script src="../platform-icons.js?v=1780575005"></script>
-<script src="../circles.js?v=1780575005"></script>
-<script src="ws-candidates.js?v=1780575005"></script>
-<script src="review.js?v=1780575005"></script>
+<h1>Moved</h1>
+<p>The Author review queue is now at <a href="../circles/?mode=edit">/circles/?mode=edit</a>.</p>
+<script>location.replace('../circles/?mode=edit' + location.hash);</script>
 </body>
 </html>

@@ -306,7 +306,58 @@
     });
   }
 
-  // ---- bootstrap ----
+  // ---- Mode detection ----
+  // Single canonical URL /circles/ serves both read mode (default) and edit
+  // mode (?mode=edit). Edit mode reveals review.js's pending-decisions UI
+  // and renders via the lazily-loaded circles-edit.js + ws-candidates.js.
+  // /review/ is now a redirect to ?mode=edit.
+  const isEditMode = new URLSearchParams(location.search).get('mode') === 'edit';
+
+  // Toggle the mode-link in the header (text + href) so the user can flip back.
+  const modeToggle = document.getElementById('mode-toggle');
+  if (modeToggle) {
+    if (isEditMode) {
+      modeToggle.textContent = '👁 Read mode';
+      modeToggle.href = './';
+    } else {
+      modeToggle.textContent = '🔧 Edit mode';
+      modeToggle.href = '?mode=edit';
+    }
+  }
+
+  if (isEditMode) {
+    // Hand off rendering entirely to circles-edit.js. Hide read-mode DOM,
+    // reveal edit-mode DOM, then lazy-load the edit scripts so read-mode
+    // visits don't pay the 200KB+ payload.
+    const readMain = document.getElementById('read-mode-main');
+    const editMain = document.getElementById('edit-mode-main');
+    if (readMain) readMain.hidden = true;
+    if (editMain) editMain.hidden = false;
+    // Cache-bust: reuse this script's own ?v= so edit assets stay in sync
+    // with the page's deployed version.
+    const ownScript = document.currentScript ||
+      [...document.scripts].reverse().find(s => /circles\/circles\.js/.test(s.src));
+    const v = ownScript
+      ? (new URL(ownScript.src, location.href).searchParams.get('v') || Date.now())
+      : Date.now();
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'circles-edit.css?v=' + v;
+    document.head.appendChild(css);
+    // Load ws-candidates.js first (provides window.WS_CANDIDATES), then
+    // circles-edit.js (consumes it on bootstrap).
+    const s1 = document.createElement('script');
+    s1.src = 'ws-candidates.js?v=' + v;
+    s1.onload = () => {
+      const s2 = document.createElement('script');
+      s2.src = 'circles-edit.js?v=' + v;
+      document.body.appendChild(s2);
+    };
+    document.body.appendChild(s1);
+    return;  // Skip read-mode bootstrap.
+  }
+
+  // ---- Read-mode bootstrap ----
   // B-big-1 (2026-06-02): circles now have members:[author_id] and the
   // person-level fields (x_handle, author, socials) live on authors.
   // Hydrate each circle with primary-member fields so the existing render
