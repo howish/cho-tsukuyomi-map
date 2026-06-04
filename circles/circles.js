@@ -55,54 +55,123 @@
     });
   }
 
+  // Social-chip helpers — used for both circle-level (合同 SNS) and
+  // per-author socials in the 2-tier card.
+  function makeChip(platform, url) {
+    const id = extractHandleFromUrl(url, platform);
+    const chip = el('a', {
+      class: 'circle-link-chip chip-' + platform,
+      href: url, target: '_blank', rel: 'noopener',
+      title: platform + (id ? ' — ' + id : ''),
+    });
+    chip.appendChild(platformIcon(platform));
+    if (id) {
+      chip.appendChild(document.createTextNode(' ' + id));
+    }
+    return chip;
+  }
+  function normUrlKey(url) {
+    return (url || '').replace(/^https?:\/\//, '').replace(/^www\./, '')
+      .split('?')[0].split('#')[0].replace(/\/+$/, '').toLowerCase();
+  }
+  function sortSocials(socials) {
+    const order = s => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
+    return (socials || []).slice().sort((a, b) => order(a) - order(b));
+  }
+  function renderSocialChipRow(socials, seenKeysShared) {
+    const linkRow = el('div', { class: 'circle-links' });
+    sortSocials(socials).forEach(s => {
+      const k = normUrlKey(s.url);
+      if (!k) return;
+      if (seenKeysShared && seenKeysShared.has(k)) return;
+      if (seenKeysShared) seenKeysShared.add(k);
+      linkRow.appendChild(makeChip(s.platform, s.url));
+    });
+    return linkRow;
+  }
+
+  // Decide flat-vs-2tier per howish's rule (2026-06-04):
+  // - 1 member AND author display name == circle name (or empty/inferred fallback to circle name)
+  //   → flat: merge circle+author socials into one row, omit member section
+  // - else → 2-tier: circle header section + member section(s)
+  function shouldRenderFlat(c) {
+    const members = c.memberAuthors || [];
+    if (members.length !== 1) return false;
+    const primary = members[0] || {};
+    const displayName = primary.name || primary.name_inferred || '';
+    return !displayName || displayName === c.circle_name;
+  }
+
   function renderRow(c) {
     const multi = c.events.length > 1;
+    const flat = shouldRenderFlat(c);
+    // hasSocials is from merged socials (used in flat mode for no-handle marker)
     const hasSocials = (c.socials && c.socials.length) > 0;
     const row = el('div', {
       class: 'circle-row' + (multi ? ' multi-event' : '') +
-              (!hasSocials ? ' no-handle' : ''),
+              (!hasSocials ? ' no-handle' : '') +
+              (flat ? '' : ' two-tier'),
     });
+
+    // Title row — circle name + aliases (+ author chip in flat mode if name differs)
     const head = el('div', { class: 'circle-row-head' });
     head.appendChild(el('span', { class: 'circle-name' }, c.circle_name || '(無名)'));
     if (c.aliases && c.aliases.length) {
       head.appendChild(el('span', { class: 'circle-aliases' },
         '(' + c.aliases.join(' / ') + ')'));
     }
-    if (c.author && c.author !== c.circle_name) head.appendChild(el('span', { class: 'circle-author' }, c.author));
+    if (flat && c.author && c.author !== c.circle_name) {
+      head.appendChild(el('span', { class: 'circle-author' }, c.author));
+    }
     row.appendChild(head);
 
-    // Social link chips — all from socials[] (URL = single source).
-    const linkRow = el('div', { class: 'circle-links' });
-    const seenChipUrls = new Set();
-    function pushChip(platform, url) {
-      const norm = (url || '').replace(/^https?:\/\//, '').replace(/^www\./, '').split('?')[0].split('#')[0].replace(/\/+$/, '').toLowerCase();
-      if (!norm || seenChipUrls.has(norm)) return;
-      seenChipUrls.add(norm);
-      const id = extractHandleFromUrl(url, platform);
-      const chip = el('a', {
-        class: 'circle-link-chip chip-' + platform,
-        href: url, target: '_blank', rel: 'noopener',
-        title: platform + (id ? ' — ' + id : ''),
-      });
-      chip.appendChild(platformIcon(platform));
-      if (id) {
-        chip.appendChild(document.createTextNode(' ' + id));
+    if (flat) {
+      // Single merged social-chip row — current behavior preserved.
+      const merged = c.socials || [];
+      const linkRow = renderSocialChipRow(merged, new Set());
+      if (linkRow.children.length) {
+        row.appendChild(linkRow);
+      } else {
+        row.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
       }
-      linkRow.appendChild(chip);
-    }
-    if (c.socials && c.socials.length) {
-      const order = (s) => s.platform === 'x' ? 0 : (s.platform === 'plurk' ? 1 : 2);
-      c.socials.slice().sort((a, b) => order(a) - order(b)).forEach(s => {
-        pushChip(s.platform, s.url);
-      });
-    }
-    if (linkRow.children.length) {
-      row.appendChild(linkRow);
     } else {
-      row.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
+      // 2-tier: circle header section + member section(s).
+      // Track URLs across sections so we don't show the same chip twice
+      // (e.g. if a circle has a social that an author also lists).
+      const seenKeys = new Set();
+
+      // Circle-level socials (合同 SNS) — only if any.
+      const cSocials = c.circle_socials || [];
+      if (cSocials.length) {
+        const sec = el('div', { class: 'circle-section circle-socials-section' });
+        sec.appendChild(el('span', { class: 'section-label' }, '🎪 合同'));
+        sec.appendChild(renderSocialChipRow(cSocials, seenKeys));
+        row.appendChild(sec);
+      }
+
+      // Each member as its own section.
+      (c.memberAuthors || []).forEach((m, idx) => {
+        const sec = el('div', { class: 'circle-section member-section' });
+        const memberHead = el('div', { class: 'member-head' });
+        const displayName = m.name || m.name_inferred || '(無名作家)';
+        memberHead.appendChild(el('span', { class: 'section-label member-name' },
+          '👤 ' + displayName));
+        if (m.aliases && m.aliases.length) {
+          memberHead.appendChild(el('span', { class: 'member-aliases' },
+            '(' + m.aliases.join(' / ') + ')'));
+        }
+        sec.appendChild(memberHead);
+        const mSocialRow = renderSocialChipRow(m.socials || [], seenKeys);
+        if (mSocialRow.children.length) {
+          sec.appendChild(mSocialRow);
+        } else if (!cSocials.length && idx === 0) {
+          sec.appendChild(el('div', { class: 'circle-links no-links' }, '(SNS link なし)'));
+        }
+        row.appendChild(sec);
+      });
     }
 
-    // Event participation chips
+    // Event participation chips (always shown last).
     const evRow = el('div', { class: 'circle-events' });
     (c.events || []).forEach(e => {
       const chip = el('a', {
@@ -243,9 +312,13 @@
     const memberIds = c.members || [];
     const memberAuthors = memberIds.map(id => AUTHORS_BY_ID[id]).filter(Boolean);
     const primary = memberAuthors[0] || {};
+    // Merged socials — used for flat render + search blob + platform filter
+    // count. Circle-level + every member's socials, deduped by URL.
     const seen = new Set();
     const socials = [];
-    for (const s of (primary.socials || []).concat(c.socials || [])) {
+    const allSourceSocials = (c.socials || []).concat(
+      ...memberAuthors.map(m => m.socials || []));
+    for (const s of allSourceSocials) {
       const k = s && s.url ? s.url.replace(/^https?:\/\//, '').replace(/^www\./, '').toLowerCase() : '';
       if (!k || seen.has(k)) continue;
       seen.add(k);
@@ -254,8 +327,9 @@
     // 4-state name fallback: confirmed > inferred (often == circle name)
     return Object.assign({}, c, {
       author: primary.name || primary.name_inferred || '',
-      socials,
-      memberAuthors,
+      socials,                          // merged (flat-mode + filters)
+      circle_socials: c.socials || [],  // circle-level only (2-tier header)
+      memberAuthors,                    // for 2-tier per-member sections
     });
   }
   allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));

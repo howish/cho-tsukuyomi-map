@@ -195,6 +195,64 @@
   opacity: 0.6;
 }
 
+/* 2-tier card: circle header + per-member sections.
+ * Used when circle has ≥2 members OR member display name differs from circle name. */
+.circle-row.two-tier {
+  gap: 0.45rem;
+}
+.circle-row.two-tier .circle-events {
+  /* Push events row down a bit since sections precede it */
+  margin-top: 0.1rem;
+}
+
+.circle-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.4rem 0.55rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.025);
+  border-left: 2px solid var(--border);
+}
+.circle-section.circle-socials-section {
+  border-left-color: var(--accent);
+}
+.circle-section.member-section {
+  border-left-color: #9c80b8;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+.circle-socials-section .section-label {
+  color: var(--accent);
+}
+
+.member-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.6rem;
+}
+.member-name {
+  color: #6a4a8a;
+  font-size: 0.9rem;
+}
+.member-aliases {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* In 2-tier mode the chip row sits inside a section — kill the top margin
+ * that the flat-mode rule sets so it hugs the section label tightly. */
+.circle-section .circle-links {
+  margin-top: 0;
+}
+
 .empty, .error {
   text-align: center;
   padding: 2rem 1rem;
