@@ -406,6 +406,24 @@
     });
   }
 
+  // Wire base filter chip handlers + restore .active for the persisted
+  // selection. Shared between read + edit (the filters apply at circle
+  // level via passesFilters so behavior is identical in both modes).
+  function wireBaseFilterHandlers() {
+    document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => {
+      if (b.dataset.filter === baseFilter) b.classList.add('active');
+      else b.classList.remove('active');
+    });
+    document.querySelectorAll('#filter-row-base .filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        baseFilter = btn.dataset.filter;
+        onFilterChange();
+      });
+    });
+  }
+
   function buildPlatformFilters() {
     const counts = new Map();
     for (const c of allCircles) {
@@ -490,6 +508,7 @@
     allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
     buildEventFilters();
     buildPlatformFilters();
+    wireBaseFilterHandlers();
 
     // Restore persisted search (chips already get .active via buildXxx;
     // base filter is read-only in edit mode — not exposed in the UI).
@@ -563,13 +582,10 @@
   allCircles = sortCircles(Object.values(CIRCLES_BY_ID).map(hydrateCircle));
   buildEventFilters();
   buildPlatformFilters();
+  wireBaseFilterHandlers();
 
-  // Restore persisted base filter + search before first applyFilter so the
-  // initial render reflects the saved state (Sprint Bγ-polish I).
-  document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => {
-    if (b.dataset.filter === baseFilter) b.classList.add('active');
-    else b.classList.remove('active');
-  });
+  // Search input + clear: read-mode wires here (edit mode wires its own
+  // handler in circles-edit.js that goes through render → YACHI_RERENDER).
   const searchInput = document.getElementById('circles-search');
   const searchClear = document.getElementById('circles-search-clear');
   if (savedFilterState.search) {
@@ -579,8 +595,6 @@
 
   applyFilter();
 
-  // Wire up search + base filter handlers — any change resets pagination
-  // and persists the filter state.
   searchInput.addEventListener('input', () => {
     searchClear.hidden = !searchInput.value;
     readPage = 0;
@@ -594,15 +608,5 @@
     saveFilterState();
     applyFilter();
     searchInput.focus();
-  });
-  document.querySelectorAll('#filter-row-base .filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('#filter-row-base .filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      baseFilter = btn.dataset.filter;
-      readPage = 0;
-      saveFilterState();
-      applyFilter();
-    });
   });
 })();
