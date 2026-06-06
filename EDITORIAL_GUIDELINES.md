@@ -62,15 +62,37 @@
 - **link 化必須** — 上の `🎯 次回参加` / `📊 タイムライン` / 引用 quote は、必ず source tweet を `[text](URL)` で wrap
 - **inline ピンポイント link** OK ([title](url) を文中に混ぜる)
 
-## 4. tweet attribution
+## 4. tweet attribution — inline only
 
-ファクトの **出典 tweet を `[text](URL)` で wrap** — 「これどこ情報？」 と読者が
-思った瞬間に click で source 確認できることを目指す。
+ファクトの **出典 tweet を `[text](URL)` で wrap**、必ず **prose 内側に inline 配置**。
+「これどこ情報？」 と読者が思った瞬間に click で source 確認できることを目指す。
 
-例:
+**末尾に `出典: [a](url) / [b](url) / ...` という separate section は禁止**
+(2026-06-06 howish 指示)。読者の視線が prose と出典を行き来して読みづらく、
+fact と source の対応も曖昧になるため。
+
+**配置パターン:**
+
+- 事実の中心となるフレーズ (タイトル / 価格 / 入荷 / 完売 / 次回参加) を `[text](URL)` で wrap
+- 同じ post に複数 sample が紐づく場合は、メイン anchor の直後に `([サンプル 2/3](url2)、[サンプル 3/3](url3))` の形で並べる
+- どうしても文中の fact phrase に紐づかない補助情報は `(関連: [短い説明](url))` で末尾添え
+
+例 (good):
 ```markdown
-🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/handle/status/...)
-📊 **完売タイムライン**：[第一部](https://x.com/.../status/A) → [第二部](https://x.com/.../status/B) → [全完売 / 撤収](https://x.com/.../status/C)
+- **新刊** [『名前呼んで「私」は誰？』](url1) — フルカラー漫画... ([サンプル 2/3](url2)、[サンプル 3/3](url3))
+- [お品書き](url4) 公開済
+- **メロンブックス** [入荷済](url5): 『...』 / 『...』
+🎯 **次回参加**：[6/21 ツクヨミスクエア](url6)
+📊 **完売タイムライン**：[第一部](urlA) → [第二部](urlB) → [全完売](urlC)
+```
+
+例 (bad — separate 出典 section):
+```markdown
+- **新刊** 『...』 — フルカラー漫画...
+- お品書き 公開済
+- メロンブックス 入荷済
+
+出典: [新刊告知](url1) / [サンプル 2/3](url2) / [お品書き](url4) / [メロン入荷](url5)
 ```
 
 **警告 chip (warnings)** にも `[code, label, source_url]` の 3 要素タプルで
