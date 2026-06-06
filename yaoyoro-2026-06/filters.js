@@ -115,42 +115,9 @@ window.FILTERS_CONFIG = {
     },
   ],
 
-  warnings: [
-    {
-      code: "soldout",
-      label: "✅ 完売御礼",
-      class_suffix: "soldout",
-      pattern: "完売|sold out|売り切れました",
-    },
-    {
-      code: "online",
-      label: "🛒 通販あり",
-      class_suffix: "online",
-      pattern: "通販|BOOTH|メロン|melon|とらのあな|pictSPACE|booth\\.pm",
-    },
-    {
-      code: "reprint",
-      label: "⚠️ 再販なし",
-      class_suffix: "reprint",
-      pattern: "再販なし|再販無し|reprint なし",
-    },
-    {
-      code: "cash",
-      label: "💴 ジャスト払い推奨",
-      class_suffix: "cash",
-      pattern: "高額紙幣\\s*NG|お釣り\\s*NG|釣銭\\s*なし|釣銭少なめ|ちょっきり",
-    },
-    {
-      code: "limit",
-      label: "🎫 部数制限",
-      class_suffix: "limit",
-      pattern: "部数制限|1限|一限|限定|購入制限",
-    },
-    {
-      code: "noonline",
-      label: "🚫 通販なし",
-      class_suffix: "noonline",
-      pattern: "通販.*予定しておりません|通販なし|通販無し|委託なし|委託無し",
-    },
-  ],
+  // pre-event (6/7 開催前): 完売 / 再販なし / 部数制限 等の warning chip は
+  // まだどれも事実化していないので suppression。当日以降に各 booth の body
+  // に signal が乗ったら、auto-detect patterns を戻す or per-booth で
+  // explicit warnings を入れる方針。
+  warnings: [],
 };
