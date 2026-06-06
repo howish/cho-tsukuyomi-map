@@ -89,14 +89,17 @@ A complementary observation: every triage / diff invocation today re-parses the 
 - **Alternative considered:** Reset streak to 0 on --force-full (treat operator intent as "this user is active")
 - **Rationale:** `silent_streak` reflects the user's posting activity, not operator intent. A cron schedule combined with periodic operator `--force-full` runs would never enter back-off if force-full reset the counter, defeating the cost-control purpose. Operator force-full is "I want fresh data right now", not "I assert this user is active again."
 
-### Decision: Hybrid skill + project layout (universal infra in a Claude Code skill, project wiring stays in repo)
+### Decision: Project-local skill layout (revised 2026-06-06)
 
-- **Chosen:** The mirror itself lives in `~/.claude/skills/post-mirror/` as a Claude Code skill — storage, incremental fetch helpers, R2 sync, query CLI. The cho-tsukuyomi-map project's `scripts/pull_timelines.py` becomes a thin orchestrator that walks each event's booth roster and delegates the actual fetch + persist work to the skill's CLI. (howish 2026-06-06)
-- **Alternative considered:**
-  - Pure project `scripts/x_mirror/` sub-module (no skill split)
-  - Pure skill (no project changes, skill walks event data.js directly)
-- **Rationale:** The mirror's core surface (SQLite + FTS + R2 + query CLI) is universal infrastructure — the same pattern applies to future Plurk / Threads / Bluesky mirrors and to other projects entirely (hermes-* archives, kaguya-escape report archives). It belongs alongside `x-api`, `plurk-scraper`, `threads-scraper` as a reusable Claude Code skill. The recon work that USES the mirror — knowing which @handle belongs to which booth in this event, what "event-relevant" means — is this project's business logic and stays in this repo.
-- **Skill name:** `post-mirror` (not `x-post-mirror`) so future Plurk / Threads adapters can plug into the same skill via per-platform modules.
+- **Initial chosen:** Hybrid layout — mirror as a user-global Claude Code skill at `~/.claude/skills/post-mirror/`, project wiring (orchestrator) at `cho-tsukuyomi-map/scripts/pull_timelines.py`. Rationale was "universal infra belongs as a reusable skill" for future Plurk/Threads/Bluesky mirrors and other projects (hermes-* archives, kaguya-escape report archives).
+- **Revised 2026-06-06 (post-MVP review):** Moved skill to project-local at `cho-tsukuyomi-map/.claude/skills/post-mirror/`. Only cho-tsukuyomi-map consumes it today; multi-platform reuse stays speculative.
+  - Code travels with the project (no surprise schema drift between project clone and user skill state)
+  - Schema + code version-locked with the SQLite mirror that produced it
+  - When a future project (kaguya-escape social asset tracking? another fan guide?) needs it, copy or extract then — don't lift preemptively
+- **Alternative still considered:**
+  - Pure project `scripts/x_mirror/` sub-module (no skill split): rejected — losing the SKILL.md / bin/run.sh skill-discoverability harms ergonomics
+  - User-global skill (initial decision): rejected on second thought — over-generalized for a one-consumer use case
+- **Skill name:** `post-mirror` (not `x-post-mirror`) so future Plurk / Threads adapters can plug into the same schema via per-platform modules if it's ever lifted back to user-global.
 
 ### Decision: query_mirror.py CLI shape matches doujin-circle-recon skill
 

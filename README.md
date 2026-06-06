@@ -180,6 +180,40 @@ Cloudflare Dashboard → Pages → GitHub repo 接続
 
 ---
 
+## Recon storage (post-mirror)
+
+booth body の更新作業を回すための X timeline pull / triage / search 基盤。
+`.claude/skills/post-mirror/` に project-local skill として置いてあり、
+`scripts/pull_timelines.py` がイベント単位の orchestrator として呼ぶ。
+
+仕組み:
+- 取得した tweet は SQLite (`.x-api-data/mirror.sqlite`) に SSOT として残る
+- pull は `pull_state` の `last_pull_iso` を `start_time` に渡す incremental fetch
+  → naive な毎回 25-tweet 取り直しに比べ X API 課金が ~90% 落ちる
+- 静かな user は silent-streak back-off で自動 skip (≥3 streak + ≥7 日経過)
+- 1 ファイル SQLite なので R2 に whole-file push でバックアップ可
+  (env vars は [.env.example](.env.example) 参照)
+- `query triage / diff / search / body` は X API call ゼロのオフライン query
+
+詳細は [.claude/skills/post-mirror/SKILL.md](.claude/skills/post-mirror/SKILL.md)、
+背景の設計判断は
+[openspec/changes/add-x-post-mirror/](openspec/changes/add-x-post-mirror/) を参照。
+
+典型 flow:
+```bash
+# 1 イベント分まとめて incremental pull
+python3 scripts/pull_timelines.py yaoyoro-2026-06
+
+# 個別 booth の body 用 signal を JSON で取り出す
+.claude/skills/post-mirror/bin/run.sh query body --username @masaki_sakura
+
+# 別マシンに mirror を移したい時
+.claude/skills/post-mirror/bin/run.sh r2 push
+.claude/skills/post-mirror/bin/run.sh r2 pull
+```
+
+---
+
 ## Tech
 
 - Plain HTML / CSS / vanilla JS (no framework, no build step)

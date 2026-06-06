@@ -27,7 +27,7 @@ Real X API spend for cho-tsukuyomi-map is **$81 / month** (30-day usage analytic
 
 ## Impact
 
-- **New code (Claude Code skill at `~/.claude/skills/post-mirror/`)**: `bin/run.sh`, `scripts/storage.py`, `scripts/incremental.py`, `scripts/r2_sync.py`, `scripts/query.py`, `SKILL.md` (per howish 2026-06-06: universal infra belongs as a reusable skill, not as project scripts)
+- **New code (Claude Code skill at `cho-tsukuyomi-map/.claude/skills/post-mirror/`)**: `bin/run.sh`, `scripts/storage.py`, `scripts/incremental.py`, `scripts/r2_sync.py`, `scripts/query.py`, `SKILL.md`. Initially drafted as a user-global skill at `~/.claude/skills/post-mirror/` per the hybrid layout decision; moved project-local on howish 2026-06-06 post-MVP review (only one project consumes it today, project placement keeps schema + code version-locked). See design.md.
 - **New code (in this repo)**: `scripts/migrate_raw_to_mirror.py` — one-shot importer that walks this project's `.x-api-data-<slug>/raw/` and feeds the skill
 - **Modified code**: `scripts/pull_timelines.py` becomes a thin orchestrator — walks each event's booth roster, calls the post-mirror skill's CLI per booth for the actual fetch + persist; `doujin-circle-recon` skill's triage/diff subcommands shell out to the post-mirror skill's `query` subcommand
 - **Config**: `.env` adds `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`; documented in README
