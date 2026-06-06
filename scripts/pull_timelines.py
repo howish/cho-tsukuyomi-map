@@ -23,8 +23,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-POST_MIRROR_RUN = Path.home() / ".claude" / "skills" / "post-mirror" / "bin" / "run.sh"
-POST_MIRROR_SCRIPTS = Path.home() / ".claude" / "skills" / "post-mirror" / "scripts"
+POST_MIRROR_RUN = ROOT / ".claude" / "skills" / "post-mirror" / "bin" / "run.sh"
+POST_MIRROR_SCRIPTS = ROOT / ".claude" / "skills" / "post-mirror" / "scripts"
 
 
 def load_booths(data_js_path: Path) -> list[dict]:

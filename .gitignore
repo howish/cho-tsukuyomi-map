@@ -29,3 +29,6 @@ agg-decisions.json
 .x-api-data/mirror.sqlite-journal
 .x-api-data/mirror.sqlite-wal
 .x-api-data/mirror.sqlite-shm
+
+# R2 credentials for post-mirror sync (see .env.example)
+.env

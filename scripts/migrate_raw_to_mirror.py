@@ -13,7 +13,7 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SKILL_SCRIPTS = Path.home() / ".claude" / "skills" / "post-mirror" / "scripts"
+SKILL_SCRIPTS = ROOT / ".claude" / "skills" / "post-mirror" / "scripts"
 sys.path.insert(0, str(SKILL_SCRIPTS))
 
 import storage  # noqa: E402
