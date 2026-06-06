@@ -98,16 +98,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://x.com/amtkmituki/status/2063170449014767690",
-        "display_url": "https://pbs.twimg.com/media/HKHalfsaUAAbRkP.jpg"
-      },
-      {
-        "source_url": "https://x.com/amtkmituki/status/2063170449014767690",
-        "display_url": "https://pbs.twimg.com/media/HKHalftbIAATC_p.jpg"
-      },
-      {
         "source_url": "https://x.com/amtkmituki/status/2062871793032196429",
-        "display_url": "https://pbs.twimg.com/media/HKDK9kfbgAAfbp4.jpg"
+        "display_url": "https://pbs.twimg.com/media/HKDK9kfbgAAfbp4.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/amtkmituki/status/2063170449014767690",
+        "display_url": "https://pbs.twimg.com/media/HKHalfsaUAAbRkP.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/amtkmituki/status/2063170449014767690",
+        "display_url": "https://pbs.twimg.com/media/HKHalftbIAATC_p.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -127,7 +130,13 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2060566785641120185",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-07/x-2060566785641120185/0.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-08",
@@ -216,8 +225,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
+        "source_url": "https://x.com/i/status/2062740090800206235",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-11/x-2062740090800206235/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/i/status/2062740090800206235",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-11/x-2062740090800206235/1.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://x.com/Huskychuk/status/2061680780141789205",
-        "display_url": "https://pbs.twimg.com/media/HJyPvnjbUAE0g1a.jpg"
+        "display_url": "https://pbs.twimg.com/media/HJyPvnjbUAE0g1a.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -262,16 +282,9 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://x.com/yurikissaten/status/2062784573436538965",
-        "display_url": "https://pbs.twimg.com/media/HKB5nPTX0AA2Xh3.jpg"
-      },
-      {
-        "source_url": "https://x.com/yurikissaten/status/2062784573436538965",
-        "display_url": "https://pbs.twimg.com/media/HKB5oNYW0AAWZwl.jpg"
-      },
-      {
         "source_url": "https://x.com/yurikissaten/status/2060319947297837449",
-        "display_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg"
+        "display_url": "https://pbs.twimg.com/media/HJe5449W8AMkiIe.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -304,7 +317,13 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2055902153194316211",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-16/x-2055902153194316211/0.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-17.18",
@@ -351,12 +370,9 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://x.com/YUTO_HIGUCHI_/status/2060926261527216636",
-        "display_url": "https://pbs.twimg.com/media/HJng_jibQAAFShB.jpg"
-      },
-      {
-        "source_url": "https://x.com/YUTO_HIGUCHI_/status/2060633354048057759",
-        "display_url": "https://pbs.twimg.com/media/HJjVzCyaAAADP1B.png"
+        "source_url": "https://x.com/i/status/2058865661368262737",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-20/x-2058865661368262737/0.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -395,8 +411,9 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
-        "source_url": "https://x.com/YukkuriShimiya/status/2060505960440082558",
-        "display_url": "https://pbs.twimg.com/media/HJhjPgea8AAyrkD.jpg"
+        "source_url": "https://x.com/i/status/2061379876788293845",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-22/x-2061379876788293845/0.jpg",
+        "display_locked": false
       }
     ]
   },
@@ -559,12 +576,7 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": [
-      {
-        "source_url": "https://x.com/tukise_after/status/2060913741592670291",
-        "display_url": "https://pbs.twimg.com/media/HJnWHzYasAAf5hE.jpg"
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "ヤオ-31",
@@ -627,7 +639,13 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/i/status/2063289098782351609",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-35/x-2063289098782351609/0.jpg",
+        "display_locked": false
+      }
+    ]
   },
   {
     "booth_id": "ヤオ-36",
@@ -638,16 +656,19 @@ window.BOOTHS = [
     "min_price": null,
     "cover_urls": [
       {
+        "source_url": "https://x.com/i/status/2063224781370171574",
+        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/yaoyoro-2026-06/matome/ヤオ-36/x-2063224781370171574/0.jpg",
+        "display_locked": false
+      },
+      {
+        "source_url": "https://x.com/nyanruikai/status/2056678582215479352",
+        "display_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg",
+        "display_locked": false
+      },
+      {
         "source_url": "https://x.com/nyanruikai/status/2060615518546223367",
-        "display_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg"
-      },
-      {
-        "source_url": "https://x.com/nyanruikai/status/2056678582215479352",
-        "display_url": "https://pbs.twimg.com/media/HIrKRBObkAEwzlY.jpg"
-      },
-      {
-        "source_url": "https://x.com/nyanruikai/status/2056678582215479352",
-        "display_url": "https://pbs.twimg.com/media/HIrKRBQawAAEph-.jpg"
+        "display_url": "https://pbs.twimg.com/media/HJjG479aoAAsArM.jpg",
+        "display_locked": false
       }
     ]
   }
