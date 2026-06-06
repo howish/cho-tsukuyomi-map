@@ -23,3 +23,9 @@ __pycache__/
 enrich-decisions.json
 agg-decisions.json
 .validation-report.json
+
+# post-mirror SSOT — gitignored, R2 backup (per add-x-post-mirror)
+.x-api-data/mirror.sqlite
+.x-api-data/mirror.sqlite-journal
+.x-api-data/mirror.sqlite-wal
+.x-api-data/mirror.sqlite-shm
