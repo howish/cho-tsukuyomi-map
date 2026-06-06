@@ -76,5 +76,14 @@ The system SHALL expose pull cadence + back-off configuration via simple flags o
 #### Scenario: Operator forces a full re-fetch
 
 - **WHEN** the operator runs `pull_timelines.py <slug> --force-full`
-- **THEN** the script ignores `pull_state` for that run, requests the default tweet count for every booth, and updates state at the end
+- **THEN** the script ignores `pull_state.last_pull_iso` for that run (no `start_time` argument), requests the default tweet count for every booth, and updates state at the end
 - **AND** the operator can use this to recover when mirror state becomes inconsistent
+
+#### Scenario: --force-full preserves silent_streak
+
+- **GIVEN** `@SilentBooth` has `silent_streak = 4` (back-off active)
+- **WHEN** the operator runs `pull_timelines.py <slug> --force-full`
+- **THEN** the user IS pulled (the back-off check is bypassed by --force-full)
+- **AND** the `silent_streak` counter is NOT reset to 0 by the act of force-full alone — it only resets if the forced pull actually returns ≥1 new post
+- **AND** if the forced pull returns zero new posts, `silent_streak` increments to 5 as usual
+- **AND** rationale: `silent_streak` reflects the user's actual posting activity, not operator intent; resetting on every force-full would defeat back-off (a cron with periodic force-full would never enter back-off)

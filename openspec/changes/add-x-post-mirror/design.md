@@ -61,6 +61,34 @@ A complementary observation: every triage / diff invocation today re-parses the 
 - **Alternative considered:** Cut over immediately (mirror-only); separate migration sprint
 - **Rationale:** Dual-write keeps raw/ as a verification corpus — triage / diff can be run from both paths and the outputs compared. If they diverge, we have evidence in hand. The cost is a tiny disk IO bump; the safety value is high.
 
+### Decision: Multi-platform schema from day one, X code path only
+
+- **Chosen:** Schema includes a `platform` column on `posts`, `users`, `user_snapshots`, `media`, `pull_state`. Primary keys are composite `(platform, id)`. Only the X (`platform = 'x'`) code path is implemented in this change; Plurk / Threads / FB code paths are deferred. (howish 2026-06-06)
+- **Alternative considered:** X-only schema now, migrate to multi-platform later via a separate change
+- **Rationale:** howish identified that scrapers like plurk-scraper and threads-scraper carry per-platform Playwright overhead today. Folding their captured posts into the same mirror eliminates that overhead and gives a single SSOT for cross-platform content. Adding `platform` upfront is cheap (one column + composite PK) and dodges a future migration that would touch every existing row.
+
+### Decision: Rich users with bio + follower history
+
+- **Chosen:** `users` table tracks `name`, `bio`, `follower_count`, `following_count`, `verified` (most recent observed values); a separate `user_snapshots` table appends a row whenever any tracked field changes between observations. (howish 2026-06-06)
+- **Alternative considered:** Minimum users table (id + username + name + raw_json); reconstruct history from raw_json on demand
+- **Rationale:** howish wants temporal queries — "follower trend for @X", "when did @Y change their bio". Storing snapshots as a normal table makes SQL queries trivial. The de-duplication rule (only append when a tracked field changed) keeps growth bounded — for typical recon cadences (1 pull per day), a stable account adds zero snapshots, an active one adds at most one per day.
+
+### Decision: raw/ deprecation deferred, raw_json must round-trip
+
+- **Chosen:** This change ships with raw/ co-existence; `posts.raw_json`, `users.raw_json`, `media.raw_json`, `user_snapshots.raw_json` are required to be the full upstream API response so a raw/ dump can be re-emitted from the mirror at any time. raw/ deprecation is a separate follow-up change once verify passes. (howish 2026-06-06)
+- **Rationale:** Locking down the round-trip property in this change's spec means a future raw/ deprecation has a clear definition of "ready" — the mirror can reproduce any historical raw/ file byte-for-byte if asked.
+
+### Decision: R2 snapshot retention default = 7 days
+
+- **Chosen:** `R2_RETAIN_DAILY_SNAPSHOTS` defaults to 7. (howish 2026-06-06)
+- **Rationale:** 7 days × ~25MB ≈ 175MB of snapshots, still trivially under R2 free tier (10GB). Long enough to recover from any reasonable accident (operator broke mirror Monday morning, restores Wednesday). Operators who want more retention can opt in via env.
+
+### Decision: silent_streak preserved across --force-full
+
+- **Chosen:** `--force-full` bypasses the back-off cadence check (the user gets pulled even if streak ≥ threshold), but does NOT reset `silent_streak`. The counter only resets when the actual pull returns ≥1 new post. (howish 2026-06-06)
+- **Alternative considered:** Reset streak to 0 on --force-full (treat operator intent as "this user is active")
+- **Rationale:** `silent_streak` reflects the user's posting activity, not operator intent. A cron schedule combined with periodic operator `--force-full` runs would never enter back-off if force-full reset the counter, defeating the cost-control purpose. Operator force-full is "I want fresh data right now", not "I assert this user is active again."
+
 ### Decision: Hybrid skill + project layout (universal infra in a Claude Code skill, project wiring stays in repo)
 
 - **Chosen:** The mirror itself lives in `~/.claude/skills/post-mirror/` as a Claude Code skill — storage, incremental fetch helpers, R2 sync, query CLI. The cho-tsukuyomi-map project's `scripts/pull_timelines.py` becomes a thin orchestrator that walks each event's booth roster and delegates the actual fetch + persist work to the skill's CLI. (howish 2026-06-06)

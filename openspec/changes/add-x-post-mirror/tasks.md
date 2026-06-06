@@ -10,11 +10,13 @@
 
 - [ ] 2.1 Create `scripts/storage.py` with schema version + `connect(path)` opening the SQLite file, applying WAL + `synchronous=NORMAL`, running migrations
 - [ ] 2.2 Implement migrations as a list of SQL statements keyed by version number; `pragma user_version` drives current state
-- [ ] 2.3 Schema v1: tables `posts`, `users`, `media`, `pull_state` + indexes + FTS5 virtual table `posts_fts` synchronized via triggers
-- [ ] 2.4 Implement `upsert_post(conn, raw_dict)`, `upsert_user`, `upsert_media` with proper transaction wrapping
-- [ ] 2.5 Implement read helpers: `get_pull_state(user_id)`, `set_pull_state(...)`, `find_user_by_username(...)`
-- [ ] 2.6 Unit test (in-memory SQLite): insert 1 post + 1 user + 1 media, verify FTS5 finds the post by keyword, verify upsert idempotency
-- [ ] 2.7 Expose via `bin/run.sh storage init [--path /custom/mirror.sqlite]` so a caller can prepare an empty mirror anywhere
+- [ ] 2.3 Schema v1: tables `posts`, `users`, `user_snapshots`, `media`, `pull_state` with `platform` column on each + composite PRIMARY KEYs `(platform, id)` + indexes + FTS5 virtual table `posts_fts` synchronized via triggers (per howish 2026-06-06: multi-platform from day one)
+- [ ] 2.4 Implement `upsert_post(conn, platform, raw_dict)`, `upsert_user(conn, platform, raw_dict)` — the latter appends a `user_snapshots` row only when a tracked field (name / bio / follower_count / following_count / verified) differs from the most recent snapshot
+- [ ] 2.5 Implement `upsert_media(conn, platform, raw_dict)` with proper transaction wrapping
+- [ ] 2.6 Implement read helpers: `get_pull_state(platform, user_id)`, `set_pull_state(...)`, `find_user_by_username(platform, username)`, `get_user_snapshots(user_id, platform, since=None)`
+- [ ] 2.7 Unit test (in-memory SQLite): insert 1 post + 1 user + 1 media, verify FTS5 finds the post by keyword, verify upsert idempotency
+- [ ] 2.8 Unit test: upsert same user twice with same fields → 1 snapshot row; upsert with changed follower_count → 2 snapshot rows; verify history query returns both in time order
+- [ ] 2.9 Expose via `bin/run.sh storage init [--path /custom/mirror.sqlite]` so a caller can prepare an empty mirror anywhere
 
 ## 3. Skill: incremental fetch helpers
 

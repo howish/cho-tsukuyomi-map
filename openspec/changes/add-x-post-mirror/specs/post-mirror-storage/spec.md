@@ -23,28 +23,43 @@ The system SHALL persist every fetched X API tweet, user, and media object in a 
 
 ### Requirement: Canonical schema
 
-The mirror SHALL define tables `posts`, `users`, `media`, and `pull_state` plus an FTS5 virtual table `posts_fts` mirroring `posts.text`.
+The mirror SHALL define tables `posts`, `users`, `user_snapshots`, `media`, and `pull_state` plus an FTS5 virtual table `posts_fts` mirroring `posts.text`. Per howish 2026-06-06: schema includes a `platform` column from day one so future Plurk/Threads/FB code paths can plug in without migration, even though only the X code path is implemented in this change.
 
 #### Scenario: Posts table shape
 
 - **GIVEN** the schema is applied
-- **THEN** `posts` has columns: `id TEXT PRIMARY KEY`, `user_id TEXT NOT NULL`, `created_at TEXT NOT NULL`, `text TEXT NOT NULL`, `in_reply_to_user_id TEXT NULL`, `raw_json TEXT NOT NULL`, `fetched_at TEXT NOT NULL`
-- **AND** an index on `(user_id, created_at DESC)` exists for "latest by user" lookups
+- **THEN** `posts` has columns: `id TEXT NOT NULL`, `platform TEXT NOT NULL`, `user_id TEXT NOT NULL`, `created_at TEXT NOT NULL`, `text TEXT NOT NULL`, `in_reply_to_user_id TEXT NULL`, `raw_json TEXT NOT NULL`, `fetched_at TEXT NOT NULL`, with composite PRIMARY KEY `(platform, id)` so the same id space can coexist across platforms
+- **AND** an index on `(platform, user_id, created_at DESC)` exists for "latest by user" lookups
 
-#### Scenario: Users table shape
+#### Scenario: Users table shape (current state)
 
 - **GIVEN** the schema is applied
-- **THEN** `users` has columns: `id TEXT PRIMARY KEY`, `username TEXT NOT NULL UNIQUE`, `name TEXT`, `raw_json TEXT NOT NULL`, `fetched_at TEXT NOT NULL`
+- **THEN** `users` has columns: `id TEXT NOT NULL`, `platform TEXT NOT NULL`, `username TEXT NOT NULL`, `name TEXT NULL`, `bio TEXT NULL`, `follower_count INTEGER NULL`, `following_count INTEGER NULL`, `verified INTEGER NULL`, `raw_json TEXT NOT NULL`, `fetched_at TEXT NOT NULL`, with composite PRIMARY KEY `(platform, id)` and UNIQUE constraint on `(platform, username)`
+- **AND** each row holds the most recent observation; per-fetch history lives in `user_snapshots`
+
+#### Scenario: User snapshots table shape (history)
+
+- **GIVEN** the schema is applied
+- **THEN** `user_snapshots` has columns: `rowid INTEGER PRIMARY KEY AUTOINCREMENT`, `user_id TEXT NOT NULL`, `platform TEXT NOT NULL`, `fetched_at TEXT NOT NULL`, `name TEXT NULL`, `bio TEXT NULL`, `follower_count INTEGER NULL`, `following_count INTEGER NULL`, `verified INTEGER NULL`, `raw_json TEXT NOT NULL`, with UNIQUE constraint on `(user_id, platform, fetched_at)` and FOREIGN KEY `(user_id, platform)` REFERENCES `users(id, platform)`
+- **AND** an index on `(user_id, fetched_at DESC)` enables "follower trend for @X" queries
+
+#### Scenario: New row appended on user upsert when fields changed
+
+- **GIVEN** the current `users` row for `@RinHuei` has `follower_count = 1000`
+- **WHEN** a new pull observes `follower_count = 1010`
+- **THEN** the storage layer updates the `users` row to the new values
+- **AND** appends a new `user_snapshots` row capturing the observation at the pull's `fetched_at`
+- **AND** if no tracked field (name / bio / follower_count / following_count / verified) changed from the most recent snapshot, no new snapshots row is inserted (avoid bloat from identical observations)
 
 #### Scenario: Media table shape
 
 - **GIVEN** the schema is applied
-- **THEN** `media` has columns: `media_key TEXT PRIMARY KEY`, `tweet_id TEXT NOT NULL REFERENCES posts(id)`, `type TEXT NOT NULL`, `url TEXT NULL`, `raw_json TEXT NOT NULL`
+- **THEN** `media` has columns: `media_key TEXT NOT NULL`, `platform TEXT NOT NULL`, `post_id TEXT NOT NULL`, `type TEXT NOT NULL`, `url TEXT NULL`, `raw_json TEXT NOT NULL`, with composite PRIMARY KEY `(platform, media_key)` and FOREIGN KEY `(platform, post_id)` REFERENCES `posts(platform, id)`
 
 #### Scenario: Pull state table shape
 
 - **GIVEN** the schema is applied
-- **THEN** `pull_state` has columns: `user_id TEXT PRIMARY KEY REFERENCES users(id)`, `last_pull_iso TEXT NOT NULL`, `last_tweet_id TEXT NULL`, `silent_streak INTEGER NOT NULL DEFAULT 0`
+- **THEN** `pull_state` has columns: `user_id TEXT NOT NULL`, `platform TEXT NOT NULL`, `last_pull_iso TEXT NOT NULL`, `last_post_id TEXT NULL`, `silent_streak INTEGER NOT NULL DEFAULT 0`, with composite PRIMARY KEY `(platform, user_id)` and FOREIGN KEY `(platform, user_id)` REFERENCES `users(platform, id)`
 
 #### Scenario: Full-text search availability
 
