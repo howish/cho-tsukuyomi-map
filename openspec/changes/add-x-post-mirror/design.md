@@ -61,6 +61,15 @@ A complementary observation: every triage / diff invocation today re-parses the 
 - **Alternative considered:** Cut over immediately (mirror-only); separate migration sprint
 - **Rationale:** Dual-write keeps raw/ as a verification corpus — triage / diff can be run from both paths and the outputs compared. If they diverge, we have evidence in hand. The cost is a tiny disk IO bump; the safety value is high.
 
+### Decision: Hybrid skill + project layout (universal infra in a Claude Code skill, project wiring stays in repo)
+
+- **Chosen:** The mirror itself lives in `~/.claude/skills/post-mirror/` as a Claude Code skill — storage, incremental fetch helpers, R2 sync, query CLI. The cho-tsukuyomi-map project's `scripts/pull_timelines.py` becomes a thin orchestrator that walks each event's booth roster and delegates the actual fetch + persist work to the skill's CLI. (howish 2026-06-06)
+- **Alternative considered:**
+  - Pure project `scripts/x_mirror/` sub-module (no skill split)
+  - Pure skill (no project changes, skill walks event data.js directly)
+- **Rationale:** The mirror's core surface (SQLite + FTS + R2 + query CLI) is universal infrastructure — the same pattern applies to future Plurk / Threads / Bluesky mirrors and to other projects entirely (hermes-* archives, kaguya-escape report archives). It belongs alongside `x-api`, `plurk-scraper`, `threads-scraper` as a reusable Claude Code skill. The recon work that USES the mirror — knowing which @handle belongs to which booth in this event, what "event-relevant" means — is this project's business logic and stays in this repo.
+- **Skill name:** `post-mirror` (not `x-post-mirror`) so future Plurk / Threads adapters can plug into the same skill via per-platform modules.
+
 ### Decision: query_mirror.py CLI shape matches doujin-circle-recon skill
 
 - **Chosen:** `query_mirror.py triage <slug>` and `query_mirror.py diff <slug>` produce the same output shape as the existing recon skill's commands
