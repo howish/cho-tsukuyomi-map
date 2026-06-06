@@ -250,37 +250,34 @@ function saveState() {
   try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
 }
 
-// Populate row-select with A-Z plus the 特 (organiser-curated special)
-// row. Letters that have at least one booth in the current data get a
-// leading •; the rest get a ◦ so howish can tell at a glance which rows
-// are merely scaffolding vs already populated.
+// Populate row-select with whatever prefixes the current event's data.js
+// actually uses — earlier this scaffolded A-Z + 特 (IF7-specific) which
+// looked broken for yaoyoro's `ヤオ-NN` and any future non-Latin events.
+// We now derive the row set entirely from the loaded BOOTHS.
 function init() {
   const rows = new Set();
   for (const b of (window.BOOTHS || [])) {
-    const m = b.booth_id.match(/^([A-Z]|特)-/);
+    // Prefix = everything before the first `-` followed by a digit.
+    // Covers `A-04`, `S-13/14`, `特-01`, `ヤオ-05`, `ヤオ-19.20`.
+    const m = b.booth_id.match(/^([^-]+)-\d/);
     if (m) rows.add(m[1]);
   }
   const sel = document.getElementById('row-select');
-  const all = ['特'];
-  for (let code = 65; code <= 90; code++) all.push(String.fromCharCode(code));
-  all.forEach(r => {
+  // Sort with 特 last so it sits separately from the main grid (mirrors
+  // the physical map layout).
+  const sorted = [...rows].sort((a, b) => {
+    if (a === '特') return 1;
+    if (b === '特') return -1;
+    return a.localeCompare(b);
+  });
+  sorted.forEach(r => {
     const opt = document.createElement('option');
     opt.value = r;
-    opt.textContent = (rows.has(r) ? '• ' : '◦ ') + r;
+    opt.textContent = r;
     sel.appendChild(opt);
   });
-  // Default to the first row that actually has booths so the dropdown
-  // doesn't open on a placeholder. Sort with 特 last to match physical
-  // map layout (特 sits separately from the main grid).
-  if (rows.size) {
-    const sorted = [...rows].sort((a, b) => {
-      if (a === '特') return 1;
-      if (b === '特') return -1;
-      return a.localeCompare(b);
-    });
-    sel.value = sorted[0];
-  }
-  counts.textContent = `合計 ${(window.BOOTHS || []).length} booths · rows: ${[...rows].sort().join(', ')}`;
+  if (sorted.length) sel.value = sorted[0];
+  counts.textContent = `合計 ${(window.BOOTHS || []).length} booths · rows: ${sorted.join(', ')}`;
   renderAll();
 }
 
