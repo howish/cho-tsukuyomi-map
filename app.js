@@ -632,9 +632,10 @@
     }
     // Circle-level socials (合同 SNS) — render BEFORE per-member groups so
     // the joint identity reads first. Counts toward seenSocialUrls dedup.
+    // No "🎪 合同" label per howish 2026-06-06 — chip styling alone reads as
+    // the joint identity; the textual label was redundant.
     if (Array.isArray(b.circle_socials) && b.circle_socials.length) {
       const cGroup = el('div', { class: 'author-group circle-group' });
-      cGroup.appendChild(el('span', { class: 'author-name circle-label' }, '🎪 合同'));
       for (const s of b.circle_socials) {
         if (!s || !s.url) continue;
         const platform = s.platform || detectSourceType(s.url);
@@ -649,7 +650,7 @@
           title: handle ? `${platLabel} — ${handle}` : platLabel,
         }, platformIcon(platform)));
       }
-      if (cGroup.children.length > 1) meta.appendChild(cGroup);
+      if (cGroup.children.length > 0) meta.appendChild(cGroup);
     }
     const memberRecords = Array.isArray(b.members) && b.members.length
       ? b.members
