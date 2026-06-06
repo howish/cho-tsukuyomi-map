@@ -341,10 +341,14 @@
 
   // Compute warnings into [code, label, sourceUrl?] tuples at load time so
   // the render code can iterate uniformly. data.js stores warnings as
-  // bare strings (e.g. "soldout") OR tuples (legacy); FILTERS_CONFIG.warnings
-  // also has a `pattern` regex that can auto-detect warnings from body text.
-  // - Explicit string "soldout" → [code, label] from FILTERS lookup
-  // - Body matches `pattern` → auto-add (if not already present)
+  // bare strings (e.g. "soldout") OR tuples (legacy). Lookup table comes
+  // from FILTERS.warnings.
+  //
+  // Auto-detect from body via FILTERS.warnings[].pattern was removed
+  // 2026-06-06 (howish): regex-on-body produced too many false positives
+  // (forward-looking 完売 announcements / quoted phrases in unrelated
+  // context). Warnings are now manual-only — populate per-booth in data.js
+  // (or via 修正モード in the browser) to add a chip.
   (function computeBoothWarnings() {
     const warningDefs = (FILTERS.warnings || []);
     const byCode = {};
@@ -353,10 +357,9 @@
       const existing = b.warnings || [];
       const out = [];
       const seen = new Set();
-      // Carry forward explicit warnings (string or tuple)
       for (const w of existing) {
         if (Array.isArray(w)) {
-          // legacy tuple — pass through
+          // legacy tuple — pass through (may carry sourceUrl as w[2])
           const code = w[0];
           if (!seen.has(code)) { seen.add(code); out.push(w); }
         } else if (typeof w === 'string') {
@@ -365,15 +368,6 @@
             seen.add(w);
             out.push([w, def.label]);
           }
-        }
-      }
-      // Auto-detect from body via FILTERS.warnings[].pattern
-      const body = b.body || '';
-      for (const def of warningDefs) {
-        if (!def.pattern || seen.has(def.code)) continue;
-        if (new RegExp(def.pattern, 'i').test(body)) {
-          seen.add(def.code);
-          out.push([def.code, def.label]);
         }
       }
       b.warnings = out;

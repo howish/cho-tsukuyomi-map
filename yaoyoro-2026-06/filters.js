@@ -115,9 +115,17 @@ window.FILTERS_CONFIG = {
     },
   ],
 
-  // pre-event (6/7 開催前): 完売 / 再販なし / 部数制限 等の warning chip は
-  // まだどれも事実化していないので suppression。当日以降に各 booth の body
-  // に signal が乗ったら、auto-detect patterns を戻す or per-booth で
-  // explicit warnings を入れる方針。
-  warnings: [],
+  // Warning vocabulary — code → label / chip class lookup. data.js opts
+  // a booth into a warning by adding the bare string code (e.g. "soldout")
+  // to its `warnings` array, or a tuple `[code, label, sourceUrl]`. Auto-
+  // detect from body text was removed 2026-06-06 (howish: too many false
+  // positives), so warnings are manual-only now.
+  warnings: [
+    { code: "soldout",  label: "✅ 完売御礼",         class_suffix: "soldout" },
+    { code: "online",   label: "🛒 通販あり",         class_suffix: "online" },
+    { code: "reprint",  label: "⚠️ 再販なし",         class_suffix: "reprint" },
+    { code: "cash",     label: "💴 ジャスト払い推奨", class_suffix: "cash" },
+    { code: "limit",    label: "🎫 部数制限",         class_suffix: "limit" },
+    { code: "noonline", label: "🚫 通販なし",         class_suffix: "noonline" },
+  ],
 };
