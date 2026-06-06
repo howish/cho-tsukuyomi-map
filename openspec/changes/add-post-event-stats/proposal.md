@@ -29,3 +29,8 @@ After an event ends, the recon pipeline keeps collecting signals — 完売 anno
 - **Modified**: event index.html gets a "📊 Stats" link in nav; hub index.html gets a "/stats/" CTA
 - **No breaking changes**: stats is read-only aggregation; nothing depends on it
 - **Sensitivity**: 完売 is partially manual (parsed from body markdown 完売 keywords); coverage will be uneven across events — be honest about that in the UI ("recon coverage: X% of booths")
+
+## Dependencies
+
+- (none — pure read-side feature, pre-compute → static deploy, no backend, no other proposal in flight is a prerequisite)
+- **Soft dependency on `automate-recon-pipeline` (E) for fresh data**: stats are derived from data.js + body markdown, which the recon pipeline fills. Without E, stats reflect whatever manual recon has been done — still useful, just slower to update.

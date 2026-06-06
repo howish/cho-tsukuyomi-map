@@ -28,3 +28,11 @@ yachi8000.app is a non-official fan guide. Today howish + Yachiyo curate every b
 - **Modified**: `apply_review_decisions.py` learns to read submissions queue + apply with `submitted_by` provenance; circles.json schema gets optional `socials[].submitted_by` field
 - **Considerations**: spam / abuse — initial v1 uses a simple challenge (e.g. circle name + booth ID must both match), no captcha; moderator reviews everything anyway. Future: optional `submission_token` issued by the circle author themselves
 - **No breaking changes**: existing edit-mode workflow unchanged; new submission queue is additive
+
+## Dependencies
+
+- **`add-backend-platform` (F) — strict prerequisite**: the submission form needs a server-side endpoint to POST to. Without backend, the only alternative is "fire-and-forget" Discord webhook (no acknowledgement, no queue, easier abuse) which loses the moderation flow value. Land backend first.
+
+## Alternatives
+
+- **No-backend fallback** — Discord webhook receives form submissions directly, howish reads them and manually translates into edit-mode decisions. Skips moderation queue UI but operational from day one. Suitable as MVP before backend lands.

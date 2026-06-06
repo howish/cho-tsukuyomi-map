@@ -28,3 +28,11 @@ Each new doujin event added to yachi8000.app (cho-tsukuyomi-2026-05, if7-2026-05
 - **Modified**: `doujin-circle-recon` skill's `bootstrap` subcommand becomes a thin wrapper that calls `scripts/bootstrap_event.py`
 - **Unchanged**: existing event directories (cho-tsukuyomi-2026-05 / if7-2026-05 / yaoyoro-2026-06) — this is for NEW events only
 - **No breaking changes**: the existing recon scripts already iterate `<slug>/data.js` files, so a new event just shows up after bootstrap
+
+## Dependencies
+
+- (none — pure dev tooling, no backend required, no other proposal in flight is a prerequisite)
+
+## Enables
+
+- `automate-recon-pipeline` (E) reads the event registry the bootstrap creates, so scaffolded events flow into automated pulls without extra wiring

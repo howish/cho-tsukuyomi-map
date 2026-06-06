@@ -29,3 +29,12 @@ A visitor finds a circle they love (e.g. ほっぺ食堂 at IF7), goes home, and
 - **Modified**: `circles/circles.js` learns favorite-toggle UI; `recon-pipeline-automate` (the other proposal) feeds into the dispatcher
 - **Hosting**: requires a server-side cron — yachi8000.app is currently static (GitHub Pages); this proposal introduces a small backend dependency (could be GitHub Actions cron + a single JSON file, or a tiny VPS)
 - **Privacy**: opaque user tokens only, no email/handle stored unless the user opts in; visitor must explicitly create the link to receive pushes
+
+## Dependencies
+
+- **`add-backend-platform` (F) — strict prerequisite for push delivery**: registering a notification channel, persisting favorites/channel mappings, and firing webhooks from a cron all require server-side state. There is no way to do push notifications from a pure static site.
+- **`automate-recon-pipeline` (E) — strong prerequisite for content**: the dispatcher needs a stream of "new signal at booth X" events to notify on. Without E in place, dispatcher would have nothing to push. C without E is technically possible (favorites are useful as a personal bookmarks layer) but the push half is meaningless.
+
+## Alternatives
+
+- **RSS feed (pull) instead of push**: GitHub Actions generates a per-user RSS feed (`/notifications/<token>.xml`) that the user subscribes to in their own reader. Zero backend, zero infra. Loses real-time and "user can change subscriptions on the site" UX but covers the core value (don't miss updates). Suitable as static-first MVP.

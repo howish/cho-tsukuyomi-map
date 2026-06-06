@@ -34,3 +34,13 @@ Today howish or Yachiyo manually invoke the recon pipeline — `pull_timelines` 
 - **Secrets**: GitHub Actions needs `X_BEARER_TOKEN` + `DISCORD_WEBHOOK_URL` as repo secrets
 - **Cost**: ~$3-5/month X API at current pace (currently ~$1.50/month manual)
 - **No breaking changes**: manual `pull_timelines` invocations still work; orchestrator is additive
+
+## Dependencies
+
+- (none strict — GitHub Actions runs without a backend)
+- **Soft dependency on `add-backend-platform` (F)**: if the optional delta-routing endpoint is wired, deltas can flow to the notification dispatcher for proposal C; otherwise the workflow stays self-contained with only Discord webhook output.
+
+## Enables
+
+- `add-circle-notifications` (C) — provides the "what's new" stream that powers per-user push
+- `add-post-event-stats` (D) — keeps stats data fresh by ensuring data.js stays current as 場後 signals roll in
