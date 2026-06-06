@@ -95,7 +95,14 @@ def parse_issue(text: str):
     out = []
     for section in sections[1:]:
         first = section.split('\n', 1)[0]
-        m = re.match(r'([A-Z]-\d+(?:/\d+)?)\s+(.+)', first)
+        # booth_id formats seen across events:
+        #   if7 / cho-tsukuyomi-2026-05 — `J-04`, `B-05/06`
+        #   yaoyoro-2026-06 — `ヤオ-05`, `ヤオ-19.20`
+        #   special — `特-01`
+        m = re.match(
+            r'([A-Z぀-ヿ一-鿿]+-\d+(?:[/.]\d+)?)\s+(.+)',
+            first,
+        )
         if not m:
             continue
         booth_id = m.group(1)
