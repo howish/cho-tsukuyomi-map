@@ -83,7 +83,7 @@ def lookup_user_id(conn, username: str) -> str | None:
     return row[0] if row else None
 
 
-def find_media_for_user(conn, user_id: str, since_iso: str,
+def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
                        keywords: list[str], max_images: int,
                        extra_keyword: str | None = None) -> list[dict]:
     """Return up to max_images recent own-post media rows for a user,
@@ -124,7 +124,7 @@ def find_media_for_user(conn, user_id: str, since_iso: str,
         seen_urls.add(url)
         seen_posts.add(post_id)
         out.append({
-            "source_url": f"https://x.com/i/web/status/{post_id}",
+            "source_url": f"https://x.com/{username}/status/{post_id}",
             "display_url": url,
         })
         if len(out) >= max_images:
@@ -165,7 +165,7 @@ def main():
             no_user += 1
             continue
         media = find_media_for_user(
-            conn, uid, since_iso, DEFAULT_KEYWORDS,
+            conn, uid, handle, since_iso, DEFAULT_KEYWORDS,
             args.max_images, extra_keyword=args.event_name,
         )
         if not media:
