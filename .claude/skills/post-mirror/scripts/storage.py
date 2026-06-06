@@ -243,12 +243,18 @@ def upsert_user(
         )
 
         if snapshot_needed:
+            # ON CONFLICT IGNORE: during a bulk import we may upsert the
+            # same user multiple times from different source files that
+            # share an mtime (raw dumps from the same minute). Per
+            # (user_id, platform, fetched_at) uniqueness, the first
+            # snapshot wins — that matches the spirit of the dedup rule.
             cur.execute(
                 """
                 INSERT INTO user_snapshots
                   (user_id, platform, fetched_at, name, bio,
                    follower_count, following_count, verified, raw_json)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT (user_id, platform, fetched_at) DO NOTHING
                 """,
                 (user_id, platform, fetched_at, name, bio, follower_count,
                  following_count, verified, raw_json),
@@ -373,11 +379,15 @@ def find_user_by_username(
     platform: str,
     username: str,
 ) -> dict | None:
+    """Case-insensitive lookup. X handles are case-preserving but case-
+    insensitive in lookup; we extend the same convention to all platforms
+    so that callers can pass whatever capitalization the URL had without
+    worrying whether the canonical form matches."""
     row = conn.execute(
         """
         SELECT id, platform, username, name, bio, follower_count,
                following_count, verified, fetched_at
-        FROM users WHERE platform = ? AND username = ?
+        FROM users WHERE platform = ? AND LOWER(username) = LOWER(?)
         """,
         (platform, username),
     ).fetchone()

@@ -55,39 +55,29 @@ def _username_to_user_id(conn, platform: str, username: str) -> str | None:
 
 def _search_one_keyword(conn, platform: str, keyword: str, user_ids: list[str] | None,
                        limit: int = 200) -> list[dict]:
-    """Find posts matching a single keyword. Routes CJK to LIKE, ASCII to FTS5."""
-    if _has_cjk(keyword):
-        # LIKE fallback — slower but actually finds CJK
-        sql = """
-            SELECT p.id, p.user_id, p.created_at, p.text, u.username
-            FROM posts p LEFT JOIN users u
-              ON p.platform = u.platform AND p.user_id = u.id
-            WHERE p.platform = ? AND p.text LIKE ?
-        """
-        params = [platform, f"%{keyword}%"]
-        if user_ids:
-            qs = ",".join("?" * len(user_ids))
-            sql += f" AND p.user_id IN ({qs})"
-            params.extend(user_ids)
-        sql += " ORDER BY p.created_at DESC LIMIT ?"
-        params.append(limit)
-    else:
-        # FTS5 path — fast for ASCII tags / handles / Latin keywords
-        sql = """
-            SELECT p.id, p.user_id, p.created_at, p.text, u.username
-            FROM posts_fts f
-            JOIN posts p ON p.rowid = f.rowid
-            LEFT JOIN users u
-              ON p.platform = u.platform AND p.user_id = u.id
-            WHERE p.platform = ? AND posts_fts MATCH ?
-        """
-        params = [platform, keyword]
-        if user_ids:
-            qs = ",".join("?" * len(user_ids))
-            sql += f" AND p.user_id IN ({qs})"
-            params.extend(user_ids)
-        sql += " ORDER BY p.created_at DESC LIMIT ?"
-        params.append(limit)
+    """Find posts matching a single keyword.
+
+    FTS5 unicode61 doesn't split CJK on word boundaries — that means
+    Latin keywords embedded inside CJK text (e.g. `BOOTH` inside
+    `にBOOTHのリンク`) also miss because the surrounding CJK is one
+    long unbroken token. So we use LIKE for everything, COLLATE NOCASE
+    for case-insensitive Latin matching. Mirror sizes ~10K posts make
+    LIKE fast enough; the FTS5 path is kept only for hashtag-only
+    queries (#tag) where the unicode61 split is reliable.
+    """
+    sql = """
+        SELECT p.id, p.user_id, p.created_at, p.text, u.username
+        FROM posts p LEFT JOIN users u
+          ON p.platform = u.platform AND p.user_id = u.id
+        WHERE p.platform = ? AND p.text LIKE ? COLLATE NOCASE
+    """
+    params = [platform, f"%{keyword}%"]
+    if user_ids:
+        qs = ",".join("?" * len(user_ids))
+        sql += f" AND p.user_id IN ({qs})"
+        params.extend(user_ids)
+    sql += " ORDER BY p.created_at DESC LIMIT ?"
+    params.append(limit)
     return [dict(r) for r in conn.execute(sql, params).fetchall()]
 
 

@@ -113,7 +113,13 @@ def main():
 
     conn = storage.connect(args.mirror)
 
-    raw_files = sorted(ROOT.glob(".x-api-data-*/raw/*-main-*.json"))
+    # Two layouts coexist: the cho-tsukuyomi-only era used
+    # `.x-api-data/raw/` (no slug suffix); the multi-event era uses
+    # `.x-api-data-<slug>/raw/`. Walk both.
+    raw_files = sorted(
+        list(ROOT.glob(".x-api-data-*/raw/*-main-*.json"))
+        + list(ROOT.glob(".x-api-data/raw/*-main-*.json"))
+    )
     print(f"Found {len(raw_files)} raw files under cho-tsukuyomi-map/.x-api-data-*/raw/")
     if args.limit:
         raw_files = raw_files[: args.limit]
