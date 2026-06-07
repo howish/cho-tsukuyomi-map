@@ -30,17 +30,31 @@
       "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列 34 サークル 36 スペース。"
     },
     {
-      "name": "ツクヨミスクエア 第1回",
+      "slug": "tsukuyomi-square-2026-06",
+      "name": "ツクヨミスクエア 第1回 (GLFes47 内)",
       "short_name": "ツクスク 1",
       "date": "2026-06-21",
       "date_display": "2026/06/21 (日)",
-      "venue": "大田区産業プラザPiO",
-      "fandom": "超かぐや姫！ 百合 オンリー",
+      "venue": "大田区産業プラザPiO 大展示ホール",
+      "fandom": "超かぐや姫！ 百合 オンリー (GirlsLoveFestival47 集中配置)",
       "status": "upcoming",
-      "official_url": "https://glfes.com/",
-      "official_label": "GLFes (主催)",
+      "official_url": "https://www.lovefes.info/260621list.html",
+      "official_label": "ラブフェス202606 公式サークルリスト",
       "icon": "🌙",
-      "summary": "超かぐや姫！百合 オンリー 同人誌即売会。 GLFes 主催。 第2回 9/23 都産貿浜松町館 / 第3回 11/22 大阪産業創造館 予定。"
+      "summary": "GirlsLoveFestival47 内 超かぐや姫！百合 ONLY 集中配置企画「ツクヨミスクエア 第1回」。 80サークル参加 (A-C 列)。"
+    },
+    {
+      "name": "超ツクヨミ祭 1.5",
+      "short_name": "超ツクヨミ祭 1.5",
+      "date": "2026-07-05",
+      "date_display": "2026/07/05 (土)",
+      "venue": "立川クリエイティブスペース",
+      "fandom": "超かぐや姫！",
+      "status": "upcoming",
+      "official_url": "https://sengendo.a.la9.jp/chokagucirclelist15.html",
+      "official_label": "超ツクヨミ祭公式 (仙弦堂)",
+      "icon": "🌙",
+      "summary": "超かぐや姫！オンリー 第1.5回。 仙弦堂主催、 50+ サークル予定。 (第1回 5/24 を継ぐ、 立川での 中規模 開催)"
     },
     {
       "name": "パンケーキ食べたい！ #ぱんたべ",
@@ -54,6 +68,19 @@
       "official_label": "@pantabe168 (準備会)",
       "icon": "🥞",
       "summary": "超かぐや姫！オンリー同人誌即売会 in 大阪 (単独開催)。 会場詳細は準備会発表待ち。"
+    },
+    {
+      "name": "宇宙でいちばんおひめさま！VG2026",
+      "short_name": "おひめさま！",
+      "date": "2026-08-30",
+      "date_display": "2026/08/30 (日)",
+      "venue": "東京ビッグサイト",
+      "fandom": "超かぐや姫！",
+      "status": "upcoming",
+      "official_url": "https://www.akaboo.jp/",
+      "official_label": "赤ブー 公式",
+      "icon": "👑",
+      "summary": "超かぐや姫！オンリー 同人即売会。 赤ブー主催、 東京ビッグサイト 開催 (アガサーワールド と同会場)。"
     },
     {
       "name": "ツクヨミスクエア 第2回",
