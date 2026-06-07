@@ -18,7 +18,7 @@
 // next activate (the activate handler deletes any cache whose name doesn't
 // match CACHE_NAME). Increment whenever the shell schema changes in a way
 // that the old cache would obscure (e.g. new map_image field, renamed JS).
-const CACHE_NAME = 'event-cache-v4';
+const CACHE_NAME = 'event-cache-v6';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
@@ -50,7 +50,12 @@ self.addEventListener('fetch', (event) => {
   if (isSameOrigin) {
     event.respondWith((async () => {
       try {
-        const fresh = await fetch(event.request);
+        // cache: 'no-cache' = always revalidate with origin (sends If-None-Match
+        // / If-Modified-Since). Without this, the browser's HTTP cache (data.js
+        // is served with max-age=14400 from the CDN) returns stale content
+        // even though SW is network-first. Revalidation is cheap when content
+        // unchanged (304) but always picks up new commits immediately.
+        const fresh = await fetch(event.request, { cache: 'no-cache' });
         if (fresh && fresh.ok) {
           const cache = await caches.open(CACHE_NAME);
           cache.put(event.request, fresh.clone()).catch(() => {});
