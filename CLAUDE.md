@@ -50,12 +50,21 @@ micro-iteration (UI polish / 一発 bug fix / data 補完) は今まで通り Di
 ## キャッシュバスト
 
 `index.html` の asset 参照には `?v=<timestamp>` を付けて GitHub Pages の CDN を回避する。
-data.js / app.js / style.css の更新時は cache-bust 値を bump:
+data.js / app.js / style.css / map.jpg 等 同 origin asset を 1 つでも触ったら
+**`scripts/ops/bump_cache.py` を実行**して全 index を一斉に bump する:
 
 ```bash
-NEWVER=$(date +%s)
-sed -i "s/v=<OLD>/v=${NEWVER}/g" cho-tsukuyomi-2026-05/index.html circles/index.html review/index.html if7-2026-05/index.html index.html yaoyoro-2026-06/index.html
+python3 scripts/ops/bump_cache.py
 ```
+
+何やる:
+- root の `index.html`、`circles/index.html`、 events.json から discover した
+  全 event の `index.html` を walk
+- `v=\d{10}` pattern を新しい epoch 秒に置換
+- 触らなかった file は no-op、 1 個でも変更あれば「bumped <path> → v=<NEWVER>」 を print
+
+drift 防止のため **手 sed は禁止** (一部 index 漏らすと CDN cache が food chain で
+腐る + linter `scripts/audits/check_asset_versions.py` でも catch される)。
 
 ## 自動 scraper の禁止事項
 
