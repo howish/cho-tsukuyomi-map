@@ -61,6 +61,12 @@ Why: codes appear in URLs (filter deep-links), DOM data attributes,
 filenames (R2 keys, chunk JSON), sort orders. Locale-stable ASCII
 avoids case-collision and platform inconsistencies.
 
+**Exception:** the `areas` axis uses the code as the display label
+by design (e.g. IF7 has 綜合 / 百合 / VW / 偶大 / 特攤 as both code
+and label). Validator skips the code-naming check for this axis. If
+a future event needs ASCII area codes + separate labels, that's the
+right time to revisit the exception.
+
 ## Axis responsibility — how to decide
 
 When you have a candidate code, ask:

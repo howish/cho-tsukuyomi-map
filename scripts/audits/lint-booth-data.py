@@ -61,7 +61,7 @@ def parse_filters_config(filters_js: str) -> dict:
     """
     config = {'cps': [], 'works': [], 'mediums': [], 'tags': [], 'areas': [], 'warnings': []}
     for key in config:
-        m = re.search(rf'{key}\s*:\s*\[', filters_js)
+        m = re.search(rf'"?{key}"?\s*:\s*\[', filters_js)
         if not m:
             continue
         start = m.end() - 1
@@ -93,7 +93,7 @@ def parse_filters_config(filters_js: str) -> dict:
             i += 1
         block = filters_js[start:end + 1]
         # Pull each `code: "..."` (or `code: '...'`) value
-        for cm in re.finditer(r'code\s*:\s*(["\'])([^"\']+)\1', block):
+        for cm in re.finditer(r'"?code"?\s*:\s*(["\'])([^"\']+)\1', block):
             config[key].append(cm.group(2))
     return config
 
@@ -112,10 +112,21 @@ def main():
     if not args.filters_js:
         args.filters_js = f'{args.event}/filters.js'
 
+    # Post formalize-filter-system Pass 2: filters.js is slim (per-event
+    # overrides only); the universal vocab lives in _filters_base.js at
+    # repo root. Concatenate both before parsing so legacy checks still
+    # know about base codes.
+    from pathlib import Path as _P
+    base_path = _P(__file__).resolve().parent.parent.parent / '_filters_base.js'
+
     data_text = Path(args.data_js).read_text()
     filters_text = Path(args.filters_js).read_text()
+    if base_path.is_file():
+        filters_text = base_path.read_text() + "\n" + filters_text
 
     boots = json.loads(slice_js_array(data_text, 'BOOTHS'))
+    # Both FILTERS_BASE + FILTERS_CONFIG live in filters_text now; parse
+    # both passes so base codes get registered as valid.
     cfg = parse_filters_config(filters_text)
     print(f'Loaded {len(boots)} booths · filters: '
           + ' '.join(f'{k}={len(v)}' for k, v in cfg.items()))

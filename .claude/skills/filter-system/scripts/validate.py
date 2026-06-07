@@ -64,7 +64,10 @@ def main():
                 if not entry.label:
                     findings.append(("error", ev, f"filters.{axis}.{entry.code}",
                                      "missing required field: label"))
-                if not fl.CODE_NAMING_RE.match(entry.code):
+                # Skip code-naming check for `areas` — that axis uses the
+                # code as the display label by design (e.g. IF7 has 綜合 /
+                # 百合 / VW). docs/filters.md documents the exception.
+                if axis != "areas" and not fl.CODE_NAMING_RE.match(entry.code):
                     findings.append(("warn", ev, f"filters.{axis}.{entry.code}",
                                      f"code naming violation (expected "
                                      f"lowercase kebab-case ASCII)"))

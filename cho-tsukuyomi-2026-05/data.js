@@ -150,10 +150,6 @@ window.BOOTHS = [
     ],
     "warnings": [
       [
-        "free",
-        "🎁 無配あり"
-      ],
-      [
         "soldout",
         "✅ 完売御礼",
         "https://x.com/xuz_op/status/2058435132370178322"
@@ -944,7 +940,7 @@ window.BOOTHS = [
     "booth_id": "B-02",
     "circle_id": "hanaya_102",
     "followers": 7414,
-    "body": "- **新刊**：『アフターハッピーエンド ウィズ・ユー！』 A5/**16P**/¥500/全年齢\n  - **かにみそ @ka2chokichoki と合同 / ヤチいろかぐ (三人) ほのぼの After HE**\n- **会場限定 TAKE FREE 無配コピ本**：『**かぐやちゃん絶体絶命のピンチ**』 A5 コピー本 / 4P+1P 漫画\n- **Attention**：\n  - **現金のみ** (クレジット / QR 決済不可)\n  - **開場直後の高額紙幣 NG**、各部頒布調整予定、**部数制限の可能性あり**\n  - スケブ・色紙 NG\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/hanaya_102/status/2058579086906438058) — コピー本予定\n\n📊 **完売タイムライン**：[第一部分なくなる (02:20)](https://x.com/hanaya_102/status/2058372501991022850) → [全てなくなる (05:55)](https://x.com/hanaya_102/status/2058426655769850359) — プリンター過労からの startup、コピ本含め全完売",
+    "body": "- **新刊**：『アフターハッピーエンド ウィズ・ユー！』 A5¥500/全年齢\n  - **かにみそ @ka2chokichoki と合同 / ヤチいろかぐ (三人) ほのぼの After HE**\n- **会場限定 TAKE FREE 無配コピ本**：『**かぐやちゃん絶体絶命のピンチ**』 A5 コピー本 / 4P+1P 漫画\n- **Attention**：\n  - **現金のみ** (クレジット / QR 決済不可)\n  - **開場直後の高額紙幣 NG**、各部頒布調整予定、**部数制限の可能性あり**\n  - スケブ・色紙 NG\n\n🎯 **次回参加**：[6/21 ツクヨミスクエア](https://x.com/hanaya_102/status/2058579086906438058) — コピー本予定\n\n📊 **完売タイムライン**：[第一部分なくなる (02:20)](https://x.com/hanaya_102/status/2058372501991022850) → [全てなくなる (05:55)](https://x.com/hanaya_102/status/2058426655769850359) — プリンター過労からの startup、コピ本含め全完売",
     "cps": [
       "trio"
     ],
@@ -1111,7 +1107,8 @@ window.BOOTHS = [
         "source_url": "https://x.com/mitsukiriko/status/2058126279560626434",
         "display_url": "https://pbs.twimg.com/media/HI_u8XmaMAAR1Ox.jpg?name=orig"
       }
-    ]
+    ],
+    "warnings": []
   },
   {
     "booth_id": "B-08",
@@ -1573,7 +1570,8 @@ window.BOOTHS = [
         "source_url": "https://x.com/aoimanabu/status/2058149410803245261",
         "display_url": "https://pbs.twimg.com/media/HJADbuCaoAAl7bV.jpg?name=orig"
       }
-    ]
+    ],
+    "warnings": []
   },
   {
     "booth_id": "C-06",
@@ -1605,7 +1603,8 @@ window.BOOTHS = [
         "display_url": "https://pbs.twimg.com/media/HH8J7PSb0AAN1wU.jpg?name=orig"
       }
     ],
-    "min_price": 300
+    "min_price": 300,
+    "warnings": []
   },
   {
     "booth_id": "C-07",
