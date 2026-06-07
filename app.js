@@ -14,7 +14,32 @@
  */
 (function() {
   const EVENT = window.EVENT_CONFIG || {};
-  const FILTERS = window.FILTERS_CONFIG || { cps: [], tags: [], warnings: [] };
+  // Merge the shared base vocabulary (`_filters_base.js` at repo root,
+  // loaded before this per-event file) with the per-event FILTERS_CONFIG.
+  // Per openspec change formalize-filter-system (2026-06-07):
+  //   - tags + warnings have universal base entries; per-event can add
+  //     or override entries with the same `code` (override wins)
+  //   - cps / works / mediums / areas stay per-event-only
+  //   - if _filters_base.js isn't loaded (legacy / standalone), this
+  //     reduces to the old behavior
+  const FILTERS = (function mergeFilters() {
+    const base = window.FILTERS_BASE || { tags: [], warnings: [] };
+    const ev   = window.FILTERS_CONFIG || { cps: [], tags: [], warnings: [] };
+    const mergeAxis = (a, b) => {
+      const byCode = new Map();
+      (a || []).forEach(e => byCode.set(e.code, e));
+      (b || []).forEach(e => byCode.set(e.code, e));   // per-event overrides
+      return [...byCode.values()];
+    };
+    return {
+      cps:      ev.cps      || [],
+      tags:     mergeAxis(base.tags, ev.tags),
+      works:    ev.works    || [],
+      mediums:  ev.mediums  || [],
+      areas:    ev.areas    || [],
+      warnings: mergeAxis(base.warnings, ev.warnings),
+    };
+  })();
 
   // ---- i18n lookup ----
   // EVENT.language picks the language dict from window.I18N_STRINGS.

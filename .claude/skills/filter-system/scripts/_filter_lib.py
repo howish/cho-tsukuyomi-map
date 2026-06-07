@@ -47,30 +47,65 @@ class FilterEntry:
     raw: dict | None = None     # original dict from filters.js
 
 
-def load_event_filters(event_slug: str) -> dict[str, list[FilterEntry]]:
-    """Parse `<event>/filters.js`, return per-axis list of FilterEntry."""
+def _entries_from(axis_list) -> list[FilterEntry]:
+    return [
+        FilterEntry(
+            code=e.get("code", ""),
+            label=e.get("label", ""),
+            icon=e.get("icon", ""),
+            title=e.get("title", ""),
+            class_suffix=e.get("class_suffix", ""),
+            pattern=e.get("pattern", ""),
+            raw=e,
+        )
+        for e in (axis_list or []) if isinstance(e, dict)
+    ]
+
+
+def load_base_filters() -> dict[str, list[FilterEntry]]:
+    """Parse root `_filters_base.js`, return per-axis FilterEntry list.
+    Returns empty axes if the file is absent."""
+    path = PROJECT_ROOT / "_filters_base.js"
+    if not path.is_file():
+        return {"tags": [], "warnings": []}
+    text = path.read_text(encoding="utf-8")
+    obj = _slice_js_object(text, "FILTERS_BASE")
+    out: dict[str, list[FilterEntry]] = {}
+    for axis in ("tags", "warnings"):
+        out[axis] = _entries_from(obj.get(axis))
+    return out
+
+
+def load_event_filters(event_slug: str, include_base: bool = True) -> dict[str, list[FilterEntry]]:
+    """Parse `<event>/filters.js`, return per-axis list of FilterEntry.
+
+    By default merges with `_filters_base.js` so the result reflects what
+    app.js's runtime merge produces. Pass `include_base=False` to see
+    per-event-only entries (useful for "what does THIS event override"
+    introspection)."""
     path = PROJECT_ROOT / event_slug / "filters.js"
     if not path.is_file():
         raise FileNotFoundError(f"filters.js missing: {path}")
     text = path.read_text(encoding="utf-8")
     obj = _slice_js_object(text, "FILTERS_CONFIG")
-    out: dict[str, list[FilterEntry]] = {}
+    per_event: dict[str, list[FilterEntry]] = {}
     for axis in ("cps", "tags", "works", "warnings", "mediums", "areas"):
-        entries = obj.get(axis) or []
-        out[axis] = [
-            FilterEntry(
-                code=e.get("code", ""),
-                label=e.get("label", ""),
-                icon=e.get("icon", ""),
-                title=e.get("title", ""),
-                class_suffix=e.get("class_suffix", ""),
-                pattern=e.get("pattern", ""),
-                raw=e,
-            )
-            for e in entries
-            if isinstance(e, dict)
-        ]
-    return out
+        per_event[axis] = _entries_from(obj.get(axis))
+    if not include_base:
+        return per_event
+    base = load_base_filters()
+    # Merge base + per-event for shared axes (tags, warnings).
+    # Per-event entries with the same code OVERRIDE the base — matches
+    # app.js's mergeFilters() runtime behavior.
+    merged = dict(per_event)
+    for axis in ("tags", "warnings"):
+        by_code: dict[str, FilterEntry] = {}
+        for entry in base.get(axis, []):
+            by_code[entry.code] = entry
+        for entry in per_event.get(axis, []):
+            by_code[entry.code] = entry
+        merged[axis] = list(by_code.values())
+    return merged
 
 
 def load_event_booths(event_slug: str) -> list[dict]:
