@@ -50,7 +50,7 @@ micro-iteration (UI polish / 一発 bug fix / data 補完) は今まで通り Di
 ## キャッシュバスト
 
 `index.html` の asset 参照には `?v=<timestamp>` を付けて GitHub Pages の CDN を回避する。
-data.js / app.js / style.css / map.jpg 等 同 origin asset を 1 つでも触ったら
+data.js / app.js / event-shell.css / map.jpg 等 同 origin asset を 1 つでも触ったら
 **`scripts/ops/bump_cache.py` を実行**して全 index を一斉に bump する:
 
 ```bash

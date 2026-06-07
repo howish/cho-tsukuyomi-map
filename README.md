@@ -15,7 +15,7 @@ yachi8000.app/
 └── /<future-event-slug>/            ← 未来のイベントを追加する場所
 ```
 
-各イベントは独立した静的サイトで、共通の app shell (`event.js` + `filters.js` + `data.js` + `app.js` + `style.css` + `map.jpg`) を持つ。
+各イベントは独立した静的サイトで、共通の app shell (`event.js` + `filters.js` + `data.js` + `app.js` + `event-shell.css` + `map.jpg`) を持つ。
 
 ---
 
@@ -23,23 +23,33 @@ yachi8000.app/
 
 ```
 .
-├── index.html             # 🏠 ハブトップ (イベント一覧)
-├── hub.js                 # ハブのロジック (events.json 読んで render)
-├── hub.css                # ハブ専用スタイル
-├── events.json            # 全イベントメタデータ (slug, name, date, status...)
-├── CNAME                  # カスタムドメイン (yachi8000.app)
-├── README.md
+├── index.html              # 🏠 ハブトップ (イベント一覧)
+├── hub.js / hub.css        # ハブ専用 shell
+├── circles/                # 全 event 横断 サークル索引 (subscope)
+├── events.json             # 全イベントメタデータ (slug, name, date, status...)
+├── circles.json / .js      # SSOT — 全 event のサークル+作家 (.js は生成物)
+├── app.js                  # event shell ロジック (event.js + filters.js + data.js 読み込み)
+├── event-shell.css         # event shell スタイル (各 event index から ../event-shell.css で参照)
+├── i18n.js                 # ja / zh-tw 文字列 (event shell)
+├── profile-patterns.js     # SNS handle 抽出 regex (生成物、author-name-resolver skill から)
+├── platform-icons.js       # SNS platform → SVG/emoji icon
+├── _index_template.html    # 各 event の index.html を build_index_html.py で render する元
+├── _sw_template.js / _manifest_template.json
+│                           # 各 event の sw.js / manifest.json は build_event_pwa.py で sync
+├── CNAME / README.md / CLAUDE.md / EDITORIAL_GUIDELINES.md
+├── tools/                  # maintainer 用 (coord-tool / bookmarklet)
+├── scripts/{ops,audits,migrations}/   # Python utilities (B3 split)
+├── openspec/               # OpenSpec change proposals
 └── cho-tsukuyomi-2026-05/  ← 1 イベント = 1 サブディレクトリ
-    ├── index.html         # event-agnostic UI shell
-    ├── app.js             # ロジック (event.js + filters.js + data.js を読んで動的構築)
-    ├── style.css
-    ├── event.js           # イベント config (差し替え対象)
-    ├── filters.js         # CP/タグ/警告 フィルター定義 (差し替え対象)
+    ├── index.html         # 自動生成 (build_index_html.py)、share preview メタ + script tags
+    ├── event.js           # 差し替え対象 (name / date / venue / theme_color / rows)
+    ├── filters.js         # CP / タグ / 警告 フィルター定義 (差し替え対象)
     ├── data.js            # ブース配列 (差し替え対象)
-    ├── map.jpg            # 会場マップ
-    ├── og.png             # OG プレビュー画像
-    ├── manifest.json      # PWA manifest
-    └── icon.svg
+    ├── coords.js          # 任意: 会場マップ上の booth 座標 (coord-tool が生成)
+    ├── sw.js              # 自動生成 (build_event_pwa.py)、_sw_template.js から
+    ├── manifest.json      # 自動生成 (build_event_pwa.py)、_manifest_template.json から
+    ├── map.jpg            # 会場マップ (各 event 固有、PNG / JPEG)
+    └── og.png             # OG プレビュー画像 (各 event 固有)
 ```
 
 ---

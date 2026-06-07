@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Bump the ?v=<epoch> cache-buster on every event index.html + hub + circles.
 
-Run after editing any shared shell file (app.js / style.css / i18n.js /
-circles.js / hub.css / circles/circles.js) so browsers and CDN re-fetch the
-new version on next load.
+Run after editing any shared shell file (app.js / event-shell.css /
+i18n.js / circles.js / hub.css / circles/circles.js) so browsers and
+CDN re-fetch the new version on next load.
 """
 from __future__ import annotations
 import re, sys, time

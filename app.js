@@ -2332,7 +2332,7 @@
       // Per-event files live under <slug>/, shared shell files live at ../
       ['', 'index.html', 'event.js', 'filters.js', 'data.js',
        'manifest.json', 'map.jpg', 'og.png'].forEach(u => urls.add(u));
-      ['../app.js', '../style.css', '../i18n.js', '../icon.svg', '../circles.js']
+      ['../app.js', '../event-shell.css', '../i18n.js', '../icon.svg', '../circles.js']
         .forEach(u => urls.add(u));
       // Booth cover images — both original and ?name=small thumbnail variants
       booths.forEach(b => {
