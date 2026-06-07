@@ -25,7 +25,7 @@ booth recon (X timeline pull、triage、search 等) は `~/.claude/skills/x-api/
 .claude/skills/post-mirror/bin/run.sh pull <username>
 
 # ✅ OK: イベント単位の orchestrator (内部で post-mirror pull を呼ぶ)
-python3 scripts/pull_timelines.py <event-slug>
+python3 scripts/ops/pull_timelines.py <event-slug>
 ```
 
 triage / diff / search はオフライン query (API call ゼロ):
