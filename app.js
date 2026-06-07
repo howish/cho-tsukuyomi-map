@@ -79,10 +79,19 @@
         T('disclaimer_html_suffix');
     }
     const credit = document.getElementById('community-credit');
-    if (credit && EVENT.community_catalog_url) {
-      credit.innerHTML = T('community_credit_html_prefix') +
-        `<a href="${escapeAttr(EVENT.community_catalog_url)}" target="_blank" rel="noopener">${escapeHtml(T('community_credit_html_link_label'))}</a>` +
-        T('community_credit_html_suffix');
+    if (credit) {
+      if (EVENT.community_catalog_url) {
+        credit.innerHTML = T('community_credit_html_prefix') +
+          `<a href="${escapeAttr(EVENT.community_catalog_url)}" target="_blank" rel="noopener">${escapeHtml(T('community_credit_html_link_label'))}</a>` +
+          T('community_credit_html_suffix');
+      } else {
+        // No community catalog declared for this event → drop the
+        // template element entirely so it doesn't occupy header space
+        // as an empty block (the .community-credit:empty CSS rule below
+        // also handles the pre-JS paint, but removing makes the DOM
+        // honest).
+        credit.remove();
+      }
     }
     const mapSection = document.querySelector('.map-section');
     if (EVENT.map_image) {

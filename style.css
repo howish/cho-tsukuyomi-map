@@ -69,6 +69,13 @@ header .community-credit {
   border-radius: 6px;
   border: 1px dashed rgba(255, 215, 0, 0.4);
 }
+/* Hide the credit block when the event hasn't set
+   EVENT_CONFIG.community_catalog_url. app.js removes the element on
+   load, but this rule keeps the pre-JS first paint clean too (prevents
+   an empty bordered box from flashing during init). */
+header .community-credit:empty {
+  display: none;
+}
 
 header a {
   color: #ffd700;
