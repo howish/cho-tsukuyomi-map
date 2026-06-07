@@ -87,6 +87,23 @@ if echo "$staged" | grep -qE '^circles\.json$'; then
   fi
 fi
 
+# 5. filter-system schema/drift check — when any filters.js / data.js
+#    is staged. Transition mode (default) means existing drift is a
+#    warning only — `--strict` would gate but the data still has 691
+#    legacy warnings (per pass-1 baseline); transition until cleanup
+#    of those lands.
+if echo "$staged" | grep -qE '(filters\.js|data\.js)$'; then
+  echo "  → filter-system validate"
+  python3 .claude/skills/filter-system/scripts/validate.py >/dev/null
+  rc=$?
+  if [ $rc -eq 2 ]; then
+    echo "    ✗ filter-system validate failed with errors — re-run to see findings"
+    fail=1
+  elif [ $rc -eq 1 ]; then
+    : # warnings — don't block in transition mode
+  fi
+fi
+
 if [ $fail -ne 0 ]; then
   echo ""
   echo "✗ pre-commit lint blocked the commit"
