@@ -1,0 +1,7 @@
+# Per B10 (2026-06-07 structural review): circles.js is auto-generated
+# from circles.json (the SSOT) by scripts/extract_circles.py. The file
+# is committed so GitHub Pages can serve it, but its diffs are massive
+# (21k LOC, 454KB) and useless for review — every booth/post update
+# regenerates the whole thing. Mark it binary so git log / git blame
+# stop trying to render the diff.
+circles.js -diff -merge linguist-generated=true

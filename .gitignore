@@ -9,6 +9,8 @@ __pycache__/
 .scrape-data/
 
 # scraper scratch dumps (root-level outputs from one-off runs)
+# (canonical location is scripts/.scratch/; the root globs are kept so
+# legacy scripts that still write to repo root don't pollute git status)
 /aggregator_*.json
 /aggregator_*.md
 /doujintw_*.json
@@ -23,6 +25,11 @@ __pycache__/
 enrich-decisions.json
 agg-decisions.json
 .validation-report.json
+
+# Per B4 (2026-06-07 structural review): scratch JSON / MD / audit dumps
+# moved out of repo root. Anything under scripts/.scratch/ is one-shot
+# output, never shipped.
+scripts/.scratch/
 
 # post-mirror SSOT — gitignored, R2 backup (per add-x-post-mirror)
 .x-api-data/mirror.sqlite
