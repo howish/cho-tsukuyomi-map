@@ -6,7 +6,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-02",
@@ -15,16 +16,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-03/04",
     "circle_id": "umaauraa5",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-05",
@@ -33,7 +38,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-06",
@@ -42,7 +48,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-07",
@@ -51,7 +58,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-08",
@@ -60,7 +68,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-09",
@@ -69,7 +78,14 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/xx_sow/status/2058903179052683603"
+      ]
+    ]
   },
   {
     "booth_id": "A-10",
@@ -78,7 +94,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-11",
@@ -87,7 +104,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-12",
@@ -96,16 +114,26 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-13",
     "circle_id": "mekimekix",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/mekimekix/status/2063647991228252612"
+      ]
+    ]
   },
   {
     "booth_id": "A-14",
@@ -114,7 +142,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-15",
@@ -123,7 +152,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-16",
@@ -132,7 +162,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-17",
@@ -141,7 +172,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-18",
@@ -150,16 +182,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-19",
     "circle_id": "prm_srmn",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-20",
@@ -168,7 +204,14 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/masaki_sakura/status/2061811380521738259"
+      ]
+    ]
   },
   {
     "booth_id": "A-21",
@@ -177,7 +220,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-22",
@@ -186,7 +230,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-23/24",
@@ -195,16 +240,22 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-25",
     "circle_id": "hanaya_102",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "goudou": true,
+      "free": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-26",
@@ -213,7 +264,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-27",
@@ -222,7 +274,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-28",
@@ -231,7 +284,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-29/30",
@@ -240,7 +294,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-31",
@@ -249,7 +304,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-32",
@@ -258,7 +314,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-33",
@@ -267,16 +324,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-34",
     "circle_id": "tsugu_tarou",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-35",
@@ -285,7 +346,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-36",
@@ -294,7 +356,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-37",
@@ -303,7 +366,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-38",
@@ -312,7 +376,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-39",
@@ -321,7 +386,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "A-40",
@@ -330,16 +396,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-01",
     "circle_id": "miyabi_fujieda",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-02",
@@ -348,7 +418,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-03",
@@ -357,7 +428,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-04",
@@ -366,25 +438,33 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-05",
     "circle_id": "kaguramix",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-06",
     "circle_id": "osatou_kinosu",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "goudou": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-07",
@@ -393,7 +473,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-08",
@@ -402,7 +483,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-09",
@@ -411,7 +493,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-10",
@@ -420,7 +503,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-11",
@@ -429,7 +513,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-12",
@@ -438,7 +523,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-13",
@@ -447,7 +533,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-14",
@@ -456,7 +543,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-15",
@@ -465,7 +553,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-17",
@@ -474,7 +563,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-18",
@@ -483,16 +573,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-19",
     "circle_id": "gunp_m",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-20",
@@ -501,7 +595,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-21",
@@ -510,7 +605,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-22",
@@ -519,25 +615,33 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-23",
     "circle_id": "yuto_higuchi_",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-24",
     "circle_id": "mizonozomizo",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "novel": true,
+      "consign": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-25",
@@ -546,7 +650,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-26",
@@ -555,34 +660,57 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-27",
     "circle_id": "anmitiyon",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/anmitiyon/status/2058902030622798211"
+      ]
+    ]
   },
   {
     "booth_id": "B-28",
     "circle_id": "amedamacon",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "goods": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/amedamacon/status/2050126904485966254"
+      ]
+    ]
   },
   {
     "booth_id": "B-29/30",
     "circle_id": "twinbox_tb",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true,
+      "goods": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-31",
@@ -591,7 +719,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-32",
@@ -600,16 +729,21 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-33",
     "circle_id": "noroshino8",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "free": true,
+      "goods": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-34",
@@ -618,7 +752,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-35",
@@ -627,16 +762,26 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-36",
     "circle_id": "hinagikubooks",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "consign": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": [
+      [
+        "online",
+        "🛒 通販あり",
+        "https://x.com/HinagikuBooks/status/2060584525579887085"
+      ]
+    ]
   },
   {
     "booth_id": "B-37",
@@ -645,16 +790,20 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-38",
     "circle_id": "star_kzer",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "novel": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-39",
@@ -663,7 +812,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "B-40",
@@ -672,7 +822,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "C-01",
@@ -681,7 +832,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "C-02",
@@ -690,7 +842,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "C-03",
@@ -699,7 +852,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "C-04",
@@ -708,15 +862,19 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   },
   {
     "booth_id": "C-05",
     "circle_id": "vananatamago",
     "body": "",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "manga": true
+    },
     "min_price": null,
-    "cover_urls": []
+    "cover_urls": [],
+    "warnings": []
   }
 ];
