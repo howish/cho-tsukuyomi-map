@@ -445,9 +445,11 @@
   function renderCard(b) {
     const cps = b.cps || [];
     const tags = b.tags || {};
+    const works = b.works || [];  // post formalize-filter-system axis-migration
     const activeTags = Object.keys(tags).filter(k => tags[k]);
     const filterTokens = [
       ...cps.map(c => 'cp:' + c),
+      ...works.map(w => 'work:' + w),
       ...activeTags.map(t => (TAG_CATEGORY[t] || 'tag') + ':' + t),
     ];
     if (b.area) filterTokens.push('area:' + b.area);
