@@ -167,7 +167,7 @@
   const slug = params.get('event');
   if (!slug) {
     // No event specified — show selector before loading anything
-    fetch('events.json').then(r => r.json()).then(d => {
+    fetch('../events.json').then(r => r.json()).then(d => {
       const list = (d.events || []).filter(e => e.slug);
       const container = document.body;
       container.innerHTML = `<div style="max-width:520px;margin:3rem auto;padding:1.5rem;background:#fff;border-radius:10px;font-family:-apple-system,sans-serif;">
@@ -182,7 +182,7 @@
     return;
   }
   // Load data.js + coords.js dynamically, then signal ready
-  document.getElementById('map-img').src = slug + '/map.jpg';
+  document.getElementById('map-img').src = '../' + slug + '/map.jpg';
   document.title = `Booth Coord Tool — ${slug}`;
   // Use script tags (because they set window.BOOTHS / window.BOOTH_COORDS via sync eval)
   let pending = 2;
@@ -198,9 +198,9 @@
     s.onerror = () => { onerr && onerr(); done(); };
     document.head.appendChild(s);
   }
-  loadScript(slug + '/data.js');
+  loadScript('../' + slug + '/data.js');
   // coords.js is optional (new events may not have any yet)
-  loadScript(slug + '/coords.js', () => { window.BOOTH_COORDS = window.BOOTH_COORDS || {}; });
+  loadScript('../' + slug + '/coords.js', () => { window.BOOTH_COORDS = window.BOOTH_COORDS || {}; });
 })();
 </script>
 <script>

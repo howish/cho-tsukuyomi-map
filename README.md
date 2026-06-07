@@ -214,6 +214,26 @@ python3 scripts/pull_timelines.py yaoyoro-2026-06
 
 ---
 
+## Maintainer tooling (`tools/`)
+
+ブラウザで開いて使う一発もの。 deploy には含まれるけど、 ナビゲーションからは
+リンクされてない (URL 直叩き)。
+
+- **[tools/coord-tool.html](tools/coord-tool.html)** — 会場マップの上で
+  ブースを四角で囲って `coords.js` (`window.BOOTH_COORDS`) を生成する
+  band-mode エディタ。 行頭で行 prefix (例: `A` / `B` / `ヤオ`) を選び、
+  始番号 / 終番号 / direction を指定 → 左上 / 右下クリックで自動配置。
+  `?event=<slug>` を URL に付けてイベント指定。
+
+- **[tools/bookmarklet.html](tools/bookmarklet.html)** — 任意ページの
+  X / Threads / FB 投稿から **画像 URL を一発でクリップ** する
+  ブックマークレット。 ドラッグでブックマークバー登録、 ターゲットページで
+  クリックすると pbs.twimg.com / cdninstagram / scontent.fb URL を抽出。
+
+cache-bust は手動 (root index.html の `?v=` と同じタイミングで bump)。
+
+---
+
 ## Tech
 
 - Plain HTML / CSS / vanilla JS (no framework, no build step)
