@@ -71,12 +71,13 @@ def main():
         print('error: circles.json not found — run extract_circles.py first', file=sys.stderr)
         sys.exit(1)
     grand_total = 0
-    for ev_dir in sorted(root.iterdir()):
-        data_js = ev_dir / 'data.js'
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        data_js = ev.dir / 'data.js'
         if not data_js.is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
         n = migrate_file(data_js)
-        print(f'{ev_dir.name}/data.js: {n} booths migrated')
+        print(f'{ev.slug}/data.js: {n} booths migrated')
         grand_total += n
     print(f'\nTOTAL: {grand_total} booths now reference circles.json')
 

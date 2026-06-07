@@ -104,10 +104,13 @@ def main():
         else:
             print(f'circles.json — ✅ clean')
 
-    for ev_dir in sorted(root.iterdir()):
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        ev_dir = ev.dir
         data_js = ev_dir / 'data.js'
         if not data_js.is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
         violations = check_event_data(data_js)
         if violations:
             print(f'\n{ev_dir.name}/data.js — {len(violations)} violations:')

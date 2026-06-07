@@ -40,10 +40,13 @@ def main():
     authors_by_id = {a['id']: a for a in circles_data.get('authors', [])}
 
     grand_pruned = 0
-    for ev_dir in sorted(root.iterdir()):
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        ev_dir = ev.dir
         data_js = ev_dir / 'data.js'
         if not data_js.is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
         src = data_js.read_text(encoding='utf-8')
         m = re.search(r'window\.BOOTHS\s*=\s*(\[.*?\]);?\s*\Z', src, re.S)
         if not m: continue

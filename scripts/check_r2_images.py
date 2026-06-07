@@ -36,9 +36,11 @@ R2_URL_RE = re.compile(rf'https?://{re.escape(R2_HOST)}/[^\s)\'"<>]+', re.I)
 def collect_r2_urls(root: Path) -> list[tuple[str, str, str]]:
     """Returns list of (event_slug, where, url) tuples — where = 'cover[i]' / 'body'."""
     found: list[tuple[str, str, str]] = []
-    for ev_dir in sorted(root.iterdir()):
-        if not ev_dir.is_dir() or ev_dir.name in {'scripts', 'circles', 'docs'}:
-            continue
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        ev_dir = ev.dir
         data_js = ev_dir / 'data.js'
         if not data_js.is_file():
             continue

@@ -129,13 +129,14 @@ def main():
             pass
 
     # Walk all event data.js — collect circle + author + event references
-    for ev_dir in sorted(root.iterdir()):
-        data_js = ev_dir / 'data.js'
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        data_js = ev.dir / 'data.js'
         if not data_js.is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
         booths = load_booths(data_js)
         if not booths: continue
-        ev_slug = ev_dir.name
+        ev_slug = ev.slug
         ev_meta = events_map.get(ev_slug, {'name': ev_slug, 'date': ''})
         for b in booths:
             cid = b.get('circle_id') or circle_id_for(b)

@@ -15,9 +15,11 @@ def main():
     ver = str(int(time.time()))
     patt = re.compile(r'v=\d{10}')
     targets = [root / 'index.html', root / 'circles' / 'index.html']
-    for ev_dir in sorted(root.iterdir()):
-        if (ev_dir / 'index.html').is_file() and (ev_dir / 'event.js').is_file():
-            targets.append(ev_dir / 'index.html')
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        if (ev.dir / 'index.html').is_file():
+            targets.append(ev.dir / 'index.html')
 
     for t in targets:
         if not t.is_file():

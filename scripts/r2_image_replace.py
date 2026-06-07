@@ -66,20 +66,21 @@ def find_cover_by_display_url(display_url: str) -> tuple[str, str, int]:
     Strips any ?v= cache-buster suffix to match.
     """
     base = display_url.split('?')[0]
-    for ev_dir in sorted(PROJECT.iterdir()):
-        if not ev_dir.is_dir() or ev_dir.name in {'scripts', 'circles', 'docs'}:
-            continue
-        if not (ev_dir / 'data.js').is_file():
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(PROJECT):
+        if not (ev.dir / 'data.js').is_file():
             continue
         try:
-            booths, _, _ = load_booths(ev_dir.name)
+            booths, _, _ = load_booths(ev.slug)
         except Exception:
             continue
         for b in booths:
             for i, c in enumerate(b.get('cover_urls') or []):
                 du = (c.get('display_url') or '').split('?')[0]
                 if du == base:
-                    return ev_dir.name, b['booth_id'], i
+                    return ev.slug, b['booth_id'], i
     raise ValueError(f'display_url not found in any event data.js: {display_url}')
 
 

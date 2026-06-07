@@ -128,10 +128,13 @@ def main():
     print(f'tweet info: {len(info)} entries, {sum(1 for v in info.values() if v["is_rt"])} RTs')
 
     grand = 0
-    for ev_dir in sorted(root.iterdir()):
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        ev_dir = ev.dir
         data_js = ev_dir / 'data.js'
         if not data_js.is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
         n = canonicalize_event(data_js, info)
         if n:
             print(f'{ev_dir.name}/data.js: {n} cover source_url RT→original')

@@ -102,18 +102,17 @@ def main():
 
     ver = str(int(time.time()))
 
-    for ev_dir in sorted(root.iterdir()):
-        if not (ev_dir / 'event.js').is_file(): continue
-        if ev_dir.name in {'scripts', 'circles'}: continue
-        slug = ev_dir.name
-        if args.only and slug != args.only: continue
-        target = ev_dir / 'index.html'
+    sys.path.insert(0, str(Path(__file__).parent))
+    from _events import discover_events
+    for ev in discover_events(root):
+        if args.only and ev.slug != args.only: continue
+        target = ev.dir / 'index.html'
         if target.exists() and not args.force and not args.only:
-            print(f'skip {slug}/index.html (exists; --force to overwrite)')
+            print(f'skip {ev.slug}/index.html (exists; --force to overwrite)')
             continue
-        html = build_html(slug, ev_dir, template, ver)
+        html = build_html(ev.slug, ev.dir, template, ver)
         target.write_text(html, encoding='utf-8')
-        print(f'wrote {slug}/index.html (v={ver})')
+        print(f'wrote {ev.slug}/index.html (v={ver})')
 
 
 if __name__ == '__main__':
