@@ -97,7 +97,14 @@
     if (EVENT.map_image) {
       const m = document.getElementById('venue-map');
       if (m) {
-        m.src = EVENT.map_image;
+        // Preserve any ?v=... cache-bust query the template injected on
+        // the original src — otherwise overwriting m.src to a bare
+        // "map.jpg" strips it and the browser keeps serving an older
+        // cached image on every later deploy of just the map file.
+        const prev = new URL(m.src, location.href);
+        const next = new URL(EVENT.map_image, location.href);
+        if (!next.search && prev.search) next.search = prev.search;
+        m.src = next.pathname + next.search;
         // Escape hatch: if the map fails to load AND a SW is controlling
         // this page, it's almost always because the SW (or its predecessor)
         // cached a 404 from a previous deploy window. Hard-reset by
