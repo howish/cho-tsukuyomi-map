@@ -156,24 +156,28 @@ def classify_url(url: str):
     return 'unknown', ()
 
 
-def r2_path_for(booth_fs: str, source_url: str) -> str:
+def r2_path_for(event: str, booth_fs: str, source_url: str) -> str:
     """Pick the per-entry R2 prefix based on source URL — matches the
     convention used across earlier batches so the same source URL re-
-    populates the same prefix on re-runs (idempotent)."""
+    populates the same prefix on re-runs (idempotent).
+
+    `event` is threaded through as a parameter (was a module-level
+    constant before B12, which silently broke for non-if7 events even
+    when `--event` was passed)."""
     kind, parts = classify_url(source_url)
     if kind == 'fb_share':
-        return f'cho-tsukuyomi-map/{EVENT}/booth-images/{booth_fs}/share-{parts[0]}'
+        return f'cho-tsukuyomi-map/{event}/booth-images/{booth_fs}/share-{parts[0]}'
     if kind == 'fb_post':
-        return f'cho-tsukuyomi-map/{EVENT}/booth-images/{booth_fs}/{parts[0]}-{parts[1][:12]}'
+        return f'cho-tsukuyomi-map/{event}/booth-images/{booth_fs}/{parts[0]}-{parts[1][:12]}'
     if kind in ('x_status', 'x_status_alt'):
-        return f'cho-tsukuyomi-map/{EVENT}/matome/{booth_fs}/x-{parts[0]}'
+        return f'cho-tsukuyomi-map/{event}/matome/{booth_fs}/x-{parts[0]}'
     if kind == 'threads_post':
-        return f'cho-tsukuyomi-map/{EVENT}/matome/{booth_fs}/threads-{parts[1]}'
+        return f'cho-tsukuyomi-map/{event}/matome/{booth_fs}/threads-{parts[1]}'
     if kind == 'plurk_post':
-        return f'cho-tsukuyomi-map/{EVENT}/matome/{booth_fs}/plurk-{parts[0]}'
+        return f'cho-tsukuyomi-map/{event}/matome/{booth_fs}/plurk-{parts[0]}'
     if kind == 'bsky_post':
-        return f'cho-tsukuyomi-map/{EVENT}/matome/{booth_fs}/bsky-{parts[1]}'
-    return f'cho-tsukuyomi-map/{EVENT}/matome/{booth_fs}/misc'
+        return f'cho-tsukuyomi-map/{event}/matome/{booth_fs}/bsky-{parts[1]}'
+    return f'cho-tsukuyomi-map/{event}/matome/{booth_fs}/misc'
 
 
 # ---------- Scrapers (delegate to existing skills) ----------
@@ -454,18 +458,20 @@ def r2_delete_key(s3, key: str):
 
 # ---------- Main orchestrator ----------
 
-EVENT = 'if7-2026-05'  # set per --event flag
-
 
 def main():
-    global EVENT
     ap = argparse.ArgumentParser(description='Apply a [修正案] issue to cho-tsukuyomi-map')
     src = ap.add_mutually_exclusive_group(required=True)
     src.add_argument('issue_number', type=int, nargs='?',
                      help='GitHub issue number (omit when using --file)')
     src.add_argument('--file', type=str,
                      help='Apply from a local .md file (download path from edit mode)')
-    ap.add_argument('--event', default='if7-2026-05')
+    ap.add_argument('--event', required=True,
+                    help='Event slug (e.g. yaoyoro-2026-06). Required — was '
+                         'previously defaulted to if7-2026-05 + threaded via a '
+                         'module-level constant, which silently broke for other '
+                         'events when --event was passed but r2_path_for() '
+                         'still read the constant. Per B12 2026-06-07 fix.')
     ap.add_argument('--dry-run', action='store_true', help='Print the plan, no R2/data.js/git mutations')
     # Cookies: env var first (FB_COOKIES_NETSCAPE_PATH / THREADS_COOKIES_NETSCAPE_PATH),
     # then legacy ~/project/{fb,threads}-cookies.txt fallback for back-compat.
@@ -476,7 +482,6 @@ def main():
         os.environ.get('THREADS_COOKIES_NETSCAPE_PATH')
         or str(Path.home() / 'project' / 'threads-cookies.txt')))
     args = ap.parse_args()
-    EVENT = args.event
 
     fb_cookies = Path(args.fb_cookies) if Path(args.fb_cookies).exists() else None
     threads_cookies = Path(args.threads_cookies) if Path(args.threads_cookies).exists() else None
@@ -592,7 +597,7 @@ def main():
                     print(f'  ⚠ {op["booth"]}: locked URL fetch failed; appending as display=None')
                     new_cover_urls.append({'source_url': src, 'display_url': None, 'display_locked': True})
                     continue
-                prefix = r2_path_for(booth_fs, src) + '/locked'
+                prefix = r2_path_for(args.event, booth_fs, src) + '/locked'
                 # Use the SHA1-prefixed filename as the R2 key index so re-runs are idempotent
                 key = f'{prefix}/{local.name}'
                 url = r2_upload(s3, local, key)
@@ -623,7 +628,7 @@ def main():
                 new_cover_urls.append({'source_url': src, 'display_url': None, 'display_locked': False})
                 continue
 
-            prefix = r2_path_for(booth_fs, src)
+            prefix = r2_path_for(args.event, booth_fs, src)
             for i, f in enumerate(local_files):
                 ext = f.suffix or '.jpg'
                 key = f'{prefix}/{i}{ext}'

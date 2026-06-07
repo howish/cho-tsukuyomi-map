@@ -100,9 +100,17 @@ def parse_filters_config(filters_js: str) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('data_js', nargs='?', default='if7-2026-05/data.js')
-    ap.add_argument('filters_js', nargs='?', default='if7-2026-05/filters.js')
+    # B12 (2026-06-07): event slug required — defaulting to if7-2026-05
+    # silently audited the wrong event when run from a fresh shell.
+    ap.add_argument('--event', required=True,
+                    help='Event slug (e.g. yaoyoro-2026-06)')
+    ap.add_argument('data_js', nargs='?', default=None)
+    ap.add_argument('filters_js', nargs='?', default=None)
     args = ap.parse_args()
+    if not args.data_js:
+        args.data_js = f'{args.event}/data.js'
+    if not args.filters_js:
+        args.filters_js = f'{args.event}/filters.js'
 
     data_text = Path(args.data_js).read_text()
     filters_text = Path(args.filters_js).read_text()
