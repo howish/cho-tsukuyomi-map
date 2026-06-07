@@ -1,0 +1,99 @@
+#!/usr/bin/env bash
+# Pre-commit lint — runs the cho-tsukuyomi-map audit linters on every
+# commit attempt and blocks the commit if anything fails.
+#
+# Per B9 (2026-06-07 structural review) — git hook chosen over CI
+# because the feedback loop is tighter: catch drift before it leaves
+# the local machine.
+#
+# Install:
+#   ln -s ../../scripts/git-hooks/pre-commit .git/hooks/pre-commit
+#   (or: cp scripts/git-hooks/pre-commit .git/hooks/pre-commit && chmod +x)
+#
+# Bypass (use sparingly, only for genuinely-known-broken commits):
+#   git commit --no-verify ...
+#
+# All linters are designed to exit non-zero on issues; the script
+# aggregates their exit codes and only fails the commit at the end so
+# the developer sees every issue in one pass instead of having to
+# bisect.
+
+set -u  # but NOT -e — we want to keep running through all linters
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT" || exit 1
+
+fail=0
+echo "→ pre-commit lint: cho-tsukuyomi-map"
+
+# Each linter prints its own diagnostics; we just gate exit code.
+
+# Skip everything if no relevant files are staged. Cheap optimisation
+# to keep `git commit -m "fix typo in README"` fast.
+staged=$(git diff --cached --name-only)
+if [ -z "$staged" ]; then
+  echo "  (no staged files — skipping)"
+  exit 0
+fi
+
+# 1. Same-origin asset URLs must carry ?v=... cache-bust query.
+#    The exact failure mode that motivated B9 — a map.jpg without
+#    cache-bust silently kept users on stale bytes for ~3 weeks.
+if echo "$staged" | grep -qE '\.(html|js|css)$'; then
+  echo "  → check_asset_versions"
+  python3 scripts/audits/check_asset_versions.py --quiet
+  rc=$?
+  if [ $rc -ne 0 ]; then
+    echo "    ✗ unversioned asset refs found (run without --quiet to see full report)"
+    fail=1
+  fi
+fi
+
+# 2. Per-event sw.js + manifest.json must match the root templates.
+#    Catches the case where someone hand-edits an event's sw.js
+#    instead of going through _sw_template.js + build_event_pwa.py.
+if echo "$staged" | grep -qE '(_sw_template\.js|_manifest_template\.json|/sw\.js|/manifest\.json)'; then
+  echo "  → build_event_pwa --check"
+  out=$(python3 scripts/ops/build_event_pwa.py --check 2>&1)
+  rc=$?
+  if [ $rc -ne 0 ]; then
+    echo "$out" | sed 's/^/    /'
+    echo "    ✗ run: python3 scripts/ops/build_event_pwa.py"
+    fail=1
+  fi
+fi
+
+# 3. Per-event data.js schema — lint only the events whose data.js is
+#    actually staged (so unrelated commits stay fast).
+events_touched=$(echo "$staged" | grep -E '^[^/]+/data\.js$' | sed 's|/data\.js$||')
+for slug in $events_touched; do
+  echo "  → lint-booth-data: $slug"
+  python3 scripts/audits/lint-booth-data.py --event "$slug" >/dev/null
+  rc=$?
+  if [ $rc -ne 0 ]; then
+    echo "    ✗ lint-booth-data failed for $slug — re-run without > /dev/null to see findings"
+    fail=1
+  fi
+done
+
+# 4. circles.json socials shape — only when circles.json itself is staged.
+if echo "$staged" | grep -qE '^circles\.json$'; then
+  echo "  → validate_socials"
+  python3 scripts/audits/validate_socials.py >/dev/null
+  rc=$?
+  if [ $rc -ne 0 ]; then
+    echo "    ✗ validate_socials failed — re-run without > /dev/null to see findings"
+    fail=1
+  fi
+fi
+
+if [ $fail -ne 0 ]; then
+  echo ""
+  echo "✗ pre-commit lint blocked the commit"
+  echo "  fix the issues above, re-stage, and re-commit"
+  echo "  (or bypass with --no-verify if you really know what you're doing)"
+  exit 1
+fi
+
+echo "✓ pre-commit lint passed"
+exit 0

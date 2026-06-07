@@ -244,6 +244,29 @@ cache-bust は手動 (root index.html の `?v=` と同じタイミングで bump
 
 ---
 
+## Pre-commit lint hook
+
+`scripts/git-hooks/pre-commit` は staged file に応じて lint を走らせて
+commit を gate する。 初回 setup:
+
+```bash
+ln -sf ../../scripts/git-hooks/pre-commit .git/hooks/pre-commit
+```
+
+何を check するか (staged file による条件分岐):
+- `.html` / `.js` / `.css` 変更時: `check_asset_versions.py` (`?v=` cache-bust 漏れ)
+- `_sw_template.js` / `_manifest_template.json` / per-event `sw.js`/`manifest.json`
+  変更時: `build_event_pwa.py --check` (drift)
+- 各 event の `data.js` 変更時: `lint-booth-data.py --event <slug>` (schema)
+- `circles.json` 変更時: `validate_socials.py` (socials shape)
+
+bypass (本当に分かってる時のみ):
+```bash
+git commit --no-verify ...
+```
+
+---
+
 ## Tech
 
 - Plain HTML / CSS / vanilla JS (no framework, no build step)
