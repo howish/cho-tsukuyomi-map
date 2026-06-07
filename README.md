@@ -244,6 +244,51 @@ cache-bust は手動 (root index.html の `?v=` と同じタイミングで bump
 
 ---
 
+## Filter system (tags / warnings / cps / works)
+
+各 booth の filter chip (タグ / 警告 / カップリング / 作品) は
+**4 軸 schema** で管理。 schema authority は
+[docs/filters.md](docs/filters.md)。
+
+- **共通 vocabulary** (universal tags + warnings) は root の
+  [`_filters_base.js`](_filters_base.js) に置く
+- **per-event 拡張** (CPs / works / 区分 area) は各 event の
+  `filters.js` に置く
+- `app.js` が runtime で base + per-event を merge、 per-event 同 code
+  は base override
+
+**filter 追加 / 改名 / 移動 / 削除は手編集禁止** — 代わりに
+project skill `filter-system` の `manage` subcommand 経由で:
+
+```bash
+.claude/skills/filter-system/bin/run.sh manage add-tag <event> <code> <label> [icon]
+.claude/skills/filter-system/bin/run.sh manage rename-code <event> <old> <new>
+.claude/skills/filter-system/bin/run.sh manage remove-code <event> <code> --cleanup
+.claude/skills/filter-system/bin/run.sh manage migrate-axis <event> --from tags --to works --codes vocaloid hololive
+```
+
+**booth の tags/warnings 充填**: 既存 body + signals から classify
+agent dispatch で proposal 作り、 apply_classify で fcntl.flock 排他
+適用:
+
+```bash
+# 1. signal bundle 作る (event の booth を chunk JSON 化)
+.claude/skills/filter-system/bin/run.sh classify-prep <event> --chunks 4
+# 2. 各 chunk を agent dispatch (CLASSIFY_PROMPT.md 参照、 並列 OK)
+# 3. apply (audit log + post-apply validate 自動)
+.claude/skills/filter-system/bin/run.sh apply-classify <event> /tmp/<event>-classify-chunk-1.json
+```
+
+**validation**: `.claude/skills/filter-system/bin/run.sh validate`
+で stray code / 軸混入 / schema 違反 / drift 検出、 pre-commit hook
+にも wire 済 (transition mode で warn は block しない、 `--strict` で
+全 warn を error 扱い)。
+
+詳細: [`.claude/skills/filter-system/SKILL.md`](.claude/skills/filter-system/SKILL.md) /
+背景の設計判断: [`openspec/changes/formalize-filter-system/`](openspec/changes/formalize-filter-system/)
+
+---
+
 ## Pre-commit lint hook
 
 `scripts/git-hooks/pre-commit` は staged file に応じて lint を走らせて

@@ -66,6 +66,35 @@ python3 scripts/ops/bump_cache.py
 drift 防止のため **手 sed は禁止** (一部 index 漏らすと CDN cache が food chain で
 腐る + linter `scripts/audits/check_asset_versions.py` でも catch される)。
 
+## Filter system — 4 axis (cps / tags / works / warnings)
+
+`tags` (作品形態) と `warnings` (販売状況) は **universal vocabulary**
+を root `_filters_base.js` で共有、 各 event の `filters.js` は
+per-event 拡張 (CPs / works / 区分) のみ宣言。 schema authority は
+[`docs/filters.md`](docs/filters.md)。
+
+**手編集禁止** — filter 追加 / 改名 / 削除 / 軸移動は project skill
+`filter-system` 経由:
+
+```bash
+.claude/skills/filter-system/bin/run.sh manage add-tag <event> <code> <label>
+.claude/skills/filter-system/bin/run.sh manage rename-code <event> <old> <new>
+.claude/skills/filter-system/bin/run.sh manage migrate-axis <event> --from tags --to works --auto-match
+```
+
+**booth の tags/warnings 充填** = body content を agent reasoning で
+classify、 fcntl.flock 排他で apply:
+
+```bash
+.claude/skills/filter-system/bin/run.sh classify-prep <event> --chunks 4
+# → agent dispatch (parallel) for each chunk per .claude/skills/filter-system/CLASSIFY_PROMPT.md
+.claude/skills/filter-system/bin/run.sh apply-classify <event> /tmp/<event>-classify-chunk-N.json
+```
+
+**validator** は pre-commit hook に wire 済、 commit 時に drift 自動検出。
+schema 違反 (stray code / 軸混入 / 命名違反) を transition mode で warn、
+`--strict` で全 warn → error。
+
 ## 自動 scraper の禁止事項
 
 - FB 投稿の画像は repo に commit しない (`feedback_no_repo_asset_bloat.md`)

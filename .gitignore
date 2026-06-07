@@ -31,6 +31,12 @@ agg-decisions.json
 # output, never shipped.
 scripts/.scratch/
 
+# Per formalize-filter-system Pass 4: classify-prep chunk bundles +
+# apply-classify audit logs are per-event scratch under
+# <event>/.classify-input/. Useful for debug + agent re-runs, never
+# shipped to deploy.
+*/.classify-input/
+
 # post-mirror SSOT — gitignored, R2 backup (per add-x-post-mirror)
 .x-api-data/mirror.sqlite
 .x-api-data/mirror.sqlite-journal
