@@ -224,7 +224,8 @@ window.BOOTHS = [
     "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- [**新刊** 『ミニヤッチョまみれ！』](https://x.com/ujat_47/status/2062085378623111308) — 残 約40部、 時間に分けて頒布\n- **色紙 約15種**\n- **ミニヤッチョ特装版**\n- [@EiNeEna_mikan の新刊も委託](https://x.com/ujat_47/status/2062505114305478944)\n- ラストのポスター: じゃんけん予定\n\n## 📦 既刊 委託通販\n- ミニヤッチョ [メロン通販完売](https://x.com/ujat_47/status/2058693495595143384)、 増産中 → 頒布完了次第 [メロン再販](https://x.com/ujat_47/status/2059097457750106275)",
     "cps": [],
     "tags": {
-      "goods": true
+      "goods": true,
+      "consign": true
     },
     "min_price": null,
     "cover_urls": [
