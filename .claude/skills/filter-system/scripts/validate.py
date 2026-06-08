@@ -2,6 +2,7 @@
 """filter-system validate — schema + drift audit across events.
 
 Per openspec change formalize-filter-system, Group 3.
+Extended per add-event-phase-context: `out-of-window-date` check.
 
 Severity matrix (transition mode default; --strict promotes warnings
 to errors):
@@ -12,6 +13,7 @@ to errors):
   - code naming violation (non-lowercase, non-kebab, non-ASCII) warn / error
   - dead `pattern` field on filter entry                       warn / error
   - cross-event drift in shared vocabulary                     warn / warn
+  - out-of-window-date (body date > 60d from event)            warn / error
 
 Exit code = max severity hit (0 clean, 1 warn, 2 error).
 """
@@ -20,10 +22,14 @@ from __future__ import annotations
 
 import argparse
 import sys
+from datetime import timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import _filter_lib as fl  # noqa: E402
+
+
+OUT_OF_WINDOW_THRESHOLD_DAYS = 60
 
 
 SEVERITY_ORDER = {"info": 0, "warn": 1, "error": 2}
@@ -109,6 +115,32 @@ def main():
                             "warn", ev, f"data.js[{bid}].{axis_in_data}",
                             f"axis mixing: '{code}' belongs to "
                             f"filters.{defined_axis}, not {axis_in_data}"
+                        ))
+
+        # out-of-window-date check: scan booth body for date strings
+        # that resolve > 60 days from the event's natural window.
+        win = fl.event_date_window(ev)
+        if win is not None:
+            start, end = win
+            for b in booths:
+                bid = b.get("booth_id", "?")
+                body = b.get("body") or ""
+                if not body:
+                    continue
+                dates = fl.extract_body_dates(body, hint_year=start.year)
+                for d_, raw in dates:
+                    # Distance to nearest event-window endpoint
+                    if d_ < start:
+                        dist_days = (start - d_).days
+                    elif d_ > end:
+                        dist_days = (d_ - end).days
+                    else:
+                        dist_days = 0
+                    if dist_days > OUT_OF_WINDOW_THRESHOLD_DAYS:
+                        findings.append((
+                            "warn", ev, f"data.js[{bid}].body",
+                            f"out-of-window-date: '{raw}' resolves to {d_} "
+                            f"({dist_days}d from event {start}..{end})"
                         ))
 
     # Apply --strict: promote warn → error.

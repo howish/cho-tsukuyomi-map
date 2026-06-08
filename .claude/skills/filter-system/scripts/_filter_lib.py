@@ -14,6 +14,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 # Project root resolution from this file's location:
@@ -231,6 +232,81 @@ def _js_to_json_lite(s: str) -> str:
 
 
 # ---------- code introspection ----------
+
+def load_events_index() -> list[dict]:
+    """Return the parsed `events.json` events list, or [] if missing."""
+    path = PROJECT_ROOT / "events.json"
+    if not path.is_file():
+        return []
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("events", [])
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def event_date_window(event_slug: str) -> tuple[date, date] | None:
+    """Look up an event slug in events.json, return (start, end) dates.
+
+    Supports `dates: ["YYYY-MM-DD", "YYYY-MM-DD"]` (multi-day) or
+    `date: "YYYY-MM-DD"` (single — start == end).
+    """
+    for ev in load_events_index():
+        if ev.get("slug") != event_slug:
+            continue
+        if ev.get("dates"):
+            try:
+                return (date.fromisoformat(ev["dates"][0]),
+                        date.fromisoformat(ev["dates"][-1]))
+            except (ValueError, TypeError):
+                return None
+        if ev.get("date"):
+            try:
+                d = date.fromisoformat(ev["date"])
+                return (d, d)
+            except (ValueError, TypeError):
+                return None
+        return None
+    return None
+
+
+# Regexes for date-string extraction from booth body markdown.
+# Order matters: longest forms first (so 2026-06-07 wins over 6-07).
+# The bare M/D slash form is intentionally NOT included — "1/3" / "2/3"
+# in editorial markdown overwhelmingly means "part 1 of 3" (fraction
+# / chapter index), not "January 3rd". The Japanese 月/日 form is
+# unambiguous and stays.
+_DATE_PATTERNS = [
+    # 2026-06-07 / 2026/06/07 / 2026年6月7日
+    re.compile(r"(?P<y>20\d{2})[-/年](?P<m>\d{1,2})[-/月](?P<d>\d{1,2})日?"),
+    # 6月7日 — unambiguous JP date marker, no year
+    re.compile(r"(?<![\d])(?P<m>\d{1,2})月(?P<d>\d{1,2})日(?![\d])"),
+]
+
+
+def extract_body_dates(text: str, hint_year: int) -> list[tuple[date, str]]:
+    """Return [(parsed_date, raw_match_text), ...] for date-like strings.
+
+    Deduped on parsed date. M/D forms use hint_year. Invalid month/day
+    combinations (e.g. 2/30) are skipped silently.
+    """
+    seen: set[date] = set()
+    out: list[tuple[date, str]] = []
+    for rx in _DATE_PATTERNS:
+        for m in rx.finditer(text or ""):
+            gd = m.groupdict()
+            try:
+                y = int(gd.get("y") or hint_year)
+                mo = int(gd["m"])
+                dd = int(gd["d"])
+                d_ = date(y, mo, dd)
+            except (ValueError, KeyError, TypeError):
+                continue
+            if d_ in seen:
+                continue
+            seen.add(d_)
+            out.append((d_, m.group(0)))
+    return out
+
 
 def codes_in_booth(booth: dict) -> dict[str, list[str]]:
     """Return per-axis list of codes the booth actually uses.

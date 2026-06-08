@@ -13,7 +13,9 @@
       "official_url": "https://sengendo.a.la9.jp/chokagutop.html",
       "official_label": "超ツクヨミ祭公式",
       "icon": "🌙",
-      "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。"
+      "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。",
+      "aliases": ["超ツクヨミ祭", "超ツク", "ちょうツク"],
+      "hashtags": ["#超ツクヨミ祭"]
     },
     {
       "slug": "yaoyoro-2026-06",
@@ -27,7 +29,10 @@
       "official_url": "https://ketto.com/ya/",
       "official_label": "ヤオヨロー！ 公式 (ケットコム)",
       "icon": "🌙",
-      "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列 34 サークル 36 スペース。"
+      "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列 34 サークル 36 スペース。",
+      "aliases": ["ヤオヨロー", "ヤオヨロ", "プリケット2"],
+      "hashtags": ["#ヤオヨロー", "#プリケット2"],
+      "unique_booth_prefix": "ヤオ-"
     },
     {
       "slug": "tsukuyomi-square-2026-06",
@@ -41,7 +46,9 @@
       "official_url": "https://www.lovefes.info/260621list.html",
       "official_label": "ラブフェス202606 公式サークルリスト",
       "icon": "🌙",
-      "summary": "GirlsLoveFestival47 内 超かぐや姫！百合 ONLY 集中配置企画「ツクヨミスクエア 第1回」。 80サークル参加 (A-C 列)。"
+      "summary": "GirlsLoveFestival47 内 超かぐや姫！百合 ONLY 集中配置企画「ツクヨミスクエア 第1回」。 80サークル参加 (A-C 列)。",
+      "aliases": ["ツクヨミスクエア", "ツクスク", "ラブフェス202606", "GLFes47", "GirlsLoveFestival47"],
+      "hashtags": ["#ツクヨミスクエア", "#GLFes47", "#ラブフェス"]
     },
     {
       "name": "超ツクヨミ祭 1.5",
@@ -121,7 +128,9 @@
       "official_url": "https://if.gjs.tw/",
       "official_label": "第7回 創集繪 (IF7) 官網",
       "icon": "🌸",
-      "summary": "全 555 攤位 / 多 専區 (CH19 百合 ONLY / 偶大 / VW / BIO 等) を含む台湾最大級 同人即売會。 GJ工作室主辦、 繁中。 開催済 — ガイド頁は archive として保存。"
+      "summary": "全 555 攤位 / 多 専區 (CH19 百合 ONLY / 偶大 / VW / BIO 等) を含む台湾最大級 同人即売會。 GJ工作室主辦、 繁中。 開催済 — ガイド頁は archive として保存。",
+      "aliases": ["創集繪", "IF7", "CH19", "Comic Horizon"],
+      "hashtags": ["#IF7", "#CH19", "#創集繪"]
     }
   ]
 }

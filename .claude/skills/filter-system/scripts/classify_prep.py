@@ -33,23 +33,24 @@ POST_MIRROR_RUN = (
 )
 
 
-def _x_buckets_for(handle: str) -> dict | None:
-    """Call post-mirror's `query body` for the handle, return buckets
-    dict or None on missing/error."""
+def _x_body_for(handle: str, event_slug: str | None) -> dict | None:
+    """Call post-mirror's `query body` for the handle, return the full
+    payload dict (buckets + optional event_context + event_date_window),
+    or None on missing/error."""
     if not POST_MIRROR_RUN.is_file():
         return None
+    cmd = [str(POST_MIRROR_RUN), "query", "body", "--username", handle,
+           "--limit", "8"]
+    if event_slug:
+        cmd.extend(["--event", event_slug])
     try:
-        proc = subprocess.run(
-            [str(POST_MIRROR_RUN), "query", "body", "--username", handle,
-             "--limit", "8"],
-            capture_output=True, text=True, timeout=30,
-        )
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
     except subprocess.TimeoutExpired:
         return None
     if proc.returncode != 0:
         return None
     try:
-        return json.loads(proc.stdout).get("buckets")
+        return json.loads(proc.stdout)
     except json.JSONDecodeError:
         return None
 
@@ -141,10 +142,29 @@ def main():
         handle = _resolve_x_handle(slug, bid)
         if handle:
             entry["x_handle"] = handle
-            x_buckets = _x_buckets_for(handle)
-            if x_buckets and any(x_buckets.values()):
-                entry["x_buckets"] = x_buckets
+            payload = _x_body_for(handle, slug)
+            if payload:
+                x_buckets = payload.get("buckets") or {}
+                if any(x_buckets.values()):
+                    entry["x_buckets"] = x_buckets
         bundles.append(entry)
+
+    # Top-level event_date_window for the bundle: ask post-mirror once
+    # via a no-op handle (cheap — load events.json directly instead).
+    event_date_window = None
+    events_json = fl.PROJECT_ROOT / "events.json"
+    if events_json.is_file():
+        try:
+            all_events = json.loads(events_json.read_text(encoding="utf-8")).get("events", [])
+            for ev in all_events:
+                if ev.get("slug") == slug:
+                    if ev.get("dates"):
+                        event_date_window = [ev["dates"][0], ev["dates"][-1]]
+                    elif ev.get("date"):
+                        event_date_window = [ev["date"], ev["date"]]
+                    break
+        except (json.JSONDecodeError, OSError):
+            pass
 
     # Chunk
     n = max(1, args.chunks)
@@ -165,6 +185,8 @@ def main():
             "filters_vocab": vocab,
             "booths": chunk,
         }
+        if event_date_window:
+            out["event_date_window"] = event_date_window
         path = out_dir / f"chunk-{i + 1}.json"
         path.write_text(
             json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8"

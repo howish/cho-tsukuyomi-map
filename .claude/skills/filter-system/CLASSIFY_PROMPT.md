@@ -13,6 +13,7 @@ You'll be given a JSON file path like
 ```json
 {
   "event": "yaoyoro-2026-06",
+  "event_date_window": ["2026-06-07", "2026-06-07"],
   "chunk": 1, "of": 4,
   "prompt_path": "<this file>",
   "filters_vocab": {
@@ -29,7 +30,20 @@ You'll be given a JSON file path like
       "existing_tags": ["manga"],
       "existing_warnings": [],
       "x_handle": "fluffy_palette",
-      "x_buckets": { "新刊": [...], "完売": [...], ... }
+      "x_buckets": {
+        "新刊": [
+          {
+            "id": "...", "created_at": "...", "text": "...",
+            "event_context": {
+              "time_phase": "pre|during|post|far_pre|far_post",
+              "mentions": ["yaoyoro-2026-06", ...],
+              "this_event_confidence": "high|med|low|none"
+            }
+          },
+          ...
+        ],
+        "完売": [...], ...
+      }
     },
     ...
   ]
@@ -123,6 +137,31 @@ the tuple form with a source URL when you can find one in the body.
 6. **Existing tags carry forward.** If a booth already has tags/warnings,
    include them in your output unless you have a clear reason to drop.
    Your output REPLACES the booth's existing tags/warnings entirely.
+
+## Using `event_context`
+
+Every X mirror post (entries under `x_buckets.*`) carries an
+`event_context` block annotating its relationship to the current event:
+
+- `this_event_confidence: high` — post mentions THIS event by hashtag,
+  name, alias, or unique booth prefix. Use freely as evidence for tags /
+  warnings on this booth.
+- `this_event_confidence: med` — post is inside the time window
+  `[event − 60d, event + 14d]` but has no explicit mention. Use, but
+  do NOT promote a 完売 / online warning from a `med` post unless the
+  post text itself anchors the claim concretely (e.g. has a 通販 URL,
+  not just "completed" phrasing).
+- `this_event_confidence: low` — post mentions a DIFFERENT event with
+  high confidence. **Do NOT use as evidence for the current event's
+  tags or warnings.** Most common bleed pattern: a 2026-06-07 ヤオヨロー
+  完売 post showing up in tsukusquare classify input. Skip it.
+- `this_event_confidence: none` — neither timing nor text suggests
+  current-event relevance. Skip.
+
+The most common failure mode: posts containing "本日完売" / "場後" /
+"ありがとうございました" with a date string that resolves to a different
+event. NEVER promote those to a `soldout` warning on the current event,
+even if they appear in the bucket.
 
 ## Few-shot examples
 

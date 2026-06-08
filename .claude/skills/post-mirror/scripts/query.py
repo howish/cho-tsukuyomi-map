@@ -26,6 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import storage  # noqa: E402
+import _event_phase as event_phase  # noqa: E402
 
 # Default body-update keyword buckets — matches the editorial categories
 # in cho-tsukuyomi-map's EDITORIAL_GUIDELINES.md
@@ -198,6 +199,29 @@ def cmd_triage(conn, args) -> int:
     return 0
 
 
+def _load_events_for(events_json_path: str | None) -> list[dict]:
+    """Load events.json from the given path, or fall back to discovery.
+
+    Discovery order: explicit --events-json arg → $CWD/events.json →
+    repo-relative (.../cho-tsukuyomi-map/events.json) inferred from this
+    file's location.
+    """
+    if events_json_path:
+        p = Path(events_json_path)
+    else:
+        candidates = [
+            Path.cwd() / "events.json",
+            Path(__file__).resolve().parents[4] / "events.json",
+        ]
+        p = next((c for c in candidates if c.is_file()), candidates[0])
+    if not p.is_file():
+        return []
+    try:
+        return json.loads(p.read_text(encoding="utf-8")).get("events", [])
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
 def cmd_body(conn, args) -> int:
     """Categorize a single user's posts into body-update buckets.
 
@@ -205,12 +229,22 @@ def cmd_body(conn, args) -> int:
       {
         "username": "...",
         "user_id": "...",
+        "platform": "...",
+        "event": "<slug>",                         # if --event set
+        "event_date_window": ["YYYY-MM-DD", ...],  # if --event set
         "buckets": {
-          "新刊":     [{"id": ..., "created_at": ..., "text": ...}, ...],
-          "お品書き": [...],
-          "完売":     [...],
-          "通販":     [...],
-          "次回参加": [...]
+          "新刊":     [
+            {
+              "id": ..., "created_at": ..., "text": ...,
+              "event_context": {                    # if --event set
+                "time_phase": "...",
+                "mentions": [...],
+                "this_event_confidence": "..."
+              }
+            },
+            ...
+          ],
+          ...
         }
       }
     """
@@ -230,6 +264,23 @@ def cmd_body(conn, args) -> int:
     else:
         buckets = DEFAULT_BODY_BUCKETS
 
+    # Event-context setup (optional)
+    target_event = None
+    all_events: list[dict] = []
+    event_date_window = None
+    if args.event:
+        all_events = _load_events_for(args.events_json)
+        target_event = event_phase.find_event(all_events, args.event)
+        if target_event is None:
+            print(f"body: unknown event slug '{args.event}'", file=sys.stderr)
+            return 1
+        win = event_phase.event_window(target_event)
+        if win is None:
+            print(f"body: event '{args.event}' has no parseable date window",
+                  file=sys.stderr)
+            return 1
+        event_date_window = [win[0].isoformat(), win[1].isoformat()]
+
     out_buckets: dict[str, list[dict]] = {}
     for bucket_name, kws in buckets.items():
         seen_ids: set[str] = set()
@@ -239,12 +290,21 @@ def cmd_body(conn, args) -> int:
                 if row["id"] in seen_ids:
                     continue
                 seen_ids.add(row["id"])
-                bucket_hits.append({
+                hit = {
                     "id": row["id"],
                     "created_at": row["created_at"],
                     "text": row["text"],
                     "match_keyword": kw,
-                })
+                }
+                if target_event is not None:
+                    ec = event_phase.compute_event_context(
+                        row["text"] or "",
+                        row["created_at"] or "",
+                        target_event, all_events,
+                    )
+                    if ec is not None:
+                        hit["event_context"] = ec
+                bucket_hits.append(hit)
         # Sort newest first
         bucket_hits.sort(key=lambda r: r["created_at"] or "", reverse=True)
         out_buckets[bucket_name] = bucket_hits[: args.limit]
@@ -255,6 +315,9 @@ def cmd_body(conn, args) -> int:
         "platform": args.platform,
         "buckets": out_buckets,
     }
+    if args.event:
+        result["event"] = args.event
+        result["event_date_window"] = event_date_window
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 
@@ -298,6 +361,13 @@ def main():
     body.add_argument("--buckets", default=None,
                       help="JSON dict overriding default {bucket: [keyword,...]} mapping")
     body.add_argument("--limit", type=int, default=10)
+    body.add_argument("--event", default=None,
+                      help="Event slug (from events.json) to annotate each post with "
+                           "{time_phase, mentions, this_event_confidence}. When omitted, "
+                           "output shape is unchanged (legacy).")
+    body.add_argument("--events-json", default=None,
+                      help="Path to events.json (default: $CWD/events.json or "
+                           "repo-relative discovery)")
 
     args = p.parse_args()
     conn = storage.connect(args.mirror)

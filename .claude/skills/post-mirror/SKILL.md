@@ -59,12 +59,23 @@ bin/run.sh query triage --usernames @a,@b --keywords 新刊,お品書き
 bin/run.sh query diff   --usernames @a,@b --since 2026-06-04T00:00:00Z
 bin/run.sh query search '完売 文庫' --limit 20
 bin/run.sh query body   --username @a --keywords 新刊,お品書き,完売,通販,次回参加
+bin/run.sh query body   --username @a --event tsukuyomi-square-2026-06  # phase-aware
 ```
 
 CJK keywords use LIKE fallback (FTS5 unicode61 doesn't split CJK well);
 ASCII / hashtag / handle queries use FTS5 MATCH. `body` categorizes hits
 into 新刊 / お品書き / 完売 / 通販 / 次回参加 buckets and emits JSON for
 body-update agents to consume.
+
+**`--event <slug>` (phase-aware mode)** — when passed, `body` loads
+`events.json`, attaches an `event_context: {time_phase, mentions,
+this_event_confidence}` block to every post, and adds
+`event_date_window` at the top level. The agent prompt should honor
+`this_event_confidence` to avoid cross-event content bleed (e.g. a
+yaoyoro 6/7 場後 post leaking into a tsukusquare booth body). Without
+the flag, output shape is unchanged (legacy backwards-compat). See
+`docs/filters.md` and openspec change `add-event-phase-context` for the
+full rule. `--events-json PATH` overrides `events.json` discovery.
 
 ### `r2 <subcommand>` — R2 backup sync
 
