@@ -559,9 +559,11 @@ window.BOOTHS = [
   {
     "booth_id": "B-17",
     "circle_id": "nb164",
-    "body": "",
+    "body": "## 📝 ツクスク 1 出展ハイライト\n\n- **新刊** [『ヤチヨのえっちな夢見るなんて、これってもう好きってこと！？EX 〜イッチャイッチャしちゃお〜！！〜』](https://x.com/nb164/status/2063600101889822895) — 前作の続編、いろヤチ系。\n\n## ⚠️ 注意事項\n\n- 内容は R-18 想定 (タイトル + 作者本人の事前注意喚起より)",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "r18": true
+    },
     "min_price": null,
     "cover_urls": [],
     "warnings": []
@@ -758,7 +760,7 @@ window.BOOTHS = [
   {
     "booth_id": "B-35",
     "circle_id": "mato_hima",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n詳細は当日告知待ち、 [@mato_hima X profile](https://x.com/mato_hima)。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -786,7 +788,7 @@ window.BOOTHS = [
   {
     "booth_id": "B-37",
     "circle_id": "c_8ffd14b2ac2f",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n公式 SNS handle 情報なし、 詳細不明。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -808,7 +810,7 @@ window.BOOTHS = [
   {
     "booth_id": "B-39",
     "circle_id": "kimagu0_ksou",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n詳細は当日告知待ち、 [@kimagu0_ksou X profile](https://x.com/kimagu0_ksou)。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -818,7 +820,7 @@ window.BOOTHS = [
   {
     "booth_id": "B-40",
     "circle_id": "c_c7a81213132a",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n公式 SNS handle 情報なし、 詳細不明。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -828,7 +830,7 @@ window.BOOTHS = [
   {
     "booth_id": "C-01",
     "circle_id": "sonoko_neko",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n詳細は当日告知待ち、 [@sonoko_neko X profile](https://x.com/sonoko_neko)。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -838,7 +840,7 @@ window.BOOTHS = [
   {
     "booth_id": "C-02",
     "circle_id": "c_d0738c3627e3",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n公式 SNS handle 情報なし、 詳細不明。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
@@ -848,7 +850,7 @@ window.BOOTHS = [
   {
     "booth_id": "C-03",
     "circle_id": "itimi",
-    "body": "",
+    "body": "## 📝 ツクヨミスクエア！ 出展ハイライト\n\n詳細は当日告知待ち、 [@itimi X profile](https://x.com/itimi)。\n",
     "cps": [],
     "tags": {},
     "min_price": null,
