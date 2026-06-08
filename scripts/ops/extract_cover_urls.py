@@ -32,6 +32,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 MIRROR_PATH = ROOT / ".x-api-data" / "mirror.sqlite"
 
+# event_phase helper (defensive: tolerate skill being absent — fall back
+# to keyword-only filtering).
+sys.path.insert(0, str(ROOT / ".claude" / "skills" / "post-mirror" / "scripts"))
+try:
+    import _event_phase as event_phase  # type: ignore
+except ImportError:
+    event_phase = None  # type: ignore
+
 # Keyword priority — higher first. Each keyword is matched as a LIKE
 # substring against post.text. Event-specific names (like ヤオヨロー)
 # override generic ones because they pin the image to *this* event.
@@ -85,9 +93,28 @@ def lookup_user_id(conn, username: str) -> str | None:
 
 def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
                        keywords: list[str], max_images: int,
-                       extra_keyword: str | None = None) -> list[dict]:
+                       extra_keyword: str | None = None,
+                       target_event: dict | None = None,
+                       all_events: list[dict] | None = None,
+                       strict_event: bool = False) -> list[dict]:
     """Return up to max_images recent own-post media rows for a user,
     each as {source_url, display_url}. RTs filtered out.
+
+    When target_event + all_events are provided AND the _event_phase
+    helper is importable, post text is also checked against
+    event_context. The drop policy differs from body / classify because
+    cover images are the booth's visual identity (book art / お品書き
+    graphic) which is legitimately re-used across events even when the
+    post text mentions only one of them:
+
+      - default: drop only `none` (post is far from event window AND
+        text mentions no events — likely truly unrelated)
+      - `strict_event=True`: drop both `low` and `none` (also exclude
+        posts that explicitly tie to a different event by name)
+
+    The keyword filter is the first line of defense (must match
+    お品書き / 表紙 / 新刊 etc. + have media). event_context is the
+    secondary gate.
     """
     kw_clause_parts: list[str] = []
     kw_params: list[str] = []
@@ -100,7 +127,7 @@ def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
     kw_clause = " OR ".join(kw_clause_parts)
 
     sql = f"""
-        SELECT DISTINCT p.id, p.created_at, m.url
+        SELECT DISTINCT p.id, p.created_at, p.text, m.url
         FROM posts p
         JOIN media m ON m.platform = p.platform AND m.post_id = p.id
         WHERE p.user_id = ?
@@ -114,15 +141,30 @@ def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
     params = [user_id, since_iso] + kw_params + [max_images * 3]
     rows = conn.execute(sql, params).fetchall()
 
-    # Deduplicate by display URL while preserving order.
+    use_event_gate = (
+        event_phase is not None
+        and target_event is not None
+        and all_events is not None
+    )
+
     seen_urls: set[str] = set()
-    seen_posts: set[str] = set()
     out: list[dict] = []
-    for post_id, created_at, url in rows:
+    for post_id, created_at, text, url in rows:
         if url in seen_urls:
             continue
+        if use_event_gate:
+            ec = event_phase.compute_event_context(
+                text or "", created_at or "", target_event, all_events,
+            )
+            if ec:
+                conf = ec.get("this_event_confidence")
+                drop = (
+                    conf == "none"
+                    or (strict_event and conf == "low")
+                )
+                if drop:
+                    continue
         seen_urls.add(url)
-        seen_posts.add(post_id)
         out.append({
             "source_url": f"https://x.com/{username}/status/{post_id}",
             "display_url": url,
@@ -146,6 +188,11 @@ def main():
                    help="Output JSON path (default: "
                         ".x-api-data-<slug>/cover-urls.json)")
     p.add_argument("--mirror", default=str(MIRROR_PATH))
+    p.add_argument("--strict-event", action="store_true",
+                   help="Drop posts whose this_event_confidence is low "
+                        "(default: drop only 'none'). Use when you only "
+                        "want covers from posts that explicitly mention "
+                        "THIS event or are in its time window.")
     args = p.parse_args()
 
     handles = load_booth_handles(args.event_slug)
@@ -155,6 +202,32 @@ def main():
         "%Y-%m-%dT%H:%M:%SZ",
         time.gmtime(time.time() - args.window_days * 86400),
     )
+
+    # Event-context setup: load events.json + resolve target so that
+    # find_media_for_user can drop posts whose this_event_confidence is
+    # low/none for THIS event. Falls back to keyword-only filtering if
+    # events.json is missing or the slug isn't there.
+    target_event = None
+    all_events: list[dict] = []
+    events_json = ROOT / "events.json"
+    if events_json.is_file():
+        try:
+            all_events = json.loads(
+                events_json.read_text(encoding="utf-8")
+            ).get("events", [])
+        except json.JSONDecodeError:
+            all_events = []
+    if event_phase is not None and all_events:
+        target_event = event_phase.find_event(all_events, args.event_slug)
+    if event_phase is None:
+        print("  (event_phase helper not importable — keyword-only mode)",
+              file=sys.stderr)
+    elif target_event is None:
+        print(f"  (event slug '{args.event_slug}' not in events.json — "
+              "keyword-only mode)", file=sys.stderr)
+    else:
+        print(f"  event-context gate active (target: {args.event_slug})",
+              file=sys.stderr)
 
     conn = sqlite3.connect(args.mirror)
     out: dict[str, list[dict]] = {}
@@ -167,6 +240,8 @@ def main():
         media = find_media_for_user(
             conn, uid, handle, since_iso, DEFAULT_KEYWORDS,
             args.max_images, extra_keyword=args.event_name,
+            target_event=target_event, all_events=all_events,
+            strict_event=args.strict_event,
         )
         if not media:
             no_media += 1
@@ -187,7 +262,10 @@ def main():
     print(f"  with cover_urls update: {covered}", file=sys.stderr)
     print(f"  user missing from mirror: {no_user}", file=sys.stderr)
     print(f"  no matching media in window: {no_media}", file=sys.stderr)
-    print(f"output: {output_path.relative_to(ROOT)}", file=sys.stderr)
+    try:
+        print(f"output: {output_path.relative_to(ROOT)}", file=sys.stderr)
+    except ValueError:
+        print(f"output: {output_path}", file=sys.stderr)
 
 
 if __name__ == "__main__":
