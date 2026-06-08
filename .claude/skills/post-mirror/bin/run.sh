@@ -23,7 +23,27 @@ shift || true
 
 case "$cmd" in
   pull)
-    exec python3 "$SCRIPTS_DIR/incremental.py" "$@"
+    # Optional --platform <name> selects a non-X incremental fetcher.
+    # Default (no flag or --platform x) routes to incremental.py.
+    plat="x"
+    args=()
+    while [ "$#" -gt 0 ]; do
+      case "$1" in
+        --platform)
+          plat="$2"; shift 2 ;;
+        *)
+          args+=("$1"); shift ;;
+      esac
+    done
+    case "$plat" in
+      x)       exec python3 "$SCRIPTS_DIR/incremental.py"          "${args[@]:-}" ;;
+      plurk)   exec python3 "$SCRIPTS_DIR/incremental_plurk.py"    "${args[@]:-}" ;;
+      threads) exec python3 "$SCRIPTS_DIR/incremental_threads.py"  "${args[@]:-}" ;;
+      *)
+        echo "unknown platform: $plat (supported: x, plurk, threads)" >&2
+        exit 2
+        ;;
+    esac
     ;;
   query)
     exec python3 "$SCRIPTS_DIR/query.py" "$@"
@@ -61,15 +81,16 @@ print('mirror initialized:', path or storage.default_mirror_path())
   help|--help|-h|"")
     cat <<EOF
 post-mirror — local SQLite SSOT for fetched social posts (cost-efficient
-incremental X API recon; future Plurk/Threads/FB code paths plug in).
+incremental recon across X / Plurk / Threads).
 
 Usage:
-  post-mirror pull <username> [--mirror PATH] [--limit N] [--force-full]
-                              [--back-off-threshold N]
+  post-mirror pull <username> [--platform x|plurk|threads] [--mirror PATH]
+                              [--limit N] [--force-full] [--back-off-threshold N]
   post-mirror query triage --usernames @a,@b [--keywords k1,k2] [--json]
   post-mirror query diff --since <iso> [--usernames ...] [--fetched-since]
   post-mirror query search '<keywords>' [--username @x] [--limit N]
   post-mirror query body --username @x [--buckets <json>] [--limit N]
+                         [--event <slug>] [--events-json PATH]
   post-mirror r2 push|pull|status [--mirror PATH] [--force]
   post-mirror storage init [--mirror PATH]
   post-mirror tests
@@ -77,8 +98,15 @@ Usage:
 
 Notes:
   - Mirror lives at \$CWD/.x-api-data/mirror.sqlite by default (gitignored)
-  - Incremental fetch uses pull_state.last_pull_iso as start_time
-  - Silent-streak back-off (≥3 + ≥7 days) auto-skips inactive users
+  - X path: incremental fetch via x-api skill, pull_state.last_pull_iso → start_time
+  - Plurk path: profile DOM scrape via plurk-scraper (visible page only,
+    pagination not yet supported — dedup on (platform, id) makes re-runs
+    idempotent)
+  - Threads path: profile DOM scrape via threads-scraper (same as Plurk;
+    approximates created_at = fetched_at since profile DOM doesn't
+    expose per-post timestamps — see incremental_threads.py header)
+  - Silent-streak back-off (≥3 + ≥7 days) auto-skips inactive users on
+    all platforms
   - --force-full bypasses back-off but does NOT reset streak (per spec)
   - CJK query keywords use LIKE fallback (FTS5 unicode61 doesn't split CJK)
   - R2 sync requires env: R2_ACCOUNT_ID / R2_BUCKET / R2_ACCESS_KEY_ID /

@@ -33,22 +33,39 @@ cho-tsukuyomi-map/.claude/skills/post-mirror/bin/run.sh <subcommand> [...args]
 
 ## Subcommands
 
-### `pull <username>` — incremental X timeline fetch
+### `pull <username>` — incremental timeline fetch
 
 ```bash
-bin/run.sh pull RinHuei
+bin/run.sh pull RinHuei                            # X (default platform)
 bin/run.sh pull RinHuei --mirror /custom/mirror.sqlite
 bin/run.sh pull RinHuei --force-full --limit 50
+bin/run.sh pull foo_handle --platform plurk        # Plurk profile
+bin/run.sh pull foo_handle --platform threads      # Threads profile
 ```
 
-Reads `pull_state` for `<username>` from the mirror; calls x-api timeline with
-`--since <last_pull_iso>` so only new tweets come back. Updates posts / users /
-user_snapshots / pull_state in one transaction. Output: JSON result with
-`new_post_count`, `silent_streak`, `skipped`/`reason`.
+**X path** (default): reads `pull_state` for `<username>` from the mirror;
+calls x-api timeline with `--since <last_pull_iso>` so only new tweets come
+back. Updates posts / users / user_snapshots / pull_state in one transaction.
+
+**Plurk path** (`--platform plurk`): runs the user-global `plurk-scraper`
+skill against `https://www.plurk.com/<username>`. Profile DOM scrape returns
+the visible page (~20 most recent plurks); we upsert dedup-on-`(platform, id)`.
+No cursor pagination yet — re-runs are idempotent; older plurks beyond the
+visible page need future work.
+
+**Threads path** (`--platform threads`): runs the user-global `threads-scraper`
+skill against `https://www.threads.com/@<username>`. Same upsert pattern as
+Plurk. **Caveat**: profile DOM doesn't expose per-post timestamps, so
+`created_at` is approximated as `fetched_at` (mirror-level). Text-based
+event-mention extraction in `query body --event` is unaffected.
+
+Output: JSON result with `new_post_count`, `silent_streak`, `skipped`/`reason`.
 
 Flags:
+- `--platform x|plurk|threads` — default `x`
 - `--mirror PATH` — default `$CWD/.x-api-data/mirror.sqlite`
-- `--limit N` — max tweets per call (default 25)
+- `--limit N` — max tweets per call (default 25; X only — Plurk/Threads use
+  visible-page size)
 - `--force-full` — bypass back-off cadence; does NOT reset silent_streak
 - `--back-off-threshold N` — streak ≥ N silent pulls + < 7 days since last → skip (default 3)
 
