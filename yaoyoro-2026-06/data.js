@@ -760,7 +760,10 @@ window.BOOTHS = [
     "circle_id": "nyanruikai",
     "body": "## 📝 ヤオヨロー！ 出展ハイライト\n- [**コスプレ写真集 2種**](https://x.com/stealthnyancos/status/2063229462754590958) 頒布\n  - 🐙🦊 [**ヤチいろ コスプレ写真集**](https://x.com/stealthnyancos/status/2063242260716888429)\n  - 🐰🦊 [**かぐいろ コスプレ写真集**](https://x.com/stealthnyancos/status/2063241897326608421)\n- **2種同時お迎え** はセット割引あり\n- 撮影: [@litonagi](https://x.com/litonagi)、 彩葉役: [@ruuuika](https://x.com/ruuuika)、 ヤチヨ役: [@stealthnyancos](https://x.com/stealthnyancos) ([本サークル 告知](https://x.com/stealthnyancos/status/2056678582215479352))\n\n## ⚠️ 注意事項\n- [**配置 変更**](https://x.com/stealthnyancos/status/2060615518546223367) (5/30 告知) — スペース名は **ヤオ-36** のまま、 場所が **コスプレゾーン側** に移動",
     "cps": [],
-    "tags": {},
+    "tags": {
+      "photo": true,
+      "cosplay": true
+    },
     "min_price": null,
     "cover_urls": [
       {

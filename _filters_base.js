@@ -33,6 +33,8 @@ window.FILTERS_BASE = {
     { code: "novel",   label: "小説",          icon: "📖", title: "小説" },
     { code: "illust",  label: "イラスト本",    icon: "🎨", title: "イラスト本・アートブック" },
     { code: "goods",   label: "グッズ",        icon: "🛍", title: "グッズ・アクスタ・ステッカー等" },
+    { code: "photo",   label: "写真集",        icon: "📷", title: "写真集・コスプレ写真集等" },
+    { code: "cosplay", label: "コスプレ",      icon: "👗", title: "コスプレ関連 (写真集 / 衣装製作 等)" },
   ],
 
   warnings: [
