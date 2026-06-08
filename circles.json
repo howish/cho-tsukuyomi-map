@@ -13,6 +13,12 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "C-01"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc164"
         }
       ]
     },
@@ -83,6 +89,12 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "C-07"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc101"
         }
       ]
     },
@@ -197,6 +209,12 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-03"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc177"
         }
       ]
     },
@@ -213,6 +231,12 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "C-05"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc102"
         }
       ]
     },
@@ -245,6 +269,22 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "B-03"
+        }
+      ]
+    },
+    {
+      "id": "asaq_gl",
+      "circle_name": "あめだますいしょー",
+      "members": [
+        "asaq_gl"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc159"
         }
       ]
     },
@@ -6297,6 +6337,22 @@
       ]
     },
     {
+      "id": "c_ab7b47d56fce",
+      "circle_name": "黒の月人",
+      "members": [
+        "c_ab7b47d56fce"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc198"
+        }
+      ]
+    },
+    {
       "id": "c_ab8443a4a758",
       "circle_name": "FukamiShop",
       "members": [
@@ -6971,6 +7027,22 @@
           "name": "IF7 創集繪",
           "date": "2026-05-30",
           "booth_id": "M-26"
+        }
+      ]
+    },
+    {
+      "id": "c_bdcd047e3c03",
+      "circle_name": "うじゃと屋",
+      "members": [
+        "c_bdcd047e3c03"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc178"
         }
       ]
     },
@@ -9407,6 +9479,12 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-19"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc174"
         }
       ]
     },
@@ -9483,6 +9561,12 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-01.02"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc160"
         }
       ]
     },
@@ -9611,6 +9695,22 @@
       ]
     },
     {
+      "id": "harusame_84",
+      "circle_name": "はるさめすーぷ",
+      "members": [
+        "harusame_84"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc195"
+        }
+      ]
+    },
+    {
       "id": "heine126",
       "circle_name": "Hein‘s Works",
       "members": [
@@ -9693,6 +9793,28 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-28"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc184"
+        }
+      ]
+    },
+    {
+      "id": "hiver_chatnoir",
+      "circle_name": "夕景ゆすらうめ",
+      "members": [
+        "hiver_chatnoir"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc173"
         }
       ]
     },
@@ -9757,6 +9879,22 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "C-03"
+        }
+      ]
+    },
+    {
+      "id": "jaiyanramen",
+      "circle_name": "ハラショー",
+      "members": [
+        "jaiyanramen"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc171"
         }
       ]
     },
@@ -9939,6 +10077,12 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "B-04"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc189"
         }
       ]
     },
@@ -10087,6 +10231,22 @@
       ]
     },
     {
+      "id": "maaakinocpk",
+      "circle_name": "まきの日和",
+      "members": [
+        "maaakinocpk"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc197"
+        }
+      ]
+    },
+    {
       "id": "manmaderain",
       "circle_name": "人工降雨",
       "members": [
@@ -10127,6 +10287,12 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-09"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc190"
         }
       ]
     },
@@ -10309,6 +10475,22 @@
       ]
     },
     {
+      "id": "nagiww",
+      "circle_name": "いちご事務所",
+      "members": [
+        "nagiww"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc163"
+        }
+      ]
+    },
+    {
       "id": "nagomi_suki",
       "circle_name": "喫茶響",
       "members": [
@@ -10375,6 +10557,44 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-15"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc191"
+        }
+      ]
+    },
+    {
+      "id": "nannkana_ko",
+      "circle_name": "南テーブル法",
+      "members": [
+        "nannkana_ko"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc176"
+        }
+      ]
+    },
+    {
+      "id": "natano",
+      "circle_name": "natazon",
+      "members": [
+        "natano"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc167"
         }
       ]
     },
@@ -10413,6 +10633,12 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "B-31"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc194"
         }
       ]
     },
@@ -10627,6 +10853,134 @@
       ]
     },
     {
+      "id": "pixiv_124495413",
+      "circle_name": "ゆるめのめろ",
+      "members": [
+        "pixiv_124495413"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc175"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_125258250",
+      "circle_name": "39dmp",
+      "members": [
+        "pixiv_125258250"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc180"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_125867104",
+      "circle_name": "黒焦げの肉",
+      "members": [
+        "pixiv_125867104"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc187"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_149252",
+      "circle_name": "KATANA STUDIO",
+      "members": [
+        "pixiv_149252"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc161"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_153864",
+      "circle_name": "カグラミクス",
+      "members": [
+        "pixiv_153864"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc188"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_29743062",
+      "circle_name": "HAKU-TAKA",
+      "members": [
+        "pixiv_29743062"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc182"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_3246799",
+      "circle_name": "T-Talker",
+      "members": [
+        "pixiv_3246799"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc185"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_95686189",
+      "circle_name": "限界定食処",
+      "members": [
+        "pixiv_95686189"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc193"
+        }
+      ]
+    },
+    {
       "id": "pomeka35",
       "circle_name": "小花",
       "members": [
@@ -10655,6 +11009,12 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "A-19"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc183"
         }
       ]
     },
@@ -10671,6 +11031,22 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "B-13"
+        }
+      ]
+    },
+    {
+      "id": "pururia",
+      "circle_name": "るりぷるむ",
+      "members": [
+        "pururia"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc162"
         }
       ]
     },
@@ -10761,6 +11137,22 @@
       ]
     },
     {
+      "id": "s_tipto_eb",
+      "circle_name": "CielSanctuaire",
+      "members": [
+        "s_tipto_eb"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc179"
+        }
+      ]
+    },
+    {
       "id": "sango3_3",
       "circle_name": "参号",
       "members": [
@@ -10795,6 +11187,22 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-12"
+        }
+      ]
+    },
+    {
+      "id": "shanghaihoneybe",
+      "circle_name": "Scarborough Fair",
+      "members": [
+        "shanghaihoneybe"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc172"
         }
       ]
     },
@@ -10859,6 +11267,22 @@
           "name": "ヤオヨロー！",
           "date": "2026-06-07",
           "booth_id": "ヤオ-25"
+        }
+      ]
+    },
+    {
+      "id": "spis",
+      "circle_name": "E2G2 Studio",
+      "members": [
+        "spis"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc166"
         }
       ]
     },
@@ -11075,6 +11499,28 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "B-29/30"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc196"
+        }
+      ]
+    },
+    {
+      "id": "u_nari",
+      "circle_name": "燃気輪機",
+      "members": [
+        "u_nari"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc157"
         }
       ]
     },
@@ -11129,6 +11575,12 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "C-08"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc165"
         }
       ]
     },
@@ -11235,6 +11687,22 @@
       ]
     },
     {
+      "id": "yu_ki_ne_01",
+      "circle_name": "ころころガム",
+      "members": [
+        "yu_ki_ne_01"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc192"
+        }
+      ]
+    },
+    {
       "id": "yuki_kitagawa",
       "circle_name": "北方蟹缶工房",
       "members": [
@@ -11247,6 +11715,12 @@
           "name": "tsukuyomi-square-2026-06",
           "date": "",
           "booth_id": "A-36"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc186"
         }
       ]
     },
@@ -11327,6 +11801,22 @@
       ]
     },
     {
+      "id": "yuukisisin",
+      "circle_name": "まぜごはん",
+      "members": [
+        "yuukisisin"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc169"
+        }
+      ]
+    },
+    {
       "id": "yuyuyang0402",
       "circle_name": "奇魚果大王",
       "members": [
@@ -11359,6 +11849,22 @@
       ]
     },
     {
+      "id": "yzks_0v0",
+      "circle_name": "HR",
+      "members": [
+        "yzks_0v0"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc181"
+        }
+      ]
+    },
+    {
       "id": "zuka_misuzu",
       "circle_name": "星と月と海の唄",
       "members": [
@@ -11371,6 +11877,28 @@
           "name": "超ツクヨミ祭！1",
           "date": "2026-05-24",
           "booth_id": "A-19"
+        },
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc158"
+        }
+      ]
+    },
+    {
+      "id": "zumikuni",
+      "circle_name": "びびっどサンダー",
+      "members": [
+        "zumikuni"
+      ],
+      "socials": [],
+      "events": [
+        {
+          "slug": "cho-tsukuyomi-2026-07",
+          "name": "超ツクヨミ祭 1.5",
+          "date": "2026-07-05",
+          "booth_id": "cc156"
         }
       ]
     },
@@ -19888,6 +20416,19 @@
       ]
     },
     {
+      "id": "asaq_gl",
+      "name": "あめだますいしょー",
+      "name_inferred": "あめだますいしょー",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/ASAQ_GL"
+        }
+      ]
+    },
+    {
       "id": "ato252058",
       "name": "ato!",
       "name_inferred": "",
@@ -19951,6 +20492,22 @@
           "url": "https://x.com/C_77sotome"
         }
       ]
+    },
+    {
+      "id": "c_ab7b47d56fce",
+      "name": "黒の月人",
+      "name_inferred": "黒の月人",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": []
+    },
+    {
+      "id": "c_bdcd047e3c03",
+      "name": "うじゃと屋",
+      "name_inferred": "うじゃと屋",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": []
     },
     {
       "id": "chasiburicorico",
@@ -20189,6 +20746,19 @@
       ]
     },
     {
+      "id": "harusame_84",
+      "name": "はるさめすーぷ",
+      "name_inferred": "はるさめすーぷ",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/harusame_84"
+        }
+      ]
+    },
+    {
       "id": "heine126",
       "name": "ハイネ",
       "name_inferred": "",
@@ -20262,6 +20832,19 @@
       ]
     },
     {
+      "id": "hiver_chatnoir",
+      "name": "夕景ゆすらうめ",
+      "name_inferred": "夕景ゆすらうめ",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Hiver_ChatNoir"
+        }
+      ]
+    },
+    {
       "id": "huskychuk",
       "name": "俺俺俺俺",
       "name_inferred": "",
@@ -20310,6 +20893,19 @@
           "platform": "x",
           "handle": "",
           "url": "https://x.com/itimi"
+        }
+      ]
+    },
+    {
+      "id": "jaiyanramen",
+      "name": "ハラショー",
+      "name_inferred": "ハラショー",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/jaiyanramen"
         }
       ]
     },
@@ -20578,6 +21174,19 @@
       ]
     },
     {
+      "id": "maaakinocpk",
+      "name": "まきの日和",
+      "name_inferred": "まきの日和",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/maaakinocpk"
+        }
+      ]
+    },
+    {
       "id": "manmaderain",
       "name": "ManMadeRain｜人工降雨 🌧",
       "name_inferred": "",
@@ -20734,6 +21343,19 @@
       ]
     },
     {
+      "id": "nagiww",
+      "name": "いちご事務所",
+      "name_inferred": "いちご事務所",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/nagiww_"
+        }
+      ]
+    },
+    {
       "id": "nagomi_suki",
       "name": "shien",
       "name_inferred": "",
@@ -20782,6 +21404,32 @@
         {
           "platform": "x",
           "url": "https://x.com/nanashiwan"
+        }
+      ]
+    },
+    {
+      "id": "nannkana_ko",
+      "name": "南テーブル法",
+      "name_inferred": "南テーブル法",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/nannkana_ko"
+        }
+      ]
+    },
+    {
+      "id": "natano",
+      "name": "natazon",
+      "name_inferred": "natazon",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "generic",
+          "url": "https://natano.xyz/"
         }
       ]
     },
@@ -20974,6 +21622,110 @@
       ]
     },
     {
+      "id": "pixiv_124495413",
+      "name": "ゆるめのめろ",
+      "name_inferred": "ゆるめのめろ",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/124495413/novels"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_125258250",
+      "name": "39dmp",
+      "name_inferred": "39dmp",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/125258250"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_125867104",
+      "name": "黒焦げの肉",
+      "name_inferred": "黒焦げの肉",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/125867104"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_149252",
+      "name": "KATANA STUDIO",
+      "name_inferred": "KATANA STUDIO",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/149252"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_153864",
+      "name": "カグラミクス",
+      "name_inferred": "カグラミクス",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/153864"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_29743062",
+      "name": "HAKU-TAKA",
+      "name_inferred": "HAKU-TAKA",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/29743062"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_3246799",
+      "name": "T-Talker",
+      "name_inferred": "T-Talker",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/3246799"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_95686189",
+      "name": "限界定食処",
+      "name_inferred": "限界定食処",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "pixiv",
+          "url": "https://www.pixiv.net/users/95686189"
+        }
+      ]
+    },
+    {
       "id": "pomeka35",
       "name": "小花",
       "name_inferred": "",
@@ -21013,6 +21765,19 @@
           "platform": "x",
           "handle": "",
           "url": "https://x.com/Ptbrute"
+        }
+      ]
+    },
+    {
+      "id": "pururia",
+      "name": "るりぷるむ",
+      "name_inferred": "るりぷるむ",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/pururia_"
         }
       ]
     },
@@ -21095,6 +21860,19 @@
       ]
     },
     {
+      "id": "s_tipto_eb",
+      "name": "CielSanctuaire",
+      "name_inferred": "CielSanctuaire",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/s_tipto_eb"
+        }
+      ]
+    },
+    {
       "id": "sango3_3",
       "name": "サークル名「**くろかり**」",
       "name_inferred": "",
@@ -21117,6 +21895,19 @@
         {
           "platform": "x",
           "url": "https://x.com/SENBAKO1"
+        }
+      ]
+    },
+    {
+      "id": "shanghaihoneybe",
+      "name": "Scarborough Fair",
+      "name_inferred": "Scarborough Fair",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/shanghaihoneybe"
         }
       ]
     },
@@ -21169,6 +21960,19 @@
         {
           "platform": "x",
           "url": "https://x.com/soyas_"
+        }
+      ]
+    },
+    {
+      "id": "spis",
+      "name": "E2G2 Studio",
+      "name_inferred": "E2G2 Studio",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "booth_pm",
+          "url": "https://spis.booth.pm/"
         }
       ]
     },
@@ -21329,6 +22133,19 @@
       ]
     },
     {
+      "id": "u_nari",
+      "name": "燃気輪機",
+      "name_inferred": "燃気輪機",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/u_nari"
+        }
+      ]
+    },
+    {
       "id": "ujat_47",
       "name": "うじゃじゃじゃ",
       "name_inferred": "",
@@ -21446,6 +22263,19 @@
       ]
     },
     {
+      "id": "yu_ki_ne_01",
+      "name": "ころころガム",
+      "name_inferred": "ころころガム",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/Yu_ki_ne_01"
+        }
+      ]
+    },
+    {
       "id": "yuki_kitagawa",
       "name": "北川由貴",
       "name_inferred": "",
@@ -21511,6 +22341,19 @@
       ]
     },
     {
+      "id": "yuukisisin",
+      "name": "まぜごはん",
+      "name_inferred": "まぜごはん",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/yuukisisin"
+        }
+      ]
+    },
+    {
       "id": "yuyuyang0402",
       "name": "魚ᗦ↞◃",
       "name_inferred": "",
@@ -21537,6 +22380,19 @@
       ]
     },
     {
+      "id": "yzks_0v0",
+      "name": "HR",
+      "name_inferred": "HR",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/yzks_0v0"
+        }
+      ]
+    },
+    {
       "id": "zuka_misuzu",
       "name": "鈴鹿猫",
       "name_inferred": "",
@@ -21546,6 +22402,19 @@
         {
           "platform": "x",
           "url": "https://x.com/zuka_misuzu"
+        }
+      ]
+    },
+    {
+      "id": "zumikuni",
+      "name": "びびっどサンダー",
+      "name_inferred": "びびっどサンダー",
+      "name_source": "circle_name",
+      "aliases": [],
+      "socials": [
+        {
+          "platform": "x",
+          "url": "https://x.com/zumikuni"
         }
       ]
     },

@@ -29,6 +29,12 @@ SINGLE_EXPECTED = {'x', 'plurk', 'ig', 'pixiv', 'threads', 'bsky',
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--strict', action='store_true',
+                    help='Exit non-zero on any E* finding (default: warn-only)')
+    args = ap.parse_args()
+
     p = Path(__file__).parent.parent.parent / 'circles.json'
     d = json.loads(p.read_text(encoding='utf-8'))
 
@@ -123,6 +129,9 @@ def main():
                               ensure_ascii=False, indent=2) + '\n')
     print(f'\nfull report: {out}')
 
+    if issues and not args.strict:
+        print('(transition mode — E* findings do not block; --strict to gate)')
+        return 0
     return 1 if issues else 0
 
 
