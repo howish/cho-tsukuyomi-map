@@ -13,7 +13,9 @@ For each booth:
 
 Emits {booth_id: [{source_url, display_url, kind?}, ...]} JSON consumed
 by `apply_cover_url_patches.py` (kind: "oshinagaki" for tier-3 keyword
-matches, "cover" for clean 表紙 posts — see _keyword_tier). Hand-pinned
+matches, "cover" for clean 表紙 posts — see _keyword_tier; text is a
+PROXY — authoritative definitions live in docs/cover-kinds.md and the
+final word is the IMAGE itself, verified visually). Hand-pinned
 entries (`manual: true` in data.js) are preserved by the apply step.
 
 Booths whose mirror returns no matching media in the window are NOT in

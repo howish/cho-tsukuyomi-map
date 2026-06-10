@@ -38,6 +38,9 @@ triage / diff / search はオフライン query (API call ゼロ):
 詳細: `.claude/skills/post-mirror/SKILL.md` /
 背景の設計判断: `openspec/changes/add-x-post-mirror/`。
 
+cover 画像の分類 (お品書き/表紙/告知 の判定基準) は [docs/cover-kinds.md](docs/cover-kinds.md)。
+**画像を見て判定**（テキストは proxy）。分類ジョブを agent に出す時は必ず prompt に含める。
+
 ## OpenSpec workflow
 
 architectural な変更は OpenSpec で `/opsx:propose <idea>` → spec review → `/opsx:apply` の流れ。
