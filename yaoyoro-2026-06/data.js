@@ -420,7 +420,38 @@ window.BOOTHS = [
       "r18": true
     },
     "min_price": null,
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/umaauraa5/status/2060696666177782151",
+        "display_url": "https://pbs.twimg.com/media/HJkPaIyakAEKPiK.jpg",
+        "kind": "oshinagaki",
+        "manual": true
+      },
+      {
+        "source_url": "https://x.com/umaauraa5/status/2060554171032711493",
+        "display_url": "https://pbs.twimg.com/media/HJiOm4QbcAA8TTP.jpg",
+        "kind": "cover",
+        "manual": true
+      },
+      {
+        "source_url": "https://x.com/umaauraa5/status/2060554171032711493",
+        "display_url": "https://pbs.twimg.com/media/HJiOpUubsAAbGjE.jpg",
+        "kind": "cover",
+        "manual": true
+      },
+      {
+        "source_url": "https://x.com/umaauraa5/status/2060554171032711493",
+        "display_url": "https://pbs.twimg.com/media/HJiOrw9bQAACh19.jpg",
+        "kind": "cover",
+        "manual": true
+      },
+      {
+        "source_url": "https://x.com/umaauraa5/status/2060554171032711493",
+        "display_url": "https://pbs.twimg.com/media/HJiOu8YaoAAa2Wm.jpg",
+        "kind": "cover",
+        "manual": true
+      }
+    ],
     "warnings": []
   },
   {
@@ -505,7 +536,14 @@ window.BOOTHS = [
       "novel": true
     },
     "min_price": null,
-    "cover_urls": [],
+    "cover_urls": [
+      {
+        "source_url": "https://x.com/YukkuriShimiya/status/2061379876788293845",
+        "display_url": "https://pbs.twimg.com/media/HJt9DwraYAA5D9a.jpg",
+        "kind": "cover",
+        "manual": true
+      }
+    ],
     "warnings": []
   },
   {
@@ -518,6 +556,12 @@ window.BOOTHS = [
     },
     "min_price": null,
     "cover_urls": [
+      {
+        "source_url": "https://x.com/zuzuzu_222/status/2062936696204013724",
+        "display_url": "https://pbs.twimg.com/media/HKEF_ghbsAALlAS.jpg",
+        "kind": "oshinagaki",
+        "manual": true
+      },
       {
         "source_url": "https://x.com/zuzuzu_222/status/2061101975144706063",
         "display_url": "https://pbs.twimg.com/media/HJqBUoEasAAMeSW.jpg"
