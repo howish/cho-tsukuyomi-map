@@ -10,12 +10,17 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "plurk",
-    "regex": "^https?://(?:www\\.)?plurk\\.com/(?:m/)?@?(?<handle>[A-Za-z0-9_]{2,30})/?$",
+    "regex": "^https?://(?:www\\.)?plurk\\.com/(?:m/|u/)?@?(?<handle>[A-Za-z0-9_]{2,30})/?$",
     "fmt": "@{}"
   },
   {
     "platform": "fb",
     "regex": "^https?://(?:www\\.|m\\.)?(?:facebook|fb)\\.(?:com|me)/profile\\.php\\?id=(?<handle>\\d+)$",
+    "fmt": "fb#{}"
+  },
+  {
+    "platform": "fb",
+    "regex": "^https?://(?:www\\.|m\\.)?(?:facebook|fb)\\.(?:com|me)/people/[^/]+/(?<handle>(?:pfbid)?[A-Za-z0-9]+)/?$",
     "fmt": "fb#{}"
   },
   {
@@ -35,7 +40,7 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "pixiv",
-    "regex": "^https?://(?:www\\.)?pixiv\\.net/users/(?<handle>\\d+)/?$",
+    "regex": "^https?://(?:www\\.)?pixiv\\.net/users/(?<handle>\\d+)(?:/(?:novels|artworks|illustrations|manga))?/?$",
     "fmt": "id={}"
   },
   {
@@ -55,7 +60,12 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "aggregator",
-    "regex": "^https?://(?:www\\.)?(?:lit\\.link|linktr\\.ee|portaly\\.cc)/(?:zh-tw/|zh/|en/|ja/|jp/)?(?<handle>[A-Za-z0-9_.-]+)/?$",
+    "regex": "^https?://(?:www\\.)?(?:lit\\.link|linktr\\.ee|portaly\\.cc|solo\\.to)/(?:zh-tw/|zh/|en/|ja/|jp/)?(?<handle>[A-Za-z0-9_.-]+)/?$",
+    "fmt": "@{}"
+  },
+  {
+    "platform": "aggregator",
+    "regex": "^https?://(?<handle>[A-Za-z0-9_-]+)\\.carrd\\.co/?$",
     "fmt": "@{}"
   },
   {
@@ -70,7 +80,7 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "gamer",
-    "regex": "^https?://home\\.gamer\\.com\\.tw/profile/index\\.php\\?.*owner=(?<handle>[A-Za-z0-9_]+)",
+    "regex": "^https?://home\\.gamer\\.com\\.tw/profile/index(?:_creation)?\\.php\\?.*owner=(?<handle>[A-Za-z0-9_]+)",
     "fmt": "@{}"
   },
   {
@@ -85,8 +95,13 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "blog",
-    "regex": "^https?://(?<handle>[A-Za-z0-9_-]+)\\.(?:tumblr\\.com|blogspot\\.com|blogspot\\.tw|pixnet\\.net|hatenablog\\.com|hatena\\.ne\\.jp|fc2\\.com|weebly\\.com|substack\\.com|wordpress\\.com|medium\\.com|seesaa\\.net|livedoor\\.jp|ameblo\\.jp|note\\.com|github\\.io)(?:/[^/]*)?/?$",
+    "regex": "^https?://(?<handle>[A-Za-z0-9_-]+)\\.(?:tumblr\\.com|blogspot\\.com|blogspot\\.tw|pixnet\\.net|hatenablog\\.com|hatena\\.ne\\.jp|(?:blog\\d*\\.)?fc2\\.com|weebly\\.com|substack\\.com|wordpress\\.com|medium\\.com|seesaa\\.net|livedoor\\.jp|ameblo\\.jp|note\\.com|github\\.io)(?:/[^/]*)?/?$",
     "fmt": "@{}"
+  },
+  {
+    "platform": "generic",
+    "regex": "^https?://sites\\.google\\.com/view/(?<handle>[^/?#]+)(?:/[^?#]*)?/?$",
+    "fmt": "{}"
   },
   {
     "platform": "pinkoi",
@@ -95,7 +110,7 @@ window.PROFILE_PATTERNS = [
   },
   {
     "platform": "generic",
-    "regex": "^https?://(?<handle>[a-z0-9-]+\\.[a-z]{2,8})/?$",
+    "regex": "^https?://(?<handle>[a-z0-9-]+(?:\\.[a-z0-9-]+)*\\.[a-z]{2,8})/?$",
     "fmt": "{}"
   }
 ];

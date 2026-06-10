@@ -7,6 +7,7 @@ Use as a pre-commit gate or CI check.
 Checks (per social entry):
   E1. URL is well-formed (scheme + host, no whitespace, no inline newline)
   E2. URL passes the skill's _NON_PROFILE_RE (not a post/share/artwork etc)
+      — entries with `profile_ok: true` are exempt (human-verified one-offs)
   E3. Platform name is canonical (no instagram/facebook/twitter aliases)
   E4. Platform matches URL host (platform='x' must point to x.com/twitter.com)
   E5. URL canonical not duplicated within author (incl. vs x_handle implicit X URL)
@@ -61,9 +62,15 @@ def main():
                 issues.append({**ctx, 'rule': 'E1_missing_scheme_or_host'})
                 continue
 
-            # E2: URL must match one of the per-platform allow patterns
+            # E2: URL must match one of the per-platform allow patterns.
+            # `profile_ok: true` on the entry is a human-verified escape
+            # hatch for personal sites whose URL shape can't be patterned
+            # (shop pages, path'd blogs, niche platforms).
             matched = _match_profile(url)
             if matched is None:
+                if s.get('profile_ok'):
+                    plat_count[plat] += 1
+                    continue
                 issues.append({**ctx, 'rule': 'E2_no_profile_pattern_match'})
                 continue
             expected_plat, _ = matched
