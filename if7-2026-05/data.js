@@ -62,9 +62,7 @@ window.BOOTHS = [
     "body": "- 馴龍高手\n- CHRONOIR\n- 神力女超人\n\n## 📝 IF7 出展重點\n- 本人臨時無法到場, 由朋友代為攜帶少量商品擺攤\n- 現場無庫存的品項 可私訊, 將開賣貨便賣場\n\n出處: [Plurk 工商](https://www.plurk.com/p/3iqdlzzqe6)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      "https://images.plurk.com/3WAlq3NVbBQMoGEuhEEfNq.jpg"
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "J-06",
@@ -86,7 +84,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/54IxL10aU4jXOpgZNZdvi7.jpg"
+      {
+        "source_url": "https://images.plurk.com/54IxL10aU4jXOpgZNZdvi7.jpg",
+        "display_url": "https://images.plurk.com/54IxL10aU4jXOpgZNZdvi7.jpg",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -136,7 +138,10 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/6R2FsUvEbBniVwbPp8pozb.jpg"
+      {
+        "source_url": "https://images.plurk.com/6R2FsUvEbBniVwbPp8pozb.jpg",
+        "display_url": "https://images.plurk.com/6R2FsUvEbBniVwbPp8pozb.jpg"
+      }
     ]
   },
   {
@@ -147,8 +152,15 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/aBzqVd1WVlqWOrkGb7qJI.png",
-      "https://images.plurk.com/2TVeLXv4hzGh7TKmE9RV25.png"
+      {
+        "source_url": "https://images.plurk.com/aBzqVd1WVlqWOrkGb7qJI.png",
+        "display_url": "https://images.plurk.com/aBzqVd1WVlqWOrkGb7qJI.png",
+        "kind": "oshinagaki"
+      },
+      {
+        "source_url": "https://images.plurk.com/2TVeLXv4hzGh7TKmE9RV25.png",
+        "display_url": "https://images.plurk.com/2TVeLXv4hzGh7TKmE9RV25.png"
+      }
     ]
   },
   {
@@ -191,7 +203,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://pbs.twimg.com/media/HJ0B-DWa8AAde5a.jpg"
+      {
+        "source_url": "https://pbs.twimg.com/media/HJ0B-DWa8AAde5a.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJ0B-DWa8AAde5a.jpg",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -238,7 +254,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-21/share-1DDHWMRYYC/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1DDHWMRYYC/",
@@ -312,7 +329,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BFPqR1Yj9/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/J-22/share-1BFPqR1Yj9/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1BFPqR1Yj9/",
@@ -360,7 +378,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/laylay_152/status/2055643680481137049",
         "display_url": "https://pbs.twimg.com/media/HIccQxbbYAAh0GP.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://x.com/laylay_152/status/2055643684247638499",
@@ -416,9 +435,13 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/ani77561234/status/2059233545353388299",
         "display_url": "https://pbs.twimg.com/media/HJPc5I2aUAENudM.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
-      "https://pbs.twimg.com/media/HJ8MHvrbYAAZE2N.jpg"
+      {
+        "source_url": "https://pbs.twimg.com/media/HJ8MHvrbYAAZE2N.jpg",
+        "display_url": "https://pbs.twimg.com/media/HJ8MHvrbYAAZE2N.jpg"
+      }
     ],
     "_meta_scrape_sk": {
       "platform_used": "x",
@@ -497,9 +520,7 @@ window.BOOTHS = [
       "goods": true
     },
     "warnings": [],
-    "cover_urls": [
-      "https://images.plurk.com/1pmVAm1TS6NpN3nQzI35oH.png"
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "J-30",
@@ -631,7 +652,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/1LcnvWGuc4RznRlRHCSQWJ.png"
+      {
+        "source_url": "https://images.plurk.com/1LcnvWGuc4RznRlRHCSQWJ.png",
+        "display_url": "https://images.plurk.com/1LcnvWGuc4RznRlRHCSQWJ.png",
+        "kind": "announce"
+      }
     ],
     "works": [
       "shounen-jump"
@@ -669,7 +694,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/7qoO15Z28PrSAIefD5u0eF.jpg"
+      {
+        "source_url": "https://images.plurk.com/7qoO15Z28PrSAIefD5u0eF.jpg",
+        "display_url": "https://images.plurk.com/7qoO15Z28PrSAIefD5u0eF.jpg",
+        "kind": "oshinagaki"
+      }
     ],
     "works": [
       "harry-potter"
@@ -683,8 +712,14 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/3riVLogSb7qdYLKgNgM7EY.jpg",
-      "https://images.plurk.com/3F9f9BkhjWxtJ0S8vttOrS.png"
+      {
+        "source_url": "https://images.plurk.com/3riVLogSb7qdYLKgNgM7EY.jpg",
+        "display_url": "https://images.plurk.com/3riVLogSb7qdYLKgNgM7EY.jpg"
+      },
+      {
+        "source_url": "https://images.plurk.com/3F9f9BkhjWxtJ0S8vttOrS.png",
+        "display_url": "https://images.plurk.com/3F9f9BkhjWxtJ0S8vttOrS.png"
+      }
     ],
     "works": [
       "shounen-jump",
@@ -724,7 +759,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/3uDqF2uZZeq9dAOZkcZ4AK.jpg"
+      {
+        "source_url": "https://images.plurk.com/3uDqF2uZZeq9dAOZkcZ4AK.jpg",
+        "display_url": "https://images.plurk.com/3uDqF2uZZeq9dAOZkcZ4AK.jpg",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -735,7 +774,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/7b3iWbQX1wYKnqWynGl4If.png"
+      {
+        "source_url": "https://images.plurk.com/7b3iWbQX1wYKnqWynGl4If.png",
+        "display_url": "https://images.plurk.com/7b3iWbQX1wYKnqWynGl4If.png",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -748,7 +791,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18r8jkSKW2/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-10/share-18r8jkSKW2/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -778,9 +822,7 @@ window.BOOTHS = [
     "area": "綜合",
     "body": "## 🎪 場後 (2026-06-02 evening)\n- 📦 **通販已開** — [賣貨便賣場](https://myship.7-11.com.tw/general/detail/GM2605199564988)\n- ⚠️ 兩款 壓克力立牌 為 **預購** 狀態, 其他品項 現貨\n- 📅 6/15 開始陸續出貨 (壓克力立牌 出貨時間 另行公告)\n- 💡 可預購＋現貨 一起下單 (但出貨會比較慢)\n\n出處: [場後通販告知 (6/2)](https://x.com/coffeefish_05/status/2061661169866379357)",
     "warnings": [],
-    "cover_urls": [
-      "https://pbs.twimg.com/media/HJx95lvbAAA0SBQ.jpg"
-    ],
+    "cover_urls": [],
     "tags": {}
   },
   {
@@ -800,7 +842,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/3gLv6hRDwFNI6COm4Nx81S.jpg"
+      {
+        "source_url": "https://images.plurk.com/3gLv6hRDwFNI6COm4Nx81S.jpg",
+        "display_url": "https://images.plurk.com/3gLv6hRDwFNI6COm4Nx81S.jpg",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -811,7 +857,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/7GsKw4pf98rw5FKyuYyC9H.png"
+      {
+        "source_url": "https://images.plurk.com/7GsKw4pf98rw5FKyuYyC9H.png",
+        "display_url": "https://images.plurk.com/7GsKw4pf98rw5FKyuYyC9H.png",
+        "kind": "oshinagaki"
+      }
     ],
     "works": [
       "mygo",
@@ -864,7 +914,10 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/702nVP2Hy64YNZlUPQZkhz.jpg"
+      {
+        "source_url": "https://images.plurk.com/702nVP2Hy64YNZlUPQZkhz.jpg",
+        "display_url": "https://images.plurk.com/702nVP2Hy64YNZlUPQZkhz.jpg"
+      }
     ]
   },
   {
@@ -875,7 +928,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/3aeOj5X0fukw91SlOiTOcG.png"
+      {
+        "source_url": "https://images.plurk.com/3aeOj5X0fukw91SlOiTOcG.png",
+        "display_url": "https://images.plurk.com/3aeOj5X0fukw91SlOiTOcG.png",
+        "kind": "oshinagaki"
+      }
     ]
   },
   {
@@ -888,7 +945,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1B6WxRSggd/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/K-23/share-1B6WxRSggd/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -990,7 +1048,10 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/3bbu32qKIAP4aK0hr4KiGn.png"
+      {
+        "source_url": "https://images.plurk.com/3bbu32qKIAP4aK0hr4KiGn.png",
+        "display_url": "https://images.plurk.com/3bbu32qKIAP4aK0hr4KiGn.png"
+      }
     ]
   },
   {
@@ -1089,8 +1150,15 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/1elUra8fEdjn4K8DuPyAdc.png",
-      "https://images.plurk.com/7KJLf8SKShC8Vtg87K2AJC.png"
+      {
+        "source_url": "https://images.plurk.com/1elUra8fEdjn4K8DuPyAdc.png",
+        "display_url": "https://images.plurk.com/1elUra8fEdjn4K8DuPyAdc.png",
+        "kind": "oshinagaki"
+      },
+      {
+        "source_url": "https://images.plurk.com/7KJLf8SKShC8Vtg87K2AJC.png",
+        "display_url": "https://images.plurk.com/7KJLf8SKShC8Vtg87K2AJC.png"
+      }
     ],
     "works": [
       "jojo"
@@ -1140,8 +1208,15 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/4qzuChezFO8ZWG24B33FBI.jpg",
-      "https://images.plurk.com/2pTmNJhtlk0PRLcqzkzis6.jpg"
+      {
+        "source_url": "https://images.plurk.com/4qzuChezFO8ZWG24B33FBI.jpg",
+        "display_url": "https://images.plurk.com/4qzuChezFO8ZWG24B33FBI.jpg",
+        "kind": "oshinagaki"
+      },
+      {
+        "source_url": "https://images.plurk.com/2pTmNJhtlk0PRLcqzkzis6.jpg",
+        "display_url": "https://images.plurk.com/2pTmNJhtlk0PRLcqzkzis6.jpg"
+      }
     ],
     "works": [
       "jojo"
@@ -1155,8 +1230,14 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/5g4AJZGkcyUIbjQcvUghY9.png",
-      "https://images.plurk.com/5jKvNhfrx5oNvIpLYabBeB.jpg"
+      {
+        "source_url": "https://images.plurk.com/5g4AJZGkcyUIbjQcvUghY9.png",
+        "display_url": "https://images.plurk.com/5g4AJZGkcyUIbjQcvUghY9.png"
+      },
+      {
+        "source_url": "https://images.plurk.com/5jKvNhfrx5oNvIpLYabBeB.jpg",
+        "display_url": "https://images.plurk.com/5jKvNhfrx5oNvIpLYabBeB.jpg"
+      }
     ],
     "works": [
       "jojo"
@@ -1204,9 +1285,7 @@ window.BOOTHS = [
     "body": "- 排球\n\n## 🎪 場後 (2026-05-30 → )\n- 🟢 **場後通販** — [SUNSUN印象 通販](https://www.plurk.com/p/3iqxsak5e5) (棉花娃 / 趴娃 / 指娃 / 汪趴苦 / 手作娃衣 / 口金娃包 / 造型娃包)\n\n出處: [場後通販告知](https://www.plurk.com/p/3iqxsak5e5)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      "https://images.plurk.com/5MTiyIGeoUAhEedh9dVpnx.jpg"
-    ],
+    "cover_urls": [],
     "works": [
       "touken"
     ]
@@ -1231,7 +1310,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/4sEAQRGoRsBLQR4lvc5Qsr.png"
+      {
+        "source_url": "https://images.plurk.com/4sEAQRGoRsBLQR4lvc5Qsr.png",
+        "display_url": "https://images.plurk.com/4sEAQRGoRsBLQR4lvc5Qsr.png",
+        "kind": "announce"
+      }
     ],
     "works": [
       "jjk"
@@ -1291,7 +1374,11 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/i2rCMwRyiktpXirCoJ198.png"
+      {
+        "source_url": "https://images.plurk.com/i2rCMwRyiktpXirCoJ198.png",
+        "display_url": "https://images.plurk.com/i2rCMwRyiktpXirCoJ198.png",
+        "kind": "oshinagaki"
+      }
     ],
     "works": [
       "original"
@@ -1389,7 +1476,10 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      "https://images.plurk.com/4NuCN2cUmvQV990m1fTlbe.jpg"
+      {
+        "source_url": "https://images.plurk.com/4NuCN2cUmvQV990m1fTlbe.jpg",
+        "display_url": "https://images.plurk.com/4NuCN2cUmvQV990m1fTlbe.jpg"
+      }
     ],
     "works": [
       "shingeki"
@@ -1445,7 +1535,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/1qEZN2i49sgO3shD1po50O.jpg",
         "display_url": "https://images.plurk.com/1qEZN2i49sgO3shD1po50O.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ]
   },
@@ -1521,7 +1612,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/BattaHandmade/status/2060237402342601007",
         "display_url": "https://pbs.twimg.com/media/HJdogTTbsAAULJe.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/BattaHandmade/status/2060237402342601007",
@@ -1604,7 +1696,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/4WBVwtFv9f3r8cHseNNNR7.jpg",
         "display_url": "https://images.plurk.com/4WBVwtFv9f3r8cHseNNNR7.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/661aKrUbcWe9g1CB96YZvV.jpg",
@@ -1644,13 +1737,7 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- Nijisanji 彩虹社 JP / EN\n\n## 🎪 場後 (2026-06-02 evening)\n- 📦 **場後通販開放** — [賣貨便賣場](https://myship.7-11.com.tw/general/detail/GM2504166376256) (~6/13)\n- ⚠️ Baby Ver 套組 剩最後 1 組 (不會再製)\n- ⚠️ 赤城 / 小柳 入油吊飾 數量倒數中\n- 🌏 海外購買 請私訊 (EMS / 順豐, paypal)\n\n出處: [布穀町來場感謝 (5/24)](https://x.com/niwawulei/status/2058526221898846681) / [場後通販告知 (6/2)](https://x.com/niwawulei/status/2061648711957307746)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://pbs.twimg.com/media/HJFasH_bwAAJz1J.jpg",
-        "display_url": "https://pbs.twimg.com/media/HJFasH_bwAAJz1J.jpg",
-        "display_locked": false
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "M-13/14",
@@ -1705,7 +1792,8 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HJb3Z1ebkAAvBF-.jpg",
         "display_url": "https://pbs.twimg.com/media/HJb3Z1ebkAAvBF-.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://pbs.twimg.com/media/HJiQtNIa0AA5x1v.jpg",
@@ -1731,7 +1819,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/aishizi852/status/2059626669552652705",
         "display_url": "https://pbs.twimg.com/media/HJVDG7PbQAAjWgA.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/aishizi852/status/2059626669552652705",
@@ -1771,7 +1860,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/6UKh5P18QPBZOitQ3snfOL.png",
         "display_url": "https://images.plurk.com/6UKh5P18QPBZOitQ3snfOL.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ]
   },
@@ -1812,7 +1902,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/4fKkhYD1oZprVJy5OVevv4.jpg",
         "display_url": "https://images.plurk.com/4fKkhYD1oZprVJy5OVevv4.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -1853,7 +1944,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3UtYqtJCHaNsztacYOtSea.jpg",
         "display_url": "https://images.plurk.com/3UtYqtJCHaNsztacYOtSea.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2019,7 +2111,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/QwxxCkcMM1m4gpgY2Wdq8.jpg",
         "display_url": "https://images.plurk.com/QwxxCkcMM1m4gpgY2Wdq8.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2036,7 +2129,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BHm2tJNmR/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/N-02/share-1BHm2tJNmR/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -2058,7 +2152,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3tl4t4RbsZ6OzHxBnZBZdS.jpg",
         "display_url": "https://images.plurk.com/3tl4t4RbsZ6OzHxBnZBZdS.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "announce"
       }
     ]
   },
@@ -2155,7 +2250,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/_potatoyoyo/status/2060021513856917533",
         "display_url": "https://pbs.twimg.com/media/HJaqmhgboAAYqnf.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/_potatoyoyo/status/2060021513856917533",
@@ -2179,7 +2275,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/J9orE6c2wNFifXiXIwt0g.jpg",
         "display_url": "https://images.plurk.com/J9orE6c2wNFifXiXIwt0g.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2288,7 +2385,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3wRADOgV9xQbfMXKHoC5aX.jpg",
         "display_url": "https://images.plurk.com/3wRADOgV9xQbfMXKHoC5aX.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2544,13 +2642,7 @@ window.BOOTHS = [
     "body": "- 卡通頻道\n\n## 📝 IF7 出展重點\n- 木木梟 變裝別針 等 寶可夢系 新品\n- One Piece / 筋肉人 / Moomin / TMNT 既品\n\n## 🎪 場後 (2026-05-30 → )\n- 🔥 **變裝木木梟 別針 快售完**\n\n出處: [場後感謝](https://www.plurk.com/p/3iqnhzg5uv)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://images.plurk.com/1o4N8EbLGMFAwHUsNnApBx.jpg",
-        "display_url": "https://images.plurk.com/1o4N8EbLGMFAwHUsNnApBx.jpg",
-        "display_locked": false
-      }
-    ],
+    "cover_urls": [],
     "works": [
       "pokemon"
     ]
@@ -2622,7 +2714,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3duTzJ8ILsZfa2GQND442a.jpg",
         "display_url": "https://images.plurk.com/3duTzJ8ILsZfa2GQND442a.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ]
   },
@@ -2662,7 +2755,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/6V1oTdoZnsSoPj3stXFvk1.jpg",
         "display_url": "https://images.plurk.com/6V1oTdoZnsSoPj3stXFvk1.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2680,7 +2774,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/5l9ffhoxH9lhJ7lv320eNz.jpg",
         "display_url": "https://images.plurk.com/5l9ffhoxH9lhJ7lv320eNz.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -2707,7 +2802,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3AOqDMndevOKIldDow6Vaz.jpg",
         "display_url": "https://images.plurk.com/3AOqDMndevOKIldDow6Vaz.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       }
     ]
   },
@@ -2771,7 +2867,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3NTL2XFNutI60iIeJQgfY7.jpg",
         "display_url": "https://images.plurk.com/3NTL2XFNutI60iIeJQgfY7.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "announce"
       },
       {
         "source_url": "https://images.plurk.com/5NKXPMXNy876yG8cCNgYqq.jpg",
@@ -2800,7 +2897,8 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HIhwkz_bMAEOJer.jpg",
         "display_url": "https://pbs.twimg.com/media/HIhwkz_bMAEOJer.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       }
     ]
   },
@@ -2864,7 +2962,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/2klSJ35Lml8jSh9OVXcMGQ.png",
         "display_url": "https://images.plurk.com/2klSJ35Lml8jSh9OVXcMGQ.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/73gdmmznDlzihCGGTKdB6k.png",
@@ -2948,11 +3047,6 @@ window.BOOTHS = [
     "warnings": [],
     "cover_urls": [
       {
-        "source_url": "https://www.threads.com/@xiang__yin/post/DY7Slrbie6_",
-        "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/threads-DY7Slrbie6_/0.jpg",
-        "display_locked": false
-      },
-      {
         "source_url": "https://www.facebook.com/share/p/18VK1GBTLw/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/O-37_38/share-18VK1GBTLw/0.jpg",
         "display_locked": false
@@ -2980,7 +3074,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/3ZEQOsBlaxfri6tOAEmzna.png",
         "display_url": "https://images.plurk.com/3ZEQOsBlaxfri6tOAEmzna.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/DFIntZRzy9bq4YAFyNr6n.png",
@@ -3112,7 +3207,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18Yf1Qgwa4/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-12/share-18Yf1Qgwa4/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -3190,7 +3286,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1JkrqmXqkr/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/P-21_22/share-1JkrqmXqkr/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -3276,7 +3373,8 @@ window.BOOTHS = [
       {
         "source_url": "https://pbs.twimg.com/media/HJunfD6b0AA68T5.jpg",
         "display_url": "https://pbs.twimg.com/media/HJunfD6b0AA68T5.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://instagram.ftpe20-2.fna.fbcdn.net/v/t51.82787-15/705365108_17913956553392353_7092597051838795276_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTM5NzgxNjMxNTQ2MDI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=5QrRAlpOtUwQ7kNvwEHTOTN&_nc_oc=AdrpExaj4hYbIh6STRGTfIAehI-SoQI0hN3zvn8_98Uw2ADc0AX5hqfhZaqUnh-dXN8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.ftpe20-2.fna&_nc_gid=nG4GxFW3JytkfMjccLfOTg&_nc_ss=7a22e&oh=00_Af_jmozprFfdRuLMF2ip_zpWG_PI69vY65aQmWWUJ4DAow&oe=6A26DFA1",
@@ -3348,7 +3446,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq2q89knt",
         "display_url": "https://images.plurk.com/1CLsA0zf9va0Pkcppws3Qg.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iq2q89knt",
@@ -3532,13 +3631,7 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 原創漫畫 **『海祭 EonsGarden』** — 溫室時代 第 1 & 2 回 (44P) ([原 post](https://www.plurk.com/p/3irbz9yuww))\n\n出處: [漫畫公開](https://www.plurk.com/p/3irbz9yuww) / [世界觀＋ Discord](https://www.plurk.com/p/3hql8o7ya6)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://images.plurk.com/2imQhKJ8CLGV2jkaFNo5kL.jpg",
-        "display_url": "https://images.plurk.com/2imQhKJ8CLGV2jkaFNo5kL.jpg",
-        "display_locked": false
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "Q-13",
@@ -3551,7 +3644,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/4gtf6g1pnEdb8ADFdfNW0D.jpg",
         "display_url": "https://images.plurk.com/4gtf6g1pnEdb8ADFdfNW0D.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://images.plurk.com/5fZIfKYbVTdkD1KReOqzlN.jpg",
@@ -3719,7 +3813,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/ewokaku0w0/status/2059499845350797742",
         "display_url": "https://pbs.twimg.com/media/HJTKjrnaEAAZD2P.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/ewokaku0w0/status/2059499845350797742",
@@ -3823,7 +3918,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/kakusugar/status/2059856455361282462",
         "display_url": "https://pbs.twimg.com/media/HJYT_y5a8AAyRPH.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/kakusugar/status/2059856455361282462",
@@ -3897,7 +3993,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/oginoyori/status/2060342359192371654",
         "display_url": "https://pbs.twimg.com/media/HJfMyEPbkAEdbo1.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/oginoyori/status/2060342359192371654",
@@ -3953,7 +4050,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/4oIKbwIIRFDPJ6aSNhiisz.png",
         "display_url": "https://images.plurk.com/4oIKbwIIRFDPJ6aSNhiisz.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "works": [
@@ -4311,7 +4409,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-02/threads-DY4a1sqDJBA/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://www.threads.com/@bobny0504/post/DY4a1sqDJBA",
@@ -4362,7 +4461,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1LvGgyH139/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-03/share-1LvGgyH139/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1Ai6DXo1gn/",
@@ -4469,7 +4569,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1HZhbgsr89/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-04/share-1HZhbgsr89/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/witlhgti/status/2059913890855813128",
@@ -4555,7 +4656,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq6cbcsgl",
         "display_url": "https://images.plurk.com/5VpqDgpmzuBeh80SMDbtY8.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "area": "百合",
@@ -4573,7 +4675,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq2dc2hbw",
         "display_url": "https://images.plurk.com/2GLTf9ZViAaMGgNLwKpdKw.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -4598,7 +4701,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq387g88v",
         "display_url": "https://images.plurk.com/71ePV5frTQ2ycfZViWYkQ0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iq387g88v",
@@ -4810,7 +4914,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-13_14/threads-DYAAV95ko-M/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@blossoming.faded/post/DYAAV95ko-M",
@@ -4847,7 +4952,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/4plyd13ZxK5NNtdjRLAKoS.jpg",
         "display_url": "https://images.plurk.com/4plyd13ZxK5NNtdjRLAKoS.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://images.plurk.com/2eA5btq1vfV690eHyXRPnB.jpg",
@@ -4875,7 +4981,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-16/threads-DX8_weXjxmP/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@luo._.34/post/DX8_weXjxmP",
@@ -4988,7 +5095,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/km1000km1000/status/2059943954741875119",
         "display_url": "https://pbs.twimg.com/media/HJZkGxnbAAA2GRq.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "group": "S-[17,18]",
@@ -5018,7 +5126,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2057110462534459871",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-19_20/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -5045,7 +5154,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@chi._.5417/post/DYcRZgVkzzj",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-21/threads-DYcRZgVkzzj/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://x.com/komerice_lo/status/2054458383512883590",
@@ -5086,7 +5196,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-22/ig-DYjn28bk0Fq/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.instagram.com/p/DYjn28bk0Fq/",
@@ -5194,7 +5305,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipx7pzgz4",
         "display_url": "https://images.plurk.com/24Ey3WBQgXPtacm315OoNj.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipx7pzgz4",
@@ -5246,7 +5358,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipx9bepy4",
         "display_url": "https://images.plurk.com/16Ya86fX6Muvw2rBdDaIFx.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipx9bepy4",
@@ -5279,7 +5392,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqa1n0p1h",
         "display_url": "https://images.plurk.com/5TLjD9qlZs0LlCvqf44jHp.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iqa1n0p1h",
@@ -5315,7 +5429,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2059118273388740955",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-28/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/i/status/2059118273388740955",
@@ -5361,7 +5476,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqdfuu818",
         "display_url": "https://images.plurk.com/2Y3dAv3ts6TtKvW5FOmVZi.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iqdfuu818",
@@ -5469,7 +5585,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipsk8ga90",
         "display_url": "https://images.plurk.com/3sRJpy3RE3JCmuWBtlBa4M.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipsk8ga90",
@@ -5522,7 +5639,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipstkx7oh",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-33_34/0.png",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipstkx7oh",
@@ -5561,7 +5679,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iljqk97pp",
         "display_url": "https://images.plurk.com/67PJz6jxDG1cC6NkagUKrP.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ilebtnb56",
@@ -5571,7 +5690,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/AoIzumi_Akiharu/status/2059513177558388971",
         "display_url": "https://pbs.twimg.com/media/HJTcUKyb0AAtfz9.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -5604,7 +5724,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/vivi890812/status/2053050113233465483",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-37_38/share-x-2053050113233465483/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/vivi890812/status/2053050113233465483",
@@ -5653,7 +5774,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/14dEHq9PRGP/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-39/share-14dEHq9PRGP/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/18gvsLr4BA/",
@@ -5713,7 +5835,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYWu3BOAoDf",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/S-40/threads-DYWu3BOAoDf/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@raker.natsume/post/DYOKUOJiTL8",
@@ -5766,7 +5889,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@taboom002/post/DY4nxPwj8c5",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-41/threads-DY4nxPwj8c5/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@taboom002/post/DYKK9yaj1Pr",
@@ -5879,7 +6003,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1FzWT9pG12/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/S-43_44/share-1FzWT9pG12/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1BsUeznjtC/",
@@ -6043,7 +6168,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2058505698166911056",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-01/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/kourui_07/status/2058825538312311004",
@@ -6086,7 +6212,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/kimiJUNN/status/2060000487118901599",
         "display_url": "https://pbs.twimg.com/media/HJaXhVDbIAEYCvl.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/i/status/2054548578165813484",
@@ -6150,7 +6277,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@x_milllllla_x/post/DY4ofgDDyPj",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-03/threads-DY4ofgDDyPj/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@x_milllllla_x/post/DY4prjpj8r2",
@@ -6193,7 +6321,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/yuyuyang0402/status/2059892096413385092",
         "display_url": "https://pbs.twimg.com/media/HJY08TUaUAAR5jF.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/i/status/2057122117020479529",
@@ -6221,7 +6350,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/Pesirxy/status/2059847133314830477",
         "display_url": "https://pbs.twimg.com/media/HJWZAaTbcAEufjH.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/i/status/2053686601273028923",
@@ -6303,7 +6433,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1JaUMyJD6c/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-07_08/share-1JaUMyJD6c/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -6333,7 +6464,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@creauset_x13a/post/DYHfxoVk7t8",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-09/1.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -6355,7 +6487,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-10/share-1CfRSG5nVj/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1CfRSG5nVj/",
@@ -6451,7 +6584,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1DFLVRfzHG/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-11/share-1DFLVRfzHG/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -6479,7 +6613,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2057375446631891108",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-12/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -6553,7 +6688,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
         "display_url": "https://images.plurk.com/75ITiJP3tCgVcZBLjCPwzw.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iqcuy9jvs",
@@ -6592,7 +6728,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BFDKmnPrn/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-16/share-1BFDKmnPrn/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1LvNcHWQLT/",
@@ -6640,7 +6777,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-17/share-18qmi9sFM8/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/18qmi9sFM8/",
@@ -6674,7 +6812,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2058489327047639119",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-18/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@ritoyu6039/post/DY1c39sgcz5",
@@ -6701,7 +6840,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@ame_aou/post/DY1_MQymsBy",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-19_20/threads-DY1_MQymsBy/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@ame_aou/post/DYw084uGvYB",
@@ -6754,7 +6894,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BgAs83PnA/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-21_22/share-1BgAs83PnA/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -6784,7 +6925,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1PSqJu3Rwv/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-23_24/share-1PSqJu3Rwv/1.jpg?v=3368a56c",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1Bk181dEwR/",
@@ -6846,7 +6988,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-25_26/share-1Sd2tWR2Ap/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1Sd2tWR2Ap/",
@@ -6940,7 +7083,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@arayo__0616/post/DY5rzT1gfSJ",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-27/threads-DY5rzT1gfSJ/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@arayo__0616/post/DY5rzT1gfSJ",
@@ -6973,7 +7117,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ip8rsg67m",
         "display_url": "https://images.plurk.com/733Vx3WT8oL72ZRmZogNnn.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ip8rsg67m",
@@ -7008,7 +7153,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipsqrj9cq",
         "display_url": "https://images.plurk.com/6xHnmJMcqVUNtG3Pw7xkiQ.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape": {
@@ -7036,7 +7182,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipsk965nk",
         "display_url": "https://images.plurk.com/18PrJVjWkRjoYEyKGq2Tuu.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "group": "T-[29,30]",
@@ -7064,7 +7211,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iqc24eb8g",
         "display_url": "https://images.plurk.com/4HIhLtCgZo24iVdRVcSuWm.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/4XTn6ClKZCyTK53pa8Vj79.jpg",
@@ -7092,7 +7240,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/yaki979331/status/2059938254569554249",
         "display_url": "https://pbs.twimg.com/media/HJZd02RaMAAuSfH.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/yaki979331/status/2059938254569554249",
@@ -7131,7 +7280,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2057699457446433108",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-33_34/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/i/status/2057699457446433108",
@@ -7288,7 +7438,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/yoyoray20001996/status/2058413207333851172",
         "display_url": "https://pbs.twimg.com/media/HJDyTmBaIAEmKTt.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/yoyoray20001996/status/2059247631805931977",
@@ -7344,7 +7495,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1FXfN4ywL5/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-36/share-1FXfN4ywL5/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@cemamildewing/post/DYpRLAymCJo",
@@ -7456,7 +7608,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/rissole715/status/2059287434211606542",
         "display_url": "https://pbs.twimg.com/media/HJQOjH0bUAAqhRZ.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://pbs.twimg.com/media/HJjXYF_aUAA-KhL.jpg",
@@ -7533,7 +7686,8 @@ window.BOOTHS = [
       {
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-39/howish-locked/0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://bsky.app/profile/nkpa.bsky.social/post/3mmsnh3zat22u",
@@ -7601,11 +7755,6 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://x.com/yezijia1/status/2059243544624402923",
-        "display_url": "https://pbs.twimg.com/media/HJPnDf7bcAAW5Cs.jpg",
-        "display_locked": false
-      },
       {
         "source_url": "https://www.facebook.com/share/p/1Drh4Wt4uG/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-40/share-1Drh4Wt4uG/0.jpg",
@@ -7717,7 +7866,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq2yu8lsy",
         "display_url": "https://images.plurk.com/3JTcW02kkkpOyhJswZrBYP.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3iq2yu8lsy",
@@ -7760,7 +7910,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.instagram.com/p/DYlo3oiNltW/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/T-42/ig-DYlo3oiNltW/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@l90715566123/post/DY17ZuIlGIH",
@@ -7799,7 +7950,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/T-43_44/cross-0.jpg",
-        "display_locked": true
+        "display_locked": true,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipiymms0h",
@@ -7852,7 +8004,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3iq1o69rzu",
         "display_url": "https://images.plurk.com/2RDthUBh3VgxPCqkMJ9dTd.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/1FAwo6aymhlVzQH56YCRUx.png",
@@ -7893,7 +8046,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-03/share-18s3Amo6JL/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://www.facebook.com/share/p/18s3Amo6JL/",
@@ -7959,7 +8113,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1DTJeTpsc6/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-07_08/share-1DTJeTpsc6/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -8137,7 +8292,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-21_22/threads-DY7LmI3km5T/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@mochian0819/post/DY7LmI3km5T",
@@ -8222,7 +8378,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.threads.com/@kyuuri991205/post/DYhshFFmZUt",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/matome/U-24/threads-DYhshFFmZUt/0.webp",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.threads.com/@kyuuri991205/post/DYhshFFmZUt",
@@ -8306,7 +8463,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/18cRKov5TX/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-25_26/share-18cRKov5TX/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1Cp9mZgXMm/",
@@ -8342,7 +8500,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1JJNfLJcaU/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-27/share-1JJNfLJcaU/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1JJNfLJcaU/",
@@ -8372,7 +8531,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1EeHkywTse/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-28/share-1EeHkywTse/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/1EeHkywTse/",
@@ -8480,7 +8640,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
         "display_url": "https://images.plurk.com/3EI4X7DXzX9JJafXwOsZxw.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipxpwp7ga",
@@ -8550,7 +8711,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/melon2943/status/2059651837452800061",
         "display_url": "https://pbs.twimg.com/media/HJVaa7qbAAE92Rv.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/_icpfo1/status/2059655387868254335",
@@ -8625,13 +8787,7 @@ window.BOOTHS = [
     "body": "## 📝 IF7 出展重點\n- 出展作品: BanG Dream! It's MyGO!!!!! 高松燈×千早愛音 / Nijisanji / 学園アイドルマスター (EGO 花海咲季 懷舊文具組)\n- 新增 **ともあの 認親卡** (壓線追加) — [告知](https://www.plurk.com/p/3iqe3umkwe)\n- 新品: EGO 花海咲季懷舊文具組 (筆記本 + 小卡 + 貼紙、小套組、單售貼紙) — [商品介紹](https://www.plurk.com/p/3iqc4q21hk)\n- 攤位嘗試使用大創新道具讓商品更接近逛攤視線高度 — [速報](https://www.plurk.com/p/3ipg4t0vzd)\n\n## 🎯 下次活動\n- 8/15 NiCE 寄攤 (預定)\n- 10/9 **CH20 百合翁** (預定)\n\n出處: [Plurk 自介](https://www.plurk.com/moonshadow331) / [攤位速報](https://www.plurk.com/p/3iqfjb0925)",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://images.plurk.com/7E1qawxnIHTJ4nQ6zQ4kcz.jpg",
-        "display_url": "https://images.plurk.com/7E1qawxnIHTJ4nQ6zQ4kcz.jpg",
-        "display_locked": false
-      }
-    ],
+    "cover_urls": [],
     "works": [
       "gakumas"
     ]
@@ -8679,7 +8835,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/17VULXiTDR/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/U-35_36/share-17VULXiTDR/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.facebook.com/share/p/17VULXiTDR/",
@@ -8861,7 +9018,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1ChhNi6NB2/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-07_08/share-1ChhNi6NB2/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -8919,7 +9077,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/6hXDmr4KRCj1EEuZQHzJgA.png",
         "display_url": "https://images.plurk.com/6hXDmr4KRCj1EEuZQHzJgA.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "tags": {}
@@ -9060,7 +9219,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/19UVpJ2rtc/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-26/share-19UVpJ2rtc/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -9095,7 +9255,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1C7oaAxPBn/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/V-28/share-1C7oaAxPBn/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -9241,7 +9402,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/1WN2Gt3YT4SJ6Q8qwYBOCc.jpg",
         "display_url": "https://images.plurk.com/1WN2Gt3YT4SJ6Q8qwYBOCc.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/4uLi7lSfPMnOjF9dpEomRd.jpg",
@@ -9263,7 +9425,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/hiko_rei/status/2059870755056480544",
         "display_url": "https://pbs.twimg.com/media/HJYhhYAbEAA94DD.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/hiko_rei/status/2059870755056480544",
@@ -9372,7 +9535,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1bkqyGhcRW/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-12/share-1bkqyGhcRW/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -9393,11 +9557,6 @@ window.BOOTHS = [
       "soldout"
     ],
     "cover_urls": [
-      {
-        "source_url": "https://x.com/tku_imas_tw/status/2061731117758361934",
-        "display_url": "https://pbs.twimg.com/media/HJy9hRlbIAACwX7.jpg",
-        "display_locked": false
-      },
       {
         "source_url": "https://x.com/tku_imas_tw/status/2061731117758361934",
         "display_url": "https://pbs.twimg.com/media/HJy9HB-bEAASXTi.jpg",
@@ -9477,7 +9636,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/48R7RdhprcwbZgU2onTdwF.png",
         "display_url": "https://images.plurk.com/48R7RdhprcwbZgU2onTdwF.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       }
     ]
   },
@@ -9619,7 +9779,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1EXf5N3Pn6/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/W-33/share-1EXf5N3Pn6/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -9676,7 +9837,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.plurk.com/p/3ipcz6llj1",
         "display_url": "https://images.plurk.com/5BBHDtL0n2cadhkoqAF455.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://www.plurk.com/p/3ipcz6llj1",
@@ -9787,7 +9949,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/hSlNEstReswvBFNL0yEKx.png",
         "display_url": "https://images.plurk.com/hSlNEstReswvBFNL0yEKx.png",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/7DtFoKALgThsYWQlbIoaOz.jpg",
@@ -9821,11 +9984,6 @@ window.BOOTHS = [
     "tags": {},
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://x.com/nightleave1030/status/2058888550314377671",
-        "display_url": "https://pbs.twimg.com/media/HJKkFtjaAAAdKBw.jpg",
-        "display_locked": false
-      },
       {
         "source_url": "https://x.com/nightleave1030/status/2058888550314377671",
         "display_url": "https://pbs.twimg.com/media/HJKkHLbbUAAQAq1.jpg",
@@ -9997,7 +10155,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1BcXLb1U8b/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-01/share-1BcXLb1U8b/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "announce"
       }
     ],
     "_meta_scrape_sk": {
@@ -10027,7 +10186,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1K18K4HJmx/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-03_04/share-1K18K4HJmx/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -10067,7 +10227,8 @@ window.BOOTHS = [
       {
         "source_url": "https://www.facebook.com/share/p/1QDzhmngKR/",
         "display_url": "https://images.yachi8000.app/cho-tsukuyomi-map/if7-2026-05/booth-images/Y-07_08/share-1QDzhmngKR/0.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       }
     ],
     "_meta_scrape_sk": {
@@ -10192,7 +10353,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/oruka_oru/status/2058472848419914070",
         "display_url": "https://pbs.twimg.com/media/HJEpZPObUAAj1kd.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       },
       {
         "source_url": "https://x.com/oruka_oru/status/2058472848419914070",
@@ -10224,7 +10386,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/bw_bubblewave/status/2054463485598392345",
         "display_url": "https://pbs.twimg.com/media/HILrbJXbYAAm_9K.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/bw_bubblewave/status/2054463485598392345",
@@ -10431,7 +10594,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/i/status/2062310426055188511",
         "display_url": "https://pbs.twimg.com/media/HJ4vEj5asAAiN5X.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "cover"
       }
     ]
   },
@@ -10510,7 +10674,8 @@ window.BOOTHS = [
       {
         "source_url": "https://x.com/Jun077011/status/2058506041705554410",
         "display_url": "https://pbs.twimg.com/media/HJFIU4za0AEPocr.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://x.com/Jun077011/status/2058506041705554410",
@@ -10540,11 +10705,6 @@ window.BOOTHS = [
     },
     "warnings": [],
     "cover_urls": [
-      {
-        "source_url": "https://x.com/down_0324/status/2059586233798697278",
-        "display_url": "https://pbs.twimg.com/media/HJUewwZbEAA_BJ3.jpg",
-        "display_locked": false
-      },
       {
         "source_url": "https://x.com/down_0324/status/2058876528801583228",
         "display_url": "https://pbs.twimg.com/media/HJKZSS2aIAAyhPX.jpg",
@@ -10613,7 +10773,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/63M8fKiU8GjwgFYQBAH0h4.jpg",
         "display_url": "https://images.plurk.com/63M8fKiU8GjwgFYQBAH0h4.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/4BYY0LY6Hh4Nm66hRo3EAe.jpg",
@@ -10690,7 +10851,8 @@ window.BOOTHS = [
       {
         "source_url": "https://images.plurk.com/1sv08YKLY4L5C8sjePWKxN.jpg",
         "display_url": "https://images.plurk.com/1sv08YKLY4L5C8sjePWKxN.jpg",
-        "display_locked": false
+        "display_locked": false,
+        "kind": "oshinagaki"
       },
       {
         "source_url": "https://images.plurk.com/uPUo6GYCdoUsKc8wRbzm3.jpg",
@@ -10797,13 +10959,7 @@ window.BOOTHS = [
     "body": "- 遺品整理師─協助處理遭遺留或遺棄的收藏品，無論是自己或是周遭親友想要了解，歡迎向我們洽詢。OtaMatch宅友圈─以『宅興趣』及『價值觀』出發的拓展社交圈活動。",
     "tags": {},
     "warnings": [],
-    "cover_urls": [
-      {
-        "source_url": "https://images.plurk.com/4vVVjJ4qSirHI0gHAOUobC.jpg",
-        "display_url": "https://images.plurk.com/4vVVjJ4qSirHI0gHAOUobC.jpg",
-        "display_locked": false
-      }
-    ]
+    "cover_urls": []
   },
   {
     "booth_id": "特-02",
