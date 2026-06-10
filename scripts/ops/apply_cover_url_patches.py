@@ -2,7 +2,14 @@
 """Apply {booth_id: [cover_url_obj, ...]} patches to <event>/data.js
 with fcntl.flock serialization.
 
-cover_url_obj shape: {"source_url": "...", "display_url": "..."}
+cover_url_obj shape: {"source_url": "...", "display_url": "...",
+                      "kind"?: "oshinagaki"|"cover"|"announce",
+                      "manual"?: true}
+
+`kind` labels what the image IS (お品書き / 表紙 / 告知ビジュアル) so a
+human scanning data.js — or the site UI — can tell at a glance.
+`manual: true` marks a hand-pinned entry: apply keeps it at the front
+and never lets an auto-refresh overwrite or reorder it.
 
 Usage:
   apply_cover_url_patches.py <event_slug> <patches.json>
@@ -57,7 +64,19 @@ def main():
                 if bid not in booth_by_id:
                     missing.append(bid)
                     continue
-                booth_by_id[bid]["cover_urls"] = new_covers
+                # Hand-pinned entries (`manual: true`) survive auto
+                # refreshes: they stay at the front in their current
+                # order; incoming entries append after, deduped by
+                # display_url.
+                existing = booth_by_id[bid].get("cover_urls") or []
+                pinned = [c for c in existing
+                          if isinstance(c, dict) and c.get("manual")]
+                pinned_urls = {c.get("display_url") for c in pinned}
+                merged = pinned + [
+                    c for c in new_covers
+                    if c.get("display_url") not in pinned_urls
+                ]
+                booth_by_id[bid]["cover_urls"] = merged
                 applied += 1
 
             new_arr = json.dumps(booths, ensure_ascii=False, indent=2)

@@ -11,8 +11,10 @@ For each booth:
 4. Skip RTs (text starts with `RT @`) — we want the booth's own
    visual identity, not whatever they retweeted
 
-Emits {booth_id: [{source_url, display_url}, ...]} JSON consumed by
-`apply_cover_url_patches.py`.
+Emits {booth_id: [{source_url, display_url, kind?}, ...]} JSON consumed
+by `apply_cover_url_patches.py` (kind: "oshinagaki" for tier-3 keyword
+matches, "cover" for clean 表紙 posts — see _keyword_tier). Hand-pinned
+entries (`manual: true` in data.js) are preserved by the apply step.
 
 Booths whose mirror returns no matching media in the window are NOT in
 the output (the caller can decide whether to keep existing cover_urls
@@ -228,10 +230,19 @@ def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
                 if drop:
                     continue
         seen_urls.add(url)
-        out.append({
+        entry = {
             "source_url": f"https://x.com/{username}/status/{post_id}",
             "display_url": url,
-        })
+        }
+        # Self-describing metadata: a tier-3 match IS an お品書き post;
+        # a clean 表紙 post shows cover art. Lets humans (and the UI)
+        # see at a glance what each image is. Weak matches stay untagged.
+        tier = _keyword_tier(text or "")
+        if tier == 3:
+            entry["kind"] = "oshinagaki"
+        elif tier == 2 and "表紙" in (text or ""):
+            entry["kind"] = "cover"
+        out.append(entry)
         if len(out) >= max_images:
             break
     return out

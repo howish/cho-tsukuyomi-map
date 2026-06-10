@@ -893,7 +893,8 @@
       : (b.cover_url ? [b.cover_url] : []);
     const photos = rawCovers.map(p => (typeof p === 'string')
       ? { source_url: p, display_url: p }
-      : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url });
+      : { source_url: p.source_url || p.display_url, display_url: p.display_url || p.source_url,
+          kind: p.kind });
     // Holder for the carousel area — populated below for view mode, and
     // re-rendered in edit mode whenever rowsState mutates so overlay
     // controls reflect pending order/deletion.
@@ -925,6 +926,12 @@
           coverLink.replaceChild(fallback, img);
         });
         coverLink.appendChild(img);
+        if (p.kind) {
+          const kindLabel = { oshinagaki: T('cover_kind_oshinagaki'),
+                              cover: T('cover_kind_cover'),
+                              announce: T('cover_kind_announce') }[p.kind];
+          if (kindLabel) coverLink.appendChild(el('span', { class: 'cover-kind-badge' }, kindLabel));
+        }
         carousel.appendChild(coverLink);
       });
       carouselHolder.appendChild(carousel);

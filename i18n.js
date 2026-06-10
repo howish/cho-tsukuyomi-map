@@ -170,6 +170,9 @@ window.I18N_STRINGS = {
 
     // Cover carousel
     cover_img_alt: 'お品書き / 表紙 {i}/{n}',
+    cover_kind_oshinagaki: 'お品書き',
+    cover_kind_cover: '表紙',
+    cover_kind_announce: '告知',
     cover_load_failed: '🔗 画像読み込み失敗 — 原ポストで確認 →',
     carousel_hint: '← 横にスワイプで全 {n} 枚 →',
 
@@ -327,6 +330,9 @@ window.I18N_STRINGS = {
     modal_alts_heading: '同攤位其他成員',
 
     cover_img_alt: '攤位品書 / 封面 {i}/{n}',
+    cover_kind_oshinagaki: '品書單',
+    cover_kind_cover: '封面',
+    cover_kind_announce: '告知',
     cover_load_failed: '🔗 圖片載入失敗 — 請至原貼文確認 →',
     carousel_hint: '← 左右滑動瀏覽全部 {n} 張 →',
 

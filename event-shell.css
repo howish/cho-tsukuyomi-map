@@ -696,6 +696,20 @@ section {
   object-fit: contain;
 }
 
+.cover-slide { position: relative; }
+
+.cover-kind-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.62);
+  color: #fff;
+  pointer-events: none;
+}
+
 .carousel-hint {
   font-size: 0.75rem;
   color: var(--text-muted);
