@@ -79,7 +79,7 @@ done
 # 4. circles.json socials shape — only when circles.json itself is staged.
 if echo "$staged" | grep -qE '^circles\.json$'; then
   echo "  → validate_socials"
-  python3 scripts/audits/validate_socials.py >/dev/null
+  python3 scripts/audits/validate_socials.py --strict >/dev/null
   rc=$?
   if [ $rc -ne 0 ]; then
     echo "    ✗ validate_socials failed — re-run without > /dev/null to see findings"
