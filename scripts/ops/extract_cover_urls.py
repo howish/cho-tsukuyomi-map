@@ -48,6 +48,7 @@ DEFAULT_KEYWORDS = [
     "表紙",
     "新刊",
     "ラインナップ",
+    "頒布",
 ]
 
 
@@ -91,14 +92,48 @@ def lookup_user_id(conn, username: str) -> str | None:
     return row[0] if row else None
 
 
+_REPORT_RE = re.compile(
+    r"完売|売り切れ|売切れ|撤収|設営|ありがとうございま|お疲れ様|通販受付"
+    r"|ボツ案|戦利品|頂きました|いただきました"
+)
+
+
+def _keyword_tier(text: str) -> int:
+    """Cover-likelihood tier from text. お品書き posts ARE the cover
+    artifact; 表紙 posts usually show the book art; bare 新刊 mentions
+    are weak (matches 完売報告 / 進捗 / 通販案内 too); an event-name-only
+    match is weakest (matches 撤収報告 / レポ / 戦利品 posts).
+
+    Sales/venue-report phrasing (完売 / 撤収 / 設営 / 通販 / thanks /
+    received-gift) demotes weak matches below everything else — those
+    posts carry booth photos and 戦利品 shots, not cover art. お品書き
+    and 表紙 posts are immune (the strong keyword wins)."""
+    if any(k in text for k in ("お品書き", "品書", "おしながき")):
+        return 3
+    if ("表紙" in text or "頒布" in text) and not _REPORT_RE.search(text):
+        return 2
+    if _REPORT_RE.search(text):
+        return -1
+    if any(k in text for k in ("新刊", "ラインナップ")):
+        return 1
+    return 0
+
+
 def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
                        keywords: list[str], max_images: int,
                        extra_keyword: str | None = None,
                        target_event: dict | None = None,
                        all_events: list[dict] | None = None,
-                       strict_event: bool = False) -> list[dict]:
-    """Return up to max_images recent own-post media rows for a user,
+                       strict_event: bool = False,
+                       until_iso: str | None = None) -> list[dict] | None:
+    """Return up to max_images ranked own-post media rows for a user,
     each as {source_url, display_url}. RTs filtered out.
+
+    Ranking (NOT pure recency — a post-event run must not let 撤収報告 /
+    完売報告 / 戦利品 photos displace the actual cover art):
+      1. phase: posts on/before event day +1 outrank post-event posts
+      2. keyword tier: お品書き > 表紙 > 新刊 > event-name-only
+      3. recency as tiebreak
 
     When target_event + all_events are provided AND the _event_phase
     helper is importable, post text is also checked against
@@ -126,6 +161,7 @@ def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
         kw_params.append(f"%{extra_keyword}%")
     kw_clause = " OR ".join(kw_clause_parts)
 
+    until_clause = "AND p.created_at <= ?" if until_iso else ""
     sql = f"""
         SELECT DISTINCT p.id, p.created_at, p.text, m.url
         FROM posts p
@@ -133,19 +169,46 @@ def find_media_for_user(conn, user_id: str, username: str, since_iso: str,
         WHERE p.user_id = ?
           AND p.platform = 'x'
           AND p.created_at >= ?
+          {until_clause}
           AND p.text NOT LIKE 'RT @%'
           AND ({kw_clause})
         ORDER BY p.created_at DESC, p.id DESC, m.media_key ASC
-        LIMIT ?
+        LIMIT 120
     """
-    params = [user_id, since_iso] + kw_params + [max_images * 3]
+    params = [user_id, since_iso]
+    if until_iso:
+        params.append(until_iso)
+    params += kw_params
     rows = conn.execute(sql, params).fetchall()
+
+    # Rank: pre/during-event posts first, then keyword tier. Recency is
+    # the implicit tiebreak — SQL returns created_at DESC and Python's
+    # sort is stable, so equal-ranked posts keep that order (and media
+    # of one post stays adjacent in media_key order).
+    event_date = (target_event or {}).get("date") or ""
+    cutoff = f"{event_date}T23:59:59" if event_date else ""
+
+    def rank(row):
+        _pid, created_at, text, _url = row
+        pre_or_during = not cutoff or (created_at or "")[:19] <= cutoff
+        return (0 if pre_or_during else 1, -_keyword_tier(text or ""))
+
+    had_candidates = bool(rows)
+    # Report-like posts (tier -1) never become covers — a 撤収/戦利品
+    # photo (often someone ELSE's book) is worse than no cover at all.
+    rows = [r for r in sorted(rows, key=rank)
+            if _keyword_tier(r[2] or "") >= 0]
+    if had_candidates and not rows:
+        return []   # explicit wipe: only report noise found
 
     use_event_gate = (
         event_phase is not None
         and target_event is not None
         and all_events is not None
     )
+
+    if not rows:
+        return None   # nothing matched at all: caller keeps existing
 
     seen_urls: set[str] = set()
     out: list[dict] = []
@@ -178,8 +241,14 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("event_slug")
     p.add_argument("--window-days", type=int, default=14,
-                   help="Only consider posts authored within last N days "
-                        "(default 14)")
+                   help="Consider posts from N days before the event date "
+                        "(default 14). Falls back to 'last N days from "
+                        "now' when the event date is unknown.")
+    p.add_argument("--post-grace-days", type=int, default=2,
+                   help="Also admit posts up to N days AFTER the event "
+                        "date (default 2) — they rank below pre-event "
+                        "posts. Prevents next-event announcements from "
+                        "bleeding in on late re-runs.")
     p.add_argument("--max-images", type=int, default=5)
     p.add_argument("--event-name", default=None,
                    help="Extra keyword pinning posts to this event "
@@ -197,11 +266,6 @@ def main():
 
     handles = load_booth_handles(args.event_slug)
     print(f"booths with x handle: {len(handles)}", file=sys.stderr)
-
-    since_iso = time.strftime(
-        "%Y-%m-%dT%H:%M:%SZ",
-        time.gmtime(time.time() - args.window_days * 86400),
-    )
 
     # Event-context setup: load events.json + resolve target so that
     # find_media_for_user can drop posts whose this_event_confidence is
@@ -229,6 +293,30 @@ def main():
         print(f"  event-context gate active (target: {args.event_slug})",
               file=sys.stderr)
 
+    # Window anchored to the EVENT date, not the run date — a re-run
+    # weeks later must look at the same posts a pre-event run saw.
+    event_date = (target_event or {}).get("date")
+    until_iso: str | None = None
+    if event_date:
+        anchor = time.mktime(time.strptime(event_date, "%Y-%m-%d"))
+        since_iso = time.strftime(
+            "%Y-%m-%dT%H:%M:%SZ",
+            time.gmtime(anchor - args.window_days * 86400),
+        )
+        until_iso = time.strftime(
+            "%Y-%m-%dT%H:%M:%SZ",
+            time.gmtime(anchor + (args.post_grace_days + 1) * 86400),
+        )
+        print(f"  window: {since_iso[:10]} .. {until_iso[:10]} "
+              f"(event {event_date})", file=sys.stderr)
+    else:
+        since_iso = time.strftime(
+            "%Y-%m-%dT%H:%M:%SZ",
+            time.gmtime(time.time() - args.window_days * 86400),
+        )
+        print(f"  window: last {args.window_days}d from now "
+              "(no event date)", file=sys.stderr)
+
     conn = sqlite3.connect(args.mirror)
     out: dict[str, list[dict]] = {}
     no_user = no_media = covered = 0
@@ -241,12 +329,12 @@ def main():
             conn, uid, handle, since_iso, DEFAULT_KEYWORDS,
             args.max_images, extra_keyword=args.event_name,
             target_event=target_event, all_events=all_events,
-            strict_event=args.strict_event,
+            strict_event=args.strict_event, until_iso=until_iso,
         )
-        if not media:
+        if media is None:
             no_media += 1
             continue
-        out[booth_id] = media
+        out[booth_id] = media   # may be [] = explicit wipe (report noise only)
         covered += 1
 
     conn.close()
