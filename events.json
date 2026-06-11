@@ -1,139 +1,203 @@
 {
-  "$comment": "List of events on this hub. Entries with `slug` link to /<slug>/ for the full guide; entries without `slug` (or with `no_guide:true`) are info-only — listed for visibility but no internal guide built.",
-  "events": [
-    {
-      "slug": "cho-tsukuyomi-2026-05",
-      "name": "超ツクヨミ祭 第1回",
-      "short_name": "超ツクヨミ祭！1",
-      "date": "2026-05-24",
-      "date_display": "2026/05/24 (日)",
-      "venue": "立川クリエイティブスペース",
-      "fandom": "超かぐや姫！",
-      "status": "past",
-      "official_url": "https://sengendo.a.la9.jp/chokagutop.html",
-      "official_label": "超ツクヨミ祭公式",
-      "icon": "🌙",
-      "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。",
-      "aliases": ["超ツクヨミ祭", "超ツク", "ちょうツク"],
-      "hashtags": ["#超ツクヨミ祭"]
-    },
-    {
-      "slug": "yaoyoro-2026-06",
-      "name": "プリケット2 (ヤオヨロー！)",
-      "short_name": "ヤオヨロー！",
-      "date": "2026-06-07",
-      "date_display": "2026/06/07 (日) 12:00-15:30",
-      "venue": "大田区産業プラザPiO 1F 大展示ホール",
-      "fandom": "超かぐや姫！ (集合 only — スプラトゥーン/ホロライブ/耳キャラ/川上稔作品 と同会場)",
-      "status": "past",
-      "official_url": "https://ketto.com/ya/",
-      "official_label": "ヤオヨロー！ 公式 (ケットコム)",
-      "icon": "🌙",
-      "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列 34 サークル 36 スペース。",
-      "aliases": ["ヤオヨロー", "ヤオヨロ", "プリケット2"],
-      "hashtags": ["#ヤオヨロー", "#プリケット2"],
-      "unique_booth_prefix": "ヤオ-"
-    },
-    {
-      "slug": "tsukuyomi-square-2026-06",
-      "name": "ツクヨミスクエア 第1回 (GLFes47 内)",
-      "short_name": "ツクスク 1",
-      "date": "2026-06-21",
-      "date_display": "2026/06/21 (日)",
-      "venue": "大田区産業プラザPiO 大展示ホール",
-      "fandom": "超かぐや姫！ 百合 オンリー (GirlsLoveFestival47 集中配置)",
-      "status": "upcoming",
-      "official_url": "https://www.lovefes.info/260621list.html",
-      "official_label": "ラブフェス202606 公式サークルリスト",
-      "icon": "🌙",
-      "summary": "GirlsLoveFestival47 内 超かぐや姫！百合 ONLY 集中配置企画「ツクヨミスクエア 第1回」。 80サークル参加 (A-C 列)。",
-      "aliases": ["ツクヨミスクエア", "ツクスク", "ラブフェス202606", "GLFes47", "GirlsLoveFestival47"],
-      "hashtags": ["#ツクヨミスクエア", "#GLFes47", "#ラブフェス"]
-    },
-    {
-      "slug": "cho-tsukuyomi-2026-07",
-      "name": "超ツクヨミ祭 1.5",
-      "short_name": "超ツクヨミ祭 1.5",
-      "date": "2026-07-05",
-      "date_display": "2026/07/05 (土)",
-      "venue": "立川クリエイティブスペース",
-      "fandom": "超かぐや姫！",
-      "status": "upcoming",
-      "official_url": "https://sengendo.a.la9.jp/chokagucirclelist15.html",
-      "official_label": "超ツクヨミ祭公式 (仙弦堂)",
-      "icon": "🌙",
-      "summary": "超かぐや姫！オンリー 第1.5回。 仙弦堂主催、 43 サークル参加確定 (第1回 5/24 を継ぐ立川での中規模開催)。",
-      "aliases": ["超ツクヨミ祭", "超ツク", "超ツク1.5", "いってんごかいめ"],
-      "hashtags": ["#超ツクヨミ祭", "#超ツク1_5"]
-    },
-    {
-      "name": "パンケーキ食べたい！ #ぱんたべ",
-      "short_name": "ぱんたべ",
-      "date": "2026-07-26",
-      "date_display": "2026/07/26 (土)",
-      "venue": "大阪市内 (会場最終調整中)",
-      "fandom": "超かぐや姫！",
-      "status": "upcoming",
-      "official_url": "https://x.com/pantabe168",
-      "official_label": "@pantabe168 (準備会)",
-      "icon": "🥞",
-      "summary": "超かぐや姫！オンリー同人誌即売会 in 大阪 (単独開催)。 会場詳細は準備会発表待ち。"
-    },
-    {
-      "name": "宇宙でいちばんおひめさま！VG2026",
-      "short_name": "おひめさま！",
-      "date": "2026-08-30",
-      "date_display": "2026/08/30 (日)",
-      "venue": "東京ビッグサイト",
-      "fandom": "超かぐや姫！",
-      "status": "upcoming",
-      "official_url": "https://www.akaboo.jp/",
-      "official_label": "赤ブー 公式",
-      "icon": "👑",
-      "summary": "超かぐや姫！オンリー 同人即売会。 赤ブー主催、 東京ビッグサイト 開催 (アガサーワールド と同会場)。"
-    },
-    {
-      "name": "ツクヨミスクエア 第2回",
-      "short_name": "ツクスク 2",
-      "date": "2026-09-23",
-      "date_display": "2026/09/23 (祝・水)",
-      "venue": "都産貿浜松町館",
-      "fandom": "超かぐや姫！ 百合 オンリー",
-      "status": "upcoming",
-      "official_url": "https://glfes.com/",
-      "official_label": "GLFes (主催)",
-      "icon": "🌙",
-      "summary": "超かぐや姫！百合 オンリー 第2回。"
-    },
-    {
-      "name": "ツクヨミスクエア 第3回",
-      "short_name": "ツクスク 3",
-      "date": "2026-11-22",
-      "date_display": "2026/11/22 (日)",
-      "venue": "大阪産業創造館",
-      "fandom": "超かぐや姫！ 百合 オンリー",
-      "status": "upcoming",
-      "official_url": "https://glfes.com/",
-      "official_label": "GLFes (主催)",
-      "icon": "🌙",
-      "summary": "超かぐや姫！百合 オンリー 第3回 (関西初開催)。"
-    },
-    {
-      "slug": "if7-2026-05",
-      "name": "第7回 創集繪 (IF7)",
-      "short_name": "IF7 創集繪",
-      "date": "2026-05-30",
-      "date_display": "2026/05/30 (六)",
-      "venue": "台北花博公園 爭艷館",
-      "fandom": "綜合 同人 (含 CH19 百合 ONLY 専區・偶大・VW・BIO 等 専區)",
-      "language": "zh-tw",
-      "status": "past",
-      "official_url": "https://if.gjs.tw/",
-      "official_label": "第7回 創集繪 (IF7) 官網",
-      "icon": "🌸",
-      "summary": "全 555 攤位 / 多 専區 (CH19 百合 ONLY / 偶大 / VW / BIO 等) を含む台湾最大級 同人即売會。 GJ工作室主辦、 繁中。 開催済 — ガイド頁は archive として保存。",
-      "aliases": ["創集繪", "IF7", "CH19", "Comic Horizon"],
-      "hashtags": ["#IF7", "#CH19", "#創集繪"]
-    }
-  ]
+ "$comment": "List of events on this hub. Entries with `slug` link to /<slug>/ for the full guide; entries without `slug` (or with `no_guide:true`) are info-only — listed for visibility but no internal guide built.",
+ "events": [
+  {
+   "slug": "cho-tsukuyomi-2026-05",
+   "name": "超ツクヨミ祭 第1回",
+   "short_name": "超ツクヨミ祭！1",
+   "date": "2026-05-24",
+   "date_display": "2026/05/24 (日)",
+   "venue": "立川クリエイティブスペース",
+   "fandom": "超かぐや姫！",
+   "status": "past",
+   "official_url": "https://sengendo.a.la9.jp/chokagutop.html",
+   "official_label": "超ツクヨミ祭公式",
+   "icon": "🌙",
+   "summary": "映画『超かぐや姫！』 オンリー同人即売会 第1回。全47サークル参加。",
+   "aliases": [
+    "超ツクヨミ祭",
+    "超ツク",
+    "ちょうツク"
+   ],
+   "hashtags": [
+    "#超ツクヨミ祭"
+   ]
+  },
+  {
+   "slug": "yaoyoro-2026-06",
+   "name": "プリケット2 (ヤオヨロー！)",
+   "short_name": "ヤオヨロー！",
+   "date": "2026-06-07",
+   "date_display": "2026/06/07 (日) 12:00-15:30",
+   "venue": "大田区産業プラザPiO 1F 大展示ホール",
+   "fandom": "超かぐや姫！ (集合 only — スプラトゥーン/ホロライブ/耳キャラ/川上稔作品 と同会場)",
+   "status": "past",
+   "official_url": "https://ketto.com/ya/",
+   "official_label": "ヤオヨロー！ 公式 (ケットコム)",
+   "icon": "🌙",
+   "summary": "集合オンリー型イベント「プリケット2」内 超かぐや姫！オンリー枠「ヤオヨロー！」。ヤオ列 34 サークル 36 スペース。",
+   "aliases": [
+    "ヤオヨロー",
+    "ヤオヨロ",
+    "プリケット2"
+   ],
+   "hashtags": [
+    "#ヤオヨロー",
+    "#プリケット2"
+   ],
+   "unique_booth_prefix": "ヤオ-"
+  },
+  {
+   "slug": "tsukuyomi-square-2026-06",
+   "name": "ツクヨミスクエア 第1回 (GLFes47 内)",
+   "short_name": "ツクスク 1",
+   "date": "2026-06-21",
+   "date_display": "2026/06/21 (日)",
+   "venue": "大田区産業プラザPiO 大展示ホール",
+   "fandom": "超かぐや姫！ 百合 オンリー (GirlsLoveFestival47 集中配置)",
+   "status": "upcoming",
+   "official_url": "https://www.lovefes.info/260621list.html",
+   "official_label": "ラブフェス202606 公式サークルリスト",
+   "icon": "🌙",
+   "summary": "GirlsLoveFestival47 内 超かぐや姫！百合 ONLY 集中配置企画「ツクヨミスクエア 第1回」。 80サークル参加 (A-C 列)。",
+   "aliases": [
+    "ツクヨミスクエア",
+    "ツクスク",
+    "ラブフェス202606",
+    "GLFes47",
+    "GirlsLoveFestival47"
+   ],
+   "hashtags": [
+    "#ツクヨミスクエア",
+    "#GLFes47",
+    "#ラブフェス"
+   ]
+  },
+  {
+   "slug": "cho-tsukuyomi-2026-07",
+   "name": "超ツクヨミ祭 1.5",
+   "short_name": "超ツクヨミ祭 1.5",
+   "date": "2026-07-05",
+   "date_display": "2026/07/05 (土)",
+   "venue": "立川クリエイティブスペース",
+   "fandom": "超かぐや姫！",
+   "status": "upcoming",
+   "official_url": "https://sengendo.a.la9.jp/chokagucirclelist15.html",
+   "official_label": "超ツクヨミ祭公式 (仙弦堂)",
+   "icon": "🌙",
+   "summary": "超かぐや姫！オンリー 第1.5回。 仙弦堂主催、 43 サークル参加確定 (第1回 5/24 を継ぐ立川での中規模開催)。",
+   "aliases": [
+    "超ツクヨミ祭",
+    "超ツク",
+    "超ツク1.5",
+    "いってんごかいめ"
+   ],
+   "hashtags": [
+    "#超ツクヨミ祭",
+    "#超ツク1_5"
+   ]
+  },
+  {
+   "name": "パンケーキ食べたい！ #ぱんたべ",
+   "short_name": "ぱんたべ",
+   "date": "2026-07-26",
+   "date_display": "2026/07/26 (土)",
+   "venue": "大阪市内 (会場最終調整中)",
+   "fandom": "超かぐや姫！",
+   "status": "upcoming",
+   "official_url": "https://x.com/pantabe168",
+   "official_label": "@pantabe168 (準備会)",
+   "icon": "🥞",
+   "summary": "超かぐや姫！オンリー同人誌即売会 in 大阪 (単独開催)。 会場詳細は準備会発表待ち。"
+  },
+  {
+   "name": "宇宙でいちばんおひめさま！VG2026",
+   "short_name": "おひめさま！",
+   "date": "2026-08-30",
+   "date_display": "2026/08/30 (日)",
+   "venue": "東京ビッグサイト",
+   "fandom": "超かぐや姫！",
+   "status": "upcoming",
+   "official_url": "https://www.akaboo.jp/",
+   "official_label": "赤ブー 公式",
+   "icon": "👑",
+   "summary": "超かぐや姫！オンリー 同人即売会。 赤ブー主催、 東京ビッグサイト 開催 (アガサーワールド と同会場)。"
+  },
+  {
+   "name": "ツクヨミスクエア 第2回",
+   "short_name": "ツクスク 2",
+   "date": "2026-09-23",
+   "date_display": "2026/09/23 (祝・水)",
+   "venue": "都産貿浜松町館",
+   "fandom": "超かぐや姫！ 百合 オンリー",
+   "status": "upcoming",
+   "official_url": "https://glfes.com/",
+   "official_label": "GLFes (主催)",
+   "icon": "🌙",
+   "summary": "超かぐや姫！百合 オンリー 第2回。"
+  },
+  {
+   "name": "ツクヨミスクエア 第3回",
+   "short_name": "ツクスク 3",
+   "date": "2026-11-22",
+   "date_display": "2026/11/22 (日)",
+   "venue": "大阪産業創造館",
+   "fandom": "超かぐや姫！ 百合 オンリー",
+   "status": "upcoming",
+   "official_url": "https://glfes.com/",
+   "official_label": "GLFes (主催)",
+   "icon": "🌙",
+   "summary": "超かぐや姫！百合 オンリー 第3回 (関西初開催)。"
+  },
+  {
+   "slug": "if7-2026-05",
+   "name": "第7回 創集繪 (IF7)",
+   "short_name": "IF7 創集繪",
+   "date": "2026-05-30",
+   "date_display": "2026/05/30 (六)",
+   "venue": "台北花博公園 爭艷館",
+   "fandom": "綜合 同人 (含 CH19 百合 ONLY 専區・偶大・VW・BIO 等 専區)",
+   "language": "zh-tw",
+   "status": "past",
+   "official_url": "https://if.gjs.tw/",
+   "official_label": "第7回 創集繪 (IF7) 官網",
+   "icon": "🌸",
+   "summary": "全 555 攤位 / 多 専區 (CH19 百合 ONLY / 偶大 / VW / BIO 等) を含む台湾最大級 同人即売會。 GJ工作室主辦、 繁中。 開催済 — ガイド頁は archive として保存。",
+   "aliases": [
+    "創集繪",
+    "IF7",
+    "CH19",
+    "Comic Horizon"
+   ],
+   "hashtags": [
+    "#IF7",
+    "#CH19",
+    "#創集繪"
+   ]
+  },
+  {
+   "slug": "c108-2026-08",
+   "name": "コミックマーケット108",
+   "short_name": "C108",
+   "date": "2026-08-15",
+   "date_display": "2026/08/15 (土)・16 (日)",
+   "venue": "東京ビッグサイト",
+   "fandom": "超かぐや姫！(関連サークル抜粋)",
+   "status": "upcoming",
+   "official_url": "https://www.comiket.co.jp/info-a/C108/C108Info.html",
+   "official_label": "コミックマーケット108 公式",
+   "icon": "🏖️",
+   "summary": "夏コミ C108 (50周年イヤー最終回)。 1日目(土) 南2ホール a/b ブロックに「超かぐや姫島」、 関連 23 サークルを収録 (当落報告ベース、 Webカタログ突合は随時)。",
+   "aliases": [
+    "C108",
+    "夏コミ",
+    "コミケ108",
+    "コミックマーケット108"
+   ],
+   "hashtags": [
+    "#C108",
+    "#C108WebCatalog"
+   ]
+  }
+ ]
 }
