@@ -59,12 +59,12 @@ def build_html(slug: str, ev_dir: Path, template: str, ver: str) -> str:
     og_url = overrides.get('og_url') or f'https://yachi8000.app/{slug}/'
     og_image = overrides.get('og_image') or f'https://yachi8000.app/{slug}/og.png'
 
-    # Extra scripts (per-event additions like coords.js / submaps.js)
+    # Extra scripts (per-event additions). Order matters: data (coords.js /
+    # maps.js) before behaviour (area-map.js), all after app.js.
     extra = ''
-    if (ev_dir / 'coords.js').is_file():
-        extra = f'<script src="coords.js?v={ver}"></script>\n'
-    if (ev_dir / 'submaps.js').is_file():
-        extra += f'<script src="submaps.js?v={ver}"></script>\n'
+    for fname in ('coords.js', 'maps.js', 'area-map.js'):
+        if (ev_dir / fname).is_file():
+            extra += f'<script src="{fname}?v={ver}"></script>\n'
     extra_more = overrides.get('extra_scripts') or []
     for s in extra_more:
         extra += f'<script src="{s}?v={ver}"></script>\n'

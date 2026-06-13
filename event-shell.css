@@ -537,67 +537,8 @@ section {
   fill: rgba(196, 123, 0, 0.18);
 }
 
-/* Sub-map (展示棟) tabs + 連動/全件 mode toggle — C108 multi-map only. */
-.submap-controls {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem 0.75rem;
-  margin: 0.25rem auto 0.85rem;
-}
-.submap-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  justify-content: center;
-}
-.submap-tab {
-  font: inherit;
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--accent, #6a4c93);
-  background: #fff;
-  border: 1.5px solid var(--border, #ddd);
-  border-radius: 999px;
-  padding: 0.34rem 0.85rem;
-  cursor: pointer;
-  transition: background 0.12s, border-color 0.12s, color 0.12s;
-}
-.submap-tab:hover { border-color: var(--accent, #6a4c93); }
-.submap-tab.active {
-  background: var(--accent, #6a4c93);
-  border-color: var(--accent, #6a4c93);
-  color: #fff;
-}
-.submap-tab-count {
-  display: inline-block;
-  min-width: 1.1em;
-  padding: 0 0.25em;
-  margin-left: 0.2em;
-  font-size: 0.78em;
-  border-radius: 999px;
-  background: rgba(106, 76, 147, 0.14);
-  color: inherit;
-}
-.submap-tab.active .submap-tab-count { background: rgba(255, 255, 255, 0.28); }
-.submap-mode-btn {
-  font: inherit;
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #2a7d4f;
-  background: #e7f4ec;
-  border: 1.5px solid #9fcbb1;
-  border-radius: 999px;
-  padding: 0.34rem 0.8rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.submap-mode-btn.all {
-  color: #8a5a12;
-  background: #fbeed5;
-  border-color: #e0b774;
-}
+/* Clickable building regions on the C108 overview map (set by the
+ * per-area map script; click → activate that 展示棟's area filter). */
 .venue-map-overlay rect.area-target {
   fill: transparent;
   stroke: transparent;

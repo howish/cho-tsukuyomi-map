@@ -7,7 +7,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a16a",
@@ -20,7 +21,8 @@ window.BOOTHS = [
     ],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a17b",
@@ -30,7 +32,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a19a",
@@ -44,7 +47,8 @@ window.BOOTHS = [
     ],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a20b",
@@ -56,7 +60,8 @@ window.BOOTHS = [
     ],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a21b",
@@ -66,7 +71,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a22a",
@@ -76,7 +82,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a23ab",
@@ -86,7 +93,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-a26b",
@@ -96,7 +104,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-b08b",
@@ -106,7 +115,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-b22a",
@@ -118,7 +128,8 @@ window.BOOTHS = [
     ],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-b28b",
@@ -128,7 +139,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-b30b",
@@ -140,7 +152,8 @@ window.BOOTHS = [
     ],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-o22a",
@@ -150,7 +163,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-p17b",
@@ -160,7 +174,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "minami"
   },
   {
     "booth_id": "土-ハ30b",
@@ -170,7 +185,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "higashi"
   },
   {
     "booth_id": "土-フ24a",
@@ -180,7 +196,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "higashi"
   },
   {
     "booth_id": "日-ア15ab",
@@ -190,7 +207,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "higashi"
   },
   {
     "booth_id": "日-ふ48b",
@@ -200,7 +218,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "nishi"
   },
   {
     "booth_id": "日-ヨ18b",
@@ -210,7 +229,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "higashi"
   },
   {
     "booth_id": "日-D22b",
@@ -220,7 +240,8 @@ window.BOOTHS = [
     "cps": [],
     "tags": {},
     "warnings": [],
-    "min_price": null
+    "min_price": null,
+    "area": "higashi"
   },
   {
     "booth_id": "tbd-01",

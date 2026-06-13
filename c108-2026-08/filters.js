@@ -47,5 +47,25 @@ window.FILTERS_CONFIG = {
     }
   ],
   "tags": [],
-  "warnings": []
+  "warnings": [],
+  "areas": [
+    {
+      "code": "minami",
+      "label": "南展示棟",
+      "icon": "🏝️",
+      "title": "南1・南2ホール (超かぐや姫島は南2)"
+    },
+    {
+      "code": "higashi",
+      "label": "東展示棟",
+      "icon": "🌅",
+      "title": "東1・東2・東3・東7ホール"
+    },
+    {
+      "code": "nishi",
+      "label": "西展示棟",
+      "icon": "🌇",
+      "title": "西1ホール"
+    }
+  ]
 };
