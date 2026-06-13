@@ -25,8 +25,11 @@ window.EVENT_CONFIG = {
   official_url: "https://www.comiket.co.jp/info-a/C108/C108Info.html",
   official_label: "コミックマーケット108 公式インフォメーション",
 
-  map_image: "map.jpg",
-  map_caption: "会場マップは公式発表待ち (placeholder)",
+  // 自作 schematic (SVG)。公式マップは準備会著作物のため非掲載 —
+  // 当サイト収録サークルの配置のみを示す簡略図。scripts/ops/build_c108_map.py
+  // が data.js から再生成 (tbd 配置が判明したら走らせ直す)。
+  map_image: "map.svg",
+  map_caption: "当サイト収録 23 サークルの簡略配置図 (非公式・当落報告より作図)。公式マップは冊子/Webカタログを参照",
 
   // 1日目 (土) / 2日目 (日) / スペース未確認 (tbd)
   rows: ["土", "日", "tbd"],
