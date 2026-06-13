@@ -3,7 +3,7 @@
    area-map.js; building scope is the standard area filter. */
 window.AREA_MAPS = {
  "default": {
-  "image": "map-overview.svg",
+  "image": "map-overview.svg?v=1781378700",
   "regions": {
    "minami": {
     "x": 2.778,
@@ -26,7 +26,7 @@ window.AREA_MAPS = {
   }
  },
  "minami": {
-  "image": "map-minami.svg",
+  "image": "map-minami.svg?v=1781378700",
   "coords": {
    "土-a14a": {
     "x": 11.111,
@@ -121,7 +121,7 @@ window.AREA_MAPS = {
   }
  },
  "higashi": {
-  "image": "map-higashi.svg",
+  "image": "map-higashi.svg?v=1781378700",
   "coords": {
    "日-ア15ab": {
     "x": 7.014,
@@ -156,7 +156,7 @@ window.AREA_MAPS = {
   }
  },
  "nishi": {
-  "image": "map-nishi.svg",
+  "image": "map-nishi.svg?v=1781378700",
   "coords": {
    "日-ふ48b": {
     "x": 43.056,
