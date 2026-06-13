@@ -267,15 +267,11 @@ def build_minami(booths):
             cx = x0 + i * cell
             if sp in block_map:
                 b = block_map[sp]
+                # cell shows the space code only — circle names live in the
+                # booth cards below the map (no duplication on the map).
                 out.append(booth_cell(cx, y, cell - 3, 56, b, coords, W, H,
                                       day_col(b), label=f"{sp}{b['side']}",
-                                      name=False, sz=13))
-                nm = b["circle"]
-                if len(nm) > 8:
-                    nm = nm[:8] + "…"
-                # hang the name down-right (rotate clockwise) so adjacent
-                # labels run parallel and never collide
-                out.append(rtext(cx + 8, y + 62, 40, nm, 10.5, INK, "600"))
+                                      name=False, sz=14))
             else:
                 out.append(rrect(cx, y, cell - 3, 56, 5, "#fff", "#ddd6ca", 1)
                            + text(cx + (cell - 3) / 2, y + 33, str(sp),
@@ -291,16 +287,16 @@ def build_minami(booths):
              + text(hx + 70 + 590, hy + 456, "（他ジャンル島）", size=12,
                     fill="#bdb6aa", anchor="middle"))
 
-    # 南1 — separate strip of two tables, below the hall box
+    # 南1 — separate strip of tables, below the hall box (code only)
     s.append(text(hx, hy + hh + 50, "南1ホール", size=17, fill=SAT,
                   weight="800"))
     m1 = sorted([b for b in booths if b["hall"] == "南1"],
                 key=lambda b: b["space"])
     cx = hx + 130
     for b in m1:
-        s.append(booth_cell(cx, hy + hh + 24, 180, 56, b, coords, W, H,
-                            day_col(b), name=True, sz=14))
-        cx += 200
+        s.append(booth_cell(cx, hy + hh + 24, 96, 56, b, coords, W, H,
+                            day_col(b), name=False, sz=15))
+        cx += 112
     footer(s, W, H)
     s.append("</svg>")
     return "\n".join(s), coords
@@ -314,14 +310,14 @@ def build_simple_halls(booths, building, title):
     rows = [(h, sorted([b for b in booths if b["hall"] == h],
                        key=lambda b: b["space"])) for h in halls]
     maxn = max((len(r[1]) for r in rows), default=1)
-    H = 140 + maxn * 84 + 60
+    H = 150 + maxn * 72 + 40
     s = svg_open(W, H)
     submap_header(s, title, f"― {len(halls)} ホール")
     bw = (1400 - 40 - (len(rows) - 1) * 24) / max(len(rows), 1)
     coords = {}
     x = 40
     for hall, bs in rows:
-        ch = 56 + len(bs) * 84
+        ch = 56 + len(bs) * 72
         accent = SUN if all(b["day"] == "日" for b in bs) else SAT
         s.append(rrect(x, 96, bw, ch, 12, "#fcfbf9", "#bcb5a8", 1.6))
         s.append(rrect(x, 96, bw, 38, 12, accent)
@@ -329,12 +325,12 @@ def build_simple_halls(booths, building, title):
         s.append(text(x + 16, 121, hall + "ホール", size=16, fill="#fff",
                       weight="800"))
         cy = 150
-        cw = min(bw - 36, 360)
+        cw = min(bw - 36, 200)
         cox = x + (bw - cw) / 2
         for b in bs:
-            s.append(booth_cell(cox, cy, cw, 64, b, coords, W, H,
-                                day_col(b), name=True, sz=15, name_max=18))
-            cy += 84
+            s.append(booth_cell(cox, cy, cw, 52, b, coords, W, H,
+                                day_col(b), name=False, sz=16))
+            cy += 72
         x += bw + 24
     footer(s, W, H)
     s.append("</svg>")

@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="284" viewBox="0 0 1440 284" font-family="sans-serif"><rect x="0.0" y="0.0" width="1440.0" height="284.0" rx="0" fill="#faf8f4" stroke="none" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="262" viewBox="0 0 1440 262" font-family="sans-serif"><rect x="0.0" y="0.0" width="1440.0" height="262.0" rx="0" fill="#faf8f4" stroke="none" stroke-width="1"/>
 <text x="40.0" y="50.0" font-size="26" fill="#6a4c93" font-weight="800" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">西展示棟</text>
 <text x="148.0" y="50.0" font-size="15" fill="#6b6b6b" font-weight="400" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">― 1 ホール</text>
 <circle cx="1300" cy="42" r="7" fill="#c8821f"/><text x="1314.0" y="47.0" font-size="13" fill="#6b6b6b" font-weight="400" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">土曜</text>
 <circle cx="1380" cy="42" r="7" fill="#3f72a4"/><text x="1394.0" y="47.0" font-size="13" fill="#6b6b6b" font-weight="400" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">日曜</text>
 <line x1="40" y1="68" x2="1400" y2="68" stroke="#e2ded7" stroke-width="1.5"/>
-<rect x="40.0" y="96.0" width="1360.0" height="140.0" rx="12" fill="#fcfbf9" stroke="#bcb5a8" stroke-width="1.6"/>
+<rect x="40.0" y="96.0" width="1360.0" height="128.0" rx="12" fill="#fcfbf9" stroke="#bcb5a8" stroke-width="1.6"/>
 <rect x="40.0" y="96.0" width="1360.0" height="38.0" rx="12" fill="#3f72a4" stroke="none" stroke-width="1"/><rect x="40.0" y="114.0" width="1360.0" height="20.0" rx="0" fill="#3f72a4" stroke="none" stroke-width="1"/>
 <text x="56.0" y="121.0" font-size="16" fill="#fff" font-weight="800" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">西1ホール</text>
-<rect x="540.0" y="150.0" width="360.0" height="64.0" rx="6" fill="#3f72a4" stroke="#ffffff" stroke-width="1.5"/><text x="720.0" y="179.0" font-size="15" fill="#fff" font-weight="800" text-anchor="middle" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">ふ48b</text><text x="720.0" y="197.0" font-size="11" fill="#fff" font-weight="400" text-anchor="middle" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">Pastel Craft</text>
-<line x1="40" y1="240" x2="1400" y2="240" stroke="#e2ded7" stroke-width="1.2"/>
-<text x="40.0" y="262.0" font-size="11.5" fill="#9a948c" font-weight="400" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">非公式ファンガイド ／ 配置は各サークルの当落報告より作図 ／ 公式会場図は準備会著作物のため非掲載・縮尺は不正確</text>
-<text x="1400.0" y="262.0" font-size="13" fill="#6a4c93" font-weight="700" text-anchor="end" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">yachi8000.app</text>
+<rect x="620.0" y="150.0" width="200.0" height="52.0" rx="6" fill="#3f72a4" stroke="#ffffff" stroke-width="1.5"/><text x="720.0" y="181.0" font-size="16" fill="#fff" font-weight="800" text-anchor="middle" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">ふ48b</text>
+<line x1="40" y1="218" x2="1400" y2="218" stroke="#e2ded7" stroke-width="1.2"/>
+<text x="40.0" y="240.0" font-size="11.5" fill="#9a948c" font-weight="400" text-anchor="start" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">非公式ファンガイド ／ 配置は各サークルの当落報告より作図 ／ 公式会場図は準備会著作物のため非掲載・縮尺は不正確</text>
+<text x="1400.0" y="240.0" font-size="13" fill="#6a4c93" font-weight="700" text-anchor="end" font-family="'Noto Sans CJK JP','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif">yachi8000.app</text>
 </svg>

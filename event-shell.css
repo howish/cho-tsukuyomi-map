@@ -537,8 +537,43 @@ section {
   fill: rgba(196, 123, 0, 0.18);
 }
 
-/* Clickable building regions on the C108 overview map (set by the
- * per-area map script; click → activate that 展示棟's area filter). */
+/* C108 sub-map controls (rendered by area-map.js): an exclusive 展示棟
+ * selector + a カード連動 auto/all toggle. Styling only — logic is in the
+ * event's own script, shared app.js stays generic. */
+.submap-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 1.25rem;
+  margin: 0.25rem auto 0.85rem;
+}
+.submap-tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; justify-content: center; }
+.submap-tab {
+  font: inherit; font-size: 0.9rem; font-weight: 700;
+  color: var(--accent, #6a4c93); background: #fff;
+  border: 1.5px solid var(--border, #ddd); border-radius: 999px;
+  padding: 0.34rem 0.9rem; cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+.submap-tab:hover { border-color: var(--accent, #6a4c93); }
+.submap-tab.active {
+  background: var(--accent, #6a4c93); border-color: var(--accent, #6a4c93);
+  color: #fff;
+}
+.submap-link { display: inline-flex; align-items: center; gap: 0.35rem; }
+.submap-link-label { font-size: 0.8rem; font-weight: 700; color: var(--text-muted, #666); }
+.submap-link-btn {
+  font: inherit; font-size: 0.82rem; font-weight: 700;
+  color: var(--text-muted, #666); background: #f1efe9;
+  border: 1.5px solid var(--border, #ddd);
+  padding: 0.28rem 0.7rem; cursor: pointer;
+}
+.submap-link-btn:first-of-type { border-radius: 999px 0 0 999px; }
+.submap-link-btn:last-of-type { border-radius: 0 999px 999px 0; margin-left: -1.5px; }
+.submap-link-btn.active {
+  color: #fff; background: #2a7d4f; border-color: #2a7d4f;
+}
 .venue-map-overlay rect.area-target {
   fill: transparent;
   stroke: transparent;
