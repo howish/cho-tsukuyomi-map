@@ -112,175 +112,288 @@ def cp_str(cps):
     return " · ".join(CP_LABEL.get(c, c) for c in cps)
 
 
-def island_tile(x, y, w, b):
-    """A circle table-tile in the island detail."""
-    h = 46
-    parts = [rrect(x, y, w, h, 8, CARD, BORDER, 1.2)]
-    # space-number chip
-    parts.append(rrect(x + 8, y + 9, 56, 28, 6, ISLAND_FILL))
-    parts.append(text(x + 36, y + 28, f"{b['block']}{b['space']}",
-                      size=15, fill=ISLAND, weight="700", anchor="middle"))
-    parts.append(text(x + 76, y + 21, b["circle"], size=15, weight="600"))
-    sub = b["author"] or ""
-    cp = cp_str(b["cps"])
-    line2 = "  ".join(s for s in (("◇ " + cp) if cp else "", sub) if s)
-    if line2:
-        parts.append(text(x + 76, y + 38, line2, size=11, fill=MUTED))
-    return "".join(parts), h
+def day_color(b):
+    return SUN if b["day"] == "日" else SAT
 
 
-def hall_card(x, y, w, title, accent, rows):
-    """A small hall card: title bar + one or more circle rows."""
-    rh = 40
-    h = 38 + rh * len(rows) + 10
-    p = [rrect(x, y, w, h, 12, CARD, BORDER, 1.2)]
-    p.append(rrect(x, y, w, 30, 12, accent))
-    p.append(rrect(x, y + 14, w, 16, 0, accent))  # square off bottom of bar
-    p.append(text(x + 14, y + 21, title, size=15, fill="#fff", weight="700"))
-    cy = y + 30 + 8
-    for r in rows:
-        p.append(rrect(x + 10, cy, 62, 26, 6, BG))
-        p.append(text(x + 41, cy + 18, r["sp"], size=13, fill=accent,
-                      weight="700", anchor="middle"))
-        p.append(text(x + 82, cy + 13, r["circle"], size=14, weight="600"))
-        meta = "  ".join(s for s in (cp_str(r["cps"]), r.get("author", ""))
-                         if s)
-        if meta:
-            p.append(text(x + 82, cy + 30, meta, size=10.5, fill=MUTED))
-        cy += rh
-    return "".join(p), h
+def pin(cx, cy, n, color, r=12):
+    return (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{color}" '
+            f'stroke="#fff" stroke-width="2"/>'
+            + text(cx, cy + 5, str(n), size=13, fill="#fff", weight="800",
+                   anchor="middle"))
 
 
-def legend_chip(x, y, color, label, shape="dot"):
-    if shape == "island":
-        mark = rrect(x, y - 11, 16, 16, 4, ISLAND_FILL, ISLAND, 1.5)
-    else:
-        mark = f'<circle cx="{x+8}" cy="{y-3}" r="7" fill="{color}"/>'
-    return mark + text(x + 24, y + 2, label, size=14, fill=MUTED)
+def hall_box(x, y, w, h, label, state, sub="", pins=None):
+    """A hall cell in the Big Sight overview.
+    state: 'island' | 'sat' | 'sun' | 'used' | 'closed' | 'corp'."""
+    fill, stroke, tcol = {
+        "island": (ISLAND_FILL, ISLAND, ISLAND),
+        "sat": ("#fbeed5", SAT, "#8a5a12"),
+        "sun": ("#dfeaf4", SUN, "#28557d"),
+        "used": ("#f1efe9", "#c9c2b6", MUTED),
+        "closed": ("#eceae6", "#cfcabf", "#a8a299"),
+        "corp": ("#eceae6", "#cfcabf", "#a8a299"),
+    }.get(state, ("#f1efe9", "#c9c2b6", MUTED))
+    sw = 2 if state in ("island", "sat", "sun") else 1.2
+    p = [rrect(x, y, w, h, 8, fill, stroke, sw)]
+    p.append(text(x + w / 2, y + h / 2 - (6 if sub else -5), label,
+                  size=20 if state == "island" else 17, fill=tcol,
+                  weight="800", anchor="middle"))
+    if sub:
+        p.append(text(x + w / 2, y + h / 2 + 16, sub, size=11.5, fill=tcol,
+                      anchor="middle"))
+    if pins:
+        px = x + w - 8
+        for n, col in reversed(pins):
+            p.append(pin(px, y + 14, n, col, r=11))
+            px -= 24
+    return "".join(p)
+
+
+def island_strip(x, y, block, lo, hi, ours, cell=30, h=42):
+    """Draw one island as a numbered cell-strip; `ours` maps space->(pin,color).
+    Returns (svg, width)."""
+    n = hi - lo + 1
+    width = n * cell
+    p = []
+    # block-letter tab
+    p.append(rrect(x - 44, y, 38, h, 6, ISLAND_FILL, ISLAND, 1.4))
+    p.append(text(x - 25, y + h / 2 + 7, block, size=19, fill=ISLAND,
+                  weight="800", anchor="middle"))
+    # island bar
+    p.append(rrect(x, y, width, h, 6, "#ffffff", "#c4bdb1", 1.3))
+    for i, sp in enumerate(range(lo, hi + 1)):
+        cx = x + i * cell
+        if i > 0:
+            p.append(f'<line x1="{cx}" y1="{y+4}" x2="{cx}" y2="{y+h-4}" '
+                     f'stroke="#e4ded3" stroke-width="1"/>')
+        if sp in ours:
+            n_, col = ours[sp]
+            p.append(rrect(cx + 1.5, y + 1.5, cell - 3, h - 3, 4, ISLAND))
+            p.append(text(cx + cell / 2, y + h - 7, str(sp), size=9.5,
+                          fill="#fff", weight="700", anchor="middle"))
+            p.append(pin(cx + cell / 2, y + 15, n_, col, r=10.5))
+        else:
+            p.append(text(cx + cell / 2, y + h / 2 + 4, str(sp), size=9,
+                          fill="#c2bbb0", anchor="middle"))
+    return "".join(p), width
+
+
+def index_row(x, y, n, b, w=534):
+    col = day_color(b)
+    loc = (f"{b['hall']} {b['block']}{b['space']}{b['side']}"
+           if b["block"] else (b["hall"] or "未確認"))
+    p = [pin(x + 11, y, n, col, r=10)]
+    p.append(text(x + 30, y + 5, b["circle"], size=14, weight="700"))
+    p.append(text(x + w, y + 5, loc, size=12.5, fill=col, weight="700",
+                  anchor="end"))
+    return "".join(p)
 
 
 def build_svg(booths):
-    W, H = 1600, 1040
+    W, H = 1600, 1310
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}" font-family="sans-serif">']
     s.append(rrect(0, 0, W, H, 0, BG))
 
-    # ---- header ----
-    s.append(text(56, 64, "C108", size=46, fill=ACCENT, weight="800",
-                  spacing="1"))
-    s.append(text(186, 64, "超かぐや姫サークル MAP", size=30, weight="700"))
-    s.append(text(58, 98,
-                  "2026.08.15 SAT – 08.16 SUN   ·   東京ビッグサイト  南・東・西展示棟",
-                  size=17, fill=MUTED))
-    # legend (top-right)
-    lx = 980
-    s.append(legend_chip(lx, 50, ISLAND, "超かぐや姫島 (南2)", "island"))
-    s.append(legend_chip(lx + 210, 50, SAT, "土曜 単独配置"))
-    s.append(legend_chip(lx + 390, 50, SUN, "日曜配置"))
-    s.append(f'<line x1="56" y1="120" x2="{W-56}" y2="120" '
-             f'stroke="{BORDER}" stroke-width="1.5"/>')
-
-    # =====================================================================
-    # LEFT — Saturday
-    # =====================================================================
-    LX = 56
-    s.append(rrect(LX, 150, 70, 30, 8, SAT))
-    s.append(text(LX + 35, 171, "DAY 1", size=15, fill="#fff",
-                  weight="800", anchor="middle"))
-    s.append(text(LX + 84, 171, "8/15 SAT", size=17, weight="700"))
-
-    # island panel
-    iy = 198
-    s.append(rrect(LX, iy, 884, 58, 12, ISLAND_FILL, ISLAND, 1.5))
-    s.append(text(LX + 22, iy + 26, "南2ホール ― 超かぐや姫島", size=20,
-                  fill=ISLAND, weight="800"))
-    isl = [b for b in booths if b["hall"] == "南2"]
-    s.append(text(LX + 22, iy + 47,
-                  f"{len(isl)} サークルが a・b ブロックに集結", size=13,
-                  fill=MUTED))
-
-    block_a = sorted([b for b in isl if b["block"] == "a"],
-                     key=lambda b: b["space"])
-    block_b = sorted([b for b in isl if b["block"] == "b"],
-                     key=lambda b: b["space"])
-    col_w = 420
-    ay = iy + 76
-    for col_x, blk, rows in ((LX, "a", block_a), (LX + 444, "b", block_b)):
-        s.append(text(col_x + 4, ay, f"{blk} ブロック", size=14,
-                      fill=ISLAND, weight="700"))
-        ty = ay + 14
-        for b in rows:
-            tile, th = island_tile(col_x, ty, col_w, b)
-            s.append(tile)
-            ty += th + 8
-
-    # Saturday non-island halls (南1 / 東2 / 東3)
-    sat_other = [b for b in booths
-                 if b["day"] == "土" and b["hall"] != "南2"]
-    by_hall = {}
-    for b in sat_other:
-        by_hall.setdefault(b["hall"], []).append(b)
-    oy = ay + 14 + len(block_a) * 54 + 24
-    s.append(text(LX, oy, "南1 ／ 東2 ／ 東3 ホール (単独配置)", size=15,
-                  fill=SAT, weight="700"))
-    oy += 16
-    ox = LX
-    for hall in ("南1", "東2", "東3"):
-        rows = [{"sp": f"{b['block']}{b['space']}{b['side']}",
-                 "circle": b["circle"], "cps": b["cps"],
-                 "author": b["author"]} for b in by_hall.get(hall, [])]
-        if not rows:
-            continue
-        card, ch = hall_card(ox, oy, 288, hall, SAT, rows)
-        s.append(card)
-        ox += 298
-
-    # =====================================================================
-    # RIGHT — Sunday
-    # =====================================================================
-    RX = 980
-    s.append(f'<line x1="{RX-20}" y1="150" x2="{RX-20}" y2="{H-90}" '
-             f'stroke="{BORDER}" stroke-width="1.5"/>')
-    s.append(rrect(RX, 150, 70, 30, 8, SUN))
-    s.append(text(RX + 35, 171, "DAY 2", size=15, fill="#fff",
-                  weight="800", anchor="middle"))
-    s.append(text(RX + 84, 171, "8/16 SUN", size=17, weight="700"))
-
-    sun = [b for b in booths if b["day"] == "日"]
-    order = {"東1": 0, "西1": 1, "東3": 2, "東7": 3}
-    sun.sort(key=lambda b: order.get(b["hall"], 9))
-    cy = 198
-    for b in sun:
-        rows = [{"sp": f"{b['block']}{b['space']}{b['side']}",
-                 "circle": b["circle"], "cps": b["cps"],
-                 "author": b["author"]}]
-        card, ch = hall_card(RX, cy, 560, b["hall"], SUN, rows)
-        s.append(card)
-        cy += ch + 14
-
-    # tbd note inside Sunday column
+    # ----- assign a stable index number to every circle -----
+    isl = sorted([b for b in booths if b["hall"] == "南2"],
+                 key=lambda b: (b["block"], b["space"]))
+    sat_other = sorted([b for b in booths
+                        if b["day"] == "土" and b["hall"] != "南2"],
+                       key=lambda b: (b["hall"], b["space"] or 0))
+    sun = sorted([b for b in booths if b["day"] == "日"],
+                 key=lambda b: ({"東1": 0, "西1": 1, "東3": 2, "東7": 3}
+                                .get(b["hall"], 9), b["space"] or 0))
     tbd = [b for b in booths if b["day"] == "tbd"]
+    ordered = isl + sat_other + sun + tbd
+    for i, b in enumerate(ordered, 1):
+        b["n"] = i
+
+    # ---- header ----
+    s.append(text(56, 62, "C108", size=44, fill=ACCENT, weight="800",
+                  spacing="1"))
+    s.append(text(182, 62, "超かぐや姫サークル 会場マップ", size=28,
+                  weight="700"))
+    s.append(text(58, 94,
+                  "2026.08.15 SAT – 08.16 SUN   ·   東京ビッグサイト",
+                  size=16, fill=MUTED))
+    lx = 1010
+    s.append(rrect(lx, 39, 15, 15, 3, ISLAND_FILL, ISLAND, 1.5)
+             + text(lx + 22, 51, "超かぐや姫島", size=13.5, fill=MUTED))
+    s.append(f'<circle cx="{lx+168}" cy="46" r="7" fill="{SAT}"/>'
+             + text(lx + 182, 51, "土曜", size=13.5, fill=MUTED))
+    s.append(f'<circle cx="{lx+258}" cy="46" r="7" fill="{SUN}"/>'
+             + text(lx + 272, 51, "日曜", size=13.5, fill=MUTED))
+    s.append(f'<line x1="56" y1="112" x2="{W-56}" y2="112" '
+             f'stroke="{BORDER}" stroke-width="1.5"/>')
+
+    # =====================================================================
+    # SECTION A — Tokyo Big Sight overview (会場全体図)
+    # =====================================================================
+    s.append(text(56, 150, "会場全体図", size=20, weight="800"))
+    s.append(text(176, 150, "― 当サークルがいるホール", size=14, fill=MUTED))
+
+    def hall_pins(hall, day=None):
+        out = []
+        for b in ordered:
+            if b["hall"] == hall and (day is None or b["day"] == day):
+                out.append((b["n"], day_color(b)))
+        return out
+
+    oy = 172
+    # South building (bottom-left) — 南1/南2 circles, 南3/4 corp
+    s.append(text(96, oy + 4, "南展示棟", size=12.5, fill=MUTED, weight="700"))
+    s.append(hall_box(96, oy + 14, 150, 92, "南2", "island",
+                      "超かぐや姫島 13", hall_pins("南2")[:1]))
+    s.append(hall_box(256, oy + 14, 120, 92, "南1", "sat",
+                      "2 サークル", hall_pins("南1")))
+    s.append(hall_box(96, oy + 116, 150, 60, "南3", "corp", "企業"))
+    s.append(hall_box(256, oy + 116, 120, 60, "南4", "corp", "企業"))
+    # West building (mid-left)
+    s.append(text(440, oy + 4, "西展示棟", size=12.5, fill=MUTED,
+                  weight="700"))
+    s.append(hall_box(440, oy + 14, 110, 78, "西1", "sun", "1", hall_pins("西1")))
+    s.append(hall_box(558, oy + 14, 110, 78, "西2", "used", ""))
+    s.append(hall_box(440, oy + 100, 110, 56, "西3", "corp", "企業"))
+    s.append(hall_box(558, oy + 100, 110, 56, "西4", "corp", "企業"))
+    # East building (right)
+    s.append(text(820, oy + 4, "東展示棟", size=12.5, fill=MUTED,
+                  weight="700"))
+    s.append(hall_box(820, oy + 14, 120, 70, "東7", "sun", "1", hall_pins("東7")))
+    s.append(hall_box(950, oy + 14, 120, 70, "東8", "used", ""))
+    s.append(hall_box(820, oy + 94, 120, 70, "東1", "sun", "1", hall_pins("東1")))
+    s.append(hall_box(950, oy + 94, 120, 70, "東2", "sat", "1", hall_pins("東2")))
+    s.append(hall_box(1080, oy + 94, 120, 70, "東3", "sat", "2",
+                      hall_pins("東3")))
+    for i, lab in enumerate(("東4", "東5", "東6")):
+        s.append(hall_box(820 + i * 130, oy + 174, 120, 50, lab, "closed",
+                          "改修"))
+    # entrance + tower hints
+    s.append(text(1280, oy + 60, "▶ 入場ゲート", size=14, fill=MUTED,
+                  weight="700"))
+    s.append(text(1280, oy + 88, "(東/西南で別)", size=11.5, fill="#9a948c"))
+    s.append('<path d="M 712 250 L 740 234 L 740 266 Z" fill="#d8d2c6"/>')
+    s.append(text(726, 250 + 38, "会議棟", size=10, fill="#9a948c",
+                  anchor="middle"))
+
+    s.append(f'<line x1="56" y1="{oy+248}" x2="{W-56}" y2="{oy+248}" '
+             f'stroke="{BORDER}" stroke-width="1.5"/>')
+
+    # =====================================================================
+    # SECTION B — 南2 floor plan (the island), left;  index, right
+    # =====================================================================
+    by = oy + 280            # ~452
+    s.append(text(56, by, "南2ホール フロア図", size=20, weight="800",
+                  fill=ISLAND))
+    s.append(text(296, by, "― 超かぐや姫島 (土曜)", size=14, fill=MUTED))
+
+    # hall outline
+    hx, hyy, hw, hh = 56, by + 22, 920, 560
+    s.append(rrect(hx, hyy, hw, hh, 14, "#fcfbf9", "#bcb5a8", 2))
+    s.append(text(hx + 20, hyy + 30, "南2", size=22, fill="#b9b2a5",
+                  weight="800"))
+    # facilities
+    s.append(rrect(hx + hw - 150, hyy + 16, 130, 30, 6, "#dfeaf4", SUN, 1.2)
+             + text(hx + hw - 85, hyy + 36, "i / 販売", size=13, fill="#28557d",
+                    weight="700", anchor="middle"))
+    s.append(text(hx + hw / 2, hyy + hh - 14, "▲ 入口 (一般)", size=13,
+                  fill=MUTED, weight="700", anchor="middle"))
+
+    # context islands (plain) + our a / b islands (detailed)
+    block_a = {b["space"]: (b["n"], day_color(b)) for b in isl
+               if b["block"] == "a"}
+    block_b = {b["space"]: (b["n"], day_color(b)) for b in isl
+               if b["block"] == "b"}
+    ix = hx + 90
+    iy0 = hyy + 70
+    # a couple of context islands above
+    for k in range(2):
+        s.append(rrect(ix, iy0 + k * 60, 560, 42, 6, "#f2efe9", "#d8d2c6", 1)
+                 + text(ix + 280, iy0 + k * 60 + 26, "（他ジャンル島）",
+                        size=12, fill="#bdb6aa", anchor="middle"))
+    # our islands
+    a_lo, a_hi = min(block_a), max(block_a)
+    b_lo, b_hi = min(block_b), max(block_b)
+    sa, wa = island_strip(ix, iy0 + 140, "a", a_lo, a_hi, block_a)
+    s.append(sa)
+    sb, wb = island_strip(ix, iy0 + 200, "b", b_lo, b_hi, block_b)
+    s.append(sb)
+    # 超かぐや姫島 bracket + rotated label
+    bracket_y = iy0 + 132
+    bcx, bcy = ix - 60, (bracket_y + iy0 + 254) / 2
+    s.append(f'<path d="M {ix-50} {bracket_y} L {ix-58} {bracket_y} '
+             f'L {ix-58} {iy0+254} L {ix-50} {iy0+254}" '
+             f'stroke="{ISLAND}" stroke-width="2.5" fill="none"/>')
+    s.append(f'<text x="{bcx}" y="{bcy}" '
+             f'transform="rotate(-90 {bcx} {bcy})" font-size="14" '
+             f'fill="{ISLAND}" font-weight="800" text-anchor="middle" '
+             f'font-family="\'Noto Sans CJK JP\',sans-serif">超かぐや姫島</text>')
+    # context islands below
+    for k in range(2):
+        yy = iy0 + 280 + k * 60
+        s.append(rrect(ix, yy, 560, 42, 6, "#f2efe9", "#d8d2c6", 1)
+                 + text(ix + 280, yy + 26, "（他ジャンル島）", size=12,
+                        fill="#bdb6aa", anchor="middle"))
+
+    # ---- index (right column) ----
+    RX = 1010
+    s.append(f'<line x1="{RX-22}" y1="{by-22}" x2="{RX-22}" y2="{H-92}" '
+             f'stroke="{BORDER}" stroke-width="1.5"/>')
+    s.append(text(RX, by, "サークル INDEX", size=18, weight="800"))
+    s.append(text(RX + 175, by, "番号は左図に対応", size=11.5, fill=MUTED))
+    ry = by + 32
+    s.append(text(RX, ry, "■ 南2 超かぐや姫島", size=13.5, fill=ISLAND,
+                  weight="800"))
+    ry += 26
+    for b in isl:
+        s.append(index_row(RX, ry, b["n"], b))
+        ry += 29
+    ry += 10
+    s.append(text(RX, ry, "■ その他ホール (土・日)", size=13.5, fill=MUTED,
+                  weight="800"))
+    ry += 26
+    for b in sat_other + sun:
+        s.append(index_row(RX, ry, b["n"], b))
+        ry += 29
     if tbd:
-        cy += 6
-        s.append(rrect(RX, cy, 560, 70, 12, "#fff", BORDER, 1.2, dash="5 4"))
-        s.append(text(RX + 16, cy + 26, "配置スペース未確認", size=14,
-                      fill=MUTED, weight="700"))
-        names = " ／ ".join(b["circle"] for b in tbd)
-        s.append(text(RX + 16, cy + 50,
-                      f"{names}（当選済・判明次第追記）", size=13, fill=MUTED))
+        ry += 10
+        s.append(text(RX, ry, "■ 配置スペース未確認", size=13.5, fill="#9a948c",
+                      weight="800"))
+        ry += 24
+        for b in tbd:
+            s.append(text(RX + 4, ry, f"・{b['circle']}（当選済・判明次第追記）",
+                          size=12.5, fill=MUTED))
+            ry += 22
+
+    # ---- 見方 / legend box (fills left-bottom under the floor plan) ----
+    gy = hyy + hh + 26
+    s.append(rrect(56, gy, 920, 150, 12, "#fcfbf9", BORDER, 1.2))
+    s.append(text(78, gy + 30, "見方", size=16, weight="800", fill=ACCENT))
+    rows = [
+        ("紫のセル", "超かぐや姫島の各サークル位置。数字は右の INDEX 番号に対応"),
+        ("数字 / a・b", "スペース番号 と ブロック記号 (例: a14 = a ブロック 14)"),
+        ("灰色の島", "他ジャンルのサークル島 (相対位置の目安)"),
+        ("全体図の色", "● 土曜配置   ● 日曜配置 のサークルがいるホール"),
+    ]
+    ly = gy + 56
+    for k, v in rows:
+        s.append(text(92, ly, "・", size=13, fill=MUTED))
+        s.append(text(108, ly, k, size=13, weight="700"))
+        s.append(text(238, ly, v, size=13, fill=MUTED))
+        ly += 26
 
     # ---- footer ----
-    s.append(f'<line x1="56" y1="{H-70}" x2="{W-56}" y2="{H-70}" '
+    s.append(f'<line x1="56" y1="{H-66}" x2="{W-56}" y2="{H-66}" '
              f'stroke="{BORDER}" stroke-width="1.5"/>')
-    s.append(text(56, H - 42,
-                  "schematic by 月見ヤチヨ ／ 配置は各サークルの当落報告より作図 ／ "
-                  "非公式ファンガイド",
+    s.append(text(56, H - 40,
+                  "map by 月見ヤチヨ ／ 配置は各サークルの当落報告より作図 ／ 非公式ファンガイド",
                   size=13, fill=MUTED))
-    s.append(text(56, H - 22,
-                  "コミケット会場マップは準備会の著作物のため非掲載。本図は当サイト収録 "
-                  "23 サークルの位置のみを示す簡略図です。",
-                  size=12, fill="#9a948c"))
-    s.append(text(W - 56, H - 30, "yachi8000.app", size=15, fill=ACCENT,
+    s.append(text(56, H - 20,
+                  "コミケット公式会場図は準備会の著作物のため非掲載。本図は当サイト収録 23 "
+                  "サークルの位置のみを示した略図で、縮尺・島数は正確ではありません。",
+                  size=11.5, fill="#9a948c"))
+    s.append(text(W - 56, H - 28, "yachi8000.app", size=15, fill=ACCENT,
                   weight="700", anchor="end"))
     s.append("</svg>")
     return "\n".join(s)
@@ -348,9 +461,9 @@ def main():
     if not args.no_raster:
         # map.svg is the crisp display image (event.js map_image). map.jpg
         # is only the SW-precache / legacy-<img> fallback → modest raster.
-        raster(svg_path, ROOT / EVENT / "map.jpg", 1600, 1040, scale=1)
-        # OG: top band of the schematic (header + island) fits ~1.9:1
-        raster(svg_path, ROOT / EVENT / "og.png", 1600, 1040, scale=1,
+        raster(svg_path, ROOT / EVENT / "map.jpg", 1600, 1310, scale=1)
+        # OG: header + 会場全体図 band → ~1.9:1 social card
+        raster(svg_path, ROOT / EVENT / "og.png", 1600, 1310, scale=1,
                crop={"x": 0, "y": 0, "width": 1600, "height": 840})
 
 
